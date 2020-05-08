@@ -1,0 +1,13 @@
+name: 'Get mods'
+description: 'Gets mod releases'
+inputs:
+  mod-db:
+    description: 'JSON list of mods to check'
+    required: true
+    default: '[]'
+outputs:
+  releases:
+    description: 'JSON list of latest mod releases'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
