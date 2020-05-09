@@ -22,7 +22,7 @@ async function run() {
       const manifest = await axios(`${MANIFEST_URL_BASE}/${owner}/${repo}/master/${mod.manifest}`);
 
       return {
-        releaseList: releaseList.data,
+        releaseList: releaseList.data.filter(release => !release.prerelease),
         manifest: manifest.data,
       };
     });
