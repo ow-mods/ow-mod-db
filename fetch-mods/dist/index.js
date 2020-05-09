@@ -1319,7 +1319,8 @@ async function run() {
     const gitHubToken = core.getInput('github-token');
     const octokit = new github.GitHub(gitHubToken);
 
-    const resultPromises = mods.reduce(async (accumulator, mod) => {
+    const results = [];
+    for (mod of mods) {
       const [owner, repo] = mod.repo.split('/');
 
       const releaseList = (await octokit.repos.listReleases({
@@ -1328,23 +1329,18 @@ async function run() {
       })).data.filter(release => !release.prerelease);
 
       if (releaseList.length === 0) {
-        return accumulator;
+        continue;
       }
 
       const manifest = (await axios(
         `${MANIFEST_URL_BASE}/${owner}/${repo}/master/${mod.manifest}`
       )).data;
 
-      return [
-        ...accumulator,
-        {
-          releaseList,
-          manifest,
-        }
-      ];
-    }, []);
-
-    const results = await Promise.all(resultPromises);
+      results.push({
+        releaseList,
+        manifest,
+      });
+    }
 
     const modReleases = results.map(({ releaseList, manifest }) => {
       const releases = releaseList
