@@ -9,6 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+    - name: Install dependencies
+      run: |
+        cd fetch-mods
+        npm ci
     - name: Get local Mod Database file
       id: local-mods
       run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
