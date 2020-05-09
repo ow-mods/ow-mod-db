@@ -21,6 +21,9 @@ async function run() {
 
       const manifest = await axios(`${MANIFEST_URL_BASE}/${owner}/${repo}/master/${mod.manifest}`);
 
+      console.log('size before ' + repo, releaseList.data.length);
+      console.log('size after ' + repo, releaseList.data.filter(release => !release.prerelease).length);
+
       return {
         releaseList: releaseList.data.filter(release => !release.prerelease),
         manifest: manifest.data,
@@ -38,7 +41,6 @@ async function run() {
           return {
             downloadUrl: asset.browser_download_url,
             downloadCount: asset.download_count,
-            version: release.tag_name,
           };
         });
 
