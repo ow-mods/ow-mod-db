@@ -11,24 +11,30 @@ async function run() {
     const gitHubToken = core.getInput('github-token');
     const octokit = new github.GitHub(gitHubToken);
 
-    const resultPromises = mods.map(async (mod) => {
+    const resultPromises = mods.reduce(async (accumulator, mod) => {
       const [owner, repo] = mod.repo.split('/');
 
-      const releaseList = await octokit.repos.listReleases({
+      const releaseList = (await octokit.repos.listReleases({
         owner: owner,
         repo: repo,
-      });
+      })).data.filter(release => !release.prerelease);
 
-      const manifest = await axios(`${MANIFEST_URL_BASE}/${owner}/${repo}/master/${mod.manifest}`);
+      if (releaseList.length === 0) {
+        return accumulator;
+      }
 
-      console.log('size before ' + repo, releaseList.data.length);
-      console.log('size after ' + repo, releaseList.data.filter(release => !release.prerelease).length);
+      const manifest = (await axios(
+        `${MANIFEST_URL_BASE}/${owner}/${repo}/master/${mod.manifest}`
+      )).data;
 
-      return {
-        releaseList: releaseList.data.filter(release => !release.prerelease),
-        manifest: manifest.data,
-      };
-    });
+      return [
+        ...accumulator,
+        {
+          releaseList,
+          manifest,
+        }
+      ];
+    }, []);
 
     const results = await Promise.all(resultPromises);
 
