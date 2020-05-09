@@ -16,7 +16,7 @@ jobs:
       run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
     - name: Fetch mod releases and manifests
       id: fetch-mods
-      uses: ./.github/actions/fetch-mods
+      uses: ./fetch-mods
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         mods: '${{ steps.local-mods.outputs.mods }}'
