@@ -12,10 +12,11 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12'
-    - name: Install dependencies
+    - name: Install dependencies and build TypeScript
       run: |
         cd fetch-mods
         npm ci
+        npm run build
     - name: Get local Mod Database file
       id: local-mods
       run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
@@ -25,7 +26,6 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         mods: '${{ steps.local-mods.outputs.mods }}'
-    # TODO: stop here if previous steps failed.
     - name: Remove current releases file
       run: rm releases.json
     - name: Write releases to file
