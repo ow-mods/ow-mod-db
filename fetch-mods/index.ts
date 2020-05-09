@@ -1,18 +1,27 @@
-const core = require('@actions/core');
-const github = require('@actions/github');
-const axios = require('axios');
+import core from '@actions/core';
+import github from '@actions/github';
+import axios from 'axios';
 
 const MANIFEST_URL_BASE = 'https://raw.githubusercontent.com';
 const JSON_INDENT = 2;
 
+enum Input {
+  mods = 'mods',
+  gitHubToken = 'github-token',
+}
+
+enum Output {
+  releases = 'releases',
+}
+
 async function run() {
   try {
-    const mods = JSON.parse(core.getInput('mods'));
-    const gitHubToken = core.getInput('github-token');
+    const mods: ModInfo[] = JSON.parse(core.getInput(Input.mods));
+    const gitHubToken = core.getInput(Input.gitHubToken);
     const octokit = new github.GitHub(gitHubToken);
 
     const results = [];
-    for (mod of mods) {
+    for (let mod of mods) {
       const [owner, repo] = mod.repo.split('/');
 
       const releaseList = (await octokit.repos.listReleases({
@@ -24,7 +33,7 @@ async function run() {
         continue;
       }
 
-      const manifest = (await axios(
+      const manifest: Manifest = (await axios(
         `${MANIFEST_URL_BASE}/${owner}/${repo}/master/${mod.manifest}`
       )).data;
 
@@ -34,15 +43,15 @@ async function run() {
       });
     }
 
-    const modReleases = results.map(({ releaseList, manifest }) => {
-      const releases = releaseList
+    const modReleases: Mod[] = results.map(({ releaseList, manifest }) => {
+      const releases: Release[] = releaseList
         .filter(({ assets }) => assets.length > 0)
         .map(release => {
           const asset = release.assets[0];
 
           return {
             downloadUrl: asset.browser_download_url,
-            downloadCount: asset.download_count,
+            downloadCount: asset.download_count
           };
         });
 
@@ -52,9 +61,8 @@ async function run() {
 
       const latestRelease = releases[0];
 
-      const modInfo = {
+      const modInfo: Mod = {
         downloadUrl: latestRelease.downloadUrl,
-        version: latestRelease.version,
         downloadCount: totalDownloadCount,
         manifest,
       };
@@ -64,7 +72,7 @@ async function run() {
 
     const releasesJson = JSON.stringify(modReleases, null, JSON_INDENT);
 
-    core.setOutput('releases', releasesJson);
+    core.setOutput(Output.releases, releasesJson);
 
   } catch (error) {
     core.setFailed(error.message);
