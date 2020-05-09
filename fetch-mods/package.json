@@ -5,9 +5,14 @@
   "main": "index.js",
   "author": "Raicuparta",
   "license": "ISC",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/github": "^2.2.0",
-    "axios": "^0.19.2"
+    "@types/node": "^13.13.5",
+    "axios": "^0.19.2",
+    "typescript": "^3.8.3"
   }
 }
