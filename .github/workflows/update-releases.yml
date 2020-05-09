@@ -1,0 +1,35 @@
+name: CI
+on:
+  # schedule:
+  #   - cron: '*/15 * * * *'
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Get local Mod Database file
+      id: local-mods
+      run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
+    - name: Fetch mod releases and manifests
+      id: fetch-mods
+      uses: ./.github/actions/fetch-mods
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        mods: '${{ steps.local-mods.outputs.mods }}'
+    # TODO: stop here if previous steps failed.
+    - name: Remove current releases file
+      run: rm releases.json
+    - name: Write releases to file
+      run: |
+        echo 'Releases: ${{ steps.fetch-mods.outputs.releases }}'
+        echo '${{ steps.fetch-mods.outputs.releases }}' >> releases.json
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4.1.6
+      with:
+        commit_message: Update mod releases
+        commit_user_name: OWML Mod Manager
+        commit_user_email: owml@mod.manager
