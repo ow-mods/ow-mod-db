@@ -1,5 +1,5 @@
-import core from '@actions/core';
-import github from '@actions/github';
+import * as core from '@actions/core';
+import * as github from '@actions/github';
 import axios from 'axios';
 
 const MANIFEST_URL_BASE = 'https://raw.githubusercontent.com';
