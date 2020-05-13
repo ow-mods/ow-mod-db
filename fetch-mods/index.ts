@@ -40,10 +40,11 @@ async function run() {
       results.push({
         releaseList,
         manifest,
+        repo: `https://github.com/${mod.repo}`,
       });
     }
 
-    const modReleases: Mod[] = results.map(({ releaseList, manifest }) => {
+    const modReleases: Mod[] = results.map(({ repo, releaseList, manifest }) => {
       const releases: Release[] = releaseList
         .filter(({ assets }) => assets.length > 0)
         .map(release => {
@@ -64,6 +65,7 @@ async function run() {
       const modInfo: Mod = {
         downloadUrl: latestRelease.downloadUrl,
         downloadCount: totalDownloadCount,
+        repo,
         manifest,
       };
 
