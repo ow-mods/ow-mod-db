@@ -72,9 +72,13 @@ async function run() {
       return modInfo;
     });
 
-    const releasesJson = JSON.stringify(modReleases, null, JSON_INDENT);
+    const modDatabase = {
+      releases: modReleases,
+    };
 
-    core.setOutput(Output.releases, releasesJson);
+    const databaseJson = JSON.stringify(modDatabase, null, JSON_INDENT);
+
+    core.setOutput(Output.releases, databaseJson);
 
   } catch (error) {
     core.setFailed(error.message);
