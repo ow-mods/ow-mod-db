@@ -16,5 +16,6 @@ type Release = {
 }
 
 interface Mod extends Release {
+  repo: string;
   manifest: Manifest;
 }
