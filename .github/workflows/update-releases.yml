@@ -27,14 +27,13 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         mods: '${{ steps.local-mods.outputs.mods }}'
     - name: Remove current releases file
-      run: rm releases.json
-    - name: Write releases to file
+      run: rm database.json
+    - name: Write database to file
       run: |
-        echo 'Releases: ${{ steps.fetch-mods.outputs.releases }}'
-        echo '${{ steps.fetch-mods.outputs.releases }}' >> releases.json
+        echo '${{ steps.fetch-mods.outputs.releases }}' >> database.json
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4.1.6
       with:
-        commit_message: Update mod releases
+        commit_message: Update mod database
         commit_user_name: OWML Mod Manager
         commit_user_email: owml@mod.manager
