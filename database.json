@@ -81,15 +81,18 @@
     },
     {
       "downloadUrl": "https://github.com/misternebula/ObjectSpawner/releases/download/v1.0/ObjectSpawner.zip",
-      "downloadCount": 31,
+      "downloadCount": 32,
       "repo": "https://github.com/misternebula/ObjectSpawner",
       "manifest": {
         "filename": "ObjectSpawner.dll",
         "author": "misternebula",
         "name": "ObjectSpawner",
         "uniqueName": "misternebula.ObjectSpawner",
-        "version": "1.0",
-        "owmlVersion": "0.3.39"
+        "version": "1.0.1",
+        "owmlVersion": "0.3.49",
+        "dependencies": [
+          "misternebula.MN-InputManager"
+        ]
       }
     },
     {
