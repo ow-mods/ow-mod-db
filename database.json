@@ -1,0 +1,191 @@
+{
+  "releases": [
+    {
+      "downloadUrl": "https://github.com/amazingalek/owml/releases/download/0.3.51%2B1/OWML.zip",
+      "downloadCount": 446,
+      "repo": "https://github.com/amazingalek/owml",
+      "manifest": {
+        "author": "Alek",
+        "name": "OWML",
+        "uniqueName": "Alek.OWML",
+        "version": "0.3.51",
+        "description": "The mod loader and mod framework for Outer Wilds"
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/Raicuparta/NomaiVR/releases/download/0.36/NomaiVR.zip",
+      "downloadCount": 346,
+      "repo": "https://github.com/Raicuparta/NomaiVR",
+      "manifest": {
+        "filename": "NomaiVR.dll",
+        "author": "Raicuparta",
+        "name": "NomaiVR",
+        "uniqueName": "Raicuparta.NomaiVR",
+        "version": "0.36",
+        "owmlVersion": "0.3.49"
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/Raicuparta/outer-wilds-spawn-points/releases/download/0.4/OWSpawnPoints.zip",
+      "downloadCount": 56,
+      "repo": "https://github.com/Raicuparta/outer-wilds-spawn-points",
+      "manifest": {
+        "filename": "OWSpawnPoints.dll",
+        "author": "Raicuparta",
+        "name": "OWSpawnPoints",
+        "uniqueName": "Raicuparta.OWSpawnPoints",
+        "version": "0.4",
+        "owmlVersion": "0.3.40"
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/Raicuparta/quantum-space-buddies/releases/download/0.1/QSB.zip",
+      "downloadCount": 110,
+      "repo": "https://github.com/Raicuparta/quantum-space-buddies",
+      "manifest": {
+        "filename": "QSB.dll",
+        "author": "Raicuparta",
+        "name": "QuantumSpaceBuddies",
+        "uniqueName": "Raicuparta.QuantumSpaceBuddies",
+        "version": "0.1",
+        "owmlVersion": "0.3.37"
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/Raicuparta/outer-wilds-auto-resume/releases/download/0.2/AutoResume-0.2.zip",
+      "downloadCount": 50,
+      "repo": "https://github.com/Raicuparta/outer-wilds-auto-resume",
+      "manifest": {
+        "filename": "AutoResume.dll",
+        "author": "Raicuparta",
+        "name": "AutoResume",
+        "uniqueName": "Raicuparta.AutoResume",
+        "version": "0.2",
+        "owmlVersion": "0.3.21",
+        "enabled": true
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.4/OWML.LightBramble.zip",
+      "downloadCount": 43,
+      "repo": "https://github.com/amazingalek/owml-light-bramble",
+      "manifest": {
+        "filename": "OWML.LightBramble.dll",
+        "author": "Alek",
+        "name": "LightBramble",
+        "uniqueName": "Alek.LightBramble",
+        "version": "0.4",
+        "owmlVersion": "0.3.45",
+        "description": "No fog. No anglerfish. Nice music."
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/misternebula/ObjectSpawner/releases/download/1.0.1/ObjectSpawner.zip",
+      "downloadCount": 35,
+      "repo": "https://github.com/misternebula/ObjectSpawner",
+      "manifest": {
+        "filename": "ObjectSpawner.dll",
+        "author": "misternebula",
+        "name": "ObjectSpawner",
+        "uniqueName": "misternebula.ObjectSpawner",
+        "version": "1.0.1",
+        "owmlVersion": "0.3.49",
+        "dependencies": [
+          "misternebula.MN-InputManager"
+        ]
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/misternebula/InputHandler/releases/download/v1.0.0/InputHandler.zip",
+      "downloadCount": 42,
+      "repo": "https://github.com/misternebula/InputHandler",
+      "manifest": {
+        "filename": "MN-InputHandler.dll",
+        "author": "misternebula",
+        "name": "MN-InputHandler",
+        "uniqueName": "misternebula.MN-InputHandler",
+        "version": "1.0",
+        "owmlVersion": "0.3.39"
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v1.1.0/FreeCam.zip",
+      "downloadCount": 37,
+      "repo": "https://github.com/misternebula/FreeCam",
+      "manifest": {
+        "filename": "FreeCam.dll",
+        "author": "misternebula",
+        "name": "FreeCam",
+        "uniqueName": "misternebula.FreeCam",
+        "version": "1.1.0",
+        "owmlVersion": "0.3.39"
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/misternebula/OWConsole/releases/download/v1.0.0/OWConsole.zip",
+      "downloadCount": 15,
+      "repo": "https://github.com/misternebula/OWConsole",
+      "manifest": {
+        "filename": "OWConsole.dll",
+        "author": "misternebula",
+        "name": "OWConsole",
+        "uniqueName": "misternebula.OWConsole",
+        "version": "1.0.0",
+        "owmlVersion": "0.3.46"
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/TAImatem/OW_ControllerFix/releases/download/v1.0/OW_ControllerFix.zip",
+      "downloadCount": 19,
+      "repo": "https://github.com/TAImatem/OW_ControllerFix",
+      "manifest": {
+        "filename": "OW_ControllerFix.dll",
+        "author": "TAImatem",
+        "name": "XBoxControllerFix",
+        "uniqueName": "TruAI.XBoxControllerFix",
+        "version": "1.0",
+        "owmlVersion": "0.3.44"
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/TAImatem/OW_SmoothThrust/releases/download/v1.5.1/OW_SmoothThrust.zip",
+      "downloadCount": 18,
+      "repo": "https://github.com/TAImatem/OW_SmoothThrust",
+      "manifest": {
+        "filename": "OW_SmoothThrust.dll",
+        "author": "TAImatem & Schinken",
+        "name": "SmoothThrust",
+        "uniqueName": "TruAI.SmoothThrust",
+        "version": "1.5",
+        "owmlVersion": "0.3.46"
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/TAImatem/OW_TAIcheat/releases/download/v1.0.1/OW_TAIcheat.zip",
+      "downloadCount": 15,
+      "repo": "https://github.com/TAImatem/OW_TAIcheat",
+      "manifest": {
+        "filename": "OW_TAICheat.dll",
+        "author": "TAImatem",
+        "name": "TAICheat",
+        "uniqueName": "TruAI.TAICheat",
+        "version": "0.6.2",
+        "owmlVersion": "0.3.44",
+        "enabled": true
+      }
+    },
+    {
+      "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/v1.0/StopTime.zip",
+      "downloadCount": 8,
+      "repo": "https://github.com/misternebula/StopTime",
+      "manifest": {
+        "filename": "StopTime.dll",
+        "author": "misternebula",
+        "name": "StopTime",
+        "uniqueName": "misternebula.StopTime",
+        "version": "1.0",
+        "owmlVersion": "0.3.44"
+      }
+    }
+  ]
+}
