@@ -1,7 +1,7 @@
 name: 'Get mods'
 description: 'Gets mod releases'
 inputs:
-  mod-db:
+  mods:
     description: 'JSON list of mods to check'
     required: true
     default: '[]'
