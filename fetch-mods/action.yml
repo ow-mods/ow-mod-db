@@ -5,6 +5,9 @@ inputs:
     description: 'JSON list of mods to check'
     required: true
     default: '[]'
+  github-token:
+    description: 'Token for GitHub authentication'
+    required: true
 outputs:
   releases:
     description: 'JSON list of latest mod releases'
