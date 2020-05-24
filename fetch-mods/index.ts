@@ -7,7 +7,7 @@ const REPO_URL_BASE = 'https://github.com';
 const JSON_INDENT = 2;
 
 const managerRepo = {
-  owner: 'Raicuparta/',
+  owner: 'Raicuparta',
   repo:'ow-mod-manager',
 };
 
