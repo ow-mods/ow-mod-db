@@ -2,8 +2,14 @@ import * as core from '@actions/core';
 import * as github from '@actions/github';
 import axios from 'axios';
 
-const MANIFEST_URL_BASE = 'https://raw.githubusercontent.com';
+const RAW_URL_BASE = 'https://raw.githubusercontent.com';
+const REPO_URL_BASE = 'https://github.com';
 const JSON_INDENT = 2;
+
+const managerRepo = {
+  owner: 'Raicuparta/',
+  repo:'ow-mod-manager',
+};
 
 enum Input {
   mods = 'mods',
@@ -20,6 +26,8 @@ async function run() {
     const gitHubToken = core.getInput(Input.gitHubToken);
     const octokit = new github.GitHub(gitHubToken);
 
+    const managerRelease = (await octokit.repos.getLatestRelease(managerRepo)).data;
+
     const results = [];
     for (let mod of mods) {
       const [owner, repo] = mod.repo.split('/');
@@ -34,13 +42,13 @@ async function run() {
       }
 
       const manifest: Manifest = (await axios(
-        `${MANIFEST_URL_BASE}/${owner}/${repo}/master/${mod.manifest}`
+        `${RAW_URL_BASE}/${owner}/${repo}/master/${mod.manifest}`
       )).data;
 
       results.push({
         releaseList,
         manifest,
-        repo: `https://github.com/${mod.repo}`,
+        repo: `${REPO_URL_BASE}/${mod.repo}`,
       });
     }
 
@@ -73,6 +81,10 @@ async function run() {
     });
 
     const modDatabase = {
+      modManager: {
+        version: managerRelease.tag_name,
+        downloadUrl: managerRelease.assets[0].browser_download_url,
+      },
       releases: modReleases,
     };
 
