@@ -49,10 +49,11 @@ async function run() {
         releaseList,
         manifest,
         repo: `${REPO_URL_BASE}/${mod.repo}`,
+        required: mod.required,
       });
     }
 
-    const modReleases: Mod[] = results.map(({ repo, releaseList, manifest }) => {
+    const modReleases: Mod[] = results.map(({ repo, releaseList, manifest, required }) => {
       const releases: Release[] = releaseList
         .filter(({ assets }) => assets.length > 0)
         .map(release => {
@@ -75,6 +76,7 @@ async function run() {
         downloadCount: totalDownloadCount,
         repo,
         manifest,
+        required,
       };
 
       return modInfo;
