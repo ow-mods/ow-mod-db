@@ -1,6 +1,7 @@
 type ModInfo = {
   repo: string;
   manifest: string;
+  required?: boolean;
 }
 
 type Manifest = {
@@ -18,4 +19,5 @@ type Release = {
 interface Mod extends Release {
   repo: string;
   manifest: Manifest;
+  required?: boolean;
 }
