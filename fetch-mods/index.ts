@@ -1,5 +1,5 @@
 import * as core from '@actions/core';
-import * as github from '@actions/github';
+import { GitHub } from '@actions/github';
 import axios from 'axios';
 
 const RAW_URL_BASE = 'https://raw.githubusercontent.com';
@@ -24,7 +24,7 @@ async function run() {
   try {
     const mods: ModInfo[] = JSON.parse(core.getInput(Input.mods));
     const gitHubToken = core.getInput(Input.gitHubToken);
-    const octokit = new github.GitHub(gitHubToken);
+    const octokit = new GitHub(gitHubToken);
 
     const managerRelease = (await octokit.repos.getLatestRelease(managerRepo)).data;
 
@@ -32,11 +32,10 @@ async function run() {
     for (let mod of mods) {
       const [owner, repo] = mod.repo.split('/');
 
-      const releaseList = (await octokit.repos.listReleases({
-        owner: owner,
-        repo: repo,
-        per_page: 100,
-      })).data.filter(release => !release.prerelease);
+      const releaseList = (await octokit.paginate("GET /repos/:owner/:repo/issues?per_page=100", {
+        owner,
+        repo,
+      })).filter(release => !release.prerelease);
 
       if (releaseList.length === 0) {
         continue;
