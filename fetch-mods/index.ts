@@ -32,7 +32,7 @@ async function run() {
     for (let mod of mods) {
       const [owner, repo] = mod.repo.split('/');
 
-      const releaseList = (await octokit.paginate("GET /repos/:owner/:repo/issues?per_page=100", {
+      const releaseList = (await octokit.paginate("GET /repos/:owner/:repo/releases?per_page=100", {
         owner,
         repo,
       })).filter(release => !release.prerelease);
