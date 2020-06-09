@@ -35,6 +35,7 @@ async function run() {
       const releaseList = (await octokit.repos.listReleases({
         owner: owner,
         repo: repo,
+        per_page: 100,
       })).data.filter(release => !release.prerelease);
 
       if (releaseList.length === 0) {
