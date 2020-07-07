@@ -13,7 +13,7 @@ jobs:
       with:
         node-version: '12'
     - name: config-git
-      run:
+      run: |
         git config user.name "Outer Wilds Mod Database"
         git config user.email "database@outerwildsmods.com"
     - name: Install dependencies and build TypeScript
