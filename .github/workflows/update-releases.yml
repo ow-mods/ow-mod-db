@@ -24,7 +24,7 @@ jobs:
       id: fetch-mods
       uses: ./fetch-mods
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.GH_TOKEN  }}
         mods: '${{ steps.local-mods.outputs.mods }}'
     - name: Remove current releases file
       run: rm database.json
