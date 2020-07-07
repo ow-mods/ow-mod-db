@@ -12,6 +12,10 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12'
+    - name: config-git
+      run:
+        git config user.name "Outer Wilds Mod Database"
+        git config user.email "database@outerwildsmods.com"
     - name: Install dependencies and build TypeScript
       run: |
         cd fetch-mods
@@ -35,5 +39,5 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4.1.6
       with:
         commit_message: Update mod database
-        commit_user_name: OWML Mod Manager
-        commit_user_email: owml@mod.manager
+        commit_user_name: Outer Wilds Mod Database
+        commit_user_email: database@outerwildsmods.com
