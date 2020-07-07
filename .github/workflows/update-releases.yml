@@ -14,10 +14,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12'
-    - name: config-git
-      run: |
-        git config user.name "Outer Wilds Mod Database"
-        git config user.email "database@outerwildsmods.com"
     - name: Install dependencies and build TypeScript
       run: |
         cd fetch-mods
@@ -30,7 +26,7 @@ jobs:
       id: fetch-mods
       uses: ./fetch-mods
       with:
-        github-token: ${{ secrets.GH_TOKEN  }}
+        github-token: ${{ secrets.GITHUB_TOKEN  }}
         mods: '${{ steps.local-mods.outputs.mods }}'
     - name: Remove current releases file
       run: rm database.json
@@ -43,3 +39,4 @@ jobs:
         commit_message: Update mod database
         commit_user_name: Outer Wilds Mod Database
         commit_user_email: database@outerwildsmods.com
+        commit_author: Outer Wilds Mod Database <database@outerwildsmods.com>
