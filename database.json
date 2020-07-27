@@ -6,7 +6,7 @@
   "releases": [
     {
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/0.6.1%2B2/OWML.zip",
-      "downloadCount": 2157,
+      "downloadCount": 2158,
       "repo": "https://github.com/amazingalek/owml",
       "manifest": {
         "author": "Alek",
@@ -18,16 +18,17 @@
       "required": true
     },
     {
-      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/0.47/Raicuparta.NomaiVR.zip",
-      "downloadCount": 1653,
+      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/0.48/Raicuparta.NomaiVR.zip",
+      "downloadCount": 1654,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "manifest": {
         "filename": "NomaiVR.dll",
         "author": "Raicuparta",
         "name": "NomaiVR",
         "uniqueName": "Raicuparta.NomaiVR",
-        "version": "0.47",
-        "owmlVersion": "0.4.1"
+        "version": "0.48",
+        "owmlVersion": "0.6.1",
+        "requireVR": true
       }
     },
     {
@@ -144,7 +145,7 @@
     },
     {
       "downloadUrl": "https://github.com/TAImatem/OW_SmoothThrust/releases/download/v1.5.1/OW_SmoothThrust.zip",
-      "downloadCount": 164,
+      "downloadCount": 165,
       "repo": "https://github.com/TAImatem/OW_SmoothThrust",
       "manifest": {
         "filename": "OW_SmoothThrust.dll",
