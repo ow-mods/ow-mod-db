@@ -6,7 +6,7 @@
   "releases": [
     {
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/0.6.1%2B2/OWML.zip",
-      "downloadCount": 2304,
+      "downloadCount": 2417,
       "repo": "https://github.com/amazingalek/owml",
       "manifest": {
         "author": "Alek",
@@ -18,27 +18,29 @@
       "required": true
     },
     {
-      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/0.48/Raicuparta.NomaiVR.zip",
-      "downloadCount": 1792,
+      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/0.53.0/Raicuparta.NomaiVR.zip",
+      "downloadCount": 1938,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "manifest": {
         "filename": "NomaiVR.dll",
         "author": "Raicuparta",
         "name": "NomaiVR",
         "uniqueName": "Raicuparta.NomaiVR",
-        "version": "0.48",
+        "description": "Enables VR mode, with full motion control support.",
+        "version": "0.53.0",
         "owmlVersion": "0.6.1",
         "requireVR": true
       }
     },
     {
       "downloadUrl": "https://github.com/Raicuparta/ow-spawn-points/releases/download/0.4/OWSpawnPoints.zip",
-      "downloadCount": 296,
+      "downloadCount": 304,
       "repo": "https://github.com/Raicuparta/outer-wilds-spawn-points",
       "manifest": {
         "filename": "OWSpawnPoints.dll",
         "author": "Raicuparta",
         "name": "Spawn Points Teleport",
+        "description": "Adds a menu that lets you teleport around the solar system.",
         "uniqueName": "Raicuparta.OWSpawnPoints",
         "version": "0.4",
         "owmlVersion": "0.3.40"
@@ -46,7 +48,7 @@
     },
     {
       "downloadUrl": "https://github.com/Raicuparta/quantum-space-buddies/releases/download/0.2/Raicuparta.QSB.zip",
-      "downloadCount": 422,
+      "downloadCount": 432,
       "repo": "https://github.com/Raicuparta/quantum-space-buddies",
       "manifest": {
         "filename": "QSB.dll",
@@ -59,12 +61,13 @@
     },
     {
       "downloadUrl": "https://github.com/Raicuparta/outer-wilds-auto-resume/releases/download/0.3/Raicuparta.AutoResume.zip",
-      "downloadCount": 299,
+      "downloadCount": 308,
       "repo": "https://github.com/Raicuparta/outer-wilds-auto-resume",
       "manifest": {
         "filename": "AutoResume.dll",
         "author": "Raicuparta",
         "name": "Auto Resume",
+        "description": "Automatically skips splash screen, starts game, and wakes up player.",
         "uniqueName": "Raicuparta.AutoResume",
         "version": "0.3",
         "owmlVersion": "0.3.55",
@@ -73,7 +76,7 @@
     },
     {
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.6/OWML.LightBramble.zip",
-      "downloadCount": 374,
+      "downloadCount": 389,
       "repo": "https://github.com/amazingalek/owml-light-bramble",
       "manifest": {
         "filename": "OWML.LightBramble.dll",
@@ -87,7 +90,7 @@
     },
     {
       "downloadUrl": "https://github.com/misternebula/ObjectSpawner/releases/download/1.0.1/ObjectSpawner.zip",
-      "downloadCount": 157,
+      "downloadCount": 162,
       "repo": "https://github.com/misternebula/ObjectSpawner",
       "manifest": {
         "filename": "ObjectSpawner.dll",
@@ -103,7 +106,7 @@
     },
     {
       "downloadUrl": "https://github.com/misternebula/InputHandler/releases/download/v1.0.0/InputHandler.zip",
-      "downloadCount": 140,
+      "downloadCount": 144,
       "repo": "https://github.com/misternebula/InputHandler",
       "manifest": {
         "filename": "MN-InputHandler.dll",
@@ -116,7 +119,7 @@
     },
     {
       "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v1.2.0/FreeCam.zip",
-      "downloadCount": 217,
+      "downloadCount": 223,
       "repo": "https://github.com/misternebula/FreeCam",
       "manifest": {
         "filename": "FreeCam.dll",
@@ -132,7 +135,7 @@
     },
     {
       "downloadUrl": "https://github.com/TAImatem/OW_ControllerFix/releases/download/v1.0/OW_ControllerFix.zip",
-      "downloadCount": 122,
+      "downloadCount": 127,
       "repo": "https://github.com/TAImatem/OW_ControllerFix",
       "manifest": {
         "filename": "OW_ControllerFix.dll",
@@ -145,7 +148,7 @@
     },
     {
       "downloadUrl": "https://github.com/TAImatem/OW_SmoothThrust/releases/download/v1.5.1/OW_SmoothThrust.zip",
-      "downloadCount": 181,
+      "downloadCount": 193,
       "repo": "https://github.com/TAImatem/OW_SmoothThrust",
       "manifest": {
         "filename": "OW_SmoothThrust.dll",
@@ -158,7 +161,7 @@
     },
     {
       "downloadUrl": "https://github.com/TAImatem/OW_TAIcheat/releases/download/0.9.1/OW_TAIcheat.zip",
-      "downloadCount": 369,
+      "downloadCount": 383,
       "repo": "https://github.com/TAImatem/OW_TAIcheat",
       "manifest": {
         "filename": "OW_TAICheat.dll",
@@ -172,7 +175,7 @@
     },
     {
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/v1.0/StopTime.zip",
-      "downloadCount": 186,
+      "downloadCount": 196,
       "repo": "https://github.com/misternebula/StopTime",
       "manifest": {
         "filename": "StopTime.dll",
@@ -185,7 +188,7 @@
     },
     {
       "downloadUrl": "https://github.com/misternebula/Marshmallow/releases/download/v1.0.0/Marshmallow.zip",
-      "downloadCount": 107,
+      "downloadCount": 113,
       "repo": "https://github.com/misternebula/Marshmallow",
       "manifest": {
         "filename": "Marshmallow.dll",
@@ -198,7 +201,7 @@
     },
     {
       "downloadUrl": "https://github.com/amazingalek/owml-crouch-mod/releases/download/0.3/OWML.CrouchMod.zip",
-      "downloadCount": 19,
+      "downloadCount": 25,
       "repo": "https://github.com/amazingalek/owml-crouch-mod",
       "manifest": {
         "filename": "OWML.CrouchMod.dll",
