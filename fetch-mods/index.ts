@@ -83,10 +83,15 @@ async function run() {
       return modInfo;
     });
 
+    const assets = managerRelease.assets;
+    const zipAsset = assets.find(asset => asset.content_type.includes('zip'));
+    const exeAsset = assets.find(asset => asset.content_type.includes('msdownload'));
+
     const modDatabase = {
       modManager: {
         version: managerRelease.tag_name,
-        downloadUrl: managerRelease.assets[0].browser_download_url,
+        downloadUrl: zipAsset?.browser_download_url,
+        installerDownloadUrl: exeAsset?.browser_download_url,
       },
       releases: modReleases,
     };
