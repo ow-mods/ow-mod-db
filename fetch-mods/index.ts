@@ -84,13 +84,16 @@ async function run() {
     });
 
     const assets = managerRelease.assets;
-    const zipAsset = assets.find(asset => asset.content_type.includes('zip'));
+    const zipAssets = assets.filter(asset => asset.content_type.includes('zip'));
+    const legacyZipAsset = zipAssets.find(asset => asset.name.includes('LEGACY'));
+    const mainZipAsset = zipAssets.find(asset => !asset.name.includes('LEGACY'));
     const exeAsset = assets.find(asset => asset.content_type.includes('msdownload'));
 
     const modDatabase = {
       modManager: {
         version: managerRelease.tag_name,
-        downloadUrl: zipAsset?.browser_download_url,
+        downloadUrl: (legacyZipAsset ?? mainZipAsset)?.browser_download_url,
+        zipDownloadUrl: (mainZipAsset ?? legacyZipAsset)?.browser_download_url,
         installerDownloadUrl: exeAsset?.browser_download_url,
       },
       releases: modReleases,
