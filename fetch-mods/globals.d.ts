@@ -14,6 +14,7 @@ type Manifest = {
 type Release = {
   downloadUrl: string;
   downloadCount: number;
+  version: string;
 }
 
 interface Mod extends Release {

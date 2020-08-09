@@ -1,6 +1,7 @@
 import * as core from '@actions/core';
 import { getOctokit } from '@actions/github';
 import axios from 'axios';
+import { release } from 'os';
 
 const RAW_URL_BASE = 'https://raw.githubusercontent.com';
 const REPO_URL_BASE = 'https://github.com';
@@ -62,7 +63,8 @@ async function run() {
 
           return {
             downloadUrl: asset.browser_download_url,
-            downloadCount: asset.download_count
+            downloadCount: asset.download_count,
+            version: release.tag_name,
           };
         });
 
@@ -78,6 +80,7 @@ async function run() {
         repo,
         manifest,
         required,
+        version: latestRelease.version,
       };
 
       return modInfo;
