@@ -1,6 +1,6 @@
 # Outer Wilds Mod Database
 
-Uses the mod list in `mods.json`, and for each mod it will fetch the required data. That data is then added to `database.json`. This process is repeated every 15 minutes.
+Uses the mod list in `mods.json`, and for each mod it will fetch the required data. That data is then added to `database.json`. This process is repeated every 5 minutes.
 
 ## Adding your mod to the list
 
