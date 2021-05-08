@@ -32,11 +32,13 @@ async function run() {
     for (let mod of mods) {
       const [owner, repo] = mod.repo.split('/');
 
-      const releaseList = (await octokit.paginate(octokit.repos.listReleases, {
+      const fullReleaseList = (await octokit.paginate(octokit.repos.listReleases, {
         owner,
         repo,
         per_page: 100,
-      })).filter(release => !release.prerelease);;
+      }));
+      const prereleaseList = fullReleaseList.filter(release => release.prerelease);
+      const releaseList = fullReleaseList.filter(release => !release.prerelease);
 
       if (releaseList.length === 0) {
         continue;
@@ -48,30 +50,43 @@ async function run() {
 
       results.push({
         releaseList,
+        prereleaseList,
         manifest,
         repo: `${REPO_URL_BASE}/${mod.repo}`,
         required: mod.required,
       });
     }
 
-    const modReleases: Mod[] = results.map(({ repo, releaseList, manifest, required }) => {
-      const releases: Release[] = releaseList
+    function getCleanedUpReleases(releaseList: typeof managerRelease[]): Release[] {
+      return releaseList
         .filter(({ assets }) => assets.length > 0)
         .map(release => {
           const asset = release.assets[0];
-
+    
           return {
             downloadUrl: asset.browser_download_url,
             downloadCount: asset.download_count,
             version: release.tag_name,
           };
         });
+    }
+
+    const modReleases: Mod[] = results.map(({
+      repo,
+      releaseList,
+      manifest,
+      required,
+      prereleaseList,
+    }) => {
+      const releases = getCleanedUpReleases(releaseList);
+      const prereleases = getCleanedUpReleases(prereleaseList);
 
       const totalDownloadCount = releases.reduce((accumulator, release) => {
         return accumulator + release.downloadCount;
       }, 0);
 
       const latestRelease = releases[0];
+      const latestPrerelease = prereleases[0];
 
       const modInfo: Mod = {
         downloadUrl: latestRelease.downloadUrl,
@@ -80,6 +95,10 @@ async function run() {
         manifest,
         required,
         version: latestRelease.version,
+        prerelease: (latestPrerelease ? {
+          version: latestPrerelease.version,
+          downloadUrl: latestPrerelease.downloadUrl,
+        } : undefined),
       };
 
       return modInfo;

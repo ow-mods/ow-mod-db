@@ -21,4 +21,8 @@ interface Mod extends Release {
   repo: string;
   manifest: Manifest;
   required?: boolean;
+  prerelease?: {
+    version: string;
+    downloadUrl: string;
+  }
 }
