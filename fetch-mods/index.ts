@@ -26,7 +26,20 @@ async function run() {
     const gitHubToken = core.getInput(Input.gitHubToken);
     const octokit = getOctokit(gitHubToken);
 
-    const managerRelease = (await octokit.repos.getLatestRelease(managerRepo)).data;
+    const managerReleases = (await octokit.paginate(octokit.repos.listReleases, {
+      ...managerRepo,
+      per_page: 100,
+    }));
+    const managerLatestRelease = managerReleases[0];
+    const managerDownloadCount = managerReleases.reduce((managerDownloadAccumulator, { assets }) => {
+      const assetsDownloadCount = assets
+        .filter(({ name }) => name.endsWith('zip') || name.endsWith('exe'))
+        .reduce((assetsDownloadAccumulator, { download_count }) => {
+          return assetsDownloadAccumulator + download_count
+        }, 0);
+
+      return managerDownloadAccumulator + assetsDownloadCount;
+    }, 0);
 
     const results = [];
     for (let mod of mods) {
@@ -57,7 +70,7 @@ async function run() {
       });
     }
 
-    function getCleanedUpReleases(releaseList: typeof managerRelease[]): Release[] {
+    function getCleanedUpReleases(releaseList: typeof managerLatestRelease[]): Release[] {
       return releaseList
         .filter(({ assets }) => assets.length > 0)
         .map(release => {
@@ -104,7 +117,7 @@ async function run() {
       return modInfo;
     });
 
-    const assets = managerRelease.assets;
+    const assets = managerLatestRelease.assets;
     const zipAssets = assets.filter(asset => asset.name.endsWith('.zip'));
     const legacyZipAsset = zipAssets.find(asset => asset.name.includes('LEGACY'));
     const mainZipAsset = zipAssets.find(asset => !asset.name.includes('LEGACY'));
@@ -112,10 +125,11 @@ async function run() {
 
     const modDatabase = {
       modManager: {
-        version: managerRelease.tag_name,
+        version: managerLatestRelease.tag_name,
         downloadUrl: (legacyZipAsset ?? mainZipAsset)?.browser_download_url,
         zipDownloadUrl: (mainZipAsset ?? legacyZipAsset)?.browser_download_url,
         installerDownloadUrl: exeAsset?.browser_download_url,
+        downloadCount: managerDownloadCount,
       },
       releases: modReleases,
     };
