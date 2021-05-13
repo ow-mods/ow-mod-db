@@ -57,9 +57,13 @@ async function run() {
         continue;
       }
 
-      const manifest: Manifest = (await axios(
-        `${RAW_URL_BASE}/${owner}/${repo}/master/${mod.manifest}`
-      )).data;
+      const manifestUrl = (await octokit.repos.getContent({
+        owner,
+        repo,
+        path: mod.manifest,
+      })).data.download_url
+
+      const manifest: Manifest = (await axios(manifestUrl)).data;
 
       results.push({
         releaseList,
