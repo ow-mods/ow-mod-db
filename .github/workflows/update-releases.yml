@@ -26,11 +26,11 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN  }}
         mods: '${{ steps.local-mods.outputs.mods }}'
-    - name: Remove current releases file
-      run: rm database.json
     - uses: actions/checkout@v2
       with:
         ref: 'master'
+    - name: Remove current releases file
+      run: rm database.json
     - name: Write database to file
       run: |
         echo '${{ steps.fetch-mods.outputs.releases }}' >> database.json
