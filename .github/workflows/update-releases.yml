@@ -1,7 +1,7 @@
 name: Update Releases
 on:
   push:
-    branches: [ master ]
+    branches: [ source ]
   schedule:
     - cron: '*/5 * * * *'
 jobs:
@@ -28,12 +28,16 @@ jobs:
         mods: '${{ steps.local-mods.outputs.mods }}'
     - name: Remove current releases file
       run: rm database.json
+    - uses: actions/checkout@v2
+      with:
+        ref: 'master'
     - name: Write database to file
       run: |
         echo '${{ steps.fetch-mods.outputs.releases }}' >> database.json
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4.1.6
       with:
+        branch: 'master'
         commit_message: Update mod database
         commit_user_name: Outer Wilds Mod Database
         commit_user_email: database@outerwildsmods.com
