@@ -4,12 +4,12 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.2.2/OWMM-UPDATER-LEGACY.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.2.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.2.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 15058
+    "downloadCount": 15060
   },
   "releases": [
     {
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/1.1.8/OWML.zip",
-      "downloadCount": 12735,
+      "downloadCount": 12736,
       "repo": "https://github.com/amazingalek/owml",
       "manifest": {
         "author": "Alek",
@@ -24,8 +24,8 @@
       "version": "1.1.8"
     },
     {
-      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/1.2.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 11187,
+      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/1.2.1/Raicuparta.NomaiVR.zip",
+      "downloadCount": 11192,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "manifest": {
         "filename": "NomaiVR.dll",
@@ -37,11 +37,11 @@
           "title": "Follow these steps before starting the game in VR:",
           "body": "- Disable all other mods (can heavily affect performance);\n\n- Close SteamVR (let the game open SteamVR automatically);\n\n- Make sure your headset and both of your VR controllers are connected and working;\n\n- If you have the game on Steam:\n--- Right-click Outer Wilds on your Steam library\n--- Select Properties...\n--- Disable Use Desktop Game Theatre."
         },
-        "version": "1.2.0",
+        "version": "1.2.1",
         "owmlVersion": "1.0.1",
         "requireVR": true
       },
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
     {
       "downloadUrl": "https://github.com/Raicuparta/ow-spawn-points/releases/download/0.5.0/Raicuparta.OWSpawnPoints.zip",
@@ -83,7 +83,7 @@
     },
     {
       "downloadUrl": "https://github.com/Raicuparta/ow-auto-resume/releases/download/0.3/Raicuparta.AutoResume.zip",
-      "downloadCount": 1014,
+      "downloadCount": 1015,
       "repo": "https://github.com/Raicuparta/ow-auto-resume",
       "manifest": {
         "filename": "AutoResume.dll",
@@ -176,7 +176,7 @@
     },
     {
       "downloadUrl": "https://github.com/TAImatem/OW_TAIcheat/releases/download/0.9.1/OW_TAIcheat.zip",
-      "downloadCount": 1714,
+      "downloadCount": 1715,
       "repo": "https://github.com/TAImatem/OW_TAIcheat",
       "manifest": {
         "filename": "OW_TAICheat.dll",
@@ -238,7 +238,7 @@
     },
     {
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.4.0/Release.zip",
-      "downloadCount": 1129,
+      "downloadCount": 1130,
       "repo": "https://github.com/clubby789/OWClock",
       "manifest": {
         "filename": "Clock.dll",
