@@ -33,7 +33,10 @@ async function run() {
     const managerLatestRelease = managerReleases[0];
     const managerDownloadCount = managerReleases.reduce((managerDownloadAccumulator, { assets }) => {
       const assetsDownloadCount = assets
-        .filter(({ name }) => name.endsWith('zip') || name.endsWith('exe'))
+        .filter(({ name }) => 
+          (name.endsWith('zip') && !name.includes('LEGACY'))
+          || name.endsWith('exe')
+        )
         .reduce((assetsDownloadAccumulator, { download_count }) => {
           return assetsDownloadAccumulator + download_count
         }, 0);
