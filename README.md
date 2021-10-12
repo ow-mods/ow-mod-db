@@ -41,3 +41,4 @@ To add this mod to the database, your change to `mods.json` should look like thi
 +    "manifest": "MyMod/manifest.json"
 +  }
 ```
+ 
