@@ -1,44 +1,45 @@
 name: Update Releases
 on:
   push:
-    branches: [ source ]
+    branches: [source]
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '12'
-    - name: Install dependencies and build TypeScript
-      run: |
-        cd fetch-mods
-        npm ci
-        npm run build
-    - name: Get local Mod Database file
-      id: local-mods
-      run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
-    - name: Fetch mod releases and manifests
-      id: fetch-mods
-      uses: ./fetch-mods
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN  }}
-        mods: '${{ steps.local-mods.outputs.mods }}'
-    - uses: actions/checkout@v2
-      with:
-        ref: 'master'
-    - name: Remove current releases file
-      run: rm database.json
-    - name: Write database to file
-      run: |
-        echo '${{ steps.fetch-mods.outputs.releases }}' >> database.json
-    - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v4.1.6
-      with:
-        branch: 'master'
-        commit_message: Update mod database
-        commit_user_name: Outer Wilds Mod Database
-        commit_user_email: database@outerwildsmods.com
-        commit_author: Outer Wilds Mod Database <database@outerwildsmods.com>
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+      - name: Install dependencies and build TypeScript
+        run: |
+          cd fetch-mods
+          npm ci
+          npm run build
+      - name: Get local Mod Database file
+        id: local-mods
+        run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
+      - name: Fetch mod releases and manifests
+        id: fetch-mods
+        uses: ./fetch-mods
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN  }}
+          mods: "${{ steps.local-mods.outputs.mods }}"
+      - uses: actions/checkout@v2
+        with:
+          ref: "master"
+      - name: Remove current releases file
+        run: rm database.json
+      - name: Write database to file
+        run: |
+          echo '${{ steps.fetch-mods.outputs.releases }}' >> database.json
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4.1.6
+        with:
+          branch: "master"
+          commit_message: Update mod database
+          commit_user_name: Outer Wilds Mod Database
+          commit_user_email: database@outerwildsmods.com
+          commit_author: Outer Wilds Mod Database <database@outerwildsmods.com>
