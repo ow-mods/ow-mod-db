@@ -135,8 +135,8 @@ async function run() {
           };
 
           return modInfo;
-        } catch (error: any) {
-          core.error(error);
+        } catch (error) {
+          core.error(error as any);
           return null;
         }
       }
@@ -166,9 +166,9 @@ async function run() {
     const databaseJson = JSON.stringify(modDatabase, null, JSON_INDENT);
 
     core.setOutput(Output.releases, databaseJson);
-  } catch (error: any) {
-    core.setFailed(error.message);
-    console.log("error", error);
+  } catch (error) {
+    core.setFailed(error as any);
+    console.log("error", error as any);
   }
 }
 
