@@ -31,7 +31,7 @@ jobs:
         with:
           ref: "master"
       - name: Write database to file
-        uses: DamianReeves/write-file-action
+        uses: DamianReeves/write-file-action@v1.0
         with:
           path: database.json
           contents: "${{ steps.fetch-mods.outputs.releases }}"
