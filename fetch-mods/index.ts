@@ -105,46 +105,58 @@ async function run() {
         });
     }
 
-    const modReleases: (Mod | null)[] = results.map(
-      ({ modInfo, releaseList, manifest, prereleaseList }) => {
-        try {
-          const releases = getCleanedUpReleases(releaseList);
-          const prereleases = getCleanedUpReleases(prereleaseList);
-          const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
+    const modReleases: (Mod | null)[] = await Promise.all(
+      results.map(
+        async ({ modInfo, releaseList, manifest, prereleaseList }) => {
+          try {
+            const releases = getCleanedUpReleases(releaseList);
+            const prereleases = getCleanedUpReleases(prereleaseList);
+            const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
 
-          const totalDownloadCount = [...releases, ...prereleases].reduce(
-            (accumulator, release) => {
-              return accumulator + release.downloadCount;
-            },
-            0
-          );
+            const totalDownloadCount = [...releases, ...prereleases].reduce(
+              (accumulator, release) => {
+                return accumulator + release.downloadCount;
+              },
+              0
+            );
 
-          const latestRelease = releases[0];
-          const latestPrerelease = prereleases[0];
+            const splitRepo = modInfo.repo.split("/");
+            const githubRepository = (
+              await octokit.repos.get({
+                owner: splitRepo[0],
+                repo: splitRepo[1],
+              })
+            ).data;
 
-          const mod: Mod = {
-            name: modInfo.name,
-            uniqueName: modInfo.uniqueName,
-            required: modInfo.required,
-            downloadUrl: latestRelease.downloadUrl,
-            downloadCount: totalDownloadCount,
-            repo,
-            manifest,
-            version: latestRelease.version,
-            prerelease: latestPrerelease
-              ? {
-                  version: latestPrerelease.version,
-                  downloadUrl: latestPrerelease.downloadUrl,
-                }
-              : undefined,
-          };
+            const latestRelease = releases[0];
+            const latestPrerelease = prereleases[0];
 
-          return mod;
-        } catch (error) {
-          core.error(error as any);
-          return null;
+            const mod: Mod = {
+              name: modInfo.name,
+              uniqueName: modInfo.uniqueName,
+              description: githubRepository.description,
+              author: githubRepository.owner.login,
+              required: modInfo.required,
+              downloadUrl: latestRelease.downloadUrl,
+              downloadCount: totalDownloadCount,
+              repo,
+              manifest,
+              version: latestRelease.version,
+              prerelease: latestPrerelease
+                ? {
+                    version: latestPrerelease.version,
+                    downloadUrl: latestPrerelease.downloadUrl,
+                  }
+                : undefined,
+            };
+
+            return mod;
+          } catch (error) {
+            core.error(error as any);
+            return null;
+          }
         }
-      }
+      )
     );
 
     const assets = managerLatestRelease.assets;

@@ -22,6 +22,8 @@ type Release = {
 interface Mod extends Release {
   name: string;
   uniqueName: string;
+  description: string;
+  author: string;
   repo: string;
   manifest: Manifest;
   required?: boolean;
