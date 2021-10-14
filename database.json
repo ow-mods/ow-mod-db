@@ -10,9 +10,11 @@
     {
       "name": "OWML",
       "uniqueName": "Alek.OWML",
+      "description": "The mod loader and mod framework for Outer Wilds",
+      "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.0.0/OWML.zip",
-      "downloadCount": 20300,
+      "downloadCount": 20301,
       "repo": "https://github.com/amazingalek/owml",
       "manifest": {
         "author": "Alek",
@@ -32,6 +34,8 @@
     {
       "name": "NomaiVR",
       "uniqueName": "Raicuparta.NomaiVR",
+      "description": "Outer Wilds VR Mod",
+      "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/1.2.3/Raicuparta.NomaiVR.zip",
       "downloadCount": 17929,
       "repo": "https://github.com/Raicuparta/NomaiVR",
@@ -54,6 +58,8 @@
     {
       "name": "Quantum Space Buddies",
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
+      "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
+      "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.11.0/QSB.zip",
       "downloadCount": 4343,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -79,8 +85,10 @@
     {
       "name": "Light Bramble",
       "uniqueName": "Alek.LightBramble",
+      "description": "Dark Bramble without fish or fog.",
+      "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 3651,
+      "downloadCount": 3652,
       "repo": "https://github.com/amazingalek/owml-light-bramble",
       "manifest": {
         "filename": "OWML.LightBramble.dll",
@@ -96,6 +104,8 @@
     {
       "name": "Object Spawner",
       "uniqueName": "misternebula.ObjectSpawner",
+      "description": null,
+      "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/ObjectSpawner/releases/download/1.0.1/ObjectSpawner.zip",
       "downloadCount": 1033,
       "repo": "https://github.com/misternebula/ObjectSpawner",
@@ -115,6 +125,8 @@
     {
       "name": "MN-InputHandler",
       "uniqueName": "misternebula.MN-InputHandler",
+      "description": "An input handler for Outer Wilds mods.",
+      "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/InputHandler/releases/download/v2.0.0/MN-InputHandler.zip",
       "downloadCount": 1662,
       "repo": "https://github.com/misternebula/InputHandler",
@@ -131,8 +143,10 @@
     {
       "name": "FreeCam",
       "uniqueName": "misternebula.FreeCam",
+      "description": null,
+      "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.2.0/FreeCam.zip",
-      "downloadCount": 1371,
+      "downloadCount": 1372,
       "repo": "https://github.com/misternebula/FreeCam",
       "manifest": {
         "filename": "FreeCam.dll",
@@ -150,6 +164,8 @@
     {
       "name": "Smooth Thrust",
       "uniqueName": "TruAI.SmoothThrust",
+      "description": "Outer Wilds Keyboard Smooth Thrust",
+      "author": "TAImatem",
       "downloadUrl": "https://github.com/TAImatem/OW_SmoothThrust/releases/download/v1.5.1/OW_SmoothThrust.zip",
       "downloadCount": 2973,
       "repo": "https://github.com/TAImatem/OW_SmoothThrust",
@@ -166,6 +182,8 @@
     {
       "name": "TAICheat",
       "uniqueName": "TruAI.TAICheat",
+      "description": "Outer Wilds cheat mod",
+      "author": "TAImatem",
       "downloadUrl": "https://github.com/TAImatem/OW_TAIcheat/releases/download/0.9.1/OW_TAIcheat.zip",
       "downloadCount": 2904,
       "repo": "https://github.com/TAImatem/OW_TAIcheat",
@@ -183,6 +201,8 @@
     {
       "name": "Stop Time",
       "uniqueName": "misternebula.StopTime",
+      "description": null,
+      "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/v1.0/StopTime.zip",
       "downloadCount": 1745,
       "repo": "https://github.com/misternebula/StopTime",
@@ -199,6 +219,8 @@
     {
       "name": "Marshmallow",
       "uniqueName": "misternebula.Marshmallow",
+      "description": "An Outer Wilds planet creator for OWML.",
+      "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/Marshmallow/releases/download/v1.0.0/Marshmallow.zip",
       "downloadCount": 784,
       "repo": "https://github.com/misternebula/Marshmallow",
@@ -219,6 +241,8 @@
     {
       "name": "Crouch Mod",
       "uniqueName": "Alek.CrouchMod",
+      "description": "Enables crouching in Outer Wilds.",
+      "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-crouch-mod/releases/download/0.4/OWML.CrouchMod.zip",
       "downloadCount": 713,
       "repo": "https://github.com/amazingalek/owml-crouch-mod",
@@ -236,6 +260,8 @@
     {
       "name": "Clock",
       "uniqueName": "clubby789.OWClock",
+      "description": "A clock overlay mod for Outer Wilds, including events",
+      "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.4.0/Release.zip",
       "downloadCount": 2307,
       "repo": "https://github.com/clubby789/OWClock",
@@ -253,6 +279,8 @@
     {
       "name": "HD Screenshot",
       "uniqueName": "Alek.Cammie",
+      "description": "Screenshot mod for Outer Wilds.",
+      "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-cammie/releases/download/v0.3/HDScreenshot.zip",
       "downloadCount": 561,
       "repo": "https://github.com/amazingalek/owml-cammie",
@@ -270,8 +298,10 @@
     {
       "name": "EnableDebugMode",
       "uniqueName": "Alek.EnableDebugMode",
+      "description": null,
+      "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-enabledebugmode/releases/download/v1.4.2/OWML.EnableDebugMode.zip",
-      "downloadCount": 1348,
+      "downloadCount": 1349,
       "repo": "https://github.com/amazingalek/owml-enabledebugmode",
       "manifest": {
         "filename": "OWML.EnableDebugMode.dll",
@@ -287,6 +317,8 @@
     {
       "name": "Death Tracker",
       "uniqueName": "Goaaats.DeathTracker",
+      "description": "Tracks death locations and times in Outer Wilds",
+      "author": "goaaats",
       "downloadUrl": "https://github.com/goaaats/OWDeathTracker/releases/download/0.1.1/Goaaats.DeathTracker.zip",
       "downloadCount": 555,
       "repo": "https://github.com/goaaats/OWDeathTracker",
@@ -304,6 +336,8 @@
     {
       "name": "Hollodjustment",
       "uniqueName": "Trainzack.Hollodjustment",
+      "description": "Template for Outer Wilds mods",
+      "author": "Trainzack",
       "downloadUrl": "https://github.com/Trainzack/ow-mod-Hollodjustment/releases/download/1.0.0/Trainzack.Hollodjustment_V1.0.0.zip",
       "downloadCount": 245,
       "repo": "https://github.com/Trainzack/ow-mod-Hollodjustment",
@@ -321,6 +355,8 @@
     {
       "name": "Menu Framework",
       "uniqueName": "_nebula.MenuFramework",
+      "description": null,
+      "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/v1.0.1/MenuFramework.zip",
       "downloadCount": 177,
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -338,6 +374,8 @@
     {
       "name": "ScoutStreaming",
       "uniqueName": "Vesper.ScoutStreaming",
+      "description": "Template for Outer Wilds mods",
+      "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/Scout-Streaming/releases/download/1.0.0/Release.zip",
       "downloadCount": 58,
       "repo": "https://github.com/Vesper-Works/Scout-Streaming",
@@ -355,6 +393,8 @@
     {
       "name": "OuterWildsxASCII",
       "uniqueName": "Vesper.OuterWildsxASCII",
+      "description": "Turns the game into a terminal-looking ASCII rendered game.",
+      "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/Outer-Wilds-ASCII-Overhaul/releases/download/1.0.0/Release.zip",
       "downloadCount": 35,
       "repo": "https://github.com/Vesper-Works/Outer-Wilds-ASCII-Overhaul",
@@ -372,6 +412,8 @@
     {
       "name": "Alternate Debug Menu",
       "uniqueName": "Glitch.AltDebugMenu",
+      "description": "Alternate debug menu for OWML",
+      "author": "glitchewski",
       "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.AltDebugMenu/releases/download/0.3.0/Glitch.AltDebugMenu.rar",
       "downloadCount": 48,
       "repo": "https://github.com/glitchewski/OWML.Glitch.AltDebugMenu",
