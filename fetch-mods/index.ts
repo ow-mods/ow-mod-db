@@ -22,7 +22,7 @@ enum Output {
 
 async function run() {
   try {
-    const mods: ModInfo[] = JSON.parse(core.getInput(Input.mods));
+    const modInfos: ModInfo[] = JSON.parse(core.getInput(Input.mods));
     const gitHubToken = core.getInput(Input.gitHubToken);
     const octokit = getOctokit(gitHubToken);
 
@@ -49,8 +49,8 @@ async function run() {
     );
 
     const results = [];
-    for (let mod of mods) {
-      const [owner, repo] = mod.repo.split("/");
+    for (let modInfo of modInfos) {
+      const [owner, repo] = modInfo.repo.split("/");
 
       const fullReleaseList = await octokit.paginate(
         octokit.repos.listReleases,
@@ -75,7 +75,7 @@ async function run() {
         await octokit.repos.getContent({
           owner,
           repo,
-          path: mod.manifest,
+          path: modInfo.manifest,
         })
       ).data.download_url;
 
@@ -85,8 +85,7 @@ async function run() {
         releaseList,
         prereleaseList,
         manifest,
-        repo: `${REPO_URL_BASE}/${mod.repo}`,
-        required: mod.required,
+        modInfo,
       });
     }
 
@@ -107,10 +106,11 @@ async function run() {
     }
 
     const modReleases: (Mod | null)[] = results.map(
-      ({ repo, releaseList, manifest, required, prereleaseList }) => {
+      ({ modInfo, releaseList, manifest, prereleaseList }) => {
         try {
           const releases = getCleanedUpReleases(releaseList);
           const prereleases = getCleanedUpReleases(prereleaseList);
+          const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
 
           const totalDownloadCount = [...releases, ...prereleases].reduce(
             (accumulator, release) => {
@@ -122,12 +122,14 @@ async function run() {
           const latestRelease = releases[0];
           const latestPrerelease = prereleases[0];
 
-          const modInfo: Mod = {
+          const mod: Mod = {
+            name: modInfo.name,
+            uniqueName: modInfo.uniqueName,
+            required: modInfo.required,
             downloadUrl: latestRelease.downloadUrl,
             downloadCount: totalDownloadCount,
             repo,
             manifest,
-            required,
             version: latestRelease.version,
             prerelease: latestPrerelease
               ? {
@@ -137,7 +139,7 @@ async function run() {
               : undefined,
           };
 
-          return modInfo;
+          return mod;
         } catch (error) {
           core.error(error as any);
           return null;
