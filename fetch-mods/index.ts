@@ -112,9 +112,12 @@ async function run() {
           const releases = getCleanedUpReleases(releaseList);
           const prereleases = getCleanedUpReleases(prereleaseList);
 
-          const totalDownloadCount = releases.reduce((accumulator, release) => {
-            return accumulator + release.downloadCount;
-          }, 0);
+          const totalDownloadCount = [...releases, ...prereleases].reduce(
+            (accumulator, release) => {
+              return accumulator + release.downloadCount;
+            },
+            0
+          );
 
           const latestRelease = releases[0];
           const latestPrerelease = prereleases[0];
