@@ -134,7 +134,7 @@ async function run() {
             const mod: Mod = {
               name: modInfo.name,
               uniqueName: modInfo.uniqueName,
-              description: githubRepository.description,
+              description: githubRepository.description || "",
               author: githubRepository.owner.login,
               required: modInfo.required,
               downloadUrl: latestRelease.downloadUrl,
