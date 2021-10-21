@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OWMM-UPDATER-LEGACY.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 26732
+    "downloadCount": 26737
   },
   "releases": [
     {
@@ -14,7 +14,7 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.1.0/OWML.zip",
-      "downloadCount": 21512,
+      "downloadCount": 21516,
       "repo": "https://github.com/amazingalek/owml",
       "manifest": {
         "author": "Alek",
@@ -36,8 +36,8 @@
       "uniqueName": "Raicuparta.NomaiVR",
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
-      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.0.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 18266,
+      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.0.2/Raicuparta.NomaiVR.zip",
+      "downloadCount": 18270,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "manifest": {
         "filename": "NomaiVR.dll",
@@ -54,7 +54,7 @@
         "owmlVersion": "2.1.0",
         "requireVR": true
       },
-      "version": "2.0.1"
+      "version": "2.0.2"
     },
     {
       "name": "Quantum Space Buddies",
@@ -62,7 +62,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.11.0/QSB.zip",
-      "downloadCount": 4584,
+      "downloadCount": 4585,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "manifest": {
         "filename": "QSB.dll",
@@ -89,7 +89,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 3937,
+      "downloadCount": 3938,
       "repo": "https://github.com/amazingalek/owml-light-bramble",
       "manifest": {
         "filename": "OWML.LightBramble.dll",
@@ -205,7 +205,7 @@
       "description": "",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/v1.0/StopTime.zip",
-      "downloadCount": 1853,
+      "downloadCount": 1855,
       "repo": "https://github.com/misternebula/StopTime",
       "manifest": {
         "filename": "StopTime.dll",
@@ -264,7 +264,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.4.0/Release.zip",
-      "downloadCount": 2456,
+      "downloadCount": 2457,
       "repo": "https://github.com/clubby789/OWClock",
       "manifest": {
         "filename": "Clock.dll",
