@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OWMM-UPDATER-LEGACY.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 26627
+    "downloadCount": 26628
   },
   "releases": [
     {
@@ -426,6 +426,25 @@
         "owmlVersion": "2.0.0"
       },
       "version": "0.4.0"
+    },
+    {
+      "name": "Cheats Mod",
+      "uniqueName": "PacificEngine.CheatsMod",
+      "description": "",
+      "author": "PacificEngine",
+      "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.1.0/PacificEngine.OW_CheatsMod.zip",
+      "downloadCount": 1,
+      "repo": "https://github.com/PacificEngine/OW_CheatsMod",
+      "manifest": {
+        "filename": "CheatsMod.dll",
+        "author": "PacificEngine",
+        "name": "Cheats Mod",
+        "uniqueName": "PacificEngine.CheatsMod",
+        "version": "0.1.0",
+        "owmlVersion": "2.0.0",
+        "enabled": true
+      },
+      "version": "0.1.0"
     }
   ]
 }
