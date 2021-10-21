@@ -18,7 +18,7 @@ Each mod entry in the list has the following format:
 }
 ```
 
-Note that `uniqueName` needs to be the same as what you define in your mod's `manifest.json`. Id needs to be unique within the mod list, and should never change after the mod has been published.
+Note that `uniqueName` needs to be the same as what you define in your mod's `manifest.json`. It needs to be unique within the mod list, and should never change after the mod has been published.
 
 ### Example
 
