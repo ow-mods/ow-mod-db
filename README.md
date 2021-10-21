@@ -12,33 +12,25 @@ Each mod entry in the list has the following format:
 
 ```json
 {
-  "repo": "UserName/my-mod",
-  "manifest": "MyMod/manifest.json"
+  "name": "Human Readable Title",
+  "uniqueName": "unique-mod-id",
+  "repo": "GitHub-User/Repo-Name"
 }
 ```
 
-Where `repo` is the GitHub repository path, and `manifest` is the path of the mod's manifest file, relative to the repository's root.
+Note that `uniqueName` needs to be the same as what you define in your mod's `manifest.json`. Id needs to be unique within the mod list, and should never change after the mod has been published.
 
 ### Example
 
-Let's imagine you have a mod located at `github.com/UserName/my-mod`, a repository with the following structure:
-
-```bash
-├── MyMod
-│   ├── manifest.json
-│   ├── MyMod.cs
-│   └── MyMod.csproj
-└── MyMod.sln
-```
-
-To add this mod to the database, your change to `mods.json` should look like this:
+Let's imagine you have a mod located at `github.com/UserName/my-mod`. To add this mod to the database, your change to `mods.json` should look like this:
 
 ```diff
 -  }
 +  },
 +  {
++    "name": "My Mod",
++    "uniqueName": "my-mod",
 +    "repo": "UserName/my-mod",
-+    "manifest": "MyMod/manifest.json"
 +  }
 ```
  
