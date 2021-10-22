@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OWMM-UPDATER-LEGACY.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 26955
+    "downloadCount": 26962
   },
   "releases": [
     {
@@ -14,7 +14,7 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.1.0/OWML.zip",
-      "downloadCount": 21742,
+      "downloadCount": 21750,
       "repo": "https://github.com/amazingalek/owml",
       "manifest": {
         "author": "Alek",
@@ -36,8 +36,8 @@
       "uniqueName": "Raicuparta.NomaiVR",
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
-      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.0.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 18456,
+      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.0.3/Raicuparta.NomaiVR.zip",
+      "downloadCount": 18461,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "manifest": {
         "filename": "NomaiVR.dll",
@@ -50,11 +50,11 @@
           "title": "Before playing NomaiVR, some information:",
           "body": "- Click the NomaiVR readme button in the Mod Manager for information about troubleshooting, requirements, performance, how to uninstall, etc.\n\n- Some VR controllers will have missing icons. Message us if you want to help us add icons for these devices.\n\n- If you have the game on Steam:\n--- Right-click Outer Wilds on your Steam library\n--- Select 'Properties...'\n--- Disable 'Use Desktop Game Theatre.'"
         },
-        "version": "2.0.2",
+        "version": "2.0.3",
         "owmlVersion": "2.1.0",
         "requireVR": true
       },
-      "version": "2.0.2"
+      "version": "2.0.3"
     },
     {
       "name": "Quantum Space Buddies",
@@ -62,7 +62,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.11.0/QSB.zip",
-      "downloadCount": 4623,
+      "downloadCount": 4625,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "manifest": {
         "filename": "QSB.dll",
@@ -89,7 +89,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 3957,
+      "downloadCount": 3958,
       "repo": "https://github.com/amazingalek/owml-light-bramble",
       "manifest": {
         "filename": "OWML.LightBramble.dll",
@@ -108,7 +108,7 @@
       "description": "",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/ObjectSpawner/releases/download/1.0.1/ObjectSpawner.zip",
-      "downloadCount": 1088,
+      "downloadCount": 1089,
       "repo": "https://github.com/misternebula/ObjectSpawner",
       "manifest": {
         "filename": "ObjectSpawner.dll",
@@ -129,7 +129,7 @@
       "description": "An input handler for Outer Wilds mods.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/InputHandler/releases/download/v2.0.0/MN-InputHandler.zip",
-      "downloadCount": 1835,
+      "downloadCount": 1836,
       "repo": "https://github.com/misternebula/InputHandler",
       "manifest": {
         "filename": "MN-InputHandler.dll",
@@ -205,7 +205,7 @@
       "description": "",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/v1.0/StopTime.zip",
-      "downloadCount": 1861,
+      "downloadCount": 1862,
       "repo": "https://github.com/misternebula/StopTime",
       "manifest": {
         "filename": "StopTime.dll",
@@ -223,7 +223,7 @@
       "description": "An Outer Wilds planet creator for OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/Marshmallow/releases/download/v1.0.0/Marshmallow.zip",
-      "downloadCount": 838,
+      "downloadCount": 839,
       "repo": "https://github.com/misternebula/Marshmallow",
       "manifest": {
         "filename": "Marshmallow.dll",
@@ -264,7 +264,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.4.0/Release.zip",
-      "downloadCount": 2468,
+      "downloadCount": 2469,
       "repo": "https://github.com/clubby789/OWClock",
       "manifest": {
         "filename": "Clock.dll",
@@ -283,7 +283,7 @@
       "description": "Screenshot mod for Outer Wilds.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-cammie/releases/download/v0.3/HDScreenshot.zip",
-      "downloadCount": 619,
+      "downloadCount": 620,
       "repo": "https://github.com/amazingalek/owml-cammie",
       "manifest": {
         "filename": "HDScreenshot.dll",
@@ -302,7 +302,7 @@
       "description": "",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-enabledebugmode/releases/download/v1.4.2/OWML.EnableDebugMode.zip",
-      "downloadCount": 1549,
+      "downloadCount": 1550,
       "repo": "https://github.com/amazingalek/owml-enabledebugmode",
       "manifest": {
         "filename": "OWML.EnableDebugMode.dll",
@@ -321,7 +321,7 @@
       "description": "Tracks death locations and times in Outer Wilds",
       "author": "goaaats",
       "downloadUrl": "https://github.com/goaaats/OWDeathTracker/releases/download/0.1.1/Goaaats.DeathTracker.zip",
-      "downloadCount": 602,
+      "downloadCount": 603,
       "repo": "https://github.com/goaaats/OWDeathTracker",
       "manifest": {
         "filename": "Goaaats.DeathTracker.dll",
@@ -397,7 +397,7 @@
       "description": "Turns the universe into ASCII! (H to see how it's changed).",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/Outer-Wilds-ASCII-Overhaul/releases/download/1.1.0/Release.zip",
-      "downloadCount": 128,
+      "downloadCount": 129,
       "repo": "https://github.com/Vesper-Works/Outer-Wilds-ASCII-Overhaul",
       "manifest": {
         "filename": "OuterWildsxASCII.dll",
