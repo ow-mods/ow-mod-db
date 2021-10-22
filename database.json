@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OWMM-UPDATER-LEGACY.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 26890
+    "downloadCount": 26891
   },
   "releases": [
     {
@@ -14,7 +14,7 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.1.0/OWML.zip",
-      "downloadCount": 21680,
+      "downloadCount": 21682,
       "repo": "https://github.com/amazingalek/owml",
       "manifest": {
         "author": "Alek",
@@ -37,7 +37,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.0.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 18404,
+      "downloadCount": 18407,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "manifest": {
         "filename": "NomaiVR.dll",
@@ -62,7 +62,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.11.0/QSB.zip",
-      "downloadCount": 4617,
+      "downloadCount": 4618,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "manifest": {
         "filename": "QSB.dll",
@@ -415,7 +415,7 @@
       "uniqueName": "Glitch.AltDebugMenu",
       "description": "Allows using some commands from Debug Mode and adds other functions as well.",
       "author": "glitchewski",
-      "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.AltDebugMenu/releases/download/0.5.0/Glitch.AltDebugMenu.zip",
+      "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.AltDebugMenu/releases/download/0.5.1/Glitch.AltDebugMenu.zip",
       "downloadCount": 170,
       "repo": "https://github.com/glitchewski/OWML.Glitch.AltDebugMenu",
       "manifest": {
@@ -423,10 +423,10 @@
         "author": "glitch",
         "name": "Alternate Debug Menu",
         "uniqueName": "Glitch.AltDebugMenu",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "owmlVersion": "2.1.0"
       },
-      "version": "0.5.0"
+      "version": "0.5.1"
     },
     {
       "name": "Cheats Mod",
