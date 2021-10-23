@@ -411,6 +411,24 @@
       "version": "1.2.0"
     },
     {
+      "name": "Pixel Shader",
+      "uniqueName": "Vesper.OuterWildsPixelShader",
+      "description": "Turns the game render into pixel art! (Press h to see original render).",
+      "author": "Vesper-Works",
+      "downloadUrl": "https://github.com/Vesper-Works/OuterWildsPixelShader/releases/download/1.0.0/Release.zip",
+      "downloadCount": 0,
+      "repo": "https://github.com/Vesper-Works/OuterWildsPixelShader",
+      "manifest": {
+        "filename": "OuterWildsPixelShader.dll",
+        "author": "Vesper",
+        "name": "Outer Wilds Pixel Shader",
+        "uniqueName": "Vesper.OuterWildsPixelShader",
+        "version": "0.1.0",
+        "owmlVersion": "2.1.0"
+      },
+      "version": "1.0.0"
+    },
+    {
       "name": "Alternate Debug Menu",
       "uniqueName": "Glitch.AltDebugMenu",
       "description": "Allows using some commands from Debug Mode and adds other functions as well.",
