@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 27791
+    "downloadCount": 27794
   },
   "releases": [
     {
@@ -14,7 +14,7 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.1.0/OWML.zip",
-      "downloadCount": 22400,
+      "downloadCount": 22401,
       "repo": "https://github.com/amazingalek/owml",
       "manifest": {
         "author": "Alek",
@@ -464,6 +464,25 @@
         "enabled": true
       },
       "version": "0.2.0"
+    },
+    {
+      "name": "Hard Mode",
+      "uniqueName": "PacificEngine.OW_HardMode",
+      "description": "In case the game was not hard enough",
+      "author": "PacificEngine",
+      "downloadUrl": "https://github.com/PacificEngine/OW_HardMode/releases/download/0.1.0/PacificEngine.OW_HardMode.zip",
+      "downloadCount": 0,
+      "repo": "https://github.com/PacificEngine/OW_HardMode",
+      "manifest": {
+        "filename": "OW_HardMode.dll",
+        "author": "PacificEngine",
+        "name": "Hard Mode",
+        "uniqueName": "PacificEngine.OW_HardMode",
+        "version": "0.1.0",
+        "owmlVersion": "2.1.0",
+        "enabled": true
+      },
+      "version": "0.1.0"
     }
   ]
 }
