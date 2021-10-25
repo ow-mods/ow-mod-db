@@ -2,15 +2,7 @@ type ModInfo = {
   name: string;
   uniqueName: string;
   repo: string;
-  manifest: string;
   required?: boolean;
-};
-
-type Manifest = {
-  name: string;
-  author: string;
-  uniqueName: string;
-  version: string;
 };
 
 type Release = {
@@ -25,7 +17,6 @@ interface Mod extends Release {
   description: string;
   author: string;
   repo: string;
-  manifest: Manifest;
   required?: boolean;
   prerelease?: {
     version: string;

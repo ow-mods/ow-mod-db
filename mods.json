@@ -3,151 +3,126 @@
     "name": "OWML",
     "uniqueName": "Alek.OWML",
     "repo": "amazingalek/owml",
-    "manifest": "src/OWML.Launcher/OWML.Manifest.json",
     "required": true
   },
   {
     "name": "NomaiVR",
     "uniqueName": "Raicuparta.NomaiVR",
-    "repo": "Raicuparta/NomaiVR",
-    "manifest": "NomaiVR/manifest.json"
+    "repo": "Raicuparta/NomaiVR"
   },
   {
     "name": "Quantum Space Buddies",
     "uniqueName": "Raicuparta.QuantumSpaceBuddies",
-    "repo": "misternebula/quantum-space-buddies",
-    "manifest": "QSB/manifest.json"
+    "repo": "misternebula/quantum-space-buddies"
   },
   {
     "name": "Light Bramble",
     "uniqueName": "Alek.LightBramble",
-    "repo": "amazingalek/owml-light-bramble",
-    "manifest": "OWML.LightBramble/manifest.json"
+    "repo": "amazingalek/owml-light-bramble"
   },
   {
     "name": "Object Spawner",
     "uniqueName": "misternebula.ObjectSpawner",
-    "repo": "misternebula/ObjectSpawner",
-    "manifest": "manifest.json"
+    "repo": "misternebula/ObjectSpawner"
   },
   {
     "name": "MN-InputHandler",
     "uniqueName": "misternebula.MN-InputHandler",
-    "repo": "misternebula/InputHandler",
-    "manifest": "manifest.json"
+    "repo": "misternebula/InputHandler"
   },
   {
     "name": "FreeCam",
     "uniqueName": "misternebula.FreeCam",
-    "repo": "misternebula/FreeCam",
-    "manifest": "manifest.json"
+    "repo": "misternebula/FreeCam"
   },
   {
     "name": "Smooth Thrust",
     "uniqueName": "TruAI.SmoothThrust",
-    "repo": "TAImatem/OW_SmoothThrust",
-    "manifest": "OW_SmoothThrust/manifest.json"
+    "repo": "TAImatem/OW_SmoothThrust"
   },
   {
     "name": "TAICheat",
     "uniqueName": "TruAI.TAICheat",
-    "repo": "TAImatem/OW_TAIcheat",
-    "manifest": "OW_TAIcheat/manifest.json"
+    "repo": "TAImatem/OW_TAIcheat"
   },
   {
     "name": "Stop Time",
     "uniqueName": "misternebula.StopTime",
-    "repo": "misternebula/StopTime",
-    "manifest": "manifest.json"
+    "repo": "misternebula/StopTime"
   },
   {
     "name": "Marshmallow",
     "uniqueName": "misternebula.Marshmallow",
-    "repo": "misternebula/Marshmallow",
-    "manifest": "manifest.json"
+    "repo": "misternebula/Marshmallow"
   },
   {
     "name": "Crouch Mod",
     "uniqueName": "Alek.CrouchMod",
-    "repo": "amazingalek/owml-crouch-mod",
-    "manifest": "OWML.CrouchMod/manifest.json"
+    "repo": "amazingalek/owml-crouch-mod"
   },
   {
     "name": "Clock",
     "uniqueName": "clubby789.OWClock",
-    "repo": "clubby789/OWClock",
-    "manifest": "ClockLib/manifest.json"
+    "repo": "clubby789/OWClock"
   },
   {
     "name": "HD Screenshot",
     "uniqueName": "Alek.Cammie",
-    "repo": "amazingalek/owml-cammie",
-    "manifest": "HDScreenshot/manifest.json"
+    "repo": "amazingalek/owml-cammie"
   },
   {
     "name": "EnableDebugMode",
     "uniqueName": "Alek.EnableDebugMode",
-    "repo": "amazingalek/owml-enabledebugmode",
-    "manifest": "manifest.json"
+    "repo": "amazingalek/owml-enabledebugmode"
   },
   {
     "name": "Death Tracker",
     "uniqueName": "Goaaats.DeathTracker",
-    "repo": "goaaats/OWDeathTracker",
-    "manifest": "Goaaats.DeathTracker/manifest.json"
+    "repo": "goaaats/OWDeathTracker"
   },
   {
     "name": "Hollodjustment",
     "uniqueName": "Trainzack.Hollodjustment",
-    "repo": "Trainzack/ow-mod-Hollodjustment",
-    "manifest": "Hollodjustment/manifest.json"
+    "repo": "Trainzack/ow-mod-Hollodjustment"
   },
   {
     "name": "Menu Framework",
     "uniqueName": "_nebula.MenuFramework",
-    "repo": "misternebula/MenuFramework",
-    "manifest": "MenuFramework/manifest.json"
+    "repo": "misternebula/MenuFramework"
   },
   {
     "name": "ScoutStreaming",
     "uniqueName": "Vesper.ScoutStreaming",
-    "repo": "Vesper-Works/Scout-Streaming",
-    "manifest": "ModTemplate/manifest.json"
+    "repo": "Vesper-Works/Scout-Streaming"
   },
   {
     "name": "OuterWildsxASCII",
     "uniqueName": "Vesper.OuterWildsxASCII",
-    "repo": "Vesper-Works/Outer-Wilds-ASCII-Overhaul",
-    "manifest": "ModTemplate/manifest.json"
+    "repo": "Vesper-Works/Outer-Wilds-ASCII-Overhaul"
   },
   {
     "name": "Pixel Shader",
     "uniqueName": "Vesper.OuterWildsPixelShader",
-    "repo": "Vesper-Works/OuterWildsPixelShader",
-    "manifest": "ModTemplate/manifest.json"
+    "repo": "Vesper-Works/OuterWildsPixelShader"
   },
   {
     "name": "Cheat and Debug Menu",
     "uniqueName": "Glitch.AltDebugMenu",
-    "repo": "glitchewski/OWML.Glitch.CheatAndDebugMenu",
-    "manifest": "src/Glitch.AltDebugMenu/manifest.json"
+    "repo": "glitchewski/OWML.Glitch.CheatAndDebugMenu"
   },
   {
     "name": "Cheats Mod",
     "uniqueName": "PacificEngine.CheatsMod",
-    "repo": "PacificEngine/OW_CheatsMod",
-    "manifest": "manifest.json"
+    "repo": "PacificEngine/OW_CheatsMod"
   },
   {
     "name": "Hard Mode",
     "uniqueName": "PacificEngine.OW_HardMode",
-    "repo": "PacificEngine/OW_HardMode",
-    "manifest": "manifest.json"
+    "repo": "PacificEngine/OW_HardMode"
   },
   {
     "name": "Peaceful Ghosts",
     "uniqueName": "Leadpogrommer.PeacefulGhosts",
-    "repo": "leadpogrommer/PeacefulGhosts",
-    "manifest": "manifest.json"
+    "repo": "leadpogrommer/PeacefulGhosts"
   }
 ]
