@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 27840
+    "downloadCount": 27842
   },
   "releases": [
     {
@@ -14,13 +14,9 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.1.0/OWML.zip",
-      "downloadCount": 22442,
+      "downloadCount": 22444,
       "repo": "https://github.com/amazingalek/owml",
-      "version": "2.1.0",
-      "prerelease": {
-        "version": "1.1.8",
-        "downloadUrl": "https://github.com/amazingalek/owml/releases/download/1.1.8/OWML.zip"
-      }
+      "version": "2.1.0"
     },
     {
       "name": "NomaiVR",
@@ -28,7 +24,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.1.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 19095,
+      "downloadCount": 19096,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "version": "2.1.1"
     },
@@ -38,7 +34,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.12.0/QSB.zip",
-      "downloadCount": 4758,
+      "downloadCount": 4760,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "version": "0.12.0",
       "prerelease": {
@@ -122,7 +118,7 @@
       "description": "",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/v2.0.1/MenuFramework.zip",
-      "downloadCount": 326,
+      "downloadCount": 327,
       "repo": "https://github.com/misternebula/MenuFramework",
       "version": "v2.0.1"
     },
@@ -159,7 +155,7 @@
     {
       "name": "Cheats Mod",
       "uniqueName": "PacificEngine.CheatsMod",
-      "description": "",
+      "description": "Toggling features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.2.0/PacificEngine.OW_CheatsMod.zip",
       "downloadCount": 118,
