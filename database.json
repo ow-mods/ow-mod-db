@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 27837
+    "downloadCount": 27838
   },
   "releases": [
     {
@@ -14,7 +14,7 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.1.0/OWML.zip",
-      "downloadCount": 22441,
+      "downloadCount": 22442,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.1.0",
       "prerelease": {
@@ -37,10 +37,10 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.11.0/QSB.zip",
+      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.12.0/QSB.zip",
       "downloadCount": 4757,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
-      "version": "0.11.0",
+      "version": "0.12.0",
       "prerelease": {
         "version": "0.12.0-pr4",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.12.0-pr4/QSB.zip"
@@ -211,23 +211,13 @@
       "version": "1.1.0"
     },
     {
-      "name": "OuterWildsxASCII",
-      "uniqueName": "Vesper.OuterWildsxASCII",
-      "description": "Turns the universe into ASCII! (H to see how it's changed).",
+      "name": "Vesper's Assorted OuterWilds Shaders",
+      "uniqueName": "Vesper.VespersAssortedOuterWildsShaders",
+      "description": "A mod containing all of the shaders I've created for Outer Wilds! ",
       "author": "Vesper-Works",
-      "downloadUrl": "https://github.com/Vesper-Works/Outer-Wilds-ASCII-Overhaul/releases/download/1.2.0/Release.zip",
-      "downloadCount": 174,
-      "repo": "https://github.com/Vesper-Works/Outer-Wilds-ASCII-Overhaul",
-      "version": "1.2.0"
-    },
-    {
-      "name": "Pixel Shader",
-      "uniqueName": "Vesper.OuterWildsPixelShader",
-      "description": "Turns the game render into pixel art! (Press h to see original render).",
-      "author": "Vesper-Works",
-      "downloadUrl": "https://github.com/Vesper-Works/OuterWildsPixelShader/releases/download/1.0.0/Release.zip",
-      "downloadCount": 33,
-      "repo": "https://github.com/Vesper-Works/OuterWildsPixelShader",
+      "downloadUrl": "https://github.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders/releases/download/1.0.0/Release.zip",
+      "downloadCount": 0,
+      "repo": "https://github.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders",
       "version": "1.0.0"
     },
     {
@@ -236,7 +226,7 @@
       "description": "Allows using some commands from Debug Mode and adds other functions as well.",
       "author": "glitchewski",
       "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/releases/download/0.5.3/Glitch.CheatAndDebugMenu.zip",
-      "downloadCount": 233,
+      "downloadCount": 234,
       "repo": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu",
       "version": "0.5.3"
     },
@@ -266,7 +256,7 @@
       "description": "",
       "author": "leadpogrommer",
       "downloadUrl": "https://github.com/leadpogrommer/PeacefulGhosts/releases/download/v0.1.0/Leadpogrommer.PeacefulGhosts.zip",
-      "downloadCount": 4,
+      "downloadCount": 6,
       "repo": "https://github.com/leadpogrommer/PeacefulGhosts",
       "version": "v0.1.0"
     }
