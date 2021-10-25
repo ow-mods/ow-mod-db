@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 27839
+    "downloadCount": 27840
   },
   "releases": [
     {
@@ -28,7 +28,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.1.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 19094,
+      "downloadCount": 19095,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "version": "2.1.1"
     },
@@ -57,16 +57,6 @@
       "version": "v0.7"
     },
     {
-      "name": "Object Spawner",
-      "uniqueName": "misternebula.ObjectSpawner",
-      "description": "",
-      "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/ObjectSpawner/releases/download/1.0.1/ObjectSpawner.zip",
-      "downloadCount": 1116,
-      "repo": "https://github.com/misternebula/ObjectSpawner",
-      "version": "1.0.1"
-    },
-    {
       "name": "MN-InputHandler",
       "uniqueName": "misternebula.MN-InputHandler",
       "description": "An input handler for Outer Wilds mods.",
@@ -85,50 +75,6 @@
       "downloadCount": 1559,
       "repo": "https://github.com/misternebula/FreeCam",
       "version": "v2.2.0"
-    },
-    {
-      "name": "Smooth Thrust",
-      "uniqueName": "TruAI.SmoothThrust",
-      "description": "Outer Wilds Keyboard Smooth Thrust",
-      "author": "TAImatem",
-      "downloadUrl": "https://github.com/TAImatem/OW_SmoothThrust/releases/download/v1.5.1/OW_SmoothThrust.zip",
-      "downloadCount": 3226,
-      "repo": "https://github.com/TAImatem/OW_SmoothThrust",
-      "version": "v1.5.1"
-    },
-    {
-      "name": "TAICheat",
-      "uniqueName": "TruAI.TAICheat",
-      "description": "Outer Wilds cheat mod",
-      "author": "TAImatem",
-      "downloadUrl": "https://github.com/TAImatem/OW_TAIcheat/releases/download/0.9.1/OW_TAIcheat.zip",
-      "downloadCount": 3158,
-      "repo": "https://github.com/TAImatem/OW_TAIcheat",
-      "version": "0.9.1"
-    },
-    {
-      "name": "Stop Time",
-      "uniqueName": "misternebula.StopTime",
-      "description": "",
-      "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/v1.0/StopTime.zip",
-      "downloadCount": 1900,
-      "repo": "https://github.com/misternebula/StopTime",
-      "version": "v1.0"
-    },
-    {
-      "name": "Marshmallow",
-      "uniqueName": "misternebula.Marshmallow",
-      "description": "An Outer Wilds planet creator for OWML.",
-      "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/Marshmallow/releases/download/v1.0.0/Marshmallow.zip",
-      "downloadCount": 862,
-      "repo": "https://github.com/misternebula/Marshmallow",
-      "version": "v1.0.0",
-      "prerelease": {
-        "version": "v1.1.0-alpha.2",
-        "downloadUrl": "https://github.com/misternebula/Marshmallow/releases/download/v1.1.0-alpha.2/misternebula.Marshmallow.zip"
-      }
     },
     {
       "name": "Crouch Mod",
@@ -169,26 +115,6 @@
       "downloadCount": 1614,
       "repo": "https://github.com/amazingalek/owml-enabledebugmode",
       "version": "v1.4.2"
-    },
-    {
-      "name": "Death Tracker",
-      "uniqueName": "Goaaats.DeathTracker",
-      "description": "Tracks death locations and times in Outer Wilds",
-      "author": "goaaats",
-      "downloadUrl": "https://github.com/goaaats/OWDeathTracker/releases/download/0.1.1/Goaaats.DeathTracker.zip",
-      "downloadCount": 617,
-      "repo": "https://github.com/goaaats/OWDeathTracker",
-      "version": "0.1.1"
-    },
-    {
-      "name": "Hollodjustment",
-      "uniqueName": "Trainzack.Hollodjustment",
-      "description": "Template for Outer Wilds mods",
-      "author": "Trainzack",
-      "downloadUrl": "https://github.com/Trainzack/ow-mod-Hollodjustment/releases/download/1.0.0/Trainzack.Hollodjustment_V1.0.0.zip",
-      "downloadCount": 270,
-      "repo": "https://github.com/Trainzack/ow-mod-Hollodjustment",
-      "version": "1.0.0"
     },
     {
       "name": "Menu Framework",
