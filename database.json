@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 27822
+    "downloadCount": 27823
   },
   "releases": [
     {
@@ -14,17 +14,8 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.1.0/OWML.zip",
-      "downloadCount": 22425,
+      "downloadCount": 22427,
       "repo": "https://github.com/amazingalek/owml",
-      "manifest": {
-        "author": "Alek",
-        "name": "OWML",
-        "uniqueName": "Alek.OWML",
-        "version": "2.1.0",
-        "description": "The mod loader and mod framework for Outer Wilds",
-        "minGameVersion": "1.1.8",
-        "maxGameVersion": "1.1.10.47"
-      },
       "version": "2.1.0",
       "prerelease": {
         "version": "1.1.8",
@@ -37,23 +28,8 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.1.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 19080,
+      "downloadCount": 19084,
       "repo": "https://github.com/Raicuparta/NomaiVR",
-      "manifest": {
-        "filename": "NomaiVR.dll",
-        "patcher": "patcher/NomaiVRPatcher.dll",
-        "author": "Raicuparta",
-        "name": "NomaiVR",
-        "uniqueName": "Raicuparta.NomaiVR",
-        "description": "Outer Wilds VR mod, with full motion control support.",
-        "warning": {
-          "title": "Before playing NomaiVR, some information:",
-          "body": "- Click the NomaiVR readme button in the Mod Manager for information about troubleshooting, requirements, performance, how to uninstall, etc.\n\n- Some VR controllers will have missing icons. Message us if you want to help us add icons for these devices.\n\n- If you have the game on Steam:\n--- Right-click Outer Wilds on your Steam library\n--- Select 'Properties...'\n--- Disable 'Use Desktop Game Theatre.'"
-        },
-        "version": "2.1.1",
-        "owmlVersion": "2.1.0",
-        "requireVR": true
-      },
       "version": "2.1.1"
     },
     {
@@ -64,19 +40,6 @@
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.11.0/QSB.zip",
       "downloadCount": 4755,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
-      "manifest": {
-        "filename": "QSB.dll",
-        "author": "Nebula, Alek, & Rai",
-        "name": "Quantum Space Buddies",
-        "description": "Adds online multiplayer to the game.",
-        "warning": {
-          "title": "Follow these steps before playing multiplayer :",
-          "body": "- Disable *all* other mods. (Can heavily affect performance)\n- Make sure you are not running any other network-intensive applications.\n- Make sure you have forwarded/opened the correct ports. (See the GitHub readme.)"
-        },
-        "uniqueName": "Raicuparta.QuantumSpaceBuddies",
-        "version": "0.11.0",
-        "owmlVersion": "1.1.8"
-      },
       "version": "0.11.0",
       "prerelease": {
         "version": "0.12.0-pr4",
@@ -91,15 +54,6 @@
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
       "downloadCount": 4062,
       "repo": "https://github.com/amazingalek/owml-light-bramble",
-      "manifest": {
-        "filename": "OWML.LightBramble.dll",
-        "author": "Alek",
-        "name": "LightBramble",
-        "uniqueName": "Alek.LightBramble",
-        "version": "0.7",
-        "owmlVersion": "2.0.0",
-        "description": "No fog. No anglerfish. Nice music."
-      },
       "version": "v0.7"
     },
     {
@@ -110,17 +64,6 @@
       "downloadUrl": "https://github.com/misternebula/ObjectSpawner/releases/download/1.0.1/ObjectSpawner.zip",
       "downloadCount": 1116,
       "repo": "https://github.com/misternebula/ObjectSpawner",
-      "manifest": {
-        "filename": "ObjectSpawner.dll",
-        "author": "misternebula",
-        "name": "ObjectSpawner",
-        "uniqueName": "misternebula.ObjectSpawner",
-        "version": "1.0.1",
-        "owmlVersion": "0.3.49",
-        "dependencies": [
-          "misternebula.MN-InputManager"
-        ]
-      },
       "version": "1.0.1"
     },
     {
@@ -131,14 +74,6 @@
       "downloadUrl": "https://github.com/misternebula/InputHandler/releases/download/v2.0.0/MN-InputHandler.zip",
       "downloadCount": 1892,
       "repo": "https://github.com/misternebula/InputHandler",
-      "manifest": {
-        "filename": "MN-InputHandler.dll",
-        "author": "misternebula",
-        "name": "MN-InputHandler",
-        "uniqueName": "misternebula.MN-InputHandler",
-        "version": "1.0",
-        "owmlVersion": "0.3.39"
-      },
       "version": "v2.0.0"
     },
     {
@@ -149,17 +84,6 @@
       "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.2.0/FreeCam.zip",
       "downloadCount": 1559,
       "repo": "https://github.com/misternebula/FreeCam",
-      "manifest": {
-        "filename": "FreeCam.dll",
-        "author": "misternebula",
-        "name": "FreeCam",
-        "uniqueName": "misternebula.FreeCam",
-        "version": "2.2.0",
-        "owmlVersion": "2.0.0",
-        "dependencies": [
-          "misternebula.MN-InputHandler"
-        ]
-      },
       "version": "v2.2.0"
     },
     {
@@ -170,14 +94,6 @@
       "downloadUrl": "https://github.com/TAImatem/OW_SmoothThrust/releases/download/v1.5.1/OW_SmoothThrust.zip",
       "downloadCount": 3225,
       "repo": "https://github.com/TAImatem/OW_SmoothThrust",
-      "manifest": {
-        "filename": "OW_SmoothThrust.dll",
-        "author": "TAImatem & Schinken",
-        "name": "SmoothThrust",
-        "uniqueName": "TruAI.SmoothThrust",
-        "version": "1.5",
-        "owmlVersion": "0.3.46"
-      },
       "version": "v1.5.1"
     },
     {
@@ -188,15 +104,6 @@
       "downloadUrl": "https://github.com/TAImatem/OW_TAIcheat/releases/download/0.9.1/OW_TAIcheat.zip",
       "downloadCount": 3157,
       "repo": "https://github.com/TAImatem/OW_TAIcheat",
-      "manifest": {
-        "filename": "OW_TAICheat.dll",
-        "author": "TAImatem",
-        "name": "TAICheat",
-        "uniqueName": "TruAI.TAICheat",
-        "version": "0.9.1",
-        "owmlVersion": "0.4.1",
-        "enabled": true
-      },
       "version": "0.9.1"
     },
     {
@@ -207,14 +114,6 @@
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/v1.0/StopTime.zip",
       "downloadCount": 1900,
       "repo": "https://github.com/misternebula/StopTime",
-      "manifest": {
-        "filename": "StopTime.dll",
-        "author": "misternebula",
-        "name": "StopTime",
-        "uniqueName": "misternebula.StopTime",
-        "version": "1.0",
-        "owmlVersion": "0.3.44"
-      },
       "version": "v1.0"
     },
     {
@@ -225,14 +124,6 @@
       "downloadUrl": "https://github.com/misternebula/Marshmallow/releases/download/v1.0.0/Marshmallow.zip",
       "downloadCount": 862,
       "repo": "https://github.com/misternebula/Marshmallow",
-      "manifest": {
-        "filename": "Marshmallow.dll",
-        "author": "misternebula",
-        "name": "Marshmallow",
-        "uniqueName": "misternebula.Marshmallow",
-        "version": "1.0.0",
-        "owmlVersion": "0.3.53"
-      },
       "version": "v1.0.0",
       "prerelease": {
         "version": "v1.1.0-alpha.2",
@@ -247,15 +138,6 @@
       "downloadUrl": "https://github.com/amazingalek/owml-crouch-mod/releases/download/0.4/OWML.CrouchMod.zip",
       "downloadCount": 795,
       "repo": "https://github.com/amazingalek/owml-crouch-mod",
-      "manifest": {
-        "filename": "OWML.CrouchMod.dll",
-        "author": "Alek",
-        "name": "CrouchMod",
-        "uniqueName": "Alek.CrouchMod",
-        "version": "0.4",
-        "owmlVersion": "2.0.0",
-        "description": "Enables crouching."
-      },
       "version": "0.4"
     },
     {
@@ -266,15 +148,6 @@
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.4.0/Release.zip",
       "downloadCount": 2538,
       "repo": "https://github.com/clubby789/OWClock",
-      "manifest": {
-        "filename": "Clock.dll",
-        "author": "clubby789",
-        "name": "Clock",
-        "uniqueName": "clubby789.OWClock",
-        "description": "Adds a clock overlay and eventlist",
-        "version": "0.5.0",
-        "owmlVersion": "2.1.0"
-      },
       "version": "0.4.0"
     },
     {
@@ -285,15 +158,6 @@
       "downloadUrl": "https://github.com/amazingalek/owml-cammie/releases/download/v0.3/HDScreenshot.zip",
       "downloadCount": 640,
       "repo": "https://github.com/amazingalek/owml-cammie",
-      "manifest": {
-        "filename": "HDScreenshot.dll",
-        "author": "Alek",
-        "name": "HD Screenshot",
-        "uniqueName": "Alek.Cammie",
-        "version": "0.3",
-        "owmlVersion": "2.0.0",
-        "description": "Take HD screenshots."
-      },
       "version": "v0.3"
     },
     {
@@ -304,15 +168,6 @@
       "downloadUrl": "https://github.com/amazingalek/owml-enabledebugmode/releases/download/v1.4.2/OWML.EnableDebugMode.zip",
       "downloadCount": 1613,
       "repo": "https://github.com/amazingalek/owml-enabledebugmode",
-      "manifest": {
-        "filename": "OWML.EnableDebugMode.dll",
-        "author": "Alek",
-        "name": "EnableDebugMode",
-        "uniqueName": "Alek.EnableDebugMode",
-        "version": "1.4.2",
-        "owmlVersion": "2.0.0",
-        "description": "Enables the debug mode in Outer Wilds"
-      },
       "version": "v1.4.2"
     },
     {
@@ -323,15 +178,6 @@
       "downloadUrl": "https://github.com/goaaats/OWDeathTracker/releases/download/0.1.1/Goaaats.DeathTracker.zip",
       "downloadCount": 617,
       "repo": "https://github.com/goaaats/OWDeathTracker",
-      "manifest": {
-        "filename": "Goaaats.DeathTracker.dll",
-        "author": "goaaats",
-        "name": "Death Tracker",
-        "uniqueName": "Goaaats.DeathTracker",
-        "description": "Tracks where and when you died, and shows it in the world.",
-        "version": "0.1.1",
-        "owmlVersion": "1.1.8"
-      },
       "version": "0.1.1"
     },
     {
@@ -342,15 +188,6 @@
       "downloadUrl": "https://github.com/Trainzack/ow-mod-Hollodjustment/releases/download/1.0.0/Trainzack.Hollodjustment_V1.0.0.zip",
       "downloadCount": 270,
       "repo": "https://github.com/Trainzack/ow-mod-Hollodjustment",
-      "manifest": {
-        "filename": "Hollodjustment.dll",
-        "author": "Trainzack",
-        "name": "Hollodjustment",
-        "uniqueName": "Trainzack.Hollodjustment",
-        "description": "Adjust Hollow's Lantern's meteors.",
-        "version": "1.0.0",
-        "owmlVersion": "1.1.8"
-      },
       "version": "1.0.0"
     },
     {
@@ -361,15 +198,6 @@
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/v2.0.1/MenuFramework.zip",
       "downloadCount": 326,
       "repo": "https://github.com/misternebula/MenuFramework",
-      "manifest": {
-        "filename": "MenuFramework.dll",
-        "author": "_nebula",
-        "name": "Menu Framework",
-        "description": "Custom menu framework/wrapper.",
-        "uniqueName": "_nebula.MenuFramework",
-        "version": "2.0.1",
-        "owmlVersion": "2.0.0"
-      },
       "version": "v2.0.1"
     },
     {
@@ -380,15 +208,6 @@
       "downloadUrl": "https://github.com/Vesper-Works/Scout-Streaming/releases/download/1.1.0/Release.zip",
       "downloadCount": 228,
       "repo": "https://github.com/Vesper-Works/Scout-Streaming",
-      "manifest": {
-        "filename": "ScoutStreaming.dll",
-        "author": "Vesper",
-        "name": "ScoutStreaming",
-        "uniqueName": "Vesper.ScoutStreaming",
-        "description": "Turns the scout's images into live feed!",
-        "version": "1.0.0",
-        "owmlVersion": "2.0.0"
-      },
       "version": "1.1.0"
     },
     {
@@ -399,15 +218,6 @@
       "downloadUrl": "https://github.com/Vesper-Works/Outer-Wilds-ASCII-Overhaul/releases/download/1.2.0/Release.zip",
       "downloadCount": 174,
       "repo": "https://github.com/Vesper-Works/Outer-Wilds-ASCII-Overhaul",
-      "manifest": {
-        "filename": "OuterWildsxASCII.dll",
-        "author": "Vesper",
-        "name": "OuterWildsxASCII",
-        "uniqueName": "Vesper.OuterWildsxASCII",
-        "description": "Turns the universe into ASCII!",
-        "version": "1.2.0",
-        "owmlVersion": "2.0.0"
-      },
       "version": "1.2.0"
     },
     {
@@ -418,14 +228,6 @@
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsPixelShader/releases/download/1.0.0/Release.zip",
       "downloadCount": 31,
       "repo": "https://github.com/Vesper-Works/OuterWildsPixelShader",
-      "manifest": {
-        "filename": "OuterWildsPixelShader.dll",
-        "author": "Vesper",
-        "name": "Outer Wilds Pixel Shader",
-        "uniqueName": "Vesper.OuterWildsPixelShader",
-        "version": "0.1.0",
-        "owmlVersion": "2.1.0"
-      },
       "version": "1.0.0"
     },
     {
@@ -436,14 +238,6 @@
       "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/releases/download/0.5.3/Glitch.CheatAndDebugMenu.zip",
       "downloadCount": 229,
       "repo": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu",
-      "manifest": {
-        "filename": "Glitch.AltDebugMenu.dll",
-        "author": "glitch",
-        "name": "Cheat and Debug Menu",
-        "uniqueName": "Glitch.AltDebugMenu",
-        "version": "0.5.3",
-        "owmlVersion": "2.1.0"
-      },
       "version": "0.5.3"
     },
     {
@@ -454,15 +248,6 @@
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.2.0/PacificEngine.OW_CheatsMod.zip",
       "downloadCount": 116,
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
-      "manifest": {
-        "filename": "OW_CheatsMod.dll",
-        "author": "PacificEngine",
-        "name": "Cheats Mod",
-        "uniqueName": "PacificEngine.CheatsMod",
-        "version": "0.2.0",
-        "owmlVersion": "2.1.0",
-        "enabled": true
-      },
       "version": "0.2.0"
     },
     {
@@ -473,16 +258,17 @@
       "downloadUrl": "https://github.com/PacificEngine/OW_HardMode/releases/download/0.1.0/PacificEngine.OW_HardMode.zip",
       "downloadCount": 1,
       "repo": "https://github.com/PacificEngine/OW_HardMode",
-      "manifest": {
-        "filename": "OW_HardMode.dll",
-        "author": "PacificEngine",
-        "name": "Hard Mode",
-        "uniqueName": "PacificEngine.OW_HardMode",
-        "version": "0.1.0",
-        "owmlVersion": "2.1.0",
-        "enabled": true
-      },
       "version": "0.1.0"
+    },
+    {
+      "name": "Peaceful Ghosts",
+      "uniqueName": "Leadpogrommer.PeacefulGhosts",
+      "description": "",
+      "author": "leadpogrommer",
+      "downloadUrl": "https://github.com/leadpogrommer/PeacefulGhosts/releases/download/v0.1.0/Leadpogrommer.PeacefulGhosts.zip",
+      "downloadCount": 2,
+      "repo": "https://github.com/leadpogrommer/PeacefulGhosts",
+      "version": "v0.1.0"
     }
   ]
 }
