@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 28069
+    "downloadCount": 28070
   },
   "releases": [
     {
@@ -14,7 +14,7 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.1.0/OWML.zip",
-      "downloadCount": 22583,
+      "downloadCount": 22584,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.1.0"
     },
@@ -24,7 +24,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.1.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 19245,
+      "downloadCount": 19246,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "version": "2.1.1"
     },
@@ -33,10 +33,10 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.12.0/QSB.zip",
+      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.12.1/QSB.zip",
       "downloadCount": 4826,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
-      "version": "0.12.0",
+      "version": "0.12.1",
       "prerelease": {
         "version": "0.12.0-pr4",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.12.0-pr4/QSB.zip"
@@ -155,7 +155,7 @@
     {
       "name": "Cheats Mod",
       "uniqueName": "PacificEngine.CheatsMod",
-      "description": "Toggling features and teleportation",
+      "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.2.1/PacificEngine.OW_CheatsMod.zip",
       "downloadCount": 156,
@@ -167,10 +167,10 @@
       "uniqueName": "PacificEngine.OW_HardMode",
       "description": "In case the game was not hard enough",
       "author": "PacificEngine",
-      "downloadUrl": "https://github.com/PacificEngine/OW_HardMode/releases/download/0.1.1/PacificEngine.OW_HardMode.zip",
+      "downloadUrl": "https://github.com/PacificEngine/OW_HardMode/releases/download/0.1.2/PacificEngine.OW_HardMode.zip",
       "downloadCount": 12,
       "repo": "https://github.com/PacificEngine/OW_HardMode",
-      "version": "0.1.1"
+      "version": "0.1.2"
     },
     {
       "name": "Peaceful Ghosts",
