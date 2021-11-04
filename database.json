@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 29494
+    "downloadCount": 29497
   },
   "releases": [
     {
@@ -14,7 +14,7 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.1.0/OWML.zip",
-      "downloadCount": 23703,
+      "downloadCount": 23705,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.1.0"
     },
@@ -24,7 +24,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.3.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 20494,
+      "downloadCount": 20498,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "version": "2.3.1"
     },
@@ -196,7 +196,7 @@
       "description": "Outer Wilds Keyboard Smooth Thrust",
       "author": "TAImatem",
       "downloadUrl": "https://github.com/TAImatem/OW_SmoothThrust/releases/download/v2.0.1/OW_SmoothThrust.zip",
-      "downloadCount": 3267,
+      "downloadCount": 3268,
       "repo": "https://github.com/TAImatem/OW_SmoothThrust",
       "version": "v2.0.1"
     },
@@ -213,6 +213,16 @@
         "version": "0.2.0",
         "downloadUrl": "https://github.com/PacificEngine/OW_Randomizer/releases/download/0.2.0/PacificEngine.OW_Randomizer.zip"
       }
+    },
+    {
+      "name": "PacificEngine's Common Resources",
+      "uniqueName": "PacificEngine.OW_CommonResources",
+      "description": "A Collection of Common Resource to use throughout downstream mods",
+      "author": "PacificEngine",
+      "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.1.0/PacificEngine.OW_CommonResources.zip",
+      "downloadCount": 0,
+      "repo": "https://github.com/PacificEngine/OW_CommonResources",
+      "version": "0.1.0"
     }
   ]
 }
