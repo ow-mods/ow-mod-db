@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 31225
+    "downloadCount": 31230
   },
   "releases": [
     {
@@ -14,7 +14,7 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.2.0/OWML.zip",
-      "downloadCount": 25112,
+      "downloadCount": 25116,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.2.0"
     },
@@ -24,7 +24,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.4.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 21676,
+      "downloadCount": 21681,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "version": "2.4.2"
     },
@@ -34,7 +34,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.12.2/QSB.zip",
-      "downloadCount": 5433,
+      "downloadCount": 5434,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "version": "0.12.2",
       "prerelease": {
@@ -78,7 +78,7 @@
       "description": "Enables crouching in Outer Wilds.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-crouch-mod/releases/download/0.4/OWML.CrouchMod.zip",
-      "downloadCount": 921,
+      "downloadCount": 922,
       "repo": "https://github.com/amazingalek/owml-crouch-mod",
       "version": "0.4"
     },
@@ -88,7 +88,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.5.0/Release.zip",
-      "downloadCount": 3050,
+      "downloadCount": 3051,
       "repo": "https://github.com/clubby789/OWClock",
       "version": "0.5.0"
     },
@@ -151,20 +151,20 @@
       "uniqueName": "PacificEngine.CheatsMod",
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
-      "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.4.4/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 757,
+      "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.5.0/PacificEngine.OW_CheatsMod.zip",
+      "downloadCount": 758,
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
-      "version": "0.4.4"
+      "version": "0.5.0"
     },
     {
       "name": "Difficulty Mod",
       "uniqueName": "PacificEngine.OW_HardMode",
       "description": "Allow players to change game difficulty settings",
       "author": "PacificEngine",
-      "downloadUrl": "https://github.com/PacificEngine/OW_HardMode/releases/download/0.2.4/PacificEngine.OW_HardMode.zip",
+      "downloadUrl": "https://github.com/PacificEngine/OW_HardMode/releases/download/0.3.0/PacificEngine.OW_HardMode.zip",
       "downloadCount": 120,
       "repo": "https://github.com/PacificEngine/OW_HardMode",
-      "version": "0.2.4"
+      "version": "0.3.0"
     },
     {
       "name": "Peaceful Ghosts",
@@ -182,7 +182,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 227,
+      "downloadCount": 229,
       "repo": "https://github.com/dwatson251/ow-slowtime",
       "version": "v0.1.0"
     },
@@ -201,20 +201,20 @@
       "uniqueName": "PacificEngine.OW_Randomizer",
       "description": "Randomizes stuff in outer wilds",
       "author": "PacificEngine",
-      "downloadUrl": "https://github.com/PacificEngine/OW_Randomizer/releases/download/0.3.4/PacificEngine.OW_Randomizer.zip",
+      "downloadUrl": "https://github.com/PacificEngine/OW_Randomizer/releases/download/0.4.0/PacificEngine.OW_Randomizer.zip",
       "downloadCount": 95,
       "repo": "https://github.com/PacificEngine/OW_Randomizer",
-      "version": "0.3.4"
+      "version": "0.4.0"
     },
     {
       "name": "PacificEngine's Common Resources",
       "uniqueName": "PacificEngine.OW_CommonResources",
       "description": "A Collection of Common Resource to use throughout downstream mods",
       "author": "PacificEngine",
-      "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.2.0/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 360,
+      "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.3.0/PacificEngine.OW_CommonResources.zip",
+      "downloadCount": 361,
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
-      "version": "0.2.0"
+      "version": "0.3.0"
     },
     {
       "name": "No Alt Tab Pause",
