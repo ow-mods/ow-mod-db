@@ -1,0 +1,31 @@
+name: Add mod to database
+description: Add a new mod to the database
+title: "[Add mod]: "
+labels: ["add-mod"]
+assignees:
+  - Raicuparta
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Mod name
+      description:
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repository
+      description: GitHub repository that contains the mod's source code and releases.
+      placeholder: Raicuparta/ow-mod-template
+    validations:
+      required: true
+  - type: input
+    id: uniqueName
+    attributes:
+      label: Mod uniqueName
+      description: Must match uniqueName from your mod's manifest.json.
+      placeholder: Raicuparta.ModTemplate
+    validations:
+      required: true
