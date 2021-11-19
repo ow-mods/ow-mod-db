@@ -9,7 +9,7 @@ body:
     id: name
     attributes:
       label: Mod name
-      description: Human-readable title for your mod.
+      description: Human-readable title for your mod. If you want to change your mod's name later, you'll need to request a change to the database again.
       placeholder: Outer Wilds Mod Template
     validations:
       required: true
