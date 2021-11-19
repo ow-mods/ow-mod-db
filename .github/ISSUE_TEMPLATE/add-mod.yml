@@ -1,6 +1,6 @@
 name: Add mod to database
 description: Add a new mod to the database
-title: "[Add mod]: "
+title: "[Your mod name here]"
 labels: ["add-mod"]
 assignees:
   - Raicuparta
@@ -25,7 +25,7 @@ body:
     id: uniqueName
     attributes:
       label: Mod uniqueName
-      description: "Your mod's ID, unique within the whole database. IMPORTANT: must match uniqueName from your mod's manifest.json.""
+      description: "Your mod's ID, unique within the whole database. IMPORTANT: must match uniqueName from your mod's manifest.json."
       placeholder: Raicuparta.ModTemplate
     validations:
       required: true
