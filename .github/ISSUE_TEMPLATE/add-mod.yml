@@ -9,8 +9,8 @@ body:
     id: name
     attributes:
       label: Mod name
-      description:
-      placeholder:
+      description: Human-readable title for your mod.
+      placeholder: Outer Wilds Mod Template
     validations:
       required: true
   - type: input
@@ -25,7 +25,7 @@ body:
     id: uniqueName
     attributes:
       label: Mod uniqueName
-      description: Must match uniqueName from your mod's manifest.json.
+      description: "Your mod's ID, unique within the whole database. IMPORTANT: must match uniqueName from your mod's manifest.json.""
       placeholder: Raicuparta.ModTemplate
     validations:
       required: true
