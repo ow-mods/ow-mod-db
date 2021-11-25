@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 32654
+    "downloadCount": 32656
   },
   "releases": [
     {
@@ -24,7 +24,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.4.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 22487,
+      "downloadCount": 22488,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "version": "2.4.2"
     },
@@ -255,6 +255,26 @@
       "downloadCount": 71,
       "repo": "https://github.com/NicholasConnors/outer-wilds-third-person-camera",
       "version": "v1.1.1"
+    },
+    {
+      "name": "NomaiVR Online Patches",
+      "uniqueName": "Artum.NomaiVROnlinePatches",
+      "description": "Patches to adapt some Outer Wilds Online features to NomaiVR",
+      "author": "artumino",
+      "downloadUrl": "https://github.com/artumino/NomaiVROnlinePatches/releases/download/0.0.3/Artum.NomaiVROnlinePatches.zip",
+      "downloadCount": 0,
+      "repo": "https://github.com/artumino/NomaiVROnlinePatches",
+      "version": "0.0.3"
+    },
+    {
+      "name": "NomaiVR FFR",
+      "uniqueName": "Artum.NomaiVRFoveated",
+      "description": "A mod which uses HTC's FFR plugin to provide fixed foveated rendering in NomaiVR on NVIDIA RTX cards",
+      "author": "artumino",
+      "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.0/Artum.NomaiVRFoveated.zip",
+      "downloadCount": 0,
+      "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
+      "version": "1.0.0"
     }
   ]
 }
