@@ -16,9 +16,9 @@ body:
   - type: input
     id: repo
     attributes:
-      label: GitHub repository
+      label: GitHub repository URL
       description: GitHub repository that contains the mod's source code and releases.
-      placeholder: Raicuparta/ow-mod-template
+      placeholder: https://github.com/Raicuparta/ow-mod-template
     validations:
       required: true
   - type: input
