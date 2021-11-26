@@ -1,7 +1,5 @@
 name: Update Releases
 on:
-  push:
-    branches: [source]
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
