@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 12
 
-      - uses: stefanbuck/github-issue-praser@v2.0.0
+      - uses: stefanbuck/github-issue-praser@main
         id: issue
         with:
           template-path: .github/ISSUE_TEMPLATE/add-mod.yml
