@@ -18,4 +18,4 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/add-mod.yml
 
-      - run: echo ${{ fromJson(steps.issue.outputs.jsonString) }}
+      - run: echo ${{ fromJson(steps.issue.outputs.jsonString).name }}
