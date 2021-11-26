@@ -4,10 +4,13 @@ on:
     types: [opened, edited, reopened]
 jobs:
   setup:
-    if: ${{ github.event.label.name == 'add-mod' }}
+#     if: ${{ github.event.label.name == 'add-mod' }}
 
     runs-on: ubuntu-latest
     steps:
+    
+    
+      - run: ${{ github.event.label.name }}
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
