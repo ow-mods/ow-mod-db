@@ -1,7 +1,7 @@
 name: Handle New Mod Submission
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, reopened]
 jobs:
   setup:
     if: ${{ github.event.label.name == 'add-mod' }}
