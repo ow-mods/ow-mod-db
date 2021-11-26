@@ -10,7 +10,7 @@ jobs:
     steps:
     
     
-      - run: ${{ github.event.label.name }}
+      - run: echo ${{ github.event.label.name }}
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
