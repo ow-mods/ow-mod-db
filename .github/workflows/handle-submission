@@ -1,0 +1,20 @@
+on:
+  issues:
+    types: [labeled]
+jobs:
+  setup:
+    if: ${{ github.event.label.name == 'add-mod' }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - uses: stefanbuck/github-issue-praser@v2.0.0
+        id: issue
+        with:
+          template-path: .github/ISSUE_TEMPLATE/add-mod.yml
+
+      - run: echo ${{ toJson(steps.issue.outputs.jsonString) }}
