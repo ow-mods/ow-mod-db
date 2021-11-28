@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 33164
+    "downloadCount": 33167
   },
   "releases": [
     {
@@ -14,7 +14,7 @@
       "author": "amazingalek",
       "required": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.2.0/OWML.zip",
-      "downloadCount": 26416,
+      "downloadCount": 26420,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.2.0"
     },
@@ -24,7 +24,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.4.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 22798,
+      "downloadCount": 22801,
       "repo": "https://github.com/Raicuparta/NomaiVR",
       "version": "2.4.2"
     },
@@ -34,7 +34,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.13.0/QSB.zip",
-      "downloadCount": 5700,
+      "downloadCount": 5701,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "version": "0.13.0",
       "prerelease": {
@@ -68,7 +68,7 @@
       "description": "",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.2.0/FreeCam.zip",
-      "downloadCount": 1843,
+      "downloadCount": 1844,
       "repo": "https://github.com/misternebula/FreeCam",
       "version": "v2.2.0"
     },
@@ -108,7 +108,7 @@
       "description": "",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/v2.0.1/MenuFramework.zip",
-      "downloadCount": 968,
+      "downloadCount": 969,
       "repo": "https://github.com/misternebula/MenuFramework",
       "version": "v2.0.1"
     },
@@ -142,7 +142,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play! Server is online.",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.3.3/Vesper.OuterWildsMMO.zip",
-      "downloadCount": 254,
+      "downloadCount": 255,
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
       "version": "0.3.3"
     },
@@ -162,7 +162,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.5.1/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 1048,
+      "downloadCount": 1049,
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
       "version": "0.5.1"
     },
@@ -182,7 +182,7 @@
       "description": "",
       "author": "leadpogrommer",
       "downloadUrl": "https://github.com/leadpogrommer/PeacefulGhosts/releases/download/v0.1.0/Leadpogrommer.PeacefulGhosts.zip",
-      "downloadCount": 342,
+      "downloadCount": 343,
       "repo": "https://github.com/leadpogrommer/PeacefulGhosts",
       "version": "v0.1.0"
     },
@@ -222,7 +222,7 @@
       "description": "A Collection of Common Resource to use throughout downstream mods",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.3.1/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 660,
+      "downloadCount": 662,
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
       "version": "0.3.1"
     },
@@ -251,10 +251,10 @@
       "uniqueName": "xen.ThirdPersonCamera",
       "description": "A third-person camera for Outer Wilds.",
       "author": "NicholasConnors",
-      "downloadUrl": "https://github.com/NicholasConnors/outer-wilds-third-person-camera/releases/download/v1.1.4/xen.ThirdPersonCamera.zip",
-      "downloadCount": 112,
+      "downloadUrl": "https://github.com/NicholasConnors/outer-wilds-third-person-camera/releases/download/v1.1.5/xen.ThirdPersonCamera.zip",
+      "downloadCount": 113,
       "repo": "https://github.com/NicholasConnors/outer-wilds-third-person-camera",
-      "version": "v1.1.4"
+      "version": "v1.1.5"
     },
     {
       "name": "NomaiVR Online Patches",
@@ -262,7 +262,7 @@
       "description": "Patches to adapt some Outer Wilds Online features to NomaiVR",
       "author": "artumino",
       "downloadUrl": "https://github.com/artumino/NomaiVROnlinePatches/releases/download/0.0.3/Artum.NomaiVROnlinePatches.zip",
-      "downloadCount": 26,
+      "downloadCount": 28,
       "repo": "https://github.com/artumino/NomaiVROnlinePatches",
       "version": "0.0.3"
     },
@@ -272,7 +272,7 @@
       "description": "A mod which uses HTC's FFR plugin to provide fixed foveated rendering in NomaiVR on NVIDIA RTX cards",
       "author": "artumino",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.1/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 38,
+      "downloadCount": 40,
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
       "version": "1.0.1"
     },
@@ -281,10 +281,10 @@
       "uniqueName": "xen.StaticCamera",
       "description": "Place a camera where you're standing then walk around in front of it.",
       "author": "NicholasConnors",
-      "downloadUrl": "https://github.com/NicholasConnors/outer-wilds-static-camera/releases/download/v0.1.1/xen.StaticCamera.zip",
+      "downloadUrl": "https://github.com/NicholasConnors/outer-wilds-static-camera/releases/download/v0.1.2/xen.StaticCamera.zip",
       "downloadCount": 17,
       "repo": "https://github.com/NicholasConnors/outer-wilds-static-camera",
-      "version": "v0.1.1"
+      "version": "v0.1.2"
     }
   ]
 }
