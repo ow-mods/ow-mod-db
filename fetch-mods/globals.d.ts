@@ -3,6 +3,7 @@ type ModInfo = {
   uniqueName: string;
   repo: string;
   required?: boolean;
+  utility?: boolean;
 };
 
 type Release = {
