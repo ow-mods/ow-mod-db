@@ -19,6 +19,7 @@ interface Mod extends Release {
   author: string;
   repo: string;
   required?: boolean;
+  utility?: boolean;
   prerelease?: {
     version: string;
     downloadUrl: string;
