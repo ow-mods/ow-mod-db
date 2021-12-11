@@ -3,7 +3,8 @@
     "name": "OWML",
     "uniqueName": "Alek.OWML",
     "repo": "amazingalek/owml",
-    "required": true
+    "required": true,
+    "utility": true
   },
   {
     "name": "NomaiVR",
@@ -23,7 +24,8 @@
   {
     "name": "MN-InputHandler",
     "uniqueName": "misternebula.MN-InputHandler",
-    "repo": "misternebula/InputHandler"
+    "repo": "misternebula/InputHandler",
+    "utility": true
   },
   {
     "name": "FreeCam",
@@ -48,7 +50,8 @@
   {
     "name": "Menu Framework",
     "uniqueName": "_nebula.MenuFramework",
-    "repo": "misternebula/MenuFramework"
+    "repo": "misternebula/MenuFramework",
+    "utility": true
   },
   {
     "name": "ScoutStreaming",
@@ -60,7 +63,7 @@
     "uniqueName": "Vesper.VespersAssortedOuterWildsShaders",
     "repo": "Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders"
   },
-    {
+  {
     "name": "Outer Wilds Online",
     "uniqueName": "Vesper.OuterWildsMMO",
     "repo": "Vesper-Works/OuterWildsOnline"
@@ -103,7 +106,8 @@
   {
     "name": "PacificEngine's Common Resources",
     "uniqueName": "PacificEngine.OW_CommonResources",
-    "repo": "PacificEngine/OW_CommonResources"
+    "repo": "PacificEngine/OW_CommonResources",
+    "utility": true
   },
   {
     "name": "No Alt Tab Pause",
