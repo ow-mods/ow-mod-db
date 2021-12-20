@@ -127,12 +127,14 @@
   {
     "name": "NomaiVR Online Patches",
     "uniqueName": "Artum.NomaiVROnlinePatches",
-    "repo": "artumino/NomaiVROnlinePatches"
+    "repo": "artumino/NomaiVROnlinePatches",
+    "parent": "Raicuparta.NomaiVR"
   },
   {
     "name": "NomaiVR FFR",
     "uniqueName": "Artum.NomaiVRFoveated",
-    "repo": "artumino/NomaiVR-FixedFoveatedRendering"
+    "repo": "artumino/NomaiVR-FixedFoveatedRendering",
+    "parent": "Raicuparta.NomaiVR"
   },
   {
     "name": "Static Camera",
@@ -177,26 +179,31 @@
   {
     "name": "New Horizons",
     "uniqueName": "xen.NewHorizons",
-    "repo": "xen-42/outer-wilds-new-horizons"
+    "repo": "xen-42/outer-wilds-new-horizons",
+    "parent": "xen.NewHorizons"
   },
   {
     "name": "New Horizons Examples",
     "uniqueName": "xen.NewHorizonsExamples",
-    "repo": "xen-42/ow-new-horizons-examples"
+    "repo": "xen-42/ow-new-horizons-examples",
+    "parent": "xen.NewHorizons"
   },
   {
     "name": "Real Solar System",
     "uniqueName": "xen.RealSolarSystem",
-    "repo": "xen-42/outer-wilds-real-solar-system"
+    "repo": "xen-42/outer-wilds-real-solar-system",
+    "parent": "xen.NewHorizons"
   },
   {
     "name": "Atropos",
     "uniqueName": "Titch.OWAtropos",
-    "repo": "TitchMW/OWAtropos"
+    "repo": "TitchMW/OWAtropos",
+    "parent": "xen.NewHorizons"
   },
   {
     "name": "ElliePlanets!",
     "uniqueName": "Ellie3.ElliePlanets",
-    "repo": "ellie3-OW/ElliePlanets"
+    "repo": "ellie3-OW/ElliePlanets",
+    "parent": "xen.NewHorizons"
   }
 ]
