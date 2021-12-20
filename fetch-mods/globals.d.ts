@@ -4,6 +4,7 @@ type ModInfo = {
   repo: string;
   required?: boolean;
   utility?: boolean;
+  parent?: string;
 };
 
 type Release = {

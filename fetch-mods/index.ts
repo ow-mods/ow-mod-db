@@ -126,6 +126,7 @@ async function run() {
             author: githubRepository.owner.login,
             required: modInfo.required,
             utility: modInfo.utility,
+            parent: modInfo.parent,
             downloadUrl: latestRelease.downloadUrl,
             downloadCount: totalDownloadCount,
             repo,
