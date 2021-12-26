@@ -51,42 +51,46 @@ async function run() {
 
     const results = [];
     for (let modInfo of modInfos) {
-      const [owner, repo] = modInfo.repo.split("/");
+      try {
+        const [owner, repo] = modInfo.repo.split("/");
 
-      const getReadme = async () => {
-        try {
-          return octokit.rest.repos.getReadme({
+        const getReadme = async () => {
+          try {
+            return octokit.rest.repos.getReadme({
+              owner,
+              repo,
+            });
+          } catch {
+            console.log("no readme found");
+          }
+        };
+
+        const readme = await getReadme();
+
+        const fullReleaseList = await octokit.paginate(
+          octokit.rest.repos.listReleases,
+          {
             owner,
             repo,
-          });
-        } catch {
-          console.log("no readme found");
-        }
-      };
+            per_page: 100,
+          }
+        );
+        const prereleaseList = fullReleaseList.filter(
+          (release) => release.prerelease
+        );
+        const releaseList = fullReleaseList.filter(
+          (release) => !release.prerelease
+        );
 
-      const readme = await getReadme();
-
-      const fullReleaseList = await octokit.paginate(
-        octokit.rest.repos.listReleases,
-        {
-          owner,
-          repo,
-          per_page: 100,
-        }
-      );
-      const prereleaseList = fullReleaseList.filter(
-        (release) => release.prerelease
-      );
-      const releaseList = fullReleaseList.filter(
-        (release) => !release.prerelease
-      );
-
-      results.push({
-        releaseList,
-        prereleaseList,
-        modInfo,
-        readmeUrl: readme?.url,
-      });
+        results.push({
+          releaseList,
+          prereleaseList,
+          modInfo,
+          readmeUrl: readme?.url,
+        });
+      } catch (error) {
+        console.log("Error reading mod info", error);
+      }
     }
 
     function getCleanedUpReleases(
