@@ -22,7 +22,10 @@ interface Mod extends Release {
   required?: boolean;
   utility?: boolean;
   parent?: string;
-  readmeUrl?: string;
+  readme?: {
+    downloadUrl?: string;
+    htmlUrl?: string;
+  };
   prerelease?: {
     version: string;
     downloadUrl: string;
