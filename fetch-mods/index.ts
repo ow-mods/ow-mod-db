@@ -1,8 +1,6 @@
 import * as core from "@actions/core";
 import { getOctokit } from "@actions/github";
-import axios from "axios";
 
-const RAW_URL_BASE = "https://raw.githubusercontent.com";
 const REPO_URL_BASE = "https://github.com";
 const JSON_INDENT = 2;
 
