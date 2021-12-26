@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 36510
+    "downloadCount": 36513
   },
   "releases": [
     {
@@ -15,10 +15,13 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.2.0/OWML.zip",
-      "downloadCount": 29093,
+      "downloadCount": 29094,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.2.0",
-      "readmeUrl": "https://github.com/amazingalek/owml/blob/master/Readme.md"
+      "readme": {
+        "htmlUrl": "https://github.com/amazingalek/owml/blob/master/Readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml/master/Readme.md"
+      }
     },
     {
       "name": "NomaiVR",
@@ -26,10 +29,13 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.5.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 25414,
+      "downloadCount": 25415,
       "repo": "https://github.com/Raicuparta/nomai-vr",
       "version": "2.5.1",
-      "readmeUrl": "https://github.com/Raicuparta/nomai-vr/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/Raicuparta/nomai-vr/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
+      }
     },
     {
       "name": "Quantum Space Buddies",
@@ -40,7 +46,10 @@
       "downloadCount": 6503,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "version": "0.14.0",
-      "readmeUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
+      "readme": {
+        "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
+      },
       "prerelease": {
         "version": "0.12.0-pr4",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.12.0-pr4/QSB.zip"
@@ -55,7 +64,10 @@
       "downloadCount": 5032,
       "repo": "https://github.com/amazingalek/owml-light-bramble",
       "version": "v0.7",
-      "readmeUrl": "https://github.com/amazingalek/owml-light-bramble/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/amazingalek/owml-light-bramble/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml-light-bramble/master/README.md"
+      }
     },
     {
       "name": "MN-InputHandler",
@@ -67,7 +79,10 @@
       "downloadCount": 2408,
       "repo": "https://github.com/misternebula/InputHandler",
       "version": "v2.0.0",
-      "readmeUrl": "https://github.com/misternebula/InputHandler/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/misternebula/InputHandler/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/misternebula/InputHandler/master/README.md"
+      }
     },
     {
       "name": "FreeCam",
@@ -78,7 +93,10 @@
       "downloadCount": 2033,
       "repo": "https://github.com/misternebula/FreeCam",
       "version": "v2.2.0",
-      "readmeUrl": "https://github.com/misternebula/FreeCam/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/misternebula/FreeCam/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/misternebula/FreeCam/master/README.md"
+      }
     },
     {
       "name": "Crouch Mod",
@@ -89,7 +107,10 @@
       "downloadCount": 1064,
       "repo": "https://github.com/amazingalek/owml-crouch-mod",
       "version": "0.4",
-      "readmeUrl": "https://github.com/amazingalek/owml-crouch-mod/blob/master/Readme.md"
+      "readme": {
+        "htmlUrl": "https://github.com/amazingalek/owml-crouch-mod/blob/master/Readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml-crouch-mod/master/Readme.md"
+      }
     },
     {
       "name": "Clock",
@@ -100,7 +121,10 @@
       "downloadCount": 3639,
       "repo": "https://github.com/clubby789/OWClock",
       "version": "0.5.0",
-      "readmeUrl": "https://github.com/clubby789/OWClock/blob/master/README.md",
+      "readme": {
+        "htmlUrl": "https://github.com/clubby789/OWClock/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/clubby789/OWClock/master/README.md"
+      },
       "prerelease": {
         "version": "0.6.1",
         "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.6.1/Release.zip"
@@ -115,7 +139,10 @@
       "downloadCount": 865,
       "repo": "https://github.com/amazingalek/owml-cammie",
       "version": "v0.3",
-      "readmeUrl": "https://github.com/amazingalek/owml-cammie/blob/master/Readme.md"
+      "readme": {
+        "htmlUrl": "https://github.com/amazingalek/owml-cammie/blob/master/Readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml-cammie/master/Readme.md"
+      }
     },
     {
       "name": "Menu Framework",
@@ -137,7 +164,10 @@
       "downloadCount": 871,
       "repo": "https://github.com/Vesper-Works/Scout-Streaming",
       "version": "1.1.0",
-      "readmeUrl": "https://github.com/Vesper-Works/Scout-Streaming/blob/master/README.md",
+      "readme": {
+        "htmlUrl": "https://github.com/Vesper-Works/Scout-Streaming/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Scout-Streaming/master/README.md"
+      },
       "prerelease": {
         "version": "1.2.0",
         "downloadUrl": "https://github.com/Vesper-Works/Scout-Streaming/releases/download/1.2.0/Release.1.2.0.zip"
@@ -152,7 +182,10 @@
       "downloadCount": 210,
       "repo": "https://github.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders",
       "version": "1.1.0",
-      "readmeUrl": "https://github.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders/master/README.md"
+      }
     },
     {
       "name": "Outer Wilds Online",
@@ -163,7 +196,10 @@
       "downloadCount": 827,
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
       "version": "0.3.6",
-      "readmeUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
+      }
     },
     {
       "name": "Cheat and Debug Menu",
@@ -174,7 +210,10 @@
       "downloadCount": 899,
       "repo": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu",
       "version": "0.5.3",
-      "readmeUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/main/README.md"
+      }
     },
     {
       "name": "Cheats Mod",
@@ -185,7 +224,10 @@
       "downloadCount": 1676,
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
       "version": "0.6.1",
-      "readmeUrl": "https://github.com/PacificEngine/OW_CheatsMod/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/PacificEngine/OW_CheatsMod/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_CheatsMod/main/README.md"
+      }
     },
     {
       "name": "Difficulty Mod",
@@ -196,7 +238,10 @@
       "downloadCount": 288,
       "repo": "https://github.com/PacificEngine/OW_HardMode",
       "version": "0.4.0",
-      "readmeUrl": "https://github.com/PacificEngine/OW_HardMode/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/PacificEngine/OW_HardMode/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_HardMode/main/README.md"
+      }
     },
     {
       "name": "Peaceful Ghosts",
@@ -207,7 +252,10 @@
       "downloadCount": 515,
       "repo": "https://github.com/leadpogrommer/PeacefulGhosts",
       "version": "v0.1.0",
-      "readmeUrl": "https://github.com/leadpogrommer/PeacefulGhosts/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/leadpogrommer/PeacefulGhosts/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/leadpogrommer/PeacefulGhosts/master/README.md"
+      }
     },
     {
       "name": "SlowTime",
@@ -218,7 +266,10 @@
       "downloadCount": 475,
       "repo": "https://github.com/dwatson251/ow-slowtime",
       "version": "v0.1.0",
-      "readmeUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
+      }
     },
     {
       "name": "OW Smooth Thrust",
@@ -239,7 +290,10 @@
       "downloadCount": 435,
       "repo": "https://github.com/PacificEngine/OW_Randomizer",
       "version": "0.6.2",
-      "readmeUrl": "https://github.com/PacificEngine/OW_Randomizer/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/PacificEngine/OW_Randomizer/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_Randomizer/main/README.md"
+      }
     },
     {
       "name": "PacificEngine's Common Resources",
@@ -251,7 +305,10 @@
       "downloadCount": 1388,
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
       "version": "0.4.5",
-      "readmeUrl": "https://github.com/PacificEngine/OW_CommonResources/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/PacificEngine/OW_CommonResources/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_CommonResources/main/README.md"
+      }
     },
     {
       "name": "No Alt Tab Pause",
@@ -262,7 +319,10 @@
       "downloadCount": 135,
       "repo": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause",
       "version": "0.1.0",
-      "readmeUrl": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/lStewieAl/OuterWilds-NoAltTabPause/master/README.md"
+      }
     },
     {
       "name": "Echoes of the Caribbean",
@@ -273,7 +333,10 @@
       "downloadCount": 190,
       "repo": "https://github.com/tealhelix/ow-mod-eote-ridemusic",
       "version": "1.1.3",
-      "readmeUrl": "https://github.com/tealhelix/ow-mod-eote-ridemusic/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/tealhelix/ow-mod-eote-ridemusic/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/tealhelix/ow-mod-eote-ridemusic/master/README.md"
+      }
     },
     {
       "name": "Third Person Camera",
@@ -284,7 +347,10 @@
       "downloadCount": 401,
       "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
       "version": "v1.1.8",
-      "readmeUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-third-person-camera/master/README.md"
+      }
     },
     {
       "name": "NomaiVR Online Patches",
@@ -296,7 +362,10 @@
       "downloadCount": 183,
       "repo": "https://github.com/artumino/NomaiVROnlinePatches",
       "version": "0.0.6",
-      "readmeUrl": "https://github.com/artumino/NomaiVROnlinePatches/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/artumino/NomaiVROnlinePatches/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/artumino/NomaiVROnlinePatches/master/README.md"
+      }
     },
     {
       "name": "NomaiVR FFR",
@@ -315,10 +384,13 @@
       "description": "Place a camera where you're standing then walk around in front of it.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-static-camera/releases/download/v0.1.3/xen.StaticCamera.zip",
-      "downloadCount": 112,
+      "downloadCount": 113,
       "repo": "https://github.com/xen-42/outer-wilds-static-camera",
       "version": "v0.1.3",
-      "readmeUrl": "https://github.com/xen-42/outer-wilds-static-camera/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-static-camera/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-static-camera/master/README.md"
+      }
     },
     {
       "name": "Daydream",
@@ -329,7 +401,10 @@
       "downloadCount": 223,
       "repo": "https://github.com/xen-42/outer-wilds-day-dream",
       "version": "v1.0.0",
-      "readmeUrl": "https://github.com/xen-42/outer-wilds-day-dream/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-day-dream/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-day-dream/master/README.md"
+      }
     },
     {
       "name": "EotE Brighter Dreams",
@@ -340,7 +415,10 @@
       "downloadCount": 298,
       "repo": "https://github.com/Heelio/EotE-Brighter-Dreams",
       "version": "0.1.1",
-      "readmeUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Heelio/EotE-Brighter-Dreams/master/README.md"
+      }
     },
     {
       "name": "Unity Explorer",
@@ -351,7 +429,10 @@
       "downloadCount": 72,
       "repo": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds",
       "version": "1.0.0",
-      "readmeUrl": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/main/README.md"
+      }
     },
     {
       "name": "Half-Life Overhaul",
@@ -362,7 +443,10 @@
       "downloadCount": 151,
       "repo": "https://github.com/Vesper-Works/OuterWildsHalf-Life",
       "version": "0.7.0",
-      "readmeUrl": "https://github.com/Vesper-Works/OuterWildsHalf-Life/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/Vesper-Works/OuterWildsHalf-Life/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsHalf-Life/main/README.md"
+      }
     },
     {
       "name": "Auto Resume",
@@ -373,7 +457,10 @@
       "downloadCount": 82,
       "repo": "https://github.com/Vesper-Works/AutoResume",
       "version": "1.0.0",
-      "readmeUrl": "https://github.com/Vesper-Works/AutoResume/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/Vesper-Works/AutoResume/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/AutoResume/master/README.md"
+      }
     },
     {
       "name": "Outer Thomas Echoes of the Tank Engine",
@@ -384,7 +471,10 @@
       "downloadCount": 99,
       "repo": "https://github.com/xen-42/outer-wilds-tank-engine",
       "version": "v1.0.0",
-      "readmeUrl": "https://github.com/xen-42/outer-wilds-tank-engine/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-tank-engine/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-tank-engine/master/README.md"
+      }
     },
     {
       "name": "Majora's Mask's Moon",
@@ -395,7 +485,10 @@
       "downloadCount": 85,
       "repo": "https://github.com/xen-42/outer-wilds-majoras-mask",
       "version": "v1.0.0",
-      "readmeUrl": "https://github.com/xen-42/outer-wilds-majoras-mask/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-majoras-mask/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-majoras-mask/master/README.md"
+      }
     },
     {
       "name": "New Horizons",
@@ -406,7 +499,10 @@
       "downloadCount": 270,
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
       "version": "v0.1.2",
-      "readmeUrl": "https://github.com/xen-42/outer-wilds-new-horizons/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-new-horizons/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/README.md"
+      }
     },
     {
       "name": "New Horizons Examples",
@@ -415,10 +511,13 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/ow-new-horizons-examples/releases/download/v0.1.1/xen.NewHorizonsExamples.zip",
-      "downloadCount": 128,
+      "downloadCount": 129,
       "repo": "https://github.com/xen-42/ow-new-horizons-examples",
       "version": "v0.1.1",
-      "readmeUrl": "https://github.com/xen-42/ow-new-horizons-examples/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/ow-new-horizons-examples/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-new-horizons-examples/main/README.md"
+      }
     },
     {
       "name": "Real Solar System",
@@ -430,7 +529,10 @@
       "downloadCount": 186,
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
       "version": "v0.1.2",
-      "readmeUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-real-solar-system/main/README.md"
+      }
     },
     {
       "name": "Atropos",
@@ -439,10 +541,13 @@
       "author": "TitchMW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TitchMW/OWAtropos/releases/download/0.3.0/Titch.OWAtropos.zip",
-      "downloadCount": 164,
+      "downloadCount": 165,
       "repo": "https://github.com/TitchMW/OWAtropos",
       "version": "0.3.0",
-      "readmeUrl": "https://github.com/TitchMW/OWAtropos/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/TitchMW/OWAtropos/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TitchMW/OWAtropos/main/README.md"
+      }
     },
     {
       "name": "ElliePlanets!",
@@ -451,10 +556,13 @@
       "author": "ellie3-OW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/ellie3-OW/ElliePlanets/releases/download/1.2.0/ElliePlanets-1.2.0.zip",
-      "downloadCount": 93,
+      "downloadCount": 94,
       "repo": "https://github.com/ellie3-OW/ElliePlanets",
       "version": "1.2.0",
-      "readmeUrl": "https://github.com/ellie3-OW/ElliePlanets/blob/main/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/ellie3-OW/ElliePlanets/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ellie3-OW/ElliePlanets/main/README.md"
+      }
     },
     {
       "name": "Teeny Hatchling",
@@ -465,7 +573,10 @@
       "downloadCount": 33,
       "repo": "https://github.com/Owen013/Teeny-Hatchling",
       "version": "v0.0.5",
-      "readmeUrl": "https://github.com/Owen013/Teeny-Hatchling/blob/master/readme.md"
+      "readme": {
+        "htmlUrl": "https://github.com/Owen013/Teeny-Hatchling/blob/master/readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Teeny-Hatchling/master/readme.md"
+      }
     },
     {
       "name": "Movement Mod",
@@ -476,7 +587,10 @@
       "downloadCount": 36,
       "repo": "https://github.com/Owen013/Movement-Mod",
       "version": "v0.0.4",
-      "readmeUrl": "https://github.com/Owen013/Movement-Mod/blob/master/README.md"
+      "readme": {
+        "htmlUrl": "https://github.com/Owen013/Movement-Mod/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Movement-Mod/master/README.md"
+      }
     }
   ]
 }
