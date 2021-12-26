@@ -1,5 +1,5 @@
-import * as core from "@actions/core";
 import { getOctokit } from "@actions/github";
+import * as core from "@actions/core";
 
 const REPO_URL_BASE = "https://github.com";
 const JSON_INDENT = 2;
@@ -53,10 +53,18 @@ async function run() {
     for (let modInfo of modInfos) {
       const [owner, repo] = modInfo.repo.split("/");
 
-      const readme = await octokit.rest.repos.getReadme({
-        owner,
-        repo,
-      });
+      const getReadme = async () => {
+        try {
+          return octokit.rest.repos.getReadme({
+            owner,
+            repo,
+          });
+        } catch {
+          console.log("no readme found");
+        }
+      };
+
+      const readme = await getReadme();
 
       const fullReleaseList = await octokit.paginate(
         octokit.rest.repos.listReleases,
@@ -77,7 +85,7 @@ async function run() {
         releaseList,
         prereleaseList,
         modInfo,
-        readmeUrl: readme.url,
+        readmeUrl: readme?.url,
       });
     }
 
