@@ -26,10 +26,13 @@ async function run() {
     const gitHubToken = core.getInput(Input.gitHubToken);
     const octokit = getOctokit(gitHubToken);
 
-    const managerReleases = await octokit.paginate(octokit.repos.listReleases, {
-      ...managerRepo,
-      per_page: 100,
-    });
+    const managerReleases = await octokit.paginate(
+      octokit.rest.repos.listReleases,
+      {
+        ...managerRepo,
+        per_page: 100,
+      }
+    );
     const managerLatestRelease = managerReleases[0];
     const managerDownloadCount = managerReleases.reduce(
       (managerDownloadAccumulator, { assets }) => {
@@ -53,7 +56,7 @@ async function run() {
       const [owner, repo] = modInfo.repo.split("/");
 
       const fullReleaseList = await octokit.paginate(
-        octokit.repos.listReleases,
+        octokit.rest.repos.listReleases,
         {
           owner,
           repo,
@@ -110,7 +113,7 @@ async function run() {
 
           const splitRepo = modInfo.repo.split("/");
           const githubRepository = (
-            await octokit.repos.get({
+            await octokit.rest.repos.get({
               owner: splitRepo[0],
               repo: splitRepo[1],
             })
