@@ -56,16 +56,20 @@ async function run() {
 
         const getReadme = async () => {
           try {
-            return octokit.rest.repos.getReadme({
-              owner,
-              repo,
-            });
+            return (
+              (
+                await octokit.rest.repos.getReadme({
+                  owner,
+                  repo,
+                })
+              ).data.html_url || undefined
+            );
           } catch {
             console.log("no readme found");
           }
         };
 
-        const readme = await getReadme();
+        const readmeUrl = await getReadme();
 
         const fullReleaseList = await octokit.paginate(
           octokit.rest.repos.listReleases,
@@ -86,7 +90,7 @@ async function run() {
           releaseList,
           prereleaseList,
           modInfo,
-          readmeUrl: readme?.url,
+          readmeUrl: readmeUrl,
         });
       } catch (error) {
         console.log("Error reading mod info", error);
