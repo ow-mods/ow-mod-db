@@ -23,7 +23,9 @@ jobs:
           version: 6.23.6
           run_install: true
       - name: Build
-        run: pnpm run build
+        run: |
+          cd fetch-mods
+          pnpm run build
       - name: Get local Mod Database file
         id: local-mods
         run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
