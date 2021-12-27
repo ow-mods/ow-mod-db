@@ -23,6 +23,15 @@ jobs:
         id: local-mods
         run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.23.6
+          run_install: true
+      - name: Build
+        run: |
+          cd fetch-mods
+          pnpm run build
+
       - name: Create PR from issue
         id: create-pr
         uses: ./create-pr
