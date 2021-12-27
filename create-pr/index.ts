@@ -35,7 +35,7 @@ async function run() {
     },
   ];
 
-  core.setOutput(Output.mods, JSON.stringify(newMods, null, 2));
+  core.setOutput(Output.mods, `${JSON.stringify(newMods, null, 2)}\n`);
 }
 
 run();
