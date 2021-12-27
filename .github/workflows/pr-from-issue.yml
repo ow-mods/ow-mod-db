@@ -49,3 +49,6 @@ jobs:
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
+        with:
+          title: "Add ${{fromJSON(steps.issue-parser.outputs.jsonString).name}}"
+          body: "${{fromJSON(steps.issue-parser.outputs.jsonString).repo}}"
