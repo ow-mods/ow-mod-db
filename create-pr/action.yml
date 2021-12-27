@@ -1,0 +1,19 @@
+name: "Create PR"
+description: "Creates PR from issue form"
+inputs:
+  github-token:
+    description: "Token for GitHub authentication"
+    required: true
+  form:
+    description: "JSON data from issue form"
+    required: true
+  mods:
+    description: "Initial JSON list to modify"
+    required: true
+    default: "[]"
+outputs:
+  mods:
+    description: "Updated JSON list of mods"
+runs:
+  using: "node17"
+  main: "build/index.js"

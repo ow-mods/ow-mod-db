@@ -1,16 +1,16 @@
-name: 'Get mods'
-description: 'Gets mod releases'
+name: "Get mods"
+description: "Gets mod releases"
 inputs:
   mods:
-    description: 'JSON list of mods to check'
+    description: "JSON list of mods to check"
     required: true
-    default: '[]'
+    default: "[]"
   github-token:
-    description: 'Token for GitHub authentication'
+    description: "Token for GitHub authentication"
     required: true
 outputs:
   releases:
-    description: 'JSON list of latest mod releases'
+    description: "JSON list of latest mod releases"
 runs:
-  using: 'node12'
-  main: 'build/index.js'
+  using: "node17"
+  main: "build/index.js"
