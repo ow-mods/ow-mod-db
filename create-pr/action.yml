@@ -15,5 +15,5 @@ outputs:
   mods:
     description: "Updated JSON list of mods"
 runs:
-  using: "node17"
+  using: "node16"
   main: "build/index.js"

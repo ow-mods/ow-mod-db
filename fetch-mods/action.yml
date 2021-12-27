@@ -12,5 +12,5 @@ outputs:
   releases:
     description: "JSON list of latest mod releases"
 runs:
-  using: "node17"
+  using: "node16"
   main: "build/index.js"
