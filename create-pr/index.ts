@@ -11,29 +11,33 @@ enum Output {
   mods = "mods",
 }
 
-type IssueForm = {
-  name?: string;
-  repo?: string;
-  uniqueName?: string;
-};
+type IssueForm = Partial<ModInfo>;
 
 async function run() {
-  const form: IssueForm = JSON.parse(core.getInput(Input.form));
+  const { name, repo, uniqueName, parent, utility }: IssueForm = JSON.parse(
+    core.getInput(Input.form)
+  );
 
-  if (!form.name || !form.repo || !form.uniqueName) {
+  if (!name || !repo || !uniqueName) {
     throw new Error("Invalid form format");
   }
 
   const mods: ModInfo[] = JSON.parse(core.getInput(Input.mods));
+  const newMod: ModInfo = {
+    name,
+    repo,
+    uniqueName,
+  };
 
-  const newMods: ModInfo[] = [
-    ...mods,
-    {
-      name: form.name,
-      repo: form.repo,
-      uniqueName: form.uniqueName,
-    },
-  ];
+  if (parent) {
+    newMod.parent = parent;
+  }
+
+  if (utility) {
+    newMod.utility = utility;
+  }
+
+  const newMods: ModInfo[] = [...mods, newMod];
 
   core.setOutput(Output.mods, `${JSON.stringify(newMods, null, 2)}\n`);
 }
