@@ -11,7 +11,13 @@ enum Output {
   mods = "mods",
 }
 
-type IssueForm = Partial<ModInfo>;
+type IssueForm = {
+  name?: string;
+  uniqueName?: string;
+  repo?: string;
+  utility?: string;
+  parent?: string;
+};
 
 async function run() {
   const { name, repo, uniqueName, parent, utility }: IssueForm = JSON.parse(
@@ -34,7 +40,7 @@ async function run() {
   }
 
   if (utility) {
-    newMod.utility = utility;
+    newMod.utility = Boolean(utility);
   }
 
   const newMods: ModInfo[] = [...mods, newMod];
