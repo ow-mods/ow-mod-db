@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 36778
+    "downloadCount": 36781
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.2.0/OWML.zip",
-      "downloadCount": 29324,
+      "downloadCount": 29326,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.2.0",
       "readme": {
@@ -29,7 +29,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.5.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 25600,
+      "downloadCount": 25601,
       "repo": "https://github.com/Raicuparta/nomai-vr",
       "version": "2.5.1",
       "readme": {
@@ -53,63 +53,6 @@
       "prerelease": {
         "version": "0.12.0-pr4",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.12.0-pr4/QSB.zip"
-      }
-    },
-    {
-      "name": "Light Bramble",
-      "uniqueName": "Alek.LightBramble",
-      "description": "Dark Bramble without fish or fog.",
-      "author": "amazingalek",
-      "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 5065,
-      "repo": "https://github.com/amazingalek/owml-light-bramble",
-      "version": "v0.7",
-      "readme": {
-        "htmlUrl": "https://github.com/amazingalek/owml-light-bramble/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml-light-bramble/master/README.md"
-      }
-    },
-    {
-      "name": "MN-InputHandler",
-      "uniqueName": "misternebula.MN-InputHandler",
-      "description": "An input handler for Outer Wilds mods.",
-      "author": "misternebula",
-      "utility": true,
-      "downloadUrl": "https://github.com/misternebula/InputHandler/releases/download/v2.0.0/MN-InputHandler.zip",
-      "downloadCount": 2424,
-      "repo": "https://github.com/misternebula/InputHandler",
-      "version": "v2.0.0",
-      "readme": {
-        "htmlUrl": "https://github.com/misternebula/InputHandler/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/misternebula/InputHandler/master/README.md"
-      }
-    },
-    {
-      "name": "FreeCam",
-      "uniqueName": "misternebula.FreeCam",
-      "description": "",
-      "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.2.0/FreeCam.zip",
-      "downloadCount": 2046,
-      "repo": "https://github.com/misternebula/FreeCam",
-      "version": "v2.2.0",
-      "readme": {
-        "htmlUrl": "https://github.com/misternebula/FreeCam/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/misternebula/FreeCam/master/README.md"
-      }
-    },
-    {
-      "name": "Crouch Mod",
-      "uniqueName": "Alek.CrouchMod",
-      "description": "Enables crouching in Outer Wilds.",
-      "author": "amazingalek",
-      "downloadUrl": "https://github.com/amazingalek/owml-crouch-mod/releases/download/0.4/OWML.CrouchMod.zip",
-      "downloadCount": 1072,
-      "repo": "https://github.com/amazingalek/owml-crouch-mod",
-      "version": "0.4",
-      "readme": {
-        "htmlUrl": "https://github.com/amazingalek/owml-crouch-mod/blob/master/Readme.md",
-        "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml-crouch-mod/master/Readme.md"
       }
     },
     {
@@ -263,7 +206,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 492,
+      "downloadCount": 493,
       "repo": "https://github.com/dwatson251/ow-slowtime",
       "version": "v0.1.0",
       "readme": {
@@ -287,7 +230,7 @@
       "description": "Randomizes stuff in outer wilds",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_Randomizer/releases/download/0.7.0/PacificEngine.OW_Randomizer.zip",
-      "downloadCount": 470,
+      "downloadCount": 471,
       "repo": "https://github.com/PacificEngine/OW_Randomizer",
       "version": "0.7.0",
       "readme": {
@@ -302,7 +245,7 @@
       "author": "PacificEngine",
       "utility": true,
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.5.0/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 1528,
+      "downloadCount": 1529,
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
       "version": "0.5.0",
       "readme": {
@@ -412,7 +355,7 @@
       "description": "Outer Wilds mod: gives the player night vision on Echoes of the Eye's dream world.",
       "author": "Heelio",
       "downloadUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/releases/download/0.1.1/Heelio.EotEBrighterDreams.zip",
-      "downloadCount": 318,
+      "downloadCount": 319,
       "repo": "https://github.com/Heelio/EotE-Brighter-Dreams",
       "version": "0.1.1",
       "readme": {
@@ -426,7 +369,7 @@
       "description": "Allows you to look at a recreation of the Unity editor during runtime",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/releases/download/1.0.0/Release.zip",
-      "downloadCount": 77,
+      "downloadCount": 78,
       "repo": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds",
       "version": "1.0.0",
       "readme": {
