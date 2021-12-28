@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
@@ -30,6 +31,7 @@ jobs:
         with:
           version: 6.23.6
           run_install: true
+
       - name: Build
         run: |
           cd create-pr
@@ -54,4 +56,6 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           title: "Add ${{fromJSON(steps.issue-parser.outputs.jsonString).name}}"
+          commit-message: "Add ${{fromJSON(steps.issue-parser.outputs.jsonString).name}}"
           body: "${{fromJSON(steps.issue-parser.outputs.jsonString).repo}}"
+          branch-suffix: short-commit-hash
