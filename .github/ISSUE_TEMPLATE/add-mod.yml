@@ -22,7 +22,7 @@ body:
     validations:
       required: true
   - type: input
-    id: repo
+    id: repoUrl
     attributes:
       label: GitHub repository URL
       description: GitHub repository that contains the mod's source code and releases.

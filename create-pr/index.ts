@@ -13,26 +13,32 @@ enum Output {
 type IssueForm = {
   name?: string;
   uniqueName?: string;
-  repo?: string;
+  repoUrl?: string;
   utility?: string;
   parent?: string;
 };
 
 async function run() {
-  const { name, repo, uniqueName, parent, utility }: IssueForm = JSON.parse(
+  const { name, repoUrl, uniqueName, parent, utility }: IssueForm = JSON.parse(
     core.getInput(Input.form)
   );
 
-  if (!name || !repo || !uniqueName) {
+  if (!name || !repoUrl || !uniqueName) {
     throw new Error("Invalid form format");
+  }
+
+  const repo = repoUrl.match(/github\.com\/([^\/]+\/[^\/]+)\/?.*/)?.[1];
+
+  if (!repo) {
+    throw new Error("Invalid repo URL " + repoUrl);
   }
 
   const mods: ModInfo[] = JSON.parse(core.getInput(Input.mods));
 
   const newMod: ModInfo = {
     name,
-    repo,
     uniqueName,
+    repo,
   };
 
   if (parent) {
