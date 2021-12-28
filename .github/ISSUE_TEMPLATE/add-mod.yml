@@ -33,12 +33,12 @@ body:
     id: parent
     attributes:
       label: Parent uniqueName
-      description: Optional. If this mod is an addon for another mod, place the parent's uniqueName here.
+      description: If this mod is an addon for another mod, place the parent's uniqueName here. For instance, custom planets made with New Horizons would have `xen.NewHorizons` in this field.
       placeholder: Raicuparta.ModTemplateParent
   - type: checkboxes
     id: utility
     attributes:
       label: Utility mod
-      description: Optional. Check this if this mod isn't useful by itself, and only serves as a dependency for other mods.
+      description: Check this if this mod isn't useful by itself, and only serves as a dependency for other mods.
       options:
         - label: This is a utility mod
