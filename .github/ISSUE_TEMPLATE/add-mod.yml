@@ -40,8 +40,8 @@ body:
       label: Utility mod dropdown
       description: A mod is a utility only if it isn't useful by itself, and only serves as a dependency for other mods.
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
   - type: checkboxes
     id: utility
     attributes:
