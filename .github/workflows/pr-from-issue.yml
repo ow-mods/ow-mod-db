@@ -58,4 +58,4 @@ jobs:
           title: "Add ${{fromJSON(steps.issue-parser.outputs.jsonString).name}}"
           commit-message: "Add ${{fromJSON(steps.issue-parser.outputs.jsonString).name}}"
           body: "Closes #${{ github.event.issue.number }}\n${{fromJSON(steps.issue-parser.outputs.jsonString).repo}}"
-          branch-suffix: short-commit-hash
+          branch-suffix: random
