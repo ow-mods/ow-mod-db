@@ -29,3 +29,9 @@ body:
       placeholder: Raicuparta.ModTemplate
     validations:
       required: true
+  - type: checkboxes
+    id: utility
+    attributes:
+      description: Check this if this mod isn't useful by itself, and only serves as a dependency for other mods.
+      options:
+        - label: Is utility mod
