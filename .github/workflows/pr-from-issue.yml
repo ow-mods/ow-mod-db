@@ -1,10 +1,11 @@
 name: PR from Issue
 on:
   issues:
-    types: [opened, reopened]
+    types: [opened, reopened, edited]
 concurrency: "main"
 jobs:
   pr_from_issue:
+    if: ${{ contains(github.event.issue.labels.*.name, 'add-mod') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
