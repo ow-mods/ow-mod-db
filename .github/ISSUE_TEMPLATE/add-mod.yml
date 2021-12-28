@@ -6,6 +6,14 @@ assignees:
   - Raicuparta
 body:
   - type: input
+    id: uniqueName
+    attributes:
+      label: Mod uniqueName
+      description: "Your mod's ID, unique within the whole database. IMPORTANT: must match uniqueName from your mod's manifest.json."
+      placeholder: Raicuparta.ModTemplate
+    validations:
+      required: true
+  - type: input
     id: name
     attributes:
       label: Mod name
@@ -19,14 +27,6 @@ body:
       label: GitHub repository URL
       description: GitHub repository that contains the mod's source code and releases.
       placeholder: https://github.com/Raicuparta/ow-mod-template
-    validations:
-      required: true
-  - type: input
-    id: uniqueName
-    attributes:
-      label: Mod uniqueName
-      description: "Your mod's ID, unique within the whole database. IMPORTANT: must match uniqueName from your mod's manifest.json."
-      placeholder: Raicuparta.ModTemplate
     validations:
       required: true
   - type: input

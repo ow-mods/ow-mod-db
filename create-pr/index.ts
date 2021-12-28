@@ -1,4 +1,3 @@
-import { getOctokit } from "@actions/github";
 import * as core from "@actions/core";
 
 enum Input {
@@ -29,6 +28,7 @@ async function run() {
   }
 
   const mods: ModInfo[] = JSON.parse(core.getInput(Input.mods));
+
   const newMod: ModInfo = {
     name,
     repo,
@@ -43,7 +43,15 @@ async function run() {
     newMod.utility = Boolean(utility);
   }
 
-  const newMods: ModInfo[] = [...mods, newMod];
+  const existingMod = mods.find(
+    (modFromList) => uniqueName === modFromList.uniqueName
+  );
+
+  const newMods: ModInfo[] = existingMod
+    ? mods.map((modFromList) =>
+        modFromList.uniqueName === uniqueName ? newMod : modFromList
+      )
+    : [...mods, newMod];
 
   core.setOutput(Output.mods, JSON.stringify(newMods, null, 2));
 }
