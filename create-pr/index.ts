@@ -47,11 +47,14 @@ async function run() {
     (modFromList) => uniqueName === modFromList.uniqueName
   );
 
-  const newMods: ModInfo[] = existingMod
-    ? mods.map((modFromList) =>
-        modFromList.uniqueName === uniqueName ? newMod : modFromList
-      )
-    : [...mods, newMod];
+  if (existingMod) {
+    existingMod.name = newMod.name;
+    existingMod.repo = newMod.repo;
+    existingMod.parent = newMod.parent;
+    existingMod.utility = newMod.utility;
+  }
+
+  const newMods: ModInfo[] = existingMod ? mods : [...mods, newMod];
 
   core.setOutput(Output.mods, JSON.stringify(newMods, null, 2));
 }
