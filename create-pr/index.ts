@@ -39,7 +39,7 @@ async function run() {
 
   const newMods: ModInfo[] = [...mods, newMod];
 
-  core.setOutput(Output.mods, `${JSON.stringify(newMods, null, 2)}\n`);
+  core.setOutput(Output.mods, JSON.stringify(newMods, null, 2));
 }
 
 run();
