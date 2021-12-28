@@ -31,7 +31,8 @@ body:
       required: true
   - type: checkboxes
     id: utility
+    label: Is utility mod label
     attributes:
       description: Check this if this mod isn't useful by itself, and only serves as a dependency for other mods.
       options:
-        - label: Is utility mod
+        - label: Is utility mod option
