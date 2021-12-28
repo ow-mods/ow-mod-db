@@ -1,5 +1,5 @@
-name: Add mod to database
-description: Request for a new mod to be added to the database.
+name: Add new mod / edit existing mod
+description: Request for a new mod to be added to the database, or edit an existing mod.
 title: "[Your mod name here]"
 labels: ["add-mod"]
 assignees:
@@ -9,7 +9,7 @@ body:
     id: uniqueName
     attributes:
       label: Mod uniqueName
-      description: "Your mod's ID, unique within the whole database. IMPORTANT: must match uniqueName from your mod's manifest.json."
+      description: "Your mod's ID, unchangeable and unique within the whole database. IMPORTANT: must match uniqueName from your mod's `manifest.json`. If you're editing an existing mod, this must match the `uniqueName` of that mod. This property can't be edited."
       placeholder: Raicuparta.ModTemplate
     validations:
       required: true
