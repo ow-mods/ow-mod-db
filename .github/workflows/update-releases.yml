@@ -3,9 +3,11 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
-#   push:
-#     branches:
-#       - source
+  push:
+    branches:
+      - source
+    paths:
+      - 'mods.json'
 jobs:
   build:
     runs-on: ubuntu-latest
