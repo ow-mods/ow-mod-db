@@ -1,4 +1,4 @@
-// TODO avoid repeating type code between create-pr and fetch-mods actions.
+// TODO avoid repeating type code between modify-mod-list and fetch-mods actions.
 
 type ModInfo = {
   name: string;

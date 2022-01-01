@@ -1,5 +1,5 @@
-name: "Create PR"
-description: "Creates PR from issue form"
+name: "Modify mod list"
+description: "Modifies the mod list based on an mod submission issue"
 inputs:
   github-token:
     description: "Token for GitHub authentication"
