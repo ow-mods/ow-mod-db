@@ -75,7 +75,9 @@ async function run() {
   const newMods: ModInfo[] = existingMod ? mods : [...mods, newMod];
 
   core.setOutput(Output.mods, JSON.stringify(newMods, null, 2));
-  core.setOutput(Output.editedExistingMod, Boolean(existingMod));
+  if (existingMod) {
+    core.setOutput(Output.editedExistingMod, true);
+  }
 }
 
 run();
