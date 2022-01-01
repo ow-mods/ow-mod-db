@@ -58,3 +58,4 @@ jobs:
           commit-message: "${{steps.modify-mod-list.outputs.edited-existing-mod && 'Edit existing mod:' || 'Add new mod:'}} ${{fromJSON(steps.issue-parser.outputs.jsonString).uniqueName}}"
           body: "Closes #${{ github.event.issue.number }}\n${{fromJSON(steps.issue-parser.outputs.jsonString).repoUrl}}"
           branch-suffix: random
+          delete-branch: true
