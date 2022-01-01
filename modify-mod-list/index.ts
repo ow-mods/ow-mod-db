@@ -8,8 +8,20 @@ enum Input {
 
 enum Output {
   mods = "mods",
+  editedExistingMod = "edited-existing-mod",
 }
 
+// Mod info from mods.json.
+type ModInfo = {
+  name: string;
+  uniqueName: string;
+  repo: string;
+  required?: boolean;
+  utility?: boolean;
+  parent?: string;
+};
+
+// From .github/ISSUE_TEMPLATE/add-mod.yml.
 type IssueForm = {
   name?: string;
   uniqueName?: string;
@@ -63,6 +75,7 @@ async function run() {
   const newMods: ModInfo[] = existingMod ? mods : [...mods, newMod];
 
   core.setOutput(Output.mods, JSON.stringify(newMods, null, 2));
+  core.setOutput(Output.editedExistingMod, Boolean(existingMod));
 }
 
 run();
