@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 37832
+    "downloadCount": 37836
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.2.0/OWML.zip",
-      "downloadCount": 30165,
+      "downloadCount": 30168,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.2.0",
       "readme": {
@@ -29,7 +29,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.5.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 26307,
+      "downloadCount": 26310,
       "repo": "https://github.com/Raicuparta/nomai-vr",
       "version": "2.5.1",
       "readme": {
@@ -43,7 +43,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.14.0/QSB.zip",
-      "downloadCount": 6754,
+      "downloadCount": 6755,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "version": "0.14.0",
       "readme": {
@@ -61,7 +61,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 5186,
+      "downloadCount": 5187,
       "repo": "https://github.com/amazingalek/owml-light-bramble",
       "version": "v0.7",
       "readme": {
@@ -151,7 +151,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/v2.1.1/MenuFramework.zip",
-      "downloadCount": 1744,
+      "downloadCount": 1745,
       "repo": "https://github.com/misternebula/MenuFramework",
       "version": "v2.1.1"
     },
@@ -525,10 +525,10 @@
       "description": "Replaces the solar system in Outer Wilds with ours (NOTE: Reinstall after updating)",
       "author": "xen-42",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.1.5/xen.RealSolarSystem.zip",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.2.0/xen.RealSolarSystem.zip",
       "downloadCount": 406,
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
-      "version": "v0.1.5",
+      "version": "v0.2.0",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-real-solar-system/main/README.md"
@@ -564,8 +564,34 @@
         "downloadUrl": "https://raw.githubusercontent.com/ellie3-OW/ElliePlanets/main/README.md"
       }
     },
-    null,
-    null,
+    {
+      "name": "Teeny Hatchling",
+      "uniqueName": "Owen013.TeenyHatchling",
+      "description": "Makes the hatchling smol! Or beeg!",
+      "author": "Owen013",
+      "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v0.0.8/Owen013.TeenyHatchling.zip",
+      "downloadCount": 99,
+      "repo": "https://github.com/Owen013/Teeny-Hatchling",
+      "version": "v0.0.8",
+      "readme": {
+        "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
+      }
+    },
+    {
+      "name": "Movement Mod",
+      "uniqueName": "Owen013.MovementMod",
+      "description": "Thrust-down to sprint, tap-to-jump, and no strafe slowdown!",
+      "author": "Owen013",
+      "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v0.0.7/Owen013.MovementMod.zip",
+      "downloadCount": 125,
+      "repo": "https://github.com/Owen013/Movement-Mod",
+      "version": "v0.0.7",
+      "readme": {
+        "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
+      }
+    },
     {
       "name": "Ship Log Slide Reel Player",
       "uniqueName": "dgarro.ShipLogSlideReelPlayer",
@@ -630,7 +656,7 @@
       "description": "Allows you to shoot meteors with middle mouse click",
       "author": "12090113",
       "downloadUrl": "https://github.com/12090113/outer-wilds-meteor-launching/releases/download/v0.1.0/MeteorLaunching.zip",
-      "downloadCount": 1,
+      "downloadCount": 2,
       "repo": "https://github.com/12090113/outer-wilds-meteor-launching",
       "version": "v0.1.0",
       "readme": {
