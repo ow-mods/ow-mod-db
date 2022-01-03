@@ -7,7 +7,7 @@ on:
     branches:
       - source
     paths:
-      - 'mods.json'
+      - "mods.json"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
@@ -40,7 +41,7 @@ jobs:
         id: fetch-mods
         uses: ./fetch-mods
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN  }}
+          github-token: ${{ secrets.GH_TOKEN  }}
           mods: "${{ steps.local-mods.outputs.mods }}"
       - uses: actions/checkout@v2
         with:
