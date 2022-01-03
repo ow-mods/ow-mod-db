@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.6.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 37831
+    "downloadCount": 37832
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.2.0/OWML.zip",
-      "downloadCount": 30163,
+      "downloadCount": 30165,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.2.0",
       "readme": {
@@ -29,7 +29,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.5.1/Raicuparta.NomaiVR.zip",
-      "downloadCount": 26305,
+      "downloadCount": 26307,
       "repo": "https://github.com/Raicuparta/nomai-vr",
       "version": "2.5.1",
       "readme": {
@@ -118,7 +118,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.5.0/Release.zip",
-      "downloadCount": 3806,
+      "downloadCount": 3807,
       "repo": "https://github.com/clubby789/OWClock",
       "version": "0.5.0",
       "readme": {
@@ -136,7 +136,7 @@
       "description": "Screenshot mod for Outer Wilds.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-cammie/releases/download/v0.3/HDScreenshot.zip",
-      "downloadCount": 890,
+      "downloadCount": 891,
       "repo": "https://github.com/amazingalek/owml-cammie",
       "version": "v0.3",
       "readme": {
@@ -193,7 +193,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play! Server is online.",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.3.6/Release.0.3.6.zip",
-      "downloadCount": 965,
+      "downloadCount": 966,
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
       "version": "0.3.6",
       "readme": {
@@ -249,7 +249,7 @@
       "description": "",
       "author": "leadpogrommer",
       "downloadUrl": "https://github.com/leadpogrommer/PeacefulGhosts/releases/download/v0.1.0/Leadpogrommer.PeacefulGhosts.zip",
-      "downloadCount": 586,
+      "downloadCount": 587,
       "repo": "https://github.com/leadpogrommer/PeacefulGhosts",
       "version": "v0.1.0",
       "readme": {
@@ -564,34 +564,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/ellie3-OW/ElliePlanets/main/README.md"
       }
     },
-    {
-      "name": "Teeny Hatchling",
-      "uniqueName": "Owen013.TeenyHatchling",
-      "description": "Makes the hatchling smol! Or beeg!",
-      "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v0.0.8/Owen013.TeenyHatchling.zip",
-      "downloadCount": 99,
-      "repo": "https://github.com/Owen013/Teeny-Hatchling",
-      "version": "v0.0.8",
-      "readme": {
-        "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
-      }
-    },
-    {
-      "name": "Movement Mod",
-      "uniqueName": "Owen013.MovementMod",
-      "description": "Thrust-down to sprint, tap-to-jump, and no strafe slowdown!",
-      "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v0.0.7/Owen013.MovementMod.zip",
-      "downloadCount": 125,
-      "repo": "https://github.com/Owen013/Movement-Mod",
-      "version": "v0.0.7",
-      "readme": {
-        "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
-      }
-    },
+    null,
+    null,
     {
       "name": "Ship Log Slide Reel Player",
       "uniqueName": "dgarro.ShipLogSlideReelPlayer",
