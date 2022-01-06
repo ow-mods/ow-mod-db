@@ -699,13 +699,17 @@
       "description": "Adds in the local group of star systems as seen in the Echoes Of The Eye ending",
       "author": "ErroneousCreationist",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/ErroneousCreationist/solarneighbourhood/releases/download/v0.0.0/solarneighbourhood.zip",
+      "downloadUrl": "https://github.com/ErroneousCreationist/solarneighbourhood/releases/download/v0.1.0/solarneighbourhood.zip",
       "downloadCount": 4,
       "repo": "https://github.com/ErroneousCreationist/solarneighbourhood",
-      "version": "v0.0.0",
+      "version": "v0.1.0",
       "readme": {
         "htmlUrl": "https://github.com/ErroneousCreationist/solarneighbourhood/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ErroneousCreationist/solarneighbourhood/main/README.md"
+      },
+      "prerelease": {
+        "version": "v0.0.0",
+        "downloadUrl": "https://github.com/ErroneousCreationist/solarneighbourhood/releases/download/v0.0.0/solarneighbourhood.zip"
       }
     }
   ]
