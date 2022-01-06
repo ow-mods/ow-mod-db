@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.7.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.7.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.7.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 38435
+    "downloadCount": 38444
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.0/OWML.zip",
-      "downloadCount": 30601,
+      "downloadCount": 30611,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.3.0",
       "readme": {
@@ -29,7 +29,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 26698,
+      "downloadCount": 26706,
       "repo": "https://github.com/Raicuparta/nomai-vr",
       "version": "2.6.0",
       "readme": {
@@ -43,7 +43,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.14.0/QSB.zip",
-      "downloadCount": 6831,
+      "downloadCount": 6832,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "version": "0.14.0",
       "readme": {
@@ -61,7 +61,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 5248,
+      "downloadCount": 5249,
       "repo": "https://github.com/amazingalek/owml-light-bramble",
       "version": "v0.7",
       "readme": {
@@ -104,7 +104,7 @@
       "description": "Enables crouching in Outer Wilds.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-crouch-mod/releases/download/0.4/OWML.CrouchMod.zip",
-      "downloadCount": 1111,
+      "downloadCount": 1112,
       "repo": "https://github.com/amazingalek/owml-crouch-mod",
       "version": "0.4",
       "readme": {
@@ -287,7 +287,7 @@
       "description": "Randomizes stuff in outer wilds",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_Randomizer/releases/download/0.7.6/PacificEngine.OW_Randomizer.zip",
-      "downloadCount": 676,
+      "downloadCount": 677,
       "repo": "https://github.com/PacificEngine/OW_Randomizer",
       "version": "0.7.6",
       "readme": {
@@ -302,7 +302,7 @@
       "author": "PacificEngine",
       "utility": true,
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.5.11/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 2208,
+      "downloadCount": 2209,
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
       "version": "0.5.11",
       "readme": {
@@ -373,10 +373,10 @@
       "description": "A mod which uses HTC's FFR plugin to provide fixed foveated rendering in NomaiVR on NVIDIA RTX cards",
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
-      "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.1/Artum.NomaiVRFoveated.zip",
+      "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.2/Artum.NomaiVRFoveated.zip",
       "downloadCount": 258,
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     {
       "name": "Static Camera",
@@ -526,7 +526,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.3.1/xen.RealSolarSystem.zip",
-      "downloadCount": 521,
+      "downloadCount": 522,
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
       "version": "v0.3.1",
       "readme": {
@@ -598,7 +598,7 @@
       "description": "Play Echoes of the Eye slide reels in your ship log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/1.0.3/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 219,
+      "downloadCount": 221,
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
       "version": "1.0.3",
       "readme": {
@@ -612,10 +612,10 @@
       "description": "[REDOWNLOAD AFTER UPDATING!] A mod that adds a galactic core that many different star systems orbit around. Go and explore!",
       "author": "Jammer232",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Jammer232/Outer-Wilds-Galaxy/releases/download/v1.8.0/Outer-Wilds-Galaxy.zip",
-      "downloadCount": 433,
+      "downloadUrl": "https://github.com/Jammer232/Outer-Wilds-Galaxy/releases/download/v1.9.0/Outer-Wilds-Galaxy.zip",
+      "downloadCount": 434,
       "repo": "https://github.com/Jammer232/Outer-Wilds-Galaxy",
-      "version": "v1.8.0",
+      "version": "v1.9.0",
       "readme": {
         "htmlUrl": "https://github.com/Jammer232/Outer-Wilds-Galaxy/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Jammer232/Outer-Wilds-Galaxy/main/README.md"
@@ -656,7 +656,7 @@
       "description": "Allows you to shoot meteors with middle mouse click (or the back button if enabled in the mod settings)",
       "author": "12090113",
       "downloadUrl": "https://github.com/12090113/outer-wilds-meteor-launching/releases/download/v0.1.1/MeteorLaunching.zip",
-      "downloadCount": 70,
+      "downloadCount": 71,
       "repo": "https://github.com/12090113/outer-wilds-meteor-launching",
       "version": "v0.1.1",
       "readme": {
