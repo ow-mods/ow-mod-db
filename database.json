@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.8.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.8.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.8.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 39083
+    "downloadCount": 39087
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.0/OWML.zip",
-      "downloadCount": 31148,
+      "downloadCount": 31150,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.3.0",
       "readme": {
@@ -29,7 +29,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 27101,
+      "downloadCount": 27102,
       "repo": "https://github.com/Raicuparta/nomai-vr",
       "version": "2.6.0",
       "readme": {
@@ -151,7 +151,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/v2.1.1/MenuFramework.zip",
-      "downloadCount": 1871,
+      "downloadCount": 1872,
       "repo": "https://github.com/misternebula/MenuFramework",
       "version": "v2.1.1"
     },
@@ -263,7 +263,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 598,
+      "downloadCount": 600,
       "repo": "https://github.com/dwatson251/ow-slowtime",
       "version": "v0.1.0",
       "readme": {
@@ -344,7 +344,7 @@
       "description": "A third-person camera for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v1.2.3/xen.ThirdPersonCamera.zip",
-      "downloadCount": 529,
+      "downloadCount": 530,
       "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
       "version": "v1.2.3",
       "readme": {
@@ -374,7 +374,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.2/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 311,
+      "downloadCount": 312,
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
       "version": "1.0.2"
     },
@@ -496,7 +496,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v0.6.0/xen.NewHorizons.zip",
-      "downloadCount": 1005,
+      "downloadCount": 1006,
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
       "version": "v0.6.0",
       "readme": {
@@ -522,7 +522,7 @@
     {
       "name": "Real Solar System",
       "uniqueName": "xen.RealSolarSystem",
-      "description": "Creates a gateway from the Outer Wilds solar system to ours. (NOTE: Reinstall after updating)",
+      "description": "Adds our solar system to Outer Wilds (check the ship's log)",
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.4.0/xen.RealSolarSystem.zip",
