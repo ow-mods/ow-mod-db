@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.8.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.8.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.8.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 39260
+    "downloadCount": 39269
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.0/OWML.zip",
-      "downloadCount": 31244,
+      "downloadCount": 31248,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.3.0",
       "readme": {
@@ -29,7 +29,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 27173,
+      "downloadCount": 27178,
       "repo": "https://github.com/Raicuparta/nomai-vr",
       "version": "2.6.0",
       "readme": {
@@ -43,7 +43,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.14.1/QSB.zip",
-      "downloadCount": 6950,
+      "downloadCount": 6951,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "version": "0.14.1",
       "readme": {
@@ -118,7 +118,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.5.0/Release.zip",
-      "downloadCount": 3915,
+      "downloadCount": 3916,
       "repo": "https://github.com/clubby789/OWClock",
       "version": "0.5.0",
       "readme": {
@@ -193,7 +193,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play! Server is online.",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.3.6/Release.0.3.6.zip",
-      "downloadCount": 1063,
+      "downloadCount": 1065,
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
       "version": "0.3.6",
       "readme": {
@@ -302,7 +302,7 @@
       "author": "PacificEngine",
       "utility": true,
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.5.11/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 2347,
+      "downloadCount": 2348,
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
       "version": "0.5.11",
       "readme": {
@@ -358,10 +358,10 @@
       "description": "Patches to adapt some Outer Wilds Online features to NomaiVR",
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
-      "downloadUrl": "https://github.com/artumino/NomaiVROnlinePatches/releases/download/0.0.6/Artum.NomaiVROnlinePatches.zip",
-      "downloadCount": 251,
+      "downloadUrl": "https://github.com/artumino/NomaiVROnlinePatches/releases/download/0.0.7/Artum.NomaiVROnlinePatches.zip",
+      "downloadCount": 252,
       "repo": "https://github.com/artumino/NomaiVROnlinePatches",
-      "version": "0.0.6",
+      "version": "0.0.7",
       "readme": {
         "htmlUrl": "https://github.com/artumino/NomaiVROnlinePatches/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/artumino/NomaiVROnlinePatches/master/README.md"
@@ -374,7 +374,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.2/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 336,
+      "downloadCount": 338,
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
       "version": "1.0.2"
     },
@@ -496,7 +496,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v0.6.0/xen.NewHorizons.zip",
-      "downloadCount": 1035,
+      "downloadCount": 1036,
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
       "version": "v0.6.0",
       "readme": {
@@ -552,7 +552,7 @@
     {
       "name": "ElliePlanets!",
       "uniqueName": "Ellie3.ElliePlanets",
-      "description": "",
+      "description": "A few silly planets",
       "author": "ellie3-OW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/ellie3-OW/ElliePlanets/releases/download/1.2.0/ElliePlanets-1.2.0.zip",
@@ -613,7 +613,7 @@
       "author": "Jammer232",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Jammer232/Outer-Wilds-Galaxy/releases/download/v1.11.0/Outer-Wilds-Galaxy.zip",
-      "downloadCount": 562,
+      "downloadCount": 563,
       "repo": "https://github.com/Jammer232/Outer-Wilds-Galaxy",
       "version": "v1.11.0",
       "readme": {
@@ -685,7 +685,7 @@
       "author": "TitchMW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TitchMW/tardisfromdoctorwho/releases/download/v0.2.0/tardisfromdoctorwho.zip",
-      "downloadCount": 29,
+      "downloadCount": 30,
       "repo": "https://github.com/TitchMW/tardisfromdoctorwho",
       "version": "v0.2.0",
       "readme": {
@@ -700,7 +700,7 @@
       "author": "ErroneousCreationist",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/ErroneousCreationist/solarneighbourhood/releases/download/v0.4.0/solarneighbourhood.zip",
-      "downloadCount": 119,
+      "downloadCount": 120,
       "repo": "https://github.com/ErroneousCreationist/solarneighbourhood",
       "version": "v0.4.0",
       "readme": {
