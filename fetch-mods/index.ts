@@ -163,7 +163,7 @@ async function run() {
 
           return mod;
         } catch (error) {
-          core.error(error as any);
+          core.error(`Error fetching mod ${modInfo.uniqueName} : ${error}`);
           return null;
         }
       })
@@ -187,7 +187,7 @@ async function run() {
         installerDownloadUrl: exeAsset?.browser_download_url,
         downloadCount: managerDownloadCount,
       },
-      releases: modReleases,
+      releases: modReleases.filter(Boolean),
     };
 
     const databaseJson = JSON.stringify(modDatabase, null, JSON_INDENT);
