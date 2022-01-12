@@ -14,6 +14,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
+      - uses: fateyan/action-discord-notifier@v1
+        with:
+          message-title: Testing hook
+          webhook: "${{ secrets.DISCORD_HOOK_URL }}"
+
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
