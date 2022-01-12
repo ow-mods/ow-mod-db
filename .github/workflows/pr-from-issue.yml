@@ -14,10 +14,12 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: fateyan/action-discord-notifier@v1
+      - name: Test discord hook
+        uses: fjogeleit/http-request-action@master
         with:
-          message-title: Testing hook
-          webhook: "${{ secrets.DISCORD_HOOK_URL }}"
+          url: "${{ secrets.DISCORD_HOOK_URL }}"
+          method: "POST"
+          body: '{ "embeds": [{ "title": "Hook Title", "description": "Hook description", "url": "https://outerwildsmods.com", "footer": "Hook footer" }] }'
 
       - uses: actions/setup-node@v2
         with:
