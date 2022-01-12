@@ -19,7 +19,7 @@ jobs:
         with:
           url: "${{ secrets.DISCORD_HOOK_URL }}"
           method: "POST"
-          body: '{ "embeds": [{ "title": "Hook Title", "description": "Hook description", "url": "https://outerwildsmods.com", "footer": "Hook footer" }] }'
+          data: '{ "embeds": [{ "title": "Hook Title", "description": "Hook description", "url": "https://outerwildsmods.com", "footer": "Hook footer" }] }'
 
       - uses: actions/setup-node@v2
         with:
