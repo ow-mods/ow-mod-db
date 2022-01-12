@@ -14,13 +14,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - name: Test discord hook
-        uses: fjogeleit/http-request-action@master
-        with:
-          url: "${{ secrets.DISCORD_HOOK_URL }}"
-          method: "POST"
-          data: '{ "embeds": [{ "title": "Hook Title" }] }'
-
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
