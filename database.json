@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.8.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.8.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.8.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 40504
+    "downloadCount": 40506
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.1/OWML.zip",
-      "downloadCount": 32169,
+      "downloadCount": 32172,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.3.1",
       "readme": {
@@ -29,7 +29,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 27736,
+      "downloadCount": 27737,
       "repo": "https://github.com/Raicuparta/nomai-vr",
       "version": "2.6.0",
       "readme": {
@@ -193,7 +193,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play! Server is online.",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.3.6/Release.0.3.6.zip",
-      "downloadCount": 1204,
+      "downloadCount": 1205,
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
       "version": "0.3.6",
       "readme": {
@@ -302,7 +302,7 @@
       "author": "PacificEngine",
       "utility": true,
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.5.11/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 2540,
+      "downloadCount": 2541,
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
       "version": "0.5.11",
       "readme": {
@@ -359,7 +359,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVROnlinePatches/releases/download/0.0.7/Artum.NomaiVROnlinePatches.zip",
-      "downloadCount": 408,
+      "downloadCount": 410,
       "repo": "https://github.com/artumino/NomaiVROnlinePatches",
       "version": "0.0.7",
       "readme": {
@@ -374,7 +374,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.3/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 592,
+      "downloadCount": 594,
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
       "version": "1.0.3"
     },
@@ -496,7 +496,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v0.7.0/xen.NewHorizons.zip",
-      "downloadCount": 1331,
+      "downloadCount": 1332,
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
       "version": "v0.7.0",
       "readme": {
@@ -526,7 +526,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.4.0/xen.RealSolarSystem.zip",
-      "downloadCount": 715,
+      "downloadCount": 716,
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
       "version": "v0.4.0",
       "readme": {
@@ -733,7 +733,7 @@
       "author": "Tandicase",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Tandicase/interstellargargantua/releases/download/v1.2.0/interstellargargantua.zip",
-      "downloadCount": 102,
+      "downloadCount": 103,
       "repo": "https://github.com/Tandicase/interstellargargantua",
       "version": "v1.2.0",
       "readme": {
@@ -797,6 +797,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-wario/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-wario/master/README.md"
       }
-    }
+    },
+    null
   ]
 }
