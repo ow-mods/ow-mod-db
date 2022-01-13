@@ -1,8 +1,10 @@
 {
   "modManager": {
     "version": "v1.9.0",
-    "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/untagged-1528e426c79276a826e5/OuterWildsModManager-Installer.exe",
-    "downloadCount": 40631
+    "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.0/OuterWildsModManager-Portable.zip",
+    "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.0/OuterWildsModManager-Portable.zip",
+    "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.0/OuterWildsModManager-Installer.exe",
+    "downloadCount": 40638
   },
   "releases": [
     {
@@ -13,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.1/OWML.zip",
-      "downloadCount": 32334,
+      "downloadCount": 32336,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.3.1",
       "readme": {
@@ -27,7 +29,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 27795,
+      "downloadCount": 27798,
       "repo": "https://github.com/Raicuparta/nomai-vr",
       "version": "2.6.0",
       "readme": {
@@ -41,7 +43,7 @@
       "description": "Outer Wilds online multiplayer mod, using modified UNET and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.14.1/QSB.zip",
-      "downloadCount": 7194,
+      "downloadCount": 7195,
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "version": "0.14.1",
       "readme": {
@@ -219,7 +221,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.3/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 2400,
+      "downloadCount": 2401,
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
       "version": "0.7.3",
       "readme": {
@@ -261,7 +263,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 631,
+      "downloadCount": 632,
       "repo": "https://github.com/dwatson251/ow-slowtime",
       "version": "v0.1.0",
       "readme": {
@@ -342,7 +344,7 @@
       "description": "A third-person camera for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v1.2.3/xen.ThirdPersonCamera.zip",
-      "downloadCount": 586,
+      "downloadCount": 587,
       "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
       "version": "v1.2.3",
       "readme": {
@@ -357,7 +359,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVROnlinePatches/releases/download/0.0.7/Artum.NomaiVROnlinePatches.zip",
-      "downloadCount": 434,
+      "downloadCount": 435,
       "repo": "https://github.com/artumino/NomaiVROnlinePatches",
       "version": "0.0.7",
       "readme": {
@@ -802,7 +804,7 @@
       "description": "Press 'K' on your Keyboard to meet Jesus early. Very helpful for when you get stuck.",
       "author": "gurrenm3",
       "downloadUrl": "https://github.com/gurrenm3/OuterWilds_SuicideMod/releases/download/1.0.0/Gurrenm3.SuicideMod.zip",
-      "downloadCount": 11,
+      "downloadCount": 12,
       "repo": "https://github.com/gurrenm3/OuterWilds_SuicideMod",
       "version": "1.0.0",
       "readme": {
