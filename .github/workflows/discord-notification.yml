@@ -8,5 +8,4 @@ jobs:
 #     if: ${{ contains(github.event.pull_request.labels.*.name, 'add-mod') }}
     runs-on: ubuntu-latest
     steps:
-      - name: Test
-        run: echo "${{ github.event }}"
+      - uses: hmarr/debug-action@v2
