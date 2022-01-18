@@ -1,0 +1,12 @@
+name: Discord notification
+on:
+  pull_request:
+    types: [closed]
+concurrency: "main"
+jobs:
+  discord_notification:
+#     if: ${{ contains(github.event.pull_request.labels.*.name, 'add-mod') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo "${{ github.event }}"
