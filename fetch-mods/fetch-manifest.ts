@@ -19,9 +19,7 @@ export type Manifest = {
   conflicts?: string[];
 };
 
-export const fetchManifest = async (
-  zipUrl: string
-): Promise<Manifest | undefined> => {
+export const fetchManifest = async (zipUrl: string): Promise<Manifest> => {
   try {
     console.log(`Fetching manifest ${zipUrl}`);
     const directory = await unzipper.Open.url(zipRequestProxy, zipUrl);
@@ -36,7 +34,7 @@ export const fetchManifest = async (
     console.log(`Success in fetching manifest: ${JSON.stringify(manifest)}`);
     return manifest;
   } catch (error) {
-    console.error(`Error getting manifest for ${zipUrl} : ${error}`);
+    throw new Error(`Error getting manifest for ${zipUrl} : ${error}`);
   }
 };
 
