@@ -1,5 +1,7 @@
 import { getOctokit } from "@actions/github";
 import * as core from "@actions/core";
+import unzipper from "unzipper";
+import { request } from "https";
 
 const REPO_URL_BASE = "https://github.com";
 const JSON_INDENT = 2;
@@ -16,6 +18,57 @@ enum Input {
 
 enum Output {
   releases = "releases",
+}
+
+type ManifestWarning = {
+  title?: string;
+  body?: string;
+};
+
+type Manifest = {
+  name: string;
+  author: string;
+  uniqueName: string;
+  version: string;
+  dependencies?: string[];
+  warning?: ManifestWarning;
+  patcher?: string;
+  conflicts?: string[];
+};
+
+type ModInfo = {
+  name: string;
+  uniqueName: string;
+  repo: string;
+  required?: boolean;
+  utility?: boolean;
+  parent?: string;
+};
+
+type Release = {
+  downloadUrl: string;
+  downloadCount: number;
+  version: string;
+  manifest?: Manifest;
+};
+
+interface Mod extends Release {
+  name: string;
+  uniqueName: string;
+  description: string;
+  author: string;
+  repo: string;
+  required?: boolean;
+  utility?: boolean;
+  parent?: string;
+  readme?: {
+    downloadUrl?: string;
+    htmlUrl?: string;
+  };
+  prerelease?: {
+    version: string;
+    downloadUrl: string;
+  };
 }
 
 async function run() {
@@ -99,27 +152,53 @@ async function run() {
       }
     }
 
-    function getCleanedUpReleases(
-      releaseList: typeof managerLatestRelease[]
-    ): Release[] {
-      return releaseList
-        .filter(({ assets }) => assets.length > 0)
-        .map((release) => {
-          const asset = release.assets[0];
+    const getManifest = async (
+      asset: typeof managerLatestRelease["assets"][number]
+    ): Promise<Manifest | undefined> => {
+      try {
+        const directory = await unzipper.Open.url(
+          request as any,
+          asset.browser_download_url
+        );
+        const file = directory.files.find((file) =>
+          /(^|\/)manifest\.json/gm.test(file.path)
+        );
+        if (!file) {
+          throw `Manifest file not found`;
+        }
+        const content = await file.buffer();
+        return JSON.parse(content.toString()) as Manifest;
+      } catch (error) {
+        core.error(
+          `Error getting manifest for ${asset.browser_download_url}: ${error}`
+        );
+      }
+    };
 
-          return {
-            downloadUrl: asset.browser_download_url,
-            downloadCount: asset.download_count,
-            version: release.tag_name,
-          };
-        });
+    async function getCleanedUpReleases(
+      releaseList: typeof managerLatestRelease[]
+    ) {
+      return Promise.all(
+        releaseList
+          .filter(({ assets }) => assets.length > 0)
+          .map(async (release) => {
+            const asset = release.assets[0];
+
+            return {
+              downloadUrl: asset.browser_download_url,
+              downloadCount: asset.download_count,
+              version: release.tag_name,
+              manifest: await getManifest(asset),
+            };
+          })
+      );
     }
 
     const modReleases: (Mod | null)[] = await Promise.all(
       results.map(async ({ modInfo, releaseList, prereleaseList, readme }) => {
         try {
-          const releases = getCleanedUpReleases(releaseList);
-          const prereleases = getCleanedUpReleases(prereleaseList);
+          const releases = await getCleanedUpReleases(releaseList);
+          const prereleases = await getCleanedUpReleases(prereleaseList);
           const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
 
           const totalDownloadCount = [...releases, ...prereleases].reduce(
@@ -153,6 +232,7 @@ async function run() {
             repo,
             version: latestRelease.version,
             readme,
+            manifest: latestRelease.manifest,
             prerelease: latestPrerelease
               ? {
                   version: latestPrerelease.version,
