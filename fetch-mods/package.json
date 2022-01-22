@@ -6,14 +6,21 @@
   "author": "Raicuparta",
   "license": "ISC",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node build/test/test.js",
+    "build-test": "pnpm run build && pnpm run test"
   },
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0",
     "@types/node": "16",
+    "@types/request": "^2.48.8",
+    "@types/superagent": "^4.1.14",
     "@types/unzipper": "^0.10.5",
-    "typescript": "^4.5.4",
+    "got": "^11.8.3",
+    "request": "^2.88.2",
+    "superagent": "^7.1.1",
+    "typescript": "^4.6.0-dev.20220122",
     "unzipper": "^0.10.11"
   }
 }
