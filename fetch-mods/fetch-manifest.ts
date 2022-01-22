@@ -1,7 +1,7 @@
 // import { request } from "https";
-import request from "request";
 import unzipper from "unzipper";
-const got = require("got");
+import path from "path";
+import got from "got";
 
 type ManifestWarning = {
   title?: string;
@@ -19,6 +19,8 @@ export type Manifest = {
   conflicts?: string[];
 };
 
+const validManifestNames = ["manifest.json", "OWML.Manifest.json"];
+
 export const fetchManifest = async (
   zipUrl: string
 ): Promise<Manifest | undefined> => {
@@ -26,7 +28,7 @@ export const fetchManifest = async (
     console.log(`Fetching manifest ${zipUrl}`);
     const directory = await unzipper.Open.url(zipRequestProxy, zipUrl);
     const manifestFile = directory.files.find((file) =>
-      /(^|\/)manifest\.json/gm.test(file.path)
+      validManifestNames.includes(path.win32.basename(file.path))
     );
     if (!manifestFile) {
       throw new Error("Manifest file not found");
