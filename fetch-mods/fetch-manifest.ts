@@ -1,4 +1,3 @@
-// import { request } from "https";
 import unzipper from "unzipper";
 import path from "path";
 import got from "got";
