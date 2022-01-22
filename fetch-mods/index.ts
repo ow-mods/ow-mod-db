@@ -49,7 +49,6 @@ type Release = {
   downloadUrl: string;
   downloadCount: number;
   version: string;
-  manifest?: Manifest;
 };
 
 interface Mod extends Release {
@@ -65,9 +64,11 @@ interface Mod extends Release {
     downloadUrl?: string;
     htmlUrl?: string;
   };
+  manifest?: Manifest;
   prerelease?: {
     version: string;
     downloadUrl: string;
+    manifest?: Manifest;
   };
 }
 
@@ -153,13 +154,10 @@ async function run() {
     }
 
     const getManifest = async (
-      asset: typeof managerLatestRelease["assets"][number]
+      zipUrl: string
     ): Promise<Manifest | undefined> => {
       try {
-        const directory = await unzipper.Open.url(
-          request as any,
-          asset.browser_download_url
-        );
+        const directory = await unzipper.Open.url(request as any, zipUrl);
         const file = directory.files.find((file) =>
           /(^|\/)manifest\.json/gm.test(file.path)
         );
@@ -169,9 +167,7 @@ async function run() {
         const content = await file.buffer();
         return JSON.parse(content.toString()) as Manifest;
       } catch (error) {
-        core.error(
-          `Error getting manifest for ${asset.browser_download_url}: ${error}`
-        );
+        core.error(`Error getting manifest for ${zipUrl}: ${error}`);
       }
     };
 
@@ -188,7 +184,6 @@ async function run() {
               downloadUrl: asset.browser_download_url,
               downloadCount: asset.download_count,
               version: release.tag_name,
-              manifest: await getManifest(asset),
             };
           })
       );
@@ -232,9 +227,10 @@ async function run() {
             repo,
             version: latestRelease.version,
             readme,
-            manifest: latestRelease.manifest,
+            manifest: await getManifest(latestRelease.downloadUrl),
             prerelease: latestPrerelease
               ? {
+                  manifest: await getManifest(latestPrerelease.downloadUrl),
                   version: latestPrerelease.version,
                   downloadUrl: latestPrerelease.downloadUrl,
                 }
