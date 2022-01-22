@@ -37,11 +37,11 @@ interface Mod extends Release {
     downloadUrl?: string;
     htmlUrl?: string;
   };
-  manifest?: Manifest;
+  manifest: Manifest;
   prerelease?: {
     version: string;
     downloadUrl: string;
-    manifest?: Manifest;
+    manifest: Manifest;
   };
 }
 
@@ -168,6 +168,22 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
       const latestRelease = releases[0];
       const latestPrerelease = prereleases[0];
 
+      const getPrerelease = async () => {
+        try {
+          return latestPrerelease
+            ? {
+                manifest: await fetchManifest(latestPrerelease.downloadUrl),
+                version: latestPrerelease.version,
+                downloadUrl: latestPrerelease.downloadUrl,
+              }
+            : undefined;
+        } catch (error) {
+          console.error(
+            `Error getting prerelease: ${latestPrerelease.downloadUrl}`
+          );
+        }
+      };
+
       const mod: Mod = {
         name: modInfo.name,
         uniqueName: modInfo.uniqueName,
@@ -182,13 +198,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
         version: latestRelease.version,
         readme,
         manifest: await fetchManifest(latestRelease.downloadUrl),
-        prerelease: latestPrerelease
-          ? {
-              manifest: await fetchManifest(latestPrerelease.downloadUrl),
-              version: latestPrerelease.version,
-              downloadUrl: latestPrerelease.downloadUrl,
-            }
-          : undefined,
+        prerelease: await getPrerelease(),
       };
 
       modReleases.push(mod);
