@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 45911
+    "downloadCount": 45912
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.2/OWML.zip",
-      "downloadCount": 36923,
+      "downloadCount": 36925,
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.3.2",
       "readme": {
@@ -339,6 +339,20 @@
       }
     },
     {
+      "name": "Third Person Camera",
+      "uniqueName": "xen.ThirdPersonCamera",
+      "description": "A third-person camera for Outer Wilds.",
+      "author": "xen-42",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v1.2.4/xen.ThirdPersonCamera.zip",
+      "downloadCount": 910,
+      "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
+      "version": "v1.2.4",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-third-person-camera/master/README.md"
+      }
+    },
+    {
       "name": "NomaiVR Online Patches",
       "uniqueName": "Artum.NomaiVROnlinePatches",
       "description": "Patches to adapt some Outer Wilds Online features to NomaiVR",
@@ -360,7 +374,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.3/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 1715,
+      "downloadCount": 1716,
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
       "version": "1.0.3"
     },
