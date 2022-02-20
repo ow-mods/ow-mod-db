@@ -30,6 +30,4 @@ interface Mod extends Release {
     version: string;
     downloadUrl: string;
   };
-  latestReleaseDate: string;
-  firstReleaseDate: string;
 }

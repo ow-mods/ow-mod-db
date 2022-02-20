@@ -99,7 +99,9 @@ async function run() {
       }
     }
 
-    function getCleanedUpReleases(releaseList: typeof managerLatestRelease[]) {
+    function getCleanedUpReleases(
+      releaseList: typeof managerLatestRelease[]
+    ): Release[] {
       return releaseList
         .filter(({ assets }) => assets.length > 0)
         .map((release) => {
@@ -109,7 +111,6 @@ async function run() {
             downloadUrl: asset.browser_download_url,
             downloadCount: asset.download_count,
             version: release.tag_name,
-            date: asset.created_at,
           };
         });
     }
@@ -137,7 +138,6 @@ async function run() {
           ).data;
 
           const latestRelease = releases[0];
-          const firstRelease = releases[releases.length - 1];
           const latestPrerelease = prereleases[0];
 
           const mod: Mod = {
@@ -150,8 +150,6 @@ async function run() {
             parent: modInfo.parent,
             downloadUrl: latestRelease.downloadUrl,
             downloadCount: totalDownloadCount,
-            latestReleaseDate: latestPrerelease.date,
-            firstReleaseDate: firstRelease.date,
             repo,
             version: latestRelease.version,
             readme,
