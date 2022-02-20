@@ -150,7 +150,7 @@ async function run() {
             parent: modInfo.parent,
             downloadUrl: latestRelease.downloadUrl,
             downloadCount: totalDownloadCount,
-            latestReleaseDate: latestPrerelease.date,
+            latestReleaseDate: latestRelease.date,
             firstReleaseDate: firstRelease.date,
             repo,
             version: latestRelease.version,
