@@ -1,0 +1,58 @@
+name: Update Releases
+on:
+  pull_request:
+    branches:
+      - "source"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: Cache pnpm modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.23.6
+          run_install: true
+
+      - name: Build
+        run: |
+          cd fetch-mods
+          pnpm run build
+
+      - name: Get local Mod Database file
+        id: local-mods
+        run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
+
+      - name: Fetch mod releases and manifests
+        id: fetch-mods
+        uses: ./fetch-mods
+        with:
+          github-token: ${{ secrets.GH_TOKEN  }}
+          mods: "${{ steps.local-mods.outputs.mods }}"
+
+      - name: Write database to file
+        uses: DamianReeves/write-file-action@v1.0
+        with:
+          path: database.json
+          contents: "${{ steps.fetch-mods.outputs.releases }}"
+          write-mode: overwrite
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: database-preview
+          path: database.json
