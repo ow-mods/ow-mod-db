@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 48117
+    "downloadCount": 48119
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.2/OWML.zip",
-      "downloadCount": 38853,
+      "downloadCount": 38854,
       "latestReleaseDate": "2022-02-03T21:49:34Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -47,7 +47,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.17.0/QSB.zip",
-      "downloadCount": 9292,
+      "downloadCount": 9293,
       "latestReleaseDate": "2022-02-21T21:34:25Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -866,7 +866,7 @@
       "author": "ErroneousCreationist",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/ErroneousCreationist/astroneersolarsystem/releases/download/v0.1.2/astroneersolarsystem.zip",
-      "downloadCount": 635,
+      "downloadCount": 636,
       "latestReleaseDate": "2022-02-13T01:42:41Z",
       "firstReleaseDate": "2022-01-10T08:33:14Z",
       "repo": "https://github.com/ErroneousCreationist/astroneersolarsystem",
@@ -1140,6 +1140,22 @@
       "readme": {
         "htmlUrl": "https://github.com/Tllya/New-Horizons-Examples-Russian-Translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tllya/New-Horizons-Examples-Russian-Translation/main/README.md"
+      }
+    },
+    {
+      "name": "Celeste Wilds",
+      "uniqueName": "Locochoco.CelesteWilds",
+      "description": "A mod which adds Celeste movement features to Outer Wilds",
+      "author": "ShoosGun",
+      "downloadUrl": "https://github.com/ShoosGun/CelesteWilds/releases/download/0.1.0/Locochoco.CelesteWilds.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-02-23T16:43:25Z",
+      "firstReleaseDate": "2022-02-23T16:43:25Z",
+      "repo": "https://github.com/ShoosGun/CelesteWilds",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/CelesteWilds/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/CelesteWilds/main/README.md"
       }
     }
   ]
