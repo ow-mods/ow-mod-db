@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.3/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.3/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.9.3/OuterWildsModManager-Installer.exe",
-    "downloadCount": 51404
+    "downloadCount": 51405
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.2/OWML.zip",
-      "downloadCount": 40750,
+      "downloadCount": 40752,
       "latestReleaseDate": "2022-02-03T21:49:34Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -31,7 +31,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 31924,
+      "downloadCount": 31925,
       "latestReleaseDate": "2022-01-06T20:33:09Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -47,7 +47,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.17.1/QSB.zip",
-      "downloadCount": 10059,
+      "downloadCount": 10060,
       "latestReleaseDate": "2022-02-26T10:04:41Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -169,7 +169,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/v2.1.1/MenuFramework.zip",
-      "downloadCount": 3604,
+      "downloadCount": 3605,
       "latestReleaseDate": "2021-12-20T14:22:15Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -564,7 +564,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v0.9.5/xen.NewHorizons.zip",
-      "downloadCount": 4156,
+      "downloadCount": 4157,
       "latestReleaseDate": "2022-03-19T22:19:13Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
@@ -1156,6 +1156,22 @@
       "readme": {
         "htmlUrl": "https://github.com/Tllya/Grapefruit/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tllya/Grapefruit/main/README.md"
+      }
+    },
+    {
+      "name": "Visible Stranger",
+      "uniqueName": "xen.Decloaked",
+      "description": "Decloaks the Stranger in Echoes of the Eye.",
+      "author": "xen-42",
+      "downloadUrl": "https://github.com/xen-42/ow-decloaked/releases/download/v1.0.0/xen.Decloaked.zip",
+      "downloadCount": 21,
+      "latestReleaseDate": "2022-03-20T15:06:51Z",
+      "firstReleaseDate": "2022-03-20T15:06:51Z",
+      "repo": "https://github.com/xen-42/ow-decloaked",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/ow-decloaked/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-decloaked/master/README.md"
       }
     }
   ]
