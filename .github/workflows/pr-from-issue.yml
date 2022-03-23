@@ -23,8 +23,6 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/add-mod.yml
 
-      - run: echo '${{ steps.issue-parser.outputs.jsonString }}'
-
       - name: Get local Mod Database file
         id: local-mods
         run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
