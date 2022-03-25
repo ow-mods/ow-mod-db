@@ -1,21 +1,44 @@
 import axios from "axios";
 import { DiffItem } from "./get-diff";
 
-function getNotificationText(diffItem: DiffItem) {
+function getNotificationTitle(diffItem: DiffItem) {
   switch (diffItem.diffType) {
     case "add":
-      return `Mod ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was added`;
+      return `Added ${diffItem.nextMod.name} by ${diffItem.nextMod.author}`;
     case "remove":
-      return `Mod ${diffItem.previousMod.name} by ${diffItem.previousMod.author} was removed`;
+      return `Removed ${diffItem.previousMod.name} by ${diffItem.previousMod.author}`;
     case "update":
-      return `Mod ${diffItem.nextMod.name} by ${
-        diffItem.nextMod.author
-      } was updated from ${diffItem.previousMod!.version} to ${
-        diffItem.nextMod.version
-      }`;
+      return `Updated ${diffItem.nextMod.name} by ${diffItem.nextMod.author}`;
   }
 }
 
+function getNotificationDescription(diffItem: DiffItem) {
+  switch (diffItem.diffType) {
+    case "add":
+      return `${
+        diffItem.nextMod.parent
+          ? `Addon for \`${diffItem.nextMod.parent}\`. `
+          : ""
+      }${diffItem.nextMod.description}`;
+    case "remove":
+      return "";
+    case "update":
+      return `${diffItem.previousMod!.version} → **${
+        diffItem.nextMod.version
+      }**`;
+  }
+}
+
+function getNotificationColor(diffItem: DiffItem) {
+  switch (diffItem.diffType) {
+    case "add":
+      return 3066993;
+    case "remove":
+      return 10038562;
+    case "update":
+      return 15105570;
+  }
+}
 function getRelevantMod(diffItem: DiffItem) {
   return diffItem.diffType == "remove"
     ? diffItem.previousMod
@@ -30,8 +53,10 @@ export async function sendDiscordNotifications(
     axios.post(discordHookUrl, {
       embeds: [
         {
-          title: getNotificationText(diffItem),
+          title: getNotificationTitle(diffItem),
+          description: getNotificationDescription(diffItem),
           url: getRelevantMod(diffItem).repo,
+          color: getNotificationColor(diffItem),
         },
       ],
     });
