@@ -24,6 +24,19 @@ async function run() {
     const gitHubToken = core.getInput(Input.gitHubToken);
     const octokit = getOctokit(gitHubToken);
 
+    const previousDatabaseResponse: any = (
+      await octokit.rest.repos.getContent({
+        owner: "Raicuparta",
+        repo: "ow-mod-db",
+        path: "database.json",
+        ref: "master",
+      })
+    ).data;
+
+    const previousDatabase: Mod[] = JSON.parse(
+      atob(previousDatabaseResponse.content)
+    );
+
     const managerReleases = await octokit.paginate(
       octokit.rest.repos.listReleases,
       {
