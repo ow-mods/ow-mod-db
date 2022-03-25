@@ -18,12 +18,13 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
       repo: "ow-mod-db",
       path: "database.json",
       ref: "master",
+      mediaType: {
+        format: "raw",
+      },
     })
   ).data;
 
-  const previousDatabase: Mod[] = JSON.parse(
-    atob(previousDatabaseResponse.content)
-  );
+  const previousDatabase: Mod[] = JSON.parse(previousDatabaseResponse);
 
   const managerReleases = await octokit.paginate(
     octokit.rest.repos.listReleases,
