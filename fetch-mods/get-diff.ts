@@ -1,7 +1,11 @@
+type DiffItem = {
+  previousMod?: Mod;
+  nextMod?: Mod;
+  diffType: "add" | "remove" | "update";
+};
+
 export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
-  const addedMods: Mod[] = [];
-  const removedMods: Mod[] = [];
-  const updatedMods: Mod[] = [];
+  const diff: DiffItem[] = [];
 
   for (const nextDatabaseMod of nextDatabase) {
     const previousDatabaseMod = previousDatabase.find(
@@ -9,12 +13,19 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
     );
 
     if (!previousDatabaseMod) {
-      addedMods.push(nextDatabaseMod);
+      diff.push({
+        diffType: "add",
+        nextMod: nextDatabaseMod,
+      });
       continue;
     }
 
     if (previousDatabaseMod.version !== nextDatabaseMod.version) {
-      updatedMods.push(nextDatabaseMod);
+      diff.push({
+        diffType: "update",
+        previousMod: previousDatabaseMod,
+        nextMod: nextDatabaseMod,
+      });
       continue;
     }
   }
@@ -25,20 +36,39 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
     );
 
     if (!nextDatabaseMod) {
-      removedMods.push(previousDatabaseMod);
+      diff.push({
+        diffType: "remove",
+        previousMod: previousDatabaseMod,
+      });
       continue;
     }
   }
 
-  for (const addedMod of addedMods) {
-    console.log(`Mod ${addedMod.name} by ${addedMod.author} was added`);
-  }
-  for (const updatedMod of updatedMods) {
-    console.log(
-      `Mod ${updatedMod.name} by ${updatedMod.author} was updated to version ${updatedMod.version}`
-    );
-  }
-  for (const removedMod of removedMods) {
-    console.log(`Mod ${removedMod.name} by ${removedMod.author} was removed`);
+  for (const diffItem of diff) {
+    switch (diffItem.diffType) {
+      case "add":
+        console.log(
+          `Mod ${diffItem.nextMod!.name} by ${
+            diffItem.nextMod!.author
+          } was added`
+        );
+        break;
+      case "remove":
+        console.log(
+          `Mod ${diffItem.previousMod!.name} by ${
+            diffItem.previousMod!.author
+          } was removed`
+        );
+        break;
+      case "update":
+        console.log(
+          `Mod ${diffItem.nextMod!.name} by ${
+            diffItem.nextMod!.author
+          } was updated from ${diffItem.previousMod!.version} to ${
+            diffItem.nextMod!.version
+          }`
+        );
+        break;
+    }
   }
 }
