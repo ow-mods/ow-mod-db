@@ -1,7 +1,6 @@
 import { getOctokit } from "@actions/github";
 
 const REPO_URL_BASE = "https://github.com";
-const JSON_INDENT = 2;
 
 const managerRepo = {
   owner: "Raicuparta",
@@ -191,8 +190,12 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
       installerDownloadUrl: exeAsset?.browser_download_url,
       downloadCount: managerDownloadCount,
     },
-    releases: modReleases.filter(Boolean),
+    releases: modReleases.filter(filterTruthy),
   };
 
-  return JSON.stringify(modDatabase, null, JSON_INDENT);
+  return modDatabase;
+}
+
+function filterTruthy<TItem>(item: TItem | null): item is TItem {
+  return Boolean(item);
 }

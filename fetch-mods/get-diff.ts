@@ -1,4 +1,4 @@
-type DiffItem =
+export type DiffItem =
   | {
       nextMod: Mod;
       diffType: "add";
@@ -76,4 +76,6 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
         break;
     }
   }
+
+  return diff;
 }
