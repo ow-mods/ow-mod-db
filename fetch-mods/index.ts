@@ -18,10 +18,9 @@ enum Output {
   releases = "releases",
 }
 
-async function run() {
+export async function fetchMods(modsJson: string, gitHubToken: string) {
   try {
-    const modInfos: ModInfo[] = JSON.parse(core.getInput(Input.mods));
-    const gitHubToken = core.getInput(Input.gitHubToken);
+    const modInfos: ModInfo[] = JSON.parse(modsJson);
     const octokit = getOctokit(gitHubToken);
 
     const previousDatabaseResponse: any = (
@@ -212,6 +211,10 @@ async function run() {
     core.setFailed(error as any);
     console.log("error", error as any);
   }
+}
+
+async function run() {
+  fetchMods(core.getInput(Input.mods), core.getInput(Input.gitHubToken));
 }
 
 run();
