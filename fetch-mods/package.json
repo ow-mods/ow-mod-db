@@ -6,7 +6,8 @@
   "author": "Raicuparta",
   "license": "ISC",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node build/test/test.js"
   },
   "dependencies": {
     "@actions/core": "^1.6.0",
