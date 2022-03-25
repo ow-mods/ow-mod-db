@@ -8,6 +8,9 @@ inputs:
   github-token:
     description: "Token for GitHub authentication"
     required: true
+  discord-hook-url:
+    description: "Secret Discord hook url with token"
+    required: true
 outputs:
   releases:
     description: "JSON list of latest mod releases"

@@ -6,12 +6,15 @@
   "author": "Raicuparta",
   "license": "ISC",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "build-and-test": "pnpm run build && pnpm run test",
+    "test": "node build/test/test.js"
   },
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0",
     "@types/node": "16",
+    "axios": "^0.26.1",
     "typescript": "^4.5.4"
   }
 }

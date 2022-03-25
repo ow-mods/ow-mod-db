@@ -43,6 +43,7 @@ jobs:
         with:
           github-token: ${{ secrets.GH_TOKEN  }}
           mods: "${{ steps.local-mods.outputs.mods }}"
+          discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
       - uses: actions/checkout@v2
         with:
           ref: "master"
