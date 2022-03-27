@@ -23,9 +23,11 @@ function getNotificationDescription(diffItem: DiffItem) {
     case "remove":
       return "";
     case "update":
+      const nextReleaseDescription = diffItem.nextMod.latestReleaseDescription;
+
       return `${diffItem.previousMod!.version} → **${
         diffItem.nextMod.version
-      }**`;
+      }**.${nextReleaseDescription ? "\n >>> " : ""}${nextReleaseDescription}`;
   }
 }
 

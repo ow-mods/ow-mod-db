@@ -11,6 +11,7 @@ type Release = {
   downloadUrl: string;
   downloadCount: number;
   version: string;
+  latestReleaseDescription: string;
 };
 
 interface Mod extends Release {
