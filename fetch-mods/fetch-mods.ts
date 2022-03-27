@@ -11,20 +11,6 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
   const modInfos: ModInfo[] = JSON.parse(modsJson);
   const octokit = getOctokit(gitHubToken);
 
-  const previousDatabaseResponse: any = (
-    await octokit.rest.repos.getContent({
-      owner: "Raicuparta",
-      repo: "ow-mod-db",
-      path: "database.json",
-      ref: "master",
-      mediaType: {
-        format: "raw",
-      },
-    })
-  ).data;
-
-  const previousDatabase: Mod[] = JSON.parse(previousDatabaseResponse);
-
   const managerReleases = await octokit.paginate(
     octokit.rest.repos.listReleases,
     {
