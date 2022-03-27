@@ -11,7 +11,7 @@ enum Input {
   mods = "mods",
   gitHubToken = "github-token",
   discordHookUrl = "discord-hook-url",
-  secrets = "secrets",
+  discordModHookUrls = "discord-mod-hook-urls",
 }
 
 enum Output {
@@ -24,10 +24,9 @@ function getCleanedUpModList(modList: Mod[]) {
 
 async function run() {
   try {
-    const secrets = core.getInput(Input.secrets);
-
-    core.debug(`secretsText ${secrets}`);
-    core.debug(`secretsObject ${JSON.parse(secrets)}`);
+    const discordModHookUrls: Record<string, string> = JSON.parse(
+      core.getInput(Input.discordModHookUrls)
+    );
 
     const gitHubToken = core.getInput(Input.gitHubToken);
 
@@ -50,7 +49,11 @@ async function run() {
 
     const previousDatabase = await getPreviousDatabase(gitHubToken);
     const diff = getDiff(previousDatabase, nextDatabase);
-    sendDiscordNotifications(core.getInput(Input.discordHookUrl), diff);
+    sendDiscordNotifications(
+      core.getInput(Input.discordHookUrl),
+      diff,
+      discordModHookUrls
+    );
   } catch (error) {
     core.setFailed(error as any);
     console.log("error", error as any);

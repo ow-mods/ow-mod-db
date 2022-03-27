@@ -49,10 +49,11 @@ function getRelevantMod(diffItem: DiffItem) {
 
 export async function sendDiscordNotifications(
   discordHookUrl: string,
-  diff: DiffItem[]
+  diff: DiffItem[],
+  discordModHookUrls: Record<string, string>
 ) {
   for (const diffItem of diff) {
-    axios.post(discordHookUrl, {
+    const postBody = {
       embeds: [
         {
           title: getNotificationTitle(diffItem),
@@ -61,6 +62,14 @@ export async function sendDiscordNotifications(
           color: getNotificationColor(diffItem),
         },
       ],
-    });
+    };
+
+    axios.post(discordHookUrl, postBody);
+
+    const discordModHookUrl =
+      discordModHookUrls[getRelevantMod(diffItem).uniqueName];
+    if (discordModHookUrl) {
+      axios.post(discordModHookUrl, postBody);
+    }
   }
 }

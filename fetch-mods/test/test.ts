@@ -1,6 +1,6 @@
 import { fetchMods } from "../fetch-mods";
 import modsJson from "./mods.json";
-import { discordHookUrl, ghToken } from "./secrets.json";
+import { discordHookUrl, ghToken, discordModHookUrls } from "./secrets.json";
 import nextDatabase from "./next-database.json";
 import previousDatabase from "./previous-database.json";
 import { getDiff } from "../get-diff";
@@ -12,7 +12,7 @@ async function test() {
 
   const diff = getDiff(previousDatabase, nextDatabase);
 
-  sendDiscordNotifications(discordHookUrl, diff);
+  sendDiscordNotifications(discordHookUrl, diff, discordModHookUrls);
 }
 
 test();
