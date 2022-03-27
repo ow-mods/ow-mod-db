@@ -76,6 +76,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
           downloadCount: asset.download_count,
           version: release.tag_name,
           date: asset.created_at,
+          description: release.body,
         };
       });
   }
@@ -121,6 +122,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
           repo,
           version: latestRelease.version,
           readme,
+          latestReleaseDescription: latestRelease.description || "",
           prerelease: latestPrerelease
             ? {
                 version: latestPrerelease.version,

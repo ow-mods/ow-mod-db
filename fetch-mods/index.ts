@@ -17,6 +17,10 @@ enum Output {
   releases = "releases",
 }
 
+function getCleanedUpModList(modList: Mod[]) {
+  return modList.map(({ latestReleaseDescription, ...mod }) => mod);
+}
+
 async function run() {
   try {
     const gitHubToken = core.getInput(Input.gitHubToken);
@@ -31,7 +35,7 @@ async function run() {
     const databaseJson = JSON.stringify(
       {
         modManager,
-        releases: nextDatabase,
+        releases: getCleanedUpModList(nextDatabase),
       },
       null,
       JSON_INDENT
