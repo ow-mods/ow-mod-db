@@ -3,6 +3,7 @@ import { sendDiscordNotifications } from "./send-discord-notifications";
 import { fetchMods } from "./fetch-mods";
 import { getDiff } from "./get-diff";
 import { getPreviousDatabase } from "./get-previous-database";
+import { fetchModManager } from "./fetch-mod-manager";
 
 const JSON_INDENT = 2;
 
@@ -20,16 +21,25 @@ async function run() {
   try {
     const gitHubToken = core.getInput(Input.gitHubToken);
 
+    const modManager = await fetchModManager(gitHubToken);
+
     const nextDatabase = await fetchMods(
       core.getInput(Input.mods),
       gitHubToken
     );
 
-    const databaseJson = JSON.stringify(nextDatabase, null, JSON_INDENT);
+    const databaseJson = JSON.stringify(
+      {
+        modManager,
+        releases: nextDatabase,
+      },
+      null,
+      JSON_INDENT
+    );
     core.setOutput(Output.releases, databaseJson);
 
     const previousDatabase = await getPreviousDatabase(gitHubToken);
-    const diff = getDiff(previousDatabase, nextDatabase.releases);
+    const diff = getDiff(previousDatabase, nextDatabase);
     sendDiscordNotifications(core.getInput(Input.discordHookUrl), diff);
   } catch (error) {
     core.setFailed(error as any);

@@ -11,30 +11,9 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
   const modInfos: ModInfo[] = JSON.parse(modsJson);
   const octokit = getOctokit(gitHubToken);
 
-  const managerReleases = await octokit.paginate(
-    octokit.rest.repos.listReleases,
-    {
-      ...managerRepo,
-      per_page: 100,
-    }
-  );
-  const managerLatestRelease = managerReleases[0];
-  const managerDownloadCount = managerReleases.reduce(
-    (managerDownloadAccumulator, { assets }) => {
-      const assetsDownloadCount = assets
-        .filter(
-          ({ name }) =>
-            (name.endsWith("zip") && !name.includes("LEGACY")) ||
-            name.endsWith("exe")
-        )
-        .reduce((assetsDownloadAccumulator, { download_count }) => {
-          return assetsDownloadAccumulator + download_count;
-        }, 0);
-
-      return managerDownloadAccumulator + assetsDownloadCount;
-    },
-    0
-  );
+  type ReleaseList = Awaited<
+    ReturnType<typeof octokit.rest.repos.listReleases>
+  >["data"];
 
   const results = [];
   for (let modInfo of modInfos) {
@@ -86,7 +65,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
     }
   }
 
-  function getCleanedUpReleases(releaseList: typeof managerLatestRelease[]) {
+  function getCleanedUpReleases(releaseList: ReleaseList) {
     return releaseList
       .filter(({ assets }) => assets.length > 0)
       .map((release) => {
@@ -158,28 +137,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
     })
   );
 
-  const assets = managerLatestRelease.assets;
-  const zipAssets = assets.filter((asset) => asset.name.endsWith(".zip"));
-  const legacyZipAsset = zipAssets.find((asset) =>
-    asset.name.includes("LEGACY")
-  );
-  const mainZipAsset = zipAssets.find(
-    (asset) => !asset.name.includes("LEGACY")
-  );
-  const exeAsset = assets.find((asset) => asset.name.endsWith(".exe"));
-
-  const modDatabase = {
-    modManager: {
-      version: managerLatestRelease.tag_name,
-      downloadUrl: (legacyZipAsset ?? mainZipAsset)?.browser_download_url,
-      zipDownloadUrl: (mainZipAsset ?? legacyZipAsset)?.browser_download_url,
-      installerDownloadUrl: exeAsset?.browser_download_url,
-      downloadCount: managerDownloadCount,
-    },
-    releases: modReleases.filter(filterTruthy),
-  };
-
-  return modDatabase;
+  return modReleases.filter(filterTruthy);
 }
 
 function filterTruthy<TItem>(item: TItem | null): item is TItem {
