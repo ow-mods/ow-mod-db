@@ -11,6 +11,7 @@ enum Input {
   mods = "mods",
   gitHubToken = "github-token",
   discordHookUrl = "discord-hook-url",
+  secrets = "secrets",
 }
 
 enum Output {
@@ -23,6 +24,11 @@ function getCleanedUpModList(modList: Mod[]) {
 
 async function run() {
   try {
+    const secrets = core.getInput(Input.secrets);
+
+    core.debug(`secretsText ${secrets}`);
+    core.debug(`secretsObject ${JSON.parse(secrets)}`);
+
     const gitHubToken = core.getInput(Input.gitHubToken);
 
     const modManager = await fetchModManager(gitHubToken);

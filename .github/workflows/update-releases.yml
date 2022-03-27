@@ -42,6 +42,7 @@ jobs:
         uses: ./fetch-mods
         with:
           github-token: ${{ secrets.GH_TOKEN  }}
+          secrets: ${{ toJSON(secrets) }}
           mods: "${{ steps.local-mods.outputs.mods }}"
           discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
       - uses: actions/checkout@v2

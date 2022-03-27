@@ -11,6 +11,9 @@ inputs:
   discord-hook-url:
     description: "Secret Discord hook url with token"
     required: true
+  secrets:
+    description: "All workflow secrets"
+    required: true
 outputs:
   releases:
     description: "JSON list of latest mod releases"
