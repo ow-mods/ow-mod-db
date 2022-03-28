@@ -7,12 +7,12 @@ import { getDiff } from "../get-diff";
 import { sendDiscordNotifications } from "../send-discord-notifications";
 
 async function test() {
-  // const nextDatabase = await fetchMods(JSON.stringify(modsJson), ghToken);
-  // console.log("nextDatabase", JSON.stringify(nextDatabase, null, 2));
+  const nextDatabase = await fetchMods(JSON.stringify(modsJson), ghToken);
+  console.log("nextDatabase", JSON.stringify(nextDatabase, null, 2));
 
-  const diff = getDiff(previousDatabase, nextDatabase);
+  // const diff = getDiff(previousDatabase, nextDatabase);
 
-  sendDiscordNotifications(discordHookUrl, diff, discordModHookUrls);
+  // sendDiscordNotifications(discordHookUrl, diff, discordModHookUrls);
 }
 
 test();

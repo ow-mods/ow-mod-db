@@ -53,90 +53,107 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
       const releaseList = fullReleaseList.filter(
         (release) => !release.prerelease
       );
+      const latestRelease = (
+        await octokit.rest.repos.getLatestRelease({
+          owner,
+          repo,
+        })
+      ).data;
 
       results.push({
         releaseList,
         prereleaseList,
         modInfo,
         readme,
+        latestRelease,
       });
     } catch (error) {
       console.log("Error reading mod info", error);
     }
   }
 
-  function getCleanedUpReleases(releaseList: ReleaseList) {
+  function getCleanedUpRelease(release: ReleaseList[number]) {
+    const asset = release.assets[0];
+
+    return {
+      downloadUrl: asset.browser_download_url,
+      downloadCount: asset.download_count,
+      version: release.tag_name,
+      date: asset.created_at,
+      description: release.body,
+    };
+  }
+
+  function getCleanedUpReleaseList(releaseList: ReleaseList) {
     return releaseList
       .filter(({ assets }) => assets.length > 0)
-      .map((release) => {
-        const asset = release.assets[0];
-
-        return {
-          downloadUrl: asset.browser_download_url,
-          downloadCount: asset.download_count,
-          version: release.tag_name,
-          date: asset.created_at,
-          description: release.body,
-        };
-      });
+      .map(getCleanedUpRelease);
   }
 
   const modReleases: (Mod | null)[] = await Promise.all(
-    results.map(async ({ modInfo, releaseList, prereleaseList, readme }) => {
-      try {
-        const releases = getCleanedUpReleases(releaseList);
-        const prereleases = getCleanedUpReleases(prereleaseList);
-        const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
+    results.map(
+      async ({
+        modInfo,
+        latestRelease,
+        releaseList,
+        prereleaseList,
+        readme,
+      }) => {
+        try {
+          const releases = getCleanedUpReleaseList(releaseList);
+          const prereleases = getCleanedUpReleaseList(prereleaseList);
+          const cleanLatestRelease = getCleanedUpRelease(latestRelease);
+          const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
 
-        const totalDownloadCount = [...releases, ...prereleases].reduce(
-          (accumulator, release) => {
-            return accumulator + release.downloadCount;
-          },
-          0
-        );
+          const totalDownloadCount = [...releases, ...prereleases].reduce(
+            (accumulator, release) => {
+              return accumulator + release.downloadCount;
+            },
+            0
+          );
 
-        const splitRepo = modInfo.repo.split("/");
-        const githubRepository = (
-          await octokit.rest.repos.get({
-            owner: splitRepo[0],
-            repo: splitRepo[1],
-          })
-        ).data;
+          const splitRepo = modInfo.repo.split("/");
+          const githubRepository = (
+            await octokit.rest.repos.get({
+              owner: splitRepo[0],
+              repo: splitRepo[1],
+            })
+          ).data;
 
-        const latestRelease = releases[0];
-        const firstRelease = releases[releases.length - 1];
-        const latestPrerelease = prereleases[0];
+          const firstRelease = releases[releases.length - 1];
+          const latestPrerelease = prereleases[0];
 
-        const mod: Mod = {
-          name: modInfo.name,
-          uniqueName: modInfo.uniqueName,
-          description: githubRepository.description || "",
-          author: githubRepository.owner.login,
-          required: modInfo.required,
-          utility: modInfo.utility,
-          parent: modInfo.parent,
-          downloadUrl: latestRelease.downloadUrl,
-          downloadCount: totalDownloadCount,
-          latestReleaseDate: latestRelease.date,
-          firstReleaseDate: firstRelease.date,
-          repo,
-          version: latestRelease.version,
-          readme,
-          latestReleaseDescription: latestRelease.description || "",
-          prerelease: latestPrerelease
-            ? {
-                version: latestPrerelease.version,
-                downloadUrl: latestPrerelease.downloadUrl,
-              }
-            : undefined,
-        };
+          const mod: Mod = {
+            name: modInfo.name,
+            uniqueName: modInfo.uniqueName,
+            description: githubRepository.description || "",
+            author: githubRepository.owner.login,
+            required: modInfo.required,
+            utility: modInfo.utility,
+            parent: modInfo.parent,
+            downloadUrl: cleanLatestRelease.downloadUrl,
+            downloadCount: totalDownloadCount,
+            latestReleaseDate: cleanLatestRelease.date,
+            firstReleaseDate: firstRelease.date,
+            repo,
+            version: cleanLatestRelease.version,
+            readme,
+            latestReleaseDescription: cleanLatestRelease.description || "",
+            prerelease: latestPrerelease
+              ? {
+                  version: latestPrerelease.version,
+                  downloadUrl: latestPrerelease.downloadUrl,
+                }
+              : undefined,
+          };
 
-        return mod;
-      } catch (error) {
-        console.error(`Error fetching mod ${modInfo.uniqueName} : ${error}`);
-        return null;
+          return mod;
+        } catch (error) {
+          console.error(`Error fetching mod ${modInfo.uniqueName} : ${error}`);
+          return null;
+        }
       }
-    })
+    )
   );
 
   return modReleases.filter(filterTruthy);
