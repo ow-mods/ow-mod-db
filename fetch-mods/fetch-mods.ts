@@ -139,7 +139,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
             version: cleanLatestRelease.version,
             readme,
             latestReleaseDescription: cleanLatestRelease.description || "",
-            latestPrereleaseDescription: latestPrerelease.description || "",
+            latestPrereleaseDescription: latestPrerelease?.description || "",
             prerelease: latestPrerelease
               ? {
                   version: latestPrerelease.version,
