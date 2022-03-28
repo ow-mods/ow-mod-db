@@ -19,7 +19,9 @@ enum Output {
 }
 
 function getCleanedUpModList(modList: Mod[]) {
-  return modList.map(({ latestReleaseDescription, ...mod }) => mod);
+  return modList.map(
+    ({ latestReleaseDescription, latestPrereleaseDescription, ...mod }) => mod
+  );
 }
 
 async function run() {

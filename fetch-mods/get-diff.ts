@@ -10,7 +10,7 @@ export type DiffItem =
   | {
       previousMod: Mod;
       nextMod: Mod;
-      diffType: "update";
+      diffType: "update" | "update-prerelease";
     };
 
 export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
@@ -35,7 +35,18 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
         previousMod: previousDatabaseMod,
         nextMod: nextDatabaseMod,
       });
-      continue;
+    }
+
+    if (
+      nextDatabaseMod.prerelease &&
+      previousDatabaseMod.prerelease?.version !==
+        nextDatabaseMod.prerelease.version
+    ) {
+      diff.push({
+        diffType: "update-prerelease",
+        previousMod: previousDatabaseMod,
+        nextMod: nextDatabaseMod,
+      });
     }
   }
 

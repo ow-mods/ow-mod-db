@@ -9,6 +9,8 @@ function getNotificationTitle(diffItem: DiffItem) {
       return `Removed ${diffItem.previousMod.name} by ${diffItem.previousMod.author}`;
     case "update":
       return `Updated ${diffItem.nextMod.name} by ${diffItem.nextMod.author}`;
+    case "update-prerelease":
+      return `Updated prerelease of ${diffItem.nextMod.name} by ${diffItem.nextMod.author}`;
   }
 }
 
@@ -22,12 +24,21 @@ function getNotificationDescription(diffItem: DiffItem) {
       }${diffItem.nextMod.description}`;
     case "remove":
       return "";
-    case "update":
+    case "update": {
       const nextReleaseDescription = diffItem.nextMod.latestReleaseDescription;
 
       return `${diffItem.previousMod!.version} → **${
         diffItem.nextMod.version
       }**.${nextReleaseDescription ? "\n >>> " : ""}${nextReleaseDescription}`;
+    }
+    case "update-prerelease": {
+      const prereleaseDescription =
+        diffItem.nextMod.latestPrereleaseDescription;
+
+      return `Prerelease **${diffItem.nextMod.prerelease?.version}**.${
+        prereleaseDescription ? "\n >>> " : ""
+      }${prereleaseDescription}`;
+    }
   }
 }
 
@@ -39,6 +50,8 @@ function getNotificationColor(diffItem: DiffItem) {
       return 10038562;
     case "update":
       return 15105570;
+    case "update-prerelease":
+      return 0;
   }
 }
 function getRelevantMod(diffItem: DiffItem) {
