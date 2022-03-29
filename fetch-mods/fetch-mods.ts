@@ -1,4 +1,5 @@
 import { getOctokit } from "@actions/github";
+import { toJsonString } from "./to-json-string";
 
 const REPO_URL_BASE = "https://github.com";
 
@@ -104,6 +105,10 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
           const prereleases = getCleanedUpReleaseList(prereleaseList);
           const cleanLatestRelease = getCleanedUpRelease(latestRelease);
           const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
+
+          console.log("releases", toJsonString(releases));
+          console.log("prereleases", toJsonString(prereleases));
+          console.log("cleanLatestRelease", toJsonString(cleanLatestRelease));
 
           const totalDownloadCount = [...releases, ...prereleases].reduce(
             (accumulator, release) => {

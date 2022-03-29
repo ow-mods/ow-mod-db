@@ -4,8 +4,7 @@ import { fetchMods } from "./fetch-mods";
 import { getDiff } from "./get-diff";
 import { getPreviousDatabase } from "./get-previous-database";
 import { fetchModManager } from "./fetch-mod-manager";
-
-const JSON_INDENT = 2;
+import { toJsonString } from "./to-json-string";
 
 enum Input {
   mods = "mods",
@@ -39,14 +38,10 @@ async function run() {
       gitHubToken
     );
 
-    const databaseJson = JSON.stringify(
-      {
-        modManager,
-        releases: getCleanedUpModList(nextDatabase),
-      },
-      null,
-      JSON_INDENT
-    );
+    const databaseJson = toJsonString({
+      modManager,
+      releases: getCleanedUpModList(nextDatabase),
+    });
     core.setOutput(Output.releases, databaseJson);
 
     const previousDatabase = await getPreviousDatabase(gitHubToken);
