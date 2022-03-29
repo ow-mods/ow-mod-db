@@ -1,12 +1,11 @@
-import { getOctokit } from "@actions/github";
+import { getOctokit, context } from "@actions/github";
 
 export async function getPreviousDatabase(gitHubToken: string) {
   const octokit = getOctokit(gitHubToken);
 
   const previousDatabaseResponse: any = (
     await octokit.rest.repos.getContent({
-      owner: "Raicuparta",
-      repo: "ow-mod-db",
+      ...context.repo,
       path: "database.json",
       ref: "master",
       mediaType: {
