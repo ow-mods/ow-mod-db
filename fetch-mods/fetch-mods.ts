@@ -61,7 +61,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
       const useReleaseFromList =
         latestReleaseFromList &&
         new Date(latestReleaseFromList.created_at) >
-          new Date(latestReleaseFromList.created_at);
+          new Date(latestReleaseFromApi.created_at);
 
       const latestRelease = useReleaseFromList
         ? latestReleaseFromList
