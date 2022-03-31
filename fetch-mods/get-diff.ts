@@ -37,18 +37,17 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       });
     }
 
-    // Prerelease notifications are disabled since there are some false positives.
-    // if (
-    //   nextDatabaseMod.prerelease &&
-    //   previousDatabaseMod.prerelease?.version !==
-    //     nextDatabaseMod.prerelease.version
-    // ) {
-    //   diff.push({
-    //     diffType: "update-prerelease",
-    //     previousMod: previousDatabaseMod,
-    //     nextMod: nextDatabaseMod,
-    //   });
-    // }
+    if (
+      nextDatabaseMod.prerelease &&
+      previousDatabaseMod.prerelease?.version !==
+        nextDatabaseMod.prerelease.version
+    ) {
+      diff.push({
+        diffType: "update-prerelease",
+        previousMod: previousDatabaseMod,
+        nextMod: nextDatabaseMod,
+      });
+    }
   }
 
   for (const previousDatabaseMod of previousDatabase) {
