@@ -58,6 +58,10 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
         })
       ).data;
 
+      // There are two ways to get the latest release:
+      // - picking the last item in the full release list;
+      // - using the result of the latest release api endpoint.
+      // Some times, they disagree. So I'll pick the youngest one as the latest release.
       const useReleaseFromList =
         latestReleaseFromList &&
         new Date(latestReleaseFromList.created_at) >
