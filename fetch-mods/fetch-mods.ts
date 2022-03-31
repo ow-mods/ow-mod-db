@@ -3,11 +3,6 @@ import { toJsonString } from "./to-json-string";
 
 const REPO_URL_BASE = "https://github.com";
 
-const managerRepo = {
-  owner: "Raicuparta",
-  repo: "ow-mod-manager",
-};
-
 export async function fetchMods(modsJson: string, gitHubToken: string) {
   const modInfos: ModInfo[] = JSON.parse(modsJson);
   const octokit = getOctokit(gitHubToken);
@@ -155,7 +150,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
 
           return mod;
         } catch (error) {
-          console.error(`Error fetching mod ${modInfo.uniqueName} : ${error}`);
+          console.log(`Error fetching mod ${modInfo.uniqueName} : ${error}`);
           return null;
         }
       }
