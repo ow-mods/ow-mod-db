@@ -49,12 +49,23 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
       const releaseList = fullReleaseList.filter(
         (release) => !release.prerelease
       );
-      const latestRelease = (
+
+      const latestReleaseFromList = releaseList[releaseList.length - 1];
+      const latestReleaseFromApi = (
         await octokit.rest.repos.getLatestRelease({
           owner,
           repo,
         })
       ).data;
+
+      const useReleaseFromList =
+        latestReleaseFromList &&
+        new Date(latestReleaseFromList.created_at) >
+          new Date(latestReleaseFromList.created_at);
+
+      const latestRelease = useReleaseFromList
+        ? latestReleaseFromList
+        : latestReleaseFromApi;
 
       results.push({
         releaseList,
