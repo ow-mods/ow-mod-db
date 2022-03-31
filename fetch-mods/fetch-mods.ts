@@ -135,7 +135,8 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
             })
           ).data;
 
-          const firstRelease = releases[releases.length - 1];
+          const firstRelease =
+            releases[releases.length - 1] ?? cleanLatestRelease;
           const latestPrerelease = prereleases[0];
 
           const mod: Mod = {
