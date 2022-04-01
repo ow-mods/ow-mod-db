@@ -7,9 +7,10 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
   const modInfos: ModInfo[] = JSON.parse(modsJson);
   const octokit = getOctokit(gitHubToken);
 
-  type ReleaseList = Awaited<
+  type OctokitRelease = Awaited<
     ReturnType<typeof octokit.rest.repos.listReleases>
-  >["data"];
+  >["data"][number];
+  type ReleaseList = OctokitRelease[];
 
   const results = [];
   for (let modInfo of modInfos) {
@@ -51,25 +52,47 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
       );
 
       const latestReleaseFromList = releaseList[releaseList.length - 1];
-      const latestReleaseFromApi = (
-        await octokit.rest.repos.getLatestRelease({
-          owner,
-          repo,
-        })
-      ).data;
+
+      let latestReleaseFromApi: OctokitRelease | null = null;
+
+      try {
+        latestReleaseFromApi = (
+          await octokit.rest.repos.getLatestRelease({
+            owner,
+            repo,
+          })
+        ).data;
+      } catch (error) {
+        console.log(`Failed to get latest release from API: ${error}`);
+      }
 
       // There are two ways to get the latest release:
       // - picking the last item in the full release list;
       // - using the result of the latest release api endpoint.
       // Some times, they disagree. So I'll pick the youngest one as the latest release.
-      const useReleaseFromList =
+      let useReleaseFromList = false;
+      if (!latestReleaseFromApi && latestReleaseFromList) {
+        useReleaseFromList = true;
+      } else if (latestReleaseFromApi && !latestReleaseFromList) {
+        useReleaseFromList = false;
+      } else if (
         latestReleaseFromList &&
+        latestReleaseFromApi &&
         new Date(latestReleaseFromList.created_at) >
-          new Date(latestReleaseFromApi.created_at);
+          new Date(latestReleaseFromApi.created_at)
+      ) {
+        useReleaseFromList = true;
+      }
 
       const latestRelease = useReleaseFromList
         ? latestReleaseFromList
         : latestReleaseFromApi;
+
+      if (!latestRelease) {
+        throw new Error(
+          "Failed to find latest release from either release list or latest release endpoint"
+        );
+      }
 
       results.push({
         releaseList,
@@ -83,7 +106,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
     }
   }
 
-  function getCleanedUpRelease(release: ReleaseList[number]) {
+  function getCleanedUpRelease(release: OctokitRelease) {
     const asset = release.assets[0];
 
     return {
