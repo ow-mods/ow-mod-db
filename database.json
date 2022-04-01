@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 52935
+    "downloadCount": 52936
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.2/OWML.zip",
-      "downloadCount": 41457,
+      "downloadCount": 41458,
       "latestReleaseDate": "2022-02-03T21:49:34Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -1195,15 +1195,19 @@
       "description": "A mod that removes all planets except Timber Heath. Yay, no Dark Bramble!",
       "author": "Tllya",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Tllya/ow-nh-only-timber-hearth/releases/download/v0.1.1/ow-nh-only-timber-hearth.zip",
-      "downloadCount": 31,
-      "latestReleaseDate": "2022-03-27T18:08:53Z",
+      "downloadUrl": "https://github.com/Tllya/ow-nh-only-timber-hearth/releases/download/v1.4.2022/mogomogus.zip",
+      "downloadCount": 32,
+      "latestReleaseDate": "2022-04-01T15:53:01Z",
       "firstReleaseDate": "2022-03-27T16:59:00Z",
       "repo": "https://github.com/Tllya/ow-nh-only-timber-hearth",
-      "version": "v0.1.1",
+      "version": "v1.4.2022",
       "readme": {
         "htmlUrl": "https://github.com/Tllya/ow-nh-only-timber-hearth/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tllya/ow-nh-only-timber-hearth/main/README.md"
+      },
+      "prerelease": {
+        "version": "v0.1.1",
+        "downloadUrl": "https://github.com/Tllya/ow-nh-only-timber-hearth/releases/download/v0.1.1/ow-nh-only-timber-hearth.zip"
       }
     },
     {
