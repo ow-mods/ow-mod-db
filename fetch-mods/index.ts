@@ -25,10 +25,6 @@ function getCleanedUpModList(modList: Mod[]) {
 
 async function run() {
   try {
-    const discordModHookUrls: Record<string, string> = JSON.parse(
-      core.getInput(Input.discordModHookUrls)
-    );
-
     const gitHubToken = core.getInput(Input.gitHubToken);
 
     const modManager = await fetchModManager(gitHubToken);
@@ -44,13 +40,22 @@ async function run() {
     });
     core.setOutput(Output.releases, databaseJson);
 
-    const previousDatabase = await getPreviousDatabase(gitHubToken);
-    const diff = getDiff(previousDatabase, nextDatabase);
-    sendDiscordNotifications(
-      core.getInput(Input.discordHookUrl),
-      diff,
-      discordModHookUrls
-    );
+    const discordHookUrl = core.getInput(Input.discordHookUrl);
+
+    if (discordHookUrl) {
+      const previousDatabase = await getPreviousDatabase(gitHubToken);
+      const diff = getDiff(previousDatabase, nextDatabase);
+
+      const discordModHookUrls: Record<string, string> = JSON.parse(
+        core.getInput(Input.discordModHookUrls) || "{}"
+      );
+
+      sendDiscordNotifications(
+        core.getInput(Input.discordHookUrl),
+        diff,
+        discordModHookUrls
+      );
+    }
   } catch (error) {
     core.setFailed(error as any);
     console.log("error", error as any);
