@@ -36,14 +36,16 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
 
       const readme = await getReadme();
 
-      const fullReleaseList = await octokit.paginate(
-        octokit.rest.repos.listReleases,
-        {
+      const fullReleaseList = (
+        await octokit.paginate(octokit.rest.repos.listReleases, {
           owner,
           repo,
           per_page: 100,
-        }
+        })
+      ).sort((releaseA, releaseB) =>
+        new Date(releaseA.created_at) < new Date(releaseB.created_at) ? 1 : -1
       );
+
       const prereleaseList = fullReleaseList.filter(
         (release) => release.prerelease
       );
