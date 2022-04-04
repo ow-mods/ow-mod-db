@@ -43,7 +43,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
           per_page: 100,
         })
       ).sort((releaseA, releaseB) =>
-        new Date(releaseA.created_at) > new Date(releaseB.created_at) ? 1 : -1
+        new Date(releaseA.created_at) < new Date(releaseB.created_at) ? 1 : -1
       );
 
       const prereleaseList = fullReleaseList.filter(
