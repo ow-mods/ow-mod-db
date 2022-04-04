@@ -54,6 +54,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
       );
 
       const latestReleaseFromList = releaseList[0];
+      console.log("latestReleaseFromList", latestReleaseFromList);
 
       let latestReleaseFromApi: OctokitRelease | null = null;
 
@@ -64,6 +65,8 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
             repo,
           })
         ).data;
+
+        console.log("latestReleaseFromApi", latestReleaseFromApi);
       } catch (error) {
         console.log(`Failed to get latest release from API: ${error}`);
       }
