@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 54471
+    "downloadCount": 54475
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.2/OWML.zip",
-      "downloadCount": 42557,
+      "downloadCount": 42559,
       "latestReleaseDate": "2022-02-03T21:49:34Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -31,7 +31,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 32829,
+      "downloadCount": 32831,
       "latestReleaseDate": "2022-01-06T20:33:09Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -342,7 +342,7 @@
       "author": "PacificEngine",
       "utility": true,
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.5.14/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 5742,
+      "downloadCount": 5743,
       "latestReleaseDate": "2022-02-11T05:14:53Z",
       "firstReleaseDate": "2021-11-04T17:05:42Z",
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
@@ -424,7 +424,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.3/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 2817,
+      "downloadCount": 2818,
       "latestReleaseDate": "2022-01-12T14:40:22Z",
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
@@ -436,7 +436,7 @@
       "description": "Place a camera where you're standing then walk around in front of it.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-static-camera/releases/download/v0.1.3/xen.StaticCamera.zip",
-      "downloadCount": 342,
+      "downloadCount": 51,
       "latestReleaseDate": "2021-12-05T20:13:36Z",
       "firstReleaseDate": "2021-11-26T06:37:49Z",
       "repo": "https://github.com/xen-42/outer-wilds-static-camera",
@@ -564,7 +564,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v0.10.2/xen.NewHorizons.zip",
-      "downloadCount": 4756,
+      "downloadCount": 4757,
       "latestReleaseDate": "2022-04-09T22:20:28Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
@@ -1256,6 +1256,23 @@
       "readme": {
         "htmlUrl": "https://github.com/Krevace/ow-voice-mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Krevace/ow-voice-mod/master/README.md"
+      }
+    },
+    {
+      "name": "Their Homeworld",
+      "uniqueName": "CreativeNameTxt.theirhomeworld",
+      "description": "a solar system made with new horizons, will probably be updated",
+      "author": "CreativeNameTxt",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/CreativeNameTxt/their-home-world/releases/download/mod/all_files.rar",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-04-10T22:39:32Z",
+      "firstReleaseDate": "2022-04-10T22:39:32Z",
+      "repo": "https://github.com/CreativeNameTxt/their-home-world",
+      "version": "mod",
+      "readme": {
+        "htmlUrl": "https://github.com/CreativeNameTxt/their-home-world/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/CreativeNameTxt/their-home-world/main/README.md"
       }
     }
   ]
