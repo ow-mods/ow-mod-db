@@ -202,9 +202,9 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
     )
   );
 
-  const modReleases = modReleaseResults.filter(
-    filterFulfilledPromiseSettleResults
-  );
+  const modReleases = modReleaseResults
+    .filter(filterFulfilledPromiseSettleResults)
+    .map((result) => result.value);
 
   return modReleases.filter(filterTruthy);
 }
