@@ -129,7 +129,7 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
       .map(getCleanedUpRelease);
   }
 
-  const modReleases: (Mod | null)[] = await Promise.all(
+  const modReleaseResults = await Promise.allSettled<Mod>(
     results.map(
       async ({
         modInfo,
@@ -194,11 +194,16 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
 
           return mod;
         } catch (error) {
-          console.log(`Error fetching mod ${modInfo.uniqueName} : ${error}`);
-          return null;
+          const errorMessage = `Error fetching mod ${modInfo.uniqueName} : ${error}`;
+          console.error(errorMessage);
+          throw new Error(errorMessage);
         }
       }
     )
+  );
+
+  const modReleases = modReleaseResults.filter(
+    filterFulfilledPromiseSettleResults
   );
 
   return modReleases.filter(filterTruthy);
@@ -206,4 +211,10 @@ export async function fetchMods(modsJson: string, gitHubToken: string) {
 
 function filterTruthy<TItem>(item: TItem | null): item is TItem {
   return Boolean(item);
+}
+
+function filterFulfilledPromiseSettleResults<T>(
+  result: PromiseSettledResult<T>
+): result is PromiseFulfilledResult<T> {
+  return result.status === "fulfilled";
 }
