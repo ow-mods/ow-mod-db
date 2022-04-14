@@ -16,15 +16,20 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 6.23.6
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
-          cache: pnpm
-      - name: Install dependencies
-        run: pnpm install
+      - name: Cache pnpm modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.23.6
+          run_install: true
       - name: Build
         run: |
           cd fetch-mods
