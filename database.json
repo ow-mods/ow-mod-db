@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 55121
+    "downloadCount": 55126
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.3/OWML.zip",
-      "downloadCount": 43302,
+      "downloadCount": 43311,
       "latestReleaseDate": "2022-04-12T15:57:33Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -31,7 +31,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 33105,
+      "downloadCount": 33107,
       "latestReleaseDate": "2022-01-06T20:33:09Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -71,7 +71,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 6514,
+      "downloadCount": 6516,
       "latestReleaseDate": "2021-10-14T20:13:05Z",
       "firstReleaseDate": "2020-04-10T13:16:22Z",
       "repo": "https://github.com/amazingalek/owml-light-bramble",
@@ -221,7 +221,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play! Server is online.",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.4.3/Release.0.4.3.zip",
-      "downloadCount": 3203,
+      "downloadCount": 3204,
       "latestReleaseDate": "2022-03-11T13:05:27Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -253,7 +253,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.4/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 4081,
+      "downloadCount": 4082,
       "latestReleaseDate": "2022-01-25T00:19:05Z",
       "firstReleaseDate": "2021-10-21T06:56:51Z",
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
@@ -346,7 +346,7 @@
       "author": "PacificEngine",
       "utility": true,
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.5.14/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 5869,
+      "downloadCount": 5870,
       "latestReleaseDate": "2022-02-11T05:14:53Z",
       "firstReleaseDate": "2021-11-04T17:05:42Z",
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
@@ -718,7 +718,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-signals-plus/releases/download/v1.1.0/xen.SignalsPlus.zip",
-      "downloadCount": 904,
+      "downloadCount": 905,
       "latestReleaseDate": "2022-02-22T05:55:26Z",
       "firstReleaseDate": "2022-01-02T06:46:26Z",
       "repo": "https://github.com/xen-42/outer-wilds-signals-plus",
@@ -800,7 +800,7 @@
       "author": "ErroneousCreationist",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/ErroneousCreationist/solarneighbourhood/releases/download/v1.5.1/solarneighbourhood.zip",
-      "downloadCount": 1462,
+      "downloadCount": 1564,
       "latestReleaseDate": "2022-02-05T05:38:08Z",
       "firstReleaseDate": "2022-01-06T08:28:59Z",
       "repo": "https://github.com/ErroneousCreationist/solarneighbourhood",
@@ -808,6 +808,10 @@
       "readme": {
         "htmlUrl": "https://github.com/ErroneousCreationist/solarneighbourhood/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ErroneousCreationist/solarneighbourhood/main/README.md"
+      },
+      "prerelease": {
+        "version": "v0.0.0",
+        "downloadUrl": "https://github.com/ErroneousCreationist/solarneighbourhood/releases/download/v0.0.0/solarneighbourhood.zip"
       }
     },
     {
@@ -832,7 +836,7 @@
       "description": "Korean re-translation for Outer Wilds",
       "author": "milesand",
       "downloadUrl": "https://github.com/milesand/outer-wilds-korean-translation/releases/download/v1.0.0/OWKT.zip",
-      "downloadCount": 1749,
+      "downloadCount": 1751,
       "latestReleaseDate": "2022-01-09T06:54:55Z",
       "firstReleaseDate": "2022-01-09T06:54:55Z",
       "repo": "https://github.com/milesand/outer-wilds-korean-translation",
