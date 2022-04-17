@@ -1,3 +1,5 @@
+import { happenedWithinDayCount } from "./happened-within-day-count";
+
 export type DiffItem =
   | {
       nextMod: Mod;
@@ -29,7 +31,10 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       continue;
     }
 
-    if (previousDatabaseMod.version !== nextDatabaseMod.version) {
+    if (
+      previousDatabaseMod.version !== nextDatabaseMod.version &&
+      happenedWithinDayCount(nextDatabaseMod.latestReleaseDate, 1)
+    ) {
       diff.push({
         diffType: "update",
         previousMod: previousDatabaseMod,
@@ -40,18 +45,18 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
     // There's a bug that causes the db to detect downgrades.
     // I have a workaround, but it only helps for normal releases, not prereleases.
     // So I'm disabling prerelease notifications for now.
-//
-//     if (
-//       nextDatabaseMod.prerelease &&
-//       previousDatabaseMod.prerelease?.version !==
-//         nextDatabaseMod.prerelease.version
-//     ) {
-//       diff.push({
-//         diffType: "update-prerelease",
-//         previousMod: previousDatabaseMod,
-//         nextMod: nextDatabaseMod,
-//       });
-//     }
+    //
+    //     if (
+    //       nextDatabaseMod.prerelease &&
+    //       previousDatabaseMod.prerelease?.version !==
+    //         nextDatabaseMod.prerelease.version
+    //     ) {
+    //       diff.push({
+    //         diffType: "update-prerelease",
+    //         previousMod: previousDatabaseMod,
+    //         nextMod: nextDatabaseMod,
+    //       });
+    //     }
   }
 
   for (const previousDatabaseMod of previousDatabase) {
