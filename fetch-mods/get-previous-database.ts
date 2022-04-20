@@ -1,7 +1,7 @@
-import { Octokit } from "@octokit/action";
+import { getOctokit } from "./get-octokit";
 
 export async function getPreviousDatabase() {
-  const octokit = new Octokit();
+  const octokit = getOctokit();
 
   const previousDatabaseResponse: any = (
     await octokit.rest.repos.getContent({

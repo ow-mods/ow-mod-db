@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@actions/core': ^1.6.0
   '@octokit/action': ^3.18.0
+  '@octokit/plugin-retry': ^3.0.9
   '@types/node': '16'
   axios: ^0.26.1
   typescript: ^4.5.4
@@ -10,6 +11,7 @@ specifiers:
 dependencies:
   '@actions/core': 1.6.0
   '@octokit/action': 3.18.0
+  '@octokit/plugin-retry': 3.0.9
   '@types/node': 16.11.17
   axios: 0.26.1
   typescript: 4.5.4
@@ -110,6 +112,13 @@ packages:
       deprecation: 2.3.1
     dev: false
 
+  /@octokit/plugin-retry/3.0.9:
+    resolution: {integrity: sha512-r+fArdP5+TG6l1Rv/C9hVoty6tldw6cE2pRHNGmFPdyfrc696R6JjrQ3d7HdVqGwuzfyrcaLAKD7K8TX8aehUQ==}
+    dependencies:
+      '@octokit/types': 6.34.0
+      bottleneck: 2.19.5
+    dev: false
+
   /@octokit/request-error/2.1.0:
     resolution: {integrity: sha512-1VIvgXxs9WHSjicsRwq8PlR2LR2x6DwsJAaFgzdi0JfJoGSO8mYI/cHJQ+9FbN21aa+DrgNLnwObmyeSC8Rmpg==}
     dependencies:
@@ -183,6 +192,10 @@ packages:
 
   /before-after-hook/2.2.2:
     resolution: {integrity: sha512-3pZEU3NT5BFUo/AD5ERPWOgQOCZITni6iavr5AUw5AUwQjMlI0kzu5btnyD39AF0gUEsDPwJT+oY1ORBJijPjQ==}
+    dev: false
+
+  /bottleneck/2.19.5:
+    resolution: {integrity: sha512-VHiNCbI1lKdl44tGrhNfU3lup0Tj/ZBMJB5/2ZbNXRCPuRCO7ed2mgcK4r17y+KB2EfuYuRaVlwNbAeaWGSpbw==}
     dev: false
 
   /bytes/3.1.2:

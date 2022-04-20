@@ -1,4 +1,4 @@
-import { Octokit } from "@octokit/action";
+import { getOctokit } from "./get-octokit";
 
 const managerRepo = {
   owner: "Raicuparta",
@@ -6,7 +6,7 @@ const managerRepo = {
 };
 
 export async function fetchModManager() {
-  const octokit = new Octokit();
+  const octokit = getOctokit();
 
   const managerReleases = await octokit.paginate(
     octokit.rest.repos.listReleases,

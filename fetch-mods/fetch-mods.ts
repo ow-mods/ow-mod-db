@@ -1,11 +1,11 @@
-import { Octokit } from "@octokit/action";
+import { getOctokit } from "./get-octokit";
 import { toJsonString } from "./to-json-string";
 
 const REPO_URL_BASE = "https://github.com";
 
 export async function fetchMods(modsJson: string) {
   const modInfos: ModInfo[] = JSON.parse(modsJson);
-  const octokit = new Octokit();
+  const octokit = getOctokit();
 
   type OctokitRelease = Awaited<
     ReturnType<typeof octokit.rest.repos.listReleases>
