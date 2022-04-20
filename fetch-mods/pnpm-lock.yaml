@@ -4,6 +4,7 @@ specifiers:
   '@actions/core': ^1.6.0
   '@octokit/action': ^3.18.0
   '@octokit/plugin-retry': ^3.0.9
+  '@octokit/plugin-throttling': ^3.6.2
   '@types/node': '16'
   axios: ^0.26.1
   typescript: ^4.5.4
@@ -12,6 +13,7 @@ dependencies:
   '@actions/core': 1.6.0
   '@octokit/action': 3.18.0
   '@octokit/plugin-retry': 3.0.9
+  '@octokit/plugin-throttling': 3.6.2
   '@types/node': 16.11.17
   axios: 0.26.1
   typescript: 4.5.4
@@ -114,6 +116,15 @@ packages:
 
   /@octokit/plugin-retry/3.0.9:
     resolution: {integrity: sha512-r+fArdP5+TG6l1Rv/C9hVoty6tldw6cE2pRHNGmFPdyfrc696R6JjrQ3d7HdVqGwuzfyrcaLAKD7K8TX8aehUQ==}
+    dependencies:
+      '@octokit/types': 6.34.0
+      bottleneck: 2.19.5
+    dev: false
+
+  /@octokit/plugin-throttling/3.6.2:
+    resolution: {integrity: sha512-0az5fxgVlhFfFtiKLKVXTpmCG2tK3BG0fYI8SO4pmGlN1kyJktJVQA+6KKaFxtxMIWsuHmSEAkR6zSgtk86g2A==}
+    peerDependencies:
+      '@octokit/core': ^3.5.0
     dependencies:
       '@octokit/types': 6.34.0
       bottleneck: 2.19.5
