@@ -23,6 +23,10 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       (mod) => mod.uniqueName === nextDatabaseMod.uniqueName
     );
 
+    if (!happenedWithinDayCount(nextDatabaseMod.latestReleaseDate, 1)) {
+      continue;
+    }
+
     if (!previousDatabaseMod) {
       diff.push({
         diffType: "add",
@@ -31,10 +35,7 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       continue;
     }
 
-    if (
-      previousDatabaseMod.version !== nextDatabaseMod.version &&
-      happenedWithinDayCount(nextDatabaseMod.latestReleaseDate, 1)
-    ) {
+    if (previousDatabaseMod.version !== nextDatabaseMod.version) {
       diff.push({
         diffType: "update",
         previousMod: previousDatabaseMod,
