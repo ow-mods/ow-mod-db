@@ -5,8 +5,8 @@ inputs:
     description: "JSON list of mods to check"
     required: true
     default: "[]"
-  github-token:
-    description: "Token for GitHub authentication"
+  GITHUB_TOKEN:
+    description: "GitHub Token for Octokit authentication"
     required: true
   discord-hook-url:
     description: "Secret Discord hook url with token"

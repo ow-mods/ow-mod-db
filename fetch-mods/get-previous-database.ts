@@ -1,9 +1,7 @@
 import { Octokit } from "@octokit/action";
 
-export async function getPreviousDatabase(gitHubToken: string) {
-  const octokit = new Octokit({
-    auth: gitHubToken,
-  });
+export async function getPreviousDatabase() {
+  const octokit = new Octokit();
 
   const previousDatabaseResponse: any = (
     await octokit.rest.repos.getContent({

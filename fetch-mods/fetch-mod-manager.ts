@@ -5,10 +5,8 @@ const managerRepo = {
   repo: "ow-mod-manager",
 };
 
-export async function fetchModManager(gitHubToken: string) {
-  const octokit = new Octokit({
-    auth: gitHubToken,
-  });
+export async function fetchModManager() {
+  const octokit = new Octokit();
 
   const managerReleases = await octokit.paginate(
     octokit.rest.repos.listReleases,

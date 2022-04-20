@@ -8,7 +8,6 @@ import { toJsonString } from "./to-json-string";
 
 enum Input {
   mods = "mods",
-  gitHubToken = "github-token",
   discordHookUrl = "discord-hook-url",
   discordModHookUrls = "discord-mod-hook-urls",
 }
@@ -25,14 +24,9 @@ function getCleanedUpModList(modList: Mod[]) {
 
 async function run() {
   try {
-    const gitHubToken = core.getInput(Input.gitHubToken);
+    const modManager = await fetchModManager();
 
-    const modManager = await fetchModManager(gitHubToken);
-
-    const nextDatabase = await fetchMods(
-      core.getInput(Input.mods),
-      gitHubToken
-    );
+    const nextDatabase = await fetchMods(core.getInput(Input.mods));
 
     const databaseJson = toJsonString({
       modManager,
@@ -43,7 +37,7 @@ async function run() {
     const discordHookUrl = core.getInput(Input.discordHookUrl);
 
     if (discordHookUrl) {
-      const previousDatabase = await getPreviousDatabase(gitHubToken);
+      const previousDatabase = await getPreviousDatabase();
       const diff = getDiff(previousDatabase, nextDatabase);
 
       const discordModHookUrls: Record<string, string> = JSON.parse(

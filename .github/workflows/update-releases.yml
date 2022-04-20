@@ -41,7 +41,6 @@ jobs:
         id: fetch-mods
         uses: ./fetch-mods
         with:
-          github-token: ${{ secrets.GH_TOKEN  }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           mods: "${{ steps.local-mods.outputs.mods }}"
