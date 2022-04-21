@@ -42,7 +42,7 @@ jobs:
         id: fetch-mods
         uses: ./fetch-mods
         with:
-          github-token: ${{ secrets.GH_TOKEN  }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
           mods: "${{ steps.local-mods.outputs.mods }}"
 
       - name: Write database to file
