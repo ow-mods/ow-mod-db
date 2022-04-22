@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.3/OWML.zip",
-      "downloadCount": 44371,
+      "downloadCount": 44372,
       "latestReleaseDate": "2022-04-12T15:57:33Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -31,7 +31,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 33547,
+      "downloadCount": 33548,
       "latestReleaseDate": "2022-01-06T20:33:09Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -301,7 +301,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 1201,
+      "downloadCount": 1202,
       "latestReleaseDate": "2021-10-27T19:40:41Z",
       "firstReleaseDate": "2021-10-27T19:40:41Z",
       "repo": "https://github.com/dwatson251/ow-slowtime",
@@ -346,7 +346,7 @@
       "author": "PacificEngine",
       "utility": true,
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.5.14/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 6087,
+      "downloadCount": 6088,
       "latestReleaseDate": "2022-02-11T05:14:53Z",
       "firstReleaseDate": "2021-11-04T17:05:42Z",
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
@@ -568,7 +568,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v0.10.3/xen.NewHorizons.zip",
-      "downloadCount": 5163,
+      "downloadCount": 5164,
       "latestReleaseDate": "2022-04-21T02:58:01Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
@@ -1436,6 +1436,23 @@
       "readme": {
         "htmlUrl": "https://github.com/QuentinGruber/ghostMatterNerf/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/QuentinGruber/ghostMatterNerf/master/README.md"
+      }
+    },
+    {
+      "name": "Add LIV Support",
+      "uniqueName": "Raicuparta.OwLiv",
+      "description": "Adds LIV to Outer Wilds, allowing for mixed reality capture or avatars in third person. Check the readme for instructions.",
+      "author": "Raicuparta",
+      "parent": "Raicuparta.NomaiVR",
+      "downloadUrl": "https://github.com/Raicuparta/ow-liv/releases/download/v0.1.0/Raicuparta.OwLiv.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-04-22T13:08:01Z",
+      "firstReleaseDate": "2022-04-22T13:08:01Z",
+      "repo": "https://github.com/Raicuparta/ow-liv",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Raicuparta/ow-liv/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/ow-liv/master/README.md"
       }
     }
   ]
