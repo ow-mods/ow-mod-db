@@ -50,7 +50,10 @@ export async function fetchMods(modsJson: string) {
         (release) => release.prerelease
       );
       const releaseList = fullReleaseList.filter(
-        (release) => !release.prerelease
+        (release) =>
+          !release.prerelease &&
+          release.assets[0] &&
+          release.assets[0].browser_download_url.endsWith("zip")
       );
 
       const latestReleaseFromList = releaseList[0];
