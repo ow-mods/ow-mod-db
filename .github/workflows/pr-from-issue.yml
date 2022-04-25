@@ -60,5 +60,5 @@ jobs:
           branch-suffix: random
           delete-branch: true
           token: ${{ secrets.GH_TOKEN }}
-          committer: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+          commiter: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
           labels: "add-mod"
