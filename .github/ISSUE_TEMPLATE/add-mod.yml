@@ -11,6 +11,7 @@ body:
       label: Your Discord Name
       description: "ID you use in the [Outer Wilds Modding Discord](https://discord.gg/9vE5aHxcF9). This is just so we know who you are and give you your modder role (purple!)."
       placeholder: Raicuparta#0015
+  - type: input
     id: uniqueName
     attributes:
       label: Mod uniqueName
