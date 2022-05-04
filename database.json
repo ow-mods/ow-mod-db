@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.3/OWML.zip",
-      "downloadCount": 45698,
+      "downloadCount": 45699,
       "latestReleaseDate": "2022-04-12T15:57:33Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -31,7 +31,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 34178,
+      "downloadCount": 34179,
       "latestReleaseDate": "2022-01-06T20:33:09Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -172,12 +172,16 @@
       "description": "",
       "author": "misternebula",
       "utility": true,
-      "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 4525,
-      "latestReleaseDate": "2022-05-04T09:32:40Z",
+      "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/v2.1.1/MenuFramework.zip",
+      "downloadCount": 4527,
+      "latestReleaseDate": "2021-12-20T14:22:15Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
-      "version": "3.0.0"
+      "version": "v2.1.1",
+      "prerelease": {
+        "version": "3.0.0",
+        "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip"
+      }
     },
     {
       "name": "ScoutStreaming",
