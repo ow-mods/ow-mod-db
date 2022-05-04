@@ -42,9 +42,11 @@ export async function fetchMods(modsJson: string) {
           repo,
           per_page: 100,
         })
-      ).sort((releaseA, releaseB) =>
-        new Date(releaseA.created_at) < new Date(releaseB.created_at) ? 1 : -1
-      );
+      )
+        .sort((releaseA, releaseB) =>
+          new Date(releaseA.created_at) < new Date(releaseB.created_at) ? 1 : -1
+        )
+        .filter((release) => !release.draft);
 
       const prereleaseList = fullReleaseList.filter(
         (release) => release.prerelease
