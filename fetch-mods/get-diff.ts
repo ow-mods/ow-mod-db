@@ -12,7 +12,12 @@ export type DiffItem =
   | {
       previousMod: Mod;
       nextMod: Mod;
-      diffType: "update" | "update-prerelease";
+      diffType: "update";
+    }
+  | {
+      previousMod?: Mod;
+      nextMod: Mod;
+      diffType: "update-prerelease";
     };
 
 export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
@@ -23,29 +28,27 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       (mod) => mod.uniqueName === nextDatabaseMod.uniqueName
     );
 
-    if (!happenedWithinDayCount(nextDatabaseMod.latestReleaseDate, 1)) {
-      continue;
-    }
+    if (happenedWithinDayCount(nextDatabaseMod.latestReleaseDate, 1)) {
+      if (!previousDatabaseMod) {
+        diff.push({
+          diffType: "add",
+          nextMod: nextDatabaseMod,
+        });
+        continue;
+      }
 
-    if (!previousDatabaseMod) {
-      diff.push({
-        diffType: "add",
-        nextMod: nextDatabaseMod,
-      });
-      continue;
-    }
-
-    if (previousDatabaseMod.version !== nextDatabaseMod.version) {
-      diff.push({
-        diffType: "update",
-        previousMod: previousDatabaseMod,
-        nextMod: nextDatabaseMod,
-      });
+      if (previousDatabaseMod.version !== nextDatabaseMod.version) {
+        diff.push({
+          diffType: "update",
+          previousMod: previousDatabaseMod,
+          nextMod: nextDatabaseMod,
+        });
+      }
     }
 
     if (
       nextDatabaseMod.prerelease &&
-      previousDatabaseMod.prerelease?.version !==
+      previousDatabaseMod?.prerelease?.version !==
         nextDatabaseMod.prerelease.version
     ) {
       diff.push({
@@ -84,11 +87,11 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
         break;
       case "update":
         console.log(
-          `Mod ${diffItem.nextMod.name} by ${
-            diffItem.nextMod.author
-          } was updated from ${diffItem.previousMod!.version} to ${
-            diffItem.nextMod.version
-          }`
+          `Mod ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was updated from ${diffItem.previousMod.version} to ${diffItem.nextMod.version}`
+        );
+      case "update-prerelease":
+        console.log(
+          `Prerelease of ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was updated from ${diffItem.previousMod?.prerelease?.version} to ${diffItem.nextMod.prerelease?.version}`
         );
         break;
     }
