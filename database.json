@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 57973
+    "downloadCount": 57974
   },
   "releases": [
     {
@@ -241,7 +241,7 @@
       "description": "Allows using some commands from Debug Mode and adds other functions as well.",
       "author": "glitchewski",
       "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/releases/download/0.5.3/Glitch.CheatAndDebugMenu.zip",
-      "downloadCount": 1773,
+      "downloadCount": 1774,
       "latestReleaseDate": "2021-10-25T06:38:12Z",
       "firstReleaseDate": "2021-10-12T21:02:20Z",
       "repo": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu",
@@ -257,7 +257,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.4/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 4402,
+      "downloadCount": 4403,
       "latestReleaseDate": "2022-01-25T00:19:05Z",
       "firstReleaseDate": "2021-10-21T06:56:51Z",
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
@@ -350,7 +350,7 @@
       "author": "PacificEngine",
       "utility": true,
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.5.14/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 6522,
+      "downloadCount": 6523,
       "latestReleaseDate": "2022-02-11T05:14:53Z",
       "firstReleaseDate": "2021-11-04T17:05:42Z",
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
@@ -1638,6 +1638,23 @@
       "readme": {
         "htmlUrl": "https://github.com/Switch-9867/WoahWatchThoseFrames/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Switch-9867/WoahWatchThoseFrames/master/README.md"
+      }
+    },
+    {
+      "name": "Timber Twin",
+      "uniqueName": "paragon.TimberTwin",
+      "description": "global warming is real and i caused it",
+      "author": "ParagonOrang",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/ParagonOrang/ow-timber-twin/releases/download/0.1.0/paragon.TimberTwin.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-05-08T00:31:39Z",
+      "firstReleaseDate": "2022-05-08T00:31:39Z",
+      "repo": "https://github.com/ParagonOrang/ow-timber-twin",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/ParagonOrang/ow-timber-twin/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ParagonOrang/ow-timber-twin/main/README.md"
       }
     }
   ]
