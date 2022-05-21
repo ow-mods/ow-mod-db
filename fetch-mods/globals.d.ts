@@ -31,6 +31,7 @@ interface Mod extends Release {
   prerelease?: {
     version: string;
     downloadUrl: string;
+    date: string;
   };
   latestReleaseDate: string;
   firstReleaseDate: string;

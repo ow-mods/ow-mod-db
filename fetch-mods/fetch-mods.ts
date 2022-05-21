@@ -194,6 +194,7 @@ export async function fetchMods(modsJson: string) {
               ? {
                   version: latestPrerelease.version,
                   downloadUrl: latestPrerelease.downloadUrl,
+                  date: latestPrerelease.date,
                 }
               : undefined,
           };
