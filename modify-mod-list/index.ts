@@ -16,6 +16,7 @@ type ModInfo = {
   name: string;
   uniqueName: string;
   repo: string;
+  alpha?: boolean;
   required?: boolean;
   utility?: boolean;
   parent?: string;
@@ -26,12 +27,13 @@ type IssueForm = {
   name?: string;
   uniqueName?: string;
   repoUrl?: string;
+  alpha?: string;
   utility?: string;
   parent?: string;
 };
 
 async function run() {
-  const { name, repoUrl, uniqueName, parent, utility }: IssueForm = JSON.parse(
+  const { name, repoUrl, uniqueName, parent, utility, alpha }: IssueForm = JSON.parse(
     core.getInput(Input.form)
   );
 
@@ -61,6 +63,10 @@ async function run() {
     newMod.utility = Boolean(utility);
   }
 
+  if (alpha) {
+    newMod.alpha = Boolean(alpha);
+  }
+
   const existingMod = mods.find(
     (modFromList) => uniqueName === modFromList.uniqueName
   );
@@ -70,6 +76,7 @@ async function run() {
     existingMod.repo = newMod.repo;
     existingMod.parent = newMod.parent;
     existingMod.utility = newMod.utility;
+    existingMod.alpha = newMod.alpha;
   }
 
   const newMods: ModInfo[] = existingMod ? mods : [...mods, newMod];
