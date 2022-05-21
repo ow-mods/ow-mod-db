@@ -572,5 +572,82 @@
     "uniqueName": "Tlya.Backerssignal",
     "repo": "Tllya/backers-satellite-signal",
     "parent": "xen.NewHorizons"
+  },
+  {
+    "name": "BepInEx",
+    "uniqueName": "bbepis.BepInEx",
+    "repo": "MegaPiggy/BepInEx",
+    "alpha": true,
+    "required": true,
+    "utility": true
+  },
+  {
+    "name": "CMOWA",
+    "uniqueName": "Locochoco.CMOWA",
+    "repo": "ShoosGun/CMOWA",
+    "alpha": true,
+    "required": true,
+    "utility": true
+  },
+  {
+    "name": "CAMOWA",
+    "uniqueName": "Locochoco.CAMOWA",
+    "repo": "ShoosGun/CAMOWA",
+    "alpha": true,
+    "utility": true
+  },
+  {
+    "name": "Alpha Fixes",
+    "uniqueName": "Locochoco.AlphaFixes",
+    "repo": "ShoosGun/AlphaFixes",
+    "alpha": true
+  },
+  {
+    "name": "Navinha",
+    "uniqueName": "Locochoco.NAVE",
+    "repo": "ShoosGun/navinha",
+    "alpha": true
+  },
+  {
+    "name": "Free Cam Mod",
+    "uniqueName": "Locochoco.FreeCamMod",
+    "repo": "ShoosGun/FreeCamMod",
+    "alpha": true
+  },
+  {
+    "name": "Probe Grapple",
+    "uniqueName": "Locochoco.ProbeGrapple",
+    "repo": "ShoosGun/ProbeGrappleMod",
+    "alpha": true
+  },
+  {
+    "name": "Cooler Bottom Cams",
+    "uniqueName": "Locochoco.CoolerBottomCams",
+    "repo": "ShoosGun/CBC",
+    "alpha": true
+  },
+  {
+    "name": "Enhanced Mallows",
+    "uniqueName": "Locochoco.EnhancedMallows",
+    "repo": "ShoosGun/EM",
+    "alpha": true
+  },
+  {
+    "name": "Automatic Launch Codes",
+    "uniqueName": "MegaPiggy.AutomaticLaunchCodes",
+    "repo": "MegaPiggy/AutomaticLaunchCodes",
+    "alpha": true
+  },
+  {
+    "name": "No Probe Launch Window",
+    "uniqueName": "MegaPiggy.NoProbeLaunchWindow",
+    "repo": "MegaPiggy/NoProbeLaunchWindow",
+    "alpha": true
+  },
+  {
+    "name": "Runtime Unity Editor",
+    "uniqueName": "Locochoco.RuntimeUnityEditor",
+    "repo": "ShoosGun/RuntimeUnityEditor",
+    "alpha": true
   }
 ]
