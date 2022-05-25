@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.10.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 60504
+    "downloadCount": 60505
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.3/OWML.zip",
-      "downloadCount": 47785,
+      "downloadCount": 47786,
       "latestReleaseDate": "2022-04-12T15:57:33Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -1848,6 +1848,22 @@
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-common-camera-util/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-common-camera-util/main/README.md"
+      }
+    },
+    {
+      "name": "Better Model Ship",
+      "uniqueName": "xen.BetterModelShip",
+      "description": "Adds a remote camera to the model ship",
+      "author": "xen-42",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-better-model-ship/releases/download/v0.1.0/xen.BetterModelShip.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-05-25T21:51:16Z",
+      "firstReleaseDate": "2022-05-25T21:51:16Z",
+      "repo": "https://github.com/xen-42/outer-wilds-better-model-ship",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-better-model-ship/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-better-model-ship/main/README.md"
       }
     }
   ]
