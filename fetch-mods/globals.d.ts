@@ -2,6 +2,7 @@ type ModInfo = {
   name: string;
   uniqueName: string;
   repo: string;
+  alpha?: boolean;
   required?: boolean;
   utility?: boolean;
   parent?: string;
@@ -19,6 +20,7 @@ interface Mod extends Release {
   description: string;
   author: string;
   repo: string;
+  alpha?: boolean;
   required?: boolean;
   utility?: boolean;
   parent?: string;
