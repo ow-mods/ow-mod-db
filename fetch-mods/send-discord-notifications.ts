@@ -60,29 +60,43 @@ function getRelevantMod(diffItem: DiffItem) {
     : diffItem.nextMod;
 }
 
+function getEmbed(diffItem: DiffItem) {
+  return {
+    title: getNotificationTitle(diffItem),
+    description: getNotificationDescription(diffItem),
+    url: getRelevantMod(diffItem).repo,
+    color: getNotificationColor(diffItem),
+  };
+}
+
 export async function sendDiscordNotifications(
   discordHookUrl: string,
   diff: DiffItem[],
   discordModHookUrls: Record<string, string>
 ) {
+  try {
+    axios.post(discordHookUrl, {
+      embeds: diff.map(getEmbed),
+    });
+  } catch (error) {
+    console.error(
+      `Failed to send Discord notification for ${diff.length} diffs: ${error}`
+    );
+  }
+
   for (const diffItem of diff) {
-    const postBody = {
-      embeds: [
-        {
-          title: getNotificationTitle(diffItem),
-          description: getNotificationDescription(diffItem),
-          url: getRelevantMod(diffItem).repo,
-          color: getNotificationColor(diffItem),
-        },
-      ],
-    };
-
-    axios.post(discordHookUrl, postBody);
-
-    const discordModHookUrl =
-      discordModHookUrls[getRelevantMod(diffItem).uniqueName];
-    if (discordModHookUrl) {
-      axios.post(discordModHookUrl, postBody);
+    try {
+      const discordModHookUrl =
+        discordModHookUrls[getRelevantMod(diffItem).uniqueName];
+      if (discordModHookUrl) {
+        axios.post(discordModHookUrl, {
+          embeds: [getEmbed(diffItem)],
+        });
+      }
+    } catch (error) {
+      console.error(
+        `Failed to send Discord notification for specific mod channel: ${error}`
+      );
     }
   }
 }
