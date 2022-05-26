@@ -177,6 +177,7 @@ export async function fetchMods(modsJson: string) {
             uniqueName: modInfo.uniqueName,
             description: githubRepository.description || "",
             author: githubRepository.owner.login,
+            alpha: modInfo.alpha,
             required: modInfo.required,
             utility: modInfo.utility,
             parent: modInfo.parent,

@@ -48,3 +48,10 @@ body:
       description: Select "Is utility" if this mod isn't useful by itself, and only serves as a dependency for other mods.
       options:
         - "Is utility"
+  - type: dropdown
+    id: alpha
+    attributes:
+      label: Alpha Mod
+      description: Select "Is alpha mod" if this mod is made for Outer Wilds Alpha.
+      options:
+        - "Is alpha mod"
