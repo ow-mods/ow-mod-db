@@ -75,9 +75,11 @@ export async function sendDiscordNotifications(
   discordModHookUrls: Record<string, string>
 ) {
   try {
-    axios.post(discordHookUrl, {
-      embeds: diff.map(getEmbed),
-    });
+    if (diff.length > 0) {
+      axios.post(discordHookUrl, {
+        embeds: diff.map(getEmbed),
+      });
+    }
   } catch (error) {
     console.error(
       `Failed to send Discord notification for ${diff.length} diffs: ${error}`
