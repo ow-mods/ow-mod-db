@@ -16,7 +16,11 @@ export async function getPreviousDatabase() {
     })
   ).data;
 
-  const previousDatabase: Mod[] = JSON.parse(previousDatabaseResponse).releases;
+  const responseJson = JSON.parse(previousDatabaseResponse);
+  const previousDatabase: Mod[] = [
+    ...responseJson.releases,
+    ...responseJson.alphaReleases,
+  ];
 
   return previousDatabase;
 }
