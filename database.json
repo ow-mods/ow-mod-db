@@ -568,7 +568,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v1.2.2/xen.NewHorizons.zip",
-      "downloadCount": 6770,
+      "downloadCount": 6771,
       "latestReleaseDate": "2022-05-27T02:20:02Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
@@ -1501,7 +1501,7 @@
       "description": "The dam on the stranger will no longer break!!",
       "author": "LikeMauro",
       "downloadUrl": "https://github.com/LikeMauro/NoDamBreak-Mod/releases/download/0.1.1/likemauro.nodambreak.zip",
-      "downloadCount": 89,
+      "downloadCount": 31,
       "latestReleaseDate": "2022-04-28T14:36:09Z",
       "firstReleaseDate": "2022-04-23T15:01:04Z",
       "repo": "https://github.com/LikeMauro/NoDamBreak-Mod",
@@ -1897,6 +1897,217 @@
       "readme": {
         "htmlUrl": "https://github.com/MegaPiggy/InvoluntaryBlink/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/InvoluntaryBlink/master/README.md"
+      }
+    }
+  ],
+  "alphaReleases": [
+    {
+      "name": "BepInEx",
+      "uniqueName": "bbepis.BepInEx",
+      "description": "Unity game patcher and plugin framework for Outer Wilds Alpha",
+      "author": "MegaPiggy",
+      "alpha": true,
+      "required": true,
+      "utility": true,
+      "downloadUrl": "https://github.com/MegaPiggy/BepInEx/releases/download/v5.4.19/BepInEx_x86_5.4.19.0.zip",
+      "downloadCount": 52,
+      "latestReleaseDate": "2022-05-22T03:11:13Z",
+      "firstReleaseDate": "2022-05-22T03:11:13Z",
+      "repo": "https://github.com/MegaPiggy/BepInEx",
+      "version": "v5.4.19",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/BepInEx/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/BepInEx/master/README.md"
+      }
+    },
+    {
+      "name": "OWAML",
+      "uniqueName": "Locochoco.OWAML",
+      "description": "BepinEx helper for OWMM",
+      "author": "ShoosGun",
+      "alpha": true,
+      "required": true,
+      "utility": true,
+      "downloadUrl": "https://github.com/ShoosGun/OWAML/releases/download/v.1.0.1/OWAML-v1.0.1.zip",
+      "downloadCount": 15,
+      "latestReleaseDate": "2022-05-26T02:41:52Z",
+      "firstReleaseDate": "2022-05-12T12:20:30Z",
+      "repo": "https://github.com/ShoosGun/OWAML",
+      "version": "v.1.0.1"
+    },
+    {
+      "name": "CAMOWA",
+      "uniqueName": "Locochoco.CAMOWA",
+      "description": "BepInEx plugin that helps creating mods for the game Outer Wilds Alpha (1.2)",
+      "author": "ShoosGun",
+      "alpha": true,
+      "utility": true,
+      "downloadUrl": "https://github.com/ShoosGun/CAMOWA/releases/download/v1.0.1/Locochoco.CAMOWA.zip",
+      "downloadCount": 39,
+      "latestReleaseDate": "2022-05-21T23:47:53Z",
+      "firstReleaseDate": "2021-09-26T19:07:30Z",
+      "repo": "https://github.com/ShoosGun/CAMOWA",
+      "version": "v1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/CAMOWA/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/CAMOWA/main/README.md"
+      }
+    },
+    {
+      "name": "Alpha Fixes",
+      "uniqueName": "Locochoco.AlphaFixes",
+      "description": "Fixes for the alpha of Outer Wilds",
+      "author": "ShoosGun",
+      "alpha": true,
+      "downloadUrl": "https://github.com/ShoosGun/AlphaFixes/releases/download/v1.0.1/Locochoco.AlphaFixes.zip",
+      "downloadCount": 16,
+      "latestReleaseDate": "2022-05-21T22:12:05Z",
+      "firstReleaseDate": "2022-05-13T01:08:15Z",
+      "repo": "https://github.com/ShoosGun/AlphaFixes",
+      "version": "v1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/AlphaFixes/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/AlphaFixes/main/README.md"
+      }
+    },
+    {
+      "name": "Navinha",
+      "uniqueName": "Locochoco.NAVE",
+      "description": "Adds a small ship into the game Outer Wilds Alpha",
+      "author": "ShoosGun",
+      "alpha": true,
+      "downloadUrl": "https://github.com/ShoosGun/Navinha/releases/download/v0.2.1/Locochoco.NAVE.zip",
+      "downloadCount": 22,
+      "latestReleaseDate": "2022-05-21T23:50:09Z",
+      "firstReleaseDate": "2021-08-11T17:03:00Z",
+      "repo": "https://github.com/ShoosGun/navinha",
+      "version": "v0.2.1",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/Navinha/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/Navinha/main/README.md"
+      }
+    },
+    {
+      "name": "Free Cam Mod",
+      "uniqueName": "Locochoco.FreeCamMod",
+      "description": "A mod for Outer Wilds Alpha that adds a free cam to it",
+      "author": "ShoosGun",
+      "alpha": true,
+      "downloadUrl": "https://github.com/ShoosGun/FreeCamMod/releases/download/v1.1.2/Locochoco.FreeCamMod.zip",
+      "downloadCount": 32,
+      "latestReleaseDate": "2022-05-21T23:48:52Z",
+      "firstReleaseDate": "2021-04-15T16:49:59Z",
+      "repo": "https://github.com/ShoosGun/FreeCamMod",
+      "version": "v1.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/FreeCamMod/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/FreeCamMod/main/README.md"
+      }
+    },
+    {
+      "name": "Probe Grapple",
+      "uniqueName": "Locochoco.ProbeGrapple",
+      "description": "Mod for the Alpha Outer Wilds version 1.2 that adds a grapple rope to the game",
+      "author": "ShoosGun",
+      "alpha": true,
+      "downloadUrl": "https://github.com/ShoosGun/ProbeGrappleMod/releases/download/v1.1.2/Locochoco.ProbeGrapple.zip",
+      "downloadCount": 44,
+      "latestReleaseDate": "2022-05-21T22:15:51Z",
+      "firstReleaseDate": "2020-12-09T21:36:56Z",
+      "repo": "https://github.com/ShoosGun/ProbeGrappleMod",
+      "version": "v1.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/ProbeGrappleMod/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/ProbeGrappleMod/master/README.md"
+      },
+      "prerelease": {
+        "version": "v.1.1-minecraft",
+        "downloadUrl": "https://github.com/ShoosGun/ProbeGrappleMod/releases/download/v.1.1-minecraft/CAMOWA.dll"
+      }
+    },
+    {
+      "name": "Cooler Bottom Cams",
+      "uniqueName": "Locochoco.CoolerBottomCams",
+      "description": "A mod that adds a screen for the landing camera for Outer Wilds Alpha",
+      "author": "ShoosGun",
+      "alpha": true,
+      "downloadUrl": "https://github.com/ShoosGun/CBC/releases/download/v.1.0.0/CBC-v1.0.0.zip",
+      "downloadCount": 9,
+      "latestReleaseDate": "2022-05-21T21:14:05Z",
+      "firstReleaseDate": "2022-05-21T21:14:05Z",
+      "repo": "https://github.com/ShoosGun/CBC",
+      "version": "v.1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/CBC/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/CBC/main/README.md"
+      }
+    },
+    {
+      "name": "Enhanced Mallows",
+      "uniqueName": "Locochoco.EnhancedMallows",
+      "description": "A mod that makes the marshmallow shrink when on fire",
+      "author": "ShoosGun",
+      "alpha": true,
+      "downloadUrl": "https://github.com/ShoosGun/EM/releases/download/v1.0.0/Locochoco.EM.v1.0.0.zip",
+      "downloadCount": 4,
+      "latestReleaseDate": "2022-05-22T18:12:48Z",
+      "firstReleaseDate": "2022-05-22T18:12:48Z",
+      "repo": "https://github.com/ShoosGun/EM",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/EM/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/EM/main/README.md"
+      }
+    },
+    {
+      "name": "Automatic Launch Codes",
+      "uniqueName": "MegaPiggy.AutomaticLaunchCodes",
+      "description": "Makes it don't have to go to the observatory to get the launch codes, and activates the launch terminal for you.",
+      "author": "MegaPiggy",
+      "alpha": true,
+      "downloadUrl": "https://github.com/MegaPiggy/AutomaticLaunchCodes/releases/download/1.0.0/MegaPiggy.AutomaticLaunchCodes.zip",
+      "downloadCount": 2,
+      "latestReleaseDate": "2022-05-22T04:35:54Z",
+      "firstReleaseDate": "2022-05-22T04:35:54Z",
+      "repo": "https://github.com/MegaPiggy/AutomaticLaunchCodes",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/AutomaticLaunchCodes/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/AutomaticLaunchCodes/main/README.md"
+      }
+    },
+    {
+      "name": "No Probe Launch Window",
+      "uniqueName": "MegaPiggy.NoProbeLaunchWindow",
+      "description": "Allows the probe to launch even when you are near something.",
+      "author": "MegaPiggy",
+      "alpha": true,
+      "downloadUrl": "https://github.com/MegaPiggy/NoProbeLaunchWindow/releases/download/1.0.0/MegaPiggy.NoProbeLaunchWindow.zip",
+      "downloadCount": 3,
+      "latestReleaseDate": "2022-05-22T18:22:30Z",
+      "firstReleaseDate": "2022-05-22T18:22:30Z",
+      "repo": "https://github.com/MegaPiggy/NoProbeLaunchWindow",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/NoProbeLaunchWindow/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/NoProbeLaunchWindow/main/README.md"
+      }
+    },
+    {
+      "name": "Runtime Unity Editor",
+      "uniqueName": "Locochoco.RuntimeUnityEditor",
+      "description": "A fork from RuntimeUnityEditor which makes it compatible with Unity 4.1",
+      "author": "ShoosGun",
+      "alpha": true,
+      "downloadUrl": "https://github.com/ShoosGun/RuntimeUnityEditor/releases/download/v2.6.1/Locochoco.RuntimeUnityEditor.v2.6.1.zip",
+      "downloadCount": 5,
+      "latestReleaseDate": "2022-05-22T18:45:38Z",
+      "firstReleaseDate": "2022-05-22T18:45:38Z",
+      "repo": "https://github.com/ShoosGun/RuntimeUnityEditor",
+      "version": "v2.6.1",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/RuntimeUnityEditor/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/RuntimeUnityEditor/main/README.md"
       }
     }
   ]
