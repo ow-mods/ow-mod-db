@@ -28,9 +28,12 @@ async function run() {
 
     const nextDatabase = await fetchMods(core.getInput(Input.mods));
 
+    const cleanedUpModList = getCleanedUpModList(nextDatabase);
+
     const databaseJson = toJsonString({
       modManager,
-      releases: getCleanedUpModList(nextDatabase),
+      releases: cleanedUpModList.filter(({ alpha }) => !alpha),
+      alphaReleases: cleanedUpModList.filter(({ alpha }) => alpha),
     });
     core.setOutput(Output.releases, databaseJson);
 
