@@ -3,7 +3,7 @@
     "version": "v1.11.0-pre",
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.11.0-pre/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.11.0-pre/OuterWildsModManager-Portable.zip",
-    "downloadCount": 60919
+    "downloadCount": 60920
   },
   "releases": [
     {
@@ -70,7 +70,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 6967,
+      "downloadCount": 6968,
       "latestReleaseDate": "2021-10-14T20:13:05Z",
       "firstReleaseDate": "2020-04-10T13:16:22Z",
       "repo": "https://github.com/amazingalek/owml-light-bramble",
@@ -567,7 +567,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v1.2.2/xen.NewHorizons.zip",
-      "downloadCount": 6766,
+      "downloadCount": 6819,
       "latestReleaseDate": "2022-05-27T02:20:02Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
@@ -575,6 +575,10 @@
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/README.md"
+      },
+      "prerelease": {
+        "version": "v0.14.0-pr",
+        "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v0.14.0-pr/xen.NewHorizons.zip"
       }
     },
     {
