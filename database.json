@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 62619
+    "downloadCount": 62620
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.3.3/OWML.zip",
-      "downloadCount": 49009,
+      "downloadCount": 49011,
       "latestReleaseDate": "2022-04-12T15:57:33Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -424,7 +424,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 4132,
+      "downloadCount": 4133,
       "latestReleaseDate": "2022-04-21T21:50:28Z",
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
@@ -468,7 +468,7 @@
       "description": "Outer Wilds mod: gives the player night vision on Echoes of the Eye's dream world.",
       "author": "Heelio",
       "downloadUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/releases/download/0.1.1/Heelio.EotEBrighterDreams.zip",
-      "downloadCount": 1588,
+      "downloadCount": 1589,
       "latestReleaseDate": "2021-11-28T22:52:25Z",
       "firstReleaseDate": "2021-11-28T20:52:42Z",
       "repo": "https://github.com/Heelio/EotE-Brighter-Dreams",
@@ -564,7 +564,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v1.2.2/xen.NewHorizons.zip",
-      "downloadCount": 7092,
+      "downloadCount": 7094,
       "latestReleaseDate": "2022-05-27T02:20:02Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
@@ -585,7 +585,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/ow-new-horizons-examples/releases/download/v0.12.1/ow-new-horizons-examples.zip",
-      "downloadCount": 2225,
+      "downloadCount": 2226,
       "latestReleaseDate": "2022-05-26T00:05:28Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/xen-42/ow-new-horizons-examples",
@@ -602,7 +602,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.6.4/xen.RealSolarSystem.zip",
-      "downloadCount": 3137,
+      "downloadCount": 3138,
       "latestReleaseDate": "2022-05-14T17:57:09Z",
       "firstReleaseDate": "2021-12-19T01:26:21Z",
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
@@ -684,7 +684,7 @@
       "description": "Play Echoes of the Eye slide reels in your ship log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/1.1.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 2032,
+      "downloadCount": 2034,
       "latestReleaseDate": "2022-06-04T20:46:07Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -1187,7 +1187,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.3.2/JohnCorby.VanillaFix.zip",
-      "downloadCount": 185,
+      "downloadCount": 186,
       "latestReleaseDate": "2022-05-15T06:12:36Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -1351,7 +1351,7 @@
       "author": "Tllya",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Tllya/interstellargargantua/releases/download/v1.3.1/release.zip",
-      "downloadCount": 340,
+      "downloadCount": 341,
       "latestReleaseDate": "2022-04-16T13:14:34Z",
       "firstReleaseDate": "2022-04-16T13:14:34Z",
       "repo": "https://github.com/Tllya/interstellargargantua",
@@ -1783,6 +1783,22 @@
       "readme": {
         "htmlUrl": "https://github.com/Tllya/backers-satellite-signal/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tllya/backers-satellite-signal/main/README.md"
+      }
+    },
+    {
+      "name": "Suit Log",
+      "uniqueName": "dgarro.SuitLog",
+      "description": "Suit up and view your Ship Log anywhere!",
+      "author": "dgarroDC",
+      "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.1.1/dgarro.SuitLog.zip",
+      "downloadCount": 126,
+      "latestReleaseDate": "2022-06-04T23:20:34Z",
+      "firstReleaseDate": "2022-05-21T21:47:27Z",
+      "repo": "https://github.com/dgarroDC/SuitLog",
+      "version": "1.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/dgarroDC/SuitLog/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       }
     },
     {
