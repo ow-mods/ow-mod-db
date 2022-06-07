@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 63105
+    "downloadCount": 63107
   },
   "releases": [
     {
@@ -14,15 +14,19 @@
       "author": "amazingalek",
       "required": true,
       "utility": true,
-      "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.5.0/OWML.zip",
-      "downloadCount": 49354,
-      "latestReleaseDate": "2022-06-07T11:05:45Z",
+      "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.4.0/OWML.zip",
+      "downloadCount": 49364,
+      "latestReleaseDate": "2022-06-06T22:03:33Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
-      "version": "2.5.0",
+      "version": "2.4.0",
       "readme": {
         "htmlUrl": "https://github.com/amazingalek/owml/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml/master/Readme.md"
+      },
+      "prerelease": {
+        "version": "2.5.0",
+        "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.5.0/OWML.zip"
       }
     },
     {
@@ -71,7 +75,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 7107,
+      "downloadCount": 7108,
       "latestReleaseDate": "2021-10-14T20:13:05Z",
       "firstReleaseDate": "2020-04-10T13:16:22Z",
       "repo": "https://github.com/amazingalek/owml-light-bramble",
@@ -249,7 +253,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.4/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 4802,
+      "downloadCount": 4804,
       "latestReleaseDate": "2022-01-25T00:19:05Z",
       "firstReleaseDate": "2021-10-21T06:56:51Z",
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
@@ -342,7 +346,7 @@
       "author": "PacificEngine",
       "utility": true,
       "downloadUrl": "https://github.com/PacificEngine/OW_CommonResources/releases/download/0.5.14/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 6983,
+      "downloadCount": 6985,
       "latestReleaseDate": "2022-02-11T05:14:53Z",
       "firstReleaseDate": "2021-11-04T17:05:42Z",
       "repo": "https://github.com/PacificEngine/OW_CommonResources",
@@ -390,7 +394,7 @@
       "description": "A third-person camera for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.0.1/xen.ThirdPersonCamera.zip",
-      "downloadCount": 1329,
+      "downloadCount": 1330,
       "latestReleaseDate": "2022-05-26T19:01:17Z",
       "firstReleaseDate": "2021-11-16T19:46:51Z",
       "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
@@ -1513,7 +1517,7 @@
       "description": "Speed up time in outer wilds!",
       "author": "spacepiano",
       "downloadUrl": "https://github.com/spacepiano/Outer-Wilds---Speed-up-Time/releases/download/0.1.0/release.zip",
-      "downloadCount": 101,
+      "downloadCount": 102,
       "latestReleaseDate": "2022-04-25T14:50:35Z",
       "firstReleaseDate": "2022-04-25T14:50:35Z",
       "repo": "https://github.com/spacepiano/Outer-Wilds---Speed-up-Time",
@@ -1836,7 +1840,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.0.0/xen.CommonCameraUtil.zip",
-      "downloadCount": 135,
+      "downloadCount": 136,
       "latestReleaseDate": "2022-05-25T04:30:54Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
