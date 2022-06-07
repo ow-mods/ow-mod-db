@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 63144
+    "downloadCount": 63145
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.4.0/OWML.zip",
-      "downloadCount": 39948,
+      "downloadCount": 49430,
       "latestReleaseDate": "2022-06-06T22:03:33Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -23,6 +23,10 @@
       "readme": {
         "htmlUrl": "https://github.com/amazingalek/owml/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml/master/Readme.md"
+      },
+      "prerelease": {
+        "version": "2.5.0",
+        "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.5.0/OWML.zip"
       }
     },
     {
@@ -31,7 +35,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.6.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 35891,
+      "downloadCount": 35892,
       "latestReleaseDate": "2022-01-06T20:33:09Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -564,7 +568,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-new-horizons/releases/download/v1.2.2/xen.NewHorizons.zip",
-      "downloadCount": 7172,
+      "downloadCount": 7173,
       "latestReleaseDate": "2022-05-27T02:20:02Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/xen-42/outer-wilds-new-horizons",
@@ -766,7 +770,7 @@
       "description": "Play as everyone's favorite character!",
       "author": "Bwc9876",
       "downloadUrl": "https://github.com/Bwc9876/OW-Slate-Simulator/releases/download/0.1.0/Bwc9876.SlatePOV.zip",
-      "downloadCount": 352,
+      "downloadCount": 353,
       "latestReleaseDate": "2022-01-03T22:06:13Z",
       "firstReleaseDate": "2022-01-03T22:06:13Z",
       "repo": "https://github.com/Bwc9876/OW-Slate-Simulator",
@@ -1240,7 +1244,7 @@
       "description": "Adds the ability to translate the unknown language.",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/GhostTranslations/releases/download/1.0.1/MegaPiggy.GhostTranslations.zip",
-      "downloadCount": 398,
+      "downloadCount": 399,
       "latestReleaseDate": "2022-04-08T23:54:46Z",
       "firstReleaseDate": "2022-04-03T00:22:57Z",
       "repo": "https://github.com/MegaPiggy/GhostTranslations",
