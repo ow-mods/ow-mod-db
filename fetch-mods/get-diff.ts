@@ -7,10 +7,6 @@ export type DiffItem =
     }
   | {
       previousMod: Mod;
-      diffType: "remove";
-    }
-  | {
-      previousMod: Mod;
       nextMod: Mod;
       diffType: "update";
     }
@@ -59,30 +55,11 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
     }
   }
 
-  for (const previousDatabaseMod of previousDatabase) {
-    const nextDatabaseMod = nextDatabase.find(
-      (mod) => mod.uniqueName === previousDatabaseMod.uniqueName
-    );
-
-    if (!nextDatabaseMod) {
-      diff.push({
-        diffType: "remove",
-        previousMod: previousDatabaseMod,
-      });
-      continue;
-    }
-  }
-
   for (const diffItem of diff) {
     switch (diffItem.diffType) {
       case "add":
         console.log(
           `Mod ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was added`
-        );
-        break;
-      case "remove":
-        console.log(
-          `Mod ${diffItem.previousMod.name} by ${diffItem.previousMod.author} was removed`
         );
         break;
       case "update":
