@@ -5,8 +5,6 @@ function getNotificationTitle(diffItem: DiffItem) {
   switch (diffItem.diffType) {
     case "add":
       return `Added ${diffItem.nextMod.name} by ${diffItem.nextMod.author}`;
-    case "remove":
-      return `Removed ${diffItem.previousMod.name} by ${diffItem.previousMod.author}`;
     case "update":
       return `Updated ${diffItem.nextMod.name} by ${diffItem.nextMod.author}`;
     case "update-prerelease":
@@ -22,8 +20,6 @@ function getNotificationDescription(diffItem: DiffItem) {
           ? `Addon for \`${diffItem.nextMod.parent}\`. `
           : ""
       }${diffItem.nextMod.description}`;
-    case "remove":
-      return "";
     case "update": {
       const nextReleaseDescription = diffItem.nextMod.latestReleaseDescription;
 
@@ -46,25 +42,18 @@ function getNotificationColor(diffItem: DiffItem) {
   switch (diffItem.diffType) {
     case "add":
       return 3066993;
-    case "remove":
-      return 10038562;
     case "update":
       return 15105570;
     case "update-prerelease":
       return 0;
   }
 }
-function getRelevantMod(diffItem: DiffItem) {
-  return diffItem.diffType == "remove"
-    ? diffItem.previousMod
-    : diffItem.nextMod;
-}
 
 function getEmbed(diffItem: DiffItem) {
   return {
     title: getNotificationTitle(diffItem),
     description: getNotificationDescription(diffItem),
-    url: getRelevantMod(diffItem).repo,
+    url: diffItem.nextMod.repo,
     color: getNotificationColor(diffItem),
   };
 }
@@ -89,7 +78,7 @@ export async function sendDiscordNotifications(
   for (const diffItem of diff) {
     try {
       const discordModHookUrl =
-        discordModHookUrls[getRelevantMod(diffItem).uniqueName];
+        discordModHookUrls[diffItem.nextMod.uniqueName];
       if (discordModHookUrl) {
         axios.post(discordModHookUrl, {
           embeds: [getEmbed(diffItem)],
