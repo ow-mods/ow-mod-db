@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.12.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 70236
+    "downloadCount": 70238
   },
   "releases": [
     {
@@ -428,7 +428,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 5058,
+      "downloadCount": 5059,
       "latestReleaseDate": "2022-04-21T21:50:28Z",
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
@@ -2129,6 +2129,18 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-localization-utility/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-localization-utility/main/README.md"
       }
+    },
+    {
+      "name": "StopTime",
+      "uniqueName": "_nebula.StopTime",
+      "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
+      "author": "misternebula",
+      "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
+      "downloadCount": 1906,
+      "latestReleaseDate": "2022-07-25T22:47:06Z",
+      "firstReleaseDate": "2020-04-12T19:16:40Z",
+      "repo": "https://github.com/misternebula/StopTime",
+      "version": "1.0.0"
     }
   ],
   "alphaReleases": [
