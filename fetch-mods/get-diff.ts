@@ -47,11 +47,13 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       previousDatabaseMod?.prerelease?.version !==
         nextDatabaseMod.prerelease.version
     ) {
-      diff.push({
-        diffType: "update-prerelease",
-        previousMod: previousDatabaseMod,
-        nextMod: nextDatabaseMod,
-      });
+      if (happenedWithinDayCount(nextDatabaseMod.prerelease.date, 1)) {
+        diff.push({
+          diffType: "update-prerelease",
+          previousMod: previousDatabaseMod,
+          nextMod: nextDatabaseMod,
+        });
+      }
     }
   }
 
