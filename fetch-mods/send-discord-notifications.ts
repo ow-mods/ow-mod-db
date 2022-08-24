@@ -59,8 +59,8 @@ function getEmbed(diffItem: DiffItem) {
   };
 }
 
-function pingId(id: string) {
-  return `<@${id}>`;
+function pingRoleId(id: string) {
+  return `<@&${id}>`;
 }
 
 export async function sendDiscordNotifications(
@@ -77,8 +77,8 @@ export async function sendDiscordNotifications(
       );
 
       axios.post(discordHookUrl, {
-        content: `${pingId(discordModUpdateRoleId)} ${
-          containsNewMod ? pingId(discordNewModRoleId) : ""
+        content: `${pingRoleId(discordModUpdateRoleId)} ${
+          containsNewMod ? pingRoleId(discordNewModRoleId) : ""
         }`,
         embeds: diff.map(getEmbed),
       });
