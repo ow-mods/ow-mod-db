@@ -2222,12 +2222,12 @@
       "uniqueName": "MegaPiggy.OWRichPresence",
       "description": "Adds discord rich presence to Outer Wilds",
       "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/OWRichPresence/releases/download/1.1.0/MegaPiggy.OWRichPresence.zip",
+      "downloadUrl": "https://github.com/MegaPiggy/OWRichPresence/releases/download/1.2.0/MegaPiggy.OWRichPresence.zip",
       "downloadCount": 51,
-      "latestReleaseDate": "2022-08-22T03:21:16Z",
+      "latestReleaseDate": "2022-08-24T20:08:46Z",
       "firstReleaseDate": "2022-08-21T06:44:58Z",
       "repo": "https://github.com/MegaPiggy/OWRichPresence",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "readme": {
         "htmlUrl": "https://github.com/MegaPiggy/OWRichPresence/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/OWRichPresence/master/README.md"
@@ -2268,6 +2268,19 @@
     {
       "name": "Cut Achievements",
       "uniqueName": "_nebula.CutAchievements",
+      "description": "Adds some cut achievements back into Outer Wilds.",
+      "author": "misternebula",
+      "parent": "xen.AchievementTracker",
+      "downloadUrl": "https://github.com/misternebula/cut-achievements/releases/download/1.0.0/CutAchievements.zip",
+      "downloadCount": 4,
+      "latestReleaseDate": "2022-08-23T22:28:07Z",
+      "firstReleaseDate": "2022-08-23T22:28:07Z",
+      "repo": "https://github.com/misternebula/cut-achievements",
+      "version": "1.0.0"
+    },
+    {
+      "name": "Welcome to episode 1 of Let's Play Outer Wilds with Nebula here in Nebula World",
+      "uniqueName": "nebulasdreams",
       "description": "Adds some cut achievements back into Outer Wilds.",
       "author": "misternebula",
       "parent": "xen.AchievementTracker",
