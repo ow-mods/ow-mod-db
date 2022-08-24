@@ -11,6 +11,12 @@ inputs:
   discord-hook-url:
     description: "Secret Discord hook url with token"
     required: true
+  discord-mod-update-role-id:
+    description: "ID for the Discord role to ping when there's a mod update"
+    required: true
+  discord-new-mod-role-id:
+    description: "ID for the Discord role to ping when there's a new mod added to the database"
+    required: true
   discord-mod-hook-urls:
     description: "JSON object where keys are the uniqueName of a mod, and the values are the Discord hook urls of the channel where update notifications should be sent to."
     required: true

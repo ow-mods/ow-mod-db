@@ -46,6 +46,8 @@ jobs:
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           mods: "${{ steps.local-mods.outputs.mods }}"
           discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
+          discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"
+          discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"
       - uses: actions/checkout@v2
         with:
           ref: "master"

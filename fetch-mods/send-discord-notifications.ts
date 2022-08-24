@@ -1,4 +1,5 @@
 import axios from "axios";
+import { diffieHellman } from "crypto";
 import { DiffItem } from "./get-diff";
 
 function getNotificationTitle(diffItem: DiffItem) {
@@ -58,14 +59,27 @@ function getEmbed(diffItem: DiffItem) {
   };
 }
 
+function pingId(id: string) {
+  return `<@${id}>`;
+}
+
 export async function sendDiscordNotifications(
   discordHookUrl: string,
+  discordModUpdateRoleId: string,
+  discordNewModRoleId: string,
   diff: DiffItem[],
   discordModHookUrls: Record<string, string>
 ) {
   try {
     if (diff.length > 0) {
+      const containsNewMod = diff.find(
+        (diffItem) => diffItem.diffType === "add"
+      );
+
       axios.post(discordHookUrl, {
+        content: `${pingId(discordModUpdateRoleId)} ${
+          containsNewMod ? pingId(discordNewModRoleId) : ""
+        }`,
         embeds: diff.map(getEmbed),
       });
     }
@@ -77,8 +91,7 @@ export async function sendDiscordNotifications(
 
   for (const diffItem of diff) {
     try {
-      const discordModHookUrl =
-        discordModHookUrls[diffItem.nextMod.uniqueName];
+      const discordModHookUrl = discordModHookUrls[diffItem.nextMod.uniqueName];
       if (discordModHookUrl) {
         axios.post(discordModHookUrl, {
           embeds: [getEmbed(diffItem)],

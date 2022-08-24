@@ -9,6 +9,8 @@ import { toJsonString } from "./to-json-string";
 enum Input {
   mods = "mods",
   discordHookUrl = "discord-hook-url",
+  discordModUpdateRoleId = "discord-mod-update-role-id",
+  discordNewModRoleId = "discord-new-mod-role-id",
   discordModHookUrls = "discord-mod-hook-urls",
 }
 
@@ -49,6 +51,8 @@ async function run() {
 
       sendDiscordNotifications(
         core.getInput(Input.discordHookUrl),
+        core.getInput(Input.discordModUpdateRoleId),
+        core.getInput(Input.discordNewModRoleId),
         diff,
         discordModHookUrls
       );

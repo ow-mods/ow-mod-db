@@ -40,3 +40,11 @@ JSON object where keys are the uniqueName of a mod, and the values are the Disco
   "uniqueNameB": "https://discord.com/api/webhooks/WWW/ZZZ"
 }
 ```
+
+### DISCORD_MOD_UPDATE_ROLE_ID
+
+ID for the Discord role to ping when there's a mod update.
+
+### DISCORD_NEW_MOD_ROLE_ID
+
+ID for the Discord role to ping when there's a new mod added to the database.
