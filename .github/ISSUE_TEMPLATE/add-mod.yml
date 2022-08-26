@@ -2,8 +2,6 @@ name: Add new mod / edit existing mod
 description: Request for a new mod to be added to the database, or edit an existing mod.
 title: "[Your mod name here]"
 labels: ["add-mod"]
-assignees:
-  - Raicuparta
 body:
   - type: input
     id: discordId

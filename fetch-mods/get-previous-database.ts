@@ -6,7 +6,7 @@ export async function getPreviousDatabase() {
   const previousDatabaseResponse: any = (
     await octokit.rest.repos.getContent({
       // TODO get owner and repo from current action repo.
-      owner: "Raicuparta",
+      owner: "ow-mods",
       repo: "ow-mod-db",
       path: "database.json",
       ref: "master",

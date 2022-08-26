@@ -1,7 +1,7 @@
 import { getOctokit } from "./get-octokit";
 
 const managerRepo = {
-  owner: "Raicuparta",
+  owner: "ow-mods",
   repo: "ow-mod-manager",
 };
 
