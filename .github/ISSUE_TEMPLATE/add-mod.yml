@@ -34,6 +34,12 @@ body:
     validations:
       required: true
   - type: input
+    id: authorDisplay
+    attributes:
+      label: Author display name
+      description: Custom name to show in the author field for this mod. Useful if your mod is in an organization, or made by multiple people. Leave blank to use the repository owner name.
+      placeholder: Raicuparta & Paicurarta
+  - type: input
     id: parent
     attributes:
       label: Parent uniqueName

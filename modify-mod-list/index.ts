@@ -20,6 +20,7 @@ type ModInfo = {
   required?: boolean;
   utility?: boolean;
   parent?: string;
+  authorDisplay?: string;
 };
 
 // From .github/ISSUE_TEMPLATE/add-mod.yml.
@@ -30,12 +31,19 @@ type IssueForm = {
   alpha?: string;
   utility?: string;
   parent?: string;
+  authorDisplay?: string;
 };
 
 async function run() {
-  const { name, repoUrl, uniqueName, parent, utility, alpha }: IssueForm = JSON.parse(
-    core.getInput(Input.form)
-  );
+  const {
+    name,
+    repoUrl,
+    uniqueName,
+    parent,
+    utility,
+    alpha,
+    authorDisplay,
+  }: IssueForm = JSON.parse(core.getInput(Input.form));
 
   if (!name || !repoUrl || !uniqueName) {
     throw new Error("Invalid form format");
@@ -67,6 +75,10 @@ async function run() {
     newMod.alpha = Boolean(alpha);
   }
 
+  if (authorDisplay) {
+    newMod.authorDisplay = authorDisplay;
+  }
+
   const existingMod = mods.find(
     (modFromList) => uniqueName === modFromList.uniqueName
   );
@@ -77,6 +89,7 @@ async function run() {
     existingMod.parent = newMod.parent;
     existingMod.utility = newMod.utility;
     existingMod.alpha = newMod.alpha;
+    existingMod.authorDisplay = newMod.authorDisplay;
   }
 
   const newMods: ModInfo[] = existingMod ? mods : [...mods, newMod];
