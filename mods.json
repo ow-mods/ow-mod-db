@@ -179,13 +179,15 @@
   {
     "name": "New Horizons",
     "uniqueName": "xen.NewHorizons",
-    "repo": "Outer-Wilds-New-Horizons/new-horizons"
+    "repo": "Outer-Wilds-New-Horizons/new-horizons",
+    "authorDisplay": "xen"
   },
   {
     "name": "New Horizons Examples",
     "uniqueName": "xen.NewHorizonsExamples",
     "repo": "Outer-Wilds-New-Horizons/nh-examples",
-    "parent": "xen.NewHorizons"
+    "parent": "xen.NewHorizons",
+    "authorDisplay": "xen"
   },
   {
     "name": "Real Solar System",

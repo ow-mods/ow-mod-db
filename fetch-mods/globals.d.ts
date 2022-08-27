@@ -6,6 +6,7 @@ type ModInfo = {
   required?: boolean;
   utility?: boolean;
   parent?: string;
+  authorDisplay?: string;
 };
 
 type Release = {
@@ -20,10 +21,15 @@ interface Mod extends Release {
   description: string;
   author: string;
   repo: string;
+  latestReleaseDate: string;
+  firstReleaseDate: string;
+  latestReleaseDescription: string;
+  latestPrereleaseDescription: string;
   alpha?: boolean;
   required?: boolean;
   utility?: boolean;
   parent?: string;
+  authorDisplay?: string;
   readme?: {
     downloadUrl?: string;
     htmlUrl?: string;
@@ -33,8 +39,4 @@ interface Mod extends Release {
     downloadUrl: string;
     date: string;
   };
-  latestReleaseDate: string;
-  firstReleaseDate: string;
-  latestReleaseDescription: string;
-  latestPrereleaseDescription: string;
 }

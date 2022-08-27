@@ -188,6 +188,7 @@ export async function fetchMods(modsJson: string) {
             repo,
             version: cleanLatestRelease.version,
             readme,
+            authorDisplay: modInfo.authorDisplay,
             latestReleaseDescription: cleanLatestRelease.description || "",
             latestPrereleaseDescription: latestPrerelease?.description || "",
             prerelease: latestPrerelease
