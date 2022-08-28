@@ -4,29 +4,29 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.13.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.13.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.13.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 74850
+    "downloadCount": 74851
   },
   "releases": [
     {
       "name": "OWML",
       "uniqueName": "Alek.OWML",
       "description": "The mod loader and mod framework for Outer Wilds",
-      "author": "amazingalek",
+      "author": "ow-mods",
       "required": true,
       "utility": true,
-      "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.6.0/OWML.zip",
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.6.0/OWML.zip",
       "downloadCount": 59204,
       "latestReleaseDate": "2022-08-20T18:28:58Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
       "version": "2.6.0",
       "readme": {
-        "htmlUrl": "https://github.com/amazingalek/owml/blob/master/Readme.md",
-        "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml/master/Readme.md"
+        "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "prerelease": {
         "version": "2.5.0",
-        "downloadUrl": "https://github.com/amazingalek/owml/releases/download/2.5.0/OWML.zip",
+        "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.5.0/OWML.zip",
         "date": "2022-06-07T11:05:45Z"
       }
     },
@@ -78,7 +78,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 7889,
+      "downloadCount": 7890,
       "latestReleaseDate": "2021-10-14T20:13:05Z",
       "firstReleaseDate": "2020-04-10T13:16:22Z",
       "repo": "https://github.com/amazingalek/owml-light-bramble",
@@ -572,7 +572,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.5.1/xen.NewHorizons.zip",
-      "downloadCount": 9658,
+      "downloadCount": 9659,
       "latestReleaseDate": "2022-08-28T01:53:24Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -613,7 +613,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.6.5/outer-wilds-real-solar-system.zip",
-      "downloadCount": 4144,
+      "downloadCount": 4145,
       "latestReleaseDate": "2022-06-20T01:54:34Z",
       "firstReleaseDate": "2021-12-19T01:26:21Z",
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
@@ -712,7 +712,7 @@
       "author": "Jammer232",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Jammer232/Outer-Wilds-Galaxy/releases/download/v1.14.0/Outer-Wilds-Galaxy.zip",
-      "downloadCount": 3230,
+      "downloadCount": 3231,
       "latestReleaseDate": "2022-01-15T18:45:01Z",
       "firstReleaseDate": "2021-12-31T23:31:02Z",
       "repo": "https://github.com/Jammer232/Outer-Wilds-Galaxy",
