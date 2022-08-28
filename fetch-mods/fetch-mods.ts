@@ -59,7 +59,7 @@ export async function fetchMods(modsJson: string) {
       );
 
       const latestReleaseFromList = releaseList[0];
-      console.log("latestReleaseFromList", latestReleaseFromList);
+      // console.log("latestReleaseFromList", latestReleaseFromList);
 
       let latestReleaseFromApi: OctokitRelease | null = null;
 
@@ -71,7 +71,7 @@ export async function fetchMods(modsJson: string) {
           })
         ).data;
 
-        console.log("latestReleaseFromApi", latestReleaseFromApi);
+        // console.log("latestReleaseFromApi", latestReleaseFromApi);
       } catch (error) {
         console.log(`Failed to get latest release from API: ${error}`);
       }
@@ -149,9 +149,9 @@ export async function fetchMods(modsJson: string) {
           const cleanLatestRelease = getCleanedUpRelease(latestRelease);
           const repo = `${REPO_URL_BASE}/${modInfo.repo}`;
 
-          console.log("releases", toJsonString(releases));
-          console.log("prereleases", toJsonString(prereleases));
-          console.log("cleanLatestRelease", toJsonString(cleanLatestRelease));
+          // console.log("releases", toJsonString(releases));
+          // console.log("prereleases", toJsonString(prereleases));
+          // console.log("cleanLatestRelease", toJsonString(cleanLatestRelease));
 
           const totalDownloadCount = [...releases, ...prereleases].reduce(
             (accumulator, release) => {
