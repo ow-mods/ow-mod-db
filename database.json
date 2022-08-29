@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.13.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.13.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.13.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 74986
+    "downloadCount": 74989
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.6.0/OWML.zip",
-      "downloadCount": 59296,
+      "downloadCount": 59299,
       "latestReleaseDate": "2022-08-20T18:28:58Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -242,9 +242,9 @@
       "description": "Allows using some commands from Debug Mode and adds other functions as well.",
       "author": "glitchewski",
       "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/releases/download/0.5.3/Glitch.CheatAndDebugMenu.zip",
-      "downloadCount": 2263,
+      "downloadCount": 2270,
       "latestReleaseDate": "2021-10-25T06:38:12Z",
-      "firstReleaseDate": "2021-10-12T22:28:44Z",
+      "firstReleaseDate": "2021-10-12T21:02:20Z",
       "repo": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu",
       "version": "0.5.3",
       "readme": {
@@ -290,7 +290,7 @@
       "description": "",
       "author": "leadpogrommer",
       "downloadUrl": "https://github.com/leadpogrommer/PeacefulGhosts/releases/download/v0.1.1/Leadpogrommer.PeacefulGhosts.zip",
-      "downloadCount": 1802,
+      "downloadCount": 1803,
       "latestReleaseDate": "2022-06-30T16:59:01Z",
       "firstReleaseDate": "2021-10-25T10:17:21Z",
       "repo": "https://github.com/leadpogrommer/PeacefulGhosts",
@@ -1069,6 +1069,61 @@
       "readme": {
         "htmlUrl": "https://github.com/piggeywig2000/OuterWildsFlyover/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/piggeywig2000/OuterWildsFlyover/main/README.md"
+      }
+    },
+    {
+      "name": "Incursion: Final Dawn",
+      "uniqueName": "ErroneousCreationist.incursionfinaldawn",
+      "description": "The Incursion Is Upon Us                                                     by Erroneous",
+      "author": "ErroneousCreationist",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/ErroneousCreationist/incursionfinaldawn/releases/download/v1.2.0/incursionfinaldawn.zip",
+      "downloadCount": 999,
+      "latestReleaseDate": "2022-05-30T21:12:42Z",
+      "firstReleaseDate": "2022-02-06T02:20:48Z",
+      "repo": "https://github.com/ErroneousCreationist/incursionfinaldawn",
+      "version": "v1.2.0",
+      "readme": {
+        "htmlUrl": "https://github.com/ErroneousCreationist/incursionfinaldawn/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ErroneousCreationist/incursionfinaldawn/main/README.md"
+      }
+    },
+    {
+      "name": "TRAPPIST-1",
+      "uniqueName": "smallbug.trappist-1",
+      "description": "A depiction of the TRAPPIST-1 system, a collection of seven terrestrial planets hugging close to a small ultracool red dwarf star.",
+      "author": "Leopard501",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/Leopard501/TRAPPIST-1/releases/download/v1.1.1/TRAPPIST-1.zip",
+      "downloadCount": 777,
+      "latestReleaseDate": "2022-02-23T05:24:14Z",
+      "firstReleaseDate": "2022-02-16T02:04:26Z",
+      "repo": "https://github.com/Leopard501/TRAPPIST-1",
+      "version": "v1.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/Leopard501/TRAPPIST-1/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Leopard501/TRAPPIST-1/main/README.md"
+      }
+    },
+    {
+      "name": "Input Demo Recorder",
+      "uniqueName": "Locochoco.InputDemoRecorder",
+      "description": "",
+      "author": "ShoosGun",
+      "downloadUrl": "https://github.com/ShoosGun/InputDemoRecorder/releases/download/0.1.0/Locochoco.InputDemoRecorder.zip",
+      "downloadCount": 47,
+      "latestReleaseDate": "2022-02-17T21:42:21Z",
+      "firstReleaseDate": "2021-10-12T21:24:04Z",
+      "repo": "https://github.com/ShoosGun/InputDemoRecorder",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/InputDemoRecorder/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/InputDemoRecorder/main/README.md"
+      },
+      "prerelease": {
+        "version": "0.0.2",
+        "downloadUrl": "https://github.com/ShoosGun/InputDemoRecorder/releases/download/0.0.2/InputDemoRecorder-v1.0.2.zip",
+        "date": "2021-10-21T16:36:55Z"
       }
     },
     {
