@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.13.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.13.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.13.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 75834
+    "downloadCount": 75837
   },
   "releases": [
     {
@@ -2351,6 +2351,24 @@
         "downloadUrl": "https://raw.githubusercontent.com/Landriejx/HazyDreams/main/README.md"
       },
       "authorDisplay": "Laundryjx"
+    },
+    {
+      "name": "Gizmos Library",
+      "uniqueName": "Locochoco.GizmosLibrary",
+      "description": "A library to help drawing gizmos on Outer Wilds",
+      "author": "ShoosGun",
+      "utility": true,
+      "downloadUrl": "https://github.com/ShoosGun/GizmosLibrary/releases/download/0.1.0/Locochoco.GizmosLibrary.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-09-02T00:44:11Z",
+      "firstReleaseDate": "2022-09-02T00:44:11Z",
+      "repo": "https://github.com/ShoosGun/GizmosLibrary",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/GizmosLibrary/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/GizmosLibrary/main/README.md"
+      },
+      "authorDisplay": "Locochoco"
     }
   ],
   "alphaReleases": [
