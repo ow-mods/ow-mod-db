@@ -1,7 +1,7 @@
 import { fetchMods } from "../fetch-mods";
 import modsJson from "./mods.json";
 // import { discordHookUrl, ghToken, discordModHookUrls } from "./secrets.json";
-import { googleServiceAccount, serviceAccount } from "./secrets.json";
+import { googleServiceAccount } from "./secrets.json";
 import nextDatabase from "./next-database.json";
 import previousDatabase from "./previous-database.json";
 import { getDiff } from "../get-diff";
@@ -20,7 +20,7 @@ const routeRegex = new RegExp(`${routeBase}[^\/]+\/$`);
 
 async function test() {
   const analyticsDataClient = new BetaAnalyticsDataClient({
-    credentials: serviceAccount,
+    credentials: JSON.parse(googleServiceAccount),
     projectId: "outer-wilds-mods",
   });
 
