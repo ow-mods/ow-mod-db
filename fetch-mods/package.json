@@ -13,6 +13,9 @@
   },
   "dependencies": {
     "@actions/core": "^1.6.0",
+    "@google-analytics/data": "^3.0.0",
+    "@googleapis/analytics": "^2.0.0",
+    "@googleapis/analyticsreporting": "^0.3.0",
     "@octokit/action": "^3.18.0",
     "@octokit/plugin-retry": "^3.0.9",
     "@octokit/plugin-throttling": "^3.6.2",
