@@ -5,6 +5,7 @@ import { getDiff } from "./get-diff";
 import { getPreviousDatabase } from "./get-previous-database";
 import { fetchModManager } from "./fetch-mod-manager";
 import { toJsonString } from "./to-json-string";
+import { getViewCounts } from "./get-view-counts";
 
 enum Input {
   mods = "mods",
@@ -12,6 +13,7 @@ enum Input {
   discordModUpdateRoleId = "discord-mod-update-role-id",
   discordNewModRoleId = "discord-new-mod-role-id",
   discordModHookUrls = "discord-mod-hook-urls",
+  googleServiceAccount = "google-service-account",
 }
 
 enum Output {
@@ -24,6 +26,11 @@ function getCleanedUpModList(modList: Mod[]) {
   );
 }
 
+// Caution: this function needs to match the same one in the outerwildsmods.com repo.
+// This should probably just be saved in the database to avoid the double work.
+export const getModPathName = (modName: string) =>
+  modName.replace(/\W/g, "").toLowerCase();
+
 async function run() {
   try {
     const modManager = await fetchModManager();
@@ -32,10 +39,18 @@ async function run() {
 
     const cleanedUpModList = getCleanedUpModList(nextDatabase);
 
+    const viewCounts =
+      (await getViewCounts(core.getInput(Input.googleServiceAccount))) ?? {};
+
+    const modListWithViewCounts = cleanedUpModList.map((mod) => ({
+      ...mod,
+      viewCount: viewCounts[getModPathName(mod.name)] ?? 0,
+    }));
+
     const databaseJson = toJsonString({
       modManager,
-      releases: cleanedUpModList.filter(({ alpha }) => !alpha),
-      alphaReleases: cleanedUpModList.filter(({ alpha }) => alpha),
+      releases: modListWithViewCounts.filter(({ alpha }) => !alpha),
+      alphaReleases: modListWithViewCounts.filter(({ alpha }) => alpha),
     });
     core.setOutput(Output.releases, databaseJson);
 
