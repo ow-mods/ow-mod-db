@@ -18,7 +18,7 @@ inputs:
     description: "ID for the Discord role to ping when there's a new mod added to the database"
     required: true
   google-service-account:
-    description: "Google service account credentials json"
+    description: "Base64-encoded Google service account credentials json"
     required: true
   discord-mod-hook-urls:
     description: "JSON object where keys are the uniqueName of a mod, and the values are the Discord hook urls of the channel where update notifications should be sent to."

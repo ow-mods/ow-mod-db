@@ -51,7 +51,7 @@ ID for the Discord role to ping when there's a new mod added to the database.
 
 ### GOOGLE_SERVICE_ACCOUNT
 
-JSON object, credentials of a Google service account with permissions to get the outerwildsmods.com view counts from google analytics. Format:
+Base64-encoded JSON object. Credentials of a Google service account with permissions to get the outerwildsmods.com view counts from google analytics. JSON format (before base64 encoding):
 
 ```json
 {

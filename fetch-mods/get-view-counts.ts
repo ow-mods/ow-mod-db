@@ -4,8 +4,15 @@ const ga4PropertyId = 251990931;
 const routeBase = "outerwildsmods.com/mods/";
 const routeRegex = new RegExp(`${routeBase}[^\/]+\/$`);
 
-export async function getViewCounts(googleServiceAccountCredentials: string) {
+export async function getViewCounts(
+  base64GoogleServiceAccountCredentials: string
+) {
   try {
+    const googleServiceAccountCredentials = Buffer.from(
+      base64GoogleServiceAccountCredentials,
+      "base64"
+    ).toString();
+
     const analyticsDataClient = new BetaAnalyticsDataClient({
       credentials: JSON.parse(googleServiceAccountCredentials),
       projectId: "outer-wilds-mods",
