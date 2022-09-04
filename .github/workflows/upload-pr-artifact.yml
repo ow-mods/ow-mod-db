@@ -44,6 +44,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
           mods: "${{ steps.local-mods.outputs.mods }}"
+          google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
 
       - name: Write database to file
         uses: DamianReeves/write-file-action@v1.0
