@@ -60,7 +60,7 @@ async function run() {
     const outputFilePath = core.getInput(Input.outFile);
 
     if (outputFilePath) {
-      fs.writeFile(outputFilePath, databaseJson);
+      fs.writeFile(outputFilePath, databaseJson, (error) => { console.log("Error Saving To File:", error) });
     }
 
     const discordHookUrl = core.getInput(Input.discordHookUrl);
