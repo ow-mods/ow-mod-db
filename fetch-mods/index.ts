@@ -7,7 +7,7 @@ import { fetchModManager } from "./fetch-mod-manager";
 import { toJsonString } from "./to-json-string";
 import { getViewCounts } from "./get-view-counts";
 
-const fs = require("fs");
+import { writeFile } from "fs";
 
 enum Input {
   outFile = "out-file",
@@ -60,7 +60,7 @@ async function run() {
     const outputFilePath = core.getInput(Input.outFile);
 
     if (outputFilePath) {
-      fs.writeFile(outputFilePath, databaseJson, (error) => { console.log("Error Saving To File:", error) });
+      writeFile(outputFilePath, databaseJson, (error) => { console.log("Error Saving To File:", error) });
     }
 
     const discordHookUrl = core.getInput(Input.discordHookUrl);
