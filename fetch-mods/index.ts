@@ -7,7 +7,10 @@ import { fetchModManager } from "./fetch-mod-manager";
 import { toJsonString } from "./to-json-string";
 import { getViewCounts } from "./get-view-counts";
 
+const fs = require("fs");
+
 enum Input {
+  outFile = "out-file",
   mods = "mods",
   discordHookUrl = "discord-hook-url",
   discordModUpdateRoleId = "discord-mod-update-role-id",
@@ -53,6 +56,12 @@ async function run() {
       alphaReleases: modListWithViewCounts.filter(({ alpha }) => alpha),
     });
     core.setOutput(Output.releases, databaseJson);
+
+    const outputFilePath = core.getInput(Input.outFile);
+
+    if (outputFilePath) {
+      fs.writeFile(outputFilePath, databaseJson);
+    }
 
     const discordHookUrl = core.getInput(Input.discordHookUrl);
 
