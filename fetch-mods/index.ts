@@ -10,7 +10,7 @@ import { getViewCounts } from "./get-view-counts";
 const fs = require("fs");
 
 enum Input {
-  outFile = "outFile",
+  outFile = "out-file",
   mods = "mods",
   discordHookUrl = "discord-hook-url",
   discordModUpdateRoleId = "discord-mod-update-role-id",
