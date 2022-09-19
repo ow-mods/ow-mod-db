@@ -41,7 +41,7 @@ jobs:
         id: fetch-mods
         uses: ./fetch-mods
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           out-file: database.json
           mods: "${{ steps.local-mods.outputs.mods }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
