@@ -1,6 +1,9 @@
 name: "Get mods"
 description: "Gets mod releases"
 inputs:
+  out-file:
+    description: "Optional JSON file path to write to"
+    required: false
   mods:
     description: "JSON list of mods to check"
     required: true

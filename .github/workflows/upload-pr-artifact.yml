@@ -43,15 +43,9 @@ jobs:
         uses: ./fetch-mods
         with:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
+          out-file: database.json
           mods: "${{ steps.local-mods.outputs.mods }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
-
-      - name: Write database to file
-        uses: DamianReeves/write-file-action@v1.0
-        with:
-          path: database.json
-          contents: "${{ steps.fetch-mods.outputs.releases }}"
-          write-mode: overwrite
 
       - uses: actions/upload-artifact@v2
         with:
