@@ -40,16 +40,10 @@ jobs:
       - id: modify-mod-list
         uses: ./modify-mod-list
         with:
+          out-file: mods.json
           github-token: ${{ secrets.GH_TOKEN }}
           form: "${{ steps.issue-parser.outputs.jsonString }}"
           mods: "${{ steps.local-mods.outputs.mods }}"
-
-      - name: Write mods list to file
-        uses: DamianReeves/write-file-action@v1.0
-        with:
-          path: mods.json
-          contents: "${{ steps.modify-mod-list.outputs.mods }}"
-          write-mode: overwrite
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3

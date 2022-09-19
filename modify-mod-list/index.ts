@@ -1,6 +1,9 @@
 import * as core from "@actions/core";
 
+import { writeFile } from "fs";
+
 enum Input {
+  outFile = "out-file",
   form = "form",
   mods = "mods",
   gitHubToken = "github-token",
@@ -94,7 +97,16 @@ async function run() {
 
   const newMods: ModInfo[] = existingMod ? mods : [...mods, newMod];
 
-  core.setOutput(Output.mods, JSON.stringify(newMods, null, 2));
+  const jsonString = JSON.stringify(newMods, null, 2);
+
+  core.setOutput(Output.mods, jsonString);
+
+  const outFile = core.getInput(Input.outFile);
+
+  if (outFile) {
+    writeFile(outFile, jsonString, (error) => { if (error) console.log("Couldn't Write To Mods File: ", error) });
+  }
+
   if (existingMod) {
     core.setOutput(Output.editedExistingMod, true);
   }
