@@ -50,14 +50,11 @@ jobs:
           discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"
           discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
-      - uses: actions/checkout@v2
-        with:
-          ref: "master"
-          fetch-depth: 0
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
           branch: "master"
+          file_pattern: "database.json"
           commit_message: Update mod database
           commit_user_name: Outer Wilds Mod Database
           commit_user_email: database@outerwildsmods.com
