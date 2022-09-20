@@ -50,6 +50,12 @@ jobs:
           discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"
           discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
+      - run: mv database.json ..
+      - uses: actions/checkout@v2
+        with:
+          ref: "master"
+          fetch-depth: 0
+      - run: cp ../database.json .
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
