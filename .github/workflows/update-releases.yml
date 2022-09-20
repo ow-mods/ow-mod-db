@@ -45,6 +45,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           mods: "${{ steps.local-mods.outputs.mods }}"
+          out-file: "database.json"
           discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
           discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"
           discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"
@@ -53,12 +54,6 @@ jobs:
         with:
           ref: "master"
           fetch-depth: 0
-      - name: Write database to file
-        uses: DamianReeves/write-file-action@v1.0
-        with:
-          path: database.json
-          contents: "${{ steps.fetch-mods.outputs.releases }}"
-          write-mode: overwrite
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
