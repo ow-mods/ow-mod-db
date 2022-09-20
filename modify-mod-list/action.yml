@@ -1,6 +1,9 @@
 name: "Modify mod list"
 description: "Modifies the mod list based on a mod submission issue"
 inputs:
+  out-file:
+      description: "Optional JSON file path to write to"
+      required: false
   github-token:
     description: "Token for GitHub authentication"
     required: true
