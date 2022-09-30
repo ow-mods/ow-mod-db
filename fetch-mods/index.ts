@@ -37,9 +37,15 @@ export const getModPathName = (modName: string) =>
   modName.replace(/\W/g, "").toLowerCase();
 
 const getSettledResult = <TResult>(
-  results: PromiseSettledResult<TResult>
+  results: PromiseSettledResult<TResult>,
+  name: string,
+  initialTime: number
 ): TResult | undefined => {
   if (results.status == "rejected") return undefined;
+
+  console.log(
+    `Finished getting ${name} in ${performance.now() - initialTime} ms`
+  );
 
   return results.value;
 };
@@ -53,6 +59,8 @@ async function getAsyncStuff() {
     getPreviousDatabase(),
   ] as const;
 
+  const initialTime = performance.now();
+
   const [
     modManager,
     nextDatabase,
@@ -62,11 +70,14 @@ async function getAsyncStuff() {
   ] = await Promise.allSettled(promises);
 
   return {
-    modManager: getSettledResult(modManager),
-    nextDatabase: getSettledResult(nextDatabase) ?? [],
-    viewCounts: getSettledResult(viewCounts) ?? {},
-    installCounts: getSettledResult(installCounts) ?? {},
-    previousDatabase: getSettledResult(previousDatabase) ?? [],
+    modManager: getSettledResult(modManager, "modManager", initialTime),
+    nextDatabase:
+      getSettledResult(nextDatabase, "nextDatabase", initialTime) ?? [],
+    viewCounts: getSettledResult(viewCounts, "viewCounts", initialTime) ?? {},
+    installCounts:
+      getSettledResult(installCounts, "installCounts", initialTime) ?? {},
+    previousDatabase:
+      getSettledResult(previousDatabase, "previousDatabase", initialTime) ?? [],
   };
 }
 

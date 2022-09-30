@@ -12,7 +12,7 @@ export async function getInstallCounts(
     ).toString();
 
     const analyticsDataClient = new BetaAnalyticsDataClient({
-      credentials: JSON.parse(googleServiceAccountCredentials),
+      credentials: JSON.parse(base64GoogleServiceAccountCredentials),
       projectId: "outer-wilds-mods",
     });
 
