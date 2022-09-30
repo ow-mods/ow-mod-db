@@ -37,29 +37,39 @@ export const getModPathName = (modName: string) =>
   modName.replace(/\W/g, "").toLowerCase();
 
 const getSettledResult = <TResult>(
-  results: PromiseSettledResult<TResult>,
-  name: string,
-  initialTime: number
+  results: PromiseSettledResult<TResult>
 ): TResult | undefined => {
   if (results.status == "rejected") return undefined;
-
-  console.log(
-    `Finished getting ${name} in ${performance.now() - initialTime} ms`
-  );
 
   return results.value;
 };
 
+const measureTime = <T>(promise: Promise<T>, name: string) => {
+  const initialTime = performance.now();
+
+  promise.finally(() => {
+    `Method "${name}" took ${
+      performance.now() - initialTime
+    } seconds to finish.`;
+  });
+
+  return promise;
+};
+
 async function getAsyncStuff() {
   const promises = [
-    fetchModManager(),
-    fetchMods(core.getInput(Input.mods)),
-    getViewCounts(core.getInput(Input.googleServiceAccount)),
-    getInstallCounts(core.getInput(Input.googleServiceAccount)),
-    getPreviousDatabase(),
+    measureTime(fetchModManager(), "fetchModManager"),
+    measureTime(fetchMods(core.getInput(Input.mods)), "fetchMods"),
+    measureTime(
+      getViewCounts(core.getInput(Input.googleServiceAccount)),
+      "getViewCounts"
+    ),
+    measureTime(
+      getInstallCounts(core.getInput(Input.googleServiceAccount)),
+      "getInstallCounts"
+    ),
+    measureTime(getPreviousDatabase(), "getPreviousDatabase"),
   ] as const;
-
-  const initialTime = performance.now();
 
   const [
     modManager,
@@ -70,14 +80,11 @@ async function getAsyncStuff() {
   ] = await Promise.allSettled(promises);
 
   return {
-    modManager: getSettledResult(modManager, "modManager", initialTime),
-    nextDatabase:
-      getSettledResult(nextDatabase, "nextDatabase", initialTime) ?? [],
-    viewCounts: getSettledResult(viewCounts, "viewCounts", initialTime) ?? {},
-    installCounts:
-      getSettledResult(installCounts, "installCounts", initialTime) ?? {},
-    previousDatabase:
-      getSettledResult(previousDatabase, "previousDatabase", initialTime) ?? [],
+    modManager: getSettledResult(modManager),
+    nextDatabase: getSettledResult(nextDatabase) ?? [],
+    viewCounts: getSettledResult(viewCounts) ?? {},
+    installCounts: getSettledResult(installCounts) ?? {},
+    previousDatabase: getSettledResult(previousDatabase) ?? [],
   };
 }
 
