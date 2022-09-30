@@ -9,6 +9,7 @@ import { getViewCounts } from "./get-view-counts";
 import { getInstallCounts } from "./get-install-counts";
 
 import { writeFile } from "fs";
+import { TypeOfExpression } from "typescript";
 
 enum Input {
   outFile = "out-file",
@@ -35,19 +36,51 @@ function getCleanedUpModList(modList: Mod[]) {
 export const getModPathName = (modName: string) =>
   modName.replace(/\W/g, "").toLowerCase();
 
+const getSettledResult = <TResult>(
+  results: PromiseSettledResult<TResult>
+): TResult | undefined => {
+  if (results.status == "rejected") return undefined;
+
+  return results.value;
+};
+
+async function getAsyncStuff() {
+  const promises = [
+    fetchModManager(),
+    fetchMods(core.getInput(Input.mods)),
+    getViewCounts(core.getInput(Input.googleServiceAccount)),
+    getInstallCounts(core.getInput(Input.googleServiceAccount)),
+    getPreviousDatabase(),
+  ] as const;
+
+  const [
+    modManager,
+    nextDatabase,
+    viewCounts,
+    installCounts,
+    previousDatabase,
+  ] = await Promise.allSettled(promises);
+
+  return {
+    modManager: getSettledResult(modManager),
+    nextDatabase: getSettledResult(nextDatabase) ?? [],
+    viewCounts: getSettledResult(viewCounts) ?? {},
+    installCounts: getSettledResult(installCounts) ?? {},
+    previousDatabase: getSettledResult(previousDatabase) ?? [],
+  };
+}
+
 async function run() {
   try {
-    const modManager = await fetchModManager();
-
-    const nextDatabase = await fetchMods(core.getInput(Input.mods));
+    const {
+      modManager,
+      nextDatabase,
+      viewCounts,
+      installCounts,
+      previousDatabase,
+    } = await getAsyncStuff();
 
     const cleanedUpModList = getCleanedUpModList(nextDatabase);
-
-    const viewCounts =
-      (await getViewCounts(core.getInput(Input.googleServiceAccount))) ?? {};
-
-    const installCounts =
-      (await getInstallCounts(core.getInput(Input.googleServiceAccount))) ?? {};
 
     const modListWithAnalytics = cleanedUpModList.map((mod) => ({
       ...mod,
@@ -73,7 +106,6 @@ async function run() {
     const discordHookUrl = core.getInput(Input.discordHookUrl);
 
     if (discordHookUrl) {
-      const previousDatabase = await getPreviousDatabase();
       const diff = getDiff(previousDatabase, nextDatabase);
 
       const discordModHookUrls: Record<string, string> = JSON.parse(
