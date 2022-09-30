@@ -42,9 +42,7 @@ const measureTime = <T>(promise: Promise<T>, name: string) => {
 
   promise.finally(() => {
     console.log(
-      `Method "${name}" took ${
-        performance.now() - initialTime
-      } seconds to finish.`
+      `Method "${name}" took ${performance.now() - initialTime} ms to finish.`
     );
   });
 
