@@ -3,7 +3,6 @@ import {
   filterFulfilledPromiseSettleResults,
   getSettledResult,
 } from "./promises";
-import { toJsonString } from "./to-json-string";
 
 const REPO_URL_BASE = "https://github.com";
 
@@ -38,21 +37,31 @@ export async function fetchMods(modsJson: string) {
           }
         };
 
-        const readme = await getReadme();
-
-        const fullReleaseList = (
-          await octokit.paginate(octokit.rest.repos.listReleases, {
+        const [
+          readmeResult,
+          fullReleaseListResult,
+          latestReleaseFromApiResult,
+        ] = await Promise.allSettled([
+          getReadme(),
+          octokit.paginate(octokit.rest.repos.listReleases, {
             owner,
             repo,
             per_page: 100,
-          })
-        )
-          .sort((releaseA, releaseB) =>
-            new Date(releaseA.created_at) < new Date(releaseB.created_at)
-              ? 1
-              : -1
-          )
-          .filter((release) => !release.draft);
+          }),
+          octokit.rest.repos.getLatestRelease({
+            owner,
+            repo,
+          }),
+        ]);
+
+        const fullReleaseList =
+          getSettledResult(fullReleaseListResult)
+            ?.sort((releaseA, releaseB) =>
+              new Date(releaseA.created_at) < new Date(releaseB.created_at)
+                ? 1
+                : -1
+            )
+            .filter((release) => !release.draft) ?? [];
 
         const prereleaseList = fullReleaseList.filter(
           (release) => release.prerelease
@@ -70,12 +79,8 @@ export async function fetchMods(modsJson: string) {
         let latestReleaseFromApi: OctokitRelease | null = null;
 
         try {
-          latestReleaseFromApi = (
-            await octokit.rest.repos.getLatestRelease({
-              owner,
-              repo,
-            })
-          ).data;
+          latestReleaseFromApi =
+            getSettledResult(latestReleaseFromApiResult)?.data ?? null;
 
           // console.log("latestReleaseFromApi", latestReleaseFromApi);
         } catch (error) {
@@ -114,7 +119,7 @@ export async function fetchMods(modsJson: string) {
           releaseList,
           prereleaseList,
           modInfo,
-          readme,
+          readme: getSettledResult(readmeResult),
           latestRelease,
         };
       } catch (error) {
