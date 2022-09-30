@@ -8,11 +8,12 @@ import { getDiff } from "../get-diff";
 import { sendDiscordNotifications } from "../send-discord-notifications";
 import { toJsonString } from "../to-json-string";
 import { getViewCounts } from "../get-view-counts";
+import { getInstallCounts } from "../get-install-counts";
 
 async function test() {
-  const viewCounts = await getViewCounts(googleServiceAccount);
+  const installCounts = await getInstallCounts(googleServiceAccount);
 
-  console.log("result", toJsonString(viewCounts));
+  console.log("installCounts", toJsonString(installCounts));
 }
 
 test();

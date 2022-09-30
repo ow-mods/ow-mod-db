@@ -85,7 +85,7 @@ async function run() {
     const modListWithAnalytics = cleanedUpModList.map((mod) => ({
       ...mod,
       viewCount: viewCounts[getModPathName(mod.name)] ?? 0,
-      installCount: installCounts[getModPathName(mod.name)] ?? 0,
+      installCount: installCounts[mod.uniqueName] ?? 0,
     }));
 
     const databaseJson = toJsonString({
