@@ -10,6 +10,7 @@ import { getInstallCounts } from "./get-install-counts";
 
 import { writeFile } from "fs";
 import { TypeOfExpression } from "typescript";
+import { getSettledResult } from "./promises";
 
 enum Input {
   outFile = "out-file",
@@ -35,14 +36,6 @@ function getCleanedUpModList(modList: Mod[]) {
 // This should probably just be saved in the database to avoid the double work.
 export const getModPathName = (modName: string) =>
   modName.replace(/\W/g, "").toLowerCase();
-
-const getSettledResult = <TResult>(
-  results: PromiseSettledResult<TResult>
-): TResult | undefined => {
-  if (results.status == "rejected") return undefined;
-
-  return results.value;
-};
 
 const measureTime = <T>(promise: Promise<T>, name: string) => {
   const initialTime = performance.now();

@@ -1,4 +1,8 @@
 import { getOctokit } from "./get-octokit";
+import {
+  filterFulfilledPromiseSettleResults,
+  getSettledResult,
+} from "./promises";
 import { toJsonString } from "./to-json-string";
 
 const REPO_URL_BASE = "https://github.com";
@@ -12,109 +16,117 @@ export async function fetchMods(modsJson: string) {
   >["data"][number];
   type ReleaseList = OctokitRelease[];
 
-  const results = [];
-  for (let modInfo of modInfos) {
-    try {
-      const [owner, repo] = modInfo.repo.split("/");
+  const promiseResults = await Promise.allSettled(
+    modInfos.map(async (modInfo) => {
+      try {
+        const [owner, repo] = modInfo.repo.split("/");
 
-      const getReadme = async () => {
+        const getReadme = async () => {
+          try {
+            const readme = (
+              await octokit.rest.repos.getReadme({
+                owner,
+                repo,
+              })
+            ).data;
+            return {
+              htmlUrl: readme.html_url || undefined,
+              downloadUrl: readme.download_url || undefined,
+            };
+          } catch {
+            console.log("no readme found");
+          }
+        };
+
+        const readme = await getReadme();
+
+        const fullReleaseList = (
+          await octokit.paginate(octokit.rest.repos.listReleases, {
+            owner,
+            repo,
+            per_page: 100,
+          })
+        )
+          .sort((releaseA, releaseB) =>
+            new Date(releaseA.created_at) < new Date(releaseB.created_at)
+              ? 1
+              : -1
+          )
+          .filter((release) => !release.draft);
+
+        const prereleaseList = fullReleaseList.filter(
+          (release) => release.prerelease
+        );
+        const releaseList = fullReleaseList.filter(
+          (release) =>
+            !release.prerelease &&
+            release.assets[0] &&
+            release.assets[0].browser_download_url.endsWith("zip")
+        );
+
+        const latestReleaseFromList = releaseList[0];
+        // console.log("latestReleaseFromList", latestReleaseFromList);
+
+        let latestReleaseFromApi: OctokitRelease | null = null;
+
         try {
-          const readme = (
-            await octokit.rest.repos.getReadme({
+          latestReleaseFromApi = (
+            await octokit.rest.repos.getLatestRelease({
               owner,
               repo,
             })
           ).data;
-          return {
-            htmlUrl: readme.html_url || undefined,
-            downloadUrl: readme.download_url || undefined,
-          };
-        } catch {
-          console.log("no readme found");
+
+          // console.log("latestReleaseFromApi", latestReleaseFromApi);
+        } catch (error) {
+          console.log(`Failed to get latest release from API: ${error}`);
         }
-      };
 
-      const readme = await getReadme();
+        // There are two ways to get the latest release:
+        // - picking the last item in the full release list;
+        // - using the result of the latest release api endpoint.
+        // Some times, they disagree. So I'll pick the youngest one as the latest release.
+        let useReleaseFromList = false;
+        if (!latestReleaseFromApi && latestReleaseFromList) {
+          useReleaseFromList = true;
+        } else if (latestReleaseFromApi && !latestReleaseFromList) {
+          useReleaseFromList = false;
+        } else if (
+          latestReleaseFromList &&
+          latestReleaseFromApi &&
+          new Date(latestReleaseFromList.created_at) >
+            new Date(latestReleaseFromApi.created_at)
+        ) {
+          useReleaseFromList = true;
+        }
 
-      const fullReleaseList = (
-        await octokit.paginate(octokit.rest.repos.listReleases, {
-          owner,
-          repo,
-          per_page: 100,
-        })
-      )
-        .sort((releaseA, releaseB) =>
-          new Date(releaseA.created_at) < new Date(releaseB.created_at) ? 1 : -1
-        )
-        .filter((release) => !release.draft);
+        const latestRelease = useReleaseFromList
+          ? latestReleaseFromList
+          : latestReleaseFromApi;
 
-      const prereleaseList = fullReleaseList.filter(
-        (release) => release.prerelease
-      );
-      const releaseList = fullReleaseList.filter(
-        (release) =>
-          !release.prerelease &&
-          release.assets[0] &&
-          release.assets[0].browser_download_url.endsWith("zip")
-      );
+        if (!latestRelease) {
+          throw new Error(
+            "Failed to find latest release from either release list or latest release endpoint"
+          );
+        }
 
-      const latestReleaseFromList = releaseList[0];
-      // console.log("latestReleaseFromList", latestReleaseFromList);
-
-      let latestReleaseFromApi: OctokitRelease | null = null;
-
-      try {
-        latestReleaseFromApi = (
-          await octokit.rest.repos.getLatestRelease({
-            owner,
-            repo,
-          })
-        ).data;
-
-        // console.log("latestReleaseFromApi", latestReleaseFromApi);
+        return {
+          releaseList,
+          prereleaseList,
+          modInfo,
+          readme,
+          latestRelease,
+        };
       } catch (error) {
-        console.log(`Failed to get latest release from API: ${error}`);
+        console.log("Error reading mod info", error);
+        return null;
       }
+    })
+  );
 
-      // There are two ways to get the latest release:
-      // - picking the last item in the full release list;
-      // - using the result of the latest release api endpoint.
-      // Some times, they disagree. So I'll pick the youngest one as the latest release.
-      let useReleaseFromList = false;
-      if (!latestReleaseFromApi && latestReleaseFromList) {
-        useReleaseFromList = true;
-      } else if (latestReleaseFromApi && !latestReleaseFromList) {
-        useReleaseFromList = false;
-      } else if (
-        latestReleaseFromList &&
-        latestReleaseFromApi &&
-        new Date(latestReleaseFromList.created_at) >
-          new Date(latestReleaseFromApi.created_at)
-      ) {
-        useReleaseFromList = true;
-      }
-
-      const latestRelease = useReleaseFromList
-        ? latestReleaseFromList
-        : latestReleaseFromApi;
-
-      if (!latestRelease) {
-        throw new Error(
-          "Failed to find latest release from either release list or latest release endpoint"
-        );
-      }
-
-      results.push({
-        releaseList,
-        prereleaseList,
-        modInfo,
-        readme,
-        latestRelease,
-      });
-    } catch (error) {
-      console.log("Error reading mod info", error);
-    }
-  }
+  const results = promiseResults
+    .filter(filterFulfilledPromiseSettleResults)
+    .map((result) => result.value);
 
   function getCleanedUpRelease(release: OctokitRelease) {
     const asset = release.assets[0];
@@ -219,10 +231,4 @@ export async function fetchMods(modsJson: string) {
 
 function filterTruthy<TItem>(item: TItem | null): item is TItem {
   return Boolean(item);
-}
-
-function filterFulfilledPromiseSettleResults<T>(
-  result: PromiseSettledResult<T>
-): result is PromiseFulfilledResult<T> {
-  return result.status === "fulfilled";
 }
