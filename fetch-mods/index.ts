@@ -6,6 +6,7 @@ import { getPreviousDatabase } from "./get-previous-database";
 import { fetchModManager } from "./fetch-mod-manager";
 import { toJsonString } from "./to-json-string";
 import { getViewCounts } from "./get-view-counts";
+import { getInstallCounts } from "./get-install-counts";
 
 import { writeFile } from "fs";
 
@@ -45,22 +46,28 @@ async function run() {
     const viewCounts =
       (await getViewCounts(core.getInput(Input.googleServiceAccount))) ?? {};
 
-    const modListWithViewCounts = cleanedUpModList.map((mod) => ({
+    const installCounts =
+      (await getInstallCounts(core.getInput(Input.googleServiceAccount))) ?? {};
+
+    const modListWithAnalytics = cleanedUpModList.map((mod) => ({
       ...mod,
       viewCount: viewCounts[getModPathName(mod.name)] ?? 0,
+      installCount: installCounts[getModPathName(mod.name)] ?? 0,
     }));
 
     const databaseJson = toJsonString({
       modManager,
-      releases: modListWithViewCounts.filter(({ alpha }) => !alpha),
-      alphaReleases: modListWithViewCounts.filter(({ alpha }) => alpha),
+      releases: modListWithAnalytics.filter(({ alpha }) => !alpha),
+      alphaReleases: modListWithAnalytics.filter(({ alpha }) => alpha),
     });
     core.setOutput(Output.releases, databaseJson);
 
     const outputFilePath = core.getInput(Input.outFile);
 
     if (outputFilePath) {
-      writeFile(outputFilePath, databaseJson, (error) => { if (error) console.log("Error Saving To File:", error) });
+      writeFile(outputFilePath, databaseJson, (error) => {
+        if (error) console.log("Error Saving To File:", error);
+      });
     }
 
     const discordHookUrl = core.getInput(Input.discordHookUrl);
