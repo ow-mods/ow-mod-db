@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 84401
+    "downloadCount": 84405
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.2/OWML.zip",
-      "downloadCount": 66346,
+      "downloadCount": 66349,
       "latestReleaseDate": "2022-09-27T23:17:10Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -39,7 +39,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.8.4/Raicuparta.NomaiVR.zip",
-      "downloadCount": 43194,
+      "downloadCount": 43196,
       "latestReleaseDate": "2022-09-18T14:25:02Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -541,7 +541,7 @@
       "description": "Outer Wilds mod: gives the player night vision on Echoes of the Eye's dream world.",
       "author": "Heelio",
       "downloadUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/releases/download/0.1.1/Heelio.EotEBrighterDreams.zip",
-      "downloadCount": 2507,
+      "downloadCount": 2509,
       "latestReleaseDate": "2021-11-28T22:52:25Z",
       "firstReleaseDate": "2021-11-28T20:52:42Z",
       "repo": "https://github.com/Heelio/EotE-Brighter-Dreams",
@@ -649,7 +649,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.6.2/xen.NewHorizons.zip",
-      "downloadCount": 12774,
+      "downloadCount": 12775,
       "latestReleaseDate": "2022-10-01T04:56:23Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -744,12 +744,12 @@
       "uniqueName": "Owen013.TeenyHatchling",
       "description": "Makes the hatchling smol! Or beeg!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.2.1/Owen013.TeenyHatchling.zip",
+      "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.2.2/Owen013.TeenyHatchling.zip",
       "downloadCount": 704,
-      "latestReleaseDate": "2022-10-02T18:19:27Z",
+      "latestReleaseDate": "2022-10-02T18:39:37Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
-      "version": "v1.2.1",
+      "version": "v1.2.2",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
@@ -2855,6 +2855,25 @@
       "authorDisplay": "Samster68",
       "viewCount": 0,
       "installCount": 10
+    },
+    {
+      "name": "Heavy Sleeper",
+      "uniqueName": "Smaed.HeavySleeper",
+      "description": "",
+      "author": "Smaedd",
+      "downloadUrl": "https://github.com/Smaedd/OW_HeavySleeper/releases/download/v0.1.0/Smaed.HeavySleeper.zip",
+      "downloadCount": 2,
+      "latestReleaseDate": "2022-10-02T14:37:41Z",
+      "firstReleaseDate": "2022-10-02T14:37:41Z",
+      "repo": "https://github.com/Smaedd/OW_HeavySleeper",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Smaedd/OW_HeavySleeper/blob/master/readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Smaedd/OW_HeavySleeper/master/readme.md"
+      },
+      "authorDisplay": "Smaed",
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
