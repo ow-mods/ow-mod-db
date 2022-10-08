@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 85453
+    "downloadCount": 85454
   },
   "releases": [
     {
@@ -62,7 +62,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.22.0/QSB.zip",
-      "downloadCount": 18060,
+      "downloadCount": 18061,
       "latestReleaseDate": "2022-10-07T19:01:24Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -2921,7 +2921,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 2968,
+      "downloadCount": 2969,
       "latestReleaseDate": "2022-10-07T15:36:17Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -2933,6 +2933,26 @@
       "authorDisplay": "Damián Garro",
       "viewCount": 1,
       "installCount": 23
+    },
+    {
+      "name": "Smallest System in the Galaxy",
+      "uniqueName": "O32.Smallest",
+      "description": "The smallest system in the galaxy!",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/smallest/releases/download/1.1.0/O32.Smallest.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-10-08T16:11:59Z",
+      "firstReleaseDate": "2022-10-03T10:07:49Z",
+      "repo": "https://github.com/RealOrbital32/smallest",
+      "version": "1.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/smallest/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/smallest/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
