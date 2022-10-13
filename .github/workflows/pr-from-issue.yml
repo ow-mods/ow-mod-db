@@ -5,8 +5,7 @@ on:
 concurrency: "main"
 jobs:
   pr_from_issue:
-    # Skipping label check for now, since issues created from the addon uploader can't set labels.
-    # if: ${{ contains(github.event.issue.labels.*.name, 'add-mod') }}
+    if: ${{ contains(github.event.issue.labels.*.name, 'add-mod') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
