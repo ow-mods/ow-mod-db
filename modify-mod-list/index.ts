@@ -40,7 +40,7 @@ type IssueForm = {
   utility?: string;
   parent?: string;
   authorDisplay?: string;
-  tags?: string[];
+  tags?: string;
 };
 
 async function run() {
@@ -92,7 +92,7 @@ async function run() {
   }
 
   if (tags) {
-    newMod.tags = tags;
+    newMod.tags = tags.split(", ");
   }
 
   const existingMod = mods.find(
