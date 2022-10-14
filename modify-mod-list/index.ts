@@ -14,7 +14,11 @@ enum Output {
   editedExistingMod = "edited-existing-mod",
 }
 
-// Mod info from mods.json.
+// Mod db from mods.json.
+type ModDB = {
+  mods: ModInfo[];
+};
+
 type ModInfo = {
   name: string;
   uniqueName: string;
@@ -58,7 +62,8 @@ async function run() {
     throw new Error("Invalid repo URL " + repoUrl);
   }
 
-  const mods: ModInfo[] = JSON.parse(core.getInput(Input.mods));
+  const modDb: ModDB = JSON.parse(core.getInput(Input.mods)).mods;
+  const mods = modDb.mods;
 
   const newMod: ModInfo = {
     name,
@@ -95,16 +100,20 @@ async function run() {
     existingMod.authorDisplay = newMod.authorDisplay;
   }
 
-  const newMods: ModInfo[] = existingMod ? mods : [...mods, newMod];
+  const newModDb: ModDB = {
+    mods: existingMod ? mods : [...mods, newMod],
+  };
 
-  const jsonString = JSON.stringify(newMods, null, 2);
+  const jsonString = JSON.stringify(newModDb, null, 2);
 
   core.setOutput(Output.mods, jsonString);
 
   const outFile = core.getInput(Input.outFile);
 
   if (outFile) {
-    writeFile(outFile, jsonString, (error) => { if (error) console.log("Couldn't Write To Mods File: ", error) });
+    writeFile(outFile, jsonString, (error) => {
+      if (error) console.log("Couldn't Write To Mods File: ", error);
+    });
   }
 
   if (existingMod) {

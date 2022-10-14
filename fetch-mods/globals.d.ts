@@ -1,3 +1,7 @@
+type ModDB = {
+  mods: ModInfo[];
+};
+
 type ModInfo = {
   name: string;
   uniqueName: string;
