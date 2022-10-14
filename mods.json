@@ -1098,7 +1098,9 @@
     {
       "name": "Discord Rich Presence",
       "repo": "MegaPiggy/OWRichPresence",
-      "tags": [],
+      "tags": [
+        "integration"
+      ],
       "uniqueName": "MegaPiggy.OWRichPresence"
     },
     {
@@ -1129,7 +1131,9 @@
     {
       "name": "(Razer/SteelSeries) RGB Integration",
       "repo": "LivingFray/OW-RGB-Integration",
-      "tags": [],
+      "tags": [
+        "integration"
+      ],
       "uniqueName": "LivingFray.RGBIntegration"
     },
     {
@@ -1239,7 +1243,7 @@
       "name": "Bhaptics Outer Wilds",
       "repo": "Astienth/ow-bhaptics",
       "tags": [
-        "gameplay"
+        "integration"
       ],
       "uniqueName": "Astien.OWBhaptics"
     },
