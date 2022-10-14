@@ -7,17 +7,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: "16"
 
       - name: Cache pnpm modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.pnpm-store
           key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
@@ -47,7 +47,7 @@ jobs:
           mods: "${{ steps.local-mods.outputs.mods }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: database-preview
           path: database.json

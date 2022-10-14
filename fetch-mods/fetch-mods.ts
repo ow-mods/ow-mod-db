@@ -1,9 +1,5 @@
 import { getOctokit } from "./get-octokit";
-import {
-  filterFulfilledPromiseSettleResults,
-  getSettledResult,
-} from "./promises";
-import { toJsonString } from "./to-json-string";
+import { filterFulfilledPromiseSettleResults } from "./promises";
 
 const REPO_URL_BASE = "https://github.com";
 
