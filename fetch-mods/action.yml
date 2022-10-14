@@ -2,12 +2,11 @@ name: "Get mods"
 description: "Gets mod releases"
 inputs:
   out-file:
-      description: "Optional JSON file path to write to"
-      required: false
+    description: "Optional JSON file path to write to"
+    required: false
   mods:
-    description: "JSON list of mods to check"
+    description: "Initial JSON mod database to modify"
     required: true
-    default: "[]"
   GITHUB_TOKEN:
     description: "GitHub Token for Octokit authentication"
     required: true

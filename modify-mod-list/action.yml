@@ -2,8 +2,8 @@ name: "Modify mod list"
 description: "Modifies the mod list based on a mod submission issue"
 inputs:
   out-file:
-      description: "Optional JSON file path to write to"
-      required: false
+    description: "Optional JSON file path to write to"
+    required: false
   github-token:
     description: "Token for GitHub authentication"
     required: true
@@ -11,9 +11,8 @@ inputs:
     description: "JSON data from issue form"
     required: true
   mods:
-    description: "Initial JSON list to modify"
+    description: "Initial JSON mod database to modify"
     required: true
-    default: "[]"
 outputs:
   mods:
     description: "Updated JSON list of mods"
