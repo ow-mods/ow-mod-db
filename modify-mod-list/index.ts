@@ -65,7 +65,7 @@ async function run() {
     throw new Error("Invalid repo URL " + repoUrl);
   }
 
-  const modDb: ModDB = JSON.parse(core.getInput(Input.mods)).mods;
+  const modDb: ModDB = JSON.parse(core.getInput(Input.mods));
   const mods = modDb.mods;
 
   const newMod: ModInfo = {
