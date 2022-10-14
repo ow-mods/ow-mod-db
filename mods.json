@@ -33,7 +33,7 @@
       "name": "Light Bramble",
       "repo": "amazingalek/owml-light-bramble",
       "tags": [
-        "gameplay"
+        "audiovisual"
       ],
       "uniqueName": "Alek.LightBramble"
     },
@@ -562,7 +562,9 @@
     {
       "name": "Hollodjustment",
       "repo": "Tllya/ow-mod-Hollodjustment",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "Tlya.Hollodjustment"
     },
     {
@@ -618,7 +620,9 @@
     {
       "name": "Vengeful Cannon",
       "repo": "misternebula/VengefulCannon",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "_nebula.VengefulCannon"
     },
     {
@@ -633,7 +637,9 @@
     {
       "name": "Persistant Marshmallow",
       "repo": "BUNN1E5/PersistantMarshmallow",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "BUNN1E5.PersistantMarshmallow"
     },
     {
@@ -673,26 +679,34 @@
     {
       "name": "Open Doors",
       "repo": "YanWittmann/OpenDoors",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "Skyball.OpenDoors"
     },
     {
       "name": "Sleep Mod",
       "repo": "LikeMauro/SleepMod",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "likemauro.sleepmod"
     },
     {
       "name": "Ghost Matter Nerf",
       "repo": "QuentinGruber/ghostMatterNerf",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "Kentin.GhostMatterNerf"
     },
     {
       "name": "Add LIV Support",
       "parent": "Raicuparta.NomaiVR",
       "repo": "Raicuparta/ow-liv",
-      "tags": [],
+      "tags": [
+        "integration"
+      ],
       "uniqueName": "Raicuparta.OwLiv"
     },
     {
@@ -706,31 +720,42 @@
     {
       "name": "No End",
       "repo": "LikeMauro/NoEnd-Mod",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "likemauro.noend"
     },
     {
       "name": "No Dam Break",
       "repo": "LikeMauro/NoDamBreak-Mod",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "likemauro.nodambreak"
     },
     {
       "name": "Alter Time",
       "repo": "spacepiano/Outer-Wilds---Speed-up-Time",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "Spacepiano.AlterTime"
     },
     {
       "name": "Survive the Supernova",
       "repo": "joshua-smith98/OW-SurviveTheSupernova",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "Joooosh.SurviveTheSupernova"
     },
     {
       "name": "Achievements+",
       "repo": "xen-42/outer-wilds-achievement-tracker",
-      "tags": [],
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
       "uniqueName": "xen.AchievementTracker"
     },
     {
@@ -744,7 +769,9 @@
     {
       "name": "Big Heads",
       "repo": "joshua-smith98/OW-BigHeads",
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "uniqueName": "Joooosh.BigHeads"
     },
     {
@@ -784,7 +811,9 @@
     {
       "name": "Toggle Velocity Matching",
       "repo": "Vesper-Works/Toggle-Velocity-Matching",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "Vesper.ToggleVelocityMatching"
     },
     {
@@ -849,7 +878,9 @@
     },
     {
       "name": "Suit Log",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "dgarro.SuitLog",
       "repo": "dgarroDC/SuitLog",
       "authorDisplay": "Damián Garro"
@@ -923,63 +954,81 @@
       "alpha": true,
       "name": "Alpha Fixes",
       "repo": "ShoosGun/AlphaFixes",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "Locochoco.AlphaFixes"
     },
     {
       "alpha": true,
       "name": "Navinha",
       "repo": "ShoosGun/navinha",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "Locochoco.NAVE"
     },
     {
       "alpha": true,
       "name": "Free Cam Mod",
       "repo": "ShoosGun/FreeCamMod",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "Locochoco.FreeCamMod"
     },
     {
       "alpha": true,
       "name": "Probe Grapple",
       "repo": "ShoosGun/ProbeGrappleMod",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "Locochoco.ProbeGrapple"
     },
     {
       "alpha": true,
       "name": "Cooler Bottom Cams",
       "repo": "ShoosGun/CBC",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "Locochoco.CoolerBottomCams"
     },
     {
       "alpha": true,
       "name": "Enhanced Mallows",
       "repo": "ShoosGun/EM",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "Locochoco.EnhancedMallows"
     },
     {
       "alpha": true,
       "name": "Automatic Launch Codes",
       "repo": "MegaPiggy/AutomaticLaunchCodes",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "MegaPiggy.AutomaticLaunchCodes"
     },
     {
       "alpha": true,
       "name": "No Probe Launch Window",
       "repo": "MegaPiggy/NoProbeLaunchWindow",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "MegaPiggy.NoProbeLaunchWindow"
     },
     {
       "alpha": true,
       "name": "Runtime Unity Editor",
       "repo": "ShoosGun/RuntimeUnityEditor",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "Locochoco.RuntimeUnityEditor"
     },
     {
@@ -1003,7 +1052,9 @@
       "name": "Primitive Launching",
       "parent": "12090113.MeteorLaunching",
       "repo": "MegaPiggy/PrimitiveLaunching",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "MegaPiggy.PrimitiveLaunching"
     },
     {
@@ -1017,7 +1068,9 @@
     {
       "name": "Controllable Stranger",
       "repo": "LikeMauro/Controllable-Stranger",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "likemauro.controllablestranger"
     },
     {
@@ -1176,14 +1229,18 @@
     {
       "name": "Speed Modifier/Walk Button on KBM",
       "repo": "ilyabru/OWSpeedModifier",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "ilyabru.OWSpeedModifier"
     },
     {
       "name": "Cut Achievements",
       "parent": "xen.AchievementTracker",
       "repo": "misternebula/cut-achievements",
-      "tags": [],
+      "tags": [
+        "content"
+      ],
       "uniqueName": "_nebula.CutAchievements"
     },
     {
@@ -1205,7 +1262,9 @@
     {
       "name": "Europe Times",
       "repo": "MegaPiggy/EuropeTimes",
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "uniqueName": "MegaPiggy.EuropeTimes"
     },
     {
@@ -1232,7 +1291,9 @@
       "authorDisplay": "coderCleric",
       "name": "Wacky Rotations",
       "repo": "coderCleric/WackyRotations",
-      "tags": [],
+      "tags": [
+        "content"
+      ],
       "uniqueName": "Cleric.WackyRotations"
     },
     {
@@ -1395,7 +1456,8 @@
       "name": "Ship Log Slide Reel Player Plus",
       "repo": "dgarroDC/ShipLogSlideReelPlayer",
       "tags": [
-        "gameplay"
+        "gameplay",
+        "tweaks"
       ],
       "uniqueName": "dgarro.ShipLogSlideReelPlayer"
     },
@@ -1414,7 +1476,8 @@
       "name": "Developer Console",
       "repo": "Smaedd/OW_DeveloperConsole",
       "tags": [
-        "library"
+        "library",
+        "tool"
       ],
       "uniqueName": "Smaed.DeveloperConsole",
       "utility": true
