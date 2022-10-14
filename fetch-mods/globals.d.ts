@@ -1,3 +1,15 @@
+// Caution: must stay in sync with enum in mods.schema.json
+type ModTag =
+  | "library"
+  | "gameplay"
+  | "tweaks"
+  | "integration"
+  | "tool"
+  | "content"
+  | "story"
+  | "audiovisual"
+  | "localization";
+
 type ModDB = {
   mods: ModInfo[];
 };
@@ -11,6 +23,7 @@ type ModInfo = {
   utility?: boolean;
   parent?: string;
   authorDisplay?: string;
+  tags: ModTag[];
 };
 
 type Release = {
@@ -43,4 +56,5 @@ interface Mod extends Release {
     downloadUrl: string;
     date: string;
   };
+  tags: ModTag[];
 }

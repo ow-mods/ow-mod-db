@@ -207,6 +207,7 @@ export async function fetchMods(modsJson: string) {
                   date: latestPrerelease.date,
                 }
               : undefined,
+            tags: modInfo.tags,
           };
 
           return mod;
