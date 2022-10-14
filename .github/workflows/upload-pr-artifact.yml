@@ -36,7 +36,7 @@ jobs:
 
       - name: Get local Mod Database file
         id: local-mods
-        run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
+        run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
 
       - name: Fetch mod releases and manifests
         id: fetch-mods
@@ -44,7 +44,7 @@ jobs:
         with:
           out-file: database.json
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
-          mods: "${{ steps.local-mods.outputs.mods }}"
+          mods: "${{ env.mods_output }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
 
       - uses: actions/upload-artifact@v3

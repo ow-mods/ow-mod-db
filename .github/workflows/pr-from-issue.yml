@@ -24,7 +24,7 @@ jobs:
 
       - name: Get local Mod Database file
         id: local-mods
-        run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
+        run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
 
       - uses: pnpm/action-setup@v2
         with:
@@ -42,7 +42,7 @@ jobs:
           out-file: mods.json
           github-token: ${{ secrets.GH_TOKEN }}
           form: "${{ steps.issue-parser.outputs.jsonString }}"
-          mods: "${{ steps.local-mods.outputs.mods }}"
+          mods: "${{ env.mods_output }}"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3

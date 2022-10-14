@@ -37,14 +37,14 @@ jobs:
           pnpm run build
       - name: Get local Mod Database file
         id: local-mods
-        run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
+        run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
       - name: Fetch mod releases and manifests
         id: fetch-mods
         uses: ./fetch-mods
         with:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
-          mods: "${{ steps.local-mods.outputs.mods }}"
+          mods: "${{ env.mods_output }}"
           out-file: "database.json"
           discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
           discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"
