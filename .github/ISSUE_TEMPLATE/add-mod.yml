@@ -36,7 +36,8 @@ body:
   - type: dropdown
     id: tags
     attributes:
-      label: Tags describe your mod and make it easier for users to find it.
+      label: Tags
+      description: Tags describe your mod and make it easier for users to find it. You can select multiple.
       multiple: true
       options:
         # These options have to match the ones defined in mods.schema.json
