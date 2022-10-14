@@ -222,7 +222,8 @@
       "name": "Daydream",
       "repo": "xen-42/outer-wilds-day-dream",
       "tags": [
-        "gameplay"
+        "tool",
+        "audiovisual"
       ],
       "uniqueName": "xen.DayDream"
     },
@@ -230,7 +231,7 @@
       "name": "EotE Brighter Dreams",
       "repo": "Heelio/EotE-Brighter-Dreams",
       "tags": [
-        "gameplay"
+        "audiovisual"
       ],
       "uniqueName": "Heelio.EotEBrighterDreams"
     },
@@ -360,7 +361,7 @@
       "name": "Save Editor",
       "repo": "Bwc9876/OW-SaveEditor",
       "tags": [
-        "gameplay"
+        "tool"
       ],
       "uniqueName": "Bwc9876.SaveEditor"
     },
@@ -584,14 +585,16 @@
     {
       "name": "Title Screen Bug Fix",
       "repo": "xen-42/outer-wilds-cursed-title",
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "uniqueName": "xen.CursedTitle"
     },
     {
       "name": "Ghost Translations",
       "repo": "MegaPiggy/GhostTranslations",
       "tags": [
-        "gameplay"
+        "content"
       ],
       "uniqueName": "MegaPiggy.GhostTranslations"
     },
@@ -636,7 +639,9 @@
     {
       "name": "Empty Hollow",
       "repo": "MegaPiggy/EmptyHollow",
-      "tags": [],
+      "tags": [
+        "content"
+      ],
       "uniqueName": "MegaPiggy.EmptyHollow"
     },
     {
@@ -660,7 +665,9 @@
     {
       "name": "Ghostbuster",
       "repo": "xen-42/ow-ghostbuster",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "xen.GhostBuster"
     },
     {
@@ -691,7 +698,9 @@
     {
       "name": "360 Camera",
       "repo": "BUNN1E5/OW360Camera",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "BUNN1E5.OW360Camera"
     },
     {
@@ -727,7 +736,9 @@
     {
       "name": "Supernova On Demand",
       "repo": "QuentinGruber/SupernovaOnDemand",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "Kentin.SupernovaOnDemand"
     },
     {
@@ -739,7 +750,9 @@
     {
       "name": "Bring Me My Ship",
       "repo": "Switch-9867/BringMeMyShip",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "Switch.BringMeMyShip"
     },
     {
@@ -777,7 +790,9 @@
     {
       "name": "Time Saver",
       "repo": "Bwc9876/OW-TimeSaver",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "Bwc9876.TimeSaver"
     },
     {
@@ -792,7 +807,9 @@
     {
       "name": "Power Failure",
       "repo": "LivingFray/OW-PowerFailure",
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "uniqueName": "LivingFray.PowerFailure"
     },
     {
@@ -840,13 +857,17 @@
     {
       "name": "Hatchling Outfitter",
       "repo": "Owen013/Hatchling-Outfitter",
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "uniqueName": "Owen013.HatchlingOutfit"
     },
     {
       "name": "Quality of Life Changes",
       "repo": "Owen013/QOLFixes",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "Owen013.QOLFixes"
     },
     {
@@ -861,7 +882,9 @@
     {
       "name": "Better Model Ship",
       "repo": "xen-42/outer-wilds-better-model-ship",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "xen.BetterModelShip"
     },
     {
@@ -971,7 +994,9 @@
     {
       "name": "Involuntary Blink",
       "repo": "MegaPiggy/InvoluntaryBlink",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "MegaPiggy.InvoluntaryBlink"
     },
     {
@@ -984,7 +1009,9 @@
     {
       "name": "Alpha Title Screen",
       "repo": "MegaPiggy/AlphaRegression",
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "uniqueName": "MegaPiggy.AlphaRegression"
     },
     {
@@ -1005,7 +1032,9 @@
     {
       "name": "Fact Log",
       "repo": "Hawkbat/ow-mod-fact-log",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "Hawkbar.FactLog"
     },
     {
@@ -1071,14 +1100,17 @@
     {
       "name": "Sound Test",
       "repo": "Hawkbat/ow-mod-sound-test",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "Hawkbar.SoundTest"
     },
     {
       "name": "Interplanetary Polyglot",
       "repo": "xen-42/outer-wilds-localization-utility",
       "tags": [
-        "library"
+        "library",
+        "localization"
       ],
       "uniqueName": "xen.LocalizationUtility",
       "utility": true
@@ -1086,7 +1118,9 @@
     {
       "name": "StopTime",
       "repo": "misternebula/StopTime",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "uniqueName": "_nebula.StopTime"
     },
     {
@@ -1094,20 +1128,24 @@
       "parent": "xen.NewHorizons",
       "repo": "TerrificTrifid/ow-nh-ngc1087",
       "tags": [
-        "content"
+        "audiovisual"
       ],
       "uniqueName": "TerrificTrifid.NGC1087"
     },
     {
       "name": "Quantum Moon Orbit Line",
       "repo": "MegaPiggy/QuantumMoonOrbitLine",
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "uniqueName": "MegaPiggy.QuantumMoonOrbitLine"
     },
     {
       "name": "Permadeath Mode",
       "repo": "piggeywig2000/OuterWildsPermadeath",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "piggeywig2000.Permadeath"
     },
     {
@@ -1130,7 +1168,9 @@
     {
       "name": "Artifact Laser",
       "repo": "coderCleric/artifact_laser",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "Cleric.ArtifactLaser"
     },
     {
@@ -1149,7 +1189,9 @@
     {
       "name": "Chargeable Scout Launcher",
       "repo": "coderCleric/chargeable-scout",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "Cleric.ChargeableScout"
     },
     {
@@ -1174,8 +1216,7 @@
       "tags": [
         "audiovisual"
       ],
-      "uniqueName": "Laundryjx.HazyDreams",
-      "utility": true
+      "uniqueName": "Laundryjx.HazyDreams"
     },
     {
       "authorDisplay": "Locochoco",
@@ -1197,6 +1238,7 @@
     {
       "authorDisplay": "hearth1an",
       "name": "The Vision",
+      "parent": "xen.NewHorizons",
       "repo": "hearth1an/hearthian.TheVision",
       "tags": [
         "story",
