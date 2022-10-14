@@ -28,6 +28,7 @@ type ModInfo = {
   utility?: boolean;
   parent?: string;
   authorDisplay?: string;
+  tags: string[];
 };
 
 // From .github/ISSUE_TEMPLATE/add-mod.yml.
@@ -39,6 +40,7 @@ type IssueForm = {
   utility?: string;
   parent?: string;
   authorDisplay?: string;
+  tags?: string[];
 };
 
 async function run() {
@@ -50,6 +52,7 @@ async function run() {
     utility,
     alpha,
     authorDisplay,
+    tags,
   }: IssueForm = JSON.parse(core.getInput(Input.form));
 
   if (!name || !repoUrl || !uniqueName) {
@@ -69,6 +72,7 @@ async function run() {
     name,
     uniqueName,
     repo,
+    tags: [],
   };
 
   if (parent) {
@@ -87,6 +91,10 @@ async function run() {
     newMod.authorDisplay = authorDisplay;
   }
 
+  if (tags) {
+    newMod.tags = tags;
+  }
+
   const existingMod = mods.find(
     (modFromList) => uniqueName === modFromList.uniqueName
   );
@@ -98,6 +106,7 @@ async function run() {
     existingMod.utility = newMod.utility;
     existingMod.alpha = newMod.alpha;
     existingMod.authorDisplay = newMod.authorDisplay;
+    existingMod.tags = newMod.tags;
   }
 
   const newModDb: ModDB = {
