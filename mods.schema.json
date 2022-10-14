@@ -51,6 +51,20 @@
           "alpha": {
             "type": "boolean",
             "description": "True if this mod is made for Outer Wilds Alpha."
+          },
+          "tags": {
+            "type": "array",
+            "description": "List of tags that describe the mod, used for filtering mod lists.",
+            "items": {
+              "enum": [
+                "utility",
+                "gameplay",
+                "tool",
+                "content",
+                "story",
+                "audiovisual"
+              ]
+            }
           }
         }
       }
