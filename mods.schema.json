@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Outer Wilds Mod Database Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "mods"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "mods": {
+      "type": "array",
+      "items": {
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "uniqueName",
+          "repo"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Human-readable title for your mod."
+          },
+          "uniqueName": {
+            "type": "string",
+            "description": "Your mod's ID, unchangeable and unique within the whole database. IMPORTANT: must match uniqueName from your mod's manifest.json. If you're editing an existing mod, this must match the uniqueName of that mod. This property can't be edited."
+          },
+          "repo": {
+            "type": "string",
+            "description": "GitHub repository that contains the mod's source code and releases."
+          },
+          "required": {
+            "type": "boolean",
+            "description": "Mods marked as required must be installed before starting the game."
+          },
+          "utility": {
+            "type": "boolean",
+            "description": "True if this mod isn't useful by itself, and only serves as a dependency for other mods."
+          },
+          "authorDisplay": {
+            "type": "string",
+            "description": "Custom name to show in the author field for this mod. Useful if your mod is in an organization, or made by multiple people. Leave blank to use the repository owner name."
+          },
+          "parent": {
+            "type": "string",
+            "description": "If this mod is an addon for another mod, place the parent's uniqueName here. For instance, custom planets made with New Horizons would have xen.NewHorizons in this field."
+          },
+          "alpha": {
+            "type": "boolean",
+            "description": "True if this mod is made for Outer Wilds Alpha."
+          }
+        }
+      }
+    }
+  }
+}

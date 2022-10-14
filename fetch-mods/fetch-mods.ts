@@ -8,7 +8,8 @@ import { toJsonString } from "./to-json-string";
 const REPO_URL_BASE = "https://github.com";
 
 export async function fetchMods(modsJson: string) {
-  const modInfos: ModInfo[] = JSON.parse(modsJson);
+  const modDb: ModDB = JSON.parse(modsJson);
+  const modInfos = modDb.mods;
   const octokit = getOctokit();
 
   type OctokitRelease = Awaited<
