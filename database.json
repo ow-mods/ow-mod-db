@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 86254
+    "downloadCount": 86255
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.2/OWML.zip",
-      "downloadCount": 67965,
+      "downloadCount": 67966,
       "latestReleaseDate": "2022-09-27T23:17:10Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -42,7 +42,7 @@
       "description": "Outer Wilds VR Mod",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.8.4/Raicuparta.NomaiVR.zip",
-      "downloadCount": 43729,
+      "downloadCount": 43730,
       "latestReleaseDate": "2022-09-18T14:25:02Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -137,7 +137,7 @@
       "description": "Enables crouching in Outer Wilds.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-crouch-mod/releases/download/0.4/OWML.CrouchMod.zip",
-      "downloadCount": 1820,
+      "downloadCount": 1821,
       "latestReleaseDate": "2021-10-14T20:14:27Z",
       "firstReleaseDate": "2020-07-28T08:43:13Z",
       "repo": "https://github.com/amazingalek/owml-crouch-mod",
@@ -594,7 +594,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-day-dream/master/README.md"
       },
       "tags": [
-        "gameplay"
+        "tool",
+        "audiovisual"
       ],
       "viewCount": 125,
       "installCount": 76
@@ -615,7 +616,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Heelio/EotE-Brighter-Dreams/master/README.md"
       },
       "tags": [
-        "gameplay"
+        "audiovisual"
       ],
       "viewCount": 420,
       "installCount": 229
@@ -865,7 +866,7 @@
       "description": "Customizable movement speed and jump height, instant jump, sprinting, climbing, and more.",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.3.3/Owen013.MovementMod.zip",
-      "downloadCount": 1899,
+      "downloadCount": 1901,
       "latestReleaseDate": "2022-10-14T18:16:39Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
@@ -940,7 +941,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Bwc9876/OW-SaveEditor/master/README.md"
       },
       "tags": [
-        "gameplay"
+        "tool"
       ],
       "viewCount": 217,
       "installCount": 51
@@ -1255,7 +1256,7 @@
       "description": "",
       "author": "mrmeep321",
       "downloadUrl": "https://github.com/mrmeep321/21stCenturyAnglerfish/releases/download/v1.1.0/21stCenturyAnglerfish.zip",
-      "downloadCount": 870,
+      "downloadCount": 871,
       "latestReleaseDate": "2022-01-21T19:10:18Z",
       "firstReleaseDate": "2022-01-21T17:29:54Z",
       "repo": "https://github.com/mrmeep321/21stCenturyAnglerfish",
@@ -1535,7 +1536,9 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-cursed-title/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-cursed-title/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "viewCount": 65,
       "installCount": 22
     },
@@ -1555,7 +1558,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/GhostTranslations/master/README.md"
       },
       "tags": [
-        "gameplay"
+        "content"
       ],
       "viewCount": 332,
       "installCount": 108
@@ -1674,7 +1677,9 @@
         "htmlUrl": "https://github.com/MegaPiggy/EmptyHollow/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/EmptyHollow/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "content"
+      ],
       "viewCount": 61,
       "installCount": 10
     },
@@ -1737,7 +1742,9 @@
         "htmlUrl": "https://github.com/xen-42/ow-ghostbuster/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-ghostbuster/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "viewCount": 68,
       "installCount": 23
     },
@@ -1833,7 +1840,9 @@
         "htmlUrl": "https://github.com/BUNN1E5/OW360Camera/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/OW360Camera/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "viewCount": 11,
       "installCount": 14
     },
@@ -1947,7 +1956,9 @@
         "htmlUrl": "https://github.com/QuentinGruber/SupernovaOnDemand/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/QuentinGruber/SupernovaOnDemand/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "viewCount": 16,
       "installCount": 46
     },
@@ -1976,7 +1987,7 @@
       "description": "Gently places your ship above your head when you press P",
       "author": "Switch-9867",
       "downloadUrl": "https://github.com/Switch-9867/BringMeMyShip/releases/download/v0.1.0/Switch.BringMeMyShip.zip",
-      "downloadCount": 447,
+      "downloadCount": 448,
       "latestReleaseDate": "2022-05-02T03:05:30Z",
       "firstReleaseDate": "2022-05-02T03:05:30Z",
       "repo": "https://github.com/Switch-9867/BringMeMyShip",
@@ -1985,7 +1996,9 @@
         "htmlUrl": "https://github.com/Switch-9867/BringMeMyShip/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Switch-9867/BringMeMyShip/master/readme.md"
       },
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "viewCount": 14,
       "installCount": 62
     },
@@ -2088,7 +2101,9 @@
         "htmlUrl": "https://github.com/Bwc9876/OW-TimeSaver/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Bwc9876/OW-TimeSaver/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "viewCount": 83,
       "installCount": 57
     },
@@ -2129,7 +2144,9 @@
         "htmlUrl": "https://github.com/LivingFray/OW-PowerFailure/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/LivingFray/OW-PowerFailure/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "viewCount": 252,
       "installCount": 55
     },
@@ -2255,7 +2272,9 @@
         "htmlUrl": "https://github.com/Owen013/Hatchling-Outfitter/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hatchling-Outfitter/main/README.md"
       },
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "viewCount": 38,
       "installCount": 25
     },
@@ -2274,7 +2293,9 @@
         "htmlUrl": "https://github.com/Owen013/QOLFixes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/QOLFixes/main/README.md"
       },
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "viewCount": 57,
       "installCount": 31
     },
@@ -2315,7 +2336,9 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-better-model-ship/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-better-model-ship/main/README.md"
       },
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "viewCount": 157,
       "installCount": 100
     },
@@ -2356,7 +2379,9 @@
         "htmlUrl": "https://github.com/MegaPiggy/InvoluntaryBlink/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/InvoluntaryBlink/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "viewCount": 38,
       "installCount": 18
     },
@@ -2395,7 +2420,9 @@
         "htmlUrl": "https://github.com/MegaPiggy/AlphaRegression/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/AlphaRegression/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "viewCount": 17,
       "installCount": 10
     },
@@ -2455,7 +2482,9 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-fact-log/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-fact-log/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "viewCount": 23,
       "installCount": 21
     },
@@ -2625,7 +2654,9 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-sound-test/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-sound-test/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "viewCount": 10,
       "installCount": 19
     },
@@ -2646,7 +2677,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-localization-utility/main/README.md"
       },
       "tags": [
-        "library"
+        "library",
+        "localization"
       ],
       "viewCount": 18,
       "installCount": 7
@@ -2662,7 +2694,9 @@
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "tags": [],
+      "tags": [
+        "tool"
+      ],
       "viewCount": 123,
       "installCount": 112
     },
@@ -2683,7 +2717,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ngc1087/main/README.md"
       },
       "tags": [
-        "content"
+        "audiovisual"
       ],
       "viewCount": 21,
       "installCount": 70
@@ -2703,7 +2737,9 @@
         "htmlUrl": "https://github.com/MegaPiggy/QuantumMoonOrbitLine/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/QuantumMoonOrbitLine/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "viewCount": 35,
       "installCount": 43
     },
@@ -2722,7 +2758,9 @@
         "htmlUrl": "https://github.com/piggeywig2000/OuterWildsPermadeath/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/piggeywig2000/OuterWildsPermadeath/main/README.md"
       },
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "viewCount": 57,
       "installCount": 10
     },
@@ -2784,7 +2822,9 @@
         "htmlUrl": "https://github.com/coderCleric/artifact_laser/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/artifact_laser/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "viewCount": 120,
       "installCount": 56
     },
@@ -2838,7 +2878,9 @@
         "htmlUrl": "https://github.com/coderCleric/chargeable-scout/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/chargeable-scout/master/README.md"
       },
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "viewCount": 30,
       "installCount": 42
     },
@@ -2887,7 +2929,6 @@
       "uniqueName": "Laundryjx.HazyDreams",
       "description": "A mod that adds fog to the dreamworld.",
       "author": "Landriejx",
-      "utility": true,
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Landriejx/HazyDreams/releases/download/v0.1.0/Laundryjx.HazyDreams.zip",
       "downloadCount": 121,
@@ -2954,6 +2995,7 @@
       "uniqueName": "hearth1an.TheVision",
       "description": "This mod continues the story from both base game and Echoes of the Eye DLC. Check your ship logs to start! Translations: EN, RU, PT, FR, ZH, JA",
       "author": "hearth1an",
+      "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.0.9/hearth1an.TheVision.zip",
       "downloadCount": 2758,
       "latestReleaseDate": "2022-09-25T12:02:46Z",
@@ -3092,7 +3134,7 @@
       "description": "Makes some glass in the game clear",
       "author": "FreezeDriedMangos",
       "downloadUrl": "https://github.com/FreezeDriedMangos/ow-clear-glass/releases/download/1.0.0/clay.ClearGlass.zip",
-      "downloadCount": 103,
+      "downloadCount": 104,
       "latestReleaseDate": "2022-09-17T23:44:57Z",
       "firstReleaseDate": "2022-09-17T23:44:57Z",
       "repo": "https://github.com/FreezeDriedMangos/ow-clear-glass",
@@ -3158,7 +3200,7 @@
       "description": "Allows you to use the fuel on the Stranger to turn your jetpack flame green!",
       "author": "TheLoreExplorer",
       "downloadUrl": "https://github.com/TheLoreExplorer/Green-Jetpack/releases/download/0.2.0/TheLoreExplorer.GreenJetpack.zip",
-      "downloadCount": 113,
+      "downloadCount": 114,
       "latestReleaseDate": "2022-09-19T17:37:38Z",
       "firstReleaseDate": "2022-09-19T17:37:38Z",
       "repo": "https://github.com/TheLoreExplorer/Green-Jetpack",
