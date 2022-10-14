@@ -33,6 +33,22 @@ body:
       placeholder: https://github.com/Raicuparta/ow-mod-template
     validations:
       required: true
+  - type: dropdown
+    id: tags
+    attributes:
+      label: Tags describe your mod and make it easier for users to find it.
+      multiple: true
+      options:
+        # These options have to match the ones defined in mods.schema.json
+        - library
+        - gameplay
+        - tweaks
+        - integration
+        - tool
+        - content
+        - story
+        - audiovisual
+        - localization
   - type: input
     id: authorDisplay
     attributes:
