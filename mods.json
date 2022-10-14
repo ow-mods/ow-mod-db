@@ -7,7 +7,7 @@
       "repo": "amazingalek/owml",
       "required": true,
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "Alek.OWML",
       "utility": true
@@ -72,7 +72,7 @@
       "name": "Menu Framework",
       "repo": "misternebula/MenuFramework",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "_nebula.MenuFramework",
       "utility": true
@@ -161,7 +161,7 @@
       "name": "PacificEngine's Common Resources",
       "repo": "dgarroDC/OW_CommonResources",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "PacificEngine.OW_CommonResources",
       "utility": true,
@@ -171,7 +171,7 @@
       "name": "No Alt Tab Pause",
       "repo": "lStewieAl/OuterWilds-NoAltTabPause",
       "tags": [
-        "gameplay"
+        "tweaks"
       ],
       "uniqueName": "lStewieAl.RunInBackground"
     },
@@ -253,7 +253,7 @@
       "name": "Auto Resume",
       "repo": "Vesper-Works/AutoResume",
       "tags": [
-        "tool"
+        "tweaks"
       ],
       "uniqueName": "Vesper.AutoResume"
     },
@@ -398,13 +398,17 @@
     {
       "name": "Vanilla Main Menu",
       "repo": "artificialparanoia/VanillaMainMenu",
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "uniqueName": "artificial.VanillaMainMenu"
     },
     {
       "name": "Outer Wilds Korean Translation",
       "repo": "milesand/outer-wilds-korean-translation",
-      "tags": [],
+      "tags": [
+        "localization"
+      ],
       "uniqueName": "milesand.OWKT"
     },
     {
@@ -539,7 +543,9 @@
     {
       "name": "Vanilla Fix",
       "repo": "JohnCorby/ow-vanilla-fix",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "JohnCorby.VanillaFix"
     },
     {
@@ -560,13 +566,17 @@
     {
       "name": "Ghost Translations",
       "repo": "MegaPiggy/GhostTranslations",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "MegaPiggy.GhostTranslations"
     },
     {
       "name": "Voice Acting Mod",
       "repo": "Krevace/ow-voice-mod",
-      "tags": [],
+      "tags": [
+        "audiovisual"
+      ],
       "uniqueName": "Krevace.VoiceMod"
     },
     {
@@ -720,7 +730,9 @@
     {
       "name": "Woah Watch Those Frames",
       "repo": "Switch-9867/WoahWatchThoseFrames",
-      "tags": [],
+      "tags": [
+        "tweaks"
+      ],
       "uniqueName": "Switch.WoahWatchThoseFrames"
     },
     {
@@ -762,7 +774,9 @@
     {
       "name": "Outer Wilds Traditional Chinese Translation",
       "repo": "puffbro/outer-wilds-traditional-chinese-translation",
-      "tags": [],
+      "tags": [
+        "localization"
+      ],
       "uniqueName": "PuFF.OWCHT"
     },
     {
@@ -815,7 +829,7 @@
       "name": "Common Camera Utility",
       "repo": "xen-42/ow-common-camera-util",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "xen.CommonCameraUtility",
       "utility": true
@@ -832,7 +846,7 @@
       "repo": "MegaPiggy/BepInEx",
       "required": true,
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "bbepis.BepInEx",
       "utility": true
@@ -843,7 +857,7 @@
       "repo": "ShoosGun/OWAML",
       "required": true,
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "Locochoco.OWAML",
       "utility": true
@@ -853,7 +867,7 @@
       "name": "CAMOWA",
       "repo": "ShoosGun/CAMOWA",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "Locochoco.CAMOWA",
       "utility": true
@@ -1000,19 +1014,25 @@
     {
       "name": "Ship Remote Autopilot",
       "repo": "TitchMW/remoteautopilot",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "Titch.ShipRemoteAutopilot"
     },
     {
       "name": "Block Placing",
       "repo": "12090113/outer-wilds-cubes",
-      "tags": [],
+      "tags": [
+        "gameplay"
+      ],
       "uniqueName": "12090113.Cubes"
     },
     {
       "name": "Czech Localization",
       "repo": "shippy/outer-wilds-czech",
-      "tags": [],
+      "tags": [
+        "localization"
+      ],
       "uniqueName": "shippy.czech"
     },
     {
@@ -1034,7 +1054,7 @@
       "name": "Interplanetary Polyglot",
       "repo": "xen-42/outer-wilds-localization-utility",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "xen.LocalizationUtility",
       "utility": true
@@ -1124,7 +1144,7 @@
       "parent": "xen.NewHorizons",
       "repo": "Landriejx/HazyDreams",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "Laundryjx.HazyDreams",
       "utility": true
@@ -1134,7 +1154,7 @@
       "name": "Gizmos Library",
       "repo": "ShoosGun/GizmosLibrary",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "Locochoco.GizmosLibrary",
       "utility": true
@@ -1171,7 +1191,7 @@
       "name": "Slate's Shipyard",
       "repo": "ShoosGun/SlateShipyard",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "Locochoco.SlateShipyard",
       "utility": true
@@ -1291,7 +1311,7 @@
       "name": "Custom Ship Log Modes",
       "repo": "dgarroDC/CustomShipLogModes",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "dgarro.CustomShipLogModes",
       "utility": true
@@ -1318,7 +1338,7 @@
       "name": "Developer Console",
       "repo": "Smaedd/OW_DeveloperConsole",
       "tags": [
-        "utility"
+        "library"
       ],
       "uniqueName": "Smaed.DeveloperConsole",
       "utility": true

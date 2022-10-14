@@ -57,12 +57,14 @@
             "description": "List of tags that describe the mod, used for filtering mod lists.",
             "items": {
               "enum": [
-                "utility",
+                "library",
                 "gameplay",
+                "tweaks",
                 "tool",
                 "content",
                 "story",
-                "audiovisual"
+                "audiovisual",
+                "localization"
               ]
             }
           }
