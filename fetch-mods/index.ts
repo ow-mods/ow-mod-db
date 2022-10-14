@@ -9,7 +9,6 @@ import { getViewCounts } from "./get-view-counts";
 import { getInstallCounts } from "./get-install-counts";
 
 import { writeFile } from "fs";
-import { TypeOfExpression } from "typescript";
 import { getSettledResult } from "./promises";
 
 enum Input {

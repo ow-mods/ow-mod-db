@@ -12,15 +12,15 @@
     "test": "node build/test/test.js"
   },
   "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@google-analytics/data": "^3.0.0",
+    "@actions/core": "^1.10.0",
+    "@google-analytics/data": "^3.0.3",
     "@googleapis/analytics": "^2.0.0",
     "@googleapis/analyticsreporting": "^0.3.0",
-    "@octokit/action": "^3.18.0",
+    "@octokit/action": "^3.18.1",
     "@octokit/plugin-retry": "^3.0.9",
-    "@octokit/plugin-throttling": "^3.6.2",
+    "@octokit/plugin-throttling": "^3.7.0",
     "@types/node": "16",
     "axios": "^0.26.1",
-    "typescript": "^4.5.4"
+    "typescript": "^4.8.4"
   }
 }

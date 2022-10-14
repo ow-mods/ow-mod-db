@@ -7,17 +7,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: "16"
 
       - name: Cache pnpm modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.pnpm-store
           key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
@@ -36,7 +36,7 @@ jobs:
 
       - name: Get local Mod Database file
         id: local-mods
-        run: echo "::set-output name=mods::$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')"
+        run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
 
       - name: Fetch mod releases and manifests
         id: fetch-mods
@@ -44,10 +44,10 @@ jobs:
         with:
           out-file: database.json
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
-          mods: "${{ steps.local-mods.outputs.mods }}"
+          mods: "${{ env.mods_output }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: database-preview
           path: database.json
