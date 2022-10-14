@@ -9,8 +9,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@types/node": "16",
-    "typescript": "^4.5.4"
+    "@actions/core": "^1.10.0",
+    "@types/node": "^16.11.65",
+    "typescript": "^4.8.4"
   }
 }
