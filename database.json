@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 86356
+    "downloadCount": 86363
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.2/OWML.zip",
-      "downloadCount": 68055,
+      "downloadCount": 68060,
       "latestReleaseDate": "2022-09-27T23:17:10Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -42,7 +42,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.8.4/Raicuparta.NomaiVR.zip",
-      "downloadCount": 43769,
+      "downloadCount": 43770,
       "latestReleaseDate": "2022-09-18T14:25:02Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -269,7 +269,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play! Server is online.",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.1/0.6.1.zip",
-      "downloadCount": 6126,
+      "downloadCount": 6128,
       "latestReleaseDate": "2022-10-07T10:54:11Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -311,7 +311,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.4/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 6461,
+      "downloadCount": 6462,
       "latestReleaseDate": "2022-01-25T00:19:05Z",
       "firstReleaseDate": "2021-10-21T06:56:51Z",
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
@@ -2337,7 +2337,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.1/xen.CommonCameraUtility.zip",
-      "downloadCount": 2752,
+      "downloadCount": 2753,
       "latestReleaseDate": "2022-10-04T02:26:00Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -3380,7 +3380,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.0/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 341,
+      "downloadCount": 342,
       "latestReleaseDate": "2022-10-05T04:54:06Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -3506,6 +3506,29 @@
       },
       "tags": [
         "audiovisual"
+      ],
+      "viewCount": 0,
+      "installCount": 0
+    },
+    {
+      "name": "The Wilds: Extended",
+      "uniqueName": "FunkyShoeMan.TheWildsExtended",
+      "description": "Silly NH Addon to add content to the current base game (made with love and care by me and #nh-addon-discussion) (xen carried)",
+      "author": "FunkyShoeMan",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/FunkyShoeMan/TheWildsExtended/releases/download/v0.1.2/TheWildsExtended.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-10-15T04:25:09Z",
+      "firstReleaseDate": "2022-10-15T04:01:29Z",
+      "repo": "https://github.com/FunkyShoeMan/TheWildsExtended",
+      "version": "v0.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/FunkyShoeMan/TheWildsExtended/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/FunkyShoeMan/TheWildsExtended/main/README.md"
+      },
+      "authorDisplay": "FunkyShoeMan",
+      "tags": [
+        "content"
       ],
       "viewCount": 0,
       "installCount": 0
