@@ -1,4 +1,5 @@
 type ModDB = {
+  $schema: string
   mods: ModInfo[];
 };
 

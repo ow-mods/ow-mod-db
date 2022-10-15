@@ -16,6 +16,7 @@ enum Output {
 
 // Mod db from mods.json.
 type ModDB = {
+  $schema: string
   mods: ModInfo[];
 };
 
@@ -110,6 +111,7 @@ async function run() {
   }
 
   const newModDb: ModDB = {
+    $schema: "./mods.schema.json",
     mods: existingMod ? mods : [...mods, newMod],
   };
 
