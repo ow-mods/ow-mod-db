@@ -1,5 +1,4 @@
 {
-  "$schema": "./mods.schema.json",
   "mods": [
     {
       "authorDisplay": "Alek & friends",
@@ -1490,6 +1489,15 @@
         "tool"
       ],
       "uniqueName": "Smaed.ConsoleCheats"
+    },
+    {
+      "name": "Mo' Voices",
+      "uniqueName": "Krevace.MoVoicesMod",
+      "repo": "Krevace/ow-mo-voices-mod",
+      "tags": [
+        "audiovisual"
+      ],
+      "parent": "Krevace.VoiceMod"
     }
   ]
 }
