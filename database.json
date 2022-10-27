@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 87999
+    "downloadCount": 88000
   },
   "releases": [
     {
@@ -3539,6 +3539,31 @@
       ],
       "viewCount": 115,
       "installCount": 73
+    },
+    {
+      "name": "Escape the Dreamstalker",
+      "uniqueName": "xen.Dreamstalker",
+      "description": "A short spooky mod for Outer Wilds.",
+      "author": "xen-42",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/xen-42/ow-dreamstalker/releases/download/v0.1.0/xen.Dreamstalker.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-10-27T01:52:29Z",
+      "firstReleaseDate": "2022-10-27T01:52:29Z",
+      "repo": "https://github.com/xen-42/ow-dreamstalker",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/ow-dreamstalker/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-dreamstalker/main/README.md"
+      },
+      "authorDisplay": "xen & JohnCorby",
+      "tags": [
+        "gameplay",
+        "content",
+        "story"
+      ],
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
