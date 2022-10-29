@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 88389
+    "downloadCount": 88390
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.2/OWML.zip",
-      "downloadCount": 69832,
+      "downloadCount": 69833,
       "latestReleaseDate": "2022-09-27T23:17:10Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -42,7 +42,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 44549,
+      "downloadCount": 44550,
       "latestReleaseDate": "2022-10-28T20:32:05Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -546,7 +546,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 6558,
+      "downloadCount": 6559,
       "latestReleaseDate": "2022-04-21T21:50:28Z",
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
@@ -669,7 +669,7 @@
       "description": "On start-up the game automatically resumes and wakes the player up (Reupload of Rai's mod)",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/AutoResume/releases/download/1.1.0/Release.1.1.0.zip",
-      "downloadCount": 770,
+      "downloadCount": 771,
       "latestReleaseDate": "2022-07-09T10:53:47Z",
       "firstReleaseDate": "2021-10-31T12:29:56Z",
       "repo": "https://github.com/Vesper-Works/AutoResume",
@@ -3541,6 +3541,27 @@
       ],
       "viewCount": 0,
       "installCount": 4
+    },
+    {
+      "name": "Kamika",
+      "uniqueName": "O32.Kamika",
+      "description": "Recreation of a solar system I made as a child.",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/kamika/releases/download/1.0.0/O32.Kamika.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-10-29T22:32:34Z",
+      "firstReleaseDate": "2022-10-29T22:32:34Z",
+      "repo": "https://github.com/RealOrbital32/kamika",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/kamika/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/kamika/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
+      "tags": [],
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
