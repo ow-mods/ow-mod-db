@@ -8,6 +8,35 @@
   },
   "releases": [
     {
+      "name": "OWML",
+      "uniqueName": "Alek.OWML",
+      "description": "The mod loader and mod framework for Outer Wilds",
+      "author": "ow-mods",
+      "required": true,
+      "utility": true,
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.2/OWML.zip",
+      "downloadCount": 69759,
+      "latestReleaseDate": "2022-09-27T23:17:10Z",
+      "firstReleaseDate": "2019-12-18T16:07:26Z",
+      "repo": "https://github.com/amazingalek/owml",
+      "version": "2.7.2",
+      "readme": {
+        "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
+      },
+      "authorDisplay": "Alek & friends",
+      "prerelease": {
+        "version": "2.5.0",
+        "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.5.0/OWML.zip",
+        "date": "2022-06-07T11:05:45Z"
+      },
+      "tags": [
+        "library"
+      ],
+      "viewCount": 623,
+      "installCount": 0
+    },
+    {
       "name": "NomaiVR",
       "uniqueName": "Raicuparta.NomaiVR",
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
