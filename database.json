@@ -4,9 +4,91 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 89014
+    "downloadCount": 89016
   },
   "releases": [
+    {
+      "name": "OWML",
+      "uniqueName": "Alek.OWML",
+      "description": "The mod loader and mod framework for Outer Wilds",
+      "author": "ow-mods",
+      "required": true,
+      "utility": true,
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.3/OWML.zip",
+      "downloadCount": 70749,
+      "latestReleaseDate": "2022-10-30T03:30:01Z",
+      "firstReleaseDate": "2019-12-18T16:07:26Z",
+      "repo": "https://github.com/amazingalek/owml",
+      "version": "2.7.3",
+      "readme": {
+        "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
+      },
+      "authorDisplay": "Alek & friends",
+      "prerelease": {
+        "version": "2.5.0",
+        "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.5.0/OWML.zip",
+        "date": "2022-06-07T11:05:45Z"
+      },
+      "tags": [
+        "library"
+      ],
+      "viewCount": 646,
+      "installCount": 0
+    },
+    {
+      "name": "NomaiVR",
+      "uniqueName": "Raicuparta.NomaiVR",
+      "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
+      "author": "Raicuparta",
+      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
+      "downloadCount": 44855,
+      "latestReleaseDate": "2022-10-28T20:32:05Z",
+      "firstReleaseDate": "2020-01-06T20:41:19Z",
+      "repo": "https://github.com/Raicuparta/nomai-vr",
+      "version": "2.9.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Raicuparta/nomai-vr/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
+      },
+      "prerelease": {
+        "version": "2.9.1-pre",
+        "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.1-pre/Raicuparta.NomaiVR.zip",
+        "date": "2022-10-28T20:34:42Z"
+      },
+      "tags": [
+        "gameplay",
+        "integration"
+      ],
+      "viewCount": 2227,
+      "installCount": 770
+    },
+    {
+      "name": "Quantum Space Buddies",
+      "uniqueName": "Raicuparta.QuantumSpaceBuddies",
+      "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
+      "author": "misternebula",
+      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.22.0/QSB.zip",
+      "downloadCount": 19064,
+      "latestReleaseDate": "2022-10-07T19:01:24Z",
+      "firstReleaseDate": "2020-03-01T18:04:22Z",
+      "repo": "https://github.com/misternebula/quantum-space-buddies",
+      "version": "0.22.0",
+      "readme": {
+        "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
+      },
+      "prerelease": {
+        "version": "0.19.0-pr1",
+        "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.19.0-pr1/QSB.zip",
+        "date": "2022-05-09T15:02:52Z"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 1900,
+      "installCount": 555
+    },
     {
       "name": "Light Bramble",
       "uniqueName": "Alek.LightBramble",
@@ -27,6 +109,48 @@
       ],
       "viewCount": 333,
       "installCount": 187
+    },
+    {
+      "name": "FreeCam",
+      "uniqueName": "misternebula.FreeCam",
+      "description": "A free-camera mod for Outer Wilds",
+      "author": "misternebula",
+      "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.6.0/misternebula.FreeCam.zip",
+      "downloadCount": 4319,
+      "latestReleaseDate": "2022-10-04T20:27:56Z",
+      "firstReleaseDate": "2020-04-10T13:12:27Z",
+      "repo": "https://github.com/misternebula/FreeCam",
+      "version": "v2.6.0",
+      "readme": {
+        "htmlUrl": "https://github.com/misternebula/FreeCam/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/misternebula/FreeCam/master/README.md"
+      },
+      "tags": [
+        "tool"
+      ],
+      "viewCount": 152,
+      "installCount": 129
+    },
+    {
+      "name": "Crouch Mod",
+      "uniqueName": "Alek.CrouchMod",
+      "description": "Enables crouching in Outer Wilds.",
+      "author": "amazingalek",
+      "downloadUrl": "https://github.com/amazingalek/owml-crouch-mod/releases/download/0.4/OWML.CrouchMod.zip",
+      "downloadCount": 1848,
+      "latestReleaseDate": "2021-10-14T20:14:27Z",
+      "firstReleaseDate": "2020-07-28T08:43:13Z",
+      "repo": "https://github.com/amazingalek/owml-crouch-mod",
+      "version": "0.4",
+      "readme": {
+        "htmlUrl": "https://github.com/amazingalek/owml-crouch-mod/blob/master/Readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml-crouch-mod/master/Readme.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 20,
+      "installCount": 36
     },
     {
       "name": "Clock",
@@ -53,6 +177,406 @@
       ],
       "viewCount": 162,
       "installCount": 216
+    },
+    {
+      "name": "HD Screenshot",
+      "uniqueName": "Alek.Cammie",
+      "description": "Screenshot mod for Outer Wilds.",
+      "author": "amazingalek",
+      "downloadUrl": "https://github.com/amazingalek/owml-cammie/releases/download/v0.3/HDScreenshot.zip",
+      "downloadCount": 1499,
+      "latestReleaseDate": "2021-10-14T20:15:08Z",
+      "firstReleaseDate": "2020-11-23T19:47:25Z",
+      "repo": "https://github.com/amazingalek/owml-cammie",
+      "version": "v0.3",
+      "readme": {
+        "htmlUrl": "https://github.com/amazingalek/owml-cammie/blob/master/Readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/amazingalek/owml-cammie/master/Readme.md"
+      },
+      "tags": [
+        "tool"
+      ],
+      "viewCount": 33,
+      "installCount": 27
+    },
+    {
+      "name": "Menu Framework",
+      "uniqueName": "_nebula.MenuFramework",
+      "description": "",
+      "author": "misternebula",
+      "utility": true,
+      "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
+      "downloadCount": 10904,
+      "latestReleaseDate": "2022-05-04T09:32:40Z",
+      "firstReleaseDate": "2021-08-27T12:37:18Z",
+      "repo": "https://github.com/misternebula/MenuFramework",
+      "version": "3.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/misternebula/MenuFramework/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/misternebula/MenuFramework/main/README.md"
+      },
+      "tags": [
+        "library"
+      ],
+      "viewCount": 55,
+      "installCount": 141
+    },
+    {
+      "name": "ScoutStreaming",
+      "uniqueName": "Vesper.ScoutStreaming",
+      "description": "Turns the scout's screenshot feature into a live video!",
+      "author": "Vesper-Works",
+      "downloadUrl": "https://github.com/Vesper-Works/Scout-Streaming/releases/download/1.2.0/Release.1.2.0.zip",
+      "downloadCount": 3479,
+      "latestReleaseDate": "2022-05-21T20:57:41Z",
+      "firstReleaseDate": "2021-10-12T18:29:14Z",
+      "repo": "https://github.com/Vesper-Works/Scout-Streaming",
+      "version": "1.2.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Vesper-Works/Scout-Streaming/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Scout-Streaming/master/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 82,
+      "installCount": 151
+    },
+    {
+      "name": "Vesper's Assorted OuterWilds Shaders",
+      "uniqueName": "Vesper.VespersAssortedOuterWildsShaders",
+      "description": "A mod containing all of the shaders I've created for Outer Wilds! ",
+      "author": "Vesper-Works",
+      "downloadUrl": "https://github.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders/releases/download/1.1.0/Release.1.1.0.zip",
+      "downloadCount": 1020,
+      "latestReleaseDate": "2021-11-22T15:48:10Z",
+      "firstReleaseDate": "2021-10-25T15:52:23Z",
+      "repo": "https://github.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders",
+      "version": "1.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders/master/README.md"
+      },
+      "tags": [
+        "audiovisual"
+      ],
+      "viewCount": 96,
+      "installCount": 56
+    },
+    {
+      "name": "Outer Wilds Online",
+      "uniqueName": "Vesper.OuterWildsMMO",
+      "description": "An Outer Wilds MMO experience, just connect and play! Server is online.",
+      "author": "Vesper-Works",
+      "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.1/0.6.1.zip",
+      "downloadCount": 6367,
+      "latestReleaseDate": "2022-10-07T10:54:11Z",
+      "firstReleaseDate": "2021-11-18T23:08:53Z",
+      "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
+      "version": "0.6.1",
+      "readme": {
+        "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 297,
+      "installCount": 168
+    },
+    {
+      "name": "Cheat and Debug Menu",
+      "uniqueName": "Glitch.AltDebugMenu",
+      "description": "Allows using some commands from Debug Mode and adds other functions as well.",
+      "author": "glitchewski",
+      "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/releases/download/0.5.3/Glitch.CheatAndDebugMenu.zip",
+      "downloadCount": 2625,
+      "latestReleaseDate": "2021-10-25T06:38:12Z",
+      "firstReleaseDate": "2021-10-12T21:02:20Z",
+      "repo": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu",
+      "version": "0.5.3",
+      "readme": {
+        "htmlUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/main/README.md"
+      },
+      "tags": [
+        "tool"
+      ],
+      "viewCount": 244,
+      "installCount": 117
+    },
+    {
+      "name": "Cheats Mod",
+      "uniqueName": "PacificEngine.CheatsMod",
+      "description": "Togglable features and teleportation",
+      "author": "PacificEngine",
+      "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.4/PacificEngine.OW_CheatsMod.zip",
+      "downloadCount": 6680,
+      "latestReleaseDate": "2022-01-25T00:19:05Z",
+      "firstReleaseDate": "2021-10-21T06:56:51Z",
+      "repo": "https://github.com/PacificEngine/OW_CheatsMod",
+      "version": "0.7.4",
+      "readme": {
+        "htmlUrl": "https://github.com/PacificEngine/OW_CheatsMod/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_CheatsMod/main/README.md"
+      },
+      "tags": [
+        "tool"
+      ],
+      "viewCount": 437,
+      "installCount": 332
+    },
+    {
+      "name": "Difficulty Mod",
+      "uniqueName": "PacificEngine.OW_HardMode",
+      "description": "Allow players to change game difficulty settings",
+      "author": "PacificEngine",
+      "downloadUrl": "https://github.com/PacificEngine/OW_HardMode/releases/download/0.5.2/PacificEngine.OW_HardMode.zip",
+      "downloadCount": 955,
+      "latestReleaseDate": "2022-01-25T00:24:13Z",
+      "firstReleaseDate": "2021-10-25T09:07:23Z",
+      "repo": "https://github.com/PacificEngine/OW_HardMode",
+      "version": "0.5.2",
+      "readme": {
+        "htmlUrl": "https://github.com/PacificEngine/OW_HardMode/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_HardMode/main/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 42,
+      "installCount": 18
+    },
+    {
+      "name": "Peaceful Ghosts",
+      "uniqueName": "Leadpogrommer.PeacefulGhosts",
+      "description": "",
+      "author": "leadpogrommer",
+      "downloadUrl": "https://github.com/leadpogrommer/PeacefulGhosts/releases/download/v0.1.1/Leadpogrommer.PeacefulGhosts.zip",
+      "downloadCount": 2139,
+      "latestReleaseDate": "2022-06-30T16:59:01Z",
+      "firstReleaseDate": "2021-10-25T10:17:21Z",
+      "repo": "https://github.com/leadpogrommer/PeacefulGhosts",
+      "version": "v0.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/leadpogrommer/PeacefulGhosts/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/leadpogrommer/PeacefulGhosts/master/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 115,
+      "installCount": 86
+    },
+    {
+      "name": "SlowTime",
+      "uniqueName": "dnlwtsn.SlowTime",
+      "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
+      "author": "dwatson251",
+      "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
+      "downloadCount": 1870,
+      "latestReleaseDate": "2021-10-27T19:40:41Z",
+      "firstReleaseDate": "2021-10-27T19:40:41Z",
+      "repo": "https://github.com/dwatson251/ow-slowtime",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 51,
+      "installCount": 78
+    },
+    {
+      "name": "OW Smooth Thrust",
+      "uniqueName": "TruAI.SmoothThrust",
+      "description": "Outer Wilds Keyboard Smooth Thrust",
+      "author": "TAImatem",
+      "downloadUrl": "https://github.com/TAImatem/OW_SmoothThrust/releases/download/v2.0.1/OW_SmoothThrust.zip",
+      "downloadCount": 4481,
+      "latestReleaseDate": "2021-11-02T18:03:27Z",
+      "firstReleaseDate": "2020-04-14T11:33:05Z",
+      "repo": "https://github.com/TAImatem/OW_SmoothThrust",
+      "version": "v2.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/TAImatem/OW_SmoothThrust/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TAImatem/OW_SmoothThrust/master/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 30,
+      "installCount": 46
+    },
+    {
+      "name": "Randomizer",
+      "uniqueName": "PacificEngine.OW_Randomizer",
+      "description": "Randomizes stuff in outer wilds",
+      "author": "PacificEngine",
+      "downloadUrl": "https://github.com/PacificEngine/OW_Randomizer/releases/download/0.7.7/PacificEngine.OW_Randomizer.zip",
+      "downloadCount": 1924,
+      "latestReleaseDate": "2022-01-25T00:23:20Z",
+      "firstReleaseDate": "2021-11-04T03:36:23Z",
+      "repo": "https://github.com/PacificEngine/OW_Randomizer",
+      "version": "0.7.7",
+      "readme": {
+        "htmlUrl": "https://github.com/PacificEngine/OW_Randomizer/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_Randomizer/main/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 123,
+      "installCount": 83
+    },
+    {
+      "name": "PacificEngine's Common Resources",
+      "uniqueName": "PacificEngine.OW_CommonResources",
+      "description": "A Collection of Common Resource to use throughout downstream mods",
+      "author": "dgarroDC",
+      "utility": true,
+      "downloadUrl": "https://github.com/dgarroDC/OW_CommonResources/releases/download/0.5.15/PacificEngine.OW_CommonResources.zip",
+      "downloadCount": 959,
+      "latestReleaseDate": "2022-09-29T17:14:07Z",
+      "firstReleaseDate": "2022-09-29T17:14:07Z",
+      "repo": "https://github.com/dgarroDC/OW_CommonResources",
+      "version": "0.5.15",
+      "readme": {
+        "htmlUrl": "https://github.com/dgarroDC/OW_CommonResources/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/OW_CommonResources/main/README.md"
+      },
+      "authorDisplay": "PacificEngine",
+      "tags": [
+        "library"
+      ],
+      "viewCount": 18,
+      "installCount": 29
+    },
+    {
+      "name": "No Alt Tab Pause",
+      "uniqueName": "lStewieAl.RunInBackground",
+      "description": "Mod for Outer Wilds allowing the game to continue while in background",
+      "author": "lStewieAl",
+      "downloadUrl": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause/releases/download/0.1.0/lStewieAl.RunInBackground.zip",
+      "downloadCount": 814,
+      "latestReleaseDate": "2021-11-11T21:29:26Z",
+      "firstReleaseDate": "2021-11-11T21:29:26Z",
+      "repo": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/lStewieAl/OuterWilds-NoAltTabPause/master/README.md"
+      },
+      "tags": [
+        "tweaks"
+      ],
+      "viewCount": 14,
+      "installCount": 43
+    },
+    {
+      "name": "Echoes of the Caribbean",
+      "uniqueName": "tealhelix.EotE-RideMusic",
+      "description": "Replaces a key bit of music in EotE with something more zesty. Includes Daft Punk light show mode!",
+      "author": "tealhelix",
+      "downloadUrl": "https://github.com/tealhelix/ow-mod-eote-ridemusic/releases/download/1.1.3/tealhelix.EotE-RideMusic.zip",
+      "downloadCount": 618,
+      "latestReleaseDate": "2021-11-30T21:59:11Z",
+      "firstReleaseDate": "2021-11-19T04:07:39Z",
+      "repo": "https://github.com/tealhelix/ow-mod-eote-ridemusic",
+      "version": "1.1.3",
+      "readme": {
+        "htmlUrl": "https://github.com/tealhelix/ow-mod-eote-ridemusic/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/tealhelix/ow-mod-eote-ridemusic/master/README.md"
+      },
+      "tags": [
+        "audiovisual"
+      ],
+      "viewCount": 10,
+      "installCount": 17
+    },
+    {
+      "name": "Third Person Camera",
+      "uniqueName": "xen.ThirdPersonCamera",
+      "description": "A third-person camera for Outer Wilds.",
+      "author": "xen-42",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.0.3/xen.ThirdPersonCamera.zip",
+      "downloadCount": 1935,
+      "latestReleaseDate": "2022-09-17T06:24:14Z",
+      "firstReleaseDate": "2021-11-16T19:46:51Z",
+      "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
+      "version": "v2.0.3",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-third-person-camera/main/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 159,
+      "installCount": 78
+    },
+    {
+      "name": "NomaiVR Online Patches",
+      "uniqueName": "Artum.NomaiVROnlinePatches",
+      "description": "Patches to adapt some Outer Wilds Online features to NomaiVR",
+      "author": "artumino",
+      "parent": "Raicuparta.NomaiVR",
+      "downloadUrl": "https://github.com/artumino/NomaiVROnlinePatches/releases/download/0.0.11/Artum.NomaiVROnlinePatches.zip",
+      "downloadCount": 3659,
+      "latestReleaseDate": "2022-09-01T20:33:05Z",
+      "firstReleaseDate": "2021-11-25T21:06:32Z",
+      "repo": "https://github.com/artumino/NomaiVROnlinePatches",
+      "version": "0.0.11",
+      "readme": {
+        "htmlUrl": "https://github.com/artumino/NomaiVROnlinePatches/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/artumino/NomaiVROnlinePatches/master/README.md"
+      },
+      "tags": [
+        "tweaks"
+      ],
+      "viewCount": 9,
+      "installCount": 155
+    },
+    {
+      "name": "NomaiVR FFR",
+      "uniqueName": "Artum.NomaiVRFoveated",
+      "description": "Uses HTC's FFR plugin to improve performance in NomaiVR on NVIDIA RTX cards",
+      "author": "artumino",
+      "parent": "Raicuparta.NomaiVR",
+      "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
+      "downloadCount": 6611,
+      "latestReleaseDate": "2022-04-21T21:50:28Z",
+      "firstReleaseDate": "2021-11-25T22:50:49Z",
+      "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
+      "version": "1.0.4",
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 104,
+      "installCount": 340
+    },
+    {
+      "name": "Static Camera",
+      "uniqueName": "xen.StaticCamera",
+      "description": "Place a camera where you're standing then walk around in front of it.",
+      "author": "xen-42",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-static-camera/releases/download/v1.0.3/xen.StaticCamera.zip",
+      "downloadCount": 625,
+      "latestReleaseDate": "2022-09-17T06:26:06Z",
+      "firstReleaseDate": "2021-11-26T06:37:49Z",
+      "repo": "https://github.com/xen-42/outer-wilds-static-camera",
+      "version": "v1.0.3",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-static-camera/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-static-camera/main/README.md"
+      },
+      "tags": [
+        "tool"
+      ],
+      "viewCount": 15,
+      "installCount": 23
     },
     {
       "name": "Daydream",
@@ -233,7 +757,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.16.0/nh-examples.zip",
-      "downloadCount": 3291,
+      "downloadCount": 3292,
       "latestReleaseDate": "2022-10-22T15:23:46Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -321,7 +845,7 @@
       "description": "Makes the hatchling smol! Or beeg!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.2.3/Owen013.TeenyHatchling.zip",
-      "downloadCount": 810,
+      "downloadCount": 812,
       "latestReleaseDate": "2022-10-13T19:19:51Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
@@ -342,7 +866,7 @@
       "description": "Customizable movement speed and jump height, instant jump, sprinting, climbing, and more.",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.1/Owen013.MovementMod.zip",
-      "downloadCount": 2067,
+      "downloadCount": 2068,
       "latestReleaseDate": "2022-10-18T00:20:28Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
@@ -671,7 +1195,7 @@
       "description": "Marks ship log entries that have missing facts required for the Archaeologist achievement as \"There's more to explore here.\". It also lets you view which facts you haven't revealed!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ArchaeologistAchievementHelper/releases/download/1.3.1/dgarro.ArchaeologistAchievementHelper.zip",
-      "downloadCount": 2043,
+      "downloadCount": 2044,
       "latestReleaseDate": "2022-10-23T04:39:10Z",
       "firstReleaseDate": "2022-01-16T23:16:49Z",
       "repo": "https://github.com/dgarroDC/ArchaeologistAchievementHelper",
@@ -1030,7 +1554,7 @@
       "description": "The mod's not yet finished. All characters are fully voiced, but the files are currently being mixed to improve their quality and add environmental effects.",
       "author": "Krevace",
       "downloadUrl": "https://github.com/Krevace/ow-voice-mod/releases/download/0.4.1/Krevace.VoiceMod.zip",
-      "downloadCount": 1920,
+      "downloadCount": 1921,
       "latestReleaseDate": "2022-08-17T03:53:21Z",
       "firstReleaseDate": "2022-04-08T00:40:29Z",
       "repo": "https://github.com/Krevace/ow-voice-mod",
@@ -1066,6 +1590,23 @@
       ],
       "viewCount": 51,
       "installCount": 56
+    },
+    {
+      "name": "Vengeful Cannon",
+      "uniqueName": "_nebula.VengefulCannon",
+      "description": "You shouldn't have angered that cannon...",
+      "author": "misternebula",
+      "downloadUrl": "https://github.com/misternebula/VengefulCannon/releases/download/1.0.0/VengefulCannon.zip",
+      "downloadCount": 229,
+      "latestReleaseDate": "2022-04-11T10:21:33Z",
+      "firstReleaseDate": "2022-04-11T10:21:33Z",
+      "repo": "https://github.com/misternebula/VengefulCannon",
+      "version": "1.0.0",
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 23,
+      "installCount": 7
     },
     {
       "name": "Almond System",
@@ -1244,7 +1785,7 @@
       "author": "LIV",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/LIV/ow-liv/releases/download/v0.1.0/Raicuparta.OwLiv.zip",
-      "downloadCount": 720,
+      "downloadCount": 721,
       "latestReleaseDate": "2022-04-22T13:08:01Z",
       "firstReleaseDate": "2022-04-22T13:08:01Z",
       "repo": "https://github.com/Raicuparta/ow-liv",
@@ -1649,7 +2190,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-visible-qms/releases/download/v0.2.3/ow-nh-visible-qms.zip",
-      "downloadCount": 693,
+      "downloadCount": 694,
       "latestReleaseDate": "2022-10-01T04:43:03Z",
       "firstReleaseDate": "2022-05-16T02:36:30Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-visible-qms",
@@ -2139,6 +2680,23 @@
       "installCount": 6
     },
     {
+      "name": "StopTime",
+      "uniqueName": "_nebula.StopTime",
+      "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
+      "author": "misternebula",
+      "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
+      "downloadCount": 2294,
+      "latestReleaseDate": "2022-07-25T22:47:06Z",
+      "firstReleaseDate": "2020-04-12T19:16:40Z",
+      "repo": "https://github.com/misternebula/StopTime",
+      "version": "1.0.0",
+      "tags": [
+        "tool"
+      ],
+      "viewCount": 73,
+      "installCount": 85
+    },
+    {
       "name": "Galaxy Skybox: NGC 1087",
       "uniqueName": "TerrificTrifid.NGC1087",
       "description": "Places the Hearthian system in a peaceful galaxy.",
@@ -2288,6 +2846,24 @@
       "installCount": 12
     },
     {
+      "name": "Cut Achievements",
+      "uniqueName": "_nebula.CutAchievements",
+      "description": "Adds some cut achievements back into Outer Wilds.",
+      "author": "misternebula",
+      "parent": "xen.AchievementTracker",
+      "downloadUrl": "https://github.com/misternebula/cut-achievements/releases/download/1.0.0/CutAchievements.zip",
+      "downloadCount": 212,
+      "latestReleaseDate": "2022-08-23T22:28:07Z",
+      "firstReleaseDate": "2022-08-23T22:28:07Z",
+      "repo": "https://github.com/misternebula/cut-achievements",
+      "version": "1.0.0",
+      "tags": [
+        "content"
+      ],
+      "viewCount": 33,
+      "installCount": 47
+    },
+    {
       "name": "Chargeable Scout Launcher",
       "uniqueName": "Cleric.ChargeableScout",
       "description": "Makes it so that the scout launcher can be charged for a farther launch.",
@@ -2425,7 +3001,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.1/hearth1an.TheVision.zip",
-      "downloadCount": 3693,
+      "downloadCount": 3694,
       "latestReleaseDate": "2022-10-25T10:23:06Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -2676,7 +3252,7 @@
       "author": "Samster68OW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Samster68OW/fretsquest/releases/download/v0.5.0/fretsquest.zip",
-      "downloadCount": 765,
+      "downloadCount": 766,
       "latestReleaseDate": "2022-10-27T12:33:03Z",
       "firstReleaseDate": "2022-10-01T23:01:22Z",
       "repo": "https://github.com/Samster68OW/fretsquest",
@@ -2722,7 +3298,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/funny-system/releases/download/1.3.2/O32.FunnySystem.zip",
-      "downloadCount": 362,
+      "downloadCount": 363,
       "latestReleaseDate": "2022-10-29T22:19:45Z",
       "firstReleaseDate": "2022-10-02T21:32:53Z",
       "repo": "https://github.com/RealOrbital32/funny-system",
@@ -2767,7 +3343,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.1/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 1518,
+      "downloadCount": 1520,
       "latestReleaseDate": "2022-10-26T04:07:09Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -2789,7 +3365,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3175,
+      "downloadCount": 3176,
       "latestReleaseDate": "2022-10-14T06:09:06Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -2882,7 +3458,7 @@
       "author": "Krevace",
       "parent": "Krevace.VoiceMod",
       "downloadUrl": "https://github.com/Krevace/ow-mo-voices-mod/releases/download/0.1.0/Krevace.MoVoicesMod.zip",
-      "downloadCount": 112,
+      "downloadCount": 113,
       "latestReleaseDate": "2022-10-14T03:20:25Z",
       "firstReleaseDate": "2022-10-14T03:20:25Z",
       "repo": "https://github.com/Krevace/ow-mo-voices-mod",
@@ -3011,6 +3587,26 @@
         "library"
       ],
       "viewCount": 41,
+      "installCount": 0
+    },
+    {
+      "name": "OWAML",
+      "uniqueName": "Locochoco.OWAML",
+      "description": "BepinEx helper for OWMM",
+      "author": "ow-mods",
+      "alpha": true,
+      "required": true,
+      "utility": true,
+      "downloadUrl": "https://github.com/ow-mods/owaml/releases/download/v1.0.2/OWAML-v1.0.2.zip",
+      "downloadCount": 102,
+      "latestReleaseDate": "2022-05-29T00:33:22Z",
+      "firstReleaseDate": "2022-05-12T12:20:30Z",
+      "repo": "https://github.com/ShoosGun/OWAML",
+      "version": "v1.0.2",
+      "tags": [
+        "library"
+      ],
+      "viewCount": 2,
       "installCount": 0
     },
     {
