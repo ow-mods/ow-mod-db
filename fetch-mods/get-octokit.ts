@@ -18,16 +18,13 @@ function createOctokit() {
           `Request quota exhausted for request ${options.method} ${options.url}`
         );
 
+        rateLimitReached = true;
+
         if (options.request.retryCount === 0) {
           // only retries once
           console.info(`Retrying after ${retryAfter} seconds!`);
           return true;
         }
-
-        console.warn(
-          "Rate limit reached and no more retries left, set rateLimitReached flag."
-        );
-        rateLimitReached = true;
       },
       onAbuseLimit: (retryAfter: number, options: any) => {
         // does not retry, only logs a warning

@@ -2,7 +2,7 @@ name: Update Releases
 concurrency: update-releases
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
   push:
     branches:
