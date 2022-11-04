@@ -10,6 +10,7 @@ import { getInstallCounts } from "./get-install-counts";
 
 import { writeFile } from "fs";
 import { getSettledResult } from "./promises";
+import { rateLimitReached } from "./get-octokit";
 
 enum Input {
   outFile = "out-file",
@@ -103,7 +104,13 @@ async function run() {
       releases: modListWithAnalytics.filter(({ alpha }) => !alpha),
       alphaReleases: modListWithAnalytics.filter(({ alpha }) => alpha),
     });
-    core.setOutput(Output.releases, databaseJson);
+
+    if (rateLimitReached) {
+      core.setFailed("Rate limit reached");
+      return;
+    } else {
+      core.setOutput(Output.releases, databaseJson);
+    }
 
     const outputFilePath = core.getInput(Input.outFile);
 

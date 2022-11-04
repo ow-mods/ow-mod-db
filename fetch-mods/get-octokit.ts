@@ -2,6 +2,8 @@ import { Octokit } from "@octokit/action";
 import { retry } from "@octokit/plugin-retry";
 import { throttling } from "@octokit/plugin-throttling";
 
+export let rateLimitReached = false;
+
 function createOctokit() {
   const OctokitWithPlugins = Octokit.plugin(retry, throttling);
   return new OctokitWithPlugins({
@@ -21,6 +23,11 @@ function createOctokit() {
           console.info(`Retrying after ${retryAfter} seconds!`);
           return true;
         }
+
+        console.warn(
+          "Rate limit reached and no more retries left, set rateLimitReached flag."
+        );
+        rateLimitReached = true;
       },
       onAbuseLimit: (retryAfter: number, options: any) => {
         // does not retry, only logs a warning
