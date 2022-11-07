@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 89997
+    "downloadCount": 90000
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.3/OWML.zip",
-      "downloadCount": 71746,
+      "downloadCount": 71748,
       "latestReleaseDate": "2022-10-30T03:30:01Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -42,7 +42,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 45198,
+      "downloadCount": 45199,
       "latestReleaseDate": "2022-10-28T20:32:05Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -69,7 +69,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.22.0/QSB.zip",
-      "downloadCount": 19294,
+      "downloadCount": 19295,
       "latestReleaseDate": "2022-10-07T19:01:24Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -206,7 +206,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 11266,
+      "downloadCount": 11267,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -460,7 +460,7 @@
       "description": "Mod for Outer Wilds allowing the game to continue while in background",
       "author": "lStewieAl",
       "downloadUrl": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause/releases/download/0.1.0/lStewieAl.RunInBackground.zip",
-      "downloadCount": 822,
+      "downloadCount": 823,
       "latestReleaseDate": "2021-11-11T21:29:26Z",
       "firstReleaseDate": "2021-11-11T21:29:26Z",
       "repo": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause",
@@ -546,7 +546,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 6683,
+      "downloadCount": 6684,
       "latestReleaseDate": "2022-04-21T21:50:28Z",
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
@@ -635,6 +635,11 @@
       "readme": {
         "htmlUrl": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/main/README.md"
+      },
+      "prerelease": {
+        "version": "5.0.0",
+        "downloadUrl": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/releases/download/5.0.0/Vesper.UnityExplorer.zip",
+        "date": "2022-11-07T21:42:48Z"
       },
       "tags": [
         "tool"
@@ -1487,7 +1492,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.10.2/JohnCorby.VanillaFix.zip",
-      "downloadCount": 9436,
+      "downloadCount": 9437,
       "latestReleaseDate": "2022-10-01T04:44:36Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2834,7 +2839,7 @@
       "description": "Adds discord rich presence to Outer Wilds",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/OWRichPresence/releases/download/1.3.0/MegaPiggy.OWRichPresence.zip",
-      "downloadCount": 460,
+      "downloadCount": 461,
       "latestReleaseDate": "2022-10-03T00:54:36Z",
       "firstReleaseDate": "2022-08-21T06:44:58Z",
       "repo": "https://github.com/MegaPiggy/OWRichPresence",
@@ -3142,7 +3147,7 @@
       "description": "But can your ship run DOOM? Yes, yes it can.",
       "author": "Hawkbat",
       "downloadUrl": "https://github.com/Hawkbat/ow-mod-doom/releases/download/0.1.1/Hawkbar.Doom.zip",
-      "downloadCount": 336,
+      "downloadCount": 337,
       "latestReleaseDate": "2022-09-17T16:41:55Z",
       "firstReleaseDate": "2022-09-09T21:02:46Z",
       "repo": "https://github.com/Hawkbat/ow-mod-doom",
