@@ -57,7 +57,7 @@ jobs:
           fetch-depth: 0
       - run: cp ../database.json .
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4.1.6
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: "master"
           file_pattern: "database.json"
