@@ -4,9 +4,38 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 90661
+    "downloadCount": 90665
   },
   "releases": [
+    {
+      "name": "OWML",
+      "uniqueName": "Alek.OWML",
+      "description": "The mod loader and mod framework for Outer Wilds",
+      "author": "ow-mods",
+      "required": true,
+      "utility": true,
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.3/OWML.zip",
+      "downloadCount": 72400,
+      "latestReleaseDate": "2022-10-30T03:30:01Z",
+      "firstReleaseDate": "2019-12-18T16:07:26Z",
+      "repo": "https://github.com/amazingalek/owml",
+      "version": "2.7.3",
+      "readme": {
+        "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
+      },
+      "authorDisplay": "Alek & friends",
+      "prerelease": {
+        "version": "2.5.0",
+        "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.5.0/OWML.zip",
+        "date": "2022-06-07T11:05:45Z"
+      },
+      "tags": [
+        "library"
+      ],
+      "viewCount": 603,
+      "installCount": 0
+    },
     {
       "name": "NomaiVR",
       "uniqueName": "Raicuparta.NomaiVR",
@@ -178,7 +207,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 11524,
+      "downloadCount": 11525,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -241,7 +270,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play! Server is online.",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.1/0.6.1.zip",
-      "downloadCount": 6505,
+      "downloadCount": 6506,
       "latestReleaseDate": "2022-10-07T10:54:11Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -496,7 +525,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVROnlinePatches/releases/download/0.0.11/Artum.NomaiVROnlinePatches.zip",
-      "downloadCount": 3749,
+      "downloadCount": 3750,
       "latestReleaseDate": "2022-09-01T20:33:05Z",
       "firstReleaseDate": "2021-11-25T21:06:32Z",
       "repo": "https://github.com/artumino/NomaiVROnlinePatches",
@@ -709,7 +738,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.7.1/xen.NewHorizons.zip",
-      "downloadCount": 15485,
+      "downloadCount": 15486,
       "latestReleaseDate": "2022-10-21T01:42:07Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1174,7 +1203,7 @@
       "description": "Allows the visualization of diferent colliders and shapes",
       "author": "ShoosGun",
       "downloadUrl": "https://github.com/ShoosGun/ColliderVisualizer/releases/download/0.1.2/Locochoco.ColliderVisualizer.zip",
-      "downloadCount": 322,
+      "downloadCount": 323,
       "latestReleaseDate": "2022-08-30T15:56:02Z",
       "firstReleaseDate": "2022-01-16T18:25:28Z",
       "repo": "https://github.com/ShoosGun/ColliderVisualizer",
@@ -1464,7 +1493,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.10.2/JohnCorby.VanillaFix.zip",
-      "downloadCount": 9726,
+      "downloadCount": 9727,
       "latestReleaseDate": "2022-10-01T04:44:36Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -1575,12 +1604,12 @@
       "description": "a solar system made with new horizons, will probably be updated",
       "author": "CreativeNameTxt",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/CreativeNameTxt/their-home-world/releases/download/v0.0.69/CreativeNameTxt.theirhomeworld.zip",
+      "downloadUrl": "https://github.com/CreativeNameTxt/their-home-world/releases/download/v0.0.71/CreativeNameTxt.theirhomeworld.zip",
       "downloadCount": 605,
-      "latestReleaseDate": "2022-04-25T15:19:24Z",
+      "latestReleaseDate": "2022-04-25T18:13:50Z",
       "firstReleaseDate": "2022-04-25T18:13:50Z",
       "repo": "https://github.com/CreativeNameTxt/their-home-world",
-      "version": "v0.0.69",
+      "version": "v0.0.71",
       "readme": {
         "htmlUrl": "https://github.com/CreativeNameTxt/their-home-world/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/CreativeNameTxt/their-home-world/main/README.md"
@@ -1614,12 +1643,12 @@
       "description": "Adds a almond system to the game",
       "author": "Zincinder",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Zincinder/almondsystem/releases/download/v0.1.1/almondsystem.zip",
+      "downloadUrl": "https://github.com/Zincinder/almondsystem/releases/download/v0.1.5/almondsystem.zip",
       "downloadCount": 500,
-      "latestReleaseDate": "2022-05-09T14:51:07Z",
+      "latestReleaseDate": "2022-05-11T14:10:09Z",
       "firstReleaseDate": "2022-04-12T00:32:21Z",
       "repo": "https://github.com/MellowSus/almondsystem",
-      "version": "v0.1.1",
+      "version": "v0.1.5",
       "readme": {
         "htmlUrl": "https://github.com/Zincinder/almondsystem/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Zincinder/almondsystem/main/README.md"
@@ -2321,7 +2350,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
-      "downloadCount": 4516,
+      "downloadCount": 4517,
       "latestReleaseDate": "2022-10-22T15:26:44Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -3275,7 +3304,7 @@
       "author": "Samster68OW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Samster68OW/fretsquest/releases/download/v0.5.0/fretsquest.zip",
-      "downloadCount": 994,
+      "downloadCount": 995,
       "latestReleaseDate": "2022-10-27T12:33:03Z",
       "firstReleaseDate": "2022-10-01T23:01:22Z",
       "repo": "https://github.com/Samster68OW/fretsquest",
@@ -3366,7 +3395,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.1/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 2002,
+      "downloadCount": 2003,
       "latestReleaseDate": "2022-10-26T04:07:09Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -3682,6 +3711,30 @@
   ],
   "alphaReleases": [
     {
+      "name": "BepInEx",
+      "uniqueName": "bbepis.BepInEx",
+      "description": "Unity game patcher and plugin framework modified for Outer Wilds Alpha",
+      "author": "MegaPiggy",
+      "alpha": true,
+      "required": true,
+      "utility": true,
+      "downloadUrl": "https://github.com/MegaPiggy/BepInEx/releases/download/v5.4.21/BepInEx_x86_5.4.21.0.zip",
+      "downloadCount": 186,
+      "latestReleaseDate": "2022-06-19T06:57:11Z",
+      "firstReleaseDate": "2022-05-22T03:11:13Z",
+      "repo": "https://github.com/MegaPiggy/BepInEx",
+      "version": "v5.4.21",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/BepInEx/blob/v5-lts/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/BepInEx/v5-lts/README.md"
+      },
+      "tags": [
+        "library"
+      ],
+      "viewCount": 22,
+      "installCount": 0
+    },
+    {
       "name": "OWAML",
       "uniqueName": "Locochoco.OWAML",
       "description": "BepinEx helper for OWMM",
@@ -3699,6 +3752,29 @@
         "library"
       ],
       "viewCount": 3,
+      "installCount": 0
+    },
+    {
+      "name": "CAMOWA",
+      "uniqueName": "Locochoco.CAMOWA",
+      "description": "BepInEx plugin that helps creating mods for the game Outer Wilds Alpha (1.2)",
+      "author": "ShoosGun",
+      "alpha": true,
+      "utility": true,
+      "downloadUrl": "https://github.com/ShoosGun/CAMOWA/releases/download/v1.0.1/Locochoco.CAMOWA.zip",
+      "downloadCount": 87,
+      "latestReleaseDate": "2022-05-21T23:47:53Z",
+      "firstReleaseDate": "2021-09-26T19:07:30Z",
+      "repo": "https://github.com/ShoosGun/CAMOWA",
+      "version": "v1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/CAMOWA/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/CAMOWA/main/README.md"
+      },
+      "tags": [
+        "library"
+      ],
+      "viewCount": 0,
       "installCount": 0
     },
     {
