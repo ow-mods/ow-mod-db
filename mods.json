@@ -1539,7 +1539,9 @@
       "name": "Kamika",
       "uniqueName": "O32.Kamika",
       "repo": "RealOrbital32/kamika",
-      "tags": [],
+      "tags": [
+        "content"
+      ],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)"
     },
@@ -1594,6 +1596,16 @@
       "parent": "Vesper.OuterWildsMMO",
       "utility": true,
       "authorDisplay": "Locochoco"
+    },
+    {
+      "name": "Star Systems",
+      "uniqueName": "O32.StarSystems",
+      "repo": "RealOrbital32/star-systems",
+      "tags": [
+        "content"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)"
     }
   ]
 }
