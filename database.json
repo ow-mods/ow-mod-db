@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Installer.exe",
-    "downloadCount": 91805
+    "downloadCount": 91807
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.5/OWML.zip",
-      "downloadCount": 74004,
+      "downloadCount": 74006,
       "latestReleaseDate": "2022-11-18T23:01:10Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -70,7 +70,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.22.0/QSB.zip",
-      "downloadCount": 19759,
+      "downloadCount": 19760,
       "latestReleaseDate": "2022-10-07T19:01:24Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,7 +96,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v0.7/OWML.LightBramble.zip",
-      "downloadCount": 8685,
+      "downloadCount": 8686,
       "latestReleaseDate": "2021-10-14T20:13:05Z",
       "firstReleaseDate": "2020-04-10T13:16:22Z",
       "repo": "https://github.com/amazingalek/owml-light-bramble",
@@ -296,7 +296,7 @@
       "description": "Allows using some commands from Debug Mode and adds other functions as well.",
       "author": "glitchewski",
       "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/releases/download/0.5.3/Glitch.CheatAndDebugMenu.zip",
-      "downloadCount": 2700,
+      "downloadCount": 2701,
       "latestReleaseDate": "2021-10-25T06:38:12Z",
       "firstReleaseDate": "2021-10-12T21:02:20Z",
       "repo": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu",
@@ -2355,7 +2355,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
-      "downloadCount": 4779,
+      "downloadCount": 4780,
       "latestReleaseDate": "2022-10-22T15:26:44Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -3712,7 +3712,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/DiscordProximityChat/releases/download/0.0.1/BUNN1E5.DiscordProximityChat.zip",
-      "downloadCount": 134,
+      "downloadCount": 135,
       "latestReleaseDate": "2022-11-11T07:12:33Z",
       "firstReleaseDate": "2022-11-11T07:12:33Z",
       "repo": "https://github.com/BUNN1E5/DiscordProximityChat",
@@ -3722,6 +3722,11 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/DiscordProximityChat/master/README.md"
       },
       "authorDisplay": "BUNN1E5",
+      "prerelease": {
+        "version": "Test",
+        "downloadUrl": "https://github.com/BUNN1E5/DiscordProximityChat/releases/download/Test/BUNN1E5.DiscordProximityChat.zip",
+        "date": "2022-11-20T04:48:14Z"
+      },
       "tags": [
         "gameplay",
         "tweaks",
