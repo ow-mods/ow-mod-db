@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Installer.exe",
-    "downloadCount": 92505
+    "downloadCount": 92511
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.7.5/OWML.zip",
-      "downloadCount": 74580,
+      "downloadCount": 74586,
       "latestReleaseDate": "2022-11-18T23:01:10Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -37,7 +37,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 46055,
+      "downloadCount": 46058,
       "latestReleaseDate": "2022-10-28T20:32:05Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -547,7 +547,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 6916,
+      "downloadCount": 6918,
       "latestReleaseDate": "2022-04-21T21:50:28Z",
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
@@ -2371,7 +2371,7 @@
       "description": "Adds a remote camera to the model ship",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-better-model-ship/releases/download/v0.1.1/xen.BetterModelShip.zip",
-      "downloadCount": 624,
+      "downloadCount": 625,
       "latestReleaseDate": "2022-09-17T06:26:52Z",
       "firstReleaseDate": "2022-05-25T21:51:16Z",
       "repo": "https://github.com/xen-42/outer-wilds-better-model-ship",
@@ -3099,12 +3099,12 @@
       "description": "Allows creation and spawing of custom ships.",
       "author": "ShoosGun",
       "utility": true,
-      "downloadUrl": "https://github.com/ShoosGun/SlateShipyard/releases/download/v0.1.6/Locochoco.SlateShipyard.zip",
+      "downloadUrl": "https://github.com/ShoosGun/SlateShipyard/releases/download/v0.2.0/Locochoco.SlateShipyard.zip",
       "downloadCount": 371,
-      "latestReleaseDate": "2022-09-18T22:31:51Z",
+      "latestReleaseDate": "2022-11-23T01:40:01Z",
       "firstReleaseDate": "2022-09-08T19:44:51Z",
       "repo": "https://github.com/ShoosGun/SlateShipyard",
-      "version": "v0.1.6",
+      "version": "v0.2.0",
       "readme": {
         "htmlUrl": "https://github.com/ShoosGun/SlateShipyard/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/SlateShipyard/main/README.md"
@@ -3130,12 +3130,12 @@
       "description": "Adds a ship simmilar to the one on the alpha mod Navinha",
       "author": "ShoosGun",
       "parent": "Locochoco.SlateShipyard",
-      "downloadUrl": "https://github.com/ShoosGun/Spaceshipinha/releases/download/v0.1.5/Locochoco.Spaceshipinha.zip",
+      "downloadUrl": "https://github.com/ShoosGun/Spaceshipinha/releases/download/v0.1.8/Locochoco.Spaceshipinha.zip",
       "downloadCount": 234,
-      "latestReleaseDate": "2022-09-18T22:33:04Z",
+      "latestReleaseDate": "2022-11-23T01:39:54Z",
       "firstReleaseDate": "2022-09-08T20:00:48Z",
       "repo": "https://github.com/ShoosGun/Spaceshipinha",
-      "version": "v0.1.5",
+      "version": "v0.1.8",
       "readme": {
         "htmlUrl": "https://github.com/ShoosGun/Spaceshipinha/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/Spaceshipinha/main/README.md"
@@ -3180,12 +3180,12 @@
       "description": "An example mod of creating vehicles with wheels with Slate's Shipyard",
       "author": "ShoosGun",
       "parent": "Locochoco.SlateShipyard",
-      "downloadUrl": "https://github.com/ShoosGun/CarExample/releases/download/v0.1.1/Locochoco.CarExample.zip",
+      "downloadUrl": "https://github.com/ShoosGun/CarExample/releases/download/v0.1.4/Locochoco.CarExample.zip",
       "downloadCount": 183,
-      "latestReleaseDate": "2022-09-18T22:34:00Z",
+      "latestReleaseDate": "2022-11-23T01:39:36Z",
       "firstReleaseDate": "2022-09-15T02:08:13Z",
       "repo": "https://github.com/ShoosGun/CarExample",
-      "version": "v0.1.1",
+      "version": "v0.1.4",
       "readme": {
         "htmlUrl": "https://github.com/ShoosGun/CarExample/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/CarExample/main/README.md"
@@ -3685,7 +3685,7 @@
       "description": "Replaces the Stranger's gravity fields with spin gravity.",
       "author": "Komodo5197",
       "downloadUrl": "https://github.com/Komodo5197/StrangerSpinGravity/releases/download/v1.1.0/Komodo.StrangerSpinGravity.zip",
-      "downloadCount": 45,
+      "downloadCount": 46,
       "latestReleaseDate": "2022-11-09T06:55:02Z",
       "firstReleaseDate": "2022-11-08T08:00:21Z",
       "repo": "https://github.com/Komodo5197/StrangerSpinGravity",
@@ -3737,12 +3737,12 @@
       "author": "ShoosGun",
       "utility": true,
       "parent": "Vesper.OuterWildsMMO",
-      "downloadUrl": "https://github.com/ShoosGun/ShipyardOWOCompat/releases/download/v0.1.1/Locochoco.ShipyardOWOAddon.zip",
+      "downloadUrl": "https://github.com/ShoosGun/ShipyardOWOCompat/releases/download/v0.1.2/Locochoco.ShipyardOWOAddon.zip",
       "downloadCount": 45,
-      "latestReleaseDate": "2022-11-15T01:32:35Z",
+      "latestReleaseDate": "2022-11-23T01:39:48Z",
       "firstReleaseDate": "2022-11-13T00:05:19Z",
       "repo": "https://github.com/ShoosGun/ShipyardOWOCompat",
-      "version": "v0.1.1",
+      "version": "v0.1.2",
       "authorDisplay": "Locochoco",
       "tags": [
         "library"
@@ -3885,6 +3885,26 @@
       ],
       "viewCount": 36,
       "installCount": 1
+    },
+    {
+      "name": "Kerbal Space Ventures",
+      "uniqueName": "Locochoco.KSPShips",
+      "description": "Addon for shipyard which reads .craft KSP files into the game Outer Wilds",
+      "author": "ShoosGun",
+      "parent": "Locochoco.SlateShipyard",
+      "downloadUrl": "https://github.com/ShoosGun/Kerbal-Space-Ventures/releases/download/v0.1.0/Locochoco.KSPShips.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-11-23T01:42:18Z",
+      "firstReleaseDate": "2022-11-23T01:42:18Z",
+      "repo": "https://github.com/ShoosGun/Kerbal-Space-Ventures",
+      "version": "v0.1.0",
+      "authorDisplay": "Locochoco & FunkyShoeMan",
+      "tags": [
+        "gameplay",
+        "tool"
+      ],
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
