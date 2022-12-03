@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Installer.exe",
-    "downloadCount": 94600
+    "downloadCount": 94601
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.8.0/OWML.zip",
-      "downloadCount": 76579,
+      "downloadCount": 76581,
       "latestReleaseDate": "2022-12-01T15:31:25Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -30,6 +30,34 @@
       ],
       "viewCount": 784,
       "installCount": 0
+    },
+    {
+      "name": "NomaiVR",
+      "uniqueName": "Raicuparta.NomaiVR",
+      "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
+      "author": "Raicuparta",
+      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
+      "downloadCount": 46668,
+      "latestReleaseDate": "2022-10-28T20:32:05Z",
+      "firstReleaseDate": "2020-01-06T20:41:19Z",
+      "repo": "https://github.com/Raicuparta/nomai-vr",
+      "version": "2.9.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Raicuparta/nomai-vr/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
+      },
+      "authorDisplay": "Raicuparta & Artum",
+      "prerelease": {
+        "version": "2.9.1-pre",
+        "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.1-pre/Raicuparta.NomaiVR.zip",
+        "date": "2022-10-28T20:34:42Z"
+      },
+      "tags": [
+        "gameplay",
+        "integration"
+      ],
+      "viewCount": 2013,
+      "installCount": 975
     },
     {
       "name": "Quantum Space Buddies",
@@ -175,7 +203,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 12490,
+      "downloadCount": 12492,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -434,7 +462,7 @@
       "description": "Mod for Outer Wilds allowing the game to continue while in background",
       "author": "lStewieAl",
       "downloadUrl": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause/releases/download/0.1.0/lStewieAl.RunInBackground.zip",
-      "downloadCount": 863,
+      "downloadCount": 864,
       "latestReleaseDate": "2021-11-11T21:29:26Z",
       "firstReleaseDate": "2021-11-11T21:29:26Z",
       "repo": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause",
@@ -512,6 +540,24 @@
       ],
       "viewCount": 28,
       "installCount": 192
+    },
+    {
+      "name": "NomaiVR FFR",
+      "uniqueName": "Artum.NomaiVRFoveated",
+      "description": "Uses HTC's FFR plugin to improve performance in NomaiVR on NVIDIA RTX cards",
+      "author": "artumino",
+      "parent": "Raicuparta.NomaiVR",
+      "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
+      "downloadCount": 7083,
+      "latestReleaseDate": "2022-04-21T21:50:28Z",
+      "firstReleaseDate": "2021-11-25T22:50:49Z",
+      "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
+      "version": "1.0.4",
+      "tags": [
+        "gameplay"
+      ],
+      "viewCount": 85,
+      "installCount": 417
     },
     {
       "name": "Static Camera",
@@ -693,7 +739,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.7.1/xen.NewHorizons.zip",
-      "downloadCount": 16117,
+      "downloadCount": 16118,
       "latestReleaseDate": "2022-10-21T01:42:07Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -741,7 +787,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.6.6/outer-wilds-real-solar-system.zip",
-      "downloadCount": 5408,
+      "downloadCount": 5409,
       "latestReleaseDate": "2022-09-20T04:59:20Z",
       "firstReleaseDate": "2021-12-19T01:26:21Z",
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
@@ -898,7 +944,7 @@
       "description": "A mod that allows you to edit your save file in Outer Wilds (spoilers for the base game)",
       "author": "Bwc9876",
       "downloadUrl": "https://github.com/Bwc9876/OW-SaveEditor/releases/download/0.7.0/Bwc9876.SaveEditor.zip",
-      "downloadCount": 1243,
+      "downloadCount": 1244,
       "latestReleaseDate": "2022-09-22T20:22:09Z",
       "firstReleaseDate": "2022-01-02T20:21:24Z",
       "repo": "https://github.com/Bwc9876/OW-SaveEditor",
@@ -1448,7 +1494,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.10.2/JohnCorby.VanillaFix.zip",
-      "downloadCount": 10895,
+      "downloadCount": 10896,
       "latestReleaseDate": "2022-10-01T04:44:36Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -1559,12 +1605,12 @@
       "description": "a solar system made with new horizons, will probably be updated",
       "author": "CreativeNameTxt",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/CreativeNameTxt/their-home-world/releases/download/v0.0.69/CreativeNameTxt.theirhomeworld.zip",
+      "downloadUrl": "https://github.com/CreativeNameTxt/their-home-world/releases/download/v0.0.71/CreativeNameTxt.theirhomeworld.zip",
       "downloadCount": 641,
-      "latestReleaseDate": "2022-04-25T15:19:24Z",
+      "latestReleaseDate": "2022-04-25T18:13:50Z",
       "firstReleaseDate": "2022-04-25T18:13:50Z",
       "repo": "https://github.com/CreativeNameTxt/their-home-world",
-      "version": "v0.0.69",
+      "version": "v0.0.71",
       "readme": {
         "htmlUrl": "https://github.com/CreativeNameTxt/their-home-world/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/CreativeNameTxt/their-home-world/main/README.md"
@@ -1598,12 +1644,12 @@
       "description": "Adds a almond system to the game",
       "author": "Zincinder",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Zincinder/almondsystem/releases/download/v0.1.1/almondsystem.zip",
+      "downloadUrl": "https://github.com/Zincinder/almondsystem/releases/download/v0.1.5/almondsystem.zip",
       "downloadCount": 521,
-      "latestReleaseDate": "2022-05-09T14:51:07Z",
+      "latestReleaseDate": "2022-05-11T14:10:09Z",
       "firstReleaseDate": "2022-04-12T00:32:21Z",
       "repo": "https://github.com/MellowSus/almondsystem",
-      "version": "v0.1.1",
+      "version": "v0.1.5",
       "readme": {
         "htmlUrl": "https://github.com/Zincinder/almondsystem/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Zincinder/almondsystem/main/README.md"
@@ -2283,7 +2329,7 @@
       "description": "All features are disabled by default. Enable the ones you want in the config menu.",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/QOLFixes/releases/download/v1.3.1/Owen013.QOLFixes.zip",
-      "downloadCount": 299,
+      "downloadCount": 300,
       "latestReleaseDate": "2022-10-19T21:38:05Z",
       "firstReleaseDate": "2022-05-23T15:52:47Z",
       "repo": "https://github.com/Owen013/QOLFixes",
@@ -2305,7 +2351,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
-      "downloadCount": 5170,
+      "downloadCount": 5171,
       "latestReleaseDate": "2022-10-22T15:26:44Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -3365,7 +3411,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.1/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 2556,
+      "downloadCount": 2557,
       "latestReleaseDate": "2022-10-26T04:07:09Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -3733,7 +3779,7 @@
       "description": "Outer Wilds mod that predicts and visualizes your future trajectory",
       "author": "SkutteOleg",
       "downloadUrl": "https://github.com/SkutteOleg/TrajectoryPrediction/releases/download/v0.6.4/OlegSkutte.TrajectoryPrediction.zip",
-      "downloadCount": 116,
+      "downloadCount": 117,
       "latestReleaseDate": "2022-11-21T05:11:45Z",
       "firstReleaseDate": "2022-11-16T12:54:19Z",
       "repo": "https://github.com/SkutteOleg/TrajectoryPrediction",
