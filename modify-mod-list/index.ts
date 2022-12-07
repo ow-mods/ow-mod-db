@@ -80,11 +80,11 @@ async function run() {
     newMod.parent = parent;
   }
 
-  if (utility) {
+  if (utility && utility !== "None") {
     newMod.utility = Boolean(utility);
   }
 
-  if (alpha) {
+  if (alpha && alpha !== "None") {
     newMod.alpha = Boolean(alpha);
   }
 
