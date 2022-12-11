@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Installer.exe",
-    "downloadCount": 95767
+    "downloadCount": 95774
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.8.0/OWML.zip",
-      "downloadCount": 77817,
+      "downloadCount": 77818,
       "latestReleaseDate": "2022-12-01T15:31:25Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -608,7 +608,7 @@
       "description": "Outer Wilds mod: gives the player night vision on Echoes of the Eye's dream world.",
       "author": "Heelio",
       "downloadUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/releases/download/0.1.1/Heelio.EotEBrighterDreams.zip",
-      "downloadCount": 3051,
+      "downloadCount": 3052,
       "latestReleaseDate": "2021-11-28T22:52:25Z",
       "firstReleaseDate": "2021-11-28T20:52:42Z",
       "repo": "https://github.com/Heelio/EotE-Brighter-Dreams",
@@ -739,7 +739,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.7.1/xen.NewHorizons.zip",
-      "downloadCount": 16319,
+      "downloadCount": 16320,
       "latestReleaseDate": "2022-10-21T01:42:07Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -809,7 +809,7 @@
       "author": "TitchMW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TitchMW/OWAtropos/releases/download/0.3.1/Titch.OWAtropos.zip",
-      "downloadCount": 2562,
+      "downloadCount": 2563,
       "latestReleaseDate": "2022-04-16T18:32:27Z",
       "firstReleaseDate": "2021-12-19T17:25:41Z",
       "repo": "https://github.com/TitchMW/OWAtropos",
@@ -1902,7 +1902,7 @@
       "description": "The dam on the stranger will no longer break!!",
       "author": "LikeMauro",
       "downloadUrl": "https://github.com/LikeMauro/NoDamBreak-Mod/releases/download/0.1.1/likemauro.nodambreak.zip",
-      "downloadCount": 266,
+      "downloadCount": 267,
       "latestReleaseDate": "2022-04-28T14:36:09Z",
       "firstReleaseDate": "2022-04-23T15:01:04Z",
       "repo": "https://github.com/LikeMauro/NoDamBreak-Mod",
@@ -2739,7 +2739,7 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 2399,
+      "downloadCount": 2400,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
@@ -3203,6 +3203,28 @@
       ],
       "viewCount": 21,
       "installCount": 66
+    },
+    {
+      "name": "Clear Glass",
+      "uniqueName": "clay.ClearGlass",
+      "description": "Makes some glass in the game clear",
+      "author": "FreezeDriedMangos",
+      "downloadUrl": "https://github.com/FreezeDriedMangos/ow-clear-glass/releases/download/1.0.0/clay.ClearGlass.zip",
+      "downloadCount": 181,
+      "latestReleaseDate": "2022-09-17T23:44:57Z",
+      "firstReleaseDate": "2022-09-17T23:44:57Z",
+      "repo": "https://github.com/FreezeDriedMangos/ow-clear-glass",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/FreezeDriedMangos/ow-clear-glass/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/FreezeDriedMangos/ow-clear-glass/master/README.md"
+      },
+      "authorDisplay": "clay",
+      "tags": [
+        "audiovisual"
+      ],
+      "viewCount": 23,
+      "installCount": 38
     },
     {
       "name": "Bhaptics Outer Wilds",
@@ -3916,7 +3938,7 @@
       "author": "Acamaeda",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Acamaeda/OuterWildsShortcut/releases/download/v0.1.0/OuterWildsShortcut.zip",
-      "downloadCount": 24,
+      "downloadCount": 27,
       "latestReleaseDate": "2022-12-06T21:46:35Z",
       "firstReleaseDate": "2022-12-06T21:46:35Z",
       "repo": "https://github.com/Acamaeda/OuterWildsShortcut",
