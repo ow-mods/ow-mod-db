@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Installer.exe",
-    "downloadCount": 96419
+    "downloadCount": 96420
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.8.0/OWML.zip",
-      "downloadCount": 78455,
+      "downloadCount": 78456,
       "latestReleaseDate": "2022-12-01T15:31:25Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -30,6 +30,34 @@
       ],
       "viewCount": 682,
       "installCount": 0
+    },
+    {
+      "name": "NomaiVR",
+      "uniqueName": "Raicuparta.NomaiVR",
+      "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
+      "author": "Raicuparta",
+      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
+      "downloadCount": 47220,
+      "latestReleaseDate": "2022-10-28T20:32:05Z",
+      "firstReleaseDate": "2020-01-06T20:41:19Z",
+      "repo": "https://github.com/Raicuparta/nomai-vr",
+      "version": "2.9.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Raicuparta/nomai-vr/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
+      },
+      "authorDisplay": "Raicuparta & Artum",
+      "prerelease": {
+        "version": "2.9.1-pre",
+        "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.1-pre/Raicuparta.NomaiVR.zip",
+        "date": "2022-10-28T20:34:42Z"
+      },
+      "tags": [
+        "gameplay",
+        "integration"
+      ],
+      "viewCount": 1690,
+      "installCount": 880
     },
     {
       "name": "Quantum Space Buddies",
@@ -1578,12 +1606,12 @@
       "description": "a solar system made with new horizons, will probably be updated",
       "author": "CreativeNameTxt",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/CreativeNameTxt/their-home-world/releases/download/v0.0.69/CreativeNameTxt.theirhomeworld.zip",
+      "downloadUrl": "https://github.com/CreativeNameTxt/their-home-world/releases/download/v0.0.71/CreativeNameTxt.theirhomeworld.zip",
       "downloadCount": 657,
-      "latestReleaseDate": "2022-04-25T15:19:24Z",
+      "latestReleaseDate": "2022-04-25T18:13:50Z",
       "firstReleaseDate": "2022-04-25T18:13:50Z",
       "repo": "https://github.com/CreativeNameTxt/their-home-world",
-      "version": "v0.0.69",
+      "version": "v0.0.71",
       "readme": {
         "htmlUrl": "https://github.com/CreativeNameTxt/their-home-world/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/CreativeNameTxt/their-home-world/main/README.md"
@@ -1617,12 +1645,12 @@
       "description": "Adds a almond system to the game",
       "author": "Zincinder",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Zincinder/almondsystem/releases/download/v0.1.1/almondsystem.zip",
+      "downloadUrl": "https://github.com/Zincinder/almondsystem/releases/download/v0.1.5/almondsystem.zip",
       "downloadCount": 531,
-      "latestReleaseDate": "2022-05-09T14:51:07Z",
+      "latestReleaseDate": "2022-05-11T14:10:09Z",
       "firstReleaseDate": "2022-04-12T00:32:21Z",
       "repo": "https://github.com/MellowSus/almondsystem",
-      "version": "v0.1.1",
+      "version": "v0.1.5",
       "readme": {
         "htmlUrl": "https://github.com/Zincinder/almondsystem/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Zincinder/almondsystem/main/README.md"
