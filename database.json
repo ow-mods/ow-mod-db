@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.16.3/OuterWildsModManager-Installer.exe",
-    "downloadCount": 97045
+    "downloadCount": 97046
   },
   "releases": [
     {
@@ -3996,6 +3996,28 @@
       ],
       "viewCount": 30,
       "installCount": 10
+    },
+    {
+      "name": "Outer Wilds en Andalûh",
+      "uniqueName": "VholyIQ.OuterWildsAndaluh",
+      "description": "Tradûççión de Outer Wilds en andalûh",
+      "author": "andergd",
+      "downloadUrl": "https://github.com/andergd/OuterWildsAndaluh/releases/download/v0.1.1/VholyIQ.OuterWildsAndaluh.zip",
+      "downloadCount": 8,
+      "latestReleaseDate": "2022-12-18T13:59:56Z",
+      "firstReleaseDate": "2022-12-15T18:55:47Z",
+      "repo": "https://github.com/andergd/OuterWildsAndaluh",
+      "version": "v0.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/andergd/OuterWildsAndaluh/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/andergd/OuterWildsAndaluh/master/README.md"
+      },
+      "authorDisplay": "Vholy IQ",
+      "tags": [
+        "localization"
+      ],
+      "viewCount": 19,
+      "installCount": 5
     },
     {
       "name": "Outer Pictures",
