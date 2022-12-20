@@ -60,10 +60,14 @@ async function run() {
     throw new Error("Invalid form format");
   }
 
-  const repo = repoUrl.match(/github\.com\/([^\/]+\/[^\/]+)\/?.*/)?.[1];
+  let repo = repoUrl.match(/github\.com\/([^\/]+\/[^\/]+)\/?.*/)?.[1];
 
   if (!repo) {
     throw new Error("Invalid repo URL " + repoUrl);
+  }
+
+  if (repo.endsWith(".git")) {
+    repo = repo.slice(0, -4); 
   }
 
   const modDb: ModDB = JSON.parse(core.getInput(Input.mods));
