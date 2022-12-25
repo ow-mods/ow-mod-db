@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 98407
+    "downloadCount": 98408
   },
   "releases": [
     {
@@ -2739,7 +2739,7 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 2446,
+      "downloadCount": 2447,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
@@ -4085,6 +4085,29 @@
       ],
       "viewCount": 9,
       "installCount": 5
+    },
+    {
+      "name": "Funny Christmas",
+      "uniqueName": "O32.FunnyChristmas",
+      "description": "What exactly is Christmas, and where did Snata Claus go? (note: takes place in the TT Twins system)",
+      "author": "RealOrbital32",
+      "parent": "O32.FunnySystem",
+      "downloadUrl": "https://github.com/RealOrbital32/funny-christmas/releases/download/1.0.0/O32.FunnyChristmas.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-12-25T23:10:05Z",
+      "firstReleaseDate": "2022-12-25T23:10:05Z",
+      "repo": "https://github.com/RealOrbital32/funny-christmas",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/funny-christmas/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/funny-christmas/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
+      "tags": [
+        "story"
+      ],
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
