@@ -32,11 +32,6 @@ function getCleanedUpModList(modList: Mod[]) {
   );
 }
 
-// Caution: this function needs to match the same one in the outerwildsmods.com repo.
-// This should probably just be saved in the database to avoid the double work.
-export const getModPathName = (modName: string) =>
-  modName.replace(/\W/g, "").toLowerCase();
-
 const measureTime = <T>(promise: Promise<T>, name: string) => {
   const initialTime = performance.now();
 
@@ -95,7 +90,7 @@ async function run() {
 
     const modListWithAnalytics = cleanedUpModList.map((mod) => ({
       ...mod,
-      viewCount: viewCounts[getModPathName(mod.name)] ?? 0,
+      viewCount: viewCounts[mod.slug] ?? 0,
       installCount: installCounts[mod.uniqueName] ?? 0,
     }));
 
