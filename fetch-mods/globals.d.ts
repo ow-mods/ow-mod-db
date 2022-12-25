@@ -1,5 +1,5 @@
 type ModDB = {
-  $schema: string
+  $schema: string;
   mods: ModInfo[];
 };
 
@@ -24,6 +24,7 @@ type Release = {
 interface Mod extends Release {
   name: string;
   uniqueName: string;
+  slug: string;
   description: string;
   author: string;
   repo: string;
