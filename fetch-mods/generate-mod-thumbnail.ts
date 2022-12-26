@@ -13,16 +13,16 @@ export const generateModThumbnail = async (
   modUniqueName: string,
   readmeUrl: string,
   outputDirectory: string
-) => {
+): Promise<boolean> => {
   const readme = await getModReadme(readmeUrl);
 
   if (!readme) {
-    return;
+    return false;
   }
 
   const firstImageUrl = getFirstImageUrl(readme, getRawContentUrl(readmeUrl));
 
-  if (firstImageUrl == null) return;
+  if (firstImageUrl == null) return false;
 
   const rawImageFilePath = await downloadImage(firstImageUrl, modUniqueName);
 
@@ -30,7 +30,7 @@ export const generateModThumbnail = async (
     console.log(
       `Failed to download image ${firstImageUrl} for mod ${modUniqueName}`
     );
-    return;
+    return false;
   }
 
   const sharpImage = sharp(rawImageFilePath, {
@@ -50,6 +50,8 @@ export const generateModThumbnail = async (
 
   const optimizedImagePath = path.join(fileOutputDir, `${modUniqueName}.webp`);
   const resizedImage = await resizedSharpImage.toFile(optimizedImagePath);
+
+  return resizedImage != null;
 };
 
 export const getModReadme = async (url: string): Promise<string | null> => {

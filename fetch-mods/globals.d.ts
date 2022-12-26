@@ -47,4 +47,5 @@ interface Mod extends Release {
     date: string;
   };
   tags: string[];
+  hasThumbnail: boolean;
 }

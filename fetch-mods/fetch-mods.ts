@@ -44,13 +44,14 @@ export async function fetchMods(modsJson: string, outputDirectory: string) {
 
         const readme = await getReadme();
 
-        if (readme && readme.downloadUrl) {
-          generateModThumbnail(
+        const hasThumbnail =
+          readme !== undefined &&
+          readme.downloadUrl !== undefined &&
+          (await generateModThumbnail(
             modInfo.uniqueName,
             readme.downloadUrl,
             outputDirectory
-          );
-        }
+          ));
 
         const fullReleaseList = (
           await octokit.paginate(octokit.rest.repos.listReleases, {
@@ -128,6 +129,7 @@ export async function fetchMods(modsJson: string, outputDirectory: string) {
           modInfo,
           readme,
           latestRelease,
+          hasThumbnail,
         };
       } catch (error) {
         console.log("Error reading mod info", error);
@@ -166,6 +168,7 @@ export async function fetchMods(modsJson: string, outputDirectory: string) {
         releaseList,
         prereleaseList,
         readme,
+        hasThumbnail,
       }) => {
         try {
           const releases = getCleanedUpReleaseList(releaseList);
@@ -228,6 +231,7 @@ export async function fetchMods(modsJson: string, outputDirectory: string) {
               : undefined,
             tags: modInfo.tags,
             slug: modInfo.name.replace(/\W/g, "").toLowerCase(),
+            hasThumbnail,
           };
 
           return mod;
