@@ -17,9 +17,11 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
+
       - uses: actions/setup-node@v3
         with:
           node-version: "16"
+
       - name: Cache pnpm modules
         uses: actions/cache@v3
         with:
@@ -27,17 +29,28 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-
+
       - uses: pnpm/action-setup@v2
         with:
           version: 6.23.6
           run_install: true
+
       - name: Build
         run: |
           cd fetch-mods
           pnpm run build
+
       - name: Get local Mod Database file
         id: local-mods
         run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
+
+      - name: Checkout database repo
+        uses: actions/checkout@v3
+        with:
+          ref: master
+          fetch-depth: 0
+          path: database
+
       - name: Fetch mod releases and manifests
         id: fetch-mods
         uses: ./fetch-mods
@@ -45,22 +58,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           mods: "${{ env.mods_output }}"
-          out-file: "database.json"
+          out-directory: database
           discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
           discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"
           discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
-      - run: mv database.json ..
-      - uses: actions/checkout@v3
-        with:
-          ref: "master"
-          fetch-depth: 0
-      - run: cp ../database.json .
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: "master"
-          file_pattern: "database.json"
           commit_message: Update mod database
           commit_user_name: Outer Wilds Mod Database
           commit_user_email: database@outerwildsmods.com

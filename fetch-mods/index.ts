@@ -1,4 +1,7 @@
 import * as core from "@actions/core";
+import fs, { promises as fsp, writeFile } from "fs";
+import path from "path";
+
 import { sendDiscordNotifications } from "./send-discord-notifications";
 import { fetchMods } from "./fetch-mods";
 import { getDiff } from "./get-diff";
@@ -7,13 +10,11 @@ import { fetchModManager } from "./fetch-mod-manager";
 import { toJsonString } from "./to-json-string";
 import { getViewCounts } from "./get-view-counts";
 import { getInstallCounts } from "./get-install-counts";
-
-import { writeFile } from "fs";
 import { getSettledResult } from "./promises";
 import { rateLimitReached } from "./get-octokit";
 
 enum Input {
-  outFile = "out-file",
+  outDirectory = "out-directory",
   mods = "mods",
   discordHookUrl = "discord-hook-url",
   discordModUpdateRoleId = "discord-mod-update-role-id",
@@ -47,7 +48,10 @@ const measureTime = <T>(promise: Promise<T>, name: string) => {
 async function getAsyncStuff() {
   const promises = [
     measureTime(fetchModManager(), "fetchModManager"),
-    measureTime(fetchMods(core.getInput(Input.mods)), "fetchMods"),
+    measureTime(
+      fetchMods(core.getInput(Input.mods), core.getInput(Input.outDirectory)),
+      "fetchMods"
+    ),
     measureTime(
       getViewCounts(core.getInput(Input.googleServiceAccount)),
       "getViewCounts"
@@ -107,13 +111,19 @@ async function run() {
       core.setOutput(Output.releases, databaseJson);
     }
 
-    const outputFilePath = core.getInput(Input.outFile);
+    const outputDirectoryPath = core.getInput(Input.outDirectory);
 
-    if (outputFilePath) {
-      writeFile(outputFilePath, databaseJson, (error) => {
-        if (error) console.log("Error Saving To File:", error);
-      });
+    if (!fs.existsSync(outputDirectoryPath)) {
+      await fsp.mkdir(outputDirectoryPath, { recursive: true });
     }
+
+    writeFile(
+      path.join(outputDirectoryPath, "database.json"),
+      databaseJson,
+      (error) => {
+        if (error) console.log("Error Saving To File:", error);
+      }
+    );
 
     const discordHookUrl = core.getInput(Input.discordHookUrl);
 

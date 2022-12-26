@@ -1,3 +1,4 @@
+import { generateModThumbnail } from "./generate-mod-thumbnail";
 import { getOctokit } from "./get-octokit";
 import { filterFulfilledPromiseSettleResults } from "./promises";
 
@@ -9,7 +10,7 @@ const downloadCountOffsets: { [key: string]: number } = {
   "Jammer.jammerlore": 373,
 };
 
-export async function fetchMods(modsJson: string) {
+export async function fetchMods(modsJson: string, outputDirectory: string) {
   const modDb: ModDB = JSON.parse(modsJson);
   const modInfos = modDb.mods;
   const octokit = getOctokit();
@@ -42,6 +43,14 @@ export async function fetchMods(modsJson: string) {
         };
 
         const readme = await getReadme();
+
+        if (readme && readme.downloadUrl) {
+          generateModThumbnail(
+            modInfo.uniqueName,
+            readme.downloadUrl,
+            outputDirectory
+          );
+        }
 
         const fullReleaseList = (
           await octokit.paginate(octokit.rest.repos.listReleases, {
