@@ -2,6 +2,7 @@ import { Parser } from "commonmark";
 import sharp from "sharp";
 import fs, { promises as fsp } from "fs";
 import path from "path";
+import fetch from "node-fetch";
 
 export const thumbnailSize = {
   width: 300,
@@ -10,10 +11,16 @@ export const thumbnailSize = {
 
 export const generateModThumbnail = async (
   modUniqueName: string,
-  outputDirectory: string,
-  readme: string
+  readmeUrl: string,
+  outputDirectory: string
 ) => {
-  const firstImageUrl = getFirstImageUrl(readme);
+  const readme = await getModReadme(readmeUrl);
+
+  if (!readme) {
+    return;
+  }
+
+  const firstImageUrl = getFirstImageUrl(readme, getRawContentUrl(readmeUrl));
 
   if (firstImageUrl == null) return;
 
@@ -31,12 +38,7 @@ export const generateModThumbnail = async (
     limitInputPixels: false,
   });
 
-  const fileOutputDir = "thumbnails";
-  const optimizedImagePath = path.join(
-    outputDirectory,
-    fileOutputDir,
-    `${modUniqueName}.webp`
-  );
+  const fileOutputDir = getPath(path.join(outputDirectory, "thumbnails"));
 
   if (!fs.existsSync(fileOutputDir)) {
     await fsp.mkdir(fileOutputDir, { recursive: true });
@@ -46,13 +48,25 @@ export const generateModThumbnail = async (
     .resize({ ...thumbnailSize, fit: "cover" })
     .webp({ smartSubsample: true });
 
+  const optimizedImagePath = path.join(fileOutputDir, `${modUniqueName}.webp`);
   const resizedImage = await resizedSharpImage.toFile(optimizedImagePath);
+};
+
+export const getModReadme = async (url: string): Promise<string | null> => {
+  const response = await fetch(url);
+  return response.status === 200 ? response.text() : null;
 };
 
 const getPath = (relativePath: string) =>
   path.join(process.cwd(), relativePath);
 
-export const getFirstImageUrl = (markdown: string): string | null => {
+export const getRawContentUrl = (readmeUrl: string) =>
+  readmeUrl.replace(/\/(?!.*\/).+/, "");
+
+export const getFirstImageUrl = (
+  markdown: string,
+  baseUrl: string
+): string | null => {
   if (!markdown) return null;
 
   const parsed = new Parser().parse(markdown);
@@ -62,7 +76,18 @@ export const getFirstImageUrl = (markdown: string): string | null => {
     const node = event.node;
     // TODO ignore SVG?
     if (node.type === "image" && node.destination) {
-      return node.destination;
+      const imageUrl = node.destination;
+
+      const fullUrl = imageUrl.startsWith("http")
+        ? // GitHub allows embedding images that actually point to webpages on github.com, so we have to replace the URLs here
+          imageUrl.replace(
+            /^https?:\/\/github.com\/(.+)\/(.+)\/blob\/(.+)\//gm,
+            "https://raw.githubusercontent.com/$1/$2/$3/"
+          )
+        : // For relative URLs we also have to resolve them
+          `${baseUrl}/${imageUrl}`;
+
+      return fullUrl;
     }
   }
 
