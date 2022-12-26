@@ -75,7 +75,11 @@ export const getFirstImageUrl = (
   while ((event = walker.next())) {
     const node = event.node;
     // TODO ignore SVG?
-    if (node.type === "image" && node.destination) {
+    if (
+      node.type === "image" &&
+      node.destination &&
+      !node.destination.endsWith(".svg")
+    ) {
       const imageUrl = node.destination;
 
       const fullUrl = imageUrl.startsWith("http")
