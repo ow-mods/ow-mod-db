@@ -51,7 +51,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           mods: "${{ env.mods_output }}"
-          out-file: "database.json"
+          out-directory: output
           discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
           discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"
           discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"
