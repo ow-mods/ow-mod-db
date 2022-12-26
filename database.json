@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 80094,
+      "downloadCount": 80096,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -38,7 +38,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 47824,
+      "downloadCount": 47825,
       "latestReleaseDate": "2022-10-28T20:32:05Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -211,7 +211,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 13603,
+      "downloadCount": 13604,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -2077,7 +2077,7 @@
       "description": "Triggers a supernova when you press \"N\".",
       "author": "QuentinGruber",
       "downloadUrl": "https://github.com/QuentinGruber/SupernovaOnDemand/releases/download/1.0.0/Kentin.SupernovaOnDemand.zip",
-      "downloadCount": 506,
+      "downloadCount": 507,
       "latestReleaseDate": "2022-04-29T13:06:53Z",
       "firstReleaseDate": "2022-04-29T13:06:53Z",
       "repo": "https://github.com/QuentinGruber/SupernovaOnDemand",
@@ -3831,7 +3831,7 @@
       "description": "Replaces the Stranger's gravity fields with spin gravity.",
       "author": "Komodo5197",
       "downloadUrl": "https://github.com/Komodo5197/StrangerSpinGravity/releases/download/v1.1.0/Komodo.StrangerSpinGravity.zip",
-      "downloadCount": 79,
+      "downloadCount": 80,
       "latestReleaseDate": "2022-11-09T06:55:02Z",
       "firstReleaseDate": "2022-11-08T08:00:21Z",
       "repo": "https://github.com/Komodo5197/StrangerSpinGravity",
@@ -4294,6 +4294,29 @@
       "slug": "funnychristmas",
       "viewCount": 0,
       "installCount": 1
+    },
+    {
+      "name": "Enable Meditation",
+      "uniqueName": "xen.EnableMeditation",
+      "description": "Always be able to meditate to the next loop.",
+      "author": "xen-42",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-meditation/releases/download/1.0.0/xen.EnableMeditation.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-12-26T19:48:51Z",
+      "firstReleaseDate": "2022-12-26T19:48:51Z",
+      "repo": "https://github.com/xen-42/outer-wilds-meditation",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-meditation/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-meditation/main/README.md"
+      },
+      "authorDisplay": "xen",
+      "tags": [
+        "tweaks"
+      ],
+      "slug": "enablemeditation",
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
