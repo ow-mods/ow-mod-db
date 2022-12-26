@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 98676
+    "downloadCount": 98688
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 80149,
+      "downloadCount": 80164,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -29,6 +29,7 @@
         "library"
       ],
       "slug": "owml",
+      "hasThumbnail": true,
       "viewCount": 722,
       "installCount": 0
     },
@@ -38,7 +39,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 47831,
+      "downloadCount": 47838,
       "latestReleaseDate": "2022-10-28T20:32:05Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -58,8 +59,9 @@
         "integration"
       ],
       "slug": "nomaivr",
+      "hasThumbnail": true,
       "viewCount": 1790,
-      "installCount": 1005
+      "installCount": 1008
     },
     {
       "name": "Quantum Space Buddies",
@@ -67,7 +69,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.23.0/QSB.zip",
-      "downloadCount": 21587,
+      "downloadCount": 21588,
       "latestReleaseDate": "2022-12-03T11:26:54Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -86,8 +88,9 @@
         "integration"
       ],
       "slug": "quantumspacebuddies",
+      "hasThumbnail": true,
       "viewCount": 1879,
-      "installCount": 762
+      "installCount": 768
     },
     {
       "name": "Light Bramble",
@@ -108,8 +111,9 @@
         "audiovisual"
       ],
       "slug": "lightbramble",
+      "hasThumbnail": true,
       "viewCount": 1004,
-      "installCount": 224
+      "installCount": 225
     },
     {
       "name": "FreeCam",
@@ -130,8 +134,9 @@
         "tool"
       ],
       "slug": "freecam",
+      "hasThumbnail": true,
       "viewCount": 99,
-      "installCount": 99
+      "installCount": 100
     },
     {
       "name": "Crouch Mod",
@@ -152,6 +157,7 @@
         "gameplay"
       ],
       "slug": "crouchmod",
+      "hasThumbnail": false,
       "viewCount": 8,
       "installCount": 39
     },
@@ -161,7 +167,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.7.0/release.zip",
-      "downloadCount": 8396,
+      "downloadCount": 8398,
       "latestReleaseDate": "2022-03-23T11:03:42Z",
       "firstReleaseDate": "2020-09-20T09:43:23Z",
       "repo": "https://github.com/clubby789/OWClock",
@@ -179,8 +185,9 @@
         "tool"
       ],
       "slug": "clock",
+      "hasThumbnail": true,
       "viewCount": 111,
-      "installCount": 222
+      "installCount": 223
     },
     {
       "name": "HD Screenshot",
@@ -201,6 +208,7 @@
         "tool"
       ],
       "slug": "hdscreenshot",
+      "hasThumbnail": true,
       "viewCount": 8,
       "installCount": 18
     },
@@ -224,8 +232,9 @@
         "library"
       ],
       "slug": "menuframework",
+      "hasThumbnail": false,
       "viewCount": 138,
-      "installCount": 186
+      "installCount": 188
     },
     {
       "name": "ScoutStreaming",
@@ -246,6 +255,7 @@
         "gameplay"
       ],
       "slug": "scoutstreaming",
+      "hasThumbnail": true,
       "viewCount": 47,
       "installCount": 138
     },
@@ -268,6 +278,7 @@
         "audiovisual"
       ],
       "slug": "vespersassortedouterwildsshaders",
+      "hasThumbnail": true,
       "viewCount": 29,
       "installCount": 28
     },
@@ -295,6 +306,7 @@
         "gameplay"
       ],
       "slug": "outerwildsonline",
+      "hasThumbnail": true,
       "viewCount": 209,
       "installCount": 162
     },
@@ -317,8 +329,9 @@
         "tool"
       ],
       "slug": "cheatanddebugmenu",
+      "hasThumbnail": false,
       "viewCount": 151,
-      "installCount": 85
+      "installCount": 86
     },
     {
       "name": "Cheats Mod",
@@ -339,6 +352,7 @@
         "tool"
       ],
       "slug": "cheatsmod",
+      "hasThumbnail": false,
       "viewCount": 310,
       "installCount": 296
     },
@@ -361,6 +375,7 @@
         "gameplay"
       ],
       "slug": "difficultymod",
+      "hasThumbnail": false,
       "viewCount": 20,
       "installCount": 19
     },
@@ -383,6 +398,7 @@
         "gameplay"
       ],
       "slug": "peacefulghosts",
+      "hasThumbnail": false,
       "viewCount": 39,
       "installCount": 63
     },
@@ -405,6 +421,7 @@
         "gameplay"
       ],
       "slug": "slowtime",
+      "hasThumbnail": false,
       "viewCount": 41,
       "installCount": 73
     },
@@ -414,7 +431,7 @@
       "description": "Outer Wilds Keyboard Smooth Thrust",
       "author": "TAImatem",
       "downloadUrl": "https://github.com/TAImatem/OW_SmoothThrust/releases/download/v2.0.1/OW_SmoothThrust.zip",
-      "downloadCount": 4557,
+      "downloadCount": 4558,
       "latestReleaseDate": "2021-11-02T18:03:27Z",
       "firstReleaseDate": "2020-04-14T11:33:05Z",
       "repo": "https://github.com/TAImatem/OW_SmoothThrust",
@@ -427,6 +444,7 @@
         "gameplay"
       ],
       "slug": "owsmooththrust",
+      "hasThumbnail": false,
       "viewCount": 18,
       "installCount": 38
     },
@@ -449,6 +467,7 @@
         "gameplay"
       ],
       "slug": "randomizer",
+      "hasThumbnail": true,
       "viewCount": 83,
       "installCount": 70
     },
@@ -473,6 +492,7 @@
         "library"
       ],
       "slug": "pacificenginescommonresources",
+      "hasThumbnail": false,
       "viewCount": 24,
       "installCount": 34
     },
@@ -495,6 +515,7 @@
         "tweaks"
       ],
       "slug": "noalttabpause",
+      "hasThumbnail": false,
       "viewCount": 7,
       "installCount": 36
     },
@@ -517,6 +538,7 @@
         "audiovisual"
       ],
       "slug": "echoesofthecaribbean",
+      "hasThumbnail": true,
       "viewCount": 14,
       "installCount": 7
     },
@@ -539,6 +561,7 @@
         "gameplay"
       ],
       "slug": "thirdpersoncamera",
+      "hasThumbnail": true,
       "viewCount": 142,
       "installCount": 72
     },
@@ -562,8 +585,9 @@
         "tweaks"
       ],
       "slug": "nomaivronlinepatches",
+      "hasThumbnail": false,
       "viewCount": 17,
-      "installCount": 189
+      "installCount": 190
     },
     {
       "name": "NomaiVR FFR",
@@ -572,7 +596,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 7418,
+      "downloadCount": 7420,
       "latestReleaseDate": "2022-04-21T21:50:28Z",
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
@@ -581,8 +605,9 @@
         "gameplay"
       ],
       "slug": "nomaivrffr",
+      "hasThumbnail": false,
       "viewCount": 120,
-      "installCount": 399
+      "installCount": 401
     },
     {
       "name": "Static Camera",
@@ -603,6 +628,7 @@
         "tool"
       ],
       "slug": "staticcamera",
+      "hasThumbnail": true,
       "viewCount": 11,
       "installCount": 16
     },
@@ -626,8 +652,9 @@
         "audiovisual"
       ],
       "slug": "daydream",
+      "hasThumbnail": true,
       "viewCount": 46,
-      "installCount": 58
+      "installCount": 59
     },
     {
       "name": "EotE Brighter Dreams",
@@ -648,8 +675,9 @@
         "audiovisual"
       ],
       "slug": "eotebrighterdreams",
+      "hasThumbnail": true,
       "viewCount": 274,
-      "installCount": 168
+      "installCount": 169
     },
     {
       "name": "Unity Explorer",
@@ -675,6 +703,7 @@
         "tool"
       ],
       "slug": "unityexplorer",
+      "hasThumbnail": true,
       "viewCount": 137,
       "installCount": 39
     },
@@ -697,6 +726,7 @@
         "audiovisual"
       ],
       "slug": "halflifeoverhaul",
+      "hasThumbnail": true,
       "viewCount": 21,
       "installCount": 18
     },
@@ -719,6 +749,7 @@
         "tweaks"
       ],
       "slug": "autoresume",
+      "hasThumbnail": false,
       "viewCount": 16,
       "installCount": 19
     },
@@ -741,6 +772,7 @@
         "audiovisual"
       ],
       "slug": "outerthomasechoesofthetankengine",
+      "hasThumbnail": true,
       "viewCount": 22,
       "installCount": 25
     },
@@ -763,6 +795,7 @@
         "audiovisual"
       ],
       "slug": "majorasmasksmoon",
+      "hasThumbnail": true,
       "viewCount": 15,
       "installCount": 24
     },
@@ -772,7 +805,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.8.0/xen.NewHorizons.Release.zip",
-      "downloadCount": 16973,
+      "downloadCount": 16974,
       "latestReleaseDate": "2022-12-12T23:15:56Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -788,8 +821,9 @@
         "story"
       ],
       "slug": "newhorizons",
+      "hasThumbnail": true,
       "viewCount": 855,
-      "installCount": 336
+      "installCount": 337
     },
     {
       "name": "New Horizons Examples",
@@ -812,8 +846,9 @@
         "content"
       ],
       "slug": "newhorizonsexamples",
+      "hasThumbnail": true,
       "viewCount": 88,
-      "installCount": 78
+      "installCount": 79
     },
     {
       "name": "Real Solar System",
@@ -822,7 +857,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.6.6/outer-wilds-real-solar-system.zip",
-      "downloadCount": 5610,
+      "downloadCount": 5611,
       "latestReleaseDate": "2022-09-20T04:59:20Z",
       "firstReleaseDate": "2021-12-19T01:26:21Z",
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
@@ -835,8 +870,9 @@
         "content"
       ],
       "slug": "realsolarsystem",
+      "hasThumbnail": true,
       "viewCount": 359,
-      "installCount": 190
+      "installCount": 191
     },
     {
       "name": "Atropos",
@@ -845,7 +881,7 @@
       "author": "TitchMW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TitchMW/OWAtropos/releases/download/0.3.1/Titch.OWAtropos.zip",
-      "downloadCount": 2619,
+      "downloadCount": 2620,
       "latestReleaseDate": "2022-04-16T18:32:27Z",
       "firstReleaseDate": "2021-12-19T17:25:41Z",
       "repo": "https://github.com/TitchMW/OWAtropos",
@@ -858,8 +894,9 @@
         "content"
       ],
       "slug": "atropos",
+      "hasThumbnail": true,
       "viewCount": 115,
-      "installCount": 94
+      "installCount": 95
     },
     {
       "name": "ElliePlanets!",
@@ -881,8 +918,9 @@
         "content"
       ],
       "slug": "ellieplanets",
+      "hasThumbnail": true,
       "viewCount": 17,
-      "installCount": 31
+      "installCount": 32
     },
     {
       "name": "Smol Hatchling",
@@ -903,6 +941,7 @@
         "gameplay"
       ],
       "slug": "smolhatchling",
+      "hasThumbnail": true,
       "viewCount": 29,
       "installCount": 34
     },
@@ -930,6 +969,7 @@
         "gameplay"
       ],
       "slug": "hikersmod",
+      "hasThumbnail": true,
       "viewCount": 36,
       "installCount": 62
     },
@@ -954,8 +994,9 @@
         "content"
       ],
       "slug": "outerwildsgalaxy",
+      "hasThumbnail": true,
       "viewCount": 101,
-      "installCount": 85
+      "installCount": 87
     },
     {
       "name": "Signals+",
@@ -977,6 +1018,7 @@
         "content"
       ],
       "slug": "signals",
+      "hasThumbnail": true,
       "viewCount": 49,
       "installCount": 61
     },
@@ -999,8 +1041,9 @@
         "tool"
       ],
       "slug": "saveeditor",
+      "hasThumbnail": false,
       "viewCount": 104,
-      "installCount": 36
+      "installCount": 37
     },
     {
       "name": "Meteor Launching",
@@ -1021,6 +1064,7 @@
         "gameplay"
       ],
       "slug": "meteorlaunching",
+      "hasThumbnail": true,
       "viewCount": 43,
       "installCount": 43
     },
@@ -1043,6 +1087,7 @@
         "gameplay"
       ],
       "slug": "slatesimulator",
+      "hasThumbnail": true,
       "viewCount": 29,
       "installCount": 12
     },
@@ -1066,6 +1111,7 @@
         "content"
       ],
       "slug": "tardisfromdoctorwho",
+      "hasThumbnail": true,
       "viewCount": 54,
       "installCount": 36
     },
@@ -1094,8 +1140,9 @@
         "content"
       ],
       "slug": "solarneighbourhood",
+      "hasThumbnail": true,
       "viewCount": 146,
-      "installCount": 104
+      "installCount": 105
     },
     {
       "name": "Vanilla Main Menu",
@@ -1116,6 +1163,7 @@
         "audiovisual"
       ],
       "slug": "vanillamainmenu",
+      "hasThumbnail": false,
       "viewCount": 6,
       "installCount": 10
     },
@@ -1138,8 +1186,9 @@
         "localization"
       ],
       "slug": "outerwildskoreantranslation",
+      "hasThumbnail": false,
       "viewCount": 265,
-      "installCount": 286
+      "installCount": 290
     },
     {
       "name": "Astroneer Solar System",
@@ -1161,8 +1210,9 @@
         "content"
       ],
       "slug": "astroneersolarsystem",
+      "hasThumbnail": true,
       "viewCount": 36,
-      "installCount": 54
+      "installCount": 55
     },
     {
       "name": "Black Hole Portal Gun",
@@ -1183,6 +1233,7 @@
         "gameplay"
       ],
       "slug": "blackholeportalgun",
+      "hasThumbnail": true,
       "viewCount": 37,
       "installCount": 60
     },
@@ -1205,6 +1256,7 @@
         "audiovisual"
       ],
       "slug": "outerwarioechoesofthewaaaaaaaaaaah",
+      "hasThumbnail": true,
       "viewCount": 15,
       "installCount": 24
     },
@@ -1227,6 +1279,7 @@
         "tool"
       ],
       "slug": "suicidemod",
+      "hasThumbnail": false,
       "viewCount": 23,
       "installCount": 45
     },
@@ -1249,6 +1302,7 @@
         "audiovisual"
       ],
       "slug": "outerwildsmusicplayer",
+      "hasThumbnail": true,
       "viewCount": 23,
       "installCount": 41
     },
@@ -1271,6 +1325,7 @@
         "tool"
       ],
       "slug": "collidervisualizer",
+      "hasThumbnail": true,
       "viewCount": 4,
       "installCount": 9
     },
@@ -1294,6 +1349,7 @@
         "tool"
       ],
       "slug": "archaeologistachievementhelper",
+      "hasThumbnail": true,
       "viewCount": 96,
       "installCount": 123
     },
@@ -1317,6 +1373,7 @@
         "content"
       ],
       "slug": "enterthewarioverse",
+      "hasThumbnail": true,
       "viewCount": 34,
       "installCount": 47
     },
@@ -1326,7 +1383,7 @@
       "description": "",
       "author": "mrmeep321",
       "downloadUrl": "https://github.com/mrmeep321/21stCenturyAnglerfish/releases/download/v1.1.0/21stCenturyAnglerfish.zip",
-      "downloadCount": 1032,
+      "downloadCount": 1033,
       "latestReleaseDate": "2022-01-21T19:10:18Z",
       "firstReleaseDate": "2022-01-21T17:29:54Z",
       "repo": "https://github.com/mrmeep321/21stCenturyAnglerfish",
@@ -1339,6 +1396,7 @@
         "audiovisual"
       ],
       "slug": "21stcenturyanglerfish",
+      "hasThumbnail": false,
       "viewCount": 75,
       "installCount": 46
     },
@@ -1362,8 +1420,9 @@
         "content"
       ],
       "slug": "medleyofplanets",
+      "hasThumbnail": true,
       "viewCount": 42,
-      "installCount": 51
+      "installCount": 52
     },
     {
       "name": "Outer Wilds Flyover",
@@ -1385,6 +1444,7 @@
         "gameplay"
       ],
       "slug": "outerwildsflyover",
+      "hasThumbnail": true,
       "viewCount": 16,
       "installCount": 20
     },
@@ -1408,6 +1468,7 @@
         "content"
       ],
       "slug": "incursionfinaldawn",
+      "hasThumbnail": true,
       "viewCount": 53,
       "installCount": 57
     },
@@ -1431,8 +1492,9 @@
         "content"
       ],
       "slug": "trappist1",
+      "hasThumbnail": true,
       "viewCount": 14,
-      "installCount": 32
+      "installCount": 33
     },
     {
       "name": "Input Demo Recorder",
@@ -1458,6 +1520,7 @@
         "tool"
       ],
       "slug": "inputdemorecorder",
+      "hasThumbnail": true,
       "viewCount": 8,
       "installCount": 2
     },
@@ -1480,6 +1543,7 @@
         "gameplay"
       ],
       "slug": "celestewilds",
+      "hasThumbnail": true,
       "viewCount": 26,
       "installCount": 32
     },
@@ -1508,8 +1572,9 @@
         "content"
       ],
       "slug": "grapefruit",
+      "hasThumbnail": true,
       "viewCount": 18,
-      "installCount": 33
+      "installCount": 34
     },
     {
       "name": "Visible Stranger",
@@ -1530,6 +1595,7 @@
         "audiovisual"
       ],
       "slug": "visiblestranger",
+      "hasThumbnail": true,
       "viewCount": 60,
       "installCount": 86
     },
@@ -1552,6 +1618,7 @@
         "gameplay"
       ],
       "slug": "hollodjustment",
+      "hasThumbnail": true,
       "viewCount": 5,
       "installCount": 7
     },
@@ -1574,8 +1641,9 @@
         "tweaks"
       ],
       "slug": "vanillafix",
+      "hasThumbnail": true,
       "viewCount": 239,
-      "installCount": 308
+      "installCount": 312
     },
     {
       "name": "Only Timber Hearth",
@@ -1602,6 +1670,7 @@
         "content"
       ],
       "slug": "onlytimberhearth",
+      "hasThumbnail": false,
       "viewCount": 7,
       "installCount": 8
     },
@@ -1624,6 +1693,7 @@
         "audiovisual"
       ],
       "slug": "titlescreenbugfix",
+      "hasThumbnail": true,
       "viewCount": 18,
       "installCount": 1
     },
@@ -1646,8 +1716,9 @@
         "content"
       ],
       "slug": "ghosttranslations",
+      "hasThumbnail": true,
       "viewCount": 167,
-      "installCount": 69
+      "installCount": 70
     },
     {
       "name": "Voice Acting Mod",
@@ -1655,7 +1726,7 @@
       "description": "The mod's not yet finished. All characters are fully voiced, but the files are currently being mixed to improve their quality and add environmental effects.",
       "author": "Krevace",
       "downloadUrl": "https://github.com/Krevace/ow-voice-mod/releases/download/0.4.2/Krevace.VoiceMod.zip",
-      "downloadCount": 2493,
+      "downloadCount": 2494,
       "latestReleaseDate": "2022-12-08T20:58:57Z",
       "firstReleaseDate": "2022-04-08T00:40:29Z",
       "repo": "https://github.com/Krevace/ow-voice-mod",
@@ -1669,6 +1740,7 @@
         "audiovisual"
       ],
       "slug": "voiceactingmod",
+      "hasThumbnail": true,
       "viewCount": 253,
       "installCount": 140
     },
@@ -1692,8 +1764,9 @@
         "content"
       ],
       "slug": "theirhomeworld",
+      "hasThumbnail": false,
       "viewCount": 20,
-      "installCount": 38
+      "installCount": 39
     },
     {
       "name": "Vengeful Cannon",
@@ -1710,6 +1783,7 @@
         "gameplay"
       ],
       "slug": "vengefulcannon",
+      "hasThumbnail": false,
       "viewCount": 14,
       "installCount": 11
     },
@@ -1733,8 +1807,9 @@
         "content"
       ],
       "slug": "almondsystem",
+      "hasThumbnail": true,
       "viewCount": 14,
-      "installCount": 32
+      "installCount": 33
     },
     {
       "name": "Persistant Marshmallow",
@@ -1755,6 +1830,7 @@
         "tweaks"
       ],
       "slug": "persistantmarshmallow",
+      "hasThumbnail": false,
       "viewCount": 4,
       "installCount": 10
     },
@@ -1777,6 +1853,7 @@
         "content"
       ],
       "slug": "emptyhollow",
+      "hasThumbnail": true,
       "viewCount": 14,
       "installCount": 11
     },
@@ -1800,8 +1877,9 @@
         "content"
       ],
       "slug": "interstellargargantua",
+      "hasThumbnail": true,
       "viewCount": 86,
-      "installCount": 68
+      "installCount": 69
     },
     {
       "name": "Jammer Lore",
@@ -1824,6 +1902,7 @@
         "content"
       ],
       "slug": "jammerlore",
+      "hasThumbnail": true,
       "viewCount": 22,
       "installCount": 23
     },
@@ -1846,6 +1925,7 @@
         "gameplay"
       ],
       "slug": "ghostbuster",
+      "hasThumbnail": true,
       "viewCount": 22,
       "installCount": 13
     },
@@ -1868,6 +1948,7 @@
         "gameplay"
       ],
       "slug": "opendoors",
+      "hasThumbnail": true,
       "viewCount": 22,
       "installCount": 19
     },
@@ -1890,6 +1971,7 @@
         "tool"
       ],
       "slug": "sleepmod",
+      "hasThumbnail": true,
       "viewCount": 5,
       "installCount": 9
     },
@@ -1912,6 +1994,7 @@
         "tweaks"
       ],
       "slug": "ghostmatternerf",
+      "hasThumbnail": true,
       "viewCount": 29,
       "installCount": 17
     },
@@ -1935,6 +2018,7 @@
         "integration"
       ],
       "slug": "addlivsupport",
+      "hasThumbnail": true,
       "viewCount": 26,
       "installCount": 88
     },
@@ -1957,6 +2041,7 @@
         "tool"
       ],
       "slug": "360camera",
+      "hasThumbnail": true,
       "viewCount": 3,
       "installCount": 8
     },
@@ -1979,6 +2064,7 @@
         "tweaks"
       ],
       "slug": "noend",
+      "hasThumbnail": true,
       "viewCount": 21,
       "installCount": 27
     },
@@ -2001,6 +2087,7 @@
         "tweaks"
       ],
       "slug": "nodambreak",
+      "hasThumbnail": true,
       "viewCount": 9,
       "installCount": 21
     },
@@ -2023,6 +2110,7 @@
         "tool"
       ],
       "slug": "altertime",
+      "hasThumbnail": false,
       "viewCount": 19,
       "installCount": 25
     },
@@ -2045,6 +2133,7 @@
         "tweaks"
       ],
       "slug": "survivethesupernova",
+      "hasThumbnail": true,
       "viewCount": 38,
       "installCount": 35
     },
@@ -2054,7 +2143,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1114,
+      "downloadCount": 1115,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2068,6 +2157,7 @@
         "tweaks"
       ],
       "slug": "achievements",
+      "hasThumbnail": true,
       "viewCount": 40,
       "installCount": 82
     },
@@ -2090,6 +2180,7 @@
         "tool"
       ],
       "slug": "supernovaondemand",
+      "hasThumbnail": true,
       "viewCount": 26,
       "installCount": 30
     },
@@ -2112,6 +2203,7 @@
         "audiovisual"
       ],
       "slug": "bigheads",
+      "hasThumbnail": true,
       "viewCount": 14,
       "installCount": 3
     },
@@ -2134,6 +2226,7 @@
         "tool"
       ],
       "slug": "bringmemyship",
+      "hasThumbnail": false,
       "viewCount": 12,
       "installCount": 52
     },
@@ -2157,6 +2250,7 @@
         "content"
       ],
       "slug": "arkosebugfix",
+      "hasThumbnail": true,
       "viewCount": 11,
       "installCount": 15
     },
@@ -2179,6 +2273,7 @@
         "tweaks"
       ],
       "slug": "woahwatchthoseframes",
+      "hasThumbnail": false,
       "viewCount": 7,
       "installCount": 10
     },
@@ -2202,6 +2297,7 @@
         "content"
       ],
       "slug": "timbertwin",
+      "hasThumbnail": true,
       "viewCount": 34,
       "installCount": 17
     },
@@ -2224,6 +2320,7 @@
         "tweaks"
       ],
       "slug": "togglevelocitymatching",
+      "hasThumbnail": true,
       "viewCount": 9,
       "installCount": 43
     },
@@ -2246,6 +2343,7 @@
         "tweaks"
       ],
       "slug": "timesaver",
+      "hasThumbnail": false,
       "viewCount": 34,
       "installCount": 52
     },
@@ -2269,6 +2367,7 @@
         "content"
       ],
       "slug": "changedtwins",
+      "hasThumbnail": true,
       "viewCount": 27,
       "installCount": 25
     },
@@ -2291,6 +2390,7 @@
         "audiovisual"
       ],
       "slug": "powerfailure",
+      "hasThumbnail": true,
       "viewCount": 40,
       "installCount": 29
     },
@@ -2313,6 +2413,7 @@
         "localization"
       ],
       "slug": "outerwildstraditionalchinesetranslation",
+      "hasThumbnail": true,
       "viewCount": 10,
       "installCount": 17
     },
@@ -2336,6 +2437,7 @@
         "content"
       ],
       "slug": "lesslonelyship",
+      "hasThumbnail": true,
       "viewCount": 78,
       "installCount": 35
     },
@@ -2359,6 +2461,7 @@
         "content"
       ],
       "slug": "cloudlessquantummoons",
+      "hasThumbnail": true,
       "viewCount": 23,
       "installCount": 32
     },
@@ -2382,6 +2485,7 @@
         "content"
       ],
       "slug": "backerssatellitesignal",
+      "hasThumbnail": true,
       "viewCount": 9,
       "installCount": 23
     },
@@ -2405,6 +2509,7 @@
         "gameplay"
       ],
       "slug": "suitlog",
+      "hasThumbnail": true,
       "viewCount": 47,
       "installCount": 81
     },
@@ -2427,6 +2532,7 @@
         "audiovisual"
       ],
       "slug": "hatchlingoutfitter",
+      "hasThumbnail": true,
       "viewCount": 19,
       "installCount": 12
     },
@@ -2449,6 +2555,7 @@
         "tweaks"
       ],
       "slug": "qualityoflifechanges",
+      "hasThumbnail": false,
       "viewCount": 30,
       "installCount": 27
     },
@@ -2459,7 +2566,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
-      "downloadCount": 5784,
+      "downloadCount": 5787,
       "latestReleaseDate": "2022-10-22T15:26:44Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -2472,6 +2579,7 @@
         "library"
       ],
       "slug": "commoncamerautility",
+      "hasThumbnail": true,
       "viewCount": 36,
       "installCount": 55
     },
@@ -2494,6 +2602,7 @@
         "gameplay"
       ],
       "slug": "bettermodelship",
+      "hasThumbnail": true,
       "viewCount": 34,
       "installCount": 58
     },
@@ -2517,6 +2626,7 @@
         "content"
       ],
       "slug": "cloudlessgiantsdeep",
+      "hasThumbnail": true,
       "viewCount": 15,
       "installCount": 29
     },
@@ -2539,6 +2649,7 @@
         "gameplay"
       ],
       "slug": "involuntaryblink",
+      "hasThumbnail": false,
       "viewCount": 7,
       "installCount": 7
     },
@@ -2562,6 +2673,7 @@
         "gameplay"
       ],
       "slug": "primitivelaunching",
+      "hasThumbnail": true,
       "viewCount": 5,
       "installCount": 15
     },
@@ -2584,6 +2696,7 @@
         "audiovisual"
       ],
       "slug": "alphatitlescreen",
+      "hasThumbnail": true,
       "viewCount": 8,
       "installCount": 3
     },
@@ -2606,6 +2719,7 @@
         "tool"
       ],
       "slug": "controllablestranger",
+      "hasThumbnail": false,
       "viewCount": 13,
       "installCount": 16
     },
@@ -2629,8 +2743,9 @@
         "content"
       ],
       "slug": "upsilonandromedae",
+      "hasThumbnail": true,
       "viewCount": 30,
-      "installCount": 17
+      "installCount": 18
     },
     {
       "name": "Fact Log",
@@ -2651,6 +2766,7 @@
         "tool"
       ],
       "slug": "factlog",
+      "hasThumbnail": true,
       "viewCount": 5,
       "installCount": 9
     },
@@ -2674,6 +2790,7 @@
         "content"
       ],
       "slug": "blackholesun",
+      "hasThumbnail": true,
       "viewCount": 21,
       "installCount": 28
     },
@@ -2697,6 +2814,7 @@
         "content"
       ],
       "slug": "nosun",
+      "hasThumbnail": true,
       "viewCount": 7,
       "installCount": 13
     },
@@ -2720,6 +2838,7 @@
         "content"
       ],
       "slug": "orderedorbits",
+      "hasThumbnail": true,
       "viewCount": 13,
       "installCount": 11
     },
@@ -2742,6 +2861,7 @@
         "gameplay"
       ],
       "slug": "shipremoteautopilot",
+      "hasThumbnail": false,
       "viewCount": 10,
       "installCount": 23
     },
@@ -2764,6 +2884,7 @@
         "gameplay"
       ],
       "slug": "blockplacing",
+      "hasThumbnail": true,
       "viewCount": 21,
       "installCount": 29
     },
@@ -2786,6 +2907,7 @@
         "localization"
       ],
       "slug": "czechlocalization",
+      "hasThumbnail": false,
       "viewCount": 3,
       "installCount": 1
     },
@@ -2809,8 +2931,9 @@
         "content"
       ],
       "slug": "carsonsystem",
+      "hasThumbnail": true,
       "viewCount": 25,
-      "installCount": 26
+      "installCount": 28
     },
     {
       "name": "Sound Test",
@@ -2831,6 +2954,7 @@
         "tool"
       ],
       "slug": "soundtest",
+      "hasThumbnail": false,
       "viewCount": 5,
       "installCount": 9
     },
@@ -2855,6 +2979,7 @@
         "localization"
       ],
       "slug": "interplanetarypolyglot",
+      "hasThumbnail": false,
       "viewCount": 10,
       "installCount": 1
     },
@@ -2873,6 +2998,7 @@
         "tool"
       ],
       "slug": "stoptime",
+      "hasThumbnail": false,
       "viewCount": 59,
       "installCount": 82
     },
@@ -2896,6 +3022,7 @@
         "audiovisual"
       ],
       "slug": "galaxyskyboxngc1087",
+      "hasThumbnail": true,
       "viewCount": 20,
       "installCount": 22
     },
@@ -2919,6 +3046,7 @@
         "audiovisual"
       ],
       "slug": "quantummoonorbitline",
+      "hasThumbnail": true,
       "viewCount": 8,
       "installCount": 10
     },
@@ -2941,6 +3069,7 @@
         "gameplay"
       ],
       "slug": "permadeathmode",
+      "hasThumbnail": true,
       "viewCount": 18,
       "installCount": 5
     },
@@ -2964,6 +3093,7 @@
         "content"
       ],
       "slug": "sunstationascension",
+      "hasThumbnail": true,
       "viewCount": 21,
       "installCount": 25
     },
@@ -2986,6 +3116,7 @@
         "integration"
       ],
       "slug": "discordrichpresence",
+      "hasThumbnail": true,
       "viewCount": 37,
       "installCount": 63
     },
@@ -3008,6 +3139,7 @@
         "gameplay"
       ],
       "slug": "artifactlaser",
+      "hasThumbnail": true,
       "viewCount": 21,
       "installCount": 28
     },
@@ -3030,6 +3162,7 @@
         "gameplay"
       ],
       "slug": "speedmodifierwalkbuttononkbm",
+      "hasThumbnail": true,
       "viewCount": 6,
       "installCount": 3
     },
@@ -3040,7 +3173,7 @@
       "author": "misternebula",
       "parent": "xen.AchievementTracker",
       "downloadUrl": "https://github.com/misternebula/cut-achievements/releases/download/1.0.0/CutAchievements.zip",
-      "downloadCount": 317,
+      "downloadCount": 318,
       "latestReleaseDate": "2022-08-23T22:28:07Z",
       "firstReleaseDate": "2022-08-23T22:28:07Z",
       "repo": "https://github.com/misternebula/cut-achievements",
@@ -3049,6 +3182,7 @@
         "content"
       ],
       "slug": "cutachievements",
+      "hasThumbnail": false,
       "viewCount": 23,
       "installCount": 52
     },
@@ -3058,7 +3192,7 @@
       "description": "Makes it so that the scout launcher can be charged for a farther launch.",
       "author": "coderCleric",
       "downloadUrl": "https://github.com/coderCleric/chargeable-scout/releases/download/v1.0.2/Cleric.ChargeableScout.zip",
-      "downloadCount": 238,
+      "downloadCount": 239,
       "latestReleaseDate": "2022-10-22T03:01:53Z",
       "firstReleaseDate": "2022-08-25T19:43:08Z",
       "repo": "https://github.com/coderCleric/chargeable-scout",
@@ -3071,6 +3205,7 @@
         "gameplay"
       ],
       "slug": "chargeablescoutlauncher",
+      "hasThumbnail": true,
       "viewCount": 5,
       "installCount": 12
     },
@@ -3093,6 +3228,7 @@
         "integration"
       ],
       "slug": "razersteelseriesrgbintegration",
+      "hasThumbnail": true,
       "viewCount": 7,
       "installCount": 11
     },
@@ -3115,6 +3251,7 @@
         "audiovisual"
       ],
       "slug": "europetimes",
+      "hasThumbnail": false,
       "viewCount": 2,
       "installCount": 19
     },
@@ -3139,6 +3276,7 @@
         "audiovisual"
       ],
       "slug": "hazydreams",
+      "hasThumbnail": false,
       "viewCount": 10,
       "installCount": 25
     },
@@ -3163,6 +3301,7 @@
         "library"
       ],
       "slug": "gizmoslibrary",
+      "hasThumbnail": false,
       "viewCount": 4,
       "installCount": 2
     },
@@ -3186,6 +3325,7 @@
         "content"
       ],
       "slug": "wackyrotations",
+      "hasThumbnail": true,
       "viewCount": 16,
       "installCount": 15
     },
@@ -3196,7 +3336,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.2/hearth1an.TheVision.zip",
-      "downloadCount": 5018,
+      "downloadCount": 5020,
       "latestReleaseDate": "2022-12-14T14:19:21Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -3211,6 +3351,7 @@
         "content"
       ],
       "slug": "thevision",
+      "hasThumbnail": true,
       "viewCount": 1191,
       "installCount": 350
     },
@@ -3235,8 +3376,9 @@
         "content"
       ],
       "slug": "secretwords",
+      "hasThumbnail": true,
       "viewCount": 60,
-      "installCount": 57
+      "installCount": 58
     },
     {
       "name": "Slate's Shipyard",
@@ -3245,7 +3387,7 @@
       "author": "ShoosGun",
       "utility": true,
       "downloadUrl": "https://github.com/ShoosGun/SlateShipyard/releases/download/v0.2.0/Locochoco.SlateShipyard.zip",
-      "downloadCount": 583,
+      "downloadCount": 584,
       "latestReleaseDate": "2022-11-23T01:40:01Z",
       "firstReleaseDate": "2022-09-08T19:44:51Z",
       "repo": "https://github.com/ShoosGun/SlateShipyard",
@@ -3267,6 +3409,7 @@
         "content"
       ],
       "slug": "slatesshipyard",
+      "hasThumbnail": true,
       "viewCount": 55,
       "installCount": 63
     },
@@ -3277,7 +3420,7 @@
       "author": "ShoosGun",
       "parent": "Locochoco.SlateShipyard",
       "downloadUrl": "https://github.com/ShoosGun/Spaceshipinha/releases/download/v0.1.8/Locochoco.Spaceshipinha.zip",
-      "downloadCount": 337,
+      "downloadCount": 338,
       "latestReleaseDate": "2022-11-23T01:39:54Z",
       "firstReleaseDate": "2022-09-08T20:00:48Z",
       "repo": "https://github.com/ShoosGun/Spaceshipinha",
@@ -3296,6 +3439,7 @@
         "gameplay"
       ],
       "slug": "spaceshipinha",
+      "hasThumbnail": true,
       "viewCount": 32,
       "installCount": 53
     },
@@ -3319,6 +3463,7 @@
         "gameplay"
       ],
       "slug": "doom",
+      "hasThumbnail": true,
       "viewCount": 133,
       "installCount": 87
     },
@@ -3329,7 +3474,7 @@
       "author": "ShoosGun",
       "parent": "Locochoco.SlateShipyard",
       "downloadUrl": "https://github.com/ShoosGun/CarExample/releases/download/v0.1.4/Locochoco.CarExample.zip",
-      "downloadCount": 275,
+      "downloadCount": 276,
       "latestReleaseDate": "2022-11-23T01:39:36Z",
       "firstReleaseDate": "2022-09-15T02:08:13Z",
       "repo": "https://github.com/ShoosGun/CarExample",
@@ -3348,6 +3493,7 @@
         "gameplay"
       ],
       "slug": "carexample",
+      "hasThumbnail": true,
       "viewCount": 14,
       "installCount": 47
     },
@@ -3371,6 +3517,7 @@
         "audiovisual"
       ],
       "slug": "clearglass",
+      "hasThumbnail": true,
       "viewCount": 22,
       "installCount": 28
     },
@@ -3394,6 +3541,7 @@
         "integration"
       ],
       "slug": "bhapticsouterwilds",
+      "hasThumbnail": false,
       "viewCount": 5,
       "installCount": 8
     },
@@ -3417,6 +3565,7 @@
         "content"
       ],
       "slug": "espiedserenity",
+      "hasThumbnail": true,
       "viewCount": 26,
       "installCount": 28
     },
@@ -3440,6 +3589,7 @@
         "audiovisual"
       ],
       "slug": "greenjetpack",
+      "hasThumbnail": true,
       "viewCount": 11,
       "installCount": 22
     },
@@ -3463,6 +3613,7 @@
         "tool"
       ],
       "slug": "secretsettings",
+      "hasThumbnail": false,
       "viewCount": 51,
       "installCount": 80
     },
@@ -3488,8 +3639,9 @@
         "story"
       ],
       "slug": "fretsquest",
+      "hasThumbnail": true,
       "viewCount": 354,
-      "installCount": 87
+      "installCount": 89
     },
     {
       "name": "Heavy Sleeper",
@@ -3511,6 +3663,7 @@
         "gameplay"
       ],
       "slug": "heavysleeper",
+      "hasThumbnail": false,
       "viewCount": 13,
       "installCount": 8
     },
@@ -3535,8 +3688,9 @@
         "content"
       ],
       "slug": "thefunniestsystem",
+      "hasThumbnail": true,
       "viewCount": 112,
-      "installCount": 55
+      "installCount": 56
     },
     {
       "name": "Scout Teleporter",
@@ -3558,6 +3712,7 @@
         "gameplay"
       ],
       "slug": "scoutteleporter",
+      "hasThumbnail": true,
       "viewCount": 29,
       "installCount": 56
     },
@@ -3568,7 +3723,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.1/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 3110,
+      "downloadCount": 3111,
       "latestReleaseDate": "2022-10-26T04:07:09Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -3582,6 +3737,7 @@
         "library"
       ],
       "slug": "customshiplogmodes",
+      "hasThumbnail": true,
       "viewCount": 24,
       "installCount": 36
     },
@@ -3591,7 +3747,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3390,
+      "downloadCount": 3391,
       "latestReleaseDate": "2022-10-14T06:09:06Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -3606,6 +3762,7 @@
         "tweaks"
       ],
       "slug": "shiplogslidereelplayerplus",
+      "hasThumbnail": true,
       "viewCount": 19,
       "installCount": 57
     },
@@ -3630,6 +3787,7 @@
         "content"
       ],
       "slug": "smallestsysteminthegalaxy",
+      "hasThumbnail": true,
       "viewCount": 29,
       "installCount": 37
     },
@@ -3655,6 +3813,7 @@
         "tool"
       ],
       "slug": "developerconsole",
+      "hasThumbnail": true,
       "viewCount": 12,
       "installCount": 13
     },
@@ -3678,6 +3837,7 @@
         "tool"
       ],
       "slug": "consolecheats",
+      "hasThumbnail": false,
       "viewCount": 15,
       "installCount": 20
     },
@@ -3701,6 +3861,7 @@
         "audiovisual"
       ],
       "slug": "movoices",
+      "hasThumbnail": true,
       "viewCount": 61,
       "installCount": 124
     },
@@ -3725,8 +3886,9 @@
         "content"
       ],
       "slug": "thewildsextended",
+      "hasThumbnail": true,
       "viewCount": 45,
-      "installCount": 48
+      "installCount": 49
     },
     {
       "name": "Escape the Dreamstalker",
@@ -3751,6 +3913,7 @@
         "story"
       ],
       "slug": "escapethedreamstalker",
+      "hasThumbnail": true,
       "viewCount": 194,
       "installCount": 68
     },
@@ -3773,6 +3936,7 @@
         "tweaks"
       ],
       "slug": "shipselfdestructbutton",
+      "hasThumbnail": false,
       "viewCount": 12,
       "installCount": 19
     },
@@ -3797,6 +3961,7 @@
         "content"
       ],
       "slug": "ernestotakeover",
+      "hasThumbnail": true,
       "viewCount": 55,
       "installCount": 30
     },
@@ -3822,6 +3987,7 @@
         "audiovisual"
       ],
       "slug": "dancinwildsventures",
+      "hasThumbnail": false,
       "viewCount": 31,
       "installCount": 48
     },
@@ -3844,6 +4010,7 @@
         "gameplay"
       ],
       "slug": "strangerspingravity",
+      "hasThumbnail": true,
       "viewCount": 37,
       "installCount": 27
     },
@@ -3873,8 +4040,9 @@
         "integration"
       ],
       "slug": "discordproximitychat",
+      "hasThumbnail": true,
       "viewCount": 148,
-      "installCount": 297
+      "installCount": 298
     },
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
@@ -3884,7 +4052,7 @@
       "utility": true,
       "parent": "Vesper.OuterWildsMMO",
       "downloadUrl": "https://github.com/ShoosGun/ShipyardOWOCompat/releases/download/v0.1.2/Locochoco.ShipyardOWOAddon.zip",
-      "downloadCount": 147,
+      "downloadCount": 148,
       "latestReleaseDate": "2022-11-23T01:39:48Z",
       "firstReleaseDate": "2022-11-13T00:05:19Z",
       "repo": "https://github.com/ShoosGun/ShipyardOWOCompat",
@@ -3894,6 +4062,7 @@
         "library"
       ],
       "slug": "slatesshipyardforouterwildsonline",
+      "hasThumbnail": false,
       "viewCount": 24,
       "installCount": 76
     },
@@ -3918,8 +4087,9 @@
         "content"
       ],
       "slug": "iletthevoicesonthediscordservermakebadideasforplanets",
+      "hasThumbnail": true,
       "viewCount": 35,
-      "installCount": 46
+      "installCount": 47
     },
     {
       "name": "Super Wild Galaxy",
@@ -3943,6 +4113,7 @@
         "content"
       ],
       "slug": "superwildgalaxy",
+      "hasThumbnail": true,
       "viewCount": 83,
       "installCount": 53
     },
@@ -3967,6 +4138,7 @@
         "tweaks"
       ],
       "slug": "trajectoryprediction",
+      "hasThumbnail": true,
       "viewCount": 198,
       "installCount": 75
     },
@@ -3991,6 +4163,7 @@
         "tweaks"
       ],
       "slug": "nbodychaos",
+      "hasThumbnail": true,
       "viewCount": 64,
       "installCount": 50
     },
@@ -4014,6 +4187,7 @@
         "tool"
       ],
       "slug": "sharedshiplog",
+      "hasThumbnail": true,
       "viewCount": 98,
       "installCount": 18
     },
@@ -4035,6 +4209,7 @@
         "tool"
       ],
       "slug": "kerbalspaceventures",
+      "hasThumbnail": false,
       "viewCount": 37,
       "installCount": 67
     },
@@ -4059,8 +4234,9 @@
         "content"
       ],
       "slug": "solarsystemsimadeasakid",
+      "hasThumbnail": true,
       "viewCount": 41,
-      "installCount": 31
+      "installCount": 32
     },
     {
       "name": "Owlystem",
@@ -4083,6 +4259,7 @@
         "content"
       ],
       "slug": "owlystem",
+      "hasThumbnail": true,
       "viewCount": 127,
       "installCount": 62
     },
@@ -4107,6 +4284,7 @@
         "tool"
       ],
       "slug": "nomaitextprinter",
+      "hasThumbnail": false,
       "viewCount": 20,
       "installCount": 10
     },
@@ -4130,8 +4308,9 @@
         "tweaks"
       ],
       "slug": "thefinalshortcut",
+      "hasThumbnail": false,
       "viewCount": 140,
-      "installCount": 66
+      "installCount": 67
     },
     {
       "name": "How Did This Happen?",
@@ -4153,8 +4332,9 @@
         "content"
       ],
       "slug": "howdidthishappen",
+      "hasThumbnail": true,
       "viewCount": 188,
-      "installCount": 72
+      "installCount": 73
     },
     {
       "name": "I Don't Like Sand",
@@ -4176,6 +4356,7 @@
         "content"
       ],
       "slug": "idontlikesand",
+      "hasThumbnail": false,
       "viewCount": 77,
       "installCount": 23
     },
@@ -4199,6 +4380,7 @@
         "localization"
       ],
       "slug": "outerwildsenandalh",
+      "hasThumbnail": false,
       "viewCount": 23,
       "installCount": 11
     },
@@ -4222,6 +4404,7 @@
         "gameplay"
       ],
       "slug": "outerpictures",
+      "hasThumbnail": true,
       "viewCount": 51,
       "installCount": 11
     },
@@ -4246,6 +4429,7 @@
         "tool"
       ],
       "slug": "speedtools",
+      "hasThumbnail": true,
       "viewCount": 61,
       "installCount": 8
     },
@@ -4268,6 +4452,7 @@
         "gameplay"
       ],
       "slug": "breakondemand",
+      "hasThumbnail": false,
       "viewCount": 11,
       "installCount": 5
     },
@@ -4292,8 +4477,9 @@
         "story"
       ],
       "slug": "funnychristmas",
+      "hasThumbnail": false,
       "viewCount": 0,
-      "installCount": 1
+      "installCount": 2
     },
     {
       "name": "Enable Meditation",
@@ -4315,6 +4501,7 @@
         "tweaks"
       ],
       "slug": "enablemeditation",
+      "hasThumbnail": true,
       "viewCount": 0,
       "installCount": 0
     }
@@ -4342,6 +4529,7 @@
         "library"
       ],
       "slug": "bepinex",
+      "hasThumbnail": true,
       "viewCount": 16,
       "installCount": 0
     },
@@ -4363,6 +4551,7 @@
         "library"
       ],
       "slug": "owaml",
+      "hasThumbnail": false,
       "viewCount": 1,
       "installCount": 0
     },
@@ -4387,6 +4576,7 @@
         "library"
       ],
       "slug": "camowa",
+      "hasThumbnail": false,
       "viewCount": 1,
       "installCount": 0
     },
@@ -4410,6 +4600,7 @@
         "tweaks"
       ],
       "slug": "alphafixes",
+      "hasThumbnail": true,
       "viewCount": 8,
       "installCount": 1
     },
@@ -4433,6 +4624,7 @@
         "gameplay"
       ],
       "slug": "navinha",
+      "hasThumbnail": true,
       "viewCount": 6,
       "installCount": 1
     },
@@ -4456,6 +4648,7 @@
         "tool"
       ],
       "slug": "freecammod",
+      "hasThumbnail": false,
       "viewCount": 9,
       "installCount": 3
     },
@@ -4484,6 +4677,7 @@
         "gameplay"
       ],
       "slug": "probegrapple",
+      "hasThumbnail": false,
       "viewCount": 1,
       "installCount": 1
     },
@@ -4507,6 +4701,7 @@
         "tweaks"
       ],
       "slug": "coolerbottomcams",
+      "hasThumbnail": false,
       "viewCount": 0,
       "installCount": 0
     },
@@ -4530,6 +4725,7 @@
         "tweaks"
       ],
       "slug": "enhancedmallows",
+      "hasThumbnail": false,
       "viewCount": 1,
       "installCount": 2
     },
@@ -4553,6 +4749,7 @@
         "tweaks"
       ],
       "slug": "automaticlaunchcodes",
+      "hasThumbnail": false,
       "viewCount": 6,
       "installCount": 1
     },
@@ -4576,6 +4773,7 @@
         "tweaks"
       ],
       "slug": "noprobelaunchwindow",
+      "hasThumbnail": false,
       "viewCount": 1,
       "installCount": 0
     },
@@ -4599,6 +4797,7 @@
         "tool"
       ],
       "slug": "runtimeunityeditor",
+      "hasThumbnail": true,
       "viewCount": 5,
       "installCount": 0
     }
