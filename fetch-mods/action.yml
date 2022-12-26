@@ -1,9 +1,9 @@
 name: "Get mods"
 description: "Gets mod releases"
 inputs:
-  out-directory:
-    description: "Directory where database files will be written to"
-    required: true
+  out-file:
+    description: "Optional JSON file path to write to"
+    required: false
   mods:
     description: "Initial JSON mod database to modify"
     required: true
