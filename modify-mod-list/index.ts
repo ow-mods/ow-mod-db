@@ -60,10 +60,14 @@ async function run() {
     throw new Error("Invalid form format");
   }
 
-  const repo = repoUrl.match(/github\.com\/([^\/]+\/[^\/]+)\/?.*/)?.[1];
+  let repo = repoUrl.match(/github\.com\/([^\/]+\/[^\/]+)\/?.*/)?.[1];
 
   if (!repo) {
     throw new Error("Invalid repo URL " + repoUrl);
+  }
+
+  if (repo.endsWith(".git")) {
+    repo = repo.slice(0, -4); 
   }
 
   const modDb: ModDB = JSON.parse(core.getInput(Input.mods));
@@ -80,11 +84,11 @@ async function run() {
     newMod.parent = parent;
   }
 
-  if (utility) {
+  if (utility && utility !== "None") {
     newMod.utility = Boolean(utility);
   }
 
-  if (alpha) {
+  if (alpha && alpha !== "None") {
     newMod.alpha = Boolean(alpha);
   }
 

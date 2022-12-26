@@ -10,6 +10,7 @@ import { getInstallCounts } from "./get-install-counts";
 
 import { writeFile } from "fs";
 import { getSettledResult } from "./promises";
+import { rateLimitReached } from "./get-octokit";
 
 enum Input {
   outFile = "out-file",
@@ -30,11 +31,6 @@ function getCleanedUpModList(modList: Mod[]) {
     ({ latestReleaseDescription, latestPrereleaseDescription, ...mod }) => mod
   );
 }
-
-// Caution: this function needs to match the same one in the outerwildsmods.com repo.
-// This should probably just be saved in the database to avoid the double work.
-export const getModPathName = (modName: string) =>
-  modName.replace(/\W/g, "").toLowerCase();
 
 const measureTime = <T>(promise: Promise<T>, name: string) => {
   const initialTime = performance.now();
@@ -94,7 +90,7 @@ async function run() {
 
     const modListWithAnalytics = cleanedUpModList.map((mod) => ({
       ...mod,
-      viewCount: viewCounts[getModPathName(mod.name)] ?? 0,
+      viewCount: viewCounts[mod.slug] ?? 0,
       installCount: installCounts[mod.uniqueName] ?? 0,
     }));
 
@@ -103,7 +99,13 @@ async function run() {
       releases: modListWithAnalytics.filter(({ alpha }) => !alpha),
       alphaReleases: modListWithAnalytics.filter(({ alpha }) => alpha),
     });
-    core.setOutput(Output.releases, databaseJson);
+
+    if (rateLimitReached) {
+      core.setFailed("Rate limit reached");
+      return;
+    } else {
+      core.setOutput(Output.releases, databaseJson);
+    }
 
     const outputFilePath = core.getInput(Input.outFile);
 

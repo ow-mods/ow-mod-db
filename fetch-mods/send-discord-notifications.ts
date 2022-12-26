@@ -3,13 +3,14 @@ import { diffieHellman } from "crypto";
 import { DiffItem } from "./get-diff";
 
 function getNotificationTitle(diffItem: DiffItem) {
+  const author = diffItem.nextMod.authorDisplay ?? diffItem.nextMod.author;
   switch (diffItem.diffType) {
     case "add":
-      return `Added ${diffItem.nextMod.name} by ${diffItem.nextMod.author}`;
+      return `Added ${diffItem.nextMod.name} by ${author}`;
     case "update":
-      return `Updated ${diffItem.nextMod.name} by ${diffItem.nextMod.author}`;
+      return `Updated ${diffItem.nextMod.name} by ${author}`;
     case "update-prerelease":
-      return `Updated prerelease of ${diffItem.nextMod.name} by ${diffItem.nextMod.author}`;
+      return `Updated prerelease of ${diffItem.nextMod.name} by ${author}`;
   }
 }
 

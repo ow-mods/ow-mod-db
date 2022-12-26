@@ -35,6 +35,8 @@ body:
       required: true
   - type: dropdown
     id: tags
+    validations:
+      required: true
     attributes:
       label: Tags
       description: Tags describe your mod and make it easier for users to find it. You can select multiple.

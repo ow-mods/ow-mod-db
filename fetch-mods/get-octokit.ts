@@ -2,6 +2,8 @@ import { Octokit } from "@octokit/action";
 import { retry } from "@octokit/plugin-retry";
 import { throttling } from "@octokit/plugin-throttling";
 
+export let rateLimitReached = false;
+
 function createOctokit() {
   const OctokitWithPlugins = Octokit.plugin(retry, throttling);
   return new OctokitWithPlugins({
@@ -15,6 +17,8 @@ function createOctokit() {
         console.warn(
           `Request quota exhausted for request ${options.method} ${options.url}`
         );
+
+        rateLimitReached = true;
 
         if (options.request.retryCount === 0) {
           // only retries once

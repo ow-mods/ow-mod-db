@@ -15,6 +15,7 @@
     {
       "name": "NomaiVR",
       "repo": "Raicuparta/nomai-vr",
+      "authorDisplay": "Raicuparta & Artum",
       "tags": [
         "gameplay",
         "integration"
@@ -25,7 +26,8 @@
       "name": "Quantum Space Buddies",
       "repo": "misternebula/quantum-space-buddies",
       "tags": [
-        "gameplay"
+        "gameplay",
+        "integration"
       ],
       "uniqueName": "Raicuparta.QuantumSpaceBuddies"
     },
@@ -340,9 +342,10 @@
       "uniqueName": "Owen013.MovementMod"
     },
     {
+      "authorDisplay": "Jammer",
       "name": "Outer Wilds Galaxy",
       "parent": "xen.NewHorizons",
-      "repo": "Jammer232/Outer-Wilds-Galaxy",
+      "repo": "MegaPiggy/Outer-Wilds-Galaxy",
       "tags": [
         "content"
       ],
@@ -606,7 +609,8 @@
       "tags": [
         "audiovisual"
       ],
-      "uniqueName": "Krevace.VoiceMod"
+      "uniqueName": "Krevace.VoiceMod",
+      "authorDisplay": "Krevace & JohnCorby"
     },
     {
       "name": "Their Homeworld",
@@ -660,9 +664,10 @@
       "uniqueName": "Tandicase.interstellargargantua"
     },
     {
+      "authorDisplay": "Jammer",
       "name": "Jammer Lore",
       "parent": "xen.NewHorizons",
-      "repo": "Jammer232/jammerlore",
+      "repo": "MegaPiggy/jammerlore",
       "tags": [
         "content"
       ],
@@ -1191,7 +1196,8 @@
       "tags": [
         "audiovisual"
       ],
-      "uniqueName": "MegaPiggy.QuantumMoonOrbitLine"
+      "uniqueName": "MegaPiggy.QuantumMoonOrbitLine",
+      "authorDisplay": "MegaPiggy"
     },
     {
       "name": "Permadeath Mode",
@@ -1436,8 +1442,8 @@
     },
     {
       "authorDisplay": "hearth1an",
-      "name": "Probe Teleporter",
-      "repo": "hearth1an/hearth1an.ProbeTeleporter",
+      "name": "Scout Teleporter",
+      "repo": "hearth1an/hearth1an.ScoutTeleporter",
       "tags": [
         "gameplay"
       ],
@@ -1511,6 +1517,240 @@
       ],
       "parent": "xen.NewHorizons",
       "authorDisplay": "FunkyShoeMan"
+    },
+    {
+      "name": "Escape the Dreamstalker",
+      "uniqueName": "xen.Dreamstalker",
+      "repo": "xen-42/ow-dreamstalker",
+      "tags": [
+        "gameplay",
+        "content",
+        "story"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "xen & JohnCorby"
+    },
+    {
+      "name": "Ship Self Destruct Button",
+      "uniqueName": "TheLoreExplorer.SelfDestructButton",
+      "repo": "TheLoreExplorer/SelfDestructButton",
+      "tags": [
+        "tweaks"
+      ]
+    },
+    {
+      "name": "Ernesto Takeover",
+      "uniqueName": "FunkyShoeMan.ErnestoTakeover",
+      "repo": "FunkyShoeMan/Ernesto-Takeover",
+      "tags": [
+        "content"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "FunkyShoeMan"
+    },
+    {
+      "name": "Dancin' Wilds Ventures",
+      "uniqueName": "CantAffordaName.DancinWildsVentures",
+      "repo": "CantAffordaName/CantAffordaName.DancinWildsVentures",
+      "tags": [
+        "content",
+        "audiovisual"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Can't Afford a Name"
+    },
+    {
+      "name": "Stranger Spin Gravity",
+      "uniqueName": "Komodo.StrangerSpinGravity",
+      "repo": "Komodo5197/StrangerSpinGravity",
+      "tags": [
+        "gameplay"
+      ]
+    },
+    {
+      "name": "Discord Proximity Chat",
+      "uniqueName": "BUNN1E5.DiscordProximityChat",
+      "repo": "BUNN1E5/DiscordProximityChat",
+      "tags": [
+        "integration"
+      ],
+      "parent": "Raicuparta.QuantumSpaceBuddies",
+      "authorDisplay": "BUNN1E5"
+    },
+    {
+      "name": "Slate's Shipyard for Outer Wilds Online",
+      "uniqueName": "Locochoco.ShipyardOWOAddon",
+      "repo": "ShoosGun/ShipyardOWOCompat",
+      "tags": [
+        "library"
+      ],
+      "parent": "Vesper.OuterWildsMMO",
+      "utility": true,
+      "authorDisplay": "Locochoco"
+    },
+    {
+      "name": "i let the voices on the discord server make bad ideas for planets",
+      "uniqueName": "O32.Discord",
+      "repo": "RealOrbital32/discord",
+      "tags": [
+        "content"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu) and members from the discord modding server"
+    },
+    {
+      "name": "Super Wild Galaxy",
+      "uniqueName": "CantAffordaName.SuperWildGalaxy",
+      "repo": "CantAffordaName/CantAffordaName.SuperWildGalaxy",
+      "tags": [
+        "gameplay",
+        "content"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Can't Afford a Name"
+    },
+    {
+      "name": "Trajectory Prediction",
+      "uniqueName": "OlegSkutte.TrajectoryPrediction",
+      "repo": "SkutteOleg/TrajectoryPrediction",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "authorDisplay": "Oleg Skutte"
+    },
+    {
+      "name": "N Body Chaos",
+      "uniqueName": "TacoTechnica.NBodyChaos",
+      "repo": "adrisj7/OW_NBodyChaos",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "authorDisplay": "TacoTechnica"
+    },
+    {
+      "name": "Shared Ship Log",
+      "uniqueName": "Tephirax.OuterWildsSharedShipLog",
+      "repo": "Tephirax/SharedShipLog",
+      "tags": [
+        "integration",
+        "tool"
+      ]
+    },
+    {
+      "name": "Kerbal Space Ventures",
+      "uniqueName": "Locochoco.KSPShips",
+      "repo": "ShoosGun/Kerbal-Space-Ventures",
+      "tags": [
+        "gameplay",
+        "tool"
+      ],
+      "parent": "Locochoco.SlateShipyard",
+      "authorDisplay": "Locochoco & FunkyShoeMan"
+    },
+    {
+      "name": "Solar Systems I Made as a Kid",
+      "uniqueName": "O32.ssimaak",
+      "repo": "RealOrbital32/Solar-Systems-I-Made-as-a-Kid",
+      "tags": [
+        "content"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)"
+    },
+    {
+      "name": "Owlystem",
+      "uniqueName": "O32.Owlystem",
+      "repo": "RealOrbital32/Owlystem",
+      "tags": [
+        "content"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu), classic by Classic"
+    },
+    {
+      "name": "Nomai Text Printer",
+      "uniqueName": "Cleric.NomaiTextPrinter",
+      "repo": "coderCleric/NomaiTextPrinter",
+      "tags": [
+        "tool"
+      ],
+      "utility": true,
+      "authorDisplay": "coderCleric"
+    },
+    {
+      "name": "The Final Shortcut",
+      "uniqueName": "Acamaeda.Shortcut",
+      "repo": "Acamaeda/OuterWildsShortcut",
+      "tags": [
+        "tweaks"
+      ],
+      "parent": "xen.NewHorizons"
+    },
+    {
+      "name": "How Did This Happen?",
+      "uniqueName": "Acamaeda.Happen",
+      "repo": "Acamaeda/OuterWildsExperiment",
+      "tags": [
+        "content"
+      ],
+      "parent": "xen.NewHorizons"
+    },
+    {
+      "name": "I Don't Like Sand",
+      "uniqueName": "Acamaeda.Sand",
+      "repo": "Acamaeda/OuterWildsSand",
+      "tags": [
+        "content"
+      ],
+      "parent": "xen.NewHorizons"
+    },
+    {
+      "name": "Outer Wilds en Andalûh",
+      "uniqueName": "VholyIQ.OuterWildsAndaluh",
+      "repo": "andergd/OuterWildsAndaluh",
+      "tags": [
+        "localization"
+      ],
+      "authorDisplay": "Vholy IQ"
+    },
+    {
+      "name": "Outer Pictures",
+      "uniqueName": "Pau318.OuterPictures",
+      "repo": "Pau318/OuterPictures",
+      "tags": [
+        "gameplay"
+      ],
+      "authorDisplay": "Pau318"
+    },
+    {
+      "name": "SpeedTools",
+      "uniqueName": "GrimLala.SpeedTools",
+      "repo": "GrimLala/SpeedTools",
+      "tags": [
+        "gameplay",
+        "tool"
+      ],
+      "authorDisplay": "grimsalad & LordLala"
+    },
+    {
+      "name": "Break On Demand",
+      "uniqueName": "Raoul1808.BreakOnDemand",
+      "repo": "Raoul1808/BreakOnDemand",
+      "tags": [
+        "gameplay"
+      ]
+    },
+    {
+      "name": "Funny Christmas",
+      "uniqueName": "O32.FunnyChristmas",
+      "repo": "RealOrbital32/funny-christmas",
+      "tags": [
+        "story"
+      ],
+      "parent": "O32.FunnySystem",
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)"
     }
   ]
 }

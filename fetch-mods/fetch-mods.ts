@@ -3,6 +3,12 @@ import { filterFulfilledPromiseSettleResults } from "./promises";
 
 const REPO_URL_BASE = "https://github.com";
 
+const downloadCountOffsets: { [key: string]: number } = {
+  // Jammer deleted the repositories
+  "Jammer.OuterWildsGalaxy": 3766,
+  "Jammer.jammerlore": 373,
+};
+
 export async function fetchMods(modsJson: string) {
   const modDb: ModDB = JSON.parse(modsJson);
   const modInfos = modDb.mods;
@@ -162,12 +168,16 @@ export async function fetchMods(modsJson: string) {
           // console.log("prereleases", toJsonString(prereleases));
           // console.log("cleanLatestRelease", toJsonString(cleanLatestRelease));
 
-          const totalDownloadCount = [...releases, ...prereleases].reduce(
+          let totalDownloadCount = [...releases, ...prereleases].reduce(
             (accumulator, release) => {
               return accumulator + release.downloadCount;
             },
             0
           );
+
+          if (modInfo.uniqueName in downloadCountOffsets) {
+            totalDownloadCount += downloadCountOffsets[modInfo.uniqueName];
+          }
 
           const splitRepo = modInfo.repo.split("/");
           const githubRepository = (
@@ -208,6 +218,7 @@ export async function fetchMods(modsJson: string) {
                 }
               : undefined,
             tags: modInfo.tags,
+            slug: modInfo.name.replace(/\W/g, "").toLowerCase(),
           };
 
           return mod;
