@@ -74,11 +74,12 @@ export const getFirstImageUrl = (
   let event;
   while ((event = walker.next())) {
     const node = event.node;
-    // TODO ignore SVG?
     if (
       node.type === "image" &&
       node.destination &&
-      !node.destination.endsWith(".svg")
+      !node.destination.endsWith(".svg") &&
+      !node.destination.startsWith("https://img.shields.io/") &&
+      !node.destination.startsWith("http://img.shields.io/")
     ) {
       const imageUrl = node.destination;
 
