@@ -42,7 +42,7 @@ jobs:
         id: fetch-mods
         uses: ./fetch-mods
         with:
-          out-file: database.json
+          out-directory: output
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
           mods: "${{ env.mods_output }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
@@ -50,4 +50,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: database-preview
-          path: database.json
+          path: output
