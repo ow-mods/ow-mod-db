@@ -68,6 +68,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: "master"
+          repository: "database"
           commit_message: Update mod database
           commit_user_name: Outer Wilds Mod Database
           commit_user_email: database@outerwildsmods.com
