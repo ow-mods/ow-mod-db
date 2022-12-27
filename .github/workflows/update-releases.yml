@@ -51,6 +51,9 @@ jobs:
           fetch-depth: 0
           path: database
 
+      - name: Remove existing thumbnails
+        run: rm -rf database/thumbnails
+
       - name: Fetch mod releases and manifests
         id: fetch-mods
         uses: ./fetch-mods
