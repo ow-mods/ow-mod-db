@@ -36,34 +36,33 @@ export const generateModThumbnail = async (
     return {};
   }
 
-  const sharpImage = sharp(rawImageFilePath, {
-    animated: true,
-    limitInputPixels: false,
-  });
-
   const fileOutputDir = getPath(path.join(outputDirectory, "thumbnails"));
 
   if (!fs.existsSync(fileOutputDir)) {
     await fsp.mkdir(fileOutputDir, { recursive: true });
   }
 
-  const resizedSharpImage = sharpImage.resize({
-    ...thumbnailSize,
-    fit: "cover",
+  const sharpImage = sharp(rawImageFilePath, {
+    animated: true,
+    limitInputPixels: false,
   });
 
   const mainImageName = `${slug}.webp`;
-  await resizedSharpImage
-    .webp({ smartSubsample: true })
-    .toFile(path.join(fileOutputDir, mainImageName));
+  writeImageFile(sharpImage, path.join(fileOutputDir, mainImageName));
 
   let openGraphImageName;
   const metadata = await sharpImage.metadata();
   if ((metadata.pages ?? 0) > 1) {
-    openGraphImageName = `${slug}.png`;
-    await resizedSharpImage
-      .png()
-      .toFile(path.join(fileOutputDir, openGraphImageName));
+    const openGraphSharpImage = sharp(rawImageFilePath, {
+      pages: 1,
+      limitInputPixels: false,
+    });
+
+    openGraphImageName = `${slug}-static.webp`;
+    await writeImageFile(
+      openGraphSharpImage,
+      path.join(fileOutputDir, openGraphImageName)
+    );
   }
 
   return {
@@ -71,6 +70,15 @@ export const generateModThumbnail = async (
     openGraph: openGraphImageName,
   };
 };
+
+const writeImageFile = (sharpImage: sharp.Sharp, filePath: string) =>
+  sharpImage
+    .resize({
+      ...thumbnailSize,
+      fit: "cover",
+    })
+    .webp({ smartSubsample: true })
+    .toFile(filePath);
 
 export const getModReadme = async (url: string): Promise<string | null> => {
   const response = await fetch(url);
