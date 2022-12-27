@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 98782
+    "downloadCount": 98784
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 80291,
+      "downloadCount": 80294,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -29,7 +29,9 @@
         "library"
       ],
       "slug": "owml",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/owml.webp"
+      },
       "viewCount": 719,
       "installCount": 0
     },
@@ -39,7 +41,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 47852,
+      "downloadCount": 47853,
       "latestReleaseDate": "2022-10-28T20:32:05Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -59,7 +61,10 @@
         "integration"
       ],
       "slug": "nomaivr",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/nomaivr.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/nomaivr.gif"
+      },
       "viewCount": 1763,
       "installCount": 991
     },
@@ -69,7 +74,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.23.0/QSB.zip",
-      "downloadCount": 21613,
+      "downloadCount": 21614,
       "latestReleaseDate": "2022-12-03T11:26:54Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -88,7 +93,9 @@
         "integration"
       ],
       "slug": "quantumspacebuddies",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/quantumspacebuddies.webp"
+      },
       "viewCount": 1905,
       "installCount": 758
     },
@@ -98,7 +105,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v1.0.1/LightBramble.zip",
-      "downloadCount": 9094,
+      "downloadCount": 9096,
       "latestReleaseDate": "2022-12-18T09:11:54Z",
       "firstReleaseDate": "2020-04-10T13:16:22Z",
       "repo": "https://github.com/amazingalek/owml-light-bramble",
@@ -111,7 +118,9 @@
         "audiovisual"
       ],
       "slug": "lightbramble",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/lightbramble.webp"
+      },
       "viewCount": 1010,
       "installCount": 216
     },
@@ -134,7 +143,9 @@
         "tool"
       ],
       "slug": "freecam",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/freecam.webp"
+      },
       "viewCount": 100,
       "installCount": 97
     },
@@ -157,7 +168,7 @@
         "gameplay"
       ],
       "slug": "crouchmod",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 7,
       "installCount": 38
     },
@@ -185,7 +196,9 @@
         "tool"
       ],
       "slug": "clock",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/clock.webp"
+      },
       "viewCount": 115,
       "installCount": 217
     },
@@ -208,7 +221,9 @@
         "tool"
       ],
       "slug": "hdscreenshot",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/hdscreenshot.webp"
+      },
       "viewCount": 8,
       "installCount": 18
     },
@@ -219,7 +234,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 13636,
+      "downloadCount": 13638,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -232,7 +247,7 @@
         "library"
       ],
       "slug": "menuframework",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 147,
       "installCount": 191
     },
@@ -255,7 +270,9 @@
         "gameplay"
       ],
       "slug": "scoutstreaming",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/scoutstreaming.webp"
+      },
       "viewCount": 44,
       "installCount": 131
     },
@@ -278,7 +295,9 @@
         "audiovisual"
       ],
       "slug": "vespersassortedouterwildsshaders",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/vespersassortedouterwildsshaders.webp"
+      },
       "viewCount": 30,
       "installCount": 28
     },
@@ -306,7 +325,9 @@
         "gameplay"
       ],
       "slug": "outerwildsonline",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/outerwildsonline.webp"
+      },
       "viewCount": 211,
       "installCount": 153
     },
@@ -329,7 +350,7 @@
         "tool"
       ],
       "slug": "cheatanddebugmenu",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 150,
       "installCount": 86
     },
@@ -339,7 +360,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.4/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 7331,
+      "downloadCount": 7332,
       "latestReleaseDate": "2022-01-25T00:19:05Z",
       "firstReleaseDate": "2021-10-21T06:56:51Z",
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
@@ -352,7 +373,7 @@
         "tool"
       ],
       "slug": "cheatsmod",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 314,
       "installCount": 295
     },
@@ -375,7 +396,7 @@
         "gameplay"
       ],
       "slug": "difficultymod",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 20,
       "installCount": 16
     },
@@ -398,7 +419,7 @@
         "gameplay"
       ],
       "slug": "peacefulghosts",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 40,
       "installCount": 62
     },
@@ -421,7 +442,7 @@
         "gameplay"
       ],
       "slug": "slowtime",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 41,
       "installCount": 74
     },
@@ -444,7 +465,7 @@
         "gameplay"
       ],
       "slug": "owsmooththrust",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 16,
       "installCount": 37
     },
@@ -467,7 +488,9 @@
         "gameplay"
       ],
       "slug": "randomizer",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/randomizer.webp"
+      },
       "viewCount": 86,
       "installCount": 64
     },
@@ -478,7 +501,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/OW_CommonResources/releases/download/0.5.15/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 1877,
+      "downloadCount": 1878,
       "latestReleaseDate": "2022-09-29T17:14:07Z",
       "firstReleaseDate": "2022-09-29T17:14:07Z",
       "repo": "https://github.com/dgarroDC/OW_CommonResources",
@@ -492,7 +515,7 @@
         "library"
       ],
       "slug": "pacificenginescommonresources",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 22,
       "installCount": 34
     },
@@ -502,7 +525,7 @@
       "description": "Mod for Outer Wilds allowing the game to continue while in background",
       "author": "lStewieAl",
       "downloadUrl": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause/releases/download/0.1.0/lStewieAl.RunInBackground.zip",
-      "downloadCount": 895,
+      "downloadCount": 896,
       "latestReleaseDate": "2021-11-11T21:29:26Z",
       "firstReleaseDate": "2021-11-11T21:29:26Z",
       "repo": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause",
@@ -515,7 +538,7 @@
         "tweaks"
       ],
       "slug": "noalttabpause",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 7,
       "installCount": 34
     },
@@ -538,7 +561,9 @@
         "audiovisual"
       ],
       "slug": "echoesofthecaribbean",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/echoesofthecaribbean.webp"
+      },
       "viewCount": 14,
       "installCount": 7
     },
@@ -561,7 +586,9 @@
         "gameplay"
       ],
       "slug": "thirdpersoncamera",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/thirdpersoncamera.webp"
+      },
       "viewCount": 147,
       "installCount": 71
     },
@@ -585,7 +612,7 @@
         "tweaks"
       ],
       "slug": "nomaivronlinepatches",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 18,
       "installCount": 191
     },
@@ -605,7 +632,7 @@
         "gameplay"
       ],
       "slug": "nomaivrffr",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 124,
       "installCount": 396
     },
@@ -628,7 +655,9 @@
         "tool"
       ],
       "slug": "staticcamera",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/staticcamera.webp"
+      },
       "viewCount": 12,
       "installCount": 16
     },
@@ -652,7 +681,9 @@
         "audiovisual"
       ],
       "slug": "daydream",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/daydream.webp"
+      },
       "viewCount": 47,
       "installCount": 58
     },
@@ -675,7 +706,9 @@
         "audiovisual"
       ],
       "slug": "eotebrighterdreams",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/eotebrighterdreams.webp"
+      },
       "viewCount": 276,
       "installCount": 165
     },
@@ -703,7 +736,9 @@
         "tool"
       ],
       "slug": "unityexplorer",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/unityexplorer.webp"
+      },
       "viewCount": 140,
       "installCount": 40
     },
@@ -726,7 +761,9 @@
         "audiovisual"
       ],
       "slug": "halflifeoverhaul",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/halflifeoverhaul.webp"
+      },
       "viewCount": 22,
       "installCount": 18
     },
@@ -749,7 +786,7 @@
         "tweaks"
       ],
       "slug": "autoresume",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 15,
       "installCount": 18
     },
@@ -772,7 +809,9 @@
         "audiovisual"
       ],
       "slug": "outerthomasechoesofthetankengine",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/outerthomasechoesofthetankengine.webp"
+      },
       "viewCount": 21,
       "installCount": 25
     },
@@ -795,7 +834,9 @@
         "audiovisual"
       ],
       "slug": "majorasmasksmoon",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/majorasmasksmoon.webp"
+      },
       "viewCount": 16,
       "installCount": 24
     },
@@ -821,7 +862,9 @@
         "story"
       ],
       "slug": "newhorizons",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/newhorizons.webp"
+      },
       "viewCount": 881,
       "installCount": 332
     },
@@ -846,7 +889,9 @@
         "content"
       ],
       "slug": "newhorizonsexamples",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/newhorizonsexamples.webp"
+      },
       "viewCount": 89,
       "installCount": 77
     },
@@ -870,7 +915,9 @@
         "content"
       ],
       "slug": "realsolarsystem",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/realsolarsystem.webp"
+      },
       "viewCount": 387,
       "installCount": 190
     },
@@ -894,7 +941,9 @@
         "content"
       ],
       "slug": "atropos",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/atropos.webp"
+      },
       "viewCount": 119,
       "installCount": 98
     },
@@ -918,7 +967,9 @@
         "content"
       ],
       "slug": "ellieplanets",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/ellieplanets.webp"
+      },
       "viewCount": 17,
       "installCount": 32
     },
@@ -941,7 +992,9 @@
         "gameplay"
       ],
       "slug": "smolhatchling",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/smolhatchling.webp"
+      },
       "viewCount": 31,
       "installCount": 33
     },
@@ -969,7 +1022,9 @@
         "gameplay"
       ],
       "slug": "hikersmod",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/hikersmod.webp"
+      },
       "viewCount": 35,
       "installCount": 60
     },
@@ -994,7 +1049,9 @@
         "content"
       ],
       "slug": "outerwildsgalaxy",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/outerwildsgalaxy.webp"
+      },
       "viewCount": 99,
       "installCount": 86
     },
@@ -1018,7 +1075,9 @@
         "content"
       ],
       "slug": "signals",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/signals.webp"
+      },
       "viewCount": 50,
       "installCount": 58
     },
@@ -1041,7 +1100,7 @@
         "tool"
       ],
       "slug": "saveeditor",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 100,
       "installCount": 36
     },
@@ -1064,7 +1123,9 @@
         "gameplay"
       ],
       "slug": "meteorlaunching",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/meteorlaunching.webp"
+      },
       "viewCount": 45,
       "installCount": 42
     },
@@ -1087,7 +1148,9 @@
         "gameplay"
       ],
       "slug": "slatesimulator",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/slatesimulator.webp"
+      },
       "viewCount": 29,
       "installCount": 12
     },
@@ -1111,7 +1174,9 @@
         "content"
       ],
       "slug": "tardisfromdoctorwho",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/tardisfromdoctorwho.webp"
+      },
       "viewCount": 51,
       "installCount": 36
     },
@@ -1140,7 +1205,9 @@
         "content"
       ],
       "slug": "solarneighbourhood",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/solarneighbourhood.webp"
+      },
       "viewCount": 153,
       "installCount": 107
     },
@@ -1163,7 +1230,7 @@
         "audiovisual"
       ],
       "slug": "vanillamainmenu",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 6,
       "installCount": 10
     },
@@ -1186,7 +1253,7 @@
         "localization"
       ],
       "slug": "outerwildskoreantranslation",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 254,
       "installCount": 277
     },
@@ -1210,7 +1277,9 @@
         "content"
       ],
       "slug": "astroneersolarsystem",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/astroneersolarsystem.webp"
+      },
       "viewCount": 37,
       "installCount": 55
     },
@@ -1233,7 +1302,9 @@
         "gameplay"
       ],
       "slug": "blackholeportalgun",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/blackholeportalgun.webp"
+      },
       "viewCount": 42,
       "installCount": 60
     },
@@ -1256,7 +1327,10 @@
         "audiovisual"
       ],
       "slug": "outerwarioechoesofthewaaaaaaaaaaah",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/outerwarioechoesofthewaaaaaaaaaaah.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/outerwarioechoesofthewaaaaaaaaaaah.gif"
+      },
       "viewCount": 14,
       "installCount": 24
     },
@@ -1279,7 +1353,7 @@
         "tool"
       ],
       "slug": "suicidemod",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 24,
       "installCount": 41
     },
@@ -1302,7 +1376,9 @@
         "audiovisual"
       ],
       "slug": "outerwildsmusicplayer",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/outerwildsmusicplayer.webp"
+      },
       "viewCount": 24,
       "installCount": 40
     },
@@ -1325,7 +1401,9 @@
         "tool"
       ],
       "slug": "collidervisualizer",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/collidervisualizer.webp"
+      },
       "viewCount": 4,
       "installCount": 9
     },
@@ -1349,7 +1427,9 @@
         "tool"
       ],
       "slug": "archaeologistachievementhelper",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/archaeologistachievementhelper.webp"
+      },
       "viewCount": 94,
       "installCount": 123
     },
@@ -1373,7 +1453,9 @@
         "content"
       ],
       "slug": "enterthewarioverse",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/enterthewarioverse.webp"
+      },
       "viewCount": 36,
       "installCount": 46
     },
@@ -1396,7 +1478,7 @@
         "audiovisual"
       ],
       "slug": "21stcenturyanglerfish",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 75,
       "installCount": 49
     },
@@ -1420,7 +1502,9 @@
         "content"
       ],
       "slug": "medleyofplanets",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/medleyofplanets.webp"
+      },
       "viewCount": 45,
       "installCount": 52
     },
@@ -1444,7 +1528,9 @@
         "gameplay"
       ],
       "slug": "outerwildsflyover",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/outerwildsflyover.webp"
+      },
       "viewCount": 15,
       "installCount": 20
     },
@@ -1468,7 +1554,9 @@
         "content"
       ],
       "slug": "incursionfinaldawn",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/incursionfinaldawn.webp"
+      },
       "viewCount": 52,
       "installCount": 57
     },
@@ -1492,7 +1580,9 @@
         "content"
       ],
       "slug": "trappist1",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/trappist1.webp"
+      },
       "viewCount": 14,
       "installCount": 33
     },
@@ -1520,7 +1610,9 @@
         "tool"
       ],
       "slug": "inputdemorecorder",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/inputdemorecorder.webp"
+      },
       "viewCount": 8,
       "installCount": 2
     },
@@ -1543,7 +1635,9 @@
         "gameplay"
       ],
       "slug": "celestewilds",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/celestewilds.webp"
+      },
       "viewCount": 26,
       "installCount": 31
     },
@@ -1572,7 +1666,9 @@
         "content"
       ],
       "slug": "grapefruit",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/grapefruit.webp"
+      },
       "viewCount": 19,
       "installCount": 34
     },
@@ -1595,7 +1691,9 @@
         "audiovisual"
       ],
       "slug": "visiblestranger",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/visiblestranger.webp"
+      },
       "viewCount": 60,
       "installCount": 84
     },
@@ -1618,7 +1716,9 @@
         "gameplay"
       ],
       "slug": "hollodjustment",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/hollodjustment.webp"
+      },
       "viewCount": 6,
       "installCount": 7
     },
@@ -1641,7 +1741,9 @@
         "tweaks"
       ],
       "slug": "vanillafix",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/vanillafix.webp"
+      },
       "viewCount": 253,
       "installCount": 310
     },
@@ -1670,7 +1772,7 @@
         "content"
       ],
       "slug": "onlytimberhearth",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 7,
       "installCount": 8
     },
@@ -1693,7 +1795,9 @@
         "audiovisual"
       ],
       "slug": "titlescreenbugfix",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/titlescreenbugfix.webp"
+      },
       "viewCount": 19,
       "installCount": 0
     },
@@ -1716,7 +1820,9 @@
         "content"
       ],
       "slug": "ghosttranslations",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/ghosttranslations.webp"
+      },
       "viewCount": 177,
       "installCount": 69
     },
@@ -1740,7 +1846,9 @@
         "audiovisual"
       ],
       "slug": "voiceactingmod",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/voiceactingmod.webp"
+      },
       "viewCount": 253,
       "installCount": 132
     },
@@ -1764,7 +1872,7 @@
         "content"
       ],
       "slug": "theirhomeworld",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 20,
       "installCount": 39
     },
@@ -1783,7 +1891,7 @@
         "gameplay"
       ],
       "slug": "vengefulcannon",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 14,
       "installCount": 12
     },
@@ -1807,7 +1915,9 @@
         "content"
       ],
       "slug": "almondsystem",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/almondsystem.webp"
+      },
       "viewCount": 14,
       "installCount": 33
     },
@@ -1830,7 +1940,7 @@
         "tweaks"
       ],
       "slug": "persistantmarshmallow",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 4,
       "installCount": 10
     },
@@ -1853,7 +1963,9 @@
         "content"
       ],
       "slug": "emptyhollow",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/emptyhollow.webp"
+      },
       "viewCount": 15,
       "installCount": 11
     },
@@ -1877,7 +1989,9 @@
         "content"
       ],
       "slug": "interstellargargantua",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/interstellargargantua.webp"
+      },
       "viewCount": 89,
       "installCount": 69
     },
@@ -1902,7 +2016,10 @@
         "content"
       ],
       "slug": "jammerlore",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/jammerlore.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/jammerlore.gif"
+      },
       "viewCount": 21,
       "installCount": 23
     },
@@ -1925,7 +2042,9 @@
         "gameplay"
       ],
       "slug": "ghostbuster",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/ghostbuster.webp"
+      },
       "viewCount": 23,
       "installCount": 13
     },
@@ -1948,7 +2067,9 @@
         "gameplay"
       ],
       "slug": "opendoors",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/opendoors.webp"
+      },
       "viewCount": 22,
       "installCount": 17
     },
@@ -1971,7 +2092,9 @@
         "tool"
       ],
       "slug": "sleepmod",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/sleepmod.webp"
+      },
       "viewCount": 5,
       "installCount": 8
     },
@@ -1994,7 +2117,9 @@
         "tweaks"
       ],
       "slug": "ghostmatternerf",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/ghostmatternerf.webp"
+      },
       "viewCount": 30,
       "installCount": 17
     },
@@ -2018,7 +2143,9 @@
         "integration"
       ],
       "slug": "addlivsupport",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/addlivsupport.webp"
+      },
       "viewCount": 25,
       "installCount": 87
     },
@@ -2041,7 +2168,9 @@
         "tool"
       ],
       "slug": "360camera",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/360camera.webp"
+      },
       "viewCount": 3,
       "installCount": 8
     },
@@ -2064,7 +2193,9 @@
         "tweaks"
       ],
       "slug": "noend",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/noend.webp"
+      },
       "viewCount": 21,
       "installCount": 26
     },
@@ -2087,7 +2218,9 @@
         "tweaks"
       ],
       "slug": "nodambreak",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/nodambreak.webp"
+      },
       "viewCount": 9,
       "installCount": 20
     },
@@ -2110,7 +2243,7 @@
         "tool"
       ],
       "slug": "altertime",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 20,
       "installCount": 25
     },
@@ -2133,7 +2266,9 @@
         "tweaks"
       ],
       "slug": "survivethesupernova",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/survivethesupernova.webp"
+      },
       "viewCount": 41,
       "installCount": 36
     },
@@ -2157,7 +2292,9 @@
         "tweaks"
       ],
       "slug": "achievements",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/achievements.webp"
+      },
       "viewCount": 42,
       "installCount": 83
     },
@@ -2180,7 +2317,9 @@
         "tool"
       ],
       "slug": "supernovaondemand",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/supernovaondemand.webp"
+      },
       "viewCount": 28,
       "installCount": 29
     },
@@ -2203,7 +2342,9 @@
         "audiovisual"
       ],
       "slug": "bigheads",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/bigheads.webp"
+      },
       "viewCount": 13,
       "installCount": 3
     },
@@ -2226,7 +2367,7 @@
         "tool"
       ],
       "slug": "bringmemyship",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 12,
       "installCount": 49
     },
@@ -2250,7 +2391,9 @@
         "content"
       ],
       "slug": "arkosebugfix",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/arkosebugfix.webp"
+      },
       "viewCount": 11,
       "installCount": 15
     },
@@ -2273,7 +2416,7 @@
         "tweaks"
       ],
       "slug": "woahwatchthoseframes",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 6,
       "installCount": 11
     },
@@ -2297,7 +2440,9 @@
         "content"
       ],
       "slug": "timbertwin",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/timbertwin.webp"
+      },
       "viewCount": 34,
       "installCount": 17
     },
@@ -2320,7 +2465,9 @@
         "tweaks"
       ],
       "slug": "togglevelocitymatching",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/togglevelocitymatching.webp"
+      },
       "viewCount": 8,
       "installCount": 43
     },
@@ -2343,7 +2490,7 @@
         "tweaks"
       ],
       "slug": "timesaver",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 35,
       "installCount": 54
     },
@@ -2367,7 +2514,9 @@
         "content"
       ],
       "slug": "changedtwins",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/changedtwins.webp"
+      },
       "viewCount": 26,
       "installCount": 24
     },
@@ -2390,7 +2539,9 @@
         "audiovisual"
       ],
       "slug": "powerfailure",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/powerfailure.webp"
+      },
       "viewCount": 40,
       "installCount": 25
     },
@@ -2413,7 +2564,9 @@
         "localization"
       ],
       "slug": "outerwildstraditionalchinesetranslation",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/outerwildstraditionalchinesetranslation.webp"
+      },
       "viewCount": 6,
       "installCount": 16
     },
@@ -2437,7 +2590,9 @@
         "content"
       ],
       "slug": "lesslonelyship",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/lesslonelyship.webp"
+      },
       "viewCount": 78,
       "installCount": 35
     },
@@ -2461,7 +2616,9 @@
         "content"
       ],
       "slug": "cloudlessquantummoons",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/cloudlessquantummoons.webp"
+      },
       "viewCount": 26,
       "installCount": 32
     },
@@ -2485,7 +2642,9 @@
         "content"
       ],
       "slug": "backerssatellitesignal",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/backerssatellitesignal.webp"
+      },
       "viewCount": 9,
       "installCount": 23
     },
@@ -2509,7 +2668,10 @@
         "gameplay"
       ],
       "slug": "suitlog",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/suitlog.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/suitlog.gif"
+      },
       "viewCount": 51,
       "installCount": 82
     },
@@ -2532,7 +2694,9 @@
         "audiovisual"
       ],
       "slug": "hatchlingoutfitter",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/hatchlingoutfitter.webp"
+      },
       "viewCount": 19,
       "installCount": 13
     },
@@ -2555,7 +2719,7 @@
         "tweaks"
       ],
       "slug": "qualityoflifechanges",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 31,
       "installCount": 25
     },
@@ -2579,7 +2743,9 @@
         "library"
       ],
       "slug": "commoncamerautility",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/commoncamerautility.webp"
+      },
       "viewCount": 36,
       "installCount": 53
     },
@@ -2602,7 +2768,9 @@
         "gameplay"
       ],
       "slug": "bettermodelship",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/bettermodelship.webp"
+      },
       "viewCount": 32,
       "installCount": 59
     },
@@ -2626,7 +2794,9 @@
         "content"
       ],
       "slug": "cloudlessgiantsdeep",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/cloudlessgiantsdeep.webp"
+      },
       "viewCount": 14,
       "installCount": 28
     },
@@ -2649,7 +2819,7 @@
         "gameplay"
       ],
       "slug": "involuntaryblink",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 7,
       "installCount": 7
     },
@@ -2673,7 +2843,9 @@
         "gameplay"
       ],
       "slug": "primitivelaunching",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/primitivelaunching.webp"
+      },
       "viewCount": 5,
       "installCount": 16
     },
@@ -2696,7 +2868,9 @@
         "audiovisual"
       ],
       "slug": "alphatitlescreen",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/alphatitlescreen.webp"
+      },
       "viewCount": 8,
       "installCount": 3
     },
@@ -2719,7 +2893,7 @@
         "tool"
       ],
       "slug": "controllablestranger",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 13,
       "installCount": 15
     },
@@ -2743,7 +2917,9 @@
         "content"
       ],
       "slug": "upsilonandromedae",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/upsilonandromedae.webp"
+      },
       "viewCount": 31,
       "installCount": 18
     },
@@ -2766,7 +2942,9 @@
         "tool"
       ],
       "slug": "factlog",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/factlog.webp"
+      },
       "viewCount": 5,
       "installCount": 9
     },
@@ -2790,7 +2968,9 @@
         "content"
       ],
       "slug": "blackholesun",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/blackholesun.webp"
+      },
       "viewCount": 21,
       "installCount": 28
     },
@@ -2814,7 +2994,9 @@
         "content"
       ],
       "slug": "nosun",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/nosun.webp"
+      },
       "viewCount": 7,
       "installCount": 13
     },
@@ -2838,7 +3020,9 @@
         "content"
       ],
       "slug": "orderedorbits",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/orderedorbits.webp"
+      },
       "viewCount": 13,
       "installCount": 11
     },
@@ -2861,7 +3045,7 @@
         "gameplay"
       ],
       "slug": "shipremoteautopilot",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 6,
       "installCount": 22
     },
@@ -2884,7 +3068,10 @@
         "gameplay"
       ],
       "slug": "blockplacing",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/blockplacing.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/blockplacing.gif"
+      },
       "viewCount": 21,
       "installCount": 29
     },
@@ -2907,7 +3094,7 @@
         "localization"
       ],
       "slug": "czechlocalization",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 3,
       "installCount": 1
     },
@@ -2931,7 +3118,9 @@
         "content"
       ],
       "slug": "carsonsystem",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/carsonsystem.webp"
+      },
       "viewCount": 26,
       "installCount": 28
     },
@@ -2954,7 +3143,7 @@
         "tool"
       ],
       "slug": "soundtest",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 5,
       "installCount": 9
     },
@@ -2979,7 +3168,7 @@
         "localization"
       ],
       "slug": "interplanetarypolyglot",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 10,
       "installCount": 1
     },
@@ -2998,7 +3187,7 @@
         "tool"
       ],
       "slug": "stoptime",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 56,
       "installCount": 81
     },
@@ -3022,7 +3211,9 @@
         "audiovisual"
       ],
       "slug": "galaxyskyboxngc1087",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/galaxyskyboxngc1087.webp"
+      },
       "viewCount": 21,
       "installCount": 22
     },
@@ -3046,7 +3237,9 @@
         "audiovisual"
       ],
       "slug": "quantummoonorbitline",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/quantummoonorbitline.webp"
+      },
       "viewCount": 9,
       "installCount": 10
     },
@@ -3069,7 +3262,10 @@
         "gameplay"
       ],
       "slug": "permadeathmode",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/permadeathmode.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/permadeathmode.gif"
+      },
       "viewCount": 18,
       "installCount": 5
     },
@@ -3093,7 +3289,9 @@
         "content"
       ],
       "slug": "sunstationascension",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/sunstationascension.webp"
+      },
       "viewCount": 22,
       "installCount": 26
     },
@@ -3116,7 +3314,9 @@
         "integration"
       ],
       "slug": "discordrichpresence",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/discordrichpresence.webp"
+      },
       "viewCount": 36,
       "installCount": 63
     },
@@ -3139,7 +3339,9 @@
         "gameplay"
       ],
       "slug": "artifactlaser",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/artifactlaser.webp"
+      },
       "viewCount": 21,
       "installCount": 27
     },
@@ -3162,7 +3364,10 @@
         "gameplay"
       ],
       "slug": "speedmodifierwalkbuttononkbm",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/speedmodifierwalkbuttononkbm.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/speedmodifierwalkbuttononkbm.gif"
+      },
       "viewCount": 6,
       "installCount": 4
     },
@@ -3182,7 +3387,7 @@
         "content"
       ],
       "slug": "cutachievements",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 21,
       "installCount": 49
     },
@@ -3205,7 +3410,9 @@
         "gameplay"
       ],
       "slug": "chargeablescoutlauncher",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/chargeablescoutlauncher.webp"
+      },
       "viewCount": 4,
       "installCount": 12
     },
@@ -3228,7 +3435,9 @@
         "integration"
       ],
       "slug": "razersteelseriesrgbintegration",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/razersteelseriesrgbintegration.webp"
+      },
       "viewCount": 7,
       "installCount": 10
     },
@@ -3251,7 +3460,7 @@
         "audiovisual"
       ],
       "slug": "europetimes",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 2,
       "installCount": 19
     },
@@ -3276,7 +3485,7 @@
         "audiovisual"
       ],
       "slug": "hazydreams",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 10,
       "installCount": 25
     },
@@ -3301,7 +3510,7 @@
         "library"
       ],
       "slug": "gizmoslibrary",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 4,
       "installCount": 2
     },
@@ -3325,7 +3534,10 @@
         "content"
       ],
       "slug": "wackyrotations",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/wackyrotations.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/wackyrotations.gif"
+      },
       "viewCount": 16,
       "installCount": 14
     },
@@ -3351,7 +3563,10 @@
         "content"
       ],
       "slug": "thevision",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/thevision.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/thevision.gif"
+      },
       "viewCount": 1200,
       "installCount": 346
     },
@@ -3376,7 +3591,9 @@
         "content"
       ],
       "slug": "secretwords",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/secretwords.webp"
+      },
       "viewCount": 60,
       "installCount": 56
     },
@@ -3409,7 +3626,9 @@
         "content"
       ],
       "slug": "slatesshipyard",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/slatesshipyard.webp"
+      },
       "viewCount": 57,
       "installCount": 60
     },
@@ -3439,7 +3658,9 @@
         "gameplay"
       ],
       "slug": "spaceshipinha",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/spaceshipinha.webp"
+      },
       "viewCount": 31,
       "installCount": 54
     },
@@ -3463,7 +3684,9 @@
         "gameplay"
       ],
       "slug": "doom",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/doom.webp"
+      },
       "viewCount": 135,
       "installCount": 85
     },
@@ -3493,7 +3716,9 @@
         "gameplay"
       ],
       "slug": "carexample",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/carexample.webp"
+      },
       "viewCount": 14,
       "installCount": 48
     },
@@ -3517,7 +3742,9 @@
         "audiovisual"
       ],
       "slug": "clearglass",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/clearglass.webp"
+      },
       "viewCount": 21,
       "installCount": 25
     },
@@ -3541,7 +3768,7 @@
         "integration"
       ],
       "slug": "bhapticsouterwilds",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 5,
       "installCount": 8
     },
@@ -3565,7 +3792,9 @@
         "content"
       ],
       "slug": "espiedserenity",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/espiedserenity.webp"
+      },
       "viewCount": 26,
       "installCount": 28
     },
@@ -3589,7 +3818,9 @@
         "audiovisual"
       ],
       "slug": "greenjetpack",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/greenjetpack.webp"
+      },
       "viewCount": 12,
       "installCount": 22
     },
@@ -3613,7 +3844,7 @@
         "tool"
       ],
       "slug": "secretsettings",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 52,
       "installCount": 76
     },
@@ -3639,7 +3870,9 @@
         "story"
       ],
       "slug": "fretsquest",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/fretsquest.webp"
+      },
       "viewCount": 345,
       "installCount": 90
     },
@@ -3663,7 +3896,7 @@
         "gameplay"
       ],
       "slug": "heavysleeper",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 13,
       "installCount": 8
     },
@@ -3688,7 +3921,9 @@
         "content"
       ],
       "slug": "thefunniestsystem",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/thefunniestsystem.webp"
+      },
       "viewCount": 121,
       "installCount": 54
     },
@@ -3712,7 +3947,10 @@
         "gameplay"
       ],
       "slug": "scoutteleporter",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/scoutteleporter.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/scoutteleporter.gif"
+      },
       "viewCount": 27,
       "installCount": 57
     },
@@ -3737,7 +3975,9 @@
         "library"
       ],
       "slug": "customshiplogmodes",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/customshiplogmodes.webp"
+      },
       "viewCount": 25,
       "installCount": 35
     },
@@ -3762,7 +4002,10 @@
         "tweaks"
       ],
       "slug": "shiplogslidereelplayerplus",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/shiplogslidereelplayerplus.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/shiplogslidereelplayerplus.gif"
+      },
       "viewCount": 19,
       "installCount": 59
     },
@@ -3787,7 +4030,9 @@
         "content"
       ],
       "slug": "smallestsysteminthegalaxy",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/smallestsysteminthegalaxy.webp"
+      },
       "viewCount": 27,
       "installCount": 36
     },
@@ -3813,7 +4058,9 @@
         "tool"
       ],
       "slug": "developerconsole",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/developerconsole.webp"
+      },
       "viewCount": 12,
       "installCount": 13
     },
@@ -3837,7 +4084,7 @@
         "tool"
       ],
       "slug": "consolecheats",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 14,
       "installCount": 20
     },
@@ -3861,7 +4108,9 @@
         "audiovisual"
       ],
       "slug": "movoices",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/movoices.webp"
+      },
       "viewCount": 60,
       "installCount": 116
     },
@@ -3886,7 +4135,9 @@
         "content"
       ],
       "slug": "thewildsextended",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/thewildsextended.webp"
+      },
       "viewCount": 44,
       "installCount": 51
     },
@@ -3913,7 +4164,9 @@
         "story"
       ],
       "slug": "escapethedreamstalker",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/escapethedreamstalker.webp"
+      },
       "viewCount": 186,
       "installCount": 67
     },
@@ -3936,7 +4189,7 @@
         "tweaks"
       ],
       "slug": "shipselfdestructbutton",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 8,
       "installCount": 18
     },
@@ -3961,7 +4214,9 @@
         "content"
       ],
       "slug": "ernestotakeover",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/ernestotakeover.webp"
+      },
       "viewCount": 56,
       "installCount": 29
     },
@@ -3987,7 +4242,7 @@
         "audiovisual"
       ],
       "slug": "dancinwildsventures",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 29,
       "installCount": 48
     },
@@ -4010,7 +4265,10 @@
         "gameplay"
       ],
       "slug": "strangerspingravity",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/strangerspingravity.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/strangerspingravity.gif"
+      },
       "viewCount": 35,
       "installCount": 27
     },
@@ -4040,7 +4298,10 @@
         "integration"
       ],
       "slug": "discordproximitychat",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/discordproximitychat.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/discordproximitychat.gif"
+      },
       "viewCount": 150,
       "installCount": 298
     },
@@ -4062,7 +4323,7 @@
         "library"
       ],
       "slug": "slatesshipyardforouterwildsonline",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 24,
       "installCount": 75
     },
@@ -4087,7 +4348,9 @@
         "content"
       ],
       "slug": "iletthevoicesonthediscordservermakebadideasforplanets",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/iletthevoicesonthediscordservermakebadideasforplanets.webp"
+      },
       "viewCount": 33,
       "installCount": 46
     },
@@ -4113,7 +4376,9 @@
         "content"
       ],
       "slug": "superwildgalaxy",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/superwildgalaxy.webp"
+      },
       "viewCount": 79,
       "installCount": 51
     },
@@ -4138,7 +4403,9 @@
         "tweaks"
       ],
       "slug": "trajectoryprediction",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/trajectoryprediction.webp"
+      },
       "viewCount": 186,
       "installCount": 71
     },
@@ -4163,7 +4430,9 @@
         "tweaks"
       ],
       "slug": "nbodychaos",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/nbodychaos.webp"
+      },
       "viewCount": 60,
       "installCount": 47
     },
@@ -4187,7 +4456,9 @@
         "tool"
       ],
       "slug": "sharedshiplog",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/sharedshiplog.webp"
+      },
       "viewCount": 83,
       "installCount": 18
     },
@@ -4209,7 +4480,7 @@
         "tool"
       ],
       "slug": "kerbalspaceventures",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 37,
       "installCount": 63
     },
@@ -4234,7 +4505,9 @@
         "content"
       ],
       "slug": "solarsystemsimadeasakid",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/solarsystemsimadeasakid.webp"
+      },
       "viewCount": 40,
       "installCount": 31
     },
@@ -4259,7 +4532,9 @@
         "content"
       ],
       "slug": "owlystem",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/owlystem.webp"
+      },
       "viewCount": 117,
       "installCount": 56
     },
@@ -4284,7 +4559,7 @@
         "tool"
       ],
       "slug": "nomaitextprinter",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 20,
       "installCount": 11
     },
@@ -4308,7 +4583,7 @@
         "tweaks"
       ],
       "slug": "thefinalshortcut",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 144,
       "installCount": 67
     },
@@ -4332,7 +4607,9 @@
         "content"
       ],
       "slug": "howdidthishappen",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/howdidthishappen.webp"
+      },
       "viewCount": 198,
       "installCount": 74
     },
@@ -4356,7 +4633,7 @@
         "content"
       ],
       "slug": "idontlikesand",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 84,
       "installCount": 23
     },
@@ -4380,7 +4657,7 @@
         "localization"
       ],
       "slug": "outerwildsenandalh",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 23,
       "installCount": 11
     },
@@ -4404,7 +4681,9 @@
         "gameplay"
       ],
       "slug": "outerpictures",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/outerpictures.webp"
+      },
       "viewCount": 54,
       "installCount": 14
     },
@@ -4429,7 +4708,9 @@
         "tool"
       ],
       "slug": "speedtools",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/speedtools.webp"
+      },
       "viewCount": 69,
       "installCount": 10
     },
@@ -4452,7 +4733,7 @@
         "gameplay"
       ],
       "slug": "breakondemand",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 11,
       "installCount": 6
     },
@@ -4477,7 +4758,7 @@
         "story"
       ],
       "slug": "funnychristmas",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 4,
       "installCount": 8
     },
@@ -4501,7 +4782,10 @@
         "tweaks"
       ],
       "slug": "enablemeditation",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/enablemeditation.webp",
+        "openGraph": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/enablemeditation.gif"
+      },
       "viewCount": 1,
       "installCount": 0
     }
@@ -4529,7 +4813,9 @@
         "library"
       ],
       "slug": "bepinex",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/bepinex.webp"
+      },
       "viewCount": 18,
       "installCount": 0
     },
@@ -4551,7 +4837,7 @@
         "library"
       ],
       "slug": "owaml",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 1,
       "installCount": 0
     },
@@ -4576,7 +4862,7 @@
         "library"
       ],
       "slug": "camowa",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 1,
       "installCount": 0
     },
@@ -4600,7 +4886,9 @@
         "tweaks"
       ],
       "slug": "alphafixes",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/alphafixes.webp"
+      },
       "viewCount": 8,
       "installCount": 1
     },
@@ -4624,7 +4912,9 @@
         "gameplay"
       ],
       "slug": "navinha",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/navinha.webp"
+      },
       "viewCount": 7,
       "installCount": 1
     },
@@ -4648,7 +4938,7 @@
         "tool"
       ],
       "slug": "freecammod",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 9,
       "installCount": 3
     },
@@ -4677,7 +4967,7 @@
         "gameplay"
       ],
       "slug": "probegrapple",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 2,
       "installCount": 1
     },
@@ -4701,7 +4991,7 @@
         "tweaks"
       ],
       "slug": "coolerbottomcams",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 1,
       "installCount": 0
     },
@@ -4725,7 +5015,7 @@
         "tweaks"
       ],
       "slug": "enhancedmallows",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 2,
       "installCount": 2
     },
@@ -4749,7 +5039,7 @@
         "tweaks"
       ],
       "slug": "automaticlaunchcodes",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 6,
       "installCount": 1
     },
@@ -4773,7 +5063,7 @@
         "tweaks"
       ],
       "slug": "noprobelaunchwindow",
-      "hasThumbnail": false,
+      "thumbnail": {},
       "viewCount": 1,
       "installCount": 0
     },
@@ -4797,7 +5087,9 @@
         "tool"
       ],
       "slug": "runtimeunityeditor",
-      "hasThumbnail": true,
+      "thumbnail": {
+        "main": "/home/runner/work/ow-mod-db/ow-mod-db/database/thumbnails/runtimeunityeditor.webp"
+      },
       "viewCount": 6,
       "installCount": 0
     }
