@@ -47,20 +47,23 @@ export const generateModThumbnail = async (
     await fsp.mkdir(fileOutputDir, { recursive: true });
   }
 
-  const resizedSharpImage = sharpImage
-    .resize({ ...thumbnailSize, fit: "cover" })
-    .webp({ smartSubsample: true });
+  const resizedSharpImage = sharpImage.resize({
+    ...thumbnailSize,
+    fit: "cover",
+  });
 
   const mainImageName = `${slug}.webp`;
-  await resizedSharpImage.toFile(path.join(fileOutputDir, mainImageName));
+  await resizedSharpImage
+    .webp({ smartSubsample: true })
+    .toFile(path.join(fileOutputDir, mainImageName));
 
   let openGraphImageName;
   const metadata = await sharpImage.metadata();
   if ((metadata.pages ?? 0) > 1) {
-    openGraphImageName = `${slug}.gif`;
-    await resizedSharpImage.toFile(
-      path.join(fileOutputDir, openGraphImageName)
-    );
+    openGraphImageName = `${slug}.png`;
+    await resizedSharpImage
+      .png()
+      .toFile(path.join(fileOutputDir, openGraphImageName));
   }
 
   return {
