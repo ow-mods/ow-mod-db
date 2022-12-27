@@ -9,28 +9,31 @@ export const thumbnailSize = {
   height: 100,
 } as const;
 
+type ThumbnailInfo = {
+  main?: string;
+  openGraph?: string;
+};
+
 export const generateModThumbnail = async (
-  modUniqueName: string,
+  slug: string,
   readmeUrl: string,
   outputDirectory: string
-): Promise<boolean> => {
+): Promise<ThumbnailInfo> => {
   const readme = await getModReadme(readmeUrl);
 
   if (!readme) {
-    return false;
+    return {};
   }
 
   const firstImageUrl = getFirstImageUrl(readme, getRawContentUrl(readmeUrl));
 
-  if (firstImageUrl == null) return false;
+  if (firstImageUrl == null) return {};
 
-  const rawImageFilePath = await downloadImage(firstImageUrl, modUniqueName);
+  const rawImageFilePath = await downloadImage(firstImageUrl, slug);
 
   if (rawImageFilePath == null) {
-    console.log(
-      `Failed to download image ${firstImageUrl} for mod ${modUniqueName}`
-    );
-    return false;
+    console.log(`Failed to download image ${firstImageUrl} for ${slug}`);
+    return {};
   }
 
   const sharpImage = sharp(rawImageFilePath, {
@@ -48,10 +51,20 @@ export const generateModThumbnail = async (
     .resize({ ...thumbnailSize, fit: "cover" })
     .webp({ smartSubsample: true });
 
-  const optimizedImagePath = path.join(fileOutputDir, `${modUniqueName}.webp`);
-  const resizedImage = await resizedSharpImage.toFile(optimizedImagePath);
+  const thumbnailImagePath = path.join(fileOutputDir, `${slug}.webp`);
+  await resizedSharpImage.toFile(thumbnailImagePath);
 
-  return resizedImage != null;
+  let openGraphImagePath;
+  const metadata = await sharpImage.metadata();
+  if ((metadata.pages ?? 0) > 1) {
+    openGraphImagePath = path.join(fileOutputDir, `${slug}.gif`);
+    await resizedSharpImage.toFile(openGraphImagePath);
+  }
+
+  return {
+    main: thumbnailImagePath,
+    openGraph: openGraphImagePath,
+  };
 };
 
 export const getModReadme = async (url: string): Promise<string | null> => {

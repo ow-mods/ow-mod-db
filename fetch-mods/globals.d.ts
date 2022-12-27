@@ -47,5 +47,8 @@ interface Mod extends Release {
     date: string;
   };
   tags: string[];
-  hasThumbnail: boolean;
+  thumbnail: {
+    main?: string;
+    openGraph?: string;
+  };
 }
