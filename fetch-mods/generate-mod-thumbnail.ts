@@ -51,19 +51,21 @@ export const generateModThumbnail = async (
     .resize({ ...thumbnailSize, fit: "cover" })
     .webp({ smartSubsample: true });
 
-  const thumbnailImagePath = path.join(fileOutputDir, `${slug}.webp`);
-  await resizedSharpImage.toFile(thumbnailImagePath);
+  const mainImageName = `${slug}.webp`;
+  await resizedSharpImage.toFile(path.join(fileOutputDir, mainImageName));
 
-  let openGraphImagePath;
+  let openGraphImageName;
   const metadata = await sharpImage.metadata();
   if ((metadata.pages ?? 0) > 1) {
-    openGraphImagePath = path.join(fileOutputDir, `${slug}.gif`);
-    await resizedSharpImage.toFile(openGraphImagePath);
+    openGraphImageName = `${slug}.gif`;
+    await resizedSharpImage.toFile(
+      path.join(fileOutputDir, openGraphImageName)
+    );
   }
 
   return {
-    main: thumbnailImagePath,
-    openGraph: openGraphImagePath,
+    main: mainImageName,
+    openGraph: openGraphImageName,
   };
 };
 
