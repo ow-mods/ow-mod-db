@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 98873
+    "downloadCount": 98874
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 80391,
+      "downloadCount": 80392,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -63,7 +63,7 @@
       "slug": "nomaivr",
       "thumbnail": {
         "main": "nomaivr.webp",
-        "openGraph": "nomaivr.png"
+        "openGraph": "nomaivr-static.webp"
       },
       "viewCount": 1763,
       "installCount": 996
@@ -234,7 +234,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 13654,
+      "downloadCount": 13655,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -846,7 +846,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.8.0/xen.NewHorizons.Release.zip",
-      "downloadCount": 17004,
+      "downloadCount": 17005,
       "latestReleaseDate": "2022-12-12T23:15:56Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -875,7 +875,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.16.0/nh-examples.zip",
-      "downloadCount": 3529,
+      "downloadCount": 3530,
       "latestReleaseDate": "2022-10-22T15:23:46Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -902,7 +902,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.6.6/outer-wilds-real-solar-system.zip",
-      "downloadCount": 5618,
+      "downloadCount": 5619,
       "latestReleaseDate": "2022-09-20T04:59:20Z",
       "firstReleaseDate": "2021-12-19T01:26:21Z",
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
@@ -1329,7 +1329,7 @@
       "slug": "outerwarioechoesofthewaaaaaaaaaaah",
       "thumbnail": {
         "main": "outerwarioechoesofthewaaaaaaaaaaah.webp",
-        "openGraph": "outerwarioechoesofthewaaaaaaaaaaah.png"
+        "openGraph": "outerwarioechoesofthewaaaaaaaaaaah-static.webp"
       },
       "viewCount": 14,
       "installCount": 24
@@ -1728,7 +1728,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.10.2/JohnCorby.VanillaFix.zip",
-      "downloadCount": 12149,
+      "downloadCount": 12150,
       "latestReleaseDate": "2022-10-01T04:44:36Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2018,7 +2018,7 @@
       "slug": "jammerlore",
       "thumbnail": {
         "main": "jammerlore.webp",
-        "openGraph": "jammerlore.png"
+        "openGraph": "jammerlore-static.webp"
       },
       "viewCount": 21,
       "installCount": 23
@@ -2670,7 +2670,7 @@
       "slug": "suitlog",
       "thumbnail": {
         "main": "suitlog.webp",
-        "openGraph": "suitlog.png"
+        "openGraph": "suitlog-static.webp"
       },
       "viewCount": 51,
       "installCount": 82
@@ -2730,7 +2730,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
-      "downloadCount": 5805,
+      "downloadCount": 5806,
       "latestReleaseDate": "2022-10-22T15:26:44Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -3070,7 +3070,7 @@
       "slug": "blockplacing",
       "thumbnail": {
         "main": "blockplacing.webp",
-        "openGraph": "blockplacing.png"
+        "openGraph": "blockplacing-static.webp"
       },
       "viewCount": 21,
       "installCount": 30
@@ -3264,7 +3264,7 @@
       "slug": "permadeathmode",
       "thumbnail": {
         "main": "permadeathmode.webp",
-        "openGraph": "permadeathmode.png"
+        "openGraph": "permadeathmode-static.webp"
       },
       "viewCount": 18,
       "installCount": 5
@@ -3366,7 +3366,7 @@
       "slug": "speedmodifierwalkbuttononkbm",
       "thumbnail": {
         "main": "speedmodifierwalkbuttononkbm.webp",
-        "openGraph": "speedmodifierwalkbuttononkbm.png"
+        "openGraph": "speedmodifierwalkbuttononkbm-static.webp"
       },
       "viewCount": 6,
       "installCount": 4
@@ -3536,7 +3536,7 @@
       "slug": "wackyrotations",
       "thumbnail": {
         "main": "wackyrotations.webp",
-        "openGraph": "wackyrotations.png"
+        "openGraph": "wackyrotations-static.webp"
       },
       "viewCount": 16,
       "installCount": 14
@@ -3548,7 +3548,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.2/hearth1an.TheVision.zip",
-      "downloadCount": 5035,
+      "downloadCount": 5036,
       "latestReleaseDate": "2022-12-14T14:19:21Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -3565,7 +3565,7 @@
       "slug": "thevision",
       "thumbnail": {
         "main": "thevision.webp",
-        "openGraph": "thevision.png"
+        "openGraph": "thevision-static.webp"
       },
       "viewCount": 1200,
       "installCount": 347
@@ -3949,7 +3949,7 @@
       "slug": "scoutteleporter",
       "thumbnail": {
         "main": "scoutteleporter.webp",
-        "openGraph": "scoutteleporter.png"
+        "openGraph": "scoutteleporter-static.webp"
       },
       "viewCount": 27,
       "installCount": 57
@@ -3961,7 +3961,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.1/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 3126,
+      "downloadCount": 3127,
       "latestReleaseDate": "2022-10-26T04:07:09Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4004,7 +4004,7 @@
       "slug": "shiplogslidereelplayerplus",
       "thumbnail": {
         "main": "shiplogslidereelplayerplus.webp",
-        "openGraph": "shiplogslidereelplayerplus.png"
+        "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
       "viewCount": 19,
       "installCount": 59
@@ -4227,7 +4227,7 @@
       "author": "CantAffordaName",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.DancinWildsVentures/releases/download/v0.1.1/CantAffordaName.DancinWildsVentures.zip",
-      "downloadCount": 165,
+      "downloadCount": 166,
       "latestReleaseDate": "2022-11-17T03:35:25Z",
       "firstReleaseDate": "2022-11-05T04:04:47Z",
       "repo": "https://github.com/CantAffordaName/CantAffordaName.DancinWildsVentures",
@@ -4267,7 +4267,7 @@
       "slug": "strangerspingravity",
       "thumbnail": {
         "main": "strangerspingravity.webp",
-        "openGraph": "strangerspingravity.png"
+        "openGraph": "strangerspingravity-static.webp"
       },
       "viewCount": 35,
       "installCount": 27
@@ -4300,7 +4300,7 @@
       "slug": "discordproximitychat",
       "thumbnail": {
         "main": "discordproximitychat.webp",
-        "openGraph": "discordproximitychat.png"
+        "openGraph": "discordproximitychat-static.webp"
       },
       "viewCount": 150,
       "installCount": 298
@@ -4784,7 +4784,7 @@
       "slug": "enablemeditation",
       "thumbnail": {
         "main": "enablemeditation.webp",
-        "openGraph": "enablemeditation.png"
+        "openGraph": "enablemeditation-static.webp"
       },
       "viewCount": 1,
       "installCount": 0
