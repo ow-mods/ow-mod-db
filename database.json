@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 99026
+    "downloadCount": 99027
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 80531,
+      "downloadCount": 80533,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -234,7 +234,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 13683,
+      "downloadCount": 13684,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -1240,7 +1240,7 @@
       "description": "Korean re-translation for Outer Wilds",
       "author": "milesand",
       "downloadUrl": "https://github.com/milesand/outer-wilds-korean-translation/releases/download/v1.1.1/OWKT.zip",
-      "downloadCount": 5986,
+      "downloadCount": 5987,
       "latestReleaseDate": "2022-09-24T05:28:30Z",
       "firstReleaseDate": "2022-01-09T06:54:55Z",
       "repo": "https://github.com/milesand/outer-wilds-korean-translation",
@@ -1728,7 +1728,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.10.2/JohnCorby.VanillaFix.zip",
-      "downloadCount": 12186,
+      "downloadCount": 12187,
       "latestReleaseDate": "2022-10-01T04:44:36Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2730,7 +2730,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
-      "downloadCount": 5823,
+      "downloadCount": 5824,
       "latestReleaseDate": "2022-10-22T15:26:44Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -3192,12 +3192,166 @@
       "installCount": 81
     },
     {
+      "name": "Galaxy Skybox: NGC 1087",
+      "uniqueName": "TerrificTrifid.NGC1087",
+      "description": "Places the Hearthian system in a peaceful galaxy.",
+      "author": "TerrificTrifid",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ngc1087/releases/download/v0.1.0/ow-nh-ngc1087.zip",
+      "downloadCount": 324,
+      "latestReleaseDate": "2022-07-26T04:13:21Z",
+      "firstReleaseDate": "2022-07-26T04:13:21Z",
+      "repo": "https://github.com/TerrificTrifid/ow-nh-ngc1087",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ngc1087/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ngc1087/main/README.md"
+      },
+      "tags": [
+        "audiovisual"
+      ],
+      "slug": "galaxyskyboxngc1087",
+      "thumbnail": {
+        "main": "galaxyskyboxngc1087.webp"
+      },
+      "viewCount": 20,
+      "installCount": 21
+    },
+    {
+      "name": "Quantum Moon Orbit Line",
+      "uniqueName": "MegaPiggy.QuantumMoonOrbitLine",
+      "description": "Adds an orbit line to the Quantum Moon on the map.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/QuantumMoonOrbitLine/releases/download/1.0.1/MegaPiggy.QuantumMoonOrbitLine.zip",
+      "downloadCount": 227,
+      "latestReleaseDate": "2022-07-27T11:34:00Z",
+      "firstReleaseDate": "2022-07-27T07:19:01Z",
+      "repo": "https://github.com/MegaPiggy/QuantumMoonOrbitLine",
+      "version": "1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/QuantumMoonOrbitLine/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/QuantumMoonOrbitLine/master/README.md"
+      },
+      "authorDisplay": "MegaPiggy",
+      "tags": [
+        "audiovisual"
+      ],
+      "slug": "quantummoonorbitline",
+      "thumbnail": {
+        "main": "quantummoonorbitline.webp"
+      },
+      "viewCount": 8,
+      "installCount": 9
+    },
+    {
+      "name": "Permadeath Mode",
+      "uniqueName": "piggeywig2000.Permadeath",
+      "description": "The ship log is reset if you die to something other than the supernova. Try to completely fill the ship log without dying!",
+      "author": "piggeywig2000",
+      "downloadUrl": "https://github.com/piggeywig2000/OuterWildsPermadeath/releases/download/1.1.2/OuterWildsPermadeath.1.1.2.zip",
+      "downloadCount": 142,
+      "latestReleaseDate": "2022-09-16T21:20:56Z",
+      "firstReleaseDate": "2022-08-01T00:13:25Z",
+      "repo": "https://github.com/piggeywig2000/OuterWildsPermadeath",
+      "version": "1.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/piggeywig2000/OuterWildsPermadeath/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/piggeywig2000/OuterWildsPermadeath/main/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "permadeathmode",
+      "thumbnail": {
+        "main": "permadeathmode.webp",
+        "openGraph": "permadeathmode-static.webp"
+      },
+      "viewCount": 15,
+      "installCount": 5
+    },
+    {
+      "name": "Sun Station Ascension",
+      "uniqueName": "TerrificTrifid.SSAscension",
+      "description": "Raises the Sun Station to a higher orbit to survive the red giant phase.",
+      "author": "TerrificTrifid",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/releases/download/v0.1.1/ow-nh-ss-ascension.zip",
+      "downloadCount": 259,
+      "latestReleaseDate": "2022-08-18T19:01:07Z",
+      "firstReleaseDate": "2022-08-17T04:00:28Z",
+      "repo": "https://github.com/TerrificTrifid/ow-nh-ss-ascension",
+      "version": "v0.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
+      },
+      "tags": [
+        "content"
+      ],
+      "slug": "sunstationascension",
+      "thumbnail": {
+        "main": "sunstationascension.webp"
+      },
+      "viewCount": 18,
+      "installCount": 25
+    },
+    {
+      "name": "Discord Rich Presence",
+      "uniqueName": "MegaPiggy.OWRichPresence",
+      "description": "Adds discord rich presence to Outer Wilds",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/OWRichPresence/releases/download/1.3.0/MegaPiggy.OWRichPresence.zip",
+      "downloadCount": 608,
+      "latestReleaseDate": "2022-10-03T00:54:36Z",
+      "firstReleaseDate": "2022-08-21T06:44:58Z",
+      "repo": "https://github.com/MegaPiggy/OWRichPresence",
+      "version": "1.3.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/OWRichPresence/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/OWRichPresence/master/README.md"
+      },
+      "tags": [
+        "integration"
+      ],
+      "slug": "discordrichpresence",
+      "thumbnail": {
+        "main": "discordrichpresence.webp"
+      },
+      "viewCount": 35,
+      "installCount": 63
+    },
+    {
+      "name": "Artifact Laser",
+      "uniqueName": "Cleric.ArtifactLaser",
+      "description": "Allows you to get revenge by making a certain item into a deadly laser.",
+      "author": "coderCleric",
+      "downloadUrl": "https://github.com/coderCleric/artifact_laser/releases/download/v1.1.0/Cleric.ArtifactLaser.zip",
+      "downloadCount": 246,
+      "latestReleaseDate": "2022-08-29T22:05:50Z",
+      "firstReleaseDate": "2022-08-22T03:33:15Z",
+      "repo": "https://github.com/coderCleric/artifact_laser",
+      "version": "v1.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/coderCleric/artifact_laser/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/coderCleric/artifact_laser/master/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "artifactlaser",
+      "thumbnail": {
+        "main": "artifactlaser.webp"
+      },
+      "viewCount": 20,
+      "installCount": 27
+    },
+    {
       "name": "Speed Modifier/Walk Button on KBM",
       "uniqueName": "ilyabru.OWSpeedModifier",
       "description": "Change the movement speed of your Hearthian using the keyboard+mouse input. Works when walking and flying. To use, press the default key: V",
       "author": "ilyabru",
       "downloadUrl": "https://github.com/ilyabru/OWSpeedModifier/releases/download/1.1.0/ilyabru.OWSpeedModifier.zip",
-      "downloadCount": 74,
+      "downloadCount": 75,
       "latestReleaseDate": "2022-11-06T23:02:45Z",
       "firstReleaseDate": "2022-08-23T04:43:39Z",
       "repo": "https://github.com/ilyabru/OWSpeedModifier",
@@ -3216,6 +3370,723 @@
       },
       "viewCount": 6,
       "installCount": 4
+    },
+    {
+      "name": "Cut Achievements",
+      "uniqueName": "_nebula.CutAchievements",
+      "description": "Adds some cut achievements back into Outer Wilds.",
+      "author": "misternebula",
+      "parent": "xen.AchievementTracker",
+      "downloadUrl": "https://github.com/misternebula/cut-achievements/releases/download/1.0.0/CutAchievements.zip",
+      "downloadCount": 318,
+      "latestReleaseDate": "2022-08-23T22:28:07Z",
+      "firstReleaseDate": "2022-08-23T22:28:07Z",
+      "repo": "https://github.com/misternebula/cut-achievements",
+      "version": "1.0.0",
+      "tags": [
+        "content"
+      ],
+      "slug": "cutachievements",
+      "thumbnail": {},
+      "viewCount": 19,
+      "installCount": 49
+    },
+    {
+      "name": "Chargeable Scout Launcher",
+      "uniqueName": "Cleric.ChargeableScout",
+      "description": "Makes it so that the scout launcher can be charged for a farther launch.",
+      "author": "coderCleric",
+      "downloadUrl": "https://github.com/coderCleric/chargeable-scout/releases/download/v1.0.3/Cleric.ChargeableScout.zip",
+      "downloadCount": 246,
+      "latestReleaseDate": "2022-12-26T23:45:59Z",
+      "firstReleaseDate": "2022-08-25T19:43:08Z",
+      "repo": "https://github.com/coderCleric/chargeable-scout",
+      "version": "v1.0.3",
+      "readme": {
+        "htmlUrl": "https://github.com/coderCleric/chargeable-scout/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/coderCleric/chargeable-scout/master/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "chargeablescoutlauncher",
+      "thumbnail": {
+        "main": "chargeablescoutlauncher.webp"
+      },
+      "viewCount": 7,
+      "installCount": 12
+    },
+    {
+      "name": "(Razer/SteelSeries) RGB Integration",
+      "uniqueName": "LivingFray.RGBIntegration",
+      "description": "Adds effects to supported SteelSeries keyboards + mice",
+      "author": "LivingFray",
+      "downloadUrl": "https://github.com/LivingFray/OW-RGB-Integration/releases/download/0.2.1/LivingFray.RGBIntegration.zip",
+      "downloadCount": 83,
+      "latestReleaseDate": "2022-09-10T16:18:20Z",
+      "firstReleaseDate": "2022-08-27T22:09:59Z",
+      "repo": "https://github.com/LivingFray/OW-RGB-Integration",
+      "version": "0.2.1",
+      "readme": {
+        "htmlUrl": "https://github.com/LivingFray/OW-RGB-Integration/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/LivingFray/OW-RGB-Integration/master/README.md"
+      },
+      "tags": [
+        "integration"
+      ],
+      "slug": "razersteelseriesrgbintegration",
+      "thumbnail": {
+        "main": "razersteelseriesrgbintegration.webp"
+      },
+      "viewCount": 7,
+      "installCount": 10
+    },
+    {
+      "name": "Europe Times",
+      "uniqueName": "MegaPiggy.EuropeTimes",
+      "description": "Replaces end times with The Final Countdown by Europe",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/EuropeTimes/releases/download/0.1.0/EuropeTimes.zip",
+      "downloadCount": 156,
+      "latestReleaseDate": "2022-08-28T22:26:38Z",
+      "firstReleaseDate": "2022-08-28T22:26:38Z",
+      "repo": "https://github.com/MegaPiggy/EuropeTimes",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/MegaPiggy/EuropeTimes/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/EuropeTimes/master/README.md"
+      },
+      "tags": [
+        "audiovisual"
+      ],
+      "slug": "europetimes",
+      "thumbnail": {},
+      "viewCount": 2,
+      "installCount": 19
+    },
+    {
+      "name": "Hazy Dreams",
+      "uniqueName": "Laundryjx.HazyDreams",
+      "description": "A mod that adds fog to the dreamworld.",
+      "author": "Landriejx",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/Landriejx/HazyDreams/releases/download/v0.1.0/Laundryjx.HazyDreams.zip",
+      "downloadCount": 204,
+      "latestReleaseDate": "2022-08-28T18:45:35Z",
+      "firstReleaseDate": "2022-08-28T18:45:35Z",
+      "repo": "https://github.com/Landriejx/HazyDreams",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Landriejx/HazyDreams/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Landriejx/HazyDreams/main/README.md"
+      },
+      "authorDisplay": "Laundryjx",
+      "tags": [
+        "audiovisual"
+      ],
+      "slug": "hazydreams",
+      "thumbnail": {},
+      "viewCount": 10,
+      "installCount": 25
+    },
+    {
+      "name": "Gizmos Library",
+      "uniqueName": "Locochoco.GizmosLibrary",
+      "description": "A library to help drawing gizmos on Outer Wilds",
+      "author": "ShoosGun",
+      "utility": true,
+      "downloadUrl": "https://github.com/ShoosGun/GizmosLibrary/releases/download/0.1.0/Locochoco.GizmosLibrary.zip",
+      "downloadCount": 29,
+      "latestReleaseDate": "2022-09-02T00:44:11Z",
+      "firstReleaseDate": "2022-09-02T00:44:11Z",
+      "repo": "https://github.com/ShoosGun/GizmosLibrary",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/GizmosLibrary/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/GizmosLibrary/main/README.md"
+      },
+      "authorDisplay": "Locochoco",
+      "tags": [
+        "library"
+      ],
+      "slug": "gizmoslibrary",
+      "thumbnail": {},
+      "viewCount": 4,
+      "installCount": 2
+    },
+    {
+      "name": "Wacky Rotations",
+      "uniqueName": "Cleric.WackyRotations",
+      "description": "Allows the player to mess with the rotation settings on planets. Inspired by the randomizer mod.",
+      "author": "coderCleric",
+      "downloadUrl": "https://github.com/coderCleric/WackyRotations/releases/download/v0.1.0/Cleric.WackyRotations.zip",
+      "downloadCount": 143,
+      "latestReleaseDate": "2022-09-03T01:09:59Z",
+      "firstReleaseDate": "2022-09-03T01:09:59Z",
+      "repo": "https://github.com/coderCleric/WackyRotations",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/coderCleric/WackyRotations/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/coderCleric/WackyRotations/master/README.md"
+      },
+      "authorDisplay": "coderCleric",
+      "tags": [
+        "content"
+      ],
+      "slug": "wackyrotations",
+      "thumbnail": {
+        "main": "wackyrotations.webp",
+        "openGraph": "wackyrotations-static.webp"
+      },
+      "viewCount": 13,
+      "installCount": 14
+    },
+    {
+      "name": "The Vision",
+      "uniqueName": "hearth1an.TheVision",
+      "description": "This mod continues the story from both base game and Echoes of the Eye DLC. Translations: EN, RU, PT, FR, ZH, JA, DE, ES",
+      "author": "hearth1an",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.2/hearth1an.TheVision.zip",
+      "downloadCount": 5047,
+      "latestReleaseDate": "2022-12-14T14:19:21Z",
+      "firstReleaseDate": "2022-09-04T17:24:56Z",
+      "repo": "https://github.com/hearth1an/hearthian.TheVision",
+      "version": "v1.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/hearth1an/hearthian.TheVision/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
+      },
+      "authorDisplay": "hearth1an",
+      "tags": [
+        "story",
+        "content"
+      ],
+      "slug": "thevision",
+      "thumbnail": {
+        "main": "thevision.webp",
+        "openGraph": "thevision-static.webp"
+      },
+      "viewCount": 1174,
+      "installCount": 326
+    },
+    {
+      "name": "Secret Words",
+      "uniqueName": "Fixxion.SecretWords",
+      "description": "A mod that creates 5 custom planets on Outer Wilds. Each of them hides a secret code. Gather them and make your name appear on the mod!",
+      "author": "FixxionsLair",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/FixxionsLair/Secret-Words/releases/download/0.1.3/Fixxion.SecretWords.zip",
+      "downloadCount": 510,
+      "latestReleaseDate": "2022-09-09T10:05:13Z",
+      "firstReleaseDate": "2022-09-08T15:20:09Z",
+      "repo": "https://github.com/FixxionsLair/Secret-Words",
+      "version": "0.1.3",
+      "readme": {
+        "htmlUrl": "https://github.com/FixxionsLair/Secret-Words/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/FixxionsLair/Secret-Words/main/README.md"
+      },
+      "authorDisplay": "Fixxion's Lair",
+      "tags": [
+        "content"
+      ],
+      "slug": "secretwords",
+      "thumbnail": {
+        "main": "secretwords.webp"
+      },
+      "viewCount": 57,
+      "installCount": 54
+    },
+    {
+      "name": "Slate's Shipyard",
+      "uniqueName": "Locochoco.SlateShipyard",
+      "description": "Allows creation and spawing of custom ships.",
+      "author": "ShoosGun",
+      "utility": true,
+      "downloadUrl": "https://github.com/ShoosGun/SlateShipyard/releases/download/v0.2.0/Locochoco.SlateShipyard.zip",
+      "downloadCount": 596,
+      "latestReleaseDate": "2022-11-23T01:40:01Z",
+      "firstReleaseDate": "2022-09-08T19:44:51Z",
+      "repo": "https://github.com/ShoosGun/SlateShipyard",
+      "version": "v0.2.0",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/SlateShipyard/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/SlateShipyard/main/README.md"
+      },
+      "authorDisplay": "Locochoco",
+      "prerelease": {
+        "version": "v0.1.9",
+        "downloadUrl": "https://github.com/ShoosGun/SlateShipyard/releases/download/v0.1.9/Locochoco.SlateShipyard.zip",
+        "date": "2022-11-21T10:02:13Z"
+      },
+      "tags": [
+        "library",
+        "gameplay",
+        "tool",
+        "content"
+      ],
+      "slug": "slatesshipyard",
+      "thumbnail": {
+        "main": "slatesshipyard.webp"
+      },
+      "viewCount": 56,
+      "installCount": 57
+    },
+    {
+      "name": "Spaceshipinha",
+      "uniqueName": "Locochoco.Spaceshipinha",
+      "description": "Adds a ship simmilar to the one on the alpha mod Navinha",
+      "author": "ShoosGun",
+      "parent": "Locochoco.SlateShipyard",
+      "downloadUrl": "https://github.com/ShoosGun/Spaceshipinha/releases/download/v0.1.8/Locochoco.Spaceshipinha.zip",
+      "downloadCount": 345,
+      "latestReleaseDate": "2022-11-23T01:39:54Z",
+      "firstReleaseDate": "2022-09-08T20:00:48Z",
+      "repo": "https://github.com/ShoosGun/Spaceshipinha",
+      "version": "v0.1.8",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/Spaceshipinha/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/Spaceshipinha/main/README.md"
+      },
+      "authorDisplay": "Locochoco",
+      "prerelease": {
+        "version": "v0.1.7",
+        "downloadUrl": "https://github.com/ShoosGun/Spaceshipinha/releases/download/v0.1.7/Locochoco.Spaceshipinha.zip",
+        "date": "2022-11-15T01:27:13Z"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "spaceshipinha",
+      "thumbnail": {
+        "main": "spaceshipinha.webp"
+      },
+      "viewCount": 29,
+      "installCount": 53
+    },
+    {
+      "name": "DOOM",
+      "uniqueName": "Hawkbar.Doom",
+      "description": "But can your ship run DOOM? Yes, yes it can.",
+      "author": "Hawkbat",
+      "downloadUrl": "https://github.com/Hawkbat/ow-mod-doom/releases/download/0.1.2/Hawkbar.Doom.zip",
+      "downloadCount": 537,
+      "latestReleaseDate": "2022-12-03T18:10:17Z",
+      "firstReleaseDate": "2022-09-09T21:02:46Z",
+      "repo": "https://github.com/Hawkbat/ow-mod-doom",
+      "version": "0.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/Hawkbat/ow-mod-doom/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-doom/master/README.md"
+      },
+      "authorDisplay": "Hawkbar",
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "doom",
+      "thumbnail": {
+        "main": "doom.webp"
+      },
+      "viewCount": 135,
+      "installCount": 87
+    },
+    {
+      "name": "Car Example",
+      "uniqueName": "Locochoco.CarExample",
+      "description": "An example mod of creating vehicles with wheels with Slate's Shipyard",
+      "author": "ShoosGun",
+      "parent": "Locochoco.SlateShipyard",
+      "downloadUrl": "https://github.com/ShoosGun/CarExample/releases/download/v0.1.4/Locochoco.CarExample.zip",
+      "downloadCount": 282,
+      "latestReleaseDate": "2022-11-23T01:39:36Z",
+      "firstReleaseDate": "2022-09-15T02:08:13Z",
+      "repo": "https://github.com/ShoosGun/CarExample",
+      "version": "v0.1.4",
+      "readme": {
+        "htmlUrl": "https://github.com/ShoosGun/CarExample/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/CarExample/main/README.md"
+      },
+      "authorDisplay": "Locochoco",
+      "prerelease": {
+        "version": "v0.1.3",
+        "downloadUrl": "https://github.com/ShoosGun/CarExample/releases/download/v0.1.3/Locochoco.CarExample.zip",
+        "date": "2022-11-15T01:30:20Z"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "carexample",
+      "thumbnail": {
+        "main": "carexample.webp"
+      },
+      "viewCount": 13,
+      "installCount": 47
+    },
+    {
+      "name": "Clear Glass",
+      "uniqueName": "clay.ClearGlass",
+      "description": "Makes some glass in the game clear",
+      "author": "FreezeDriedMangos",
+      "downloadUrl": "https://github.com/FreezeDriedMangos/ow-clear-glass/releases/download/1.0.0/clay.ClearGlass.zip",
+      "downloadCount": 195,
+      "latestReleaseDate": "2022-09-17T23:44:57Z",
+      "firstReleaseDate": "2022-09-17T23:44:57Z",
+      "repo": "https://github.com/FreezeDriedMangos/ow-clear-glass",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/FreezeDriedMangos/ow-clear-glass/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/FreezeDriedMangos/ow-clear-glass/master/README.md"
+      },
+      "authorDisplay": "clay",
+      "tags": [
+        "audiovisual"
+      ],
+      "slug": "clearglass",
+      "thumbnail": {
+        "main": "clearglass.webp"
+      },
+      "viewCount": 20,
+      "installCount": 25
+    },
+    {
+      "name": "Bhaptics Outer Wilds",
+      "uniqueName": "Astien.OWBhaptics",
+      "description": "Bhaptics integration for outer wilds",
+      "author": "Astienth",
+      "downloadUrl": "https://github.com/Astienth/ow-bhaptics/releases/download/0.1.0/Astien.OWBhaptics.zip",
+      "downloadCount": 40,
+      "latestReleaseDate": "2022-09-18T10:58:25Z",
+      "firstReleaseDate": "2022-09-18T10:58:25Z",
+      "repo": "https://github.com/Astienth/ow-bhaptics",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Astienth/ow-bhaptics/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Astienth/ow-bhaptics/master/README.md"
+      },
+      "authorDisplay": "Astien75",
+      "tags": [
+        "integration"
+      ],
+      "slug": "bhapticsouterwilds",
+      "thumbnail": {},
+      "viewCount": 5,
+      "installCount": 8
+    },
+    {
+      "name": "Espied Serenity",
+      "uniqueName": "Ciborgm9.Espied_Serenity",
+      "description": "",
+      "author": "Ciborgm9",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/Ciborgm9/Rogue-Planet/releases/download/v0.1.1/Rogue-Planet.zip",
+      "downloadCount": 204,
+      "latestReleaseDate": "2022-09-23T14:41:31Z",
+      "firstReleaseDate": "2022-09-14T14:41:37Z",
+      "repo": "https://github.com/Ciborgm9/Rogue-Planet",
+      "version": "v0.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/Ciborgm9/Rogue-Planet/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Ciborgm9/Rogue-Planet/main/README.md"
+      },
+      "tags": [
+        "content"
+      ],
+      "slug": "espiedserenity",
+      "thumbnail": {
+        "main": "espiedserenity.webp"
+      },
+      "viewCount": 25,
+      "installCount": 28
+    },
+    {
+      "name": "Green Jetpack",
+      "uniqueName": "TheLoreExplorer.GreenJetpack",
+      "description": "",
+      "author": "TheLoreExplorer",
+      "downloadUrl": "https://github.com/TheLoreExplorer/GreenJetpack3/releases/download/0.2.0/TheLoreExplorer.GreenJetpack.zip",
+      "downloadCount": 121,
+      "latestReleaseDate": "2022-10-21T04:55:04Z",
+      "firstReleaseDate": "2022-10-21T04:55:04Z",
+      "repo": "https://github.com/TheLoreExplorer/GreenJetpack3",
+      "version": "0.2.0",
+      "readme": {
+        "htmlUrl": "https://github.com/TheLoreExplorer/GreenJetpack3/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TheLoreExplorer/GreenJetpack3/master/README.md"
+      },
+      "tags": [
+        "gameplay",
+        "audiovisual"
+      ],
+      "slug": "greenjetpack",
+      "thumbnail": {
+        "main": "greenjetpack.webp"
+      },
+      "viewCount": 11,
+      "installCount": 21
+    },
+    {
+      "name": "Secret Settings",
+      "uniqueName": "xen.SecretSettings",
+      "description": "Allows setting the games \"secret settings\" (ex, showing breath fog on your visor) from the mod options menu.",
+      "author": "xen-42",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-secret-settings/releases/download/v0.1.0/xen.SecretSettings.zip",
+      "downloadCount": 410,
+      "latestReleaseDate": "2022-09-27T18:03:04Z",
+      "firstReleaseDate": "2022-09-27T18:03:04Z",
+      "repo": "https://github.com/xen-42/outer-wilds-secret-settings",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-secret-settings/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-secret-settings/master/README.md"
+      },
+      "authorDisplay": "xen",
+      "tags": [
+        "tool"
+      ],
+      "slug": "secretsettings",
+      "thumbnail": {},
+      "viewCount": 49,
+      "installCount": 74
+    },
+    {
+      "name": "Fret's Quest",
+      "uniqueName": "Samster68.FretsQuest",
+      "description": "A short story addon where you help a friend recover something that was stolen from him.",
+      "author": "Samster68OW",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/Samster68OW/fretsquest/releases/download/v0.5.0/fretsquest.zip",
+      "downloadCount": 1242,
+      "latestReleaseDate": "2022-10-27T12:33:03Z",
+      "firstReleaseDate": "2022-10-01T23:01:22Z",
+      "repo": "https://github.com/Samster68OW/fretsquest",
+      "version": "v0.5.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Samster68OW/fretsquest/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Samster68OW/fretsquest/main/README.md"
+      },
+      "authorDisplay": "Samster68",
+      "tags": [
+        "content",
+        "story"
+      ],
+      "slug": "fretsquest",
+      "thumbnail": {
+        "main": "fretsquest.webp"
+      },
+      "viewCount": 326,
+      "installCount": 88
+    },
+    {
+      "name": "Heavy Sleeper",
+      "uniqueName": "Smaed.HeavySleeper",
+      "description": "",
+      "author": "Smaedd",
+      "downloadUrl": "https://github.com/Smaedd/OW_HeavySleeper/releases/download/v0.2.0/Smaed.HeavySleeper.zip",
+      "downloadCount": 47,
+      "latestReleaseDate": "2022-10-03T04:45:37Z",
+      "firstReleaseDate": "2022-10-02T14:37:41Z",
+      "repo": "https://github.com/Smaedd/OW_HeavySleeper",
+      "version": "v0.2.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Smaedd/OW_HeavySleeper/blob/master/readme.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Smaedd/OW_HeavySleeper/master/readme.md"
+      },
+      "authorDisplay": "Smaed",
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "heavysleeper",
+      "thumbnail": {},
+      "viewCount": 12,
+      "installCount": 8
+    },
+    {
+      "name": "The Funniest System",
+      "uniqueName": "O32.FunnySystem",
+      "description": "Mix of exploration and story. May be funny. Need I say more?",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/funny-system/releases/download/1.5.1/O32.FunnySystem.zip",
+      "downloadCount": 619,
+      "latestReleaseDate": "2022-12-26T06:14:06Z",
+      "firstReleaseDate": "2022-10-02T21:32:53Z",
+      "repo": "https://github.com/RealOrbital32/funny-system",
+      "version": "1.5.1",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/funny-system/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/funny-system/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
+      "tags": [
+        "content"
+      ],
+      "slug": "thefunniestsystem",
+      "thumbnail": {
+        "main": "thefunniestsystem.webp"
+      },
+      "viewCount": 122,
+      "installCount": 53
+    },
+    {
+      "name": "Scout Teleporter",
+      "uniqueName": "hearth1an.ProbeTeleporter",
+      "description": "Pure Hearthian technology! Now you can use scout to teleport yourself or climb anywhere with tiny gravity crystall.  Press \"T\" when scout is launched or landed to inverse the warp core power for teleporting yourself.",
+      "author": "hearth1an",
+      "downloadUrl": "https://github.com/hearth1an/hearth1an.ScoutTeleporter/releases/download/v.1.0.4/hearth1an.ScoutTeleporter.zip",
+      "downloadCount": 315,
+      "latestReleaseDate": "2022-10-28T14:09:32Z",
+      "firstReleaseDate": "2022-10-02T21:24:39Z",
+      "repo": "https://github.com/hearth1an/hearth1an.ScoutTeleporter",
+      "version": "v.1.0.4",
+      "readme": {
+        "htmlUrl": "https://github.com/hearth1an/hearth1an.ScoutTeleporter/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.ScoutTeleporter/main/README.md"
+      },
+      "authorDisplay": "hearth1an",
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "scoutteleporter",
+      "thumbnail": {
+        "main": "scoutteleporter.webp",
+        "openGraph": "scoutteleporter-static.webp"
+      },
+      "viewCount": 25,
+      "installCount": 54
+    },
+    {
+      "name": "Custom Ship Log Modes",
+      "uniqueName": "dgarro.CustomShipLogModes",
+      "description": "Allows other mods to add their custom Ship Log modes",
+      "author": "dgarroDC",
+      "utility": true,
+      "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.1/dgarro.CustomShipLogModes.zip",
+      "downloadCount": 3142,
+      "latestReleaseDate": "2022-10-26T04:07:09Z",
+      "firstReleaseDate": "2022-10-05T04:54:06Z",
+      "repo": "https://github.com/dgarroDC/CustomShipLogModes",
+      "version": "1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/dgarroDC/CustomShipLogModes/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
+      },
+      "authorDisplay": "Damián Garro",
+      "tags": [
+        "library"
+      ],
+      "slug": "customshiplogmodes",
+      "thumbnail": {
+        "main": "customshiplogmodes.webp"
+      },
+      "viewCount": 24,
+      "installCount": 35
+    },
+    {
+      "name": "Ship Log Slide Reel Player Plus",
+      "uniqueName": "dgarro.ShipLogSlideReelPlayer",
+      "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
+      "author": "dgarroDC",
+      "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
+      "downloadCount": 3399,
+      "latestReleaseDate": "2022-10-14T06:09:06Z",
+      "firstReleaseDate": "2021-12-30T22:37:20Z",
+      "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
+      "version": "2.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
+      },
+      "authorDisplay": "Damián Garro",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "slug": "shiplogslidereelplayerplus",
+      "thumbnail": {
+        "main": "shiplogslidereelplayerplus.webp",
+        "openGraph": "shiplogslidereelplayerplus-static.webp"
+      },
+      "viewCount": 20,
+      "installCount": 59
+    },
+    {
+      "name": "Smallest System in the Galaxy",
+      "uniqueName": "O32.Smallest",
+      "description": "The smallest system in the galaxy!",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/smallest/releases/download/1.1.0/O32.Smallest.zip",
+      "downloadCount": 189,
+      "latestReleaseDate": "2022-10-08T16:11:59Z",
+      "firstReleaseDate": "2022-10-03T10:07:49Z",
+      "repo": "https://github.com/RealOrbital32/smallest",
+      "version": "1.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/smallest/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/smallest/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
+      "tags": [
+        "content"
+      ],
+      "slug": "smallestsysteminthegalaxy",
+      "thumbnail": {
+        "main": "smallestsysteminthegalaxy.webp"
+      },
+      "viewCount": 24,
+      "installCount": 37
+    },
+    {
+      "name": "Developer Console",
+      "uniqueName": "Smaed.DeveloperConsole",
+      "description": "A general purpose developer console",
+      "author": "Smaedd",
+      "utility": true,
+      "downloadUrl": "https://github.com/Smaedd/OW_DeveloperConsole/releases/download/v0.2.4/Smaed.DeveloperConsole.zip",
+      "downloadCount": 145,
+      "latestReleaseDate": "2022-11-07T03:51:52Z",
+      "firstReleaseDate": "2022-10-10T02:19:57Z",
+      "repo": "https://github.com/Smaedd/OW_DeveloperConsole",
+      "version": "v0.2.4",
+      "readme": {
+        "htmlUrl": "https://github.com/Smaedd/OW_DeveloperConsole/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Smaedd/OW_DeveloperConsole/main/README.md"
+      },
+      "authorDisplay": "Smaed",
+      "tags": [
+        "library",
+        "tool"
+      ],
+      "slug": "developerconsole",
+      "thumbnail": {
+        "main": "developerconsole.webp"
+      },
+      "viewCount": 10,
+      "installCount": 12
+    },
+    {
+      "name": "Console Cheats",
+      "uniqueName": "Smaed.ConsoleCheats",
+      "description": "A port of PacificEngine's Cheats Mod to work with the Developer Console",
+      "author": "Smaedd",
+      "downloadUrl": "https://github.com/Smaedd/OW_ConsoleCheats/releases/download/v0.2.2/Smaed.ConsoleCheats.zip",
+      "downloadCount": 115,
+      "latestReleaseDate": "2022-10-16T05:22:52Z",
+      "firstReleaseDate": "2022-10-09T12:31:52Z",
+      "repo": "https://github.com/Smaedd/OW_ConsoleCheats",
+      "version": "v0.2.2",
+      "readme": {
+        "htmlUrl": "https://github.com/Smaedd/OW_ConsoleCheats/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Smaedd/OW_ConsoleCheats/main/README.md"
+      },
+      "authorDisplay": "Smaed",
+      "tags": [
+        "tool"
+      ],
+      "slug": "consolecheats",
+      "thumbnail": {},
+      "viewCount": 14,
+      "installCount": 18
     },
     {
       "name": "Mo' Voices",
@@ -3244,6 +4115,354 @@
       "installCount": 115
     },
     {
+      "name": "The Wilds: Extended",
+      "uniqueName": "FunkyShoeMan.TheWildsExtended",
+      "description": "Silly NH Addon to add content to the current base game (made with love and care by me and #nh-addon-discussion) (xen carried)",
+      "author": "FunkyShoeMan",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/FunkyShoeMan/TheWildsExtended/releases/download/v0.2.1/TheWildsExtended.zip",
+      "downloadCount": 270,
+      "latestReleaseDate": "2022-10-15T22:54:09Z",
+      "firstReleaseDate": "2022-10-15T04:01:29Z",
+      "repo": "https://github.com/FunkyShoeMan/TheWildsExtended",
+      "version": "v0.2.1",
+      "readme": {
+        "htmlUrl": "https://github.com/FunkyShoeMan/TheWildsExtended/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/FunkyShoeMan/TheWildsExtended/main/README.md"
+      },
+      "authorDisplay": "FunkyShoeMan",
+      "tags": [
+        "content"
+      ],
+      "slug": "thewildsextended",
+      "thumbnail": {
+        "main": "thewildsextended.webp"
+      },
+      "viewCount": 41,
+      "installCount": 51
+    },
+    {
+      "name": "Escape the Dreamstalker",
+      "uniqueName": "xen.Dreamstalker",
+      "description": "A short spooky mod for Outer Wilds.",
+      "author": "xen-42",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/xen-42/ow-dreamstalker/releases/download/v0.1.3/xen.Dreamstalker.zip",
+      "downloadCount": 505,
+      "latestReleaseDate": "2022-11-21T02:28:58Z",
+      "firstReleaseDate": "2022-10-27T01:52:29Z",
+      "repo": "https://github.com/xen-42/ow-dreamstalker",
+      "version": "v0.1.3",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/ow-dreamstalker/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-dreamstalker/main/README.md"
+      },
+      "authorDisplay": "xen & JohnCorby",
+      "tags": [
+        "gameplay",
+        "content",
+        "story"
+      ],
+      "slug": "escapethedreamstalker",
+      "thumbnail": {
+        "main": "escapethedreamstalker.webp"
+      },
+      "viewCount": 172,
+      "installCount": 66
+    },
+    {
+      "name": "Ship Self Destruct Button",
+      "uniqueName": "TheLoreExplorer.SelfDestructButton",
+      "description": "",
+      "author": "TheLoreExplorer",
+      "downloadUrl": "https://github.com/TheLoreExplorer/SelfDestructButton/releases/download/1.2.0/TheLoreExplorer.SelfDestructButton.zip",
+      "downloadCount": 93,
+      "latestReleaseDate": "2022-11-02T00:07:03Z",
+      "firstReleaseDate": "2022-10-27T22:02:27Z",
+      "repo": "https://github.com/TheLoreExplorer/SelfDestructButton",
+      "version": "1.2.0",
+      "readme": {
+        "htmlUrl": "https://github.com/TheLoreExplorer/SelfDestructButton/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TheLoreExplorer/SelfDestructButton/master/README.md"
+      },
+      "tags": [
+        "tweaks"
+      ],
+      "slug": "shipselfdestructbutton",
+      "thumbnail": {},
+      "viewCount": 8,
+      "installCount": 18
+    },
+    {
+      "name": "Ernesto Takeover",
+      "uniqueName": "FunkyShoeMan.ErnestoTakeover",
+      "description": "Ernesto is Everywhere (Do NOT use with any mods that modify base game planets)",
+      "author": "FunkyShoeMan",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/FunkyShoeMan/Ernesto-Takeover/releases/download/1.0.1/Ernesto-Takeover-main.zip",
+      "downloadCount": 92,
+      "latestReleaseDate": "2022-11-03T23:48:31Z",
+      "firstReleaseDate": "2022-11-03T23:41:23Z",
+      "repo": "https://github.com/FunkyShoeMan/Ernesto-Takeover",
+      "version": "1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/FunkyShoeMan/Ernesto-Takeover/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/FunkyShoeMan/Ernesto-Takeover/main/README.md"
+      },
+      "authorDisplay": "FunkyShoeMan",
+      "tags": [
+        "content"
+      ],
+      "slug": "ernestotakeover",
+      "thumbnail": {
+        "main": "ernestotakeover.webp"
+      },
+      "viewCount": 53,
+      "installCount": 29
+    },
+    {
+      "name": "Dancin' Wilds Ventures",
+      "uniqueName": "CantAffordaName.DancinWildsVentures",
+      "description": "Adds a mysterious groovy signal to the Deep Space Radio frequency.",
+      "author": "CantAffordaName",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.DancinWildsVentures/releases/download/v0.1.1/CantAffordaName.DancinWildsVentures.zip",
+      "downloadCount": 167,
+      "latestReleaseDate": "2022-11-17T03:35:25Z",
+      "firstReleaseDate": "2022-11-05T04:04:47Z",
+      "repo": "https://github.com/CantAffordaName/CantAffordaName.DancinWildsVentures",
+      "version": "v0.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/CantAffordaName/CantAffordaName.DancinWildsVentures/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/CantAffordaName/CantAffordaName.DancinWildsVentures/main/README.md"
+      },
+      "authorDisplay": "Can't Afford a Name",
+      "tags": [
+        "content",
+        "audiovisual"
+      ],
+      "slug": "dancinwildsventures",
+      "thumbnail": {},
+      "viewCount": 27,
+      "installCount": 47
+    },
+    {
+      "name": "Stranger Spin Gravity",
+      "uniqueName": "Komodo.StrangerSpinGravity",
+      "description": "Replaces the Stranger's gravity fields with spin gravity.",
+      "author": "Komodo5197",
+      "downloadUrl": "https://github.com/Komodo5197/StrangerSpinGravity/releases/download/v1.1.0/Komodo.StrangerSpinGravity.zip",
+      "downloadCount": 81,
+      "latestReleaseDate": "2022-11-09T06:55:02Z",
+      "firstReleaseDate": "2022-11-08T08:00:21Z",
+      "repo": "https://github.com/Komodo5197/StrangerSpinGravity",
+      "version": "v1.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Komodo5197/StrangerSpinGravity/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Komodo5197/StrangerSpinGravity/main/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "strangerspingravity",
+      "thumbnail": {
+        "main": "strangerspingravity.webp",
+        "openGraph": "strangerspingravity-static.webp"
+      },
+      "viewCount": 35,
+      "installCount": 27
+    },
+    {
+      "name": "Discord Proximity Chat",
+      "uniqueName": "BUNN1E5.DiscordProximityChat",
+      "description": "",
+      "author": "BUNN1E5",
+      "parent": "Raicuparta.QuantumSpaceBuddies",
+      "downloadUrl": "https://github.com/BUNN1E5/DiscordProximityChat/releases/download/0.0.1/BUNN1E5.DiscordProximityChat.zip",
+      "downloadCount": 496,
+      "latestReleaseDate": "2022-11-11T07:12:33Z",
+      "firstReleaseDate": "2022-11-11T07:12:33Z",
+      "repo": "https://github.com/BUNN1E5/DiscordProximityChat",
+      "version": "0.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/BUNN1E5/DiscordProximityChat/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/DiscordProximityChat/master/README.md"
+      },
+      "authorDisplay": "BUNN1E5",
+      "prerelease": {
+        "version": "0.1.0",
+        "downloadUrl": "https://github.com/BUNN1E5/DiscordProximityChat/releases/download/0.1.0/BUNN1E5.DiscordProximityChat.zip",
+        "date": "2022-12-28T04:16:25Z"
+      },
+      "tags": [
+        "integration"
+      ],
+      "slug": "discordproximitychat",
+      "thumbnail": {
+        "main": "discordproximitychat.webp",
+        "openGraph": "discordproximitychat-static.webp"
+      },
+      "viewCount": 147,
+      "installCount": 293
+    },
+    {
+      "name": "Slate's Shipyard for Outer Wilds Online",
+      "uniqueName": "Locochoco.ShipyardOWOAddon",
+      "description": "This is a Shipyard and OWO addon which makes both compatible",
+      "author": "ShoosGun",
+      "utility": true,
+      "parent": "Vesper.OuterWildsMMO",
+      "downloadUrl": "https://github.com/ShoosGun/ShipyardOWOCompat/releases/download/v0.1.2/Locochoco.ShipyardOWOAddon.zip",
+      "downloadCount": 158,
+      "latestReleaseDate": "2022-11-23T01:39:48Z",
+      "firstReleaseDate": "2022-11-13T00:05:19Z",
+      "repo": "https://github.com/ShoosGun/ShipyardOWOCompat",
+      "version": "v0.1.2",
+      "authorDisplay": "Locochoco",
+      "tags": [
+        "library"
+      ],
+      "slug": "slatesshipyardforouterwildsonline",
+      "thumbnail": {},
+      "viewCount": 25,
+      "installCount": 72
+    },
+    {
+      "name": "i let the voices on the discord server make bad ideas for planets",
+      "uniqueName": "O32.Discord",
+      "description": "A solar system made with love, from the heads of the folks over on the Modding Discord server.",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/discord/releases/download/1.0.0/O32.Discord.zip",
+      "downloadCount": 109,
+      "latestReleaseDate": "2022-11-14T00:48:55Z",
+      "firstReleaseDate": "2022-11-14T00:48:55Z",
+      "repo": "https://github.com/RealOrbital32/discord",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/discord/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/discord/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu) and members from the discord modding server",
+      "tags": [
+        "content"
+      ],
+      "slug": "iletthevoicesonthediscordservermakebadideasforplanets",
+      "thumbnail": {
+        "main": "iletthevoicesonthediscordservermakebadideasforplanets.webp"
+      },
+      "viewCount": 30,
+      "installCount": 46
+    },
+    {
+      "name": "Super Wild Galaxy",
+      "uniqueName": "CantAffordaName.SuperWildGalaxy",
+      "description": "Adds the Comet Observatory from Super Mario Galaxy.",
+      "author": "CantAffordaName",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.SuperWildGalaxy/releases/download/v0.1.0/CantAffordaName.SuperWildGalaxy.zip",
+      "downloadCount": 117,
+      "latestReleaseDate": "2022-11-17T03:22:27Z",
+      "firstReleaseDate": "2022-11-17T03:22:27Z",
+      "repo": "https://github.com/CantAffordaName/CantAffordaName.SuperWildGalaxy",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/CantAffordaName/CantAffordaName.SuperWildGalaxy/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/CantAffordaName/CantAffordaName.SuperWildGalaxy/main/README.md"
+      },
+      "authorDisplay": "Can't Afford a Name",
+      "tags": [
+        "gameplay",
+        "content"
+      ],
+      "slug": "superwildgalaxy",
+      "thumbnail": {
+        "main": "superwildgalaxy.webp"
+      },
+      "viewCount": 76,
+      "installCount": 51
+    },
+    {
+      "name": "Trajectory Prediction",
+      "uniqueName": "OlegSkutte.TrajectoryPrediction",
+      "description": "Outer Wilds mod that predicts and visualizes your future trajectory",
+      "author": "SkutteOleg",
+      "downloadUrl": "https://github.com/SkutteOleg/TrajectoryPrediction/releases/download/v0.6.4/OlegSkutte.TrajectoryPrediction.zip",
+      "downloadCount": 188,
+      "latestReleaseDate": "2022-11-21T05:11:45Z",
+      "firstReleaseDate": "2022-11-16T12:54:19Z",
+      "repo": "https://github.com/SkutteOleg/TrajectoryPrediction",
+      "version": "v0.6.4",
+      "readme": {
+        "htmlUrl": "https://github.com/SkutteOleg/TrajectoryPrediction/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/SkutteOleg/TrajectoryPrediction/master/README.md"
+      },
+      "authorDisplay": "Oleg Skutte",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "slug": "trajectoryprediction",
+      "thumbnail": {
+        "main": "trajectoryprediction.webp"
+      },
+      "viewCount": 178,
+      "installCount": 70
+    },
+    {
+      "name": "N Body Chaos",
+      "uniqueName": "TacoTechnica.NBodyChaos",
+      "description": "Outer Wilds with chaotic N Body Physics and extra planet interactions. Mix with randomizer for extra chaos.",
+      "author": "adrisj7",
+      "downloadUrl": "https://github.com/adrisj7/OW_NBodyChaos/releases/download/v1.0.1/TacoTechnica.NBodyChaos.zip",
+      "downloadCount": 126,
+      "latestReleaseDate": "2022-11-18T02:46:05Z",
+      "firstReleaseDate": "2022-11-18T00:40:15Z",
+      "repo": "https://github.com/adrisj7/OW_NBodyChaos",
+      "version": "v1.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/adrisj7/OW_NBodyChaos/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/adrisj7/OW_NBodyChaos/main/README.md"
+      },
+      "authorDisplay": "TacoTechnica",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "slug": "nbodychaos",
+      "thumbnail": {
+        "main": "nbodychaos.webp"
+      },
+      "viewCount": 54,
+      "installCount": 45
+    },
+    {
+      "name": "Shared Ship Log",
+      "uniqueName": "Tephirax.OuterWildsSharedShipLog",
+      "description": "Mod to automatically export your Outer Wilds ship log for online viewing",
+      "author": "Tephirax",
+      "downloadUrl": "https://github.com/Tephirax/SharedShipLog/releases/download/v0.1.1/OuterWildsSharedShipLog.zip",
+      "downloadCount": 26,
+      "latestReleaseDate": "2022-11-18T16:15:16Z",
+      "firstReleaseDate": "2022-11-18T16:15:16Z",
+      "repo": "https://github.com/Tephirax/SharedShipLog",
+      "version": "v0.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
+      },
+      "tags": [
+        "integration",
+        "tool"
+      ],
+      "slug": "sharedshiplog",
+      "thumbnail": {
+        "main": "sharedshiplog.webp"
+      },
+      "viewCount": 68,
+      "installCount": 18
+    },
+    {
       "name": "Kerbal Space Ventures",
       "uniqueName": "Locochoco.KSPShips",
       "description": "Addon for shipyard which reads .craft KSP files into the game Outer Wilds",
@@ -3264,6 +4483,109 @@
       "thumbnail": {},
       "viewCount": 35,
       "installCount": 62
+    },
+    {
+      "name": "Solar Systems I Made as a Kid",
+      "uniqueName": "O32.ssimaak",
+      "description": "This is just a bundle of, well, look at the title.",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/Solar-Systems-I-Made-as-a-Kid/releases/download/1.0.0/O32.ssimaak.zip",
+      "downloadCount": 44,
+      "latestReleaseDate": "2022-11-23T18:34:49Z",
+      "firstReleaseDate": "2022-11-23T18:34:49Z",
+      "repo": "https://github.com/RealOrbital32/Solar-Systems-I-Made-as-a-Kid",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/Solar-Systems-I-Made-as-a-Kid/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Solar-Systems-I-Made-as-a-Kid/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
+      "tags": [
+        "content"
+      ],
+      "slug": "solarsystemsimadeasakid",
+      "thumbnail": {
+        "main": "solarsystemsimadeasakid.webp"
+      },
+      "viewCount": 34,
+      "installCount": 31
+    },
+    {
+      "name": "Owlystem",
+      "uniqueName": "O32.Owlystem",
+      "description": "\"a dream of home\" but I remade it really, really badly",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/Owlystem/releases/download/1.0.0/O32.Owlystem.zip",
+      "downloadCount": 65,
+      "latestReleaseDate": "2022-11-26T03:29:38Z",
+      "firstReleaseDate": "2022-11-26T03:29:38Z",
+      "repo": "https://github.com/RealOrbital32/Owlystem",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/Owlystem/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Owlystem/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu), classic by Classic",
+      "tags": [
+        "content"
+      ],
+      "slug": "owlystem",
+      "thumbnail": {
+        "main": "owlystem.webp"
+      },
+      "viewCount": 107,
+      "installCount": 56
+    },
+    {
+      "name": "Nomai Text Printer",
+      "uniqueName": "Cleric.NomaiTextPrinter",
+      "description": "Utility mod that prints info about Nomai wall text.",
+      "author": "coderCleric",
+      "utility": true,
+      "downloadUrl": "https://github.com/coderCleric/NomaiTextPrinter/releases/download/v1.0.0/coderCleric.NomaiTextPrinter.zip",
+      "downloadCount": 15,
+      "latestReleaseDate": "2022-12-05T04:07:04Z",
+      "firstReleaseDate": "2022-12-05T04:07:04Z",
+      "repo": "https://github.com/coderCleric/NomaiTextPrinter",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/coderCleric/NomaiTextPrinter/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/coderCleric/NomaiTextPrinter/master/README.md"
+      },
+      "authorDisplay": "coderCleric",
+      "tags": [
+        "tool"
+      ],
+      "slug": "nomaitextprinter",
+      "thumbnail": {},
+      "viewCount": 22,
+      "installCount": 11
+    },
+    {
+      "name": "The Final Shortcut",
+      "uniqueName": "Acamaeda.Shortcut",
+      "description": "Adds a shortcut to an important location which many mods use, hidden somewhere in the village.",
+      "author": "Acamaeda",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/Acamaeda/OuterWildsShortcut/releases/download/v0.1.0/OuterWildsShortcut.zip",
+      "downloadCount": 71,
+      "latestReleaseDate": "2022-12-06T21:46:35Z",
+      "firstReleaseDate": "2022-12-06T21:46:35Z",
+      "repo": "https://github.com/Acamaeda/OuterWildsShortcut",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Acamaeda/OuterWildsShortcut/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Acamaeda/OuterWildsShortcut/main/README.md"
+      },
+      "tags": [
+        "tweaks"
+      ],
+      "slug": "thefinalshortcut",
+      "thumbnail": {},
+      "viewCount": 145,
+      "installCount": 67
     },
     {
       "name": "How Did This Happen?",
@@ -3290,6 +4612,209 @@
       },
       "viewCount": 205,
       "installCount": 74
+    },
+    {
+      "name": "I Don't Like Sand",
+      "uniqueName": "Acamaeda.Sand",
+      "description": "Removes the sand from Ash Twin and Ember Twin.",
+      "author": "Acamaeda",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/Acamaeda/OuterWildsSand/releases/download/v0.1.0/OuterWildsSand.zip",
+      "downloadCount": 29,
+      "latestReleaseDate": "2022-12-14T19:50:30Z",
+      "firstReleaseDate": "2022-12-14T19:50:30Z",
+      "repo": "https://github.com/Acamaeda/OuterWildsSand",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Acamaeda/OuterWildsSand/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Acamaeda/OuterWildsSand/main/README.md"
+      },
+      "tags": [
+        "content"
+      ],
+      "slug": "idontlikesand",
+      "thumbnail": {},
+      "viewCount": 87,
+      "installCount": 23
+    },
+    {
+      "name": "Outer Wilds en Andalûh",
+      "uniqueName": "VholyIQ.OuterWildsAndaluh",
+      "description": "Tradûççión de Outer Wilds en andalûh",
+      "author": "andergd",
+      "downloadUrl": "https://github.com/andergd/OuterWildsAndaluh/releases/download/v0.1.2/VholyIQ.OuterWildsAndaluh.zip",
+      "downloadCount": 15,
+      "latestReleaseDate": "2022-12-22T14:01:06Z",
+      "firstReleaseDate": "2022-12-15T18:55:47Z",
+      "repo": "https://github.com/andergd/OuterWildsAndaluh",
+      "version": "v0.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/andergd/OuterWildsAndaluh/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/andergd/OuterWildsAndaluh/master/README.md"
+      },
+      "authorDisplay": "Vholy IQ",
+      "tags": [
+        "localization"
+      ],
+      "slug": "outerwildsenandalh",
+      "thumbnail": {},
+      "viewCount": 23,
+      "installCount": 11
+    },
+    {
+      "name": "Outer Pictures",
+      "uniqueName": "Pau318.OuterPictures",
+      "description": "An Outer Wilds mod to print your pictures from the probe camera to your computer",
+      "author": "Pau318",
+      "downloadUrl": "https://github.com/Pau318/OuterPictures/releases/download/v0.1.1/Pau318.OuterPictures.zip",
+      "downloadCount": 20,
+      "latestReleaseDate": "2022-12-23T12:56:42Z",
+      "firstReleaseDate": "2022-12-19T21:01:39Z",
+      "repo": "https://github.com/Pau318/OuterPictures",
+      "version": "v0.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/Pau318/OuterPictures/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Pau318/OuterPictures/main/README.md"
+      },
+      "authorDisplay": "Pau318",
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "outerpictures",
+      "thumbnail": {
+        "main": "outerpictures.webp"
+      },
+      "viewCount": 55,
+      "installCount": 14
+    },
+    {
+      "name": "SpeedTools",
+      "uniqueName": "GrimLala.SpeedTools",
+      "description": "a mod to assist with learning Outer Wilds speedruns",
+      "author": "GrimLala",
+      "downloadUrl": "https://github.com/GrimLala/SpeedTools/releases/download/v1.1.0/GrimLala.SpeedTools.zip",
+      "downloadCount": 23,
+      "latestReleaseDate": "2022-12-27T01:32:11Z",
+      "firstReleaseDate": "2022-12-20T20:51:54Z",
+      "repo": "https://github.com/GrimLala/SpeedTools",
+      "version": "v1.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/GrimLala/SpeedTools/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/GrimLala/SpeedTools/master/README.md"
+      },
+      "authorDisplay": "grimsalad & LordLala",
+      "tags": [
+        "gameplay",
+        "tool"
+      ],
+      "slug": "speedtools",
+      "thumbnail": {
+        "main": "speedtools.webp"
+      },
+      "viewCount": 72,
+      "installCount": 11
+    },
+    {
+      "name": "Break On Demand",
+      "uniqueName": "Raoul1808.BreakOnDemand",
+      "description": "Meet your terrible fate with the simple press of 2 buttons",
+      "author": "Raoul1808",
+      "downloadUrl": "https://github.com/Raoul1808/BreakOnDemand/releases/download/v1.0.0/Raoul1808.BreakOnDemand.zip",
+      "downloadCount": 6,
+      "latestReleaseDate": "2022-12-23T14:05:19Z",
+      "firstReleaseDate": "2022-12-23T14:05:19Z",
+      "repo": "https://github.com/Raoul1808/BreakOnDemand",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Raoul1808/BreakOnDemand/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Raoul1808/BreakOnDemand/master/README.md"
+      },
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "breakondemand",
+      "thumbnail": {},
+      "viewCount": 11,
+      "installCount": 6
+    },
+    {
+      "name": "Funny Christmas",
+      "uniqueName": "O32.FunnyChristmas",
+      "description": "What exactly is Christmas, and where did Snata Claus go? (note: takes place in the TT Twins system)",
+      "author": "RealOrbital32",
+      "parent": "O32.FunnySystem",
+      "downloadUrl": "https://github.com/RealOrbital32/funny-christmas/releases/download/1.1.0/O32.FunnyChristmas.zip",
+      "downloadCount": 15,
+      "latestReleaseDate": "2022-12-27T01:37:24Z",
+      "firstReleaseDate": "2022-12-25T23:10:05Z",
+      "repo": "https://github.com/RealOrbital32/funny-christmas",
+      "version": "1.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/funny-christmas/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/funny-christmas/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
+      "tags": [
+        "story"
+      ],
+      "slug": "funnychristmas",
+      "thumbnail": {},
+      "viewCount": 5,
+      "installCount": 10
+    },
+    {
+      "name": "Enable Meditation",
+      "uniqueName": "xen.EnableMeditation",
+      "description": "Always be able to meditate to the next loop.",
+      "author": "xen-42",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-meditation/releases/download/1.0.0/xen.EnableMeditation.zip",
+      "downloadCount": 3,
+      "latestReleaseDate": "2022-12-26T19:48:51Z",
+      "firstReleaseDate": "2022-12-26T19:48:51Z",
+      "repo": "https://github.com/xen-42/outer-wilds-meditation",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-meditation/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-meditation/main/README.md"
+      },
+      "authorDisplay": "xen",
+      "tags": [
+        "tweaks"
+      ],
+      "slug": "enablemeditation",
+      "thumbnail": {
+        "main": "enablemeditation.webp",
+        "openGraph": "enablemeditation-static.webp"
+      },
+      "viewCount": 3,
+      "installCount": 1
+    },
+    {
+      "name": "No Dot Mod",
+      "uniqueName": "hearth1an.NoDotMod",
+      "description": "Removes dot in center",
+      "author": "hearth1an",
+      "utility": true,
+      "downloadUrl": "https://github.com/hearth1an/NoDotMod/releases/download/v0.1.0/hearth1an.NoDotMod.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2022-12-27T21:52:11Z",
+      "firstReleaseDate": "2022-12-27T21:52:11Z",
+      "repo": "https://github.com/hearth1an/NoDotMod",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/hearth1an/NoDotMod/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/hearth1an/NoDotMod/main/README.md"
+      },
+      "authorDisplay": "hearth1an",
+      "tags": [
+        "tweaks"
+      ],
+      "slug": "nodotmod",
+      "thumbnail": {
+        "main": "nodotmod.webp"
+      },
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
