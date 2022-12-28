@@ -21,7 +21,6 @@ function createOctokit() {
         rateLimitReached = true;
       },
       onSecondaryRateLimit: (retryAfter: number, options: any) => {
-        // does not retry, only logs a warning
         console.warn(
           `Abuse detected for request ${options.method} ${options.url}`
         );
