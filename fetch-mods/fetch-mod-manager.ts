@@ -1,4 +1,4 @@
-import { getOctokit } from "./get-octokit";
+import { getOctokit } from "./get-octokit.js";
 
 const managerRepo = {
   owner: "ow-mods",

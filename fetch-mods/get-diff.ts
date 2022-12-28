@@ -1,4 +1,4 @@
-import { happenedWithinDayCount } from "./happened-within-day-count";
+import { happenedWithinDayCount } from "./happened-within-day-count.js";
 
 export type DiffItem =
   | {

@@ -1,6 +1,6 @@
-import { generateModThumbnail } from "./generate-mod-thumbnail";
-import { getOctokit } from "./get-octokit";
-import { filterFulfilledPromiseSettleResults } from "./promises";
+import { generateModThumbnail } from "./generate-mod-thumbnail.js";
+import { getOctokit } from "./get-octokit.js";
+import { filterFulfilledPromiseSettleResults } from "./promises.js";
 
 const REPO_URL_BASE = "https://github.com";
 

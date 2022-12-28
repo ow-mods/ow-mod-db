@@ -2,16 +2,16 @@ import * as core from "@actions/core";
 import fs, { promises as fsp, writeFile } from "fs";
 import path from "path";
 
-import { sendDiscordNotifications } from "./send-discord-notifications";
-import { fetchMods } from "./fetch-mods";
-import { getDiff } from "./get-diff";
-import { getPreviousDatabase } from "./get-previous-database";
-import { fetchModManager } from "./fetch-mod-manager";
-import { toJsonString } from "./to-json-string";
-import { getViewCounts } from "./get-view-counts";
-import { getInstallCounts } from "./get-install-counts";
-import { getSettledResult } from "./promises";
-import { rateLimitReached } from "./get-octokit";
+import { sendDiscordNotifications } from "./send-discord-notifications.js";
+import { fetchMods } from "./fetch-mods.js";
+import { getDiff } from "./get-diff.js";
+import { getPreviousDatabase } from "./get-previous-database.js";
+import { fetchModManager } from "./fetch-mod-manager.js";
+import { toJsonString } from "./to-json-string.js";
+import { getViewCounts } from "./get-view-counts.js";
+import { getInstallCounts } from "./get-install-counts.js";
+import { getSettledResult } from "./promises.js";
+import { rateLimitReached } from "./get-octokit.js";
 
 enum Input {
   outDirectory = "out-directory",

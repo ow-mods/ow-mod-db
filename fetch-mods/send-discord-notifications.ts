@@ -1,6 +1,7 @@
 import axios from "axios";
-import { thumbnailUrlBase } from "./constants";
-import { DiffItem } from "./get-diff";
+
+import { thumbnailUrlBase } from "./constants.js";
+import { DiffItem } from "./get-diff.js";
 
 function getNotificationTitle(diffItem: DiffItem) {
   const author = diffItem.nextMod.authorDisplay ?? diffItem.nextMod.author;
