@@ -51,12 +51,21 @@ function getNotificationColor(diffItem: DiffItem) {
   }
 }
 
+function getNotificationImageKey(diffItem: DiffItem) {
+  return diffItem.diffType === "add" ? "image" : "thumbnail";
+}
+
 function getEmbed(diffItem: DiffItem) {
   return {
     title: getNotificationTitle(diffItem),
-    description: getNotificationDescription(diffItem),
-    url: diffItem.nextMod.repo,
+    description: `${getNotificationDescription(diffItem)}\n[source code](${
+      diffItem.nextMod.repo
+    })`,
+    url: `http://outerwildsmods.com/mods/${diffItem.nextMod.slug}`,
     color: getNotificationColor(diffItem),
+    [getNotificationImageKey(diffItem)]: {
+      url: diffItem.nextMod.thumbnail.openGraph,
+    },
   };
 }
 
