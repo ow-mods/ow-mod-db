@@ -2,13 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@actions/core': ^1.10.0
-  '@types/node': ^16.11.65
-  typescript: ^4.8.4
+  '@types/node': ^18.11.18
+  typescript: ^4.9.4
 
 dependencies:
   '@actions/core': 1.10.0
-  '@types/node': 16.11.65
-  typescript: 4.8.4
+  '@types/node': 18.11.18
+  typescript: 4.9.4
 
 packages:
 
@@ -25,8 +25,8 @@ packages:
       tunnel: 0.0.6
     dev: false
 
-  /@types/node/16.11.65:
-    resolution: {integrity: sha512-Vfz7wGMOr4jbQGiQHVJm8VjeQwM9Ya7mHe9LtQ264/Epf5n1KiZShOFqk++nBzw6a/ubgYdB9Od7P+MH/LjoWw==}
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
     dev: false
 
   /tunnel/0.0.6:
@@ -34,8 +34,8 @@ packages:
     engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
     dev: false
 
-  /typescript/4.8.4:
-    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+  /typescript/4.9.4:
+    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: false
