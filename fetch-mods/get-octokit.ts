@@ -19,18 +19,14 @@ function createOctokit() {
         );
 
         rateLimitReached = true;
-
-        if (options.request.retryCount === 0) {
-          // only retries once
-          console.info(`Retrying after ${retryAfter} seconds!`);
-          return true;
-        }
       },
-      onAbuseLimit: (retryAfter: number, options: any) => {
+      onSecondaryRateLimit: (retryAfter: number, options: any) => {
         // does not retry, only logs a warning
         console.warn(
           `Abuse detected for request ${options.method} ${options.url}`
         );
+
+        rateLimitReached = true;
       },
     },
   });
