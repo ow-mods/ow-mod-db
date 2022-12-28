@@ -1,5 +1,5 @@
 import axios from "axios";
-import { diffieHellman } from "crypto";
+import { thumbnailUrlBase } from "./constants";
 import { DiffItem } from "./get-diff";
 
 function getNotificationTitle(diffItem: DiffItem) {
@@ -64,7 +64,7 @@ function getEmbed(diffItem: DiffItem) {
     url: `http://outerwildsmods.com/mods/${diffItem.nextMod.slug}`,
     color: getNotificationColor(diffItem),
     [getNotificationImageKey(diffItem)]: {
-      url: diffItem.nextMod.thumbnail.openGraph,
+      url: `${thumbnailUrlBase}/${diffItem.nextMod.thumbnail.openGraph}`,
     },
   };
 }
@@ -86,7 +86,7 @@ export async function sendDiscordNotifications(
         (diffItem) => diffItem.diffType === "add"
       );
 
-      axios.post(discordHookUrl, {
+      await axios.post(discordHookUrl, {
         content: `${pingRoleId(discordModUpdateRoleId)} ${
           containsNewMod ? pingRoleId(discordNewModRoleId) : ""
         }`,
