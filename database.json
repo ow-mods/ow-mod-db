@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 82165,
+      "downloadCount": 82167,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -74,7 +74,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.1/QSB.zip",
-      "downloadCount": 22281,
+      "downloadCount": 22282,
       "latestReleaseDate": "2023-01-02T10:15:54Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -4841,6 +4841,33 @@
       },
       "viewCount": 34,
       "installCount": 13
+    },
+    {
+      "name": "KSP",
+      "uniqueName": "O32.KSP",
+      "description": "Ever wanted the KSP system in Outer Wilds? Well, now it exists!",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/KSP/releases/download/1.0.0/O32.KSP.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-01-05T09:16:01Z",
+      "firstReleaseDate": "2023-01-05T09:16:01Z",
+      "repo": "https://github.com/RealOrbital32/KSP",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/KSP/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/KSP/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
+      "tags": [
+        "content"
+      ],
+      "slug": "ksp",
+      "thumbnail": {
+        "main": "ksp.webp"
+      },
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
