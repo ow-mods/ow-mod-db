@@ -43,6 +43,7 @@ body:
       multiple: true
       options:
         # These options have to match the ones defined in mods.schema.json
+        - jam
         - library
         - gameplay
         - tweaks

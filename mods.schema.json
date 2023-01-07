@@ -57,6 +57,7 @@
             "description": "List of tags that describe the mod, used for filtering mod lists. If changing this list, make sure to also update the tags in the issue template add-mod.yml",
             "items": {
               "enum": [
+                "jam",
                 "library",
                 "gameplay",
                 "tweaks",
