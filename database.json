@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 103496
+    "downloadCount": 103497
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 84255,
+      "downloadCount": 84256,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -846,7 +846,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.8.5/xen.NewHorizons.zip",
-      "downloadCount": 18358,
+      "downloadCount": 18359,
       "latestReleaseDate": "2023-01-19T00:48:53Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -875,7 +875,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.16.1/nh-examples.zip",
-      "downloadCount": 3674,
+      "downloadCount": 3675,
       "latestReleaseDate": "2022-12-28T23:05:13Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -3908,7 +3908,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/funny-system/releases/download/1.6.0/O32.FunnySystem.zip",
-      "downloadCount": 739,
+      "downloadCount": 740,
       "latestReleaseDate": "2023-01-13T22:39:37Z",
       "firstReleaseDate": "2022-10-02T21:32:53Z",
       "repo": "https://github.com/RealOrbital32/funny-system",
@@ -4996,7 +4996,7 @@
       "author": "spacepiano",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/spacepiano/Spacepiano.TheSpiralSystem/releases/download/v1.0.0/Spacepiano.TheSpiralSystem.zip",
-      "downloadCount": 9,
+      "downloadCount": 10,
       "latestReleaseDate": "2023-01-18T20:36:54Z",
       "firstReleaseDate": "2023-01-18T20:36:54Z",
       "repo": "https://github.com/spacepiano/Spacepiano.TheSpiralSystem",
@@ -5015,6 +5015,33 @@
       "thumbnail": {
         "main": "thespiralsystem.webp"
       },
+      "viewCount": 0,
+      "installCount": 0
+    },
+    {
+      "name": "Broken Balance",
+      "uniqueName": "Tetraminus.BrokenBalance",
+      "description": "An Outer Wilds story mod",
+      "author": "tetraminus",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/tetraminus/Tetraminus.BrokenBalance/releases/download/v0.0.1/Tetraminus.BrokenBalance.zip",
+      "downloadCount": 1,
+      "latestReleaseDate": "2023-01-19T02:58:27Z",
+      "firstReleaseDate": "2023-01-19T02:58:27Z",
+      "repo": "https://github.com/tetraminus/Tetraminus.BrokenBalance",
+      "version": "v0.0.1",
+      "readme": {
+        "htmlUrl": "https://github.com/tetraminus/Tetraminus.BrokenBalance/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/tetraminus/Tetraminus.BrokenBalance/main/README.md"
+      },
+      "authorDisplay": "Tetraminus, Aidancode",
+      "tags": [
+        "jam",
+        "content",
+        "story"
+      ],
+      "slug": "brokenbalance",
+      "thumbnail": {},
       "viewCount": 0,
       "installCount": 0
     }
