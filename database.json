@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 103849
+    "downloadCount": 103850
   },
   "releases": [
     {
@@ -74,7 +74,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.4/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 23300,
+      "downloadCount": 23301,
       "latestReleaseDate": "2023-01-20T22:18:35Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -846,7 +846,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.8.5/xen.NewHorizons.zip",
-      "downloadCount": 18571,
+      "downloadCount": 18572,
       "latestReleaseDate": "2023-01-19T00:48:53Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -979,7 +979,7 @@
       "description": "Makes the hatchling smol! Or beeg!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.2.3/Owen013.TeenyHatchling.zip",
-      "downloadCount": 923,
+      "downloadCount": 924,
       "latestReleaseDate": "2022-10-13T19:19:51Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
@@ -5050,12 +5050,12 @@
       "uniqueName": "SBtT.TheOutsider",
       "description": "A quite large story and puzzle mod that takes place on Dark Bramble.",
       "author": "StreetlightsBehindTheTrees",
-      "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.0.2/SBtT.TheOutsider.zip",
+      "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.0.3/SBtT.TheOutsider.zip",
       "downloadCount": 96,
-      "latestReleaseDate": "2023-01-20T21:24:08Z",
+      "latestReleaseDate": "2023-01-21T02:32:53Z",
       "firstReleaseDate": "2023-01-19T22:22:18Z",
       "repo": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
-      "version": "v1.0.2",
+      "version": "v1.0.3",
       "readme": {
         "htmlUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/main/README.md"
@@ -5110,6 +5110,7 @@
       "uniqueName": "Multiverse.Brightdusk",
       "description": "A new planet appears in the Solar System near Brittle Hollow for you to explore!",
       "author": "TheMultiuniverse",
+      "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TheMultiuniverse/Multiverse.Brightdusk/releases/download/v1.0.0/Multiverse.Brightdusk.zip",
       "downloadCount": 3,
       "latestReleaseDate": "2023-01-21T01:24:18Z",
