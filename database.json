@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 104231
+    "downloadCount": 104232
   },
   "releases": [
     {
@@ -234,7 +234,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 15000,
+      "downloadCount": 15001,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -501,7 +501,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/OW_CommonResources/releases/download/0.5.15/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 2336,
+      "downloadCount": 2337,
       "latestReleaseDate": "2022-09-29T17:14:07Z",
       "firstReleaseDate": "2022-09-29T17:14:07Z",
       "repo": "https://github.com/dgarroDC/OW_CommonResources",
@@ -1314,7 +1314,7 @@
       "description": "Oh my god! Waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah! (Lets you play as Wario)",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-wario/releases/download/v0.1.0/xen.OuterWario.zip",
-      "downloadCount": 681,
+      "downloadCount": 682,
       "latestReleaseDate": "2022-01-12T19:05:08Z",
       "firstReleaseDate": "2022-01-12T19:05:08Z",
       "repo": "https://github.com/xen-42/outer-wilds-wario",
@@ -1728,7 +1728,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.10.2/JohnCorby.VanillaFix.zip",
-      "downloadCount": 13560,
+      "downloadCount": 13561,
       "latestReleaseDate": "2022-10-01T04:44:36Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2279,7 +2279,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1212,
+      "downloadCount": 1213,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -3988,7 +3988,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3488,
+      "downloadCount": 3489,
       "latestReleaseDate": "2022-10-14T06:09:06Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4281,7 +4281,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/DiscordProximityChat/releases/download/0.0.1/BUNN1E5.DiscordProximityChat.zip",
-      "downloadCount": 701,
+      "downloadCount": 702,
       "latestReleaseDate": "2022-11-11T07:12:33Z",
       "firstReleaseDate": "2022-11-11T07:12:33Z",
       "repo": "https://github.com/BUNN1E5/DiscordProximityChat",
@@ -5132,6 +5132,35 @@
       },
       "viewCount": 0,
       "installCount": 8
+    },
+    {
+      "name": "Time Dialator",
+      "uniqueName": "O32.TimeDialator",
+      "description": "Story mod about a strange solar system with a strange property...",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/Time-Dialator/releases/download/1.0.0/O32.TimeDialator.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-01-21T19:03:34Z",
+      "firstReleaseDate": "2023-01-21T19:03:34Z",
+      "repo": "https://github.com/RealOrbital32/Time-Dialator",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/Time-Dialator/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Time-Dialator/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
+      "tags": [
+        "jam",
+        "content",
+        "story"
+      ],
+      "slug": "timedialator",
+      "thumbnail": {
+        "main": "timedialator.webp"
+      },
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
