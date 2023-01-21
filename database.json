@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 103834
+    "downloadCount": 103836
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 84512,
+      "downloadCount": 84515,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -41,7 +41,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 49333,
+      "downloadCount": 49334,
       "latestReleaseDate": "2022-10-28T20:32:05Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -234,7 +234,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 14959,
+      "downloadCount": 14960,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -846,7 +846,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.8.5/xen.NewHorizons.zip",
-      "downloadCount": 18563,
+      "downloadCount": 18564,
       "latestReleaseDate": "2023-01-19T00:48:53Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1728,7 +1728,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.10.2/JohnCorby.VanillaFix.zip",
-      "downloadCount": 13514,
+      "downloadCount": 13515,
       "latestReleaseDate": "2022-10-01T04:44:36Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -1807,7 +1807,7 @@
       "description": "Adds the ability to translate the unknown language.",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/GhostTranslations/releases/download/1.0.2/MegaPiggy.GhostTranslations.zip",
-      "downloadCount": 1394,
+      "downloadCount": 1395,
       "latestReleaseDate": "2022-09-18T02:24:25Z",
       "firstReleaseDate": "2022-04-03T00:22:57Z",
       "repo": "https://github.com/MegaPiggy/GhostTranslations",
@@ -2731,7 +2731,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
-      "downloadCount": 6629,
+      "downloadCount": 6630,
       "latestReleaseDate": "2022-10-22T15:26:44Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -3962,7 +3962,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.1/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 3876,
+      "downloadCount": 3877,
       "latestReleaseDate": "2022-10-26T04:07:09Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -5084,7 +5084,7 @@
       "author": "FreezeDriedMangos",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/FreezeDriedMangos/ow-daylight-savings/releases/download/v1.0.0/ow-daylight-savings.zip",
-      "downloadCount": 4,
+      "downloadCount": 5,
       "latestReleaseDate": "2023-01-20T22:48:55Z",
       "firstReleaseDate": "2023-01-20T21:38:19Z",
       "repo": "https://github.com/FreezeDriedMangos/ow-daylight-savings",
@@ -5101,6 +5101,33 @@
       "slug": "daylightsavings",
       "thumbnail": {
         "main": "daylightsavings.webp"
+      },
+      "viewCount": 0,
+      "installCount": 0
+    },
+    {
+      "name": "Brightdusk",
+      "uniqueName": "Multiverse.Brightdusk",
+      "description": "A new planet appears in the Solar System near Brittle Hollow for you to explore!",
+      "author": "TheMultiuniverse",
+      "downloadUrl": "https://github.com/TheMultiuniverse/Multiverse.Brightdusk/releases/download/v1.0.0/Multiverse.Brightdusk.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-01-21T01:24:18Z",
+      "firstReleaseDate": "2023-01-21T01:24:18Z",
+      "repo": "https://github.com/TheMultiuniverse/Multiverse.Brightdusk",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/TheMultiuniverse/Multiverse.Brightdusk/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TheMultiuniverse/Multiverse.Brightdusk/main/README.md"
+      },
+      "authorDisplay": "Multiverse",
+      "tags": [
+        "jam",
+        "content"
+      ],
+      "slug": "brightdusk",
+      "thumbnail": {
+        "main": "brightdusk.webp"
       },
       "viewCount": 0,
       "installCount": 0
