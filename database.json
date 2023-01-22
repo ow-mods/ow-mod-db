@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 104392
+    "downloadCount": 104394
   },
   "releases": [
     {
@@ -41,7 +41,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 49401,
+      "downloadCount": 49402,
       "latestReleaseDate": "2022-10-28T20:32:05Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -5189,6 +5189,35 @@
       "slug": "owventuresscavengerhunt",
       "thumbnail": {
         "main": "owventuresscavengerhunt.webp"
+      },
+      "viewCount": 0,
+      "installCount": 0
+    },
+    {
+      "name": "Arcanum Adrift",
+      "uniqueName": "Hawkbar.ArcanumAdrift",
+      "description": "Arcanum Adrift: A short story mod for Outer Wilds",
+      "author": "Hawkbat",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam/releases/download/0.1.0/Hawkbar.ArcanumAdrift.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-01-22T02:49:47Z",
+      "firstReleaseDate": "2023-01-22T02:49:47Z",
+      "repo": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-wrong-warp-nh-jam/main/README.md"
+      },
+      "authorDisplay": "The Wrong Warp Team",
+      "tags": [
+        "jam",
+        "content",
+        "story"
+      ],
+      "slug": "arcanumadrift",
+      "thumbnail": {
+        "main": "arcanumadrift.webp"
       },
       "viewCount": 0,
       "installCount": 0
