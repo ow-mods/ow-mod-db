@@ -1958,7 +1958,7 @@
       "repo": "CantAffordaName/CantAffordaName.Archipelago",
       "tags": [
         "jam",
-        "gameplay",
+        "content",
         "story"
       ],
       "parent": "xen.NewHorizons",
@@ -1980,7 +1980,7 @@
       "repo": "CreativeNameTxt/March-of-gears",
       "tags": [
         "jam",
-        "audiovisual"
+        "content"
       ],
       "parent": "xen.NewHorizons"
     },
@@ -1990,10 +1990,21 @@
       "repo": "MikelSalazar/CelestialOrrery",
       "tags": [
         "jam",
-        "tweaks",
-        "audiovisual"
+        "tweaks"
       ],
       "authorDisplay": "Mikel Salazar",
+      "parent": "xen.NewHorizons"
+    },
+    {
+      "name": "Evacuation",
+      "uniqueName": "2walker2.Evacuation",
+      "repo": "2walker2/NHJamTeamErnesto",
+      "tags": [
+        "jam",
+        "content",
+        "story"
+      ],
+      "authorDisplay": "2walker2, Texture_Turtle, Samster68",
       "parent": "xen.NewHorizons"
     }
   ]
