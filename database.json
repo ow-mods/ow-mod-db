@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 104937
+    "downloadCount": 104938
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 85064,
+      "downloadCount": 85065,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -41,7 +41,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.0/Raicuparta.NomaiVR.zip",
-      "downloadCount": 49514,
+      "downloadCount": 49517,
       "latestReleaseDate": "2022-10-28T20:32:05Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -875,7 +875,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.16.3/nh-examples.zip",
-      "downloadCount": 3743,
+      "downloadCount": 3744,
       "latestReleaseDate": "2023-01-19T23:44:06Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -3990,7 +3990,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3497,
+      "downloadCount": 3498,
       "latestReleaseDate": "2022-10-14T06:09:06Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4365,7 +4365,7 @@
       "author": "CantAffordaName",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.SuperWildGalaxy/releases/download/v0.1.0/CantAffordaName.SuperWildGalaxy.zip",
-      "downloadCount": 184,
+      "downloadCount": 185,
       "latestReleaseDate": "2022-11-17T03:22:27Z",
       "firstReleaseDate": "2022-11-17T03:22:27Z",
       "repo": "https://github.com/CantAffordaName/CantAffordaName.SuperWildGalaxy",
@@ -5278,6 +5278,31 @@
       "thumbnail": {
         "main": "divergence.webp"
       },
+      "viewCount": 0,
+      "installCount": 0
+    },
+    {
+      "name": "March of gears",
+      "uniqueName": "CreativeNameTxt.OrbitTest",
+      "description": "Who says orbits have to make sense?",
+      "author": "CreativeNameTxt",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/CreativeNameTxt/March-of-gears/releases/download/jam/CreativeNameTxt.OrbitTest.zip",
+      "downloadCount": 5,
+      "latestReleaseDate": "2023-01-23T14:33:43Z",
+      "firstReleaseDate": "2023-01-23T14:33:43Z",
+      "repo": "https://github.com/CreativeNameTxt/March-of-gears",
+      "version": "jam",
+      "readme": {
+        "htmlUrl": "https://github.com/CreativeNameTxt/March-of-gears/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/CreativeNameTxt/March-of-gears/main/README.md"
+      },
+      "tags": [
+        "jam",
+        "audiovisual"
+      ],
+      "slug": "marchofgears",
+      "thumbnail": {},
       "viewCount": 0,
       "installCount": 0
     }
