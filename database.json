@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 104938
+    "downloadCount": 104939
   },
   "releases": [
     {
@@ -5302,6 +5302,32 @@
         "audiovisual"
       ],
       "slug": "marchofgears",
+      "thumbnail": {},
+      "viewCount": 0,
+      "installCount": 0
+    },
+    {
+      "name": "Celestial Orrery",
+      "uniqueName": "MikelSalazar.CelestialOrrery",
+      "description": "A Mod for Outer Wilds that projects the orrery in the observatory onto the actual star system, making navigation easier (and more... magical).",
+      "author": "MikelSalazar",
+      "downloadUrl": "https://github.com/MikelSalazar/CelestialOrrery/releases/download/jam/MikelSalazar.CelestialOrrery.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-01-23T16:45:08Z",
+      "firstReleaseDate": "2023-01-23T16:45:08Z",
+      "repo": "https://github.com/MikelSalazar/CelestialOrrery",
+      "version": "jam",
+      "readme": {
+        "htmlUrl": "https://github.com/MikelSalazar/CelestialOrrery/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MikelSalazar/CelestialOrrery/main/README.md"
+      },
+      "authorDisplay": "Mikel Salazar",
+      "tags": [
+        "jam",
+        "tweaks",
+        "audiovisual"
+      ],
+      "slug": "celestialorrery",
       "thumbnail": {},
       "viewCount": 0,
       "installCount": 0
