@@ -65,7 +65,7 @@ function getEmbed(diffItem: DiffItem) {
     url: `http://outerwildsmods.com/mods/${diffItem.nextMod.slug}`,
     color: getNotificationColor(diffItem),
     [getNotificationImageKey(diffItem)]: {
-      url: `${thumbnailUrlBase}/${diffItem.nextMod.thumbnail.openGraph}`,
+      url: `${thumbnailUrlBase}/${diffItem.nextMod.thumbnail.openGraph ?? diffItem.nextMod.thumbnail.main}`,
     },
   };
 }
