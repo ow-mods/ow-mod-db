@@ -75,7 +75,7 @@ const writeImageFile = (sharpImage: sharp.Sharp, filePath: string) =>
   sharpImage
     .resize({
       ...thumbnailSize,
-      fit: "cover",
+      fit: "inside",
     })
     .webp({ smartSubsample: true })
     .toFile(filePath);
