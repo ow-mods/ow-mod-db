@@ -47,11 +47,13 @@ export const generateModThumbnail = async (
     limitInputPixels: false,
   });
 
+  const metadata = await sharpImage.metadata();
+
   const mainImageName = `${slug}.webp`;
-  writeImageFile(sharpImage, path.join(fileOutputDir, mainImageName));
+  writeImageFile(sharpImage, metadata, path.join(fileOutputDir, mainImageName));
 
   let openGraphImageName;
-  const metadata = await sharpImage.metadata();
+
   if ((metadata.pages ?? 0) > 1) {
     const openGraphSharpImage = sharp(rawImageFilePath, {
       pages: 1,
@@ -61,6 +63,7 @@ export const generateModThumbnail = async (
     openGraphImageName = `${slug}-static.webp`;
     await writeImageFile(
       openGraphSharpImage,
+      metadata,
       path.join(fileOutputDir, openGraphImageName)
     );
   }
@@ -71,14 +74,31 @@ export const generateModThumbnail = async (
   };
 };
 
-const writeImageFile = (sharpImage: sharp.Sharp, filePath: string) =>
-  sharpImage
+const writeImageFile = (
+  sharpImage: sharp.Sharp,
+  metadata: sharp.Metadata,
+  filePath: string
+) => {
+  if (!metadata.width || !metadata.height) {
+    console.error(
+      `Failed to write image file "${filePath}". Missing metadata values.`
+    );
+    return;
+  }
+
+  const imageRatio = metadata.width / metadata.height;
+  const desiredRatio = thumbnailSize.width / thumbnailSize.height;
+
+  return sharpImage
     .resize({
       ...thumbnailSize,
-      fit: "inside",
+      // If the image is taller than our desired thumbnail ratio, we crop the top and bottom.
+      // If the image is wider than our desired thumbnail ratio, we don't crop, we just resize to fit.
+      fit: imageRatio > desiredRatio ? "inside" : "cover",
     })
     .webp({ smartSubsample: true })
     .toFile(filePath);
+};
 
 export const getModReadme = async (url: string): Promise<string | null> => {
   const response = await fetch(url);
