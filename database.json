@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 105790
+    "downloadCount": 105802
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 87790,
+      "downloadCount": 87809,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -32,7 +32,7 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "viewCount": 613,
+      "viewCount": 581,
       "installCount": 0
     },
     {
@@ -41,7 +41,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 50756,
+      "downloadCount": 50763,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -65,8 +65,8 @@
         "main": "nomaivr.webp",
         "openGraph": "nomaivr-static.webp"
       },
-      "viewCount": 1533,
-      "installCount": 861
+      "viewCount": 1452,
+      "installCount": 811
     },
     {
       "name": "Quantum Space Buddies",
@@ -74,7 +74,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.25.0/QSB.zip",
-      "downloadCount": 24759,
+      "downloadCount": 24767,
       "latestReleaseDate": "2023-02-08T12:28:05Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,8 +96,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "viewCount": 2063,
-      "installCount": 641
+      "viewCount": 1994,
+      "installCount": 598
     },
     {
       "name": "Light Bramble",
@@ -105,7 +105,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v1.0.1/LightBramble.zip",
-      "downloadCount": 9832,
+      "downloadCount": 9834,
       "latestReleaseDate": "2022-12-18T09:11:54Z",
       "firstReleaseDate": "2020-04-10T13:16:22Z",
       "repo": "https://github.com/amazingalek/owml-light-bramble",
@@ -121,8 +121,8 @@
       "thumbnail": {
         "main": "lightbramble.webp"
       },
-      "viewCount": 348,
-      "installCount": 198
+      "viewCount": 328,
+      "installCount": 191
     },
     {
       "name": "FreeCam",
@@ -130,7 +130,7 @@
       "description": "A free-camera mod for Outer Wilds",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.6.0/misternebula.FreeCam.zip",
-      "downloadCount": 4910,
+      "downloadCount": 4911,
       "latestReleaseDate": "2022-10-04T20:27:56Z",
       "firstReleaseDate": "2020-04-10T13:12:27Z",
       "repo": "https://github.com/misternebula/FreeCam",
@@ -147,8 +147,8 @@
       "thumbnail": {
         "main": "freecam.webp"
       },
-      "viewCount": 110,
-      "installCount": 132
+      "viewCount": 105,
+      "installCount": 121
     },
     {
       "name": "Crouch Mod",
@@ -171,7 +171,7 @@
       "slug": "crouchmod",
       "thumbnail": {},
       "viewCount": 5,
-      "installCount": 33
+      "installCount": 31
     },
     {
       "name": "Clock",
@@ -179,7 +179,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.7.0/release.zip",
-      "downloadCount": 8922,
+      "downloadCount": 8925,
       "latestReleaseDate": "2022-03-23T11:03:42Z",
       "firstReleaseDate": "2020-09-20T09:43:23Z",
       "repo": "https://github.com/clubby789/OWClock",
@@ -200,8 +200,8 @@
       "thumbnail": {
         "main": "clock.webp"
       },
-      "viewCount": 130,
-      "installCount": 238
+      "viewCount": 127,
+      "installCount": 227
     },
     {
       "name": "HD Screenshot",
@@ -226,7 +226,7 @@
         "main": "hdscreenshot.webp"
       },
       "viewCount": 13,
-      "installCount": 33
+      "installCount": 32
     },
     {
       "name": "Menu Framework",
@@ -235,7 +235,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 16267,
+      "downloadCount": 16272,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -249,8 +249,8 @@
       ],
       "slug": "menuframework",
       "thumbnail": {},
-      "viewCount": 66,
-      "installCount": 128
+      "viewCount": 64,
+      "installCount": 122
     },
     {
       "name": "ScoutStreaming",
@@ -274,8 +274,8 @@
       "thumbnail": {
         "main": "scoutstreaming.webp"
       },
-      "viewCount": 55,
-      "installCount": 162
+      "viewCount": 52,
+      "installCount": 156
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -299,8 +299,8 @@
       "thumbnail": {
         "main": "vespersassortedouterwildsshaders.webp"
       },
-      "viewCount": 23,
-      "installCount": 36
+      "viewCount": 20,
+      "installCount": 34
     },
     {
       "name": "Outer Wilds Online",
@@ -308,7 +308,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play! Server is offline.",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.3/Release.0.6.3.zip",
-      "downloadCount": 7696,
+      "downloadCount": 7697,
       "latestReleaseDate": "2023-01-12T00:25:40Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -329,8 +329,8 @@
       "thumbnail": {
         "main": "outerwildsonline.webp"
       },
-      "viewCount": 252,
-      "installCount": 136
+      "viewCount": 247,
+      "installCount": 128
     },
     {
       "name": "Cheat and Debug Menu",
@@ -338,7 +338,7 @@
       "description": "Allows using some commands from Debug Mode and adds other functions as well.",
       "author": "glitchewski",
       "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/releases/download/0.5.3/Glitch.CheatAndDebugMenu.zip",
-      "downloadCount": 3111,
+      "downloadCount": 3112,
       "latestReleaseDate": "2021-10-25T06:38:12Z",
       "firstReleaseDate": "2021-10-12T21:02:20Z",
       "repo": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu",
@@ -352,8 +352,8 @@
       ],
       "slug": "cheatanddebugmenu",
       "thumbnail": {},
-      "viewCount": 158,
-      "installCount": 128
+      "viewCount": 148,
+      "installCount": 123
     },
     {
       "name": "Cheats Mod",
@@ -361,7 +361,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.4/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 7993,
+      "downloadCount": 7995,
       "latestReleaseDate": "2022-01-25T00:19:05Z",
       "firstReleaseDate": "2021-10-21T06:56:51Z",
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
@@ -375,8 +375,8 @@
       ],
       "slug": "cheatsmod",
       "thumbnail": {},
-      "viewCount": 302,
-      "installCount": 354
+      "viewCount": 291,
+      "installCount": 338
     },
     {
       "name": "Difficulty Mod",
@@ -407,7 +407,7 @@
       "description": "",
       "author": "leadpogrommer",
       "downloadUrl": "https://github.com/leadpogrommer/PeacefulGhosts/releases/download/v0.1.1/Leadpogrommer.PeacefulGhosts.zip",
-      "downloadCount": 2471,
+      "downloadCount": 2473,
       "latestReleaseDate": "2022-06-30T16:59:01Z",
       "firstReleaseDate": "2021-10-25T10:17:21Z",
       "repo": "https://github.com/leadpogrommer/PeacefulGhosts",
@@ -421,8 +421,8 @@
       ],
       "slug": "peacefulghosts",
       "thumbnail": {},
-      "viewCount": 67,
-      "installCount": 81
+      "viewCount": 62,
+      "installCount": 79
     },
     {
       "name": "SlowTime",
@@ -430,7 +430,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 2157,
+      "downloadCount": 2158,
       "latestReleaseDate": "2021-10-27T19:40:41Z",
       "firstReleaseDate": "2021-10-27T19:40:41Z",
       "repo": "https://github.com/dwatson251/ow-slowtime",
@@ -444,8 +444,8 @@
       ],
       "slug": "slowtime",
       "thumbnail": {},
-      "viewCount": 39,
-      "installCount": 66
+      "viewCount": 36,
+      "installCount": 56
     },
     {
       "name": "OW Smooth Thrust",
@@ -467,8 +467,8 @@
       ],
       "slug": "owsmooththrust",
       "thumbnail": {},
-      "viewCount": 28,
-      "installCount": 48
+      "viewCount": 27,
+      "installCount": 43
     },
     {
       "name": "Randomizer",
@@ -492,8 +492,8 @@
       "thumbnail": {
         "main": "randomizer.webp"
       },
-      "viewCount": 103,
-      "installCount": 70
+      "viewCount": 102,
+      "installCount": 69
     },
     {
       "name": "PacificEngine's Common Resources",
@@ -502,7 +502,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/OW_CommonResources/releases/download/0.5.15/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 2751,
+      "downloadCount": 2752,
       "latestReleaseDate": "2022-09-29T17:14:07Z",
       "firstReleaseDate": "2022-09-29T17:14:07Z",
       "repo": "https://github.com/dgarroDC/OW_CommonResources",
@@ -518,7 +518,7 @@
       "slug": "pacificenginescommonresources",
       "thumbnail": {},
       "viewCount": 13,
-      "installCount": 40
+      "installCount": 39
     },
     {
       "name": "No Alt Tab Pause",
@@ -541,7 +541,7 @@
       "slug": "noalttabpause",
       "thumbnail": {},
       "viewCount": 8,
-      "installCount": 50
+      "installCount": 49
     },
     {
       "name": "Echoes of the Caribbean",
@@ -566,7 +566,7 @@
         "main": "echoesofthecaribbean.webp"
       },
       "viewCount": 7,
-      "installCount": 20
+      "installCount": 18
     },
     {
       "name": "Third Person Camera",
@@ -590,8 +590,8 @@
       "thumbnail": {
         "main": "thirdpersoncamera.webp"
       },
-      "viewCount": 113,
-      "installCount": 61
+      "viewCount": 109,
+      "installCount": 58
     },
     {
       "name": "NomaiVR Online Patches",
@@ -615,7 +615,7 @@
       "slug": "nomaivronlinepatches",
       "thumbnail": {},
       "viewCount": 17,
-      "installCount": 140
+      "installCount": 133
     },
     {
       "name": "NomaiVR FFR",
@@ -624,7 +624,7 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 8205,
+      "downloadCount": 8206,
       "latestReleaseDate": "2022-04-21T21:50:28Z",
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
@@ -634,8 +634,8 @@
       ],
       "slug": "nomaivrffr",
       "thumbnail": {},
-      "viewCount": 93,
-      "installCount": 380
+      "viewCount": 91,
+      "installCount": 354
     },
     {
       "name": "Static Camera",
@@ -685,8 +685,8 @@
       "thumbnail": {
         "main": "daydream.webp"
       },
-      "viewCount": 60,
-      "installCount": 86
+      "viewCount": 57,
+      "installCount": 84
     },
     {
       "name": "EotE Brighter Dreams",
@@ -694,7 +694,7 @@
       "description": "Outer Wilds mod: gives the player night vision on Echoes of the Eye's dream world.",
       "author": "Heelio",
       "downloadUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/releases/download/0.1.1/Heelio.EotEBrighterDreams.zip",
-      "downloadCount": 3613,
+      "downloadCount": 3614,
       "latestReleaseDate": "2021-11-28T22:52:25Z",
       "firstReleaseDate": "2021-11-28T20:52:42Z",
       "repo": "https://github.com/Heelio/EotE-Brighter-Dreams",
@@ -710,8 +710,8 @@
       "thumbnail": {
         "main": "eotebrighterdreams.webp"
       },
-      "viewCount": 352,
-      "installCount": 202
+      "viewCount": 319,
+      "installCount": 193
     },
     {
       "name": "Unity Explorer",
@@ -740,8 +740,8 @@
       "thumbnail": {
         "main": "unityexplorer.webp"
       },
-      "viewCount": 138,
-      "installCount": 54
+      "viewCount": 129,
+      "installCount": 49
     },
     {
       "name": "Half-Life Overhaul",
@@ -765,8 +765,8 @@
       "thumbnail": {
         "main": "halflifeoverhaul.webp"
       },
-      "viewCount": 27,
-      "installCount": 39
+      "viewCount": 26,
+      "installCount": 36
     },
     {
       "name": "Auto Resume",
@@ -774,7 +774,7 @@
       "description": "On start-up the game automatically resumes and wakes the player up (Reupload of Rai's mod)",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/AutoResume/releases/download/1.1.0/Release.1.1.0.zip",
-      "downloadCount": 901,
+      "downloadCount": 903,
       "latestReleaseDate": "2022-07-09T10:53:47Z",
       "firstReleaseDate": "2021-10-31T12:29:56Z",
       "repo": "https://github.com/Vesper-Works/AutoResume",
@@ -814,7 +814,7 @@
         "main": "outerthomasechoesofthetankengine.webp"
       },
       "viewCount": 22,
-      "installCount": 29
+      "installCount": 28
     },
     {
       "name": "Majora's Mask's Moon",
@@ -838,8 +838,8 @@
       "thumbnail": {
         "main": "majorasmasksmoon.webp"
       },
-      "viewCount": 15,
-      "installCount": 36
+      "viewCount": 14,
+      "installCount": 34
     },
     {
       "name": "New Horizons",
@@ -847,7 +847,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/vv1.8.6/xen.NewHorizons.zip",
-      "downloadCount": 20303,
+      "downloadCount": 20305,
       "latestReleaseDate": "2023-01-23T18:14:42Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -866,8 +866,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "viewCount": 1059,
-      "installCount": 613
+      "viewCount": 1002,
+      "installCount": 586
     },
     {
       "name": "New Horizons Examples",
@@ -893,8 +893,8 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "viewCount": 89,
-      "installCount": 90
+      "viewCount": 85,
+      "installCount": 85
     },
     {
       "name": "Real Solar System",
@@ -919,8 +919,8 @@
       "thumbnail": {
         "main": "realsolarsystem.webp"
       },
-      "viewCount": 416,
-      "installCount": 261
+      "viewCount": 398,
+      "installCount": 243
     },
     {
       "name": "Atropos",
@@ -945,8 +945,8 @@
       "thumbnail": {
         "main": "atropos.webp"
       },
-      "viewCount": 99,
-      "installCount": 101
+      "viewCount": 93,
+      "installCount": 96
     },
     {
       "name": "ElliePlanets!",
@@ -971,8 +971,8 @@
       "thumbnail": {
         "main": "ellieplanets.webp"
       },
-      "viewCount": 13,
-      "installCount": 29
+      "viewCount": 11,
+      "installCount": 28
     },
     {
       "name": "Smol Hatchling",
@@ -997,7 +997,7 @@
         "main": "smolhatchling.webp"
       },
       "viewCount": 17,
-      "installCount": 27
+      "installCount": 26
     },
     {
       "name": "Hiker's Mod",
@@ -1026,8 +1026,8 @@
       "thumbnail": {
         "main": "hikersmod.webp"
       },
-      "viewCount": 36,
-      "installCount": 78
+      "viewCount": 35,
+      "installCount": 75
     },
     {
       "name": "Outer Wilds Galaxy",
@@ -1053,8 +1053,8 @@
       "thumbnail": {
         "main": "outerwildsgalaxy.webp"
       },
-      "viewCount": 440,
-      "installCount": 204
+      "viewCount": 406,
+      "installCount": 187
     },
     {
       "name": "Signals+",
@@ -1079,8 +1079,8 @@
       "thumbnail": {
         "main": "signals.webp"
       },
-      "viewCount": 39,
-      "installCount": 56
+      "viewCount": 38,
+      "installCount": 52
     },
     {
       "name": "Save Editor",
@@ -1102,8 +1102,8 @@
       ],
       "slug": "saveeditor",
       "thumbnail": {},
-      "viewCount": 121,
-      "installCount": 62
+      "viewCount": 116,
+      "installCount": 59
     },
     {
       "name": "Meteor Launching",
@@ -1127,7 +1127,7 @@
       "thumbnail": {
         "main": "meteorlaunching.webp"
       },
-      "viewCount": 24,
+      "viewCount": 23,
       "installCount": 45
     },
     {
@@ -1178,8 +1178,8 @@
       "thumbnail": {
         "main": "tardisfromdoctorwho.webp"
       },
-      "viewCount": 78,
-      "installCount": 50
+      "viewCount": 74,
+      "installCount": 49
     },
     {
       "name": "Solar Neighbourhood",
@@ -1188,7 +1188,7 @@
       "author": "ErroneousCreationist",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/ErroneousCreationist/solarneighbourhood/releases/download/v1.5.1/solarneighbourhood.zip",
-      "downloadCount": 3240,
+      "downloadCount": 3241,
       "latestReleaseDate": "2022-02-05T05:38:08Z",
       "firstReleaseDate": "2022-01-06T08:28:59Z",
       "repo": "https://github.com/ErroneousCreationist/solarneighbourhood",
@@ -1209,8 +1209,8 @@
       "thumbnail": {
         "main": "solarneighbourhood.webp"
       },
-      "viewCount": 100,
-      "installCount": 121
+      "viewCount": 91,
+      "installCount": 111
     },
     {
       "name": "Vanilla Main Menu",
@@ -1232,8 +1232,8 @@
       ],
       "slug": "vanillamainmenu",
       "thumbnail": {},
-      "viewCount": 8,
-      "installCount": 12
+      "viewCount": 7,
+      "installCount": 11
     },
     {
       "name": "Outer Wilds Korean Translation",
@@ -1255,8 +1255,8 @@
       ],
       "slug": "outerwildskoreantranslation",
       "thumbnail": {},
-      "viewCount": 183,
-      "installCount": 115
+      "viewCount": 178,
+      "installCount": 111
     },
     {
       "name": "Astroneer Solar System",
@@ -1282,7 +1282,7 @@
         "main": "astroneersolarsystem.webp"
       },
       "viewCount": 26,
-      "installCount": 88
+      "installCount": 83
     },
     {
       "name": "Black Hole Portal Gun",
@@ -1290,7 +1290,7 @@
       "description": "B for Black hole, G for White hole. Use uppercase when changing keybinds.",
       "author": "Nageld",
       "downloadUrl": "https://github.com/Nageld/Outer-Wilds-Black-Hole-Portal-Gun/releases/download/v0.3.0/Book.BlackHolePortalGun.zip",
-      "downloadCount": 1706,
+      "downloadCount": 1708,
       "latestReleaseDate": "2023-01-05T02:34:47Z",
       "firstReleaseDate": "2022-01-12T02:05:23Z",
       "repo": "https://github.com/Nageld/Outer-Wilds-Black-Hole-Portal-Gun",
@@ -1306,8 +1306,8 @@
       "thumbnail": {
         "main": "blackholeportalgun.webp"
       },
-      "viewCount": 31,
-      "installCount": 85
+      "viewCount": 29,
+      "installCount": 82
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -1333,7 +1333,7 @@
         "openGraph": "outerwarioechoesofthewaaaaaaaaaaah-static.webp"
       },
       "viewCount": 17,
-      "installCount": 22
+      "installCount": 20
     },
     {
       "name": "Suicide Mod",
@@ -1356,7 +1356,7 @@
       "slug": "suicidemod",
       "thumbnail": {},
       "viewCount": 16,
-      "installCount": 69
+      "installCount": 68
     },
     {
       "name": "Outer Wilds Music Player",
@@ -1381,7 +1381,7 @@
         "main": "outerwildsmusicplayer.webp"
       },
       "viewCount": 19,
-      "installCount": 77
+      "installCount": 73
     },
     {
       "name": "Collider Visualizer",
@@ -1405,8 +1405,8 @@
       "thumbnail": {
         "main": "collidervisualizer.webp"
       },
-      "viewCount": 7,
-      "installCount": 14
+      "viewCount": 6,
+      "installCount": 12
     },
     {
       "name": "Archaeologist Achievement Helper",
@@ -1431,8 +1431,8 @@
       "thumbnail": {
         "main": "archaeologistachievementhelper.webp"
       },
-      "viewCount": 111,
-      "installCount": 157
+      "viewCount": 110,
+      "installCount": 152
     },
     {
       "name": "Enter the Warioverse",
@@ -1457,8 +1457,8 @@
       "thumbnail": {
         "main": "enterthewarioverse.webp"
       },
-      "viewCount": 48,
-      "installCount": 53
+      "viewCount": 47,
+      "installCount": 48
     },
     {
       "name": "21st Century Anglerfish",
@@ -1480,8 +1480,8 @@
       ],
       "slug": "21stcenturyanglerfish",
       "thumbnail": {},
-      "viewCount": 90,
-      "installCount": 62
+      "viewCount": 85,
+      "installCount": 58
     },
     {
       "name": "Medley of Planets",
@@ -1506,8 +1506,8 @@
       "thumbnail": {
         "main": "medleyofplanets.webp"
       },
-      "viewCount": 44,
-      "installCount": 45
+      "viewCount": 40,
+      "installCount": 43
     },
     {
       "name": "Outer Wilds Flyover",
@@ -1532,8 +1532,8 @@
       "thumbnail": {
         "main": "outerwildsflyover.webp"
       },
-      "viewCount": 20,
-      "installCount": 24
+      "viewCount": 18,
+      "installCount": 22
     },
     {
       "name": "Incursion: Final Dawn",
@@ -1558,8 +1558,8 @@
       "thumbnail": {
         "main": "incursionfinaldawn.webp"
       },
-      "viewCount": 55,
-      "installCount": 54
+      "viewCount": 53,
+      "installCount": 52
     },
     {
       "name": "TRAPPIST-1",
@@ -1584,8 +1584,8 @@
       "thumbnail": {
         "main": "trappist1.webp"
       },
-      "viewCount": 16,
-      "installCount": 24
+      "viewCount": 15,
+      "installCount": 22
     },
     {
       "name": "Input Demo Recorder",
@@ -1615,7 +1615,7 @@
         "main": "inputdemorecorder.webp"
       },
       "viewCount": 3,
-      "installCount": 2
+      "installCount": 1
     },
     {
       "name": "Celeste Wilds",
@@ -1639,8 +1639,8 @@
       "thumbnail": {
         "main": "celestewilds.webp"
       },
-      "viewCount": 30,
-      "installCount": 35
+      "viewCount": 27,
+      "installCount": 34
     },
     {
       "name": "Grapefruit",
@@ -1670,8 +1670,8 @@
       "thumbnail": {
         "main": "grapefruit.webp"
       },
-      "viewCount": 16,
-      "installCount": 31
+      "viewCount": 15,
+      "installCount": 30
     },
     {
       "name": "Visible Stranger",
@@ -1679,7 +1679,7 @@
       "description": "Decloaks the Stranger in Echoes of the Eye.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/ow-decloaked/releases/download/v1.0.1/xen.Decloaked.zip",
-      "downloadCount": 1667,
+      "downloadCount": 1669,
       "latestReleaseDate": "2022-04-20T04:52:51Z",
       "firstReleaseDate": "2022-03-20T15:06:51Z",
       "repo": "https://github.com/xen-42/ow-decloaked",
@@ -1695,8 +1695,8 @@
       "thumbnail": {
         "main": "visiblestranger.webp"
       },
-      "viewCount": 70,
-      "installCount": 109
+      "viewCount": 68,
+      "installCount": 106
     },
     {
       "name": "Hollodjustment",
@@ -1721,7 +1721,7 @@
         "main": "hollodjustment.webp"
       },
       "viewCount": 4,
-      "installCount": 11
+      "installCount": 10
     },
     {
       "name": "Vanilla Fix",
@@ -1729,7 +1729,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.10.2/JohnCorby.VanillaFix.zip",
-      "downloadCount": 14885,
+      "downloadCount": 14890,
       "latestReleaseDate": "2022-10-01T04:44:36Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -1745,8 +1745,8 @@
       "thumbnail": {
         "main": "vanillafix.webp"
       },
-      "viewCount": 197,
-      "installCount": 272
+      "viewCount": 186,
+      "installCount": 259
     },
     {
       "name": "Only Timber Hearth",
@@ -1774,7 +1774,7 @@
       ],
       "slug": "onlytimberhearth",
       "thumbnail": {},
-      "viewCount": 14,
+      "viewCount": 12,
       "installCount": 11
     },
     {
@@ -1799,7 +1799,7 @@
       "thumbnail": {
         "main": "titlescreenbugfix.webp"
       },
-      "viewCount": 21,
+      "viewCount": 19,
       "installCount": 10
     },
     {
@@ -1824,8 +1824,8 @@
       "thumbnail": {
         "main": "ghosttranslations.webp"
       },
-      "viewCount": 236,
-      "installCount": 111
+      "viewCount": 232,
+      "installCount": 105
     },
     {
       "name": "Voice Acting Mod",
@@ -1850,8 +1850,8 @@
       "thumbnail": {
         "main": "voiceactingmod.webp"
       },
-      "viewCount": 309,
-      "installCount": 159
+      "viewCount": 302,
+      "installCount": 149
     },
     {
       "name": "Their Homeworld",
@@ -1860,7 +1860,7 @@
       "author": "CreativeNameTxt",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CreativeNameTxt/their-home-world/releases/download/v0.0.71/CreativeNameTxt.theirhomeworld.zip",
-      "downloadCount": 737,
+      "downloadCount": 738,
       "latestReleaseDate": "2022-04-25T18:13:50Z",
       "firstReleaseDate": "2022-04-25T18:13:50Z",
       "repo": "https://github.com/CreativeNameTxt/their-home-world",
@@ -1874,8 +1874,8 @@
       ],
       "slug": "theirhomeworld",
       "thumbnail": {},
-      "viewCount": 26,
-      "installCount": 30
+      "viewCount": 23,
+      "installCount": 26
     },
     {
       "name": "Vengeful Cannon",
@@ -1893,7 +1893,7 @@
       ],
       "slug": "vengefulcannon",
       "thumbnail": {},
-      "viewCount": 14,
+      "viewCount": 13,
       "installCount": 18
     },
     {
@@ -1919,8 +1919,8 @@
       "thumbnail": {
         "main": "almondsystem.webp"
       },
-      "viewCount": 9,
-      "installCount": 15
+      "viewCount": 8,
+      "installCount": 13
     },
     {
       "name": "Persistant Marshmallow",
@@ -1994,8 +1994,8 @@
       "thumbnail": {
         "main": "interstellargargantua.webp"
       },
-      "viewCount": 61,
-      "installCount": 62
+      "viewCount": 57,
+      "installCount": 58
     },
     {
       "name": "Jammer Lore",
@@ -2022,7 +2022,7 @@
         "main": "jammerlore.webp",
         "openGraph": "jammerlore-static.webp"
       },
-      "viewCount": 10,
+      "viewCount": 9,
       "installCount": 35
     },
     {
@@ -2031,7 +2031,7 @@
       "description": "I ain't afraid of no ghosts (let's you blow out certain candles in EOTE).",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/ow-ghostbuster/releases/download/0.1.1/xen.GhostBuster.zip",
-      "downloadCount": 278,
+      "downloadCount": 279,
       "latestReleaseDate": "2022-04-19T03:37:09Z",
       "firstReleaseDate": "2022-04-19T02:50:26Z",
       "repo": "https://github.com/xen-42/ow-ghostbuster",
@@ -2048,7 +2048,7 @@
         "main": "ghostbuster.webp"
       },
       "viewCount": 15,
-      "installCount": 19
+      "installCount": 18
     },
     {
       "name": "Open Doors",
@@ -2056,7 +2056,7 @@
       "description": "Open any closed door or pathway in the Outer Wilds using this Mod!",
       "author": "YanWittmann",
       "downloadUrl": "https://github.com/YanWittmann/OpenDoors/releases/download/1.0.0/OpenDoors.zip",
-      "downloadCount": 438,
+      "downloadCount": 439,
       "latestReleaseDate": "2022-04-19T14:19:32Z",
       "firstReleaseDate": "2022-04-19T14:19:32Z",
       "repo": "https://github.com/YanWittmann/OpenDoors",
@@ -2073,7 +2073,7 @@
         "main": "opendoors.webp"
       },
       "viewCount": 13,
-      "installCount": 40
+      "installCount": 36
     },
     {
       "name": "Sleep Mod",
@@ -2148,8 +2148,8 @@
       "thumbnail": {
         "main": "addlivsupport.webp"
       },
-      "viewCount": 15,
-      "installCount": 85
+      "viewCount": 14,
+      "installCount": 83
     },
     {
       "name": "360 Camera",
@@ -2173,7 +2173,7 @@
       "thumbnail": {
         "main": "360camera.webp"
       },
-      "viewCount": 10,
+      "viewCount": 9,
       "installCount": 9
     },
     {
@@ -2198,8 +2198,8 @@
       "thumbnail": {
         "main": "noend.webp"
       },
-      "viewCount": 23,
-      "installCount": 14
+      "viewCount": 22,
+      "installCount": 13
     },
     {
       "name": "No Dam Break",
@@ -2207,7 +2207,7 @@
       "description": "The dam on the stranger will no longer break!!",
       "author": "LikeMauro",
       "downloadUrl": "https://github.com/LikeMauro/NoDamBreak-Mod/releases/download/0.1.1/likemauro.nodambreak.zip",
-      "downloadCount": 308,
+      "downloadCount": 309,
       "latestReleaseDate": "2022-04-28T14:36:09Z",
       "firstReleaseDate": "2022-04-23T15:01:04Z",
       "repo": "https://github.com/LikeMauro/NoDamBreak-Mod",
@@ -2246,8 +2246,8 @@
       ],
       "slug": "altertime",
       "thumbnail": {},
-      "viewCount": 16,
-      "installCount": 27
+      "viewCount": 15,
+      "installCount": 26
     },
     {
       "name": "Survive the Supernova",
@@ -2297,8 +2297,8 @@
       "thumbnail": {
         "main": "achievements.webp"
       },
-      "viewCount": 52,
-      "installCount": 124
+      "viewCount": 54,
+      "installCount": 121
     },
     {
       "name": "Supernova On Demand",
@@ -2322,8 +2322,8 @@
       "thumbnail": {
         "main": "supernovaondemand.webp"
       },
-      "viewCount": 17,
-      "installCount": 65
+      "viewCount": 16,
+      "installCount": 63
     },
     {
       "name": "Big Heads",
@@ -2370,8 +2370,8 @@
       ],
       "slug": "bringmemyship",
       "thumbnail": {},
-      "viewCount": 12,
-      "installCount": 61
+      "viewCount": 11,
+      "installCount": 58
     },
     {
       "name": "Arkose bug fix",
@@ -2396,8 +2396,8 @@
       "thumbnail": {
         "main": "arkosebugfix.webp"
       },
-      "viewCount": 10,
-      "installCount": 13
+      "viewCount": 9,
+      "installCount": 12
     },
     {
       "name": "Woah Watch Those Frames",
@@ -2420,7 +2420,7 @@
       "slug": "woahwatchthoseframes",
       "thumbnail": {},
       "viewCount": 3,
-      "installCount": 16
+      "installCount": 14
     },
     {
       "name": "Timber Twin",
@@ -2445,7 +2445,7 @@
       "thumbnail": {
         "main": "timbertwin.webp"
       },
-      "viewCount": 33,
+      "viewCount": 29,
       "installCount": 12
     },
     {
@@ -2470,8 +2470,8 @@
       "thumbnail": {
         "main": "togglevelocitymatching.webp"
       },
-      "viewCount": 12,
-      "installCount": 30
+      "viewCount": 10,
+      "installCount": 29
     },
     {
       "name": "Time Saver",
@@ -2493,8 +2493,8 @@
       ],
       "slug": "timesaver",
       "thumbnail": {},
-      "viewCount": 13,
-      "installCount": 62
+      "viewCount": 12,
+      "installCount": 59
     },
     {
       "name": "Changed Twins",
@@ -2519,8 +2519,8 @@
       "thumbnail": {
         "main": "changedtwins.webp"
       },
-      "viewCount": 34,
-      "installCount": 19
+      "viewCount": 33,
+      "installCount": 18
     },
     {
       "name": "Power Failure",
@@ -2528,7 +2528,7 @@
       "description": "With no more solar energy to be harvested the stranger must start powering down some of the less critical systems to extend its operational lifespan...",
       "author": "LivingFray",
       "downloadUrl": "https://github.com/LivingFray/OW-PowerFailure/releases/download/1.0.0/release.zip",
-      "downloadCount": 578,
+      "downloadCount": 579,
       "latestReleaseDate": "2022-05-14T00:58:56Z",
       "firstReleaseDate": "2022-05-14T00:58:56Z",
       "repo": "https://github.com/LivingFray/OW-PowerFailure",
@@ -2544,8 +2544,8 @@
       "thumbnail": {
         "main": "powerfailure.webp"
       },
-      "viewCount": 41,
-      "installCount": 51
+      "viewCount": 39,
+      "installCount": 50
     },
     {
       "name": "Outer Wilds Traditional Chinese Translation",
@@ -2569,8 +2569,8 @@
       "thumbnail": {
         "main": "outerwildstraditionalchinesetranslation.webp"
       },
-      "viewCount": 11,
-      "installCount": 17
+      "viewCount": 10,
+      "installCount": 16
     },
     {
       "name": "Less Lonely Ship",
@@ -2595,8 +2595,8 @@
       "thumbnail": {
         "main": "lesslonelyship.webp"
       },
-      "viewCount": 82,
-      "installCount": 35
+      "viewCount": 78,
+      "installCount": 33
     },
     {
       "name": "Cloudless Quantum Moons",
@@ -2621,8 +2621,8 @@
       "thumbnail": {
         "main": "cloudlessquantummoons.webp"
       },
-      "viewCount": 26,
-      "installCount": 33
+      "viewCount": 24,
+      "installCount": 32
     },
     {
       "name": "Backer's satellite signal",
@@ -2648,7 +2648,7 @@
         "main": "backerssatellitesignal.webp"
       },
       "viewCount": 9,
-      "installCount": 26
+      "installCount": 23
     },
     {
       "name": "Suit Log",
@@ -2656,7 +2656,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.5/dgarro.SuitLog.zip",
-      "downloadCount": 1714,
+      "downloadCount": 1715,
       "latestReleaseDate": "2022-10-07T13:24:11Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -2674,8 +2674,8 @@
         "main": "suitlog.webp",
         "openGraph": "suitlog-static.webp"
       },
-      "viewCount": 45,
-      "installCount": 123
+      "viewCount": 41,
+      "installCount": 116
     },
     {
       "name": "Hatchling Outfitter",
@@ -2722,8 +2722,8 @@
       ],
       "slug": "qualityoflifechanges",
       "thumbnail": {},
-      "viewCount": 24,
-      "installCount": 41
+      "viewCount": 19,
+      "installCount": 37
     },
     {
       "name": "Common Camera Utility",
@@ -2732,7 +2732,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
-      "downloadCount": 7539,
+      "downloadCount": 7540,
       "latestReleaseDate": "2022-10-22T15:26:44Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -2749,7 +2749,7 @@
         "main": "commoncamerautility.webp"
       },
       "viewCount": 42,
-      "installCount": 68
+      "installCount": 66
     },
     {
       "name": "Better Model Ship",
@@ -2773,8 +2773,8 @@
       "thumbnail": {
         "main": "bettermodelship.webp"
       },
-      "viewCount": 24,
-      "installCount": 69
+      "viewCount": 22,
+      "installCount": 65
     },
     {
       "name": "Cloudless Giant's Deep",
@@ -2799,8 +2799,8 @@
       "thumbnail": {
         "main": "cloudlessgiantsdeep.webp"
       },
-      "viewCount": 19,
-      "installCount": 22
+      "viewCount": 16,
+      "installCount": 20
     },
     {
       "name": "Involuntary Blink",
@@ -2849,7 +2849,7 @@
         "main": "primitivelaunching.webp"
       },
       "viewCount": 2,
-      "installCount": 13
+      "installCount": 12
     },
     {
       "name": "Alpha Title Screen",
@@ -2882,7 +2882,7 @@
       "description": "A mod that allows you to trigger the events of certain spaceship",
       "author": "LikeMauro",
       "downloadUrl": "https://github.com/LikeMauro/Controllable-Stranger/releases/download/0.1.1/likemauro.controllablestranger.zip",
-      "downloadCount": 261,
+      "downloadCount": 262,
       "latestReleaseDate": "2022-06-14T16:40:18Z",
       "firstReleaseDate": "2022-06-12T05:38:01Z",
       "repo": "https://github.com/LikeMauro/Controllable-Stranger",
@@ -2896,8 +2896,8 @@
       ],
       "slug": "controllablestranger",
       "thumbnail": {},
-      "viewCount": 20,
-      "installCount": 19
+      "viewCount": 19,
+      "installCount": 18
     },
     {
       "name": "Upsilon Andromedae",
@@ -2922,8 +2922,8 @@
       "thumbnail": {
         "main": "upsilonandromedae.webp"
       },
-      "viewCount": 35,
-      "installCount": 20
+      "viewCount": 31,
+      "installCount": 16
     },
     {
       "name": "Fact Log",
@@ -2974,7 +2974,7 @@
         "main": "blackholesun.webp"
       },
       "viewCount": 11,
-      "installCount": 22
+      "installCount": 20
     },
     {
       "name": "No Sun",
@@ -3000,7 +3000,7 @@
         "main": "nosun.webp"
       },
       "viewCount": 5,
-      "installCount": 18
+      "installCount": 17
     },
     {
       "name": "Ordered Orbits",
@@ -3026,7 +3026,7 @@
         "main": "orderedorbits.webp"
       },
       "viewCount": 7,
-      "installCount": 16
+      "installCount": 15
     },
     {
       "name": "Ship Remote Autopilot",
@@ -3048,8 +3048,8 @@
       ],
       "slug": "shipremoteautopilot",
       "thumbnail": {},
-      "viewCount": 13,
-      "installCount": 43
+      "viewCount": 11,
+      "installCount": 39
     },
     {
       "name": "Block Placing",
@@ -3074,8 +3074,8 @@
         "main": "blockplacing.webp",
         "openGraph": "blockplacing-static.webp"
       },
-      "viewCount": 28,
-      "installCount": 19
+      "viewCount": 6,
+      "installCount": 16
     },
     {
       "name": "Czech Localization",
@@ -3123,8 +3123,8 @@
       "thumbnail": {
         "main": "carsonsystem.webp"
       },
-      "viewCount": 16,
-      "installCount": 27
+      "viewCount": 13,
+      "installCount": 25
     },
     {
       "name": "Sound Test",
@@ -3180,7 +3180,7 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 2634,
+      "downloadCount": 2635,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
@@ -3190,8 +3190,8 @@
       ],
       "slug": "stoptime",
       "thumbnail": {},
-      "viewCount": 64,
-      "installCount": 90
+      "viewCount": 58,
+      "installCount": 82
     },
     {
       "name": "Galaxy Skybox: NGC 1087",
@@ -3216,8 +3216,8 @@
       "thumbnail": {
         "main": "galaxyskyboxngc1087.webp"
       },
-      "viewCount": 16,
-      "installCount": 23
+      "viewCount": 9,
+      "installCount": 21
     },
     {
       "name": "Quantum Moon Orbit Line",
@@ -3243,7 +3243,7 @@
         "main": "quantummoonorbitline.webp"
       },
       "viewCount": 4,
-      "installCount": 26
+      "installCount": 25
     },
     {
       "name": "Permadeath Mode",
@@ -3269,7 +3269,7 @@
         "openGraph": "permadeathmode-static.webp"
       },
       "viewCount": 7,
-      "installCount": 5
+      "installCount": 4
     },
     {
       "name": "Sun Station Ascension",
@@ -3294,8 +3294,8 @@
       "thumbnail": {
         "main": "sunstationascension.webp"
       },
-      "viewCount": 14,
-      "installCount": 19
+      "viewCount": 13,
+      "installCount": 18
     },
     {
       "name": "Discord Rich Presence",
@@ -3303,7 +3303,7 @@
       "description": "Adds discord rich presence to Outer Wilds",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/OWRichPresence/releases/download/1.4.0/MegaPiggy.OWRichPresence.zip",
-      "downloadCount": 1119,
+      "downloadCount": 1121,
       "latestReleaseDate": "2023-01-23T00:23:34Z",
       "firstReleaseDate": "2022-08-21T06:44:58Z",
       "repo": "https://github.com/MegaPiggy/OWRichPresence",
@@ -3319,8 +3319,8 @@
       "thumbnail": {
         "main": "discordrichpresence.webp"
       },
-      "viewCount": 192,
-      "installCount": 297
+      "viewCount": 187,
+      "installCount": 291
     },
     {
       "name": "Artifact Laser",
@@ -3345,7 +3345,7 @@
         "main": "artifactlaser.webp"
       },
       "viewCount": 18,
-      "installCount": 14
+      "installCount": 13
     },
     {
       "name": "Speed Modifier/Walk Button on KBM",
@@ -3391,7 +3391,7 @@
       "slug": "cutachievements",
       "thumbnail": {},
       "viewCount": 27,
-      "installCount": 62
+      "installCount": 59
     },
     {
       "name": "Chargeable Scout Launcher",
@@ -3466,7 +3466,7 @@
         "main": "europetimes.webp"
       },
       "viewCount": 23,
-      "installCount": 23
+      "installCount": 21
     },
     {
       "name": "Hazy Dreams",
@@ -3490,8 +3490,8 @@
       ],
       "slug": "hazydreams",
       "thumbnail": {},
-      "viewCount": 11,
-      "installCount": 21
+      "viewCount": 9,
+      "installCount": 20
     },
     {
       "name": "Gizmos Library",
@@ -3552,7 +3552,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.2/hearth1an.TheVision.zip",
-      "downloadCount": 6280,
+      "downloadCount": 6282,
       "latestReleaseDate": "2022-12-14T14:19:21Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -3571,8 +3571,8 @@
         "main": "thevision.webp",
         "openGraph": "thevision-static.webp"
       },
-      "viewCount": 1460,
-      "installCount": 569
+      "viewCount": 1402,
+      "installCount": 539
     },
     {
       "name": "Secret Words",
@@ -3598,8 +3598,8 @@
       "thumbnail": {
         "main": "secretwords.webp"
       },
-      "viewCount": 43,
-      "installCount": 42
+      "viewCount": 41,
+      "installCount": 37
     },
     {
       "name": "Slate's Shipyard",
@@ -3608,7 +3608,7 @@
       "author": "ShoosGun",
       "utility": true,
       "downloadUrl": "https://github.com/ShoosGun/SlateShipyard/releases/download/v0.2.1/Locochoco.SlateShipyard.zip",
-      "downloadCount": 849,
+      "downloadCount": 850,
       "latestReleaseDate": "2023-02-11T20:03:00Z",
       "firstReleaseDate": "2022-09-08T19:44:51Z",
       "repo": "https://github.com/ShoosGun/SlateShipyard",
@@ -3633,8 +3633,8 @@
       "thumbnail": {
         "main": "slatesshipyard.webp"
       },
-      "viewCount": 49,
-      "installCount": 73
+      "viewCount": 45,
+      "installCount": 69
     },
     {
       "name": "Spaceshipinha",
@@ -3643,7 +3643,7 @@
       "author": "ShoosGun",
       "parent": "Locochoco.SlateShipyard",
       "downloadUrl": "https://github.com/ShoosGun/Spaceshipinha/releases/download/v0.1.9/Locochoco.Spaceshipinha.zip",
-      "downloadCount": 476,
+      "downloadCount": 478,
       "latestReleaseDate": "2023-02-11T20:05:20Z",
       "firstReleaseDate": "2022-09-08T20:00:48Z",
       "repo": "https://github.com/ShoosGun/Spaceshipinha",
@@ -3665,8 +3665,8 @@
       "thumbnail": {
         "main": "spaceshipinha.webp"
       },
-      "viewCount": 35,
-      "installCount": 56
+      "viewCount": 34,
+      "installCount": 53
     },
     {
       "name": "DOOM",
@@ -3691,8 +3691,8 @@
       "thumbnail": {
         "main": "doom.webp"
       },
-      "viewCount": 93,
-      "installCount": 113
+      "viewCount": 92,
+      "installCount": 110
     },
     {
       "name": "Car Example",
@@ -3701,7 +3701,7 @@
       "author": "ShoosGun",
       "parent": "Locochoco.SlateShipyard",
       "downloadUrl": "https://github.com/ShoosGun/CarExample/releases/download/v0.1.5/Locochoco.CarExample.zip",
-      "downloadCount": 413,
+      "downloadCount": 415,
       "latestReleaseDate": "2023-02-11T20:10:49Z",
       "firstReleaseDate": "2022-09-15T02:08:13Z",
       "repo": "https://github.com/ShoosGun/CarExample",
@@ -3724,7 +3724,7 @@
         "main": "carexample.webp"
       },
       "viewCount": 17,
-      "installCount": 57
+      "installCount": 54
     },
     {
       "name": "Clear Glass",
@@ -3749,8 +3749,8 @@
       "thumbnail": {
         "main": "clearglass.webp"
       },
-      "viewCount": 25,
-      "installCount": 31
+      "viewCount": 23,
+      "installCount": 30
     },
     {
       "name": "Bhaptics Outer Wilds",
@@ -3773,8 +3773,8 @@
       ],
       "slug": "bhapticsouterwilds",
       "thumbnail": {},
-      "viewCount": 3,
-      "installCount": 6
+      "viewCount": 2,
+      "installCount": 4
     },
     {
       "name": "Espied Serenity",
@@ -3799,8 +3799,8 @@
       "thumbnail": {
         "main": "espiedserenity.webp"
       },
-      "viewCount": 14,
-      "installCount": 18
+      "viewCount": 13,
+      "installCount": 17
     },
     {
       "name": "Green Jetpack",
@@ -3849,8 +3849,8 @@
       ],
       "slug": "secretsettings",
       "thumbnail": {},
-      "viewCount": 64,
-      "installCount": 106
+      "viewCount": 63,
+      "installCount": 98
     },
     {
       "name": "Fret's Quest",
@@ -3877,8 +3877,8 @@
       "thumbnail": {
         "main": "fretsquest.webp"
       },
-      "viewCount": 148,
-      "installCount": 104
+      "viewCount": 132,
+      "installCount": 99
     },
     {
       "name": "Heavy Sleeper",
@@ -3902,7 +3902,7 @@
       "slug": "heavysleeper",
       "thumbnail": {},
       "viewCount": 16,
-      "installCount": 7
+      "installCount": 6
     },
     {
       "name": "The Funniest System",
@@ -3928,8 +3928,8 @@
       "thumbnail": {
         "main": "thefunniestsystem.webp"
       },
-      "viewCount": 139,
-      "installCount": 111
+      "viewCount": 129,
+      "installCount": 105
     },
     {
       "name": "Scout Teleporter",
@@ -3955,8 +3955,8 @@
         "main": "scoutteleporter.webp",
         "openGraph": "scoutteleporter-static.webp"
       },
-      "viewCount": 26,
-      "installCount": 71
+      "viewCount": 25,
+      "installCount": 67
     },
     {
       "name": "Custom Ship Log Modes",
@@ -3965,7 +3965,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.1/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 4755,
+      "downloadCount": 4756,
       "latestReleaseDate": "2022-10-26T04:07:09Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -3983,7 +3983,7 @@
         "main": "customshiplogmodes.webp"
       },
       "viewCount": 20,
-      "installCount": 45
+      "installCount": 43
     },
     {
       "name": "Ship Log Slide Reel Player Plus",
@@ -3991,7 +3991,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3585,
+      "downloadCount": 3586,
       "latestReleaseDate": "2022-10-14T06:09:06Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4010,8 +4010,8 @@
         "main": "shiplogslidereelplayerplus.webp",
         "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
-      "viewCount": 19,
-      "installCount": 79
+      "viewCount": 18,
+      "installCount": 75
     },
     {
       "name": "Smallest System in the Galaxy",
@@ -4037,8 +4037,8 @@
       "thumbnail": {
         "main": "smallestsysteminthegalaxy.webp"
       },
-      "viewCount": 33,
-      "installCount": 35
+      "viewCount": 25,
+      "installCount": 32
     },
     {
       "name": "Developer Console",
@@ -4047,7 +4047,7 @@
       "author": "Smaedd",
       "utility": true,
       "downloadUrl": "https://github.com/Smaedd/OW_DeveloperConsole/releases/download/v0.2.4/Smaed.DeveloperConsole.zip",
-      "downloadCount": 223,
+      "downloadCount": 224,
       "latestReleaseDate": "2022-11-07T03:51:52Z",
       "firstReleaseDate": "2022-10-10T02:19:57Z",
       "repo": "https://github.com/Smaedd/OW_DeveloperConsole",
@@ -4074,7 +4074,7 @@
       "description": "A port of PacificEngine's Cheats Mod to work with the Developer Console",
       "author": "Smaedd",
       "downloadUrl": "https://github.com/Smaedd/OW_ConsoleCheats/releases/download/v0.2.2/Smaed.ConsoleCheats.zip",
-      "downloadCount": 172,
+      "downloadCount": 174,
       "latestReleaseDate": "2022-10-16T05:22:52Z",
       "firstReleaseDate": "2022-10-09T12:31:52Z",
       "repo": "https://github.com/Smaedd/OW_ConsoleCheats",
@@ -4089,7 +4089,7 @@
       ],
       "slug": "consolecheats",
       "thumbnail": {},
-      "viewCount": 23,
+      "viewCount": 22,
       "installCount": 38
     },
     {
@@ -4116,8 +4116,8 @@
       "thumbnail": {
         "main": "alternatevoices.webp"
       },
-      "viewCount": 29,
-      "installCount": 64
+      "viewCount": 28,
+      "installCount": 61
     },
     {
       "name": "The Wilds: Extended",
@@ -4143,8 +4143,8 @@
       "thumbnail": {
         "main": "thewildsextended.webp"
       },
-      "viewCount": 20,
-      "installCount": 33
+      "viewCount": 17,
+      "installCount": 29
     },
     {
       "name": "Escape the Dreamstalker",
@@ -4172,8 +4172,8 @@
       "thumbnail": {
         "main": "escapethedreamstalker.webp"
       },
-      "viewCount": 111,
-      "installCount": 78
+      "viewCount": 106,
+      "installCount": 73
     },
     {
       "name": "Ship Self Destruct Button",
@@ -4222,8 +4222,8 @@
       "thumbnail": {
         "main": "ernestotakeover.webp"
       },
-      "viewCount": 34,
-      "installCount": 34
+      "viewCount": 32,
+      "installCount": 31
     },
     {
       "name": "Dancin' Wilds Ventures",
@@ -4248,8 +4248,8 @@
       ],
       "slug": "dancinwildsventures",
       "thumbnail": {},
-      "viewCount": 15,
-      "installCount": 46
+      "viewCount": 11,
+      "installCount": 42
     },
     {
       "name": "Stranger Spin Gravity",
@@ -4274,8 +4274,8 @@
         "main": "strangerspingravity.webp",
         "openGraph": "strangerspingravity-static.webp"
       },
-      "viewCount": 88,
-      "installCount": 40
+      "viewCount": 87,
+      "installCount": 39
     },
     {
       "name": "Discord Proximity Chat",
@@ -4284,7 +4284,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/DiscordProximityChat/releases/download/0.0.1/BUNN1E5.DiscordProximityChat.zip",
-      "downloadCount": 903,
+      "downloadCount": 907,
       "latestReleaseDate": "2022-11-11T07:12:33Z",
       "firstReleaseDate": "2022-11-11T07:12:33Z",
       "repo": "https://github.com/BUNN1E5/DiscordProximityChat",
@@ -4307,8 +4307,8 @@
         "main": "discordproximitychat.webp",
         "openGraph": "discordproximitychat-static.webp"
       },
-      "viewCount": 85,
-      "installCount": 236
+      "viewCount": 80,
+      "installCount": 225
     },
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
@@ -4329,8 +4329,8 @@
       ],
       "slug": "slatesshipyardforouterwildsonline",
       "thumbnail": {},
-      "viewCount": 11,
-      "installCount": 73
+      "viewCount": 10,
+      "installCount": 68
     },
     {
       "name": "i let the voices on the discord server make bad ideas for planets",
@@ -4356,8 +4356,8 @@
       "thumbnail": {
         "main": "iletthevoicesonthediscordservermakebadideasforplanets.webp"
       },
-      "viewCount": 20,
-      "installCount": 42
+      "viewCount": 19,
+      "installCount": 40
     },
     {
       "name": "Super Wild Galaxy",
@@ -4384,8 +4384,8 @@
       "thumbnail": {
         "main": "superwildgalaxy.webp"
       },
-      "viewCount": 72,
-      "installCount": 60
+      "viewCount": 67,
+      "installCount": 55
     },
     {
       "name": "Trajectory Prediction",
@@ -4411,8 +4411,8 @@
       "thumbnail": {
         "main": "trajectoryprediction.webp"
       },
-      "viewCount": 69,
-      "installCount": 94
+      "viewCount": 66,
+      "installCount": 89
     },
     {
       "name": "N Body Chaos",
@@ -4438,8 +4438,8 @@
       "thumbnail": {
         "main": "nbodychaos.webp"
       },
-      "viewCount": 15,
-      "installCount": 53
+      "viewCount": 10,
+      "installCount": 52
     },
     {
       "name": "Shared Ship Log",
@@ -4474,7 +4474,7 @@
       "author": "ShoosGun",
       "parent": "Locochoco.SlateShipyard",
       "downloadUrl": "https://github.com/ShoosGun/Kerbal-Space-Ventures/releases/download/v0.1.1/Locochoco.KSPShips.zip",
-      "downloadCount": 200,
+      "downloadCount": 202,
       "latestReleaseDate": "2023-02-11T20:11:53Z",
       "firstReleaseDate": "2023-02-11T20:11:53Z",
       "repo": "https://github.com/ShoosGun/Kerbal-Space-Ventures",
@@ -4487,7 +4487,7 @@
       "slug": "kerbalspaceventures",
       "thumbnail": {},
       "viewCount": 17,
-      "installCount": 59
+      "installCount": 55
     },
     {
       "name": "Solar Systems I Made as a Kid",
@@ -4513,8 +4513,8 @@
       "thumbnail": {
         "main": "solarsystemsimadeasakid.webp"
       },
-      "viewCount": 15,
-      "installCount": 27
+      "viewCount": 14,
+      "installCount": 26
     },
     {
       "name": "Owlystem",
@@ -4540,8 +4540,8 @@
       "thumbnail": {
         "main": "owlystem.webp"
       },
-      "viewCount": 52,
-      "installCount": 49
+      "viewCount": 48,
+      "installCount": 45
     },
     {
       "name": "Nomai Text Printer",
@@ -4566,7 +4566,7 @@
       "slug": "nomaitextprinter",
       "thumbnail": {},
       "viewCount": 12,
-      "installCount": 6
+      "installCount": 5
     },
     {
       "name": "The Final Shortcut",
@@ -4589,8 +4589,8 @@
       ],
       "slug": "thefinalshortcut",
       "thumbnail": {},
-      "viewCount": 36,
-      "installCount": 67
+      "viewCount": 30,
+      "installCount": 65
     },
     {
       "name": "How Did This Happen?",
@@ -4615,8 +4615,8 @@
       "thumbnail": {
         "main": "howdidthishappen.webp"
       },
-      "viewCount": 90,
-      "installCount": 51
+      "viewCount": 80,
+      "installCount": 49
     },
     {
       "name": "I Don't Like Sand",
@@ -4639,8 +4639,8 @@
       ],
       "slug": "idontlikesand",
       "thumbnail": {},
-      "viewCount": 18,
-      "installCount": 69
+      "viewCount": 13,
+      "installCount": 64
     },
     {
       "name": "Outer Wilds en Andalûh",
@@ -4690,7 +4690,7 @@
         "main": "outerpictures.webp"
       },
       "viewCount": 8,
-      "installCount": 10
+      "installCount": 9
     },
     {
       "name": "SpeedTools",
@@ -4717,7 +4717,7 @@
         "main": "speedtools.webp"
       },
       "viewCount": 27,
-      "installCount": 25
+      "installCount": 23
     },
     {
       "name": "Break On Demand",
@@ -4740,7 +4740,7 @@
       "slug": "breakondemand",
       "thumbnail": {},
       "viewCount": 13,
-      "installCount": 9
+      "installCount": 8
     },
     {
       "name": "Funny Christmas",
@@ -4764,7 +4764,7 @@
       ],
       "slug": "funnychristmas",
       "thumbnail": {},
-      "viewCount": 18,
+      "viewCount": 14,
       "installCount": 28
     },
     {
@@ -4792,7 +4792,7 @@
         "openGraph": "enablemeditation-static.webp"
       },
       "viewCount": 7,
-      "installCount": 15
+      "installCount": 14
     },
     {
       "name": "No Dot Mod",
@@ -4819,7 +4819,7 @@
         "main": "nodotmod.webp"
       },
       "viewCount": 9,
-      "installCount": 22
+      "installCount": 21
     },
     {
       "name": "Stranger Night Cycle",
@@ -4827,7 +4827,7 @@
       "description": "Adds a Day/Night cycle to the stranger.",
       "author": "Komodo5197",
       "downloadUrl": "https://github.com/Komodo5197/StrangerNightCycle/releases/download/v1.0.0/Komodo.StrangerNightCycle.zip",
-      "downloadCount": 92,
+      "downloadCount": 95,
       "latestReleaseDate": "2022-12-31T10:17:01Z",
       "firstReleaseDate": "2022-12-31T10:17:01Z",
       "repo": "https://github.com/Komodo5197/StrangerNightCycle",
@@ -4843,8 +4843,8 @@
       "thumbnail": {
         "main": "strangernightcycle.webp"
       },
-      "viewCount": 23,
-      "installCount": 41
+      "viewCount": 18,
+      "installCount": 40
     },
     {
       "name": "KSP",
@@ -4870,8 +4870,8 @@
       "thumbnail": {
         "main": "ksp.webp"
       },
-      "viewCount": 32,
-      "installCount": 67
+      "viewCount": 23,
+      "installCount": 61
     },
     {
       "name": "AUGH Jetpack Boost",
@@ -4894,8 +4894,8 @@
       ],
       "slug": "aughjetpackboost",
       "thumbnail": {},
-      "viewCount": 7,
-      "installCount": 34
+      "viewCount": 6,
+      "installCount": 30
     },
     {
       "name": "OWFixPluginTypesSerialization",
@@ -4970,8 +4970,8 @@
       "thumbnail": {
         "main": "proudhearthians.webp"
       },
-      "viewCount": 112,
-      "installCount": 25
+      "viewCount": 99,
+      "installCount": 23
     },
     {
       "name": "Volumetric Lights",
@@ -4991,8 +4991,8 @@
       ],
       "slug": "volumetriclights",
       "thumbnail": {},
-      "viewCount": 68,
-      "installCount": 98
+      "viewCount": 53,
+      "installCount": 86
     },
     {
       "name": "The Spiral System",
@@ -5056,7 +5056,7 @@
       "description": "A quite large story and puzzle mod that takes place on Dark Bramble.",
       "author": "StreetlightsBehindTheTrees",
       "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.0.4/SBtT.TheOutsider.zip",
-      "downloadCount": 1122,
+      "downloadCount": 1125,
       "latestReleaseDate": "2023-01-22T01:03:28Z",
       "firstReleaseDate": "2023-01-19T22:22:18Z",
       "repo": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
@@ -5074,7 +5074,7 @@
       "thumbnail": {
         "main": "theoutsider.webp"
       },
-      "viewCount": 3248,
+      "viewCount": 3253,
       "installCount": 768
     },
     {
@@ -5130,7 +5130,7 @@
       "thumbnail": {
         "main": "brightdusk.webp"
       },
-      "viewCount": 126,
+      "viewCount": 127,
       "installCount": 126
     },
     {
@@ -5246,7 +5246,7 @@
       "thumbnail": {
         "main": "themachine.webp"
       },
-      "viewCount": 135,
+      "viewCount": 136,
       "installCount": 164
     },
     {
@@ -5415,7 +5415,7 @@
       "thumbnail": {
         "main": "evacuation.webp"
       },
-      "viewCount": 141,
+      "viewCount": 143,
       "installCount": 172
     },
     {
@@ -5480,7 +5480,7 @@
       "author": "snazzyostrich",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/snazzyostrich/snazzyostrich.DeepianMoon/releases/download/v0.1.0/snazzyostrich.DeepianMoon.zip",
-      "downloadCount": 20,
+      "downloadCount": 21,
       "latestReleaseDate": "2023-02-11T15:38:28Z",
       "firstReleaseDate": "2023-02-11T15:38:28Z",
       "repo": "https://github.com/snazzyostrich/snazzyostrich.DeepianMoon",
@@ -5573,7 +5573,7 @@
       "slug": "camowa",
       "thumbnail": {},
       "viewCount": 6,
-      "installCount": 3
+      "installCount": 2
     },
     {
       "name": "Alpha Fixes",
@@ -5599,7 +5599,7 @@
         "main": "alphafixes.webp"
       },
       "viewCount": 8,
-      "installCount": 4
+      "installCount": 3
     },
     {
       "name": "Navinha",
