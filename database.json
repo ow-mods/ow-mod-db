@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 107350
+    "downloadCount": 107351
   },
   "releases": [
     {
@@ -105,7 +105,7 @@
       "description": "Dark Bramble without fish or fog.",
       "author": "amazingalek",
       "downloadUrl": "https://github.com/amazingalek/owml-light-bramble/releases/download/v1.0.1/LightBramble.zip",
-      "downloadCount": 9948,
+      "downloadCount": 9949,
       "latestReleaseDate": "2022-12-18T09:11:54Z",
       "firstReleaseDate": "2020-04-10T13:16:22Z",
       "repo": "https://github.com/amazingalek/owml-light-bramble",
@@ -179,7 +179,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.7.0/release.zip",
-      "downloadCount": 9019,
+      "downloadCount": 9020,
       "latestReleaseDate": "2022-03-23T11:03:42Z",
       "firstReleaseDate": "2020-09-20T09:43:23Z",
       "repo": "https://github.com/clubby789/OWClock",
@@ -235,7 +235,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 16746,
+      "downloadCount": 16747,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -361,7 +361,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.4/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 8115,
+      "downloadCount": 8117,
       "latestReleaseDate": "2022-01-25T00:19:05Z",
       "firstReleaseDate": "2021-10-21T06:56:51Z",
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
@@ -502,7 +502,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/OW_CommonResources/releases/download/0.5.15/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 2909,
+      "downloadCount": 2910,
       "latestReleaseDate": "2022-09-29T17:14:07Z",
       "firstReleaseDate": "2022-09-29T17:14:07Z",
       "repo": "https://github.com/dgarroDC/OW_CommonResources",
@@ -1111,7 +1111,7 @@
       "description": "Allows you to shoot meteors or marshmallows with middle mouse click (or the back button if enabled in the mod settings)",
       "author": "12090113",
       "downloadUrl": "https://github.com/12090113/outer-wilds-meteor-launching/releases/download/v0.2.2/MeteorLaunching.zip",
-      "downloadCount": 1696,
+      "downloadCount": 1697,
       "latestReleaseDate": "2022-05-28T00:34:22Z",
       "firstReleaseDate": "2022-01-03T02:43:01Z",
       "repo": "https://github.com/12090113/outer-wilds-meteor-launching",
@@ -2832,7 +2832,7 @@
       "author": "MegaPiggy",
       "parent": "12090113.MeteorLaunching",
       "downloadUrl": "https://github.com/MegaPiggy/PrimitiveLaunching/releases/download/1.0.0/MegaPiggy.PrimitiveLaunching.zip",
-      "downloadCount": 215,
+      "downloadCount": 216,
       "latestReleaseDate": "2022-05-28T01:51:29Z",
       "firstReleaseDate": "2022-05-28T01:51:29Z",
       "repo": "https://github.com/MegaPiggy/PrimitiveLaunching",
@@ -5576,6 +5576,33 @@
       },
       "viewCount": 11,
       "installCount": 1
+    },
+    {
+      "name": "Hatchling Icarus",
+      "uniqueName": "Cleric.HatchlingIcarus",
+      "description": "Gives the player a toggleable personal gravity.",
+      "author": "coderCleric",
+      "downloadUrl": "https://github.com/coderCleric/HatchlingIcarus/releases/download/v1.0.0/Cleric.HatchlingIcarus.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-02-24T04:36:57Z",
+      "firstReleaseDate": "2023-02-24T04:36:57Z",
+      "repo": "https://github.com/coderCleric/HatchlingIcarus",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/coderCleric/HatchlingIcarus/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
+      },
+      "authorDisplay": "coderCleric",
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "hatchlingicarus",
+      "thumbnail": {
+        "main": "hatchlingicarus.webp",
+        "openGraph": "hatchlingicarus-static.webp"
+      },
+      "viewCount": 0,
+      "installCount": 0
     }
   ],
   "alphaReleases": [
