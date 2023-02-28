@@ -219,6 +219,12 @@ export async function fetchMods(
             releases[releases.length - 1] ?? cleanLatestRelease;
           const latestPrerelease = prereleases[0];
 
+          const repoUpdatedAt =
+            new Date(githubRepository.updated_at) >
+            new Date(githubRepository.pushed_at)
+              ? githubRepository.updated_at
+              : githubRepository.pushed_at;
+
           const mod: Mod = {
             name: modInfo.name,
             uniqueName: modInfo.uniqueName,
@@ -248,7 +254,8 @@ export async function fetchMods(
             tags: modInfo.tags,
             slug,
             thumbnail: thumbnailInfo ?? {},
-            repoUpdatedAt: githubRepository.updated_at,
+            repoUpdatedAt,
+            databaseEntryUpdatedAt: new Date().toISOString(),
           };
 
           return mod;

@@ -33,6 +33,7 @@ interface Mod extends Release {
   latestReleaseDescription: string;
   latestPrereleaseDescription: string;
   repoUpdatedAt: string;
+  databaseEntryUpdatedAt: string;
   alpha?: boolean;
   required?: boolean;
   utility?: boolean;
