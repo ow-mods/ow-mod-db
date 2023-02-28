@@ -31,18 +31,26 @@ export async function fetchMods(
 
         const getReadme = async () => {
           try {
-            const readme = (
-              await octokit.rest.repos.getReadme({
-                owner,
-                repo,
-              })
-            ).data;
+            const response = await octokit.rest.repos.getReadme({
+              owner,
+              repo,
+            });
+
+            if (response.status != 200) {
+              return null;
+            }
+
+            const readme = response.data;
+
             return {
               htmlUrl: readme.html_url || undefined,
               downloadUrl: readme.download_url || undefined,
             };
-          } catch {
-            console.log("no readme found");
+          } catch (error) {
+            console.log(
+              `Failed to get readme for mod ${modInfo.uniqueName}: ${error}"`
+            );
+            return null;
           }
         };
 

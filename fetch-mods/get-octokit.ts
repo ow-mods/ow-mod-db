@@ -26,14 +26,24 @@ function createOctokit() {
           `Request quota exhausted for request ${options.method} ${options.url}`
         );
 
+        if (options.request.retryCount <= 2) {
+          return true;
+        }
+
         rateLimitReached = true;
+        return false;
       },
       onSecondaryRateLimit: (retryAfter: number, options: any) => {
         console.warn(
           `Abuse detected for request ${options.method} ${options.url}`
         );
 
+        if (options.request.retryCount <= 2) {
+          return true;
+        }
+
         rateLimitReached = true;
+        return false;
       },
     },
   });
