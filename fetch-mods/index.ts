@@ -11,7 +11,7 @@ import { toJsonString } from "./to-json-string.js";
 import { getViewCounts } from "./get-view-counts.js";
 import { getInstallCounts } from "./get-install-counts.js";
 import { getSettledResult } from "./promises.js";
-import { rateLimitReached } from "./get-octokit.js";
+import { apiCallCount, rateLimitReached } from "./get-octokit.js";
 
 enum Input {
   outDirectory = "out-directory",
@@ -100,6 +100,8 @@ async function run() {
       releases: modListWithAnalytics.filter(({ alpha }) => !alpha),
       alphaReleases: modListWithAnalytics.filter(({ alpha }) => alpha),
     });
+
+    core.debug(`Called the GitHub API ${apiCallCount} times.`);
 
     if (rateLimitReached) {
       core.setFailed("Rate limit reached");

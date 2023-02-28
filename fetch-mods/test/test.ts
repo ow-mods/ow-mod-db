@@ -1,5 +1,5 @@
 import { fetchMods } from "../fetch-mods.js";
-import modsJson from "./mods.json";
+import modsJson from "./mods.json" assert { type: "json" };
 // import { discordHookUrl, ghToken, discordModHookUrls } from "./secrets.json.js";
 // import { discordHookUrl } from "./secrets.json";
 import nextDatabase from "./next-database.json";
@@ -12,16 +12,7 @@ import { getInstallCounts } from "../get-install-counts.js";
 import { generateModThumbnail } from "../generate-mod-thumbnail.js";
 
 async function test() {
-  generateModThumbnail(
-    "owml",
-    "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md",
-    "output/thumbnail-test"
-  );
-  generateModThumbnail(
-    "evacuation",
-    "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md",
-    "output/thumbnail-test"
-  );
+  fetchMods(JSON.stringify(modsJson), "output", []);
 }
 
 test();

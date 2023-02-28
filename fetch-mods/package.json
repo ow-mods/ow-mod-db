@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "build-test": "tsc --project tsconfig.test.json",
-    "build-and-test": "pnpm run build-test && pnpm run test",
+    "build-and-test": "set GITHUB_ACTION=true && pnpm run build-test && pnpm run test",
     "test": "node build/test/test.js"
   },
   "dependencies": {
