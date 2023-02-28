@@ -10,7 +10,11 @@ const downloadCountOffsets: { [key: string]: number } = {
   "Jammer.jammerlore": 373,
 };
 
-export async function fetchMods(modsJson: string, outputDirectory: string) {
+export async function fetchMods(
+  modsJson: string,
+  outputDirectory: string,
+  previousDatabase: Mod[]
+) {
   const modDb: ModDB = JSON.parse(modsJson);
   const modInfos = modDb.mods;
   const octokit = getOctokit();
@@ -236,6 +240,7 @@ export async function fetchMods(modsJson: string, outputDirectory: string) {
             tags: modInfo.tags,
             slug,
             thumbnail: thumbnailInfo ?? {},
+            repoUpdatedAt: githubRepository.updated_at,
           };
 
           return mod;

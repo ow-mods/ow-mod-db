@@ -45,11 +45,15 @@ const measureTime = <T>(promise: Promise<T>, name: string) => {
   return promise;
 };
 
-async function getAsyncStuff() {
+async function getAsyncStuff(previousDatabase: Mod[]) {
   const promises = [
     measureTime(fetchModManager(), "fetchModManager"),
     measureTime(
-      fetchMods(core.getInput(Input.mods), core.getInput(Input.outDirectory)),
+      fetchMods(
+        core.getInput(Input.mods),
+        core.getInput(Input.outDirectory),
+        previousDatabase
+      ),
       "fetchMods"
     ),
     measureTime(
@@ -60,35 +64,28 @@ async function getAsyncStuff() {
       getInstallCounts(core.getInput(Input.googleServiceAccount)),
       "getInstallCounts"
     ),
-    measureTime(getPreviousDatabase(), "getPreviousDatabase"),
   ] as const;
 
-  const [
-    modManager,
-    nextDatabase,
-    viewCounts,
-    installCounts,
-    previousDatabase,
-  ] = await Promise.allSettled(promises);
+  const [modManager, nextDatabase, viewCounts, installCounts] =
+    await Promise.allSettled(promises);
 
   return {
     modManager: getSettledResult(modManager),
     nextDatabase: getSettledResult(nextDatabase) ?? [],
     viewCounts: getSettledResult(viewCounts) ?? {},
     installCounts: getSettledResult(installCounts) ?? {},
-    previousDatabase: getSettledResult(previousDatabase) ?? [],
   };
 }
 
 async function run() {
+  const previousDatabase = await measureTime(
+    getPreviousDatabase(),
+    "getPreviousDatabase"
+  );
+
   try {
-    const {
-      modManager,
-      nextDatabase,
-      viewCounts,
-      installCounts,
-      previousDatabase,
-    } = await getAsyncStuff();
+    const { modManager, nextDatabase, viewCounts, installCounts } =
+      await getAsyncStuff(previousDatabase);
 
     const cleanedUpModList = getCleanedUpModList(nextDatabase);
 

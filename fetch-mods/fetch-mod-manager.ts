@@ -51,7 +51,3 @@ export async function fetchModManager() {
     downloadCount: managerDownloadCount,
   };
 }
-
-function filterTruthy<TItem>(item: TItem | null): item is TItem {
-  return Boolean(item);
-}
