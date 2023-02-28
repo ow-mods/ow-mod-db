@@ -37,7 +37,7 @@ export async function fetchMods(
             });
 
             if (response.status != 200) {
-              return null;
+              return undefined;
             }
 
             const readme = response.data;
@@ -50,7 +50,7 @@ export async function fetchMods(
             console.log(
               `Failed to get readme for mod ${modInfo.uniqueName}: ${error}"`
             );
-            return null;
+            return undefined;
           }
         };
 
