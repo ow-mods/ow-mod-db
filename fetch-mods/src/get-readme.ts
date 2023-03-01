@@ -1,5 +1,5 @@
 import { RequestError } from "@octokit/request-error";
-import { CreatedOctokit } from "./octokit.js";
+import { CreatedOctokit } from "./helpers/octokit.js";
 
 export async function getReadmeUrls(
   octokit: CreatedOctokit,

@@ -2,6 +2,7 @@ import { Octokit, RestEndpointMethodTypes } from "@octokit/action";
 import { retry } from "@octokit/plugin-retry";
 import { throttling } from "@octokit/plugin-throttling";
 import fetch from "node-fetch";
+import { getLatestDate } from "./dates";
 
 export let rateLimitReached = false;
 export let apiCallCount = 0;
@@ -84,9 +85,7 @@ export function getCleanedUpReleaseList(releaseList: OctokitRelease[]) {
 }
 
 export function getRepoUpdatedAt(repository: OctokitRepo) {
-  return new Date(repository.updated_at) > new Date(repository.pushed_at)
-    ? repository.updated_at
-    : repository.pushed_at;
+  return getLatestDate(repository.updated_at, repository.pushed_at);
 }
 
 export async function getAllReleases(

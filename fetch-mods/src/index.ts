@@ -7,11 +7,11 @@ import { fetchMods } from "./fetch-mods.js";
 import { getDiff } from "./get-diff.js";
 import { getPreviousDatabase } from "./get-previous-database.js";
 import { fetchModManager } from "./fetch-mod-manager.js";
-import { toJsonString } from "./to-json-string.js";
-import { getViewCounts } from "./get-view-counts.js";
-import { getInstallCounts } from "./get-install-counts.js";
-import { getSettledResult } from "./promises.js";
-import { apiCallCount, rateLimitReached } from "./octokit.js";
+import { toJsonString } from "./helpers/to-json-string.js";
+import { getViewCounts } from "./analytics/get-view-counts.js";
+import { getInstallCounts } from "./analytics/get-install-counts.js";
+import { getSettledResult } from "./helpers/promises.js";
+import { apiCallCount, rateLimitReached } from "./helpers/octokit.js";
 
 enum Input {
   outDirectory = "out-directory",

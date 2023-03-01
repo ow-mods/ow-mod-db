@@ -1,4 +1,4 @@
-import { getDateAgeInHours } from "./getDateAgeInHours.js";
+import { getDateAgeInHours } from "./helpers/dates.js";
 
 export type DiffItem =
   | {

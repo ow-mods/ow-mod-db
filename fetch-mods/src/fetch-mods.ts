@@ -5,9 +5,9 @@ import {
   getCleanedUpReleaseList,
   getRepoUpdatedAt,
   getAllReleases,
-} from "./octokit.js";
-import { filterFulfilledPromiseSettleResults } from "./promises.js";
-import { getDateAgeInHours } from "./getDateAgeInHours.js";
+} from "./helpers/octokit.js";
+import { filterFulfilledPromiseSettleResults } from "./helpers/promises.js";
+import { getDateAgeInHours } from "./helpers/dates.js";
 import { getReadmeUrls } from "./get-readme.js";
 import { RELEASE_EXTENSION } from "./constants.js";
 
