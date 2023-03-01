@@ -1,5 +1,10 @@
 import { generateModThumbnail } from "./generate-mod-thumbnail.js";
-import { getOctokit } from "./get-octokit.js";
+import {
+  getOctokit,
+  getCleanedUpRelease,
+  getCleanedUpReleaseList,
+  getRepoUpdatedAt,
+} from "./octokit.js";
 import { filterFulfilledPromiseSettleResults } from "./promises.js";
 import { RequestError } from "@octokit/request-error";
 import { RestEndpointMethodTypes } from "@octokit/action";
@@ -12,10 +17,6 @@ const downloadCountOffsets: { [key: string]: number } = {
   "Jammer.OuterWildsGalaxy": 3766,
   "Jammer.jammerlore": 373,
 };
-
-type OctokitRepo = RestEndpointMethodTypes["repos"]["get"]["response"]["data"];
-type OctokitRelease =
-  RestEndpointMethodTypes["repos"]["listReleases"]["response"]["data"][number];
 
 export async function fetchMods(
   modsJson: string,
@@ -42,11 +43,11 @@ export async function fetchMods(
           })
         ).data;
 
-        const updatedAt = getRepoUpdatedAt(githubRepository);
+        const repoUpdatedAt = getRepoUpdatedAt(githubRepository);
 
         const requiresUpdate =
           !previousMod ||
-          new Date(updatedAt) > new Date(previousMod.repoUpdatedAt) ||
+          new Date(repoUpdatedAt) > new Date(previousMod.repoUpdatedAt) ||
           getDateAgeInDays(previousMod.databaseEntryUpdatedAt) > 0.5;
 
         const getReadme = async () => {
@@ -135,10 +136,6 @@ export async function fetchMods(
         const prereleases = getCleanedUpReleaseList(prereleaseList);
         const cleanLatestRelease = getCleanedUpRelease(latestRelease);
 
-        // console.log("releases", toJsonString(releases));
-        // console.log("prereleases", toJsonString(prereleases));
-        // console.log("cleanLatestRelease", toJsonString(cleanLatestRelease));
-
         let totalDownloadCount = [...releases, ...prereleases].reduce(
           (accumulator, release) => {
             return accumulator + release.downloadCount;
@@ -183,7 +180,7 @@ export async function fetchMods(
           tags: modInfo.tags,
           slug,
           thumbnail: thumbnailInfo ?? {},
-          repoUpdatedAt: getRepoUpdatedAt(githubRepository),
+          repoUpdatedAt,
           databaseEntryUpdatedAt: new Date().toISOString(),
         };
 
@@ -205,26 +202,3 @@ export async function fetchMods(
 function filterTruthy<TItem>(item: TItem | null): item is TItem {
   return Boolean(item);
 }
-
-function getCleanedUpRelease(release: OctokitRelease) {
-  const asset = release.assets[0];
-
-  return {
-    downloadUrl: asset.browser_download_url,
-    downloadCount: asset.download_count,
-    version: release.tag_name,
-    date: asset.created_at,
-    description: release.body,
-  };
-}
-
-function getCleanedUpReleaseList(releaseList: OctokitRelease[]) {
-  return releaseList
-    .filter(({ assets }) => assets.length > 0)
-    .map(getCleanedUpRelease);
-}
-
-const getRepoUpdatedAt = (repository: OctokitRepo) =>
-  new Date(repository.updated_at) > new Date(repository.pushed_at)
-    ? repository.updated_at
-    : repository.pushed_at;

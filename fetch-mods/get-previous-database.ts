@@ -1,4 +1,4 @@
-import { getOctokit } from "./get-octokit.js";
+import { getOctokit } from "./octokit.js";
 
 export async function getPreviousDatabase() {
   const octokit = getOctokit();

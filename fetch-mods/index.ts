@@ -11,7 +11,7 @@ import { toJsonString } from "./to-json-string.js";
 import { getViewCounts } from "./get-view-counts.js";
 import { getInstallCounts } from "./get-install-counts.js";
 import { getSettledResult } from "./promises.js";
-import { apiCallCount, rateLimitReached } from "./get-octokit.js";
+import { apiCallCount, rateLimitReached } from "./octokit.js";
 
 enum Input {
   outDirectory = "out-directory",
