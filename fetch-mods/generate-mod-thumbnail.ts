@@ -3,7 +3,7 @@ import sharp from "sharp";
 import fs, { promises as fsp } from "fs";
 import path from "path";
 import fetch from "node-fetch";
-import { getReadmeMarkdown } from "./get-readme";
+import { getReadmeMarkdown } from "./get-readme.js";
 
 export const thumbnailSize = {
   width: 300,
