@@ -3,6 +3,7 @@ import sharp from "sharp";
 import fs, { promises as fsp } from "fs";
 import path from "path";
 import fetch from "node-fetch";
+import { getReadmeMarkdown } from "./get-readme";
 
 export const thumbnailSize = {
   width: 300,
@@ -14,12 +15,12 @@ type ThumbnailInfo = {
   openGraph?: string;
 };
 
-export const generateModThumbnail = async (
+export async function generateModThumbnail(
   slug: string,
   readmeUrl: string,
   outputDirectory: string
-): Promise<ThumbnailInfo> => {
-  const readme = await getModReadme(readmeUrl);
+): Promise<ThumbnailInfo> {
+  const readme = await getReadmeMarkdown(readmeUrl);
 
   if (!readme) {
     return {};
@@ -72,7 +73,7 @@ export const generateModThumbnail = async (
     main: mainImageName,
     openGraph: openGraphImageName,
   };
-};
+}
 
 const writeImageFile = (
   sharpImage: sharp.Sharp,
@@ -100,21 +101,18 @@ const writeImageFile = (
     .toFile(filePath);
 };
 
-export const getModReadme = async (url: string): Promise<string | null> => {
-  const response = await fetch(url);
-  return response.status === 200 ? response.text() : null;
-};
+function getPath(relativePath: string) {
+  return path.join(process.cwd(), relativePath);
+}
 
-const getPath = (relativePath: string) =>
-  path.join(process.cwd(), relativePath);
+export function getRawContentUrl(readmeUrl: string) {
+  return readmeUrl.replace(/\/(?!.*\/).+/, "");
+}
 
-export const getRawContentUrl = (readmeUrl: string) =>
-  readmeUrl.replace(/\/(?!.*\/).+/, "");
-
-export const getFirstImageUrl = (
+export function getFirstImageUrl(
   markdown: string,
   baseUrl: string
-): string | null => {
+): string | null {
   if (!markdown) return null;
 
   const parsed = new Parser().parse(markdown);
@@ -145,12 +143,12 @@ export const getFirstImageUrl = (
   }
 
   return null;
-};
+}
 
-export const downloadImage = async (
+export async function downloadImage(
   imageUrl: string,
   fileName: string
-): Promise<string | null> => {
+): Promise<string | null> {
   const response = await fetch(imageUrl);
 
   if (!response.ok) {
@@ -170,4 +168,4 @@ export const downloadImage = async (
   await fsp.writeFile(fullImagePath, Buffer.from(image));
 
   return fullImagePath;
-};
+}

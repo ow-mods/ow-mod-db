@@ -51,7 +51,8 @@ function createOctokit() {
   });
 }
 
-let octokit: ReturnType<typeof createOctokit> | undefined;
+export type CreatedOctokit = ReturnType<typeof createOctokit>;
+let octokit: CreatedOctokit;
 
 export function getOctokit() {
   if (!octokit) {
