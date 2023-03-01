@@ -2,17 +2,17 @@ import * as core from "@actions/core";
 import fs, { promises as fsp, writeFile } from "fs";
 import path from "path";
 
-import { sendDiscordNotifications } from "./send-discord-notifications.js";
-import { fetchMods } from "./fetch-mods.js";
-import { getDiff } from "./get-diff.js";
-import { getPreviousDatabase } from "./get-previous-database.js";
+import { sendDiscordNotifications } from "./notifications/send-discord-notifications.js";
+import { fetchMods, Mod } from "./fetch-mods.js";
+import { getDiff } from "./notifications/get-diff.js";
+import { getPreviousDatabase } from "./fetch-previous-database.js";
 import { fetchModManager } from "./fetch-mod-manager.js";
 import { toJsonString } from "./helpers/to-json-string.js";
 import { getViewCounts } from "./analytics/get-view-counts.js";
 import { getInstallCounts } from "./analytics/get-install-counts.js";
 import { getSettledResult } from "./helpers/promises.js";
 import { apiCallCount, rateLimitReached } from "./helpers/octokit.js";
-import { DATABASE_FILE_NAME } from "./constants.js";
+import { DATABASE_FILE_NAME } from "./helpers/constants.js";
 
 enum Input {
   outDirectory = "out-directory",
@@ -30,6 +30,7 @@ enum Output {
 
 function getCleanedUpModList(modList: Mod[]) {
   return modList.map(
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     ({ latestReleaseDescription, latestPrereleaseDescription, ...mod }) => mod
   );
 }
@@ -162,8 +163,8 @@ async function run() {
       );
     }
   } catch (error) {
-    core.setFailed(error as any);
-    console.log("error", error as any);
+    core.setFailed(`Error running workflow script: ${error}`);
+    console.log(`Error running workflow script: ${error}`);
   }
 }
 

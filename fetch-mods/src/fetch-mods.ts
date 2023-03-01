@@ -8,8 +8,8 @@ import {
 } from "./helpers/octokit.js";
 import { filterFulfilledPromiseSettleResults } from "./helpers/promises.js";
 import { getDateAgeInHours } from "./helpers/dates.js";
-import { getReadmeUrls } from "./get-readme.js";
-import { RELEASE_EXTENSION } from "./constants.js";
+import { getReadmeUrls } from "./readmes.js";
+import { RELEASE_EXTENSION } from "./helpers/constants.js";
 
 const REPO_URL_BASE = "https://github.com";
 const FULL_UPDATE_RATE_HOURS = 12;
@@ -18,6 +18,60 @@ const downloadCountOffsets: { [key: string]: number } = {
   // Jammer deleted the repositories
   "Jammer.OuterWildsGalaxy": 3766,
   "Jammer.jammerlore": 373,
+};
+
+type ModDB = {
+  $schema: string;
+  mods: ModInfo[];
+};
+
+export type ModInfo = {
+  name: string;
+  uniqueName: string;
+  repo: string;
+  alpha?: boolean;
+  required?: boolean;
+  utility?: boolean;
+  parent?: string;
+  authorDisplay?: string;
+  tags: string[];
+};
+
+export type Mod = {
+  name: string;
+  uniqueName: string;
+  slug: string;
+  description: string;
+  author: string;
+  repo: string;
+  latestReleaseDate: string;
+  firstReleaseDate: string;
+  latestReleaseDescription: string;
+  latestPrereleaseDescription: string;
+  repoUpdatedAt: string;
+  databaseEntryUpdatedAt: string;
+  downloadUrl: string;
+  downloadCount: number;
+  version: string;
+  alpha?: boolean;
+  required?: boolean;
+  utility?: boolean;
+  parent?: string;
+  authorDisplay?: string;
+  readme?: {
+    downloadUrl?: string;
+    htmlUrl?: string;
+  };
+  prerelease?: {
+    version: string;
+    downloadUrl: string;
+    date: string;
+  };
+  tags: string[];
+  thumbnail: {
+    main?: string;
+    openGraph?: string;
+  };
 };
 
 export async function fetchMods(

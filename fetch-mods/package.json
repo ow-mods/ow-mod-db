@@ -10,7 +10,8 @@
     "build": "tsc",
     "build-test": "tsc --project tsconfig.test.json",
     "build-and-test": "set GITHUB_ACTION=true && pnpm run build-test && pnpm run test",
-    "test": "node build/test/test.js"
+    "test": "node build/test/test.js",
+    "lint": "eslint src"
   },
   "dependencies": {
     "@actions/core": "^1.10.0",
@@ -20,10 +21,14 @@
     "@octokit/plugin-retry": "^4.1.1",
     "@octokit/plugin-throttling": "^4.3.2",
     "@octokit/request-error": "^3.0.3",
+    "@octokit/types": "^9.0.0",
     "@types/commonmark": "^0.27.5",
     "@types/node": "^18.14.2",
     "@types/sharp": "^0.31.1",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
     "commonmark": "^0.30.0",
+    "eslint": "^8.35.0",
     "node-fetch": "^3.3.0",
     "sharp": "^0.31.3",
     "typescript": "^4.9.5"

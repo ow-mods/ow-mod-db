@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { THUMBNAIL_URL_BASE } from "./constants.js";
+import { THUMBNAIL_URL_BASE } from "../helpers/constants.js";
 import { DiffItem } from "./get-diff.js";
 
 function getNotificationTitle(diffItem: DiffItem) {
@@ -25,7 +25,7 @@ function getNotificationDescription(diffItem: DiffItem) {
     case "update": {
       const nextReleaseDescription = diffItem.nextMod.latestReleaseDescription;
 
-      return `${diffItem.previousMod!.version} → **${
+      return `${diffItem.previousMod.version} → **${
         diffItem.nextMod.version
       }**.${nextReleaseDescription ? "\n >>> " : ""}${nextReleaseDescription}`;
     }

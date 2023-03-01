@@ -1,6 +1,7 @@
 import { RequestError } from "@octokit/request-error";
 import { CreatedOctokit } from "./helpers/octokit.js";
 import fetch from "node-fetch";
+import { ModInfo } from "./fetch-mods.js";
 
 export async function getReadmeUrls(
   octokit: CreatedOctokit,

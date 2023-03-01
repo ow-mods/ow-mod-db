@@ -1,4 +1,5 @@
-import { getDateAgeInHours } from "./helpers/dates.js";
+import { Mod } from "../fetch-mods.js";
+import { getDateAgeInHours } from "../helpers/dates.js";
 
 const MAX_UPDATE_AGE_HOURS = 24;
 
@@ -76,6 +77,7 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
         console.log(
           `Mod ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was updated from ${diffItem.previousMod.version} to ${diffItem.nextMod.version}`
         );
+        break;
       case "update-prerelease":
         console.log(
           `Prerelease of ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was updated from ${diffItem.previousMod?.prerelease?.version} to ${diffItem.nextMod.prerelease?.version}`

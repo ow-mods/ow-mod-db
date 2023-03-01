@@ -2,7 +2,7 @@ import { BetaAnalyticsDataClient } from "@google-analytics/data";
 
 const ga4PropertyId = 251990931;
 const routeBase = "outerwildsmods.com/mods/";
-const routeRegex = new RegExp(`${routeBase}[^\/]+\/$`);
+const routeRegex = new RegExp(`${routeBase}[^/]+/$`);
 
 export async function getViewCounts(
   daysAgo: number,
