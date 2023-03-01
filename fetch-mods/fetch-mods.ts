@@ -47,7 +47,7 @@ export async function fetchMods(
         const requiresUpdate =
           !previousMod ||
           new Date(updatedAt) > new Date(previousMod.repoUpdatedAt) ||
-          getDateAgeInDays(previousMod.databaseEntryUpdatedAt) > 1;
+          getDateAgeInDays(previousMod.databaseEntryUpdatedAt) > 0.5;
 
         const getReadme = async () => {
           try {
