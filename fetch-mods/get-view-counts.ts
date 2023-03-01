@@ -5,6 +5,7 @@ const routeBase = "outerwildsmods.com/mods/";
 const routeRegex = new RegExp(`${routeBase}[^\/]+\/$`);
 
 export async function getViewCounts(
+  daysAgo: number,
   base64GoogleServiceAccountCredentials: string
 ) {
   try {
@@ -27,7 +28,7 @@ export async function getViewCounts(
       ],
       dateRanges: [
         {
-          startDate: "30daysAgo",
+          startDate: `${daysAgo}daysAgo`,
           endDate: "yesterday",
         },
       ],

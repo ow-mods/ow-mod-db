@@ -3,6 +3,7 @@ import { BetaAnalyticsDataClient } from "@google-analytics/data";
 const ga4PropertyId = 251990931;
 
 export async function getInstallCounts(
+  daysAgo: number,
   base64GoogleServiceAccountCredentials: string
 ) {
   try {
@@ -33,7 +34,7 @@ export async function getInstallCounts(
       ],
       dateRanges: [
         {
-          startDate: "30daysAgo",
+          startDate: `${daysAgo}daysAgo`,
           endDate: "today",
         },
       ],

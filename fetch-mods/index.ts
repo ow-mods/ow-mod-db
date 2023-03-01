@@ -46,6 +46,8 @@ const measureTime = <T>(promise: Promise<T>, name: string) => {
 };
 
 async function getAsyncStuff(previousDatabase: Mod[]) {
+  const googleServiceAccount = core.getInput(Input.googleServiceAccount);
+
   const promises = [
     measureTime(fetchModManager(), "fetchModManager"),
     measureTime(
@@ -56,24 +58,31 @@ async function getAsyncStuff(previousDatabase: Mod[]) {
       ),
       "fetchMods"
     ),
+    measureTime(getViewCounts(30, googleServiceAccount), "getViewCounts30"),
+    measureTime(getViewCounts(8, googleServiceAccount), "getViewCounts8"),
     measureTime(
-      getViewCounts(core.getInput(Input.googleServiceAccount)),
-      "getViewCounts"
+      getInstallCounts(30, googleServiceAccount),
+      "getInstallCounts30"
     ),
-    measureTime(
-      getInstallCounts(core.getInput(Input.googleServiceAccount)),
-      "getInstallCounts"
-    ),
+    measureTime(getInstallCounts(8, googleServiceAccount), "getInstallCounts8"),
   ] as const;
 
-  const [modManager, nextDatabase, viewCounts, installCounts] =
-    await Promise.allSettled(promises);
+  const [
+    modManager,
+    nextDatabase,
+    viewCounts,
+    weeklyViewCounts,
+    installCounts,
+    weeklyInstallCounts,
+  ] = await Promise.allSettled(promises);
 
   return {
     modManager: getSettledResult(modManager),
     nextDatabase: getSettledResult(nextDatabase) ?? [],
     viewCounts: getSettledResult(viewCounts) ?? {},
+    weeklyViewCounts: getSettledResult(weeklyViewCounts) ?? {},
     installCounts: getSettledResult(installCounts) ?? {},
+    weeklyInstallCounts: getSettledResult(weeklyInstallCounts) ?? {},
   };
 }
 
@@ -84,15 +93,23 @@ async function run() {
   );
 
   try {
-    const { modManager, nextDatabase, viewCounts, installCounts } =
-      await getAsyncStuff(previousDatabase);
+    const {
+      modManager,
+      nextDatabase,
+      viewCounts,
+      weeklyViewCounts,
+      installCounts,
+      weeklyInstallCounts,
+    } = await getAsyncStuff(previousDatabase);
 
     const cleanedUpModList = getCleanedUpModList(nextDatabase);
 
     const modListWithAnalytics = cleanedUpModList.map((mod) => ({
       ...mod,
       viewCount: viewCounts[mod.slug] ?? 0,
+      weeklyViewCount: weeklyViewCounts[mod.slug] ?? 0,
       installCount: installCounts[mod.uniqueName] ?? 0,
+      weeklyInstallCount: weeklyInstallCounts[mod.uniqueName] ?? 0,
     }));
 
     const databaseJson = toJsonString({
