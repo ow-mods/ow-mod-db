@@ -5,7 +5,7 @@ specifiers:
   '@google-analytics/data': ^3.2.1
   '@octokit/action': ^4.0.10
   '@octokit/core': ^4.2.0
-  '@octokit/plugin-retry': ^4.1.2
+  '@octokit/plugin-retry': ^4.1.1
   '@octokit/plugin-throttling': ^4.3.2
   '@octokit/request-error': ^3.0.3
   '@types/commonmark': ^0.27.5
@@ -21,7 +21,7 @@ dependencies:
   '@google-analytics/data': 3.2.1
   '@octokit/action': 4.0.10
   '@octokit/core': 4.2.0
-  '@octokit/plugin-retry': 4.1.2_@octokit+core@4.2.0
+  '@octokit/plugin-retry': 4.1.1_@octokit+core@4.2.0
   '@octokit/plugin-throttling': 4.3.2_@octokit+core@4.2.0
   '@octokit/request-error': 3.0.3
   '@types/commonmark': 0.27.5
@@ -198,8 +198,8 @@ packages:
       deprecation: 2.3.1
     dev: false
 
-  /@octokit/plugin-retry/4.1.2_@octokit+core@4.2.0:
-    resolution: {integrity: sha512-hscf7p/6DIQ8xbfDrMl9IflxugED6sFQvAUbSi75R6h/6hcNQgrb2vpfPTmyYKkdAEeTkUsEpzpQFdTAhSITOw==}
+  /@octokit/plugin-retry/4.1.1_@octokit+core@4.2.0:
+    resolution: {integrity: sha512-iR7rg5KRSl6L6RELTQQ3CYeNgeBJyuAmP95odzcQ/zyefnRT/Peo8rWeky4z7V/+/oPWqOL4I5Z+V8KtjpHCJw==}
     engines: {node: '>= 14'}
     peerDependencies:
       '@octokit/core': '>=3'
