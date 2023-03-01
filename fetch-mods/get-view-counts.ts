@@ -71,7 +71,7 @@ export async function getViewCounts(
     }, {});
     return output;
   } catch (error) {
-    console.log(`Error getting view counts: ${error}`);
+    console.log(`Error getting view counts (${daysAgo} days ago): ${error}`);
     return {};
   }
 }

@@ -82,7 +82,7 @@ export async function getInstallCounts(
     }, {});
     return output;
   } catch (error) {
-    console.log(`Error getting view counts: ${error}`);
+    console.log(`Error getting install counts (${daysAgo} days ago): ${error}`);
     return {};
   }
 }
