@@ -92,10 +92,6 @@ export async function fetchMods(
             : {};
 
         if (!requiresUpdate) {
-          console.log(
-            `No changes detected, so skipping update for ${modInfo.uniqueName}.`
-          );
-
           return {
             ...previousMod,
             thumbnail: thumbnailInfo ?? {},
