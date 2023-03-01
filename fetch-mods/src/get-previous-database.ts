@@ -1,3 +1,8 @@
+import {
+  DATABASE_FILE_NAME,
+  DATABASE_REPO,
+  DATABASE_REPO_BRANCH,
+} from "./constants.js";
 import { getOctokit } from "./helpers/octokit.js";
 
 export async function getPreviousDatabase() {
@@ -5,11 +10,9 @@ export async function getPreviousDatabase() {
 
   const previousDatabaseResponse: any = (
     await octokit.rest.repos.getContent({
-      // TODO get owner and repo from current action repo.
-      owner: "ow-mods",
-      repo: "ow-mod-db",
-      path: "database.json",
-      ref: "master",
+      ...DATABASE_REPO,
+      path: DATABASE_FILE_NAME,
+      ref: DATABASE_REPO_BRANCH,
       mediaType: {
         format: "raw",
       },

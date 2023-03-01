@@ -4,6 +4,7 @@ import fs, { promises as fsp } from "fs";
 import path from "path";
 import fetch from "node-fetch";
 import { getReadmeMarkdown } from "./get-readme.js";
+import { GITHUB_RAW_CONTENT_URL } from "./constants.js";
 
 export const thumbnailSize = {
   width: 300,
@@ -133,7 +134,7 @@ export function getFirstImageUrl(
         ? // GitHub allows embedding images that actually point to webpages on github.com, so we have to replace the URLs here
           imageUrl.replace(
             /^https?:\/\/github.com\/(.+)\/(.+)\/blob\/(.+)\//gm,
-            "https://raw.githubusercontent.com/$1/$2/$3/"
+            `${GITHUB_RAW_CONTENT_URL}/$1/$2/$3/`
           )
         : // For relative URLs we also have to resolve them
           `${baseUrl}/${imageUrl}`;

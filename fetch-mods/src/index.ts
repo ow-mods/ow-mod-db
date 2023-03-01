@@ -12,6 +12,7 @@ import { getViewCounts } from "./analytics/get-view-counts.js";
 import { getInstallCounts } from "./analytics/get-install-counts.js";
 import { getSettledResult } from "./helpers/promises.js";
 import { apiCallCount, rateLimitReached } from "./helpers/octokit.js";
+import { DATABASE_FILE_NAME } from "./constants.js";
 
 enum Input {
   outDirectory = "out-directory",
@@ -136,7 +137,7 @@ async function run() {
     }
 
     writeFile(
-      path.join(outputDirectoryPath, "database.json"),
+      path.join(outputDirectoryPath, DATABASE_FILE_NAME),
       databaseJson,
       (error) => {
         if (error) console.log("Error Saving To File:", error);

@@ -1,5 +1,7 @@
 import { getDateAgeInHours } from "./helpers/dates.js";
 
+const MAX_UPDATE_AGE_HOURS = 24;
+
 export type DiffItem =
   | {
       nextMod: Mod;
@@ -24,7 +26,10 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       (mod) => mod.uniqueName === nextDatabaseMod.uniqueName
     );
 
-    if (getDateAgeInHours(nextDatabaseMod.latestReleaseDate) < 1) {
+    if (
+      getDateAgeInHours(nextDatabaseMod.latestReleaseDate) <
+      MAX_UPDATE_AGE_HOURS
+    ) {
       if (!previousDatabaseMod) {
         diff.push({
           diffType: "add",
@@ -47,7 +52,10 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       previousDatabaseMod?.prerelease?.version !==
         nextDatabaseMod.prerelease.version
     ) {
-      if (getDateAgeInHours(nextDatabaseMod.prerelease.date) < 1) {
+      if (
+        getDateAgeInHours(nextDatabaseMod.prerelease.date) <
+        MAX_UPDATE_AGE_HOURS
+      ) {
         diff.push({
           diffType: "update-prerelease",
           previousMod: previousDatabaseMod,

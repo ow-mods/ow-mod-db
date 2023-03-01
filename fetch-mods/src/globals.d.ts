@@ -15,13 +15,7 @@ type ModInfo = {
   tags: string[];
 };
 
-type Release = {
-  downloadUrl: string;
-  downloadCount: number;
-  version: string;
-};
-
-interface Mod extends Release {
+type Mod = {
   name: string;
   uniqueName: string;
   slug: string;
@@ -34,6 +28,9 @@ interface Mod extends Release {
   latestPrereleaseDescription: string;
   repoUpdatedAt: string;
   databaseEntryUpdatedAt: string;
+  downloadUrl: string;
+  downloadCount: number;
+  version: string;
   alpha?: boolean;
   required?: boolean;
   utility?: boolean;
@@ -53,4 +50,4 @@ interface Mod extends Release {
     main?: string;
     openGraph?: string;
   };
-}
+};
