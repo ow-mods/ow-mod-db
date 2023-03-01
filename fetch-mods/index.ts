@@ -118,7 +118,9 @@ async function run() {
       alphaReleases: modListWithAnalytics.filter(({ alpha }) => alpha),
     });
 
-    console.log(`Called the GitHub API ${apiCallCount} times.`);
+    if (apiCallCount > 0) {
+      console.log(`Called the GitHub API ${apiCallCount} times.`);
+    }
 
     if (rateLimitReached) {
       core.setFailed("Rate limit reached");
