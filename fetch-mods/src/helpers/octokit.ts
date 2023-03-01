@@ -2,7 +2,7 @@ import { Octokit, RestEndpointMethodTypes } from "@octokit/action";
 import { retry } from "@octokit/plugin-retry";
 import { throttling } from "@octokit/plugin-throttling";
 import fetch from "node-fetch";
-import { getLatestDate } from "./dates";
+import { getLatestDate } from "./dates.js";
 
 export let rateLimitReached = false;
 export let apiCallCount = 0;
