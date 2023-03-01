@@ -12,12 +12,12 @@ function createOctokit() {
     // It's useful to log the API call count,
     // but replacing the fetch function seems to some times cause the "premature close" error.
 
-    // request: {
-    //   fetch: (...parameters: [any]) => {
-    //     apiCallCount++;
-    //     return fetch(...parameters);
-    //   },
-    // },
+    request: {
+      fetch: (...parameters: [any]) => {
+        apiCallCount++;
+        return fetch(...parameters);
+      },
+    },
     retry: {
       // Make it retry for everything, even 404s,
       // since the GH API some times randomly returns 404 in the latest release.
