@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { thumbnailUrlBase } from "./constants.js";
+import { THUMBNAIL_URL_BASE } from "./constants.js";
 import { DiffItem } from "./get-diff.js";
 
 function getNotificationTitle(diffItem: DiffItem) {
@@ -65,7 +65,9 @@ function getEmbed(diffItem: DiffItem) {
     url: `http://outerwildsmods.com/mods/${diffItem.nextMod.slug}`,
     color: getNotificationColor(diffItem),
     [getNotificationImageKey(diffItem)]: {
-      url: `${thumbnailUrlBase}/${diffItem.nextMod.thumbnail.openGraph ?? diffItem.nextMod.thumbnail.main}`,
+      url: `${THUMBNAIL_URL_BASE}/${
+        diffItem.nextMod.thumbnail.openGraph ?? diffItem.nextMod.thumbnail.main
+      }`,
     },
   };
 }

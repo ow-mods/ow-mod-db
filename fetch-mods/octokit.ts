@@ -52,13 +52,13 @@ function createOctokit() {
 }
 
 export type CreatedOctokit = ReturnType<typeof createOctokit>;
-let octokit: CreatedOctokit;
+let createdOctokit: CreatedOctokit;
 
 export function getOctokit() {
-  if (!octokit) {
-    octokit = createOctokit();
+  if (!createdOctokit) {
+    createdOctokit = createOctokit();
   }
-  return octokit;
+  return createdOctokit;
 }
 
 type OctokitRepo = RestEndpointMethodTypes["repos"]["get"]["response"]["data"];
@@ -87,4 +87,16 @@ export function getRepoUpdatedAt(repository: OctokitRepo) {
   return new Date(repository.updated_at) > new Date(repository.pushed_at)
     ? repository.updated_at
     : repository.pushed_at;
+}
+
+export async function getAllReleases(
+  octokit: CreatedOctokit,
+  owner: string,
+  repo: string
+) {
+  return octokit.paginate(octokit.rest.repos.listReleases, {
+    owner,
+    repo,
+    per_page: 100,
+  });
 }

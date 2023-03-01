@@ -4,12 +4,15 @@ import {
   getCleanedUpRelease,
   getCleanedUpReleaseList,
   getRepoUpdatedAt,
+  getAllReleases,
 } from "./octokit.js";
 import { filterFulfilledPromiseSettleResults } from "./promises.js";
-import { getDateAgeInDays } from "./happened-within-day-count.js";
+import { getDateAgeInHours } from "./happened-within-day-count.js";
 import { getReadmeUrls } from "./get-readme.js";
+import { RELEASE_EXTENSION } from "./constants.js";
 
 const REPO_URL_BASE = "https://github.com";
+const FULL_UPDATE_RATE_HOURS = 12;
 
 const downloadCountOffsets: { [key: string]: number } = {
   // Jammer deleted the repositories
@@ -48,7 +51,8 @@ export async function fetchMods(
           const requiresUpdate =
             !previousMod ||
             new Date(repoUpdatedAt) > new Date(previousMod.repoUpdatedAt) ||
-            getDateAgeInDays(previousMod.databaseEntryUpdatedAt) > 0.5;
+            getDateAgeInHours(previousMod.databaseEntryUpdatedAt) >
+              FULL_UPDATE_RATE_HOURS;
 
           const readme = requiresUpdate
             ? await getReadmeUrls(octokit, owner, repo, modInfo)
@@ -72,13 +76,7 @@ export async function fetchMods(
             };
           }
 
-          const fullReleaseList = (
-            await octokit.paginate(octokit.rest.repos.listReleases, {
-              owner,
-              repo,
-              per_page: 100,
-            })
-          )
+          const fullReleaseList = (await getAllReleases(octokit, owner, repo))
             .sort(
               (releaseA, releaseB) =>
                 new Date(releaseB.created_at).valueOf() -
@@ -94,7 +92,7 @@ export async function fetchMods(
             (release) =>
               !release.prerelease &&
               release.assets[0] &&
-              release.assets[0].browser_download_url.endsWith("zip")
+              release.assets[0].browser_download_url.endsWith(RELEASE_EXTENSION)
           );
 
           const latestRelease = releaseList[0];
