@@ -21,7 +21,7 @@ export async function fetchMods(
   modsJson: string,
   outputDirectory: string,
   previousDatabase: Mod[]
-) {
+): Promise<Mod[]> {
   const modDb: ModDB = JSON.parse(modsJson);
   const modInfos = modDb.mods;
   const octokit = getOctokit();
@@ -48,12 +48,6 @@ export async function fetchMods(
           !previousMod ||
           new Date(updatedAt) > new Date(previousMod.repoUpdatedAt) ||
           getDateAgeInDays(previousMod.databaseEntryUpdatedAt) > 1;
-
-        if (!requiresUpdate) {
-          console.log(
-            `No changes detected, so skipping update for ${modInfo.uniqueName}.`
-          );
-        }
 
         const getReadme = async () => {
           try {
@@ -97,21 +91,30 @@ export async function fetchMods(
               )
             : {};
 
-        const fullReleaseList = requiresUpdate
-          ? (
-              await octokit.paginate(octokit.rest.repos.listReleases, {
-                owner,
-                repo,
-                per_page: 100,
-              })
-            )
-              .sort((releaseA, releaseB) =>
-                new Date(releaseA.created_at) < new Date(releaseB.created_at)
-                  ? 1
-                  : -1
-              )
-              .filter((release) => !release.draft)
-          : [];
+        if (!requiresUpdate) {
+          console.log(
+            `No changes detected, so skipping update for ${modInfo.uniqueName}.`
+          );
+
+          return {
+            ...previousMod,
+            thumbnail: thumbnailInfo ?? {},
+          };
+        }
+
+        const fullReleaseList = (
+          await octokit.paginate(octokit.rest.repos.listReleases, {
+            owner,
+            repo,
+            per_page: 100,
+          })
+        )
+          .sort((releaseA, releaseB) =>
+            new Date(releaseA.created_at) < new Date(releaseB.created_at)
+              ? 1
+              : -1
+          )
+          .filter((release) => !release.draft);
 
         const prereleaseList = fullReleaseList.filter(
           (release) => release.prerelease
@@ -126,7 +129,7 @@ export async function fetchMods(
 
         const latestRelease = releaseList[0];
 
-        if (requiresUpdate && !latestRelease) {
+        if (!latestRelease) {
           throw new Error(
             "Failed to find latest release from either release list or latest release endpoint"
           );
