@@ -7,7 +7,7 @@ import {
   getAllReleases,
 } from "./octokit.js";
 import { filterFulfilledPromiseSettleResults } from "./promises.js";
-import { getDateAgeInHours } from "./happened-within-day-count.js";
+import { getDateAgeInHours } from "./getDateAgeInHours.js";
 import { getReadmeUrls } from "./get-readme.js";
 import { RELEASE_EXTENSION } from "./constants.js";
 

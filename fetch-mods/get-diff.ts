@@ -1,4 +1,4 @@
-import { getDateAgeInHours } from "./happened-within-day-count.js";
+import { getDateAgeInHours } from "./getDateAgeInHours.js";
 
 export type DiffItem =
   | {
