@@ -1,19 +1,18 @@
-import { getOctokit } from "./get-octokit.js";
+import { RELEASE_EXTENSION } from "./constants.js";
+import { getAllReleases, getOctokit } from "./helpers/octokit.js";
 
-const managerRepo = {
-  owner: "ow-mods",
-  repo: "ow-mod-manager",
-};
+const MANAGER_REPO_AUTHOR = "ow-mods";
+const MANAGER_REPO_NAME = "ow-mod-manager";
+const LEGACY_RELEASE_TAG = "LEGACY";
+const EXE_EXTENSION = "exe";
 
 export async function fetchModManager() {
   const octokit = getOctokit();
 
-  const managerReleases = await octokit.paginate(
-    octokit.rest.repos.listReleases,
-    {
-      ...managerRepo,
-      per_page: 100,
-    }
+  const managerReleases = await getAllReleases(
+    octokit,
+    MANAGER_REPO_AUTHOR,
+    MANAGER_REPO_NAME
   );
   const managerLatestRelease = managerReleases[0];
   const managerDownloadCount = managerReleases.reduce(
@@ -21,8 +20,9 @@ export async function fetchModManager() {
       const assetsDownloadCount = assets
         .filter(
           ({ name }) =>
-            (name.endsWith("zip") && !name.includes("LEGACY")) ||
-            name.endsWith("exe")
+            (name.endsWith(RELEASE_EXTENSION) &&
+              !name.includes(LEGACY_RELEASE_TAG)) ||
+            name.endsWith(EXE_EXTENSION)
         )
         .reduce((assetsDownloadAccumulator, { download_count }) => {
           return assetsDownloadAccumulator + download_count;
@@ -34,14 +34,18 @@ export async function fetchModManager() {
   );
 
   const assets = managerLatestRelease.assets;
-  const zipAssets = assets.filter((asset) => asset.name.endsWith(".zip"));
+  const zipAssets = assets.filter((asset) =>
+    asset.name.endsWith(`.${RELEASE_EXTENSION}`)
+  );
   const legacyZipAsset = zipAssets.find((asset) =>
-    asset.name.includes("LEGACY")
+    asset.name.includes(LEGACY_RELEASE_TAG)
   );
   const mainZipAsset = zipAssets.find(
-    (asset) => !asset.name.includes("LEGACY")
+    (asset) => !asset.name.includes(LEGACY_RELEASE_TAG)
   );
-  const exeAsset = assets.find((asset) => asset.name.endsWith(".exe"));
+  const exeAsset = assets.find((asset) =>
+    asset.name.endsWith(`.${EXE_EXTENSION}`)
+  );
 
   return {
     version: managerLatestRelease.tag_name,

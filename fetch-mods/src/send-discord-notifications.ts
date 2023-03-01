@@ -1,6 +1,5 @@
-import axios from "axios";
-
-import { thumbnailUrlBase } from "./constants.js";
+import fetch from "node-fetch";
+import { THUMBNAIL_URL_BASE } from "./constants.js";
 import { DiffItem } from "./get-diff.js";
 
 function getNotificationTitle(diffItem: DiffItem) {
@@ -65,7 +64,9 @@ function getEmbed(diffItem: DiffItem) {
     url: `http://outerwildsmods.com/mods/${diffItem.nextMod.slug}`,
     color: getNotificationColor(diffItem),
     [getNotificationImageKey(diffItem)]: {
-      url: `${thumbnailUrlBase}/${diffItem.nextMod.thumbnail.openGraph ?? diffItem.nextMod.thumbnail.main}`,
+      url: `${THUMBNAIL_URL_BASE}/${
+        diffItem.nextMod.thumbnail.openGraph ?? diffItem.nextMod.thumbnail.main
+      }`,
     },
   };
 }
@@ -87,12 +88,21 @@ export async function sendDiscordNotifications(
         (diffItem) => diffItem.diffType === "add"
       );
 
-      await axios.post(discordHookUrl, {
-        content: `${pingRoleId(discordModUpdateRoleId)} ${
-          containsNewMod ? pingRoleId(discordNewModRoleId) : ""
-        }`,
-        embeds: diff.map(getEmbed),
+      const response = await fetch(discordHookUrl, {
+        method: "post",
+        body: JSON.stringify({
+          content: `${pingRoleId(discordModUpdateRoleId)} ${
+            containsNewMod ? pingRoleId(discordNewModRoleId) : ""
+          }`,
+          embeds: diff.map(getEmbed),
+        }),
       });
+
+      if (!response.ok) {
+        throw new Error(
+          `Discord API post response not ok. ${response.status}: ${response.statusText}`
+        );
+      }
     }
   } catch (error) {
     console.error(
@@ -104,8 +114,11 @@ export async function sendDiscordNotifications(
     try {
       const discordModHookUrl = discordModHookUrls[diffItem.nextMod.uniqueName];
       if (discordModHookUrl) {
-        axios.post(discordModHookUrl, {
-          embeds: [getEmbed(diffItem)],
+        fetch(discordModHookUrl, {
+          method: "post",
+          body: JSON.stringify({
+            embeds: [getEmbed(diffItem)],
+          }),
         });
       }
     } catch (error) {
