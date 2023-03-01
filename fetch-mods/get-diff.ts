@@ -1,4 +1,4 @@
-import { happenedWithinDayCount } from "./happened-within-day-count.js";
+import { getDateAgeInDays } from "./happened-within-day-count.js";
 
 export type DiffItem =
   | {
@@ -24,7 +24,7 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       (mod) => mod.uniqueName === nextDatabaseMod.uniqueName
     );
 
-    if (happenedWithinDayCount(nextDatabaseMod.latestReleaseDate, 1)) {
+    if (getDateAgeInDays(nextDatabaseMod.latestReleaseDate) < 1) {
       if (!previousDatabaseMod) {
         diff.push({
           diffType: "add",
@@ -47,7 +47,7 @@ export function getDiff(previousDatabase: Mod[], nextDatabase: Mod[]) {
       previousDatabaseMod?.prerelease?.version !==
         nextDatabaseMod.prerelease.version
     ) {
-      if (happenedWithinDayCount(nextDatabaseMod.prerelease.date, 1)) {
+      if (getDateAgeInDays(nextDatabaseMod.prerelease.date) < 1) {
         diff.push({
           diffType: "update-prerelease",
           previousMod: previousDatabaseMod,

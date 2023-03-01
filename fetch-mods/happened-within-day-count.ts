@@ -1,8 +1,7 @@
 const dayInMilliseconds = 1000 * 60 * 60 * 24;
 
-export function happenedWithinDayCount(dateText: string, dayCount: number) {
+export function getDateAgeInDays(dateText: string) {
   return (
-    new Date().valueOf() - new Date(dateText).valueOf() <
-    dayCount * dayInMilliseconds
+    (new Date().valueOf() - new Date(dateText).valueOf()) / dayInMilliseconds
   );
 }
