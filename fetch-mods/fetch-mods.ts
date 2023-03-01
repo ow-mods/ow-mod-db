@@ -1,6 +1,7 @@
 import { generateModThumbnail } from "./generate-mod-thumbnail.js";
 import { getOctokit } from "./get-octokit.js";
 import { filterFulfilledPromiseSettleResults } from "./promises.js";
+import { RequestError } from "@octokit/request-error";
 
 const REPO_URL_BASE = "https://github.com";
 
@@ -47,6 +48,10 @@ export async function fetchMods(
               downloadUrl: readme.download_url || undefined,
             };
           } catch (error) {
+            if (error instanceof RequestError && error.status == 404) {
+              // 404s are expected, ignore.
+              return undefined;
+            }
             console.log(
               `Failed to get readme for mod ${modInfo.uniqueName}: ${error}"`
             );
@@ -84,6 +89,7 @@ export async function fetchMods(
         const prereleaseList = fullReleaseList.filter(
           (release) => release.prerelease
         );
+
         const releaseList = fullReleaseList.filter(
           (release) =>
             !release.prerelease &&
@@ -91,45 +97,7 @@ export async function fetchMods(
             release.assets[0].browser_download_url.endsWith("zip")
         );
 
-        const latestReleaseFromList = releaseList[0];
-        // console.log("latestReleaseFromList", latestReleaseFromList);
-
-        let latestReleaseFromApi: OctokitRelease | null = null;
-
-        try {
-          latestReleaseFromApi = (
-            await octokit.rest.repos.getLatestRelease({
-              owner,
-              repo,
-            })
-          ).data;
-
-          // console.log("latestReleaseFromApi", latestReleaseFromApi);
-        } catch (error) {
-          console.log(`Failed to get latest release from API: ${error}`);
-        }
-
-        // There are two ways to get the latest release:
-        // - picking the last item in the full release list;
-        // - using the result of the latest release api endpoint.
-        // Some times, they disagree. So I'll pick the youngest one as the latest release.
-        let useReleaseFromList = false;
-        if (!latestReleaseFromApi && latestReleaseFromList) {
-          useReleaseFromList = true;
-        } else if (latestReleaseFromApi && !latestReleaseFromList) {
-          useReleaseFromList = false;
-        } else if (
-          latestReleaseFromList &&
-          latestReleaseFromApi &&
-          new Date(latestReleaseFromList.created_at) >
-            new Date(latestReleaseFromApi.created_at)
-        ) {
-          useReleaseFromList = true;
-        }
-
-        const latestRelease = useReleaseFromList
-          ? latestReleaseFromList
-          : latestReleaseFromApi;
+        const latestRelease = releaseList[0];
 
         if (!latestRelease) {
           throw new Error(

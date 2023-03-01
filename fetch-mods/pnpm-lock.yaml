@@ -9,6 +9,7 @@ specifiers:
   '@octokit/core': ^4.1.0
   '@octokit/plugin-retry': ^4.0.3
   '@octokit/plugin-throttling': ^4.3.2
+  '@octokit/request-error': ^3.0.3
   '@types/commonmark': ^0.27.5
   '@types/node': ^18.11.18
   '@types/sharp': ^0.31.0
@@ -27,6 +28,7 @@ dependencies:
   '@octokit/core': 4.1.0
   '@octokit/plugin-retry': 4.0.3_@octokit+core@4.1.0
   '@octokit/plugin-throttling': 4.3.2_@octokit+core@4.1.0
+  '@octokit/request-error': 3.0.3
   '@types/commonmark': 0.27.5
   '@types/node': 18.11.18
   '@types/sharp': 0.31.0
@@ -165,7 +167,7 @@ packages:
       '@octokit/auth-token': 3.0.2
       '@octokit/graphql': 5.0.4
       '@octokit/request': 6.2.2
-      '@octokit/request-error': 3.0.2
+      '@octokit/request-error': 3.0.3
       '@octokit/types': 8.0.0
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.0
@@ -195,6 +197,10 @@ packages:
 
   /@octokit/openapi-types/14.0.0:
     resolution: {integrity: sha512-HNWisMYlR8VCnNurDU6os2ikx0s0VyEjDYHNS/h4cgb8DeOxQ0n72HyinUtdDVxJhFy3FWLGl0DJhfEWk3P5Iw==}
+    dev: false
+
+  /@octokit/openapi-types/16.0.0:
+    resolution: {integrity: sha512-JbFWOqTJVLHZSUUoF4FzAZKYtqdxWu9Z5m2QQnOyEa04fOFljvyh7D3GYKbfuaSWisqehImiVIMG4eyJeP5VEA==}
     dev: false
 
   /@octokit/plugin-paginate-rest/5.0.1_@octokit+core@4.1.0:
@@ -240,11 +246,11 @@ packages:
       bottleneck: 2.19.5
     dev: false
 
-  /@octokit/request-error/3.0.2:
-    resolution: {integrity: sha512-WMNOFYrSaX8zXWoJg9u/pKgWPo94JXilMLb2VManNOby9EZxrQaBe/QSC4a1TzpAlpxofg2X/jMnCyZgL6y7eg==}
+  /@octokit/request-error/3.0.3:
+    resolution: {integrity: sha512-crqw3V5Iy2uOU5Np+8M/YexTlT8zxCfI+qu+LxUB7SZpje4Qmx3mub5DfEKSO8Ylyk0aogi6TYdf6kxzh2BguQ==}
     engines: {node: '>= 14'}
     dependencies:
-      '@octokit/types': 8.0.0
+      '@octokit/types': 9.0.0
       deprecation: 2.3.1
       once: 1.4.0
     dev: false
@@ -254,7 +260,7 @@ packages:
     engines: {node: '>= 14'}
     dependencies:
       '@octokit/endpoint': 7.0.3
-      '@octokit/request-error': 3.0.2
+      '@octokit/request-error': 3.0.3
       '@octokit/types': 8.0.0
       is-plain-object: 5.0.0
       node-fetch: 2.6.7
@@ -267,6 +273,12 @@ packages:
     resolution: {integrity: sha512-65/TPpOJP1i3K4lBJMnWqPUJ6zuOtzhtagDvydAWbEXpbFYA0oMKKyLb95NFZZP0lSh/4b6K+DQlzvYQJQQePg==}
     dependencies:
       '@octokit/openapi-types': 14.0.0
+    dev: false
+
+  /@octokit/types/9.0.0:
+    resolution: {integrity: sha512-LUewfj94xCMH2rbD5YJ+6AQ4AVjFYTgpp6rboWM5T7N3IsIF65SBEOVcYMGAEzO/kKNiNaW4LoWtoThOhH06gw==}
+    dependencies:
+      '@octokit/openapi-types': 16.0.0
     dev: false
 
   /@protobufjs/aspromise/1.1.2:
