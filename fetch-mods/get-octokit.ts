@@ -1,18 +1,18 @@
 import { Octokit } from "@octokit/action";
 import { retry } from "@octokit/plugin-retry";
 import { throttling } from "@octokit/plugin-throttling";
-import fetch from "node-fetch";
 
 export let rateLimitReached = false;
 export let apiCallCount = 0;
 
 function createOctokit() {
   const OctokitWithPlugins = Octokit.plugin(retry, throttling);
+
   return new OctokitWithPlugins({
     request: {
       fetch: (...parameters: [any]) => {
         apiCallCount++;
-        return fetch(...parameters);
+        return globalThis.fetch(...parameters);
       },
     },
     retry: {
