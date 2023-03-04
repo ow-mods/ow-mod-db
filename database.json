@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.1/OuterWildsModManager-Installer.exe",
-    "downloadCount": 108664
+    "downloadCount": 108669
   },
   "releases": [
     {
@@ -971,8 +971,8 @@
       "databaseEntryUpdatedAt": "2023-03-04T02:23:57.368Z",
       "viewCount": 9,
       "weeklyViewCount": 1,
-      "installCount": 38,
-      "weeklyInstallCount": 13
+      "installCount": 39,
+      "weeklyInstallCount": 14
     },
     {
       "name": "New Horizons",
@@ -1013,7 +1013,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.16.3/nh-examples.zip",
-      "downloadCount": 3911,
+      "downloadCount": 3912,
       "latestReleaseDate": "2023-01-19T23:44:06Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -1030,8 +1030,8 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "repoUpdatedAt": "2023-02-23T23:04:11Z",
-      "databaseEntryUpdatedAt": "2023-03-04T02:23:57.672Z",
+      "repoUpdatedAt": "2023-03-04T05:20:22Z",
+      "databaseEntryUpdatedAt": "2023-03-04T05:59:03.390Z",
       "viewCount": 27,
       "weeklyViewCount": 8,
       "installCount": 70,
@@ -1511,8 +1511,8 @@
       "databaseEntryUpdatedAt": "2023-03-04T02:23:59.582Z",
       "viewCount": 19,
       "weeklyViewCount": 8,
-      "installCount": 79,
-      "weeklyInstallCount": 25
+      "installCount": 80,
+      "weeklyInstallCount": 26
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -4576,8 +4576,8 @@
       "databaseEntryUpdatedAt": "2023-03-04T02:24:06.703Z",
       "viewCount": 16,
       "weeklyViewCount": 9,
-      "installCount": 51,
-      "weeklyInstallCount": 12
+      "installCount": 52,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Custom Ship Log Modes",
@@ -6025,8 +6025,8 @@
       "databaseEntryUpdatedAt": "2023-03-04T02:24:08.338Z",
       "viewCount": 198,
       "weeklyViewCount": 31,
-      "installCount": 237,
-      "weeklyInstallCount": 40
+      "installCount": 238,
+      "weeklyInstallCount": 41
     },
     {
       "name": "The Machine",
@@ -6251,8 +6251,8 @@
       "databaseEntryUpdatedAt": "2023-03-04T02:24:08.664Z",
       "viewCount": 125,
       "weeklyViewCount": 25,
-      "installCount": 173,
-      "weeklyInstallCount": 28
+      "installCount": 174,
+      "weeklyInstallCount": 29
     },
     {
       "name": "Celestial Leeway",
@@ -6467,6 +6467,33 @@
       "weeklyViewCount": 12,
       "installCount": 16,
       "weeklyInstallCount": 16
+    },
+    {
+      "name": "Warp Window & VanishVolume Tweaks",
+      "uniqueName": "QuantumBlur314.BonusRocks95",
+      "description": "Prevent astral bodies from getting stuck in infinite teleportation loops for some reason",
+      "author": "QuantumBlur314",
+      "downloadUrl": "https://github.com/QuantumBlur314/BonusRocks95/releases/download/v0.1.1/QuantumBlur314.BonusRocks95.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-03-04T02:03:30Z",
+      "firstReleaseDate": "2023-03-04T02:03:30Z",
+      "repo": "https://github.com/QuantumBlur314/BonusRocks95",
+      "version": "v0.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/QuantumBlur314/BonusRocks95/blob/11_ReturnOfTheLists/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/QuantumBlur314/BonusRocks95/11_ReturnOfTheLists/README.md"
+      },
+      "tags": [
+        "tweaks"
+      ],
+      "slug": "warpwindowvanishvolumetweaks",
+      "thumbnail": {},
+      "repoUpdatedAt": "2023-03-04T02:07:34Z",
+      "databaseEntryUpdatedAt": "2023-03-04T05:59:02.693Z",
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
