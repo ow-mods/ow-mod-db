@@ -90,6 +90,9 @@ export async function sendDiscordNotifications(
 
       const response = await fetch(discordHookUrl, {
         method: "post",
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify({
           content: `${pingRoleId(discordModUpdateRoleId)} ${
             containsNewMod ? pingRoleId(discordNewModRoleId) : ""
