@@ -58,7 +58,7 @@ jobs:
         id: fetch-mods
         uses: ./fetch-mods
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           mods: "${{ env.mods_output }}"
           out-directory: database
@@ -74,6 +74,8 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
+        with:
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
