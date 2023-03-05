@@ -11,6 +11,9 @@ on:
       - source
     paths:
       - "mods.json"
+  pull_request:
+    branches:
+      - "source"
 
 permissions:
   contents: write
@@ -64,11 +67,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           mods: mods.json
           previous-database: database/database.json
-          discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
-          discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
-          discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"
-          discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"
-          google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
+          discord-mod-hook-urls: ${{ github.event_name != 'pull_request' && secrets.DISCORD_MOD_HOOK_URLS || '' }}
+          discord-hook-url: ${{ github.event_name != 'pull_request' && secrets.DISCORD_HOOK_URL || '' }}
+          discord-mod-update-role-id: ${{ github.event_name != 'pull_request' && secrets.DISCORD_MOD_UPDATE_ROLE_ID || '' }}
+          discord-new-mod-role-id: ${{ github.event_name != 'pull_request' && secrets.DISCORD_NEW_MOD_ROLE_ID || '' }}
+          google-service-account: ${{ github.event_name != 'pull_request' && secrets.GOOGLE_SERVICE_ACCOUNT || '' }}
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v1
@@ -76,12 +79,14 @@ jobs:
           path: database
 
       - name: Deploy to GitHub Pages
+        if: ${{ github.event_name != 'pull_request' }}
         uses: actions/deploy-pages@v1
         with:
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
+        if: ${{ github.event_name != 'pull_request' }}
         with:
           branch: master
           repository: database
