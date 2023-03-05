@@ -3,20 +3,21 @@ import fs, { promises as fsp, writeFile } from "fs";
 import path from "path";
 
 import { sendDiscordNotifications } from "./notifications/send-discord-notifications.js";
-import { fetchMods, Mod } from "./fetch-mods.js";
+import { fetchMods } from "./fetch-mods.js";
 import { getDiff } from "./notifications/get-diff.js";
-import { getPreviousDatabase } from "./fetch-previous-database.js";
-import { fetchModManager } from "./fetch-mod-manager.js";
+import { fetchModManager, type ModManagerOutput } from "./fetch-mod-manager.js";
 import { toJsonString } from "./helpers/to-json-string.js";
 import { getViewCounts } from "./analytics/get-view-counts.js";
 import { getInstallCounts } from "./analytics/get-install-counts.js";
 import { getSettledResult } from "./helpers/promises.js";
 import { apiCallCount, rateLimitReached } from "./helpers/octokit.js";
 import { DATABASE_FILE_NAME } from "./helpers/constants.js";
+import type { OutputMod } from "./mod.js";
 
 enum Input {
   outDirectory = "out-directory",
   mods = "mods",
+  previousDatabase = "previous-database",
   discordHookUrl = "discord-hook-url",
   discordModUpdateRoleId = "discord-mod-update-role-id",
   discordNewModRoleId = "discord-new-mod-role-id",
@@ -26,13 +27,6 @@ enum Input {
 
 enum Output {
   releases = "releases",
-}
-
-function getCleanedUpModList(modList: Mod[]) {
-  return modList.map(
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    ({ latestReleaseDescription, latestPrereleaseDescription, ...mod }) => mod
-  );
 }
 
 const measureTime = <T>(promise: Promise<T>, name: string) => {
@@ -47,7 +41,7 @@ const measureTime = <T>(promise: Promise<T>, name: string) => {
   return promise;
 };
 
-async function getAsyncStuff(previousDatabase: Mod[]) {
+async function getAsyncStuff(previousDatabase: OutputMod[]) {
   const googleServiceAccount = core.getInput(Input.googleServiceAccount);
 
   const promises = [
@@ -88,11 +82,21 @@ async function getAsyncStuff(previousDatabase: Mod[]) {
   };
 }
 
+type DatabaseOutput = {
+  modManager: ModManagerOutput;
+  releases: OutputMod[];
+  alphaReleases: OutputMod[];
+};
+
 async function run() {
-  const previousDatabase = await measureTime(
-    getPreviousDatabase(),
-    "getPreviousDatabase"
+  const previousDatabaseOutput: DatabaseOutput = JSON.parse(
+    core.getInput(Input.previousDatabase)
   );
+
+  const previousMods = [
+    ...previousDatabaseOutput.releases,
+    ...previousDatabaseOutput.alphaReleases,
+  ];
 
   try {
     const {
@@ -102,23 +106,30 @@ async function run() {
       weeklyViewCounts,
       installCounts,
       weeklyInstallCounts,
-    } = await getAsyncStuff(previousDatabase);
+    } = await getAsyncStuff(previousMods);
 
-    const cleanedUpModList = getCleanedUpModList(nextDatabase);
+    if (!modManager) {
+      throw new Error("Failed to update database: mod manager output is null.");
+    }
 
-    const modListWithAnalytics = cleanedUpModList.map((mod) => ({
-      ...mod,
-      viewCount: viewCounts[mod.slug] ?? 0,
-      weeklyViewCount: weeklyViewCounts[mod.slug] ?? 0,
-      installCount: installCounts[mod.uniqueName] ?? 0,
-      weeklyInstallCount: weeklyInstallCounts[mod.uniqueName] ?? 0,
-    }));
+    const modListWithAnalytics = nextDatabase.map(
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      ({ latestReleaseDescription, latestPrereleaseDescription, ...mod }) => ({
+        ...mod,
+        viewCount: viewCounts[mod.slug] ?? 0,
+        weeklyViewCount: weeklyViewCounts[mod.slug] ?? 0,
+        installCount: installCounts[mod.uniqueName] ?? 0,
+        weeklyInstallCount: weeklyInstallCounts[mod.uniqueName] ?? 0,
+      })
+    );
 
-    const databaseJson = toJsonString({
+    const databaseOutput: DatabaseOutput = {
       modManager,
       releases: modListWithAnalytics.filter(({ alpha }) => !alpha),
       alphaReleases: modListWithAnalytics.filter(({ alpha }) => alpha),
-    });
+    };
+
+    const databaseJson = toJsonString(databaseOutput);
 
     if (apiCallCount > 0) {
       console.log(`Called the GitHub API ${apiCallCount} times.`);
@@ -148,7 +159,7 @@ async function run() {
     const discordHookUrl = core.getInput(Input.discordHookUrl);
 
     if (discordHookUrl) {
-      const diff = getDiff(previousDatabase, nextDatabase);
+      const diff = getDiff(previousMods, nextDatabase);
 
       const discordModHookUrls: Record<string, string> = JSON.parse(
         core.getInput(Input.discordModHookUrls) || "{}"
