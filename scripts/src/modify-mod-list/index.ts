@@ -1,6 +1,7 @@
 import * as core from "@actions/core";
 
 import { writeFile } from "fs";
+import type { ModInfo, ModList } from "../mod-info";
 
 enum Input {
   outFile = "out-file",
@@ -13,24 +14,6 @@ enum Output {
   mods = "mods",
   editedExistingMod = "edited-existing-mod",
 }
-
-// Mod db from mods.json.
-type ModDB = {
-  $schema: string
-  mods: ModInfo[];
-};
-
-type ModInfo = {
-  name: string;
-  uniqueName: string;
-  repo: string;
-  alpha?: boolean;
-  required?: boolean;
-  utility?: boolean;
-  parent?: string;
-  authorDisplay?: string;
-  tags: string[];
-};
 
 // From .github/ISSUE_TEMPLATE/add-mod.yml.
 type IssueForm = {
@@ -60,17 +43,17 @@ async function run() {
     throw new Error("Invalid form format");
   }
 
-  let repo = repoUrl.match(/github\.com\/([^\/]+\/[^\/]+)\/?.*/)?.[1];
+  let repo = repoUrl.match(/github\.com\/([^/]+\/[^/]+)\/?.*/)?.[1];
 
   if (!repo) {
     throw new Error("Invalid repo URL " + repoUrl);
   }
 
   if (repo.endsWith(".git")) {
-    repo = repo.slice(0, -4); 
+    repo = repo.slice(0, -4);
   }
 
-  const modDb: ModDB = JSON.parse(core.getInput(Input.mods));
+  const modDb: ModList = JSON.parse(core.getInput(Input.mods));
   const mods = modDb.mods;
 
   const newMod: ModInfo = {
@@ -114,7 +97,7 @@ async function run() {
     existingMod.tags = newMod.tags;
   }
 
-  const newModDb: ModDB = {
+  const newModDb: ModList = {
     $schema: "./mods.schema.json",
     mods: existingMod ? mods : [...mods, newMod],
   };

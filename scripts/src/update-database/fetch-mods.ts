@@ -10,6 +10,8 @@ import { filterFulfilledPromiseSettleResults } from "./helpers/promises.js";
 import { getDateAgeInHours } from "./helpers/dates.js";
 import { getReadmeUrls } from "./readmes.js";
 import { RELEASE_EXTENSION } from "./helpers/constants.js";
+import { InternalMod, OutputMod } from "./mod.js";
+import type { ModList } from "../mod-info.js";
 
 const REPO_URL_BASE = "https://github.com";
 const FULL_UPDATE_RATE_HOURS = 12;
@@ -20,68 +22,16 @@ const downloadCountOffsets: { [key: string]: number } = {
   "Jammer.jammerlore": 373,
 };
 
-type ModDB = {
-  $schema: string;
-  mods: ModInfo[];
-};
-
-export type ModInfo = {
-  name: string;
-  uniqueName: string;
-  repo: string;
-  alpha?: boolean;
-  required?: boolean;
-  utility?: boolean;
-  parent?: string;
-  authorDisplay?: string;
-  tags: string[];
-};
-
-export type Mod = {
-  name: string;
-  uniqueName: string;
-  slug: string;
-  description: string;
-  author: string;
-  repo: string;
-  latestReleaseDate: string;
-  firstReleaseDate: string;
-  latestReleaseDescription: string;
-  latestPrereleaseDescription: string;
-  repoUpdatedAt: string;
-  databaseEntryUpdatedAt: string;
-  downloadUrl: string;
-  downloadCount: number;
-  version: string;
-  alpha?: boolean;
-  required?: boolean;
-  utility?: boolean;
-  parent?: string;
-  authorDisplay?: string;
-  readme?: {
-    downloadUrl?: string;
-    htmlUrl?: string;
-  };
-  prerelease?: {
-    version: string;
-    downloadUrl: string;
-    date: string;
-  };
-  tags: string[];
-  thumbnail: {
-    main?: string;
-    openGraph?: string;
-  };
-};
-
 export async function fetchMods(
   modsJson: string,
   outputDirectory: string,
-  previousDatabase: Mod[]
-): Promise<Mod[]> {
-  const modDb: ModDB = JSON.parse(modsJson);
+  previousDatabase: OutputMod[]
+): Promise<InternalMod[]> {
+  const modDb: ModList = JSON.parse(modsJson);
   const modInfos = modDb.mods;
   const octokit = getOctokit();
+
+  console.log("modsJson", modsJson);
 
   return (
     await Promise.allSettled(
@@ -126,6 +76,8 @@ export async function fetchMods(
           if (!requiresUpdate) {
             return {
               ...previousMod,
+              latestPrereleaseDescription: "",
+              latestReleaseDescription: "",
               thumbnail: thumbnailInfo ?? {},
             };
           }
@@ -176,7 +128,7 @@ export async function fetchMods(
             releases[releases.length - 1] ?? cleanLatestRelease;
           const latestPrerelease = prereleases[0];
 
-          const mod: Mod = {
+          const mod: InternalMod = {
             name: modInfo.name,
             uniqueName: modInfo.uniqueName,
             description: githubRepository.description || "",

@@ -6,7 +6,15 @@ const MANAGER_REPO_NAME = "ow-mod-manager";
 const LEGACY_RELEASE_TAG = "LEGACY";
 const EXE_EXTENSION = "exe";
 
-export async function fetchModManager() {
+export type ModManagerOutput = {
+  version: string;
+  downloadUrl: string;
+  zipDownloadUrl: string;
+  installerDownloadUrl: string;
+  downloadCount: number;
+};
+
+export async function fetchModManager(): Promise<ModManagerOutput> {
   const octokit = getOctokit();
 
   const managerReleases = await getAllReleases(
@@ -49,9 +57,10 @@ export async function fetchModManager() {
 
   return {
     version: managerLatestRelease.tag_name,
-    downloadUrl: (legacyZipAsset ?? mainZipAsset)?.browser_download_url,
-    zipDownloadUrl: (mainZipAsset ?? legacyZipAsset)?.browser_download_url,
-    installerDownloadUrl: exeAsset?.browser_download_url,
+    downloadUrl: (legacyZipAsset ?? mainZipAsset)?.browser_download_url ?? "",
+    zipDownloadUrl:
+      (mainZipAsset ?? legacyZipAsset)?.browser_download_url ?? "",
+    installerDownloadUrl: exeAsset?.browser_download_url ?? "",
     downloadCount: managerDownloadCount,
   };
 }

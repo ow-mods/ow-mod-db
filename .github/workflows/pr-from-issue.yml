@@ -33,11 +33,11 @@ jobs:
 
       - name: Build
         run: |
-          cd modify-mod-list
+          cd scripts
           pnpm run build
 
       - id: modify-mod-list
-        uses: ./modify-mod-list
+        uses: ./actions/modify-mod-list
         with:
           out-file: mods.json
           github-token: ${{ secrets.GH_TOKEN }}

@@ -7,6 +7,9 @@ inputs:
   mods:
     description: "Initial JSON mod database to modify"
     required: true
+  previous-database:
+    description: "Previous version of the database.json output"
+    required: true
   GITHUB_TOKEN:
     description: "GitHub Token for Octokit authentication"
     required: true
@@ -30,4 +33,4 @@ outputs:
     description: "JSON list of latest mod releases"
 runs:
   using: "node16"
-  main: "build/index.js"
+  main: "../../scripts/build/update-database/index.js"
