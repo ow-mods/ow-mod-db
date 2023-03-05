@@ -155,7 +155,7 @@ async function run() {
       );
 
       sendDiscordNotifications(
-        core.getInput(Input.discordHookUrl),
+        discordHookUrl,
         core.getInput(Input.discordModUpdateRoleId),
         core.getInput(Input.discordNewModRoleId),
         diff,
