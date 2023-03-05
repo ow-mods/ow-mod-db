@@ -1,5 +1,7 @@
 name: Update Releases
+
 concurrency: update-releases
+
 on:
   schedule:
     - cron: "*/5 * * * *"
@@ -9,6 +11,12 @@ on:
       - source
     paths:
       - "mods.json"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -58,7 +66,7 @@ jobs:
         id: fetch-mods
         uses: ./fetch-mods
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           mods: "${{ env.mods_output }}"
           out-directory: database
@@ -67,11 +75,21 @@ jobs:
           discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
 
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: database
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: "master"
-          repository: "database"
+          branch: master
+          repository: database
           commit_message: Update mod database
           commit_user_name: Outer Wilds Mod Database
           commit_user_email: database@outerwildsmods.com
