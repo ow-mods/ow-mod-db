@@ -1,6 +1,8 @@
 # Outer Wilds Mod Database
 
-Uses the mod list in [`mods.json` of the `source`](https://github.com/ow-mods/ow-mod-db/blob/source/mods.json) branch, fetches the required data for each mod. That data is then added to [`database.json` in the `master` branch](https://github.com/ow-mods/ow-mod-db/blob/master/database.json). The process happens automatically every once in a while.
+Uses the mod list in [`mods.json` of the `source`](https://github.com/ow-mods/ow-mod-db/blob/source/mods.json) branch, fetches the required data for each mod. That data is then added to [`database.json` in the `master` branch](https://ow-mods.github.io/ow-mod-db/database.json). The process happens automatically every once in a while.
+
+The database is deployed to GitHub Pages, since GitHub aggressively caches direct access to the raw file in the repo. So if you want to read from the database, you should use this URL: https://ow-mods.github.io/ow-mod-db/database.json
 
 ## [Click here to add your mod to the database](https://github.com/ow-mods/ow-mod-db/issues/new?labels=add-mod&template=add-mod.yml&title=%5BYour+mod+name+here%5D)
 
