@@ -94,3 +94,7 @@ jobs:
           commit_user_name: Outer Wilds Mod Database
           commit_user_email: database@outerwildsmods.com
           commit_author: Outer Wilds Mod Database <database@outerwildsmods.com>
+
+      - name: Dispatch Website Build Event
+        run: |
+          curl -XPOST -u "${{ secrets.GH_USER }}:${{ secrets.GH_TOKEN }}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/ow-mods/outerwildsmods.com/dispatches --data '{"event_type": "build"}'
