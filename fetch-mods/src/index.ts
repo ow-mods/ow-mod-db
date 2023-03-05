@@ -91,6 +91,8 @@ async function run() {
     await fsp.readFile(core.getInput(Input.previousDatabaseFile))
   ).toString();
 
+  console.log("previousDatabaseJson", previousDatabaseJson);
+
   const previousDatabaseOutput: DatabaseOutput =
     JSON.parse(previousDatabaseJson);
 
