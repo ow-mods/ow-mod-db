@@ -58,7 +58,7 @@ jobs:
         run: rm -rf database/thumbnails
 
       - name: Fetch mod releases and manifests
-        uses: ./actions/update-database.yml
+        uses: ./actions/update-database
         with:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
