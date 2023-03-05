@@ -20,4 +20,4 @@ outputs:
     description: "True when an existing mod has been edited, false when a new mod was created."
 runs:
   using: "node16"
-  main: "index.js"
+  main: "../../scripts/build/modify-mod-list/index.js"

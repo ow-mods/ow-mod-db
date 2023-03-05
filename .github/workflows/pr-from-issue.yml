@@ -37,7 +37,7 @@ jobs:
           pnpm run build
 
       - id: modify-mod-list
-        uses: ./scripts/src/modify-mod-list
+        uses: ./actions/modify-mod-list
         with:
           out-file: mods.json
           github-token: ${{ secrets.GH_TOKEN }}
