@@ -119,6 +119,9 @@ export async function sendDiscordNotifications(
       if (discordModHookUrl) {
         fetch(discordModHookUrl, {
           method: "post",
+          headers: {
+            "Content-Type": "application/json",
+          },
           body: JSON.stringify({
             embeds: [getEmbed(diffItem)],
           }),
