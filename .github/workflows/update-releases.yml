@@ -60,11 +60,11 @@ jobs:
       - name: Fetch mod releases and manifests
         uses: ./actions/update-database
         with:
+          out-directory: database
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           mods: mods.json
           previous-database: database/database.json
-          out-directory: database
+          discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
           discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"
           discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"

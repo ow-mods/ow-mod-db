@@ -34,16 +34,22 @@ jobs:
           cd scripts
           pnpm run build
 
-      - name: Get local Mod Database file
-        id: local-mods
-        run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
+      - name: Checkout database repo
+        uses: actions/checkout@v3
+        with:
+          ref: master
+          path: database
+
+      - name: Remove existing thumbnails
+        run: rm -rf database/thumbnails
 
       - name: Fetch mod releases and manifests
         uses: ./actions/update-database
         with:
           out-directory: output
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN  }}
-          mods: "${{ env.mods_output }}"
+          mods: mods.json
+          previous-database: database/database.json
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
 
       - uses: actions/upload-artifact@v3
