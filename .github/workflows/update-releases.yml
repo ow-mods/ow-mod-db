@@ -67,6 +67,14 @@ jobs:
           discord-new-mod-role-id: "${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}"
           google-service-account: "${{ secrets.GOOGLE_SERVICE_ACCOUNT }}"
 
+      - name: Upload Pages Artifact
+        uses: upload-pages-artifact@v1
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
