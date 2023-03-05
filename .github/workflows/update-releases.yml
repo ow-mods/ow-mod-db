@@ -48,17 +48,11 @@ jobs:
           cd fetch-mods
           pnpm run build
 
-      - name: Get local mods list file
-        run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
-
       - name: Checkout database repo
         uses: actions/checkout@v3
         with:
           ref: master
           path: database
-
-      - name: Get previous database file
-        run: echo "previous_database=$(< ./database/database.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
 
       - name: Remove existing thumbnails
         run: rm -rf database/thumbnails
@@ -69,8 +63,8 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
-          mods: "${{ env.mods_output }}"
-          previous-database: "${{ env.previous_database }}"
+          mods: mods.json
+          previous-database: database/database.json
           out-directory: database
           discord-hook-url: "${{ secrets.DISCORD_HOOK_URL }}"
           discord-mod-update-role-id: "${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}"

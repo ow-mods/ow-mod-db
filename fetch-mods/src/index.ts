@@ -16,8 +16,8 @@ import type { OutputMod } from "./mod.js";
 
 enum Input {
   outDirectory = "out-directory",
-  mods = "mods",
-  previousDatabase = "previous-database",
+  modsFile = "mods",
+  previousDatabaseFile = "previous-database",
   discordHookUrl = "discord-hook-url",
   discordModUpdateRoleId = "discord-mod-update-role-id",
   discordNewModRoleId = "discord-new-mod-role-id",
@@ -44,14 +44,12 @@ const measureTime = <T>(promise: Promise<T>, name: string) => {
 async function getAsyncStuff(previousDatabase: OutputMod[]) {
   const googleServiceAccount = core.getInput(Input.googleServiceAccount);
 
+  const mods = (await fsp.readFile(core.getInput(Input.modsFile))).toString();
+
   const promises = [
     measureTime(fetchModManager(), "fetchModManager"),
     measureTime(
-      fetchMods(
-        core.getInput(Input.mods),
-        core.getInput(Input.outDirectory),
-        previousDatabase
-      ),
+      fetchMods(mods, core.getInput(Input.outDirectory), previousDatabase),
       "fetchMods"
     ),
     measureTime(getViewCounts(30, googleServiceAccount), "getViewCounts30"),
@@ -89,9 +87,12 @@ type DatabaseOutput = {
 };
 
 async function run() {
-  const previousDatabaseOutput: DatabaseOutput = JSON.parse(
-    core.getInput(Input.previousDatabase)
-  );
+  const previousDatabaseJson = (
+    await fsp.readFile(core.getInput(Input.previousDatabaseFile))
+  ).toString();
+
+  const previousDatabaseOutput: DatabaseOutput =
+    JSON.parse(previousDatabaseJson);
 
   const previousMods = [
     ...previousDatabaseOutput.releases,
