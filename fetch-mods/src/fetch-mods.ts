@@ -47,6 +47,8 @@ export async function fetchMods(
   const modInfos = modDb.mods;
   const octokit = getOctokit();
 
+  console.log("modsJson", modsJson);
+
   return (
     await Promise.allSettled(
       modInfos.map(async (modInfo) => {
