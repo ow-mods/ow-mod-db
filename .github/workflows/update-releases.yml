@@ -45,7 +45,7 @@ jobs:
 
       - name: Build
         run: |
-          cd fetch-mods
+          cd scripts
           pnpm run build
 
       - name: Checkout database repo
@@ -58,8 +58,7 @@ jobs:
         run: rm -rf database/thumbnails
 
       - name: Fetch mod releases and manifests
-        id: fetch-mods
-        uses: ./fetch-mods
+        uses: ./actions/update-database.yml
         with:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}

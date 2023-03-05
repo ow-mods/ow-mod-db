@@ -1,4 +1,4 @@
-import { fetchMods } from "../fetch-mods.js";
+import { fetchMods } from "../update-database/fetch-mods.js";
 import modsJson from "./mods.json" assert { type: "json" };
 
 async function test() {

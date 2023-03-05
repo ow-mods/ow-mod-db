@@ -8,7 +8,7 @@ Or, if you want, you can [edit the mod list yourself and open a PR](https://gith
 
 ## How it works
 
-GitHub Actions are used to periodically update the database. Check the [Update Releases workflow](https://github.com/ow-mods/ow-mod-db/blob/source/.github/workflows/update-releases.yml) and the [TypeScript code](https://github.com/ow-mods/ow-mod-db/tree/source/fetch-mods) that fetches the data about each mod and generates the database.
+GitHub Actions are used to periodically update the database. Check the [Update Releases workflow](https://github.com/ow-mods/ow-mod-db/blob/source/.github/workflows/update-releases.yml) and the [TypeScript code](https://github.com/ow-mods/ow-mod-db/tree/source/scripts) that fetches the data about each mod and generates the database.
 
 ## Repository secrets
 

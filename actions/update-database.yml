@@ -33,4 +33,4 @@ outputs:
     description: "JSON list of latest mod releases"
 runs:
   using: "node16"
-  main: "build/index.js"
+  main: "/scripts/build/update-database/index.js"

@@ -11,6 +11,7 @@ import { getDateAgeInHours } from "./helpers/dates.js";
 import { getReadmeUrls } from "./readmes.js";
 import { RELEASE_EXTENSION } from "./helpers/constants.js";
 import { InternalMod, OutputMod } from "./mod.js";
+import type { ModList } from "../mod-info.js";
 
 const REPO_URL_BASE = "https://github.com";
 const FULL_UPDATE_RATE_HOURS = 12;
@@ -21,29 +22,12 @@ const downloadCountOffsets: { [key: string]: number } = {
   "Jammer.jammerlore": 373,
 };
 
-type ModDB = {
-  $schema: string;
-  mods: ModInfo[];
-};
-
-export type ModInfo = {
-  name: string;
-  uniqueName: string;
-  repo: string;
-  alpha?: boolean;
-  required?: boolean;
-  utility?: boolean;
-  parent?: string;
-  authorDisplay?: string;
-  tags: string[];
-};
-
 export async function fetchMods(
   modsJson: string,
   outputDirectory: string,
   previousDatabase: OutputMod[]
 ): Promise<InternalMod[]> {
-  const modDb: ModDB = JSON.parse(modsJson);
+  const modDb: ModList = JSON.parse(modsJson);
   const modInfos = modDb.mods;
   const octokit = getOctokit();
 
