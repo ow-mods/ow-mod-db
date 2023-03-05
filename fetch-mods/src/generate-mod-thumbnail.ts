@@ -7,8 +7,8 @@ import { getReadmeMarkdown } from "./readmes.js";
 import { GITHUB_RAW_CONTENT_URL } from "./helpers/constants.js";
 
 export const thumbnailSize = {
-  width: 300,
-  height: 100,
+  width: 450,
+  height: 150,
 } as const;
 
 type ThumbnailInfo = {
