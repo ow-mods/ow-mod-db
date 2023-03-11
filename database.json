@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 110552
+    "downloadCount": 110558
   },
   "releases": [
     {
@@ -6500,12 +6500,12 @@
       "uniqueName": "VioVayo.HugMod",
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
-      "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v0.1.2/VioVayo.HugMod.zip",
-      "downloadCount": 81,
-      "latestReleaseDate": "2023-03-07T07:55:23Z",
+      "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v0.2.0/VioVayo.HugMod.zip",
+      "downloadCount": 86,
+      "latestReleaseDate": "2023-03-11T23:44:01Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
-      "version": "v0.1.2",
+      "version": "v0.2.0",
       "readme": {
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
@@ -6514,9 +6514,11 @@
         "gameplay"
       ],
       "slug": "hugmod",
-      "thumbnail": {},
-      "repoUpdatedAt": "2023-03-11T20:48:10Z",
-      "databaseEntryUpdatedAt": "2023-03-11T20:52:41.533Z",
+      "thumbnail": {
+        "main": "hugmod.webp"
+      },
+      "repoUpdatedAt": "2023-03-11T23:47:10Z",
+      "databaseEntryUpdatedAt": "2023-03-11T23:51:52.403Z",
       "viewCount": 38,
       "weeklyViewCount": 38,
       "installCount": 50,
