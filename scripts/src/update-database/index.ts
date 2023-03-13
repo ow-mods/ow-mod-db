@@ -2,9 +2,7 @@ import * as core from "@actions/core";
 import fs, { promises as fsp, writeFile } from "fs";
 import path from "path";
 
-import { sendDiscordNotifications } from "./notifications/send-discord-notifications.js";
 import { fetchMods } from "./fetch-mods.js";
-import { getDiff } from "./notifications/get-diff.js";
 import { fetchModManager, type ModManagerOutput } from "./fetch-mod-manager.js";
 import { toJsonString } from "./helpers/to-json-string.js";
 import { getViewCounts } from "./analytics/get-view-counts.js";
@@ -12,16 +10,12 @@ import { getInstallCounts } from "./analytics/get-install-counts.js";
 import { getSettledResult } from "./helpers/promises.js";
 import { apiCallCount, rateLimitReached } from "./helpers/octokit.js";
 import { DATABASE_FILE_NAME } from "./helpers/constants.js";
-import type { OutputMod } from "./mod.js";
+import type { OutputMod } from "../mod.js";
 
 enum Input {
   outDirectory = "out-directory",
   modsFile = "mods",
   previousDatabaseFile = "previous-database",
-  discordHookUrl = "discord-hook-url",
-  discordModUpdateRoleId = "discord-mod-update-role-id",
-  discordNewModRoleId = "discord-new-mod-role-id",
-  discordModHookUrls = "discord-mod-hook-urls",
   googleServiceAccount = "google-service-account",
 }
 
@@ -156,24 +150,6 @@ async function run() {
         if (error) console.log("Error Saving To File:", error);
       }
     );
-
-    const discordHookUrl = core.getInput(Input.discordHookUrl);
-
-    if (discordHookUrl) {
-      const diff = getDiff(previousMods, nextDatabase);
-
-      const discordModHookUrls: Record<string, string> = JSON.parse(
-        core.getInput(Input.discordModHookUrls) || "{}"
-      );
-
-      sendDiscordNotifications(
-        discordHookUrl,
-        core.getInput(Input.discordModUpdateRoleId),
-        core.getInput(Input.discordNewModRoleId),
-        diff,
-        discordModHookUrls
-      );
-    }
   } catch (error) {
     core.setFailed(`Error running workflow script: ${error}`);
     console.log(`Error running workflow script: ${error}`);

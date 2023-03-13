@@ -10,7 +10,7 @@ import { filterFulfilledPromiseSettleResults } from "./helpers/promises.js";
 import { getDateAgeInHours } from "./helpers/dates.js";
 import { getReadmeUrls } from "./readmes.js";
 import { RELEASE_EXTENSION } from "./helpers/constants.js";
-import { InternalMod, OutputMod } from "./mod.js";
+import { InternalMod, OutputMod } from "../mod.js";
 import type { ModList } from "../mod-info.js";
 
 const REPO_URL_BASE = "https://github.com";

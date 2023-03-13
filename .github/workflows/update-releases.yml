@@ -67,10 +67,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           mods: mods.json
           previous-database: database/database.json
-          discord-mod-hook-urls: ${{ github.event_name != 'pull_request' && secrets.DISCORD_MOD_HOOK_URLS || '' }}
-          discord-hook-url: ${{ github.event_name != 'pull_request' && secrets.DISCORD_HOOK_URL || '' }}
-          discord-mod-update-role-id: ${{ github.event_name != 'pull_request' && secrets.DISCORD_MOD_UPDATE_ROLE_ID || '' }}
-          discord-new-mod-role-id: ${{ github.event_name != 'pull_request' && secrets.DISCORD_NEW_MOD_ROLE_ID || '' }}
           google-service-account: ${{ github.event_name != 'pull_request' && secrets.GOOGLE_SERVICE_ACCOUNT || '' }}
 
       - name: Upload Pages Artifact
@@ -99,3 +95,15 @@ jobs:
         if: ${{ github.event_name != 'pull_request' }}
         run: |
           curl -XPOST -u "${{ secrets.GH_USER }}:${{ secrets.GH_TOKEN }}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/ow-mods/outerwildsmods.com/dispatches --data '{"event_type": "build"}'
+
+      - name: Send Notifications
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: ./actions/send-notifications
+        with:
+          previous-database: database/database.json
+          next-database: database/database.json
+          discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
+          discord-hook-url: ${{ secrets.DISCORD_HOOK_URL }}
+          discord-mod-update-role-id: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
+          discord-new-mod-role-id: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
+          google-service-account: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
