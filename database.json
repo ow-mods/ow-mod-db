@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 110971
+    "downloadCount": 110972
   },
   "releases": [
     {
@@ -6961,6 +6961,38 @@
       "weeklyInstallCount": 73,
       "latestPrereleaseDescription": "",
       "latestReleaseDescription": ""
+    },
+    {
+      "name": "Mod Data Tools",
+      "uniqueName": "Hawkbar.ModDataTools",
+      "description": "",
+      "author": "Hawkbat",
+      "utility": true,
+      "downloadUrl": "https://github.com/Hawkbat/ow-mod-data-tools/releases/download/0.1.0/Hawkbar.ModDataTools.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-03-13T19:52:32Z",
+      "firstReleaseDate": "2023-03-13T19:52:32Z",
+      "repo": "https://github.com/Hawkbat/ow-mod-data-tools",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
+      },
+      "latestReleaseDescription": "**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/commits/0.1.0",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "library"
+      ],
+      "slug": "moddatatools",
+      "thumbnail": {
+        "main": "moddatatools.webp"
+      },
+      "repoUpdatedAt": "2023-03-13T20:10:35Z",
+      "databaseEntryUpdatedAt": "2023-03-13T20:13:36.581Z",
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
