@@ -33,9 +33,6 @@ export interface BaseMod {
     main?: string;
     openGraph?: string;
   };
-}
-
-export interface InternalMod extends BaseMod {
   latestReleaseDescription: string;
   latestPrereleaseDescription: string;
 }

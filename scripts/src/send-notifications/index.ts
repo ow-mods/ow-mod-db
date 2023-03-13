@@ -27,7 +27,6 @@ async function run() {
     ...previousDatabaseOutput.alphaReleases,
   ];
 
-  
   const nextDatabaseJson = (
     await fsp.readFile(core.getInput(Input.nextDatabaseFile))
   ).toString();

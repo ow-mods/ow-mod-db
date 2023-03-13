@@ -10,7 +10,7 @@ import { filterFulfilledPromiseSettleResults } from "./helpers/promises.js";
 import { getDateAgeInHours } from "./helpers/dates.js";
 import { getReadmeUrls } from "./readmes.js";
 import { RELEASE_EXTENSION } from "./helpers/constants.js";
-import { InternalMod, OutputMod } from "../mod.js";
+import { BaseMod, OutputMod } from "../mod.js";
 import type { ModList } from "../mod-info.js";
 
 const REPO_URL_BASE = "https://github.com";
@@ -26,7 +26,7 @@ export async function fetchMods(
   modsJson: string,
   outputDirectory: string,
   previousDatabase: OutputMod[]
-): Promise<InternalMod[]> {
+): Promise<BaseMod[]> {
   const modDb: ModList = JSON.parse(modsJson);
   const modInfos = modDb.mods;
   const octokit = getOctokit();
@@ -126,7 +126,7 @@ export async function fetchMods(
             releases[releases.length - 1] ?? cleanLatestRelease;
           const latestPrerelease = prereleases[0];
 
-          const mod: InternalMod = {
+          const mod: BaseMod = {
             name: modInfo.name,
             uniqueName: modInfo.uniqueName,
             description: githubRepository.description || "",
