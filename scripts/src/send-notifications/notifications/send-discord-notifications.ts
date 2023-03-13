@@ -23,15 +23,16 @@ function getNotificationDescription(diffItem: DiffItem) {
           : ""
       }${diffItem.nextMod.description}`;
     case "update": {
-      const nextReleaseDescription = diffItem.nextMod.latestReleaseDescription;
-
+      // const nextReleaseDescription = diffItem.nextMod.latestReleaseDescription;
+      const nextReleaseDescription = "TODO PLACEHOLDER nextReleaseDescription";
+      
       return `${diffItem.previousMod.version} → **${
         diffItem.nextMod.version
       }**.${nextReleaseDescription ? "\n >>> " : ""}${nextReleaseDescription}`;
     }
     case "update-prerelease": {
-      const prereleaseDescription =
-        diffItem.nextMod.latestPrereleaseDescription;
+      // const prereleaseDescription = diffItem.nextMod.latestPrereleaseDescription;
+      const prereleaseDescription = "TODO PLACEHOLDER prereleaseDescription";
 
       return `Prerelease **${diffItem.nextMod.prerelease?.version}**.${
         prereleaseDescription ? "\n >>> " : ""
