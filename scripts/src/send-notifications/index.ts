@@ -27,7 +27,12 @@ async function run() {
     ...previousDatabaseOutput.alphaReleases,
   ];
 
-  const nextDatabaseOutput: DatabaseOutput = JSON.parse(previousDatabaseJson);
+  
+  const nextDatabaseJson = (
+    await fsp.readFile(core.getInput(Input.nextDatabaseFile))
+  ).toString();
+
+  const nextDatabaseOutput: DatabaseOutput = JSON.parse(nextDatabaseJson);
 
   const nextMods = [
     ...nextDatabaseOutput.releases,
