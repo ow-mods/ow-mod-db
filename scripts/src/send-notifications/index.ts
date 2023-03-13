@@ -2,7 +2,7 @@ import * as core from "@actions/core";
 import { promises as fsp } from "fs";
 
 import { sendDiscordNotifications } from "./notifications/send-discord-notifications.js";
-import { getDiff } from "./notifications/get-diff.js";
+import { getDiff } from "./get-diff.js";
 import type { DatabaseOutput } from "../mod.js";
 
 enum Input {

@@ -9,7 +9,7 @@ import {
 import { filterFulfilledPromiseSettleResults } from "./helpers/promises.js";
 import { getDateAgeInHours } from "./helpers/dates.js";
 import { getReadmeUrls } from "./readmes.js";
-import { RELEASE_EXTENSION } from "./helpers/constants.js";
+import { RELEASE_EXTENSION } from "../constants.js";
 import { BaseMod, OutputMod } from "../mod.js";
 import type { ModList } from "../mod-info.js";
 

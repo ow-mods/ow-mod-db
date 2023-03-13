@@ -9,7 +9,7 @@ import { getViewCounts } from "./analytics/get-view-counts.js";
 import { getInstallCounts } from "./analytics/get-install-counts.js";
 import { getSettledResult } from "./helpers/promises.js";
 import { apiCallCount, rateLimitReached } from "./helpers/octokit.js";
-import { DATABASE_FILE_NAME } from "./helpers/constants.js";
+import { DATABASE_FILE_NAME } from "../constants.js";
 import type { OutputMod } from "../mod.js";
 
 enum Input {

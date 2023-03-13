@@ -1,4 +1,4 @@
-import type { BaseMod } from "../../mod.js";
+import type { BaseMod } from "../mod.js";
 
 export type DiffItem =
   | {
