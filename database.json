@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 110982
+    "downloadCount": 110985
   },
   "releases": [
     {
@@ -3787,6 +3787,8 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
+      "latestReleaseDescription": "Disabled mipmap generation for block textures to prevent them from looking really low resolution when texture quality isn't set to full.",
+      "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
       ],
@@ -3796,13 +3798,11 @@
         "openGraph": "blockplacing-static.webp"
       },
       "repoUpdatedAt": "2023-03-05T18:34:40Z",
-      "databaseEntryUpdatedAt": "2023-03-13T09:22:16.791Z",
+      "databaseEntryUpdatedAt": "2023-03-13T21:35:29.015Z",
       "viewCount": 3,
       "weeklyViewCount": 0,
       "installCount": 22,
-      "weeklyInstallCount": 4,
-      "latestPrereleaseDescription": "",
-      "latestReleaseDescription": ""
+      "weeklyInstallCount": 4
     },
     {
       "name": "Czech Localization",
