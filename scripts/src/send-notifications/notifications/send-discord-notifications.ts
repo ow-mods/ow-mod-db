@@ -83,6 +83,8 @@ export async function sendDiscordNotifications(
   diff: DiffItem[],
   discordModHookUrls: Record<string, string>
 ) {
+  console.log(`Sending notifications for ${diff.length} items...`);
+
   try {
     if (diff.length > 0) {
       const containsNewMod = diff.find(
