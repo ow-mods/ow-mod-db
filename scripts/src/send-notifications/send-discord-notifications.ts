@@ -61,7 +61,7 @@ function getEmbed(diffItem: DiffItem) {
     description: `${getNotificationDescription(diffItem)}\n[source code](${
       diffItem.nextMod.repo
     })`,
-    url: `http://outerwildsmods.com/mods/${diffItem.nextMod.slug}`,
+    url: `https://outerwildsmods.com/mods/${diffItem.nextMod.slug}?linked-from-notification=true`,
     color: getNotificationColor(diffItem),
     [getNotificationImageKey(diffItem)]: {
       url: `${THUMBNAIL_URL_BASE}/${
