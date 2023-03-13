@@ -57,6 +57,9 @@ jobs:
           ref: master
           path: database
 
+      - name: Make database copy
+        run: cp database/database.json previous-database.json
+
       - name: Remove existing thumbnails
         run: rm -rf database/thumbnails
 
@@ -66,7 +69,7 @@ jobs:
           out-directory: database
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           mods: mods.json
-          previous-database: database/database.json
+          previous-database: previous-database.json
           google-service-account: ${{ github.event_name != 'pull_request' && secrets.GOOGLE_SERVICE_ACCOUNT || '' }}
 
       - name: Upload Pages Artifact
@@ -100,7 +103,7 @@ jobs:
         if: ${{ github.event_name != 'pull_request' }}
         uses: ./actions/send-notifications
         with:
-          previous-database: database/database.json
+          previous-database: previous-database.json
           next-database: database/database.json
           discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           discord-hook-url: ${{ secrets.DISCORD_HOOK_URL }}
