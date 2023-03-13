@@ -1,25 +1,22 @@
-import type { InternalMod, OutputMod } from "../mod.js";
+import type { BaseMod } from "../mod.js";
 
 export type DiffItem =
   | {
-      nextMod: InternalMod;
+      nextMod: BaseMod;
       diffType: "add";
     }
   | {
-      previousMod: OutputMod;
-      nextMod: InternalMod;
+      previousMod: BaseMod;
+      nextMod: BaseMod;
       diffType: "update";
     }
   | {
-      previousMod?: OutputMod;
-      nextMod: InternalMod;
+      previousMod?: BaseMod;
+      nextMod: BaseMod;
       diffType: "update-prerelease";
     };
 
-export function getDiff(
-  previousDatabase: OutputMod[],
-  nextDatabase: InternalMod[]
-) {
+export function getDiff(previousDatabase: BaseMod[], nextDatabase: BaseMod[]) {
   const diff: DiffItem[] = [];
 
   for (const nextDatabaseMod of nextDatabase) {

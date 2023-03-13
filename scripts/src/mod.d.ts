@@ -1,3 +1,5 @@
+import { type ModManagerOutput } from "./update-database/fetch-mod-manager.js";
+
 export interface BaseMod {
   name: string;
   uniqueName: string;
@@ -31,9 +33,6 @@ export interface BaseMod {
     main?: string;
     openGraph?: string;
   };
-}
-
-export interface InternalMod extends BaseMod {
   latestReleaseDescription: string;
   latestPrereleaseDescription: string;
 }
@@ -44,3 +43,9 @@ export interface OutputMod extends BaseMod {
   installCount: number;
   weeklyInstallCount: number;
 }
+
+export type DatabaseOutput = {
+  modManager: ModManagerOutput;
+  releases: OutputMod[];
+  alphaReleases: OutputMod[];
+};

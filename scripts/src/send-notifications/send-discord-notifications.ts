@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { THUMBNAIL_URL_BASE } from "../helpers/constants.js";
+import { THUMBNAIL_URL_BASE } from "../constants.js";
 import { DiffItem } from "./get-diff.js";
 
 function getNotificationTitle(diffItem: DiffItem) {
@@ -82,6 +82,8 @@ export async function sendDiscordNotifications(
   diff: DiffItem[],
   discordModHookUrls: Record<string, string>
 ) {
+  console.log(`Sending notifications for ${diff.length} items...`);
+
   try {
     if (diff.length > 0) {
       const containsNewMod = diff.find(
