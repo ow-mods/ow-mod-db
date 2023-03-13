@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { THUMBNAIL_URL_BASE } from "../../constants.js";
+import { THUMBNAIL_URL_BASE } from "../constants.js";
 import { DiffItem } from "./get-diff.js";
 
 function getNotificationTitle(diffItem: DiffItem) {
