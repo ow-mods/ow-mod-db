@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 111135
+    "downloadCount": 111140
   },
   "releases": [
     {
@@ -77,8 +77,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T13:19:53.544Z",
       "viewCount": 1149,
       "weeklyViewCount": 329,
-      "installCount": 883,
-      "weeklyInstallCount": 250
+      "installCount": 886,
+      "weeklyInstallCount": 253
     },
     {
       "name": "Quantum Space Buddies",
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.26.3/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 26368,
+      "downloadCount": 26388,
       "latestReleaseDate": "2023-03-09T16:50:25Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed title screen buttons being visible too early.\r\n- Fixed issue where the ship would launch you around weirdly.\r\n- Fixed issue when trying to handle messages from disconnected players.\r\n- Added the WorldObject count into the hash messages.\r\n- Moved the `WakeUpSync` script off of the remote player prefab.\r\n- Removed the unused `StopMeditation` script.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,11 +111,11 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-03-11T05:29:02Z",
-      "databaseEntryUpdatedAt": "2023-03-14T06:44:43.935Z",
+      "databaseEntryUpdatedAt": "2023-03-14T18:56:30.340Z",
       "viewCount": 1448,
       "weeklyViewCount": 376,
-      "installCount": 712,
-      "weeklyInstallCount": 197
+      "installCount": 714,
+      "weeklyInstallCount": 199
     },
     {
       "name": "Light Bramble",
@@ -177,8 +177,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:45.561Z",
       "viewCount": 74,
       "weeklyViewCount": 35,
-      "installCount": 129,
-      "weeklyInstallCount": 34
+      "installCount": 130,
+      "weeklyInstallCount": 35
     },
     {
       "name": "Crouch Mod",
@@ -303,8 +303,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:45.118Z",
       "viewCount": 57,
       "weeklyViewCount": 14,
-      "installCount": 187,
-      "weeklyInstallCount": 39
+      "installCount": 188,
+      "weeklyInstallCount": 40
     },
     {
       "name": "ScoutStreaming",
@@ -334,8 +334,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:46.583Z",
       "viewCount": 23,
       "weeklyViewCount": 12,
-      "installCount": 151,
-      "weeklyInstallCount": 36
+      "installCount": 152,
+      "weeklyInstallCount": 37
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -365,8 +365,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:46.691Z",
       "viewCount": 16,
       "weeklyViewCount": 7,
-      "installCount": 42,
-      "weeklyInstallCount": 9
+      "installCount": 43,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Outer Wilds Online",
@@ -546,8 +546,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:46.335Z",
       "viewCount": 27,
       "weeklyViewCount": 7,
-      "installCount": 85,
-      "weeklyInstallCount": 25
+      "installCount": 86,
+      "weeklyInstallCount": 26
     },
     {
       "name": "OW Smooth Thrust",
@@ -575,8 +575,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:46.064Z",
       "viewCount": 31,
       "weeklyViewCount": 11,
-      "installCount": 63,
-      "weeklyInstallCount": 15
+      "installCount": 64,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Randomizer",
@@ -697,8 +697,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:47.331Z",
       "viewCount": 4,
       "weeklyViewCount": 1,
-      "installCount": 22,
-      "weeklyInstallCount": 5
+      "installCount": 23,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Third Person Camera",
@@ -784,8 +784,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:08.567Z",
       "viewCount": 73,
       "weeklyViewCount": 18,
-      "installCount": 358,
-      "weeklyInstallCount": 103
+      "installCount": 359,
+      "weeklyInstallCount": 104
     },
     {
       "name": "Static Camera",
@@ -847,8 +847,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:47.338Z",
       "viewCount": 35,
       "weeklyViewCount": 10,
-      "installCount": 86,
-      "weeklyInstallCount": 20
+      "installCount": 87,
+      "weeklyInstallCount": 21
     },
     {
       "name": "EotE Brighter Dreams",
@@ -975,8 +975,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:47.842Z",
       "viewCount": 14,
       "weeklyViewCount": 7,
-      "installCount": 31,
-      "weeklyInstallCount": 4
+      "installCount": 32,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Outer Thomas Echoes of the Tank Engine",
@@ -1071,8 +1071,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:49.261Z",
       "viewCount": 392,
       "weeklyViewCount": 114,
-      "installCount": 413,
-      "weeklyInstallCount": 107
+      "installCount": 416,
+      "weeklyInstallCount": 110
     },
     {
       "name": "New Horizons Examples",
@@ -1168,8 +1168,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:48.795Z",
       "viewCount": 29,
       "weeklyViewCount": 7,
-      "installCount": 100,
-      "weeklyInstallCount": 24
+      "installCount": 101,
+      "weeklyInstallCount": 25
     },
     {
       "name": "ElliePlanets!",
@@ -1300,8 +1300,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:49.260Z",
       "viewCount": 69,
       "weeklyViewCount": 20,
-      "installCount": 141,
-      "weeklyInstallCount": 47
+      "installCount": 142,
+      "weeklyInstallCount": 48
     },
     {
       "name": "Signals+",
@@ -1392,8 +1392,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:49.260Z",
       "viewCount": 18,
       "weeklyViewCount": 10,
-      "installCount": 57,
-      "weeklyInstallCount": 8
+      "installCount": 58,
+      "weeklyInstallCount": 9
     },
     {
       "name": "Slate Simulator",
@@ -1521,8 +1521,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:48.773Z",
       "viewCount": 8,
       "weeklyViewCount": 2,
-      "installCount": 12,
-      "weeklyInstallCount": 4
+      "installCount": 13,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Outer Wilds Korean Translation",
@@ -1613,8 +1613,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:50.696Z",
       "viewCount": 26,
       "weeklyViewCount": 6,
-      "installCount": 93,
-      "weeklyInstallCount": 28
+      "installCount": 94,
+      "weeklyInstallCount": 29
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -1705,8 +1705,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:51.031Z",
       "viewCount": 12,
       "weeklyViewCount": 3,
-      "installCount": 90,
-      "weeklyInstallCount": 22
+      "installCount": 91,
+      "weeklyInstallCount": 23
     },
     {
       "name": "Collider Visualizer",
@@ -1829,8 +1829,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:50.567Z",
       "viewCount": 42,
       "weeklyViewCount": 9,
-      "installCount": 44,
-      "weeklyInstallCount": 10
+      "installCount": 45,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Medley of Planets",
@@ -2024,8 +2024,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:51.719Z",
       "viewCount": 19,
       "weeklyViewCount": 6,
-      "installCount": 34,
-      "weeklyInstallCount": 1
+      "installCount": 35,
+      "weeklyInstallCount": 2
     },
     {
       "name": "Grapefruit",
@@ -2154,8 +2154,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:47:53.014Z",
       "viewCount": 187,
       "weeklyViewCount": 35,
-      "installCount": 353,
-      "weeklyInstallCount": 96
+      "installCount": 354,
+      "weeklyInstallCount": 97
     },
     {
       "name": "Only Timber Hearth",
@@ -2653,8 +2653,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:07.856Z",
       "viewCount": 10,
       "weeklyViewCount": 5,
-      "installCount": 79,
-      "weeklyInstallCount": 25
+      "installCount": 80,
+      "weeklyInstallCount": 26
     },
     {
       "name": "360 Camera",
@@ -3053,8 +3053,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:07.236Z",
       "viewCount": 7,
       "weeklyViewCount": 3,
-      "installCount": 31,
-      "weeklyInstallCount": 7
+      "installCount": 32,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Time Saver",
@@ -3365,8 +3365,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:08.119Z",
       "viewCount": 17,
       "weeklyViewCount": 7,
-      "installCount": 52,
-      "weeklyInstallCount": 17
+      "installCount": 53,
+      "weeklyInstallCount": 18
     },
     {
       "name": "Common Camera Utility",
@@ -4418,8 +4418,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T07:21:38.009Z",
       "viewCount": 644,
       "weeklyViewCount": 150,
-      "installCount": 451,
-      "weeklyInstallCount": 111
+      "installCount": 452,
+      "weeklyInstallCount": 112
     },
     {
       "name": "Secret Words",
@@ -4756,8 +4756,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:13.146Z",
       "viewCount": 47,
       "weeklyViewCount": 15,
-      "installCount": 102,
-      "weeklyInstallCount": 37
+      "installCount": 103,
+      "weeklyInstallCount": 38
     },
     {
       "name": "Fret's Quest",
@@ -4790,8 +4790,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:13.402Z",
       "viewCount": 140,
       "weeklyViewCount": 11,
-      "installCount": 82,
-      "weeklyInstallCount": 23
+      "installCount": 83,
+      "weeklyInstallCount": 24
     },
     {
       "name": "Heavy Sleeper",
@@ -5083,8 +5083,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:13.761Z",
       "viewCount": 12,
       "weeklyViewCount": 5,
-      "installCount": 85,
-      "weeklyInstallCount": 19
+      "installCount": 86,
+      "weeklyInstallCount": 20
     },
     {
       "name": "The Wilds: Extended",
@@ -5311,8 +5311,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:14.541Z",
       "viewCount": 61,
       "weeklyViewCount": 29,
-      "installCount": 227,
-      "weeklyInstallCount": 52
+      "installCount": 228,
+      "weeklyInstallCount": 53
     },
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
@@ -6130,8 +6130,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:15.967Z",
       "viewCount": 13,
       "weeklyViewCount": 3,
-      "installCount": 27,
-      "weeklyInstallCount": 7
+      "installCount": 28,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Volumetric Lights",
@@ -6258,8 +6258,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T07:21:32.054Z",
       "viewCount": 1490,
       "weeklyViewCount": 288,
-      "installCount": 702,
-      "weeklyInstallCount": 164
+      "installCount": 705,
+      "weeklyInstallCount": 167
     },
     {
       "name": "Daylight Savings",
@@ -6431,8 +6431,8 @@
       "databaseEntryUpdatedAt": "2023-03-14T17:48:15.994Z",
       "viewCount": 185,
       "weeklyViewCount": 35,
-      "installCount": 160,
-      "weeklyInstallCount": 30
+      "installCount": 161,
+      "weeklyInstallCount": 31
     },
     {
       "name": "The Machine",
