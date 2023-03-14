@@ -14,6 +14,13 @@ export interface BaseMod {
   downloadUrl: string;
   downloadCount: number;
   version: string;
+  tags: string[];
+  thumbnail: {
+    main?: string;
+    openGraph?: string;
+  };
+  latestReleaseDescription?: string;
+  latestPrereleaseDescription?: string;
   alpha?: boolean;
   required?: boolean;
   utility?: boolean;
@@ -28,13 +35,6 @@ export interface BaseMod {
     downloadUrl: string;
     date: string;
   };
-  tags: string[];
-  thumbnail: {
-    main?: string;
-    openGraph?: string;
-  };
-  latestReleaseDescription: string;
-  latestPrereleaseDescription: string;
 }
 
 export interface OutputMod extends BaseMod {

@@ -3,41 +3,44 @@ import { THUMBNAIL_URL_BASE } from "../constants.js";
 import { DiffItem } from "./get-diff.js";
 
 function getNotificationTitle(diffItem: DiffItem) {
-  const author = diffItem.nextMod.authorDisplay ?? diffItem.nextMod.author;
   switch (diffItem.diffType) {
     case "add":
-      return `Added ${diffItem.nextMod.name} by ${author}`;
-    case "update":
-      return `Updated ${diffItem.nextMod.name} by ${author}`;
-    case "update-prerelease":
-      return `Updated prerelease of ${diffItem.nextMod.name} by ${author}`;
+      return `New ${
+        diffItem.nextMod.parent
+          ? `addon for \`${diffItem.nextMod.parent}\``
+          : "mod"
+      }`;
+    case "update": {
+      return `Update ${diffItem.previousMod.version} → **${diffItem.nextMod.version}**`;
+    }
+    case "update-prerelease": {
+      return `Prerelease **${diffItem.nextMod.prerelease?.version}**`;
+    }
   }
 }
 
-function getNotificationDescription(diffItem: DiffItem) {
-  switch (diffItem.diffType) {
+function getNotificationDescription({ diffType, nextMod }: DiffItem) {
+  let description: string | undefined = "";
+  switch (diffType) {
     case "add":
-      return `${
-        diffItem.nextMod.parent
-          ? `Addon for \`${diffItem.nextMod.parent}\`. `
-          : ""
-      }${diffItem.nextMod.description}`;
+      description = nextMod.description;
+      break;
     case "update": {
-      const nextReleaseDescription = diffItem.nextMod.latestReleaseDescription;
-
-      return `${diffItem.previousMod.version} → **${
-        diffItem.nextMod.version
-      }**.${nextReleaseDescription ? "\n >>> " : ""}${nextReleaseDescription}`;
+      description = nextMod.latestReleaseDescription || nextMod.description;
+      break;
     }
     case "update-prerelease": {
-      const prereleaseDescription =
-        diffItem.nextMod.latestPrereleaseDescription;
-
-      return `Prerelease **${diffItem.nextMod.prerelease?.version}**.${
-        prereleaseDescription ? "\n >>> " : ""
-      }${prereleaseDescription}`;
+      description = nextMod.latestPrereleaseDescription || nextMod.description;
+      break;
     }
   }
+
+  return (
+    description ||
+    `Mod tagged as ${
+      nextMod.tags.length > 0 ? nextMod.tags.join(",") : "ABSOLUTELY NOTHING"
+    }`
+  );
 }
 
 function getNotificationColor(diffItem: DiffItem) {
@@ -55,13 +58,40 @@ function getNotificationImageKey(diffItem: DiffItem) {
   return diffItem.diffType === "add" ? "image" : "thumbnail";
 }
 
+function getUrlParams(diffItem: DiffItem) {
+  switch (diffItem.diffType) {
+    case "add":
+      return "?linked-from-notification=true";
+    case "update-prerelease":
+      return "?prerelease=true";
+    default:
+      return "";
+  }
+}
+
 function getEmbed(diffItem: DiffItem) {
+  const description = getNotificationDescription(diffItem);
+
   return {
-    title: getNotificationTitle(diffItem),
-    description: `${getNotificationDescription(diffItem)}\n[source code](${
-      diffItem.nextMod.repo
-    })`,
-    url: `https://outerwildsmods.com/mods/${diffItem.nextMod.slug}?linked-from-notification=true`,
+    type: "rich",
+    title: diffItem.nextMod.name,
+    fields: [
+      {
+        name: getNotificationTitle(diffItem),
+        value: description ? `>>> ${description}` : "\u200B",
+      },
+      {
+        name: "\u200B",
+        value: `[<:github:1085179483784499260> Source Code](${diffItem.nextMod.repo})`,
+      },
+    ],
+    author: {
+      name: diffItem.nextMod.authorDisplay ?? diffItem.nextMod.author,
+      icon_url: `https://github.com/${diffItem.nextMod.author}.png`,
+    },
+    url: `https://outerwildsmods.com/mods/${
+      diffItem.nextMod.slug
+    }${getUrlParams(diffItem)}`,
     color: getNotificationColor(diffItem),
     [getNotificationImageKey(diffItem)]: {
       url: `${THUMBNAIL_URL_BASE}/${
