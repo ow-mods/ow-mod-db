@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 111027
+    "downloadCount": 111035
   },
   "releases": [
     {
@@ -6968,17 +6968,17 @@
       "description": "A utility mod and editor tools that provide a framework for New Horizons mod authors to manage their mod data.",
       "author": "Hawkbat",
       "utility": true,
-      "downloadUrl": "https://github.com/Hawkbat/ow-mod-data-tools/releases/download/0.1.0/Hawkbar.ModDataTools.zip",
+      "downloadUrl": "https://github.com/Hawkbat/ow-mod-data-tools/releases/download/0.1.1/Hawkbar.ModDataTools.zip",
       "downloadCount": 0,
-      "latestReleaseDate": "2023-03-13T19:52:32Z",
+      "latestReleaseDate": "2023-03-14T02:11:39Z",
       "firstReleaseDate": "2023-03-13T19:52:32Z",
       "repo": "https://github.com/Hawkbat/ow-mod-data-tools",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "readme": {
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6987,8 +6987,8 @@
       "thumbnail": {
         "main": "moddatatools.webp"
       },
-      "repoUpdatedAt": "2023-03-13T20:40:51Z",
-      "databaseEntryUpdatedAt": "2023-03-13T20:48:53.956Z",
+      "repoUpdatedAt": "2023-03-14T02:11:49Z",
+      "databaseEntryUpdatedAt": "2023-03-14T02:40:20.134Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
