@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 111196
+    "downloadCount": 111197
   },
   "releases": [
     {
@@ -5792,7 +5792,7 @@
       "description": "a mod to assist with learning Outer Wilds speedruns",
       "author": "GrimLala",
       "downloadUrl": "https://github.com/GrimLala/SpeedTools/releases/download/v1.1.0/GrimLala.SpeedTools.zip",
-      "downloadCount": 98,
+      "downloadCount": 101,
       "latestReleaseDate": "2022-12-27T01:32:11Z",
       "firstReleaseDate": "2022-12-20T20:51:54Z",
       "repo": "https://github.com/GrimLala/SpeedTools",
@@ -5802,7 +5802,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/GrimLala/SpeedTools/master/README.md"
       },
       "authorDisplay": "grimsalad & LordLala",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Ship now reliably wedged in archway for Bramble Entry practice\r\n- Changed default keybind for Statue Skip so it doesn't use a key that is also used with the scout\r\n- Added experimental Stranger practice state",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5812,8 +5812,8 @@
       "thumbnail": {
         "main": "speedtools.webp"
       },
-      "repoUpdatedAt": "2023-03-13T18:45:09Z",
-      "databaseEntryUpdatedAt": "2023-03-14T19:19:59.984Z",
+      "repoUpdatedAt": "2023-03-15T05:40:06Z",
+      "databaseEntryUpdatedAt": "2023-03-15T05:42:25.302Z",
       "viewCount": 20,
       "weeklyViewCount": 8,
       "installCount": 19,
