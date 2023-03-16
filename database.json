@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 111414
+    "downloadCount": 111416
   },
   "releases": [
     {
@@ -1081,7 +1081,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.16.3/nh-examples.zip",
-      "downloadCount": 3959,
+      "downloadCount": 3960,
       "latestReleaseDate": "2023-01-19T23:44:06Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed Geswaldo's flickering hatred",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1101,7 +1101,7 @@
         "main": "newhorizonsexamples.webp"
       },
       "repoUpdatedAt": "2023-03-04T22:10:40Z",
-      "databaseEntryUpdatedAt": "2023-03-16T03:43:05.533Z",
+      "databaseEntryUpdatedAt": "2023-03-16T15:44:30.373Z",
       "viewCount": 25,
       "weeklyViewCount": 11,
       "installCount": 59,
@@ -2671,7 +2671,7 @@
         "htmlUrl": "https://github.com/BUNN1E5/OW360Camera/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/OW360Camera/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed a bug",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -2681,7 +2681,7 @@
         "main": "360camera.webp"
       },
       "repoUpdatedAt": "2023-03-04T10:44:09Z",
-      "databaseEntryUpdatedAt": "2023-03-16T03:43:05.086Z",
+      "databaseEntryUpdatedAt": "2023-03-16T15:44:30.531Z",
       "viewCount": 5,
       "weeklyViewCount": 3,
       "installCount": 18,
@@ -6978,7 +6978,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
