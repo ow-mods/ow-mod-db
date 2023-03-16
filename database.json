@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.26.3/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 26436,
+      "downloadCount": 26456,
       "latestReleaseDate": "2023-03-09T16:50:25Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed title screen buttons being visible too early.\r\n- Fixed issue where the ship would launch you around weirdly.\r\n- Fixed issue when trying to handle messages from disconnected players.\r\n- Added the WorldObject count into the hash messages.\r\n- Moved the `WakeUpSync` script off of the remote player prefab.\r\n- Removed the unused `StopMeditation` script.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,7 +111,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-03-11T05:29:02Z",
-      "databaseEntryUpdatedAt": "2023-03-15T19:16:13.438Z",
+      "databaseEntryUpdatedAt": "2023-03-16T07:24:56.845Z",
       "viewCount": 1446,
       "weeklyViewCount": 371,
       "installCount": 701,
@@ -5792,7 +5792,7 @@
       "description": "a mod to assist with learning Outer Wilds speedruns",
       "author": "GrimLala",
       "downloadUrl": "https://github.com/GrimLala/SpeedTools/releases/download/v1.1.0/GrimLala.SpeedTools.zip",
-      "downloadCount": 101,
+      "downloadCount": 102,
       "latestReleaseDate": "2022-12-27T01:32:11Z",
       "firstReleaseDate": "2022-12-20T20:51:54Z",
       "repo": "https://github.com/GrimLala/SpeedTools",
@@ -5802,7 +5802,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/GrimLala/SpeedTools/master/README.md"
       },
       "authorDisplay": "grimsalad & LordLala",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Ship now reliably wedged in archway for Bramble Entry practice\r\n- Changed default keybind for Statue Skip so it doesn't use a key that is also used with the scout\r\n- Added experimental Stranger practice state",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5813,7 +5813,7 @@
         "main": "speedtools.webp"
       },
       "repoUpdatedAt": "2023-03-15T18:56:37Z",
-      "databaseEntryUpdatedAt": "2023-03-15T19:16:13.551Z",
+      "databaseEntryUpdatedAt": "2023-03-16T07:24:56.711Z",
       "viewCount": 25,
       "weeklyViewCount": 13,
       "installCount": 21,
