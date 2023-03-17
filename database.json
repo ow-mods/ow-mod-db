@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 111633
+    "downloadCount": 111638
   },
   "releases": [
     {
@@ -154,7 +154,7 @@
       "description": "A free-camera mod for Outer Wilds",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.6.0/misternebula.FreeCam.zip",
-      "downloadCount": 5072,
+      "downloadCount": 5075,
       "latestReleaseDate": "2022-10-04T20:27:56Z",
       "firstReleaseDate": "2020-04-10T13:12:27Z",
       "repo": "https://github.com/misternebula/FreeCam",
@@ -164,7 +164,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/FreeCam/master/README.md"
       },
       "authorDisplay": "_nebula & xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Features:\r\n- Added on-screen prompts for all controls (can be hidden in the options menu)\r\n- Added new key (\") to toggle hiding the HUD (good for screenshots!)\r\n\r\n## Fixes:\r\n- Removed helmet toggle key since it does nothing now (CCU handles this).\r\n- Fixed a bug which locked your controls if you used FreeCam while in a projection pool.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -174,7 +174,7 @@
         "main": "freecam.webp"
       },
       "repoUpdatedAt": "2023-03-16T04:12:34Z",
-      "databaseEntryUpdatedAt": "2023-03-17T04:38:45.000Z",
+      "databaseEntryUpdatedAt": "2023-03-17T16:52:24.520Z",
       "viewCount": 84,
       "weeklyViewCount": 46,
       "installCount": 121,
@@ -4244,7 +4244,7 @@
         "htmlUrl": "https://github.com/LivingFray/OW-RGB-Integration/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/LivingFray/OW-RGB-Integration/master/README.md"
       },
-      "latestReleaseDescription": "Added ambient effects while on the quantum moon",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration"
