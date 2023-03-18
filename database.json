@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 111916
+    "downloadCount": 111918
   },
   "releases": [
     {
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Major features\r\n- Details can now be affected by physics by adding `hasPhysics = true`.\r\n- `ambientLight` has been replaced by a new `AmbientLights` module with new settings for radii, position, shell, and tint.\r\n- Automatic Nomai text arc placement! \r\n   - Nomai wall text is now automatically arranged to fit on a whiteboard, no need to place text manually anymore! \r\n   - Manual placement is still supported if you want it.\r\n   - If you want to specify certain arcs to be written by children (or strangers) instead of adults without requiring manual placement, use the `keepAutoPlacement` property of ArcInfo.\r\n   - Hopefully this feature makes wall text less intimidating to include in addons.\r\n- **Important: `nomaiText` has been deprecated in order to preserve the legacy nomai text generation. Please use `translatorText` in the future, it is exactly the same except it lets you use the new automatic spiral placement, caching, and so on.**\r\n\r\n## Minor features\r\n- Dialogues can now toggle flashlight when you interact with them.\r\n- Caching! \r\n   - This feature introduces new .nhcache files, which New Horizons will generate automatically. One nhcache file will be generated per planet. If the cache would be empty, a file won't be created.\r\n   - Make sure to include these files when releasing your addon. This will allow your players to have fast loading times on their first loop. If you forget to include them, no worries, their first loop will be slow to load but every following loop will be fast.\r\n   - Cache files automatically clear unused entries, so there's no need to manage them.\r\n\r\n## Bug fixes\r\n- Fixed a bug in ghost matter submerge code (it now functions).\r\n- Water radius now gets updated by the size controller, meaning submerge works with changing size.\r\n- Fixed strange light behavior on transparent objects in map mode.\r\n- Water is now actually illuminated by sunlight.\r\n- Fixed fog fading occurring near bramble seeds.\r\n- Should fix some compatibility issues with NomaiVR\r\n- Fix showing electricity effects on lanterns\r\n\r\nalso rip jerry\r\n\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/516**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-03-18T22:34:22Z",
-      "databaseEntryUpdatedAt": "2023-03-18T22:39:41.381Z",
+      "repoUpdatedAt": "2023-03-18T23:01:46Z",
+      "databaseEntryUpdatedAt": "2023-03-18T23:12:05.935Z",
       "viewCount": 402,
       "weeklyViewCount": 138,
       "installCount": 417,
@@ -2260,7 +2260,7 @@
       "description": "The mod's not yet finished. All characters are fully voiced, but the files are currently being mixed to improve their quality and add environmental effects.",
       "author": "Krevace",
       "downloadUrl": "https://github.com/Krevace/ow-voice-mod/releases/download/0.4.2/Krevace.VoiceMod.zip",
-      "downloadCount": 3468,
+      "downloadCount": 3477,
       "latestReleaseDate": "2022-12-08T20:58:57Z",
       "firstReleaseDate": "2022-04-08T00:40:29Z",
       "repo": "https://github.com/Krevace/ow-voice-mod",
@@ -2270,7 +2270,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Krevace/ow-voice-mod/master/README.md"
       },
       "authorDisplay": "Krevace & JohnCorby",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "It's about time for him to show up in the author's field. \r\n\r\n**Changelog:** [`0.4.1...0.4.2`](https://github.com/Krevace/ow-voice-mod/compare/0.4.1...0.4.2)",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -2280,7 +2280,7 @@
         "main": "voiceactingmod.webp"
       },
       "repoUpdatedAt": "2023-03-16T22:26:32Z",
-      "databaseEntryUpdatedAt": "2023-03-18T10:53:43.687Z",
+      "databaseEntryUpdatedAt": "2023-03-18T23:12:06.125Z",
       "viewCount": 181,
       "weeklyViewCount": 50,
       "installCount": 197,
@@ -3787,7 +3787,7 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "Disabled mipmap generation for block textures to prevent them from looking really low resolution when texture quality isn't set to full.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -5802,7 +5802,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/GrimLala/SpeedTools/master/README.md"
       },
       "authorDisplay": "grimsalad & LordLala",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Ship now reliably wedged in archway for Bramble Entry practice\r\n- Changed default keybind for Statue Skip so it doesn't use a key that is also used with the scout\r\n- Added experimental Stranger practice state",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5812,8 +5812,8 @@
       "thumbnail": {
         "main": "speedtools.webp"
       },
-      "repoUpdatedAt": "2023-03-16T20:14:16Z",
-      "databaseEntryUpdatedAt": "2023-03-18T20:53:48.738Z",
+      "repoUpdatedAt": "2023-03-18T23:10:49Z",
+      "databaseEntryUpdatedAt": "2023-03-18T23:12:06.161Z",
       "viewCount": 26,
       "weeklyViewCount": 15,
       "installCount": 22,
