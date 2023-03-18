@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 111898
+    "downloadCount": 111900
   },
   "releases": [
     {
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.9.0/xen.NewHorizons.zip",
-      "downloadCount": 21761,
+      "downloadCount": 21762,
       "latestReleaseDate": "2023-03-04T23:07:37Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-03-18T20:08:13Z",
-      "databaseEntryUpdatedAt": "2023-03-18T20:14:36.343Z",
+      "repoUpdatedAt": "2023-03-18T20:26:41Z",
+      "databaseEntryUpdatedAt": "2023-03-18T20:28:27.635Z",
       "viewCount": 402,
       "weeklyViewCount": 138,
       "installCount": 417,
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "Fixed Geswaldo's flickering hatred",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3910,7 +3910,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-localization-utility/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-localization-utility/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- New languages appear in the options slider\r\n- Can replace a language instead of just adding new ones\r\n- Added font size modifier and default font spacing options\r\n- Fixed some errors\r\n\r\nThanks MegaPiggy for contributing these things months ago and then I forgot to make a release haha (oops)",
       "latestPrereleaseDescription": "",
       "tags": [
         "library",
@@ -3919,7 +3919,7 @@
       "slug": "interplanetarypolyglot",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-17T20:00:08Z",
-      "databaseEntryUpdatedAt": "2023-03-18T08:23:56.546Z",
+      "databaseEntryUpdatedAt": "2023-03-18T20:28:26.681Z",
       "viewCount": 4,
       "weeklyViewCount": 1,
       "installCount": 6,
