@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 112062
+    "downloadCount": 112064
   },
   "releases": [
     {
@@ -1081,7 +1081,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.16.3/nh-examples.zip",
-      "downloadCount": 3968,
+      "downloadCount": 3969,
       "latestReleaseDate": "2023-01-19T23:44:06Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed Geswaldo's flickering hatred",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1101,7 +1101,7 @@
         "main": "newhorizonsexamples.webp"
       },
       "repoUpdatedAt": "2023-03-19T02:03:53Z",
-      "databaseEntryUpdatedAt": "2023-03-19T02:31:49.295Z",
+      "databaseEntryUpdatedAt": "2023-03-19T14:39:55.491Z",
       "viewCount": 25,
       "weeklyViewCount": 9,
       "installCount": 64,
@@ -7010,7 +7010,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-green-screen/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Add colour and keybind options\r\n- Make green screen double-sided\r\n- Clear markers if the user goes to another planet\r\n- Use active camera for creating markers instead of exclusively the player camera",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -7021,7 +7021,7 @@
         "main": "greenscreen.webp"
       },
       "repoUpdatedAt": "2023-03-17T00:43:46Z",
-      "databaseEntryUpdatedAt": "2023-03-19T02:31:49.545Z",
+      "databaseEntryUpdatedAt": "2023-03-19T14:39:55.754Z",
       "viewCount": 22,
       "weeklyViewCount": 22,
       "installCount": 2,
