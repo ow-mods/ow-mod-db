@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 112680
+    "downloadCount": 112681
   },
   "releases": [
     {
@@ -164,7 +164,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/FreeCam/master/README.md"
       },
       "authorDisplay": "_nebula & xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Features:\r\n- Added on-screen prompts for all controls (can be hidden in the options menu)\r\n- Added new key (\") to toggle hiding the HUD (good for screenshots!)\r\n\r\n## Fixes:\r\n- Removed helmet toggle key since it does nothing now (CCU handles this).\r\n- Fixed a bug which locked your controls if you used FreeCam while in a projection pool.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -174,7 +174,7 @@
         "main": "freecam.webp"
       },
       "repoUpdatedAt": "2023-03-16T04:12:34Z",
-      "databaseEntryUpdatedAt": "2023-03-22T06:25:57.452Z",
+      "databaseEntryUpdatedAt": "2023-03-22T18:40:46.908Z",
       "viewCount": 99,
       "weeklyViewCount": 45,
       "installCount": 123,
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-03-22T18:23:35Z",
-      "databaseEntryUpdatedAt": "2023-03-22T18:26:12.171Z",
+      "repoUpdatedAt": "2023-03-22T18:37:22Z",
+      "databaseEntryUpdatedAt": "2023-03-22T18:40:47.870Z",
       "viewCount": 414,
       "weeklyViewCount": 128,
       "installCount": 408,
@@ -4244,7 +4244,7 @@
         "htmlUrl": "https://github.com/LivingFray/OW-RGB-Integration/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/LivingFray/OW-RGB-Integration/master/README.md"
       },
-      "latestReleaseDescription": "Added ambient effects while on the quantum moon",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration"
