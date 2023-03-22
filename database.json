@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 112588
+    "downloadCount": 112589
   },
   "releases": [
     {
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- Details can now be affected by physics by adding `hasPhysics = true`.\r\n- `ambientLight` has been replaced by a new `AmbientLights` module with new settings for radii, position, shell, and tint.\r\n- Automatic Nomai text arc placement! \r\n   - Nomai wall text is now automatically arranged to fit on a whiteboard, no need to place text manually anymore! \r\n   - Manual placement is still supported if you want it.\r\n   - If you want to specify certain arcs to be written by children (or strangers) instead of adults without requiring manual placement, use the `keepAutoPlacement` property of ArcInfo.\r\n   - Hopefully this feature makes wall text less intimidating to include in addons.\r\n- **Important: `nomaiText` has been deprecated in order to preserve the legacy nomai text generation. Please use `translatorText` in the future, it is exactly the same except it lets you use the new automatic spiral placement, caching, and so on.**\r\n\r\n## Minor features\r\n- Dialogues can now toggle flashlight when you interact with them.\r\n- Caching! \r\n   - This feature introduces new .nhcache files, which New Horizons will generate automatically. One nhcache file will be generated per planet. If the cache would be empty, a file won't be created.\r\n   - Make sure to include these files when releasing your addon. This will allow your players to have fast loading times on their first loop. If you forget to include them, no worries, their first loop will be slow to load but every following loop will be fast.\r\n   - Cache files automatically clear unused entries, so there's no need to manage them.\r\n\r\n## Bug fixes\r\n- Fixed a bug in ghost matter submerge code (it now functions).\r\n- Water radius now gets updated by the size controller, meaning submerge works with changing size.\r\n- Fixed strange light behavior on transparent objects in map mode.\r\n- Water is now actually illuminated by sunlight.\r\n- Fixed fog fading occurring near bramble seeds.\r\n- Should fix some compatibility issues with NomaiVR\r\n- Fix showing electricity effects on lanterns\r\n\r\nalso rip jerry\r\n\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/516**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -7000,7 +7000,7 @@
       "description": "Allows placing a green screen for pictures and video",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-green-screen/releases/download/0.1.1/xen.GreenScreenMod.zip",
-      "downloadCount": 2,
+      "downloadCount": 5,
       "latestReleaseDate": "2023-03-17T00:43:43Z",
       "firstReleaseDate": "2023-03-16T04:32:43Z",
       "repo": "https://github.com/xen-42/outer-wilds-green-screen",
@@ -7010,7 +7010,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-green-screen/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Add colour and keybind options\r\n- Make green screen double-sided\r\n- Clear markers if the user goes to another planet\r\n- Use active camera for creating markers instead of exclusively the player camera",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -7021,7 +7021,7 @@
         "main": "greenscreen.webp"
       },
       "repoUpdatedAt": "2023-03-17T00:43:46Z",
-      "databaseEntryUpdatedAt": "2023-03-21T15:33:01.616Z",
+      "databaseEntryUpdatedAt": "2023-03-22T03:39:11.759Z",
       "viewCount": 28,
       "weeklyViewCount": 28,
       "installCount": 3,
