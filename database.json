@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 112573
+    "downloadCount": 112582
   },
   "releases": [
     {
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "- Fixed title screen buttons being visible too early.\r\n- Fixed issue where the ship would launch you around weirdly.\r\n- Fixed issue when trying to handle messages from disconnected players.\r\n- Added the WorldObject count into the hash messages.\r\n- Moved the `WakeUpSync` script off of the remote player prefab.\r\n- Removed the unused `StopMeditation` script.",
-      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.9.0/xen.NewHorizons.zip",
-      "downloadCount": 21886,
+      "downloadCount": 21890,
       "latestReleaseDate": "2023-03-04T23:07:37Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-03-22T00:44:52Z",
-      "databaseEntryUpdatedAt": "2023-03-22T00:45:46.576Z",
+      "repoUpdatedAt": "2023-03-22T00:51:32Z",
+      "databaseEntryUpdatedAt": "2023-03-22T01:59:30.280Z",
       "viewCount": 404,
       "weeklyViewCount": 118,
       "installCount": 399,
@@ -2270,7 +2270,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Krevace/ow-voice-mod/master/README.md"
       },
       "authorDisplay": "Krevace & JohnCorby",
-      "latestReleaseDescription": "It's about time for him to show up in the author's field. \r\n\r\n**Changelog:** [`0.4.1...0.4.2`](https://github.com/Krevace/ow-voice-mod/compare/0.4.1...0.4.2)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -3840,7 +3840,7 @@
       "author": "mrwallace888",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/mrwallace888/OWNH-Carson-System/releases/download/v2.0.0/OWNH-Carson-System.zip",
-      "downloadCount": 651,
+      "downloadCount": 653,
       "latestReleaseDate": "2022-09-20T00:39:41Z",
       "firstReleaseDate": "2022-07-12T02:37:03Z",
       "repo": "https://github.com/mrwallace888/OWNH-Carson-System",
@@ -3849,7 +3849,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3859,7 +3859,7 @@
         "main": "carsonsystem.webp"
       },
       "repoUpdatedAt": "2023-02-22T14:53:05Z",
-      "databaseEntryUpdatedAt": "2023-03-21T13:38:50.437Z",
+      "databaseEntryUpdatedAt": "2023-03-22T01:59:29.914Z",
       "viewCount": 23,
       "weeklyViewCount": 5,
       "installCount": 25,
