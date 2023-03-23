@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 112749
+    "downloadCount": 112751
   },
   "releases": [
     {
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.9.0/xen.NewHorizons.zip",
-      "downloadCount": 21914,
+      "downloadCount": 21916,
       "latestReleaseDate": "2023-03-04T23:07:37Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-03-23T04:58:47Z",
-      "databaseEntryUpdatedAt": "2023-03-23T05:12:24.520Z",
+      "repoUpdatedAt": "2023-03-23T05:17:38Z",
+      "databaseEntryUpdatedAt": "2023-03-23T05:27:27.775Z",
       "viewCount": 431,
       "weeklyViewCount": 143,
       "installCount": 403,
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed Geswaldo's flickering hatred",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1100,8 +1100,8 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "repoUpdatedAt": "2023-03-23T04:34:28Z",
-      "databaseEntryUpdatedAt": "2023-03-23T04:40:36.817Z",
+      "repoUpdatedAt": "2023-03-23T05:16:38Z",
+      "databaseEntryUpdatedAt": "2023-03-23T05:27:27.765Z",
       "viewCount": 23,
       "weeklyViewCount": 3,
       "installCount": 65,
@@ -6978,7 +6978,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6988,7 +6988,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-03-14T02:11:49Z",
-      "databaseEntryUpdatedAt": "2023-03-22T17:20:25.877Z",
+      "databaseEntryUpdatedAt": "2023-03-23T05:27:27.928Z",
       "viewCount": 31,
       "weeklyViewCount": 20,
       "installCount": 3,
