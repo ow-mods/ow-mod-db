@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 112874
+    "downloadCount": 112875
   },
   "releases": [
     {
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "Fixed Geswaldo's flickering hatred",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3778,7 +3778,7 @@
       "description": "Place Minecraft blocks with left click, destroy them with alt-click, and switch blocks with T (See README for VR controls)",
       "author": "12090113",
       "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.1.1/Cubes.zip",
-      "downloadCount": 302,
+      "downloadCount": 303,
       "latestReleaseDate": "2022-07-17T17:45:36Z",
       "firstReleaseDate": "2022-07-10T21:49:54Z",
       "repo": "https://github.com/12090113/outer-wilds-cubes",
@@ -3787,7 +3787,7 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Disabled mipmap generation for block textures to prevent them from looking really low resolution when texture quality isn't set to full.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3798,7 +3798,7 @@
         "openGraph": "blockplacing-static.webp"
       },
       "repoUpdatedAt": "2023-03-05T18:34:40Z",
-      "databaseEntryUpdatedAt": "2023-03-23T11:55:07.618Z",
+      "databaseEntryUpdatedAt": "2023-03-23T23:59:30.231Z",
       "viewCount": 5,
       "weeklyViewCount": 1,
       "installCount": 13,
