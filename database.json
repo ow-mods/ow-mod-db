@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 112833
+    "downloadCount": 112836
   },
   "releases": [
     {
@@ -1081,7 +1081,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.16.3/nh-examples.zip",
-      "downloadCount": 3986,
+      "downloadCount": 3987,
       "latestReleaseDate": "2023-01-19T23:44:06Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed Geswaldo's flickering hatred",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1101,7 +1101,7 @@
         "main": "newhorizonsexamples.webp"
       },
       "repoUpdatedAt": "2023-03-23T05:16:38Z",
-      "databaseEntryUpdatedAt": "2023-03-23T05:27:27.765Z",
+      "databaseEntryUpdatedAt": "2023-03-23T17:35:09.941Z",
       "viewCount": 24,
       "weeklyViewCount": 4,
       "installCount": 65,
@@ -6978,7 +6978,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6988,7 +6988,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-03-14T02:11:49Z",
-      "databaseEntryUpdatedAt": "2023-03-23T05:27:27.928Z",
+      "databaseEntryUpdatedAt": "2023-03-23T17:35:09.999Z",
       "viewCount": 31,
       "weeklyViewCount": 20,
       "installCount": 3,
