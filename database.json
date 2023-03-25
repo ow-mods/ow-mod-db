@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 113173
+    "downloadCount": 113177
   },
   "releases": [
     {
@@ -773,7 +773,7 @@
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
       "version": "1.0.4",
-      "latestReleaseDescription": "Fixed resolution issues with final credits scene",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -1045,18 +1045,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.9.0/xen.NewHorizons.zip",
-      "downloadCount": 22003,
-      "latestReleaseDate": "2023-03-04T23:07:37Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.0/xen.NewHorizons.zip",
+      "downloadCount": 22004,
+      "latestReleaseDate": "2023-03-25T19:42:46Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.9.0",
+      "version": "v1.10.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Major features\r\n- Nomai warp pads! You can build transmitters (like the towers on Ash Twin) and receivers on other planets. Can also be used to just make permanent teleportation pads if the alignment window is set to 360 degrees. Receivers also take in general prop arguments for a Nomai computer which will display the departure and arrival times.\r\n\r\n## Minor features\r\n- Adds `gameOverText` and `deathType` to credits volumes to display orange text explaining the ending. (#512)\r\n- Unified parenting, positioning, and rotating code across all prop-like objects, adding support for parent-relative offsets and rotations to rafts, geysers, tornados, volcanos, and others. All prop-like objects have the common fields `rename`, `parentPath`, and `isRelativeToParent`, as well as any applicable position and rotation fields.\r\n    - Added `alignRadial` to all props with rotations, replacing `alignToNormal` on details. This now stacks with normal rotations, where behavior was inconsistent before.\r\n    - `translatorText` props now behave like other props in terms of positioning and rotating. `normal` is no longer used to calculate rotations of some objects; instead you can use `alignRadial` and/or `rotation`. Wall text continues to use `normal` to indicate the direction of the surface to align the text to. Existing `nomaiText` wall text and props are unaffected by all of these changes.\r\n    - Moved the Spawn module player spawn and ship spawn fields to new `playerSpawn` and `shipSpawn` prop-like object fields.\r\n    - Moved dialogue remote trigger fields to a new `remoteTrigger` prop-like object field.\r\n    - Moved the Vessel module vessel location and warp exit location fields to new `vesselSpawn` and `warpExit` prop-like object fields. They also have a `parentBody` field to specify the planet to attach them to.\r\n    - Made quantum group sockets and bramble nodes/seeds prop-like objects.\r\n- Other Vessel changes\r\n    - Added a new `alwaysPresent` property to the Vessel module to spawn the vessel whether it was used to warp to the system or not, and a `spawnOnVessel` property to always spawn on the vessel when entering the system, if it is present.\r\n    - Added a new `hasPhysics` property to the Vessel module to allow users to disable the default behavior of the vessel floating on its own and allow it to be parented to other planets or bodies.\r\n    - Added a new `attachToVessel` property to `warpExit` to keep the old behavior of the warp exit following the vessel.\r\n- Added a `whiteboard` type to `translatorText` props. If `xmlFile` is set, it will spawn with a scroll already inserted with that text.\r\n- Added `ignoreSun` to details to optionally make them ignore the effects of sunlight.\r\n\r\n## Improvements\r\n- Improved error logging when a detail fails to be created because a script component's script is missing\r\n- Added `isRelativeToParent` to geysers to match other prop-like objects.\r\n- Added `rename` to signals to match other prop-like objects.\r\n- Slightly better error logging if `xmlFile` is not provided for translator text props that require it\r\n- Now we use nullable values in `translatorText` instead of separate `keepAutoPlacement` bool\r\n- Deferred singularity linking until after all planets are built, so build order no longer affects pairs where only one has `pairedSingularity` set.\r\n\r\n## Bug fixes\r\n- Fixed a vanilla bug that would sometimes cause the camera's vertical rotation to get locked in place when spawning on the vessel\r\n- Fixed several edge cases of props not respecting relative rotations when `isRelativeToParent` was set\r\n- Fixed geyser rotations being slightly off due to inheriting the original prefab's rotation\r\n- Fixed ship spawn points not actually being rotated, just the ship itself (only noticeable if re-using the spawn point game object after initial spawn)\r\n- Details with `keepLoaded` will no longer have cull groups etc on them, so they should work in map mode. `keepLoaded` will also force streaming to be always loaded instead of just when you're in the sector.\r\n- Fix constant NRE from rings with both a scale curve and opacity curve\r\n\r\n## Note for add-on devs:\r\nWe rearranged some internal stuff, so if you were referencing the NH dll in your projects some stuff might have broken. Tested it only with addons that were actually released. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/552**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-03-25T19:37:41Z",
-      "databaseEntryUpdatedAt": "2023-03-25T19:41:12.023Z",
+      "repoUpdatedAt": "2023-03-25T21:07:09Z",
+      "databaseEntryUpdatedAt": "2023-03-25T21:09:59.211Z",
       "viewCount": 478,
       "weeklyViewCount": 186,
       "installCount": 391,
