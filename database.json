@@ -78,7 +78,7 @@
       "viewCount": 1849,
       "weeklyViewCount": 837,
       "installCount": 928,
-      "weeklyInstallCount": 278
+      "weeklyInstallCount": 284
     },
     {
       "name": "Quantum Space Buddies",
@@ -115,7 +115,7 @@
       "viewCount": 1555,
       "weeklyViewCount": 470,
       "installCount": 677,
-      "weeklyInstallCount": 158
+      "weeklyInstallCount": 160
     },
     {
       "name": "Light Bramble",
@@ -207,7 +207,7 @@
       "viewCount": 7,
       "weeklyViewCount": 3,
       "installCount": 39,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 16
     },
     {
       "name": "Clock",
@@ -243,7 +243,7 @@
       "viewCount": 99,
       "weeklyViewCount": 34,
       "installCount": 274,
-      "weeklyInstallCount": 75
+      "weeklyInstallCount": 76
     },
     {
       "name": "HD Screenshot",
@@ -304,7 +304,7 @@
       "viewCount": 68,
       "weeklyViewCount": 24,
       "installCount": 162,
-      "weeklyInstallCount": 44
+      "weeklyInstallCount": 46
     },
     {
       "name": "ScoutStreaming",
@@ -335,7 +335,7 @@
       "viewCount": 34,
       "weeklyViewCount": 13,
       "installCount": 154,
-      "weeklyInstallCount": 39
+      "weeklyInstallCount": 41
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -431,7 +431,7 @@
       "viewCount": 151,
       "weeklyViewCount": 42,
       "installCount": 102,
-      "weeklyInstallCount": 29
+      "weeklyInstallCount": 30
     },
     {
       "name": "Cheats Mod",
@@ -460,7 +460,7 @@
       "viewCount": 275,
       "weeklyViewCount": 59,
       "installCount": 313,
-      "weeklyInstallCount": 85
+      "weeklyInstallCount": 87
     },
     {
       "name": "Difficulty Mod",
@@ -518,7 +518,7 @@
       "viewCount": 54,
       "weeklyViewCount": 10,
       "installCount": 77,
-      "weeklyInstallCount": 21
+      "weeklyInstallCount": 23
     },
     {
       "name": "SlowTime",
@@ -759,7 +759,7 @@
       "viewCount": 10,
       "weeklyViewCount": 6,
       "installCount": 156,
-      "weeklyInstallCount": 46
+      "weeklyInstallCount": 48
     },
     {
       "name": "NomaiVR FFR",
@@ -785,7 +785,7 @@
       "viewCount": 84,
       "weeklyViewCount": 26,
       "installCount": 389,
-      "weeklyInstallCount": 114
+      "weeklyInstallCount": 115
     },
     {
       "name": "Static Camera",
@@ -848,7 +848,7 @@
       "viewCount": 44,
       "weeklyViewCount": 18,
       "installCount": 79,
-      "weeklyInstallCount": 23
+      "weeklyInstallCount": 24
     },
     {
       "name": "EotE Brighter Dreams",
@@ -1007,7 +1007,7 @@
       "viewCount": 14,
       "weeklyViewCount": 2,
       "installCount": 34,
-      "weeklyInstallCount": 13
+      "weeklyInstallCount": 14
     },
     {
       "name": "Majora's Mask's Moon",
@@ -1038,7 +1038,7 @@
       "viewCount": 10,
       "weeklyViewCount": 5,
       "installCount": 35,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "New Horizons",
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.9.0/xen.NewHorizons.zip",
-      "downloadCount": 21998,
+      "downloadCount": 21999,
       "latestReleaseDate": "2023-03-04T23:07:37Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Major features\r\n- Details can now be affected by physics by adding `hasPhysics = true`.\r\n- `ambientLight` has been replaced by a new `AmbientLights` module with new settings for radii, position, shell, and tint.\r\n- Automatic Nomai text arc placement! \r\n   - Nomai wall text is now automatically arranged to fit on a whiteboard, no need to place text manually anymore! \r\n   - Manual placement is still supported if you want it.\r\n   - If you want to specify certain arcs to be written by children (or strangers) instead of adults without requiring manual placement, use the `keepAutoPlacement` property of ArcInfo.\r\n   - Hopefully this feature makes wall text less intimidating to include in addons.\r\n- **Important: `nomaiText` has been deprecated in order to preserve the legacy nomai text generation. Please use `translatorText` in the future, it is exactly the same except it lets you use the new automatic spiral placement, caching, and so on.**\r\n\r\n## Minor features\r\n- Dialogues can now toggle flashlight when you interact with them.\r\n- Caching! \r\n   - This feature introduces new .nhcache files, which New Horizons will generate automatically. One nhcache file will be generated per planet. If the cache would be empty, a file won't be created.\r\n   - Make sure to include these files when releasing your addon. This will allow your players to have fast loading times on their first loop. If you forget to include them, no worries, their first loop will be slow to load but every following loop will be fast.\r\n   - Cache files automatically clear unused entries, so there's no need to manage them.\r\n\r\n## Bug fixes\r\n- Fixed a bug in ghost matter submerge code (it now functions).\r\n- Water radius now gets updated by the size controller, meaning submerge works with changing size.\r\n- Fixed strange light behavior on transparent objects in map mode.\r\n- Water is now actually illuminated by sunlight.\r\n- Fixed fog fading occurring near bramble seeds.\r\n- Should fix some compatibility issues with NomaiVR\r\n- Fix showing electricity effects on lanterns\r\n\r\nalso rip jerry\r\n\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/516**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1067,12 +1067,12 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-03-25T16:22:15Z",
-      "databaseEntryUpdatedAt": "2023-03-25T16:32:15.973Z",
+      "repoUpdatedAt": "2023-03-25T17:52:33Z",
+      "databaseEntryUpdatedAt": "2023-03-25T17:55:31.394Z",
       "viewCount": 478,
       "weeklyViewCount": 186,
       "installCount": 387,
-      "weeklyInstallCount": 102
+      "weeklyInstallCount": 106
     },
     {
       "name": "New Horizons Examples",
@@ -1137,7 +1137,7 @@
       "viewCount": 120,
       "weeklyViewCount": 43,
       "installCount": 168,
-      "weeklyInstallCount": 32
+      "weeklyInstallCount": 36
     },
     {
       "name": "Atropos",
@@ -1169,7 +1169,7 @@
       "viewCount": 42,
       "weeklyViewCount": 18,
       "installCount": 103,
-      "weeklyInstallCount": 23
+      "weeklyInstallCount": 24
     },
     {
       "name": "ElliePlanets!",
@@ -1424,7 +1424,7 @@
       "viewCount": 11,
       "weeklyViewCount": 6,
       "installCount": 18,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 7
     },
     {
       "name": "TARDIS from Doctor Who",
@@ -1493,7 +1493,7 @@
       "viewCount": 44,
       "weeklyViewCount": 20,
       "installCount": 115,
-      "weeklyInstallCount": 34
+      "weeklyInstallCount": 35
     },
     {
       "name": "Vanilla Main Menu",
@@ -1551,7 +1551,7 @@
       "viewCount": 298,
       "weeklyViewCount": 98,
       "installCount": 236,
-      "weeklyInstallCount": 86
+      "weeklyInstallCount": 87
     },
     {
       "name": "Astroneer Solar System",
@@ -1614,7 +1614,7 @@
       "viewCount": 35,
       "weeklyViewCount": 15,
       "installCount": 93,
-      "weeklyInstallCount": 22
+      "weeklyInstallCount": 25
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -1646,7 +1646,7 @@
       "viewCount": 10,
       "weeklyViewCount": 2,
       "installCount": 25,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "Suicide Mod",
@@ -1675,7 +1675,7 @@
       "viewCount": 11,
       "weeklyViewCount": 2,
       "installCount": 82,
-      "weeklyInstallCount": 20
+      "weeklyInstallCount": 21
     },
     {
       "name": "Outer Wilds Music Player",
@@ -1769,7 +1769,7 @@
       "viewCount": 83,
       "weeklyViewCount": 35,
       "installCount": 147,
-      "weeklyInstallCount": 39
+      "weeklyInstallCount": 40
     },
     {
       "name": "Enter the Warioverse",
@@ -1801,7 +1801,7 @@
       "viewCount": 20,
       "weeklyViewCount": 5,
       "installCount": 31,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "21st Century Anglerfish",
@@ -1830,7 +1830,7 @@
       "viewCount": 93,
       "weeklyViewCount": 54,
       "installCount": 39,
-      "weeklyInstallCount": 14
+      "weeklyInstallCount": 15
     },
     {
       "name": "Medley of Planets",
@@ -2025,7 +2025,7 @@
       "viewCount": 20,
       "weeklyViewCount": 4,
       "installCount": 36,
-      "weeklyInstallCount": 14
+      "weeklyInstallCount": 15
     },
     {
       "name": "Grapefruit",
@@ -2155,7 +2155,7 @@
       "viewCount": 202,
       "weeklyViewCount": 63,
       "installCount": 331,
-      "weeklyInstallCount": 87
+      "weeklyInstallCount": 91
     },
     {
       "name": "Only Timber Hearth",
@@ -2284,7 +2284,7 @@
       "viewCount": 511,
       "weeklyViewCount": 383,
       "installCount": 196,
-      "weeklyInstallCount": 55
+      "weeklyInstallCount": 57
     },
     {
       "name": "Their Homeworld",
@@ -2622,7 +2622,7 @@
       "viewCount": 8,
       "weeklyViewCount": 4,
       "installCount": 17,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Add LIV Support",
@@ -2716,7 +2716,7 @@
       "viewCount": 16,
       "weeklyViewCount": 7,
       "installCount": 27,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "No Dam Break",
@@ -2839,7 +2839,7 @@
       "viewCount": 35,
       "weeklyViewCount": 15,
       "installCount": 84,
-      "weeklyInstallCount": 18
+      "weeklyInstallCount": 19
     },
     {
       "name": "Supernova On Demand",
@@ -2870,7 +2870,7 @@
       "viewCount": 5,
       "weeklyViewCount": 1,
       "installCount": 36,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 11
     },
     {
       "name": "Big Heads",
@@ -2901,7 +2901,7 @@
       "viewCount": 3,
       "weeklyViewCount": 1,
       "installCount": 9,
-      "weeklyInstallCount": 2
+      "weeklyInstallCount": 3
     },
     {
       "name": "Bring Me My Ship",
@@ -2991,7 +2991,7 @@
       "viewCount": 11,
       "weeklyViewCount": 3,
       "installCount": 20,
-      "weeklyInstallCount": 1
+      "weeklyInstallCount": 2
     },
     {
       "name": "Timber Twin",
@@ -3083,7 +3083,7 @@
       "viewCount": 30,
       "weeklyViewCount": 10,
       "installCount": 64,
-      "weeklyInstallCount": 20
+      "weeklyInstallCount": 21
     },
     {
       "name": "Changed Twins",
@@ -3306,7 +3306,7 @@
       "viewCount": 46,
       "weeklyViewCount": 21,
       "installCount": 129,
-      "weeklyInstallCount": 36
+      "weeklyInstallCount": 37
     },
     {
       "name": "Hatchling Outfitter",
@@ -3366,7 +3366,7 @@
       "viewCount": 33,
       "weeklyViewCount": 16,
       "installCount": 52,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "Common Camera Utility",
@@ -3490,7 +3490,7 @@
       "viewCount": 5,
       "weeklyViewCount": 0,
       "installCount": 9,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 5
     },
     {
       "name": "Primitive Launching",
@@ -3582,7 +3582,7 @@
       "viewCount": 9,
       "weeklyViewCount": 3,
       "installCount": 20,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "Upsilon Andromedae",
@@ -4107,7 +4107,7 @@
       "viewCount": 64,
       "weeklyViewCount": 21,
       "installCount": 114,
-      "weeklyInstallCount": 28
+      "weeklyInstallCount": 29
     },
     {
       "name": "Artifact Laser",
@@ -4196,7 +4196,7 @@
       "viewCount": 14,
       "weeklyViewCount": 4,
       "installCount": 38,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Chargeable Scout Launcher",
@@ -4419,7 +4419,7 @@
       "viewCount": 675,
       "weeklyViewCount": 214,
       "installCount": 428,
-      "weeklyInstallCount": 114
+      "weeklyInstallCount": 118
     },
     {
       "name": "Secret Words",
@@ -4563,7 +4563,7 @@
       "viewCount": 52,
       "weeklyViewCount": 11,
       "installCount": 83,
-      "weeklyInstallCount": 21
+      "weeklyInstallCount": 22
     },
     {
       "name": "Car Example",
@@ -4791,7 +4791,7 @@
       "viewCount": 116,
       "weeklyViewCount": 51,
       "installCount": 96,
-      "weeklyInstallCount": 22
+      "weeklyInstallCount": 23
     },
     {
       "name": "Heavy Sleeper",
@@ -4854,7 +4854,7 @@
       "viewCount": 30,
       "weeklyViewCount": 11,
       "installCount": 56,
-      "weeklyInstallCount": 16
+      "weeklyInstallCount": 18
     },
     {
       "name": "Scout Teleporter",
@@ -4920,7 +4920,7 @@
       "viewCount": 15,
       "weeklyViewCount": 4,
       "installCount": 56,
-      "weeklyInstallCount": 11
+      "weeklyInstallCount": 12
     },
     {
       "name": "Ship Log Slide Reel Player Plus",
@@ -5181,7 +5181,7 @@
       "viewCount": 5,
       "weeklyViewCount": 3,
       "installCount": 26,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 6
     },
     {
       "name": "Ernesto Takeover",
@@ -5312,7 +5312,7 @@
       "viewCount": 74,
       "weeklyViewCount": 21,
       "installCount": 214,
-      "weeklyInstallCount": 56
+      "weeklyInstallCount": 58
     },
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
@@ -5373,7 +5373,7 @@
       "viewCount": 5,
       "weeklyViewCount": 1,
       "installCount": 29,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "Super Wild Galaxy",
@@ -5877,7 +5877,7 @@
       "viewCount": 13,
       "weeklyViewCount": 2,
       "installCount": 19,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Enable Meditation",
@@ -6158,7 +6158,7 @@
       "viewCount": 26,
       "weeklyViewCount": 10,
       "installCount": 64,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "The Spiral System",
@@ -6259,7 +6259,7 @@
       "viewCount": 1417,
       "weeklyViewCount": 471,
       "installCount": 554,
-      "weeklyInstallCount": 125
+      "weeklyInstallCount": 130
     },
     {
       "name": "Daylight Savings",
@@ -6362,7 +6362,7 @@
       "viewCount": 84,
       "weeklyViewCount": 25,
       "installCount": 78,
-      "weeklyInstallCount": 20
+      "weeklyInstallCount": 21
     },
     {
       "name": "OW Ventures Scavenger Hunt",
@@ -6432,7 +6432,7 @@
       "viewCount": 147,
       "weeklyViewCount": 49,
       "installCount": 134,
-      "weeklyInstallCount": 34
+      "weeklyInstallCount": 35
     },
     {
       "name": "The Machine",
@@ -6672,7 +6672,7 @@
       "viewCount": 108,
       "weeklyViewCount": 39,
       "installCount": 104,
-      "weeklyInstallCount": 24
+      "weeklyInstallCount": 25
     },
     {
       "name": "Celestial Leeway",
@@ -6960,7 +6960,7 @@
       "viewCount": 153,
       "weeklyViewCount": 67,
       "installCount": 145,
-      "weeklyInstallCount": 40
+      "weeklyInstallCount": 41
     },
     {
       "name": "Mod Data Tools",
@@ -7057,7 +7057,7 @@
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
-      "weeklyInstallCount": 0
+      "weeklyInstallCount": 1
     }
   ],
   "alphaReleases": [
