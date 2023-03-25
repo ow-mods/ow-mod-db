@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 113172
+    "downloadCount": 113173
   },
   "releases": [
     {
@@ -768,12 +768,12 @@
       "author": "artumino",
       "parent": "Raicuparta.NomaiVR",
       "downloadUrl": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering/releases/download/1.0.4/Artum.NomaiVRFoveated.zip",
-      "downloadCount": 8732,
+      "downloadCount": 8736,
       "latestReleaseDate": "2022-04-21T21:50:28Z",
       "firstReleaseDate": "2021-11-25T22:50:49Z",
       "repo": "https://github.com/artumino/NomaiVR-FixedFoveatedRendering",
       "version": "1.0.4",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed resolution issues with final credits scene",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -781,7 +781,7 @@
       "slug": "nomaivrffr",
       "thumbnail": {},
       "repoUpdatedAt": "2022-04-21T21:50:34Z",
-      "databaseEntryUpdatedAt": "2023-03-25T08:45:52.219Z",
+      "databaseEntryUpdatedAt": "2023-03-25T20:52:41.634Z",
       "viewCount": 84,
       "weeklyViewCount": 26,
       "installCount": 390,
@@ -2322,7 +2322,7 @@
       "description": "You shouldn't have angered that cannon...",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/VengefulCannon/releases/download/1.0.0/VengefulCannon.zip",
-      "downloadCount": 317,
+      "downloadCount": 318,
       "latestReleaseDate": "2022-04-11T10:21:33Z",
       "firstReleaseDate": "2022-04-11T10:21:33Z",
       "repo": "https://github.com/misternebula/VengefulCannon",
@@ -2335,7 +2335,7 @@
       "slug": "vengefulcannon",
       "thumbnail": {},
       "repoUpdatedAt": "2022-04-11T10:21:41Z",
-      "databaseEntryUpdatedAt": "2023-03-25T08:46:06.139Z",
+      "databaseEntryUpdatedAt": "2023-03-25T20:52:56.215Z",
       "viewCount": 15,
       "weeklyViewCount": 4,
       "installCount": 13,
@@ -7043,7 +7043,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "Includes: Chase Speed, Investigate Speed, Turn Speed, Quick Turn Speed, Deaf, Mute, and Meteor Launching Mod Integration.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
