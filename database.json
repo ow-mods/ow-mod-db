@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 113423
+    "downloadCount": 113424
   },
   "releases": [
     {
@@ -7062,7 +7062,7 @@
     {
       "name": "Outer Wilds Chinese Fix",
       "uniqueName": "nice2cu1.OuterWildFixFont",
-      "description": "针对Outer-Wilds-The-Outsider的补丁",
+      "description": "The mod fixes the problem that most of the Chinese-inclusive story mod text is incomplete by replacing the fonts of some interfaces.",
       "author": "nice2cu1",
       "downloadUrl": "https://github.com/nice2cu1/OuterWildFixFont/releases/download/v2/OuterWildFixFont.zip",
       "downloadCount": 55,
@@ -7074,15 +7074,15 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix:\r\n\r\n- 宇宙飞船日志显示问题\r\n\r\n- 飞船内部GUI小字问题",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
       ],
       "slug": "outerwildschinesefix",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-03-27T02:10:59Z",
-      "databaseEntryUpdatedAt": "2023-03-27T04:18:45.680Z",
+      "repoUpdatedAt": "2023-03-27T08:20:02Z",
+      "databaseEntryUpdatedAt": "2023-03-27T08:33:25.984Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
