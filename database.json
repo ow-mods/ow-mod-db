@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 113417
+    "downloadCount": 113421
   },
   "releases": [
     {
@@ -47,7 +47,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 52740,
+      "downloadCount": 52767,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
+      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -74,7 +74,7 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2023-03-26T17:57:30Z",
-      "databaseEntryUpdatedAt": "2023-03-26T18:13:08.275Z",
+      "databaseEntryUpdatedAt": "2023-03-27T06:21:09.376Z",
       "viewCount": 2015,
       "weeklyViewCount": 929,
       "installCount": 906,
@@ -7033,7 +7033,7 @@
       "description": "An Outer Wilds mod which allows customizable Anglerfish AI.",
       "author": "TwentyPorts",
       "downloadUrl": "https://github.com/TwentyPorts/CustomAnglerfishAI/releases/download/v0.2.0/Anyar.CustomAnglerfishAI.zip",
-      "downloadCount": 10,
+      "downloadCount": 12,
       "latestReleaseDate": "2023-03-25T22:01:20Z",
       "firstReleaseDate": "2023-03-25T04:11:09Z",
       "repo": "https://github.com/TwentyPorts/CustomAnglerfishAI",
@@ -7043,7 +7043,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Includes: Spin Axis.\r\nFixed a bug that prevented meteor launching mod integration from working.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7052,8 +7052,8 @@
       "thumbnail": {
         "main": "customizableanglerfishai.webp"
       },
-      "repoUpdatedAt": "2023-03-25T22:03:08Z",
-      "databaseEntryUpdatedAt": "2023-03-26T22:34:02.178Z",
+      "repoUpdatedAt": "2023-03-27T06:02:06Z",
+      "databaseEntryUpdatedAt": "2023-03-27T06:21:08.214Z",
       "viewCount": 63,
       "weeklyViewCount": 63,
       "installCount": 7,
