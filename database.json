@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 113518
+    "downloadCount": 113520
   },
   "releases": [
     {
@@ -7032,18 +7032,18 @@
       "uniqueName": "Anyar.CustomAnglerfishAI",
       "description": "An Outer Wilds mod which allows customizable Anglerfish AI.",
       "author": "TwentyPorts",
-      "downloadUrl": "https://github.com/TwentyPorts/CustomAnglerfishAI/releases/download/v0.3.1/Anyar.CustomAnglerfishAI.zip",
+      "downloadUrl": "https://github.com/TwentyPorts/CustomAnglerfishAI/releases/download/v0.4.0/Anyar.CustomAnglerfishAI.zip",
       "downloadCount": 18,
-      "latestReleaseDate": "2023-03-27T07:31:03Z",
+      "latestReleaseDate": "2023-03-27T22:59:18Z",
       "firstReleaseDate": "2023-03-25T04:11:09Z",
       "repo": "https://github.com/TwentyPorts/CustomAnglerfishAI",
-      "version": "v0.3.1",
+      "version": "v0.4.0",
       "readme": {
         "htmlUrl": "https://github.com/TwentyPorts/CustomAnglerfishAI/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "Reworked speed into a single multiplicative stat which affects chase speed, investigate speed, and acceleration speed.",
+      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7052,8 +7052,8 @@
       "thumbnail": {
         "main": "customizableanglerfishai.webp"
       },
-      "repoUpdatedAt": "2023-03-27T22:54:04Z",
-      "databaseEntryUpdatedAt": "2023-03-27T22:56:44.805Z",
+      "repoUpdatedAt": "2023-03-27T23:01:51Z",
+      "databaseEntryUpdatedAt": "2023-03-27T23:20:48.594Z",
       "viewCount": 66,
       "weeklyViewCount": 66,
       "installCount": 9,
