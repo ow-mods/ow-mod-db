@@ -66,13 +66,6 @@ body:
       description: If this mod is an addon for another mod, place the parent's uniqueName here. For instance, custom planets made with New Horizons would have `xen.NewHorizons` in this field.
       placeholder: Raicuparta.ModTemplateParent
   - type: dropdown
-    id: utility
-    attributes:
-      label: Utility mod
-      description: Select "Is utility" if this mod isn't useful by itself, and only serves as a dependency for other mods.
-      options:
-        - "Is utility"
-  - type: dropdown
     id: alpha
     attributes:
       label: Alpha Mod
