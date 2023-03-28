@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 113622
+    "downloadCount": 113629
   },
   "releases": [
     {
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.1/xen.NewHorizons.zip",
-      "downloadCount": 22207,
+      "downloadCount": 22230,
       "latestReleaseDate": "2023-03-26T17:57:57Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Bug fixes\r\n- Made the `alignmentTargetBody` field on warp pads actually work\r\n- Fixed `removeComponents` breaking object parenting\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/556**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,7 +1068,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-03-27T04:01:01Z",
-      "databaseEntryUpdatedAt": "2023-03-28T04:46:26.963Z",
+      "databaseEntryUpdatedAt": "2023-03-28T16:49:02.356Z",
       "viewCount": 528,
       "weeklyViewCount": 222,
       "installCount": 363,
@@ -4906,7 +4906,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix bug where it was possible to change the mode while exiting the Ship Log computer (during the animation), that could cause issues like screen prompts being duplicated",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6946,7 +6946,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "- Fixed some minor graphical bugs and annoyances, along with overall adding more polish\r\n- Fixed some nasty NREs that would happen if hug script got destroyed too early, added null checks to prevent more potential NREs\r\n- Made massive structural changes to the code with the goal of enabling better interactions with other mods\r\n   - Changes to HugComponent initialisation and proxy component functionality\r\n   - Changes to the API to reflect the above\r\n   - Completely overhauled patches and made them more accessible\r\n   - Made the way HugMod affects concrete characters more accessible\r\n- The README is useful now\r\n\r\nDLC owners who had Friendmaker Mode enabled might have to reenable it.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
