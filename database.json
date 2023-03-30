@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 93085,
+      "downloadCount": 93132,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:44:43Z",
-      "databaseEntryUpdatedAt": "2023-03-30T11:26:36.157Z",
+      "databaseEntryUpdatedAt": "2023-03-30T23:36:32.322Z",
       "viewCount": 659,
       "weeklyViewCount": 221,
       "installCount": 0,
@@ -78,7 +78,7 @@
       "viewCount": 2228,
       "weeklyViewCount": 977,
       "installCount": 879,
-      "weeklyInstallCount": 212
+      "weeklyInstallCount": 217
     },
     {
       "name": "Quantum Space Buddies",
@@ -115,7 +115,7 @@
       "viewCount": 1572,
       "weeklyViewCount": 568,
       "installCount": 646,
-      "weeklyInstallCount": 165
+      "weeklyInstallCount": 170
     },
     {
       "name": "Light Bramble",
@@ -146,7 +146,7 @@
       "viewCount": 241,
       "weeklyViewCount": 93,
       "installCount": 223,
-      "weeklyInstallCount": 58
+      "weeklyInstallCount": 60
     },
     {
       "name": "FreeCam",
@@ -243,7 +243,7 @@
       "viewCount": 111,
       "weeklyViewCount": 48,
       "installCount": 257,
-      "weeklyInstallCount": 76
+      "weeklyInstallCount": 79
     },
     {
       "name": "HD Screenshot",
@@ -274,7 +274,7 @@
       "viewCount": 19,
       "weeklyViewCount": 9,
       "installCount": 36,
-      "weeklyInstallCount": 8
+      "weeklyInstallCount": 9
     },
     {
       "name": "Menu Framework",
@@ -304,7 +304,7 @@
       "viewCount": 56,
       "weeklyViewCount": 19,
       "installCount": 155,
-      "weeklyInstallCount": 45
+      "weeklyInstallCount": 47
     },
     {
       "name": "ScoutStreaming",
@@ -335,7 +335,7 @@
       "viewCount": 38,
       "weeklyViewCount": 14,
       "installCount": 146,
-      "weeklyInstallCount": 46
+      "weeklyInstallCount": 47
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -460,7 +460,7 @@
       "viewCount": 264,
       "weeklyViewCount": 80,
       "installCount": 293,
-      "weeklyInstallCount": 78
+      "weeklyInstallCount": 79
     },
     {
       "name": "Difficulty Mod",
@@ -518,7 +518,7 @@
       "viewCount": 56,
       "weeklyViewCount": 23,
       "installCount": 71,
-      "weeklyInstallCount": 18
+      "weeklyInstallCount": 20
     },
     {
       "name": "SlowTime",
@@ -667,7 +667,7 @@
       "viewCount": 12,
       "weeklyViewCount": 6,
       "installCount": 44,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Echoes of the Caribbean",
@@ -729,7 +729,7 @@
       "viewCount": 167,
       "weeklyViewCount": 54,
       "installCount": 68,
-      "weeklyInstallCount": 18
+      "weeklyInstallCount": 19
     },
     {
       "name": "NomaiVR Online Patches",
@@ -759,7 +759,7 @@
       "viewCount": 11,
       "weeklyViewCount": 5,
       "installCount": 159,
-      "weeklyInstallCount": 42
+      "weeklyInstallCount": 44
     },
     {
       "name": "NomaiVR FFR",
@@ -785,7 +785,7 @@
       "viewCount": 85,
       "weeklyViewCount": 32,
       "installCount": 380,
-      "weeklyInstallCount": 100
+      "weeklyInstallCount": 103
     },
     {
       "name": "Static Camera",
@@ -848,7 +848,7 @@
       "viewCount": 51,
       "weeklyViewCount": 24,
       "installCount": 72,
-      "weeklyInstallCount": 18
+      "weeklyInstallCount": 19
     },
     {
       "name": "EotE Brighter Dreams",
@@ -879,7 +879,7 @@
       "viewCount": 284,
       "weeklyViewCount": 98,
       "installCount": 191,
-      "weeklyInstallCount": 46
+      "weeklyInstallCount": 47
     },
     {
       "name": "Unity Explorer",
@@ -1072,7 +1072,7 @@
       "viewCount": 566,
       "weeklyViewCount": 260,
       "installCount": 369,
-      "weeklyInstallCount": 94
+      "weeklyInstallCount": 95
     },
     {
       "name": "New Horizons Examples",
@@ -1137,7 +1137,7 @@
       "viewCount": 139,
       "weeklyViewCount": 67,
       "installCount": 160,
-      "weeklyInstallCount": 45
+      "weeklyInstallCount": 46
     },
     {
       "name": "Atropos",
@@ -1301,7 +1301,7 @@
       "viewCount": 128,
       "weeklyViewCount": 62,
       "installCount": 126,
-      "weeklyInstallCount": 31
+      "weeklyInstallCount": 32
     },
     {
       "name": "Signals+",
@@ -1362,7 +1362,7 @@
       "viewCount": 165,
       "weeklyViewCount": 42,
       "installCount": 29,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 7
     },
     {
       "name": "Meteor Launching",
@@ -1493,7 +1493,7 @@
       "viewCount": 46,
       "weeklyViewCount": 24,
       "installCount": 99,
-      "weeklyInstallCount": 32
+      "weeklyInstallCount": 33
     },
     {
       "name": "Vanilla Main Menu",
@@ -1551,7 +1551,7 @@
       "viewCount": 230,
       "weeklyViewCount": 75,
       "installCount": 166,
-      "weeklyInstallCount": 40
+      "weeklyInstallCount": 41
     },
     {
       "name": "Astroneer Solar System",
@@ -1706,7 +1706,7 @@
       "viewCount": 7,
       "weeklyViewCount": 1,
       "installCount": 66,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "Collider Visualizer",
@@ -2155,7 +2155,7 @@
       "viewCount": 166,
       "weeklyViewCount": 56,
       "installCount": 311,
-      "weeklyInstallCount": 74
+      "weeklyInstallCount": 78
     },
     {
       "name": "Only Timber Hearth",
@@ -2252,7 +2252,7 @@
       "viewCount": 158,
       "weeklyViewCount": 61,
       "installCount": 71,
-      "weeklyInstallCount": 21
+      "weeklyInstallCount": 23
     },
     {
       "name": "Voice Acting Mod",
@@ -2284,7 +2284,7 @@
       "viewCount": 554,
       "weeklyViewCount": 157,
       "installCount": 188,
-      "weeklyInstallCount": 48
+      "weeklyInstallCount": 50
     },
     {
       "name": "Their Homeworld",
@@ -2314,7 +2314,7 @@
       "viewCount": 18,
       "weeklyViewCount": 8,
       "installCount": 27,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "Vengeful Cannon",
@@ -2622,7 +2622,7 @@
       "viewCount": 13,
       "weeklyViewCount": 9,
       "installCount": 18,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Add LIV Support",
@@ -2654,7 +2654,7 @@
       "viewCount": 14,
       "weeklyViewCount": 6,
       "installCount": 95,
-      "weeklyInstallCount": 25
+      "weeklyInstallCount": 26
     },
     {
       "name": "360 Camera",
@@ -2716,7 +2716,7 @@
       "viewCount": 16,
       "weeklyViewCount": 6,
       "installCount": 20,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 8
     },
     {
       "name": "No Dam Break",
@@ -2807,7 +2807,7 @@
       "viewCount": 35,
       "weeklyViewCount": 19,
       "installCount": 36,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 11
     },
     {
       "name": "Achievements+",
@@ -2815,7 +2815,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1473,
+      "downloadCount": 1474,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2824,7 +2824,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2835,7 +2835,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-03-30T11:26:34.470Z",
+      "databaseEntryUpdatedAt": "2023-03-30T23:36:31.085Z",
       "viewCount": 37,
       "weeklyViewCount": 18,
       "installCount": 80,
@@ -2930,7 +2930,7 @@
       "viewCount": 11,
       "weeklyViewCount": 5,
       "installCount": 63,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "Arkose bug fix",
@@ -3083,7 +3083,7 @@
       "viewCount": 32,
       "weeklyViewCount": 13,
       "installCount": 57,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 16
     },
     {
       "name": "Changed Twins",
@@ -3429,7 +3429,7 @@
       "viewCount": 24,
       "weeklyViewCount": 10,
       "installCount": 47,
-      "weeklyInstallCount": 14
+      "weeklyInstallCount": 15
     },
     {
       "name": "Cloudless Giant's Deep",
@@ -3770,7 +3770,7 @@
       "viewCount": 20,
       "weeklyViewCount": 7,
       "installCount": 33,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "Block Placing",
@@ -3948,7 +3948,7 @@
       "viewCount": 59,
       "weeklyViewCount": 19,
       "installCount": 84,
-      "weeklyInstallCount": 24
+      "weeklyInstallCount": 26
     },
     {
       "name": "Galaxy Skybox: NGC 1087",
@@ -4192,7 +4192,7 @@
       "slug": "cutachievements",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:48:07Z",
-      "databaseEntryUpdatedAt": "2023-03-30T11:26:44.988Z",
+      "databaseEntryUpdatedAt": "2023-03-30T23:36:42.676Z",
       "viewCount": 11,
       "weeklyViewCount": 4,
       "installCount": 39,
@@ -4452,7 +4452,7 @@
       "viewCount": 12,
       "weeklyViewCount": 5,
       "installCount": 21,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 4
     },
     {
       "name": "Slate's Shipyard",
@@ -4531,7 +4531,7 @@
       "viewCount": 25,
       "weeklyViewCount": 6,
       "installCount": 43,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 11
     },
     {
       "name": "DOOM",
@@ -4601,7 +4601,7 @@
       "viewCount": 15,
       "weeklyViewCount": 4,
       "installCount": 45,
-      "weeklyInstallCount": 11
+      "weeklyInstallCount": 12
     },
     {
       "name": "Clear Glass",
@@ -4633,7 +4633,7 @@
       "viewCount": 16,
       "weeklyViewCount": 7,
       "installCount": 34,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "Bhaptics Outer Wilds",
@@ -5084,7 +5084,7 @@
       "viewCount": 41,
       "weeklyViewCount": 22,
       "installCount": 73,
-      "weeklyInstallCount": 13
+      "weeklyInstallCount": 14
     },
     {
       "name": "The Wilds: Extended",
@@ -5152,7 +5152,7 @@
       "viewCount": 147,
       "weeklyViewCount": 52,
       "installCount": 60,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 16
     },
     {
       "name": "Ship Self Destruct Button",
@@ -5312,7 +5312,7 @@
       "viewCount": 108,
       "weeklyViewCount": 54,
       "installCount": 214,
-      "weeklyInstallCount": 64
+      "weeklyInstallCount": 65
     },
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
@@ -5340,7 +5340,7 @@
       "viewCount": 5,
       "weeklyViewCount": 3,
       "installCount": 69,
-      "weeklyInstallCount": 21
+      "weeklyInstallCount": 22
     },
     {
       "name": "i let the voices on the discord server make bad ideas for planets",
@@ -5490,7 +5490,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5501,7 +5501,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-03-30T11:26:34.470Z",
+      "databaseEntryUpdatedAt": "2023-03-30T23:36:30.620Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
       "installCount": 8,
@@ -5533,7 +5533,7 @@
       "viewCount": 13,
       "weeklyViewCount": 6,
       "installCount": 40,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 7
     },
     {
       "name": "Solar Systems I Made as a Kid",
@@ -5630,7 +5630,7 @@
       "viewCount": 2,
       "weeklyViewCount": 2,
       "installCount": 3,
-      "weeklyInstallCount": 0
+      "weeklyInstallCount": 1
     },
     {
       "name": "The Final Shortcut",
@@ -6037,7 +6037,7 @@
       "viewCount": 4,
       "weeklyViewCount": 1,
       "installCount": 13,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "OWFixPluginTypesSerialization",
@@ -6158,7 +6158,7 @@
       "viewCount": 25,
       "weeklyViewCount": 8,
       "installCount": 50,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 8
     },
     {
       "name": "The Spiral System",
@@ -6259,7 +6259,7 @@
       "viewCount": 1450,
       "weeklyViewCount": 531,
       "installCount": 514,
-      "weeklyInstallCount": 123
+      "weeklyInstallCount": 129
     },
     {
       "name": "Daylight Savings",
@@ -7115,7 +7115,7 @@
       "viewCount": 53,
       "weeklyViewCount": 53,
       "installCount": 9,
-      "weeklyInstallCount": 9
+      "weeklyInstallCount": 10
     },
     {
       "name": "QSB Game Modes",
@@ -7148,7 +7148,7 @@
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 1,
-      "weeklyInstallCount": 1
+      "weeklyInstallCount": 5
     }
   ],
   "alphaReleases": [
