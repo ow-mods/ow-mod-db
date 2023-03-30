@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 113942
+    "downloadCount": 113943
   },
   "releases": [
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.26.3/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 27075,
+      "downloadCount": 27091,
       "latestReleaseDate": "2023-03-09T16:50:25Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed title screen buttons being visible too early.\r\n- Fixed issue where the ship would launch you around weirdly.\r\n- Fixed issue when trying to handle messages from disconnected players.\r\n- Added the WorldObject count into the hash messages.\r\n- Moved the `WakeUpSync` script off of the remote player prefab.\r\n- Removed the unused `StopMeditation` script.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -110,8 +110,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-03-28T22:42:34Z",
-      "databaseEntryUpdatedAt": "2023-03-30T11:26:35.139Z",
+      "repoUpdatedAt": "2023-03-30T18:24:09Z",
+      "databaseEntryUpdatedAt": "2023-03-30T18:30:47.980Z",
       "viewCount": 1572,
       "weeklyViewCount": 568,
       "installCount": 645,
