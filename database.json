@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114015
+    "downloadCount": 114016
   },
   "releases": [
     {
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.1/xen.NewHorizons.zip",
-      "downloadCount": 22322,
+      "downloadCount": 22349,
       "latestReleaseDate": "2023-03-26T17:57:57Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Bug fixes\r\n- Made the `alignmentTargetBody` field on warp pads actually work\r\n- Fixed `removeComponents` breaking object parenting\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/556**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,7 +1068,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-03-27T04:01:01Z",
-      "databaseEntryUpdatedAt": "2023-03-30T17:29:18.846Z",
+      "databaseEntryUpdatedAt": "2023-03-31T05:34:32.910Z",
       "viewCount": 583,
       "weeklyViewCount": 252,
       "installCount": 363,
@@ -1081,7 +1081,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.17.0/nh-examples.zip",
-      "downloadCount": 4034,
+      "downloadCount": 4035,
       "latestReleaseDate": "2023-03-24T04:57:15Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- use auto spirals\r\n- better ambient lights\r\n- warp pads\r\n- vessel on pygmy\r\n- ernesto kills u",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1101,7 +1101,7 @@
         "main": "newhorizonsexamples.webp"
       },
       "repoUpdatedAt": "2023-03-27T02:40:25Z",
-      "databaseEntryUpdatedAt": "2023-03-30T17:29:18.823Z",
+      "databaseEntryUpdatedAt": "2023-03-31T05:34:32.190Z",
       "viewCount": 57,
       "weeklyViewCount": 40,
       "installCount": 60,
@@ -6937,7 +6937,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.0/VioVayo.HugMod.zip",
-      "downloadCount": 234,
+      "downloadCount": 236,
       "latestReleaseDate": "2023-03-25T16:17:04Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6946,7 +6946,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed some minor graphical bugs and annoyances, along with overall adding more polish\r\n- Fixed some nasty NREs that would happen if hug script got destroyed too early, added null checks to prevent more potential NREs\r\n- Made massive structural changes to the code with the goal of enabling better interactions with other mods\r\n   - Changes to HugComponent initialisation and proxy component functionality\r\n   - Changes to the API to reflect the above\r\n   - Completely overhauled patches and made them more accessible\r\n   - Made the way HugMod affects concrete characters more accessible\r\n- The README is useful now\r\n\r\nDLC owners who had Friendmaker Mode enabled might have to reenable it.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6956,7 +6956,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-03-27T03:31:20Z",
-      "databaseEntryUpdatedAt": "2023-03-30T17:29:19.097Z",
+      "databaseEntryUpdatedAt": "2023-03-31T05:34:32.188Z",
       "viewCount": 206,
       "weeklyViewCount": 71,
       "installCount": 166,
