@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114049
+    "downloadCount": 114056
   },
   "releases": [
     {
@@ -526,7 +526,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 2282,
+      "downloadCount": 2283,
       "latestReleaseDate": "2021-10-27T19:40:41Z",
       "firstReleaseDate": "2021-10-27T19:40:41Z",
       "repo": "https://github.com/dwatson251/ow-slowtime",
@@ -535,15 +535,15 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
       ],
       "slug": "slowtime",
       "thumbnail": {},
-      "repoUpdatedAt": "2021-10-27T20:39:29Z",
-      "databaseEntryUpdatedAt": "2023-03-31T11:06:56.636Z",
+      "repoUpdatedAt": "2023-03-31T12:21:36Z",
+      "databaseEntryUpdatedAt": "2023-03-31T12:39:36.234Z",
       "viewCount": 36,
       "weeklyViewCount": 11,
       "installCount": 75,
@@ -7033,7 +7033,7 @@
       "description": "An Outer Wilds mod which allows customizable Anglerfish AI.",
       "author": "TwentyPorts",
       "downloadUrl": "https://github.com/TwentyPorts/CustomAnglerfishAI/releases/download/v0.4.0/Anyar.CustomAnglerfishAI.zip",
-      "downloadCount": 26,
+      "downloadCount": 28,
       "latestReleaseDate": "2023-03-27T22:59:18Z",
       "firstReleaseDate": "2023-03-25T04:11:09Z",
       "repo": "https://github.com/TwentyPorts/CustomAnglerfishAI",
@@ -7043,7 +7043,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7053,7 +7053,7 @@
         "main": "customizableanglerfishai.webp"
       },
       "repoUpdatedAt": "2023-03-27T23:01:51Z",
-      "databaseEntryUpdatedAt": "2023-03-31T00:27:20.643Z",
+      "databaseEntryUpdatedAt": "2023-03-31T12:39:39.122Z",
       "viewCount": 147,
       "weeklyViewCount": 147,
       "installCount": 18,
