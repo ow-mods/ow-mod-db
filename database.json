@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114134
+    "downloadCount": 114136
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -36,8 +36,8 @@
       },
       "repoUpdatedAt": "2023-03-28T22:44:43Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:50:49.627Z",
-      "viewCount": 650,
-      "weeklyViewCount": 197,
+      "viewCount": 636,
+      "weeklyViewCount": 154,
       "installCount": 0,
       "weeklyInstallCount": 0
     },
@@ -75,10 +75,10 @@
       },
       "repoUpdatedAt": "2023-03-26T17:57:30Z",
       "databaseEntryUpdatedAt": "2023-03-31T19:47:57.990Z",
-      "viewCount": 2298,
-      "weeklyViewCount": 956,
-      "installCount": 872,
-      "weeklyInstallCount": 202
+      "viewCount": 2308,
+      "weeklyViewCount": 887,
+      "installCount": 852,
+      "weeklyInstallCount": 180
     },
     {
       "name": "Quantum Space Buddies",
@@ -112,10 +112,10 @@
       },
       "repoUpdatedAt": "2023-03-30T18:24:09Z",
       "databaseEntryUpdatedAt": "2023-03-31T18:52:39.252Z",
-      "viewCount": 1624,
-      "weeklyViewCount": 588,
-      "installCount": 657,
-      "weeklyInstallCount": 172
+      "viewCount": 1608,
+      "weeklyViewCount": 562,
+      "installCount": 644,
+      "weeklyInstallCount": 158
     },
     {
       "name": "Light Bramble",
@@ -143,10 +143,10 @@
       },
       "repoUpdatedAt": "2023-03-03T13:41:46Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:03.935Z",
-      "viewCount": 242,
-      "weeklyViewCount": 90,
-      "installCount": 220,
-      "weeklyInstallCount": 59
+      "viewCount": 237,
+      "weeklyViewCount": 84,
+      "installCount": 213,
+      "weeklyInstallCount": 47
     },
     {
       "name": "FreeCam",
@@ -175,10 +175,10 @@
       },
       "repoUpdatedAt": "2023-03-16T04:12:34Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:12:59.715Z",
-      "viewCount": 117,
-      "weeklyViewCount": 29,
-      "installCount": 116,
-      "weeklyInstallCount": 30
+      "viewCount": 118,
+      "weeklyViewCount": 28,
+      "installCount": 112,
+      "weeklyInstallCount": 28
     },
     {
       "name": "Crouch Mod",
@@ -207,7 +207,7 @@
       "viewCount": 8,
       "weeklyViewCount": 2,
       "installCount": 39,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 8
     },
     {
       "name": "Clock",
@@ -240,10 +240,10 @@
       },
       "repoUpdatedAt": "2023-01-14T16:50:42Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.863Z",
-      "viewCount": 113,
-      "weeklyViewCount": 47,
-      "installCount": 254,
-      "weeklyInstallCount": 78
+      "viewCount": 112,
+      "weeklyViewCount": 37,
+      "installCount": 248,
+      "weeklyInstallCount": 65
     },
     {
       "name": "HD Screenshot",
@@ -271,10 +271,10 @@
       },
       "repoUpdatedAt": "2021-11-26T09:40:01Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:12:59.686Z",
-      "viewCount": 19,
-      "weeklyViewCount": 8,
-      "installCount": 38,
-      "weeklyInstallCount": 8
+      "viewCount": 22,
+      "weeklyViewCount": 9,
+      "installCount": 37,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Menu Framework",
@@ -302,9 +302,9 @@
       "repoUpdatedAt": "2022-08-31T17:19:42Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.485Z",
       "viewCount": 56,
-      "weeklyViewCount": 19,
-      "installCount": 152,
-      "weeklyInstallCount": 40
+      "weeklyViewCount": 12,
+      "installCount": 147,
+      "weeklyInstallCount": 36
     },
     {
       "name": "ScoutStreaming",
@@ -333,9 +333,9 @@
       "repoUpdatedAt": "2022-07-06T18:40:30Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.485Z",
       "viewCount": 37,
-      "weeklyViewCount": 12,
-      "installCount": 146,
-      "weeklyInstallCount": 47
+      "weeklyViewCount": 9,
+      "installCount": 141,
+      "weeklyInstallCount": 41
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -363,10 +363,10 @@
       },
       "repoUpdatedAt": "2022-01-19T14:04:06Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.761Z",
-      "viewCount": 21,
-      "weeklyViewCount": 7,
+      "viewCount": 20,
+      "weeklyViewCount": 6,
       "installCount": 35,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 6
     },
     {
       "name": "Outer Wilds Online",
@@ -399,10 +399,10 @@
       },
       "repoUpdatedAt": "2023-03-31T00:59:19Z",
       "databaseEntryUpdatedAt": "2023-03-31T14:12:00.238Z",
-      "viewCount": 190,
-      "weeklyViewCount": 85,
-      "installCount": 103,
-      "weeklyInstallCount": 32
+      "viewCount": 199,
+      "weeklyViewCount": 90,
+      "installCount": 100,
+      "weeklyInstallCount": 29
     },
     {
       "name": "Cheat and Debug Menu",
@@ -428,10 +428,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-07-06T18:40:41Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:03.936Z",
-      "viewCount": 152,
-      "weeklyViewCount": 48,
-      "installCount": 96,
-      "weeklyInstallCount": 26
+      "viewCount": 150,
+      "weeklyViewCount": 44,
+      "installCount": 92,
+      "weeklyInstallCount": 23
     },
     {
       "name": "Cheats Mod",
@@ -457,10 +457,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2023-02-06T16:25:55Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.486Z",
-      "viewCount": 269,
-      "weeklyViewCount": 87,
-      "installCount": 286,
-      "weeklyInstallCount": 77
+      "viewCount": 264,
+      "weeklyViewCount": 88,
+      "installCount": 281,
+      "weeklyInstallCount": 71
     },
     {
       "name": "Difficulty Mod",
@@ -487,7 +487,7 @@
       "repoUpdatedAt": "2022-02-11T04:03:46Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.486Z",
       "viewCount": 24,
-      "weeklyViewCount": 9,
+      "weeklyViewCount": 8,
       "installCount": 19,
       "weeklyInstallCount": 6
     },
@@ -515,10 +515,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-06-30T16:59:24Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:03.933Z",
-      "viewCount": 53,
-      "weeklyViewCount": 26,
-      "installCount": 73,
-      "weeklyInstallCount": 21
+      "viewCount": 51,
+      "weeklyViewCount": 21,
+      "installCount": 69,
+      "weeklyInstallCount": 17
     },
     {
       "name": "SlowTime",
@@ -526,7 +526,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 2283,
+      "downloadCount": 2284,
       "latestReleaseDate": "2021-10-27T19:40:41Z",
       "firstReleaseDate": "2021-10-27T19:40:41Z",
       "repo": "https://github.com/dwatson251/ow-slowtime",
@@ -535,7 +535,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -543,11 +543,11 @@
       "slug": "slowtime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-31T12:21:36Z",
-      "databaseEntryUpdatedAt": "2023-03-31T12:39:36.234Z",
-      "viewCount": 36,
+      "databaseEntryUpdatedAt": "2023-04-01T00:42:55.621Z",
+      "viewCount": 39,
       "weeklyViewCount": 11,
       "installCount": 77,
-      "weeklyInstallCount": 16
+      "weeklyInstallCount": 14
     },
     {
       "name": "OW Smooth Thrust",
@@ -573,10 +573,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-09-18T17:21:22Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.485Z",
-      "viewCount": 45,
-      "weeklyViewCount": 17,
-      "installCount": 59,
-      "weeklyInstallCount": 14
+      "viewCount": 46,
+      "weeklyViewCount": 15,
+      "installCount": 56,
+      "weeklyInstallCount": 9
     },
     {
       "name": "Randomizer",
@@ -604,10 +604,10 @@
       },
       "repoUpdatedAt": "2022-01-25T00:26:09Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.354Z",
-      "viewCount": 90,
-      "weeklyViewCount": 36,
-      "installCount": 66,
-      "weeklyInstallCount": 15
+      "viewCount": 91,
+      "weeklyViewCount": 31,
+      "installCount": 63,
+      "weeklyInstallCount": 14
     },
     {
       "name": "PacificEngine's Common Resources",
@@ -635,10 +635,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-09-29T17:14:11Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.753Z",
-      "viewCount": 6,
-      "weeklyViewCount": 3,
-      "installCount": 41,
-      "weeklyInstallCount": 14
+      "viewCount": 9,
+      "weeklyViewCount": 6,
+      "installCount": 40,
+      "weeklyInstallCount": 13
     },
     {
       "name": "No Alt Tab Pause",
@@ -664,10 +664,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2021-11-11T23:01:53Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:03.933Z",
-      "viewCount": 11,
+      "viewCount": 10,
       "weeklyViewCount": 6,
-      "installCount": 45,
-      "weeklyInstallCount": 6
+      "installCount": 43,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Echoes of the Caribbean",
@@ -697,7 +697,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.734Z",
       "viewCount": 8,
       "weeklyViewCount": 4,
-      "installCount": 16,
+      "installCount": 15,
       "weeklyInstallCount": 3
     },
     {
@@ -726,10 +726,10 @@
       },
       "repoUpdatedAt": "2022-09-17T06:25:38Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.123Z",
-      "viewCount": 168,
-      "weeklyViewCount": 43,
-      "installCount": 71,
-      "weeklyInstallCount": 20
+      "viewCount": 161,
+      "weeklyViewCount": 44,
+      "installCount": 70,
+      "weeklyInstallCount": 17
     },
     {
       "name": "NomaiVR Online Patches",
@@ -757,9 +757,9 @@
       "repoUpdatedAt": "2022-09-01T20:33:11Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.831Z",
       "viewCount": 11,
-      "weeklyViewCount": 4,
-      "installCount": 157,
-      "weeklyInstallCount": 39
+      "weeklyViewCount": 3,
+      "installCount": 152,
+      "weeklyInstallCount": 34
     },
     {
       "name": "NomaiVR FFR",
@@ -782,10 +782,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-04-21T21:50:34Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:26.378Z",
-      "viewCount": 84,
-      "weeklyViewCount": 32,
-      "installCount": 377,
-      "weeklyInstallCount": 97
+      "viewCount": 91,
+      "weeklyViewCount": 35,
+      "installCount": 370,
+      "weeklyInstallCount": 83
     },
     {
       "name": "Static Camera",
@@ -816,7 +816,7 @@
       "viewCount": 8,
       "weeklyViewCount": 1,
       "installCount": 11,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 2
     },
     {
       "name": "Daydream",
@@ -846,9 +846,9 @@
       "repoUpdatedAt": "2022-10-22T15:26:52Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.040Z",
       "viewCount": 51,
-      "weeklyViewCount": 24,
-      "installCount": 74,
-      "weeklyInstallCount": 18
+      "weeklyViewCount": 25,
+      "installCount": 71,
+      "weeklyInstallCount": 16
     },
     {
       "name": "EotE Brighter Dreams",
@@ -876,10 +876,10 @@
       },
       "repoUpdatedAt": "2021-11-28T22:52:35Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.982Z",
-      "viewCount": 301,
-      "weeklyViewCount": 111,
-      "installCount": 180,
-      "weeklyInstallCount": 48
+      "viewCount": 302,
+      "weeklyViewCount": 110,
+      "installCount": 174,
+      "weeklyInstallCount": 41
     },
     {
       "name": "Unity Explorer",
@@ -912,10 +912,10 @@
       },
       "repoUpdatedAt": "2022-11-08T02:50:03Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.257Z",
-      "viewCount": 89,
-      "weeklyViewCount": 37,
-      "installCount": 34,
-      "weeklyInstallCount": 5
+      "viewCount": 88,
+      "weeklyViewCount": 38,
+      "installCount": 33,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Half-Life Overhaul",
@@ -945,9 +945,9 @@
       "repoUpdatedAt": "2022-03-17T20:27:08Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:05.983Z",
       "viewCount": 24,
-      "weeklyViewCount": 5,
+      "weeklyViewCount": 2,
       "installCount": 31,
-      "weeklyInstallCount": 9
+      "weeklyInstallCount": 8
     },
     {
       "name": "Auto Resume",
@@ -973,10 +973,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-07-09T10:53:49Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.352Z",
-      "viewCount": 24,
-      "weeklyViewCount": 15,
-      "installCount": 30,
-      "weeklyInstallCount": 9
+      "viewCount": 23,
+      "weeklyViewCount": 10,
+      "installCount": 27,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Outer Thomas Echoes of the Tank Engine",
@@ -1006,7 +1006,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.626Z",
       "viewCount": 14,
       "weeklyViewCount": 4,
-      "installCount": 32,
+      "installCount": 30,
       "weeklyInstallCount": 6
     },
     {
@@ -1036,9 +1036,9 @@
       "repoUpdatedAt": "2022-01-17T15:12:52Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.516Z",
       "viewCount": 12,
-      "weeklyViewCount": 5,
-      "installCount": 30,
-      "weeklyInstallCount": 6
+      "weeklyViewCount": 2,
+      "installCount": 28,
+      "weeklyInstallCount": 5
     },
     {
       "name": "New Horizons",
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.1/xen.NewHorizons.zip",
-      "downloadCount": 22365,
+      "downloadCount": 22377,
       "latestReleaseDate": "2023-03-26T17:57:57Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Bug fixes\r\n- Made the `alignmentTargetBody` field on warp pads actually work\r\n- Fixed `removeComponents` breaking object parenting\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/556**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1067,12 +1067,12 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-03-27T04:01:01Z",
-      "databaseEntryUpdatedAt": "2023-03-31T17:37:31.309Z",
-      "viewCount": 586,
-      "weeklyViewCount": 255,
-      "installCount": 366,
-      "weeklyInstallCount": 94
+      "repoUpdatedAt": "2023-04-01T00:31:44Z",
+      "databaseEntryUpdatedAt": "2023-04-01T00:42:58.532Z",
+      "viewCount": 582,
+      "weeklyViewCount": 241,
+      "installCount": 358,
+      "weeklyInstallCount": 85
     },
     {
       "name": "New Horizons Examples",
@@ -1102,10 +1102,10 @@
       },
       "repoUpdatedAt": "2023-03-27T02:40:25Z",
       "databaseEntryUpdatedAt": "2023-03-31T17:37:31.290Z",
-      "viewCount": 57,
-      "weeklyViewCount": 40,
-      "installCount": 60,
-      "weeklyInstallCount": 11
+      "viewCount": 56,
+      "weeklyViewCount": 37,
+      "installCount": 58,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Real Solar System",
@@ -1134,10 +1134,10 @@
       },
       "repoUpdatedAt": "2023-03-25T19:03:30Z",
       "databaseEntryUpdatedAt": "2023-03-31T21:16:06.890Z",
-      "viewCount": 144,
-      "weeklyViewCount": 66,
-      "installCount": 166,
-      "weeklyInstallCount": 46
+      "viewCount": 145,
+      "weeklyViewCount": 62,
+      "installCount": 163,
+      "weeklyInstallCount": 43
     },
     {
       "name": "Atropos",
@@ -1166,10 +1166,10 @@
       },
       "repoUpdatedAt": "2022-04-16T18:32:45Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.728Z",
-      "viewCount": 52,
-      "weeklyViewCount": 23,
-      "installCount": 90,
-      "weeklyInstallCount": 22
+      "viewCount": 51,
+      "weeklyViewCount": 18,
+      "installCount": 89,
+      "weeklyInstallCount": 20
     },
     {
       "name": "ElliePlanets!",
@@ -1200,7 +1200,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.528Z",
       "viewCount": 10,
       "weeklyViewCount": 3,
-      "installCount": 16,
+      "installCount": 14,
       "weeklyInstallCount": 2
     },
     {
@@ -1229,10 +1229,10 @@
       },
       "repoUpdatedAt": "2022-10-13T19:19:59Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.785Z",
-      "viewCount": 9,
-      "weeklyViewCount": 4,
-      "installCount": 24,
-      "weeklyInstallCount": 5
+      "viewCount": 8,
+      "weeklyViewCount": 3,
+      "installCount": 23,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Hiker's Mod",
@@ -1265,10 +1265,10 @@
       },
       "repoUpdatedAt": "2022-10-18T00:29:53Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.043Z",
-      "viewCount": 43,
+      "viewCount": 41,
       "weeklyViewCount": 16,
-      "installCount": 78,
-      "weeklyInstallCount": 14
+      "installCount": 77,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Outer Wilds Galaxy",
@@ -1298,10 +1298,10 @@
       },
       "repoUpdatedAt": "2023-01-22T00:02:07Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.839Z",
-      "viewCount": 128,
-      "weeklyViewCount": 60,
-      "installCount": 128,
-      "weeklyInstallCount": 26
+      "viewCount": 133,
+      "weeklyViewCount": 51,
+      "installCount": 126,
+      "weeklyInstallCount": 24
     },
     {
       "name": "Signals+",
@@ -1331,9 +1331,9 @@
       "repoUpdatedAt": "2022-07-06T18:38:55Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.605Z",
       "viewCount": 62,
-      "weeklyViewCount": 23,
+      "weeklyViewCount": 15,
       "installCount": 62,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 14
     },
     {
       "name": "Save Editor",
@@ -1359,10 +1359,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-11T19:47:37Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.114Z",
-      "viewCount": 160,
-      "weeklyViewCount": 39,
+      "viewCount": 163,
+      "weeklyViewCount": 38,
       "installCount": 29,
-      "weeklyInstallCount": 9
+      "weeklyInstallCount": 8
     },
     {
       "name": "Meteor Launching",
@@ -1392,7 +1392,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.118Z",
       "viewCount": 116,
       "weeklyViewCount": 96,
-      "installCount": 40,
+      "installCount": 38,
       "weeklyInstallCount": 8
     },
     {
@@ -1453,8 +1453,8 @@
       },
       "repoUpdatedAt": "2022-01-07T23:55:19Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.821Z",
-      "viewCount": 36,
-      "weeklyViewCount": 16,
+      "viewCount": 35,
+      "weeklyViewCount": 12,
       "installCount": 29,
       "weeklyInstallCount": 2
     },
@@ -1490,10 +1490,10 @@
       },
       "repoUpdatedAt": "2022-02-05T05:37:52Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.074Z",
-      "viewCount": 50,
-      "weeklyViewCount": 28,
-      "installCount": 101,
-      "weeklyInstallCount": 29
+      "viewCount": 52,
+      "weeklyViewCount": 23,
+      "installCount": 100,
+      "weeklyInstallCount": 26
     },
     {
       "name": "Vanilla Main Menu",
@@ -1548,10 +1548,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-10-23T06:50:39Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.452Z",
-      "viewCount": 222,
-      "weeklyViewCount": 63,
-      "installCount": 163,
-      "weeklyInstallCount": 35
+      "viewCount": 209,
+      "weeklyViewCount": 45,
+      "installCount": 156,
+      "weeklyInstallCount": 23
     },
     {
       "name": "Astroneer Solar System",
@@ -1581,8 +1581,8 @@
       "repoUpdatedAt": "2022-07-10T14:49:56Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.084Z",
       "viewCount": 20,
-      "weeklyViewCount": 7,
-      "installCount": 34,
+      "weeklyViewCount": 5,
+      "installCount": 33,
       "weeklyInstallCount": 5
     },
     {
@@ -1611,10 +1611,10 @@
       },
       "repoUpdatedAt": "2023-01-05T03:10:22Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.081Z",
-      "viewCount": 50,
-      "weeklyViewCount": 32,
+      "viewCount": 54,
+      "weeklyViewCount": 34,
       "installCount": 82,
-      "weeklyInstallCount": 18
+      "weeklyInstallCount": 17
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -1644,8 +1644,8 @@
       "repoUpdatedAt": "2022-04-12T15:55:58Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.722Z",
       "viewCount": 10,
-      "weeklyViewCount": 4,
-      "installCount": 21,
+      "weeklyViewCount": 3,
+      "installCount": 20,
       "weeklyInstallCount": 5
     },
     {
@@ -1674,8 +1674,8 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:06.991Z",
       "viewCount": 19,
       "weeklyViewCount": 11,
-      "installCount": 76,
-      "weeklyInstallCount": 11
+      "installCount": 73,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Outer Wilds Music Player",
@@ -1705,8 +1705,8 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.291Z",
       "viewCount": 7,
       "weeklyViewCount": 1,
-      "installCount": 68,
-      "weeklyInstallCount": 17
+      "installCount": 64,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Collider Visualizer",
@@ -1766,10 +1766,10 @@
       },
       "repoUpdatedAt": "2022-10-30T19:59:20Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.319Z",
-      "viewCount": 102,
-      "weeklyViewCount": 43,
-      "installCount": 134,
-      "weeklyInstallCount": 32
+      "viewCount": 101,
+      "weeklyViewCount": 38,
+      "installCount": 132,
+      "weeklyInstallCount": 25
     },
     {
       "name": "Enter the Warioverse",
@@ -1799,7 +1799,7 @@
       "repoUpdatedAt": "2022-03-22T01:24:00Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.493Z",
       "viewCount": 17,
-      "weeklyViewCount": 5,
+      "weeklyViewCount": 4,
       "installCount": 26,
       "weeklyInstallCount": 5
     },
@@ -1828,9 +1828,9 @@
       "repoUpdatedAt": "2022-09-07T16:14:33Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.266Z",
       "viewCount": 99,
-      "weeklyViewCount": 67,
+      "weeklyViewCount": 28,
       "installCount": 44,
-      "weeklyInstallCount": 18
+      "weeklyInstallCount": 16
     },
     {
       "name": "Medley of Planets",
@@ -1860,7 +1860,7 @@
       "repoUpdatedAt": "2022-08-21T18:00:02Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.980Z",
       "viewCount": 15,
-      "weeklyViewCount": 6,
+      "weeklyViewCount": 5,
       "installCount": 26,
       "weeklyInstallCount": 2
     },
@@ -1891,9 +1891,9 @@
       },
       "repoUpdatedAt": "2022-08-03T21:49:42Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.220Z",
-      "viewCount": 14,
-      "weeklyViewCount": 8,
-      "installCount": 19,
+      "viewCount": 15,
+      "weeklyViewCount": 9,
+      "installCount": 18,
       "weeklyInstallCount": 3
     },
     {
@@ -1955,9 +1955,9 @@
       },
       "repoUpdatedAt": "2023-01-23T10:13:15Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.551Z",
-      "viewCount": 10,
+      "viewCount": 9,
       "weeklyViewCount": 4,
-      "installCount": 29,
+      "installCount": 26,
       "weeklyInstallCount": 2
     },
     {
@@ -2022,10 +2022,10 @@
       },
       "repoUpdatedAt": "2022-11-03T15:45:12Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.723Z",
-      "viewCount": 21,
+      "viewCount": 20,
       "weeklyViewCount": 6,
-      "installCount": 34,
-      "weeklyInstallCount": 14
+      "installCount": 33,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Grapefruit",
@@ -2090,10 +2090,10 @@
       },
       "repoUpdatedAt": "2022-04-20T04:53:08Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.865Z",
-      "viewCount": 55,
-      "weeklyViewCount": 27,
-      "installCount": 112,
-      "weeklyInstallCount": 25
+      "viewCount": 54,
+      "weeklyViewCount": 23,
+      "installCount": 109,
+      "weeklyInstallCount": 20
     },
     {
       "name": "Hollodjustment",
@@ -2124,7 +2124,7 @@
       "viewCount": 5,
       "weeklyViewCount": 2,
       "installCount": 7,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 1
     },
     {
       "name": "Vanilla Fix",
@@ -2152,10 +2152,10 @@
       },
       "repoUpdatedAt": "2022-10-01T04:44:44Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.132Z",
-      "viewCount": 170,
-      "weeklyViewCount": 53,
-      "installCount": 307,
-      "weeklyInstallCount": 69
+      "viewCount": 169,
+      "weeklyViewCount": 41,
+      "installCount": 299,
+      "weeklyInstallCount": 61
     },
     {
       "name": "Only Timber Hearth",
@@ -2189,7 +2189,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.045Z",
       "viewCount": 5,
       "weeklyViewCount": 3,
-      "installCount": 7,
+      "installCount": 6,
       "weeklyInstallCount": 0
     },
     {
@@ -2249,10 +2249,10 @@
       },
       "repoUpdatedAt": "2023-02-25T11:56:48Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.195Z",
-      "viewCount": 156,
-      "weeklyViewCount": 56,
-      "installCount": 74,
-      "weeklyInstallCount": 21
+      "viewCount": 157,
+      "weeklyViewCount": 50,
+      "installCount": 73,
+      "weeklyInstallCount": 18
     },
     {
       "name": "Voice Acting Mod",
@@ -2281,10 +2281,10 @@
       },
       "repoUpdatedAt": "2023-03-16T22:26:32Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.762Z",
-      "viewCount": 560,
-      "weeklyViewCount": 126,
-      "installCount": 187,
-      "weeklyInstallCount": 49
+      "viewCount": 561,
+      "weeklyViewCount": 112,
+      "installCount": 185,
+      "weeklyInstallCount": 47
     },
     {
       "name": "Their Homeworld",
@@ -2313,7 +2313,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:07.732Z",
       "viewCount": 18,
       "weeklyViewCount": 6,
-      "installCount": 29,
+      "installCount": 28,
       "weeklyInstallCount": 5
     },
     {
@@ -2428,10 +2428,10 @@
       },
       "repoUpdatedAt": "2023-01-22T00:02:39Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.078Z",
-      "viewCount": 23,
-      "weeklyViewCount": 8,
+      "viewCount": 20,
+      "weeklyViewCount": 6,
       "installCount": 13,
-      "weeklyInstallCount": 1
+      "weeklyInstallCount": 0
     },
     {
       "name": "Interstellar: Gargantua",
@@ -2461,10 +2461,10 @@
       },
       "repoUpdatedAt": "2022-04-16T15:48:32Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.248Z",
-      "viewCount": 34,
+      "viewCount": 35,
       "weeklyViewCount": 15,
-      "installCount": 41,
-      "weeklyInstallCount": 6
+      "installCount": 39,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Jammer Lore",
@@ -2496,7 +2496,7 @@
       "repoUpdatedAt": "2023-01-22T00:02:08Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.500Z",
       "viewCount": 8,
-      "weeklyViewCount": 2,
+      "weeklyViewCount": 0,
       "installCount": 7,
       "weeklyInstallCount": 1
     },
@@ -2527,7 +2527,7 @@
       "repoUpdatedAt": "2022-04-19T06:24:46Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.380Z",
       "viewCount": 26,
-      "weeklyViewCount": 12,
+      "weeklyViewCount": 11,
       "installCount": 14,
       "weeklyInstallCount": 1
     },
@@ -2558,9 +2558,9 @@
       "repoUpdatedAt": "2022-04-22T09:16:43Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.676Z",
       "viewCount": 29,
-      "weeklyViewCount": 9,
-      "installCount": 36,
-      "weeklyInstallCount": 8
+      "weeklyViewCount": 5,
+      "installCount": 34,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Sleep Mod",
@@ -2619,10 +2619,10 @@
       },
       "repoUpdatedAt": "2022-04-21T18:30:39Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.401Z",
-      "viewCount": 18,
-      "weeklyViewCount": 14,
-      "installCount": 20,
-      "weeklyInstallCount": 7
+      "viewCount": 20,
+      "weeklyViewCount": 15,
+      "installCount": 18,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Add LIV Support",
@@ -2651,10 +2651,10 @@
       },
       "repoUpdatedAt": "2022-05-04T13:46:37Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.148Z",
-      "viewCount": 14,
-      "weeklyViewCount": 4,
-      "installCount": 93,
-      "weeklyInstallCount": 20
+      "viewCount": 15,
+      "weeklyViewCount": 5,
+      "installCount": 89,
+      "weeklyInstallCount": 18
     },
     {
       "name": "360 Camera",
@@ -2684,7 +2684,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.529Z",
       "viewCount": 5,
       "weeklyViewCount": 0,
-      "installCount": 9,
+      "installCount": 7,
       "weeklyInstallCount": 0
     },
     {
@@ -2713,10 +2713,10 @@
       },
       "repoUpdatedAt": "2022-04-23T23:10:50Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.950Z",
-      "viewCount": 16,
-      "weeklyViewCount": 5,
+      "viewCount": 15,
+      "weeklyViewCount": 4,
       "installCount": 22,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 5
     },
     {
       "name": "No Dam Break",
@@ -2773,8 +2773,8 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-04-25T14:38:19Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.264Z",
-      "viewCount": 8,
-      "weeklyViewCount": 4,
+      "viewCount": 9,
+      "weeklyViewCount": 5,
       "installCount": 31,
       "weeklyInstallCount": 8
     },
@@ -2805,9 +2805,9 @@
       "repoUpdatedAt": "2022-04-30T08:43:10Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.790Z",
       "viewCount": 37,
-      "weeklyViewCount": 21,
+      "weeklyViewCount": 19,
       "installCount": 37,
-      "weeklyInstallCount": 9
+      "weeklyInstallCount": 8
     },
     {
       "name": "Achievements+",
@@ -2824,7 +2824,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2837,9 +2837,9 @@
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:50:48.023Z",
       "viewCount": 37,
-      "weeklyViewCount": 16,
-      "installCount": 81,
-      "weeklyInstallCount": 24
+      "weeklyViewCount": 9,
+      "installCount": 80,
+      "weeklyInstallCount": 21
     },
     {
       "name": "Supernova On Demand",
@@ -2869,7 +2869,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.832Z",
       "viewCount": 5,
       "weeklyViewCount": 1,
-      "installCount": 33,
+      "installCount": 32,
       "weeklyInstallCount": 8
     },
     {
@@ -2900,8 +2900,8 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.615Z",
       "viewCount": 5,
       "weeklyViewCount": 2,
-      "installCount": 10,
-      "weeklyInstallCount": 3
+      "installCount": 9,
+      "weeklyInstallCount": 2
     },
     {
       "name": "Bring Me My Ship",
@@ -2928,9 +2928,9 @@
       "repoUpdatedAt": "2022-05-06T00:56:24Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.356Z",
       "viewCount": 12,
-      "weeklyViewCount": 5,
-      "installCount": 64,
-      "weeklyInstallCount": 17
+      "weeklyViewCount": 4,
+      "installCount": 63,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Arkose bug fix",
@@ -2960,8 +2960,8 @@
       "repoUpdatedAt": "2022-05-18T13:47:08Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.040Z",
       "viewCount": 7,
-      "weeklyViewCount": 5,
-      "installCount": 9,
+      "weeklyViewCount": 4,
+      "installCount": 8,
       "weeklyInstallCount": 1
     },
     {
@@ -3020,7 +3020,7 @@
       },
       "repoUpdatedAt": "2022-06-21T14:46:41Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.088Z",
-      "viewCount": 22,
+      "viewCount": 19,
       "weeklyViewCount": 4,
       "installCount": 18,
       "weeklyInstallCount": 1
@@ -3052,9 +3052,9 @@
       "repoUpdatedAt": "2022-05-08T14:39:29Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.101Z",
       "viewCount": 13,
-      "weeklyViewCount": 9,
+      "weeklyViewCount": 5,
       "installCount": 38,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 7
     },
     {
       "name": "Time Saver",
@@ -3081,9 +3081,9 @@
       "repoUpdatedAt": "2023-03-19T00:14:48Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:08.842Z",
       "viewCount": 32,
-      "weeklyViewCount": 12,
-      "installCount": 56,
-      "weeklyInstallCount": 15
+      "weeklyViewCount": 10,
+      "installCount": 55,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Changed Twins",
@@ -3114,7 +3114,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.268Z",
       "viewCount": 13,
       "weeklyViewCount": 5,
-      "installCount": 11,
+      "installCount": 10,
       "weeklyInstallCount": 1
     },
     {
@@ -3143,8 +3143,8 @@
       },
       "repoUpdatedAt": "2022-05-14T09:54:08Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.239Z",
-      "viewCount": 25,
-      "weeklyViewCount": 12,
+      "viewCount": 26,
+      "weeklyViewCount": 13,
       "installCount": 41,
       "weeklyInstallCount": 6
     },
@@ -3176,8 +3176,8 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.262Z",
       "viewCount": 18,
       "weeklyViewCount": 8,
-      "installCount": 24,
-      "weeklyInstallCount": 5
+      "installCount": 20,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Less Lonely Ship",
@@ -3206,9 +3206,9 @@
       },
       "repoUpdatedAt": "2022-05-15T19:21:32Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.479Z",
-      "viewCount": 34,
-      "weeklyViewCount": 16,
-      "installCount": 26,
+      "viewCount": 31,
+      "weeklyViewCount": 14,
+      "installCount": 25,
       "weeklyInstallCount": 3
     },
     {
@@ -3238,9 +3238,9 @@
       },
       "repoUpdatedAt": "2022-10-01T04:43:03Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.672Z",
-      "viewCount": 15,
-      "weeklyViewCount": 5,
-      "installCount": 25,
+      "viewCount": 14,
+      "weeklyViewCount": 4,
+      "installCount": 24,
       "weeklyInstallCount": 2
     },
     {
@@ -3303,10 +3303,10 @@
       },
       "repoUpdatedAt": "2022-10-07T13:24:15Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.570Z",
-      "viewCount": 60,
+      "viewCount": 59,
       "weeklyViewCount": 33,
-      "installCount": 114,
-      "weeklyInstallCount": 24
+      "installCount": 110,
+      "weeklyInstallCount": 19
     },
     {
       "name": "Hatchling Outfitter",
@@ -3335,9 +3335,9 @@
       "repoUpdatedAt": "2022-10-01T22:27:29Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.615Z",
       "viewCount": 8,
-      "weeklyViewCount": 1,
+      "weeklyViewCount": 0,
       "installCount": 13,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 2
     },
     {
       "name": "Quality of Life Changes",
@@ -3363,10 +3363,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-10-19T21:38:37Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.298Z",
-      "viewCount": 43,
-      "weeklyViewCount": 24,
-      "installCount": 47,
-      "weeklyInstallCount": 12
+      "viewCount": 45,
+      "weeklyViewCount": 21,
+      "installCount": 46,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Common Camera Utility",
@@ -3396,9 +3396,9 @@
       "repoUpdatedAt": "2022-10-22T15:26:47Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.519Z",
       "viewCount": 25,
-      "weeklyViewCount": 8,
-      "installCount": 68,
-      "weeklyInstallCount": 25
+      "weeklyViewCount": 7,
+      "installCount": 65,
+      "weeklyInstallCount": 24
     },
     {
       "name": "Better Model Ship",
@@ -3426,10 +3426,10 @@
       },
       "repoUpdatedAt": "2022-09-17T06:26:57Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.807Z",
-      "viewCount": 26,
-      "weeklyViewCount": 11,
-      "installCount": 49,
-      "weeklyInstallCount": 16
+      "viewCount": 27,
+      "weeklyViewCount": 10,
+      "installCount": 48,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Cloudless Giant's Deep",
@@ -3458,10 +3458,10 @@
       },
       "repoUpdatedAt": "2022-05-26T03:32:58Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.405Z",
-      "viewCount": 11,
-      "weeklyViewCount": 4,
-      "installCount": 21,
-      "weeklyInstallCount": 4
+      "viewCount": 10,
+      "weeklyViewCount": 3,
+      "installCount": 20,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Involuntary Blink",
@@ -3490,7 +3490,7 @@
       "viewCount": 5,
       "weeklyViewCount": 2,
       "installCount": 10,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 3
     },
     {
       "name": "Primitive Launching",
@@ -3552,7 +3552,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.249Z",
       "viewCount": 5,
       "weeklyViewCount": 0,
-      "installCount": 3,
+      "installCount": 2,
       "weeklyInstallCount": 0
     },
     {
@@ -3582,7 +3582,7 @@
       "viewCount": 13,
       "weeklyViewCount": 7,
       "installCount": 19,
-      "weeklyInstallCount": 8
+      "weeklyInstallCount": 6
     },
     {
       "name": "Upsilon Andromedae",
@@ -3612,7 +3612,7 @@
       "repoUpdatedAt": "2023-01-22T00:02:21Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.259Z",
       "viewCount": 11,
-      "weeklyViewCount": 3,
+      "weeklyViewCount": 2,
       "installCount": 14,
       "weeklyInstallCount": 2
     },
@@ -3642,8 +3642,8 @@
       },
       "repoUpdatedAt": "2022-07-18T04:18:33Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.161Z",
-      "viewCount": 3,
-      "weeklyViewCount": 3,
+      "viewCount": 4,
+      "weeklyViewCount": 4,
       "installCount": 11,
       "weeklyInstallCount": 1
     },
@@ -3675,9 +3675,9 @@
       "repoUpdatedAt": "2022-07-26T21:57:27Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.150Z",
       "viewCount": 14,
-      "weeklyViewCount": 10,
+      "weeklyViewCount": 5,
       "installCount": 21,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 2
     },
     {
       "name": "No Sun",
@@ -3768,8 +3768,8 @@
       "repoUpdatedAt": "2022-07-09T22:54:56Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.385Z",
       "viewCount": 20,
-      "weeklyViewCount": 6,
-      "installCount": 33,
+      "weeklyViewCount": 5,
+      "installCount": 31,
       "weeklyInstallCount": 4
     },
     {
@@ -3802,7 +3802,7 @@
       "viewCount": 7,
       "weeklyViewCount": 4,
       "installCount": 15,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 6
     },
     {
       "name": "Czech Localization",
@@ -3860,9 +3860,9 @@
       },
       "repoUpdatedAt": "2023-02-22T14:53:05Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.606Z",
-      "viewCount": 23,
-      "weeklyViewCount": 8,
-      "installCount": 20,
+      "viewCount": 22,
+      "weeklyViewCount": 6,
+      "installCount": 19,
       "weeklyInstallCount": 5
     },
     {
@@ -3892,7 +3892,7 @@
       "viewCount": 2,
       "weeklyViewCount": 0,
       "installCount": 7,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 2
     },
     {
       "name": "Interplanetary Polyglot",
@@ -3922,7 +3922,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.537Z",
       "viewCount": 5,
       "weeklyViewCount": 3,
-      "installCount": 5,
+      "installCount": 3,
       "weeklyInstallCount": 1
     },
     {
@@ -3945,10 +3945,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-07-25T22:48:24Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:12.171Z",
-      "viewCount": 60,
-      "weeklyViewCount": 20,
-      "installCount": 88,
-      "weeklyInstallCount": 27
+      "viewCount": 59,
+      "weeklyViewCount": 16,
+      "installCount": 85,
+      "weeklyInstallCount": 26
     },
     {
       "name": "Galaxy Skybox: NGC 1087",
@@ -3978,7 +3978,7 @@
       "repoUpdatedAt": "2022-07-27T22:40:10Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.639Z",
       "viewCount": 6,
-      "weeklyViewCount": 3,
+      "weeklyViewCount": 2,
       "installCount": 12,
       "weeklyInstallCount": 0
     },
@@ -4010,7 +4010,7 @@
       "repoUpdatedAt": "2023-01-22T00:02:17Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.640Z",
       "viewCount": 7,
-      "weeklyViewCount": 3,
+      "weeklyViewCount": 0,
       "installCount": 23,
       "weeklyInstallCount": 6
     },
@@ -4041,8 +4041,8 @@
       },
       "repoUpdatedAt": "2022-09-16T21:21:17Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.677Z",
-      "viewCount": 14,
-      "weeklyViewCount": 7,
+      "viewCount": 15,
+      "weeklyViewCount": 8,
       "installCount": 6,
       "weeklyInstallCount": 1
     },
@@ -4074,7 +4074,7 @@
       "repoUpdatedAt": "2022-08-18T19:01:07Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.806Z",
       "viewCount": 12,
-      "weeklyViewCount": 7,
+      "weeklyViewCount": 6,
       "installCount": 19,
       "weeklyInstallCount": 4
     },
@@ -4104,10 +4104,10 @@
       },
       "repoUpdatedAt": "2023-01-23T00:24:54Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.541Z",
-      "viewCount": 56,
-      "weeklyViewCount": 19,
-      "installCount": 107,
-      "weeklyInstallCount": 26
+      "viewCount": 57,
+      "weeklyViewCount": 17,
+      "installCount": 103,
+      "weeklyInstallCount": 22
     },
     {
       "name": "Artifact Laser",
@@ -4135,10 +4135,10 @@
       },
       "repoUpdatedAt": "2022-08-29T22:06:45Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.521Z",
-      "viewCount": 23,
-      "weeklyViewCount": 8,
+      "viewCount": 26,
+      "weeklyViewCount": 10,
       "installCount": 33,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 9
     },
     {
       "name": "Speed Modifier/Walk Button on KBM",
@@ -4194,9 +4194,9 @@
       "repoUpdatedAt": "2023-03-28T22:48:07Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:51:01.385Z",
       "viewCount": 11,
-      "weeklyViewCount": 4,
+      "weeklyViewCount": 1,
       "installCount": 39,
-      "weeklyInstallCount": 14
+      "weeklyInstallCount": 13
     },
     {
       "name": "Chargeable Scout Launcher",
@@ -4224,8 +4224,8 @@
       },
       "repoUpdatedAt": "2022-12-26T23:46:30Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.891Z",
-      "viewCount": 9,
-      "weeklyViewCount": 3,
+      "viewCount": 10,
+      "weeklyViewCount": 4,
       "installCount": 26,
       "weeklyInstallCount": 6
     },
@@ -4258,7 +4258,7 @@
       "viewCount": 4,
       "weeklyViewCount": 2,
       "installCount": 7,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 2
     },
     {
       "name": "Europe Times",
@@ -4288,7 +4288,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.860Z",
       "viewCount": 14,
       "weeklyViewCount": 8,
-      "installCount": 18,
+      "installCount": 16,
       "weeklyInstallCount": 3
     },
     {
@@ -4319,7 +4319,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.718Z",
       "viewCount": 8,
       "weeklyViewCount": 2,
-      "installCount": 11,
+      "installCount": 10,
       "weeklyInstallCount": 1
     },
     {
@@ -4350,8 +4350,8 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.795Z",
       "viewCount": 2,
       "weeklyViewCount": 1,
-      "installCount": 2,
-      "weeklyInstallCount": 1
+      "installCount": 1,
+      "weeklyInstallCount": 0
     },
     {
       "name": "Wacky Rotations",
@@ -4416,10 +4416,10 @@
       },
       "repoUpdatedAt": "2023-03-26T17:32:18Z",
       "databaseEntryUpdatedAt": "2023-03-31T19:10:05.338Z",
-      "viewCount": 797,
-      "weeklyViewCount": 323,
-      "installCount": 391,
-      "weeklyInstallCount": 101
+      "viewCount": 798,
+      "weeklyViewCount": 312,
+      "installCount": 384,
+      "weeklyInstallCount": 90
     },
     {
       "name": "Secret Words",
@@ -4449,7 +4449,7 @@
       },
       "repoUpdatedAt": "2022-10-07T20:35:17Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.064Z",
-      "viewCount": 14,
+      "viewCount": 13,
       "weeklyViewCount": 6,
       "installCount": 24,
       "weeklyInstallCount": 5
@@ -4491,9 +4491,9 @@
       "repoUpdatedAt": "2023-02-11T20:03:41Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.586Z",
       "viewCount": 67,
-      "weeklyViewCount": 37,
-      "installCount": 66,
-      "weeklyInstallCount": 16
+      "weeklyViewCount": 35,
+      "installCount": 64,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Spaceshipinha",
@@ -4528,10 +4528,10 @@
       },
       "repoUpdatedAt": "2023-02-11T20:10:09Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.298Z",
-      "viewCount": 27,
-      "weeklyViewCount": 7,
+      "viewCount": 28,
+      "weeklyViewCount": 8,
       "installCount": 43,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 7
     },
     {
       "name": "DOOM",
@@ -4561,9 +4561,9 @@
       "repoUpdatedAt": "2022-12-03T18:12:03Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.133Z",
       "viewCount": 58,
-      "weeklyViewCount": 18,
-      "installCount": 78,
-      "weeklyInstallCount": 16
+      "weeklyViewCount": 15,
+      "installCount": 76,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Car Example",
@@ -4598,10 +4598,10 @@
       },
       "repoUpdatedAt": "2023-02-11T20:10:51Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.299Z",
-      "viewCount": 15,
+      "viewCount": 14,
       "weeklyViewCount": 3,
       "installCount": 47,
-      "weeklyInstallCount": 14
+      "weeklyInstallCount": 11
     },
     {
       "name": "Clear Glass",
@@ -4630,10 +4630,10 @@
       },
       "repoUpdatedAt": "2022-09-29T02:52:26Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.402Z",
-      "viewCount": 15,
-      "weeklyViewCount": 7,
-      "installCount": 36,
-      "weeklyInstallCount": 9
+      "viewCount": 14,
+      "weeklyViewCount": 6,
+      "installCount": 35,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Bhaptics Outer Wilds",
@@ -4724,8 +4724,8 @@
       },
       "repoUpdatedAt": "2022-10-21T05:07:39Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.281Z",
-      "viewCount": 8,
-      "weeklyViewCount": 7,
+      "viewCount": 9,
+      "weeklyViewCount": 2,
       "installCount": 25,
       "weeklyInstallCount": 4
     },
@@ -4755,9 +4755,9 @@
       "repoUpdatedAt": "2022-09-27T21:01:30Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.309Z",
       "viewCount": 68,
-      "weeklyViewCount": 33,
-      "installCount": 92,
-      "weeklyInstallCount": 23
+      "weeklyViewCount": 32,
+      "installCount": 91,
+      "weeklyInstallCount": 17
     },
     {
       "name": "Fret's Quest",
@@ -4788,10 +4788,10 @@
       },
       "repoUpdatedAt": "2023-02-21T20:51:46Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.602Z",
-      "viewCount": 113,
-      "weeklyViewCount": 23,
+      "viewCount": 111,
+      "weeklyViewCount": 22,
       "installCount": 92,
-      "weeklyInstallCount": 24
+      "weeklyInstallCount": 23
     },
     {
       "name": "Heavy Sleeper",
@@ -4819,7 +4819,7 @@
       "repoUpdatedAt": "2022-10-10T02:25:48Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.387Z",
       "viewCount": 13,
-      "weeklyViewCount": 7,
+      "weeklyViewCount": 6,
       "installCount": 7,
       "weeklyInstallCount": 1
     },
@@ -4851,7 +4851,7 @@
       },
       "repoUpdatedAt": "2023-01-30T06:05:15Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.903Z",
-      "viewCount": 41,
+      "viewCount": 42,
       "weeklyViewCount": 18,
       "installCount": 63,
       "weeklyInstallCount": 18
@@ -4884,10 +4884,10 @@
       },
       "repoUpdatedAt": "2022-10-28T14:09:45Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.941Z",
-      "viewCount": 20,
+      "viewCount": 19,
       "weeklyViewCount": 2,
       "installCount": 48,
-      "weeklyInstallCount": 13
+      "weeklyInstallCount": 11
     },
     {
       "name": "Custom Ship Log Modes",
@@ -4918,9 +4918,9 @@
       "repoUpdatedAt": "2023-03-29T02:44:25Z",
       "databaseEntryUpdatedAt": "2023-03-31T15:29:28.261Z",
       "viewCount": 12,
-      "weeklyViewCount": 1,
-      "installCount": 41,
-      "weeklyInstallCount": 7
+      "weeklyViewCount": 0,
+      "installCount": 39,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Ship Log Slide Reel Player Plus",
@@ -4952,9 +4952,9 @@
       "repoUpdatedAt": "2023-03-31T05:36:11Z",
       "databaseEntryUpdatedAt": "2023-03-31T17:49:55.679Z",
       "viewCount": 7,
-      "weeklyViewCount": 3,
-      "installCount": 45,
-      "weeklyInstallCount": 12
+      "weeklyViewCount": 2,
+      "installCount": 44,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Smallest System in the Galaxy",
@@ -5021,7 +5021,7 @@
       "viewCount": 6,
       "weeklyViewCount": 4,
       "installCount": 8,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 2
     },
     {
       "name": "Console Cheats",
@@ -5048,10 +5048,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-10-16T05:23:16Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.575Z",
-      "viewCount": 15,
+      "viewCount": 14,
       "weeklyViewCount": 6,
       "installCount": 21,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 5
     },
     {
       "name": "Alternate Voices",
@@ -5081,10 +5081,10 @@
       },
       "repoUpdatedAt": "2023-01-04T21:37:29Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.976Z",
-      "viewCount": 49,
-      "weeklyViewCount": 28,
-      "installCount": 74,
-      "weeklyInstallCount": 14
+      "viewCount": 51,
+      "weeklyViewCount": 27,
+      "installCount": 73,
+      "weeklyInstallCount": 12
     },
     {
       "name": "The Wilds: Extended",
@@ -5114,9 +5114,9 @@
       },
       "repoUpdatedAt": "2022-11-03T02:33:23Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.841Z",
-      "viewCount": 14,
+      "viewCount": 12,
       "weeklyViewCount": 3,
-      "installCount": 15,
+      "installCount": 14,
       "weeklyInstallCount": 1
     },
     {
@@ -5149,10 +5149,10 @@
       },
       "repoUpdatedAt": "2023-03-25T19:23:09Z",
       "databaseEntryUpdatedAt": "2023-03-31T21:16:06.710Z",
-      "viewCount": 152,
-      "weeklyViewCount": 51,
-      "installCount": 63,
-      "weeklyInstallCount": 15
+      "viewCount": 151,
+      "weeklyViewCount": 44,
+      "installCount": 61,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Ship Self Destruct Button",
@@ -5180,8 +5180,8 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.654Z",
       "viewCount": 8,
       "weeklyViewCount": 3,
-      "installCount": 23,
-      "weeklyInstallCount": 4
+      "installCount": 21,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Ernesto Takeover",
@@ -5212,8 +5212,8 @@
       "repoUpdatedAt": "2022-11-05T03:19:34Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.807Z",
       "viewCount": 22,
-      "weeklyViewCount": 8,
-      "installCount": 34,
+      "weeklyViewCount": 9,
+      "installCount": 31,
       "weeklyInstallCount": 6
     },
     {
@@ -5243,9 +5243,9 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-11-17T03:47:47Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.569Z",
-      "viewCount": 18,
-      "weeklyViewCount": 9,
-      "installCount": 24,
+      "viewCount": 17,
+      "weeklyViewCount": 7,
+      "installCount": 23,
       "weeklyInstallCount": 2
     },
     {
@@ -5276,9 +5276,9 @@
       "repoUpdatedAt": "2023-01-27T04:28:15Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.876Z",
       "viewCount": 18,
-      "weeklyViewCount": 5,
+      "weeklyViewCount": 2,
       "installCount": 21,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 2
     },
     {
       "name": "Discord Proximity Chat",
@@ -5309,10 +5309,10 @@
       },
       "repoUpdatedAt": "2022-12-29T01:13:56Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:12.114Z",
-      "viewCount": 110,
-      "weeklyViewCount": 56,
-      "installCount": 218,
-      "weeklyInstallCount": 69
+      "viewCount": 112,
+      "weeklyViewCount": 54,
+      "installCount": 213,
+      "weeklyInstallCount": 66
     },
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
@@ -5339,8 +5339,8 @@
       "databaseEntryUpdatedAt": "2023-03-31T23:13:56.373Z",
       "viewCount": 5,
       "weeklyViewCount": 3,
-      "installCount": 69,
-      "weeklyInstallCount": 21
+      "installCount": 68,
+      "weeklyInstallCount": 17
     },
     {
       "name": "i let the voices on the discord server make bad ideas for planets",
@@ -5370,9 +5370,9 @@
       },
       "repoUpdatedAt": "2022-11-14T00:49:00Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:11.642Z",
-      "viewCount": 8,
+      "viewCount": 7,
       "weeklyViewCount": 3,
-      "installCount": 29,
+      "installCount": 24,
       "weeklyInstallCount": 7
     },
     {
@@ -5404,7 +5404,7 @@
       },
       "repoUpdatedAt": "2022-11-17T03:26:54Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:12.089Z",
-      "viewCount": 8,
+      "viewCount": 9,
       "weeklyViewCount": 4,
       "installCount": 20,
       "weeklyInstallCount": 7
@@ -5437,10 +5437,10 @@
       },
       "repoUpdatedAt": "2023-02-08T21:00:17Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:12.109Z",
-      "viewCount": 39,
-      "weeklyViewCount": 23,
-      "installCount": 68,
-      "weeklyInstallCount": 14
+      "viewCount": 38,
+      "weeklyViewCount": 21,
+      "installCount": 67,
+      "weeklyInstallCount": 11
     },
     {
       "name": "N Body Chaos",
@@ -5470,10 +5470,10 @@
       },
       "repoUpdatedAt": "2023-01-23T18:39:45Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:12.118Z",
-      "viewCount": 15,
-      "weeklyViewCount": 2,
-      "installCount": 30,
-      "weeklyInstallCount": 7
+      "viewCount": 16,
+      "weeklyViewCount": 3,
+      "installCount": 27,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Shared Ship Log",
@@ -5490,7 +5490,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "Incremented version number and included .zip",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5530,10 +5530,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2023-02-11T20:11:56Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:58.595Z",
-      "viewCount": 16,
-      "weeklyViewCount": 9,
+      "viewCount": 15,
+      "weeklyViewCount": 8,
       "installCount": 41,
-      "weeklyInstallCount": 9
+      "weeklyInstallCount": 6
     },
     {
       "name": "Solar Systems I Made as a Kid",
@@ -5564,8 +5564,8 @@
       "repoUpdatedAt": "2023-01-07T16:29:14Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:14.312Z",
       "viewCount": 10,
-      "weeklyViewCount": 8,
-      "installCount": 21,
+      "weeklyViewCount": 5,
+      "installCount": 20,
       "weeklyInstallCount": 5
     },
     {
@@ -5629,7 +5629,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T22:41:12.747Z",
       "viewCount": 2,
       "weeklyViewCount": 2,
-      "installCount": 4,
+      "installCount": 3,
       "weeklyInstallCount": 1
     },
     {
@@ -5657,10 +5657,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-12-07T00:37:29Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:12.746Z",
-      "viewCount": 12,
-      "weeklyViewCount": 5,
+      "viewCount": 13,
+      "weeklyViewCount": 6,
       "installCount": 28,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 5
     },
     {
       "name": "How Did This Happen?",
@@ -5719,10 +5719,10 @@
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-07T21:02:11Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:14.312Z",
-      "viewCount": 13,
-      "weeklyViewCount": 6,
+      "viewCount": 14,
+      "weeklyViewCount": 7,
       "installCount": 42,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 11
     },
     {
       "name": "Outer Wilds en Andalûh",
@@ -5749,9 +5749,9 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-12-22T15:19:26Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:14.312Z",
-      "viewCount": 9,
+      "viewCount": 7,
       "weeklyViewCount": 3,
-      "installCount": 1,
+      "installCount": 0,
       "weeklyInstallCount": 0
     },
     {
@@ -5782,7 +5782,7 @@
       "repoUpdatedAt": "2022-12-23T12:58:17Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:14.312Z",
       "viewCount": 6,
-      "weeklyViewCount": 1,
+      "weeklyViewCount": 0,
       "installCount": 11,
       "weeklyInstallCount": 3
     },
@@ -5814,9 +5814,9 @@
       },
       "repoUpdatedAt": "2023-03-19T04:45:00Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.993Z",
-      "viewCount": 28,
+      "viewCount": 26,
       "weeklyViewCount": 4,
-      "installCount": 16,
+      "installCount": 14,
       "weeklyInstallCount": 1
     },
     {
@@ -5845,7 +5845,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T22:41:12.747Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
-      "installCount": 11,
+      "installCount": 10,
       "weeklyInstallCount": 0
     },
     {
@@ -5874,8 +5874,8 @@
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T21:31:32Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:13.034Z",
-      "viewCount": 13,
-      "weeklyViewCount": 3,
+      "viewCount": 12,
+      "weeklyViewCount": 1,
       "installCount": 20,
       "weeklyInstallCount": 7
     },
@@ -5908,9 +5908,9 @@
       "repoUpdatedAt": "2022-12-26T19:49:22Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.617Z",
       "viewCount": 8,
-      "weeklyViewCount": 1,
+      "weeklyViewCount": 0,
       "installCount": 15,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 2
     },
     {
       "name": "No Dot Mod",
@@ -5940,9 +5940,9 @@
       },
       "repoUpdatedAt": "2022-12-28T09:21:39Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:14.315Z",
-      "viewCount": 17,
-      "weeklyViewCount": 7,
-      "installCount": 30,
+      "viewCount": 16,
+      "weeklyViewCount": 5,
+      "installCount": 29,
       "weeklyInstallCount": 5
     },
     {
@@ -5972,9 +5972,9 @@
       "repoUpdatedAt": "2022-12-31T10:18:02Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:14.312Z",
       "viewCount": 23,
-      "weeklyViewCount": 12,
+      "weeklyViewCount": 11,
       "installCount": 35,
-      "weeklyInstallCount": 2
+      "weeklyInstallCount": 1
     },
     {
       "name": "KSP",
@@ -6036,8 +6036,8 @@
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.617Z",
       "viewCount": 4,
       "weeklyViewCount": 1,
-      "installCount": 14,
-      "weeklyInstallCount": 3
+      "installCount": 13,
+      "weeklyInstallCount": 2
     },
     {
       "name": "OWFixPluginTypesSerialization",
@@ -6067,7 +6067,7 @@
       "repoUpdatedAt": "2023-02-18T21:58:00Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.907Z",
       "viewCount": 4,
-      "weeklyViewCount": 1,
+      "weeklyViewCount": 0,
       "installCount": 1,
       "weeklyInstallCount": 0
     },
@@ -6098,8 +6098,8 @@
       "databaseEntryUpdatedAt": "2023-03-31T22:41:14.607Z",
       "viewCount": 7,
       "weeklyViewCount": 4,
-      "installCount": 18,
-      "weeklyInstallCount": 6
+      "installCount": 17,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Proud Hearthians",
@@ -6129,8 +6129,8 @@
       "repoUpdatedAt": "2023-01-22T15:48:21Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.617Z",
       "viewCount": 19,
-      "weeklyViewCount": 12,
-      "installCount": 23,
+      "weeklyViewCount": 11,
+      "installCount": 20,
       "weeklyInstallCount": 6
     },
     {
@@ -6156,9 +6156,9 @@
       "repoUpdatedAt": "2023-01-18T23:46:45Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:30.047Z",
       "viewCount": 25,
-      "weeklyViewCount": 8,
-      "installCount": 52,
-      "weeklyInstallCount": 6
+      "weeklyViewCount": 5,
+      "installCount": 48,
+      "weeklyInstallCount": 5
     },
     {
       "name": "The Spiral System",
@@ -6190,9 +6190,9 @@
       },
       "repoUpdatedAt": "2023-01-22T10:36:01Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.993Z",
-      "viewCount": 40,
+      "viewCount": 38,
       "weeklyViewCount": 17,
-      "installCount": 51,
+      "installCount": 50,
       "weeklyInstallCount": 10
     },
     {
@@ -6223,9 +6223,9 @@
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-23T20:43:35Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.997Z",
-      "viewCount": 21,
+      "viewCount": 20,
       "weeklyViewCount": 11,
-      "installCount": 31,
+      "installCount": 30,
       "weeklyInstallCount": 9
     },
     {
@@ -6256,10 +6256,10 @@
       },
       "repoUpdatedAt": "2023-03-24T20:53:21Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.930Z",
-      "viewCount": 1466,
-      "weeklyViewCount": 485,
-      "installCount": 509,
-      "weeklyInstallCount": 121
+      "viewCount": 1453,
+      "weeklyViewCount": 445,
+      "installCount": 497,
+      "weeklyInstallCount": 113
     },
     {
       "name": "Daylight Savings",
@@ -6292,7 +6292,7 @@
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.230Z",
       "viewCount": 12,
       "weeklyViewCount": 4,
-      "installCount": 29,
+      "installCount": 26,
       "weeklyInstallCount": 6
     },
     {
@@ -6324,9 +6324,9 @@
       },
       "repoUpdatedAt": "2023-01-22T01:25:02Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.986Z",
-      "viewCount": 39,
-      "weeklyViewCount": 19,
-      "installCount": 51,
+      "viewCount": 38,
+      "weeklyViewCount": 15,
+      "installCount": 48,
       "weeklyInstallCount": 6
     },
     {
@@ -6360,8 +6360,8 @@
       "repoUpdatedAt": "2023-01-22T20:49:16Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.887Z",
       "viewCount": 99,
-      "weeklyViewCount": 41,
-      "installCount": 76,
+      "weeklyViewCount": 37,
+      "installCount": 75,
       "weeklyInstallCount": 18
     },
     {
@@ -6394,8 +6394,8 @@
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
       "databaseEntryUpdatedAt": "2023-03-31T15:29:28.552Z",
-      "viewCount": 43,
-      "weeklyViewCount": 36,
+      "viewCount": 42,
+      "weeklyViewCount": 37,
       "installCount": 42,
       "weeklyInstallCount": 13
     },
@@ -6429,10 +6429,10 @@
       },
       "repoUpdatedAt": "2023-01-27T22:56:53Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.298Z",
-      "viewCount": 173,
-      "weeklyViewCount": 80,
-      "installCount": 122,
-      "weeklyInstallCount": 28
+      "viewCount": 172,
+      "weeklyViewCount": 64,
+      "installCount": 116,
+      "weeklyInstallCount": 26
     },
     {
       "name": "The Machine",
@@ -6464,9 +6464,9 @@
       },
       "repoUpdatedAt": "2023-02-10T23:04:45Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.240Z",
-      "viewCount": 108,
-      "weeklyViewCount": 45,
-      "installCount": 89,
+      "viewCount": 106,
+      "weeklyViewCount": 41,
+      "installCount": 86,
       "weeklyInstallCount": 14
     },
     {
@@ -6498,9 +6498,9 @@
       },
       "repoUpdatedAt": "2023-01-27T01:12:21Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.273Z",
-      "viewCount": 71,
-      "weeklyViewCount": 30,
-      "installCount": 49,
+      "viewCount": 69,
+      "weeklyViewCount": 27,
+      "installCount": 47,
       "weeklyInstallCount": 14
     },
     {
@@ -6533,10 +6533,10 @@
       },
       "repoUpdatedAt": "2023-01-23T17:10:37Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.265Z",
-      "viewCount": 47,
-      "weeklyViewCount": 24,
-      "installCount": 47,
-      "weeklyInstallCount": 8
+      "viewCount": 44,
+      "weeklyViewCount": 21,
+      "installCount": 46,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Intervention",
@@ -6569,10 +6569,10 @@
       },
       "repoUpdatedAt": "2023-01-24T19:53:33Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.592Z",
-      "viewCount": 99,
-      "weeklyViewCount": 42,
-      "installCount": 74,
-      "weeklyInstallCount": 16
+      "viewCount": 98,
+      "weeklyViewCount": 40,
+      "installCount": 73,
+      "weeklyInstallCount": 14
     },
     {
       "name": "March of gears",
@@ -6601,7 +6601,7 @@
       "repoUpdatedAt": "2023-01-23T14:35:49Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:16.909Z",
       "viewCount": 10,
-      "weeklyViewCount": 6,
+      "weeklyViewCount": 4,
       "installCount": 19,
       "weeklyInstallCount": 6
     },
@@ -6634,8 +6634,8 @@
       },
       "repoUpdatedAt": "2023-01-23T19:08:20Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.651Z",
-      "viewCount": 22,
-      "weeklyViewCount": 11,
+      "viewCount": 21,
+      "weeklyViewCount": 9,
       "installCount": 23,
       "weeklyInstallCount": 4
     },
@@ -6669,10 +6669,10 @@
       },
       "repoUpdatedAt": "2023-02-13T20:38:54Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.526Z",
-      "viewCount": 123,
-      "weeklyViewCount": 54,
-      "installCount": 90,
-      "weeklyInstallCount": 19
+      "viewCount": 124,
+      "weeklyViewCount": 46,
+      "installCount": 88,
+      "weeklyInstallCount": 17
     },
     {
       "name": "Celestial Leeway",
@@ -6703,9 +6703,9 @@
       },
       "repoUpdatedAt": "2023-03-01T03:14:05Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.288Z",
-      "viewCount": 59,
-      "weeklyViewCount": 17,
-      "installCount": 46,
+      "viewCount": 53,
+      "weeklyViewCount": 15,
+      "installCount": 44,
       "weeklyInstallCount": 12
     },
     {
@@ -6736,9 +6736,9 @@
       },
       "repoUpdatedAt": "2023-02-02T11:02:27Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.277Z",
-      "viewCount": 33,
-      "weeklyViewCount": 16,
-      "installCount": 43,
+      "viewCount": 34,
+      "weeklyViewCount": 14,
+      "installCount": 42,
       "weeklyInstallCount": 12
     },
     {
@@ -6768,9 +6768,9 @@
       "repoUpdatedAt": "2023-02-11T15:40:03Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.258Z",
       "viewCount": 26,
-      "weeklyViewCount": 11,
-      "installCount": 66,
-      "weeklyInstallCount": 16
+      "weeklyViewCount": 8,
+      "installCount": 64,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Outer Relics",
@@ -6799,10 +6799,10 @@
       },
       "repoUpdatedAt": "2023-02-23T23:17:14Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.591Z",
-      "viewCount": 69,
+      "viewCount": 71,
       "weeklyViewCount": 26,
       "installCount": 39,
-      "weeklyInstallCount": 3
+      "weeklyInstallCount": 2
     },
     {
       "name": "Real Solar System - Outer Relics Support and Examples",
@@ -6834,7 +6834,7 @@
       "viewCount": 5,
       "weeklyViewCount": 3,
       "installCount": 13,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 3
     },
     {
       "name": "Photosensitivity Fixes",
@@ -6897,9 +6897,9 @@
       },
       "repoUpdatedAt": "2023-02-24T04:37:34Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.842Z",
-      "viewCount": 35,
+      "viewCount": 34,
       "weeklyViewCount": 3,
-      "installCount": 39,
+      "installCount": 38,
       "weeklyInstallCount": 7
     },
     {
@@ -6927,7 +6927,7 @@
       "repoUpdatedAt": "2023-03-07T00:54:37Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.531Z",
       "viewCount": 34,
-      "weeklyViewCount": 6,
+      "weeklyViewCount": 3,
       "installCount": 7,
       "weeklyInstallCount": 0
     },
@@ -6958,9 +6958,9 @@
       "repoUpdatedAt": "2023-03-31T21:42:27Z",
       "databaseEntryUpdatedAt": "2023-03-31T21:54:26.183Z",
       "viewCount": 206,
-      "weeklyViewCount": 71,
+      "weeklyViewCount": 64,
       "installCount": 167,
-      "weeklyInstallCount": 35
+      "weeklyInstallCount": 33
     },
     {
       "name": "Mod Data Tools",
@@ -6990,7 +6990,7 @@
       "repoUpdatedAt": "2023-03-14T02:11:49Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.587Z",
       "viewCount": 41,
-      "weeklyViewCount": 10,
+      "weeklyViewCount": 6,
       "installCount": 3,
       "weeklyInstallCount": 0
     },
@@ -7023,7 +7023,7 @@
       "repoUpdatedAt": "2023-03-17T00:43:46Z",
       "databaseEntryUpdatedAt": "2023-03-31T22:41:17.568Z",
       "viewCount": 65,
-      "weeklyViewCount": 30,
+      "weeklyViewCount": 21,
       "installCount": 5,
       "weeklyInstallCount": 2
     },
@@ -7033,7 +7033,7 @@
       "description": "An Outer Wilds mod which allows customizable Anglerfish AI.",
       "author": "TwentyPorts",
       "downloadUrl": "https://github.com/TwentyPorts/CustomAnglerfishAI/releases/download/v0.4.0/Anyar.CustomAnglerfishAI.zip",
-      "downloadCount": 28,
+      "downloadCount": 31,
       "latestReleaseDate": "2023-03-27T22:59:18Z",
       "firstReleaseDate": "2023-03-25T04:11:09Z",
       "repo": "https://github.com/TwentyPorts/CustomAnglerfishAI",
@@ -7043,7 +7043,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7053,7 +7053,7 @@
         "main": "customizableanglerfishai.webp"
       },
       "repoUpdatedAt": "2023-03-27T23:01:51Z",
-      "databaseEntryUpdatedAt": "2023-03-31T12:39:39.122Z",
+      "databaseEntryUpdatedAt": "2023-04-01T00:42:58.161Z",
       "viewCount": 147,
       "weeklyViewCount": 147,
       "installCount": 18,
@@ -7112,8 +7112,8 @@
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-26T19:25:41Z",
       "databaseEntryUpdatedAt": "2023-03-31T21:16:07.055Z",
-      "viewCount": 64,
-      "weeklyViewCount": 64,
+      "viewCount": 67,
+      "weeklyViewCount": 67,
       "installCount": 13,
       "weeklyInstallCount": 13
     },
@@ -7145,8 +7145,8 @@
       },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
       "databaseEntryUpdatedAt": "2023-03-31T20:46:58.034Z",
-      "viewCount": 50,
-      "weeklyViewCount": 50,
+      "viewCount": 57,
+      "weeklyViewCount": 57,
       "installCount": 13,
       "weeklyInstallCount": 13
     }
@@ -7181,8 +7181,8 @@
       },
       "repoUpdatedAt": "2023-01-22T00:03:07Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.974Z",
-      "viewCount": 23,
-      "weeklyViewCount": 9,
+      "viewCount": 24,
+      "weeklyViewCount": 10,
       "installCount": 0,
       "weeklyInstallCount": 0
     },
@@ -7399,8 +7399,8 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-05-21T21:15:22Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.702Z",
-      "viewCount": 0,
-      "weeklyViewCount": 0,
+      "viewCount": 1,
+      "weeklyViewCount": 1,
       "installCount": 2,
       "weeklyInstallCount": 0
     },
@@ -7429,8 +7429,8 @@
       "thumbnail": {},
       "repoUpdatedAt": "2022-05-22T18:51:28Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:09.887Z",
-      "viewCount": 2,
-      "weeklyViewCount": 0,
+      "viewCount": 3,
+      "weeklyViewCount": 1,
       "installCount": 1,
       "weeklyInstallCount": 0
     },
@@ -7522,7 +7522,7 @@
       "repoUpdatedAt": "2022-05-22T18:45:51Z",
       "databaseEntryUpdatedAt": "2023-03-31T23:13:10.010Z",
       "viewCount": 25,
-      "weeklyViewCount": 14,
+      "weeklyViewCount": 11,
       "installCount": 2,
       "weeklyInstallCount": 0
     }
