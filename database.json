@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114535
+    "downloadCount": 114538
   },
   "releases": [
     {
@@ -6978,7 +6978,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6987,8 +6987,8 @@
       "thumbnail": {
         "main": "moddatatools.webp"
       },
-      "repoUpdatedAt": "2023-04-02T02:14:07Z",
-      "databaseEntryUpdatedAt": "2023-04-02T14:31:30.177Z",
+      "repoUpdatedAt": "2023-04-02T22:07:23Z",
+      "databaseEntryUpdatedAt": "2023-04-02T22:19:20.607Z",
       "viewCount": 43,
       "weeklyViewCount": 6,
       "installCount": 4,
@@ -7167,7 +7167,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ballpit/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "Turns your entire ship into a ball pit! Totally not a safety hazard!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
