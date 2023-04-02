@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114538
+    "downloadCount": 114539
   },
   "releases": [
     {
@@ -6937,7 +6937,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.0/VioVayo.HugMod.zip",
-      "downloadCount": 248,
+      "downloadCount": 249,
       "latestReleaseDate": "2023-03-25T16:17:04Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6946,7 +6946,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed some minor graphical bugs and annoyances, along with overall adding more polish\r\n- Fixed some nasty NREs that would happen if hug script got destroyed too early, added null checks to prevent more potential NREs\r\n- Made massive structural changes to the code with the goal of enabling better interactions with other mods\r\n   - Changes to HugComponent initialisation and proxy component functionality\r\n   - Changes to the API to reflect the above\r\n   - Completely overhauled patches and made them more accessible\r\n   - Made the way HugMod affects concrete characters more accessible\r\n- The README is useful now\r\n\r\nDLC owners who had Friendmaker Mode enabled might have to reenable it.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6956,7 +6956,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-03-31T21:42:27Z",
-      "databaseEntryUpdatedAt": "2023-04-02T10:29:21.885Z",
+      "databaseEntryUpdatedAt": "2023-04-02T22:32:04.347Z",
       "viewCount": 215,
       "weeklyViewCount": 62,
       "installCount": 173,
@@ -6978,7 +6978,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7065,7 +7065,7 @@
       "description": "The mod fixes the problem that most of the Chinese-inclusive story mod text is incomplete by replacing the fonts of some interfaces.",
       "author": "nice2cu1",
       "downloadUrl": "https://github.com/nice2cu1/OuterWildFixFont/releases/download/v2/OuterWildFixFont.zip",
-      "downloadCount": 65,
+      "downloadCount": 66,
       "latestReleaseDate": "2023-03-24T09:34:09Z",
       "firstReleaseDate": "2023-01-31T10:50:17Z",
       "repo": "https://github.com/nice2cu1/OuterWildFixFont",
@@ -7074,7 +7074,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix:\r\n\r\n- 宇宙飞船日志显示问题\r\n\r\n- 飞船内部GUI小字问题",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7082,7 +7082,7 @@
       "slug": "outerwildschinesefix",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-27T08:20:02Z",
-      "databaseEntryUpdatedAt": "2023-04-02T10:29:21.414Z",
+      "databaseEntryUpdatedAt": "2023-04-02T22:32:03.473Z",
       "viewCount": 26,
       "weeklyViewCount": 26,
       "installCount": 0,
