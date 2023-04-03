@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114645
+    "downloadCount": 114649
   },
   "releases": [
     {
@@ -1081,7 +1081,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.17.0/nh-examples.zip",
-      "downloadCount": 4048,
+      "downloadCount": 4049,
       "latestReleaseDate": "2023-03-24T04:57:15Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- use auto spirals\r\n- better ambient lights\r\n- warp pads\r\n- vessel on pygmy\r\n- ernesto kills u",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1101,7 +1101,7 @@
         "main": "newhorizonsexamples.webp"
       },
       "repoUpdatedAt": "2023-03-27T02:40:25Z",
-      "databaseEntryUpdatedAt": "2023-04-03T06:16:59.005Z",
+      "databaseEntryUpdatedAt": "2023-04-03T18:41:12.953Z",
       "viewCount": 57,
       "weeklyViewCount": 13,
       "installCount": 63,
@@ -6983,7 +6983,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6992,8 +6992,8 @@
       "thumbnail": {
         "main": "moddatatools.webp"
       },
-      "repoUpdatedAt": "2023-04-02T22:07:23Z",
-      "databaseEntryUpdatedAt": "2023-04-03T10:28:24.140Z",
+      "repoUpdatedAt": "2023-04-03T18:10:34Z",
+      "databaseEntryUpdatedAt": "2023-04-03T18:41:13.276Z",
       "viewCount": 43,
       "weeklyViewCount": 4,
       "installCount": 5,
