@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114649
+    "downloadCount": 114650
   },
   "releases": [
     {
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.2/xen.NewHorizons.zip",
-      "downloadCount": 22542,
+      "downloadCount": 22566,
       "latestReleaseDate": "2023-04-01T18:06:52Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,7 +1068,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-04-01T18:13:18Z",
-      "databaseEntryUpdatedAt": "2023-04-03T06:46:03.255Z",
+      "databaseEntryUpdatedAt": "2023-04-03T18:53:53.694Z",
       "viewCount": 650,
       "weeklyViewCount": 263,
       "installCount": 378,
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "- use auto spirals\r\n- better ambient lights\r\n- warp pads\r\n- vessel on pygmy\r\n- ernesto kills u",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4933,7 +4933,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3717,
+      "downloadCount": 3718,
       "latestReleaseDate": "2022-10-14T06:09:06Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4955,7 +4955,7 @@
         "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
       "repoUpdatedAt": "2023-03-31T05:36:11Z",
-      "databaseEntryUpdatedAt": "2023-04-03T06:46:03.701Z",
+      "databaseEntryUpdatedAt": "2023-04-03T18:53:54.076Z",
       "viewCount": 7,
       "weeklyViewCount": 2,
       "installCount": 48,
@@ -6992,8 +6992,8 @@
       "thumbnail": {
         "main": "moddatatools.webp"
       },
-      "repoUpdatedAt": "2023-04-03T18:10:34Z",
-      "databaseEntryUpdatedAt": "2023-04-03T18:41:13.276Z",
+      "repoUpdatedAt": "2023-04-03T18:43:35Z",
+      "databaseEntryUpdatedAt": "2023-04-03T18:53:54.048Z",
       "viewCount": 43,
       "weeklyViewCount": 4,
       "installCount": 5,
