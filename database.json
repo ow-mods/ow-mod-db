@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114622
+    "downloadCount": 114624
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 93490,
+      "downloadCount": 93531,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:44:43Z",
-      "databaseEntryUpdatedAt": "2023-04-03T02:13:19.261Z",
+      "databaseEntryUpdatedAt": "2023-04-03T14:29:14.035Z",
       "viewCount": 651,
       "weeklyViewCount": 156,
       "installCount": 0,
@@ -526,7 +526,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 2296,
+      "downloadCount": 2297,
       "latestReleaseDate": "2021-10-27T19:40:41Z",
       "firstReleaseDate": "2021-10-27T19:40:41Z",
       "repo": "https://github.com/dwatson251/ow-slowtime",
@@ -535,7 +535,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -543,7 +543,7 @@
       "slug": "slowtime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-31T12:21:36Z",
-      "databaseEntryUpdatedAt": "2023-04-03T02:13:16.341Z",
+      "databaseEntryUpdatedAt": "2023-04-03T14:29:11.561Z",
       "viewCount": 40,
       "weeklyViewCount": 12,
       "installCount": 82,
@@ -2820,7 +2820,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1490,
+      "downloadCount": 1492,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2829,7 +2829,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2840,7 +2840,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-04-03T02:13:17.828Z",
+      "databaseEntryUpdatedAt": "2023-04-03T14:29:12.363Z",
       "viewCount": 39,
       "weeklyViewCount": 9,
       "installCount": 89,
@@ -4197,7 +4197,7 @@
       "slug": "cutachievements",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:48:07Z",
-      "databaseEntryUpdatedAt": "2023-04-03T02:13:28.207Z",
+      "databaseEntryUpdatedAt": "2023-04-03T14:29:24.178Z",
       "viewCount": 10,
       "weeklyViewCount": 1,
       "installCount": 42,
@@ -5486,7 +5486,7 @@
       "description": "Mod to automatically export your Outer Wilds ship log for online viewing",
       "author": "Tephirax",
       "downloadUrl": "https://github.com/Tephirax/SharedShipLog/releases/download/v0.1.1/OuterWildsSharedShipLog.zip",
-      "downloadCount": 64,
+      "downloadCount": 65,
       "latestReleaseDate": "2022-11-18T16:15:16Z",
       "firstReleaseDate": "2022-11-18T16:15:16Z",
       "repo": "https://github.com/Tephirax/SharedShipLog",
@@ -5495,7 +5495,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5506,7 +5506,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-04-03T02:13:17.248Z",
+      "databaseEntryUpdatedAt": "2023-04-03T14:29:11.698Z",
       "viewCount": 7,
       "weeklyViewCount": 3,
       "installCount": 8,
@@ -7048,7 +7048,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7058,7 +7058,7 @@
         "main": "customizableanglerfishai.webp"
       },
       "repoUpdatedAt": "2023-03-27T23:01:51Z",
-      "databaseEntryUpdatedAt": "2023-04-03T02:13:17.829Z",
+      "databaseEntryUpdatedAt": "2023-04-03T14:29:12.646Z",
       "viewCount": 155,
       "weeklyViewCount": 133,
       "installCount": 21,
