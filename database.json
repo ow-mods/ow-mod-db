@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114759
+    "downloadCount": 114761
   },
   "releases": [
     {
@@ -6983,7 +6983,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6993,7 +6993,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-04T00:20:39Z",
-      "databaseEntryUpdatedAt": "2023-04-04T00:58:44.962Z",
+      "databaseEntryUpdatedAt": "2023-04-04T13:01:44.659Z",
       "viewCount": 43,
       "weeklyViewCount": 2,
       "installCount": 5,
