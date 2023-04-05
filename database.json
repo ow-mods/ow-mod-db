@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114948
+    "downloadCount": 114950
   },
   "releases": [
     {
@@ -4901,7 +4901,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.0.1/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 5982,
+      "downloadCount": 5993,
       "latestReleaseDate": "2022-10-26T04:07:09Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4911,7 +4911,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix bug where it was possible to change the mode while exiting the Ship Log computer (during the animation), that could cause issues like screen prompts being duplicated",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4921,7 +4921,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-03-29T02:44:25Z",
-      "databaseEntryUpdatedAt": "2023-04-05T04:49:45.290Z",
+      "databaseEntryUpdatedAt": "2023-04-05T16:51:01.762Z",
       "viewCount": 16,
       "weeklyViewCount": 4,
       "installCount": 39,
@@ -6376,7 +6376,7 @@
       "author": "coderCleric",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/coderCleric/Scavenger_Hunt/releases/download/v1.0.1/Scavenger_Hunt.zip",
-      "downloadCount": 202,
+      "downloadCount": 206,
       "latestReleaseDate": "2023-03-27T23:57:45Z",
       "firstReleaseDate": "2023-01-21T21:28:39Z",
       "repo": "https://github.com/coderCleric/Scavenger_Hunt",
@@ -6386,7 +6386,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6398,7 +6398,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-04-05T04:49:45.537Z",
+      "databaseEntryUpdatedAt": "2023-04-05T16:51:01.756Z",
       "viewCount": 62,
       "weeklyViewCount": 53,
       "installCount": 41,
