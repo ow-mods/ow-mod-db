@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114930
+    "downloadCount": 114936
   },
   "releases": [
     {
@@ -7195,7 +7195,7 @@
       "author": "Owen013",
       "parent": "Owen013.MovementMod",
       "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v0.1.0/Owen013.HikersModSHAddon.zip",
-      "downloadCount": 0,
+      "downloadCount": 2,
       "latestReleaseDate": "2023-04-05T00:56:25Z",
       "firstReleaseDate": "2023-04-05T00:56:25Z",
       "repo": "https://github.com/Owen013/HikersModSHAddon",
@@ -7205,7 +7205,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/HikersModSHAddon/master/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Instead of building the compatibility for Smol Hatchling and Hiker's mod directly into the code, I've changed it so that this compatibility is now achieved through this addon. There are still a few (non-gameplay-affecting) bugs, so this is a beta version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration"
@@ -7213,7 +7213,7 @@
       "slug": "owen013hikersmodshaddon",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-05T00:59:31Z",
-      "databaseEntryUpdatedAt": "2023-04-05T02:11:48.452Z",
+      "databaseEntryUpdatedAt": "2023-04-05T14:29:23.091Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 1,
