@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114983
+    "downloadCount": 114984
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 93720,
+      "downloadCount": 93781,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-04-04T19:28:54Z",
-      "databaseEntryUpdatedAt": "2023-04-05T07:42:38.220Z",
+      "databaseEntryUpdatedAt": "2023-04-05T19:48:18.019Z",
       "viewCount": 649,
       "weeklyViewCount": 173,
       "installCount": 0,
@@ -7195,8 +7195,8 @@
       "author": "Owen013",
       "parent": "Owen013.MovementMod",
       "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.0.0/Owen013.HikersModSHAddon.zip",
-      "downloadCount": 2,
-      "latestReleaseDate": "2023-04-05T19:31:37Z",
+      "downloadCount": 3,
+      "latestReleaseDate": "2023-04-05T19:40:24Z",
       "firstReleaseDate": "2023-04-05T00:56:25Z",
       "repo": "https://github.com/Owen013/HikersModSHAddon",
       "version": "v1.0.0",
@@ -7206,14 +7206,19 @@
       },
       "authorDisplay": "Owen_013",
       "latestReleaseDescription": "This addon makes Hiker's Mod compatible with Smol Hatchling!\r\n\r\n### Changes:\r\n- Hiker's Mod animation speed will now be updated every time the player size is changed via Smol Hatchling so that the animation speed will be correct for the speed and size of the player.",
-      "latestPrereleaseDescription": "",
+      "latestPrereleaseDescription": "**ONLY USE THIS PRERELEASE IF SMOL HATCHLING 2.0.0-pr2 OR ABOVE IS INSTALLED**",
+      "prerelease": {
+        "version": "v1.1.0-pr1",
+        "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.1.0-pr1/Owen013.HikersModSHAddon.zip",
+        "date": "2023-04-05T19:45:12Z"
+      },
       "tags": [
         "integration"
       ],
       "slug": "owen013hikersmodshaddon",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-04-05T19:31:44Z",
-      "databaseEntryUpdatedAt": "2023-04-05T19:35:26.598Z",
+      "repoUpdatedAt": "2023-04-05T19:45:35Z",
+      "databaseEntryUpdatedAt": "2023-04-05T19:48:16.423Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 1,
