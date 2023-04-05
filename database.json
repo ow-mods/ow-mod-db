@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 114982
+    "downloadCount": 114983
   },
   "releases": [
     {
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "- use auto spirals\r\n- better ambient lights\r\n- warp pads\r\n- vessel on pygmy\r\n- ernesto kills u",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7194,26 +7194,26 @@
       "description": "Makes Hiker's Mod compatible with Smol Hatchling",
       "author": "Owen013",
       "parent": "Owen013.MovementMod",
-      "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v0.1.0/Owen013.HikersModSHAddon.zip",
+      "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.0.0/Owen013.HikersModSHAddon.zip",
       "downloadCount": 2,
-      "latestReleaseDate": "2023-04-05T00:56:25Z",
+      "latestReleaseDate": "2023-04-05T19:31:37Z",
       "firstReleaseDate": "2023-04-05T00:56:25Z",
       "repo": "https://github.com/Owen013/HikersModSHAddon",
-      "version": "v0.1.0",
+      "version": "v1.0.0",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/HikersModSHAddon/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/HikersModSHAddon/master/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "This addon makes Hiker's Mod compatible with Smol Hatchling!\r\n\r\n### Changes:\r\n- Hiker's Mod animation speed will now be updated every time the player size is changed via Smol Hatchling so that the animation speed will be correct for the speed and size of the player.",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration"
       ],
       "slug": "owen013hikersmodshaddon",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-04-05T18:38:40Z",
-      "databaseEntryUpdatedAt": "2023-04-05T18:51:13.567Z",
+      "repoUpdatedAt": "2023-04-05T19:31:44Z",
+      "databaseEntryUpdatedAt": "2023-04-05T19:35:26.598Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 1,
