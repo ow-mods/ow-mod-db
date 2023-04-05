@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.26.3/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 27350,
+      "downloadCount": 27376,
       "latestReleaseDate": "2023-03-09T16:50:25Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed title screen buttons being visible too early.\r\n- Fixed issue where the ship would launch you around weirdly.\r\n- Fixed issue when trying to handle messages from disconnected players.\r\n- Added the WorldObject count into the hash messages.\r\n- Moved the `WakeUpSync` script off of the remote player prefab.\r\n- Removed the unused `StopMeditation` script.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,7 +111,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-03-30T18:24:09Z",
-      "databaseEntryUpdatedAt": "2023-04-05T07:55:25.734Z",
+      "databaseEntryUpdatedAt": "2023-04-05T20:00:37.934Z",
       "viewCount": 1794,
       "weeklyViewCount": 603,
       "installCount": 658,
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.2/xen.NewHorizons.zip",
-      "downloadCount": 22655,
+      "downloadCount": 22686,
       "latestReleaseDate": "2023-04-01T18:06:52Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,7 +1068,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-04-04T07:20:00Z",
-      "databaseEntryUpdatedAt": "2023-04-05T07:55:25.017Z",
+      "databaseEntryUpdatedAt": "2023-04-05T20:00:37.233Z",
       "viewCount": 696,
       "weeklyViewCount": 266,
       "installCount": 380,
@@ -1209,7 +1209,7 @@
       "description": "Customizable player scale!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.2.4/Owen013.TeenyHatchling.zip",
-      "downloadCount": 1017,
+      "downloadCount": 1021,
       "latestReleaseDate": "2023-04-05T00:57:02Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
@@ -1218,8 +1218,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "Instead of building the compatibility for Smol Hatchling and Hiker's mod directly into the code, I've changed it so that this compatibility is now achieved through an addon called \"Hiker's Mod Compatibility with Smol Hatchling\"",
+      "latestPrereleaseDescription": "The first of many prereleases for v2.0.0.\r\n### Changes:\r\n- Added stools, which are enabled by default. They appear in every location (that I know of) where being Smol™ may be detrimental to gameplay.\r\n- Updated config menu a bit, adding separators.\r\n\r\n### Known Issues:\r\n- Stools can be used to travel through walls.\r\n- If the player's size is changed in the config with Hiker's Mod installed, the walking animation speed won't update unless the Hiker's Mod config is also updated.\r\n- If the player stands too close to a wall while Smol™, they may become ungrounded and start sliding on the ground.\r\n- (Minor) Stools can be placed inside walls.",
       "prerelease": {
         "version": "v2.0.0-pr1",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr1/Owen013.TeenyHatchling.zip",
@@ -1232,8 +1232,8 @@
       "thumbnail": {
         "main": "smolhatchling.webp"
       },
-      "repoUpdatedAt": "2023-04-05T00:59:27Z",
-      "databaseEntryUpdatedAt": "2023-04-05T13:51:10.873Z",
+      "repoUpdatedAt": "2023-04-05T19:52:04Z",
+      "databaseEntryUpdatedAt": "2023-04-05T20:00:37.232Z",
       "viewCount": 9,
       "weeklyViewCount": 4,
       "installCount": 22,
@@ -4058,7 +4058,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/releases/download/v0.1.2/ow-nh-ss-ascension.zip",
-      "downloadCount": 338,
+      "downloadCount": 339,
       "latestReleaseDate": "2023-04-02T18:54:23Z",
       "firstReleaseDate": "2022-08-17T04:00:28Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-ss-ascension",
@@ -4067,7 +4067,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4077,7 +4077,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-04-05T07:55:25.240Z",
+      "databaseEntryUpdatedAt": "2023-04-05T20:00:37.229Z",
       "viewCount": 39,
       "weeklyViewCount": 33,
       "installCount": 20,
@@ -7205,8 +7205,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/HikersModSHAddon/master/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "This addon makes Hiker's Mod compatible with Smol Hatchling!\r\n\r\n### Changes:\r\n- Hiker's Mod animation speed will now be updated every time the player size is changed via Smol Hatchling so that the animation speed will be correct for the speed and size of the player.",
-      "latestPrereleaseDescription": "**ONLY USE THIS PRERELEASE IF SMOL HATCHLING 2.0.0-pr2 OR ABOVE IS INSTALLED**",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.1.0-pr1",
         "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.1.0-pr1/Owen013.HikersModSHAddon.zip",
