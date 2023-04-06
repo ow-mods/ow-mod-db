@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 115086
+    "downloadCount": 115090
   },
   "releases": [
     {
@@ -5486,7 +5486,7 @@
       "description": "Mod to automatically export your Outer Wilds ship log for online viewing",
       "author": "Tephirax",
       "downloadUrl": "https://github.com/Tephirax/SharedShipLog/releases/download/v0.1.1/OuterWildsSharedShipLog.zip",
-      "downloadCount": 66,
+      "downloadCount": 67,
       "latestReleaseDate": "2022-11-18T16:15:16Z",
       "firstReleaseDate": "2022-11-18T16:15:16Z",
       "repo": "https://github.com/Tephirax/SharedShipLog",
@@ -5495,7 +5495,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5506,7 +5506,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-04-06T03:12:02.627Z",
+      "databaseEntryUpdatedAt": "2023-04-06T15:19:14.461Z",
       "viewCount": 8,
       "weeklyViewCount": 4,
       "installCount": 10,
@@ -7048,7 +7048,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7058,7 +7058,7 @@
         "main": "customizableanglerfishai.webp"
       },
       "repoUpdatedAt": "2023-03-27T23:01:51Z",
-      "databaseEntryUpdatedAt": "2023-04-06T03:12:02.630Z",
+      "databaseEntryUpdatedAt": "2023-04-06T15:19:14.730Z",
       "viewCount": 158,
       "weeklyViewCount": 20,
       "installCount": 26,
