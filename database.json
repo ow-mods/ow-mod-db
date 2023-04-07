@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 115244
+    "downloadCount": 115246
   },
   "releases": [
     {
@@ -1245,7 +1245,7 @@
       "description": "Customizable movement speed and jump height, instant jump, sprinting, climbing, and more.",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.2/Owen013.MovementMod.zip",
-      "downloadCount": 2625,
+      "downloadCount": 2628,
       "latestReleaseDate": "2023-04-05T00:47:24Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
@@ -1254,8 +1254,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "Instead of building the compatibility for Smol Hatchling and Hiker's mod directly into the code, I've changed it so that this compatibility is now achieved through an addon called \"Hiker's Mod Compatibility with Smol Hatchling\"",
+      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -1269,7 +1269,7 @@
         "main": "hikersmod.webp"
       },
       "repoUpdatedAt": "2023-04-05T00:59:29Z",
-      "databaseEntryUpdatedAt": "2023-04-07T02:38:47.056Z",
+      "databaseEntryUpdatedAt": "2023-04-07T14:43:07.232Z",
       "viewCount": 64,
       "weeklyViewCount": 29,
       "installCount": 70,
@@ -6974,7 +6974,7 @@
       "author": "Hawkbat",
       "utility": true,
       "downloadUrl": "https://github.com/Hawkbat/ow-mod-data-tools/releases/download/0.1.1/Hawkbar.ModDataTools.zip",
-      "downloadCount": 11,
+      "downloadCount": 12,
       "latestReleaseDate": "2023-03-14T02:11:39Z",
       "firstReleaseDate": "2023-03-13T19:52:32Z",
       "repo": "https://github.com/Hawkbat/ow-mod-data-tools",
@@ -6983,7 +6983,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6993,7 +6993,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-04T00:20:39Z",
-      "databaseEntryUpdatedAt": "2023-04-07T02:38:47.218Z",
+      "databaseEntryUpdatedAt": "2023-04-07T14:43:06.757Z",
       "viewCount": 47,
       "weeklyViewCount": 6,
       "installCount": 7,
