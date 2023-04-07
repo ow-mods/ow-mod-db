@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 115306
+    "downloadCount": 115307
   },
   "releases": [
     {
@@ -1209,7 +1209,7 @@
       "description": "Customizable player scale!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.2.4/Owen013.TeenyHatchling.zip",
-      "downloadCount": 1028,
+      "downloadCount": 1031,
       "latestReleaseDate": "2023-04-05T00:57:02Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
@@ -1218,8 +1218,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "Instead of building the compatibility for Smol Hatchling and Hiker's mod directly into the code, I've changed it so that this compatibility is now achieved through an addon called \"Hiker's Mod Compatibility with Smol Hatchling\"",
+      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -1233,7 +1233,7 @@
         "main": "smolhatchling.webp"
       },
       "repoUpdatedAt": "2023-04-05T20:33:47Z",
-      "databaseEntryUpdatedAt": "2023-04-07T09:01:00.135Z",
+      "databaseEntryUpdatedAt": "2023-04-07T21:17:22.107Z",
       "viewCount": 22,
       "weeklyViewCount": 15,
       "installCount": 23,
@@ -4408,7 +4408,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "Last New Horizons update compability fix",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "story",
@@ -7195,7 +7195,7 @@
       "author": "Owen013",
       "parent": "Owen013.MovementMod",
       "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.0.0/Owen013.HikersModSHAddon.zip",
-      "downloadCount": 8,
+      "downloadCount": 10,
       "latestReleaseDate": "2023-04-05T19:40:24Z",
       "firstReleaseDate": "2023-04-05T00:56:25Z",
       "repo": "https://github.com/Owen013/HikersModSHAddon",
@@ -7205,8 +7205,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/HikersModSHAddon/master/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "This addon makes Hiker's Mod compatible with Smol Hatchling!\r\n\r\n### Changes:\r\n- Hiker's Mod animation speed will now be updated every time the player size is changed via Smol Hatchling so that the animation speed will be correct for the speed and size of the player.",
+      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nThis addon makes Hiker's Mod compatible with v2.0.0-pr2 of Smol Hatchling! ONLY USE THIS PRERELEASE WITH SMOL HATCHLING v2.0.0-pr2 OR ABOVE.",
       "prerelease": {
         "version": "v1.1.0-pr1",
         "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.1.0-pr1/Owen013.HikersModSHAddon.zip",
@@ -7218,7 +7218,7 @@
       "slug": "hikersmodcompatibilitywithsmolhatchling",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-05T20:34:33Z",
-      "databaseEntryUpdatedAt": "2023-04-07T09:01:00.133Z",
+      "databaseEntryUpdatedAt": "2023-04-07T21:17:21.436Z",
       "viewCount": 3,
       "weeklyViewCount": 3,
       "installCount": 3,
