@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 115369
+    "downloadCount": 115370
   },
   "releases": [
     {
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- use auto spirals\r\n- better ambient lights\r\n- warp pads\r\n- vessel on pygmy\r\n- ernesto kills u",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1101,7 +1101,7 @@
         "main": "newhorizonsexamples.webp"
       },
       "repoUpdatedAt": "2023-03-27T02:40:25Z",
-      "databaseEntryUpdatedAt": "2023-04-07T19:48:36.414Z",
+      "databaseEntryUpdatedAt": "2023-04-08T07:51:35.445Z",
       "viewCount": 67,
       "weeklyViewCount": 14,
       "installCount": 64,
@@ -4933,7 +4933,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3726,
+      "downloadCount": 3728,
       "latestReleaseDate": "2022-10-14T06:09:06Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4955,7 +4955,7 @@
         "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
       "repoUpdatedAt": "2023-03-31T05:36:11Z",
-      "databaseEntryUpdatedAt": "2023-04-07T19:48:36.883Z",
+      "databaseEntryUpdatedAt": "2023-04-08T07:51:35.716Z",
       "viewCount": 13,
       "weeklyViewCount": 6,
       "installCount": 47,
