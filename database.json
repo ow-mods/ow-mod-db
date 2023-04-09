@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 115597
+    "downloadCount": 115598
   },
   "releases": [
     {
@@ -31,7 +31,9 @@
         "library"
       ],
       "slug": "owml",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "owml.webp"
+      },
       "repoUpdatedAt": "2023-04-04T19:28:54Z",
       "databaseEntryUpdatedAt": "2023-04-09T08:59:30.495Z",
       "viewCount": 684,
@@ -136,7 +138,9 @@
         "audiovisual"
       ],
       "slug": "lightbramble",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "lightbramble.webp"
+      },
       "repoUpdatedAt": "2023-03-03T13:41:46Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:45:57.678Z",
       "viewCount": 333,
@@ -390,9 +394,7 @@
         "gameplay"
       ],
       "slug": "outerwildsonline",
-      "thumbnail": {
-        "main": "outerwildsonline.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-31T00:59:19Z",
       "databaseEntryUpdatedAt": "2023-04-09T04:36:38.647Z",
       "viewCount": 261,
@@ -903,7 +905,9 @@
         "tool"
       ],
       "slug": "unityexplorer",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "unityexplorer.webp"
+      },
       "repoUpdatedAt": "2022-11-08T02:50:03Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:45:57.954Z",
       "viewCount": 105,
@@ -1058,9 +1062,7 @@
         "story"
       ],
       "slug": "newhorizons",
-      "thumbnail": {
-        "main": "newhorizons.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-04-04T07:20:00Z",
       "databaseEntryUpdatedAt": "2023-04-09T09:18:36.097Z",
       "viewCount": 740,
@@ -1091,9 +1093,7 @@
         "content"
       ],
       "slug": "newhorizonsexamples",
-      "thumbnail": {
-        "main": "newhorizonsexamples.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-27T02:40:25Z",
       "databaseEntryUpdatedAt": "2023-04-09T08:21:32.600Z",
       "viewCount": 69,
@@ -1123,9 +1123,7 @@
         "content"
       ],
       "slug": "realsolarsystem",
-      "thumbnail": {
-        "main": "realsolarsystem.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-04-03T23:22:37Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:29.572Z",
       "viewCount": 195,
@@ -1187,9 +1185,7 @@
         "content"
       ],
       "slug": "ellieplanets",
-      "thumbnail": {
-        "main": "ellieplanets.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-01-08T21:25:50Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:29.431Z",
       "viewCount": 14,
@@ -1415,9 +1411,7 @@
         "gameplay"
       ],
       "slug": "slatesimulator",
-      "thumbnail": {
-        "main": "slatesimulator.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-06-16T19:44:27Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:29.431Z",
       "viewCount": 20,
@@ -1728,9 +1722,7 @@
         "tool"
       ],
       "slug": "collidervisualizer",
-      "thumbnail": {
-        "main": "collidervisualizer.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-11-05T00:46:07Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:29.857Z",
       "viewCount": 4,
@@ -1985,7 +1977,9 @@
         "tool"
       ],
       "slug": "inputdemorecorder",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "inputdemorecorder.webp"
+      },
       "repoUpdatedAt": "2022-10-23T02:14:38Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.212Z",
       "viewCount": 4,
@@ -2014,7 +2008,9 @@
         "gameplay"
       ],
       "slug": "celestewilds",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "celestewilds.webp"
+      },
       "repoUpdatedAt": "2022-11-03T15:45:12Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.229Z",
       "viewCount": 27,
@@ -2142,7 +2138,9 @@
         "tweaks"
       ],
       "slug": "vanillafix",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "vanillafix.webp"
+      },
       "repoUpdatedAt": "2022-10-01T04:44:44Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.473Z",
       "viewCount": 195,
@@ -2235,9 +2233,7 @@
         "content"
       ],
       "slug": "ghosttranslations",
-      "thumbnail": {
-        "main": "ghosttranslations.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-02-25T11:56:48Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.662Z",
       "viewCount": 188,
@@ -2354,9 +2350,7 @@
         "content"
       ],
       "slug": "almondsystem",
-      "thumbnail": {
-        "main": "almondsystem.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-05-11T14:10:14Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.101Z",
       "viewCount": 5,
@@ -2414,7 +2408,9 @@
         "content"
       ],
       "slug": "emptyhollow",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "emptyhollow.webp"
+      },
       "repoUpdatedAt": "2023-01-22T00:02:39Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.783Z",
       "viewCount": 17,
@@ -2728,7 +2724,9 @@
         "tweaks"
       ],
       "slug": "nodambreak",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "nodambreak.webp"
+      },
       "repoUpdatedAt": "2022-06-02T14:23:26Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.313Z",
       "viewCount": 8,
@@ -2818,9 +2816,7 @@
         "tweaks"
       ],
       "slug": "achievements",
-      "thumbnail": {
-        "main": "achievements.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
       "databaseEntryUpdatedAt": "2023-04-09T04:23:35.367Z",
       "viewCount": 46,
@@ -2849,7 +2845,9 @@
         "tool"
       ],
       "slug": "supernovaondemand",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "supernovaondemand.webp"
+      },
       "repoUpdatedAt": "2022-04-29T13:08:54Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.274Z",
       "viewCount": 4,
@@ -2939,9 +2937,7 @@
         "content"
       ],
       "slug": "arkosebugfix",
-      "thumbnail": {
-        "main": "arkosebugfix.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-05-18T13:47:08Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.364Z",
       "viewCount": 9,
@@ -3000,9 +2996,7 @@
         "content"
       ],
       "slug": "timbertwin",
-      "thumbnail": {
-        "main": "timbertwin.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-06-21T14:46:41Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.450Z",
       "viewCount": 18,
@@ -3154,9 +3148,7 @@
         "localization"
       ],
       "slug": "outerwildstraditionalchinesetranslation",
-      "thumbnail": {
-        "main": "outerwildstraditionalchinesetranslation.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-11-11T06:20:04Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.522Z",
       "viewCount": 14,
@@ -3218,9 +3210,7 @@
         "content"
       ],
       "slug": "cloudlessquantummoons",
-      "thumbnail": {
-        "main": "cloudlessquantummoons.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-10-01T04:43:03Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.673Z",
       "viewCount": 17,
@@ -3282,7 +3272,10 @@
         "gameplay"
       ],
       "slug": "suitlog",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "suitlog.webp",
+        "openGraph": "suitlog-static.webp"
+      },
       "repoUpdatedAt": "2022-10-07T13:24:15Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.076Z",
       "viewCount": 90,
@@ -3311,9 +3304,7 @@
         "audiovisual"
       ],
       "slug": "hatchlingoutfitter",
-      "thumbnail": {
-        "main": "hatchlingoutfitter.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-10-01T22:27:29Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.989Z",
       "viewCount": 8,
@@ -3494,9 +3485,7 @@
         "gameplay"
       ],
       "slug": "primitivelaunching",
-      "thumbnail": {
-        "main": "primitivelaunching.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T00:02:34Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.316Z",
       "viewCount": 2,
@@ -3525,9 +3514,7 @@
         "audiovisual"
       ],
       "slug": "alphatitlescreen",
-      "thumbnail": {
-        "main": "alphatitlescreen.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T00:02:29Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.360Z",
       "viewCount": 7,
@@ -3649,7 +3636,9 @@
         "content"
       ],
       "slug": "blackholesun",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "blackholesun.webp"
+      },
       "repoUpdatedAt": "2022-07-26T21:57:27Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.609Z",
       "viewCount": 13,
@@ -3950,7 +3939,9 @@
         "audiovisual"
       ],
       "slug": "galaxyskyboxngc1087",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "galaxyskyboxngc1087.webp"
+      },
       "repoUpdatedAt": "2022-07-27T22:40:10Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.885Z",
       "viewCount": 6,
@@ -4011,10 +4002,7 @@
         "gameplay"
       ],
       "slug": "permadeathmode",
-      "thumbnail": {
-        "main": "permadeathmode.webp",
-        "openGraph": "permadeathmode-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-09-16T21:21:17Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.182Z",
       "viewCount": 20,
@@ -4044,9 +4032,7 @@
         "content"
       ],
       "slug": "sunstationascension",
-      "thumbnail": {
-        "main": "sunstationascension.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
       "databaseEntryUpdatedAt": "2023-04-09T09:18:33.043Z",
       "viewCount": 60,
@@ -4351,7 +4337,10 @@
         "content"
       ],
       "slug": "wackyrotations",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "wackyrotations.webp",
+        "openGraph": "wackyrotations-static.webp"
+      },
       "repoUpdatedAt": "2023-01-22T23:34:45Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.222Z",
       "viewCount": 5,
@@ -4598,7 +4587,9 @@
         "audiovisual"
       ],
       "slug": "clearglass",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "clearglass.webp"
+      },
       "repoUpdatedAt": "2022-09-29T02:52:26Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.550Z",
       "viewCount": 16,
@@ -4658,9 +4649,7 @@
         "content"
       ],
       "slug": "espiedserenity",
-      "thumbnail": {
-        "main": "espiedserenity.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-09-23T14:41:30Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.880Z",
       "viewCount": 6,
@@ -4690,7 +4679,9 @@
         "audiovisual"
       ],
       "slug": "greenjetpack",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "greenjetpack.webp"
+      },
       "repoUpdatedAt": "2022-10-21T05:07:39Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.286Z",
       "viewCount": 13,
@@ -4847,7 +4838,10 @@
         "gameplay"
       ],
       "slug": "scoutteleporter",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "scoutteleporter.webp",
+        "openGraph": "scoutteleporter-static.webp"
+      },
       "repoUpdatedAt": "2022-10-28T14:09:45Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.155Z",
       "viewCount": 23,
@@ -5172,9 +5166,7 @@
         "content"
       ],
       "slug": "ernestotakeover",
-      "thumbnail": {
-        "main": "ernestotakeover.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-11-05T03:19:34Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.883Z",
       "viewCount": 23,
@@ -5398,7 +5390,9 @@
         "tweaks"
       ],
       "slug": "trajectoryprediction",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "trajectoryprediction.webp"
+      },
       "repoUpdatedAt": "2023-02-08T21:00:17Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.885Z",
       "viewCount": 55,
@@ -5429,7 +5423,9 @@
         "tweaks"
       ],
       "slug": "nbodychaos",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "nbodychaos.webp"
+      },
       "repoUpdatedAt": "2023-01-23T18:39:45Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.174Z",
       "viewCount": 21,
@@ -5520,9 +5516,7 @@
         "content"
       ],
       "slug": "solarsystemsimadeasakid",
-      "thumbnail": {
-        "main": "solarsystemsimadeasakid.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-07T16:29:14Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.430Z",
       "viewCount": 14,
@@ -5553,9 +5547,7 @@
         "content"
       ],
       "slug": "owlystem",
-      "thumbnail": {
-        "main": "owlystem.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-11-26T03:39:21Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.269Z",
       "viewCount": 22,
@@ -5646,9 +5638,7 @@
         "content"
       ],
       "slug": "howdidthishappen",
-      "thumbnail": {
-        "main": "howdidthishappen.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-12-15T01:02:53Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.589Z",
       "viewCount": 22,
@@ -6147,9 +6137,7 @@
         "story"
       ],
       "slug": "thespiralsystem",
-      "thumbnail": {
-        "main": "thespiralsystem.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T10:36:01Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.858Z",
       "viewCount": 44,
@@ -6247,9 +6235,7 @@
         "content"
       ],
       "slug": "daylightsavings",
-      "thumbnail": {
-        "main": "daylightsavings.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-21T04:43:37Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:35.218Z",
       "viewCount": 12,
@@ -6281,9 +6267,7 @@
         "content"
       ],
       "slug": "brightdusk",
-      "thumbnail": {
-        "main": "brightdusk.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T01:25:02Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.986Z",
       "viewCount": 38,
@@ -6591,9 +6575,7 @@
         "tweaks"
       ],
       "slug": "celestialorrery",
-      "thumbnail": {
-        "main": "celestialorrery.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-23T19:08:20Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:35.486Z",
       "viewCount": 28,
@@ -6853,10 +6835,7 @@
         "gameplay"
       ],
       "slug": "hatchlingicarus",
-      "thumbnail": {
-        "main": "hatchlingicarus.webp",
-        "openGraph": "hatchlingicarus-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-02-24T04:37:34Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:35.688Z",
       "viewCount": 17,
@@ -6979,9 +6958,7 @@
         "audiovisual"
       ],
       "slug": "greenscreen",
-      "thumbnail": {
-        "main": "greenscreen.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-17T00:43:46Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:35.671Z",
       "viewCount": 70,
@@ -7421,7 +7398,9 @@
         "gameplay"
       ],
       "slug": "navinha",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "navinha.webp"
+      },
       "repoUpdatedAt": "2022-06-01T00:19:12Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.169Z",
       "viewCount": 3,
@@ -7636,9 +7615,7 @@
         "tool"
       ],
       "slug": "runtimeunityeditor",
-      "thumbnail": {
-        "main": "runtimeunityeditor.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-05-22T18:45:51Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.173Z",
       "viewCount": 34,
