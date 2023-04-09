@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 115598
+    "downloadCount": 115599
   },
   "releases": [
     {
@@ -31,9 +31,7 @@
         "library"
       ],
       "slug": "owml",
-      "thumbnail": {
-        "main": "owml.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-04-04T19:28:54Z",
       "databaseEntryUpdatedAt": "2023-04-09T08:59:30.495Z",
       "viewCount": 684,
@@ -266,9 +264,7 @@
         "tool"
       ],
       "slug": "hdscreenshot",
-      "thumbnail": {
-        "main": "hdscreenshot.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2021-11-26T09:40:01Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:27.906Z",
       "viewCount": 23,
@@ -869,9 +865,7 @@
         "audiovisual"
       ],
       "slug": "eotebrighterdreams",
-      "thumbnail": {
-        "main": "eotebrighterdreams.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2021-11-28T22:52:35Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:45:57.835Z",
       "viewCount": 392,
@@ -1062,7 +1056,9 @@
         "story"
       ],
       "slug": "newhorizons",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "newhorizons.webp"
+      },
       "repoUpdatedAt": "2023-04-04T07:20:00Z",
       "databaseEntryUpdatedAt": "2023-04-09T09:18:36.097Z",
       "viewCount": 740,
@@ -1123,7 +1119,9 @@
         "content"
       ],
       "slug": "realsolarsystem",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "realsolarsystem.webp"
+      },
       "repoUpdatedAt": "2023-04-03T23:22:37Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:29.572Z",
       "viewCount": 195,
@@ -1255,9 +1253,7 @@
         "gameplay"
       ],
       "slug": "hikersmod",
-      "thumbnail": {
-        "main": "hikersmod.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-04-05T00:59:29Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:58:26.676Z",
       "viewCount": 65,
@@ -1411,7 +1407,9 @@
         "gameplay"
       ],
       "slug": "slatesimulator",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "slatesimulator.webp"
+      },
       "repoUpdatedAt": "2022-06-16T19:44:27Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:29.431Z",
       "viewCount": 20,
@@ -1478,9 +1476,7 @@
         "content"
       ],
       "slug": "solarneighbourhood",
-      "thumbnail": {
-        "main": "solarneighbourhood.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-02-05T05:37:52Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:29.937Z",
       "viewCount": 79,
@@ -1630,10 +1626,7 @@
         "audiovisual"
       ],
       "slug": "outerwarioechoesofthewaaaaaaaaaaah",
-      "thumbnail": {
-        "main": "outerwarioechoesofthewaaaaaaaaaaah.webp",
-        "openGraph": "outerwarioechoesofthewaaaaaaaaaaah-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-04-12T15:55:58Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.170Z",
       "viewCount": 22,
@@ -1722,7 +1715,9 @@
         "tool"
       ],
       "slug": "collidervisualizer",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "collidervisualizer.webp"
+      },
       "repoUpdatedAt": "2022-11-05T00:46:07Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:29.857Z",
       "viewCount": 4,
@@ -2008,9 +2003,7 @@
         "gameplay"
       ],
       "slug": "celestewilds",
-      "thumbnail": {
-        "main": "celestewilds.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-11-03T15:45:12Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.229Z",
       "viewCount": 27,
@@ -2107,9 +2100,7 @@
         "gameplay"
       ],
       "slug": "hollodjustment",
-      "thumbnail": {
-        "main": "hollodjustment.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-03-22T09:00:19Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.405Z",
       "viewCount": 3,
@@ -2138,9 +2129,7 @@
         "tweaks"
       ],
       "slug": "vanillafix",
-      "thumbnail": {
-        "main": "vanillafix.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-10-01T04:44:44Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.473Z",
       "viewCount": 195,
@@ -2204,7 +2193,9 @@
         "audiovisual"
       ],
       "slug": "titlescreenbugfix",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "titlescreenbugfix.webp"
+      },
       "repoUpdatedAt": "2022-04-01T15:34:58Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.655Z",
       "viewCount": 10,
@@ -2233,7 +2224,9 @@
         "content"
       ],
       "slug": "ghosttranslations",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "ghosttranslations.webp"
+      },
       "repoUpdatedAt": "2023-02-25T11:56:48Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.662Z",
       "viewCount": 188,
@@ -2350,7 +2343,9 @@
         "content"
       ],
       "slug": "almondsystem",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "almondsystem.webp"
+      },
       "repoUpdatedAt": "2022-05-11T14:10:14Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.101Z",
       "viewCount": 5,
@@ -2568,9 +2563,7 @@
         "tool"
       ],
       "slug": "sleepmod",
-      "thumbnail": {
-        "main": "sleepmod.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-04-21T22:21:28Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.075Z",
       "viewCount": 6,
@@ -2599,9 +2592,7 @@
         "tweaks"
       ],
       "slug": "ghostmatternerf",
-      "thumbnail": {
-        "main": "ghostmatternerf.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-04-21T18:30:39Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:30.750Z",
       "viewCount": 30,
@@ -2724,9 +2715,7 @@
         "tweaks"
       ],
       "slug": "nodambreak",
-      "thumbnail": {
-        "main": "nodambreak.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-06-02T14:23:26Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.313Z",
       "viewCount": 8,
@@ -2816,7 +2805,9 @@
         "tweaks"
       ],
       "slug": "achievements",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "achievements.webp"
+      },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
       "databaseEntryUpdatedAt": "2023-04-09T04:23:35.367Z",
       "viewCount": 46,
@@ -2845,9 +2836,7 @@
         "tool"
       ],
       "slug": "supernovaondemand",
-      "thumbnail": {
-        "main": "supernovaondemand.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-04-29T13:08:54Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.274Z",
       "viewCount": 4,
@@ -2996,7 +2985,9 @@
         "content"
       ],
       "slug": "timbertwin",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "timbertwin.webp"
+      },
       "repoUpdatedAt": "2022-06-21T14:46:41Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.450Z",
       "viewCount": 18,
@@ -3086,9 +3077,7 @@
         "content"
       ],
       "slug": "changedtwins",
-      "thumbnail": {
-        "main": "changedtwins.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-05-15T07:57:32Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.934Z",
       "viewCount": 14,
@@ -3148,7 +3137,9 @@
         "localization"
       ],
       "slug": "outerwildstraditionalchinesetranslation",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "outerwildstraditionalchinesetranslation.webp"
+      },
       "repoUpdatedAt": "2022-11-11T06:20:04Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.522Z",
       "viewCount": 14,
@@ -3210,7 +3201,9 @@
         "content"
       ],
       "slug": "cloudlessquantummoons",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "cloudlessquantummoons.webp"
+      },
       "repoUpdatedAt": "2022-10-01T04:43:03Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.673Z",
       "viewCount": 17,
@@ -3304,7 +3297,9 @@
         "audiovisual"
       ],
       "slug": "hatchlingoutfitter",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "hatchlingoutfitter.webp"
+      },
       "repoUpdatedAt": "2022-10-01T22:27:29Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:31.989Z",
       "viewCount": 8,
@@ -3426,7 +3421,9 @@
         "content"
       ],
       "slug": "cloudlessgiantsdeep",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "cloudlessgiantsdeep.webp"
+      },
       "repoUpdatedAt": "2022-05-26T03:32:58Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.609Z",
       "viewCount": 12,
@@ -3485,7 +3482,9 @@
         "gameplay"
       ],
       "slug": "primitivelaunching",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "primitivelaunching.webp"
+      },
       "repoUpdatedAt": "2023-01-22T00:02:34Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.316Z",
       "viewCount": 2,
@@ -3514,7 +3513,9 @@
         "audiovisual"
       ],
       "slug": "alphatitlescreen",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "alphatitlescreen.webp"
+      },
       "repoUpdatedAt": "2023-01-22T00:02:29Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.360Z",
       "viewCount": 7,
@@ -3604,9 +3605,7 @@
         "tool"
       ],
       "slug": "factlog",
-      "thumbnail": {
-        "main": "factlog.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-07-18T04:18:33Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.411Z",
       "viewCount": 5,
@@ -3636,9 +3635,7 @@
         "content"
       ],
       "slug": "blackholesun",
-      "thumbnail": {
-        "main": "blackholesun.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-07-26T21:57:27Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.609Z",
       "viewCount": 13,
@@ -3668,9 +3665,7 @@
         "content"
       ],
       "slug": "nosun",
-      "thumbnail": {
-        "main": "nosun.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-09-19T23:44:50Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.594Z",
       "viewCount": 1,
@@ -3760,10 +3755,7 @@
         "gameplay"
       ],
       "slug": "blockplacing",
-      "thumbnail": {
-        "main": "blockplacing.webp",
-        "openGraph": "blockplacing-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-05T18:34:40Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.529Z",
       "viewCount": 7,
@@ -3822,9 +3814,7 @@
         "content"
       ],
       "slug": "carsonsystem",
-      "thumbnail": {
-        "main": "carsonsystem.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-02-22T14:53:05Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.788Z",
       "viewCount": 25,
@@ -3939,9 +3929,7 @@
         "audiovisual"
       ],
       "slug": "galaxyskyboxngc1087",
-      "thumbnail": {
-        "main": "galaxyskyboxngc1087.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-07-27T22:40:10Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.885Z",
       "viewCount": 6,
@@ -3971,9 +3959,7 @@
         "audiovisual"
       ],
       "slug": "quantummoonorbitline",
-      "thumbnail": {
-        "main": "quantummoonorbitline.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T00:02:17Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.794Z",
       "viewCount": 8,
@@ -4032,7 +4018,9 @@
         "content"
       ],
       "slug": "sunstationascension",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "sunstationascension.webp"
+      },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
       "databaseEntryUpdatedAt": "2023-04-09T09:18:33.043Z",
       "viewCount": 60,
@@ -4123,10 +4111,7 @@
         "gameplay"
       ],
       "slug": "speedmodifierwalkbuttononkbm",
-      "thumbnail": {
-        "main": "speedmodifierwalkbuttononkbm.webp",
-        "openGraph": "speedmodifierwalkbuttononkbm-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-11-06T23:03:00Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.030Z",
       "viewCount": 7,
@@ -4181,9 +4166,7 @@
         "gameplay"
       ],
       "slug": "chargeablescoutlauncher",
-      "thumbnail": {
-        "main": "chargeablescoutlauncher.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-12-26T23:46:30Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.289Z",
       "viewCount": 10,
@@ -4212,9 +4195,7 @@
         "integration"
       ],
       "slug": "razersteelseriesrgbintegration",
-      "thumbnail": {
-        "main": "razersteelseriesrgbintegration.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-04T23:24:58Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.930Z",
       "viewCount": 6,
@@ -4372,10 +4353,7 @@
         "content"
       ],
       "slug": "thevision",
-      "thumbnail": {
-        "main": "thevision.webp",
-        "openGraph": "thevision-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-26T17:32:18Z",
       "databaseEntryUpdatedAt": "2023-04-09T09:18:36.423Z",
       "viewCount": 972,
@@ -4406,9 +4384,7 @@
         "content"
       ],
       "slug": "secretwords",
-      "thumbnail": {
-        "main": "secretwords.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-10-07T20:35:17Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.165Z",
       "viewCount": 18,
@@ -4649,7 +4625,9 @@
         "content"
       ],
       "slug": "espiedserenity",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "espiedserenity.webp"
+      },
       "repoUpdatedAt": "2022-09-23T14:41:30Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.880Z",
       "viewCount": 6,
@@ -5069,9 +5047,7 @@
         "content"
       ],
       "slug": "thewildsextended",
-      "thumbnail": {
-        "main": "thewildsextended.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-11-03T02:33:23Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.902Z",
       "viewCount": 15,
@@ -5166,7 +5142,9 @@
         "content"
       ],
       "slug": "ernestotakeover",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "ernestotakeover.webp"
+      },
       "repoUpdatedAt": "2022-11-05T03:19:34Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:33.883Z",
       "viewCount": 23,
@@ -5227,10 +5205,7 @@
         "gameplay"
       ],
       "slug": "strangerspingravity",
-      "thumbnail": {
-        "main": "strangerspingravity.webp",
-        "openGraph": "strangerspingravity-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-27T04:28:15Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.206Z",
       "viewCount": 21,
@@ -5323,9 +5298,7 @@
         "content"
       ],
       "slug": "iletthevoicesonthediscordservermakebadideasforplanets",
-      "thumbnail": {
-        "main": "iletthevoicesonthediscordservermakebadideasforplanets.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-11-14T00:49:00Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.132Z",
       "viewCount": 14,
@@ -5423,9 +5396,7 @@
         "tweaks"
       ],
       "slug": "nbodychaos",
-      "thumbnail": {
-        "main": "nbodychaos.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-23T18:39:45Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.174Z",
       "viewCount": 21,
@@ -5455,9 +5426,7 @@
         "tool"
       ],
       "slug": "sharedshiplog",
-      "thumbnail": {
-        "main": "sharedshiplog.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
       "databaseEntryUpdatedAt": "2023-04-09T03:58:53.843Z",
       "viewCount": 16,
@@ -5516,7 +5485,9 @@
         "content"
       ],
       "slug": "solarsystemsimadeasakid",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "solarsystemsimadeasakid.webp"
+      },
       "repoUpdatedAt": "2023-01-07T16:29:14Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.430Z",
       "viewCount": 14,
@@ -5547,7 +5518,9 @@
         "content"
       ],
       "slug": "owlystem",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "owlystem.webp"
+      },
       "repoUpdatedAt": "2022-11-26T03:39:21Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.269Z",
       "viewCount": 22,
@@ -5638,7 +5611,9 @@
         "content"
       ],
       "slug": "howdidthishappen",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "howdidthishappen.webp"
+      },
       "repoUpdatedAt": "2022-12-15T01:02:53Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.589Z",
       "viewCount": 22,
@@ -5918,9 +5893,7 @@
         "gameplay"
       ],
       "slug": "strangernightcycle",
-      "thumbnail": {
-        "main": "strangernightcycle.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-12-31T10:18:02Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:35.028Z",
       "viewCount": 31,
@@ -6013,9 +5986,7 @@
         "library"
       ],
       "slug": "owfixplugintypesserialization",
-      "thumbnail": {
-        "main": "owfixplugintypesserialization.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-02-18T21:58:00Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.721Z",
       "viewCount": 3,
@@ -6075,9 +6046,7 @@
         "audiovisual"
       ],
       "slug": "proudhearthians",
-      "thumbnail": {
-        "main": "proudhearthians.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T15:48:21Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.708Z",
       "viewCount": 21,
@@ -6137,7 +6106,9 @@
         "story"
       ],
       "slug": "thespiralsystem",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "thespiralsystem.webp"
+      },
       "repoUpdatedAt": "2023-01-22T10:36:01Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.858Z",
       "viewCount": 44,
@@ -6267,7 +6238,9 @@
         "content"
       ],
       "slug": "brightdusk",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "brightdusk.webp"
+      },
       "repoUpdatedAt": "2023-01-22T01:25:02Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:34.986Z",
       "viewCount": 38,
@@ -6335,9 +6308,7 @@
         "story"
       ],
       "slug": "owventuresscavengerhunt",
-      "thumbnail": {
-        "main": "owventuresscavengerhunt.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
       "databaseEntryUpdatedAt": "2023-04-09T05:33:52.965Z",
       "viewCount": 64,
@@ -6439,9 +6410,7 @@
         "story"
       ],
       "slug": "divergence",
-      "thumbnail": {
-        "main": "divergence.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-27T01:12:21Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:35.417Z",
       "viewCount": 72,
@@ -6575,7 +6544,9 @@
         "tweaks"
       ],
       "slug": "celestialorrery",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "celestialorrery.webp"
+      },
       "repoUpdatedAt": "2023-01-23T19:08:20Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:35.486Z",
       "viewCount": 28,
@@ -6893,9 +6864,7 @@
         "gameplay"
       ],
       "slug": "hugmod",
-      "thumbnail": {
-        "main": "hugmod.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-04-08T18:52:41Z",
       "databaseEntryUpdatedAt": "2023-04-09T07:03:33.503Z",
       "viewCount": 238,
@@ -6925,9 +6894,7 @@
         "library"
       ],
       "slug": "moddatatools",
-      "thumbnail": {
-        "main": "moddatatools.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-04-04T00:20:39Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:58:26.133Z",
       "viewCount": 48,
@@ -7210,9 +7177,7 @@
         "audiovisual"
       ],
       "slug": "colorcameras",
-      "thumbnail": {
-        "main": "colorcameras.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-04-08T17:29:05Z",
       "databaseEntryUpdatedAt": "2023-04-09T06:24:24.613Z",
       "viewCount": 9,
@@ -7366,9 +7331,7 @@
         "tweaks"
       ],
       "slug": "alphafixes",
-      "thumbnail": {
-        "main": "alphafixes.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-05-31T00:54:03Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.035Z",
       "viewCount": 2,
@@ -7398,9 +7361,7 @@
         "gameplay"
       ],
       "slug": "navinha",
-      "thumbnail": {
-        "main": "navinha.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-06-01T00:19:12Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.169Z",
       "viewCount": 3,
@@ -7615,7 +7576,9 @@
         "tool"
       ],
       "slug": "runtimeunityeditor",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "runtimeunityeditor.webp"
+      },
       "repoUpdatedAt": "2022-05-22T18:45:51Z",
       "databaseEntryUpdatedAt": "2023-04-09T02:28:32.173Z",
       "viewCount": 34,
