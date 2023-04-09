@@ -3347,10 +3347,10 @@
     {
       "name": "Quality of Life Changes",
       "uniqueName": "Owen013.QOLFixes",
-      "description": "All features are disabled by default. Enable the ones you want in the config menu.",
+      "description": "QOL features. Disable screen dot, disable automatic scout equipping, exit dialogue early, and more. Check out readme on GitHub!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/QOLFixes/releases/download/v1.3.2/Owen013.QOLFixes.zip",
-      "downloadCount": 524,
+      "downloadCount": 527,
       "latestReleaseDate": "2023-04-06T21:19:20Z",
       "firstReleaseDate": "2022-05-23T15:52:47Z",
       "repo": "https://github.com/Owen013/QOLFixes",
@@ -3359,15 +3359,15 @@
         "htmlUrl": "https://github.com/Owen013/QOLFixes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/QOLFixes/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds an option in the config menu to disable the reticule (dot in the middle of the screen). The reticule can be (1) not disabled, (2) disabled unless the scout is being used, or (3) always disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
       ],
       "slug": "qualityoflifechanges",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-04-06T21:28:09Z",
-      "databaseEntryUpdatedAt": "2023-04-09T10:17:26.720Z",
+      "repoUpdatedAt": "2023-04-09T21:41:47Z",
+      "databaseEntryUpdatedAt": "2023-04-09T21:46:56.240Z",
       "viewCount": 65,
       "weeklyViewCount": 27,
       "installCount": 45,
@@ -4911,7 +4911,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix bug where it was possible to change the mode while exiting the Ship Log computer (during the animation), that could cause issues like screen prompts being duplicated",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7205,8 +7205,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/HikersModSHAddon/master/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "This addon makes Hiker's Mod compatible with Smol Hatchling!\r\n\r\n### Changes:\r\n- Hiker's Mod animation speed will now be updated every time the player size is changed via Smol Hatchling so that the animation speed will be correct for the speed and size of the player.",
-      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nThis addon makes Hiker's Mod compatible with v2.0.0-pr2 of Smol Hatchling! ONLY USE THIS PRERELEASE WITH SMOL HATCHLING v2.0.0-pr2 OR ABOVE.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.1.0-pr1",
         "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.1.0-pr1/Owen013.HikersModSHAddon.zip",
