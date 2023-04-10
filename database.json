@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 115703
+    "downloadCount": 115704
   },
   "releases": [
     {
@@ -374,7 +374,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play!",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.3/Release.0.6.3.zip",
-      "downloadCount": 8224,
+      "downloadCount": 8232,
       "latestReleaseDate": "2023-01-12T00:25:40Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -383,8 +383,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
+      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -398,11 +398,11 @@
         "main": "outerwildsonline.webp"
       },
       "repoUpdatedAt": "2023-03-31T00:59:19Z",
-      "databaseEntryUpdatedAt": "2023-04-09T16:48:18.912Z",
+      "databaseEntryUpdatedAt": "2023-04-10T04:55:23.007Z",
       "viewCount": 266,
       "weeklyViewCount": 87,
-      "installCount": 134,
-      "weeklyInstallCount": 44
+      "installCount": 135,
+      "weeklyInstallCount": 45
     },
     {
       "name": "Cheat and Debug Menu",
@@ -459,8 +459,8 @@
       "databaseEntryUpdatedAt": "2023-04-10T03:10:47.593Z",
       "viewCount": 346,
       "weeklyViewCount": 126,
-      "installCount": 293,
-      "weeklyInstallCount": 85
+      "installCount": 294,
+      "weeklyInstallCount": 86
     },
     {
       "name": "Difficulty Mod",
@@ -535,7 +535,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -1535,7 +1535,7 @@
       "description": "Korean re-translation for Outer Wilds",
       "author": "milesand",
       "downloadUrl": "https://github.com/milesand/outer-wilds-korean-translation/releases/download/v1.1.1/OWKT.zip",
-      "downloadCount": 7296,
+      "downloadCount": 7298,
       "latestReleaseDate": "2022-09-24T05:28:30Z",
       "firstReleaseDate": "2022-01-09T06:54:55Z",
       "repo": "https://github.com/milesand/outer-wilds-korean-translation",
@@ -1544,7 +1544,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -1552,7 +1552,7 @@
       "slug": "outerwildskoreantranslation",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-04T15:05:36Z",
-      "databaseEntryUpdatedAt": "2023-04-09T16:48:17.274Z",
+      "databaseEntryUpdatedAt": "2023-04-10T04:55:22.411Z",
       "viewCount": 185,
       "weeklyViewCount": 24,
       "installCount": 147,
@@ -1930,8 +1930,8 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:48.561Z",
       "viewCount": 22,
       "weeklyViewCount": 7,
-      "installCount": 37,
-      "weeklyInstallCount": 12
+      "installCount": 38,
+      "weeklyInstallCount": 13
     },
     {
       "name": "TRAPPIST-1",
@@ -2829,7 +2829,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5055,8 +5055,8 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:51.909Z",
       "viewCount": 14,
       "weeklyViewCount": 4,
-      "installCount": 29,
-      "weeklyInstallCount": 12
+      "installCount": 30,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Alternate Voices",
@@ -5978,8 +5978,8 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:52.881Z",
       "viewCount": 31,
       "weeklyViewCount": 8,
-      "installCount": 32,
-      "weeklyInstallCount": 7
+      "installCount": 33,
+      "weeklyInstallCount": 8
     },
     {
       "name": "KSP",
@@ -6331,8 +6331,8 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:53.214Z",
       "viewCount": 37,
       "weeklyViewCount": 3,
-      "installCount": 46,
-      "weeklyInstallCount": 12
+      "installCount": 47,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Time Dialator",
