@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 115723
+    "downloadCount": 115724
   },
   "releases": [
     {
@@ -47,7 +47,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 53333,
+      "downloadCount": 53345,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
+      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -74,10 +74,10 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2023-03-26T17:57:30Z",
-      "databaseEntryUpdatedAt": "2023-04-09T22:32:39.842Z",
+      "databaseEntryUpdatedAt": "2023-04-10T10:35:07.186Z",
       "viewCount": 2941,
       "weeklyViewCount": 876,
-      "installCount": 832,
+      "installCount": 833,
       "weeklyInstallCount": 213
     },
     {
@@ -114,7 +114,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T09:33:54.520Z",
       "viewCount": 1955,
       "weeklyViewCount": 611,
-      "installCount": 649,
+      "installCount": 652,
       "weeklyInstallCount": 177
     },
     {
@@ -145,7 +145,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T03:10:45.327Z",
       "viewCount": 337,
       "weeklyViewCount": 118,
-      "installCount": 209,
+      "installCount": 210,
       "weeklyInstallCount": 54
     },
     {
@@ -273,7 +273,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:45.671Z",
       "viewCount": 23,
       "weeklyViewCount": 3,
-      "installCount": 36,
+      "installCount": 37,
       "weeklyInstallCount": 9
     },
     {
@@ -365,7 +365,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:12:27.616Z",
       "viewCount": 20,
       "weeklyViewCount": 6,
-      "installCount": 40,
+      "installCount": 41,
       "weeklyInstallCount": 14
     },
     {
@@ -459,7 +459,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T03:10:47.593Z",
       "viewCount": 349,
       "weeklyViewCount": 129,
-      "installCount": 295,
+      "installCount": 296,
       "weeklyInstallCount": 87
     },
     {
@@ -517,7 +517,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:45.288Z",
       "viewCount": 62,
       "weeklyViewCount": 25,
-      "installCount": 69,
+      "installCount": 70,
       "weeklyInstallCount": 22
     },
     {
@@ -697,7 +697,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T03:10:46.672Z",
       "viewCount": 13,
       "weeklyViewCount": 5,
-      "installCount": 14,
+      "installCount": 15,
       "weeklyInstallCount": 2
     },
     {
@@ -784,7 +784,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:50.217Z",
       "viewCount": 134,
       "weeklyViewCount": 44,
-      "installCount": 358,
+      "installCount": 360,
       "weeklyInstallCount": 89
     },
     {
@@ -878,7 +878,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T03:10:47.759Z",
       "viewCount": 416,
       "weeklyViewCount": 145,
-      "installCount": 183,
+      "installCount": 184,
       "weeklyInstallCount": 54
     },
     {
@@ -1071,7 +1071,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T09:33:54.440Z",
       "viewCount": 749,
       "weeklyViewCount": 211,
-      "installCount": 394,
+      "installCount": 397,
       "weeklyInstallCount": 115
     },
     {
@@ -1136,7 +1136,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:47.928Z",
       "viewCount": 199,
       "weeklyViewCount": 71,
-      "installCount": 184,
+      "installCount": 185,
       "weeklyInstallCount": 57
     },
     {
@@ -1218,8 +1218,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "As I've been working on Story Mode, I realized that with all of the changes I'm making to the solar system, I'm probably introducing a lot of incompatibilities with other mods (like NH, for example). As such, I've decided that instead of building Story Mode directly into Smol Hatchling, I'll make Story Mode an addon so that the base Smol Hatchling can remain as a simple player scale manipulator. This also means that I will no longer have to update Smol Hatchling every time I release a new update for Story Mode.",
-      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -2159,7 +2159,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:48.797Z",
       "viewCount": 198,
       "weeklyViewCount": 68,
-      "installCount": 301,
+      "installCount": 302,
       "weeklyInstallCount": 82
     },
     {
@@ -2288,7 +2288,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:49.024Z",
       "viewCount": 660,
       "weeklyViewCount": 109,
-      "installCount": 207,
+      "installCount": 209,
       "weeklyInstallCount": 55
     },
     {
@@ -2934,7 +2934,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:49.063Z",
       "viewCount": 11,
       "weeklyViewCount": 1,
-      "installCount": 52,
+      "installCount": 53,
       "weeklyInstallCount": 12
     },
     {
@@ -3341,7 +3341,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:50.119Z",
       "viewCount": 8,
       "weeklyViewCount": 2,
-      "installCount": 12,
+      "installCount": 13,
       "weeklyInstallCount": 3
     },
     {
@@ -4231,7 +4231,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:51.190Z",
       "viewCount": 10,
       "weeklyViewCount": 2,
-      "installCount": 26,
+      "installCount": 27,
       "weeklyInstallCount": 4
     },
     {
@@ -4324,7 +4324,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:51.006Z",
       "viewCount": 10,
       "weeklyViewCount": 2,
-      "installCount": 15,
+      "installCount": 16,
       "weeklyInstallCount": 7
     },
     {
@@ -4423,7 +4423,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T05:54:10.055Z",
       "viewCount": 994,
       "weeklyViewCount": 303,
-      "installCount": 418,
+      "installCount": 421,
       "weeklyInstallCount": 112
     },
     {
@@ -4456,7 +4456,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:51.351Z",
       "viewCount": 18,
       "weeklyViewCount": 7,
-      "installCount": 25,
+      "installCount": 26,
       "weeklyInstallCount": 8
     },
     {
@@ -4567,7 +4567,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:51.494Z",
       "viewCount": 86,
       "weeklyViewCount": 30,
-      "installCount": 84,
+      "installCount": 85,
       "weeklyInstallCount": 31
     },
     {
@@ -4891,7 +4891,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:52.242Z",
       "viewCount": 23,
       "weeklyViewCount": 8,
-      "installCount": 37,
+      "installCount": 38,
       "weeklyInstallCount": 8
     },
     {
@@ -5088,7 +5088,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:51.928Z",
       "viewCount": 81,
       "weeklyViewCount": 26,
-      "installCount": 74,
+      "installCount": 75,
       "weeklyInstallCount": 23
     },
     {
@@ -5156,7 +5156,7 @@
       "databaseEntryUpdatedAt": "2023-04-09T23:18:33.585Z",
       "viewCount": 153,
       "weeklyViewCount": 29,
-      "installCount": 63,
+      "installCount": 64,
       "weeklyInstallCount": 21
     },
     {
@@ -5185,7 +5185,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:51.908Z",
       "viewCount": 12,
       "weeklyViewCount": 2,
-      "installCount": 19,
+      "installCount": 20,
       "weeklyInstallCount": 6
     },
     {
@@ -5316,7 +5316,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:52.701Z",
       "viewCount": 127,
       "weeklyViewCount": 23,
-      "installCount": 204,
+      "installCount": 206,
       "weeklyInstallCount": 44
     },
     {
@@ -5344,7 +5344,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T03:11:15.151Z",
       "viewCount": 8,
       "weeklyViewCount": 3,
-      "installCount": 76,
+      "installCount": 77,
       "weeklyInstallCount": 18
     },
     {
@@ -5664,7 +5664,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:52.184Z",
       "viewCount": 20,
       "weeklyViewCount": 11,
-      "installCount": 34,
+      "installCount": 35,
       "weeklyInstallCount": 11
     },
     {
@@ -5947,7 +5947,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T02:38:53.069Z",
       "viewCount": 20,
       "weeklyViewCount": 5,
-      "installCount": 35,
+      "installCount": 36,
       "weeklyInstallCount": 13
     },
     {
@@ -6964,7 +6964,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T07:18:20.183Z",
       "viewCount": 241,
       "weeklyViewCount": 64,
-      "installCount": 162,
+      "installCount": 163,
       "weeklyInstallCount": 38
     },
     {
@@ -7152,7 +7152,7 @@
       "databaseEntryUpdatedAt": "2023-04-09T22:57:22.855Z",
       "viewCount": 151,
       "weeklyViewCount": 62,
-      "installCount": 62,
+      "installCount": 63,
       "weeklyInstallCount": 42
     },
     {
@@ -7205,8 +7205,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/HikersModSHAddon/master/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "Compatible with Smol Hatchling v1.3.0",
-      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nThis addon makes Hiker's Mod compatible with v2.0.0-pr2 of Smol Hatchling! ONLY USE THIS PRERELEASE WITH SMOL HATCHLING v2.0.0-pr2 OR ABOVE.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.1.0-pr1",
         "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.1.0-pr1/Owen013.HikersModSHAddon.zip",
@@ -7250,7 +7250,7 @@
       "databaseEntryUpdatedAt": "2023-04-10T07:18:19.721Z",
       "viewCount": 58,
       "weeklyViewCount": 58,
-      "installCount": 7,
+      "installCount": 8,
       "weeklyInstallCount": 7
     },
     {
