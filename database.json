@@ -6942,7 +6942,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.0/VioVayo.HugMod.zip",
-      "downloadCount": 292,
+      "downloadCount": 295,
       "latestReleaseDate": "2023-03-25T16:17:04Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6951,7 +6951,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed some minor graphical bugs and annoyances, along with overall adding more polish\r\n- Fixed some nasty NREs that would happen if hug script got destroyed too early, added null checks to prevent more potential NREs\r\n- Made massive structural changes to the code with the goal of enabling better interactions with other mods\r\n   - Changes to HugComponent initialisation and proxy component functionality\r\n   - Changes to the API to reflect the above\r\n   - Completely overhauled patches and made them more accessible\r\n   - Made the way HugMod affects concrete characters more accessible\r\n- The README is useful now\r\n\r\nDLC owners who had Friendmaker Mode enabled might have to reenable it.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6961,7 +6961,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-08T18:52:41Z",
-      "databaseEntryUpdatedAt": "2023-04-09T19:15:54.196Z",
+      "databaseEntryUpdatedAt": "2023-04-10T07:18:20.183Z",
       "viewCount": 241,
       "weeklyViewCount": 64,
       "installCount": 160,
@@ -7230,7 +7230,7 @@
       "description": "What do you mean, \"weird\"? The game was always like this, I swear!",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWModThatDoesNothing/releases/download/v0.1.0/VioVayo.ModThatDoesNothing.zip",
-      "downloadCount": 6,
+      "downloadCount": 10,
       "latestReleaseDate": "2023-04-07T18:22:01Z",
       "firstReleaseDate": "2023-04-07T18:22:01Z",
       "repo": "https://github.com/VioVayo/OWModThatDoesNothing",
@@ -7239,7 +7239,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWModThatDoesNothing/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWModThatDoesNothing/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -7247,7 +7247,7 @@
       "slug": "modthatdoesnothing",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-08T18:37:51Z",
-      "databaseEntryUpdatedAt": "2023-04-09T19:00:36.750Z",
+      "databaseEntryUpdatedAt": "2023-04-10T07:18:19.721Z",
       "viewCount": 53,
       "weeklyViewCount": 53,
       "installCount": 5,
