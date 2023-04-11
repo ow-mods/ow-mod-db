@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 115839
+    "downloadCount": 115842
   },
   "releases": [
     {
@@ -7079,7 +7079,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "Fix:\r\n\r\n- 宇宙飞船日志显示问题\r\n\r\n- 飞船内部GUI小字问题",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7312,6 +7312,37 @@
       "databaseEntryUpdatedAt": "2023-04-10T18:50:23.227Z",
       "viewCount": 2,
       "weeklyViewCount": 2,
+      "installCount": 0,
+      "weeklyInstallCount": 0
+    },
+    {
+      "name": "Translation for The Outsider",
+      "uniqueName": "orclecle.TranslationForTheOutsider",
+      "description": "Outer Wilds Mod for translation for The Outsider",
+      "author": "TRSasasusu",
+      "parent": "SBtT.TheOutsider",
+      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.1.0/orclecle.TranslationForTheOutsider.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-04-10T15:39:53Z",
+      "firstReleaseDate": "2023-04-10T15:39:53Z",
+      "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
+      },
+      "authorDisplay": "orclecle",
+      "latestReleaseDescription": "Translating EN->JP now. Many translations works, but remains are\r\n\r\n* [ ] Inside of Observatory\r\n* [ ] Feldspar\r\n* [ ] Gabbro\r\n\r\n, and they will be covered in next releases.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "localization"
+      ],
+      "slug": "translationfortheoutsider",
+      "thumbnail": {},
+      "repoUpdatedAt": "2023-04-10T15:48:45Z",
+      "databaseEntryUpdatedAt": "2023-04-11T01:23:21.932Z",
+      "viewCount": 0,
+      "weeklyViewCount": 0,
       "installCount": 0,
       "weeklyInstallCount": 0
     }
