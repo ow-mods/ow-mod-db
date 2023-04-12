@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 116102
+    "downloadCount": 116103
   },
   "releases": [
     {
@@ -7070,7 +7070,7 @@
       "description": "The mod fixes the problem that most of the Chinese-inclusive story mod text is incomplete by replacing the fonts of some interfaces.",
       "author": "nice2cu1",
       "downloadUrl": "https://github.com/nice2cu1/OuterWildFixFont/releases/download/v2/OuterWildFixFont.zip",
-      "downloadCount": 75,
+      "downloadCount": 77,
       "latestReleaseDate": "2023-03-24T09:34:09Z",
       "firstReleaseDate": "2023-01-31T10:50:17Z",
       "repo": "https://github.com/nice2cu1/OuterWildFixFont",
@@ -7079,7 +7079,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix:\r\n\r\n- 宇宙飞船日志显示问题\r\n\r\n- 飞船内部GUI小字问题",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7087,7 +7087,7 @@
       "slug": "outerwildschinesefix",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-27T08:20:02Z",
-      "databaseEntryUpdatedAt": "2023-04-12T01:56:08.554Z",
+      "databaseEntryUpdatedAt": "2023-04-12T14:09:06.355Z",
       "viewCount": 31,
       "weeklyViewCount": 5,
       "installCount": 3,
