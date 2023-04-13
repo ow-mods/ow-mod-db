@@ -47,7 +47,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 53486,
+      "downloadCount": 53496,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
+      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -74,7 +74,7 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2023-03-26T17:57:30Z",
-      "databaseEntryUpdatedAt": "2023-04-12T23:20:12.359Z",
+      "databaseEntryUpdatedAt": "2023-04-13T11:26:02.196Z",
       "viewCount": 3214,
       "weeklyViewCount": 939,
       "installCount": 843,
@@ -1209,7 +1209,7 @@
       "description": "Customizable player scale!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.3.0/Owen013.TeenyHatchling.zip",
-      "downloadCount": 1047,
+      "downloadCount": 1049,
       "latestReleaseDate": "2023-04-09T21:53:59Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
@@ -1218,8 +1218,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "As I've been working on Story Mode, I realized that with all of the changes I'm making to the solar system, I'm probably introducing a lot of incompatibilities with other mods (like NH, for example). As such, I've decided that instead of building Story Mode directly into Smol Hatchling, I'll make Story Mode an addon so that the base Smol Hatchling can remain as a simple player scale manipulator. This also means that I will no longer have to update Smol Hatchling every time I release a new update for Story Mode.",
+      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -1233,7 +1233,7 @@
         "main": "smolhatchling.webp"
       },
       "repoUpdatedAt": "2023-04-09T21:57:55Z",
-      "databaseEntryUpdatedAt": "2023-04-12T23:20:11.155Z",
+      "databaseEntryUpdatedAt": "2023-04-13T11:26:00.940Z",
       "viewCount": 44,
       "weeklyViewCount": 35,
       "installCount": 23,
@@ -6651,7 +6651,7 @@
       "author": "2walker2",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/2walker2/NHJamTeamErnesto/releases/download/1.0.0/Evacuation.Jam.Submission.zip",
-      "downloadCount": 404,
+      "downloadCount": 406,
       "latestReleaseDate": "2023-01-23T09:37:23Z",
       "firstReleaseDate": "2023-01-23T09:37:23Z",
       "repo": "https://github.com/2walker2/NHJamTeamErnesto",
@@ -6661,7 +6661,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "The final submission for the jam (probably).",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6673,7 +6673,7 @@
         "main": "evacuation.webp"
       },
       "repoUpdatedAt": "2023-04-12T23:05:31Z",
-      "databaseEntryUpdatedAt": "2023-04-12T23:20:08.623Z",
+      "databaseEntryUpdatedAt": "2023-04-13T11:26:00.937Z",
       "viewCount": 153,
       "weeklyViewCount": 39,
       "installCount": 77,
@@ -7195,7 +7195,7 @@
       "author": "Owen013",
       "parent": "Owen013.MovementMod",
       "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.0.1/Owen013.HikersModSHAddon.zip",
-      "downloadCount": 15,
+      "downloadCount": 17,
       "latestReleaseDate": "2023-04-09T21:56:25Z",
       "firstReleaseDate": "2023-04-05T00:56:25Z",
       "repo": "https://github.com/Owen013/HikersModSHAddon",
@@ -7205,8 +7205,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/HikersModSHAddon/master/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "Compatible with Smol Hatchling v1.3.0",
+      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nThis addon makes Hiker's Mod compatible with v2.0.0-pr2 of Smol Hatchling! ONLY USE THIS PRERELEASE WITH SMOL HATCHLING v2.0.0-pr2 OR ABOVE.",
       "prerelease": {
         "version": "v1.1.0-pr1",
         "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.1.0-pr1/Owen013.HikersModSHAddon.zip",
@@ -7218,7 +7218,7 @@
       "slug": "hikersmodcompatibilitywithsmolhatchling",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-09T21:57:58Z",
-      "databaseEntryUpdatedAt": "2023-04-12T23:20:11.155Z",
+      "databaseEntryUpdatedAt": "2023-04-13T11:25:58.546Z",
       "viewCount": 13,
       "weeklyViewCount": 13,
       "installCount": 6,
