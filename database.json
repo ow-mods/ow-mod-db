@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 116340
+    "downloadCount": 116341
   },
   "releases": [
     {
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
-      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -1218,8 +1218,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "As I've been working on Story Mode, I realized that with all of the changes I'm making to the solar system, I'm probably introducing a lot of incompatibilities with other mods (like NH, for example). As such, I've decided that instead of building Story Mode directly into Smol Hatchling, I'll make Story Mode an addon so that the base Smol Hatchling can remain as a simple player scale manipulator. This also means that I will no longer have to update Smol Hatchling every time I release a new update for Story Mode.",
-      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -6661,7 +6661,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "The final submission for the jam (probably).",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -7129,7 +7129,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/QSBGameModes/releases/download/v0.0.1/BUNN1E5.QSBGameModes.zip",
-      "downloadCount": 101,
+      "downloadCount": 107,
       "latestReleaseDate": "2023-03-30T03:28:01Z",
       "firstReleaseDate": "2023-03-30T03:28:01Z",
       "repo": "https://github.com/BUNN1E5/QSBGameModes",
@@ -7139,7 +7139,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7149,7 +7149,7 @@
         "main": "qsbgamemodes.webp"
       },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
-      "databaseEntryUpdatedAt": "2023-04-13T23:46:06.557Z",
+      "databaseEntryUpdatedAt": "2023-04-14T11:50:18.784Z",
       "viewCount": 165,
       "weeklyViewCount": 34,
       "installCount": 101,
@@ -7205,8 +7205,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/HikersModSHAddon/master/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "Compatible with Smol Hatchling v1.3.0",
-      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nThis addon makes Hiker's Mod compatible with v2.0.0-pr2 of Smol Hatchling! ONLY USE THIS PRERELEASE WITH SMOL HATCHLING v2.0.0-pr2 OR ABOVE.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.1.0-pr1",
         "downloadUrl": "https://github.com/Owen013/HikersModSHAddon/releases/download/v1.1.0-pr1/Owen013.HikersModSHAddon.zip",
