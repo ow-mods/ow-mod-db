@@ -6942,7 +6942,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.0/VioVayo.HugMod.zip",
-      "downloadCount": 317,
+      "downloadCount": 320,
       "latestReleaseDate": "2023-03-25T16:17:04Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6951,7 +6951,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed some minor graphical bugs and annoyances, along with overall adding more polish\r\n- Fixed some nasty NREs that would happen if hug script got destroyed too early, added null checks to prevent more potential NREs\r\n- Made massive structural changes to the code with the goal of enabling better interactions with other mods\r\n   - Changes to HugComponent initialisation and proxy component functionality\r\n   - Changes to the API to reflect the above\r\n   - Completely overhauled patches and made them more accessible\r\n   - Made the way HugMod affects concrete characters more accessible\r\n- The README is useful now\r\n\r\nDLC owners who had Friendmaker Mode enabled might have to reenable it.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6961,7 +6961,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-08T18:52:41Z",
-      "databaseEntryUpdatedAt": "2023-04-13T20:39:32.669Z",
+      "databaseEntryUpdatedAt": "2023-04-14T08:51:52.504Z",
       "viewCount": 238,
       "weeklyViewCount": 59,
       "installCount": 131,
@@ -7038,7 +7038,7 @@
       "description": "An Outer Wilds mod which lets you control how anglerfish behave.",
       "author": "TwentyPorts",
       "downloadUrl": "https://github.com/TwentyPorts/CustomAnglerfishAI/releases/download/v0.4.0/Anyar.CustomAnglerfishAI.zip",
-      "downloadCount": 58,
+      "downloadCount": 61,
       "latestReleaseDate": "2023-03-27T22:59:18Z",
       "firstReleaseDate": "2023-03-25T04:11:09Z",
       "repo": "https://github.com/TwentyPorts/CustomAnglerfishAI",
@@ -7048,7 +7048,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7058,7 +7058,7 @@
         "main": "customizableanglerfishai.webp"
       },
       "repoUpdatedAt": "2023-04-08T19:02:01Z",
-      "databaseEntryUpdatedAt": "2023-04-13T20:39:32.667Z",
+      "databaseEntryUpdatedAt": "2023-04-14T08:51:52.212Z",
       "viewCount": 176,
       "weeklyViewCount": 18,
       "installCount": 38,
@@ -7230,7 +7230,7 @@
       "description": "What do you mean, \"weird\"? The game was always like this, I swear!",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWModThatDoesNothing/releases/download/v0.1.0/VioVayo.ModThatDoesNothing.zip",
-      "downloadCount": 19,
+      "downloadCount": 22,
       "latestReleaseDate": "2023-04-07T18:22:01Z",
       "firstReleaseDate": "2023-04-07T18:22:01Z",
       "repo": "https://github.com/VioVayo/OWModThatDoesNothing",
@@ -7239,7 +7239,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWModThatDoesNothing/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWModThatDoesNothing/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -7247,7 +7247,7 @@
       "slug": "modthatdoesnothing",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-08T18:37:51Z",
-      "databaseEntryUpdatedAt": "2023-04-13T20:39:32.666Z",
+      "databaseEntryUpdatedAt": "2023-04-14T08:51:52.209Z",
       "viewCount": 116,
       "weeklyViewCount": 116,
       "installCount": 19,
