@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 116682
+    "downloadCount": 116683
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4067,7 +4067,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4077,7 +4077,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-04-15T22:53:48.312Z",
+      "databaseEntryUpdatedAt": "2023-04-16T10:56:19.330Z",
       "viewCount": 63,
       "weeklyViewCount": 7,
       "installCount": 18,
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7108,7 +7108,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "- Fixed several problems with the calling for help behaviour\r\n- Ghosts now react to sounds caused by the player moving around\r\n- Made tweaks to lists and arrays and restructured code for readability",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
