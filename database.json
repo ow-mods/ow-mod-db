@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 116766
+    "downloadCount": 116770
   },
   "releases": [
     {
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "- Fixed title screen buttons being visible too early.\r\n- Fixed issue where the ship would launch you around weirdly.\r\n- Fixed issue when trying to handle messages from disconnected players.\r\n- Added the WorldObject count into the hash messages.\r\n- Moved the `WakeUpSync` script off of the remote player prefab.\r\n- Removed the unused `StopMeditation` script.",
-      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.2/xen.NewHorizons.zip",
-      "downloadCount": 23149,
+      "downloadCount": 23170,
       "latestReleaseDate": "2023-04-01T18:06:52Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,7 +1068,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-04-04T07:20:00Z",
-      "databaseEntryUpdatedAt": "2023-04-16T11:14:35.339Z",
+      "databaseEntryUpdatedAt": "2023-04-16T23:26:14.519Z",
       "viewCount": 797,
       "weeklyViewCount": 182,
       "installCount": 362,
@@ -1208,17 +1208,17 @@
       "uniqueName": "Owen013.TeenyHatchling",
       "description": "Customizable player scale!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.3.0/Owen013.TeenyHatchling.zip",
-      "downloadCount": 1068,
-      "latestReleaseDate": "2023-04-09T21:53:59Z",
+      "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.4.0/Owen013.TeenyHatchling.zip",
+      "downloadCount": 1069,
+      "latestReleaseDate": "2023-04-16T23:09:27Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
-      "version": "v1.3.0",
+      "version": "v1.4.0",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "As I've been working on Story Mode, I realized that with all of the changes I'm making to the solar system, I'm probably introducing a lot of incompatibilities with other mods (like NH, for example). As such, I've decided that instead of building Story Mode directly into Smol Hatchling, I'll make Story Mode an addon so that the base Smol Hatchling can remain as a simple player scale manipulator. This also means that I will no longer have to update Smol Hatchling every time I release a new update for Story Mode.",
+      "latestReleaseDescription": "### Changes:\r\n* Added stools, which will spawn around the solar system. These stools can help the player use things like the model rocket or other areas where being shorter than normal can make something more difficult. The stool placements are not final, but they should spawn in most locations where they would be needed!\r\n* Revamped config menu.\r\n  * The \"Height %\" and \"Radius %\" settings now represent actual percentages, so a Height % of 100 will make the player be normal height.\r\n* Readded native compatibility with Hiker's Mod via an API. **Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
       "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
       "prerelease": {
         "version": "v2.0.0-pr2",
@@ -1232,8 +1232,8 @@
       "thumbnail": {
         "main": "smolhatchling.webp"
       },
-      "repoUpdatedAt": "2023-04-16T23:06:58Z",
-      "databaseEntryUpdatedAt": "2023-04-16T23:13:27.837Z",
+      "repoUpdatedAt": "2023-04-16T23:21:09Z",
+      "databaseEntryUpdatedAt": "2023-04-16T23:26:14.203Z",
       "viewCount": 44,
       "weeklyViewCount": 11,
       "installCount": 27,
@@ -1244,17 +1244,17 @@
       "uniqueName": "Owen013.MovementMod",
       "description": "Customizable movement speed and jump height, instant jump, sprinting, climbing, and more.",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.2/Owen013.MovementMod.zip",
-      "downloadCount": 2686,
-      "latestReleaseDate": "2023-04-05T00:47:24Z",
+      "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.3/Owen013.MovementMod.zip",
+      "downloadCount": 2687,
+      "latestReleaseDate": "2023-04-16T23:12:23Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
-      "version": "v1.5.2",
+      "version": "v1.5.3",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "Instead of building the compatibility for Smol Hatchling and Hiker's mod directly into the code, I've changed it so that this compatibility is now achieved through an addon called \"Hiker's Mod Compatibility with Smol Hatchling\"",
+      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
       "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
       "prerelease": {
         "version": "v1.5.0-pr3",
@@ -1268,8 +1268,8 @@
       "thumbnail": {
         "main": "hikersmod.webp"
       },
-      "repoUpdatedAt": "2023-04-16T23:08:17Z",
-      "databaseEntryUpdatedAt": "2023-04-16T23:13:27.839Z",
+      "repoUpdatedAt": "2023-04-16T23:21:11Z",
+      "databaseEntryUpdatedAt": "2023-04-16T23:26:14.611Z",
       "viewCount": 60,
       "weeklyViewCount": 10,
       "installCount": 51,
@@ -4067,7 +4067,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "Fixed computers not appearing",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
