@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 116775
+    "downloadCount": 116781
   },
   "releases": [
     {
@@ -47,7 +47,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 53643,
+      "downloadCount": 53672,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
+      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -74,7 +74,7 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2023-03-26T17:57:30Z",
-      "databaseEntryUpdatedAt": "2023-04-16T13:02:20.356Z",
+      "databaseEntryUpdatedAt": "2023-04-17T01:58:11.116Z",
       "viewCount": 3396,
       "weeklyViewCount": 972,
       "installCount": 841,
@@ -6651,7 +6651,7 @@
       "author": "2walker2",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/2walker2/NHJamTeamErnesto/releases/download/1.0.0/Evacuation.Jam.Submission.zip",
-      "downloadCount": 410,
+      "downloadCount": 411,
       "latestReleaseDate": "2023-01-23T09:37:23Z",
       "firstReleaseDate": "2023-01-23T09:37:23Z",
       "repo": "https://github.com/2walker2/NHJamTeamErnesto",
@@ -6661,7 +6661,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "The final submission for the jam (probably).",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6673,7 +6673,7 @@
         "main": "evacuation.webp"
       },
       "repoUpdatedAt": "2023-04-12T23:05:31Z",
-      "databaseEntryUpdatedAt": "2023-04-16T13:02:17.154Z",
+      "databaseEntryUpdatedAt": "2023-04-17T01:58:07.743Z",
       "viewCount": 149,
       "weeklyViewCount": 32,
       "installCount": 65,
@@ -7129,7 +7129,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/QSBGameModes/releases/download/v0.0.1/BUNN1E5.QSBGameModes.zip",
-      "downloadCount": 118,
+      "downloadCount": 119,
       "latestReleaseDate": "2023-03-30T03:28:01Z",
       "firstReleaseDate": "2023-03-30T03:28:01Z",
       "repo": "https://github.com/BUNN1E5/QSBGameModes",
@@ -7139,7 +7139,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7149,7 +7149,7 @@
         "main": "qsbgamemodes.webp"
       },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
-      "databaseEntryUpdatedAt": "2023-04-16T13:02:19.335Z",
+      "databaseEntryUpdatedAt": "2023-04-17T01:58:07.742Z",
       "viewCount": 183,
       "weeklyViewCount": 35,
       "installCount": 114,
