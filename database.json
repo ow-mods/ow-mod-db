@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 116820
+    "downloadCount": 116822
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -77,8 +77,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T01:58:11.116Z",
       "viewCount": 3443,
       "weeklyViewCount": 1019,
-      "installCount": 849,
-      "weeklyInstallCount": 235
+      "installCount": 852,
+      "weeklyInstallCount": 238
     },
     {
       "name": "Quantum Space Buddies",
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.26.3/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 27858,
+      "downloadCount": 27872,
       "latestReleaseDate": "2023-03-09T16:50:25Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed title screen buttons being visible too early.\r\n- Fixed issue where the ship would launch you around weirdly.\r\n- Fixed issue when trying to handle messages from disconnected players.\r\n- Added the WorldObject count into the hash messages.\r\n- Moved the `WakeUpSync` script off of the remote player prefab.\r\n- Removed the unused `StopMeditation` script.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,11 +111,11 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-04-16T23:11:09Z",
-      "databaseEntryUpdatedAt": "2023-04-16T23:13:28.463Z",
+      "databaseEntryUpdatedAt": "2023-04-17T11:17:48.110Z",
       "viewCount": 2147,
       "weeklyViewCount": 663,
-      "installCount": 664,
-      "weeklyInstallCount": 201
+      "installCount": 668,
+      "weeklyInstallCount": 205
     },
     {
       "name": "Light Bramble",
@@ -145,8 +145,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:43:40.441Z",
       "viewCount": 385,
       "weeklyViewCount": 101,
-      "installCount": 225,
-      "weeklyInstallCount": 66
+      "installCount": 226,
+      "weeklyInstallCount": 67
     },
     {
       "name": "FreeCam",
@@ -303,8 +303,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:23.607Z",
       "viewCount": 84,
       "weeklyViewCount": 27,
-      "installCount": 150,
-      "weeklyInstallCount": 30
+      "installCount": 151,
+      "weeklyInstallCount": 31
     },
     {
       "name": "ScoutStreaming",
@@ -365,8 +365,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T03:50:32.618Z",
       "viewCount": 58,
       "weeklyViewCount": 44,
-      "installCount": 43,
-      "weeklyInstallCount": 14
+      "installCount": 44,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Outer Wilds Online",
@@ -401,8 +401,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T06:50:17.628Z",
       "viewCount": 313,
       "weeklyViewCount": 98,
-      "installCount": 155,
-      "weeklyInstallCount": 42
+      "installCount": 157,
+      "weeklyInstallCount": 44
     },
     {
       "name": "Cheat and Debug Menu",
@@ -784,8 +784,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:29.003Z",
       "viewCount": 147,
       "weeklyViewCount": 45,
-      "installCount": 371,
-      "weeklyInstallCount": 101
+      "installCount": 373,
+      "weeklyInstallCount": 103
     },
     {
       "name": "Static Camera",
@@ -914,8 +914,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:43:41.635Z",
       "viewCount": 126,
       "weeklyViewCount": 39,
-      "installCount": 28,
-      "weeklyInstallCount": 6
+      "installCount": 29,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Half-Life Overhaul",
@@ -1006,8 +1006,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:24.394Z",
       "viewCount": 11,
       "weeklyViewCount": 1,
-      "installCount": 26,
-      "weeklyInstallCount": 3
+      "installCount": 27,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Majora's Mask's Moon",
@@ -1136,8 +1136,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:26.999Z",
       "viewCount": 235,
       "weeklyViewCount": 68,
-      "installCount": 168,
-      "weeklyInstallCount": 40
+      "installCount": 170,
+      "weeklyInstallCount": 42
     },
     {
       "name": "Atropos",
@@ -1305,8 +1305,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:26.694Z",
       "viewCount": 180,
       "weeklyViewCount": 50,
-      "installCount": 128,
-      "weeklyInstallCount": 34
+      "installCount": 129,
+      "weeklyInstallCount": 35
     },
     {
       "name": "Signals+",
@@ -1497,8 +1497,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:27.323Z",
       "viewCount": 88,
       "weeklyViewCount": 24,
-      "installCount": 102,
-      "weeklyInstallCount": 17
+      "installCount": 103,
+      "weeklyInstallCount": 18
     },
     {
       "name": "Vanilla Main Menu",
@@ -2159,8 +2159,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:27.641Z",
       "viewCount": 222,
       "weeklyViewCount": 67,
-      "installCount": 292,
-      "weeklyInstallCount": 76
+      "installCount": 293,
+      "weeklyInstallCount": 77
     },
     {
       "name": "Only Timber Hearth",
@@ -2288,8 +2288,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:27.911Z",
       "viewCount": 713,
       "weeklyViewCount": 105,
-      "installCount": 200,
-      "weeklyInstallCount": 53
+      "installCount": 201,
+      "weeklyInstallCount": 54
     },
     {
       "name": "Their Homeworld",
@@ -2843,8 +2843,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T06:50:17.510Z",
       "viewCount": 46,
       "weeklyViewCount": 9,
-      "installCount": 92,
-      "weeklyInstallCount": 31
+      "installCount": 93,
+      "weeklyInstallCount": 32
     },
     {
       "name": "Supernova On Demand",
@@ -3027,8 +3027,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:28.603Z",
       "viewCount": 13,
       "weeklyViewCount": 4,
-      "installCount": 19,
-      "weeklyInstallCount": 6
+      "installCount": 20,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Toggle Velocity Matching",
@@ -3087,8 +3087,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:28.355Z",
       "viewCount": 45,
       "weeklyViewCount": 18,
-      "installCount": 62,
-      "weeklyInstallCount": 14
+      "installCount": 63,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Changed Twins",
@@ -3150,8 +3150,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:28.627Z",
       "viewCount": 37,
       "weeklyViewCount": 13,
-      "installCount": 30,
-      "weeklyInstallCount": 9
+      "installCount": 31,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Outer Wilds Traditional Chinese Translation",
@@ -3277,8 +3277,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:28.712Z",
       "viewCount": 6,
       "weeklyViewCount": 1,
-      "installCount": 22,
-      "weeklyInstallCount": 4
+      "installCount": 24,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Suit Log",
@@ -4058,7 +4058,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/releases/download/v0.1.2/ow-nh-ss-ascension.zip",
-      "downloadCount": 355,
+      "downloadCount": 356,
       "latestReleaseDate": "2023-04-02T18:54:23Z",
       "firstReleaseDate": "2022-08-17T04:00:28Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-ss-ascension",
@@ -4067,7 +4067,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4077,11 +4077,11 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-04-16T23:13:27.852Z",
+      "databaseEntryUpdatedAt": "2023-04-17T11:17:47.407Z",
       "viewCount": 63,
       "weeklyViewCount": 7,
-      "installCount": 19,
-      "weeklyInstallCount": 6
+      "installCount": 20,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Discord Rich Presence",
@@ -4111,8 +4111,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:29.772Z",
       "viewCount": 74,
       "weeklyViewCount": 18,
-      "installCount": 93,
-      "weeklyInstallCount": 22
+      "installCount": 95,
+      "weeklyInstallCount": 24
     },
     {
       "name": "Artifact Laser",
@@ -4456,8 +4456,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:30.179Z",
       "viewCount": 19,
       "weeklyViewCount": 5,
-      "installCount": 28,
-      "weeklyInstallCount": 11
+      "installCount": 30,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Slate's Shipyard",
@@ -4497,8 +4497,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:30.533Z",
       "viewCount": 79,
       "weeklyViewCount": 25,
-      "installCount": 47,
-      "weeklyInstallCount": 7
+      "installCount": 48,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Spaceshipinha",
@@ -4535,8 +4535,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:30.377Z",
       "viewCount": 26,
       "weeklyViewCount": 5,
-      "installCount": 43,
-      "weeklyInstallCount": 11
+      "installCount": 44,
+      "weeklyInstallCount": 12
     },
     {
       "name": "DOOM",
@@ -4567,8 +4567,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:30.347Z",
       "viewCount": 81,
       "weeklyViewCount": 22,
-      "installCount": 84,
-      "weeklyInstallCount": 21
+      "installCount": 85,
+      "weeklyInstallCount": 22
     },
     {
       "name": "Car Example",
@@ -4731,8 +4731,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:30.298Z",
       "viewCount": 14,
       "weeklyViewCount": 1,
-      "installCount": 18,
-      "weeklyInstallCount": 2
+      "installCount": 19,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Secret Settings",
@@ -4795,8 +4795,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:30.781Z",
       "viewCount": 90,
       "weeklyViewCount": 21,
-      "installCount": 83,
-      "weeklyInstallCount": 21
+      "installCount": 84,
+      "weeklyInstallCount": 22
     },
     {
       "name": "Heavy Sleeper",
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5537,8 +5537,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:44:09.884Z",
       "viewCount": 13,
       "weeklyViewCount": 3,
-      "installCount": 37,
-      "weeklyInstallCount": 11
+      "installCount": 38,
+      "weeklyInstallCount": 12
     },
     {
       "name": "Solar Systems I Made as a Kid",
@@ -6263,8 +6263,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:31.908Z",
       "viewCount": 1978,
       "weeklyViewCount": 486,
-      "installCount": 471,
-      "weeklyInstallCount": 132
+      "installCount": 472,
+      "weeklyInstallCount": 133
     },
     {
       "name": "Daylight Savings",
@@ -6436,8 +6436,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:32.162Z",
       "viewCount": 215,
       "weeklyViewCount": 61,
-      "installCount": 100,
-      "weeklyInstallCount": 25
+      "installCount": 101,
+      "weeklyInstallCount": 26
     },
     {
       "name": "The Machine",
@@ -6607,8 +6607,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T04:10:31.997Z",
       "viewCount": 14,
       "weeklyViewCount": 2,
-      "installCount": 24,
-      "weeklyInstallCount": 8
+      "installCount": 25,
+      "weeklyInstallCount": 9
     },
     {
       "name": "Celestial Orrery",
@@ -6964,8 +6964,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T09:40:54.282Z",
       "viewCount": 232,
       "weeklyViewCount": 48,
-      "installCount": 125,
-      "weeklyInstallCount": 34
+      "installCount": 126,
+      "weeklyInstallCount": 35
     },
     {
       "name": "Mod Data Tools",
@@ -7108,7 +7108,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "- Fixed several problems with the calling for help behaviour\r\n- Ghosts now react to sounds caused by the player moving around\r\n- Made tweaks to lists and arrays and restructured code for readability",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7214,8 +7214,8 @@
       "databaseEntryUpdatedAt": "2023-04-17T09:40:54.081Z",
       "viewCount": 158,
       "weeklyViewCount": 127,
-      "installCount": 25,
-      "weeklyInstallCount": 24
+      "installCount": 26,
+      "weeklyInstallCount": 25
     },
     {
       "name": "Color Cameras",
