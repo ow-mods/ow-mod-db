@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 116932
+    "downloadCount": 116935
   },
   "releases": [
     {
@@ -7316,7 +7316,7 @@
       "description": "Easy Dream World access and triggering of events",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/releases/download/v0.1.1/VioVayo.DWModAssist.zip",
-      "downloadCount": 6,
+      "downloadCount": 7,
       "latestReleaseDate": "2023-04-17T09:12:14Z",
       "firstReleaseDate": "2023-04-16T11:39:43Z",
       "repo": "https://github.com/VioVayo/OWDreamWorldModAssist",
@@ -7325,7 +7325,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed issue with warping while player is attached somewhere\r\n- Added \"Enter by Death\" toggle option to the warp menu\r\n- Shortened location names to fit selectors better",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7333,7 +7333,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-17T09:10:33Z",
-      "databaseEntryUpdatedAt": "2023-04-17T21:19:18.662Z",
+      "databaseEntryUpdatedAt": "2023-04-18T09:33:30.215Z",
       "viewCount": 20,
       "weeklyViewCount": 20,
       "installCount": 3,
