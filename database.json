@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117015
+    "downloadCount": 117016
   },
   "releases": [
     {
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "- use auto spirals\r\n- better ambient lights\r\n- warp pads\r\n- vessel on pygmy\r\n- ernesto kills u",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4955,7 +4955,7 @@
         "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
       "repoUpdatedAt": "2023-04-15T22:32:53Z",
-      "databaseEntryUpdatedAt": "2023-04-18T11:30:40.012Z",
+      "databaseEntryUpdatedAt": "2023-04-18T23:33:53.546Z",
       "viewCount": 15,
       "weeklyViewCount": 2,
       "installCount": 60,
@@ -7108,7 +7108,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "- Fixed several problems with the calling for help behaviour\r\n- Ghosts now react to sounds caused by the player moving around\r\n- Made tweaks to lists and arrays and restructured code for readability",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
