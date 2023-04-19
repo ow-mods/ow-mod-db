@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -5131,7 +5131,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/ow-dreamstalker/releases/download/v0.1.6/xen.Dreamstalker.zip",
-      "downloadCount": 959,
+      "downloadCount": 963,
       "latestReleaseDate": "2023-03-25T19:54:09Z",
       "firstReleaseDate": "2022-10-27T01:52:29Z",
       "repo": "https://github.com/xen-42/ow-dreamstalker",
@@ -5141,7 +5141,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-dreamstalker/main/README.md"
       },
       "authorDisplay": "xen & JohnCorby",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Update Dreamstalker for NH v1.10.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5153,7 +5153,7 @@
         "main": "escapethedreamstalker.webp"
       },
       "repoUpdatedAt": "2023-03-25T19:23:09Z",
-      "databaseEntryUpdatedAt": "2023-04-19T03:22:35.585Z",
+      "databaseEntryUpdatedAt": "2023-04-19T15:31:15.353Z",
       "viewCount": 136,
       "weeklyViewCount": 26,
       "installCount": 66,
@@ -7296,7 +7296,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Add `assets/spanish_la.xml` into `pathsToPreserve` to avoid overwriting it in update.\r\n* Translate \"Bramble Power Station\" in the map mode.\r\n* Some Japanese translation fixes.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7304,7 +7304,7 @@
       "slug": "translationfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-17T14:39:50Z",
-      "databaseEntryUpdatedAt": "2023-04-19T03:22:35.944Z",
+      "databaseEntryUpdatedAt": "2023-04-19T15:31:14.952Z",
       "viewCount": 108,
       "weeklyViewCount": 108,
       "installCount": 50,
