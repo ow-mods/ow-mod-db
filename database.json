@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117027
+    "downloadCount": 117029
   },
   "releases": [
     {
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.2/xen.NewHorizons.zip",
-      "downloadCount": 23228,
+      "downloadCount": 23250,
       "latestReleaseDate": "2023-04-01T18:06:52Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-04-18T03:01:31Z",
-      "databaseEntryUpdatedAt": "2023-04-18T15:24:37.860Z",
+      "repoUpdatedAt": "2023-04-19T02:40:27Z",
+      "databaseEntryUpdatedAt": "2023-04-19T02:47:42.862Z",
       "viewCount": 789,
       "weeklyViewCount": 168,
       "installCount": 341,
@@ -1254,8 +1254,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
-      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -6651,7 +6651,7 @@
       "author": "2walker2",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/2walker2/NHJamTeamErnesto/releases/download/1.0.0/Evacuation.Jam.Submission.zip",
-      "downloadCount": 412,
+      "downloadCount": 413,
       "latestReleaseDate": "2023-01-23T09:37:23Z",
       "firstReleaseDate": "2023-01-23T09:37:23Z",
       "repo": "https://github.com/2walker2/NHJamTeamErnesto",
@@ -6661,7 +6661,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "The final submission for the jam (probably).",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6673,7 +6673,7 @@
         "main": "evacuation.webp"
       },
       "repoUpdatedAt": "2023-04-12T23:05:31Z",
-      "databaseEntryUpdatedAt": "2023-04-18T14:33:54.595Z",
+      "databaseEntryUpdatedAt": "2023-04-19T02:47:41.752Z",
       "viewCount": 149,
       "weeklyViewCount": 28,
       "installCount": 62,
@@ -6983,7 +6983,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed null reference exceptions when editing dialogues and texts\r\n- Fixed incorrect file paths in dialogue export\r\n- Fixed errors from accidental imports\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.0...0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6992,8 +6992,8 @@
       "thumbnail": {
         "main": "moddatatools.webp"
       },
-      "repoUpdatedAt": "2023-04-04T00:20:39Z",
-      "databaseEntryUpdatedAt": "2023-04-18T17:23:53.652Z",
+      "repoUpdatedAt": "2023-04-19T02:44:30Z",
+      "databaseEntryUpdatedAt": "2023-04-19T02:47:42.839Z",
       "viewCount": 30,
       "weeklyViewCount": 4,
       "installCount": 7,
@@ -7129,7 +7129,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/QSBGameModes/releases/download/v0.0.1/BUNN1E5.QSBGameModes.zip",
-      "downloadCount": 131,
+      "downloadCount": 133,
       "latestReleaseDate": "2023-03-30T03:28:01Z",
       "firstReleaseDate": "2023-03-30T03:28:01Z",
       "repo": "https://github.com/BUNN1E5/QSBGameModes",
@@ -7139,7 +7139,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7149,7 +7149,7 @@
         "main": "qsbgamemodes.webp"
       },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
-      "databaseEntryUpdatedAt": "2023-04-18T14:33:54.850Z",
+      "databaseEntryUpdatedAt": "2023-04-19T02:47:43.027Z",
       "viewCount": 191,
       "weeklyViewCount": 39,
       "installCount": 126,
