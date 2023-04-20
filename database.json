@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117149
+    "downloadCount": 117150
   },
   "releases": [
     {
@@ -5131,7 +5131,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/ow-dreamstalker/releases/download/v0.1.6/xen.Dreamstalker.zip",
-      "downloadCount": 963,
+      "downloadCount": 964,
       "latestReleaseDate": "2023-03-25T19:54:09Z",
       "firstReleaseDate": "2022-10-27T01:52:29Z",
       "repo": "https://github.com/xen-42/ow-dreamstalker",
@@ -5141,7 +5141,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-dreamstalker/main/README.md"
       },
       "authorDisplay": "xen & JohnCorby",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Update Dreamstalker for NH v1.10.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5153,7 +5153,7 @@
         "main": "escapethedreamstalker.webp"
       },
       "repoUpdatedAt": "2023-03-25T19:23:09Z",
-      "databaseEntryUpdatedAt": "2023-04-19T15:31:15.353Z",
+      "databaseEntryUpdatedAt": "2023-04-20T03:35:43.117Z",
       "viewCount": 130,
       "weeklyViewCount": 22,
       "installCount": 64,
@@ -7286,7 +7286,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.2.2/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 63,
+      "downloadCount": 70,
       "latestReleaseDate": "2023-04-17T14:30:45Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7296,7 +7296,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Add `assets/spanish_la.xml` into `pathsToPreserve` to avoid overwriting it in update.\r\n* Translate \"Bramble Power Station\" in the map mode.\r\n* Some Japanese translation fixes.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7304,7 +7304,7 @@
       "slug": "translationfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-17T14:39:50Z",
-      "databaseEntryUpdatedAt": "2023-04-19T15:31:14.952Z",
+      "databaseEntryUpdatedAt": "2023-04-20T03:35:43.113Z",
       "viewCount": 116,
       "weeklyViewCount": 85,
       "installCount": 51,
