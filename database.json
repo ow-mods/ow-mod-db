@@ -383,8 +383,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
-      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -535,7 +535,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -1544,7 +1544,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -2829,7 +2829,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7315,25 +7315,25 @@
       "uniqueName": "VioVayo.DWModAssist",
       "description": "Easy Dream World access and triggering of events",
       "author": "VioVayo",
-      "downloadUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/releases/download/v0.1.1/VioVayo.DWModAssist.zip",
-      "downloadCount": 8,
-      "latestReleaseDate": "2023-04-17T09:12:14Z",
+      "downloadUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/releases/download/v0.1.2/VioVayo.DWModAssist.zip",
+      "downloadCount": 9,
+      "latestReleaseDate": "2023-04-20T07:37:47Z",
       "firstReleaseDate": "2023-04-16T11:39:43Z",
       "repo": "https://github.com/VioVayo/OWDreamWorldModAssist",
-      "version": "v0.1.1",
+      "version": "v0.1.2",
       "readme": {
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Teleporting into Dream World now counts as entering the Stranger\r\n- Fixed several cases in which teleporting would cause the player to get stuck\r\n- Waking up after teleport no longer adds player to volumes they don't spawn inside of",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
       ],
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-04-17T09:10:33Z",
-      "databaseEntryUpdatedAt": "2023-04-19T21:51:08.804Z",
+      "repoUpdatedAt": "2023-04-20T07:43:38Z",
+      "databaseEntryUpdatedAt": "2023-04-20T07:43:54.855Z",
       "viewCount": 29,
       "weeklyViewCount": 29,
       "installCount": 5,
