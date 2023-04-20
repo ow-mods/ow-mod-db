@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117226
+    "downloadCount": 117228
   },
   "releases": [
     {
@@ -77,7 +77,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T21:36:06.999Z",
       "viewCount": 3441,
       "weeklyViewCount": 872,
-      "installCount": 783,
+      "installCount": 788,
       "weeklyInstallCount": 204
     },
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.26.3/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 27949,
+      "downloadCount": 27962,
       "latestReleaseDate": "2023-03-09T16:50:25Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed title screen buttons being visible too early.\r\n- Fixed issue where the ship would launch you around weirdly.\r\n- Fixed issue when trying to handle messages from disconnected players.\r\n- Added the WorldObject count into the hash messages.\r\n- Moved the `WakeUpSync` script off of the remote player prefab.\r\n- Removed the unused `StopMeditation` script.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,7 +111,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-04-18T09:50:10Z",
-      "databaseEntryUpdatedAt": "2023-04-20T10:28:20.038Z",
+      "databaseEntryUpdatedAt": "2023-04-20T22:35:03.494Z",
       "viewCount": 2226,
       "weeklyViewCount": 616,
       "installCount": 664,
@@ -177,7 +177,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T18:13:53.613Z",
       "viewCount": 127,
       "weeklyViewCount": 25,
-      "installCount": 106,
+      "installCount": 108,
       "weeklyInstallCount": 22
     },
     {
@@ -401,7 +401,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T19:40:38.607Z",
       "viewCount": 330,
       "weeklyViewCount": 103,
-      "installCount": 153,
+      "installCount": 154,
       "weeklyInstallCount": 44
     },
     {
@@ -459,7 +459,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T18:13:52.397Z",
       "viewCount": 375,
       "weeklyViewCount": 95,
-      "installCount": 263,
+      "installCount": 265,
       "weeklyInstallCount": 63
     },
     {
@@ -1555,7 +1555,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T19:40:38.141Z",
       "viewCount": 160,
       "weeklyViewCount": 30,
-      "installCount": 104,
+      "installCount": 106,
       "weeklyInstallCount": 16
     },
     {
@@ -1773,7 +1773,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T17:26:59.177Z",
       "viewCount": 150,
       "weeklyViewCount": 43,
-      "installCount": 130,
+      "installCount": 131,
       "weeklyInstallCount": 32
     },
     {
@@ -2843,7 +2843,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T19:40:38.710Z",
       "viewCount": 51,
       "weeklyViewCount": 11,
-      "installCount": 98,
+      "installCount": 99,
       "weeklyInstallCount": 25
     },
     {
@@ -4111,7 +4111,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T17:11:51.429Z",
       "viewCount": 69,
       "weeklyViewCount": 11,
-      "installCount": 87,
+      "installCount": 89,
       "weeklyInstallCount": 21
     },
     {
@@ -6263,7 +6263,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T17:11:53.009Z",
       "viewCount": 2029,
       "weeklyViewCount": 490,
-      "installCount": 450,
+      "installCount": 451,
       "weeklyInstallCount": 118
     },
     {
@@ -6366,7 +6366,7 @@
       "databaseEntryUpdatedAt": "2023-04-20T17:11:53.151Z",
       "viewCount": 118,
       "weeklyViewCount": 29,
-      "installCount": 68,
+      "installCount": 69,
       "weeklyInstallCount": 17
     },
     {
@@ -6942,7 +6942,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.0/VioVayo.HugMod.zip",
-      "downloadCount": 341,
+      "downloadCount": 345,
       "latestReleaseDate": "2023-03-25T16:17:04Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6951,7 +6951,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed some minor graphical bugs and annoyances, along with overall adding more polish\r\n- Fixed some nasty NREs that would happen if hug script got destroyed too early, added null checks to prevent more potential NREs\r\n- Made massive structural changes to the code with the goal of enabling better interactions with other mods\r\n   - Changes to HugComponent initialisation and proxy component functionality\r\n   - Changes to the API to reflect the above\r\n   - Completely overhauled patches and made them more accessible\r\n   - Made the way HugMod affects concrete characters more accessible\r\n- The README is useful now\r\n\r\nDLC owners who had Friendmaker Mode enabled might have to reenable it.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6961,7 +6961,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-08T18:52:41Z",
-      "databaseEntryUpdatedAt": "2023-04-20T10:28:19.460Z",
+      "databaseEntryUpdatedAt": "2023-04-20T22:35:02.816Z",
       "viewCount": 219,
       "weeklyViewCount": 40,
       "installCount": 121,
@@ -7048,7 +7048,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7058,7 +7058,7 @@
         "main": "customizableanglerfishai.webp"
       },
       "repoUpdatedAt": "2023-04-08T19:02:01Z",
-      "databaseEntryUpdatedAt": "2023-04-20T10:28:19.062Z",
+      "databaseEntryUpdatedAt": "2023-04-20T22:35:02.815Z",
       "viewCount": 182,
       "weeklyViewCount": 11,
       "installCount": 43,
@@ -7194,7 +7194,7 @@
       "description": "What do you mean, \"weird\"? The game was always like this, I swear!",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWModThatDoesNothing/releases/download/v0.1.0/VioVayo.ModThatDoesNothing.zip",
-      "downloadCount": 34,
+      "downloadCount": 36,
       "latestReleaseDate": "2023-04-07T18:22:01Z",
       "firstReleaseDate": "2023-04-07T18:22:01Z",
       "repo": "https://github.com/VioVayo/OWModThatDoesNothing",
@@ -7203,7 +7203,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWModThatDoesNothing/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWModThatDoesNothing/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -7211,7 +7211,7 @@
       "slug": "modthatdoesnothing",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-08T18:37:51Z",
-      "databaseEntryUpdatedAt": "2023-04-20T10:28:19.063Z",
+      "databaseEntryUpdatedAt": "2023-04-20T22:35:02.812Z",
       "viewCount": 167,
       "weeklyViewCount": 73,
       "installCount": 32,
