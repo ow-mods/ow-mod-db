@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117181
+    "downloadCount": 117184
   },
   "releases": [
     {
@@ -4911,7 +4911,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix bug where it was possible to change the mode while exiting the Ship Log computer (during the animation), that could cause issues like screen prompts being duplicated",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7172,7 +7172,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ballpit/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "Turns your entire ship into a ball pit! Totally not a safety hazard!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7285,26 +7285,26 @@
       "description": "Outer Wilds Mod for translation for The Outsider",
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
-      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.2.2/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 73,
-      "latestReleaseDate": "2023-04-17T14:30:45Z",
+      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.3.0/orclecle.TranslationForTheOutsider.zip",
+      "downloadCount": 74,
+      "latestReleaseDate": "2023-04-20T13:46:53Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
-      "version": "v0.2.2",
+      "version": "v0.3.0",
       "readme": {
         "htmlUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* ADD Brazilian Portuguese translation!!! Thank you, @MGSchultz-13\r\n* Some Japanese translation fixes.\r\n* Some names can be translated now.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
       ],
       "slug": "translationfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-04-20T14:03:23Z",
-      "databaseEntryUpdatedAt": "2023-04-20T14:17:48.678Z",
+      "repoUpdatedAt": "2023-04-20T16:01:04Z",
+      "databaseEntryUpdatedAt": "2023-04-20T16:24:38.698Z",
       "viewCount": 118,
       "weeklyViewCount": 87,
       "installCount": 53,
