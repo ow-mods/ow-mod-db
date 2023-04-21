@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117341
+    "downloadCount": 117342
   },
   "releases": [
     {
@@ -3783,7 +3783,7 @@
       "description": "Place Minecraft blocks with left click, destroy them with alt-click, and switch blocks with T (See README for VR controls)",
       "author": "12090113",
       "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.2.0/Cubes.zip",
-      "downloadCount": 325,
+      "downloadCount": 329,
       "latestReleaseDate": "2023-04-21T07:07:17Z",
       "firstReleaseDate": "2022-07-10T21:49:54Z",
       "repo": "https://github.com/12090113/outer-wilds-cubes",
@@ -3792,7 +3792,7 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added UI. When you switch blocks, you will see what block you have switched to in your suit HUD (if you have your helmet on).\r\nFixes:\r\n\r\n- fixed blocks being placed while in menus (#2)\r\n- prevented being able to place multiple blocks in the same position",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3803,7 +3803,7 @@
         "openGraph": "blockplacing-static.webp"
       },
       "repoUpdatedAt": "2023-04-21T07:09:10Z",
-      "databaseEntryUpdatedAt": "2023-04-21T07:18:20.097Z",
+      "databaseEntryUpdatedAt": "2023-04-21T19:28:09.336Z",
       "viewCount": 6,
       "weeklyViewCount": 1,
       "installCount": 19,
