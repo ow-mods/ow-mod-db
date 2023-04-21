@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117306
+    "downloadCount": 117308
   },
   "releases": [
     {
@@ -4058,7 +4058,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/releases/download/v0.1.2/ow-nh-ss-ascension.zip",
-      "downloadCount": 362,
+      "downloadCount": 363,
       "latestReleaseDate": "2023-04-02T18:54:23Z",
       "firstReleaseDate": "2022-08-17T04:00:28Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-ss-ascension",
@@ -4067,7 +4067,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4077,7 +4077,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-04-21T01:36:35.562Z",
+      "databaseEntryUpdatedAt": "2023-04-21T13:47:58.168Z",
       "viewCount": 66,
       "weeklyViewCount": 8,
       "installCount": 20,
@@ -6783,7 +6783,7 @@
       "description": "A mod for Outer Wilds that adds various Nomai Keys to the world which must be collected before the game can be completed.",
       "author": "GameWyrm",
       "downloadUrl": "https://github.com/GameWyrm/OuterRelics/releases/download/v0.9.5/GameWyrm.OuterRelics.zip",
-      "downloadCount": 139,
+      "downloadCount": 140,
       "latestReleaseDate": "2023-04-17T23:44:41Z",
       "firstReleaseDate": "2023-02-18T00:46:33Z",
       "repo": "https://github.com/GameWyrm/OuterRelics",
@@ -6792,7 +6792,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6803,7 +6803,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-04-21T01:36:35.282Z",
+      "databaseEntryUpdatedAt": "2023-04-21T13:47:58.605Z",
       "viewCount": 108,
       "weeklyViewCount": 56,
       "installCount": 36,
@@ -7286,7 +7286,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.3.0/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 82,
+      "downloadCount": 89,
       "latestReleaseDate": "2023-04-20T13:46:53Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7296,7 +7296,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* ADD Brazilian Portuguese translation!!! Thank you, @MGSchultz-13\r\n* Some Japanese translation fixes.\r\n* Some names can be translated now.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7304,7 +7304,7 @@
       "slug": "translationfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-21T00:46:57Z",
-      "databaseEntryUpdatedAt": "2023-04-21T01:36:34.332Z",
+      "databaseEntryUpdatedAt": "2023-04-21T13:47:57.728Z",
       "viewCount": 128,
       "weeklyViewCount": 85,
       "installCount": 58,
