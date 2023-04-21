@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117267
+    "downloadCount": 117272
   },
   "releases": [
     {
@@ -4398,7 +4398,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.4/hearth1an.TheVision.zip",
-      "downloadCount": 7649,
+      "downloadCount": 7657,
       "latestReleaseDate": "2023-04-10T05:43:56Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4408,7 +4408,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Bug fixes for last New Horizons update\r\n- Dialogue fixes\r\n- More Ernesto\r\n- Italian localisation added by ilyNerY",
       "latestPrereleaseDescription": "",
       "tags": [
         "story",
@@ -4420,7 +4420,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2023-04-10T05:45:07Z",
-      "databaseEntryUpdatedAt": "2023-04-20T20:27:12.668Z",
+      "databaseEntryUpdatedAt": "2023-04-21T08:36:09.551Z",
       "viewCount": 1158,
       "weeklyViewCount": 288,
       "installCount": 363,
@@ -6376,7 +6376,7 @@
       "author": "coderCleric",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/coderCleric/Scavenger_Hunt/releases/download/v1.0.1/Scavenger_Hunt.zip",
-      "downloadCount": 233,
+      "downloadCount": 234,
       "latestReleaseDate": "2023-03-27T23:57:45Z",
       "firstReleaseDate": "2023-01-21T21:28:39Z",
       "repo": "https://github.com/coderCleric/Scavenger_Hunt",
@@ -6386,7 +6386,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6398,7 +6398,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-04-20T20:27:12.264Z",
+      "databaseEntryUpdatedAt": "2023-04-21T08:36:05.858Z",
       "viewCount": 69,
       "weeklyViewCount": 3,
       "installCount": 37,
@@ -7316,7 +7316,7 @@
       "description": "Easy Dream World access and triggering of events",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/releases/download/v0.1.2/VioVayo.DWModAssist.zip",
-      "downloadCount": 12,
+      "downloadCount": 13,
       "latestReleaseDate": "2023-04-20T08:01:59Z",
       "firstReleaseDate": "2023-04-16T11:39:43Z",
       "repo": "https://github.com/VioVayo/OWDreamWorldModAssist",
@@ -7325,7 +7325,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Teleporting into Dream World now counts as entering the Stranger\r\n- Fixed several cases in which teleporting would cause the player to get stuck\r\n- Waking up after teleport no longer adds player to volumes they don't spawn inside of",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7333,7 +7333,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-20T07:58:03Z",
-      "databaseEntryUpdatedAt": "2023-04-20T20:27:12.521Z",
+      "databaseEntryUpdatedAt": "2023-04-21T08:36:09.173Z",
       "viewCount": 34,
       "weeklyViewCount": 34,
       "installCount": 5,
