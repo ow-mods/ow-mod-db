@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117542
+    "downloadCount": 117543
   },
   "releases": [
     {
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
-      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.2/xen.NewHorizons.zip",
-      "downloadCount": 23366,
+      "downloadCount": 23368,
       "latestReleaseDate": "2023-04-01T18:06:52Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-04-22T21:53:22Z",
-      "databaseEntryUpdatedAt": "2023-04-22T21:58:20.229Z",
+      "repoUpdatedAt": "2023-04-22T22:09:51Z",
+      "databaseEntryUpdatedAt": "2023-04-22T22:19:48.537Z",
       "viewCount": 787,
       "weeklyViewCount": 153,
       "installCount": 339,
@@ -3792,7 +3792,7 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added UI. When you switch blocks, you will see what block you have switched to in your suit HUD (if you have your helmet on).\r\nFixes:\r\n\r\n- fixed blocks being placed while in menus (#2)\r\n- prevented being able to place multiple blocks in the same position",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3802,8 +3802,8 @@
         "main": "blockplacing.webp",
         "openGraph": "blockplacing-static.webp"
       },
-      "repoUpdatedAt": "2023-04-22T02:42:00Z",
-      "databaseEntryUpdatedAt": "2023-04-22T14:58:17.091Z",
+      "repoUpdatedAt": "2023-04-22T22:04:11Z",
+      "databaseEntryUpdatedAt": "2023-04-22T22:19:48.812Z",
       "viewCount": 16,
       "weeklyViewCount": 11,
       "installCount": 21,
@@ -7233,7 +7233,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-color-cameras/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "Upgrades every Hearthian camera with color technology!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7265,7 +7265,7 @@
         "htmlUrl": "https://github.com/Tephirax/Invert-Look-Controls/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/Invert-Look-Controls/main/README.md"
       },
-      "latestReleaseDescription": "Added mod options for flexibility",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
