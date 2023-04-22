@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117410
+    "downloadCount": 117413
   },
   "releases": [
     {
@@ -3915,7 +3915,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-localization-utility/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-localization-utility/main/README.md"
       },
-      "latestReleaseDescription": "- New languages appear in the options slider\r\n- Can replace a language instead of just adding new ones\r\n- Added font size modifier and default font spacing options\r\n- Fixed some errors\r\n\r\nThanks MegaPiggy for contributing these things months ago and then I forgot to make a release haha (oops)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library",
@@ -4933,7 +4933,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3773,
+      "downloadCount": 3774,
       "latestReleaseDate": "2022-10-14T06:09:06Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4954,8 +4954,8 @@
         "main": "shiplogslidereelplayerplus.webp",
         "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
-      "repoUpdatedAt": "2023-04-20T02:44:52Z",
-      "databaseEntryUpdatedAt": "2023-04-22T02:59:33.524Z",
+      "repoUpdatedAt": "2023-04-22T07:11:18Z",
+      "databaseEntryUpdatedAt": "2023-04-22T07:14:07.873Z",
       "viewCount": 16,
       "weeklyViewCount": 2,
       "installCount": 56,
