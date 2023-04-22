@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117520
+    "downloadCount": 117524
   },
   "releases": [
     {
@@ -78,7 +78,7 @@
       "viewCount": 3409,
       "weeklyViewCount": 841,
       "installCount": 783,
-      "weeklyInstallCount": 203
+      "weeklyInstallCount": 208
     },
     {
       "name": "Quantum Space Buddies",
@@ -115,7 +115,7 @@
       "viewCount": 2211,
       "weeklyViewCount": 582,
       "installCount": 652,
-      "weeklyInstallCount": 168
+      "weeklyInstallCount": 179
     },
     {
       "name": "Light Bramble",
@@ -146,7 +146,7 @@
       "viewCount": 401,
       "weeklyViewCount": 113,
       "installCount": 221,
-      "weeklyInstallCount": 67
+      "weeklyInstallCount": 68
     },
     {
       "name": "FreeCam",
@@ -207,7 +207,7 @@
       "viewCount": 9,
       "weeklyViewCount": 0,
       "installCount": 34,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 12
     },
     {
       "name": "Clock",
@@ -243,7 +243,7 @@
       "viewCount": 175,
       "weeklyViewCount": 48,
       "installCount": 242,
-      "weeklyInstallCount": 54
+      "weeklyInstallCount": 55
     },
     {
       "name": "HD Screenshot",
@@ -335,7 +335,7 @@
       "viewCount": 67,
       "weeklyViewCount": 18,
       "installCount": 147,
-      "weeklyInstallCount": 32
+      "weeklyInstallCount": 33
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -402,7 +402,7 @@
       "viewCount": 343,
       "weeklyViewCount": 97,
       "installCount": 156,
-      "weeklyInstallCount": 47
+      "weeklyInstallCount": 48
     },
     {
       "name": "Cheat and Debug Menu",
@@ -431,7 +431,7 @@
       "viewCount": 176,
       "weeklyViewCount": 44,
       "installCount": 106,
-      "weeklyInstallCount": 28
+      "weeklyInstallCount": 29
     },
     {
       "name": "Cheats Mod",
@@ -460,7 +460,7 @@
       "viewCount": 402,
       "weeklyViewCount": 114,
       "installCount": 269,
-      "weeklyInstallCount": 71
+      "weeklyInstallCount": 72
     },
     {
       "name": "Difficulty Mod",
@@ -785,7 +785,7 @@
       "viewCount": 152,
       "weeklyViewCount": 33,
       "installCount": 347,
-      "weeklyInstallCount": 83
+      "weeklyInstallCount": 85
     },
     {
       "name": "Static Camera",
@@ -879,7 +879,7 @@
       "viewCount": 446,
       "weeklyViewCount": 95,
       "installCount": 174,
-      "weeklyInstallCount": 43
+      "weeklyInstallCount": 44
     },
     {
       "name": "Unity Explorer",
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.2/xen.NewHorizons.zip",
-      "downloadCount": 23360,
+      "downloadCount": 23362,
       "latestReleaseDate": "2023-04-01T18:06:52Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1067,12 +1067,12 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-04-22T18:42:11Z",
-      "databaseEntryUpdatedAt": "2023-04-22T18:54:31.190Z",
+      "repoUpdatedAt": "2023-04-22T19:23:18Z",
+      "databaseEntryUpdatedAt": "2023-04-22T19:24:54.858Z",
       "viewCount": 787,
       "weeklyViewCount": 153,
       "installCount": 338,
-      "weeklyInstallCount": 74
+      "weeklyInstallCount": 75
     },
     {
       "name": "New Horizons Examples",
@@ -1137,7 +1137,7 @@
       "viewCount": 244,
       "weeklyViewCount": 53,
       "installCount": 172,
-      "weeklyInstallCount": 41
+      "weeklyInstallCount": 42
     },
     {
       "name": "Atropos",
@@ -1498,7 +1498,7 @@
       "viewCount": 101,
       "weeklyViewCount": 27,
       "installCount": 94,
-      "weeklyInstallCount": 23
+      "weeklyInstallCount": 24
     },
     {
       "name": "Vanilla Main Menu",
@@ -1680,7 +1680,7 @@
       "viewCount": 23,
       "weeklyViewCount": 7,
       "installCount": 60,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "Outer Wilds Music Player",
@@ -1774,7 +1774,7 @@
       "viewCount": 151,
       "weeklyViewCount": 43,
       "installCount": 124,
-      "weeklyInstallCount": 27
+      "weeklyInstallCount": 29
     },
     {
       "name": "Enter the Warioverse",
@@ -2160,7 +2160,7 @@
       "viewCount": 235,
       "weeklyViewCount": 62,
       "installCount": 257,
-      "weeklyInstallCount": 49
+      "weeklyInstallCount": 52
     },
     {
       "name": "Only Timber Hearth",
@@ -3088,7 +3088,7 @@
       "viewCount": 47,
       "weeklyViewCount": 10,
       "installCount": 64,
-      "weeklyInstallCount": 21
+      "weeklyInstallCount": 25
     },
     {
       "name": "Changed Twins",
@@ -3151,7 +3151,7 @@
       "viewCount": 39,
       "weeklyViewCount": 10,
       "installCount": 27,
-      "weeklyInstallCount": 8
+      "weeklyInstallCount": 10
     },
     {
       "name": "Outer Wilds Traditional Chinese Translation",
@@ -3182,7 +3182,7 @@
       "viewCount": 20,
       "weeklyViewCount": 4,
       "installCount": 18,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 7
     },
     {
       "name": "Less Lonely Ship",
@@ -3278,7 +3278,7 @@
       "viewCount": 6,
       "weeklyViewCount": 0,
       "installCount": 26,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "Suit Log",
@@ -3403,7 +3403,7 @@
       "viewCount": 20,
       "weeklyViewCount": 4,
       "installCount": 59,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 13
     },
     {
       "name": "Better Model Ship",
@@ -3915,7 +3915,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-localization-utility/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-localization-utility/main/README.md"
       },
-      "latestReleaseDescription": "- New languages appear in the options slider\r\n- Can replace a language instead of just adding new ones\r\n- Added font size modifier and default font spacing options\r\n- Fixed some errors\r\n\r\nThanks MegaPiggy for contributing these things months ago and then I forgot to make a release haha (oops)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library",
@@ -3953,7 +3953,7 @@
       "viewCount": 86,
       "weeklyViewCount": 14,
       "installCount": 72,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 13
     },
     {
       "name": "Galaxy Skybox: NGC 1087",
@@ -4112,7 +4112,7 @@
       "viewCount": 69,
       "weeklyViewCount": 15,
       "installCount": 89,
-      "weeklyInstallCount": 22
+      "weeklyInstallCount": 23
     },
     {
       "name": "Artifact Laser",
@@ -4424,7 +4424,7 @@
       "viewCount": 1152,
       "weeklyViewCount": 278,
       "installCount": 361,
-      "weeklyInstallCount": 81
+      "weeklyInstallCount": 84
     },
     {
       "name": "Secret Words",
@@ -4568,7 +4568,7 @@
       "viewCount": 80,
       "weeklyViewCount": 9,
       "installCount": 85,
-      "weeklyInstallCount": 21
+      "weeklyInstallCount": 22
     },
     {
       "name": "Car Example",
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4955,7 +4955,7 @@
         "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
       "repoUpdatedAt": "2023-04-22T07:11:18Z",
-      "databaseEntryUpdatedAt": "2023-04-22T07:14:07.873Z",
+      "databaseEntryUpdatedAt": "2023-04-22T19:24:55.299Z",
       "viewCount": 16,
       "weeklyViewCount": 2,
       "installCount": 59,
@@ -5089,7 +5089,7 @@
       "viewCount": 77,
       "weeklyViewCount": 7,
       "installCount": 79,
-      "weeklyInstallCount": 28
+      "weeklyInstallCount": 30
     },
     {
       "name": "The Wilds: Extended",
@@ -5317,7 +5317,7 @@
       "viewCount": 150,
       "weeklyViewCount": 35,
       "installCount": 208,
-      "weeklyInstallCount": 56
+      "weeklyInstallCount": 59
     },
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
@@ -5445,7 +5445,7 @@
       "viewCount": 76,
       "weeklyViewCount": 15,
       "installCount": 59,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 17
     },
     {
       "name": "N Body Chaos",
@@ -5665,7 +5665,7 @@
       "viewCount": 22,
       "weeklyViewCount": 3,
       "installCount": 32,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "How Did This Happen?",
@@ -5789,7 +5789,7 @@
       "viewCount": 1,
       "weeklyViewCount": 0,
       "installCount": 7,
-      "weeklyInstallCount": 0
+      "weeklyInstallCount": 1
     },
     {
       "name": "SpeedTools",
@@ -5948,7 +5948,7 @@
       "viewCount": 25,
       "weeklyViewCount": 8,
       "installCount": 30,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Stranger Night Cycle",
@@ -6163,7 +6163,7 @@
       "viewCount": 19,
       "weeklyViewCount": 6,
       "installCount": 40,
-      "weeklyInstallCount": 11
+      "weeklyInstallCount": 12
     },
     {
       "name": "The Spiral System",
@@ -6264,7 +6264,7 @@
       "viewCount": 1937,
       "weeklyViewCount": 469,
       "installCount": 453,
-      "weeklyInstallCount": 118
+      "weeklyInstallCount": 121
     },
     {
       "name": "Daylight Savings",
@@ -6367,7 +6367,7 @@
       "viewCount": 117,
       "weeklyViewCount": 27,
       "installCount": 66,
-      "weeklyInstallCount": 18
+      "weeklyInstallCount": 19
     },
     {
       "name": "OW Ventures Scavenger Hunt",
@@ -6472,7 +6472,7 @@
       "viewCount": 156,
       "weeklyViewCount": 45,
       "installCount": 64,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 13
     },
     {
       "name": "Divergence",
@@ -6807,7 +6807,7 @@
       "viewCount": 117,
       "weeklyViewCount": 66,
       "installCount": 37,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "Real Solar System - Outer Relics Support and Examples",
@@ -7153,7 +7153,7 @@
       "viewCount": 202,
       "weeklyViewCount": 37,
       "installCount": 150,
-      "weeklyInstallCount": 53
+      "weeklyInstallCount": 55
     },
     {
       "name": "Ship Ball Pit",
@@ -7308,7 +7308,7 @@
       "viewCount": 157,
       "weeklyViewCount": 107,
       "installCount": 63,
-      "weeklyInstallCount": 51
+      "weeklyInstallCount": 52
     },
     {
       "name": "Dream World Modding and Debug Assist",
@@ -7368,7 +7368,7 @@
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
-      "weeklyInstallCount": 0
+      "weeklyInstallCount": 2
     }
   ],
   "alphaReleases": [
