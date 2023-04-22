@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117468
+    "downloadCount": 117471
   },
   "releases": [
     {
@@ -4067,7 +4067,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4077,7 +4077,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-04-22T02:24:30.171Z",
+      "databaseEntryUpdatedAt": "2023-04-22T14:33:06.492Z",
       "viewCount": 66,
       "weeklyViewCount": 8,
       "installCount": 21,
@@ -6783,7 +6783,7 @@
       "description": "A mod for Outer Wilds that adds various Nomai Keys to the world which must be collected before the game can be completed.",
       "author": "GameWyrm",
       "downloadUrl": "https://github.com/GameWyrm/OuterRelics/releases/download/v0.9.5/GameWyrm.OuterRelics.zip",
-      "downloadCount": 142,
+      "downloadCount": 145,
       "latestReleaseDate": "2023-04-17T23:44:41Z",
       "firstReleaseDate": "2023-02-18T00:46:33Z",
       "repo": "https://github.com/GameWyrm/OuterRelics",
@@ -6792,7 +6792,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6803,7 +6803,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-04-22T02:24:30.441Z",
+      "databaseEntryUpdatedAt": "2023-04-22T14:33:06.670Z",
       "viewCount": 117,
       "weeklyViewCount": 66,
       "installCount": 37,
@@ -7296,15 +7296,15 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* ADD Chinese translation based on [TheOutsider_CN](https://github.com/nice2cu1/TheOutsider_CN)!!! Thank you, @nice2cu1 (See [TheOutsider_CN#1](https://github.com/nice2cu1/TheOutsider_CN/issues/1))\r\n    * For Chinese translation, installing [Outer Wilds Chinese Fix](https://outerwildsmods.com/mods/outerwildschinesefix/) is recommended.\r\n* Some translation fixes.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
       ],
       "slug": "translationfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-04-22T13:32:59Z",
-      "databaseEntryUpdatedAt": "2023-04-22T13:35:58.144Z",
+      "repoUpdatedAt": "2023-04-22T14:30:13Z",
+      "databaseEntryUpdatedAt": "2023-04-22T14:33:06.294Z",
       "viewCount": 157,
       "weeklyViewCount": 107,
       "installCount": 63,
