@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117535
+    "downloadCount": 117538
   },
   "releases": [
     {
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.2/xen.NewHorizons.zip",
-      "downloadCount": 23362,
+      "downloadCount": 23364,
       "latestReleaseDate": "2023-04-01T18:06:52Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-04-22T20:26:58Z",
-      "databaseEntryUpdatedAt": "2023-04-22T20:37:28.361Z",
+      "repoUpdatedAt": "2023-04-22T20:48:13Z",
+      "databaseEntryUpdatedAt": "2023-04-22T20:50:06.499Z",
       "viewCount": 787,
       "weeklyViewCount": 153,
       "installCount": 339,
@@ -4398,7 +4398,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.4/hearth1an.TheVision.zip",
-      "downloadCount": 7677,
+      "downloadCount": 7685,
       "latestReleaseDate": "2023-04-10T05:43:56Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4408,7 +4408,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Bug fixes for last New Horizons update\r\n- Dialogue fixes\r\n- More Ernesto\r\n- Italian localisation added by ilyNerY",
       "latestPrereleaseDescription": "",
       "tags": [
         "story",
@@ -4420,7 +4420,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2023-04-10T05:45:07Z",
-      "databaseEntryUpdatedAt": "2023-04-22T08:42:23.779Z",
+      "databaseEntryUpdatedAt": "2023-04-22T20:50:06.820Z",
       "viewCount": 1152,
       "weeklyViewCount": 278,
       "installCount": 364,
@@ -6386,7 +6386,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6398,7 +6398,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-04-22T08:42:23.363Z",
+      "databaseEntryUpdatedAt": "2023-04-22T20:50:02.863Z",
       "viewCount": 69,
       "weeklyViewCount": 3,
       "installCount": 37,
@@ -6942,7 +6942,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.0/VioVayo.HugMod.zip",
-      "downloadCount": 349,
+      "downloadCount": 351,
       "latestReleaseDate": "2023-03-25T16:17:04Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6951,7 +6951,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed some minor graphical bugs and annoyances, along with overall adding more polish\r\n- Fixed some nasty NREs that would happen if hug script got destroyed too early, added null checks to prevent more potential NREs\r\n- Made massive structural changes to the code with the goal of enabling better interactions with other mods\r\n   - Changes to HugComponent initialisation and proxy component functionality\r\n   - Changes to the API to reflect the above\r\n   - Completely overhauled patches and made them more accessible\r\n   - Made the way HugMod affects concrete characters more accessible\r\n- The README is useful now\r\n\r\nDLC owners who had Friendmaker Mode enabled might have to reenable it.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6960,8 +6960,8 @@
       "thumbnail": {
         "main": "hugmod.webp"
       },
-      "repoUpdatedAt": "2023-04-08T18:52:41Z",
-      "databaseEntryUpdatedAt": "2023-04-22T10:54:36.302Z",
+      "repoUpdatedAt": "2023-04-22T20:44:09Z",
+      "databaseEntryUpdatedAt": "2023-04-22T20:50:06.495Z",
       "viewCount": 217,
       "weeklyViewCount": 42,
       "installCount": 119,
@@ -7325,7 +7325,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "- Fixed the sky\r\n- Menu should be useable with a controller now",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
