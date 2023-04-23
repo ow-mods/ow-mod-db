@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117698
+    "downloadCount": 117700
   },
   "releases": [
     {
@@ -3792,7 +3792,7 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "Fixes:\r\n- Iron block now looks as cool as it should (normal map and smoothness/metallic map on the same block work now)\r\n- More Corby performance magic",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4954,8 +4954,8 @@
         "main": "shiplogslidereelplayerplus.webp",
         "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
-      "repoUpdatedAt": "2023-04-23T05:06:00Z",
-      "databaseEntryUpdatedAt": "2023-04-23T17:26:21.474Z",
+      "repoUpdatedAt": "2023-04-23T19:57:45Z",
+      "databaseEntryUpdatedAt": "2023-04-23T20:01:57.724Z",
       "viewCount": 15,
       "weeklyViewCount": 2,
       "installCount": 58,
