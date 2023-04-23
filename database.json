@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117660
+    "downloadCount": 117663
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -1218,8 +1218,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "### Changes:\r\n* Added stools, which will spawn around the solar system. These stools can help the player use things like the model rocket or other areas where being shorter than normal can make something more difficult. The stool placements are not final, but they should spawn in most locations where they would be needed!\r\n* Revamped config menu.\r\n  * The \"Height %\" and \"Radius %\" settings now represent actual percentages, so a Height % of 100 will make the player be normal height.\r\n* Readded native compatibility with Hiker's Mod via an API. **Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
-      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -1245,7 +1245,7 @@
       "description": "Customizable movement speed and jump height, instant jump, sprinting, climbing, and more.",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.3/Owen013.MovementMod.zip",
-      "downloadCount": 2720,
+      "downloadCount": 2724,
       "latestReleaseDate": "2023-04-16T23:12:23Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
@@ -1254,8 +1254,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -1269,7 +1269,7 @@
         "main": "hikersmod.webp"
       },
       "repoUpdatedAt": "2023-04-18T13:52:12Z",
-      "databaseEntryUpdatedAt": "2023-04-23T03:27:43.509Z",
+      "databaseEntryUpdatedAt": "2023-04-23T15:36:00.665Z",
       "viewCount": 88,
       "weeklyViewCount": 32,
       "installCount": 51,
@@ -7286,7 +7286,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.4.1/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 99,
+      "downloadCount": 108,
       "latestReleaseDate": "2023-04-23T03:17:13Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7296,7 +7296,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Some translation fixes (DELLS->BELLS...).",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7304,7 +7304,7 @@
       "slug": "translationfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-23T03:20:45Z",
-      "databaseEntryUpdatedAt": "2023-04-23T03:27:39.285Z",
+      "databaseEntryUpdatedAt": "2023-04-23T15:36:01.060Z",
       "viewCount": 175,
       "weeklyViewCount": 117,
       "installCount": 66,
@@ -7346,7 +7346,7 @@
       "author": "bismuthdistrict",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/releases/download/publish/bismuthdistrict.9YearOldSystem.zip",
-      "downloadCount": 9,
+      "downloadCount": 13,
       "latestReleaseDate": "2023-04-22T02:44:00Z",
       "firstReleaseDate": "2023-04-22T02:44:00Z",
       "repo": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem",
@@ -7356,7 +7356,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "exist",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7364,7 +7364,7 @@
       "slug": "9yearoldsystem",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T02:46:02Z",
-      "databaseEntryUpdatedAt": "2023-04-23T03:27:38.627Z",
+      "databaseEntryUpdatedAt": "2023-04-23T15:36:01.010Z",
       "viewCount": 60,
       "weeklyViewCount": 60,
       "installCount": 6,
