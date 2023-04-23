@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117697
+    "downloadCount": 117698
   },
   "releases": [
     {
@@ -3782,17 +3782,17 @@
       "uniqueName": "12090113.Cubes",
       "description": "Place Minecraft blocks with left click, destroy them with alt-click, and switch blocks with T (See README for VR controls)",
       "author": "12090113",
-      "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.3/Cubes.zip",
+      "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.4/Cubes.zip",
       "downloadCount": 349,
-      "latestReleaseDate": "2023-04-23T08:59:40Z",
+      "latestReleaseDate": "2023-04-23T19:37:34Z",
       "firstReleaseDate": "2022-07-10T21:49:54Z",
       "repo": "https://github.com/12090113/outer-wilds-cubes",
-      "version": "v0.3.3",
+      "version": "v0.3.4",
       "readme": {
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixes:\r\n- Iron block now looks as cool as it should (normal map and smoothness/metallic map on the same block work now)\r\n- More Corby performance magic",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3802,8 +3802,8 @@
         "main": "blockplacing.webp",
         "openGraph": "blockplacing-static.webp"
       },
-      "repoUpdatedAt": "2023-04-23T19:11:40Z",
-      "databaseEntryUpdatedAt": "2023-04-23T19:23:39.157Z",
+      "repoUpdatedAt": "2023-04-23T19:40:11Z",
+      "databaseEntryUpdatedAt": "2023-04-23T19:49:12.333Z",
       "viewCount": 22,
       "weeklyViewCount": 17,
       "installCount": 22,
