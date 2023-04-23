@@ -3783,7 +3783,7 @@
       "description": "Place Minecraft blocks with left click, destroy them with alt-click, and switch blocks with T (See README for VR controls)",
       "author": "12090113",
       "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.3/Cubes.zip",
-      "downloadCount": 345,
+      "downloadCount": 346,
       "latestReleaseDate": "2023-04-23T08:59:40Z",
       "firstReleaseDate": "2022-07-10T21:49:54Z",
       "repo": "https://github.com/12090113/outer-wilds-cubes",
@@ -3792,7 +3792,7 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Graphics overhaul! New normal maps and specular maps make your blocks look fancy (ish).\r\nFixes:\r\n- Actually updated the manifest this time for real now (I think)\r\n- New save format prevents all your blocks from getting mixed up when you add/remove custom blocks (your existing save should be automatically upgraded)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3802,8 +3802,8 @@
         "main": "blockplacing.webp",
         "openGraph": "blockplacing-static.webp"
       },
-      "repoUpdatedAt": "2023-04-23T09:01:08Z",
-      "databaseEntryUpdatedAt": "2023-04-23T09:01:43.257Z",
+      "repoUpdatedAt": "2023-04-23T09:30:09Z",
+      "databaseEntryUpdatedAt": "2023-04-23T09:32:26.775Z",
       "viewCount": 22,
       "weeklyViewCount": 17,
       "installCount": 21,
@@ -6951,7 +6951,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7099,7 +7099,7 @@
       "description": "Changes to the Ghost AI that make them harder to avoid",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWSmarterGhosts/releases/download/v0.2.1/VioVayo.SmarterGhosts.zip",
-      "downloadCount": 42,
+      "downloadCount": 44,
       "latestReleaseDate": "2023-04-22T21:15:56Z",
       "firstReleaseDate": "2023-03-26T19:18:05Z",
       "repo": "https://github.com/VioVayo/OWSmarterGhosts",
@@ -7108,7 +7108,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7116,7 +7116,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-04-22T21:20:16.533Z",
+      "databaseEntryUpdatedAt": "2023-04-23T09:32:20.964Z",
       "viewCount": 180,
       "weeklyViewCount": 28,
       "installCount": 25,
