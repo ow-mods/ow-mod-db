@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117578
+    "downloadCount": 117579
   },
   "releases": [
     {
@@ -3792,7 +3792,7 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "Switched to cutout rendering because JohnCorby says it gives me all the frames.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4943,7 +4943,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4954,8 +4954,8 @@
         "main": "shiplogslidereelplayerplus.webp",
         "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
-      "repoUpdatedAt": "2023-04-22T07:11:18Z",
-      "databaseEntryUpdatedAt": "2023-04-22T19:24:55.299Z",
+      "repoUpdatedAt": "2023-04-23T05:06:00Z",
+      "databaseEntryUpdatedAt": "2023-04-23T05:18:55.585Z",
       "viewCount": 15,
       "weeklyViewCount": 2,
       "installCount": 58,
