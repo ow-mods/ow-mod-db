@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117819
+    "downloadCount": 117821
   },
   "releases": [
     {
@@ -352,7 +352,7 @@
         "htmlUrl": "https://github.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Set each ASCII character to the maximum brightness of that colour, as the brightness should be determined by the density of that character, not the colour itself.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -362,7 +362,7 @@
         "main": "vespersassortedouterwildsshaders.webp"
       },
       "repoUpdatedAt": "2023-04-08T12:29:26Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.847Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:31.743Z",
       "viewCount": 61,
       "weeklyViewCount": 9,
       "installCount": 46,
@@ -514,7 +514,7 @@
       "slug": "peacefulghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2022-06-30T16:59:24Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:18.775Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:31.743Z",
       "viewCount": 88,
       "weeklyViewCount": 23,
       "installCount": 68,
@@ -572,7 +572,7 @@
       "slug": "owsmooththrust",
       "thumbnail": {},
       "repoUpdatedAt": "2022-09-18T17:21:22Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.852Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:31.744Z",
       "viewCount": 31,
       "weeklyViewCount": 7,
       "installCount": 31,
@@ -646,7 +646,7 @@
       "description": "Mod for Outer Wilds allowing the game to continue while in background",
       "author": "lStewieAl",
       "downloadUrl": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause/releases/download/0.1.0/lStewieAl.RunInBackground.zip",
-      "downloadCount": 1101,
+      "downloadCount": 1102,
       "latestReleaseDate": "2021-11-11T21:29:26Z",
       "firstReleaseDate": "2021-11-11T21:29:26Z",
       "repo": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause",
@@ -655,7 +655,7 @@
         "htmlUrl": "https://github.com/lStewieAl/OuterWilds-NoAltTabPause/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/lStewieAl/OuterWilds-NoAltTabPause/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Allow the game to continue in background, allowing autopilot while the game isn't focused.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -663,7 +663,7 @@
       "slug": "noalttabpause",
       "thumbnail": {},
       "repoUpdatedAt": "2021-11-11T23:01:53Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:18.908Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:31.744Z",
       "viewCount": 26,
       "weeklyViewCount": 12,
       "installCount": 40,
@@ -933,7 +933,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsHalf-Life/main/README.md"
       },
       "authorDisplay": "Vesper & xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "0.7.0\r\n\r\nBunch of new skeleton models and tools",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -943,7 +943,7 @@
         "main": "halflifeoverhaul.webp"
       },
       "repoUpdatedAt": "2022-03-17T20:27:08Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.167Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:31.744Z",
       "viewCount": 27,
       "weeklyViewCount": 5,
       "installCount": 25,
@@ -964,7 +964,7 @@
         "htmlUrl": "https://github.com/Vesper-Works/AutoResume/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/AutoResume/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Update thanks to Xen,\r\n- NH compatibility\r\n- Modernisation\r\n- Squashed bugs",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -972,7 +972,7 @@
       "slug": "autoresume",
       "thumbnail": {},
       "repoUpdatedAt": "2022-07-09T10:53:49Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.847Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:31.744Z",
       "viewCount": 17,
       "weeklyViewCount": 3,
       "installCount": 31,
@@ -1081,7 +1081,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.17.0/nh-examples.zip",
-      "downloadCount": 4142,
+      "downloadCount": 4143,
       "latestReleaseDate": "2023-03-24T04:57:15Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -1091,7 +1091,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- use auto spirals\r\n- better ambient lights\r\n- warp pads\r\n- vessel on pygmy\r\n- ernesto kills u",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1101,7 +1101,7 @@
         "main": "newhorizonsexamples.webp"
       },
       "repoUpdatedAt": "2023-04-23T17:30:16Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.578Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.934Z",
       "viewCount": 70,
       "weeklyViewCount": 18,
       "installCount": 60,
@@ -2401,7 +2401,7 @@
       "slug": "persistantmarshmallow",
       "thumbnail": {},
       "repoUpdatedAt": "2022-04-12T07:54:23Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.852Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:31.743Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
       "installCount": 11,
@@ -2676,7 +2676,7 @@
         "htmlUrl": "https://github.com/BUNN1E5/OW360Camera/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/OW360Camera/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed a bug",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -2686,7 +2686,7 @@
         "main": "360camera.webp"
       },
       "repoUpdatedAt": "2023-03-04T10:44:09Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.086Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.611Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 6,
@@ -2769,7 +2769,7 @@
         "htmlUrl": "https://github.com/spacepiano/Outer-Wilds---Speed-up-Time/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/spacepiano/Outer-Wilds---Speed-up-Time/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release\r\n\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -2777,7 +2777,7 @@
       "slug": "altertime",
       "thumbnail": {},
       "repoUpdatedAt": "2022-04-25T14:38:19Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.852Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:31.744Z",
       "viewCount": 13,
       "weeklyViewCount": 1,
       "installCount": 34,
@@ -2892,7 +2892,7 @@
         "htmlUrl": "https://github.com/joshua-smith98/OW-BigHeads/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/joshua-smith98/OW-BigHeads/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "1.0.0 release for Big Heads.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -2902,7 +2902,7 @@
         "main": "bigheads.webp"
       },
       "repoUpdatedAt": "2022-05-01T03:31:09Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.852Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.611Z",
       "viewCount": 11,
       "weeklyViewCount": 7,
       "installCount": 8,
@@ -2923,7 +2923,7 @@
         "htmlUrl": "https://github.com/Switch-9867/BringMeMyShip/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Switch-9867/BringMeMyShip/master/readme.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial Release",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -2931,7 +2931,7 @@
       "slug": "bringmemyship",
       "thumbnail": {},
       "repoUpdatedAt": "2022-05-06T00:56:24Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.847Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:32.570Z",
       "viewCount": 7,
       "weeklyViewCount": 1,
       "installCount": 49,
@@ -2953,7 +2953,7 @@
         "htmlUrl": "https://github.com/Tllya/arkosebugfix/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tllya/arkosebugfix/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Nh 1.0.0 support",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -2963,7 +2963,7 @@
         "main": "arkosebugfix.webp"
       },
       "repoUpdatedAt": "2022-05-18T13:47:08Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.852Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.611Z",
       "viewCount": 12,
       "weeklyViewCount": 2,
       "installCount": 12,
@@ -2992,7 +2992,7 @@
       "slug": "woahwatchthoseframes",
       "thumbnail": {},
       "repoUpdatedAt": "2022-05-06T01:23:27Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:19.837Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:31.744Z",
       "viewCount": 4,
       "weeklyViewCount": 2,
       "installCount": 7,
@@ -3014,7 +3014,7 @@
         "htmlUrl": "https://github.com/ParagonOrang/ow-timber-twin/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ParagonOrang/ow-timber-twin/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "i want to yeet myself into the sun",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3024,7 +3024,7 @@
         "main": "timbertwin.webp"
       },
       "repoUpdatedAt": "2022-06-21T14:46:41Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.277Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.914Z",
       "viewCount": 14,
       "weeklyViewCount": 2,
       "installCount": 20,
@@ -3045,7 +3045,7 @@
         "htmlUrl": "https://github.com/Vesper-Works/Toggle-Velocity-Matching/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Toggle-Velocity-Matching/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Aligning velocity is now a toggle.\r\nYou remaining aligned until you either move or press the align button again.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -3055,7 +3055,7 @@
         "main": "togglevelocitymatching.webp"
       },
       "repoUpdatedAt": "2022-05-08T14:39:29Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.571Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.611Z",
       "viewCount": 8,
       "weeklyViewCount": 1,
       "installCount": 23,
@@ -3067,7 +3067,7 @@
       "description": "A mod that skips various lengthy and repetetive sequences in Outer Wilds",
       "author": "Bwc9876",
       "downloadUrl": "https://github.com/Bwc9876/OW-TimeSaver/releases/download/1.1.1/Bwc9876.TimeSaver.zip",
-      "downloadCount": 1504,
+      "downloadCount": 1514,
       "latestReleaseDate": "2022-09-07T00:43:22Z",
       "firstReleaseDate": "2022-05-09T00:38:00Z",
       "repo": "https://github.com/Bwc9876/OW-TimeSaver",
@@ -3076,7 +3076,7 @@
         "htmlUrl": "https://github.com/Bwc9876/OW-TimeSaver/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Bwc9876/OW-TimeSaver/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Gorp",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -3084,7 +3084,7 @@
       "slug": "timesaver",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-19T00:14:48Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.226Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:32.602Z",
       "viewCount": 46,
       "weeklyViewCount": 14,
       "installCount": 60,
@@ -3116,7 +3116,7 @@
         "main": "changedtwins.webp"
       },
       "repoUpdatedAt": "2022-05-15T07:57:32Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.571Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.611Z",
       "viewCount": 9,
       "weeklyViewCount": 1,
       "installCount": 16,
@@ -3137,7 +3137,7 @@
         "htmlUrl": "https://github.com/LivingFray/OW-PowerFailure/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/LivingFray/OW-PowerFailure/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial Release",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -3147,7 +3147,7 @@
         "main": "powerfailure.webp"
       },
       "repoUpdatedAt": "2022-05-14T09:54:08Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.571Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.611Z",
       "viewCount": 38,
       "weeklyViewCount": 6,
       "installCount": 30,
@@ -3168,7 +3168,7 @@
         "htmlUrl": "https://github.com/puffbro/outer-wilds-traditional-chinese-translation/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/puffbro/outer-wilds-traditional-chinese-translation/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed number not showing in low oxygen/fuel prompt",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -3178,7 +3178,7 @@
         "main": "outerwildstraditionalchinesetranslation.webp"
       },
       "repoUpdatedAt": "2022-11-11T06:20:04Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.226Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.611Z",
       "viewCount": 23,
       "weeklyViewCount": 7,
       "installCount": 19,
@@ -3210,7 +3210,7 @@
         "main": "lesslonelyship.webp"
       },
       "repoUpdatedAt": "2022-05-15T19:21:32Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.898Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.222Z",
       "viewCount": 32,
       "weeklyViewCount": 5,
       "installCount": 33,
@@ -3232,7 +3232,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-visible-qms/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-visible-qms/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Updated keepLoaded\r\n- Lowered music volume",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3242,7 +3242,7 @@
         "main": "cloudlessquantummoons.webp"
       },
       "repoUpdatedAt": "2022-10-01T04:43:03Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.967Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.317Z",
       "viewCount": 14,
       "weeklyViewCount": 3,
       "installCount": 26,
@@ -3264,7 +3264,7 @@
         "htmlUrl": "https://github.com/Tllya/backers-satellite-signal/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tllya/backers-satellite-signal/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix all",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3274,7 +3274,7 @@
         "main": "backerssatellitesignal.webp"
       },
       "repoUpdatedAt": "2022-05-17T16:54:14Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.571Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:33.611Z",
       "viewCount": 6,
       "weeklyViewCount": 1,
       "installCount": 25,
@@ -3286,7 +3286,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.5/dgarro.SuitLog.zip",
-      "downloadCount": 1994,
+      "downloadCount": 1996,
       "latestReleaseDate": "2022-10-07T13:24:11Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -3296,7 +3296,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3307,7 +3307,7 @@
         "openGraph": "suitlog-static.webp"
       },
       "repoUpdatedAt": "2022-10-07T13:24:15Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.949Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.626Z",
       "viewCount": 108,
       "weeklyViewCount": 22,
       "installCount": 85,
@@ -3328,7 +3328,7 @@
         "htmlUrl": "https://github.com/Owen013/Hatchling-Outfitter/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hatchling-Outfitter/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "This version has been sitting on my computer unchanged for so long that I don't even remember what it adds. Enjoy.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -3338,7 +3338,7 @@
         "main": "hatchlingoutfitter.webp"
       },
       "repoUpdatedAt": "2022-10-01T22:27:29Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.571Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.261Z",
       "viewCount": 4,
       "weeklyViewCount": 1,
       "installCount": 21,
@@ -3380,7 +3380,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
-      "downloadCount": 9363,
+      "downloadCount": 9372,
       "latestReleaseDate": "2022-10-22T15:26:44Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -3389,7 +3389,7 @@
         "htmlUrl": "https://github.com/xen-42/ow-common-camera-util/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-common-camera-util/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixes player head showing when in first person\r\n- Disables mod functionality if [NomaiVR](https://outerwildsmods.com/mods/nomaivr/) is installed\r\n- Fixed cameras not working properly with [DayDream](https://github.com/xen-42/outer-wilds-day-dream)",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -3399,7 +3399,7 @@
         "main": "commoncamerautility.webp"
       },
       "repoUpdatedAt": "2022-10-22T15:26:47Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.967Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.620Z",
       "viewCount": 15,
       "weeklyViewCount": 5,
       "installCount": 60,
@@ -3420,7 +3420,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-better-model-ship/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-better-model-ship/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Update to patch 13\r\n- Update to use new Common Camera API",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3430,7 +3430,7 @@
         "main": "bettermodelship.webp"
       },
       "repoUpdatedAt": "2022-09-17T06:26:57Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.985Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.191Z",
       "viewCount": 27,
       "weeklyViewCount": 5,
       "installCount": 40,
@@ -3452,7 +3452,7 @@
         "htmlUrl": "https://github.com/gpixl/CloudlessGiantsDeep/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/gpixl/CloudlessGiantsDeep/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Update manifest.json",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3462,7 +3462,7 @@
         "main": "cloudlessgiantsdeep.webp"
       },
       "repoUpdatedAt": "2022-05-26T03:32:58Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.325Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.637Z",
       "viewCount": 11,
       "weeklyViewCount": 2,
       "installCount": 22,
@@ -3483,7 +3483,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/InvoluntaryBlink/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/InvoluntaryBlink/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3491,7 +3491,7 @@
       "slug": "involuntaryblink",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T00:02:16Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.322Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.596Z",
       "viewCount": 7,
       "weeklyViewCount": 2,
       "installCount": 8,
@@ -3513,7 +3513,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/PrimitiveLaunching/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/PrimitiveLaunching/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3523,7 +3523,7 @@
         "main": "primitivelaunching.webp"
       },
       "repoUpdatedAt": "2023-01-22T00:02:34Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.617Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.798Z",
       "viewCount": 2,
       "weeklyViewCount": 1,
       "installCount": 17,
@@ -3544,7 +3544,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/AlphaRegression/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/AlphaRegression/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -3554,7 +3554,7 @@
         "main": "alphatitlescreen.webp"
       },
       "repoUpdatedAt": "2023-01-22T00:02:29Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.271Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.858Z",
       "viewCount": 6,
       "weeklyViewCount": 3,
       "installCount": 5,
@@ -3575,7 +3575,7 @@
         "htmlUrl": "https://github.com/LikeMauro/Controllable-Stranger/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/LikeMauro/Controllable-Stranger/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "The feature to start the solar system departure when ever you want has been added",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3583,7 +3583,7 @@
       "slug": "controllablestranger",
       "thumbnail": {},
       "repoUpdatedAt": "2022-06-20T08:28:37Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.304Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.673Z",
       "viewCount": 12,
       "weeklyViewCount": 3,
       "installCount": 17,
@@ -3605,7 +3605,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/UpsilonAndromedae/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/UpsilonAndromedae/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix alignment axis for tidally locked stuff",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3615,7 +3615,7 @@
         "main": "upsilonandromedae.webp"
       },
       "repoUpdatedAt": "2023-01-22T00:02:21Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.294Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.992Z",
       "viewCount": 18,
       "weeklyViewCount": 5,
       "installCount": 12,
@@ -3646,7 +3646,7 @@
         "main": "factlog.webp"
       },
       "repoUpdatedAt": "2022-07-18T04:18:33Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.891Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.935Z",
       "viewCount": 5,
       "weeklyViewCount": 2,
       "installCount": 10,
@@ -3668,7 +3668,7 @@
         "htmlUrl": "https://github.com/ShuitOnDiscord/BlackHoleSun/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShuitOnDiscord/BlackHoleSun/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fixed bugs\n\nadded back the sun marker for targeting and made blackhole expand at about the same speed as the sun normally does at the end of the loop",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3678,7 +3678,7 @@
         "main": "blackholesun.webp"
       },
       "repoUpdatedAt": "2022-07-26T21:57:27Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.609Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.844Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
       "installCount": 18,
@@ -3700,7 +3700,7 @@
         "htmlUrl": "https://github.com/ShuitOnDiscord/NoSun/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShuitOnDiscord/NoSun/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fixed break\n\nfixed removeChildren not working with \"\" to disable parent object",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3710,7 +3710,7 @@
         "main": "nosun.webp"
       },
       "repoUpdatedAt": "2022-09-19T23:44:50Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.589Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.958Z",
       "viewCount": 1,
       "weeklyViewCount": 0,
       "installCount": 18,
@@ -3732,7 +3732,7 @@
         "htmlUrl": "https://github.com/ShuitOnDiscord/MovedOrbits/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShuitOnDiscord/MovedOrbits/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Create create-release.yml",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3742,7 +3742,7 @@
         "main": "orderedorbits.webp"
       },
       "repoUpdatedAt": "2022-07-06T18:44:10Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.588Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.918Z",
       "viewCount": 4,
       "weeklyViewCount": 1,
       "installCount": 9,
@@ -3771,7 +3771,7 @@
       "slug": "shipremoteautopilot",
       "thumbnail": {},
       "repoUpdatedAt": "2022-07-09T22:54:56Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.364Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.993Z",
       "viewCount": 11,
       "weeklyViewCount": 3,
       "installCount": 27,
@@ -3829,7 +3829,7 @@
         "htmlUrl": "https://github.com/shippy/outer-wilds-czech/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/shippy/outer-wilds-czech/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Migrate to the @xen-42's [Interplanetary Polyglot](https://github.com/xen-42/outer-wilds-localization-utility) for the mod guts (#25, #26).\r\n- Fix various typos surfaced by beta-testing\r\n- Translate \"Launch Module\" better (#7)",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -3837,7 +3837,7 @@
       "slug": "czechlocalization",
       "thumbnail": {},
       "repoUpdatedAt": "2022-07-28T17:41:00Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.657Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.919Z",
       "viewCount": 10,
       "weeklyViewCount": 0,
       "installCount": 1,
@@ -3859,7 +3859,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3869,7 +3869,7 @@
         "main": "carsonsystem.webp"
       },
       "repoUpdatedAt": "2023-02-22T14:53:05Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.836Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.383Z",
       "viewCount": 13,
       "weeklyViewCount": 2,
       "installCount": 18,
@@ -3898,7 +3898,7 @@
       "slug": "soundtest",
       "thumbnail": {},
       "repoUpdatedAt": "2022-07-17T21:00:04Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.640Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.933Z",
       "viewCount": 2,
       "weeklyViewCount": 0,
       "installCount": 10,
@@ -3976,7 +3976,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ngc1087/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ngc1087/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Update manifest.json",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -3986,7 +3986,7 @@
         "main": "galaxyskyboxngc1087.webp"
       },
       "repoUpdatedAt": "2022-07-27T22:40:10Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.936Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.221Z",
       "viewCount": 6,
       "weeklyViewCount": 2,
       "installCount": 18,
@@ -4008,7 +4008,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/QuantumMoonOrbitLine/master/README.md"
       },
       "authorDisplay": "MegaPiggy",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix visible outside of map bug\r\n- Add color to orbit line\r\n- Better fade distances",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -4018,7 +4018,7 @@
         "main": "quantummoonorbitline.webp"
       },
       "repoUpdatedAt": "2023-01-22T00:02:17Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.667Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.175Z",
       "viewCount": 3,
       "weeklyViewCount": 1,
       "installCount": 24,
@@ -4039,7 +4039,7 @@
         "htmlUrl": "https://github.com/piggeywig2000/OuterWildsPermadeath/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/piggeywig2000/OuterWildsPermadeath/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "1.1.13 update\r\n- Fixed freeze on game over due to changes in the 1.1.13 update",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4050,7 +4050,7 @@
         "openGraph": "permadeathmode-static.webp"
       },
       "repoUpdatedAt": "2022-09-16T21:21:17Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.328Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.252Z",
       "viewCount": 23,
       "weeklyViewCount": 6,
       "installCount": 3,
@@ -4103,7 +4103,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/OWRichPresence/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/OWRichPresence/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Support for The Outsider\r\n- Updated dependencies\r\n- Fixed some bugs",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration"
@@ -4113,7 +4113,7 @@
         "main": "discordrichpresence.webp"
       },
       "repoUpdatedAt": "2023-01-23T00:24:54Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.671Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.105Z",
       "viewCount": 66,
       "weeklyViewCount": 13,
       "installCount": 89,
@@ -4125,7 +4125,7 @@
       "description": "Allows you to get revenge by making a certain item into a deadly laser.",
       "author": "coderCleric",
       "downloadUrl": "https://github.com/coderCleric/artifact_laser/releases/download/v1.1.0/Cleric.ArtifactLaser.zip",
-      "downloadCount": 356,
+      "downloadCount": 357,
       "latestReleaseDate": "2022-08-29T22:05:50Z",
       "firstReleaseDate": "2022-08-22T03:33:15Z",
       "repo": "https://github.com/coderCleric/artifact_laser",
@@ -4134,7 +4134,7 @@
         "htmlUrl": "https://github.com/coderCleric/artifact_laser/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/artifact_laser/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "-Fixes a bug where owlks would burn the whole time they held you.\r\n-Adds a sizzling sound when owlks are burning.\r\n-Owlks that are burning emit death particles.\r\n-A kill counter now appears once at least one owlk is killed.\r\n-Added a killfeed that shows the names of owlks who are killed, along with a funny little message.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4144,7 +4144,7 @@
         "main": "artifactlaser.webp"
       },
       "repoUpdatedAt": "2022-08-29T22:06:45Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.936Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.300Z",
       "viewCount": 25,
       "weeklyViewCount": 4,
       "installCount": 24,
@@ -4165,7 +4165,7 @@
         "htmlUrl": "https://github.com/ilyabru/OWSpeedModifier/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ilyabru/OWSpeedModifier/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Made offset apply only when total speeds > 2\r\n- Added a speed reset option when getting in and out of cockpit\r\n- Updated OWML",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4176,7 +4176,7 @@
         "openGraph": "speedmodifierwalkbuttononkbm-static.webp"
       },
       "repoUpdatedAt": "2022-11-06T23:03:00Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.296Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.230Z",
       "viewCount": 6,
       "weeklyViewCount": 0,
       "installCount": 6,
@@ -4223,7 +4223,7 @@
         "htmlUrl": "https://github.com/coderCleric/chargeable-scout/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/chargeable-scout/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed a bug where the ship scout launcher could only be used after the suit launcher was used at least once.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4233,7 +4233,7 @@
         "main": "chargeablescoutlauncher.webp"
       },
       "repoUpdatedAt": "2022-12-26T23:46:30Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.306Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.154Z",
       "viewCount": 7,
       "weeklyViewCount": 0,
       "installCount": 23,
@@ -4254,7 +4254,7 @@
         "htmlUrl": "https://github.com/LivingFray/OW-RGB-Integration/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/LivingFray/OW-RGB-Integration/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added ambient effects while on the quantum moon",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration"
@@ -4264,7 +4264,7 @@
         "main": "razersteelseriesrgbintegration.webp"
       },
       "repoUpdatedAt": "2023-03-04T23:24:58Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.959Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.476Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
       "installCount": 7,
@@ -4285,7 +4285,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/EuropeTimes/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/EuropeTimes/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -4295,7 +4295,7 @@
         "main": "europetimes.webp"
       },
       "repoUpdatedAt": "2023-01-22T06:29:42Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.951Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.439Z",
       "viewCount": 16,
       "weeklyViewCount": 1,
       "installCount": 12,
@@ -4318,7 +4318,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Landriejx/HazyDreams/main/README.md"
       },
       "authorDisplay": "Laundryjx",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release. I think I did this right lol",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -4326,7 +4326,7 @@
       "slug": "hazydreams",
       "thumbnail": {},
       "repoUpdatedAt": "2022-08-28T18:47:52Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.920Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.234Z",
       "viewCount": 7,
       "weeklyViewCount": 1,
       "installCount": 17,
@@ -4349,7 +4349,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/GizmosLibrary/main/README.md"
       },
       "authorDisplay": "Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* First release of the library!",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4357,7 +4357,7 @@
       "slug": "gizmoslibrary",
       "thumbnail": {},
       "repoUpdatedAt": "2022-09-02T21:14:53Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.937Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.248Z",
       "viewCount": 1,
       "weeklyViewCount": 0,
       "installCount": 2,
@@ -4369,7 +4369,7 @@
       "description": "Allows the player to mess with the rotation settings on planets. Inspired by the randomizer mod.",
       "author": "coderCleric",
       "downloadUrl": "https://github.com/coderCleric/WackyRotations/releases/download/v1.0.0/Cleric.WackyRotations.zip",
-      "downloadCount": 248,
+      "downloadCount": 249,
       "latestReleaseDate": "2023-01-22T23:34:11Z",
       "firstReleaseDate": "2022-09-03T01:09:59Z",
       "repo": "https://github.com/coderCleric/WackyRotations",
@@ -4379,7 +4379,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/WackyRotations/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "-Fixed that bug about quaternion rotations not being unit length (I think).\r\n-Massive setting overhaul, reorganized the setting page & added general settings.",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4390,7 +4390,7 @@
         "openGraph": "wackyrotations-static.webp"
       },
       "repoUpdatedAt": "2023-01-22T23:34:45Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.142Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.527Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
       "installCount": 15,
@@ -4448,7 +4448,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/FixxionsLair/Secret-Words/main/README.md"
       },
       "authorDisplay": "Fixxion's Lair",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Gramatical errors fixed but Samster68. Thanks a lot.\r\n- Jötunn Fixed.\r\n- New Winners.\r\n- The blood in The Lair drains no more!",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4458,7 +4458,7 @@
         "main": "secretwords.webp"
       },
       "repoUpdatedAt": "2022-10-07T20:35:17Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.972Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.531Z",
       "viewCount": 22,
       "weeklyViewCount": 6,
       "installCount": 39,
@@ -4471,7 +4471,7 @@
       "author": "ShoosGun",
       "utility": true,
       "downloadUrl": "https://github.com/ShoosGun/SlateShipyard/releases/download/v0.2.1/Locochoco.SlateShipyard.zip",
-      "downloadCount": 1206,
+      "downloadCount": 1207,
       "latestReleaseDate": "2023-02-11T20:03:00Z",
       "firstReleaseDate": "2022-09-08T19:44:51Z",
       "repo": "https://github.com/ShoosGun/SlateShipyard",
@@ -4481,8 +4481,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/SlateShipyard/main/README.md"
       },
       "authorDisplay": "Locochoco",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "* Fixed probe getting permanently destroyed and possible deletion of the player game object when resetting/removing a ship\r\n* Fixed the player not being able to leave the map screen after entering a vehicle using the `BasicWheelController`\r\n\r\nThanks to QuantumBlur314 for reporting these issues!",
+      "latestPrereleaseDescription": "* Fixed issue of launchpad not activating if the prefab started disabled\r\n* This is probabilly the last pre-release of this qsb-and-owo-integration, as once KSV is in better shape, this is be a full release",
       "prerelease": {
         "version": "v0.1.9",
         "downloadUrl": "https://github.com/ShoosGun/SlateShipyard/releases/download/v0.1.9/Locochoco.SlateShipyard.zip",
@@ -4499,7 +4499,7 @@
         "main": "slatesshipyard.webp"
       },
       "repoUpdatedAt": "2023-02-11T20:03:41Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.642Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.732Z",
       "viewCount": 75,
       "weeklyViewCount": 17,
       "installCount": 49,
@@ -4512,7 +4512,7 @@
       "author": "ShoosGun",
       "parent": "Locochoco.SlateShipyard",
       "downloadUrl": "https://github.com/ShoosGun/Spaceshipinha/releases/download/v0.1.9/Locochoco.Spaceshipinha.zip",
-      "downloadCount": 650,
+      "downloadCount": 651,
       "latestReleaseDate": "2023-02-11T20:05:20Z",
       "firstReleaseDate": "2022-09-08T20:00:48Z",
       "repo": "https://github.com/ShoosGun/Spaceshipinha",
@@ -4522,8 +4522,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/Spaceshipinha/main/README.md"
       },
       "authorDisplay": "Locochoco",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "* Fixed player not being able to exit map after entering the ship\r\n* Removed no longer needed `AstroObject` component from the prefab",
+      "latestPrereleaseDescription": "* Using new Shipyard prefab system (need to use version v.0.1.8 or higher)\r\n* Fixed wrong particle sync",
       "prerelease": {
         "version": "v0.1.7",
         "downloadUrl": "https://github.com/ShoosGun/Spaceshipinha/releases/download/v0.1.7/Locochoco.Spaceshipinha.zip",
@@ -4537,7 +4537,7 @@
         "main": "spaceshipinha.webp"
       },
       "repoUpdatedAt": "2023-02-11T20:10:09Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.278Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.580Z",
       "viewCount": 25,
       "weeklyViewCount": 7,
       "installCount": 48,
@@ -4549,7 +4549,7 @@
       "description": "But can your ship run DOOM? Yes, yes it can.",
       "author": "Hawkbat",
       "downloadUrl": "https://github.com/Hawkbat/ow-mod-doom/releases/download/0.1.2/Hawkbar.Doom.zip",
-      "downloadCount": 1033,
+      "downloadCount": 1035,
       "latestReleaseDate": "2022-12-03T18:10:17Z",
       "firstReleaseDate": "2022-09-09T21:02:46Z",
       "repo": "https://github.com/Hawkbat/ow-mod-doom",
@@ -4559,7 +4559,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-doom/master/README.md"
       },
       "authorDisplay": "Hawkbar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Use custom ship log utility mod by dgarro (Thanks for the PR!)\r\n- Added option to mute DOOM while not actively playing it; defaults to on",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4569,7 +4569,7 @@
         "main": "doom.webp"
       },
       "repoUpdatedAt": "2022-12-03T18:12:03Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.306Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.476Z",
       "viewCount": 80,
       "weeklyViewCount": 10,
       "installCount": 91,
@@ -4582,7 +4582,7 @@
       "author": "ShoosGun",
       "parent": "Locochoco.SlateShipyard",
       "downloadUrl": "https://github.com/ShoosGun/CarExample/releases/download/v0.1.5/Locochoco.CarExample.zip",
-      "downloadCount": 578,
+      "downloadCount": 579,
       "latestReleaseDate": "2023-02-11T20:10:49Z",
       "firstReleaseDate": "2022-09-15T02:08:13Z",
       "repo": "https://github.com/ShoosGun/CarExample",
@@ -4592,8 +4592,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/CarExample/main/README.md"
       },
       "authorDisplay": "Locochoco",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "* Fixed the player not being able to leave the map screen after entering a vehicle\r\n\r\nThanks to QuantumBlur314 for reporting these issues!",
+      "latestPrereleaseDescription": "* Using new Shipyard prefab system (need to use version v.0.1.8 or higher)",
       "prerelease": {
         "version": "v0.1.3",
         "downloadUrl": "https://github.com/ShoosGun/CarExample/releases/download/v0.1.3/Locochoco.CarExample.zip",
@@ -4607,7 +4607,7 @@
         "main": "carexample.webp"
       },
       "repoUpdatedAt": "2023-02-11T20:10:51Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.469Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.551Z",
       "viewCount": 16,
       "weeklyViewCount": 6,
       "installCount": 50,
@@ -4619,7 +4619,7 @@
       "description": "Makes some glass in the game clear",
       "author": "FreezeDriedMangos",
       "downloadUrl": "https://github.com/FreezeDriedMangos/ow-clear-glass/releases/download/1.0.0/clay.ClearGlass.zip",
-      "downloadCount": 322,
+      "downloadCount": 323,
       "latestReleaseDate": "2022-09-17T23:44:57Z",
       "firstReleaseDate": "2022-09-17T23:44:57Z",
       "repo": "https://github.com/FreezeDriedMangos/ow-clear-glass",
@@ -4629,7 +4629,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/FreezeDriedMangos/ow-clear-glass/master/README.md"
       },
       "authorDisplay": "clay",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "### Clear Glass Mod\r\n\r\n- Replaces all Hearthian gold glass with plain clear glass\r\n- Replaces all Nomaiian opaque glass with standard clear bumpy Nomai glass",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -4639,7 +4639,7 @@
         "main": "clearglass.webp"
       },
       "repoUpdatedAt": "2022-09-29T02:52:26Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.589Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.847Z",
       "viewCount": 16,
       "weeklyViewCount": 4,
       "installCount": 31,
@@ -4669,7 +4669,7 @@
       "slug": "bhapticsouterwilds",
       "thumbnail": {},
       "repoUpdatedAt": "2022-09-18T10:58:42Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.074Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.566Z",
       "viewCount": 1,
       "weeklyViewCount": 0,
       "installCount": 8,
@@ -4691,7 +4691,7 @@
         "htmlUrl": "https://github.com/Ciborgm9/Rogue-Planet/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ciborgm9/Rogue-Planet/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Update manifest.json",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4701,7 +4701,7 @@
         "main": "espiedserenity.webp"
       },
       "repoUpdatedAt": "2022-09-23T14:41:30Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.642Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.807Z",
       "viewCount": 9,
       "weeklyViewCount": 1,
       "installCount": 11,
@@ -4722,7 +4722,7 @@
         "htmlUrl": "https://github.com/TheLoreExplorer/GreenJetpack3/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TheLoreExplorer/GreenJetpack3/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Updates the flame color back to orange when the jetpack \"runs of of the dlc fuel\"!\r\n\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4733,7 +4733,7 @@
         "main": "greenjetpack.webp"
       },
       "repoUpdatedAt": "2022-10-21T05:07:39Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.427Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.920Z",
       "viewCount": 10,
       "weeklyViewCount": 2,
       "installCount": 17,
@@ -4755,7 +4755,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-secret-settings/master/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Allows setting the games \"secret settings\" (ex, showing breath fog on your visor) from the mod options menu.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -4763,7 +4763,7 @@
       "slug": "secretsettings",
       "thumbnail": {},
       "repoUpdatedAt": "2022-09-27T21:01:30Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.217Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.619Z",
       "viewCount": 77,
       "weeklyViewCount": 18,
       "installCount": 63,
@@ -4776,7 +4776,7 @@
       "author": "Samster68OW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Samster68OW/fretsquest/releases/download/v0.5.1/fretsquest.zip",
-      "downloadCount": 1795,
+      "downloadCount": 1797,
       "latestReleaseDate": "2023-02-21T20:51:47Z",
       "firstReleaseDate": "2022-10-01T23:01:22Z",
       "repo": "https://github.com/Samster68OW/fretsquest",
@@ -4786,7 +4786,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Samster68OW/fretsquest/main/README.md"
       },
       "authorDisplay": "Samster68",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "0.5.1\n\n- Added Russian translation",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -4797,7 +4797,7 @@
         "main": "fretsquest.webp"
       },
       "repoUpdatedAt": "2023-02-21T20:51:46Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.701Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.171Z",
       "viewCount": 77,
       "weeklyViewCount": 22,
       "installCount": 82,
@@ -4819,7 +4819,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Smaedd/OW_HeavySleeper/master/readme.md"
       },
       "authorDisplay": "Smaed",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixes a minor text-related bug, and makes non-light sleeper mode slightly more stable.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4827,7 +4827,7 @@
       "slug": "heavysleeper",
       "thumbnail": {},
       "repoUpdatedAt": "2022-10-10T02:25:48Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.324Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.782Z",
       "viewCount": 15,
       "weeklyViewCount": 3,
       "installCount": 6,
@@ -4850,7 +4850,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/funny-system/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "The BIGGEST update Funny System will ever receive!\r\n\r\n**Major:**\r\n- Switched around the center system\r\n- Completely revamped the story, which is now 436% less boring!\r\n- Nomai recorders have voices (with Voice Mod)\r\n\r\n**Minor:**\r\n- New location that isn't a planet\r\n- Overhaul of one planet\r\n- Black's rings are more orange\r\n- PLANET NAME is no longer a secret, and in fact, I encourage you to find it.",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4860,7 +4860,7 @@
         "main": "thefunniestsystem.webp"
       },
       "repoUpdatedAt": "2023-01-30T06:05:15Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.786Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.194Z",
       "viewCount": 57,
       "weeklyViewCount": 13,
       "installCount": 72,
@@ -4872,7 +4872,7 @@
       "description": "Pure Hearthian technology! Now you can use scout to teleport yourself or climb anywhere with tiny gravity crystall.  Press \"T\" when scout is launched or landed to inverse the warp core power for teleporting yourself.",
       "author": "hearth1an",
       "downloadUrl": "https://github.com/hearth1an/hearth1an.ScoutTeleporter/releases/download/v.1.0.4/hearth1an.ScoutTeleporter.zip",
-      "downloadCount": 558,
+      "downloadCount": 561,
       "latestReleaseDate": "2022-10-28T14:09:32Z",
       "firstReleaseDate": "2022-10-02T18:01:35Z",
       "repo": "https://github.com/hearth1an/hearth1an.ScoutTeleporter",
@@ -4882,7 +4882,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.ScoutTeleporter/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "idk",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4893,7 +4893,7 @@
         "openGraph": "scoutteleporter-static.webp"
       },
       "repoUpdatedAt": "2022-10-28T14:09:45Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.798Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.171Z",
       "viewCount": 18,
       "weeklyViewCount": 6,
       "installCount": 35,
@@ -4983,7 +4983,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/smallest/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Now classified as the universe's smallest galaxy!**\r\n\r\n- a cool looking black hole\r\n- two new systems\r\n- very high quality textures\r\n- funny names",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4993,7 +4993,7 @@
         "main": "smallestsysteminthegalaxy.webp"
       },
       "repoUpdatedAt": "2023-01-07T20:47:13Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.634Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.770Z",
       "viewCount": 7,
       "weeklyViewCount": 2,
       "installCount": 20,
@@ -5016,7 +5016,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Smaedd/OW_DeveloperConsole/main/README.md"
       },
       "authorDisplay": "Smaed",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds the `bind` native command to allow keys to be bound to commands.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library",
@@ -5027,7 +5027,7 @@
         "main": "developerconsole.webp"
       },
       "repoUpdatedAt": "2022-11-07T03:52:35Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.667Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.095Z",
       "viewCount": 12,
       "weeklyViewCount": 1,
       "installCount": 14,
@@ -5039,7 +5039,7 @@
       "description": "A port of PacificEngine's Cheats Mod to work with the Developer Console",
       "author": "Smaedd",
       "downloadUrl": "https://github.com/Smaedd/OW_ConsoleCheats/releases/download/v0.2.2/Smaed.ConsoleCheats.zip",
-      "downloadCount": 243,
+      "downloadCount": 244,
       "latestReleaseDate": "2022-10-16T05:22:52Z",
       "firstReleaseDate": "2022-10-09T12:31:52Z",
       "repo": "https://github.com/Smaedd/OW_ConsoleCheats",
@@ -5049,7 +5049,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Smaedd/OW_ConsoleCheats/main/README.md"
       },
       "authorDisplay": "Smaed",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds info to all commands",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -5057,7 +5057,7 @@
       "slug": "consolecheats",
       "thumbnail": {},
       "repoUpdatedAt": "2022-10-16T05:23:16Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.559Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.961Z",
       "viewCount": 15,
       "weeklyViewCount": 6,
       "installCount": 29,
@@ -5070,7 +5070,7 @@
       "author": "Krevace",
       "parent": "Krevace.VoiceMod",
       "downloadUrl": "https://github.com/Krevace/ow-alt-voices-mod/releases/download/0.1.2/Krevace.MoVoicesMod.zip",
-      "downloadCount": 904,
+      "downloadCount": 905,
       "latestReleaseDate": "2023-01-04T21:02:43Z",
       "firstReleaseDate": "2022-10-14T03:20:25Z",
       "repo": "https://github.com/Krevace/ow-alt-voices-mod",
@@ -5080,7 +5080,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Krevace/ow-alt-voices-mod/main/README.md"
       },
       "authorDisplay": "Krevace",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Some suggested that renaming the title of the addon from \"Mo' Voices\" to \"Alternate Voices\" would make it more clear that the addon revoiced characters rather than adding more voices. I agree. \r\n\r\n**Changelog:** [`0.1.1...0.1.2`](https://github.com/Krevace/ow-mo-voices-mod/compare/0.1.1...0.1.2)",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -5090,7 +5090,7 @@
         "main": "alternatevoices.webp"
       },
       "repoUpdatedAt": "2023-01-04T21:37:29Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.982Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.171Z",
       "viewCount": 73,
       "weeklyViewCount": 6,
       "installCount": 82,
@@ -5113,7 +5113,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/FunkyShoeMan/TheWildsExtended/main/README.md"
       },
       "authorDisplay": "FunkyShoeMan",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Satorena path mistake\n\ni forgot to update texture paths since i put the textures in a another folder",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5123,7 +5123,7 @@
         "main": "thewildsextended.webp"
       },
       "repoUpdatedAt": "2022-11-03T02:33:23Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.982Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.106Z",
       "viewCount": 10,
       "weeklyViewCount": 2,
       "installCount": 21,
@@ -5179,7 +5179,7 @@
         "htmlUrl": "https://github.com/TheLoreExplorer/SelfDestructButton/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TheLoreExplorer/SelfDestructButton/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "This time versioning should work....maybe",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -5187,7 +5187,7 @@
       "slug": "shipselfdestructbutton",
       "thumbnail": {},
       "repoUpdatedAt": "2022-11-02T20:16:28Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.285Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.926Z",
       "viewCount": 13,
       "weeklyViewCount": 3,
       "installCount": 18,
@@ -5210,7 +5210,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/FunkyShoeMan/Ernesto-Takeover/main/README.md"
       },
       "authorDisplay": "FunkyShoeMan",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "i have somehow had 3 seprate veirsons in 1 go i have no idea how i'm messing up this horiblby",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5220,7 +5220,7 @@
         "main": "ernestotakeover.webp"
       },
       "repoUpdatedAt": "2022-11-05T03:19:34Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.845Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.943Z",
       "viewCount": 22,
       "weeklyViewCount": 2,
       "installCount": 22,
@@ -5252,7 +5252,7 @@
       "slug": "dancinwildsventures",
       "thumbnail": {},
       "repoUpdatedAt": "2022-11-17T03:47:47Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.664Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:35.845Z",
       "viewCount": 12,
       "weeklyViewCount": 1,
       "installCount": 25,
@@ -5264,7 +5264,7 @@
       "description": "Replaces the Stranger's gravity fields with spin gravity.",
       "author": "Komodo5197",
       "downloadUrl": "https://github.com/Komodo5197/StrangerSpinGravity/releases/download/v1.2.0/Komodo.StrangerSpinGravity.zip",
-      "downloadCount": 245,
+      "downloadCount": 246,
       "latestReleaseDate": "2023-01-27T04:26:24Z",
       "firstReleaseDate": "2022-11-08T08:00:21Z",
       "repo": "https://github.com/Komodo5197/StrangerSpinGravity",
@@ -5273,7 +5273,7 @@
         "htmlUrl": "https://github.com/Komodo5197/StrangerSpinGravity/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Komodo5197/StrangerSpinGravity/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "This release adds centripetal buoyancy adjustments to additional fluid volumes in the Stranger, primarily the diving bell entrance.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -5284,7 +5284,7 @@
         "openGraph": "strangerspingravity-static.webp"
       },
       "repoUpdatedAt": "2023-01-27T04:28:15Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.320Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.705Z",
       "viewCount": 8,
       "weeklyViewCount": 0,
       "installCount": 18,
@@ -5297,7 +5297,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/DiscordProximityChat/releases/download/0.1.0/BUNN1E5.DiscordProximityChat.zip",
-      "downloadCount": 1532,
+      "downloadCount": 1533,
       "latestReleaseDate": "2022-12-29T01:34:35Z",
       "firstReleaseDate": "2022-11-11T07:12:33Z",
       "repo": "https://github.com/BUNN1E5/DiscordProximityChat",
@@ -5307,7 +5307,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/DiscordProximityChat/master/README.md"
       },
       "authorDisplay": "BUNN1E5",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added more settings, testing HUD Icon Bobbing",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration"
@@ -5318,7 +5318,7 @@
         "openGraph": "discordproximitychat-static.webp"
       },
       "repoUpdatedAt": "2022-12-29T01:13:56Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.256Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.566Z",
       "viewCount": 143,
       "weeklyViewCount": 26,
       "installCount": 211,
@@ -5369,7 +5369,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/discord/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu) and members from the discord modding server",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "A solar system made with love, from the heads of the folks over on the Modding Discord server.",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5379,7 +5379,7 @@
         "main": "iletthevoicesonthediscordservermakebadideasforplanets.webp"
       },
       "repoUpdatedAt": "2022-11-14T00:49:00Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.993Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.255Z",
       "viewCount": 13,
       "weeklyViewCount": 2,
       "installCount": 35,
@@ -5413,7 +5413,7 @@
         "main": "superwildgalaxy.webp"
       },
       "repoUpdatedAt": "2022-11-17T03:26:54Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.122Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.256Z",
       "viewCount": 20,
       "weeklyViewCount": 6,
       "installCount": 35,
@@ -5435,7 +5435,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/SkutteOleg/TrajectoryPrediction/master/README.md"
       },
       "authorDisplay": "Oleg Skutte",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed issues caused by AstroObjects getting disabled (e.g. The Interloper getting absorbed by the sun)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5446,7 +5446,7 @@
         "main": "trajectoryprediction.webp"
       },
       "repoUpdatedAt": "2023-02-08T21:00:17Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.120Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.526Z",
       "viewCount": 72,
       "weeklyViewCount": 15,
       "installCount": 59,
@@ -5458,7 +5458,7 @@
       "description": "Outer Wilds with chaotic N Body Physics and extra planet interactions. Mix with randomizer for extra chaos.",
       "author": "adrisj7",
       "downloadUrl": "https://github.com/adrisj7/OW_NBodyChaos/releases/download/v1.0.1/TacoTechnica.NBodyChaos.zip",
-      "downloadCount": 318,
+      "downloadCount": 319,
       "latestReleaseDate": "2022-11-18T02:46:05Z",
       "firstReleaseDate": "2022-11-18T00:40:15Z",
       "repo": "https://github.com/adrisj7/OW_NBodyChaos",
@@ -5479,7 +5479,7 @@
         "main": "nbodychaos.webp"
       },
       "repoUpdatedAt": "2023-01-23T18:39:45Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.158Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.553Z",
       "viewCount": 13,
       "weeklyViewCount": 0,
       "installCount": 30,
@@ -5562,7 +5562,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Solar-Systems-I-Made-as-a-Kid/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- You can now warp to the STS2 system\r\n- Kamika has an updated shiplog",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5572,7 +5572,7 @@
         "main": "solarsystemsimadeasakid.webp"
       },
       "repoUpdatedAt": "2023-01-07T16:29:14Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.220Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.543Z",
       "viewCount": 11,
       "weeklyViewCount": 0,
       "installCount": 23,
@@ -5595,7 +5595,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Owlystem/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu), classic by Classic",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "release",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5605,7 +5605,7 @@
         "main": "owlystem.webp"
       },
       "repoUpdatedAt": "2022-11-26T03:39:21Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.342Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.236Z",
       "viewCount": 31,
       "weeklyViewCount": 5,
       "installCount": 29,
@@ -5628,7 +5628,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/NomaiTextPrinter/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -5636,7 +5636,7 @@
       "slug": "nomaitextprinter",
       "thumbnail": {},
       "repoUpdatedAt": "2022-12-05T04:08:20Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.967Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.212Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
       "installCount": 6,
@@ -5658,7 +5658,7 @@
         "htmlUrl": "https://github.com/Acamaeda/OuterWildsShortcut/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Acamaeda/OuterWildsShortcut/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added functionality.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -5666,7 +5666,7 @@
       "slug": "thefinalshortcut",
       "thumbnail": {},
       "repoUpdatedAt": "2022-12-07T00:37:29Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.967Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.467Z",
       "viewCount": 21,
       "weeklyViewCount": 2,
       "installCount": 32,
@@ -5688,7 +5688,7 @@
         "htmlUrl": "https://github.com/Acamaeda/OuterWildsExperiment/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Acamaeda/OuterWildsExperiment/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "This is released now!\r\n\r\n(Also, some text was tweaked)",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5698,7 +5698,7 @@
         "main": "howdidthishappen.webp"
       },
       "repoUpdatedAt": "2022-12-15T01:02:53Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.459Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.732Z",
       "viewCount": 20,
       "weeklyViewCount": 5,
       "installCount": 40,
@@ -5720,7 +5720,7 @@
         "htmlUrl": "https://github.com/Acamaeda/OuterWildsSand/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Acamaeda/OuterWildsSand/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "It's released",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5728,7 +5728,7 @@
       "slug": "idontlikesand",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-07T21:02:11Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.291Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.403Z",
       "viewCount": 16,
       "weeklyViewCount": 4,
       "installCount": 34,
@@ -5758,7 +5758,7 @@
       "slug": "outerwildsenandalh",
       "thumbnail": {},
       "repoUpdatedAt": "2022-12-22T15:19:26Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.307Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.504Z",
       "viewCount": 9,
       "weeklyViewCount": 1,
       "installCount": 1,
@@ -5780,7 +5780,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Pau318/OuterPictures/main/README.md"
       },
       "authorDisplay": "Pau318",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Heopefully this on will work ^^'",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -5790,7 +5790,7 @@
         "main": "outerpictures.webp"
       },
       "repoUpdatedAt": "2022-12-23T12:58:17Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.516Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.540Z",
       "viewCount": 1,
       "weeklyViewCount": 1,
       "installCount": 8,
@@ -5812,7 +5812,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/GrimLala/SpeedTools/master/README.md"
       },
       "authorDisplay": "grimsalad & LordLala",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Ship now reliably wedged in archway for Bramble Entry practice\r\n- Changed default keybind for Statue Skip so it doesn't use a key that is also used with the scout\r\n- Added experimental Stranger practice state",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5823,7 +5823,7 @@
         "main": "speedtools.webp"
       },
       "repoUpdatedAt": "2023-03-19T04:45:00Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.869Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.011Z",
       "viewCount": 58,
       "weeklyViewCount": 23,
       "installCount": 15,
@@ -5852,7 +5852,7 @@
       "slug": "breakondemand",
       "thumbnail": {},
       "repoUpdatedAt": "2022-12-26T22:28:42Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:23.948Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.398Z",
       "viewCount": 1,
       "weeklyViewCount": 0,
       "installCount": 3,
@@ -5875,7 +5875,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/funny-christmas/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**A LONG AWAITED QOL UPDATE!**\r\n- Planets are closer together 🛒\r\n- Colored orbit lines 🎨",
       "latestPrereleaseDescription": "",
       "tags": [
         "story"
@@ -5883,7 +5883,7 @@
       "slug": "funnychristmas",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T21:31:32Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.337Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.467Z",
       "viewCount": 8,
       "weeklyViewCount": 3,
       "installCount": 20,
@@ -5905,7 +5905,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-meditation/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Makes the \"meditate until next loop\" button always available in the pause menu",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -5916,7 +5916,7 @@
         "openGraph": "enablemeditation-static.webp"
       },
       "repoUpdatedAt": "2022-12-26T19:49:22Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.659Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.814Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
       "installCount": 12,
@@ -5939,7 +5939,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/NoDotMod/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "bin chilling!!!",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -5949,7 +5949,7 @@
         "main": "nodotmod.webp"
       },
       "repoUpdatedAt": "2022-12-28T09:21:39Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.629Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.151Z",
       "viewCount": 24,
       "weeklyViewCount": 7,
       "installCount": 31,
@@ -5970,7 +5970,7 @@
         "htmlUrl": "https://github.com/Komodo5197/StrangerNightCycle/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Komodo5197/StrangerNightCycle/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -5980,7 +5980,7 @@
         "main": "strangernightcycle.webp"
       },
       "repoUpdatedAt": "2022-12-31T10:18:02Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.629Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.871Z",
       "viewCount": 23,
       "weeklyViewCount": 1,
       "installCount": 19,
@@ -6003,7 +6003,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/KSP/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Increased resolution of bodies\r\n- Jool now has a core",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6013,7 +6013,7 @@
         "main": "ksp.webp"
       },
       "repoUpdatedAt": "2023-01-07T17:25:25Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.632Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.890Z",
       "viewCount": 12,
       "weeklyViewCount": 2,
       "installCount": 32,
@@ -6035,7 +6035,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Ale32bit/OWAughJetpack/main/README.md"
       },
       "authorDisplay": "AlexDevs",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## What's Changed\r\n* Fix for the audio loading issues by @Atakku in https://github.com/Ale32bit/OWAughJetpack/pull/1\r\n\r\n## New Contributors\r\n* @Atakku made their first contribution in https://github.com/Ale32bit/OWAughJetpack/pull/1\r\n\r\n**Full Changelog**: https://github.com/Ale32bit/OWAughJetpack/compare/v0.1.0...v0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -6043,7 +6043,7 @@
       "slug": "aughjetpackboost",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-21T17:23:09Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.451Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.770Z",
       "viewCount": 3,
       "weeklyViewCount": 1,
       "installCount": 16,
@@ -6065,7 +6065,7 @@
         "htmlUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/OWFixPluginTypesSerialization/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix a very silly bug, don't worry about it ;)",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6075,7 +6075,7 @@
         "main": "owfixplugintypesserialization.webp"
       },
       "repoUpdatedAt": "2023-02-18T21:58:00Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:26.341Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.835Z",
       "viewCount": 2,
       "weeklyViewCount": 0,
       "installCount": 2,
@@ -6105,7 +6105,7 @@
       "slug": "funnynoises",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-23T01:55:05Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.530Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.816Z",
       "viewCount": 13,
       "weeklyViewCount": 3,
       "installCount": 10,
@@ -6117,7 +6117,7 @@
       "description": "A mod that adds some extra pride to the game!",
       "author": "Fusion-Flux",
       "downloadUrl": "https://github.com/Fusion-Flux/Proud-Hearthians/releases/download/0.1.2/FusionFlux.ProudHearthians.zip",
-      "downloadCount": 129,
+      "downloadCount": 130,
       "latestReleaseDate": "2023-01-13T18:52:32Z",
       "firstReleaseDate": "2023-01-13T00:50:27Z",
       "repo": "https://github.com/Fusion-Flux/Proud-Hearthians",
@@ -6127,7 +6127,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Fusion-Flux/Proud-Hearthians/main/README.md"
       },
       "authorDisplay": "Fusion Flux",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added Aro and Ace flags",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -6137,7 +6137,7 @@
         "main": "proudhearthians.webp"
       },
       "repoUpdatedAt": "2023-01-22T15:48:21Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.675Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.025Z",
       "viewCount": 23,
       "weeklyViewCount": 5,
       "installCount": 23,
@@ -6199,7 +6199,7 @@
         "main": "thespiralsystem.webp"
       },
       "repoUpdatedAt": "2023-01-22T10:36:01Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.939Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.841Z",
       "viewCount": 46,
       "weeklyViewCount": 8,
       "installCount": 45,
@@ -6212,7 +6212,7 @@
       "author": "tetraminus",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/tetraminus/Tetraminus.BrokenBalance/releases/download/v0.1.0/Tetraminus.BrokenBalance.zip",
-      "downloadCount": 308,
+      "downloadCount": 309,
       "latestReleaseDate": "2023-01-22T23:02:20Z",
       "firstReleaseDate": "2023-01-19T02:58:27Z",
       "repo": "https://github.com/tetraminus/Tetraminus.BrokenBalance",
@@ -6222,7 +6222,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/tetraminus/Tetraminus.BrokenBalance/main/README.md"
       },
       "authorDisplay": "Tetraminus, Aidancode",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "ready i guess",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6232,7 +6232,7 @@
       "slug": "brokenbalance",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-23T20:43:35Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.659Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:36.899Z",
       "viewCount": 22,
       "weeklyViewCount": 2,
       "installCount": 36,
@@ -6244,7 +6244,7 @@
       "description": "A quite large story and puzzle mod that takes place on Dark Bramble.",
       "author": "StreetlightsBehindTheTrees",
       "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.0.4/SBtT.TheOutsider.zip",
-      "downloadCount": 2643,
+      "downloadCount": 2659,
       "latestReleaseDate": "2023-01-22T01:03:28Z",
       "firstReleaseDate": "2023-01-19T22:22:18Z",
       "repo": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
@@ -6254,7 +6254,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/main/README.md"
       },
       "authorDisplay": "Streetlights Behind the Trees",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "– Made Bramble Station Entrance more visible\r\n– Made another clue slightly clearer",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -6265,7 +6265,7 @@
         "main": "theoutsider.webp"
       },
       "repoUpdatedAt": "2023-03-24T20:53:21Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.953Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.164Z",
       "viewCount": 1933,
       "weeklyViewCount": 458,
       "installCount": 469,
@@ -6288,7 +6288,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/FreezeDriedMangos/ow-daylight-savings/main/README.md"
       },
       "authorDisplay": "Clay",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Ernesto has arrived!",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6299,7 +6299,7 @@
         "main": "daylightsavings.webp"
       },
       "repoUpdatedAt": "2023-01-21T04:43:37Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.262Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.436Z",
       "viewCount": 10,
       "weeklyViewCount": 4,
       "installCount": 25,
@@ -6312,7 +6312,7 @@
       "author": "TheMultiuniverse",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TheMultiuniverse/Multiverse.Brightdusk/releases/download/v1.2.0/Multiverse.Brightdusk.zip",
-      "downloadCount": 278,
+      "downloadCount": 279,
       "latestReleaseDate": "2023-01-22T01:23:06Z",
       "firstReleaseDate": "2023-01-21T01:24:18Z",
       "repo": "https://github.com/TheMultiuniverse/Multiverse.Brightdusk",
@@ -6322,7 +6322,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TheMultiuniverse/Multiverse.Brightdusk/main/README.md"
       },
       "authorDisplay": "Multiverse",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Changed some dialogue to make things sound slightly more physically plausible ",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6333,7 +6333,7 @@
         "main": "brightdusk.webp"
       },
       "repoUpdatedAt": "2023-01-22T01:25:02Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.876Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.177Z",
       "viewCount": 32,
       "weeklyViewCount": 7,
       "installCount": 43,
@@ -6356,7 +6356,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Time-Dialator/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- two ship logs are clearer, to reduce confusion 📝\r\n- added a box to a thing that you're not supposed to bring the ship 📦\r\n- \"sussy amogus\"? 🤔",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6368,7 +6368,7 @@
         "main": "timedialator.webp"
       },
       "repoUpdatedAt": "2023-01-22T20:49:16Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.959Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.245Z",
       "viewCount": 123,
       "weeklyViewCount": 35,
       "installCount": 71,
@@ -6416,7 +6416,7 @@
       "author": "Hawkbat",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam/releases/download/0.3.0/Hawkbar.ArcanumAdrift.zip",
-      "downloadCount": 553,
+      "downloadCount": 558,
       "latestReleaseDate": "2023-01-23T05:11:17Z",
       "firstReleaseDate": "2023-01-22T02:49:47Z",
       "repo": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam",
@@ -6426,7 +6426,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-wrong-warp-nh-jam/main/README.md"
       },
       "authorDisplay": "The Wrong Warp Team",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added animations to the various gears\r\n- Added a ceiling window to the entry corridor\r\n- Fixed a geometry collision issue",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6438,7 +6438,7 @@
         "main": "arcanumadrift.webp"
       },
       "repoUpdatedAt": "2023-01-27T22:56:53Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.252Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.368Z",
       "viewCount": 220,
       "weeklyViewCount": 52,
       "installCount": 91,
@@ -6451,7 +6451,7 @@
       "author": "Leopard501",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Leopard501/NHJam1/releases/download/v1.0.1/NHJam1.zip",
-      "downloadCount": 411,
+      "downloadCount": 413,
       "latestReleaseDate": "2023-01-23T10:21:42Z",
       "firstReleaseDate": "2023-01-23T10:21:42Z",
       "repo": "https://github.com/Leopard501/NHJam1",
@@ -6473,7 +6473,7 @@
         "main": "themachine.webp"
       },
       "repoUpdatedAt": "2023-02-10T23:04:45Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.871Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.163Z",
       "viewCount": 161,
       "weeklyViewCount": 47,
       "installCount": 76,
@@ -6495,7 +6495,7 @@
         "htmlUrl": "https://github.com/artificialparanoia/Divergence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/artificialparanoia/Divergence/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "### Fixes and Improvements\r\n\r\n- Massively reworked a major puzzle concerning arriving in certain places.\r\n- Updated various clues and ship logs for a particular location to make progression more apparent.\r\n- Fixed an issue with translations not displaying properly.\r\n- Fixed an issue with a shiplog entry saying \"there is more to explore here\", even though there is nothing else to explore. \r\n- Improved compatibility with VoiceMod\r\n\r\n### Additions\r\n\r\n- Added a secret hidden in plain sight.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6507,7 +6507,7 @@
         "main": "divergence.webp"
       },
       "repoUpdatedAt": "2023-01-27T01:12:21Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.341Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.441Z",
       "viewCount": 75,
       "weeklyViewCount": 20,
       "installCount": 53,
@@ -6520,7 +6520,7 @@
       "author": "CantAffordaName",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.Archipelago/releases/download/v1.0.0-FixedRelease/CantAffordaName.Archipelago.zip",
-      "downloadCount": 249,
+      "downloadCount": 251,
       "latestReleaseDate": "2023-01-23T17:04:35Z",
       "firstReleaseDate": "2023-01-23T17:04:35Z",
       "repo": "https://github.com/CantAffordaName/CantAffordaName.Archipelago",
@@ -6530,7 +6530,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/CantAffordaName/CantAffordaName.Archipelago/main/README.md"
       },
       "authorDisplay": "Can't Afford a Name",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Not cheating, just screwed up the release process. Attached mod .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6542,7 +6542,7 @@
         "main": "archipelago.webp"
       },
       "repoUpdatedAt": "2023-01-23T17:10:37Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.013Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.163Z",
       "viewCount": 43,
       "weeklyViewCount": 8,
       "installCount": 29,
@@ -6565,7 +6565,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.Intervention/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Hotfix\n\n- Fixed credits trigger radius (thx Acamaeda)",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6578,7 +6578,7 @@
         "openGraph": "intervention-static.webp"
       },
       "repoUpdatedAt": "2023-01-24T19:53:33Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.280Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.609Z",
       "viewCount": 111,
       "weeklyViewCount": 34,
       "installCount": 56,
@@ -6609,7 +6609,7 @@
       "slug": "marchofgears",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-23T14:35:49Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.186Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.037Z",
       "viewCount": 15,
       "weeklyViewCount": 5,
       "installCount": 25,
@@ -6632,7 +6632,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MikelSalazar/CelestialOrrery/main/README.md"
       },
       "authorDisplay": "Mikel Salazar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "A post-jam release with a few improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6643,7 +6643,7 @@
         "main": "celestialorrery.webp"
       },
       "repoUpdatedAt": "2023-01-23T19:08:20Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.357Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.454Z",
       "viewCount": 28,
       "weeklyViewCount": 3,
       "installCount": 19,
@@ -6691,7 +6691,7 @@
       "author": "halleyyyyy",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/halleyyyyy/CelestialLeeway/releases/download/v0.2.0/CelestialLeeway.zip",
-      "downloadCount": 179,
+      "downloadCount": 181,
       "latestReleaseDate": "2023-03-01T03:11:42Z",
       "firstReleaseDate": "2023-01-26T02:43:02Z",
       "repo": "https://github.com/halleyyyyy/CelestialLeeway",
@@ -6712,7 +6712,7 @@
         "main": "celestialleeway.webp"
       },
       "repoUpdatedAt": "2023-03-01T03:14:05Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.334Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.465Z",
       "viewCount": 25,
       "weeklyViewCount": 0,
       "installCount": 32,
@@ -6725,7 +6725,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/KSPOPM/releases/download/1.0.0/O32.KSPOPM.zip",
-      "downloadCount": 156,
+      "downloadCount": 157,
       "latestReleaseDate": "2023-02-02T10:56:00Z",
       "firstReleaseDate": "2023-02-02T10:56:00Z",
       "repo": "https://github.com/RealOrbital32/KSPOPM",
@@ -6735,7 +6735,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/KSPOPM/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Is the original solar system not enough? Well, here's KSP's Outer Planets Mod, squished down into an OW-sized system.",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6745,7 +6745,7 @@
         "main": "kspouterplanetsmod.webp"
       },
       "repoUpdatedAt": "2023-02-02T11:02:27Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.257Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.468Z",
       "viewCount": 45,
       "weeklyViewCount": 6,
       "installCount": 49,
@@ -6768,7 +6768,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/snazzyostrich/snazzyostrich.DeepianMoon/main/README.md"
       },
       "authorDisplay": "snazzyostrich",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "my singig monster",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6776,7 +6776,7 @@
       "slug": "deepianmoon",
       "thumbnail": {},
       "repoUpdatedAt": "2023-02-11T15:40:03Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.263Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.330Z",
       "viewCount": 18,
       "weeklyViewCount": 0,
       "installCount": 47,
@@ -6821,7 +6821,7 @@
       "author": "GameWyrm",
       "parent": "GameWyrm.OuterRelics",
       "downloadUrl": "https://github.com/GameWyrm/RealSolarSystemOuterRelics/releases/download/1.0.1/RSSOuterRelics_1.0.1.zip",
-      "downloadCount": 51,
+      "downloadCount": 52,
       "latestReleaseDate": "2023-02-20T23:39:27Z",
       "firstReleaseDate": "2023-02-18T00:53:52Z",
       "repo": "https://github.com/GameWyrm/RealSolarSystemOuterRelics",
@@ -6830,7 +6830,7 @@
         "htmlUrl": "https://github.com/GameWyrm/RealSolarSystemOuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/RealSolarSystemOuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "# 1.0.1\r\n\r\nNo actual changes, just fixed manifest version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6840,7 +6840,7 @@
       "slug": "realsolarsystemouterrelicssupportandexamples",
       "thumbnail": {},
       "repoUpdatedAt": "2023-02-20T23:40:49Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:24.979Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.245Z",
       "viewCount": 11,
       "weeklyViewCount": 4,
       "installCount": 13,
@@ -6873,7 +6873,7 @@
         "main": "photosensitivityfixes.webp"
       },
       "repoUpdatedAt": "2023-02-21T00:09:53Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.540Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.867Z",
       "viewCount": 8,
       "weeklyViewCount": 1,
       "installCount": 4,
@@ -6895,7 +6895,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6906,7 +6906,7 @@
         "openGraph": "hatchlingicarus-static.webp"
       },
       "repoUpdatedAt": "2023-02-24T04:37:34Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.571Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.660Z",
       "viewCount": 10,
       "weeklyViewCount": 4,
       "installCount": 21,
@@ -6918,7 +6918,7 @@
       "description": "Toggle smaller stars, tweak warp pad windows, and decree whether planets can be slurped up by VanishVolumes.",
       "author": "QuantumBlur314",
       "downloadUrl": "https://github.com/QuantumBlur314/BonusRocks95/releases/download/v0.1.1/QuantumBlur314.BonusRocks95.zip",
-      "downloadCount": 17,
+      "downloadCount": 18,
       "latestReleaseDate": "2023-03-04T02:03:30Z",
       "firstReleaseDate": "2023-03-04T02:03:30Z",
       "repo": "https://github.com/QuantumBlur314/BonusRocks95",
@@ -6927,7 +6927,7 @@
         "htmlUrl": "https://github.com/QuantumBlur314/BonusRocks95/blob/11_ReturnOfTheLists/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/QuantumBlur314/BonusRocks95/11_ReturnOfTheLists/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "YOU ALREADY KNOW WHAT IT ISSSSSSSSSS",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -6935,7 +6935,7 @@
       "slug": "warpwindowvanishvolumetweaks",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-07T00:54:37Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.009Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.374Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
       "installCount": 4,
@@ -7020,7 +7020,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-green-screen/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Add colour and keybind options\r\n- Make green screen double-sided\r\n- Clear markers if the user goes to another planet\r\n- Use active camera for creating markers instead of exclusively the player camera",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -7031,7 +7031,7 @@
         "main": "greenscreen.webp"
       },
       "repoUpdatedAt": "2023-03-17T00:43:46Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:25.555Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:37.614Z",
       "viewCount": 25,
       "weeklyViewCount": 2,
       "installCount": 11,
@@ -7395,7 +7395,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/BepInEx/blob/v5-lts/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/BepInEx/v5-lts/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "It is now possible to disable mods using a config file.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7405,7 +7405,7 @@
         "main": "bepinex.webp"
       },
       "repoUpdatedAt": "2023-01-22T00:03:07Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.906Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.514Z",
       "viewCount": 41,
       "weeklyViewCount": 9,
       "installCount": 0,
@@ -7456,7 +7456,7 @@
         "htmlUrl": "https://github.com/ShoosGun/CAMOWA/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/CAMOWA/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Added Manifest to make it work with OWMM\r\n\r\nThanks [MegaPiggy](https://github.com/MegaPiggy)!",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7464,7 +7464,7 @@
       "slug": "camowa",
       "thumbnail": {},
       "repoUpdatedAt": "2022-05-31T02:08:19Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.884Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.284Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 2,
@@ -7486,7 +7486,7 @@
         "htmlUrl": "https://github.com/ShoosGun/AlphaFixes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/AlphaFixes/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Fixed problem with the OWAudioSource fix in [issue 3](https://github.com/ShoosGun/AlphaFixes/issues/3#issue-1252276477).",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -7496,7 +7496,7 @@
         "main": "alphafixes.webp"
       },
       "repoUpdatedAt": "2022-05-31T00:54:03Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.134Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.596Z",
       "viewCount": 13,
       "weeklyViewCount": 5,
       "installCount": 9,
@@ -7518,7 +7518,7 @@
         "htmlUrl": "https://github.com/ShoosGun/Navinha/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/Navinha/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Really fixed the custom ship breaking when colliding with the sun or the black hole\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7528,7 +7528,7 @@
         "main": "navinha.webp"
       },
       "repoUpdatedAt": "2022-06-01T00:19:12Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.272Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.599Z",
       "viewCount": 7,
       "weeklyViewCount": 3,
       "installCount": 1,
@@ -7550,7 +7550,7 @@
         "htmlUrl": "https://github.com/ShoosGun/FreeCamMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/FreeCamMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Fixed it giving errors when changing scenes",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7558,7 +7558,7 @@
       "slug": "freecammod",
       "thumbnail": {},
       "repoUpdatedAt": "2022-06-01T00:35:33Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.949Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.331Z",
       "viewCount": 3,
       "weeklyViewCount": 2,
       "installCount": 1,
@@ -7580,8 +7580,8 @@
         "htmlUrl": "https://github.com/ShoosGun/ProbeGrappleMod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/ProbeGrappleMod/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "* Added Manifest to make it work with OWMM\r\n* [Fixes from MegaPiggy](https://github.com/ShoosGun/ProbeGrappleMod/commit/a96be8095c25ca58d5da01d36b5150cf039258a2).\r\n\r\nThanks [MegaPiggy](https://github.com/MegaPiggy) for all the fixes!",
+      "latestPrereleaseDescription": "## Minecraft Update\r\n* Adds ***CUBES***\r\n* Press **G** to gameing\r\n* To install: Replace or add *this version* of CAMOWA in the Managed folder, place the mod dll in the mods folder and run DIMOWA (it needs to be just placed in the Managed folder)\r\n\r\n* *Shhhh.... it's a secret* ",
       "prerelease": {
         "version": "v.1.1-minecraft",
         "downloadUrl": "https://github.com/ShoosGun/ProbeGrappleMod/releases/download/v.1.1-minecraft/CAMOWA.dll",
@@ -7593,7 +7593,7 @@
       "slug": "probegrapple",
       "thumbnail": {},
       "repoUpdatedAt": "2022-05-27T14:40:20Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.936Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.284Z",
       "viewCount": 3,
       "weeklyViewCount": 0,
       "installCount": 1,
@@ -7615,7 +7615,7 @@
         "htmlUrl": "https://github.com/ShoosGun/CBC/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/CBC/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Adds a bottom cam that acts like the one in the final release of Outer Wilds",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -7623,7 +7623,7 @@
       "slug": "coolerbottomcams",
       "thumbnail": {},
       "repoUpdatedAt": "2022-05-21T21:15:22Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.599Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.205Z",
       "viewCount": 5,
       "weeklyViewCount": 2,
       "installCount": 2,
@@ -7645,7 +7645,7 @@
         "htmlUrl": "https://github.com/ShoosGun/EM/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/EM/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Makes the marshmallow shrink when on fire\r\n\r\nThanks [MegaPiggy](https://github.com/MegaPiggy) for separating it and turning it into a BepInEx plugin!",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -7653,7 +7653,7 @@
       "slug": "enhancedmallows",
       "thumbnail": {},
       "repoUpdatedAt": "2022-05-22T18:51:28Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:21.599Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.551Z",
       "viewCount": 1,
       "weeklyViewCount": 0,
       "installCount": 1,
@@ -7675,7 +7675,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/AutomaticLaunchCodes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/AutomaticLaunchCodes/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -7683,7 +7683,7 @@
       "slug": "automaticlaunchcodes",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T00:02:37Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.366Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.280Z",
       "viewCount": 8,
       "weeklyViewCount": 3,
       "installCount": 3,
@@ -7705,7 +7705,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/NoProbeLaunchWindow/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/NoProbeLaunchWindow/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -7713,7 +7713,7 @@
       "slug": "noprobelaunchwindow",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-22T00:02:36Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.222Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.280Z",
       "viewCount": 2,
       "weeklyViewCount": 2,
       "installCount": 1,
@@ -7735,7 +7735,7 @@
         "htmlUrl": "https://github.com/ShoosGun/RuntimeUnityEditor/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/ShoosGun/RuntimeUnityEditor/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "### This is the forked version of RuntimeUnityEditor made to work with Unity 4.1, specially with the game Outer Wilds Alpha 1.2\r\n\r\n* Added manifest file for it to be compatible with OWMM\r\n* Removed some features that can't be used in Unity 4.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7745,7 +7745,7 @@
         "main": "runtimeunityeditor.webp"
       },
       "repoUpdatedAt": "2022-05-22T18:45:51Z",
-      "databaseEntryUpdatedAt": "2023-04-24T05:52:22.463Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:13:34.590Z",
       "viewCount": 42,
       "weeklyViewCount": 16,
       "installCount": 1,
