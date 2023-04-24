@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117737
+    "downloadCount": 117741
   },
   "releases": [
     {
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -4058,7 +4058,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/releases/download/v0.1.2/ow-nh-ss-ascension.zip",
-      "downloadCount": 364,
+      "downloadCount": 365,
       "latestReleaseDate": "2023-04-02T18:54:23Z",
       "firstReleaseDate": "2022-08-17T04:00:28Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-ss-ascension",
@@ -4067,7 +4067,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4077,7 +4077,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-04-23T14:37:22.047Z",
+      "databaseEntryUpdatedAt": "2023-04-24T02:43:36.137Z",
       "viewCount": 65,
       "weeklyViewCount": 4,
       "installCount": 21,
@@ -6783,7 +6783,7 @@
       "description": "A mod for Outer Wilds that adds various Nomai Keys to the world which must be collected before the game can be completed.",
       "author": "GameWyrm",
       "downloadUrl": "https://github.com/GameWyrm/OuterRelics/releases/download/v0.9.5/GameWyrm.OuterRelics.zip",
-      "downloadCount": 155,
+      "downloadCount": 157,
       "latestReleaseDate": "2023-04-17T23:44:41Z",
       "firstReleaseDate": "2023-02-18T00:46:33Z",
       "repo": "https://github.com/GameWyrm/OuterRelics",
@@ -6792,7 +6792,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6803,7 +6803,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-04-23T14:37:22.498Z",
+      "databaseEntryUpdatedAt": "2023-04-24T02:43:36.316Z",
       "viewCount": 121,
       "weeklyViewCount": 77,
       "installCount": 41,
