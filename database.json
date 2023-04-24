@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117822
+    "downloadCount": 117823
   },
   "releases": [
     {
@@ -3359,7 +3359,7 @@
         "htmlUrl": "https://github.com/Owen013/QOLFixes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/QOLFixes/main/README.md"
       },
-      "latestReleaseDescription": "Made it so that the reticule disappearer doesn't only work at a certain location.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -3783,7 +3783,7 @@
       "description": "Place Minecraft blocks with left click, destroy them with alt-click, and switch blocks with T (See README for VR controls)",
       "author": "12090113",
       "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.5/Cubes.zip",
-      "downloadCount": 356,
+      "downloadCount": 360,
       "latestReleaseDate": "2023-04-23T21:07:36Z",
       "firstReleaseDate": "2022-07-10T21:49:54Z",
       "repo": "https://github.com/12090113/outer-wilds-cubes",
@@ -3792,8 +3792,8 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "Actual performance improvement now probably I think?",
+      "latestPrereleaseDescription": "QSB compatibility! QSB compatibility will eventually become a separate QSB addon, but is just a pre-release for now. As far as I can tell, everything is synced right now except if you join after someone has already placed blocks, then those blocks won't show up for you. This will eventually be fixed in the future dedicated compatibility mod.",
       "prerelease": {
         "version": "v0.3.6-pre",
         "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.6-pre/12090113.Cubes.zip",
@@ -3807,8 +3807,8 @@
         "main": "blockplacing.webp",
         "openGraph": "blockplacing-static.webp"
       },
-      "repoUpdatedAt": "2023-04-24T07:13:39Z",
-      "databaseEntryUpdatedAt": "2023-04-24T07:19:20.706Z",
+      "repoUpdatedAt": "2023-04-24T18:54:42Z",
+      "databaseEntryUpdatedAt": "2023-04-24T18:56:44.391Z",
       "viewCount": 32,
       "weeklyViewCount": 27,
       "installCount": 26,
@@ -5338,7 +5338,7 @@
       "repo": "https://github.com/ShoosGun/ShipyardOWOCompat",
       "version": "v0.1.2",
       "authorDisplay": "Locochoco",
-      "latestReleaseDescription": "* Uses newer systems from shipyard",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
