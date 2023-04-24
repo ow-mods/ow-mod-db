@@ -2137,7 +2137,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.11.0/JohnCorby.VanillaFix.zip",
-      "downloadCount": 18149,
+      "downloadCount": 18211,
       "latestReleaseDate": "2023-04-23T08:22:05Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2146,7 +2146,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixes log spam from going near a warp pad when the probe is destroyed.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -2156,7 +2156,7 @@
         "main": "vanillafix.webp"
       },
       "repoUpdatedAt": "2023-04-23T08:21:36Z",
-      "databaseEntryUpdatedAt": "2023-04-23T20:35:15.417Z",
+      "databaseEntryUpdatedAt": "2023-04-24T08:39:40.135Z",
       "viewCount": 233,
       "weeklyViewCount": 76,
       "installCount": 271,
@@ -4948,7 +4948,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4960,7 +4960,7 @@
         "openGraph": "shiplogslidereelplayerplus-static.webp"
       },
       "repoUpdatedAt": "2023-04-23T20:29:42Z",
-      "databaseEntryUpdatedAt": "2023-04-23T20:35:15.418Z",
+      "databaseEntryUpdatedAt": "2023-04-24T08:39:40.161Z",
       "viewCount": 17,
       "weeklyViewCount": 3,
       "installCount": 56,
@@ -5500,7 +5500,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5511,7 +5511,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-04-23T20:35:15.328Z",
+      "databaseEntryUpdatedAt": "2023-04-24T08:39:39.024Z",
       "viewCount": 24,
       "weeklyViewCount": 7,
       "installCount": 14,
