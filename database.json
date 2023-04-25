@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117916
+    "downloadCount": 117919
   },
   "releases": [
     {
@@ -6979,7 +6979,7 @@
       "author": "Hawkbat",
       "utility": true,
       "downloadUrl": "https://github.com/Hawkbat/ow-mod-data-tools/releases/download/0.2.0/Hawkbar.ModDataTools.zip",
-      "downloadCount": 18,
+      "downloadCount": 19,
       "latestReleaseDate": "2023-04-25T01:07:07Z",
       "firstReleaseDate": "2023-03-13T19:52:32Z",
       "repo": "https://github.com/Hawkbat/ow-mod-data-tools",
@@ -6988,7 +6988,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6998,7 +6998,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-25T01:07:14Z",
-      "databaseEntryUpdatedAt": "2023-04-25T01:38:53.433Z",
+      "databaseEntryUpdatedAt": "2023-04-25T13:40:00.911Z",
       "viewCount": 14,
       "weeklyViewCount": 2,
       "installCount": 6,
