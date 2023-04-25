@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117946
+    "downloadCount": 117948
   },
   "releases": [
     {
@@ -4906,7 +4906,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.0/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 6495,
+      "downloadCount": 6520,
       "latestReleaseDate": "2023-04-24T03:47:23Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4916,7 +4916,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Item List Utils**\r\nAdds 12 methods to the API to facilitate the creation and handling of UI menus to select items from a list, similar to the Map Mode menu used to navigate entries. This could be used by your custom Ship Log mode if you need a menu of that style. The mode selector itself used in this mod was also internally changed to use this, so it also serves as an example. Please check the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists) to learn how to use this API.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4926,7 +4926,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-04-24T04:01:20Z",
-      "databaseEntryUpdatedAt": "2023-04-25T04:50:52.464Z",
+      "databaseEntryUpdatedAt": "2023-04-25T17:07:14.697Z",
       "viewCount": 24,
       "weeklyViewCount": 12,
       "installCount": 33,
@@ -6656,7 +6656,7 @@
       "author": "2walker2",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/2walker2/NHJamTeamErnesto/releases/download/1.0.0/Evacuation.Jam.Submission.zip",
-      "downloadCount": 425,
+      "downloadCount": 426,
       "latestReleaseDate": "2023-01-23T09:37:23Z",
       "firstReleaseDate": "2023-01-23T09:37:23Z",
       "repo": "https://github.com/2walker2/NHJamTeamErnesto",
@@ -6666,7 +6666,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "The final submission for the jam (probably).",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6678,7 +6678,7 @@
         "main": "evacuation.webp"
       },
       "repoUpdatedAt": "2023-04-12T23:05:31Z",
-      "databaseEntryUpdatedAt": "2023-04-25T04:50:52.081Z",
+      "databaseEntryUpdatedAt": "2023-04-25T17:07:14.421Z",
       "viewCount": 141,
       "weeklyViewCount": 29,
       "installCount": 58,
@@ -7134,7 +7134,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/QSBGameModes/releases/download/v0.0.1/BUNN1E5.QSBGameModes.zip",
-      "downloadCount": 171,
+      "downloadCount": 173,
       "latestReleaseDate": "2023-03-30T03:28:01Z",
       "firstReleaseDate": "2023-03-30T03:28:01Z",
       "repo": "https://github.com/BUNN1E5/QSBGameModes",
@@ -7144,7 +7144,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7154,7 +7154,7 @@
         "main": "qsbgamemodes.webp"
       },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
-      "databaseEntryUpdatedAt": "2023-04-25T04:50:52.287Z",
+      "databaseEntryUpdatedAt": "2023-04-25T17:07:14.060Z",
       "viewCount": 222,
       "weeklyViewCount": 37,
       "installCount": 166,
