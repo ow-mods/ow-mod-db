@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 117997
+    "downloadCount": 117998
   },
   "releases": [
     {
@@ -4938,7 +4938,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.0.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3778,
+      "downloadCount": 3779,
       "latestReleaseDate": "2022-10-14T06:09:06Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4948,7 +4948,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix increased loading times (#6) by removing a lot of expensive operations (many of them since release 1.2.0) during mod setup",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4956,11 +4956,10 @@
       ],
       "slug": "shiplogslidereelplayerplus",
       "thumbnail": {
-        "main": "shiplogslidereelplayerplus.webp",
-        "openGraph": "shiplogslidereelplayerplus-static.webp"
+        "main": "shiplogslidereelplayerplus.webp"
       },
-      "repoUpdatedAt": "2023-04-25T23:45:42Z",
-      "databaseEntryUpdatedAt": "2023-04-25T23:46:21.463Z",
+      "repoUpdatedAt": "2023-04-26T03:46:52Z",
+      "databaseEntryUpdatedAt": "2023-04-26T03:47:44.572Z",
       "viewCount": 20,
       "weeklyViewCount": 6,
       "installCount": 56,
