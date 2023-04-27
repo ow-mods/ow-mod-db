@@ -1245,7 +1245,7 @@
       "description": "Customizable movement speed and jump height, instant jump, sprinting, climbing, and more.",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.3/Owen013.MovementMod.zip",
-      "downloadCount": 2739,
+      "downloadCount": 2741,
       "latestReleaseDate": "2023-04-16T23:12:23Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
@@ -1254,8 +1254,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -1269,7 +1269,7 @@
         "main": "hikersmod.webp"
       },
       "repoUpdatedAt": "2023-04-18T13:52:12Z",
-      "databaseEntryUpdatedAt": "2023-04-26T16:37:45.440Z",
+      "databaseEntryUpdatedAt": "2023-04-27T04:49:58.420Z",
       "viewCount": 86,
       "weeklyViewCount": 18,
       "installCount": 53,
@@ -6884,7 +6884,7 @@
       "description": "Gives the player a toggleable personal gravity.",
       "author": "coderCleric",
       "downloadUrl": "https://github.com/coderCleric/HatchlingIcarus/releases/download/v1.1.0/Cleric.HatchlingIcarus.zip",
-      "downloadCount": 71,
+      "downloadCount": 78,
       "latestReleaseDate": "2023-04-26T04:07:52Z",
       "firstReleaseDate": "2023-02-24T04:36:57Z",
       "repo": "https://github.com/coderCleric/HatchlingIcarus",
@@ -6894,7 +6894,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6905,7 +6905,7 @@
         "openGraph": "hatchlingicarus-static.webp"
       },
       "repoUpdatedAt": "2023-04-26T04:11:05Z",
-      "databaseEntryUpdatedAt": "2023-04-26T16:37:45.663Z",
+      "databaseEntryUpdatedAt": "2023-04-27T04:49:58.567Z",
       "viewCount": 25,
       "weeklyViewCount": 20,
       "installCount": 19,
@@ -7290,7 +7290,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.4.1/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 137,
+      "downloadCount": 140,
       "latestReleaseDate": "2023-04-23T03:17:13Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7300,7 +7300,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Some translation fixes (DELLS->BELLS...).",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7308,7 +7308,7 @@
       "slug": "translationfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-23T03:20:45Z",
-      "databaseEntryUpdatedAt": "2023-04-26T16:37:45.191Z",
+      "databaseEntryUpdatedAt": "2023-04-27T04:49:57.842Z",
       "viewCount": 233,
       "weeklyViewCount": 125,
       "installCount": 96,
@@ -7360,7 +7360,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "exist",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7368,7 +7368,7 @@
       "slug": "9yearoldsystem",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T02:46:02Z",
-      "databaseEntryUpdatedAt": "2023-04-26T16:37:45.134Z",
+      "databaseEntryUpdatedAt": "2023-04-27T04:49:58.041Z",
       "viewCount": 131,
       "weeklyViewCount": 131,
       "installCount": 17,
