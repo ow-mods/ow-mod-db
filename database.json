@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118348
+    "downloadCount": 118353
   },
   "releases": [
     {
@@ -2137,7 +2137,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.11.0/JohnCorby.VanillaFix.zip",
-      "downloadCount": 18550,
+      "downloadCount": 18599,
       "latestReleaseDate": "2023-04-23T08:22:05Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2146,7 +2146,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixes log spam from going near a warp pad when the probe is destroyed.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -2156,7 +2156,7 @@
         "main": "vanillafix.webp"
       },
       "repoUpdatedAt": "2023-04-23T08:21:36Z",
-      "databaseEntryUpdatedAt": "2023-04-28T09:46:47.777Z",
+      "databaseEntryUpdatedAt": "2023-04-28T21:51:55.123Z",
       "viewCount": 258,
       "weeklyViewCount": 76,
       "installCount": 254,
@@ -5499,7 +5499,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5510,7 +5510,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-04-28T09:46:47.711Z",
+      "databaseEntryUpdatedAt": "2023-04-28T21:51:55.330Z",
       "viewCount": 27,
       "weeklyViewCount": 8,
       "installCount": 14,
