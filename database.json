@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118322
+    "downloadCount": 118325
   },
   "releases": [
     {
@@ -4906,7 +4906,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.0/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 6651,
+      "downloadCount": 6661,
       "latestReleaseDate": "2023-04-24T03:47:23Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4916,7 +4916,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Item List Utils**\r\nAdds 12 methods to the API to facilitate the creation and handling of UI menus to select items from a list, similar to the Map Mode menu used to navigate entries. This could be used by your custom Ship Log mode if you need a menu of that style. The mode selector itself used in this mod was also internally changed to use this, so it also serves as an example. Please check the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists) to learn how to use this API.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4926,7 +4926,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-04-24T04:01:20Z",
-      "databaseEntryUpdatedAt": "2023-04-28T05:39:00.544Z",
+      "databaseEntryUpdatedAt": "2023-04-28T17:45:28.105Z",
       "viewCount": 35,
       "weeklyViewCount": 22,
       "installCount": 31,
@@ -4948,7 +4948,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "**\"Slide Reel Player\" Custom Mode**\r\nMoves reel entries out of Map Mode to new custom ship log mode. Map Mode still has the vanilla reel player.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6665,7 +6665,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "The final submission for the jam (probably).",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6677,7 +6677,7 @@
         "main": "evacuation.webp"
       },
       "repoUpdatedAt": "2023-04-12T23:05:31Z",
-      "databaseEntryUpdatedAt": "2023-04-28T05:39:00.192Z",
+      "databaseEntryUpdatedAt": "2023-04-28T17:45:27.551Z",
       "viewCount": 130,
       "weeklyViewCount": 29,
       "installCount": 59,
@@ -7083,7 +7083,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "Fix:\r\n\r\n- 宇宙飞船日志显示问题\r\n\r\n- 飞船内部GUI小字问题",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7133,7 +7133,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/QSBGameModes/releases/download/v0.0.1/BUNN1E5.QSBGameModes.zip",
-      "downloadCount": 185,
+      "downloadCount": 188,
       "latestReleaseDate": "2023-03-30T03:28:01Z",
       "firstReleaseDate": "2023-03-30T03:28:01Z",
       "repo": "https://github.com/BUNN1E5/QSBGameModes",
@@ -7143,7 +7143,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7153,7 +7153,7 @@
         "main": "qsbgamemodes.webp"
       },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
-      "databaseEntryUpdatedAt": "2023-04-28T05:39:00.190Z",
+      "databaseEntryUpdatedAt": "2023-04-28T17:45:27.804Z",
       "viewCount": 234,
       "weeklyViewCount": 35,
       "installCount": 180,
