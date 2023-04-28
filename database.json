@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118314
+    "downloadCount": 118316
   },
   "releases": [
     {
@@ -4072,7 +4072,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4082,7 +4082,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-04-28T03:47:45.265Z",
+      "databaseEntryUpdatedAt": "2023-04-28T15:54:53.542Z",
       "viewCount": 64,
       "weeklyViewCount": 2,
       "installCount": 24,
@@ -6796,7 +6796,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6807,7 +6807,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-04-28T03:47:45.588Z",
+      "databaseEntryUpdatedAt": "2023-04-28T15:54:53.556Z",
       "viewCount": 120,
       "weeklyViewCount": 52,
       "installCount": 46,
@@ -7300,7 +7300,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "* Some translation fixes.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
