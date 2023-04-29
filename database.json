@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118540
+    "downloadCount": 118541
   },
   "releases": [
     {
@@ -2137,7 +2137,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.11.0/JohnCorby.VanillaFix.zip",
-      "downloadCount": 18637,
+      "downloadCount": 18693,
       "latestReleaseDate": "2023-04-23T08:22:05Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2146,7 +2146,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixes log spam from going near a warp pad when the probe is destroyed.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -2156,7 +2156,7 @@
         "main": "vanillafix.webp"
       },
       "repoUpdatedAt": "2023-04-23T08:21:36Z",
-      "databaseEntryUpdatedAt": "2023-04-29T09:57:42.982Z",
+      "databaseEntryUpdatedAt": "2023-04-29T22:01:46.240Z",
       "viewCount": 254,
       "weeklyViewCount": 74,
       "installCount": 261,
@@ -4916,7 +4916,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds 2 more \"Item List\" API methods, used for the \"Mark on HUD\" rectangle. This object wasn't present in the previous version of the item lists, now the object is present but disabled by default and can be enabled (or disabled, it takes a parameter for that) with `ItemListMarkHUDRootEnable` to make the rectangle active (making its elements visible: border, background and screen prompt list). The other method, `ItemListMarkHUDGetPromptList` is used to obtain the `ScreenPromptList` that you could use to add the screen prompts you want.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -5490,7 +5490,7 @@
       "description": "Mod to automatically export your Outer Wilds ship log for online viewing",
       "author": "Tephirax",
       "downloadUrl": "https://github.com/Tephirax/SharedShipLog/releases/download/v0.1.1/OuterWildsSharedShipLog.zip",
-      "downloadCount": 79,
+      "downloadCount": 80,
       "latestReleaseDate": "2022-11-18T16:15:16Z",
       "firstReleaseDate": "2022-11-18T16:15:16Z",
       "repo": "https://github.com/Tephirax/SharedShipLog",
@@ -5499,7 +5499,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5510,7 +5510,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-04-29T09:57:42.765Z",
+      "databaseEntryUpdatedAt": "2023-04-29T22:01:46.238Z",
       "viewCount": 27,
       "weeklyViewCount": 5,
       "installCount": 14,
