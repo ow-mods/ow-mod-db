@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118531
+    "downloadCount": 118536
   },
   "releases": [
     {
@@ -4906,7 +4906,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.0/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 6710,
+      "downloadCount": 6717,
       "latestReleaseDate": "2023-04-24T03:47:23Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4916,7 +4916,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Item List Utils**\r\nAdds 12 methods to the API to facilitate the creation and handling of UI menus to select items from a list, similar to the Map Mode menu used to navigate entries. This could be used by your custom Ship Log mode if you need a menu of that style. The mode selector itself used in this mod was also internally changed to use this, so it also serves as an example. Please check the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists) to learn how to use this API.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4925,8 +4925,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2023-04-24T04:01:20Z",
-      "databaseEntryUpdatedAt": "2023-04-29T17:47:54.096Z",
+      "repoUpdatedAt": "2023-04-29T21:30:55Z",
+      "databaseEntryUpdatedAt": "2023-04-29T21:36:44.415Z",
       "viewCount": 38,
       "weeklyViewCount": 25,
       "installCount": 31,
