@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118536
+    "downloadCount": 118540
   },
   "releases": [
     {
@@ -4905,18 +4905,18 @@
       "description": "Allows other mods to add their custom Ship Log modes",
       "author": "dgarroDC",
       "utility": true,
-      "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.0/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 6717,
-      "latestReleaseDate": "2023-04-24T03:47:23Z",
+      "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.1/dgarro.CustomShipLogModes.zip",
+      "downloadCount": 6718,
+      "latestReleaseDate": "2023-04-29T21:38:24Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "readme": {
         "htmlUrl": "https://github.com/dgarroDC/CustomShipLogModes/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "**Item List Utils**\r\nAdds 12 methods to the API to facilitate the creation and handling of UI menus to select items from a list, similar to the Map Mode menu used to navigate entries. This could be used by your custom Ship Log mode if you need a menu of that style. The mode selector itself used in this mod was also internally changed to use this, so it also serves as an example. Please check the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists) to learn how to use this API.",
+      "latestReleaseDescription": "Adds 2 more \"Item List\" API methods, used for the \"Mark on HUD\" rectangle. This object wasn't present in the previous version of the item lists, now the object is present but disabled by default and can be enabled (or disabled, it takes a parameter for that) with `ItemListMarkHUDRootEnable` to make the rectangle active (making its elements visible: border, background and screen prompt list). The other method, `ItemListMarkHUDGetPromptList` is used to obtain the `ScreenPromptList` that you could use to add the screen prompts you want.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4925,8 +4925,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2023-04-29T21:30:55Z",
-      "databaseEntryUpdatedAt": "2023-04-29T21:36:44.415Z",
+      "repoUpdatedAt": "2023-04-29T21:45:19Z",
+      "databaseEntryUpdatedAt": "2023-04-29T21:48:45.370Z",
       "viewCount": 38,
       "weeklyViewCount": 25,
       "installCount": 31,
