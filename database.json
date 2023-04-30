@@ -4905,18 +4905,18 @@
       "description": "Allows other mods to add their custom Ship Log modes",
       "author": "dgarroDC",
       "utility": true,
-      "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.1/dgarro.CustomShipLogModes.zip",
+      "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.2/dgarro.CustomShipLogModes.zip",
       "downloadCount": 6761,
-      "latestReleaseDate": "2023-04-29T21:38:24Z",
+      "latestReleaseDate": "2023-04-30T04:34:56Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "readme": {
         "htmlUrl": "https://github.com/dgarroDC/CustomShipLogModes/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds 2 more \"Item List\" API methods, used for the \"Mark on HUD\" rectangle. This object wasn't present in the previous version of the item lists, now the object is present but disabled by default and can be enabled (or disabled, it takes a parameter for that) with `ItemListMarkHUDRootEnable` to make the rectangle active (making its elements visible: border, background and screen prompt list). The other method, `ItemListMarkHUDGetPromptList` is used to obtain the `ScreenPromptList` that you could use to add the screen prompts you want.",
+      "latestReleaseDescription": "Adds a variant of  `ItemListMake`  to the API that takes `bool usePhoto` and `bool useDescField` that can be set independently, instead of just one `bool usePhotoAndDescField`, allowing also the creation of item lists that include only the photo or only the description field (in addition to the possibilities of including both or none).",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4925,8 +4925,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2023-04-30T04:34:17Z",
-      "databaseEntryUpdatedAt": "2023-04-30T04:35:58.634Z",
+      "repoUpdatedAt": "2023-04-30T04:44:52Z",
+      "databaseEntryUpdatedAt": "2023-04-30T04:48:55.680Z",
       "viewCount": 43,
       "weeklyViewCount": 30,
       "installCount": 32,
