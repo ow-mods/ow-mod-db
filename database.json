@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118584
+    "downloadCount": 118585
   },
   "releases": [
     {
@@ -4072,7 +4072,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "Fixed computers not appearing",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4906,7 +4906,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.1/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 6718,
+      "downloadCount": 6761,
       "latestReleaseDate": "2023-04-29T21:38:24Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4916,7 +4916,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds 2 more \"Item List\" API methods, used for the \"Mark on HUD\" rectangle. This object wasn't present in the previous version of the item lists, now the object is present but disabled by default and can be enabled (or disabled, it takes a parameter for that) with `ItemListMarkHUDRootEnable` to make the rectangle active (making its elements visible: border, background and screen prompt list). The other method, `ItemListMarkHUDGetPromptList` is used to obtain the `ScreenPromptList` that you could use to add the screen prompts you want.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4925,8 +4925,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2023-04-29T21:45:19Z",
-      "databaseEntryUpdatedAt": "2023-04-29T21:48:45.370Z",
+      "repoUpdatedAt": "2023-04-30T04:34:17Z",
+      "databaseEntryUpdatedAt": "2023-04-30T04:35:58.634Z",
       "viewCount": 43,
       "weeklyViewCount": 30,
       "installCount": 32,
@@ -6796,7 +6796,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
