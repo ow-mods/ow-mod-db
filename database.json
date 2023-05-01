@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118784
+    "downloadCount": 118786
   },
   "releases": [
     {
@@ -4078,9 +4078,7 @@
         "content"
       ],
       "slug": "sunstationascension",
-      "thumbnail": {
-        "main": "sunstationascension.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
       "databaseEntryUpdatedAt": "2023-05-01T04:38:44.551Z",
       "viewCount": 62,
@@ -4916,7 +4914,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds a variant of  `ItemListMake`  to the API that takes `bool usePhoto` and `bool useDescField` that can be set independently, instead of just one `bool usePhotoAndDescField`, allowing also the creation of item lists that include only the photo or only the description field (in addition to the possibilities of including both or none).",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6572,10 +6570,7 @@
         "story"
       ],
       "slug": "intervention",
-      "thumbnail": {
-        "main": "intervention.webp",
-        "openGraph": "intervention-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-24T19:53:33Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:31:45.731Z",
       "viewCount": 101,
