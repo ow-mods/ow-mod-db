@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118823
+    "downloadCount": 118826
   },
   "releases": [
     {
@@ -1734,7 +1734,9 @@
         "tool"
       ],
       "slug": "collidervisualizer",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "collidervisualizer.webp"
+      },
       "repoUpdatedAt": "2022-11-05T00:46:07Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:56:19.151Z",
       "viewCount": 4,
@@ -1921,7 +1923,9 @@
         "content"
       ],
       "slug": "incursionfinaldawn",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "incursionfinaldawn.webp"
+      },
       "repoUpdatedAt": "2022-05-30T21:12:41Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:56:19.335Z",
       "viewCount": 39,
@@ -2148,7 +2152,9 @@
         "tweaks"
       ],
       "slug": "vanillafix",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "vanillafix.webp"
+      },
       "repoUpdatedAt": "2023-04-23T08:21:36Z",
       "databaseEntryUpdatedAt": "2023-05-01T10:36:44.779Z",
       "viewCount": 261,
@@ -4559,7 +4565,9 @@
         "gameplay"
       ],
       "slug": "doom",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "doom.webp"
+      },
       "repoUpdatedAt": "2022-12-03T18:12:03Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:56:21.017Z",
       "viewCount": 89,
@@ -4785,7 +4793,9 @@
         "story"
       ],
       "slug": "fretsquest",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "fretsquest.webp"
+      },
       "repoUpdatedAt": "2023-02-21T20:51:46Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:56:21.315Z",
       "viewCount": 74,
@@ -5143,7 +5153,9 @@
         "story"
       ],
       "slug": "escapethedreamstalker",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "escapethedreamstalker.webp"
+      },
       "repoUpdatedAt": "2023-03-25T19:23:09Z",
       "databaseEntryUpdatedAt": "2023-05-01T06:32:17.716Z",
       "viewCount": 113,
@@ -6248,7 +6260,9 @@
         "story"
       ],
       "slug": "theoutsider",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "theoutsider.webp"
+      },
       "repoUpdatedAt": "2023-03-24T20:53:21Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:31:45.256Z",
       "viewCount": 1945,
@@ -6523,7 +6537,9 @@
         "story"
       ],
       "slug": "archipelago",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "archipelago.webp"
+      },
       "repoUpdatedAt": "2023-01-23T17:10:37Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:31:45.453Z",
       "viewCount": 35,
@@ -6556,7 +6572,10 @@
         "story"
       ],
       "slug": "intervention",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "intervention.webp",
+        "openGraph": "intervention-static.webp"
+      },
       "repoUpdatedAt": "2023-01-24T19:53:33Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:31:45.731Z",
       "viewCount": 101,
@@ -6721,7 +6740,9 @@
         "content"
       ],
       "slug": "kspouterplanetsmod",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "kspouterplanetsmod.webp"
+      },
       "repoUpdatedAt": "2023-02-02T11:02:27Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:31:45.683Z",
       "viewCount": 41,
@@ -6966,7 +6987,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6976,7 +6997,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-25T01:07:14Z",
-      "databaseEntryUpdatedAt": "2023-05-01T03:49:06.749Z",
+      "databaseEntryUpdatedAt": "2023-05-01T15:58:26.662Z",
       "viewCount": 19,
       "weeklyViewCount": 8,
       "installCount": 8,
@@ -7128,7 +7149,9 @@
         "gameplay"
       ],
       "slug": "qsbgamemodes",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "qsbgamemodes.webp"
+      },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
       "databaseEntryUpdatedAt": "2023-05-01T06:14:39.350Z",
       "viewCount": 179,
@@ -7500,7 +7523,9 @@
         "gameplay"
       ],
       "slug": "navinha",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "navinha.webp"
+      },
       "repoUpdatedAt": "2022-06-01T00:19:12Z",
       "databaseEntryUpdatedAt": "2023-05-01T07:56:20.533Z",
       "viewCount": 5,
