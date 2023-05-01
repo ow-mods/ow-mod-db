@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 118775
+    "downloadCount": 118776
   },
   "releases": [
     {
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.2/xen.NewHorizons.zip",
-      "downloadCount": 23672,
+      "downloadCount": 23700,
       "latestReleaseDate": "2023-04-01T18:06:52Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,7 +1068,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-04-29T05:51:49Z",
-      "databaseEntryUpdatedAt": "2023-04-30T18:27:02.470Z",
+      "databaseEntryUpdatedAt": "2023-05-01T06:32:18.278Z",
       "viewCount": 691,
       "weeklyViewCount": 163,
       "installCount": 339,
@@ -5135,7 +5135,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/ow-dreamstalker/releases/download/v0.1.6/xen.Dreamstalker.zip",
-      "downloadCount": 993,
+      "downloadCount": 998,
       "latestReleaseDate": "2023-03-25T19:54:09Z",
       "firstReleaseDate": "2022-10-27T01:52:29Z",
       "repo": "https://github.com/xen-42/ow-dreamstalker",
@@ -5145,7 +5145,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-dreamstalker/main/README.md"
       },
       "authorDisplay": "xen & JohnCorby",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Update Dreamstalker for NH v1.10.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5157,7 +5157,7 @@
         "main": "escapethedreamstalker.webp"
       },
       "repoUpdatedAt": "2023-03-25T19:23:09Z",
-      "databaseEntryUpdatedAt": "2023-04-30T18:27:01.905Z",
+      "databaseEntryUpdatedAt": "2023-05-01T06:32:17.716Z",
       "viewCount": 113,
       "weeklyViewCount": 39,
       "installCount": 64,
@@ -6665,7 +6665,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "The final submission for the jam (probably).",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -7143,7 +7143,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
