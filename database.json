@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 119005
+    "downloadCount": 119008
   },
   "releases": [
     {
@@ -4063,7 +4063,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/releases/download/v0.1.2/ow-nh-ss-ascension.zip",
-      "downloadCount": 374,
+      "downloadCount": 375,
       "latestReleaseDate": "2023-04-02T18:54:23Z",
       "firstReleaseDate": "2022-08-17T04:00:28Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-ss-ascension",
@@ -4072,7 +4072,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4082,7 +4082,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-05-02T16:55:59.396Z",
+      "databaseEntryUpdatedAt": "2023-05-03T05:01:40.676Z",
       "viewCount": 57,
       "weeklyViewCount": 4,
       "installCount": 22,
@@ -6787,7 +6787,7 @@
       "description": "A mod for Outer Wilds that adds various Nomai Keys to the world which must be collected before the game can be completed.",
       "author": "GameWyrm",
       "downloadUrl": "https://github.com/GameWyrm/OuterRelics/releases/download/v0.9.5/GameWyrm.OuterRelics.zip",
-      "downloadCount": 183,
+      "downloadCount": 184,
       "latestReleaseDate": "2023-04-17T23:44:41Z",
       "firstReleaseDate": "2023-02-18T00:46:33Z",
       "repo": "https://github.com/GameWyrm/OuterRelics",
@@ -6796,7 +6796,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6807,7 +6807,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-05-02T16:56:00.068Z",
+      "databaseEntryUpdatedAt": "2023-05-03T05:01:41.077Z",
       "viewCount": 118,
       "weeklyViewCount": 21,
       "installCount": 48,
