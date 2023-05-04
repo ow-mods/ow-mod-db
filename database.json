@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -4938,7 +4938,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.2.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3846,
+      "downloadCount": 3851,
       "latestReleaseDate": "2023-05-02T00:55:56Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4948,7 +4948,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds an indicator of the current slide and how many slides there are for the selected reel, using a text bar and numbers, for example:\r\n `[===¤========] 4/12`",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4959,7 +4959,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2023-05-03T04:14:15Z",
-      "databaseEntryUpdatedAt": "2023-05-03T16:33:08.801Z",
+      "databaseEntryUpdatedAt": "2023-05-04T04:37:11.251Z",
       "viewCount": 49,
       "weeklyViewCount": 31,
       "installCount": 54,
@@ -6987,7 +6987,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6997,7 +6997,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-25T01:07:14Z",
-      "databaseEntryUpdatedAt": "2023-05-03T16:33:08.680Z",
+      "databaseEntryUpdatedAt": "2023-05-04T04:37:11.255Z",
       "viewCount": 18,
       "weeklyViewCount": 4,
       "installCount": 6,
