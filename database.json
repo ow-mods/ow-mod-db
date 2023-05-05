@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 119278
+    "downloadCount": 119281
   },
   "releases": [
     {
@@ -77,7 +77,7 @@
       "databaseEntryUpdatedAt": "2023-05-05T03:22:06.321Z",
       "viewCount": 3246,
       "weeklyViewCount": 772,
-      "installCount": 774,
+      "installCount": 775,
       "weeklyInstallCount": 178
     },
     {
@@ -4072,7 +4072,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4082,7 +4082,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-05-04T17:34:05.478Z",
+      "databaseEntryUpdatedAt": "2023-05-05T05:38:18.136Z",
       "viewCount": 36,
       "weeklyViewCount": 3,
       "installCount": 21,
@@ -6267,7 +6267,7 @@
       "databaseEntryUpdatedAt": "2023-05-04T20:31:24.873Z",
       "viewCount": 1902,
       "weeklyViewCount": 423,
-      "installCount": 496,
+      "installCount": 497,
       "weeklyInstallCount": 133
     },
     {
@@ -6796,7 +6796,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6807,7 +6807,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-05-04T17:34:06.162Z",
+      "databaseEntryUpdatedAt": "2023-05-05T05:38:18.427Z",
       "viewCount": 125,
       "weeklyViewCount": 22,
       "installCount": 46,
