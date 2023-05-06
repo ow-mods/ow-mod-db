@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 119464
+    "downloadCount": 119466
   },
   "releases": [
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.27.0/QSB.zip",
-      "downloadCount": 28736,
+      "downloadCount": 28774,
       "latestReleaseDate": "2023-04-27T00:48:21Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Updated Mirror - and transports - to latest versions.\r\n- Fixed players being moved weirdly around the ship when it is flying.\r\n- Fixed a pursuing creature being able to see through walls sometimes.\r\n- Fixed the wrong UI showing up when clients join a server that hasn't woken up yet.\r\n- Fixed certain objects not reacting properly when putting away the scout launcher.\r\n- Fixed a certain moon not moving correctly.\r\n- Fixed thruster effects on the model ship staying on sometimes.\r\n- Fixed bugs when a player left while inside the ship.\r\n- Updated the French localization. (Thanks @MerlinConnected)",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,7 +111,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-05-05T17:38:09Z",
-      "databaseEntryUpdatedAt": "2023-05-05T17:44:20.052Z",
+      "databaseEntryUpdatedAt": "2023-05-06T05:52:07.628Z",
       "viewCount": 2191,
       "weeklyViewCount": 554,
       "installCount": 677,
@@ -4072,7 +4072,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4082,7 +4082,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-05-05T17:44:19.440Z",
+      "databaseEntryUpdatedAt": "2023-05-06T05:52:07.040Z",
       "viewCount": 29,
       "weeklyViewCount": 2,
       "installCount": 21,
@@ -6796,7 +6796,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6807,7 +6807,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-05-05T17:44:19.735Z",
+      "databaseEntryUpdatedAt": "2023-05-06T05:52:07.460Z",
       "viewCount": 125,
       "weeklyViewCount": 20,
       "installCount": 44,
