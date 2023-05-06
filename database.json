@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.10.2/xen.NewHorizons.zip",
-      "downloadCount": 23815,
+      "downloadCount": 23823,
       "latestReleaseDate": "2023-04-01T18:06:52Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,7 +1068,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-05-02T03:44:07Z",
-      "databaseEntryUpdatedAt": "2023-05-05T16:46:49.293Z",
+      "databaseEntryUpdatedAt": "2023-05-06T04:53:39.553Z",
       "viewCount": 597,
       "weeklyViewCount": 112,
       "installCount": 312,
@@ -3783,7 +3783,7 @@
       "description": "Place Minecraft blocks with left click, destroy them with alt-click, and switch blocks with T (See README for VR controls)",
       "author": "12090113",
       "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.6/12090113.Cubes.zip",
-      "downloadCount": 386,
+      "downloadCount": 389,
       "latestReleaseDate": "2023-05-01T02:53:31Z",
       "firstReleaseDate": "2022-07-10T21:49:54Z",
       "repo": "https://github.com/12090113/outer-wilds-cubes",
@@ -3792,8 +3792,8 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "It now automatically saves your placed blocks when you die, and automatically loads that save when you wake up. This can be disabled in the mod settings.",
+      "latestPrereleaseDescription": "QSB compatibility! QSB compatibility will eventually become a separate QSB addon, but is just a pre-release for now. As far as I can tell, everything is synced right now except if you join after someone has already placed blocks, then those blocks won't show up for you. This will eventually be fixed in the future dedicated compatibility mod.",
       "prerelease": {
         "version": "v0.3.6-pre",
         "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.6-pre/12090113.Cubes.zip",
@@ -3808,7 +3808,7 @@
         "openGraph": "blockplacing-static.webp"
       },
       "repoUpdatedAt": "2023-05-01T02:55:34Z",
-      "databaseEntryUpdatedAt": "2023-05-05T16:46:49.559Z",
+      "databaseEntryUpdatedAt": "2023-05-06T04:53:39.827Z",
       "viewCount": 58,
       "weeklyViewCount": 18,
       "installCount": 30,
