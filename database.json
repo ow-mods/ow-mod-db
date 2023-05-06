@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 119563
+    "downloadCount": 119567
   },
   "releases": [
     {
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- Added `audioSources` as a new `Prop`, allowing you to make point audio sources.\r\n- `signals` now have more customization: `minDistance`, `maxDistance` and `volume`.\r\n\r\n## Bug fixes\r\n- Fixed details with `removeComponents` being active too early.\r\n- Fixed physics objects not parenting when given a `parentPath`.\r\n- Fixed Archaeologist achievement being triggered when entering a new system.\r\n- Removed Herobrine\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/557**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -3792,8 +3792,8 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "It now automatically saves your placed blocks when you die, and automatically loads that save when you wake up. This can be disabled in the mod settings.",
-      "latestPrereleaseDescription": "QSB compatibility! QSB compatibility will eventually become a separate QSB addon, but is just a pre-release for now. As far as I can tell, everything is synced right now except if you join after someone has already placed blocks, then those blocks won't show up for you. This will eventually be fixed in the future dedicated compatibility mod.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v0.3.6-pre",
         "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.6-pre/12090113.Cubes.zip",
@@ -4938,7 +4938,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.3.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3873,
+      "downloadCount": 3876,
       "latestReleaseDate": "2023-05-05T04:37:48Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4948,7 +4948,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4959,7 +4959,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2023-05-05T04:41:18Z",
-      "databaseEntryUpdatedAt": "2023-05-06T05:11:59.162Z",
+      "databaseEntryUpdatedAt": "2023-05-06T17:25:10.364Z",
       "viewCount": 66,
       "weeklyViewCount": 42,
       "installCount": 58,
@@ -6987,7 +6987,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6997,7 +6997,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-25T01:07:14Z",
-      "databaseEntryUpdatedAt": "2023-05-06T05:11:59.338Z",
+      "databaseEntryUpdatedAt": "2023-05-06T17:25:10.778Z",
       "viewCount": 14,
       "weeklyViewCount": 0,
       "installCount": 7,
