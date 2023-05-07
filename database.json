@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 119660
+    "downloadCount": 119669
   },
   "releases": [
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.27.0/QSB.zip",
-      "downloadCount": 28813,
+      "downloadCount": 28848,
       "latestReleaseDate": "2023-04-27T00:48:21Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Updated Mirror - and transports - to latest versions.\r\n- Fixed players being moved weirdly around the ship when it is flying.\r\n- Fixed a pursuing creature being able to see through walls sometimes.\r\n- Fixed the wrong UI showing up when clients join a server that hasn't woken up yet.\r\n- Fixed certain objects not reacting properly when putting away the scout launcher.\r\n- Fixed a certain moon not moving correctly.\r\n- Fixed thruster effects on the model ship staying on sometimes.\r\n- Fixed bugs when a player left while inside the ship.\r\n- Updated the French localization. (Thanks @MerlinConnected)",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -110,8 +110,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-05-06T20:17:30Z",
-      "databaseEntryUpdatedAt": "2023-05-06T20:19:06.854Z",
+      "repoUpdatedAt": "2023-05-07T02:02:00Z",
+      "databaseEntryUpdatedAt": "2023-05-07T02:03:11.918Z",
       "viewCount": 2190,
       "weeklyViewCount": 542,
       "installCount": 682,
@@ -383,8 +383,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
-      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -535,7 +535,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -1544,7 +1544,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -2146,7 +2146,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "Fixes log spam from going near a warp pad when the probe is destroyed.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -2829,7 +2829,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4403,7 +4403,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.4/hearth1an.TheVision.zip",
-      "downloadCount": 8000,
+      "downloadCount": 8011,
       "latestReleaseDate": "2023-04-10T05:43:56Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4413,7 +4413,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Bug fixes for last New Horizons update\r\n- Dialogue fixes\r\n- More Ernesto\r\n- Italian localisation added by ilyNerY",
       "latestPrereleaseDescription": "",
       "tags": [
         "story",
@@ -4425,7 +4425,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2023-04-10T05:45:07Z",
-      "databaseEntryUpdatedAt": "2023-05-06T13:43:09.407Z",
+      "databaseEntryUpdatedAt": "2023-05-07T02:03:12.275Z",
       "viewCount": 1091,
       "weeklyViewCount": 250,
       "installCount": 369,
@@ -5499,7 +5499,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "Incremented version number and included .zip",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -6380,7 +6380,7 @@
       "author": "coderCleric",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/coderCleric/Scavenger_Hunt/releases/download/v1.0.1/Scavenger_Hunt.zip",
-      "downloadCount": 256,
+      "downloadCount": 257,
       "latestReleaseDate": "2023-03-27T23:57:45Z",
       "firstReleaseDate": "2023-01-21T21:28:39Z",
       "repo": "https://github.com/coderCleric/Scavenger_Hunt",
@@ -6390,7 +6390,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6402,7 +6402,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-05-06T13:43:09.047Z",
+      "databaseEntryUpdatedAt": "2023-05-07T02:03:08.137Z",
       "viewCount": 13,
       "weeklyViewCount": 5,
       "installCount": 30,
@@ -6946,7 +6946,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.1/VioVayo.HugMod.zip",
-      "downloadCount": 456,
+      "downloadCount": 458,
       "latestReleaseDate": "2023-04-22T20:45:57Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6955,7 +6955,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6965,7 +6965,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-22T20:55:24Z",
-      "databaseEntryUpdatedAt": "2023-05-06T13:43:05.792Z",
+      "databaseEntryUpdatedAt": "2023-05-07T02:03:11.917Z",
       "viewCount": 170,
       "weeklyViewCount": 31,
       "installCount": 108,
@@ -7112,7 +7112,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7120,7 +7120,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-05-06T13:43:04.794Z",
+      "databaseEntryUpdatedAt": "2023-05-07T02:03:08.137Z",
       "viewCount": 86,
       "weeklyViewCount": 10,
       "installCount": 12,
