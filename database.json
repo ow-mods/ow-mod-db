@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 119701
+    "downloadCount": 119704
   },
   "releases": [
     {
@@ -6884,7 +6884,7 @@
       "description": "Gives the player a toggleable personal gravity.",
       "author": "coderCleric",
       "downloadUrl": "https://github.com/coderCleric/HatchlingIcarus/releases/download/v1.1.0/Cleric.HatchlingIcarus.zip",
-      "downloadCount": 87,
+      "downloadCount": 88,
       "latestReleaseDate": "2023-04-26T04:07:52Z",
       "firstReleaseDate": "2023-02-24T04:36:57Z",
       "repo": "https://github.com/coderCleric/HatchlingIcarus",
@@ -6894,7 +6894,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6905,7 +6905,7 @@
         "openGraph": "hatchlingicarus-static.webp"
       },
       "repoUpdatedAt": "2023-04-26T04:11:05Z",
-      "databaseEntryUpdatedAt": "2023-05-06T19:09:42.936Z",
+      "databaseEntryUpdatedAt": "2023-05-07T07:16:48.538Z",
       "viewCount": 55,
       "weeklyViewCount": 12,
       "installCount": 10,
@@ -7329,7 +7329,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Reparent warped items on arrival\r\n- Fixed some Prisoner Cell entryway trigger stuff",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7337,7 +7337,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-30T17:37:10Z",
-      "databaseEntryUpdatedAt": "2023-05-06T19:09:42.931Z",
+      "databaseEntryUpdatedAt": "2023-05-07T07:16:48.383Z",
       "viewCount": 71,
       "weeklyViewCount": 21,
       "installCount": 12,
@@ -7350,7 +7350,7 @@
       "author": "bismuthdistrict",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/releases/download/publish/bismuthdistrict.9YearOldSystem.zip",
-      "downloadCount": 60,
+      "downloadCount": 61,
       "latestReleaseDate": "2023-04-22T02:44:00Z",
       "firstReleaseDate": "2023-04-22T02:44:00Z",
       "repo": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem",
@@ -7360,7 +7360,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "exist",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7368,7 +7368,7 @@
       "slug": "9yearoldsystem",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T02:46:02Z",
-      "databaseEntryUpdatedAt": "2023-05-06T19:09:42.896Z",
+      "databaseEntryUpdatedAt": "2023-05-07T07:16:48.383Z",
       "viewCount": 289,
       "weeklyViewCount": 115,
       "installCount": 28,
