@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 119946
+    "downloadCount": 119947
   },
   "releases": [
     {
@@ -85,17 +85,17 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.27.0/QSB.zip",
-      "downloadCount": 28951,
-      "latestReleaseDate": "2023-04-27T00:48:21Z",
+      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.0/QSB.zip",
+      "downloadCount": 28952,
+      "latestReleaseDate": "2023-05-08T14:01:12Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
-      "version": "0.27.0",
+      "version": "0.28.0",
       "readme": {
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "- Updated Mirror - and transports - to latest versions.\r\n- Fixed players being moved weirdly around the ship when it is flying.\r\n- Fixed a pursuing creature being able to see through walls sometimes.\r\n- Fixed the wrong UI showing up when clients join a server that hasn't woken up yet.\r\n- Fixed certain objects not reacting properly when putting away the scout launcher.\r\n- Fixed a certain moon not moving correctly.\r\n- Fixed thruster effects on the model ship staying on sometimes.\r\n- Fixed bugs when a player left while inside the ship.\r\n- Updated the French localization. (Thanks @MerlinConnected)",
+      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
       "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
@@ -110,8 +110,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-05-08T13:48:45Z",
-      "databaseEntryUpdatedAt": "2023-05-08T13:50:18.611Z",
+      "repoUpdatedAt": "2023-05-08T14:01:23Z",
+      "databaseEntryUpdatedAt": "2023-05-08T14:05:58.643Z",
       "viewCount": 2278,
       "weeklyViewCount": 621,
       "installCount": 713,
@@ -383,8 +383,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
-      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -535,7 +535,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -1544,7 +1544,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -2829,7 +2829,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
