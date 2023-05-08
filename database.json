@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 119976
+    "downloadCount": 119978
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 97181,
+      "downloadCount": 97237,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-04-25T03:43:40Z",
-      "databaseEntryUpdatedAt": "2023-05-08T06:57:17.011Z",
+      "databaseEntryUpdatedAt": "2023-05-08T19:00:07.020Z",
       "viewCount": 700,
       "weeklyViewCount": 236,
       "installCount": 0,
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
-      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -1209,7 +1209,7 @@
       "description": "Customizable player scale!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.4.0/Owen013.TeenyHatchling.zip",
-      "downloadCount": 1122,
+      "downloadCount": 1125,
       "latestReleaseDate": "2023-04-16T23:33:53Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
@@ -1218,8 +1218,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "### Changes:\r\n* Added stools, which will spawn around the solar system. These stools can help the player use things like the model rocket or other areas where being shorter than normal can make something more difficult. The stool placements are not final, but they should spawn in most locations where they would be needed!\r\n* Revamped config menu.\r\n  * The \"Height %\" and \"Radius %\" settings now represent actual percentages, so a Height % of 100 will make the player be normal height.\r\n* Readded native compatibility with Hiker's Mod via an API. **Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -1233,7 +1233,7 @@
         "main": "smolhatchling.webp"
       },
       "repoUpdatedAt": "2023-04-16T23:31:59Z",
-      "databaseEntryUpdatedAt": "2023-05-08T06:57:15.342Z",
+      "databaseEntryUpdatedAt": "2023-05-08T19:00:05.450Z",
       "viewCount": 46,
       "weeklyViewCount": 9,
       "installCount": 32,
