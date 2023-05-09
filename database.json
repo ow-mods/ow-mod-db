@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 120127
+    "downloadCount": 120131
   },
   "releases": [
     {
@@ -5005,7 +5005,7 @@
       "author": "Smaedd",
       "utility": true,
       "downloadUrl": "https://github.com/Smaedd/OW_DeveloperConsole/releases/download/v0.2.4/Smaed.DeveloperConsole.zip",
-      "downloadCount": 310,
+      "downloadCount": 311,
       "latestReleaseDate": "2022-11-07T03:51:52Z",
       "firstReleaseDate": "2022-10-10T02:19:57Z",
       "repo": "https://github.com/Smaedd/OW_DeveloperConsole",
@@ -5015,7 +5015,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Smaedd/OW_DeveloperConsole/main/README.md"
       },
       "authorDisplay": "Smaed",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds the `bind` native command to allow keys to be bound to commands.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library",
@@ -5026,7 +5026,7 @@
         "main": "developerconsole.webp"
       },
       "repoUpdatedAt": "2022-11-07T03:52:35Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:37.625Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:53.990Z",
       "viewCount": 8,
       "weeklyViewCount": 3,
       "installCount": 13,
@@ -5038,7 +5038,7 @@
       "description": "A port of PacificEngine's Cheats Mod to work with the Developer Console",
       "author": "Smaedd",
       "downloadUrl": "https://github.com/Smaedd/OW_ConsoleCheats/releases/download/v0.2.2/Smaed.ConsoleCheats.zip",
-      "downloadCount": 255,
+      "downloadCount": 256,
       "latestReleaseDate": "2022-10-16T05:22:52Z",
       "firstReleaseDate": "2022-10-09T12:31:52Z",
       "repo": "https://github.com/Smaedd/OW_ConsoleCheats",
@@ -5048,7 +5048,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Smaedd/OW_ConsoleCheats/main/README.md"
       },
       "authorDisplay": "Smaed",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds info to all commands",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -5056,7 +5056,7 @@
       "slug": "consolecheats",
       "thumbnail": {},
       "repoUpdatedAt": "2022-10-16T05:23:16Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:36.949Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:50.672Z",
       "viewCount": 11,
       "weeklyViewCount": 2,
       "installCount": 20,
@@ -5069,7 +5069,7 @@
       "author": "Krevace",
       "parent": "Krevace.VoiceMod",
       "downloadUrl": "https://github.com/Krevace/ow-alt-voices-mod/releases/download/0.1.2/Krevace.MoVoicesMod.zip",
-      "downloadCount": 945,
+      "downloadCount": 946,
       "latestReleaseDate": "2023-01-04T21:02:43Z",
       "firstReleaseDate": "2022-10-14T03:20:25Z",
       "repo": "https://github.com/Krevace/ow-alt-voices-mod",
@@ -5079,7 +5079,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Krevace/ow-alt-voices-mod/main/README.md"
       },
       "authorDisplay": "Krevace",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Some suggested that renaming the title of the addon from \"Mo' Voices\" to \"Alternate Voices\" would make it more clear that the addon revoiced characters rather than adding more voices. I agree. \r\n\r\n**Changelog:** [`0.1.1...0.1.2`](https://github.com/Krevace/ow-mo-voices-mod/compare/0.1.1...0.1.2)",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -5089,7 +5089,7 @@
         "main": "alternatevoices.webp"
       },
       "repoUpdatedAt": "2023-01-04T21:37:29Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:37.618Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:51.030Z",
       "viewCount": 36,
       "weeklyViewCount": 10,
       "installCount": 84,
@@ -5102,7 +5102,7 @@
       "author": "FunkyShoeMan",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/FunkyShoeMan/TheWildsExtended/releases/download/v0.2.1/TheWildsExtended.zip",
-      "downloadCount": 405,
+      "downloadCount": 406,
       "latestReleaseDate": "2022-10-15T22:54:09Z",
       "firstReleaseDate": "2022-10-15T04:01:29Z",
       "repo": "https://github.com/FunkyShoeMan/TheWildsExtended",
@@ -5112,7 +5112,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/FunkyShoeMan/TheWildsExtended/main/README.md"
       },
       "authorDisplay": "FunkyShoeMan",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Satorena path mistake\n\ni forgot to update texture paths since i put the textures in a another folder",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5122,7 +5122,7 @@
         "main": "thewildsextended.webp"
       },
       "repoUpdatedAt": "2022-11-03T02:33:23Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:42.893Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:53.990Z",
       "viewCount": 14,
       "weeklyViewCount": 3,
       "installCount": 29,
@@ -5178,7 +5178,7 @@
         "htmlUrl": "https://github.com/TheLoreExplorer/SelfDestructButton/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TheLoreExplorer/SelfDestructButton/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "This time versioning should work....maybe",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -5186,7 +5186,7 @@
       "slug": "shipselfdestructbutton",
       "thumbnail": {},
       "repoUpdatedAt": "2022-11-02T20:16:28Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:37.605Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:48.546Z",
       "viewCount": 13,
       "weeklyViewCount": 0,
       "installCount": 17,
@@ -5199,7 +5199,7 @@
       "author": "FunkyShoeMan",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/FunkyShoeMan/Ernesto-Takeover/releases/download/1.0.1/Ernesto-Takeover-main.zip",
-      "downloadCount": 205,
+      "downloadCount": 207,
       "latestReleaseDate": "2022-11-03T23:48:31Z",
       "firstReleaseDate": "2022-11-03T23:41:23Z",
       "repo": "https://github.com/FunkyShoeMan/Ernesto-Takeover",
@@ -5209,7 +5209,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/FunkyShoeMan/Ernesto-Takeover/main/README.md"
       },
       "authorDisplay": "FunkyShoeMan",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "i have somehow had 3 seprate veirsons in 1 go i have no idea how i'm messing up this horiblby",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5219,7 +5219,7 @@
         "main": "ernestotakeover.webp"
       },
       "repoUpdatedAt": "2022-11-05T03:19:34Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:37.618Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:48.953Z",
       "viewCount": 21,
       "weeklyViewCount": 4,
       "installCount": 23,
@@ -5251,7 +5251,7 @@
       "slug": "dancinwildsventures",
       "thumbnail": {},
       "repoUpdatedAt": "2022-11-17T03:47:47Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:37.606Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:50.672Z",
       "viewCount": 6,
       "weeklyViewCount": 1,
       "installCount": 24,
@@ -5263,7 +5263,7 @@
       "description": "Replaces the Stranger's gravity fields with spin gravity.",
       "author": "Komodo5197",
       "downloadUrl": "https://github.com/Komodo5197/StrangerSpinGravity/releases/download/v1.2.0/Komodo.StrangerSpinGravity.zip",
-      "downloadCount": 261,
+      "downloadCount": 262,
       "latestReleaseDate": "2023-01-27T04:26:24Z",
       "firstReleaseDate": "2022-11-08T08:00:21Z",
       "repo": "https://github.com/Komodo5197/StrangerSpinGravity",
@@ -5272,7 +5272,7 @@
         "htmlUrl": "https://github.com/Komodo5197/StrangerSpinGravity/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Komodo5197/StrangerSpinGravity/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "This release adds centripetal buoyancy adjustments to additional fluid volumes in the Stranger, primarily the diving bell entrance.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -5283,7 +5283,7 @@
         "openGraph": "strangerspingravity-static.webp"
       },
       "repoUpdatedAt": "2023-01-27T04:28:15Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:43.084Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:53.991Z",
       "viewCount": 10,
       "weeklyViewCount": 4,
       "installCount": 22,
@@ -5296,7 +5296,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/DiscordProximityChat/releases/download/0.1.0/BUNN1E5.DiscordProximityChat.zip",
-      "downloadCount": 1688,
+      "downloadCount": 1689,
       "latestReleaseDate": "2022-12-29T01:34:35Z",
       "firstReleaseDate": "2022-11-11T07:12:33Z",
       "repo": "https://github.com/BUNN1E5/DiscordProximityChat",
@@ -5306,7 +5306,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/DiscordProximityChat/master/README.md"
       },
       "authorDisplay": "BUNN1E5",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added more settings, testing HUD Icon Bobbing",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration"
@@ -5317,7 +5317,7 @@
         "openGraph": "discordproximitychat-static.webp"
       },
       "repoUpdatedAt": "2022-12-29T01:13:56Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:43.001Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:54.435Z",
       "viewCount": 120,
       "weeklyViewCount": 39,
       "installCount": 237,
@@ -5358,7 +5358,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/discord/releases/download/1.0.0/O32.Discord.zip",
-      "downloadCount": 263,
+      "downloadCount": 264,
       "latestReleaseDate": "2022-11-14T00:48:55Z",
       "firstReleaseDate": "2022-11-14T00:48:55Z",
       "repo": "https://github.com/RealOrbital32/discord",
@@ -5368,7 +5368,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/discord/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu) and members from the discord modding server",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "A solar system made with love, from the heads of the folks over on the Modding Discord server.",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5378,7 +5378,7 @@
         "main": "iletthevoicesonthediscordservermakebadideasforplanets.webp"
       },
       "repoUpdatedAt": "2022-11-14T00:49:00Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:42.825Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:53.991Z",
       "viewCount": 9,
       "weeklyViewCount": 3,
       "installCount": 32,
@@ -5391,7 +5391,7 @@
       "author": "CantAffordaName",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.SuperWildGalaxy/releases/download/v0.1.0/CantAffordaName.SuperWildGalaxy.zip",
-      "downloadCount": 316,
+      "downloadCount": 318,
       "latestReleaseDate": "2022-11-17T03:22:27Z",
       "firstReleaseDate": "2022-11-17T03:22:27Z",
       "repo": "https://github.com/CantAffordaName/CantAffordaName.SuperWildGalaxy",
@@ -5412,7 +5412,7 @@
         "main": "superwildgalaxy.webp"
       },
       "repoUpdatedAt": "2022-11-17T03:26:54Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:37.618Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:53.991Z",
       "viewCount": 27,
       "weeklyViewCount": 7,
       "installCount": 29,
@@ -5424,7 +5424,7 @@
       "description": "Outer Wilds mod that predicts and visualizes your future trajectory",
       "author": "SkutteOleg",
       "downloadUrl": "https://github.com/SkutteOleg/TrajectoryPrediction/releases/download/v0.6.5/OlegSkutte.TrajectoryPrediction.zip",
-      "downloadCount": 652,
+      "downloadCount": 655,
       "latestReleaseDate": "2023-02-08T20:54:00Z",
       "firstReleaseDate": "2022-11-16T12:54:19Z",
       "repo": "https://github.com/SkutteOleg/TrajectoryPrediction",
@@ -5434,7 +5434,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/SkutteOleg/TrajectoryPrediction/master/README.md"
       },
       "authorDisplay": "Oleg Skutte",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed issues caused by AstroObjects getting disabled (e.g. The Interloper getting absorbed by the sun)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5445,7 +5445,7 @@
         "main": "trajectoryprediction.webp"
       },
       "repoUpdatedAt": "2023-02-08T21:00:17Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:42.893Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:54.615Z",
       "viewCount": 65,
       "weeklyViewCount": 14,
       "installCount": 64,
@@ -5457,7 +5457,7 @@
       "description": "Outer Wilds with chaotic N Body Physics and extra planet interactions. Mix with randomizer for extra chaos.",
       "author": "adrisj7",
       "downloadUrl": "https://github.com/adrisj7/OW_NBodyChaos/releases/download/v1.0.1/TacoTechnica.NBodyChaos.zip",
-      "downloadCount": 347,
+      "downloadCount": 349,
       "latestReleaseDate": "2022-11-18T02:46:05Z",
       "firstReleaseDate": "2022-11-18T00:40:15Z",
       "repo": "https://github.com/adrisj7/OW_NBodyChaos",
@@ -5478,7 +5478,7 @@
         "main": "nbodychaos.webp"
       },
       "repoUpdatedAt": "2023-01-23T18:39:45Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:43.199Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:54.435Z",
       "viewCount": 7,
       "weeklyViewCount": 2,
       "installCount": 46,
@@ -5561,7 +5561,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Solar-Systems-I-Made-as-a-Kid/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- You can now warp to the STS2 system\r\n- Kamika has an updated shiplog",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5571,7 +5571,7 @@
         "main": "solarsystemsimadeasakid.webp"
       },
       "repoUpdatedAt": "2023-01-07T16:29:14Z",
-      "databaseEntryUpdatedAt": "2023-05-09T09:55:42.889Z",
+      "databaseEntryUpdatedAt": "2023-05-09T22:00:54.440Z",
       "viewCount": 10,
       "weeklyViewCount": 4,
       "installCount": 21,
