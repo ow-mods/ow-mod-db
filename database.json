@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 120318
+    "downloadCount": 120320
   },
   "releases": [
     {
@@ -145,8 +145,8 @@
       "databaseEntryUpdatedAt": "2023-05-10T23:12:53.765Z",
       "viewCount": 402,
       "weeklyViewCount": 110,
-      "installCount": 226,
-      "weeklyInstallCount": 66
+      "installCount": 227,
+      "weeklyInstallCount": 67
     },
     {
       "name": "FreeCam",
@@ -401,8 +401,8 @@
       "databaseEntryUpdatedAt": "2023-05-11T02:59:30.902Z",
       "viewCount": 345,
       "weeklyViewCount": 93,
-      "installCount": 167,
-      "weeklyInstallCount": 49
+      "installCount": 168,
+      "weeklyInstallCount": 50
     },
     {
       "name": "Cheat and Debug Menu",
@@ -1136,8 +1136,8 @@
       "databaseEntryUpdatedAt": "2023-05-11T02:59:30.404Z",
       "viewCount": 232,
       "weeklyViewCount": 67,
-      "installCount": 155,
-      "weeklyInstallCount": 38
+      "installCount": 156,
+      "weeklyInstallCount": 39
     },
     {
       "name": "Atropos",
@@ -1710,8 +1710,8 @@
       "databaseEntryUpdatedAt": "2023-05-10T22:38:13.278Z",
       "viewCount": 18,
       "weeklyViewCount": 8,
-      "installCount": 51,
-      "weeklyInstallCount": 15
+      "installCount": 52,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Collider Visualizer",
@@ -2029,8 +2029,8 @@
       "databaseEntryUpdatedAt": "2023-05-10T22:38:13.578Z",
       "viewCount": 33,
       "weeklyViewCount": 10,
-      "installCount": 27,
-      "weeklyInstallCount": 8
+      "installCount": 28,
+      "weeklyInstallCount": 9
     },
     {
       "name": "Grapefruit",
@@ -2137,7 +2137,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.12.0/JohnCorby.VanillaFix.zip",
-      "downloadCount": 19775,
+      "downloadCount": 19821,
       "latestReleaseDate": "2023-05-07T05:25:03Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2146,7 +2146,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix Outsider ship log bug :P",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -2156,11 +2156,11 @@
         "main": "vanillafix.webp"
       },
       "repoUpdatedAt": "2023-05-07T05:24:46Z",
-      "databaseEntryUpdatedAt": "2023-05-10T18:29:40.292Z",
+      "databaseEntryUpdatedAt": "2023-05-11T06:38:55.456Z",
       "viewCount": 303,
       "weeklyViewCount": 115,
-      "installCount": 257,
-      "weeklyInstallCount": 91
+      "installCount": 258,
+      "weeklyInstallCount": 92
     },
     {
       "name": "Only Timber Hearth",
@@ -3881,7 +3881,7 @@
       "description": "Lets you play any sound in the game from the menu",
       "author": "Hawkbat",
       "downloadUrl": "https://github.com/Hawkbat/ow-mod-sound-test/releases/download/0.2.0/Hawkbar.SoundTest.zip",
-      "downloadCount": 165,
+      "downloadCount": 166,
       "latestReleaseDate": "2023-05-03T20:50:42Z",
       "firstReleaseDate": "2022-07-17T20:23:48Z",
       "repo": "https://github.com/Hawkbat/ow-mod-sound-test",
@@ -3890,7 +3890,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-sound-test/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-sound-test/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Sounds can now be stopped at any point and will no longer overlap with each other.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3898,7 +3898,7 @@
       "slug": "soundtest",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-02T16:03:57Z",
-      "databaseEntryUpdatedAt": "2023-05-10T18:29:39.197Z",
+      "databaseEntryUpdatedAt": "2023-05-11T06:38:52.559Z",
       "viewCount": 7,
       "weeklyViewCount": 5,
       "installCount": 10,
@@ -4053,8 +4053,8 @@
       "databaseEntryUpdatedAt": "2023-05-10T22:38:15.556Z",
       "viewCount": 18,
       "weeklyViewCount": 4,
-      "installCount": 5,
-      "weeklyInstallCount": 0
+      "installCount": 6,
+      "weeklyInstallCount": 1
     },
     {
       "name": "Sun Station Ascension",
@@ -4938,7 +4938,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.3.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3914,
+      "downloadCount": 3917,
       "latestReleaseDate": "2023-05-05T04:37:48Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4948,7 +4948,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4959,7 +4959,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2023-05-05T04:41:18Z",
-      "databaseEntryUpdatedAt": "2023-05-10T18:29:40.439Z",
+      "databaseEntryUpdatedAt": "2023-05-11T06:38:55.489Z",
       "viewCount": 66,
       "weeklyViewCount": 29,
       "installCount": 54,
@@ -6987,7 +6987,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6997,7 +6997,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-25T01:07:14Z",
-      "databaseEntryUpdatedAt": "2023-05-10T18:29:40.398Z",
+      "databaseEntryUpdatedAt": "2023-05-11T06:38:55.555Z",
       "viewCount": 14,
       "weeklyViewCount": 1,
       "installCount": 5,
