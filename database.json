@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 120747
+    "downloadCount": 120750
   },
   "releases": [
     {
@@ -77,8 +77,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T17:28:42.565Z",
       "viewCount": 3358,
       "weeklyViewCount": 1016,
-      "installCount": 765,
-      "weeklyInstallCount": 224
+      "installCount": 771,
+      "weeklyInstallCount": 230
     },
     {
       "name": "Quantum Space Buddies",
@@ -114,8 +114,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T13:28:25.731Z",
       "viewCount": 2286,
       "weeklyViewCount": 677,
-      "installCount": 747,
-      "weeklyInstallCount": 251
+      "installCount": 751,
+      "weeklyInstallCount": 255
     },
     {
       "name": "Light Bramble",
@@ -206,8 +206,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:34.911Z",
       "viewCount": 16,
       "weeklyViewCount": 4,
-      "installCount": 38,
-      "weeklyInstallCount": 11
+      "installCount": 39,
+      "weeklyInstallCount": 12
     },
     {
       "name": "Clock",
@@ -334,8 +334,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:45:24.004Z",
       "viewCount": 74,
       "weeklyViewCount": 19,
-      "installCount": 120,
-      "weeklyInstallCount": 34
+      "installCount": 121,
+      "weeklyInstallCount": 35
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -459,8 +459,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:45:25.292Z",
       "viewCount": 414,
       "weeklyViewCount": 114,
-      "installCount": 298,
-      "weeklyInstallCount": 90
+      "installCount": 299,
+      "weeklyInstallCount": 91
     },
     {
       "name": "Difficulty Mod",
@@ -758,8 +758,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:45:25.289Z",
       "viewCount": 14,
       "weeklyViewCount": 9,
-      "installCount": 151,
-      "weeklyInstallCount": 42
+      "installCount": 152,
+      "weeklyInstallCount": 43
     },
     {
       "name": "NomaiVR FFR",
@@ -784,8 +784,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:44.927Z",
       "viewCount": 137,
       "weeklyViewCount": 45,
-      "installCount": 326,
-      "weeklyInstallCount": 105
+      "installCount": 327,
+      "weeklyInstallCount": 106
     },
     {
       "name": "Static Camera",
@@ -914,8 +914,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:45:25.536Z",
       "viewCount": 152,
       "weeklyViewCount": 46,
-      "installCount": 33,
-      "weeklyInstallCount": 3
+      "installCount": 35,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Half-Life Overhaul",
@@ -1071,8 +1071,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T10:25:43.780Z",
       "viewCount": 630,
       "weeklyViewCount": 203,
-      "installCount": 310,
-      "weeklyInstallCount": 97
+      "installCount": 312,
+      "weeklyInstallCount": 99
     },
     {
       "name": "New Horizons Examples",
@@ -1136,8 +1136,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T13:28:25.839Z",
       "viewCount": 231,
       "weeklyViewCount": 73,
-      "installCount": 163,
-      "weeklyInstallCount": 48
+      "installCount": 166,
+      "weeklyInstallCount": 51
     },
     {
       "name": "Atropos",
@@ -1254,8 +1254,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -1269,7 +1269,7 @@
         "main": "hikersmod.webp"
       },
       "repoUpdatedAt": "2023-04-18T13:52:12Z",
-      "databaseEntryUpdatedAt": "2023-05-13T09:25:00.072Z",
+      "databaseEntryUpdatedAt": "2023-05-13T21:30:08.240Z",
       "viewCount": 65,
       "weeklyViewCount": 18,
       "installCount": 63,
@@ -1497,8 +1497,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:43.065Z",
       "viewCount": 85,
       "weeklyViewCount": 25,
-      "installCount": 82,
-      "weeklyInstallCount": 21
+      "installCount": 83,
+      "weeklyInstallCount": 22
     },
     {
       "name": "Vanilla Main Menu",
@@ -1555,8 +1555,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T16:01:48.986Z",
       "viewCount": 156,
       "weeklyViewCount": 78,
-      "installCount": 127,
-      "weeklyInstallCount": 65
+      "installCount": 131,
+      "weeklyInstallCount": 69
     },
     {
       "name": "Astroneer Solar System",
@@ -1618,8 +1618,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:42.907Z",
       "viewCount": 44,
       "weeklyViewCount": 9,
-      "installCount": 68,
-      "weeklyInstallCount": 19
+      "installCount": 69,
+      "weeklyInstallCount": 20
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -1710,8 +1710,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:43.000Z",
       "viewCount": 19,
       "weeklyViewCount": 11,
-      "installCount": 49,
-      "weeklyInstallCount": 15
+      "installCount": 50,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Collider Visualizer",
@@ -1773,8 +1773,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:42.922Z",
       "viewCount": 141,
       "weeklyViewCount": 48,
-      "installCount": 126,
-      "weeklyInstallCount": 49
+      "installCount": 127,
+      "weeklyInstallCount": 50
     },
     {
       "name": "Enter the Warioverse",
@@ -2159,8 +2159,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T19:25:07.231Z",
       "viewCount": 321,
       "weeklyViewCount": 144,
-      "installCount": 278,
-      "weeklyInstallCount": 109
+      "installCount": 280,
+      "weeklyInstallCount": 111
     },
     {
       "name": "Only Timber Hearth",
@@ -2288,8 +2288,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:43.322Z",
       "viewCount": 325,
       "weeklyViewCount": 95,
-      "installCount": 166,
-      "weeklyInstallCount": 52
+      "installCount": 167,
+      "weeklyInstallCount": 53
     },
     {
       "name": "Their Homeworld",
@@ -2595,8 +2595,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:43.530Z",
       "viewCount": 3,
       "weeklyViewCount": 3,
-      "installCount": 6,
-      "weeklyInstallCount": 3
+      "installCount": 7,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Ghost Matter Nerf",
@@ -2689,8 +2689,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:43.582Z",
       "viewCount": 2,
       "weeklyViewCount": 1,
-      "installCount": 3,
-      "weeklyInstallCount": 1
+      "installCount": 4,
+      "weeklyInstallCount": 2
     },
     {
       "name": "No End",
@@ -2843,8 +2843,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T16:01:51.134Z",
       "viewCount": 74,
       "weeklyViewCount": 27,
-      "installCount": 95,
-      "weeklyInstallCount": 27
+      "installCount": 97,
+      "weeklyInstallCount": 29
     },
     {
       "name": "Supernova On Demand",
@@ -3087,8 +3087,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:45:25.442Z",
       "viewCount": 88,
       "weeklyViewCount": 22,
-      "installCount": 70,
-      "weeklyInstallCount": 20
+      "installCount": 73,
+      "weeklyInstallCount": 23
     },
     {
       "name": "Changed Twins",
@@ -3310,8 +3310,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:43.832Z",
       "viewCount": 62,
       "weeklyViewCount": 13,
-      "installCount": 89,
-      "weeklyInstallCount": 28
+      "installCount": 90,
+      "weeklyInstallCount": 29
     },
     {
       "name": "Hatchling Outfitter",
@@ -4205,8 +4205,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T16:02:03.483Z",
       "viewCount": 24,
       "weeklyViewCount": 9,
-      "installCount": 54,
-      "weeklyInstallCount": 19
+      "installCount": 56,
+      "weeklyInstallCount": 21
     },
     {
       "name": "Chargeable Scout Launcher",
@@ -4428,8 +4428,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:44.874Z",
       "viewCount": 1062,
       "weeklyViewCount": 273,
-      "installCount": 371,
-      "weeklyInstallCount": 105
+      "installCount": 376,
+      "weeklyInstallCount": 110
     },
     {
       "name": "Secret Words",
@@ -4896,8 +4896,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:45.077Z",
       "viewCount": 20,
       "weeklyViewCount": 3,
-      "installCount": 41,
-      "weeklyInstallCount": 10
+      "installCount": 42,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Custom Ship Log Modes",
@@ -5189,8 +5189,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:44.812Z",
       "viewCount": 10,
       "weeklyViewCount": 0,
-      "installCount": 18,
-      "weeklyInstallCount": 6
+      "installCount": 19,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Ernesto Takeover",
@@ -5320,8 +5320,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:45.059Z",
       "viewCount": 129,
       "weeklyViewCount": 48,
-      "installCount": 228,
-      "weeklyInstallCount": 79
+      "installCount": 230,
+      "weeklyInstallCount": 81
     },
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
@@ -5448,8 +5448,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T11:07:45.163Z",
       "viewCount": 69,
       "weeklyViewCount": 30,
-      "installCount": 64,
-      "weeklyInstallCount": 23
+      "installCount": 65,
+      "weeklyInstallCount": 24
     },
     {
       "name": "N Body Chaos",
@@ -5513,8 +5513,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T15:35:57.507Z",
       "viewCount": 23,
       "weeklyViewCount": 9,
-      "installCount": 17,
-      "weeklyInstallCount": 3
+      "installCount": 18,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Kerbal Space Ventures",
@@ -5951,8 +5951,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T10:25:43.364Z",
       "viewCount": 21,
       "weeklyViewCount": 5,
-      "installCount": 20,
-      "weeklyInstallCount": 6
+      "installCount": 21,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Stranger Night Cycle",
@@ -5982,8 +5982,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T10:25:41.598Z",
       "viewCount": 14,
       "weeklyViewCount": 5,
-      "installCount": 25,
-      "weeklyInstallCount": 3
+      "installCount": 26,
+      "weeklyInstallCount": 4
     },
     {
       "name": "KSP",
@@ -6201,8 +6201,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T10:25:43.765Z",
       "viewCount": 32,
       "weeklyViewCount": 10,
-      "installCount": 51,
-      "weeklyInstallCount": 16
+      "installCount": 52,
+      "weeklyInstallCount": 17
     },
     {
       "name": "Broken Balance",
@@ -6267,8 +6267,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T10:25:43.764Z",
       "viewCount": 1814,
       "weeklyViewCount": 498,
-      "installCount": 488,
-      "weeklyInstallCount": 126
+      "installCount": 494,
+      "weeklyInstallCount": 132
     },
     {
       "name": "Daylight Savings",
@@ -6894,7 +6894,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6968,8 +6968,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T16:01:51.134Z",
       "viewCount": 147,
       "weeklyViewCount": 30,
-      "installCount": 98,
-      "weeklyInstallCount": 25
+      "installCount": 99,
+      "weeklyInstallCount": 26
     },
     {
       "name": "Mod Data Tools",
@@ -7083,7 +7083,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix:\r\n\r\n- 宇宙飞船日志显示问题\r\n\r\n- 飞船内部GUI小字问题",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7091,7 +7091,7 @@
       "slug": "outerwildschinesefix",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T03:01:34Z",
-      "databaseEntryUpdatedAt": "2023-05-13T09:24:59.162Z",
+      "databaseEntryUpdatedAt": "2023-05-13T21:30:07.244Z",
       "viewCount": 33,
       "weeklyViewCount": 3,
       "installCount": 14,
@@ -7156,8 +7156,8 @@
       "databaseEntryUpdatedAt": "2023-05-13T09:37:13.657Z",
       "viewCount": 173,
       "weeklyViewCount": 65,
-      "installCount": 224,
-      "weeklyInstallCount": 81
+      "installCount": 227,
+      "weeklyInstallCount": 84
     },
     {
       "name": "Ship Ball Pit",
@@ -7290,7 +7290,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.4.3/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 269,
+      "downloadCount": 270,
       "latestReleaseDate": "2023-04-29T05:15:06Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7300,7 +7300,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Add translation of a sentence of Bramble Power Station.\r\n* Some translation fixes.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7308,11 +7308,11 @@
       "slug": "translationfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-29T05:33:30Z",
-      "databaseEntryUpdatedAt": "2023-05-13T09:24:59.963Z",
+      "databaseEntryUpdatedAt": "2023-05-13T21:30:07.245Z",
       "viewCount": 357,
       "weeklyViewCount": 69,
-      "installCount": 181,
-      "weeklyInstallCount": 42
+      "installCount": 183,
+      "weeklyInstallCount": 44
     },
     {
       "name": "Dream World Modding and Debug Assist",
@@ -7329,7 +7329,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "- Reparent warped items on arrival\r\n- Fixed some Prisoner Cell entryway trigger stuff",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7360,7 +7360,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "exist",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
