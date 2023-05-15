@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 120994
+    "downloadCount": 120996
   },
   "releases": [
     {
@@ -374,7 +374,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play!",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.3/Release.0.6.3.zip",
-      "downloadCount": 8601,
+      "downloadCount": 8602,
       "latestReleaseDate": "2023-01-12T00:25:40Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -383,8 +383,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
+      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -398,7 +398,7 @@
         "main": "outerwildsonline.webp"
       },
       "repoUpdatedAt": "2023-03-31T00:59:19Z",
-      "databaseEntryUpdatedAt": "2023-05-15T04:36:05.542Z",
+      "databaseEntryUpdatedAt": "2023-05-15T16:37:35.304Z",
       "viewCount": 352,
       "weeklyViewCount": 98,
       "installCount": 172,
@@ -526,7 +526,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 2394,
+      "downloadCount": 2395,
       "latestReleaseDate": "2021-10-27T19:40:41Z",
       "firstReleaseDate": "2021-10-27T19:40:41Z",
       "repo": "https://github.com/dwatson251/ow-slowtime",
@@ -535,7 +535,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -543,7 +543,7 @@
       "slug": "slowtime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-31T12:21:36Z",
-      "databaseEntryUpdatedAt": "2023-05-15T04:36:01.973Z",
+      "databaseEntryUpdatedAt": "2023-05-15T16:37:34.811Z",
       "viewCount": 50,
       "weeklyViewCount": 20,
       "installCount": 61,
@@ -1535,7 +1535,7 @@
       "description": "Korean re-translation for Outer Wilds",
       "author": "milesand",
       "downloadUrl": "https://github.com/milesand/outer-wilds-korean-translation/releases/download/v1.1.1/OWKT.zip",
-      "downloadCount": 7651,
+      "downloadCount": 7662,
       "latestReleaseDate": "2022-09-24T05:28:30Z",
       "firstReleaseDate": "2022-01-09T06:54:55Z",
       "repo": "https://github.com/milesand/outer-wilds-korean-translation",
@@ -1544,7 +1544,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -1552,7 +1552,7 @@
       "slug": "outerwildskoreantranslation",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-04T15:05:36Z",
-      "databaseEntryUpdatedAt": "2023-05-15T04:36:04.377Z",
+      "databaseEntryUpdatedAt": "2023-05-15T16:37:34.811Z",
       "viewCount": 188,
       "weeklyViewCount": 76,
       "installCount": 151,
@@ -2820,7 +2820,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1646,
+      "downloadCount": 1647,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2829,7 +2829,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2840,7 +2840,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-05-15T04:36:05.538Z",
+      "databaseEntryUpdatedAt": "2023-05-15T16:37:35.776Z",
       "viewCount": 74,
       "weeklyViewCount": 23,
       "installCount": 95,
@@ -4202,7 +4202,7 @@
       "slug": "cutachievements",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:48:07Z",
-      "databaseEntryUpdatedAt": "2023-05-15T04:36:15.620Z",
+      "databaseEntryUpdatedAt": "2023-05-15T16:37:46.510Z",
       "viewCount": 23,
       "weeklyViewCount": 6,
       "installCount": 55,
@@ -5499,7 +5499,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "Incremented version number and included .zip",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -6390,7 +6390,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6402,7 +6402,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-05-15T04:36:05.813Z",
+      "databaseEntryUpdatedAt": "2023-05-15T16:37:35.543Z",
       "viewCount": 13,
       "weeklyViewCount": 4,
       "installCount": 31,
@@ -6946,7 +6946,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.1/VioVayo.HugMod.zip",
-      "downloadCount": 491,
+      "downloadCount": 494,
       "latestReleaseDate": "2023-04-22T20:45:57Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6955,7 +6955,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6965,7 +6965,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-22T20:55:24Z",
-      "databaseEntryUpdatedAt": "2023-05-15T04:36:05.538Z",
+      "databaseEntryUpdatedAt": "2023-05-15T16:37:35.301Z",
       "viewCount": 141,
       "weeklyViewCount": 28,
       "installCount": 99,
@@ -7112,7 +7112,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7120,7 +7120,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-05-15T04:36:04.377Z",
+      "databaseEntryUpdatedAt": "2023-05-15T16:37:35.594Z",
       "viewCount": 56,
       "weeklyViewCount": 6,
       "installCount": 11,
@@ -7289,26 +7289,26 @@
       "description": "Universal translation for The Outsider; EN -> JA, pt-BR, zh-CN (making others are welcoming!)",
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
-      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.4.3/orclecle.TranslationForTheOutsider.zip",
+      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.5.0/orclecle.TranslationForTheOutsider.zip",
       "downloadCount": 280,
-      "latestReleaseDate": "2023-04-29T05:15:06Z",
+      "latestReleaseDate": "2023-05-15T16:16:26Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
-      "version": "v0.4.3",
+      "version": "v0.5.0",
       "readme": {
         "htmlUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "* Add translation of a sentence of Bramble Power Station.\r\n* Some translation fixes.",
+      "latestReleaseDescription": "* ADD EN -> RU translation!!! Thank you, @Korol2038\r\n* Add translation related to Bells.\r\n* Some translation fixes.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
       ],
       "slug": "translationfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-05-15T16:14:27Z",
-      "databaseEntryUpdatedAt": "2023-05-15T16:20:44.536Z",
+      "repoUpdatedAt": "2023-05-15T16:22:21Z",
+      "databaseEntryUpdatedAt": "2023-05-15T16:37:35.601Z",
       "viewCount": 353,
       "weeklyViewCount": 64,
       "installCount": 177,
