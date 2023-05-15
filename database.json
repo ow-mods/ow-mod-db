@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 97981,
+      "downloadCount": 98021,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-04-25T03:43:40Z",
-      "databaseEntryUpdatedAt": "2023-05-15T08:41:46.775Z",
+      "databaseEntryUpdatedAt": "2023-05-15T20:45:39.597Z",
       "viewCount": 792,
       "weeklyViewCount": 270,
       "installCount": 0,
@@ -78,7 +78,7 @@
       "viewCount": 3342,
       "weeklyViewCount": 971,
       "installCount": 777,
-      "weeklyInstallCount": 230
+      "weeklyInstallCount": 231
     },
     {
       "name": "Quantum Space Buddies",
@@ -115,7 +115,7 @@
       "viewCount": 2380,
       "weeklyViewCount": 706,
       "installCount": 784,
-      "weeklyInstallCount": 259
+      "weeklyInstallCount": 263
     },
     {
       "name": "Light Bramble",
@@ -146,7 +146,7 @@
       "viewCount": 414,
       "weeklyViewCount": 120,
       "installCount": 230,
-      "weeklyInstallCount": 72
+      "weeklyInstallCount": 73
     },
     {
       "name": "FreeCam",
@@ -207,7 +207,7 @@
       "viewCount": 16,
       "weeklyViewCount": 3,
       "installCount": 43,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 16
     },
     {
       "name": "Clock",
@@ -243,7 +243,7 @@
       "viewCount": 187,
       "weeklyViewCount": 54,
       "installCount": 241,
-      "weeklyInstallCount": 74
+      "weeklyInstallCount": 76
     },
     {
       "name": "HD Screenshot",
@@ -304,7 +304,7 @@
       "viewCount": 110,
       "weeklyViewCount": 25,
       "installCount": 155,
-      "weeklyInstallCount": 46
+      "weeklyInstallCount": 47
     },
     {
       "name": "ScoutStreaming",
@@ -335,7 +335,7 @@
       "viewCount": 73,
       "weeklyViewCount": 16,
       "installCount": 125,
-      "weeklyInstallCount": 41
+      "weeklyInstallCount": 42
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -460,7 +460,7 @@
       "viewCount": 443,
       "weeklyViewCount": 116,
       "installCount": 301,
-      "weeklyInstallCount": 88
+      "weeklyInstallCount": 89
     },
     {
       "name": "Difficulty Mod",
@@ -547,7 +547,7 @@
       "viewCount": 50,
       "weeklyViewCount": 20,
       "installCount": 62,
-      "weeklyInstallCount": 20
+      "weeklyInstallCount": 21
     },
     {
       "name": "OW Smooth Thrust",
@@ -848,7 +848,7 @@
       "viewCount": 75,
       "weeklyViewCount": 28,
       "installCount": 64,
-      "weeklyInstallCount": 19
+      "weeklyInstallCount": 20
     },
     {
       "name": "EotE Brighter Dreams",
@@ -1209,7 +1209,7 @@
       "description": "Customizable player scale!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.4.0/Owen013.TeenyHatchling.zip",
-      "downloadCount": 1144,
+      "downloadCount": 1145,
       "latestReleaseDate": "2023-04-16T23:33:53Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
@@ -1218,8 +1218,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "### Changes:\r\n* Added stools, which will spawn around the solar system. These stools can help the player use things like the model rocket or other areas where being shorter than normal can make something more difficult. The stool placements are not final, but they should spawn in most locations where they would be needed!\r\n* Revamped config menu.\r\n  * The \"Height %\" and \"Radius %\" settings now represent actual percentages, so a Height % of 100 will make the player be normal height.\r\n* Readded native compatibility with Hiker's Mod via an API. **Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -1233,7 +1233,7 @@
         "main": "smolhatchling.webp"
       },
       "repoUpdatedAt": "2023-04-16T23:31:59Z",
-      "databaseEntryUpdatedAt": "2023-05-15T08:41:45.446Z",
+      "databaseEntryUpdatedAt": "2023-05-15T20:45:38.455Z",
       "viewCount": 42,
       "weeklyViewCount": 10,
       "installCount": 32,
@@ -1273,7 +1273,7 @@
       "viewCount": 69,
       "weeklyViewCount": 14,
       "installCount": 61,
-      "weeklyInstallCount": 16
+      "weeklyInstallCount": 17
     },
     {
       "name": "Outer Wilds Galaxy",
@@ -1338,7 +1338,7 @@
       "viewCount": 47,
       "weeklyViewCount": 9,
       "installCount": 47,
-      "weeklyInstallCount": 8
+      "weeklyInstallCount": 9
     },
     {
       "name": "Save Editor",
@@ -1556,7 +1556,7 @@
       "viewCount": 188,
       "weeklyViewCount": 76,
       "installCount": 153,
-      "weeklyInstallCount": 64
+      "weeklyInstallCount": 66
     },
     {
       "name": "Astroneer Solar System",
@@ -1619,7 +1619,7 @@
       "viewCount": 48,
       "weeklyViewCount": 15,
       "installCount": 69,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 20
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -1774,7 +1774,7 @@
       "viewCount": 149,
       "weeklyViewCount": 56,
       "installCount": 135,
-      "weeklyInstallCount": 50
+      "weeklyInstallCount": 51
     },
     {
       "name": "Enter the Warioverse",
@@ -1835,7 +1835,7 @@
       "viewCount": 68,
       "weeklyViewCount": 15,
       "installCount": 51,
-      "weeklyInstallCount": 16
+      "weeklyInstallCount": 17
     },
     {
       "name": "Medley of Planets",
@@ -2098,7 +2098,7 @@
       "viewCount": 67,
       "weeklyViewCount": 30,
       "installCount": 103,
-      "weeklyInstallCount": 31
+      "weeklyInstallCount": 32
     },
     {
       "name": "Hollodjustment",
@@ -2257,7 +2257,7 @@
       "viewCount": 275,
       "weeklyViewCount": 76,
       "installCount": 60,
-      "weeklyInstallCount": 16
+      "weeklyInstallCount": 17
     },
     {
       "name": "Voice Acting Mod",
@@ -2289,7 +2289,7 @@
       "viewCount": 337,
       "weeklyViewCount": 109,
       "installCount": 167,
-      "weeklyInstallCount": 48
+      "weeklyInstallCount": 49
     },
     {
       "name": "Their Homeworld",
@@ -2565,7 +2565,7 @@
       "viewCount": 28,
       "weeklyViewCount": 6,
       "installCount": 21,
-      "weeklyInstallCount": 2
+      "weeklyInstallCount": 3
     },
     {
       "name": "Sleep Mod",
@@ -2781,7 +2781,7 @@
       "viewCount": 9,
       "weeklyViewCount": 2,
       "installCount": 31,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 7
     },
     {
       "name": "Survive the Supernova",
@@ -3059,7 +3059,7 @@
       "viewCount": 19,
       "weeklyViewCount": 6,
       "installCount": 28,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 13
     },
     {
       "name": "Time Saver",
@@ -3088,7 +3088,7 @@
       "viewCount": 96,
       "weeklyViewCount": 27,
       "installCount": 77,
-      "weeklyInstallCount": 23
+      "weeklyInstallCount": 25
     },
     {
       "name": "Changed Twins",
@@ -3182,7 +3182,7 @@
       "viewCount": 23,
       "weeklyViewCount": 5,
       "installCount": 25,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 13
     },
     {
       "name": "Less Lonely Ship",
@@ -3311,7 +3311,7 @@
       "viewCount": 64,
       "weeklyViewCount": 14,
       "installCount": 90,
-      "weeklyInstallCount": 24
+      "weeklyInstallCount": 26
     },
     {
       "name": "Hatchling Outfitter",
@@ -4237,7 +4237,7 @@
       "viewCount": 3,
       "weeklyViewCount": 0,
       "installCount": 18,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 7
     },
     {
       "name": "(Razer/SteelSeries) RGB Integration",
@@ -4268,7 +4268,7 @@
       "viewCount": 1,
       "weeklyViewCount": 0,
       "installCount": 8,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Europe Times",
@@ -4691,7 +4691,7 @@
         "htmlUrl": "https://github.com/Ciborgm9/Rogue-Planet/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ciborgm9/Rogue-Planet/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Update manifest.json\n\nAdds tags to the mod",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4701,7 +4701,7 @@
         "main": "espiedserenity.webp"
       },
       "repoUpdatedAt": "2023-05-14T20:26:55Z",
-      "databaseEntryUpdatedAt": "2023-05-15T08:41:45.445Z",
+      "databaseEntryUpdatedAt": "2023-05-15T20:45:38.454Z",
       "viewCount": 15,
       "weeklyViewCount": 12,
       "installCount": 11,
@@ -4897,7 +4897,7 @@
       "viewCount": 22,
       "weeklyViewCount": 5,
       "installCount": 44,
-      "weeklyInstallCount": 13
+      "weeklyInstallCount": 14
     },
     {
       "name": "Custom Ship Log Modes",
@@ -4963,7 +4963,7 @@
       "viewCount": 71,
       "weeklyViewCount": 10,
       "installCount": 55,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 19
     },
     {
       "name": "Smallest System in the Galaxy",
@@ -5060,7 +5060,7 @@
       "viewCount": 14,
       "weeklyViewCount": 4,
       "installCount": 21,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "Alternate Voices",
@@ -5449,7 +5449,7 @@
       "viewCount": 73,
       "weeklyViewCount": 32,
       "installCount": 69,
-      "weeklyInstallCount": 23
+      "weeklyInstallCount": 25
     },
     {
       "name": "N Body Chaos",
@@ -5514,7 +5514,7 @@
       "viewCount": 23,
       "weeklyViewCount": 6,
       "installCount": 19,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Kerbal Space Ventures",
@@ -5983,7 +5983,7 @@
       "viewCount": 15,
       "weeklyViewCount": 5,
       "installCount": 30,
-      "weeklyInstallCount": 8
+      "weeklyInstallCount": 9
     },
     {
       "name": "KSP",
@@ -6167,7 +6167,7 @@
       "viewCount": 18,
       "weeklyViewCount": 5,
       "installCount": 49,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 19
     },
     {
       "name": "The Spiral System",
@@ -6268,7 +6268,7 @@
       "viewCount": 1803,
       "weeklyViewCount": 462,
       "installCount": 496,
-      "weeklyInstallCount": 126
+      "weeklyInstallCount": 127
     },
     {
       "name": "Daylight Savings",
@@ -6371,7 +6371,7 @@
       "viewCount": 118,
       "weeklyViewCount": 23,
       "installCount": 57,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 13
     },
     {
       "name": "OW Ventures Scavenger Hunt",
@@ -6441,7 +6441,7 @@
       "viewCount": 177,
       "weeklyViewCount": 40,
       "installCount": 78,
-      "weeklyInstallCount": 18
+      "weeklyInstallCount": 19
     },
     {
       "name": "The Machine",
@@ -6969,7 +6969,7 @@
       "viewCount": 141,
       "weeklyViewCount": 28,
       "installCount": 101,
-      "weeklyInstallCount": 24
+      "weeklyInstallCount": 26
     },
     {
       "name": "Mod Data Tools",
@@ -7252,7 +7252,7 @@
       "viewCount": 54,
       "weeklyViewCount": 9,
       "installCount": 64,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 16
     },
     {
       "name": "Invert Look Controls",
@@ -7312,7 +7312,7 @@
       "viewCount": 353,
       "weeklyViewCount": 64,
       "installCount": 178,
-      "weeklyInstallCount": 38
+      "weeklyInstallCount": 39
     },
     {
       "name": "Dream World Modding and Debug Assist",
@@ -7405,7 +7405,7 @@
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 3,
-      "weeklyInstallCount": 2
+      "weeklyInstallCount": 3
     }
   ],
   "alphaReleases": [
