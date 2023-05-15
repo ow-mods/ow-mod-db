@@ -1760,7 +1760,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ArchaeologistAchievementHelper/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added an `Unnamed` option for the \"Show missing entries\" setting to avoid showing the names of the missing entries (the text \"MISSING ENTRY\" would be shown instead), the `Named` option shows the real name as before.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -1769,8 +1769,8 @@
       "thumbnail": {
         "main": "archaeologistachievementhelper.webp"
       },
-      "repoUpdatedAt": "2022-10-30T19:59:20Z",
-      "databaseEntryUpdatedAt": "2023-05-15T11:40:15.766Z",
+      "repoUpdatedAt": "2023-05-15T15:13:41Z",
+      "databaseEntryUpdatedAt": "2023-05-15T15:17:19.769Z",
       "viewCount": 149,
       "weeklyViewCount": 56,
       "installCount": 134,
@@ -3296,7 +3296,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3306,8 +3306,8 @@
         "main": "suitlog.webp",
         "openGraph": "suitlog-static.webp"
       },
-      "repoUpdatedAt": "2022-10-07T13:24:15Z",
-      "databaseEntryUpdatedAt": "2023-05-15T11:40:17.040Z",
+      "repoUpdatedAt": "2023-05-15T15:09:14Z",
+      "databaseEntryUpdatedAt": "2023-05-15T15:17:19.815Z",
       "viewCount": 64,
       "weeklyViewCount": 14,
       "installCount": 88,
@@ -4906,7 +4906,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.2/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 7453,
+      "downloadCount": 7463,
       "latestReleaseDate": "2023-04-30T04:34:56Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4916,7 +4916,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds a variant of  `ItemListMake`  to the API that takes `bool usePhoto` and `bool useDescField` that can be set independently, instead of just one `bool usePhotoAndDescField`, allowing also the creation of item lists that include only the photo or only the description field (in addition to the possibilities of including both or none).",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4925,8 +4925,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2023-04-30T08:09:43Z",
-      "databaseEntryUpdatedAt": "2023-05-15T11:53:05.682Z",
+      "repoUpdatedAt": "2023-05-15T15:07:37Z",
+      "databaseEntryUpdatedAt": "2023-05-15T15:17:20.000Z",
       "viewCount": 67,
       "weeklyViewCount": 9,
       "installCount": 43,
@@ -4938,7 +4938,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.3.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3946,
+      "downloadCount": 3948,
       "latestReleaseDate": "2023-05-05T04:37:48Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4948,7 +4948,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4958,8 +4958,8 @@
       "thumbnail": {
         "main": "shiplogslidereelplayerplus.webp"
       },
-      "repoUpdatedAt": "2023-05-05T04:41:18Z",
-      "databaseEntryUpdatedAt": "2023-05-15T07:50:12.724Z",
+      "repoUpdatedAt": "2023-05-15T15:14:07Z",
+      "databaseEntryUpdatedAt": "2023-05-15T15:17:19.568Z",
       "viewCount": 71,
       "weeklyViewCount": 10,
       "installCount": 53,
@@ -7380,7 +7380,7 @@
       "description": "Upload your scout snapshots to an album in your Ship Log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.0.0/dgarro.EpicasAlbum.zip",
-      "downloadCount": 0,
+      "downloadCount": 7,
       "latestReleaseDate": "2023-05-15T04:11:44Z",
       "firstReleaseDate": "2023-05-15T04:11:44Z",
       "repo": "https://github.com/dgarroDC/EpicasAlbum",
@@ -7390,7 +7390,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7400,8 +7400,8 @@
       "thumbnail": {
         "main": "picasalbum.webp"
       },
-      "repoUpdatedAt": "2023-05-15T04:13:00Z",
-      "databaseEntryUpdatedAt": "2023-05-15T04:51:35.141Z",
+      "repoUpdatedAt": "2023-05-15T15:05:47Z",
+      "databaseEntryUpdatedAt": "2023-05-15T15:17:19.832Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 2,
