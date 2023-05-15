@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 120979
+    "downloadCount": 120983
   },
   "releases": [
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.0/QSB.zip",
-      "downloadCount": 29475,
+      "downloadCount": 29484,
       "latestReleaseDate": "2023-05-08T14:01:12Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,7 +111,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-05-13T00:35:07Z",
-      "databaseEntryUpdatedAt": "2023-05-15T02:14:22.233Z",
+      "databaseEntryUpdatedAt": "2023-05-15T14:16:55.150Z",
       "viewCount": 2380,
       "weeklyViewCount": 706,
       "installCount": 780,
@@ -1133,7 +1133,7 @@
         "main": "realsolarsystem.webp"
       },
       "repoUpdatedAt": "2023-05-13T00:31:23Z",
-      "databaseEntryUpdatedAt": "2023-05-15T02:14:21.639Z",
+      "databaseEntryUpdatedAt": "2023-05-15T14:16:55.031Z",
       "viewCount": 231,
       "weeklyViewCount": 72,
       "installCount": 163,
@@ -3920,7 +3920,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-localization-utility/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-localization-utility/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- New languages appear in the options slider\r\n- Can replace a language instead of just adding new ones\r\n- Added font size modifier and default font spacing options\r\n- Fixed some errors\r\n\r\nThanks MegaPiggy for contributing these things months ago and then I forgot to make a release haha (oops)",
       "latestPrereleaseDescription": "",
       "tags": [
         "library",
@@ -3929,7 +3929,7 @@
       "slug": "interplanetarypolyglot",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-10T15:42:28Z",
-      "databaseEntryUpdatedAt": "2023-05-15T02:14:21.587Z",
+      "databaseEntryUpdatedAt": "2023-05-15T14:16:54.715Z",
       "viewCount": 7,
       "weeklyViewCount": 3,
       "installCount": 3,
@@ -7290,7 +7290,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.4.3/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 277,
+      "downloadCount": 280,
       "latestReleaseDate": "2023-04-29T05:15:06Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7300,15 +7300,15 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Add translation of a sentence of Bramble Power Station.\r\n* Some translation fixes.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
       ],
       "slug": "translationfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-04-29T05:33:30Z",
-      "databaseEntryUpdatedAt": "2023-05-15T09:53:13.997Z",
+      "repoUpdatedAt": "2023-05-15T14:04:04Z",
+      "databaseEntryUpdatedAt": "2023-05-15T14:16:54.703Z",
       "viewCount": 353,
       "weeklyViewCount": 64,
       "installCount": 177,
