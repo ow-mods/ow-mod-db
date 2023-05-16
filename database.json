@@ -1750,7 +1750,7 @@
       "description": "Marks ship log entries that have missing facts required for the Archaeologist achievement as \"There's more to explore here.\". It also lets you view which facts you haven't revealed!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ArchaeologistAchievementHelper/releases/download/1.3.1/dgarro.ArchaeologistAchievementHelper.zip",
-      "downloadCount": 3269,
+      "downloadCount": 3271,
       "latestReleaseDate": "2022-10-23T04:39:10Z",
       "firstReleaseDate": "2022-01-16T23:16:49Z",
       "repo": "https://github.com/dgarroDC/ArchaeologistAchievementHelper",
@@ -1760,7 +1760,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ArchaeologistAchievementHelper/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added an `Unnamed` option for the \"Show missing entries\" setting to avoid showing the names of the missing entries (the text \"MISSING ENTRY\" would be shown instead), the `Named` option shows the real name as before.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -1770,7 +1770,7 @@
         "main": "archaeologistachievementhelper.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:13:41Z",
-      "databaseEntryUpdatedAt": "2023-05-15T15:17:19.769Z",
+      "databaseEntryUpdatedAt": "2023-05-16T03:26:13.305Z",
       "viewCount": 147,
       "weeklyViewCount": 54,
       "installCount": 130,
@@ -3286,7 +3286,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.5/dgarro.SuitLog.zip",
-      "downloadCount": 2072,
+      "downloadCount": 2073,
       "latestReleaseDate": "2022-10-07T13:24:11Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -3296,7 +3296,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3307,7 +3307,7 @@
         "openGraph": "suitlog-static.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:09:14Z",
-      "databaseEntryUpdatedAt": "2023-05-15T15:17:19.815Z",
+      "databaseEntryUpdatedAt": "2023-05-16T03:26:13.305Z",
       "viewCount": 62,
       "weeklyViewCount": 11,
       "installCount": 88,
@@ -4906,7 +4906,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.2/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 7463,
+      "downloadCount": 7481,
       "latestReleaseDate": "2023-04-30T04:34:56Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4916,7 +4916,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds a variant of  `ItemListMake`  to the API that takes `bool usePhoto` and `bool useDescField` that can be set independently, instead of just one `bool usePhotoAndDescField`, allowing also the creation of item lists that include only the photo or only the description field (in addition to the possibilities of including both or none).",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4926,7 +4926,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:07:37Z",
-      "databaseEntryUpdatedAt": "2023-05-15T15:17:20.000Z",
+      "databaseEntryUpdatedAt": "2023-05-16T03:26:13.593Z",
       "viewCount": 73,
       "weeklyViewCount": 15,
       "installCount": 44,
@@ -4938,7 +4938,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.3.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3948,
+      "downloadCount": 3950,
       "latestReleaseDate": "2023-05-05T04:37:48Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4948,7 +4948,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4959,7 +4959,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:14:07Z",
-      "databaseEntryUpdatedAt": "2023-05-15T15:17:19.568Z",
+      "databaseEntryUpdatedAt": "2023-05-16T03:26:12.991Z",
       "viewCount": 75,
       "weeklyViewCount": 14,
       "installCount": 52,
@@ -7380,7 +7380,7 @@
       "description": "Upload your scout snapshots to an album in your Ship Log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.0.0/dgarro.EpicasAlbum.zip",
-      "downloadCount": 7,
+      "downloadCount": 10,
       "latestReleaseDate": "2023-05-15T04:11:44Z",
       "firstReleaseDate": "2023-05-15T04:11:44Z",
       "repo": "https://github.com/dgarroDC/EpicasAlbum",
@@ -7390,7 +7390,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7401,7 +7401,7 @@
         "main": "picasalbum.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:05:47Z",
-      "databaseEntryUpdatedAt": "2023-05-15T15:17:19.832Z",
+      "databaseEntryUpdatedAt": "2023-05-16T03:26:13.488Z",
       "viewCount": 17,
       "weeklyViewCount": 17,
       "installCount": 6,
