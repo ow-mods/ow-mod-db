@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 121040
+    "downloadCount": 121041
   },
   "releases": [
     {
@@ -334,8 +334,8 @@
       "databaseEntryUpdatedAt": "2023-05-16T00:53:01.301Z",
       "viewCount": 73,
       "weeklyViewCount": 15,
-      "installCount": 124,
-      "weeklyInstallCount": 39
+      "installCount": 125,
+      "weeklyInstallCount": 40
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -666,8 +666,8 @@
       "databaseEntryUpdatedAt": "2023-05-15T23:39:23.550Z",
       "viewCount": 26,
       "weeklyViewCount": 6,
-      "installCount": 51,
-      "weeklyInstallCount": 11
+      "installCount": 52,
+      "weeklyInstallCount": 12
     },
     {
       "name": "Echoes of the Caribbean",
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.0/xen.NewHorizons.zip",
-      "downloadCount": 24337,
+      "downloadCount": 24344,
       "latestReleaseDate": "2023-05-07T20:26:51Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Major features\r\n- Heightmap overhaul!\r\n  - Normal maps (bump maps)\r\n  - Smoothness (gloss) and metallic maps\r\n  - Tiling versions of texture/normal/smoothness/metallic maps for finer up-close detail\r\n  - Blend map that uses the red, green, blue, and alpha channels to control the distribution of 4 tiles respectively, plus a fifth \"base\" tile that appears where the others are absent.\r\n  - Stretch has changed to proper unity coordinates, where y is up.\r\n\r\n## Minor features\r\n- New `CometTail` module replacing the `hasCometTail` field. Allows customizing the colour and scale-over-time of a comet tail.\r\n\r\n## Improvements\r\n- Patched forget frequency method so it will work for those using it on custom signals\r\n- Added `teenager` arc type to translator text. This is a mix between child and adult. It uses the adult mesh but the child texture. Originally used at the window text on Giant's Deep's statue island.\r\n- Generated textures are now cached. this should reduce memory usage (resolves #581)\r\n  - Textures are named by file path and then the effects applied to them, for example `[path] > invert > tint [color]`\r\n- Physics details splash in water like the probe and have the probe's buoyancy.\r\n\r\n## Bug fixes\r\n- Fixed NullReferenceException when spawning vessels with physics\r\n- Fixed SpawnDialogue API method always creating a remote trigger\r\n- Physics details are now affected by tornadoes (resolves #580)\r\n- Stretch now behaves more intuitively (does not divide min/max height by the largest stretch axis) (resolves #551)\r\n- Fix spamming logs with \"Fact ID Not Found\" on system change (resolves #586) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/576**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1067,8 +1067,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-05-15T23:52:42Z",
-      "databaseEntryUpdatedAt": "2023-05-16T00:53:03.170Z",
+      "repoUpdatedAt": "2023-05-16T03:55:38Z",
+      "databaseEntryUpdatedAt": "2023-05-16T04:12:21.741Z",
       "viewCount": 620,
       "weeklyViewCount": 202,
       "installCount": 305,
@@ -1168,8 +1168,8 @@
       "databaseEntryUpdatedAt": "2023-05-15T23:51:57.847Z",
       "viewCount": 93,
       "weeklyViewCount": 20,
-      "installCount": 69,
-      "weeklyInstallCount": 14
+      "installCount": 70,
+      "weeklyInstallCount": 15
     },
     {
       "name": "ElliePlanets!",
@@ -3872,8 +3872,8 @@
       "databaseEntryUpdatedAt": "2023-05-15T23:52:01.718Z",
       "viewCount": 11,
       "weeklyViewCount": 3,
-      "installCount": 21,
-      "weeklyInstallCount": 6
+      "installCount": 22,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Sound Test",
@@ -5286,8 +5286,8 @@
       "databaseEntryUpdatedAt": "2023-05-15T23:39:31.415Z",
       "viewCount": 14,
       "weeklyViewCount": 5,
-      "installCount": 18,
-      "weeklyInstallCount": 5
+      "installCount": 19,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Discord Proximity Chat",
@@ -5381,8 +5381,8 @@
       "databaseEntryUpdatedAt": "2023-05-15T23:39:31.155Z",
       "viewCount": 13,
       "weeklyViewCount": 4,
-      "installCount": 23,
-      "weeklyInstallCount": 5
+      "installCount": 24,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Super Wild Galaxy",
