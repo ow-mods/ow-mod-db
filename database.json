@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 121113
+    "downloadCount": 121116
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -1218,8 +1218,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "### Changes:\r\n* Added stools, which will spawn around the solar system. These stools can help the player use things like the model rocket or other areas where being shorter than normal can make something more difficult. The stool placements are not final, but they should spawn in most locations where they would be needed!\r\n* Revamped config menu.\r\n  * The \"Height %\" and \"Radius %\" settings now represent actual percentages, so a Height % of 100 will make the player be normal height.\r\n* Readded native compatibility with Hiker's Mod via an API. **Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
-      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -4691,7 +4691,7 @@
         "htmlUrl": "https://github.com/Ciborgm9/Rogue-Planet/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ciborgm9/Rogue-Planet/main/README.md"
       },
-      "latestReleaseDescription": "Update manifest.json\n\nAdds tags to the mod",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6894,7 +6894,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6905,7 +6905,7 @@
         "openGraph": "hatchlingicarus-static.webp"
       },
       "repoUpdatedAt": "2023-04-26T04:11:05Z",
-      "databaseEntryUpdatedAt": "2023-05-16T09:33:54.091Z",
+      "databaseEntryUpdatedAt": "2023-05-16T21:34:20.866Z",
       "viewCount": 56,
       "weeklyViewCount": 3,
       "installCount": 11,
@@ -7329,7 +7329,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Reparent warped items on arrival\r\n- Fixed some Prisoner Cell entryway trigger stuff",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7337,7 +7337,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-30T17:37:10Z",
-      "databaseEntryUpdatedAt": "2023-05-16T09:33:54.120Z",
+      "databaseEntryUpdatedAt": "2023-05-16T21:34:20.603Z",
       "viewCount": 88,
       "weeklyViewCount": 17,
       "installCount": 14,
@@ -7350,7 +7350,7 @@
       "author": "bismuthdistrict",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/releases/download/publish/bismuthdistrict.9YearOldSystem.zip",
-      "downloadCount": 86,
+      "downloadCount": 93,
       "latestReleaseDate": "2023-04-22T02:44:00Z",
       "firstReleaseDate": "2023-04-22T02:44:00Z",
       "repo": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem",
@@ -7360,7 +7360,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "exist",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7368,7 +7368,7 @@
       "slug": "9yearoldsystem",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T02:46:02Z",
-      "databaseEntryUpdatedAt": "2023-05-16T09:33:54.095Z",
+      "databaseEntryUpdatedAt": "2023-05-16T21:34:20.602Z",
       "viewCount": 412,
       "weeklyViewCount": 101,
       "installCount": 41,
