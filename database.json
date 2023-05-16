@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 121083
+    "downloadCount": 121084
   },
   "releases": [
     {
@@ -3941,12 +3941,12 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 2887,
+      "downloadCount": 2888,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Updated to latest game version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3954,7 +3954,7 @@
       "slug": "stoptime",
       "thumbnail": {},
       "repoUpdatedAt": "2022-07-25T22:48:24Z",
-      "databaseEntryUpdatedAt": "2023-05-16T02:06:37.663Z",
+      "databaseEntryUpdatedAt": "2023-05-16T14:22:01.361Z",
       "viewCount": 45,
       "weeklyViewCount": 10,
       "installCount": 50,
@@ -7289,26 +7289,26 @@
       "description": "Universal translation for The Outsider; EN -> JA, pt-BR, zh-CN, RU (making others are welcoming!)",
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
-      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.5.0/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 287,
-      "latestReleaseDate": "2023-05-15T16:16:26Z",
+      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.5.1/orclecle.TranslationForTheOutsider.zip",
+      "downloadCount": 293,
+      "latestReleaseDate": "2023-05-16T14:14:22Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
-      "version": "v0.5.0",
+      "version": "v0.5.1",
       "readme": {
         "htmlUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Improve EN -> RU translation. Thank you, @Svetaleet",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
       ],
       "slug": "translationfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-05-16T07:20:13Z",
-      "databaseEntryUpdatedAt": "2023-05-16T07:31:12.580Z",
+      "repoUpdatedAt": "2023-05-16T14:18:31Z",
+      "databaseEntryUpdatedAt": "2023-05-16T14:21:49.003Z",
       "viewCount": 385,
       "weeklyViewCount": 104,
       "installCount": 171,
@@ -7457,7 +7457,7 @@
       "firstReleaseDate": "2022-05-12T12:20:30Z",
       "repo": "https://github.com/ShoosGun/OWAML",
       "version": "v1.0.2",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## What's Changed\r\n* Add Console Port and Socket Listener by @MegaPiggy in https://github.com/ShoosGun/OWAML/pull/2\r\n\r\n\r\n**Full Changelog**: https://github.com/ShoosGun/OWAML/compare/v.1.0.1...v1.0.2",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7465,7 +7465,7 @@
       "slug": "owaml",
       "thumbnail": {},
       "repoUpdatedAt": "2022-10-23T20:16:36Z",
-      "databaseEntryUpdatedAt": "2023-05-16T02:06:53.312Z",
+      "databaseEntryUpdatedAt": "2023-05-16T14:22:16.981Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
