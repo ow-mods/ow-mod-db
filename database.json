@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 121190
+    "downloadCount": 121191
   },
   "releases": [
     {
@@ -1750,7 +1750,7 @@
       "description": "Marks ship log entries that have missing facts required for the Archaeologist achievement as \"There's more to explore here.\". It also lets you view which facts you haven't revealed!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ArchaeologistAchievementHelper/releases/download/1.3.1/dgarro.ArchaeologistAchievementHelper.zip",
-      "downloadCount": 3276,
+      "downloadCount": 3278,
       "latestReleaseDate": "2022-10-23T04:39:10Z",
       "firstReleaseDate": "2022-01-16T23:16:49Z",
       "repo": "https://github.com/dgarroDC/ArchaeologistAchievementHelper",
@@ -1760,7 +1760,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ArchaeologistAchievementHelper/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added an `Unnamed` option for the \"Show missing entries\" setting to avoid showing the names of the missing entries (the text \"MISSING ENTRY\" would be shown instead), the `Named` option shows the real name as before.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -1770,7 +1770,7 @@
         "main": "archaeologistachievementhelper.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:13:41Z",
-      "databaseEntryUpdatedAt": "2023-05-17T03:47:28.949Z",
+      "databaseEntryUpdatedAt": "2023-05-17T15:52:28.468Z",
       "viewCount": 150,
       "weeklyViewCount": 49,
       "installCount": 132,
@@ -3286,7 +3286,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.5/dgarro.SuitLog.zip",
-      "downloadCount": 2076,
+      "downloadCount": 2077,
       "latestReleaseDate": "2022-10-07T13:24:11Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -3296,7 +3296,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3307,7 +3307,7 @@
         "openGraph": "suitlog-static.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:09:14Z",
-      "databaseEntryUpdatedAt": "2023-05-17T03:47:29.073Z",
+      "databaseEntryUpdatedAt": "2023-05-17T15:52:28.861Z",
       "viewCount": 60,
       "weeklyViewCount": 14,
       "installCount": 89,
@@ -4906,7 +4906,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.2/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 7508,
+      "downloadCount": 7515,
       "latestReleaseDate": "2023-04-30T04:34:56Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4916,7 +4916,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds a variant of  `ItemListMake`  to the API that takes `bool usePhoto` and `bool useDescField` that can be set independently, instead of just one `bool usePhotoAndDescField`, allowing also the creation of item lists that include only the photo or only the description field (in addition to the possibilities of including both or none).",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4926,7 +4926,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:07:37Z",
-      "databaseEntryUpdatedAt": "2023-05-17T03:47:29.381Z",
+      "databaseEntryUpdatedAt": "2023-05-17T15:52:29.256Z",
       "viewCount": 77,
       "weeklyViewCount": 19,
       "installCount": 47,
@@ -4938,7 +4938,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.3.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 3957,
+      "downloadCount": 3958,
       "latestReleaseDate": "2023-05-05T04:37:48Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4948,7 +4948,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4959,7 +4959,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:14:07Z",
-      "databaseEntryUpdatedAt": "2023-05-17T03:47:29.081Z",
+      "databaseEntryUpdatedAt": "2023-05-17T15:52:28.861Z",
       "viewCount": 78,
       "weeklyViewCount": 14,
       "installCount": 59,
