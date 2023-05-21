@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 98541,
+      "downloadCount": 98581,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2023-05-21T14:04:23Z",
-      "databaseEntryUpdatedAt": "2023-05-21T14:13:53.336Z",
+      "repoUpdatedAt": "2023-05-21T23:35:55Z",
+      "databaseEntryUpdatedAt": "2023-05-21T23:37:20.520Z",
       "viewCount": 809,
       "weeklyViewCount": 237,
       "installCount": 0,
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
-      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -283,7 +283,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 20704,
+      "downloadCount": 20722,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -292,7 +292,7 @@
         "htmlUrl": "https://github.com/misternebula/MenuFramework/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/MenuFramework/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added functionality to add custom startup popups.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -300,7 +300,7 @@
       "slug": "menuframework",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-20T23:13:38Z",
-      "databaseEntryUpdatedAt": "2023-05-21T11:35:02.660Z",
+      "databaseEntryUpdatedAt": "2023-05-21T23:37:18.654Z",
       "viewCount": 112,
       "weeklyViewCount": 30,
       "installCount": 158,
@@ -7390,7 +7390,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds a vertical scrollbar to the UI for better visual feedback when navigating the photos. Also a slight color adjustment.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
