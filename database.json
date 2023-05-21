@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 121702
+    "downloadCount": 121703
   },
   "releases": [
     {
@@ -78,7 +78,7 @@
       "viewCount": 3186,
       "weeklyViewCount": 684,
       "installCount": 779,
-      "weeklyInstallCount": 215
+      "weeklyInstallCount": 218
     },
     {
       "name": "Quantum Space Buddies",
@@ -115,7 +115,7 @@
       "viewCount": 2316,
       "weeklyViewCount": 612,
       "installCount": 767,
-      "weeklyInstallCount": 196
+      "weeklyInstallCount": 201
     },
     {
       "name": "Light Bramble",
@@ -146,7 +146,7 @@
       "viewCount": 396,
       "weeklyViewCount": 93,
       "installCount": 220,
-      "weeklyInstallCount": 55
+      "weeklyInstallCount": 56
     },
     {
       "name": "FreeCam",
@@ -178,7 +178,7 @@
       "viewCount": 172,
       "weeklyViewCount": 55,
       "installCount": 108,
-      "weeklyInstallCount": 20
+      "weeklyInstallCount": 21
     },
     {
       "name": "Crouch Mod",
@@ -243,7 +243,7 @@
       "viewCount": 193,
       "weeklyViewCount": 57,
       "installCount": 238,
-      "weeklyInstallCount": 57
+      "weeklyInstallCount": 58
     },
     {
       "name": "HD Screenshot",
@@ -304,7 +304,7 @@
       "viewCount": 112,
       "weeklyViewCount": 30,
       "installCount": 158,
-      "weeklyInstallCount": 36
+      "weeklyInstallCount": 37
     },
     {
       "name": "ScoutStreaming",
@@ -431,7 +431,7 @@
       "viewCount": 258,
       "weeklyViewCount": 72,
       "installCount": 107,
-      "weeklyInstallCount": 20
+      "weeklyInstallCount": 21
     },
     {
       "name": "Cheats Mod",
@@ -460,7 +460,7 @@
       "viewCount": 470,
       "weeklyViewCount": 155,
       "installCount": 306,
-      "weeklyInstallCount": 73
+      "weeklyInstallCount": 75
     },
     {
       "name": "Difficulty Mod",
@@ -518,7 +518,7 @@
       "viewCount": 70,
       "weeklyViewCount": 25,
       "installCount": 67,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "SlowTime",
@@ -729,7 +729,7 @@
       "viewCount": 206,
       "weeklyViewCount": 45,
       "installCount": 66,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "NomaiVR Online Patches",
@@ -785,7 +785,7 @@
       "viewCount": 135,
       "weeklyViewCount": 31,
       "installCount": 348,
-      "weeklyInstallCount": 99
+      "weeklyInstallCount": 101
     },
     {
       "name": "Static Camera",
@@ -1046,7 +1046,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.0/xen.NewHorizons.zip",
-      "downloadCount": 24491,
+      "downloadCount": 24500,
       "latestReleaseDate": "2023-05-07T20:26:51Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Major features\r\n- Heightmap overhaul!\r\n  - Normal maps (bump maps)\r\n  - Smoothness (gloss) and metallic maps\r\n  - Tiling versions of texture/normal/smoothness/metallic maps for finer up-close detail\r\n  - Blend map that uses the red, green, blue, and alpha channels to control the distribution of 4 tiles respectively, plus a fifth \"base\" tile that appears where the others are absent.\r\n  - Stretch has changed to proper unity coordinates, where y is up.\r\n\r\n## Minor features\r\n- New `CometTail` module replacing the `hasCometTail` field. Allows customizing the colour and scale-over-time of a comet tail.\r\n\r\n## Improvements\r\n- Patched forget frequency method so it will work for those using it on custom signals\r\n- Added `teenager` arc type to translator text. This is a mix between child and adult. It uses the adult mesh but the child texture. Originally used at the window text on Giant's Deep's statue island.\r\n- Generated textures are now cached. this should reduce memory usage (resolves #581)\r\n  - Textures are named by file path and then the effects applied to them, for example `[path] > invert > tint [color]`\r\n- Physics details splash in water like the probe and have the probe's buoyancy.\r\n\r\n## Bug fixes\r\n- Fixed NullReferenceException when spawning vessels with physics\r\n- Fixed SpawnDialogue API method always creating a remote trigger\r\n- Physics details are now affected by tornadoes (resolves #580)\r\n- Stretch now behaves more intuitively (does not divide min/max height by the largest stretch axis) (resolves #551)\r\n- Fix spamming logs with \"Fact ID Not Found\" on system change (resolves #586) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/576**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,11 +1068,11 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-05-16T03:55:38Z",
-      "databaseEntryUpdatedAt": "2023-05-21T05:40:38.681Z",
+      "databaseEntryUpdatedAt": "2023-05-21T17:50:36.565Z",
       "viewCount": 610,
       "weeklyViewCount": 138,
       "installCount": 309,
-      "weeklyInstallCount": 75
+      "weeklyInstallCount": 77
     },
     {
       "name": "New Horizons Examples",
@@ -1105,7 +1105,7 @@
       "viewCount": 189,
       "weeklyViewCount": 75,
       "installCount": 45,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 13
     },
     {
       "name": "Real Solar System",
@@ -1429,7 +1429,7 @@
       "viewCount": 26,
       "weeklyViewCount": 9,
       "installCount": 19,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "TARDIS from Doctor Who",
@@ -1556,7 +1556,7 @@
       "viewCount": 196,
       "weeklyViewCount": 74,
       "installCount": 184,
-      "weeklyInstallCount": 71
+      "weeklyInstallCount": 72
     },
     {
       "name": "Astroneer Solar System",
@@ -1680,7 +1680,7 @@
       "viewCount": 27,
       "weeklyViewCount": 11,
       "installCount": 83,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "Outer Wilds Music Player",
@@ -1711,7 +1711,7 @@
       "viewCount": 25,
       "weeklyViewCount": 9,
       "installCount": 63,
-      "weeklyInstallCount": 22
+      "weeklyInstallCount": 23
     },
     {
       "name": "Collider Visualizer",
@@ -2098,7 +2098,7 @@
       "viewCount": 75,
       "weeklyViewCount": 29,
       "installCount": 102,
-      "weeklyInstallCount": 23
+      "weeklyInstallCount": 25
     },
     {
       "name": "Hollodjustment",
@@ -2289,7 +2289,7 @@
       "viewCount": 355,
       "weeklyViewCount": 114,
       "installCount": 176,
-      "weeklyInstallCount": 46
+      "weeklyInstallCount": 47
     },
     {
       "name": "Their Homeworld",
@@ -3151,7 +3151,7 @@
       "viewCount": 32,
       "weeklyViewCount": 14,
       "installCount": 38,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 13
     },
     {
       "name": "Outer Wilds Traditional Chinese Translation",
@@ -3403,7 +3403,7 @@
       "viewCount": 42,
       "weeklyViewCount": 13,
       "installCount": 55,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "Better Model Ship",
@@ -3587,7 +3587,7 @@
       "viewCount": 5,
       "weeklyViewCount": 2,
       "installCount": 10,
-      "weeklyInstallCount": 2
+      "weeklyInstallCount": 3
     },
     {
       "name": "Upsilon Andromedae",
@@ -4394,7 +4394,7 @@
       "viewCount": 3,
       "weeklyViewCount": 1,
       "installCount": 21,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "The Vision",
@@ -4864,7 +4864,7 @@
       "viewCount": 80,
       "weeklyViewCount": 9,
       "installCount": 62,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 16
     },
     {
       "name": "Scout Teleporter",
@@ -4930,7 +4930,7 @@
       "viewCount": 90,
       "weeklyViewCount": 30,
       "installCount": 48,
-      "weeklyInstallCount": 9
+      "weeklyInstallCount": 10
     },
     {
       "name": "Ship Log Slide Reel Player Plus",
@@ -4963,7 +4963,7 @@
       "viewCount": 84,
       "weeklyViewCount": 18,
       "installCount": 57,
-      "weeklyInstallCount": 18
+      "weeklyInstallCount": 19
     },
     {
       "name": "Smallest System in the Galaxy",
@@ -5287,7 +5287,7 @@
       "viewCount": 18,
       "weeklyViewCount": 4,
       "installCount": 22,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "Discord Proximity Chat",
@@ -5952,7 +5952,7 @@
       "viewCount": 16,
       "weeklyViewCount": 3,
       "installCount": 19,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "Stranger Night Cycle",
@@ -6681,7 +6681,7 @@
       "viewCount": 119,
       "weeklyViewCount": 22,
       "installCount": 64,
-      "weeklyInstallCount": 11
+      "weeklyInstallCount": 12
     },
     {
       "name": "Celestial Leeway",
@@ -7157,7 +7157,7 @@
       "viewCount": 183,
       "weeklyViewCount": 48,
       "installCount": 224,
-      "weeklyInstallCount": 58
+      "weeklyInstallCount": 59
     },
     {
       "name": "Ship Ball Pit",
@@ -7372,7 +7372,7 @@
       "viewCount": 456,
       "weeklyViewCount": 76,
       "installCount": 51,
-      "weeklyInstallCount": 11
+      "weeklyInstallCount": 12
     },
     {
       "name": "Épicas Album",
