@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 121786
+    "downloadCount": 121788
   },
   "releases": [
     {
@@ -374,7 +374,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play!",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.3/Release.0.6.3.zip",
-      "downloadCount": 8667,
+      "downloadCount": 8673,
       "latestReleaseDate": "2023-01-12T00:25:40Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -383,8 +383,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
+      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -398,7 +398,7 @@
         "main": "outerwildsonline.webp"
       },
       "repoUpdatedAt": "2023-03-31T00:59:19Z",
-      "databaseEntryUpdatedAt": "2023-05-22T06:39:24.437Z",
+      "databaseEntryUpdatedAt": "2023-05-22T18:49:14.890Z",
       "viewCount": 341,
       "weeklyViewCount": 87,
       "installCount": 161,
@@ -535,7 +535,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -543,7 +543,7 @@
       "slug": "slowtime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-31T12:21:36Z",
-      "databaseEntryUpdatedAt": "2023-05-22T06:39:23.464Z",
+      "databaseEntryUpdatedAt": "2023-05-22T18:49:14.171Z",
       "viewCount": 49,
       "weeklyViewCount": 16,
       "installCount": 67,
@@ -1535,7 +1535,7 @@
       "description": "Korean re-translation for Outer Wilds",
       "author": "milesand",
       "downloadUrl": "https://github.com/milesand/outer-wilds-korean-translation/releases/download/v1.1.1/OWKT.zip",
-      "downloadCount": 7734,
+      "downloadCount": 7740,
       "latestReleaseDate": "2022-09-24T05:28:30Z",
       "firstReleaseDate": "2022-01-09T06:54:55Z",
       "repo": "https://github.com/milesand/outer-wilds-korean-translation",
@@ -1544,7 +1544,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -1552,7 +1552,7 @@
       "slug": "outerwildskoreantranslation",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-04T15:05:36Z",
-      "databaseEntryUpdatedAt": "2023-05-22T06:39:23.465Z",
+      "databaseEntryUpdatedAt": "2023-05-22T18:49:14.172Z",
       "viewCount": 193,
       "weeklyViewCount": 66,
       "installCount": 184,
@@ -2829,7 +2829,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2840,7 +2840,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-05-22T06:39:24.580Z",
+      "databaseEntryUpdatedAt": "2023-05-22T18:49:14.888Z",
       "viewCount": 72,
       "weeklyViewCount": 17,
       "installCount": 91,
@@ -4202,7 +4202,7 @@
       "slug": "cutachievements",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:48:07Z",
-      "databaseEntryUpdatedAt": "2023-05-22T06:39:36.771Z",
+      "databaseEntryUpdatedAt": "2023-05-22T18:49:28.245Z",
       "viewCount": 28,
       "weeklyViewCount": 8,
       "installCount": 51,
@@ -5499,7 +5499,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "Incremented version number and included .zip",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -6390,7 +6390,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6402,7 +6402,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-05-22T06:39:24.395Z",
+      "databaseEntryUpdatedAt": "2023-05-22T18:49:15.378Z",
       "viewCount": 16,
       "weeklyViewCount": 6,
       "installCount": 33,
@@ -6955,7 +6955,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6965,7 +6965,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-22T20:55:24Z",
-      "databaseEntryUpdatedAt": "2023-05-22T06:39:24.655Z",
+      "databaseEntryUpdatedAt": "2023-05-22T18:49:15.734Z",
       "viewCount": 131,
       "weeklyViewCount": 31,
       "installCount": 97,
@@ -7112,7 +7112,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7120,7 +7120,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-05-22T06:39:24.500Z",
+      "databaseEntryUpdatedAt": "2023-05-22T18:49:14.887Z",
       "viewCount": 37,
       "weeklyViewCount": 8,
       "installCount": 10,
