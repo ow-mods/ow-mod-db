@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 121948
+    "downloadCount": 121950
   },
   "releases": [
     {
@@ -95,8 +95,8 @@
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
-      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
-      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -1056,7 +1056,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- Heightmap overhaul!\r\n  - Normal maps (bump maps)\r\n  - Smoothness (gloss) and metallic maps\r\n  - Tiling versions of texture/normal/smoothness/metallic maps for finer up-close detail\r\n  - Blend map that uses the red, green, blue, and alpha channels to control the distribution of 4 tiles respectively, plus a fifth \"base\" tile that appears where the others are absent.\r\n  - Stretch has changed to proper unity coordinates, where y is up.\r\n\r\n## Minor features\r\n- New `CometTail` module replacing the `hasCometTail` field. Allows customizing the colour and scale-over-time of a comet tail.\r\n\r\n## Improvements\r\n- Patched forget frequency method so it will work for those using it on custom signals\r\n- Added `teenager` arc type to translator text. This is a mix between child and adult. It uses the adult mesh but the child texture. Originally used at the window text on Giant's Deep's statue island.\r\n- Generated textures are now cached. this should reduce memory usage (resolves #581)\r\n  - Textures are named by file path and then the effects applied to them, for example `[path] > invert > tint [color]`\r\n- Physics details splash in water like the probe and have the probe's buoyancy.\r\n\r\n## Bug fixes\r\n- Fixed NullReferenceException when spawning vessels with physics\r\n- Fixed SpawnDialogue API method always creating a remote trigger\r\n- Physics details are now affected by tornadoes (resolves #580)\r\n- Stretch now behaves more intuitively (does not divide min/max height by the largest stretch axis) (resolves #551)\r\n- Fix spamming logs with \"Fact ID Not Found\" on system change (resolves #586) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/576**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -5499,7 +5499,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5510,7 +5510,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-05-23T06:41:55.756Z",
+      "databaseEntryUpdatedAt": "2023-05-23T18:43:08.442Z",
       "viewCount": 17,
       "weeklyViewCount": 1,
       "installCount": 16,
