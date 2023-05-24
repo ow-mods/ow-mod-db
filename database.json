@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 122028
+    "downloadCount": 122029
   },
   "releases": [
     {
@@ -2821,7 +2821,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1681,
+      "downloadCount": 1683,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2830,7 +2830,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2841,7 +2841,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-05-23T18:55:25.344Z",
+      "databaseEntryUpdatedAt": "2023-05-24T06:56:48.176Z",
       "viewCount": 64,
       "weeklyViewCount": 17,
       "installCount": 91,
@@ -5500,7 +5500,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "Incremented version number and included .zip",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -6381,7 +6381,7 @@
       "author": "coderCleric",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/coderCleric/Scavenger_Hunt/releases/download/v1.0.1/Scavenger_Hunt.zip",
-      "downloadCount": 278,
+      "downloadCount": 280,
       "latestReleaseDate": "2023-03-27T23:57:45Z",
       "firstReleaseDate": "2023-01-21T21:28:39Z",
       "repo": "https://github.com/coderCleric/Scavenger_Hunt",
@@ -6391,7 +6391,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6403,7 +6403,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-05-23T18:55:24.821Z",
+      "databaseEntryUpdatedAt": "2023-05-24T06:56:48.695Z",
       "viewCount": 17,
       "weeklyViewCount": 7,
       "installCount": 32,
@@ -6947,7 +6947,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.1/VioVayo.HugMod.zip",
-      "downloadCount": 523,
+      "downloadCount": 525,
       "latestReleaseDate": "2023-04-22T20:45:57Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6956,7 +6956,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6966,7 +6966,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-22T20:55:24Z",
-      "databaseEntryUpdatedAt": "2023-05-23T18:55:25.567Z",
+      "databaseEntryUpdatedAt": "2023-05-24T06:56:49.068Z",
       "viewCount": 122,
       "weeklyViewCount": 27,
       "installCount": 95,
@@ -7113,7 +7113,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7121,7 +7121,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-05-23T18:55:24.821Z",
+      "databaseEntryUpdatedAt": "2023-05-24T06:56:48.173Z",
       "viewCount": 32,
       "weeklyViewCount": 8,
       "installCount": 9,
