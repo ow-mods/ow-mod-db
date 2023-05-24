@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 122092
+    "downloadCount": 122096
   },
   "releases": [
     {
@@ -6895,7 +6895,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6906,7 +6906,7 @@
         "openGraph": "hatchlingicarus-static.webp"
       },
       "repoUpdatedAt": "2023-04-26T04:11:05Z",
-      "databaseEntryUpdatedAt": "2023-05-24T10:59:46.162Z",
+      "databaseEntryUpdatedAt": "2023-05-24T23:18:24.048Z",
       "viewCount": 55,
       "weeklyViewCount": 3,
       "installCount": 9,
@@ -7330,7 +7330,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Reparent warped items on arrival\r\n- Fixed some Prisoner Cell entryway trigger stuff",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7338,7 +7338,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-30T17:37:10Z",
-      "databaseEntryUpdatedAt": "2023-05-24T10:59:45.742Z",
+      "databaseEntryUpdatedAt": "2023-05-24T23:18:24.640Z",
       "viewCount": 51,
       "weeklyViewCount": 3,
       "installCount": 10,
@@ -7361,7 +7361,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "exist",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7369,7 +7369,7 @@
       "slug": "9yearoldsystem",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T02:46:02Z",
-      "databaseEntryUpdatedAt": "2023-05-24T10:59:45.740Z",
+      "databaseEntryUpdatedAt": "2023-05-24T23:18:23.891Z",
       "viewCount": 399,
       "weeklyViewCount": 70,
       "installCount": 43,
