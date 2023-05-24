@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 122029
+    "downloadCount": 122030
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 98715,
+      "downloadCount": 98764,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-05-23T19:02:03Z",
-      "databaseEntryUpdatedAt": "2023-05-23T19:14:57.405Z",
+      "databaseEntryUpdatedAt": "2023-05-24T07:16:43.461Z",
       "viewCount": 798,
       "weeklyViewCount": 200,
       "installCount": 0,
@@ -375,7 +375,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play!",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.3/Release.0.6.3.zip",
-      "downloadCount": 8680,
+      "downloadCount": 8689,
       "latestReleaseDate": "2023-01-12T00:25:40Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -384,8 +384,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
+      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -399,7 +399,7 @@
         "main": "outerwildsonline.webp"
       },
       "repoUpdatedAt": "2023-03-31T00:59:19Z",
-      "databaseEntryUpdatedAt": "2023-05-23T19:14:55.944Z",
+      "databaseEntryUpdatedAt": "2023-05-24T07:16:42.297Z",
       "viewCount": 342,
       "weeklyViewCount": 74,
       "installCount": 158,
@@ -527,7 +527,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 2416,
+      "downloadCount": 2417,
       "latestReleaseDate": "2021-10-27T19:40:41Z",
       "firstReleaseDate": "2021-10-27T19:40:41Z",
       "repo": "https://github.com/dwatson251/ow-slowtime",
@@ -536,7 +536,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -544,7 +544,7 @@
       "slug": "slowtime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-31T12:21:36Z",
-      "databaseEntryUpdatedAt": "2023-05-23T19:14:53.723Z",
+      "databaseEntryUpdatedAt": "2023-05-24T07:16:40.896Z",
       "viewCount": 53,
       "weeklyViewCount": 15,
       "installCount": 62,
@@ -1536,7 +1536,7 @@
       "description": "Korean re-translation for Outer Wilds",
       "author": "milesand",
       "downloadUrl": "https://github.com/milesand/outer-wilds-korean-translation/releases/download/v1.1.1/OWKT.zip",
-      "downloadCount": 7746,
+      "downloadCount": 7748,
       "latestReleaseDate": "2022-09-24T05:28:30Z",
       "firstReleaseDate": "2022-01-09T06:54:55Z",
       "repo": "https://github.com/milesand/outer-wilds-korean-translation",
@@ -1545,7 +1545,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -1553,7 +1553,7 @@
       "slug": "outerwildskoreantranslation",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-04T15:05:36Z",
-      "databaseEntryUpdatedAt": "2023-05-23T19:14:53.723Z",
+      "databaseEntryUpdatedAt": "2023-05-24T07:16:42.004Z",
       "viewCount": 196,
       "weeklyViewCount": 48,
       "installCount": 178,
@@ -2830,7 +2830,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4190,7 +4190,7 @@
       "author": "misternebula",
       "parent": "xen.AchievementTracker",
       "downloadUrl": "https://github.com/misternebula/cut-achievements/releases/download/1.0.0/CutAchievements.zip",
-      "downloadCount": 589,
+      "downloadCount": 591,
       "latestReleaseDate": "2022-08-23T22:28:07Z",
       "firstReleaseDate": "2022-08-23T22:28:07Z",
       "repo": "https://github.com/misternebula/cut-achievements",
@@ -4203,7 +4203,7 @@
       "slug": "cutachievements",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:48:07Z",
-      "databaseEntryUpdatedAt": "2023-05-23T19:15:06.651Z",
+      "databaseEntryUpdatedAt": "2023-05-24T07:16:54.285Z",
       "viewCount": 27,
       "weeklyViewCount": 10,
       "installCount": 51,
@@ -6391,7 +6391,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6956,7 +6956,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7113,7 +7113,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
