@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 122064
+    "downloadCount": 122065
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 98792,
+      "downloadCount": 98793,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2023-05-24T16:40:43Z",
-      "databaseEntryUpdatedAt": "2023-05-24T16:42:18.215Z",
+      "repoUpdatedAt": "2023-05-24T16:46:57Z",
+      "databaseEntryUpdatedAt": "2023-05-24T16:54:56.533Z",
       "viewCount": 807,
       "weeklyViewCount": 209,
       "installCount": 0,
@@ -165,7 +165,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/FreeCam/master/README.md"
       },
       "authorDisplay": "_nebula & xen",
-      "latestReleaseDescription": "## Features:\r\n- Added on-screen prompts for all controls (can be hidden in the options menu)\r\n- Added new key (\") to toggle hiding the HUD (good for screenshots!)\r\n\r\n## Fixes:\r\n- Removed helmet toggle key since it does nothing now (CCU handles this).\r\n- Fixed a bug which locked your controls if you used FreeCam while in a projection pool.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -322,7 +322,7 @@
         "htmlUrl": "https://github.com/Vesper-Works/Scout-Streaming/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Scout-Streaming/master/README.md"
       },
-      "latestReleaseDescription": "Fixed NH log bug",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -449,7 +449,7 @@
         "htmlUrl": "https://github.com/PacificEngine/OW_CheatsMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_CheatsMod/main/README.md"
       },
-      "latestReleaseDescription": "## What's Changed\r\n- Added ability to log the current state of Player Position, Bramble Portals, and Warp Pads\r\n\r\n**Full Changelog**: https://github.com/PacificEngine/OW_CheatsMod/compare/0.7.3...0.7.4",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -478,7 +478,7 @@
         "htmlUrl": "https://github.com/PacificEngine/OW_HardMode/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_HardMode/main/README.md"
       },
-      "latestReleaseDescription": "## What's Changed\r\n- Some build updates\r\n\r\n**Full Changelog**: https://github.com/PacificEngine/OW_HardMode/compare/0.5.1...0.5.2",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -594,7 +594,7 @@
         "htmlUrl": "https://github.com/PacificEngine/OW_Randomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_Randomizer/main/README.md"
       },
-      "latestReleaseDescription": "## What's Changed\r\n- Some build updates\r\n\r\n**Full Changelog**: https://github.com/PacificEngine/OW_Randomizer/compare/0.7.6...0.7.7",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -627,7 +627,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/OW_CommonResources/main/README.md"
       },
       "authorDisplay": "PacificEngine",
-      "latestReleaseDescription": "## What's Changed\r\n- Updated `OuterWildsGameLibs` to fix bugs with OW Patch 13, particularly in  Cheats Mod with resources like health and fuel cheats not working.\r\n\r\n**Full Changelog**: https://github.com/dgarroDC/OW_CommonResources/compare/0.5.14...0.5.15\r\n\r\n**Note:** This release is in the @dgarroDC fork of Common Resources as a temporal workaround until the main repository is also updated with this fix. Until then, the Outer Wilds Mod Database will use this fork.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -685,7 +685,7 @@
         "htmlUrl": "https://github.com/tealhelix/ow-mod-eote-ridemusic/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/tealhelix/ow-mod-eote-ridemusic/master/README.md"
       },
-      "latestReleaseDescription": "Correct release number in payload manifest",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -716,7 +716,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-third-person-camera/main/README.md"
       },
-      "latestReleaseDescription": "- Update to patch 13\r\n- Update to use new Common Camera API",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -748,7 +748,7 @@
         "htmlUrl": "https://github.com/artumino/NomaiVROnlinePatches/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/artumino/NomaiVROnlinePatches/master/README.md"
       },
-      "latestReleaseDescription": "* Disabled ability to equip the recording tool by @JustOnesAndZeros",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -803,7 +803,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-static-camera/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-static-camera/main/README.md"
       },
-      "latestReleaseDescription": "- Update to patch 13\r\n- Update to use new Common Camera API",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -834,7 +834,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-day-dream/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-day-dream/master/README.md"
       },
-      "latestReleaseDescription": "- Update code stuff to not be super outdated\r\n- Added an API for registering new cameras for [CommonCameraUtility](https://github.com/xen-42/ow-common-camera-util)\r\n- Fix the \"See Sun\" option not working with the atmospheric shader",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -898,7 +898,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/main/README.md"
       },
       "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "* Adds interactable gizmos \r\n    * To use them first select a transform with the scene inspector\r\n    * Then press `R` to cycle from `Local Position`, `Local Rotation` and none.\r\n    * You can even then press `T` to when...\r\n         * in `Local Position` mode go from actual local position to using the transform orientation\r\n         * in `Local Rotation` to toggle a rotation wheel that always looks at the camera\r\n         \r\n * This used Unity Explorer version `4.9.0`\r\n * This is a pre-release, so if something goes terribly wrong please tell me.",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "5.0.0",
         "downloadUrl": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/releases/download/5.0.0/Vesper.UnityExplorer.zip",
@@ -3921,7 +3921,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-localization-utility/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-localization-utility/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- New languages appear in the options slider\r\n- Can replace a language instead of just adding new ones\r\n- Added font size modifier and default font spacing options\r\n- Fixed some errors\r\n\r\nThanks MegaPiggy for contributing these things months ago and then I forgot to make a release haha (oops)",
       "latestPrereleaseDescription": "",
       "tags": [
         "library",
@@ -3930,7 +3930,7 @@
       "slug": "interplanetarypolyglot",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-10T15:42:28Z",
-      "databaseEntryUpdatedAt": "2023-05-24T04:52:05.727Z",
+      "databaseEntryUpdatedAt": "2023-05-24T16:54:54.839Z",
       "viewCount": 7,
       "weeklyViewCount": 2,
       "installCount": 4,
@@ -3947,7 +3947,7 @@
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "latestReleaseDescription": "Updated to latest game version.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -5338,7 +5338,7 @@
       "repo": "https://github.com/ShoosGun/ShipyardOWOCompat",
       "version": "v0.1.2",
       "authorDisplay": "Locochoco",
-      "latestReleaseDescription": "* Uses newer systems from shipyard",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -5530,7 +5530,7 @@
       "repo": "https://github.com/ShoosGun/Kerbal-Space-Ventures",
       "version": "v0.1.1",
       "authorDisplay": "Locochoco & FunkyShoeMan",
-      "latestReleaseDescription": "* Fixed the player not being able to leave the map screen after entering a pod\r\n\r\nThanks to QuantumBlur314 for reporting these issues!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6155,7 +6155,7 @@
       "repo": "https://github.com/JohnCorby/ow-volumetric-lights",
       "version": "0.1.1",
       "authorDisplay": "JohnCorby & _nebula",
-      "latestReleaseDescription": "Hopefully fix VR by just disabling volumetric shadows if you are running on VR",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks",
@@ -7414,7 +7414,7 @@
       "description": "This item empty! Yeet!",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWThrowableItems/releases/download/v0.1.0/VioVayo.YeetMod.zip",
-      "downloadCount": 26,
+      "downloadCount": 28,
       "latestReleaseDate": "2023-05-16T22:46:00Z",
       "firstReleaseDate": "2023-05-16T22:46:00Z",
       "repo": "https://github.com/VioVayo/OWThrowableItems",
@@ -7424,7 +7424,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWThrowableItems/main/README.md"
       },
       "authorDisplay": "VioVayo & JohnCorby",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7434,7 +7434,7 @@
         "main": "throwableitems.webp"
       },
       "repoUpdatedAt": "2023-05-16T23:01:43Z",
-      "databaseEntryUpdatedAt": "2023-05-24T04:52:06.699Z",
+      "databaseEntryUpdatedAt": "2023-05-24T16:54:55.593Z",
       "viewCount": 83,
       "weeklyViewCount": 83,
       "installCount": 22,
@@ -7490,7 +7490,7 @@
       "firstReleaseDate": "2022-05-12T12:20:30Z",
       "repo": "https://github.com/ShoosGun/OWAML",
       "version": "v1.0.2",
-      "latestReleaseDescription": "## What's Changed\r\n* Add Console Port and Socket Listener by @MegaPiggy in https://github.com/ShoosGun/OWAML/pull/2\r\n\r\n\r\n**Full Changelog**: https://github.com/ShoosGun/OWAML/compare/v.1.0.1...v1.0.2",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
