@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 122415
+    "downloadCount": 122418
   },
   "releases": [
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.0/QSB.zip",
-      "downloadCount": 29997,
+      "downloadCount": 30003,
       "latestReleaseDate": "2023-05-08T14:01:12Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,8 +111,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-05-26T04:29:07Z",
-      "databaseEntryUpdatedAt": "2023-05-27T04:41:46.928Z",
+      "repoUpdatedAt": "2023-05-27T08:53:58Z",
+      "databaseEntryUpdatedAt": "2023-05-27T09:11:37.308Z",
       "viewCount": 2330,
       "weeklyViewCount": 642,
       "installCount": 749,
@@ -1255,8 +1255,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
-      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -2276,7 +2276,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Krevace/ow-voice-mod/master/README.md"
       },
       "authorDisplay": "Krevace & JohnCorby",
-      "latestReleaseDescription": "It's about time for him to show up in the author's field. \r\n\r\n**Changelog:** [`0.4.1...0.4.2`](https://github.com/Krevace/ow-voice-mod/compare/0.4.1...0.4.2)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
