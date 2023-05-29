@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 122654
+    "downloadCount": 122656
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -3942,12 +3942,12 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 2927,
+      "downloadCount": 2928,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Updated to latest game version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3955,7 +3955,7 @@
       "slug": "stoptime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-27T14:52:26Z",
-      "databaseEntryUpdatedAt": "2023-05-28T15:37:01.996Z",
+      "databaseEntryUpdatedAt": "2023-05-29T03:43:46.373Z",
       "viewCount": 40,
       "weeklyViewCount": 8,
       "installCount": 69,
