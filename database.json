@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 122807
+    "downloadCount": 122808
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 99302,
+      "downloadCount": 99311,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2023-05-29T18:20:11Z",
-      "databaseEntryUpdatedAt": "2023-05-30T06:31:55.955Z",
+      "repoUpdatedAt": "2023-05-30T10:56:38Z",
+      "databaseEntryUpdatedAt": "2023-05-30T10:58:43.564Z",
       "viewCount": 917,
       "weeklyViewCount": 274,
       "installCount": 0,
@@ -6632,7 +6632,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "Lckily I fix however true, nervous, very, very dreadfully nervous I had been and am, but why will say that I am mad?! The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -7019,7 +7019,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7174,7 +7174,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWModThatDoesNothing/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWModThatDoesNothing/main/README.md"
       },
-      "latestReleaseDescription": "First release!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
