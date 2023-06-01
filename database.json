@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123067
+    "downloadCount": 123070
   },
   "releases": [
     {
@@ -77,8 +77,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T21:46:35.731Z",
       "viewCount": 2968,
       "weeklyViewCount": 646,
-      "installCount": 721,
-      "weeklyInstallCount": 153
+      "installCount": 723,
+      "weeklyInstallCount": 155
     },
     {
       "name": "Quantum Space Buddies",
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
-      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -115,8 +115,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T22:32:48.784Z",
       "viewCount": 2425,
       "weeklyViewCount": 705,
-      "installCount": 726,
-      "weeklyInstallCount": 179
+      "installCount": 730,
+      "weeklyInstallCount": 183
     },
     {
       "name": "Light Bramble",
@@ -146,8 +146,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T18:55:15.305Z",
       "viewCount": 372,
       "weeklyViewCount": 97,
-      "installCount": 224,
-      "weeklyInstallCount": 66
+      "installCount": 225,
+      "weeklyInstallCount": 67
     },
     {
       "name": "FreeCam",
@@ -243,8 +243,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T14:29:04.547Z",
       "viewCount": 168,
       "weeklyViewCount": 38,
-      "installCount": 240,
-      "weeklyInstallCount": 57
+      "installCount": 241,
+      "weeklyInstallCount": 58
     },
     {
       "name": "HD Screenshot",
@@ -304,8 +304,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T15:53:04.085Z",
       "viewCount": 114,
       "weeklyViewCount": 25,
-      "installCount": 148,
-      "weeklyInstallCount": 35
+      "installCount": 152,
+      "weeklyInstallCount": 39
     },
     {
       "name": "ScoutStreaming",
@@ -460,8 +460,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T18:55:15.306Z",
       "viewCount": 430,
       "weeklyViewCount": 86,
-      "installCount": 285,
-      "weeklyInstallCount": 65
+      "installCount": 286,
+      "weeklyInstallCount": 66
     },
     {
       "name": "Difficulty Mod",
@@ -607,8 +607,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T18:55:15.906Z",
       "viewCount": 99,
       "weeklyViewCount": 28,
-      "installCount": 59,
-      "weeklyInstallCount": 16
+      "installCount": 60,
+      "weeklyInstallCount": 17
     },
     {
       "name": "PacificEngine's Common Resources",
@@ -1556,8 +1556,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T21:46:33.700Z",
       "viewCount": 204,
       "weeklyViewCount": 29,
-      "installCount": 174,
-      "weeklyInstallCount": 19
+      "installCount": 176,
+      "weeklyInstallCount": 21
     },
     {
       "name": "Astroneer Solar System",
@@ -2160,8 +2160,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T14:29:05.983Z",
       "viewCount": 326,
       "weeklyViewCount": 58,
-      "installCount": 304,
-      "weeklyInstallCount": 72
+      "installCount": 307,
+      "weeklyInstallCount": 75
     },
     {
       "name": "Only Timber Hearth",
@@ -4573,8 +4573,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T18:29:58.179Z",
       "viewCount": 75,
       "weeklyViewCount": 21,
-      "installCount": 104,
-      "weeklyInstallCount": 32
+      "installCount": 105,
+      "weeklyInstallCount": 33
     },
     {
       "name": "Car Example",
@@ -5697,8 +5697,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T18:08:43.102Z",
       "viewCount": 12,
       "weeklyViewCount": 1,
-      "installCount": 31,
-      "weeklyInstallCount": 9
+      "installCount": 32,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Outer Wilds en Andalûh",
@@ -6234,8 +6234,8 @@
       "databaseEntryUpdatedAt": "2023-06-01T18:08:43.647Z",
       "viewCount": 1575,
       "weeklyViewCount": 404,
-      "installCount": 390,
-      "weeklyInstallCount": 99
+      "installCount": 392,
+      "weeklyInstallCount": 101
     },
     {
       "name": "Daylight Savings",
