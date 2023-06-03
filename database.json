@@ -6763,7 +6763,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6774,7 +6774,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-06-03T03:00:06.908Z",
+      "databaseEntryUpdatedAt": "2023-06-03T15:17:50.601Z",
       "viewCount": 55,
       "weeklyViewCount": 10,
       "installCount": 27,
@@ -6861,7 +6861,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6872,7 +6872,7 @@
         "openGraph": "hatchlingicarus-static.webp"
       },
       "repoUpdatedAt": "2023-04-26T04:11:05Z",
-      "databaseEntryUpdatedAt": "2023-06-03T03:00:06.792Z",
+      "databaseEntryUpdatedAt": "2023-06-03T15:17:50.436Z",
       "viewCount": 15,
       "weeklyViewCount": 9,
       "installCount": 12,
@@ -6954,7 +6954,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6964,7 +6964,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-25T01:07:14Z",
-      "databaseEntryUpdatedAt": "2023-06-03T03:00:07.093Z",
+      "databaseEntryUpdatedAt": "2023-06-03T15:17:50.436Z",
       "viewCount": 16,
       "weeklyViewCount": 4,
       "installCount": 2,
@@ -7296,7 +7296,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Reparent warped items on arrival\r\n- Fixed some Prisoner Cell entryway trigger stuff",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7304,7 +7304,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-30T17:37:10Z",
-      "databaseEntryUpdatedAt": "2023-06-03T03:00:06.905Z",
+      "databaseEntryUpdatedAt": "2023-06-03T15:17:50.436Z",
       "viewCount": 27,
       "weeklyViewCount": 3,
       "installCount": 5,
@@ -7327,7 +7327,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "exist",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7335,7 +7335,7 @@
       "slug": "9yearoldsystem",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T02:46:02Z",
-      "databaseEntryUpdatedAt": "2023-06-03T03:00:06.791Z",
+      "databaseEntryUpdatedAt": "2023-06-03T15:17:50.431Z",
       "viewCount": 338,
       "weeklyViewCount": 93,
       "installCount": 41,
