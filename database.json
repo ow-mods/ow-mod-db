@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123525
+    "downloadCount": 123528
   },
   "releases": [
     {
@@ -5441,7 +5441,9 @@
         "tweaks"
       ],
       "slug": "nbodychaos",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "nbodychaos.webp"
+      },
       "repoUpdatedAt": "2023-01-23T18:39:45Z",
       "databaseEntryUpdatedAt": "2023-06-04T07:01:43.227Z",
       "viewCount": 16,
@@ -6159,7 +6161,9 @@
         "story"
       ],
       "slug": "thespiralsystem",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "thespiralsystem.webp"
+      },
       "repoUpdatedAt": "2023-01-22T10:36:01Z",
       "databaseEntryUpdatedAt": "2023-06-04T07:01:43.708Z",
       "viewCount": 35,
@@ -7112,7 +7116,9 @@
         "gameplay"
       ],
       "slug": "qsbgamemodes",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "qsbgamemodes.webp"
+      },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
       "databaseEntryUpdatedAt": "2023-06-04T04:48:16.530Z",
       "viewCount": 219,
@@ -7251,7 +7257,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.6.1/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 446,
+      "downloadCount": 451,
       "latestReleaseDate": "2023-05-28T03:08:37Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7261,7 +7267,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Improve French translation! Thank you, @Myalgul ",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7269,7 +7275,7 @@
       "slug": "translationfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-31T14:41:07Z",
-      "databaseEntryUpdatedAt": "2023-06-04T04:22:53.962Z",
+      "databaseEntryUpdatedAt": "2023-06-04T16:41:24.894Z",
       "viewCount": 319,
       "weeklyViewCount": 53,
       "installCount": 152,
@@ -7341,7 +7347,7 @@
       "description": "Upload your scout snapshots to an album in your Ship Log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.1.0/dgarro.EpicasAlbum.zip",
-      "downloadCount": 33,
+      "downloadCount": 34,
       "latestReleaseDate": "2023-06-03T03:50:34Z",
       "firstReleaseDate": "2023-05-15T04:11:44Z",
       "repo": "https://github.com/dgarroDC/EpicasAlbum",
@@ -7351,7 +7357,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7362,7 +7368,7 @@
         "main": "picasalbum.webp"
       },
       "repoUpdatedAt": "2023-06-03T03:53:43Z",
-      "databaseEntryUpdatedAt": "2023-06-04T04:22:54.129Z",
+      "databaseEntryUpdatedAt": "2023-06-04T16:41:24.893Z",
       "viewCount": 238,
       "weeklyViewCount": 51,
       "installCount": 19,
