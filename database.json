@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123566
+    "downloadCount": 123567
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 99820,
+      "downloadCount": 99825,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2023-06-04T21:36:32Z",
-      "databaseEntryUpdatedAt": "2023-06-04T21:49:30.430Z",
+      "repoUpdatedAt": "2023-06-04T23:42:30Z",
+      "databaseEntryUpdatedAt": "2023-06-04T23:45:42.904Z",
       "viewCount": 927,
       "weeklyViewCount": 205,
       "installCount": 0,
@@ -77,7 +77,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T22:36:52.902Z",
       "viewCount": 2895,
       "weeklyViewCount": 676,
-      "installCount": 725,
+      "installCount": 733,
       "weeklyInstallCount": 172
     },
     {
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
-      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -115,7 +115,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T23:33:24.987Z",
       "viewCount": 2475,
       "weeklyViewCount": 693,
-      "installCount": 757,
+      "installCount": 759,
       "weeklyInstallCount": 188
     },
     {
@@ -146,7 +146,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:42:29.868Z",
       "viewCount": 391,
       "weeklyViewCount": 104,
-      "installCount": 234,
+      "installCount": 238,
       "weeklyInstallCount": 62
     },
     {
@@ -178,7 +178,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:42:31.204Z",
       "viewCount": 163,
       "weeklyViewCount": 40,
-      "installCount": 113,
+      "installCount": 114,
       "weeklyInstallCount": 35
     },
     {
@@ -243,7 +243,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T15:43:35.755Z",
       "viewCount": 171,
       "weeklyViewCount": 40,
-      "installCount": 247,
+      "installCount": 249,
       "weeklyInstallCount": 70
     },
     {
@@ -304,7 +304,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T16:49:40.318Z",
       "viewCount": 116,
       "weeklyViewCount": 22,
-      "installCount": 161,
+      "installCount": 162,
       "weeklyInstallCount": 46
     },
     {
@@ -335,7 +335,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:42:30.782Z",
       "viewCount": 55,
       "weeklyViewCount": 10,
-      "installCount": 138,
+      "installCount": 140,
       "weeklyInstallCount": 36
     },
     {
@@ -366,7 +366,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:32.439Z",
       "viewCount": 36,
       "weeklyViewCount": 6,
-      "installCount": 30,
+      "installCount": 31,
       "weeklyInstallCount": 6
     },
     {
@@ -402,7 +402,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T22:36:51.715Z",
       "viewCount": 348,
       "weeklyViewCount": 97,
-      "installCount": 154,
+      "installCount": 156,
       "weeklyInstallCount": 37
     },
     {
@@ -460,7 +460,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:42:30.784Z",
       "viewCount": 457,
       "weeklyViewCount": 108,
-      "installCount": 297,
+      "installCount": 299,
       "weeklyInstallCount": 76
     },
     {
@@ -518,7 +518,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:16:36.612Z",
       "viewCount": 72,
       "weeklyViewCount": 21,
-      "installCount": 72,
+      "installCount": 73,
       "weeklyInstallCount": 20
     },
     {
@@ -607,7 +607,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:42:31.231Z",
       "viewCount": 106,
       "weeklyViewCount": 27,
-      "installCount": 61,
+      "installCount": 62,
       "weeklyInstallCount": 12
     },
     {
@@ -667,7 +667,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:16:37.443Z",
       "viewCount": 22,
       "weeklyViewCount": 11,
-      "installCount": 47,
+      "installCount": 48,
       "weeklyInstallCount": 15
     },
     {
@@ -785,7 +785,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:42.294Z",
       "viewCount": 116,
       "weeklyViewCount": 22,
-      "installCount": 312,
+      "installCount": 313,
       "weeklyInstallCount": 60
     },
     {
@@ -848,7 +848,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:42:31.584Z",
       "viewCount": 64,
       "weeklyViewCount": 8,
-      "installCount": 56,
+      "installCount": 57,
       "weeklyInstallCount": 8
     },
     {
@@ -879,7 +879,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:42:31.441Z",
       "viewCount": 396,
       "weeklyViewCount": 89,
-      "installCount": 180,
+      "installCount": 184,
       "weeklyInstallCount": 52
     },
     {
@@ -976,7 +976,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:32.029Z",
       "viewCount": 15,
       "weeklyViewCount": 4,
-      "installCount": 26,
+      "installCount": 27,
       "weeklyInstallCount": 7
     },
     {
@@ -1072,7 +1072,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T15:43:40.727Z",
       "viewCount": 618,
       "weeklyViewCount": 157,
-      "installCount": 310,
+      "installCount": 312,
       "weeklyInstallCount": 86
     },
     {
@@ -1137,7 +1137,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:16:37.731Z",
       "viewCount": 246,
       "weeklyViewCount": 71,
-      "installCount": 154,
+      "installCount": 157,
       "weeklyInstallCount": 45
     },
     {
@@ -1169,7 +1169,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:34.983Z",
       "viewCount": 96,
       "weeklyViewCount": 36,
-      "installCount": 84,
+      "installCount": 85,
       "weeklyInstallCount": 30
     },
     {
@@ -1306,7 +1306,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:39.849Z",
       "viewCount": 174,
       "weeklyViewCount": 44,
-      "installCount": 124,
+      "installCount": 125,
       "weeklyInstallCount": 44
     },
     {
@@ -1556,7 +1556,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T22:36:46.933Z",
       "viewCount": 213,
       "weeklyViewCount": 39,
-      "installCount": 182,
+      "installCount": 185,
       "weeklyInstallCount": 28
     },
     {
@@ -1619,7 +1619,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:40.754Z",
       "viewCount": 48,
       "weeklyViewCount": 11,
-      "installCount": 75,
+      "installCount": 77,
       "weeklyInstallCount": 21
     },
     {
@@ -1680,7 +1680,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:39.849Z",
       "viewCount": 26,
       "weeklyViewCount": 7,
-      "installCount": 85,
+      "installCount": 86,
       "weeklyInstallCount": 24
     },
     {
@@ -1774,7 +1774,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T21:25:05.235Z",
       "viewCount": 193,
       "weeklyViewCount": 79,
-      "installCount": 158,
+      "installCount": 160,
       "weeklyInstallCount": 37
     },
     {
@@ -1806,7 +1806,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:40.550Z",
       "viewCount": 23,
       "weeklyViewCount": 6,
-      "installCount": 31,
+      "installCount": 32,
       "weeklyInstallCount": 11
     },
     {
@@ -1835,7 +1835,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T17:03:14.036Z",
       "viewCount": 82,
       "weeklyViewCount": 20,
-      "installCount": 40,
+      "installCount": 41,
       "weeklyInstallCount": 2
     },
     {
@@ -1867,7 +1867,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:40.854Z",
       "viewCount": 41,
       "weeklyViewCount": 11,
-      "installCount": 44,
+      "installCount": 46,
       "weeklyInstallCount": 19
     },
     {
@@ -1931,7 +1931,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:40.550Z",
       "viewCount": 43,
       "weeklyViewCount": 17,
-      "installCount": 51,
+      "installCount": 52,
       "weeklyInstallCount": 18
     },
     {
@@ -2160,7 +2160,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T15:43:41.129Z",
       "viewCount": 336,
       "weeklyViewCount": 65,
-      "installCount": 309,
+      "installCount": 311,
       "weeklyInstallCount": 70
     },
     {
@@ -2257,7 +2257,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:40.909Z",
       "viewCount": 240,
       "weeklyViewCount": 65,
-      "installCount": 56,
+      "installCount": 57,
       "weeklyInstallCount": 14
     },
     {
@@ -2436,7 +2436,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:40.897Z",
       "viewCount": 23,
       "weeklyViewCount": 4,
-      "installCount": 10,
+      "installCount": 11,
       "weeklyInstallCount": 3
     },
     {
@@ -2659,7 +2659,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:41.300Z",
       "viewCount": 24,
       "weeklyViewCount": 1,
-      "installCount": 70,
+      "installCount": 71,
       "weeklyInstallCount": 15
     },
     {
@@ -2752,7 +2752,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:41.119Z",
       "viewCount": 16,
       "weeklyViewCount": 8,
-      "installCount": 15,
+      "installCount": 16,
       "weeklyInstallCount": 6
     },
     {
@@ -2935,7 +2935,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:41.037Z",
       "viewCount": 24,
       "weeklyViewCount": 5,
-      "installCount": 38,
+      "installCount": 39,
       "weeklyInstallCount": 8
     },
     {
@@ -3151,7 +3151,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:41.460Z",
       "viewCount": 48,
       "weeklyViewCount": 15,
-      "installCount": 33,
+      "installCount": 34,
       "weeklyInstallCount": 5
     },
     {
@@ -3182,7 +3182,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:41.325Z",
       "viewCount": 18,
       "weeklyViewCount": 6,
-      "installCount": 33,
+      "installCount": 34,
       "weeklyInstallCount": 8
     },
     {
@@ -3311,7 +3311,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T21:25:05.176Z",
       "viewCount": 69,
       "weeklyViewCount": 26,
-      "installCount": 108,
+      "installCount": 109,
       "weeklyInstallCount": 36
     },
     {
@@ -3958,7 +3958,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T17:03:26.123Z",
       "viewCount": 51,
       "weeklyViewCount": 19,
-      "installCount": 72,
+      "installCount": 74,
       "weeklyInstallCount": 19
     },
     {
@@ -4086,7 +4086,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T15:43:36.277Z",
       "viewCount": 15,
       "weeklyViewCount": 7,
-      "installCount": 22,
+      "installCount": 23,
       "weeklyInstallCount": 13
     },
     {
@@ -4299,7 +4299,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:42.264Z",
       "viewCount": 27,
       "weeklyViewCount": 3,
-      "installCount": 19,
+      "installCount": 20,
       "weeklyInstallCount": 2
     },
     {
@@ -4429,7 +4429,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:42.180Z",
       "viewCount": 925,
       "weeklyViewCount": 262,
-      "installCount": 327,
+      "installCount": 331,
       "weeklyInstallCount": 99
     },
     {
@@ -4503,7 +4503,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:42.114Z",
       "viewCount": 85,
       "weeklyViewCount": 15,
-      "installCount": 54,
+      "installCount": 55,
       "weeklyInstallCount": 12
     },
     {
@@ -4801,7 +4801,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:29:42.370Z",
       "viewCount": 81,
       "weeklyViewCount": 31,
-      "installCount": 69,
+      "installCount": 70,
       "weeklyInstallCount": 18
     },
     {
@@ -6234,7 +6234,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T19:02:14.409Z",
       "viewCount": 1561,
       "weeklyViewCount": 431,
-      "installCount": 397,
+      "installCount": 403,
       "weeklyInstallCount": 119
     },
     {
@@ -7123,7 +7123,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T16:49:40.798Z",
       "viewCount": 219,
       "weeklyViewCount": 72,
-      "installCount": 253,
+      "installCount": 255,
       "weeklyInstallCount": 64
     },
     {
@@ -7185,7 +7185,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T11:53:41.575Z",
       "viewCount": 72,
       "weeklyViewCount": 20,
-      "installCount": 32,
+      "installCount": 34,
       "weeklyInstallCount": 10
     },
     {
@@ -7278,7 +7278,7 @@
       "databaseEntryUpdatedAt": "2023-06-04T16:41:24.894Z",
       "viewCount": 319,
       "weeklyViewCount": 53,
-      "installCount": 152,
+      "installCount": 154,
       "weeklyInstallCount": 54
     },
     {
