@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123450
+    "downloadCount": 123451
   },
   "releases": [
     {
@@ -5086,7 +5086,9 @@
         "audiovisual"
       ],
       "slug": "alternatevoices",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "alternatevoices.webp"
+      },
       "repoUpdatedAt": "2023-01-04T21:37:29Z",
       "databaseEntryUpdatedAt": "2023-06-03T18:49:30.597Z",
       "viewCount": 35,
