@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123445
+    "downloadCount": 123446
   },
   "releases": [
     {
@@ -4110,7 +4110,9 @@
         "integration"
       ],
       "slug": "discordrichpresence",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "discordrichpresence.webp"
+      },
       "repoUpdatedAt": "2023-01-23T00:24:54Z",
       "databaseEntryUpdatedAt": "2023-06-03T19:02:22.504Z",
       "viewCount": 90,
@@ -6159,7 +6161,9 @@
         "story"
       ],
       "slug": "thespiralsystem",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "thespiralsystem.webp"
+      },
       "repoUpdatedAt": "2023-01-22T10:36:01Z",
       "databaseEntryUpdatedAt": "2023-06-03T18:49:31.911Z",
       "viewCount": 34,
@@ -6291,7 +6295,9 @@
         "content"
       ],
       "slug": "brightdusk",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "brightdusk.webp"
+      },
       "repoUpdatedAt": "2023-01-22T01:25:02Z",
       "databaseEntryUpdatedAt": "2023-06-03T18:49:31.810Z",
       "viewCount": 27,
