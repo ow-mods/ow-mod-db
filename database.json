@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123565
+    "downloadCount": 123566
   },
   "releases": [
     {
@@ -78,7 +78,7 @@
       "viewCount": 2895,
       "weeklyViewCount": 676,
       "installCount": 725,
-      "weeklyInstallCount": 164
+      "weeklyInstallCount": 172
     },
     {
       "name": "Quantum Space Buddies",
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.0/QSB.zip",
-      "downloadCount": 30366,
+      "downloadCount": 30398,
       "latestReleaseDate": "2023-05-08T14:01:12Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -112,11 +112,11 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-05-27T08:53:58Z",
-      "databaseEntryUpdatedAt": "2023-06-04T11:28:06.234Z",
+      "databaseEntryUpdatedAt": "2023-06-04T23:33:24.987Z",
       "viewCount": 2475,
       "weeklyViewCount": 693,
       "installCount": 757,
-      "weeklyInstallCount": 186
+      "weeklyInstallCount": 188
     },
     {
       "name": "Light Bramble",
@@ -147,7 +147,7 @@
       "viewCount": 391,
       "weeklyViewCount": 104,
       "installCount": 234,
-      "weeklyInstallCount": 58
+      "weeklyInstallCount": 62
     },
     {
       "name": "FreeCam",
@@ -179,7 +179,7 @@
       "viewCount": 163,
       "weeklyViewCount": 40,
       "installCount": 113,
-      "weeklyInstallCount": 34
+      "weeklyInstallCount": 35
     },
     {
       "name": "Crouch Mod",
@@ -244,7 +244,7 @@
       "viewCount": 171,
       "weeklyViewCount": 40,
       "installCount": 247,
-      "weeklyInstallCount": 68
+      "weeklyInstallCount": 70
     },
     {
       "name": "HD Screenshot",
@@ -305,7 +305,7 @@
       "viewCount": 116,
       "weeklyViewCount": 22,
       "installCount": 161,
-      "weeklyInstallCount": 45
+      "weeklyInstallCount": 46
     },
     {
       "name": "ScoutStreaming",
@@ -336,7 +336,7 @@
       "viewCount": 55,
       "weeklyViewCount": 10,
       "installCount": 138,
-      "weeklyInstallCount": 34
+      "weeklyInstallCount": 36
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -367,7 +367,7 @@
       "viewCount": 36,
       "weeklyViewCount": 6,
       "installCount": 30,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Outer Wilds Online",
@@ -403,7 +403,7 @@
       "viewCount": 348,
       "weeklyViewCount": 97,
       "installCount": 154,
-      "weeklyInstallCount": 35
+      "weeklyInstallCount": 37
     },
     {
       "name": "Cheat and Debug Menu",
@@ -461,7 +461,7 @@
       "viewCount": 457,
       "weeklyViewCount": 108,
       "installCount": 297,
-      "weeklyInstallCount": 74
+      "weeklyInstallCount": 76
     },
     {
       "name": "Difficulty Mod",
@@ -519,7 +519,7 @@
       "viewCount": 72,
       "weeklyViewCount": 21,
       "installCount": 72,
-      "weeklyInstallCount": 19
+      "weeklyInstallCount": 20
     },
     {
       "name": "SlowTime",
@@ -608,7 +608,7 @@
       "viewCount": 106,
       "weeklyViewCount": 27,
       "installCount": 61,
-      "weeklyInstallCount": 11
+      "weeklyInstallCount": 12
     },
     {
       "name": "PacificEngine's Common Resources",
@@ -668,7 +668,7 @@
       "viewCount": 22,
       "weeklyViewCount": 11,
       "installCount": 47,
-      "weeklyInstallCount": 14
+      "weeklyInstallCount": 15
     },
     {
       "name": "Echoes of the Caribbean",
@@ -786,7 +786,7 @@
       "viewCount": 116,
       "weeklyViewCount": 22,
       "installCount": 312,
-      "weeklyInstallCount": 59
+      "weeklyInstallCount": 60
     },
     {
       "name": "Static Camera",
@@ -849,7 +849,7 @@
       "viewCount": 64,
       "weeklyViewCount": 8,
       "installCount": 56,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "EotE Brighter Dreams",
@@ -880,7 +880,7 @@
       "viewCount": 396,
       "weeklyViewCount": 89,
       "installCount": 180,
-      "weeklyInstallCount": 48
+      "weeklyInstallCount": 52
     },
     {
       "name": "Unity Explorer",
@@ -977,7 +977,7 @@
       "viewCount": 15,
       "weeklyViewCount": 4,
       "installCount": 26,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 7
     },
     {
       "name": "Outer Thomas Echoes of the Tank Engine",
@@ -1073,7 +1073,7 @@
       "viewCount": 618,
       "weeklyViewCount": 157,
       "installCount": 310,
-      "weeklyInstallCount": 84
+      "weeklyInstallCount": 86
     },
     {
       "name": "New Horizons Examples",
@@ -1138,7 +1138,7 @@
       "viewCount": 246,
       "weeklyViewCount": 71,
       "installCount": 154,
-      "weeklyInstallCount": 42
+      "weeklyInstallCount": 45
     },
     {
       "name": "Atropos",
@@ -1170,7 +1170,7 @@
       "viewCount": 96,
       "weeklyViewCount": 36,
       "installCount": 84,
-      "weeklyInstallCount": 29
+      "weeklyInstallCount": 30
     },
     {
       "name": "ElliePlanets!",
@@ -1255,8 +1255,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
-      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -1307,7 +1307,7 @@
       "viewCount": 174,
       "weeklyViewCount": 44,
       "installCount": 124,
-      "weeklyInstallCount": 43
+      "weeklyInstallCount": 44
     },
     {
       "name": "Signals+",
@@ -1557,7 +1557,7 @@
       "viewCount": 213,
       "weeklyViewCount": 39,
       "installCount": 182,
-      "weeklyInstallCount": 25
+      "weeklyInstallCount": 28
     },
     {
       "name": "Astroneer Solar System",
@@ -1620,7 +1620,7 @@
       "viewCount": 48,
       "weeklyViewCount": 11,
       "installCount": 75,
-      "weeklyInstallCount": 19
+      "weeklyInstallCount": 21
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -1681,7 +1681,7 @@
       "viewCount": 26,
       "weeklyViewCount": 7,
       "installCount": 85,
-      "weeklyInstallCount": 23
+      "weeklyInstallCount": 24
     },
     {
       "name": "Outer Wilds Music Player",
@@ -1775,7 +1775,7 @@
       "viewCount": 193,
       "weeklyViewCount": 79,
       "installCount": 158,
-      "weeklyInstallCount": 35
+      "weeklyInstallCount": 37
     },
     {
       "name": "Enter the Warioverse",
@@ -1807,7 +1807,7 @@
       "viewCount": 23,
       "weeklyViewCount": 6,
       "installCount": 31,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 11
     },
     {
       "name": "21st Century Anglerfish",
@@ -1836,7 +1836,7 @@
       "viewCount": 82,
       "weeklyViewCount": 20,
       "installCount": 40,
-      "weeklyInstallCount": 1
+      "weeklyInstallCount": 2
     },
     {
       "name": "Medley of Planets",
@@ -1868,7 +1868,7 @@
       "viewCount": 41,
       "weeklyViewCount": 11,
       "installCount": 44,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 19
     },
     {
       "name": "Outer Wilds Flyover",
@@ -1932,7 +1932,7 @@
       "viewCount": 43,
       "weeklyViewCount": 17,
       "installCount": 51,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "TRAPPIST-1",
@@ -2161,7 +2161,7 @@
       "viewCount": 336,
       "weeklyViewCount": 65,
       "installCount": 309,
-      "weeklyInstallCount": 68
+      "weeklyInstallCount": 70
     },
     {
       "name": "Only Timber Hearth",
@@ -2258,7 +2258,7 @@
       "viewCount": 240,
       "weeklyViewCount": 65,
       "installCount": 56,
-      "weeklyInstallCount": 13
+      "weeklyInstallCount": 14
     },
     {
       "name": "Voice Acting Mod",
@@ -2276,7 +2276,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Krevace/ow-voice-mod/master/README.md"
       },
       "authorDisplay": "Krevace & JohnCorby",
-      "latestReleaseDescription": "It's about time for him to show up in the author's field. \r\n\r\n**Changelog:** [`0.4.1...0.4.2`](https://github.com/Krevace/ow-voice-mod/compare/0.4.1...0.4.2)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -2437,7 +2437,7 @@
       "viewCount": 23,
       "weeklyViewCount": 4,
       "installCount": 10,
-      "weeklyInstallCount": 2
+      "weeklyInstallCount": 3
     },
     {
       "name": "Interstellar: Gargantua",
@@ -2660,7 +2660,7 @@
       "viewCount": 24,
       "weeklyViewCount": 1,
       "installCount": 70,
-      "weeklyInstallCount": 14
+      "weeklyInstallCount": 15
     },
     {
       "name": "360 Camera",
@@ -2753,7 +2753,7 @@
       "viewCount": 16,
       "weeklyViewCount": 8,
       "installCount": 15,
-      "weeklyInstallCount": 5
+      "weeklyInstallCount": 6
     },
     {
       "name": "Alter Time",
@@ -2936,7 +2936,7 @@
       "viewCount": 24,
       "weeklyViewCount": 5,
       "installCount": 38,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "Arkose bug fix",
@@ -3077,7 +3077,7 @@
         "htmlUrl": "https://github.com/Bwc9876/OW-TimeSaver/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Bwc9876/OW-TimeSaver/master/README.md"
       },
-      "latestReleaseDescription": "add ability to skip credits and post credits",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -3152,7 +3152,7 @@
       "viewCount": 48,
       "weeklyViewCount": 15,
       "installCount": 33,
-      "weeklyInstallCount": 4
+      "weeklyInstallCount": 5
     },
     {
       "name": "Outer Wilds Traditional Chinese Translation",
@@ -3183,7 +3183,7 @@
       "viewCount": 18,
       "weeklyViewCount": 6,
       "installCount": 33,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "Less Lonely Ship",
@@ -3312,7 +3312,7 @@
       "viewCount": 69,
       "weeklyViewCount": 26,
       "installCount": 108,
-      "weeklyInstallCount": 35
+      "weeklyInstallCount": 36
     },
     {
       "name": "Hatchling Outfitter",
@@ -3959,7 +3959,7 @@
       "viewCount": 51,
       "weeklyViewCount": 19,
       "installCount": 72,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 19
     },
     {
       "name": "Galaxy Skybox: NGC 1087",
@@ -4087,7 +4087,7 @@
       "viewCount": 15,
       "weeklyViewCount": 7,
       "installCount": 22,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 13
     },
     {
       "name": "Discord Rich Presence",
@@ -4300,7 +4300,7 @@
       "viewCount": 27,
       "weeklyViewCount": 3,
       "installCount": 19,
-      "weeklyInstallCount": 1
+      "weeklyInstallCount": 2
     },
     {
       "name": "Hazy Dreams",
@@ -4430,7 +4430,7 @@
       "viewCount": 925,
       "weeklyViewCount": 262,
       "installCount": 327,
-      "weeklyInstallCount": 95
+      "weeklyInstallCount": 99
     },
     {
       "name": "Secret Words",
@@ -4504,7 +4504,7 @@
       "viewCount": 85,
       "weeklyViewCount": 15,
       "installCount": 54,
-      "weeklyInstallCount": 11
+      "weeklyInstallCount": 12
     },
     {
       "name": "Spaceshipinha",
@@ -4802,7 +4802,7 @@
       "viewCount": 81,
       "weeklyViewCount": 31,
       "installCount": 69,
-      "weeklyInstallCount": 17
+      "weeklyInstallCount": 18
     },
     {
       "name": "Heavy Sleeper",
@@ -6235,7 +6235,7 @@
       "viewCount": 1561,
       "weeklyViewCount": 431,
       "installCount": 397,
-      "weeklyInstallCount": 113
+      "weeklyInstallCount": 119
     },
     {
       "name": "Daylight Savings",
@@ -7124,7 +7124,7 @@
       "viewCount": 219,
       "weeklyViewCount": 72,
       "installCount": 253,
-      "weeklyInstallCount": 62
+      "weeklyInstallCount": 64
     },
     {
       "name": "Ship Ball Pit",
@@ -7186,7 +7186,7 @@
       "viewCount": 72,
       "weeklyViewCount": 20,
       "installCount": 32,
-      "weeklyInstallCount": 8
+      "weeklyInstallCount": 10
     },
     {
       "name": "Color Cameras",
@@ -7279,7 +7279,7 @@
       "viewCount": 319,
       "weeklyViewCount": 53,
       "installCount": 152,
-      "weeklyInstallCount": 52
+      "weeklyInstallCount": 54
     },
     {
       "name": "Dream World Modding and Debug Assist",
