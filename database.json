@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123412
+    "downloadCount": 123430
   },
   "releases": [
     {
@@ -4141,7 +4141,9 @@
         "gameplay"
       ],
       "slug": "artifactlaser",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "artifactlaser.webp"
+      },
       "repoUpdatedAt": "2022-08-29T22:06:45Z",
       "databaseEntryUpdatedAt": "2023-06-03T19:02:22.587Z",
       "viewCount": 25,
