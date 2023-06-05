@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123630
+    "downloadCount": 123635
   },
   "releases": [
     {
@@ -7347,7 +7347,7 @@
       "description": "Upload your scout snapshots to an album in your Ship Log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.1.0/dgarro.EpicasAlbum.zip",
-      "downloadCount": 35,
+      "downloadCount": 36,
       "latestReleaseDate": "2023-06-03T03:50:34Z",
       "firstReleaseDate": "2023-05-15T04:11:44Z",
       "repo": "https://github.com/dgarroDC/EpicasAlbum",
@@ -7357,7 +7357,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7368,7 +7368,7 @@
         "main": "picasalbum.webp"
       },
       "repoUpdatedAt": "2023-06-05T02:24:58Z",
-      "databaseEntryUpdatedAt": "2023-06-05T02:55:10.085Z",
+      "databaseEntryUpdatedAt": "2023-06-05T15:15:07.161Z",
       "viewCount": 248,
       "weeklyViewCount": 56,
       "installCount": 19,
@@ -7412,18 +7412,18 @@
       "description": "Unnamed Mystery is a fairly large story mod (by NH definition) that guides exigency to reality, attempting to create an experience with similar feelings to the base game. Available in English as of now, but Italian, German, and Polish translations coming soon.",
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.1.0/O32.UnnamedMystery.zip",
-      "downloadCount": 2,
-      "latestReleaseDate": "2023-06-05T05:36:39Z",
+      "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.1.1/O32.UnnamedMystery.zip",
+      "downloadCount": 31,
+      "latestReleaseDate": "2023-06-05T15:09:47Z",
       "firstReleaseDate": "2023-06-05T04:01:15Z",
       "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "readme": {
         "htmlUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Unnamed-Mystery/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu), ItsKan, and others",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed a certain place not having structures.",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -7431,8 +7431,8 @@
       ],
       "slug": "unnamedmystery",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-06-05T05:42:43Z",
-      "databaseEntryUpdatedAt": "2023-06-05T05:45:10.320Z",
+      "repoUpdatedAt": "2023-06-05T15:09:57Z",
+      "databaseEntryUpdatedAt": "2023-06-05T15:15:06.878Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
