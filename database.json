@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123635
+    "downloadCount": 123637
   },
   "releases": [
     {
@@ -7357,7 +7357,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7413,7 +7413,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.1.1/O32.UnnamedMystery.zip",
-      "downloadCount": 31,
+      "downloadCount": 33,
       "latestReleaseDate": "2023-06-05T15:09:47Z",
       "firstReleaseDate": "2023-06-05T04:01:15Z",
       "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
@@ -7430,9 +7430,11 @@
         "story"
       ],
       "slug": "unnamedmystery",
-      "thumbnail": {},
-      "repoUpdatedAt": "2023-06-05T15:09:57Z",
-      "databaseEntryUpdatedAt": "2023-06-05T15:15:06.878Z",
+      "thumbnail": {
+        "main": "unnamedmystery.webp"
+      },
+      "repoUpdatedAt": "2023-06-05T15:21:04Z",
+      "databaseEntryUpdatedAt": "2023-06-05T15:27:44.839Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
