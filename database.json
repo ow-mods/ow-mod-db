@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123725
+    "downloadCount": 123730
   },
   "releases": [
     {
@@ -77,8 +77,8 @@
       "databaseEntryUpdatedAt": "2023-06-05T22:51:56.017Z",
       "viewCount": 2717,
       "weeklyViewCount": 616,
-      "installCount": 690,
-      "weeklyInstallCount": 156
+      "installCount": 691,
+      "weeklyInstallCount": 157
     },
     {
       "name": "Quantum Space Buddies",
@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.0/xen.NewHorizons.zip",
-      "downloadCount": 25052,
+      "downloadCount": 25054,
       "latestReleaseDate": "2023-05-07T20:26:51Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1068,8 +1068,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-06-06T02:57:42Z",
-      "databaseEntryUpdatedAt": "2023-06-06T03:04:03.281Z",
+      "repoUpdatedAt": "2023-06-06T03:12:28Z",
+      "databaseEntryUpdatedAt": "2023-06-06T03:27:39.736Z",
       "viewCount": 596,
       "weeklyViewCount": 149,
       "installCount": 298,
@@ -4503,8 +4503,8 @@
       "databaseEntryUpdatedAt": "2023-06-05T19:42:17.204Z",
       "viewCount": 80,
       "weeklyViewCount": 14,
-      "installCount": 53,
-      "weeklyInstallCount": 11
+      "installCount": 54,
+      "weeklyInstallCount": 12
     },
     {
       "name": "Spaceshipinha",
@@ -4611,8 +4611,8 @@
       "databaseEntryUpdatedAt": "2023-06-05T19:42:17.194Z",
       "viewCount": 23,
       "weeklyViewCount": 3,
-      "installCount": 53,
-      "weeklyInstallCount": 11
+      "installCount": 54,
+      "weeklyInstallCount": 12
     },
     {
       "name": "Clear Glass",
@@ -7347,7 +7347,7 @@
       "description": "Upload your scout snapshots to an album in your Ship Log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.1.0/dgarro.EpicasAlbum.zip",
-      "downloadCount": 36,
+      "downloadCount": 37,
       "latestReleaseDate": "2023-06-03T03:50:34Z",
       "firstReleaseDate": "2023-05-15T04:11:44Z",
       "repo": "https://github.com/dgarroDC/EpicasAlbum",
@@ -7357,7 +7357,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7368,7 +7368,7 @@
         "main": "picasalbum.webp"
       },
       "repoUpdatedAt": "2023-06-05T02:24:58Z",
-      "databaseEntryUpdatedAt": "2023-06-05T15:15:07.161Z",
+      "databaseEntryUpdatedAt": "2023-06-06T03:27:39.386Z",
       "viewCount": 248,
       "weeklyViewCount": 51,
       "installCount": 19,
@@ -7456,7 +7456,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Initial release!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
