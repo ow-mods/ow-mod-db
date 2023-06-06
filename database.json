@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123720
+    "downloadCount": 123721
   },
   "releases": [
     {
@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.0/xen.NewHorizons.zip",
-      "downloadCount": 25050,
+      "downloadCount": 25052,
       "latestReleaseDate": "2023-05-07T20:26:51Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1068,8 +1068,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-06-06T01:38:08Z",
-      "databaseEntryUpdatedAt": "2023-06-06T02:19:07.725Z",
+      "repoUpdatedAt": "2023-06-06T02:29:15Z",
+      "databaseEntryUpdatedAt": "2023-06-06T02:33:52.789Z",
       "viewCount": 596,
       "weeklyViewCount": 149,
       "installCount": 298,
@@ -7435,6 +7435,39 @@
       },
       "repoUpdatedAt": "2023-06-05T23:55:25Z",
       "databaseEntryUpdatedAt": "2023-06-06T00:38:32.837Z",
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
+    },
+    {
+      "name": "The Hatchling's Journal",
+      "uniqueName": "dgarro.Journal",
+      "description": "Take your notes in a new Ship Log mode that lets you create and view your own entries",
+      "author": "dgarroDC",
+      "downloadUrl": "https://github.com/dgarroDC/Journal/releases/download/1.0.0/dgarro.Journal.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-06-06T01:36:21Z",
+      "firstReleaseDate": "2023-06-06T01:36:21Z",
+      "repo": "https://github.com/dgarroDC/Journal",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/dgarroDC/Journal/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
+      },
+      "authorDisplay": "Damián Garro",
+      "latestReleaseDescription": "Initial release!",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay",
+        "audiovisual"
+      ],
+      "slug": "thehatchlingsjournal",
+      "thumbnail": {
+        "main": "thehatchlingsjournal.webp"
+      },
+      "repoUpdatedAt": "2023-06-06T01:36:25Z",
+      "databaseEntryUpdatedAt": "2023-06-06T02:33:52.858Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
