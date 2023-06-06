@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123805
+    "downloadCount": 123806
   },
   "releases": [
     {
@@ -284,7 +284,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 21427,
+      "downloadCount": 21463,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -293,7 +293,7 @@
         "htmlUrl": "https://github.com/misternebula/MenuFramework/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/MenuFramework/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added functionality to add custom startup popups.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -301,7 +301,7 @@
       "slug": "menuframework",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-20T23:13:38Z",
-      "databaseEntryUpdatedAt": "2023-06-06T05:29:15.851Z",
+      "databaseEntryUpdatedAt": "2023-06-06T17:39:49.498Z",
       "viewCount": 98,
       "weeklyViewCount": 25,
       "installCount": 149,
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- Heightmap overhaul!\r\n  - Normal maps (bump maps)\r\n  - Smoothness (gloss) and metallic maps\r\n  - Tiling versions of texture/normal/smoothness/metallic maps for finer up-close detail\r\n  - Blend map that uses the red, green, blue, and alpha channels to control the distribution of 4 tiles respectively, plus a fifth \"base\" tile that appears where the others are absent.\r\n  - Stretch has changed to proper unity coordinates, where y is up.\r\n\r\n## Minor features\r\n- New `CometTail` module replacing the `hasCometTail` field. Allows customizing the colour and scale-over-time of a comet tail.\r\n\r\n## Improvements\r\n- Patched forget frequency method so it will work for those using it on custom signals\r\n- Added `teenager` arc type to translator text. This is a mix between child and adult. It uses the adult mesh but the child texture. Originally used at the window text on Giant's Deep's statue island.\r\n- Generated textures are now cached. this should reduce memory usage (resolves #581)\r\n  - Textures are named by file path and then the effects applied to them, for example `[path] > invert > tint [color]`\r\n- Physics details splash in water like the probe and have the probe's buoyancy.\r\n\r\n## Bug fixes\r\n- Fixed NullReferenceException when spawning vessels with physics\r\n- Fixed SpawnDialogue API method always creating a remote trigger\r\n- Physics details are now affected by tornadoes (resolves #580)\r\n- Stretch now behaves more intuitively (does not divide min/max height by the largest stretch axis) (resolves #551)\r\n- Fix spamming logs with \"Fact ID Not Found\" on system change (resolves #586) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/576**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -2147,7 +2147,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "fix ANOTHER projection pool vanilla bug, caused by a small typo",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -7050,7 +7050,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "Fix:\r\n\r\n- 宇宙飞船日志显示问题\r\n\r\n- 飞船内部GUI小字问题",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7110,7 +7110,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7267,7 +7267,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "* Improve French translation! Thank you, @Myalgul ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7423,7 +7423,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Unnamed-Mystery/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu), ItsKan, and others",
-      "latestReleaseDescription": "1. Fixed a typo in the shiplog\r\n2. Gave music track property to songs\r\n3. Changed a misplaced line (sorta fixed but not really)\r\n4. Made the final puzzle slightly easier",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
