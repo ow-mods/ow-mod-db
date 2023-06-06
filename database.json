@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123803
+    "downloadCount": 123805
   },
   "releases": [
     {
@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.0/xen.NewHorizons.zip",
-      "downloadCount": 25061,
+      "downloadCount": 25095,
       "latestReleaseDate": "2023-05-07T20:26:51Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Major features\r\n- Heightmap overhaul!\r\n  - Normal maps (bump maps)\r\n  - Smoothness (gloss) and metallic maps\r\n  - Tiling versions of texture/normal/smoothness/metallic maps for finer up-close detail\r\n  - Blend map that uses the red, green, blue, and alpha channels to control the distribution of 4 tiles respectively, plus a fifth \"base\" tile that appears where the others are absent.\r\n  - Stretch has changed to proper unity coordinates, where y is up.\r\n\r\n## Minor features\r\n- New `CometTail` module replacing the `hasCometTail` field. Allows customizing the colour and scale-over-time of a comet tail.\r\n\r\n## Improvements\r\n- Patched forget frequency method so it will work for those using it on custom signals\r\n- Added `teenager` arc type to translator text. This is a mix between child and adult. It uses the adult mesh but the child texture. Originally used at the window text on Giant's Deep's statue island.\r\n- Generated textures are now cached. this should reduce memory usage (resolves #581)\r\n  - Textures are named by file path and then the effects applied to them, for example `[path] > invert > tint [color]`\r\n- Physics details splash in water like the probe and have the probe's buoyancy.\r\n\r\n## Bug fixes\r\n- Fixed NullReferenceException when spawning vessels with physics\r\n- Fixed SpawnDialogue API method always creating a remote trigger\r\n- Physics details are now affected by tornadoes (resolves #580)\r\n- Stretch now behaves more intuitively (does not divide min/max height by the largest stretch axis) (resolves #551)\r\n- Fix spamming logs with \"Fact ID Not Found\" on system change (resolves #586) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/576**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1069,7 +1069,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-06-06T05:13:19Z",
-      "databaseEntryUpdatedAt": "2023-06-06T05:16:04.959Z",
+      "databaseEntryUpdatedAt": "2023-06-06T17:27:42.016Z",
       "viewCount": 639,
       "weeklyViewCount": 192,
       "installCount": 323,
@@ -2138,7 +2138,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.13.1/JohnCorby.VanillaFix.zip",
-      "downloadCount": 21739,
+      "downloadCount": 21813,
       "latestReleaseDate": "2023-06-05T04:38:00Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2147,7 +2147,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fix ANOTHER projection pool vanilla bug, caused by a small typo",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -2157,7 +2157,7 @@
         "main": "vanillafix.webp"
       },
       "repoUpdatedAt": "2023-06-05T04:38:21Z",
-      "databaseEntryUpdatedAt": "2023-06-06T05:16:04.951Z",
+      "databaseEntryUpdatedAt": "2023-06-06T17:27:41.883Z",
       "viewCount": 340,
       "weeklyViewCount": 94,
       "installCount": 304,
@@ -7041,7 +7041,7 @@
       "description": "The mod fixes the problem that most of the Chinese-inclusive story mod text is incomplete by replacing the fonts of some interfaces.",
       "author": "nice2cu1",
       "downloadUrl": "https://github.com/nice2cu1/OuterWildFixFont/releases/download/v2/OuterWildFixFont.zip",
-      "downloadCount": 222,
+      "downloadCount": 233,
       "latestReleaseDate": "2023-03-24T09:34:09Z",
       "firstReleaseDate": "2023-01-31T10:50:17Z",
       "repo": "https://github.com/nice2cu1/OuterWildFixFont",
@@ -7050,7 +7050,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix:\r\n\r\n- 宇宙飞船日志显示问题\r\n\r\n- 飞船内部GUI小字问题",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7058,7 +7058,7 @@
       "slug": "outerwildschinesefix",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T03:01:34Z",
-      "databaseEntryUpdatedAt": "2023-06-06T05:16:03.592Z",
+      "databaseEntryUpdatedAt": "2023-06-06T17:27:40.824Z",
       "viewCount": 30,
       "weeklyViewCount": 13,
       "installCount": 18,
@@ -7100,7 +7100,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/QSBGameModes/releases/download/v0.0.1/BUNN1E5.QSBGameModes.zip",
-      "downloadCount": 514,
+      "downloadCount": 517,
       "latestReleaseDate": "2023-03-30T03:28:01Z",
       "firstReleaseDate": "2023-03-30T03:28:01Z",
       "repo": "https://github.com/BUNN1E5/QSBGameModes",
@@ -7110,7 +7110,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7120,7 +7120,7 @@
         "main": "qsbgamemodes.webp"
       },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
-      "databaseEntryUpdatedAt": "2023-06-06T05:16:04.951Z",
+      "databaseEntryUpdatedAt": "2023-06-06T17:27:40.980Z",
       "viewCount": 218,
       "weeklyViewCount": 67,
       "installCount": 245,
@@ -7257,7 +7257,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v0.6.1/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 467,
+      "downloadCount": 473,
       "latestReleaseDate": "2023-05-28T03:08:37Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7267,7 +7267,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Improve French translation! Thank you, @Myalgul ",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7275,7 +7275,7 @@
       "slug": "translationfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-31T14:41:07Z",
-      "databaseEntryUpdatedAt": "2023-06-06T05:16:04.951Z",
+      "databaseEntryUpdatedAt": "2023-06-06T17:27:41.129Z",
       "viewCount": 325,
       "weeklyViewCount": 68,
       "installCount": 155,
@@ -7413,7 +7413,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.1.2/O32.UnnamedMystery.zip",
-      "downloadCount": 128,
+      "downloadCount": 138,
       "latestReleaseDate": "2023-06-05T23:49:48Z",
       "firstReleaseDate": "2023-06-05T04:01:15Z",
       "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
@@ -7423,7 +7423,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Unnamed-Mystery/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu), ItsKan, and others",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "1. Fixed a typo in the shiplog\r\n2. Gave music track property to songs\r\n3. Changed a misplaced line (sorta fixed but not really)\r\n4. Made the final puzzle slightly easier",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -7433,8 +7433,8 @@
       "thumbnail": {
         "main": "unnamedmystery.webp"
       },
-      "repoUpdatedAt": "2023-06-05T23:55:25Z",
-      "databaseEntryUpdatedAt": "2023-06-06T12:57:52.203Z",
+      "repoUpdatedAt": "2023-06-06T17:16:24Z",
+      "databaseEntryUpdatedAt": "2023-06-06T17:27:42.136Z",
       "viewCount": 145,
       "weeklyViewCount": 145,
       "installCount": 85,
