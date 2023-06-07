@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123954
+    "downloadCount": 123955
   },
   "releases": [
     {
@@ -7472,6 +7472,39 @@
       "weeklyViewCount": 71,
       "installCount": 5,
       "weeklyInstallCount": 5
+    },
+    {
+      "name": "Inhabitant Chess",
+      "uniqueName": "codelazarus14.InhabitantChess",
+      "description": "Adds a playable board game to the end of the Outer Wilds DLC",
+      "author": "codelazarus14",
+      "downloadUrl": "https://github.com/codelazarus14/InhabitantChess/releases/download/v0.1.0/codelazarus14.InhabitantChess.zip",
+      "downloadCount": 1,
+      "latestReleaseDate": "2023-06-07T16:15:55Z",
+      "firstReleaseDate": "2023-06-07T16:15:55Z",
+      "repo": "https://github.com/codelazarus14/InhabitantChess",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/codelazarus14/InhabitantChess/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/codelazarus14/InhabitantChess/master/README.md"
+      },
+      "latestReleaseDescription": "First release, still missing a few features and error-prone but it's stable enough :/",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay",
+        "content",
+        "audiovisual"
+      ],
+      "slug": "inhabitantchess",
+      "thumbnail": {
+        "main": "inhabitantchess.webp"
+      },
+      "repoUpdatedAt": "2023-06-07T16:16:45Z",
+      "databaseEntryUpdatedAt": "2023-06-07T18:39:45.718Z",
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
