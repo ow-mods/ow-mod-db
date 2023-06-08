@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 124101
+    "downloadCount": 124102
   },
   "releases": [
     {
@@ -1815,7 +1815,7 @@
       "description": "",
       "author": "mrmeep321",
       "downloadUrl": "https://github.com/mrmeep321/21stCenturyAnglerfish/releases/download/v1.1.0/21stCenturyAnglerfish.zip",
-      "downloadCount": 1355,
+      "downloadCount": 1357,
       "latestReleaseDate": "2022-01-21T19:10:18Z",
       "firstReleaseDate": "2022-01-21T17:29:54Z",
       "repo": "https://github.com/mrmeep321/21stCenturyAnglerfish",
@@ -1824,7 +1824,7 @@
         "htmlUrl": "https://github.com/mrmeep321/21stCenturyAnglerfish/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrmeep321/21stCenturyAnglerfish/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed an issue where the Mod Loader was pulling 2 audio files, one that exists, and one that is in the wrong directory.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -1832,7 +1832,7 @@
       "slug": "21stcenturyanglerfish",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-02T04:40:07Z",
-      "databaseEntryUpdatedAt": "2023-06-08T06:24:18.277Z",
+      "databaseEntryUpdatedAt": "2023-06-08T18:36:23.143Z",
       "viewCount": 79,
       "weeklyViewCount": 12,
       "installCount": 34,
@@ -3942,12 +3942,12 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 2959,
+      "downloadCount": 2962,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Updated to latest game version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3955,7 +3955,7 @@
       "slug": "stoptime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-02T04:39:07Z",
-      "databaseEntryUpdatedAt": "2023-06-08T06:24:31.051Z",
+      "databaseEntryUpdatedAt": "2023-06-08T18:36:35.797Z",
       "viewCount": 60,
       "weeklyViewCount": 24,
       "installCount": 69,
