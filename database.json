@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 124133
+    "downloadCount": 124134
   },
   "releases": [
     {
@@ -7511,18 +7511,18 @@
       "uniqueName": "JohnCorby.SlipNSlide",
       "description": "Makes everything very slippery. Also adds a bunch of silly sounds and songs.",
       "author": "JohnCorby",
-      "downloadUrl": "https://github.com/JohnCorby/ow-slip-n-slide/releases/download/v1.0.0/JohnCorby.SlipNSlide.zip",
+      "downloadUrl": "https://github.com/JohnCorby/ow-slip-n-slide/releases/download/v1.0.1/JohnCorby.SlipNSlide.zip",
       "downloadCount": 7,
-      "latestReleaseDate": "2023-06-08T02:05:54Z",
+      "latestReleaseDate": "2023-06-09T03:42:31Z",
       "firstReleaseDate": "2023-06-08T02:05:54Z",
       "repo": "https://github.com/JohnCorby/ow-slip-n-slide",
-      "version": "v1.0.0",
+      "version": "v1.0.1",
       "readme": {
         "htmlUrl": "https://github.com/JohnCorby/ow-slip-n-slide/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-slip-n-slide/master/README.md"
       },
       "authorDisplay": "JohnCorby & Trifid",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fixed a memory leak when loading audio",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7535,8 +7535,8 @@
       "thumbnail": {
         "main": "slipnslide.webp"
       },
-      "repoUpdatedAt": "2023-06-09T03:37:20Z",
-      "databaseEntryUpdatedAt": "2023-06-09T03:43:23.641Z",
+      "repoUpdatedAt": "2023-06-09T03:56:16Z",
+      "databaseEntryUpdatedAt": "2023-06-09T04:21:29.164Z",
       "viewCount": 27,
       "weeklyViewCount": 27,
       "installCount": 5,
