@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 124353
+    "downloadCount": 124360
   },
   "releases": [
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.0/QSB.zip",
-      "downloadCount": 30716,
+      "downloadCount": 30718,
       "latestReleaseDate": "2023-05-08T14:01:12Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -111,8 +111,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-06-10T18:21:34Z",
-      "databaseEntryUpdatedAt": "2023-06-10T18:24:23.382Z",
+      "repoUpdatedAt": "2023-06-10T18:45:50Z",
+      "databaseEntryUpdatedAt": "2023-06-10T18:49:45.078Z",
       "viewCount": 2440,
       "weeklyViewCount": 666,
       "installCount": 709,
@@ -284,7 +284,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 21641,
+      "downloadCount": 21665,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -293,7 +293,7 @@
         "htmlUrl": "https://github.com/misternebula/MenuFramework/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/MenuFramework/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added functionality to add custom startup popups.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -301,7 +301,7 @@
       "slug": "menuframework",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-20T23:13:38Z",
-      "databaseEntryUpdatedAt": "2023-06-10T06:24:36.688Z",
+      "databaseEntryUpdatedAt": "2023-06-10T18:49:44.075Z",
       "viewCount": 94,
       "weeklyViewCount": 24,
       "installCount": 152,
@@ -2138,7 +2138,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.13.1/JohnCorby.VanillaFix.zip",
-      "downloadCount": 22201,
+      "downloadCount": 22244,
       "latestReleaseDate": "2023-06-05T04:38:00Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2147,7 +2147,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fix ANOTHER projection pool vanilla bug, caused by a small typo",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -2157,7 +2157,7 @@
         "main": "vanillafix.webp"
       },
       "repoUpdatedAt": "2023-06-05T04:38:21Z",
-      "databaseEntryUpdatedAt": "2023-06-10T06:24:38.825Z",
+      "databaseEntryUpdatedAt": "2023-06-10T18:49:44.636Z",
       "viewCount": 317,
       "weeklyViewCount": 112,
       "installCount": 301,
