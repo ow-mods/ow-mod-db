@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
-      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -5136,7 +5136,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/ow-dreamstalker/releases/download/v0.1.6/xen.Dreamstalker.zip",
-      "downloadCount": 1092,
+      "downloadCount": 1093,
       "latestReleaseDate": "2023-03-25T19:54:09Z",
       "firstReleaseDate": "2022-10-27T01:52:29Z",
       "repo": "https://github.com/xen-42/ow-dreamstalker",
@@ -5146,7 +5146,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-dreamstalker/main/README.md"
       },
       "authorDisplay": "xen & JohnCorby",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Update Dreamstalker for NH v1.10.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5158,7 +5158,7 @@
         "main": "escapethedreamstalker.webp"
       },
       "repoUpdatedAt": "2023-03-25T19:23:09Z",
-      "databaseEntryUpdatedAt": "2023-06-09T19:28:15.027Z",
+      "databaseEntryUpdatedAt": "2023-06-10T07:32:23.172Z",
       "viewCount": 90,
       "weeklyViewCount": 33,
       "installCount": 48,
@@ -7133,7 +7133,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ballpit/releases/download/v0.1.0/TerrificTrifid.ShipBallpit.zip",
-      "downloadCount": 119,
+      "downloadCount": 120,
       "latestReleaseDate": "2023-04-01T18:39:31Z",
       "firstReleaseDate": "2023-04-01T18:39:31Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-ballpit",
@@ -7143,7 +7143,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ballpit/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Turns your entire ship into a ball pit! Totally not a safety hazard!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7153,7 +7153,7 @@
         "main": "shipballpit.webp"
       },
       "repoUpdatedAt": "2023-04-01T20:31:20Z",
-      "databaseEntryUpdatedAt": "2023-06-09T19:28:15.341Z",
+      "databaseEntryUpdatedAt": "2023-06-10T07:32:24.955Z",
       "viewCount": 44,
       "weeklyViewCount": 8,
       "installCount": 50,
