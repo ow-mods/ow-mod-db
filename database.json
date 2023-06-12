@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 124670
+    "downloadCount": 124672
   },
   "releases": [
     {
@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.0/xen.NewHorizons.zip",
-      "downloadCount": 25381,
+      "downloadCount": 25401,
       "latestReleaseDate": "2023-05-07T20:26:51Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Major features\r\n- Heightmap overhaul!\r\n  - Normal maps (bump maps)\r\n  - Smoothness (gloss) and metallic maps\r\n  - Tiling versions of texture/normal/smoothness/metallic maps for finer up-close detail\r\n  - Blend map that uses the red, green, blue, and alpha channels to control the distribution of 4 tiles respectively, plus a fifth \"base\" tile that appears where the others are absent.\r\n  - Stretch has changed to proper unity coordinates, where y is up.\r\n\r\n## Minor features\r\n- New `CometTail` module replacing the `hasCometTail` field. Allows customizing the colour and scale-over-time of a comet tail.\r\n\r\n## Improvements\r\n- Patched forget frequency method so it will work for those using it on custom signals\r\n- Added `teenager` arc type to translator text. This is a mix between child and adult. It uses the adult mesh but the child texture. Originally used at the window text on Giant's Deep's statue island.\r\n- Generated textures are now cached. this should reduce memory usage (resolves #581)\r\n  - Textures are named by file path and then the effects applied to them, for example `[path] > invert > tint [color]`\r\n- Physics details splash in water like the probe and have the probe's buoyancy.\r\n\r\n## Bug fixes\r\n- Fixed NullReferenceException when spawning vessels with physics\r\n- Fixed SpawnDialogue API method always creating a remote trigger\r\n- Physics details are now affected by tornadoes (resolves #580)\r\n- Stretch now behaves more intuitively (does not divide min/max height by the largest stretch axis) (resolves #551)\r\n- Fix spamming logs with \"Fact ID Not Found\" on system change (resolves #586) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/576**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1069,7 +1069,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-06-09T17:24:16Z",
-      "databaseEntryUpdatedAt": "2023-06-12T05:55:00.364Z",
+      "databaseEntryUpdatedAt": "2023-06-12T18:20:24.850Z",
       "viewCount": 587,
       "weeklyViewCount": 172,
       "installCount": 314,
@@ -3784,7 +3784,7 @@
       "description": "Place Minecraft blocks with left click, destroy them with alt-click, and switch blocks with T (See README for VR controls)",
       "author": "12090113",
       "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.6/12090113.Cubes.zip",
-      "downloadCount": 449,
+      "downloadCount": 450,
       "latestReleaseDate": "2023-05-01T02:53:31Z",
       "firstReleaseDate": "2022-07-10T21:49:54Z",
       "repo": "https://github.com/12090113/outer-wilds-cubes",
@@ -3793,8 +3793,8 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "It now automatically saves your placed blocks when you die, and automatically loads that save when you wake up. This can be disabled in the mod settings.",
+      "latestPrereleaseDescription": "QSB compatibility! QSB compatibility will eventually become a separate QSB addon, but is just a pre-release for now. As far as I can tell, everything is synced right now except if you join after someone has already placed blocks, then those blocks won't show up for you. This will eventually be fixed in the future dedicated compatibility mod.",
       "prerelease": {
         "version": "v0.3.6-pre",
         "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.6-pre/12090113.Cubes.zip",
@@ -3809,7 +3809,7 @@
         "openGraph": "blockplacing-static.webp"
       },
       "repoUpdatedAt": "2023-05-01T02:55:34Z",
-      "databaseEntryUpdatedAt": "2023-06-12T05:55:00.357Z",
+      "databaseEntryUpdatedAt": "2023-06-12T18:20:25.194Z",
       "viewCount": 9,
       "weeklyViewCount": 2,
       "installCount": 18,
@@ -3891,7 +3891,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-sound-test/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-sound-test/master/README.md"
       },
-      "latestReleaseDescription": "Sounds can now be stopped at any point and will no longer overlap with each other.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -4073,7 +4073,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "Fixed computers not appearing",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4692,7 +4692,7 @@
         "htmlUrl": "https://github.com/Ciborgm9/Rogue-Planet/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ciborgm9/Rogue-Planet/main/README.md"
       },
-      "latestReleaseDescription": "Update manifest.json\n\nAdds tags to the mod",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6763,7 +6763,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6861,7 +6861,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6954,7 +6954,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7296,7 +7296,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "- Reparent warped items on arrival\r\n- Fixed some Prisoner Cell entryway trigger stuff",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7327,7 +7327,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "exist",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
