@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 124595
+    "downloadCount": 124597
   },
   "releases": [
     {
@@ -47,7 +47,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 55728,
+      "downloadCount": 55765,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
+      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -74,7 +74,7 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2023-05-31T21:16:27Z",
-      "databaseEntryUpdatedAt": "2023-06-11T14:20:38.645Z",
+      "databaseEntryUpdatedAt": "2023-06-12T02:58:09.758Z",
       "viewCount": 2501,
       "weeklyViewCount": 622,
       "installCount": 663,
@@ -375,7 +375,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play!",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.3/Release.0.6.3.zip",
-      "downloadCount": 8823,
+      "downloadCount": 8830,
       "latestReleaseDate": "2023-01-12T00:25:40Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -384,8 +384,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
+      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -399,7 +399,7 @@
         "main": "outerwildsonline.webp"
       },
       "repoUpdatedAt": "2023-03-31T00:59:19Z",
-      "databaseEntryUpdatedAt": "2023-06-11T14:20:37.436Z",
+      "databaseEntryUpdatedAt": "2023-06-12T02:58:08.815Z",
       "viewCount": 328,
       "weeklyViewCount": 75,
       "installCount": 129,
@@ -527,7 +527,7 @@
       "description": "Slows time-based events over 1 hour in the game to give you more time to explore!",
       "author": "dwatson251",
       "downloadUrl": "https://github.com/dwatson251/ow-slowtime/releases/download/v0.1.0/dnlwtsn.SlowTime.zip",
-      "downloadCount": 2456,
+      "downloadCount": 2458,
       "latestReleaseDate": "2021-10-27T19:40:41Z",
       "firstReleaseDate": "2021-10-27T19:40:41Z",
       "repo": "https://github.com/dwatson251/ow-slowtime",
@@ -536,7 +536,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -544,7 +544,7 @@
       "slug": "slowtime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-31T12:21:36Z",
-      "databaseEntryUpdatedAt": "2023-06-11T14:20:35.874Z",
+      "databaseEntryUpdatedAt": "2023-06-12T02:58:07.357Z",
       "viewCount": 46,
       "weeklyViewCount": 11,
       "installCount": 58,
@@ -1545,7 +1545,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -1553,7 +1553,7 @@
       "slug": "outerwildskoreantranslation",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-04T15:05:36Z",
-      "databaseEntryUpdatedAt": "2023-06-11T14:20:37.172Z",
+      "databaseEntryUpdatedAt": "2023-06-12T02:58:07.358Z",
       "viewCount": 160,
       "weeklyViewCount": 25,
       "installCount": 139,
@@ -4190,7 +4190,7 @@
       "author": "misternebula",
       "parent": "xen.AchievementTracker",
       "downloadUrl": "https://github.com/misternebula/cut-achievements/releases/download/1.0.0/CutAchievements.zip",
-      "downloadCount": 623,
+      "downloadCount": 624,
       "latestReleaseDate": "2022-08-23T22:28:07Z",
       "firstReleaseDate": "2022-08-23T22:28:07Z",
       "repo": "https://github.com/misternebula/cut-achievements",
@@ -4203,7 +4203,7 @@
       "slug": "cutachievements",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:48:07Z",
-      "databaseEntryUpdatedAt": "2023-06-11T14:20:49.480Z",
+      "databaseEntryUpdatedAt": "2023-06-12T02:58:20.901Z",
       "viewCount": 31,
       "weeklyViewCount": 11,
       "installCount": 41,
@@ -7050,7 +7050,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "fix version ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7194,7 +7194,7 @@
       "description": "Upgrades every Hearthian camera with color technology!",
       "author": "TerrificTrifid",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-color-cameras/releases/download/v0.1.0/TerrificTrifid.ColorCameras.zip",
-      "downloadCount": 140,
+      "downloadCount": 142,
       "latestReleaseDate": "2023-04-08T17:27:09Z",
       "firstReleaseDate": "2023-04-08T17:27:09Z",
       "repo": "https://github.com/TerrificTrifid/ow-color-cameras",
@@ -7204,7 +7204,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-color-cameras/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Upgrades every Hearthian camera with color technology!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7215,7 +7215,7 @@
         "main": "colorcameras.webp"
       },
       "repoUpdatedAt": "2023-04-08T17:29:05Z",
-      "databaseEntryUpdatedAt": "2023-06-11T14:20:37.435Z",
+      "databaseEntryUpdatedAt": "2023-06-12T02:58:07.361Z",
       "viewCount": 33,
       "weeklyViewCount": 7,
       "installCount": 48,
@@ -7236,7 +7236,7 @@
         "htmlUrl": "https://github.com/Tephirax/Invert-Look-Controls/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/Invert-Look-Controls/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added mod options for flexibility",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7244,7 +7244,7 @@
       "slug": "invertlookcontrols",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-07T09:14:55Z",
-      "databaseEntryUpdatedAt": "2023-06-11T14:20:37.172Z",
+      "databaseEntryUpdatedAt": "2023-06-12T02:58:07.358Z",
       "viewCount": 4,
       "weeklyViewCount": 4,
       "installCount": 1,
@@ -7267,7 +7267,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "* Improve French translation! Thank you, @Myalgul ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
