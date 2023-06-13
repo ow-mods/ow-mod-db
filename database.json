@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 124772
+    "downloadCount": 124773
   },
   "releases": [
     {
@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.1/xen.NewHorizons.zip",
-      "downloadCount": 25408,
+      "downloadCount": 25451,
       "latestReleaseDate": "2023-06-13T00:48:04Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Improvements\r\n- The documentation for priority volumes is much better now\r\n- Made gravity/cloud/air/water volumes better match base game\r\n\r\n## Bug fixes\r\n- Fixed \"None\" vine prefab causing an NRE on dimension enter (resolves #562)\r\n- Fixed an issue where anglerfish weren't animating properly\r\n- Making two signals of the same name and placing one inside a cloak and the other outside a cloak would cause both to be considered \"inside the cloak\".\r\n  - Also applied the same fix to quantum moon signals\r\n- Fixed audio track not being applied, previously it was stuck as `environmental` (resolves #602)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/593**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1069,7 +1069,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-06-13T00:53:53Z",
-      "databaseEntryUpdatedAt": "2023-06-13T01:50:22.910Z",
+      "databaseEntryUpdatedAt": "2023-06-13T14:07:39.875Z",
       "viewCount": 579,
       "weeklyViewCount": 164,
       "installCount": 312,
@@ -2821,7 +2821,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1754,
+      "downloadCount": 1759,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2830,7 +2830,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2841,7 +2841,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-06-13T01:50:22.899Z",
+      "databaseEntryUpdatedAt": "2023-06-13T14:07:38.817Z",
       "viewCount": 64,
       "weeklyViewCount": 13,
       "installCount": 95,
@@ -6357,7 +6357,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6369,7 +6369,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-06-13T01:50:22.545Z",
+      "databaseEntryUpdatedAt": "2023-06-13T14:07:39.654Z",
       "viewCount": 20,
       "weeklyViewCount": 8,
       "installCount": 37,
@@ -6922,7 +6922,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6932,7 +6932,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-22T20:55:24Z",
-      "databaseEntryUpdatedAt": "2023-06-13T01:50:22.899Z",
+      "databaseEntryUpdatedAt": "2023-06-13T14:07:39.867Z",
       "viewCount": 102,
       "weeklyViewCount": 34,
       "installCount": 68,
@@ -7079,7 +7079,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
