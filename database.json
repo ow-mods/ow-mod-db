@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.0/QSB.zip",
-      "downloadCount": 30815,
+      "downloadCount": 30830,
       "latestReleaseDate": "2023-05-08T14:01:12Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -112,7 +112,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-06-11T18:43:24Z",
-      "databaseEntryUpdatedAt": "2023-06-12T19:15:54.680Z",
+      "databaseEntryUpdatedAt": "2023-06-13T07:22:39.514Z",
       "viewCount": 2407,
       "weeklyViewCount": 650,
       "installCount": 678,
