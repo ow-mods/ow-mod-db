@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.1/xen.NewHorizons.zip",
-      "downloadCount": 25495,
+      "downloadCount": 25499,
       "latestReleaseDate": "2023-06-13T00:48:04Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Improvements\r\n- The documentation for priority volumes is much better now\r\n- Made gravity/cloud/air/water volumes better match base game\r\n\r\n## Bug fixes\r\n- Fixed \"None\" vine prefab causing an NRE on dimension enter (resolves #562)\r\n- Fixed an issue where anglerfish weren't animating properly\r\n- Making two signals of the same name and placing one inside a cloak and the other outside a cloak would cause both to be considered \"inside the cloak\".\r\n  - Also applied the same fix to quantum moon signals\r\n- Fixed audio track not being applied, previously it was stuck as `environmental` (resolves #602)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/593**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,8 +1068,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-06-13T00:53:53Z",
-      "databaseEntryUpdatedAt": "2023-06-14T02:37:15.049Z",
+      "repoUpdatedAt": "2023-06-14T03:14:16Z",
+      "databaseEntryUpdatedAt": "2023-06-14T03:16:07.236Z",
       "viewCount": 594,
       "weeklyViewCount": 164,
       "installCount": 308,
@@ -7050,7 +7050,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "fix version ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7267,7 +7267,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "* Improve French translation! Thank you, @Myalgul ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
