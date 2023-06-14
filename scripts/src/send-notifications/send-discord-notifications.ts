@@ -82,7 +82,7 @@ function getEmbed(diffItem: DiffItem) {
       },
       {
         name: "\u200B",
-        value: `[<:github:1085179483784499260> Source Code](${diffItem.nextMod.repo})`,
+        value: `<:github:1085179483784499260> [Source Code](${diffItem.nextMod.repo})`,
       },
     ],
     author: {
