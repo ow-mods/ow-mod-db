@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 124971
+    "downloadCount": 124972
   },
   "releases": [
     {
@@ -4907,7 +4907,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.4/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 8749,
+      "downloadCount": 8771,
       "latestReleaseDate": "2023-06-14T00:36:11Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4917,7 +4917,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4927,7 +4927,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-06-14T00:36:41Z",
-      "databaseEntryUpdatedAt": "2023-06-15T02:35:26.026Z",
+      "databaseEntryUpdatedAt": "2023-06-15T14:41:36.379Z",
       "viewCount": 129,
       "weeklyViewCount": 28,
       "installCount": 49,
@@ -5466,7 +5466,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5477,7 +5477,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-06-15T02:35:26.033Z",
+      "databaseEntryUpdatedAt": "2023-06-15T14:41:35.299Z",
       "viewCount": 11,
       "weeklyViewCount": 1,
       "installCount": 7,
@@ -7079,7 +7079,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7087,7 +7087,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-06-15T02:35:25.774Z",
+      "databaseEntryUpdatedAt": "2023-06-15T14:41:34.920Z",
       "viewCount": 24,
       "weeklyViewCount": 2,
       "installCount": 13,
@@ -7413,7 +7413,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.2.0/O32.UnnamedMystery.zip",
-      "downloadCount": 312,
+      "downloadCount": 316,
       "latestReleaseDate": "2023-06-15T02:14:01Z",
       "firstReleaseDate": "2023-06-05T04:01:15Z",
       "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
@@ -7423,7 +7423,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Unnamed-Mystery/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu), ItsKan, and others",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## This is PART A of 1.2.0! This is to be expanded. ##\r\n\r\n- Merged the Teraxia and Helioplasmia system, Taux content moved to Metallos, etc\r\n- Flipped a projection pool\r\n- Changed some text, but the lines are still the same :(",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -7434,7 +7434,7 @@
         "main": "unnamedmystery.webp"
       },
       "repoUpdatedAt": "2023-06-15T02:14:17Z",
-      "databaseEntryUpdatedAt": "2023-06-15T02:35:26.214Z",
+      "databaseEntryUpdatedAt": "2023-06-15T14:41:36.327Z",
       "viewCount": 445,
       "weeklyViewCount": 239,
       "installCount": 237,
