@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 124976
+    "downloadCount": 124979
   },
   "releases": [
     {
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
-      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -384,8 +384,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
-      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -536,7 +536,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -1545,7 +1545,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -3068,7 +3068,7 @@
       "description": "A mod that skips various lengthy and repetetive sequences in Outer Wilds",
       "author": "Bwc9876",
       "downloadUrl": "https://github.com/Bwc9876/OW-TimeSaver/releases/download/1.2.0/Bwc9876.TimeSaver.zip",
-      "downloadCount": 2170,
+      "downloadCount": 2173,
       "latestReleaseDate": "2023-04-27T07:53:17Z",
       "firstReleaseDate": "2022-05-09T00:38:00Z",
       "repo": "https://github.com/Bwc9876/OW-TimeSaver",
@@ -3077,7 +3077,7 @@
         "htmlUrl": "https://github.com/Bwc9876/OW-TimeSaver/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Bwc9876/OW-TimeSaver/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "add ability to skip credits and post credits",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -3085,7 +3085,7 @@
       "slug": "timesaver",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-22T19:18:05Z",
-      "databaseEntryUpdatedAt": "2023-06-15T03:53:50.981Z",
+      "databaseEntryUpdatedAt": "2023-06-15T16:15:40.249Z",
       "viewCount": 64,
       "weeklyViewCount": 4,
       "installCount": 65,
@@ -7204,7 +7204,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-color-cameras/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "Upgrades every Hearthian camera with color technology!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7236,7 +7236,7 @@
         "htmlUrl": "https://github.com/Tephirax/Invert-Look-Controls/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/Invert-Look-Controls/main/README.md"
       },
-      "latestReleaseDescription": "Added mod options for flexibility",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
