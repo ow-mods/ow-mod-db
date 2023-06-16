@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125069
+    "downloadCount": 125070
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -3860,7 +3860,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7257,7 +7257,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.0.0/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 553,
+      "downloadCount": 557,
       "latestReleaseDate": "2023-06-15T16:08:37Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7267,15 +7267,15 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Major Update!! This mod fixes some issues of The Outsider itself!\r\n\r\n## Fixes for The Outsider itself\r\n\r\n* [Broken Nomai text in the Eye (The Outsider's Issue) #7](https://github.com/TRSasasusu/TranslationForTheOutsider/issues/7)\r\n* [Shifted Ship Log after quitting and loading the game (The Outsider's Issue) #8](https://github.com/TRSasasusu/TranslationForTheOutsider/issues/8)\r\n* [Projection from ATP to DB causes teleportation (The Outsider's Issue) #9](https://github.com/TRSasasusu/TranslationForTheOutsider/issues/9)\r\n* [Can't read ATP to DB stone from ATP (The Outsider's Issue) #11](https://github.com/TRSasasusu/TranslationForTheOutsider/issues/11)\r\n\r\n## Translation for The Outsider\r\n\r\n* Fixes some translations\r\n* Fix RU translation by @Danielthas1988 (see #10)",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
       ],
       "slug": "translationfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-06-15T21:22:59Z",
-      "databaseEntryUpdatedAt": "2023-06-16T09:45:38.897Z",
+      "repoUpdatedAt": "2023-06-16T14:08:16Z",
+      "databaseEntryUpdatedAt": "2023-06-16T14:19:10.274Z",
       "viewCount": 228,
       "weeklyViewCount": 32,
       "installCount": 162,
