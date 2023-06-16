@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125091
+    "downloadCount": 125092
   },
   "releases": [
     {
@@ -6496,7 +6496,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/CantAffordaName/CantAffordaName.Archipelago/main/README.md"
       },
       "authorDisplay": "Can't Afford a Name",
-      "latestReleaseDescription": "Not cheating, just screwed up the release process. Attached mod .zip",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -7256,18 +7256,18 @@
       "description": "Universal translation for The Outsider; EN -> JA, pt-BR, zh-CN, RU, FR (making others are welcoming!) And patches to solve some issues of The Outsider",
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
-      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.0.1/orclecle.TranslationForTheOutsider.zip",
+      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.0.2/orclecle.TranslationForTheOutsider.zip",
       "downloadCount": 564,
-      "latestReleaseDate": "2023-06-16T14:18:43Z",
+      "latestReleaseDate": "2023-06-16T17:23:49Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
-      "version": "v1.0.1",
+      "version": "v1.0.2",
       "readme": {
         "htmlUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "## Translation for The Outsider\r\n\r\n* Fix RU translation by @Danielthas1988 (see #10)\r\n\r\n## Misc\r\n\r\n* Update the mod name to Translation and Patches for The Outsider",
+      "latestReleaseDescription": "* Remove the dependencies from `manifest.json` because The Outsider has a dependency of this mod now and a circular dependency should be avoided.\r\n    * I noticed that installing mods having circular dependencies cause OWML loading order issue which cause other mods unstable even if such mods are disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization",
@@ -7275,8 +7275,8 @@
       ],
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-06-16T17:22:11Z",
-      "databaseEntryUpdatedAt": "2023-06-16T17:26:53.419Z",
+      "repoUpdatedAt": "2023-06-16T17:29:13Z",
+      "databaseEntryUpdatedAt": "2023-06-16T17:39:32.495Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 162,
@@ -7559,7 +7559,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.SadSupernovaMusic/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Cry about it",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -7569,7 +7569,7 @@
         "main": "sadsupernovamusic.webp"
       },
       "repoUpdatedAt": "2023-06-08T07:05:38Z",
-      "databaseEntryUpdatedAt": "2023-06-16T05:30:01.533Z",
+      "databaseEntryUpdatedAt": "2023-06-16T17:39:33.574Z",
       "viewCount": 105,
       "weeklyViewCount": 105,
       "installCount": 12,
