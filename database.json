@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125089
+    "downloadCount": 125091
   },
   "releases": [
     {
@@ -6486,7 +6486,7 @@
       "author": "CantAffordaName",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.Archipelago/releases/download/v1.0.0-FixedRelease/CantAffordaName.Archipelago.zip",
-      "downloadCount": 338,
+      "downloadCount": 341,
       "latestReleaseDate": "2023-01-23T17:04:35Z",
       "firstReleaseDate": "2023-01-23T17:04:35Z",
       "repo": "https://github.com/CantAffordaName/CantAffordaName.Archipelago",
@@ -6496,7 +6496,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/CantAffordaName/CantAffordaName.Archipelago/main/README.md"
       },
       "authorDisplay": "Can't Afford a Name",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Not cheating, just screwed up the release process. Attached mod .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6507,8 +6507,8 @@
       "thumbnail": {
         "main": "archipelago.webp"
       },
-      "repoUpdatedAt": "2023-01-23T17:10:37Z",
-      "databaseEntryUpdatedAt": "2023-06-16T09:32:44.113Z",
+      "repoUpdatedAt": "2023-06-16T17:15:01Z",
+      "databaseEntryUpdatedAt": "2023-06-16T17:26:53.175Z",
       "viewCount": 56,
       "weeklyViewCount": 26,
       "installCount": 38,
@@ -7251,13 +7251,13 @@
       "weeklyInstallCount": 0
     },
     {
-      "name": "Translation for The Outsider",
+      "name": "Translation and Patches for The Outsider",
       "uniqueName": "orclecle.TranslationForTheOutsider",
       "description": "Universal translation for The Outsider; EN -> JA, pt-BR, zh-CN, RU, FR (making others are welcoming!) And patches to solve some issues of The Outsider",
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.0.1/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 559,
+      "downloadCount": 564,
       "latestReleaseDate": "2023-06-16T14:18:43Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7267,17 +7267,18 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Translation for The Outsider\r\n\r\n* Fix RU translation by @Danielthas1988 (see #10)\r\n\r\n## Misc\r\n\r\n* Update the mod name to Translation and Patches for The Outsider",
       "latestPrereleaseDescription": "",
       "tags": [
-        "localization"
+        "localization",
+        "tweaks"
       ],
-      "slug": "translationfortheoutsider",
+      "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-06-16T14:36:42Z",
-      "databaseEntryUpdatedAt": "2023-06-16T14:44:56.750Z",
-      "viewCount": 228,
-      "weeklyViewCount": 32,
+      "repoUpdatedAt": "2023-06-16T17:22:11Z",
+      "databaseEntryUpdatedAt": "2023-06-16T17:26:53.419Z",
+      "viewCount": 0,
+      "weeklyViewCount": 0,
       "installCount": 162,
       "weeklyInstallCount": 45
     },
