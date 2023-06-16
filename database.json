@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125023
+    "downloadCount": 125029
   },
   "releases": [
     {
@@ -1761,7 +1761,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ArchaeologistAchievementHelper/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Added an `Unnamed` option for the \"Show missing entries\" setting to avoid showing the names of the missing entries (the text \"MISSING ENTRY\" would be shown instead), the `Named` option shows the real name as before.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3297,7 +3297,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -4907,7 +4907,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.4/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 8771,
+      "downloadCount": 8809,
       "latestReleaseDate": "2023-06-14T00:36:11Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4917,7 +4917,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4927,7 +4927,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-06-14T00:36:41Z",
-      "databaseEntryUpdatedAt": "2023-06-15T14:41:36.379Z",
+      "databaseEntryUpdatedAt": "2023-06-16T02:55:16.136Z",
       "viewCount": 129,
       "weeklyViewCount": 29,
       "installCount": 47,
@@ -4949,7 +4949,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5457,7 +5457,7 @@
       "description": "Mod to automatically export your Outer Wilds ship log for online viewing",
       "author": "Tephirax",
       "downloadUrl": "https://github.com/Tephirax/SharedShipLog/releases/download/v0.1.1/OuterWildsSharedShipLog.zip",
-      "downloadCount": 104,
+      "downloadCount": 105,
       "latestReleaseDate": "2022-11-18T16:15:16Z",
       "firstReleaseDate": "2022-11-18T16:15:16Z",
       "repo": "https://github.com/Tephirax/SharedShipLog",
@@ -5466,7 +5466,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5477,7 +5477,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-06-15T14:41:35.299Z",
+      "databaseEntryUpdatedAt": "2023-06-16T02:55:15.269Z",
       "viewCount": 11,
       "weeklyViewCount": 1,
       "installCount": 7,
@@ -6210,7 +6210,7 @@
       "description": "A quite large story and puzzle mod that takes place on Dark Bramble.",
       "author": "StreetlightsBehindTheTrees",
       "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.0.5/SBtT.TheOutsider.zip",
-      "downloadCount": 3652,
+      "downloadCount": 3654,
       "latestReleaseDate": "2023-06-16T00:54:39Z",
       "firstReleaseDate": "2023-01-19T22:22:18Z",
       "repo": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
@@ -6220,7 +6220,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/main/README.md"
       },
       "authorDisplay": "Streetlights Behind the Trees",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added Outsider Translation mod and VanillaFix as dependencies.",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -6230,8 +6230,8 @@
       "thumbnail": {
         "main": "theoutsider.webp"
       },
-      "repoUpdatedAt": "2023-06-16T01:00:47Z",
-      "databaseEntryUpdatedAt": "2023-06-16T01:49:41.108Z",
+      "repoUpdatedAt": "2023-06-16T02:45:46Z",
+      "databaseEntryUpdatedAt": "2023-06-16T02:55:14.647Z",
       "viewCount": 1472,
       "weeklyViewCount": 396,
       "installCount": 393,
@@ -6632,7 +6632,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "Lckily I fix however true, nervous, very, very dreadfully nervous I had been and am, but why will say that I am mad?! The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -7079,7 +7079,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7087,7 +7087,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-06-15T14:41:34.920Z",
+      "databaseEntryUpdatedAt": "2023-06-16T02:55:14.640Z",
       "viewCount": 24,
       "weeklyViewCount": 2,
       "installCount": 12,
@@ -7413,7 +7413,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.2.0/O32.UnnamedMystery.zip",
-      "downloadCount": 316,
+      "downloadCount": 329,
       "latestReleaseDate": "2023-06-15T02:14:01Z",
       "firstReleaseDate": "2023-06-05T04:01:15Z",
       "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
@@ -7423,7 +7423,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Unnamed-Mystery/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu), ItsKan, and others",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## This is PART A of 1.2.0! This is to be expanded. ##\r\n\r\n- Merged the Teraxia and Helioplasmia system, Taux content moved to Metallos, etc\r\n- Flipped a projection pool\r\n- Changed some text, but the lines are still the same :(",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -7434,7 +7434,7 @@
         "main": "unnamedmystery.webp"
       },
       "repoUpdatedAt": "2023-06-15T02:14:17Z",
-      "databaseEntryUpdatedAt": "2023-06-15T14:41:36.327Z",
+      "databaseEntryUpdatedAt": "2023-06-16T02:55:16.135Z",
       "viewCount": 451,
       "weeklyViewCount": 200,
       "installCount": 237,
