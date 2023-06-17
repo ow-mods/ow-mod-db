@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125215
+    "downloadCount": 125218
   },
   "releases": [
     {
@@ -1246,7 +1246,7 @@
       "description": "Customizable movement speed and jump height, instant jump, sprinting, climbing, and more.",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.3/Owen013.MovementMod.zip",
-      "downloadCount": 2994,
+      "downloadCount": 2997,
       "latestReleaseDate": "2023-04-16T23:12:23Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
@@ -1255,8 +1255,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -1270,7 +1270,7 @@
         "main": "hikersmod.webp"
       },
       "repoUpdatedAt": "2023-05-20T19:19:24Z",
-      "databaseEntryUpdatedAt": "2023-06-17T04:54:03.031Z",
+      "databaseEntryUpdatedAt": "2023-06-17T17:01:28.425Z",
       "viewCount": 33,
       "weeklyViewCount": 10,
       "installCount": 54,
@@ -2266,7 +2266,7 @@
       "description": "The mod's not yet finished. All characters are fully voiced, but the files are currently being mixed to improve their quality and add environmental effects.",
       "author": "Krevace",
       "downloadUrl": "https://github.com/Krevace/ow-voice-mod/releases/download/0.4.2/Krevace.VoiceMod.zip",
-      "downloadCount": 4414,
+      "downloadCount": 4420,
       "latestReleaseDate": "2022-12-08T20:58:57Z",
       "firstReleaseDate": "2022-04-08T00:40:29Z",
       "repo": "https://github.com/Krevace/ow-voice-mod",
@@ -2276,7 +2276,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Krevace/ow-voice-mod/master/README.md"
       },
       "authorDisplay": "Krevace & JohnCorby",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "It's about time for him to show up in the author's field. \r\n\r\n**Changelog:** [`0.4.1...0.4.2`](https://github.com/Krevace/ow-voice-mod/compare/0.4.1...0.4.2)",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -2286,7 +2286,7 @@
         "main": "voiceactingmod.webp"
       },
       "repoUpdatedAt": "2023-05-26T08:25:43Z",
-      "databaseEntryUpdatedAt": "2023-06-17T04:54:02.829Z",
+      "databaseEntryUpdatedAt": "2023-06-17T17:01:28.168Z",
       "viewCount": 289,
       "weeklyViewCount": 61,
       "installCount": 173,
@@ -7009,7 +7009,7 @@
       "description": "An Outer Wilds mod which lets you control how anglerfish behave.",
       "author": "TwentyPorts",
       "downloadUrl": "https://github.com/TwentyPorts/CustomAnglerfishAI/releases/download/v0.4.0/Anyar.CustomAnglerfishAI.zip",
-      "downloadCount": 146,
+      "downloadCount": 147,
       "latestReleaseDate": "2023-03-27T22:59:18Z",
       "firstReleaseDate": "2023-03-25T04:11:09Z",
       "repo": "https://github.com/TwentyPorts/CustomAnglerfishAI",
@@ -7019,7 +7019,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7029,7 +7029,7 @@
         "main": "customizableanglerfishai.webp"
       },
       "repoUpdatedAt": "2023-04-08T19:02:01Z",
-      "databaseEntryUpdatedAt": "2023-06-17T04:54:02.829Z",
+      "databaseEntryUpdatedAt": "2023-06-17T17:01:27.937Z",
       "viewCount": 35,
       "weeklyViewCount": 5,
       "installCount": 40,
@@ -7174,7 +7174,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWModThatDoesNothing/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWModThatDoesNothing/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -7182,7 +7182,7 @@
       "slug": "modthatdoesnothing",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-08T18:37:51Z",
-      "databaseEntryUpdatedAt": "2023-06-17T04:54:01.723Z",
+      "databaseEntryUpdatedAt": "2023-06-17T17:01:26.363Z",
       "viewCount": 48,
       "weeklyViewCount": 7,
       "installCount": 29,
