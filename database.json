@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.2/xen.NewHorizons.zip",
-      "downloadCount": 25674,
+      "downloadCount": 25691,
       "latestReleaseDate": "2023-06-14T22:57:07Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Improvements\r\n- All fluid types are now available instead of only a select few (includes Air volumes now)\r\n\r\n## Bug fixes\r\n- Fix solar system sun solar flares becoming white sometimes (resolves #605)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/607**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,8 +1068,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-06-14T23:18:29Z",
-      "databaseEntryUpdatedAt": "2023-06-16T23:44:20.144Z",
+      "repoUpdatedAt": "2023-06-17T05:49:46Z",
+      "databaseEntryUpdatedAt": "2023-06-17T05:53:38.689Z",
       "viewCount": 588,
       "weeklyViewCount": 141,
       "installCount": 302,
@@ -6234,8 +6234,8 @@
       "databaseEntryUpdatedAt": "2023-06-17T04:11:08.703Z",
       "viewCount": 1432,
       "weeklyViewCount": 309,
-      "installCount": 395,
-      "weeklyInstallCount": 102
+      "installCount": 396,
+      "weeklyInstallCount": 103
     },
     {
       "name": "Daylight Savings",
@@ -6337,8 +6337,8 @@
       "databaseEntryUpdatedAt": "2023-06-16T21:33:29.784Z",
       "viewCount": 85,
       "weeklyViewCount": 20,
-      "installCount": 56,
-      "weeklyInstallCount": 11
+      "installCount": 57,
+      "weeklyInstallCount": 12
     },
     {
       "name": "OW Ventures Scavenger Hunt",
@@ -6372,8 +6372,8 @@
       "databaseEntryUpdatedAt": "2023-06-17T03:26:09.434Z",
       "viewCount": 19,
       "weeklyViewCount": 3,
-      "installCount": 33,
-      "weeklyInstallCount": 7
+      "installCount": 34,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Arcanum Adrift",
@@ -6442,8 +6442,8 @@
       "databaseEntryUpdatedAt": "2023-06-16T21:33:30.127Z",
       "viewCount": 125,
       "weeklyViewCount": 24,
-      "installCount": 71,
-      "weeklyInstallCount": 16
+      "installCount": 72,
+      "weeklyInstallCount": 17
     },
     {
       "name": "Divergence",
@@ -6967,8 +6967,8 @@
       "databaseEntryUpdatedAt": "2023-06-16T18:54:58.285Z",
       "viewCount": 26,
       "weeklyViewCount": 13,
-      "installCount": 0,
-      "weeklyInstallCount": 0
+      "installCount": 1,
+      "weeklyInstallCount": 1
     },
     {
       "name": "Green Screen",
@@ -7513,7 +7513,7 @@
       "description": "Makes everything very slippery. Also adds a bunch of silly sounds and songs.",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-slip-n-slide/releases/download/v1.0.1/JohnCorby.SlipNSlide.zip",
-      "downloadCount": 21,
+      "downloadCount": 23,
       "latestReleaseDate": "2023-06-09T03:42:31Z",
       "firstReleaseDate": "2023-06-08T02:05:54Z",
       "repo": "https://github.com/JohnCorby/ow-slip-n-slide",
@@ -7523,7 +7523,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-slip-n-slide/master/README.md"
       },
       "authorDisplay": "JohnCorby & Trifid",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fixed a memory leak when loading audio",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7537,7 +7537,7 @@
         "main": "slipnslide.webp"
       },
       "repoUpdatedAt": "2023-06-09T03:56:16Z",
-      "databaseEntryUpdatedAt": "2023-06-16T17:51:49.652Z",
+      "databaseEntryUpdatedAt": "2023-06-17T05:53:38.813Z",
       "viewCount": 91,
       "weeklyViewCount": 56,
       "installCount": 18,
@@ -7559,7 +7559,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.SadSupernovaMusic/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "Cry about it",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
