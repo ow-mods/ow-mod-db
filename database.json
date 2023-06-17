@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Added text chat. Press ENTER to start typing, ENTER again to send the message, and ESCAPE to stop typing. Only works when you have the suit equipped.\r\n- Added an in-game switcher between KCP and Epic transports in the mod config settings.\r\n- Fixed bug where some buttons in the pause menu wouldn't appear/disappear.\r\n- Fixed player dots on the minimap not hiding when the minimap hides.\r\n- Fixed probe snapshots not working correctly (again).\r\n- Fixed bug where a player disconnecting while in a conversation would break that NPC's dialogue.",
-      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -284,7 +284,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 21934,
+      "downloadCount": 21956,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -293,7 +293,7 @@
         "htmlUrl": "https://github.com/misternebula/MenuFramework/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/MenuFramework/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added functionality to add custom startup popups.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -301,7 +301,7 @@
       "slug": "menuframework",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-20T23:13:38Z",
-      "databaseEntryUpdatedAt": "2023-06-17T08:29:47.331Z",
+      "databaseEntryUpdatedAt": "2023-06-17T20:40:04.484Z",
       "viewCount": 90,
       "weeklyViewCount": 17,
       "installCount": 142,
@@ -1824,7 +1824,7 @@
         "htmlUrl": "https://github.com/mrmeep321/21stCenturyAnglerfish/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrmeep321/21stCenturyAnglerfish/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed an issue where the Mod Loader was pulling 2 audio files, one that exists, and one that is in the wrong directory.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -1832,7 +1832,7 @@
       "slug": "21stcenturyanglerfish",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-02T04:40:07Z",
-      "databaseEntryUpdatedAt": "2023-06-17T08:29:47.153Z",
+      "databaseEntryUpdatedAt": "2023-06-17T20:40:03.318Z",
       "viewCount": 75,
       "weeklyViewCount": 19,
       "installCount": 28,
@@ -2138,7 +2138,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.13.1/JohnCorby.VanillaFix.zip",
-      "downloadCount": 22736,
+      "downloadCount": 22767,
       "latestReleaseDate": "2023-06-05T04:38:00Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2147,7 +2147,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fix ANOTHER projection pool vanilla bug, caused by a small typo",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -2157,7 +2157,7 @@
         "main": "vanillafix.webp"
       },
       "repoUpdatedAt": "2023-06-05T04:38:21Z",
-      "databaseEntryUpdatedAt": "2023-06-17T08:29:47.732Z",
+      "databaseEntryUpdatedAt": "2023-06-17T20:40:04.774Z",
       "viewCount": 275,
       "weeklyViewCount": 53,
       "installCount": 273,
@@ -3942,12 +3942,12 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 2980,
+      "downloadCount": 2981,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Updated to latest game version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3955,7 +3955,7 @@
       "slug": "stoptime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-02T04:39:07Z",
-      "databaseEntryUpdatedAt": "2023-06-17T08:30:00.751Z",
+      "databaseEntryUpdatedAt": "2023-06-17T20:40:17.001Z",
       "viewCount": 52,
       "weeklyViewCount": 9,
       "installCount": 59,
