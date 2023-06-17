@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125221
+    "downloadCount": 125226
   },
   "releases": [
     {
@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.2/xen.NewHorizons.zip",
-      "downloadCount": 25691,
+      "downloadCount": 25711,
       "latestReleaseDate": "2023-06-14T22:57:07Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Improvements\r\n- All fluid types are now available instead of only a select few (includes Air volumes now)\r\n\r\n## Bug fixes\r\n- Fix solar system sun solar flares becoming white sometimes (resolves #605)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/607**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1069,7 +1069,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-06-17T05:49:46Z",
-      "databaseEntryUpdatedAt": "2023-06-17T05:53:38.689Z",
+      "databaseEntryUpdatedAt": "2023-06-17T17:58:16.280Z",
       "viewCount": 588,
       "weeklyViewCount": 141,
       "installCount": 307,
@@ -7523,7 +7523,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-slip-n-slide/master/README.md"
       },
       "authorDisplay": "JohnCorby & Trifid",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fixed a memory leak when loading audio",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7537,7 +7537,7 @@
         "main": "slipnslide.webp"
       },
       "repoUpdatedAt": "2023-06-09T03:56:16Z",
-      "databaseEntryUpdatedAt": "2023-06-17T05:53:38.813Z",
+      "databaseEntryUpdatedAt": "2023-06-17T17:58:16.103Z",
       "viewCount": 91,
       "weeklyViewCount": 56,
       "installCount": 20,
@@ -7559,7 +7559,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.SadSupernovaMusic/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "Cry about it",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
