@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125151
+    "downloadCount": 125153
   },
   "releases": [
     {
@@ -3891,7 +3891,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-sound-test/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-sound-test/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Sounds can now be stopped at any point and will no longer overlap with each other.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3899,7 +3899,7 @@
       "slug": "soundtest",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-02T16:03:57Z",
-      "databaseEntryUpdatedAt": "2023-06-16T18:54:56.288Z",
+      "databaseEntryUpdatedAt": "2023-06-17T06:56:30.683Z",
       "viewCount": 9,
       "weeklyViewCount": 6,
       "installCount": 2,
@@ -4064,7 +4064,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/releases/download/v0.1.2/ow-nh-ss-ascension.zip",
-      "downloadCount": 426,
+      "downloadCount": 427,
       "latestReleaseDate": "2023-04-02T18:54:23Z",
       "firstReleaseDate": "2022-08-17T04:00:28Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-ss-ascension",
@@ -4073,7 +4073,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4083,7 +4083,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-06-16T18:54:58.549Z",
+      "databaseEntryUpdatedAt": "2023-06-17T06:56:32.145Z",
       "viewCount": 17,
       "weeklyViewCount": 5,
       "installCount": 27,
@@ -4683,7 +4683,7 @@
       "author": "Ciborgm9",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Ciborgm9/Rogue-Planet/releases/download/v0.1.2/Rogue-Planet.zip",
-      "downloadCount": 315,
+      "downloadCount": 316,
       "latestReleaseDate": "2023-05-14T20:26:55Z",
       "firstReleaseDate": "2022-09-14T14:41:37Z",
       "repo": "https://github.com/Ciborgm9/Rogue-Planet",
@@ -4692,7 +4692,7 @@
         "htmlUrl": "https://github.com/Ciborgm9/Rogue-Planet/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ciborgm9/Rogue-Planet/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Update manifest.json\n\nAdds tags to the mod",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4702,7 +4702,7 @@
         "main": "espiedserenity.webp"
       },
       "repoUpdatedAt": "2023-05-14T20:26:55Z",
-      "databaseEntryUpdatedAt": "2023-06-16T18:54:57.830Z",
+      "databaseEntryUpdatedAt": "2023-06-17T06:56:31.793Z",
       "viewCount": 81,
       "weeklyViewCount": 2,
       "installCount": 22,
@@ -6763,7 +6763,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6774,7 +6774,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-06-16T18:54:58.285Z",
+      "databaseEntryUpdatedAt": "2023-06-17T06:56:32.354Z",
       "viewCount": 50,
       "weeklyViewCount": 13,
       "installCount": 22,
@@ -6861,7 +6861,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6872,7 +6872,7 @@
         "openGraph": "hatchlingicarus-static.webp"
       },
       "repoUpdatedAt": "2023-04-26T04:11:05Z",
-      "databaseEntryUpdatedAt": "2023-06-16T18:54:58.547Z",
+      "databaseEntryUpdatedAt": "2023-06-17T06:56:32.309Z",
       "viewCount": 14,
       "weeklyViewCount": 1,
       "installCount": 16,
@@ -6945,7 +6945,7 @@
       "author": "Hawkbat",
       "utility": true,
       "downloadUrl": "https://github.com/Hawkbat/ow-mod-data-tools/releases/download/0.2.0/Hawkbar.ModDataTools.zip",
-      "downloadCount": 39,
+      "downloadCount": 40,
       "latestReleaseDate": "2023-04-25T01:07:07Z",
       "firstReleaseDate": "2023-03-13T19:52:32Z",
       "repo": "https://github.com/Hawkbat/ow-mod-data-tools",
@@ -6954,7 +6954,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6964,7 +6964,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-25T01:07:14Z",
-      "databaseEntryUpdatedAt": "2023-06-16T18:54:58.285Z",
+      "databaseEntryUpdatedAt": "2023-06-17T06:56:32.317Z",
       "viewCount": 26,
       "weeklyViewCount": 13,
       "installCount": 1,
@@ -7297,7 +7297,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Reparent warped items on arrival\r\n- Fixed some Prisoner Cell entryway trigger stuff",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7305,7 +7305,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-30T17:37:10Z",
-      "databaseEntryUpdatedAt": "2023-06-16T18:54:58.285Z",
+      "databaseEntryUpdatedAt": "2023-06-17T06:56:31.795Z",
       "viewCount": 15,
       "weeklyViewCount": 2,
       "installCount": 5,
@@ -7318,7 +7318,7 @@
       "author": "bismuthdistrict",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/releases/download/publish/bismuthdistrict.9YearOldSystem.zip",
-      "downloadCount": 168,
+      "downloadCount": 174,
       "latestReleaseDate": "2023-04-22T02:44:00Z",
       "firstReleaseDate": "2023-04-22T02:44:00Z",
       "repo": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem",
@@ -7328,7 +7328,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "exist",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7336,7 +7336,7 @@
       "slug": "9yearoldsystem",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T02:46:02Z",
-      "databaseEntryUpdatedAt": "2023-06-16T18:54:56.992Z",
+      "databaseEntryUpdatedAt": "2023-06-17T06:56:30.683Z",
       "viewCount": 196,
       "weeklyViewCount": 7,
       "installCount": 36,
