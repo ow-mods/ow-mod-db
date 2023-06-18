@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125383
+    "downloadCount": 125385
   },
   "releases": [
     {
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Improvements\r\n- All fluid types are now available instead of only a select few (includes Air volumes now)\r\n\r\n## Bug fixes\r\n- Fix solar system sun solar flares becoming white sometimes (resolves #605)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/607**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -7358,7 +7358,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7369,7 +7369,7 @@
         "main": "picasalbum.webp"
       },
       "repoUpdatedAt": "2023-06-07T15:54:07Z",
-      "databaseEntryUpdatedAt": "2023-06-18T06:30:43.436Z",
+      "databaseEntryUpdatedAt": "2023-06-18T18:37:11.240Z",
       "viewCount": 207,
       "weeklyViewCount": 11,
       "installCount": 17,
@@ -7457,7 +7457,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7468,7 +7468,7 @@
         "main": "thehatchlingsjournal.webp"
       },
       "repoUpdatedAt": "2023-06-07T15:53:55Z",
-      "databaseEntryUpdatedAt": "2023-06-18T06:30:43.528Z",
+      "databaseEntryUpdatedAt": "2023-06-18T18:37:13.047Z",
       "viewCount": 183,
       "weeklyViewCount": 53,
       "installCount": 27,
@@ -7523,7 +7523,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-slip-n-slide/master/README.md"
       },
       "authorDisplay": "JohnCorby & Trifid",
-      "latestReleaseDescription": "fixed a memory leak when loading audio",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
