@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125429
+    "downloadCount": 125431
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 101100,
+      "downloadCount": 101155,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-06-16T00:58:29Z",
-      "databaseEntryUpdatedAt": "2023-06-18T15:18:27.406Z",
+      "databaseEntryUpdatedAt": "2023-06-19T03:20:32.691Z",
       "viewCount": 730,
       "weeklyViewCount": 99,
       "installCount": 0,
@@ -1283,7 +1283,7 @@
       "author": "MegaPiggy",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/MegaPiggy/Outer-Wilds-Galaxy/releases/download/v1.14.0/Outer-Wilds-Galaxy.zip",
-      "downloadCount": 4819,
+      "downloadCount": 4820,
       "latestReleaseDate": "2022-11-03T05:48:23Z",
       "firstReleaseDate": "2022-11-03T05:48:23Z",
       "repo": "https://github.com/MegaPiggy/Outer-Wilds-Galaxy",
@@ -1293,7 +1293,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/Outer-Wilds-Galaxy/main/README.md"
       },
       "authorDisplay": "Jammer",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initialize",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1303,7 +1303,7 @@
         "main": "outerwildsgalaxy.webp"
       },
       "repoUpdatedAt": "2023-06-17T02:35:16Z",
-      "databaseEntryUpdatedAt": "2023-06-18T15:18:25.513Z",
+      "databaseEntryUpdatedAt": "2023-06-19T03:20:30.529Z",
       "viewCount": 130,
       "weeklyViewCount": 16,
       "installCount": 120,
@@ -3297,7 +3297,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3308,7 +3308,7 @@
         "openGraph": "suitlog-static.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:09:14Z",
-      "databaseEntryUpdatedAt": "2023-06-18T15:18:26.517Z",
+      "databaseEntryUpdatedAt": "2023-06-19T03:20:30.859Z",
       "viewCount": 91,
       "weeklyViewCount": 20,
       "installCount": 201,
@@ -3851,7 +3851,7 @@
       "author": "mrwallace888",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/mrwallace888/OWNH-Carson-System/releases/download/v2.0.0/OWNH-Carson-System.zip",
-      "downloadCount": 744,
+      "downloadCount": 746,
       "latestReleaseDate": "2022-09-20T00:39:41Z",
       "firstReleaseDate": "2022-07-12T02:37:03Z",
       "repo": "https://github.com/mrwallace888/OWNH-Carson-System",
@@ -3860,7 +3860,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3870,7 +3870,7 @@
         "main": "carsonsystem.webp"
       },
       "repoUpdatedAt": "2023-05-31T19:48:05Z",
-      "databaseEntryUpdatedAt": "2023-06-18T15:18:26.309Z",
+      "databaseEntryUpdatedAt": "2023-06-19T03:20:30.878Z",
       "viewCount": 12,
       "weeklyViewCount": 1,
       "installCount": 25,
@@ -4939,7 +4939,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.3.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 4090,
+      "downloadCount": 4093,
       "latestReleaseDate": "2023-05-05T04:37:48Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4949,7 +4949,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4960,7 +4960,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:14:07Z",
-      "databaseEntryUpdatedAt": "2023-06-18T15:18:26.310Z",
+      "databaseEntryUpdatedAt": "2023-06-19T03:20:30.775Z",
       "viewCount": 28,
       "weeklyViewCount": 2,
       "installCount": 48,
@@ -6622,7 +6622,7 @@
       "author": "2walker2",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/2walker2/NHJamTeamErnesto/releases/download/2.0.1/planets.zip",
-      "downloadCount": 873,
+      "downloadCount": 874,
       "latestReleaseDate": "2023-05-07T04:50:23Z",
       "firstReleaseDate": "2023-01-23T09:37:23Z",
       "repo": "https://github.com/2walker2/NHJamTeamErnesto",
@@ -6632,7 +6632,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Lckily I fix however true, nervous, very, very dreadfully nervous I had been and am, but why will say that I am mad?! The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6644,7 +6644,7 @@
         "main": "evacuation.webp"
       },
       "repoUpdatedAt": "2023-06-10T11:03:17Z",
-      "databaseEntryUpdatedAt": "2023-06-18T15:18:25.838Z",
+      "databaseEntryUpdatedAt": "2023-06-19T03:20:30.770Z",
       "viewCount": 167,
       "weeklyViewCount": 32,
       "installCount": 96,
