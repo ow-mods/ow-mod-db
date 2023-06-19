@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125503
+    "downloadCount": 125504
   },
   "releases": [
     {
@@ -7348,7 +7348,7 @@
       "description": "Upload your scout snapshots to an album in your Ship Log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.1.0/dgarro.EpicasAlbum.zip",
-      "downloadCount": 71,
+      "downloadCount": 72,
       "latestReleaseDate": "2023-06-03T03:50:34Z",
       "firstReleaseDate": "2023-05-15T04:11:44Z",
       "repo": "https://github.com/dgarroDC/EpicasAlbum",
@@ -7358,7 +7358,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7369,7 +7369,7 @@
         "main": "picasalbum.webp"
       },
       "repoUpdatedAt": "2023-06-07T15:54:07Z",
-      "databaseEntryUpdatedAt": "2023-06-19T06:46:02.080Z",
+      "databaseEntryUpdatedAt": "2023-06-19T18:56:05.485Z",
       "viewCount": 190,
       "weeklyViewCount": 6,
       "installCount": 17,
@@ -7447,7 +7447,7 @@
       "description": "Take your notes in a new Ship Log mode that lets you create and view your own entries",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/Journal/releases/download/1.0.0/dgarro.Journal.zip",
-      "downloadCount": 33,
+      "downloadCount": 34,
       "latestReleaseDate": "2023-06-06T01:36:21Z",
       "firstReleaseDate": "2023-06-06T01:36:21Z",
       "repo": "https://github.com/dgarroDC/Journal",
@@ -7457,7 +7457,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7468,7 +7468,7 @@
         "main": "thehatchlingsjournal.webp"
       },
       "repoUpdatedAt": "2023-06-07T15:53:55Z",
-      "databaseEntryUpdatedAt": "2023-06-19T06:46:02.179Z",
+      "databaseEntryUpdatedAt": "2023-06-19T18:56:05.443Z",
       "viewCount": 183,
       "weeklyViewCount": 42,
       "installCount": 27,
@@ -7523,7 +7523,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-slip-n-slide/master/README.md"
       },
       "authorDisplay": "JohnCorby & Trifid",
-      "latestReleaseDescription": "fixed a memory leak when loading audio",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
