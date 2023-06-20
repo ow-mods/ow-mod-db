@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -3297,7 +3297,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3860,7 +3860,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4907,7 +4907,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.4/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 9001,
+      "downloadCount": 9033,
       "latestReleaseDate": "2023-06-14T00:36:11Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4917,7 +4917,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4927,7 +4927,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-06-14T00:36:41Z",
-      "databaseEntryUpdatedAt": "2023-06-19T15:45:23.329Z",
+      "databaseEntryUpdatedAt": "2023-06-20T03:51:15.815Z",
       "viewCount": 115,
       "weeklyViewCount": 21,
       "installCount": 52,
@@ -4949,7 +4949,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5466,7 +5466,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5477,7 +5477,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:52:16Z",
-      "databaseEntryUpdatedAt": "2023-06-19T15:45:22.444Z",
+      "databaseEntryUpdatedAt": "2023-06-20T03:51:14.267Z",
       "viewCount": 10,
       "weeklyViewCount": 1,
       "installCount": 6,
@@ -6632,7 +6632,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/NHJamTeamErnesto/main/README.md"
       },
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
-      "latestReleaseDescription": "Lckily I fix however true, nervous, very, very dreadfully nervous I had been and am, but why will say that I am mad?! The disease had sharpened my senses, not destroyed, not dulled them. Above all was the sense of hearing acute. 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -7079,7 +7079,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7087,7 +7087,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-06-19T15:45:22.442Z",
+      "databaseEntryUpdatedAt": "2023-06-20T03:51:14.267Z",
       "viewCount": 19,
       "weeklyViewCount": 0,
       "installCount": 13,
