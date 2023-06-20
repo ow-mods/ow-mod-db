@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125570
+    "downloadCount": 125571
   },
   "releases": [
     {
@@ -7513,7 +7513,7 @@
       "description": "Makes everything very slippery. Also adds a bunch of silly sounds and songs.",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-slip-n-slide/releases/download/v1.0.1/JohnCorby.SlipNSlide.zip",
-      "downloadCount": 24,
+      "downloadCount": 25,
       "latestReleaseDate": "2023-06-09T03:42:31Z",
       "firstReleaseDate": "2023-06-08T02:05:54Z",
       "repo": "https://github.com/JohnCorby/ow-slip-n-slide",
@@ -7523,7 +7523,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-slip-n-slide/master/README.md"
       },
       "authorDisplay": "JohnCorby & Trifid",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fixed a memory leak when loading audio",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7537,7 +7537,7 @@
         "main": "slipnslide.webp"
       },
       "repoUpdatedAt": "2023-06-09T03:56:16Z",
-      "databaseEntryUpdatedAt": "2023-06-19T18:43:28.396Z",
+      "databaseEntryUpdatedAt": "2023-06-20T06:48:34.520Z",
       "viewCount": 91,
       "weeklyViewCount": 19,
       "installCount": 22,
@@ -7559,7 +7559,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.SadSupernovaMusic/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "Cry about it",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
