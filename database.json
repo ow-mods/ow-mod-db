@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125548
+    "downloadCount": 125553
   },
   "releases": [
     {
@@ -1279,21 +1279,21 @@
     {
       "name": "Outer Wilds Galaxy",
       "uniqueName": "Jammer.OuterWildsGalaxy",
-      "description": "USE SHIPLOG AND AUTOPILOT TO WARP TO MOD! A mod that adds a galactic core that many different star systems orbit around. Go and explore! (Reupload of Jammer's mod)",
-      "author": "MegaPiggy",
+      "description": "USE SHIPLOG AND AUTOPILOT TO WARP TO MOD! A mod that adds a galactic core that many different star systems orbit around. Go and explore!",
+      "author": "drjames5",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/MegaPiggy/Outer-Wilds-Galaxy/releases/download/v1.14.0/Outer-Wilds-Galaxy.zip",
-      "downloadCount": 4821,
+      "downloadUrl": "https://github.com/drjames5/Outer-Wilds-Galaxy/releases/download/v1.14.0/Outer-Wilds-Galaxy.zip",
+      "downloadCount": 4825,
       "latestReleaseDate": "2022-11-03T05:48:23Z",
       "firstReleaseDate": "2022-11-03T05:48:23Z",
       "repo": "https://github.com/MegaPiggy/Outer-Wilds-Galaxy",
       "version": "v1.14.0",
       "readme": {
-        "htmlUrl": "https://github.com/MegaPiggy/Outer-Wilds-Galaxy/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/Outer-Wilds-Galaxy/main/README.md"
+        "htmlUrl": "https://github.com/drjames5/Outer-Wilds-Galaxy/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/drjames5/Outer-Wilds-Galaxy/main/README.md"
       },
       "authorDisplay": "Jammer",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initialize",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1302,8 +1302,8 @@
       "thumbnail": {
         "main": "outerwildsgalaxy.webp"
       },
-      "repoUpdatedAt": "2023-06-17T02:35:16Z",
-      "databaseEntryUpdatedAt": "2023-06-19T15:32:23.597Z",
+      "repoUpdatedAt": "2023-06-20T02:23:49Z",
+      "databaseEntryUpdatedAt": "2023-06-20T02:31:38.154Z",
       "viewCount": 127,
       "weeklyViewCount": 13,
       "installCount": 119,
@@ -7625,7 +7625,7 @@
       "firstReleaseDate": "2022-05-12T12:20:30Z",
       "repo": "https://github.com/ShoosGun/OWAML",
       "version": "v1.0.2",
-      "latestReleaseDescription": "## What's Changed\r\n* Add Console Port and Socket Listener by @MegaPiggy in https://github.com/ShoosGun/OWAML/pull/2\r\n\r\n\r\n**Full Changelog**: https://github.com/ShoosGun/OWAML/compare/v.1.0.1...v1.0.2",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
