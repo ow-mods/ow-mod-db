@@ -18,7 +18,7 @@ const FULL_UPDATE_RATE_HOURS = 12;
 
 const downloadCountOffsets: { [key: string]: number } = {
   // Jammer deleted the repositories
-  "Jammer.OuterWildsGalaxy": 3766,
+  "Jammer.OuterWildsGalaxy": 4828,
   "Jammer.jammerlore": 373,
 };
 
