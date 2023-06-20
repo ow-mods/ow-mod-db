@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125557
+    "downloadCount": 125560
   },
   "releases": [
     {
@@ -335,8 +335,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T23:47:17.903Z",
       "viewCount": 37,
       "weeklyViewCount": 4,
-      "installCount": 128,
-      "weeklyInstallCount": 28
+      "installCount": 129,
+      "weeklyInstallCount": 29
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -460,8 +460,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T23:47:17.871Z",
       "viewCount": 321,
       "weeklyViewCount": 46,
-      "installCount": 260,
-      "weeklyInstallCount": 63
+      "installCount": 261,
+      "weeklyInstallCount": 64
     },
     {
       "name": "Difficulty Mod",
@@ -1038,8 +1038,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T23:47:20.920Z",
       "viewCount": 14,
       "weeklyViewCount": 3,
-      "installCount": 28,
-      "weeklyInstallCount": 6
+      "installCount": 29,
+      "weeklyInstallCount": 7
     },
     {
       "name": "New Horizons",
@@ -1169,8 +1169,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T23:47:20.926Z",
       "viewCount": 78,
       "weeklyViewCount": 14,
-      "installCount": 83,
-      "weeklyInstallCount": 19
+      "installCount": 85,
+      "weeklyInstallCount": 21
     },
     {
       "name": "ElliePlanets!",
@@ -1201,8 +1201,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T23:47:21.098Z",
       "viewCount": 15,
       "weeklyViewCount": 0,
-      "installCount": 22,
-      "weeklyInstallCount": 4
+      "installCount": 23,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Smol Hatchling",
@@ -1680,8 +1680,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T23:47:21.067Z",
       "viewCount": 22,
       "weeklyViewCount": 8,
-      "installCount": 74,
-      "weeklyInstallCount": 16
+      "installCount": 75,
+      "weeklyInstallCount": 17
     },
     {
       "name": "Outer Wilds Music Player",
@@ -1867,8 +1867,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T23:47:21.718Z",
       "viewCount": 38,
       "weeklyViewCount": 8,
-      "installCount": 46,
-      "weeklyInstallCount": 13
+      "installCount": 47,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Outer Wilds Flyover",
@@ -1963,8 +1963,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T23:47:21.491Z",
       "viewCount": 7,
       "weeklyViewCount": 2,
-      "installCount": 24,
-      "weeklyInstallCount": 6
+      "installCount": 25,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Input Demo Recorder",
@@ -2821,7 +2821,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1779,
+      "downloadCount": 1781,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2830,7 +2830,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2841,7 +2841,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-06-19T15:57:49.674Z",
+      "databaseEntryUpdatedAt": "2023-06-20T04:10:53.653Z",
       "viewCount": 57,
       "weeklyViewCount": 11,
       "installCount": 92,
@@ -4394,8 +4394,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T23:34:52.721Z",
       "viewCount": 10,
       "weeklyViewCount": 1,
-      "installCount": 16,
-      "weeklyInstallCount": 5
+      "installCount": 17,
+      "weeklyInstallCount": 6
     },
     {
       "name": "The Vision",
@@ -4917,7 +4917,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -5466,7 +5466,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "Incremented version number and included .zip",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -6302,8 +6302,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T22:26:14.518Z",
       "viewCount": 24,
       "weeklyViewCount": 3,
-      "installCount": 40,
-      "weeklyInstallCount": 7
+      "installCount": 41,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Time Dialator",
@@ -6357,7 +6357,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6369,7 +6369,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-06-19T15:57:49.869Z",
+      "databaseEntryUpdatedAt": "2023-06-20T04:10:53.449Z",
       "viewCount": 15,
       "weeklyViewCount": 0,
       "installCount": 35,
@@ -6714,8 +6714,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T22:26:14.748Z",
       "viewCount": 56,
       "weeklyViewCount": 7,
-      "installCount": 26,
-      "weeklyInstallCount": 10
+      "installCount": 27,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Deepian Moon",
@@ -6922,7 +6922,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6932,7 +6932,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-22T20:55:24Z",
-      "databaseEntryUpdatedAt": "2023-06-19T15:57:49.674Z",
+      "databaseEntryUpdatedAt": "2023-06-20T04:10:53.494Z",
       "viewCount": 87,
       "weeklyViewCount": 11,
       "installCount": 51,
@@ -7079,7 +7079,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7257,7 +7257,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.0.2/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 644,
+      "downloadCount": 655,
       "latestReleaseDate": "2023-06-16T17:23:49Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7267,7 +7267,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Remove the dependencies from `manifest.json` because The Outsider has a dependency of this mod now and a circular dependency should be avoided.\r\n    * I noticed that installing mods having circular dependencies cause OWML loading order issue which cause other mods unstable even if such mods are disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization",
@@ -7276,7 +7276,7 @@
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-17T03:15:09Z",
-      "databaseEntryUpdatedAt": "2023-06-19T15:57:49.238Z",
+      "databaseEntryUpdatedAt": "2023-06-20T04:10:53.450Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 175,
@@ -7540,8 +7540,8 @@
       "databaseEntryUpdatedAt": "2023-06-19T18:43:28.396Z",
       "viewCount": 91,
       "weeklyViewCount": 19,
-      "installCount": 21,
-      "weeklyInstallCount": 9
+      "installCount": 22,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Sad Supernova Music",
