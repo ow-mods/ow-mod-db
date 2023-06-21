@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125743
+    "downloadCount": 125747
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 101356,
+      "downloadCount": 101403,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-06-16T00:58:29Z",
-      "databaseEntryUpdatedAt": "2023-06-21T03:51:25.017Z",
+      "databaseEntryUpdatedAt": "2023-06-21T16:11:28.957Z",
       "viewCount": 686,
       "weeklyViewCount": 58,
       "installCount": 0,
@@ -3288,7 +3288,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.5/dgarro.SuitLog.zip",
-      "downloadCount": 2322,
+      "downloadCount": 2325,
       "latestReleaseDate": "2022-10-07T13:24:11Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -3298,7 +3298,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3309,7 +3309,7 @@
         "openGraph": "suitlog-static.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:09:14Z",
-      "databaseEntryUpdatedAt": "2023-06-21T03:51:23.642Z",
+      "databaseEntryUpdatedAt": "2023-06-21T16:11:26.813Z",
       "viewCount": 88,
       "weeklyViewCount": 7,
       "installCount": 201,
@@ -3861,7 +3861,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3871,7 +3871,7 @@
         "main": "carsonsystem.webp"
       },
       "repoUpdatedAt": "2023-05-31T19:48:05Z",
-      "databaseEntryUpdatedAt": "2023-06-21T03:51:23.708Z",
+      "databaseEntryUpdatedAt": "2023-06-21T16:11:27.262Z",
       "viewCount": 11,
       "weeklyViewCount": 0,
       "installCount": 27,
@@ -4950,7 +4950,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4961,7 +4961,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:14:07Z",
-      "databaseEntryUpdatedAt": "2023-06-21T03:51:23.644Z",
+      "databaseEntryUpdatedAt": "2023-06-21T16:11:27.263Z",
       "viewCount": 24,
       "weeklyViewCount": 2,
       "installCount": 49,
