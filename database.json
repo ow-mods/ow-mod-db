@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125878
+    "downloadCount": 125882
   },
   "releases": [
     {
@@ -47,7 +47,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 56220,
+      "downloadCount": 56228,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
+      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -74,7 +74,7 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2023-06-20T12:23:26Z",
-      "databaseEntryUpdatedAt": "2023-06-22T02:08:49.362Z",
+      "databaseEntryUpdatedAt": "2023-06-22T14:22:02.576Z",
       "viewCount": 1930,
       "weeklyViewCount": 118,
       "installCount": 631,
@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.2/xen.NewHorizons.zip",
-      "downloadCount": 25980,
+      "downloadCount": 25991,
       "latestReleaseDate": "2023-06-14T22:57:07Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Improvements\r\n- All fluid types are now available instead of only a select few (includes Air volumes now)\r\n\r\n## Bug fixes\r\n- Fix solar system sun solar flares becoming white sometimes (resolves #605)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/607**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,8 +1068,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-06-22T07:28:59Z",
-      "databaseEntryUpdatedAt": "2023-06-22T07:42:17.525Z",
+      "repoUpdatedAt": "2023-06-22T14:17:12Z",
+      "databaseEntryUpdatedAt": "2023-06-22T14:22:02.363Z",
       "viewCount": 506,
       "weeklyViewCount": 41,
       "installCount": 323,
@@ -2342,7 +2342,7 @@
       "slug": "vengefulcannon",
       "thumbnail": {},
       "repoUpdatedAt": "2022-04-11T10:21:41Z",
-      "databaseEntryUpdatedAt": "2023-06-22T02:08:58.368Z",
+      "databaseEntryUpdatedAt": "2023-06-22T14:22:12.609Z",
       "viewCount": 12,
       "weeklyViewCount": 0,
       "installCount": 8,
@@ -5299,13 +5299,13 @@
       "utility": true,
       "parent": "Vesper.OuterWildsMMO",
       "downloadUrl": "https://github.com/loco-choco/ShipyardOWOCompat/releases/download/v0.1.2/Locochoco.ShipyardOWOAddon.zip",
-      "downloadCount": 585,
+      "downloadCount": 586,
       "latestReleaseDate": "2022-11-23T01:39:48Z",
       "firstReleaseDate": "2022-11-13T00:05:19Z",
       "repo": "https://github.com/ShoosGun/ShipyardOWOCompat",
       "version": "v0.1.2",
       "authorDisplay": "Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Uses newer systems from shipyard",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -5313,7 +5313,7 @@
       "slug": "slatesshipyardforouterwildsonline",
       "thumbnail": {},
       "repoUpdatedAt": "2022-11-23T01:43:40Z",
-      "databaseEntryUpdatedAt": "2023-06-22T02:09:08.152Z",
+      "databaseEntryUpdatedAt": "2023-06-22T14:22:28.974Z",
       "viewCount": 22,
       "weeklyViewCount": 0,
       "installCount": 54,
@@ -5491,13 +5491,13 @@
       "author": "loco-choco",
       "parent": "Locochoco.SlateShipyard",
       "downloadUrl": "https://github.com/loco-choco/Kerbal-Space-Ventures/releases/download/v0.1.1/Locochoco.KSPShips.zip",
-      "downloadCount": 446,
+      "downloadCount": 447,
       "latestReleaseDate": "2023-02-11T20:11:53Z",
       "firstReleaseDate": "2022-11-23T01:42:18Z",
       "repo": "https://github.com/ShoosGun/Kerbal-Space-Ventures",
       "version": "v0.1.1",
       "authorDisplay": "Locochoco & FunkyShoeMan",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Fixed the player not being able to leave the map screen after entering a pod\r\n\r\nThanks to QuantumBlur314 for reporting these issues!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5506,7 +5506,7 @@
       "slug": "kerbalspaceventures",
       "thumbnail": {},
       "repoUpdatedAt": "2023-02-11T20:11:56Z",
-      "databaseEntryUpdatedAt": "2023-06-22T02:09:31.816Z",
+      "databaseEntryUpdatedAt": "2023-06-22T14:22:28.161Z",
       "viewCount": 19,
       "weeklyViewCount": 1,
       "installCount": 38,
