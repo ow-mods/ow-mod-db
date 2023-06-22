@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125821
+    "downloadCount": 125824
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -3298,7 +3298,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3861,7 +3861,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4908,7 +4908,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.4/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 9112,
+      "downloadCount": 9141,
       "latestReleaseDate": "2023-06-14T00:36:11Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4918,7 +4918,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4928,7 +4928,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-06-14T00:36:41Z",
-      "databaseEntryUpdatedAt": "2023-06-21T16:33:01.775Z",
+      "databaseEntryUpdatedAt": "2023-06-22T04:36:49.225Z",
       "viewCount": 103,
       "weeklyViewCount": 11,
       "installCount": 57,
@@ -4950,7 +4950,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7071,7 +7071,7 @@
       "description": "Changes to the Ghost AI that make them harder to avoid",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWSmarterGhosts/releases/download/v0.2.1/VioVayo.SmarterGhosts.zip",
-      "downloadCount": 83,
+      "downloadCount": 84,
       "latestReleaseDate": "2023-04-22T21:15:56Z",
       "firstReleaseDate": "2023-03-26T19:18:05Z",
       "repo": "https://github.com/VioVayo/OWSmarterGhosts",
@@ -7080,7 +7080,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7088,7 +7088,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-06-21T16:33:00.872Z",
+      "databaseEntryUpdatedAt": "2023-06-22T04:36:48.637Z",
       "viewCount": 17,
       "weeklyViewCount": 0,
       "installCount": 13,
