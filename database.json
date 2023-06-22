@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125824
+    "downloadCount": 125825
   },
   "releases": [
     {
@@ -2822,7 +2822,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1788,
+      "downloadCount": 1793,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2831,7 +2831,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2842,7 +2842,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-06-21T16:47:45.259Z",
+      "databaseEntryUpdatedAt": "2023-06-22T04:49:33.159Z",
       "viewCount": 54,
       "weeklyViewCount": 2,
       "installCount": 96,
@@ -4918,7 +4918,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6348,7 +6348,7 @@
       "author": "coderCleric",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/coderCleric/Scavenger_Hunt/releases/download/v1.0.1/Scavenger_Hunt.zip",
-      "downloadCount": 317,
+      "downloadCount": 318,
       "latestReleaseDate": "2023-03-27T23:57:45Z",
       "firstReleaseDate": "2023-01-21T21:28:39Z",
       "repo": "https://github.com/coderCleric/Scavenger_Hunt",
@@ -6358,7 +6358,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6370,7 +6370,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-06-21T16:47:45.287Z",
+      "databaseEntryUpdatedAt": "2023-06-22T04:49:33.330Z",
       "viewCount": 13,
       "weeklyViewCount": 0,
       "installCount": 37,
@@ -6914,7 +6914,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.1/VioVayo.HugMod.zip",
-      "downloadCount": 598,
+      "downloadCount": 601,
       "latestReleaseDate": "2023-04-22T20:45:57Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6923,7 +6923,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6933,7 +6933,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-22T20:55:24Z",
-      "databaseEntryUpdatedAt": "2023-06-21T16:47:45.434Z",
+      "databaseEntryUpdatedAt": "2023-06-22T04:49:33.159Z",
       "viewCount": 77,
       "weeklyViewCount": 5,
       "installCount": 53,
@@ -7080,7 +7080,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7258,7 +7258,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.0.2/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 698,
+      "downloadCount": 711,
       "latestReleaseDate": "2023-06-16T17:23:49Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7268,7 +7268,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Remove the dependencies from `manifest.json` because The Outsider has a dependency of this mod now and a circular dependency should be avoided.\r\n    * I noticed that installing mods having circular dependencies cause OWML loading order issue which cause other mods unstable even if such mods are disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization",
@@ -7277,7 +7277,7 @@
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-17T03:15:09Z",
-      "databaseEntryUpdatedAt": "2023-06-21T16:47:45.287Z",
+      "databaseEntryUpdatedAt": "2023-06-22T04:49:33.329Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 206,
@@ -7481,7 +7481,7 @@
       "description": "Adds a playable board game to the end of the Outer Wilds DLC",
       "author": "codelazarus14",
       "downloadUrl": "https://github.com/codelazarus14/InhabitantChess/releases/download/v0.1.0/codelazarus14.InhabitantChess.zip",
-      "downloadCount": 37,
+      "downloadCount": 38,
       "latestReleaseDate": "2023-06-07T16:15:55Z",
       "firstReleaseDate": "2023-06-07T16:15:55Z",
       "repo": "https://github.com/codelazarus14/InhabitantChess",
@@ -7490,7 +7490,7 @@
         "htmlUrl": "https://github.com/codelazarus14/InhabitantChess/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/codelazarus14/InhabitantChess/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release, still missing a few features and error-prone but it's stable enough :/",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7502,7 +7502,7 @@
         "main": "inhabitantchess.webp"
       },
       "repoUpdatedAt": "2023-06-21T16:33:18Z",
-      "databaseEntryUpdatedAt": "2023-06-21T16:47:45.445Z",
+      "databaseEntryUpdatedAt": "2023-06-22T04:49:33.488Z",
       "viewCount": 144,
       "weeklyViewCount": 11,
       "installCount": 31,
