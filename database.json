@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125807
+    "downloadCount": 125810
   },
   "releases": [
     {
@@ -47,7 +47,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 56200,
+      "downloadCount": 56220,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
+      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -74,7 +74,7 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2023-06-20T12:23:26Z",
-      "databaseEntryUpdatedAt": "2023-06-21T13:50:11.639Z",
+      "databaseEntryUpdatedAt": "2023-06-22T02:08:49.362Z",
       "viewCount": 1930,
       "weeklyViewCount": 118,
       "installCount": 620,
@@ -1293,7 +1293,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/Outer-Wilds-Galaxy/main/README.md"
       },
       "authorDisplay": "Jammer",
-      "latestReleaseDescription": "Final or semi-final update before Outer Wilds Galaxy Rerun is released \r\n\r\nFixes:\r\n- Fixed duel water code on Kerbin\r\n- Fixed low resolution hightmap on Kerbin\r\n- [Re?]Added Raging Giant's stellar expansion. \r\n- Added Jewl's stellar expansion.\r\n- Minor tweeks\r\n- Kevlar - Nevlar protoplanetary disk is bugged, adjusted Kevlar And Nevlar's orbits due to this. ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -2342,7 +2342,7 @@
       "slug": "vengefulcannon",
       "thumbnail": {},
       "repoUpdatedAt": "2022-04-11T10:21:41Z",
-      "databaseEntryUpdatedAt": "2023-06-21T13:50:21.064Z",
+      "databaseEntryUpdatedAt": "2023-06-22T02:08:58.368Z",
       "viewCount": 12,
       "weeklyViewCount": 0,
       "installCount": 8,
@@ -5299,13 +5299,13 @@
       "utility": true,
       "parent": "Vesper.OuterWildsMMO",
       "downloadUrl": "https://github.com/loco-choco/ShipyardOWOCompat/releases/download/v0.1.2/Locochoco.ShipyardOWOAddon.zip",
-      "downloadCount": 584,
+      "downloadCount": 585,
       "latestReleaseDate": "2022-11-23T01:39:48Z",
       "firstReleaseDate": "2022-11-13T00:05:19Z",
       "repo": "https://github.com/ShoosGun/ShipyardOWOCompat",
       "version": "v0.1.2",
       "authorDisplay": "Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Uses newer systems from shipyard",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -5313,7 +5313,7 @@
       "slug": "slatesshipyardforouterwildsonline",
       "thumbnail": {},
       "repoUpdatedAt": "2022-11-23T01:43:40Z",
-      "databaseEntryUpdatedAt": "2023-06-21T13:50:36.789Z",
+      "databaseEntryUpdatedAt": "2023-06-22T02:09:08.152Z",
       "viewCount": 22,
       "weeklyViewCount": 0,
       "installCount": 53,
@@ -5497,7 +5497,7 @@
       "repo": "https://github.com/ShoosGun/Kerbal-Space-Ventures",
       "version": "v0.1.1",
       "authorDisplay": "Locochoco & FunkyShoeMan",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Fixed the player not being able to leave the map screen after entering a pod\r\n\r\nThanks to QuantumBlur314 for reporting these issues!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5506,7 +5506,7 @@
       "slug": "kerbalspaceventures",
       "thumbnail": {},
       "repoUpdatedAt": "2023-02-11T20:11:56Z",
-      "databaseEntryUpdatedAt": "2023-06-21T13:50:36.844Z",
+      "databaseEntryUpdatedAt": "2023-06-22T02:09:31.816Z",
       "viewCount": 19,
       "weeklyViewCount": 1,
       "installCount": 38,
