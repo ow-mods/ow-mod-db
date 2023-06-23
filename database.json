@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 125951
+    "downloadCount": 125954
   },
   "releases": [
     {
@@ -77,7 +77,7 @@
       "databaseEntryUpdatedAt": "2023-06-23T02:26:27.728Z",
       "viewCount": 1841,
       "weeklyViewCount": 29,
-      "installCount": 614,
+      "installCount": 615,
       "weeklyInstallCount": 159
     },
     {
@@ -146,7 +146,7 @@
       "databaseEntryUpdatedAt": "2023-06-23T02:26:21.623Z",
       "viewCount": 291,
       "weeklyViewCount": 7,
-      "installCount": 197,
+      "installCount": 198,
       "weeklyInstallCount": 46
     },
     {
@@ -2160,7 +2160,7 @@
       "databaseEntryUpdatedAt": "2023-06-22T22:35:05.180Z",
       "viewCount": 215,
       "weeklyViewCount": 2,
-      "installCount": 292,
+      "installCount": 293,
       "weeklyInstallCount": 85
     },
     {
@@ -2831,7 +2831,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2842,7 +2842,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-06-22T16:51:33.101Z",
+      "databaseEntryUpdatedAt": "2023-06-23T04:53:52.401Z",
       "viewCount": 52,
       "weeklyViewCount": 1,
       "installCount": 96,
@@ -5919,7 +5919,7 @@
       "databaseEntryUpdatedAt": "2023-06-22T23:00:11.376Z",
       "viewCount": 20,
       "weeklyViewCount": 2,
-      "installCount": 18,
+      "installCount": 19,
       "weeklyInstallCount": 5
     },
     {
@@ -6358,7 +6358,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6370,7 +6370,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-06-22T16:51:34.829Z",
+      "databaseEntryUpdatedAt": "2023-06-23T04:53:52.407Z",
       "viewCount": 13,
       "weeklyViewCount": 0,
       "installCount": 38,
@@ -6923,7 +6923,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6933,7 +6933,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-22T20:55:24Z",
-      "databaseEntryUpdatedAt": "2023-06-22T16:51:34.828Z",
+      "databaseEntryUpdatedAt": "2023-06-23T04:53:52.199Z",
       "viewCount": 74,
       "weeklyViewCount": 0,
       "installCount": 53,
@@ -7258,7 +7258,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.0.2/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 727,
+      "downloadCount": 741,
       "latestReleaseDate": "2023-06-16T17:23:49Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7268,7 +7268,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Remove the dependencies from `manifest.json` because The Outsider has a dependency of this mod now and a circular dependency should be avoided.\r\n    * I noticed that installing mods having circular dependencies cause OWML loading order issue which cause other mods unstable even if such mods are disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization",
@@ -7277,7 +7277,7 @@
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-17T03:15:09Z",
-      "databaseEntryUpdatedAt": "2023-06-22T16:51:34.485Z",
+      "databaseEntryUpdatedAt": "2023-06-23T04:53:52.195Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 218,
@@ -7490,7 +7490,7 @@
         "htmlUrl": "https://github.com/codelazarus14/InhabitantChess/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/codelazarus14/InhabitantChess/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release, still missing a few features and error-prone but it's stable enough :/",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7502,7 +7502,7 @@
         "main": "inhabitantchess.webp"
       },
       "repoUpdatedAt": "2023-06-21T16:33:18Z",
-      "databaseEntryUpdatedAt": "2023-06-22T16:51:35.015Z",
+      "databaseEntryUpdatedAt": "2023-06-23T04:53:52.271Z",
       "viewCount": 144,
       "weeklyViewCount": 2,
       "installCount": 34,
