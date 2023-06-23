@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126012
+    "downloadCount": 126016
   },
   "releases": [
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.1/QSB.zip",
-      "downloadCount": 31286,
+      "downloadCount": 31317,
       "latestReleaseDate": "2023-06-22T19:48:37Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Added fade to text chat when there have been no new messages for a few seconds.\r\n- Added Turkish translation (thanks [Deniz](https://github.com/dumbdeniz))\r\n- Fixed the weaver failing when there are no NetworkBehaviours in your addon.\r\n- Fixed compatibility with Common Camera Utility.\r\n- Added setting to disable ability to open and type into text chat (for NomaiVR compatibility)\r\n- Updated internal Mirror stuff.\r\n- Added translations for transport errors (is missing the actual translations though... :P)",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,8 +111,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-06-22T19:50:19Z",
-      "databaseEntryUpdatedAt": "2023-06-23T07:58:52.845Z",
+      "repoUpdatedAt": "2023-06-23T18:27:26Z",
+      "databaseEntryUpdatedAt": "2023-06-23T18:37:38.035Z",
       "viewCount": 1850,
       "weeklyViewCount": 20,
       "installCount": 663,
@@ -3069,7 +3069,7 @@
       "description": "A mod that skips various lengthy and repetetive sequences in Outer Wilds",
       "author": "Bwc9876",
       "downloadUrl": "https://github.com/Bwc9876/OW-TimeSaver/releases/download/1.2.0/Bwc9876.TimeSaver.zip",
-      "downloadCount": 2267,
+      "downloadCount": 2278,
       "latestReleaseDate": "2023-04-27T07:53:17Z",
       "firstReleaseDate": "2022-05-09T00:38:00Z",
       "repo": "https://github.com/Bwc9876/OW-TimeSaver",
@@ -3078,7 +3078,7 @@
         "htmlUrl": "https://github.com/Bwc9876/OW-TimeSaver/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Bwc9876/OW-TimeSaver/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "add ability to skip credits and post credits",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -3086,7 +3086,7 @@
       "slug": "timesaver",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-22T19:18:05Z",
-      "databaseEntryUpdatedAt": "2023-06-23T06:29:43.168Z",
+      "databaseEntryUpdatedAt": "2023-06-23T18:37:35.273Z",
       "viewCount": 40,
       "weeklyViewCount": 0,
       "installCount": 66,
