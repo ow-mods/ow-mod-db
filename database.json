@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126090
+    "downloadCount": 126096
   },
   "releases": [
     {
@@ -384,8 +384,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
-      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -536,7 +536,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -1545,7 +1545,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -4908,7 +4908,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.4/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 9260,
+      "downloadCount": 9264,
       "latestReleaseDate": "2023-06-14T00:36:11Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4918,7 +4918,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4927,8 +4927,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2023-06-14T00:36:41Z",
-      "databaseEntryUpdatedAt": "2023-06-24T04:55:01.482Z",
+      "repoUpdatedAt": "2023-06-24T06:17:41Z",
+      "databaseEntryUpdatedAt": "2023-06-24T06:27:42.571Z",
       "viewCount": 89,
       "weeklyViewCount": 0,
       "installCount": 50,
@@ -7349,7 +7349,7 @@
       "description": "Upload your scout snapshots to an album in your Ship Log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.1.0/dgarro.EpicasAlbum.zip",
-      "downloadCount": 80,
+      "downloadCount": 81,
       "latestReleaseDate": "2023-06-03T03:50:34Z",
       "firstReleaseDate": "2023-05-15T04:11:44Z",
       "repo": "https://github.com/dgarroDC/EpicasAlbum",
@@ -7359,7 +7359,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7369,8 +7369,8 @@
       "thumbnail": {
         "main": "picasalbum.webp"
       },
-      "repoUpdatedAt": "2023-06-07T15:54:07Z",
-      "databaseEntryUpdatedAt": "2023-06-23T21:07:57.366Z",
+      "repoUpdatedAt": "2023-06-24T06:21:48Z",
+      "databaseEntryUpdatedAt": "2023-06-24T06:27:42.240Z",
       "viewCount": 131,
       "weeklyViewCount": 0,
       "installCount": 17,
