@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126230
+    "downloadCount": 126231
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7134,7 +7134,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ballpit/releases/download/v0.1.0/TerrificTrifid.ShipBallpit.zip",
-      "downloadCount": 137,
+      "downloadCount": 139,
       "latestReleaseDate": "2023-04-01T18:39:31Z",
       "firstReleaseDate": "2023-04-01T18:39:31Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-ballpit",
@@ -7144,7 +7144,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ballpit/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Turns your entire ship into a ball pit! Totally not a safety hazard!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7154,7 +7154,7 @@
         "main": "shipballpit.webp"
       },
       "repoUpdatedAt": "2023-04-01T20:31:20Z",
-      "databaseEntryUpdatedAt": "2023-06-24T10:46:38.300Z",
+      "databaseEntryUpdatedAt": "2023-06-24T22:56:47.716Z",
       "viewCount": 31,
       "weeklyViewCount": 0,
       "installCount": 48,
