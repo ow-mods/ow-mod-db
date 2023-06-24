@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126194
+    "downloadCount": 126195
   },
   "releases": [
     {
@@ -3078,7 +3078,7 @@
         "htmlUrl": "https://github.com/Bwc9876/OW-TimeSaver/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Bwc9876/OW-TimeSaver/master/README.md"
       },
-      "latestReleaseDescription": "add ability to skip credits and post credits",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -7010,7 +7010,7 @@
       "description": "An Outer Wilds mod which lets you control how anglerfish behave.",
       "author": "TwentyPorts",
       "downloadUrl": "https://github.com/TwentyPorts/CustomAnglerfishAI/releases/download/v0.4.0/Anyar.CustomAnglerfishAI.zip",
-      "downloadCount": 156,
+      "downloadCount": 158,
       "latestReleaseDate": "2023-03-27T22:59:18Z",
       "firstReleaseDate": "2023-03-25T04:11:09Z",
       "repo": "https://github.com/TwentyPorts/CustomAnglerfishAI",
@@ -7020,7 +7020,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TwentyPorts/CustomAnglerfishAI/master/README.md"
       },
       "authorDisplay": "Anyar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Includes: Distance (%) and Rainbow Lights.**\r\n\r\nAlso:\r\n* Reworked turn speed into a single multiplicative stat which affects turn speed (moving) and quick turn speed (in place).\r\n* Fixed incorrect default values for some anglerfish attributes (chase speed, acceleration, and turn speed). Previously, this mod would make anglerfish significantly slower on default settings; that should be restored to vanilla speed now.\r\n* Fixed muting looping sound even when Mute option was disabled.\r\n* Minor performance optimizations.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7030,7 +7030,7 @@
         "main": "customizableanglerfishai.webp"
       },
       "repoUpdatedAt": "2023-04-08T19:02:01Z",
-      "databaseEntryUpdatedAt": "2023-06-24T06:56:32.988Z",
+      "databaseEntryUpdatedAt": "2023-06-24T19:13:42.017Z",
       "viewCount": 25,
       "weeklyViewCount": 0,
       "installCount": 41,
@@ -7166,7 +7166,7 @@
       "description": "What do you mean, \"weird\"? The game was always like this, I swear!",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWModThatDoesNothing/releases/download/v0.1.0/VioVayo.ModThatDoesNothing.zip",
-      "downloadCount": 119,
+      "downloadCount": 120,
       "latestReleaseDate": "2023-04-07T18:22:01Z",
       "firstReleaseDate": "2023-04-07T18:22:01Z",
       "repo": "https://github.com/VioVayo/OWModThatDoesNothing",
@@ -7175,7 +7175,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWModThatDoesNothing/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWModThatDoesNothing/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -7183,7 +7183,7 @@
       "slug": "modthatdoesnothing",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-08T18:37:51Z",
-      "databaseEntryUpdatedAt": "2023-06-24T06:56:28.439Z",
+      "databaseEntryUpdatedAt": "2023-06-24T19:13:39.345Z",
       "viewCount": 40,
       "weeklyViewCount": 0,
       "installCount": 32,
@@ -7359,7 +7359,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7458,7 +7458,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Shows an error item in the description field and a red \"X\" in the photo square if the image of the selected entry isn't found in Épicas Album (because it was deleted). Before this, it just displayed a white image. The error message includes the name of the missing snapshot.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
