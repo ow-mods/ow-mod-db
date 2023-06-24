@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126192
+    "downloadCount": 126193
   },
   "releases": [
     {
@@ -384,8 +384,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
-      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -536,7 +536,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -1545,7 +1545,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -4908,7 +4908,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.4/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 9264,
+      "downloadCount": 9291,
       "latestReleaseDate": "2023-06-14T00:36:11Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4918,7 +4918,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4928,7 +4928,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-06-24T06:17:41Z",
-      "databaseEntryUpdatedAt": "2023-06-24T06:27:42.571Z",
+      "databaseEntryUpdatedAt": "2023-06-24T18:42:19.607Z",
       "viewCount": 89,
       "weeklyViewCount": 0,
       "installCount": 55,
@@ -7582,19 +7582,19 @@
       "description": "Story mod about Christmas adventures! Translations: EN",
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v1.0.1/hearth1an.ChristmasStory.zip",
-      "downloadCount": 125,
-      "latestReleaseDate": "2023-06-24T06:49:23Z",
+      "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v1.0.2/hearth1an.ChristmasStory.zip",
+      "downloadCount": 128,
+      "latestReleaseDate": "2023-06-24T18:36:09Z",
       "firstReleaseDate": "2023-06-22T20:22:57Z",
       "repo": "https://github.com/hearth1an/hearth1an.ChristmasStory",
-      "version": "v1.0.1",
+      "version": "v1.0.2",
       "readme": {
         "htmlUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.ChristmasStory/main/README.md"
       },
       "authorDisplay": "hearth1an & xen",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- text fixes\r\n- Gabbro fixes",
+      "latestPrereleaseDescription": "- Added DLC check on start\r\n- Some translation fixes\r\n- Added slides made by Elwensà and me\r\n- Added music for slides\r\n\r\nFrom this point mod is ready for release, can do translations!",
       "prerelease": {
         "version": "v0.1.7",
         "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v0.1.7/hearth1an.ChristmasStory.zip",
@@ -7609,8 +7609,8 @@
         "main": "christmasstory.webp",
         "openGraph": "christmasstory-static.webp"
       },
-      "repoUpdatedAt": "2023-06-24T17:48:11Z",
-      "databaseEntryUpdatedAt": "2023-06-24T17:58:06.495Z",
+      "repoUpdatedAt": "2023-06-24T18:36:32Z",
+      "databaseEntryUpdatedAt": "2023-06-24T18:42:19.939Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 49,
