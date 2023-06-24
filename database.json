@@ -2822,7 +2822,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1798,
+      "downloadCount": 1806,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2831,7 +2831,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2842,7 +2842,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-06-23T17:08:07.139Z",
+      "databaseEntryUpdatedAt": "2023-06-24T05:16:52.158Z",
       "viewCount": 50,
       "weeklyViewCount": 0,
       "installCount": 97,
@@ -3298,7 +3298,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3861,7 +3861,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4918,7 +4918,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4950,7 +4950,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6348,7 +6348,7 @@
       "author": "coderCleric",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/coderCleric/Scavenger_Hunt/releases/download/v1.0.1/Scavenger_Hunt.zip",
-      "downloadCount": 321,
+      "downloadCount": 322,
       "latestReleaseDate": "2023-03-27T23:57:45Z",
       "firstReleaseDate": "2023-01-21T21:28:39Z",
       "repo": "https://github.com/coderCleric/Scavenger_Hunt",
@@ -6358,7 +6358,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6370,7 +6370,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-06-23T17:08:07.542Z",
+      "databaseEntryUpdatedAt": "2023-06-24T05:16:52.158Z",
       "viewCount": 13,
       "weeklyViewCount": 0,
       "installCount": 36,
@@ -6914,7 +6914,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.1/VioVayo.HugMod.zip",
-      "downloadCount": 605,
+      "downloadCount": 608,
       "latestReleaseDate": "2023-04-22T20:45:57Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6923,7 +6923,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6933,7 +6933,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-04-22T20:55:24Z",
-      "databaseEntryUpdatedAt": "2023-06-23T17:08:08.626Z",
+      "databaseEntryUpdatedAt": "2023-06-24T05:16:47.347Z",
       "viewCount": 72,
       "weeklyViewCount": 0,
       "installCount": 54,
@@ -7080,7 +7080,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7258,7 +7258,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.0.2/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 754,
+      "downloadCount": 769,
       "latestReleaseDate": "2023-06-16T17:23:49Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7268,7 +7268,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Remove the dependencies from `manifest.json` because The Outsider has a dependency of this mod now and a circular dependency should be avoided.\r\n    * I noticed that installing mods having circular dependencies cause OWML loading order issue which cause other mods unstable even if such mods are disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization",
@@ -7277,7 +7277,7 @@
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-17T03:15:09Z",
-      "databaseEntryUpdatedAt": "2023-06-23T17:08:07.544Z",
+      "databaseEntryUpdatedAt": "2023-06-24T05:16:47.330Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 227,
@@ -7448,7 +7448,7 @@
       "description": "Take your notes in a new Ship Log mode that lets you create and view your own entries",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/Journal/releases/download/1.0.0/dgarro.Journal.zip",
-      "downloadCount": 41,
+      "downloadCount": 42,
       "latestReleaseDate": "2023-06-06T01:36:21Z",
       "firstReleaseDate": "2023-06-06T01:36:21Z",
       "repo": "https://github.com/dgarroDC/Journal",
@@ -7458,7 +7458,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7468,8 +7468,8 @@
       "thumbnail": {
         "main": "thehatchlingsjournal.webp"
       },
-      "repoUpdatedAt": "2023-06-07T15:53:55Z",
-      "databaseEntryUpdatedAt": "2023-06-23T21:08:04.078Z",
+      "repoUpdatedAt": "2023-06-24T05:01:46Z",
+      "databaseEntryUpdatedAt": "2023-06-24T05:16:52.158Z",
       "viewCount": 183,
       "weeklyViewCount": 0,
       "installCount": 35,
@@ -7481,7 +7481,7 @@
       "description": "Adds a playable board game to the end of the Outer Wilds DLC",
       "author": "codelazarus14",
       "downloadUrl": "https://github.com/codelazarus14/InhabitantChess/releases/download/v0.1.0/codelazarus14.InhabitantChess.zip",
-      "downloadCount": 40,
+      "downloadCount": 42,
       "latestReleaseDate": "2023-06-07T16:15:55Z",
       "firstReleaseDate": "2023-06-07T16:15:55Z",
       "repo": "https://github.com/codelazarus14/InhabitantChess",
@@ -7490,7 +7490,7 @@
         "htmlUrl": "https://github.com/codelazarus14/InhabitantChess/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/codelazarus14/InhabitantChess/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release, still missing a few features and error-prone but it's stable enough :/",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7502,7 +7502,7 @@
         "main": "inhabitantchess.webp"
       },
       "repoUpdatedAt": "2023-06-21T16:33:18Z",
-      "databaseEntryUpdatedAt": "2023-06-23T17:08:07.139Z",
+      "databaseEntryUpdatedAt": "2023-06-24T05:16:47.336Z",
       "viewCount": 144,
       "weeklyViewCount": 0,
       "installCount": 34,
