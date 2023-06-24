@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126123
+    "downloadCount": 126126
   },
   "releases": [
     {
@@ -284,7 +284,7 @@
       "author": "misternebula",
       "utility": true,
       "downloadUrl": "https://github.com/misternebula/MenuFramework/releases/download/3.0.0/MenuFramework.zip",
-      "downloadCount": 22253,
+      "downloadCount": 22293,
       "latestReleaseDate": "2022-05-04T09:32:40Z",
       "firstReleaseDate": "2021-08-27T12:37:18Z",
       "repo": "https://github.com/misternebula/MenuFramework",
@@ -293,7 +293,7 @@
         "htmlUrl": "https://github.com/misternebula/MenuFramework/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/MenuFramework/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added functionality to add custom startup popups.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -301,7 +301,7 @@
       "slug": "menuframework",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-20T23:13:38Z",
-      "databaseEntryUpdatedAt": "2023-06-23T22:55:11.450Z",
+      "databaseEntryUpdatedAt": "2023-06-24T10:59:09.459Z",
       "viewCount": 65,
       "weeklyViewCount": 0,
       "installCount": 151,
@@ -1815,7 +1815,7 @@
       "description": "",
       "author": "mrmeep321",
       "downloadUrl": "https://github.com/mrmeep321/21stCenturyAnglerfish/releases/download/v1.1.0/21stCenturyAnglerfish.zip",
-      "downloadCount": 1375,
+      "downloadCount": 1380,
       "latestReleaseDate": "2022-01-21T19:10:18Z",
       "firstReleaseDate": "2022-01-21T17:29:54Z",
       "repo": "https://github.com/mrmeep321/21stCenturyAnglerfish",
@@ -1824,7 +1824,7 @@
         "htmlUrl": "https://github.com/mrmeep321/21stCenturyAnglerfish/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrmeep321/21stCenturyAnglerfish/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed an issue where the Mod Loader was pulling 2 audio files, one that exists, and one that is in the wrong directory.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -1832,7 +1832,7 @@
       "slug": "21stcenturyanglerfish",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-02T04:40:07Z",
-      "databaseEntryUpdatedAt": "2023-06-23T22:55:11.441Z",
+      "databaseEntryUpdatedAt": "2023-06-24T10:59:08.010Z",
       "viewCount": 49,
       "weeklyViewCount": 0,
       "installCount": 25,
@@ -2138,7 +2138,7 @@
       "description": "Fixes some vanilla bugs in Outer Wilds",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-vanilla-fix/releases/download/0.13.1/JohnCorby.VanillaFix.zip",
-      "downloadCount": 23288,
+      "downloadCount": 23347,
       "latestReleaseDate": "2023-06-05T04:38:00Z",
       "firstReleaseDate": "2022-03-25T17:42:01Z",
       "repo": "https://github.com/JohnCorby/ow-vanilla-fix",
@@ -2147,7 +2147,7 @@
         "htmlUrl": "https://github.com/JohnCorby/ow-vanilla-fix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-vanilla-fix/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fix ANOTHER projection pool vanilla bug, caused by a small typo",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -2157,7 +2157,7 @@
         "main": "vanillafix.webp"
       },
       "repoUpdatedAt": "2023-06-05T04:38:21Z",
-      "databaseEntryUpdatedAt": "2023-06-23T22:55:13.045Z",
+      "databaseEntryUpdatedAt": "2023-06-24T10:59:09.651Z",
       "viewCount": 213,
       "weeklyViewCount": 0,
       "installCount": 293,
@@ -3943,12 +3943,12 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 3001,
+      "downloadCount": 3004,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Updated to latest game version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3956,7 +3956,7 @@
       "slug": "stoptime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-02T04:39:07Z",
-      "databaseEntryUpdatedAt": "2023-06-23T22:55:26.118Z",
+      "databaseEntryUpdatedAt": "2023-06-24T10:59:22.038Z",
       "viewCount": 44,
       "weeklyViewCount": 0,
       "installCount": 60,
@@ -5137,7 +5137,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/ow-dreamstalker/releases/download/v0.1.6/xen.Dreamstalker.zip",
-      "downloadCount": 1131,
+      "downloadCount": 1134,
       "latestReleaseDate": "2023-03-25T19:54:09Z",
       "firstReleaseDate": "2022-10-27T01:52:29Z",
       "repo": "https://github.com/xen-42/ow-dreamstalker",
@@ -5147,7 +5147,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-dreamstalker/main/README.md"
       },
       "authorDisplay": "xen & JohnCorby",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Update Dreamstalker for NH v1.10.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -5159,7 +5159,7 @@
         "main": "escapethedreamstalker.webp"
       },
       "repoUpdatedAt": "2023-03-25T19:23:09Z",
-      "databaseEntryUpdatedAt": "2023-06-23T22:55:12.901Z",
+      "databaseEntryUpdatedAt": "2023-06-24T10:59:09.953Z",
       "viewCount": 64,
       "weeklyViewCount": 0,
       "installCount": 64,
@@ -7144,7 +7144,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ballpit/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "Turns your entire ship into a ball pit! Totally not a safety hazard!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
