@@ -22,6 +22,11 @@ const downloadCountOffsets: { [key: string]: number } = {
   "Jammer.jammerlore": 373,
 };
 
+const firstReleaseDateOverrides: { [key: string]: string } = {
+  "Jammer.OuterWildsGalaxy": "2021-12-31T23:31:02Z",
+  "Jammer.jammerlore": "2022-04-17T14:52:12Z"
+};
+
 export async function fetchMods(
   modsJson: string,
   outputDirectory: string,
@@ -122,8 +127,8 @@ export async function fetchMods(
             totalDownloadCount += downloadCountOffsets[modInfo.uniqueName];
           }
 
-          const firstRelease =
-            releases[releases.length - 1] ?? cleanLatestRelease;
+          const firstRelease = modInfo.uniqueName in firstReleaseDateOverrides ? firstReleaseDateOverrides[modInfo.uniqueName]:
+            (releases[releases.length - 1] ?? cleanLatestRelease);
           const latestPrerelease = prereleases[0];
 
           const mod: BaseMod = {
