@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126156
+    "downloadCount": 126160
   },
   "releases": [
     {
@@ -857,7 +857,7 @@
       "description": "Outer Wilds mod: gives the player night vision on Echoes of the Eye's dream world.",
       "author": "Heelio",
       "downloadUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/releases/download/0.1.1/Heelio.EotEBrighterDreams.zip",
-      "downloadCount": 4641,
+      "downloadCount": 4646,
       "latestReleaseDate": "2021-11-28T22:52:25Z",
       "firstReleaseDate": "2021-11-28T20:52:42Z",
       "repo": "https://github.com/Heelio/EotE-Brighter-Dreams",
@@ -876,7 +876,7 @@
         "main": "eotebrighterdreams.webp"
       },
       "repoUpdatedAt": "2023-06-20T13:46:53Z",
-      "databaseEntryUpdatedAt": "2023-06-24T03:26:10.033Z",
+      "databaseEntryUpdatedAt": "2023-06-24T15:32:13.052Z",
       "viewCount": 231,
       "weeklyViewCount": 0,
       "installCount": 164,
@@ -4287,7 +4287,7 @@
         "htmlUrl": "https://github.com/MegaPiggy/EuropeTimes/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/EuropeTimes/master/README.md"
       },
-      "latestReleaseDescription": "First Release",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -5458,7 +5458,7 @@
       "description": "Mod to automatically export your Outer Wilds ship log for online viewing",
       "author": "Tephirax",
       "downloadUrl": "https://github.com/Tephirax/SharedShipLog/releases/download/v0.1.1/OuterWildsSharedShipLog.zip",
-      "downloadCount": 107,
+      "downloadCount": 109,
       "latestReleaseDate": "2022-11-18T16:15:16Z",
       "firstReleaseDate": "2022-11-18T16:15:16Z",
       "repo": "https://github.com/Tephirax/SharedShipLog",
@@ -5467,7 +5467,7 @@
         "htmlUrl": "https://github.com/Tephirax/SharedShipLog/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/SharedShipLog/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Incremented version number and included .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -5478,7 +5478,7 @@
         "main": "sharedshiplog.webp"
       },
       "repoUpdatedAt": "2023-06-20T14:15:07Z",
-      "databaseEntryUpdatedAt": "2023-06-24T03:26:10.871Z",
+      "databaseEntryUpdatedAt": "2023-06-24T15:32:13.050Z",
       "viewCount": 9,
       "weeklyViewCount": 0,
       "installCount": 5,
@@ -7359,7 +7359,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7458,7 +7458,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Shows an error item in the description field and a red \"X\" in the photo square if the image of the selected entry isn't found in Épicas Album (because it was deleted). Before this, it just displayed a white image. The error message includes the name of the missing snapshot.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7666,7 +7666,7 @@
       "firstReleaseDate": "2022-05-12T12:20:30Z",
       "repo": "https://github.com/ShoosGun/OWAML",
       "version": "v1.0.2",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## What's Changed\r\n* Add Console Port and Socket Listener by @MegaPiggy in https://github.com/ShoosGun/OWAML/pull/2\r\n\r\n\r\n**Full Changelog**: https://github.com/ShoosGun/OWAML/compare/v.1.0.1...v1.0.2",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7674,7 +7674,7 @@
       "slug": "owaml",
       "thumbnail": {},
       "repoUpdatedAt": "2022-10-23T20:16:36Z",
-      "databaseEntryUpdatedAt": "2023-06-24T03:26:25.049Z",
+      "databaseEntryUpdatedAt": "2023-06-24T15:32:26.905Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
