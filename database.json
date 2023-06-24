@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126183
+    "downloadCount": 126184
   },
   "releases": [
     {
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7042,7 +7042,7 @@
       "description": "The mod fixes the problem that most of the Chinese-inclusive story mod text is incomplete by replacing the fonts of some interfaces.",
       "author": "nice2cu1",
       "downloadUrl": "https://github.com/nice2cu1/OuterWildFixFont/releases/download/2.0.1/nice2cu1.OuterWildFixFont.zip",
-      "downloadCount": 255,
+      "downloadCount": 257,
       "latestReleaseDate": "2023-06-07T05:03:12Z",
       "firstReleaseDate": "2023-01-31T10:50:17Z",
       "repo": "https://github.com/nice2cu1/OuterWildFixFont",
@@ -7051,7 +7051,7 @@
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fix version ",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7059,7 +7059,7 @@
       "slug": "outerwildschinesefix",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-07T10:55:37Z",
-      "databaseEntryUpdatedAt": "2023-06-24T05:45:14.599Z",
+      "databaseEntryUpdatedAt": "2023-06-24T17:45:23.519Z",
       "viewCount": 39,
       "weeklyViewCount": 0,
       "installCount": 16,
@@ -7228,7 +7228,7 @@
       "description": "Inverts Look inputs (right-stick) on both axes",
       "author": "Tephirax",
       "downloadUrl": "https://github.com/Tephirax/Invert-Look-Controls/releases/download/0.1.1/Tephirax.InvertLookControls.zip",
-      "downloadCount": 46,
+      "downloadCount": 47,
       "latestReleaseDate": "2023-04-07T09:14:49Z",
       "firstReleaseDate": "2023-04-06T09:50:37Z",
       "repo": "https://github.com/Tephirax/Invert-Look-Controls",
@@ -7237,7 +7237,7 @@
         "htmlUrl": "https://github.com/Tephirax/Invert-Look-Controls/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Tephirax/Invert-Look-Controls/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added mod options for flexibility",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7245,7 +7245,7 @@
       "slug": "invertlookcontrols",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-07T09:14:55Z",
-      "databaseEntryUpdatedAt": "2023-06-24T05:45:14.410Z",
+      "databaseEntryUpdatedAt": "2023-06-24T17:45:23.518Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
       "installCount": 3,
