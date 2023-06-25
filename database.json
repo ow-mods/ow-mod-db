@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126272
+    "downloadCount": 126276
   },
   "releases": [
     {
@@ -3288,7 +3288,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.5/dgarro.SuitLog.zip",
-      "downloadCount": 2347,
+      "downloadCount": 2357,
       "latestReleaseDate": "2022-10-07T13:24:11Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -3298,7 +3298,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3309,7 +3309,7 @@
         "openGraph": "suitlog-static.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:09:14Z",
-      "databaseEntryUpdatedAt": "2023-06-24T16:58:10.382Z",
+      "databaseEntryUpdatedAt": "2023-06-25T05:17:19.272Z",
       "viewCount": 79,
       "weeklyViewCount": 0,
       "installCount": 210,
@@ -3852,7 +3852,7 @@
       "author": "mrwallace888",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/mrwallace888/OWNH-Carson-System/releases/download/v2.0.0/OWNH-Carson-System.zip",
-      "downloadCount": 753,
+      "downloadCount": 754,
       "latestReleaseDate": "2022-09-20T00:39:41Z",
       "firstReleaseDate": "2022-07-12T02:37:03Z",
       "repo": "https://github.com/mrwallace888/OWNH-Carson-System",
@@ -3861,7 +3861,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3871,7 +3871,7 @@
         "main": "carsonsystem.webp"
       },
       "repoUpdatedAt": "2023-05-31T19:48:05Z",
-      "databaseEntryUpdatedAt": "2023-06-24T16:58:12.071Z",
+      "databaseEntryUpdatedAt": "2023-06-25T05:17:20.389Z",
       "viewCount": 10,
       "weeklyViewCount": 0,
       "installCount": 26,
@@ -4940,7 +4940,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.3.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 4115,
+      "downloadCount": 4120,
       "latestReleaseDate": "2023-05-05T04:37:48Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4950,7 +4950,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4961,7 +4961,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:14:07Z",
-      "databaseEntryUpdatedAt": "2023-06-24T16:58:10.381Z",
+      "databaseEntryUpdatedAt": "2023-06-25T05:17:19.296Z",
       "viewCount": 15,
       "weeklyViewCount": 0,
       "installCount": 46,
@@ -7080,7 +7080,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7088,7 +7088,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-06-24T16:58:07.675Z",
+      "databaseEntryUpdatedAt": "2023-06-25T05:17:17.064Z",
       "viewCount": 16,
       "weeklyViewCount": 0,
       "installCount": 14,
