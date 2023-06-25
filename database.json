@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126270
+    "downloadCount": 126271
   },
   "releases": [
     {
@@ -7257,18 +7257,18 @@
       "description": "Universal translation for The Outsider; EN -> JA, pt-BR, zh-CN, RU, FR (making others are welcoming!) And patches to solve some issues of The Outsider",
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
-      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.0.2/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 796,
-      "latestReleaseDate": "2023-06-16T17:23:49Z",
+      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.1.0/orclecle.TranslationForTheOutsider.zip",
+      "downloadCount": 797,
+      "latestReleaseDate": "2023-06-25T04:03:04Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
-      "version": "v1.0.2",
+      "version": "v1.1.0",
       "readme": {
         "htmlUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Fixes for The Outsider itself\r\n\r\n* [Save data corruption problem (The Outsider's Issue) #12](https://github.com/TRSasasusu/TranslationForTheOutsider/issues/12)\r\n    * The Outsider no longer requires the warning message popped up in startup!\r\n    * (Also, The Outsider does not require Vanilla Fix now.)",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization",
@@ -7276,8 +7276,8 @@
       ],
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-06-25T02:35:27Z",
-      "databaseEntryUpdatedAt": "2023-06-25T03:16:55.688Z",
+      "repoUpdatedAt": "2023-06-25T04:10:31Z",
+      "databaseEntryUpdatedAt": "2023-06-25T04:26:32.495Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 231,
