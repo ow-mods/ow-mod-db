@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126283
+    "downloadCount": 126285
   },
   "releases": [
     {
@@ -375,7 +375,7 @@
       "description": "An Outer Wilds MMO experience, just connect and play!",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.3/Release.0.6.3.zip",
-      "downloadCount": 8928,
+      "downloadCount": 8935,
       "latestReleaseDate": "2023-01-12T00:25:40Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
@@ -384,8 +384,8 @@
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
+      "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
       "prerelease": {
         "version": "0.6.2",
         "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.2/Prerelease0.6.2.zip",
@@ -399,7 +399,7 @@
         "main": "outerwildsonline.webp"
       },
       "repoUpdatedAt": "2023-03-31T00:59:19Z",
-      "databaseEntryUpdatedAt": "2023-06-24T18:27:11.841Z",
+      "databaseEntryUpdatedAt": "2023-06-25T06:47:03.102Z",
       "viewCount": 211,
       "weeklyViewCount": 0,
       "installCount": 119,
@@ -536,7 +536,7 @@
         "htmlUrl": "https://github.com/dwatson251/ow-slowtime/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dwatson251/ow-slowtime/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release. Sets the loop time to 1 hour.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -544,7 +544,7 @@
       "slug": "slowtime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-31T12:21:36Z",
-      "databaseEntryUpdatedAt": "2023-06-24T18:27:07.827Z",
+      "databaseEntryUpdatedAt": "2023-06-25T06:47:02.214Z",
       "viewCount": 25,
       "weeklyViewCount": 0,
       "installCount": 68,
@@ -1536,7 +1536,7 @@
       "description": "Korean re-translation for Outer Wilds",
       "author": "milesand",
       "downloadUrl": "https://github.com/milesand/outer-wilds-korean-translation/releases/download/v1.1.1/OWKT.zip",
-      "downloadCount": 7973,
+      "downloadCount": 7974,
       "latestReleaseDate": "2022-09-24T05:28:30Z",
       "firstReleaseDate": "2022-01-09T06:54:55Z",
       "repo": "https://github.com/milesand/outer-wilds-korean-translation",
@@ -1545,7 +1545,7 @@
         "htmlUrl": "https://github.com/milesand/outer-wilds-korean-translation/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/milesand/outer-wilds-korean-translation/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Outer Wilds 1.1.13, OWML 2.7.0과 호환\r\n\r\n아이템을 이용한 상호작용 시 잘못된 메시지가 표시되던 버그를 수정함\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -1553,7 +1553,7 @@
       "slug": "outerwildskoreantranslation",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-04T15:05:36Z",
-      "databaseEntryUpdatedAt": "2023-06-24T18:27:07.828Z",
+      "databaseEntryUpdatedAt": "2023-06-25T06:47:02.214Z",
       "viewCount": 77,
       "weeklyViewCount": 0,
       "installCount": 96,
@@ -4191,7 +4191,7 @@
       "author": "misternebula",
       "parent": "xen.AchievementTracker",
       "downloadUrl": "https://github.com/misternebula/cut-achievements/releases/download/1.0.0/CutAchievements.zip",
-      "downloadCount": 640,
+      "downloadCount": 642,
       "latestReleaseDate": "2022-08-23T22:28:07Z",
       "firstReleaseDate": "2022-08-23T22:28:07Z",
       "repo": "https://github.com/misternebula/cut-achievements",
@@ -4204,7 +4204,7 @@
       "slug": "cutachievements",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:48:07Z",
-      "databaseEntryUpdatedAt": "2023-06-24T18:27:21.588Z",
+      "databaseEntryUpdatedAt": "2023-06-25T06:47:15.637Z",
       "viewCount": 29,
       "weeklyViewCount": 0,
       "installCount": 39,
@@ -4908,7 +4908,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.4/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 9291,
+      "downloadCount": 9319,
       "latestReleaseDate": "2023-06-14T00:36:11Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -4918,7 +4918,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -4928,7 +4928,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2023-06-24T06:17:41Z",
-      "databaseEntryUpdatedAt": "2023-06-24T18:42:19.607Z",
+      "databaseEntryUpdatedAt": "2023-06-25T06:47:05.218Z",
       "viewCount": 87,
       "weeklyViewCount": 0,
       "installCount": 55,
@@ -6221,7 +6221,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/main/README.md"
       },
       "authorDisplay": "Streetlights Behind the Trees",
-      "latestReleaseDescription": "Added Outsider Translation mod and VanillaFix as dependencies.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -7205,7 +7205,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-color-cameras/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "Upgrades every Hearthian camera with color technology!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7583,7 +7583,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v1.0.2/hearth1an.ChristmasStory.zip",
-      "downloadCount": 128,
+      "downloadCount": 150,
       "latestReleaseDate": "2023-06-24T18:36:09Z",
       "firstReleaseDate": "2023-06-22T20:22:57Z",
       "repo": "https://github.com/hearth1an/hearth1an.ChristmasStory",
@@ -7593,8 +7593,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.ChristmasStory/main/README.md"
       },
       "authorDisplay": "hearth1an & xen",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- text fixes\r\n- Gabbro fixes",
+      "latestPrereleaseDescription": "- Added DLC check on start\r\n- Some translation fixes\r\n- Added slides made by Elwensà and me\r\n- Added music for slides\r\n\r\nFrom this point mod is ready for release, can do translations!",
       "prerelease": {
         "version": "v0.1.7",
         "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v0.1.7/hearth1an.ChristmasStory.zip",
@@ -7610,7 +7610,7 @@
         "openGraph": "christmasstory-static.webp"
       },
       "repoUpdatedAt": "2023-06-24T18:36:32Z",
-      "databaseEntryUpdatedAt": "2023-06-24T18:42:19.939Z",
+      "databaseEntryUpdatedAt": "2023-06-25T06:47:05.533Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 59,
