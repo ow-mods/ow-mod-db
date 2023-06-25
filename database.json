@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126295
+    "downloadCount": 126298
   },
   "releases": [
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.2/QSB.zip",
-      "downloadCount": 31431,
+      "downloadCount": 31467,
       "latestReleaseDate": "2023-06-23T19:42:26Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed some long chat messages having no color, and visible rich text tags.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -112,7 +112,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-06-23T19:43:10Z",
-      "databaseEntryUpdatedAt": "2023-06-24T20:11:54.335Z",
+      "databaseEntryUpdatedAt": "2023-06-25T08:26:46.009Z",
       "viewCount": 1679,
       "weeklyViewCount": 0,
       "installCount": 660,
@@ -7524,7 +7524,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-slip-n-slide/master/README.md"
       },
       "authorDisplay": "JohnCorby & Trifid",
-      "latestReleaseDescription": "fixed a memory leak when loading audio",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7560,7 +7560,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.SadSupernovaMusic/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "Cry about it",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -7582,19 +7582,19 @@
       "description": "Story mod about Christmas adventures! Translations: EN",
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v1.0.2/hearth1an.ChristmasStory.zip",
-      "downloadCount": 150,
-      "latestReleaseDate": "2023-06-24T18:36:09Z",
+      "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v1.0.3/hearth1an.ChristmasStory.zip",
+      "downloadCount": 151,
+      "latestReleaseDate": "2023-06-25T07:58:28Z",
       "firstReleaseDate": "2023-06-22T20:22:57Z",
       "repo": "https://github.com/hearth1an/hearth1an.ChristmasStory",
-      "version": "v1.0.2",
+      "version": "v1.0.3",
       "readme": {
         "htmlUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.ChristmasStory/main/README.md"
       },
       "authorDisplay": "hearth1an & xen",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed Gabbro appearence\r\n- Fixed Feldspar signals, appearence\r\n- Now it's easier to find Feldspar :)\r\n- Meditation learning now fixed\r\n- It's easier to find the recorder now (giving more hints and more lights)",
+      "latestPrereleaseDescription": "- Added DLC check on start\r\n- Some translation fixes\r\n- Added slides made by Elwensà and me\r\n- Added music for slides\r\n\r\nFrom this point mod is ready for release, can do translations!",
       "prerelease": {
         "version": "v0.1.7",
         "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v0.1.7/hearth1an.ChristmasStory.zip",
@@ -7609,8 +7609,8 @@
         "main": "christmasstory.webp",
         "openGraph": "christmasstory-static.webp"
       },
-      "repoUpdatedAt": "2023-06-24T18:36:32Z",
-      "databaseEntryUpdatedAt": "2023-06-25T06:47:05.533Z",
+      "repoUpdatedAt": "2023-06-25T08:07:36Z",
+      "databaseEntryUpdatedAt": "2023-06-25T08:26:46.290Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 59,
