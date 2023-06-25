@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126324
+    "downloadCount": 126331
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 101795,
+      "downloadCount": 101849,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-06-25T00:53:52Z",
-      "databaseEntryUpdatedAt": "2023-06-25T02:13:35.262Z",
+      "databaseEntryUpdatedAt": "2023-06-25T14:18:40.123Z",
       "viewCount": 568,
       "weeklyViewCount": 0,
       "installCount": 0,
@@ -85,19 +85,19 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.2/QSB.zip",
-      "downloadCount": 31467,
-      "latestReleaseDate": "2023-06-23T19:42:26Z",
+      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.3/QSB.zip",
+      "downloadCount": 31475,
+      "latestReleaseDate": "2023-06-25T14:10:50Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
-      "version": "0.28.2",
+      "version": "0.28.3",
       "readme": {
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed softlock with Nomai projection pools.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -111,8 +111,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-06-23T19:43:10Z",
-      "databaseEntryUpdatedAt": "2023-06-25T08:26:46.009Z",
+      "repoUpdatedAt": "2023-06-25T14:11:24Z",
+      "databaseEntryUpdatedAt": "2023-06-25T14:18:38.636Z",
       "viewCount": 1679,
       "weeklyViewCount": 0,
       "installCount": 667,
@@ -4405,7 +4405,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.6/hearth1an.TheVision.zip",
-      "downloadCount": 9045,
+      "downloadCount": 9065,
       "latestReleaseDate": "2023-06-24T19:20:56Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4415,7 +4415,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- fixed MenuFramework dependency",
       "latestPrereleaseDescription": "",
       "tags": [
         "story",
@@ -4427,7 +4427,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2023-06-25T00:23:53Z",
-      "databaseEntryUpdatedAt": "2023-06-25T02:13:33.919Z",
+      "databaseEntryUpdatedAt": "2023-06-25T14:18:38.626Z",
       "viewCount": 776,
       "weeklyViewCount": 0,
       "installCount": 417,
@@ -6913,17 +6913,17 @@
       "uniqueName": "VioVayo.HugMod",
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
-      "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.1/VioVayo.HugMod.zip",
-      "downloadCount": 613,
-      "latestReleaseDate": "2023-04-22T20:45:57Z",
+      "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.2/VioVayo.HugMod.zip",
+      "downloadCount": 615,
+      "latestReleaseDate": "2023-06-25T14:01:47Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
-      "version": "v1.0.1",
+      "version": "v1.0.2",
       "readme": {
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "- Got rid of a bunch of annoying error logs and addressed possible issues involving objects getting deactivated mid-sequence\r\n- The Friendmaker Mode toggle is now properly tied to the menu actions and works with a controller without resetting on close\r\n- Friendmaker Mode scripts start and end on more appropriate conditions",
+      "latestReleaseDescription": "Made things marginally less annoying for controller users",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6932,8 +6932,8 @@
       "thumbnail": {
         "main": "hugmod.webp"
       },
-      "repoUpdatedAt": "2023-06-25T13:53:13Z",
-      "databaseEntryUpdatedAt": "2023-06-25T13:56:34.388Z",
+      "repoUpdatedAt": "2023-06-25T14:07:06Z",
+      "databaseEntryUpdatedAt": "2023-06-25T14:18:30.228Z",
       "viewCount": 72,
       "weeklyViewCount": 0,
       "installCount": 56,
@@ -7288,25 +7288,25 @@
       "uniqueName": "VioVayo.DWModAssist",
       "description": "Easy Dream World access and triggering of events",
       "author": "VioVayo",
-      "downloadUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/releases/download/v0.1.4/VioVayo.DWModAssist.zip",
+      "downloadUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/releases/download/v0.1.5/VioVayo.DWModAssist.zip",
       "downloadCount": 55,
-      "latestReleaseDate": "2023-04-30T17:29:21Z",
+      "latestReleaseDate": "2023-06-25T14:05:45Z",
       "firstReleaseDate": "2023-04-16T11:39:43Z",
       "repo": "https://github.com/VioVayo/OWDreamWorldModAssist",
-      "version": "v0.1.4",
+      "version": "v0.1.5",
       "readme": {
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "- Reparent warped items on arrival\r\n- Fixed some Prisoner Cell entryway trigger stuff",
+      "latestReleaseDescription": "Friendship ended with Modhelper.Menus",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
       ],
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-06-25T13:56:16Z",
-      "databaseEntryUpdatedAt": "2023-06-25T13:56:33.475Z",
+      "repoUpdatedAt": "2023-06-25T14:11:34Z",
+      "databaseEntryUpdatedAt": "2023-06-25T14:18:28.591Z",
       "viewCount": 12,
       "weeklyViewCount": 0,
       "installCount": 8,
