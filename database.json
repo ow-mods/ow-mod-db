@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126408
+    "downloadCount": 126411
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.0/OWML.zip",
-      "downloadCount": 101849,
+      "downloadCount": 101914,
       "latestReleaseDate": "2022-12-26T18:37:54Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fix incorrect Obsolete attributes.\r\n- If assembly loading fails, continue normally.\r\n- Add `dlcOnly` property to mod options, so the option only appears in menus if the player owns the DLC.\r\n- Change incremental GC option to default to enabled.\r\n- Better dialogue for GameVersionHandler.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-06-25T00:53:52Z",
-      "databaseEntryUpdatedAt": "2023-06-25T14:18:40.123Z",
+      "databaseEntryUpdatedAt": "2023-06-26T03:10:53.642Z",
       "viewCount": 504,
       "weeklyViewCount": 0,
       "installCount": 0,
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.3/QSB.zip",
-      "downloadCount": 31475,
+      "downloadCount": 31524,
       "latestReleaseDate": "2023-06-25T14:10:50Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed softlock with Nomai projection pools.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -112,7 +112,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-06-25T14:11:24Z",
-      "databaseEntryUpdatedAt": "2023-06-25T14:18:38.636Z",
+      "databaseEntryUpdatedAt": "2023-06-26T03:10:53.297Z",
       "viewCount": 1591,
       "weeklyViewCount": 0,
       "installCount": 646,
@@ -1761,7 +1761,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ArchaeologistAchievementHelper/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Added an `Unnamed` option for the \"Show missing entries\" setting to avoid showing the names of the missing entries (the text \"MISSING ENTRY\" would be shown instead), the `Named` option shows the real name as before.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -4405,7 +4405,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.6/hearth1an.TheVision.zip",
-      "downloadCount": 9065,
+      "downloadCount": 9094,
       "latestReleaseDate": "2023-06-24T19:20:56Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4415,7 +4415,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- fixed MenuFramework dependency",
       "latestPrereleaseDescription": "",
       "tags": [
         "story",
@@ -4427,7 +4427,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2023-06-25T00:23:53Z",
-      "databaseEntryUpdatedAt": "2023-06-25T14:18:38.626Z",
+      "databaseEntryUpdatedAt": "2023-06-26T03:10:53.294Z",
       "viewCount": 740,
       "weeklyViewCount": 0,
       "installCount": 409,
@@ -6221,7 +6221,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/main/README.md"
       },
       "authorDisplay": "Streetlights Behind the Trees",
-      "latestReleaseDescription": "Removed unnecessary warnings and dependencies.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -6914,7 +6914,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.2/VioVayo.HugMod.zip",
-      "downloadCount": 615,
+      "downloadCount": 622,
       "latestReleaseDate": "2023-06-25T14:01:47Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6923,7 +6923,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Made things marginally less annoying for controller users",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6933,7 +6933,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-06-25T14:07:06Z",
-      "databaseEntryUpdatedAt": "2023-06-25T14:18:30.228Z",
+      "databaseEntryUpdatedAt": "2023-06-26T03:10:44.500Z",
       "viewCount": 69,
       "weeklyViewCount": 0,
       "installCount": 54,
@@ -7289,7 +7289,7 @@
       "description": "Easy Dream World access and triggering of events",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/releases/download/v0.1.5/VioVayo.DWModAssist.zip",
-      "downloadCount": 55,
+      "downloadCount": 58,
       "latestReleaseDate": "2023-06-25T14:05:45Z",
       "firstReleaseDate": "2023-04-16T11:39:43Z",
       "repo": "https://github.com/VioVayo/OWDreamWorldModAssist",
@@ -7298,7 +7298,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Friendship ended with Modhelper.Menus",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7306,7 +7306,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-25T14:11:34Z",
-      "databaseEntryUpdatedAt": "2023-06-25T14:18:28.591Z",
+      "databaseEntryUpdatedAt": "2023-06-26T03:10:43.486Z",
       "viewCount": 11,
       "weeklyViewCount": 0,
       "installCount": 8,
@@ -7448,7 +7448,7 @@
       "description": "Take your notes in a new Ship Log mode that lets you create and view your own entries",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/Journal/releases/download/1.0.1/dgarro.Journal.zip",
-      "downloadCount": 50,
+      "downloadCount": 51,
       "latestReleaseDate": "2023-06-24T06:23:57Z",
       "firstReleaseDate": "2023-06-06T01:36:21Z",
       "repo": "https://github.com/dgarroDC/Journal",
@@ -7458,7 +7458,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Shows an error item in the description field and a red \"X\" in the photo square if the image of the selected entry isn't found in Épicas Album (because it was deleted). Before this, it just displayed a white image. The error message includes the name of the missing snapshot.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7468,8 +7468,8 @@
       "thumbnail": {
         "main": "thehatchlingsjournal.webp"
       },
-      "repoUpdatedAt": "2023-06-24T21:34:57Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:53:10.787Z",
+      "repoUpdatedAt": "2023-06-26T03:04:50Z",
+      "databaseEntryUpdatedAt": "2023-06-26T03:10:49.254Z",
       "viewCount": 183,
       "weeklyViewCount": 0,
       "installCount": 35,
