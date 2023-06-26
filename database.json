@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126442
+    "downloadCount": 126443
   },
   "releases": [
     {
@@ -78,7 +78,7 @@
       "viewCount": 1628,
       "weeklyViewCount": 0,
       "installCount": 636,
-      "weeklyInstallCount": 175
+      "weeklyInstallCount": 179
     },
     {
       "name": "Quantum Space Buddies",
@@ -116,7 +116,7 @@
       "viewCount": 1591,
       "weeklyViewCount": 0,
       "installCount": 653,
-      "weeklyInstallCount": 177
+      "weeklyInstallCount": 178
     },
     {
       "name": "Light Bramble",
@@ -147,7 +147,7 @@
       "viewCount": 255,
       "weeklyViewCount": 0,
       "installCount": 195,
-      "weeklyInstallCount": 47
+      "weeklyInstallCount": 49
     },
     {
       "name": "FreeCam",
@@ -225,8 +225,8 @@
         "htmlUrl": "https://github.com/clubby789/OWClock/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/clubby789/OWClock/master/README.md"
       },
-      "latestReleaseDescription": "## What's Changed\r\n* Version 0.7.0 EotE events by @Tllya in https://github.com/clubby789/OWClock/pull/15\r\n",
-      "latestPrereleaseDescription": "> Closes #7\r\n> It might help with #4 too because the RecalculatePosition is called every time settings are changed now.\r\n> Remove redundant \\ from build event.\r\n> OwmlDir can be dynamic with %appdata%\r\n> Make UniqueName match.\r\n> Remove events from list when they have passed (Should improve performance slightly)\r\n> RecalculatePosition from Configure to fix HudScale.\r\n> Add comments.\r\n> Organize code blocks.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.6.1",
         "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.6.1/Release.zip",
@@ -244,7 +244,7 @@
       "viewCount": 102,
       "weeklyViewCount": 0,
       "installCount": 235,
-      "weeklyInstallCount": 63
+      "weeklyInstallCount": 64
     },
     {
       "name": "HD Screenshot",
@@ -367,7 +367,7 @@
       "viewCount": 12,
       "weeklyViewCount": 0,
       "installCount": 24,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 8
     },
     {
       "name": "Outer Wilds Online",
@@ -432,7 +432,7 @@
       "viewCount": 98,
       "weeklyViewCount": 0,
       "installCount": 92,
-      "weeklyInstallCount": 28
+      "weeklyInstallCount": 29
     },
     {
       "name": "Cheats Mod",
@@ -519,7 +519,7 @@
       "viewCount": 44,
       "weeklyViewCount": 0,
       "installCount": 58,
-      "weeklyInstallCount": 16
+      "weeklyInstallCount": 17
     },
     {
       "name": "SlowTime",
@@ -786,7 +786,7 @@
       "viewCount": 54,
       "weeklyViewCount": 0,
       "installCount": 267,
-      "weeklyInstallCount": 80
+      "weeklyInstallCount": 81
     },
     {
       "name": "Static Camera",
@@ -916,7 +916,7 @@
       "viewCount": 159,
       "weeklyViewCount": 0,
       "installCount": 41,
-      "weeklyInstallCount": 16
+      "weeklyInstallCount": 17
     },
     {
       "name": "Half-Life Overhaul",
@@ -1073,7 +1073,7 @@
       "viewCount": 435,
       "weeklyViewCount": 0,
       "installCount": 333,
-      "weeklyInstallCount": 107
+      "weeklyInstallCount": 109
     },
     {
       "name": "New Horizons Examples",
@@ -1138,7 +1138,7 @@
       "viewCount": 155,
       "weeklyViewCount": 0,
       "installCount": 149,
-      "weeklyInstallCount": 42
+      "weeklyInstallCount": 44
     },
     {
       "name": "Atropos",
@@ -1170,7 +1170,7 @@
       "viewCount": 66,
       "weeklyViewCount": 0,
       "installCount": 94,
-      "weeklyInstallCount": 30
+      "weeklyInstallCount": 32
     },
     {
       "name": "ElliePlanets!",
@@ -1219,8 +1219,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "### Changes:\r\n* Added stools, which will spawn around the solar system. These stools can help the player use things like the model rocket or other areas where being shorter than normal can make something more difficult. The stool placements are not final, but they should spawn in most locations where they would be needed!\r\n* Revamped config menu.\r\n  * The \"Height %\" and \"Radius %\" settings now represent actual percentages, so a Height % of 100 will make the player be normal height.\r\n* Readded native compatibility with Hiker's Mod via an API. **Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
-      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -1868,7 +1868,7 @@
       "viewCount": 32,
       "weeklyViewCount": 0,
       "installCount": 54,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 16
     },
     {
       "name": "Outer Wilds Flyover",
@@ -2161,7 +2161,7 @@
       "viewCount": 194,
       "weeklyViewCount": 0,
       "installCount": 297,
-      "weeklyInstallCount": 98
+      "weeklyInstallCount": 102
     },
     {
       "name": "Only Timber Hearth",
@@ -2661,7 +2661,7 @@
       "viewCount": 5,
       "weeklyViewCount": 0,
       "installCount": 57,
-      "weeklyInstallCount": 14
+      "weeklyInstallCount": 15
     },
     {
       "name": "360 Camera",
@@ -3090,7 +3090,7 @@
       "viewCount": 33,
       "weeklyViewCount": 0,
       "installCount": 62,
-      "weeklyInstallCount": 12
+      "weeklyInstallCount": 15
     },
     {
       "name": "Changed Twins",
@@ -3313,7 +3313,7 @@
       "viewCount": 73,
       "weeklyViewCount": 0,
       "installCount": 219,
-      "weeklyInstallCount": 49
+      "weeklyInstallCount": 50
     },
     {
       "name": "Hatchling Outfitter",
@@ -3373,7 +3373,7 @@
       "viewCount": 16,
       "weeklyViewCount": 0,
       "installCount": 33,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 11
     },
     {
       "name": "Common Camera Utility",
@@ -3529,7 +3529,7 @@
       "viewCount": 3,
       "weeklyViewCount": 0,
       "installCount": 14,
-      "weeklyInstallCount": 0
+      "weeklyInstallCount": 1
     },
     {
       "name": "Alpha Title Screen",
@@ -3777,7 +3777,7 @@
       "viewCount": 18,
       "weeklyViewCount": 0,
       "installCount": 27,
-      "weeklyInstallCount": 7
+      "weeklyInstallCount": 8
     },
     {
       "name": "Block Placing",
@@ -3794,8 +3794,8 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "It now automatically saves your placed blocks when you die, and automatically loads that save when you wake up. This can be disabled in the mod settings.",
-      "latestPrereleaseDescription": "QSB compatibility! QSB compatibility will eventually become a separate QSB addon, but is just a pre-release for now. As far as I can tell, everything is synced right now except if you join after someone has already placed blocks, then those blocks won't show up for you. This will eventually be fixed in the future dedicated compatibility mod.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v0.3.6-pre",
         "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.6-pre/12090113.Cubes.zip",
@@ -3892,7 +3892,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-sound-test/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-sound-test/master/README.md"
       },
-      "latestReleaseDescription": "Sounds can now be stopped at any point and will no longer overlap with each other.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -4074,7 +4074,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "Fixed computers not appearing",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4119,7 +4119,7 @@
       "viewCount": 75,
       "weeklyViewCount": 0,
       "installCount": 75,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 16
     },
     {
       "name": "Artifact Laser",
@@ -4431,7 +4431,7 @@
       "viewCount": 740,
       "weeklyViewCount": 0,
       "installCount": 418,
-      "weeklyInstallCount": 143
+      "weeklyInstallCount": 144
     },
     {
       "name": "Secret Words",
@@ -4613,7 +4613,7 @@
       "viewCount": 7,
       "weeklyViewCount": 0,
       "installCount": 44,
-      "weeklyInstallCount": 6
+      "weeklyInstallCount": 7
     },
     {
       "name": "Clear Glass",
@@ -4693,7 +4693,7 @@
         "htmlUrl": "https://github.com/Ciborgm9/Rogue-Planet/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ciborgm9/Rogue-Planet/main/README.md"
       },
-      "latestReleaseDescription": "Update manifest.json\n\nAdds tags to the mod",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4769,7 +4769,7 @@
       "viewCount": 42,
       "weeklyViewCount": 0,
       "installCount": 63,
-      "weeklyInstallCount": 23
+      "weeklyInstallCount": 24
     },
     {
       "name": "Fret's Quest",
@@ -6135,7 +6135,7 @@
       "viewCount": 20,
       "weeklyViewCount": 0,
       "installCount": 28,
-      "weeklyInstallCount": 10
+      "weeklyInstallCount": 11
     },
     {
       "name": "The Spiral System",
@@ -6236,7 +6236,7 @@
       "viewCount": 1049,
       "weeklyViewCount": 0,
       "installCount": 469,
-      "weeklyInstallCount": 149
+      "weeklyInstallCount": 151
     },
     {
       "name": "Daylight Savings",
@@ -6339,7 +6339,7 @@
       "viewCount": 71,
       "weeklyViewCount": 0,
       "installCount": 65,
-      "weeklyInstallCount": 16
+      "weeklyInstallCount": 18
     },
     {
       "name": "OW Ventures Scavenger Hunt",
@@ -6549,7 +6549,7 @@
       "viewCount": 59,
       "weeklyViewCount": 0,
       "installCount": 59,
-      "weeklyInstallCount": 16
+      "weeklyInstallCount": 15
     },
     {
       "name": "March of gears",
@@ -6649,7 +6649,7 @@
       "viewCount": 145,
       "weeklyViewCount": 0,
       "installCount": 109,
-      "weeklyInstallCount": 24
+      "weeklyInstallCount": 25
     },
     {
       "name": "Celestial Leeway",
@@ -6937,7 +6937,7 @@
       "viewCount": 69,
       "weeklyViewCount": 0,
       "installCount": 55,
-      "weeklyInstallCount": 15
+      "weeklyInstallCount": 16
     },
     {
       "name": "Mod Data Tools",
@@ -7187,7 +7187,7 @@
       "viewCount": 36,
       "weeklyViewCount": 0,
       "installCount": 32,
-      "weeklyInstallCount": 8
+      "weeklyInstallCount": 9
     },
     {
       "name": "Color Cameras",
@@ -7281,7 +7281,7 @@
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 237,
-      "weeklyInstallCount": 108
+      "weeklyInstallCount": 109
     },
     {
       "name": "Dream World Modding and Debug Assist",
@@ -7440,7 +7440,7 @@
       "viewCount": 458,
       "weeklyViewCount": 0,
       "installCount": 337,
-      "weeklyInstallCount": 71
+      "weeklyInstallCount": 72
     },
     {
       "name": "The Hatchling's Journal",
@@ -7614,7 +7614,7 @@
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 74,
-      "weeklyInstallCount": 69
+      "weeklyInstallCount": 74
     }
   ],
   "alphaReleases": [
