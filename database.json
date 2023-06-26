@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126437
+    "downloadCount": 126441
   },
   "releases": [
     {
@@ -6764,7 +6764,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6775,7 +6775,7 @@
         "main": "outerrelics.webp"
       },
       "repoUpdatedAt": "2023-04-17T23:48:07Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:42.325Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:28:04.473Z",
       "viewCount": 37,
       "weeklyViewCount": 0,
       "installCount": 24,
@@ -6852,7 +6852,7 @@
       "description": "Gives the player a toggleable personal gravity.",
       "author": "coderCleric",
       "downloadUrl": "https://github.com/coderCleric/HatchlingIcarus/releases/download/v1.1.0/Cleric.HatchlingIcarus.zip",
-      "downloadCount": 127,
+      "downloadCount": 128,
       "latestReleaseDate": "2023-04-26T04:07:52Z",
       "firstReleaseDate": "2023-02-24T04:36:57Z",
       "repo": "https://github.com/coderCleric/HatchlingIcarus",
@@ -6862,7 +6862,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6873,7 +6873,7 @@
         "openGraph": "hatchlingicarus-static.webp"
       },
       "repoUpdatedAt": "2023-04-26T04:11:05Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:42.321Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:27:58.418Z",
       "viewCount": 10,
       "weeklyViewCount": 0,
       "installCount": 15,
@@ -6955,7 +6955,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6965,7 +6965,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2023-04-25T01:07:14Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:40.375Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:27:58.442Z",
       "viewCount": 19,
       "weeklyViewCount": 0,
       "installCount": 3,
@@ -7101,7 +7101,7 @@
       "author": "BUNN1E5",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/BUNN1E5/QSBGameModes/releases/download/v0.0.1/BUNN1E5.QSBGameModes.zip",
-      "downloadCount": 674,
+      "downloadCount": 679,
       "latestReleaseDate": "2023-03-30T03:28:01Z",
       "firstReleaseDate": "2023-03-30T03:28:01Z",
       "repo": "https://github.com/BUNN1E5/QSBGameModes",
@@ -7111,7 +7111,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7121,7 +7121,7 @@
         "main": "qsbgamemodes.webp"
       },
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:42.321Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:27:58.440Z",
       "viewCount": 147,
       "weeklyViewCount": 0,
       "installCount": 237,
@@ -7329,7 +7329,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "exist",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7337,7 +7337,7 @@
       "slug": "9yearoldsystem",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T02:46:02Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:41.289Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:27:56.044Z",
       "viewCount": 120,
       "weeklyViewCount": 0,
       "installCount": 33,
