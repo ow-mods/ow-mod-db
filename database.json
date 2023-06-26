@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126441
+    "downloadCount": 126442
   },
   "releases": [
     {
@@ -77,7 +77,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:32.504Z",
       "viewCount": 1628,
       "weeklyViewCount": 0,
-      "installCount": 632,
+      "installCount": 636,
       "weeklyInstallCount": 175
     },
     {
@@ -115,7 +115,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:10:53.297Z",
       "viewCount": 1591,
       "weeklyViewCount": 0,
-      "installCount": 652,
+      "installCount": 653,
       "weeklyInstallCount": 177
     },
     {
@@ -146,7 +146,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:25.861Z",
       "viewCount": 255,
       "weeklyViewCount": 0,
-      "installCount": 193,
+      "installCount": 195,
       "weeklyInstallCount": 47
     },
     {
@@ -216,7 +216,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.7.0/release.zip",
-      "downloadCount": 10170,
+      "downloadCount": 10176,
       "latestReleaseDate": "2022-03-23T11:03:42Z",
       "firstReleaseDate": "2020-09-20T09:43:23Z",
       "repo": "https://github.com/clubby789/OWClock",
@@ -225,8 +225,8 @@
         "htmlUrl": "https://github.com/clubby789/OWClock/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/clubby789/OWClock/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "## What's Changed\r\n* Version 0.7.0 EotE events by @Tllya in https://github.com/clubby789/OWClock/pull/15\r\n",
+      "latestPrereleaseDescription": "> Closes #7\r\n> It might help with #4 too because the RecalculatePosition is called every time settings are changed now.\r\n> Remove redundant \\ from build event.\r\n> OwmlDir can be dynamic with %appdata%\r\n> Make UniqueName match.\r\n> Remove events from list when they have passed (Should improve performance slightly)\r\n> RecalculatePosition from Configure to fix HudScale.\r\n> Add comments.\r\n> Organize code blocks.",
       "prerelease": {
         "version": "0.6.1",
         "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.6.1/Release.zip",
@@ -240,10 +240,10 @@
         "main": "clock.webp"
       },
       "repoUpdatedAt": "2023-05-16T07:50:39Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:40.365Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:40:57.129Z",
       "viewCount": 102,
       "weeklyViewCount": 0,
-      "installCount": 234,
+      "installCount": 235,
       "weeklyInstallCount": 63
     },
     {
@@ -366,7 +366,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:25.760Z",
       "viewCount": 12,
       "weeklyViewCount": 0,
-      "installCount": 22,
+      "installCount": 24,
       "weeklyInstallCount": 6
     },
     {
@@ -431,7 +431,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:20.158Z",
       "viewCount": 98,
       "weeklyViewCount": 0,
-      "installCount": 91,
+      "installCount": 92,
       "weeklyInstallCount": 28
     },
     {
@@ -518,7 +518,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:23.328Z",
       "viewCount": 44,
       "weeklyViewCount": 0,
-      "installCount": 57,
+      "installCount": 58,
       "weeklyInstallCount": 16
     },
     {
@@ -785,7 +785,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:29.700Z",
       "viewCount": 54,
       "weeklyViewCount": 0,
-      "installCount": 266,
+      "installCount": 267,
       "weeklyInstallCount": 80
     },
     {
@@ -915,7 +915,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:27.039Z",
       "viewCount": 159,
       "weeklyViewCount": 0,
-      "installCount": 40,
+      "installCount": 41,
       "weeklyInstallCount": 16
     },
     {
@@ -1072,7 +1072,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:27.472Z",
       "viewCount": 435,
       "weeklyViewCount": 0,
-      "installCount": 331,
+      "installCount": 333,
       "weeklyInstallCount": 107
     },
     {
@@ -1115,7 +1115,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-real-solar-system/releases/download/v0.6.6/outer-wilds-real-solar-system.zip",
-      "downloadCount": 7037,
+      "downloadCount": 7042,
       "latestReleaseDate": "2022-09-20T04:59:20Z",
       "firstReleaseDate": "2021-12-19T01:26:21Z",
       "repo": "https://github.com/xen-42/outer-wilds-real-solar-system",
@@ -1134,10 +1134,10 @@
         "main": "realsolarsystem.webp"
       },
       "repoUpdatedAt": "2023-06-07T03:49:44Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:42.321Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:40:57.828Z",
       "viewCount": 155,
       "weeklyViewCount": 0,
-      "installCount": 147,
+      "installCount": 149,
       "weeklyInstallCount": 42
     },
     {
@@ -1169,7 +1169,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:27.383Z",
       "viewCount": 66,
       "weeklyViewCount": 0,
-      "installCount": 92,
+      "installCount": 94,
       "weeklyInstallCount": 30
     },
     {
@@ -1219,8 +1219,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "### Changes:\r\n* Added stools, which will spawn around the solar system. These stools can help the player use things like the model rocket or other areas where being shorter than normal can make something more difficult. The stool placements are not final, but they should spawn in most locations where they would be needed!\r\n* Revamped config menu.\r\n  * The \"Height %\" and \"Radius %\" settings now represent actual percentages, so a Height % of 100 will make the player be normal height.\r\n* Readded native compatibility with Hiker's Mod via an API. **Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -1234,7 +1234,7 @@
         "main": "smolhatchling.webp"
       },
       "repoUpdatedAt": "2023-04-16T23:31:59Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:42.325Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:40:58.595Z",
       "viewCount": 8,
       "weeklyViewCount": 0,
       "installCount": 19,
@@ -1867,7 +1867,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:28.689Z",
       "viewCount": 32,
       "weeklyViewCount": 0,
-      "installCount": 53,
+      "installCount": 54,
       "weeklyInstallCount": 15
     },
     {
@@ -2160,7 +2160,7 @@
       "databaseEntryUpdatedAt": "2023-06-25T23:35:55.585Z",
       "viewCount": 194,
       "weeklyViewCount": 0,
-      "installCount": 293,
+      "installCount": 297,
       "weeklyInstallCount": 98
     },
     {
@@ -2660,7 +2660,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:29.763Z",
       "viewCount": 5,
       "weeklyViewCount": 0,
-      "installCount": 56,
+      "installCount": 57,
       "weeklyInstallCount": 14
     },
     {
@@ -3089,7 +3089,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T07:21:42.981Z",
       "viewCount": 33,
       "weeklyViewCount": 0,
-      "installCount": 59,
+      "installCount": 62,
       "weeklyInstallCount": 12
     },
     {
@@ -3312,7 +3312,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T05:31:53.644Z",
       "viewCount": 73,
       "weeklyViewCount": 0,
-      "installCount": 218,
+      "installCount": 219,
       "weeklyInstallCount": 49
     },
     {
@@ -3372,7 +3372,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:30.324Z",
       "viewCount": 16,
       "weeklyViewCount": 0,
-      "installCount": 32,
+      "installCount": 33,
       "weeklyInstallCount": 10
     },
     {
@@ -3528,7 +3528,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:31.220Z",
       "viewCount": 3,
       "weeklyViewCount": 0,
-      "installCount": 13,
+      "installCount": 14,
       "weeklyInstallCount": 0
     },
     {
@@ -3776,7 +3776,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:30.960Z",
       "viewCount": 18,
       "weeklyViewCount": 0,
-      "installCount": 26,
+      "installCount": 27,
       "weeklyInstallCount": 7
     },
     {
@@ -3794,8 +3794,8 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "It now automatically saves your placed blocks when you die, and automatically loads that save when you wake up. This can be disabled in the mod settings.",
+      "latestPrereleaseDescription": "QSB compatibility! QSB compatibility will eventually become a separate QSB addon, but is just a pre-release for now. As far as I can tell, everything is synced right now except if you join after someone has already placed blocks, then those blocks won't show up for you. This will eventually be fixed in the future dedicated compatibility mod.",
       "prerelease": {
         "version": "v0.3.6-pre",
         "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.6-pre/12090113.Cubes.zip",
@@ -3810,7 +3810,7 @@
         "openGraph": "blockplacing-static.webp"
       },
       "repoUpdatedAt": "2023-05-01T02:55:34Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:58.059Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:41:09.863Z",
       "viewCount": 6,
       "weeklyViewCount": 0,
       "installCount": 10,
@@ -3892,7 +3892,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-sound-test/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-sound-test/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Sounds can now be stopped at any point and will no longer overlap with each other.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3900,7 +3900,7 @@
       "slug": "soundtest",
       "thumbnail": {},
       "repoUpdatedAt": "2023-05-02T16:03:57Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:39.585Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:40:57.932Z",
       "viewCount": 8,
       "weeklyViewCount": 0,
       "installCount": 5,
@@ -4074,7 +4074,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed computers not appearing",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4084,7 +4084,7 @@
         "main": "sunstationascension.webp"
       },
       "repoUpdatedAt": "2023-04-02T18:54:23Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:46.447Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:40:59.751Z",
       "viewCount": 12,
       "weeklyViewCount": 0,
       "installCount": 25,
@@ -4118,7 +4118,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:31.615Z",
       "viewCount": 75,
       "weeklyViewCount": 0,
-      "installCount": 74,
+      "installCount": 75,
       "weeklyInstallCount": 15
     },
     {
@@ -4430,7 +4430,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:10:53.294Z",
       "viewCount": 740,
       "weeklyViewCount": 0,
-      "installCount": 417,
+      "installCount": 418,
       "weeklyInstallCount": 143
     },
     {
@@ -4612,7 +4612,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:32.562Z",
       "viewCount": 7,
       "weeklyViewCount": 0,
-      "installCount": 43,
+      "installCount": 44,
       "weeklyInstallCount": 6
     },
     {
@@ -4684,7 +4684,7 @@
       "author": "Ciborgm9",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Ciborgm9/Rogue-Planet/releases/download/v0.1.2/Rogue-Planet.zip",
-      "downloadCount": 323,
+      "downloadCount": 324,
       "latestReleaseDate": "2023-05-14T20:26:55Z",
       "firstReleaseDate": "2022-09-14T14:41:37Z",
       "repo": "https://github.com/Ciborgm9/Rogue-Planet",
@@ -4693,7 +4693,7 @@
         "htmlUrl": "https://github.com/Ciborgm9/Rogue-Planet/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ciborgm9/Rogue-Planet/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Update manifest.json\n\nAdds tags to the mod",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4703,7 +4703,7 @@
         "main": "espiedserenity.webp"
       },
       "repoUpdatedAt": "2023-05-14T20:26:55Z",
-      "databaseEntryUpdatedAt": "2023-06-25T21:27:39.999Z",
+      "databaseEntryUpdatedAt": "2023-06-26T09:40:58.595Z",
       "viewCount": 41,
       "weeklyViewCount": 0,
       "installCount": 19,
@@ -4768,7 +4768,7 @@
       "databaseEntryUpdatedAt": "2023-06-25T23:35:47.281Z",
       "viewCount": 42,
       "weeklyViewCount": 0,
-      "installCount": 62,
+      "installCount": 63,
       "weeklyInstallCount": 23
     },
     {
@@ -6134,7 +6134,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:40:54.595Z",
       "viewCount": 20,
       "weeklyViewCount": 0,
-      "installCount": 27,
+      "installCount": 28,
       "weeklyInstallCount": 10
     },
     {
@@ -6235,7 +6235,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T02:06:29.101Z",
       "viewCount": 1049,
       "weeklyViewCount": 0,
-      "installCount": 467,
+      "installCount": 469,
       "weeklyInstallCount": 149
     },
     {
@@ -6338,7 +6338,7 @@
       "databaseEntryUpdatedAt": "2023-06-25T23:35:56.317Z",
       "viewCount": 71,
       "weeklyViewCount": 0,
-      "installCount": 63,
+      "installCount": 65,
       "weeklyInstallCount": 16
     },
     {
@@ -6548,7 +6548,7 @@
       "databaseEntryUpdatedAt": "2023-06-25T23:35:56.741Z",
       "viewCount": 59,
       "weeklyViewCount": 0,
-      "installCount": 60,
+      "installCount": 59,
       "weeklyInstallCount": 16
     },
     {
@@ -6648,7 +6648,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T08:49:10.480Z",
       "viewCount": 145,
       "weeklyViewCount": 0,
-      "installCount": 108,
+      "installCount": 109,
       "weeklyInstallCount": 24
     },
     {
@@ -6764,7 +6764,7 @@
         "htmlUrl": "https://github.com/GameWyrm/OuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/OuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "- Fixed a bug where on initial randomization, would still try to place keys in DLC locations even when the DLC is not installed\r\n- Removed the Dark Bramble Escape Pod as a possible spawn location due to it not existing when randomization happens, and thus the game not being able to place any keys there",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6862,7 +6862,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/HatchlingIcarus/master/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "Changed entire logic of how the mod actually affects the player to be cleaner, hopefully resolving a number of issues\r\n-NRE when exiting to the main menu (for sure fixed)\r\n-Personal field affecting certain physics objects, like Slate's Shipyard ships (hopefully fixed)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6936,7 +6936,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T03:10:44.500Z",
       "viewCount": 69,
       "weeklyViewCount": 0,
-      "installCount": 54,
+      "installCount": 55,
       "weeklyInstallCount": 15
     },
     {
@@ -6955,7 +6955,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-data-tools/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-data-tools/main/README.md"
       },
-      "latestReleaseDescription": "- Significant refactoring; compatibility broken with previous versions!\r\n- Prop support!\r\n- Various editor improvements and fixes.\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-mod-data-tools/compare/0.1.1...0.2.0",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -7111,7 +7111,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/BUNN1E5/QSBGameModes/master/README.md"
       },
       "authorDisplay": "BUNN1E5 & Locochoco",
-      "latestReleaseDescription": "First Release of QSBGameModes! 🥳 \r\n\r\nThis mod is an addon for QSB, which adds the ability for the host to start and end different kinds of game modes, with them having specific settings in the mod settings menu. Currently the most complete game mode is the *Infection* game mode, which plays like a hide and seek.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7186,7 +7186,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T07:34:57.296Z",
       "viewCount": 36,
       "weeklyViewCount": 0,
-      "installCount": 31,
+      "installCount": 32,
       "weeklyInstallCount": 8
     },
     {
@@ -7280,7 +7280,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T05:57:00.479Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 236,
+      "installCount": 237,
       "weeklyInstallCount": 108
     },
     {
@@ -7329,7 +7329,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/main/README.md"
       },
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter",
-      "latestReleaseDescription": "exist",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -7439,7 +7439,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T08:00:10.422Z",
       "viewCount": 458,
       "weeklyViewCount": 0,
-      "installCount": 336,
+      "installCount": 337,
       "weeklyInstallCount": 71
     },
     {
@@ -7613,7 +7613,7 @@
       "databaseEntryUpdatedAt": "2023-06-26T08:33:28.887Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 69,
+      "installCount": 74,
       "weeklyInstallCount": 69
     }
   ],
