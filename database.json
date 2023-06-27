@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.3/QSB.zip",
-      "downloadCount": 31594,
+      "downloadCount": 31613,
       "latestReleaseDate": "2023-06-25T14:10:50Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed softlock with Nomai projection pools.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -112,7 +112,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-06-25T14:11:24Z",
-      "databaseEntryUpdatedAt": "2023-06-27T03:21:21.241Z",
+      "databaseEntryUpdatedAt": "2023-06-27T15:24:26.647Z",
       "viewCount": 1497,
       "weeklyViewCount": 0,
       "installCount": 656,
@@ -4405,7 +4405,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.6/hearth1an.TheVision.zip",
-      "downloadCount": 9121,
+      "downloadCount": 9138,
       "latestReleaseDate": "2023-06-24T19:20:56Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4415,7 +4415,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- fixed MenuFramework dependency",
       "latestPrereleaseDescription": "",
       "tags": [
         "story",
@@ -4427,7 +4427,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2023-06-25T00:23:53Z",
-      "databaseEntryUpdatedAt": "2023-06-27T03:21:21.240Z",
+      "databaseEntryUpdatedAt": "2023-06-27T15:24:26.656Z",
       "viewCount": 704,
       "weeklyViewCount": 0,
       "installCount": 421,
@@ -6914,7 +6914,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.2/VioVayo.HugMod.zip",
-      "downloadCount": 626,
+      "downloadCount": 629,
       "latestReleaseDate": "2023-06-25T14:01:47Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6923,7 +6923,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Made things marginally less annoying for controller users",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6933,7 +6933,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-06-25T14:07:06Z",
-      "databaseEntryUpdatedAt": "2023-06-27T03:21:09.287Z",
+      "databaseEntryUpdatedAt": "2023-06-27T15:24:19.835Z",
       "viewCount": 65,
       "weeklyViewCount": 0,
       "installCount": 53,
@@ -7298,7 +7298,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Friendship ended with Modhelper.Menus",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7306,7 +7306,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-25T14:11:34Z",
-      "databaseEntryUpdatedAt": "2023-06-27T03:21:09.183Z",
+      "databaseEntryUpdatedAt": "2023-06-27T15:24:16.866Z",
       "viewCount": 11,
       "weeklyViewCount": 0,
       "installCount": 8,
