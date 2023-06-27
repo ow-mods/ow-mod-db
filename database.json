@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 123763
+    "downloadCount": 126554
   },
   "releases": [
     {
@@ -7579,22 +7579,22 @@
     {
       "name": "Christmas Story",
       "uniqueName": "hearth1an.ChristmasStory",
-      "description": "Story mod about Christmas adventures! Translations: EN",
+      "description": "Story mod about Christmas adventures! Translations: EN, ZH",
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v1.0.3/hearth1an.ChristmasStory.zip",
-      "downloadCount": 199,
-      "latestReleaseDate": "2023-06-25T07:58:28Z",
+      "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v1.0.4/hearth1an.ChristmasStory.zip",
+      "downloadCount": 201,
+      "latestReleaseDate": "2023-06-27T13:08:55Z",
       "firstReleaseDate": "2023-06-22T20:22:57Z",
       "repo": "https://github.com/hearth1an/hearth1an.ChristmasStory",
-      "version": "v1.0.3",
+      "version": "v1.0.4",
       "readme": {
         "htmlUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.ChristmasStory/main/README.md"
       },
       "authorDisplay": "hearth1an & xen",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Meditation fix\r\n- Ernesto fix\r\n- Slides bug fix\r\n- Some typo fix\r\n- Chinese translation by @solitary-sails \r\n- Prison mesh fixes",
+      "latestPrereleaseDescription": "- Added DLC check on start\r\n- Some translation fixes\r\n- Added slides made by Elwensà and me\r\n- Added music for slides\r\n\r\nFrom this point mod is ready for release, can do translations!",
       "prerelease": {
         "version": "v0.1.7",
         "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v0.1.7/hearth1an.ChristmasStory.zip",
@@ -7609,8 +7609,8 @@
         "main": "christmasstory.webp",
         "openGraph": "christmasstory-static.webp"
       },
-      "repoUpdatedAt": "2023-06-27T09:13:02Z",
-      "databaseEntryUpdatedAt": "2023-06-27T09:20:08.013Z",
+      "repoUpdatedAt": "2023-06-27T13:13:42Z",
+      "databaseEntryUpdatedAt": "2023-06-27T13:31:28.709Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 81,
