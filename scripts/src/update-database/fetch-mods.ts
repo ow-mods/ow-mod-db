@@ -127,8 +127,8 @@ export async function fetchMods(
             totalDownloadCount += downloadCountOffsets[modInfo.uniqueName];
           }
 
-          const firstRelease = modInfo.uniqueName in firstReleaseDateOverrides ? firstReleaseDateOverrides[modInfo.uniqueName]:
-            (releases[releases.length - 1] ?? cleanLatestRelease);
+          const firstReleaseDate = modInfo.uniqueName in firstReleaseDateOverrides ? firstReleaseDateOverrides[modInfo.uniqueName]:
+            (releases[releases.length - 1] ?? cleanLatestRelease).date;
           const latestPrerelease = prereleases[0];
 
           const mod: BaseMod = {
@@ -143,7 +143,7 @@ export async function fetchMods(
             downloadUrl: cleanLatestRelease.downloadUrl,
             downloadCount: totalDownloadCount,
             latestReleaseDate: cleanLatestRelease.date,
-            firstReleaseDate: firstRelease.date,
+            firstReleaseDate,
             repo: `${REPO_URL_BASE}/${modInfo.repo}`,
             version: cleanLatestRelease.version,
             readme,
