@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126636
+    "downloadCount": 126639
   },
   "releases": [
     {
@@ -216,7 +216,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.7.0/release.zip",
-      "downloadCount": 10185,
+      "downloadCount": 10189,
       "latestReleaseDate": "2022-03-23T11:03:42Z",
       "firstReleaseDate": "2020-09-20T09:43:23Z",
       "repo": "https://github.com/clubby789/OWClock",
@@ -225,8 +225,8 @@
         "htmlUrl": "https://github.com/clubby789/OWClock/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/clubby789/OWClock/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "## What's Changed\r\n* Version 0.7.0 EotE events by @Tllya in https://github.com/clubby789/OWClock/pull/15\r\n",
+      "latestPrereleaseDescription": "> Closes #7\r\n> It might help with #4 too because the RecalculatePosition is called every time settings are changed now.\r\n> Remove redundant \\ from build event.\r\n> OwmlDir can be dynamic with %appdata%\r\n> Make UniqueName match.\r\n> Remove events from list when they have passed (Should improve performance slightly)\r\n> RecalculatePosition from Configure to fix HudScale.\r\n> Add comments.\r\n> Organize code blocks.",
       "prerelease": {
         "version": "0.6.1",
         "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.6.1/Release.zip",
@@ -240,7 +240,7 @@
         "main": "clock.webp"
       },
       "repoUpdatedAt": "2023-06-26T11:15:41Z",
-      "databaseEntryUpdatedAt": "2023-06-27T23:42:34.381Z",
+      "databaseEntryUpdatedAt": "2023-06-28T11:51:11.390Z",
       "viewCount": 90,
       "weeklyViewCount": 0,
       "installCount": 234,
@@ -313,7 +313,7 @@
       "description": "Turns the scout's screenshot feature into a live video!",
       "author": "Vesper-Works",
       "downloadUrl": "https://github.com/Vesper-Works/Scout-Streaming/releases/download/1.2.0/Release.1.2.0.zip",
-      "downloadCount": 4822,
+      "downloadCount": 4826,
       "latestReleaseDate": "2022-05-21T20:57:41Z",
       "firstReleaseDate": "2021-10-12T18:29:14Z",
       "repo": "https://github.com/Vesper-Works/Scout-Streaming",
@@ -322,7 +322,7 @@
         "htmlUrl": "https://github.com/Vesper-Works/Scout-Streaming/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Scout-Streaming/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed NH log bug",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -332,7 +332,7 @@
         "main": "scoutstreaming.webp"
       },
       "repoUpdatedAt": "2023-06-26T11:17:35Z",
-      "databaseEntryUpdatedAt": "2023-06-27T23:42:32.445Z",
+      "databaseEntryUpdatedAt": "2023-06-28T11:51:12.486Z",
       "viewCount": 29,
       "weeklyViewCount": 0,
       "installCount": 115,
@@ -1255,8 +1255,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -1270,7 +1270,7 @@
         "main": "hikersmod.webp"
       },
       "repoUpdatedAt": "2023-06-26T11:19:26Z",
-      "databaseEntryUpdatedAt": "2023-06-27T23:42:37.557Z",
+      "databaseEntryUpdatedAt": "2023-06-28T11:51:12.503Z",
       "viewCount": 16,
       "weeklyViewCount": 0,
       "installCount": 53,
@@ -1751,7 +1751,7 @@
       "description": "Marks ship log entries that have missing facts required for the Archaeologist achievement as \"There's more to explore here.\". It also lets you view which facts you haven't revealed!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ArchaeologistAchievementHelper/releases/download/1.3.1/dgarro.ArchaeologistAchievementHelper.zip",
-      "downloadCount": 3499,
+      "downloadCount": 3503,
       "latestReleaseDate": "2022-10-23T04:39:10Z",
       "firstReleaseDate": "2022-01-16T23:16:49Z",
       "repo": "https://github.com/dgarroDC/ArchaeologistAchievementHelper",
@@ -1761,7 +1761,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ArchaeologistAchievementHelper/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added an `Unnamed` option for the \"Show missing entries\" setting to avoid showing the names of the missing entries (the text \"MISSING ENTRY\" would be shown instead), the `Named` option shows the real name as before.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -1771,7 +1771,7 @@
         "main": "archaeologistachievementhelper.webp"
       },
       "repoUpdatedAt": "2023-06-26T11:18:07Z",
-      "databaseEntryUpdatedAt": "2023-06-27T23:42:37.555Z",
+      "databaseEntryUpdatedAt": "2023-06-28T11:51:11.390Z",
       "viewCount": 127,
       "weeklyViewCount": 0,
       "installCount": 113,
@@ -3943,12 +3943,12 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 3016,
+      "downloadCount": 3018,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Updated to latest game version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3956,7 +3956,7 @@
       "slug": "stoptime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-26T11:19:55Z",
-      "databaseEntryUpdatedAt": "2023-06-27T23:42:47.062Z",
+      "databaseEntryUpdatedAt": "2023-06-28T11:51:24.548Z",
       "viewCount": 39,
       "weeklyViewCount": 0,
       "installCount": 58,
