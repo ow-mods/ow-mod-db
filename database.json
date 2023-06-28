@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126655
+    "downloadCount": 126657
   },
   "releases": [
     {
@@ -6221,7 +6221,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/main/README.md"
       },
       "authorDisplay": "Streetlights Behind the Trees",
-      "latestReleaseDescription": "Removed unnecessary warnings and dependencies.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -7258,7 +7258,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.1.1/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 913,
+      "downloadCount": 922,
       "latestReleaseDate": "2023-06-28T12:36:49Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7268,7 +7268,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Translation for The Outsider\r\n\r\n* Fix FR translation by @Myalgul (See #13)\r\n* Fix RU translation by @Siroptas (See #14)\r\n* Translate Friend displayed when starting a conversation with them. (See #13)",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization",
@@ -7276,8 +7276,8 @@
       ],
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-06-28T13:43:46Z",
-      "databaseEntryUpdatedAt": "2023-06-28T13:55:54.128Z",
+      "repoUpdatedAt": "2023-06-28T15:19:18Z",
+      "databaseEntryUpdatedAt": "2023-06-28T15:23:08.854Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 246,
@@ -7458,7 +7458,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Shows an error item in the description field and a red \"X\" in the photo square if the image of the selected entry isn't found in Épicas Album (because it was deleted). Before this, it just displayed a white image. The error message includes the name of the missing snapshot.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
