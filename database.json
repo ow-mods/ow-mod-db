@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126684
+    "downloadCount": 126685
   },
   "releases": [
     {
@@ -1047,7 +1047,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.2/xen.NewHorizons.zip",
-      "downloadCount": 26332,
+      "downloadCount": 26335,
       "latestReleaseDate": "2023-06-14T22:57:07Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1057,7 +1057,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## Improvements\r\n- All fluid types are now available instead of only a select few (includes Air volumes now)\r\n\r\n## Bug fixes\r\n- Fix solar system sun solar flares becoming white sometimes (resolves #605)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/607**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1068,8 +1068,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-06-28T18:55:15Z",
-      "databaseEntryUpdatedAt": "2023-06-28T18:58:40.438Z",
+      "repoUpdatedAt": "2023-06-28T20:43:22Z",
+      "databaseEntryUpdatedAt": "2023-06-28T20:46:25.831Z",
       "viewCount": 406,
       "weeklyViewCount": 0,
       "installCount": 341,
@@ -2277,7 +2277,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Krevace/ow-voice-mod/master/README.md"
       },
       "authorDisplay": "Krevace & JohnCorby",
-      "latestReleaseDescription": "It's about time for him to show up in the author's field. \r\n\r\n**Changelog:** [`0.4.1...0.4.2`](https://github.com/Krevace/ow-voice-mod/compare/0.4.1...0.4.2)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -6497,7 +6497,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/CantAffordaName/CantAffordaName.Archipelago/main/README.md"
       },
       "authorDisplay": "Can't Afford a Name",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Not cheating, just screwed up the release process. Attached mod .zip",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6509,7 +6509,7 @@
         "main": "archipelago.webp"
       },
       "repoUpdatedAt": "2023-06-16T17:15:01Z",
-      "databaseEntryUpdatedAt": "2023-06-28T08:43:48.324Z",
+      "databaseEntryUpdatedAt": "2023-06-28T20:46:24.270Z",
       "viewCount": 40,
       "weeklyViewCount": 0,
       "installCount": 40,
@@ -7415,7 +7415,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.2.2/O32.UnnamedMystery.zip",
-      "downloadCount": 515,
+      "downloadCount": 519,
       "latestReleaseDate": "2023-06-22T18:54:23Z",
       "firstReleaseDate": "2023-06-05T04:01:15Z",
       "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
@@ -7425,7 +7425,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Unnamed-Mystery/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu), ItsKan, and others",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Part B...** and a half!\r\n\r\n- Now available in French and Simplified Chinese! Credits updated too.\r\n- Fixed every accidental occurrence of \"Helioplasmia\" \r\n\r\n😄👍",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -7436,7 +7436,7 @@
         "main": "unnamedmystery.webp"
       },
       "repoUpdatedAt": "2023-06-22T18:55:06Z",
-      "databaseEntryUpdatedAt": "2023-06-28T08:43:50.971Z",
+      "databaseEntryUpdatedAt": "2023-06-28T20:46:25.830Z",
       "viewCount": 458,
       "weeklyViewCount": 0,
       "installCount": 355,
