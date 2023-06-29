@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Fixed softlock with Nomai projection pools.",
-      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -4416,7 +4416,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "- fixed MenuFramework dependency",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "story",
@@ -4779,7 +4779,7 @@
       "author": "Samster68OW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Samster68OW/fretsquest/releases/download/v0.5.1/fretsquest.zip",
-      "downloadCount": 2030,
+      "downloadCount": 2032,
       "latestReleaseDate": "2023-02-21T20:51:47Z",
       "firstReleaseDate": "2022-10-01T23:01:22Z",
       "repo": "https://github.com/Samster68OW/fretsquest",
@@ -4789,7 +4789,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Samster68OW/fretsquest/main/README.md"
       },
       "authorDisplay": "Samster68",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "0.5.1\n\n- Added Russian translation",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -4800,7 +4800,7 @@
         "main": "fretsquest.webp"
       },
       "repoUpdatedAt": "2023-02-21T20:51:46Z",
-      "databaseEntryUpdatedAt": "2023-06-29T04:32:09.105Z",
+      "databaseEntryUpdatedAt": "2023-06-29T16:44:39.363Z",
       "viewCount": 47,
       "weeklyViewCount": 0,
       "installCount": 79,
@@ -5306,7 +5306,7 @@
       "repo": "https://github.com/ShoosGun/ShipyardOWOCompat",
       "version": "v0.1.2",
       "authorDisplay": "Locochoco",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "* Uses newer systems from shipyard",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -5314,7 +5314,7 @@
       "slug": "slatesshipyardforouterwildsonline",
       "thumbnail": {},
       "repoUpdatedAt": "2022-11-23T01:43:40Z",
-      "databaseEntryUpdatedAt": "2023-06-29T04:32:23.580Z",
+      "databaseEntryUpdatedAt": "2023-06-29T16:44:53.456Z",
       "viewCount": 15,
       "weeklyViewCount": 0,
       "installCount": 49,
@@ -6924,7 +6924,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "Made things marginally less annoying for controller users",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7299,7 +7299,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "Friendship ended with Modhelper.Menus",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7393,7 +7393,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWThrowableItems/main/README.md"
       },
       "authorDisplay": "VioVayo & JohnCorby",
-      "latestReleaseDescription": "First Release!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7622,12 +7622,12 @@
       "uniqueName": "Steini.IcelandicTranslation",
       "description": "Localizing Outer Wilds (Fjarlæg Firnindi) into Icelandic",
       "author": "kksteini",
-      "downloadUrl": "https://github.com/kksteini/OuterWildsIcelandic/releases/download/v0.4/Steini.IcelandicTranslation.zip",
-      "downloadCount": 2,
-      "latestReleaseDate": "2023-06-29T11:53:12Z",
+      "downloadUrl": "https://github.com/kksteini/OuterWildsIcelandic/releases/download/v0.4.1/Steini.IcelandicTranslation.zip",
+      "downloadCount": 5,
+      "latestReleaseDate": "2023-06-29T16:28:49Z",
       "firstReleaseDate": "2023-06-29T11:53:12Z",
       "repo": "https://github.com/kksteini/OuterWildsIcelandic",
-      "version": "v0.4",
+      "version": "v0.4.1",
       "readme": {
         "htmlUrl": "https://github.com/kksteini/OuterWildsIcelandic/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/kksteini/OuterWildsIcelandic/main/README.md"
@@ -7642,8 +7642,8 @@
       "thumbnail": {
         "main": "icelandiclocalization.webp"
       },
-      "repoUpdatedAt": "2023-06-29T12:16:29Z",
-      "databaseEntryUpdatedAt": "2023-06-29T12:17:39.604Z",
+      "repoUpdatedAt": "2023-06-29T16:28:54Z",
+      "databaseEntryUpdatedAt": "2023-06-29T16:44:39.362Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 0,
