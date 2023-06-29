@@ -16,17 +16,6 @@ import type { ModList } from "../mod-info.js";
 const REPO_URL_BASE = "https://github.com";
 const FULL_UPDATE_RATE_HOURS = 12;
 
-const downloadCountOffsets: { [key: string]: number } = {
-  // Jammer deleted the repositories
-  "Jammer.OuterWildsGalaxy": 4828,
-  "Jammer.jammerlore": 373,
-};
-
-const firstReleaseDateOverrides: { [key: string]: string } = {
-  "Jammer.OuterWildsGalaxy": "2021-12-31T23:31:02Z",
-  "Jammer.jammerlore": "2022-04-17T14:52:12Z"
-};
-
 export async function fetchMods(
   modsJson: string,
   outputDirectory: string,
@@ -123,11 +112,11 @@ export async function fetchMods(
             0
           );
 
-          if (modInfo.uniqueName in downloadCountOffsets) {
-            totalDownloadCount += downloadCountOffsets[modInfo.uniqueName];
+          if (modInfo.downloadCountOffset) {
+            totalDownloadCount += modInfo.downloadCountOffset;
           }
 
-          const firstReleaseDate = modInfo.uniqueName in firstReleaseDateOverrides ? firstReleaseDateOverrides[modInfo.uniqueName]:
+          const firstReleaseDate = modInfo.firstReleaseDateOverride ??
             (releases[releases.length - 1] ?? cleanLatestRelease).date;
           const latestPrerelease = prereleases[0];
 

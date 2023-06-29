@@ -69,6 +69,14 @@
                 "localization"
               ]
             }
+          },
+          "downloadCountOffset": {
+            "type": "number",
+            "description": "An amount that will be added to the mod's current download count."
+          },
+          "firstReleaseDateOverride": {
+            "type": "string",
+            "description": "A date that will override the current first release date. Format: YYYY-MM-DDThh:mm:ssZ"
           }
         }
       }
