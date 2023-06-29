@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126810
+    "downloadCount": 126812
   },
   "releases": [
     {
@@ -7360,7 +7360,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Adds an API with tho methods: `OpenSnapshotChooserDialog` and `GetSnapshotSprite`, more info about them in the [README](https://github.com/dgarroDC/EpicasAlbum#the-api).",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7370,8 +7370,8 @@
       "thumbnail": {
         "main": "picasalbum.webp"
       },
-      "repoUpdatedAt": "2023-06-29T13:19:55Z",
-      "databaseEntryUpdatedAt": "2023-06-29T13:28:12.582Z",
+      "repoUpdatedAt": "2023-06-29T21:29:44Z",
+      "databaseEntryUpdatedAt": "2023-06-29T21:42:01.622Z",
       "viewCount": 100,
       "weeklyViewCount": 0,
       "installCount": 16,
@@ -7449,7 +7449,7 @@
       "description": "Take your notes in a new Ship Log mode that lets you create and view your own entries",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/Journal/releases/download/1.1.0/dgarro.Journal.zip",
-      "downloadCount": 65,
+      "downloadCount": 67,
       "latestReleaseDate": "2023-06-29T00:04:45Z",
       "firstReleaseDate": "2023-06-06T01:36:21Z",
       "repo": "https://github.com/dgarroDC/Journal",
@@ -7459,7 +7459,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added an orange cursor with a \"+\" shape controllable with the mouse when editing input fields (entry names and descriptions) that can be used to select text or change the caret position.\r\n- Added the option to discard the changes made to an input field (pressing esc while holding shift)., which restores the entry name/description to the value it was before editing the text.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7469,8 +7469,8 @@
       "thumbnail": {
         "main": "thehatchlingsjournal.webp"
       },
-      "repoUpdatedAt": "2023-06-29T13:19:17Z",
-      "databaseEntryUpdatedAt": "2023-06-29T13:28:12.572Z",
+      "repoUpdatedAt": "2023-06-29T21:29:33Z",
+      "databaseEntryUpdatedAt": "2023-06-29T21:42:03.434Z",
       "viewCount": 183,
       "weeklyViewCount": 0,
       "installCount": 43,
@@ -7515,7 +7515,7 @@
       "description": "Makes everything very slippery. Also adds a bunch of silly sounds and songs.",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-slip-n-slide/releases/download/v1.0.1/JohnCorby.SlipNSlide.zip",
-      "downloadCount": 38,
+      "downloadCount": 39,
       "latestReleaseDate": "2023-06-09T03:42:31Z",
       "firstReleaseDate": "2023-06-08T02:05:54Z",
       "repo": "https://github.com/JohnCorby/ow-slip-n-slide",
@@ -7525,7 +7525,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-slip-n-slide/master/README.md"
       },
       "authorDisplay": "JohnCorby & Trifid",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "fixed a memory leak when loading audio",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7539,7 +7539,7 @@
         "main": "slipnslide.webp"
       },
       "repoUpdatedAt": "2023-06-09T03:56:16Z",
-      "databaseEntryUpdatedAt": "2023-06-29T09:34:38.915Z",
+      "databaseEntryUpdatedAt": "2023-06-29T21:42:03.433Z",
       "viewCount": 91,
       "weeklyViewCount": 0,
       "installCount": 32,
@@ -7551,7 +7551,7 @@
       "description": "Replaces supernova music with the sad one.",
       "author": "hearth1an",
       "downloadUrl": "https://github.com/hearth1an/hearth1an.SadSupernovaMusic/releases/download/v0.1.0/hearth1an.SadSupernovaMusic.zip",
-      "downloadCount": 32,
+      "downloadCount": 33,
       "latestReleaseDate": "2023-06-08T06:54:18Z",
       "firstReleaseDate": "2023-06-08T06:54:18Z",
       "repo": "https://github.com/hearth1an/hearth1an.SadSupernovaMusic",
@@ -7561,7 +7561,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.SadSupernovaMusic/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Cry about it",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -7571,7 +7571,7 @@
         "main": "sadsupernovamusic.webp"
       },
       "repoUpdatedAt": "2023-06-08T07:05:38Z",
-      "databaseEntryUpdatedAt": "2023-06-29T09:34:38.915Z",
+      "databaseEntryUpdatedAt": "2023-06-29T21:42:03.774Z",
       "viewCount": 105,
       "weeklyViewCount": 0,
       "installCount": 26,
