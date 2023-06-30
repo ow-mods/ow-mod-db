@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
-      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -225,8 +225,8 @@
         "htmlUrl": "https://github.com/clubby789/OWClock/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/clubby789/OWClock/master/README.md"
       },
-      "latestReleaseDescription": "## What's Changed\r\n* Version 0.7.0 EotE events by @Tllya in https://github.com/clubby789/OWClock/pull/15\r\n",
-      "latestPrereleaseDescription": "> Closes #7\r\n> It might help with #4 too because the RecalculatePosition is called every time settings are changed now.\r\n> Remove redundant \\ from build event.\r\n> OwmlDir can be dynamic with %appdata%\r\n> Make UniqueName match.\r\n> Remove events from list when they have passed (Should improve performance slightly)\r\n> RecalculatePosition from Configure to fix HudScale.\r\n> Add comments.\r\n> Organize code blocks.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "0.6.1",
         "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.6.1/Release.zip",
@@ -322,7 +322,7 @@
         "htmlUrl": "https://github.com/Vesper-Works/Scout-Streaming/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Scout-Streaming/master/README.md"
       },
-      "latestReleaseDescription": "Fixed NH log bug",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -1255,8 +1255,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
-      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -1761,7 +1761,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ArchaeologistAchievementHelper/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Added an `Unnamed` option for the \"Show missing entries\" setting to avoid showing the names of the missing entries (the text \"MISSING ENTRY\" would be shown instead), the `Named` option shows the real name as before.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -2245,7 +2245,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/GhostTranslations/master/README.md"
       },
       "authorDisplay": "MegaPiggy",
-      "latestReleaseDescription": "Updated for patch 13",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3362,7 +3362,7 @@
         "htmlUrl": "https://github.com/Owen013/QOLFixes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/QOLFixes/main/README.md"
       },
-      "latestReleaseDescription": "Made it so that the reticule disappearer doesn't only work at a certain location.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -3949,7 +3949,7 @@
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "latestReleaseDescription": "Updated to latest game version.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -5907,7 +5907,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/NoDotMod/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "bin chilling!!!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -5938,7 +5938,7 @@
         "htmlUrl": "https://github.com/Komodo5197/StrangerNightCycle/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Komodo5197/StrangerNightCycle/main/README.md"
       },
-      "latestReleaseDescription": "Initial release.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -5971,7 +5971,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/KSP/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "- Increased resolution of bodies\r\n- Jool now has a core",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6003,7 +6003,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Ale32bit/OWAughJetpack/main/README.md"
       },
       "authorDisplay": "AlexDevs",
-      "latestReleaseDescription": "## What's Changed\r\n* Fix for the audio loading issues by @Atakku in https://github.com/Ale32bit/OWAughJetpack/pull/1\r\n\r\n## New Contributors\r\n* @Atakku made their first contribution in https://github.com/Ale32bit/OWAughJetpack/pull/1\r\n\r\n**Full Changelog**: https://github.com/Ale32bit/OWAughJetpack/compare/v0.1.0...v0.1.1",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -6033,7 +6033,7 @@
         "htmlUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/OWFixPluginTypesSerialization/master/README.md"
       },
-      "latestReleaseDescription": "Fix a very silly bug, don't worry about it ;)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6095,7 +6095,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Fusion-Flux/Proud-Hearthians/main/README.md"
       },
       "authorDisplay": "Fusion Flux",
-      "latestReleaseDescription": "Added Aro and Ace flags",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -6190,7 +6190,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/tetraminus/Tetraminus.BrokenBalance/main/README.md"
       },
       "authorDisplay": "Tetraminus, Aidancode",
-      "latestReleaseDescription": "ready i guess",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6256,7 +6256,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/FreezeDriedMangos/ow-daylight-savings/main/README.md"
       },
       "authorDisplay": "Clay",
-      "latestReleaseDescription": "Ernesto has arrived!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6290,7 +6290,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TheMultiuniverse/Multiverse.Brightdusk/main/README.md"
       },
       "authorDisplay": "Multiverse",
-      "latestReleaseDescription": "- Changed some dialogue to make things sound slightly more physically plausible ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6324,7 +6324,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Time-Dialator/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "- two ship logs are clearer, to reduce confusion 📝\r\n- added a box to a thing that you're not supposed to bring the ship 📦\r\n- \"sussy amogus\"? 🤔",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6394,7 +6394,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-wrong-warp-nh-jam/main/README.md"
       },
       "authorDisplay": "The Wrong Warp Team",
-      "latestReleaseDescription": "- Added animations to the various gears\r\n- Added a ceiling window to the entry corridor\r\n- Fixed a geometry collision issue",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6463,7 +6463,7 @@
         "htmlUrl": "https://github.com/artificialparanoia/Divergence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/artificialparanoia/Divergence/main/README.md"
       },
-      "latestReleaseDescription": "### Fixes and Improvements\r\n\r\n- Massively reworked a major puzzle concerning arriving in certain places.\r\n- Updated various clues and ship logs for a particular location to make progression more apparent.\r\n- Fixed an issue with translations not displaying properly.\r\n- Fixed an issue with a shiplog entry saying \"there is more to explore here\", even though there is nothing else to explore. \r\n- Improved compatibility with VoiceMod\r\n\r\n### Additions\r\n\r\n- Added a secret hidden in plain sight.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6533,7 +6533,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.Intervention/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "Hotfix\n\n- Fixed credits trigger radius (thx Acamaeda)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6600,7 +6600,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MikelSalazar/CelestialOrrery/main/README.md"
       },
       "authorDisplay": "Mikel Salazar",
-      "latestReleaseDescription": "A post-jam release with a few improvements.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6703,7 +6703,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/KSPOPM/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "Is the original solar system not enough? Well, here's KSP's Outer Planets Mod, squished down into an OW-sized system.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6736,7 +6736,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/snazzyostrich/snazzyostrich.DeepianMoon/main/README.md"
       },
       "authorDisplay": "snazzyostrich",
-      "latestReleaseDescription": "my singig monster",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6798,7 +6798,7 @@
         "htmlUrl": "https://github.com/GameWyrm/RealSolarSystemOuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/RealSolarSystemOuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "# 1.0.1\r\n\r\nNo actual changes, just fixed manifest version.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6895,7 +6895,7 @@
         "htmlUrl": "https://github.com/QuantumBlur314/BonusRocks95/blob/11_ReturnOfTheLists/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/QuantumBlur314/BonusRocks95/11_ReturnOfTheLists/README.md"
       },
-      "latestReleaseDescription": "YOU ALREADY KNOW WHAT IT ISSSSSSSSSS",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -6988,7 +6988,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-green-screen/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "- Add colour and keybind options\r\n- Make green screen double-sided\r\n- Clear markers if the user goes to another planet\r\n- Use active camera for creating markers instead of exclusively the player camera",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -7145,7 +7145,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ballpit/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "Turns your entire ship into a ball pit! Totally not a safety hazard!",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
