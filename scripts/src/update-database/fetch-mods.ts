@@ -151,7 +151,7 @@ export async function fetchMods(
             thumbnail: thumbnailInfo ?? {},
             repoUpdatedAt,
             databaseEntryUpdatedAt: new Date().toISOString(),
-            repoVariations: modInfo.repoVariations,
+            repoVariations: (modInfo.repoVariations ?? []).map((value: string) => `${REPO_URL_BASE}/${value}`),
           };
 
           return mod;
