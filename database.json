@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126847
+    "downloadCount": 126848
   },
   "releases": [
     {
@@ -86,7 +86,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.3/QSB.zip",
-      "downloadCount": 31714,
+      "downloadCount": 31748,
       "latestReleaseDate": "2023-06-25T14:10:50Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -96,8 +96,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Fixed softlock with Nomai projection pools.",
+      "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
         "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
@@ -112,7 +112,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-06-25T14:11:24Z",
-      "databaseEntryUpdatedAt": "2023-06-29T16:26:15.722Z",
+      "databaseEntryUpdatedAt": "2023-06-30T04:32:47.779Z",
       "viewCount": 1211,
       "weeklyViewCount": 0,
       "installCount": 633,
@@ -4406,7 +4406,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.6/hearth1an.TheVision.zip",
-      "downloadCount": 9194,
+      "downloadCount": 9212,
       "latestReleaseDate": "2023-06-24T19:20:56Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4416,7 +4416,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearthian.TheVision/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- fixed MenuFramework dependency",
       "latestPrereleaseDescription": "",
       "tags": [
         "story",
@@ -4428,7 +4428,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2023-06-25T00:23:53Z",
-      "databaseEntryUpdatedAt": "2023-06-29T16:26:16.066Z",
+      "databaseEntryUpdatedAt": "2023-06-30T04:32:48.141Z",
       "viewCount": 582,
       "weeklyViewCount": 0,
       "installCount": 402,
@@ -6915,7 +6915,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.2/VioVayo.HugMod.zip",
-      "downloadCount": 636,
+      "downloadCount": 640,
       "latestReleaseDate": "2023-06-25T14:01:47Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -6924,7 +6924,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Made things marginally less annoying for controller users",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -6934,7 +6934,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-06-25T14:07:06Z",
-      "databaseEntryUpdatedAt": "2023-06-29T16:26:09.236Z",
+      "databaseEntryUpdatedAt": "2023-06-30T04:32:39.255Z",
       "viewCount": 55,
       "weeklyViewCount": 0,
       "installCount": 47,
@@ -7290,7 +7290,7 @@
       "description": "Easy Dream World access and triggering of events",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/releases/download/v0.1.5/VioVayo.DWModAssist.zip",
-      "downloadCount": 60,
+      "downloadCount": 61,
       "latestReleaseDate": "2023-06-25T14:05:45Z",
       "firstReleaseDate": "2023-04-16T11:39:43Z",
       "repo": "https://github.com/VioVayo/OWDreamWorldModAssist",
@@ -7299,7 +7299,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWDreamWorldModAssist/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Friendship ended with Modhelper.Menus",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -7307,7 +7307,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-25T14:11:34Z",
-      "databaseEntryUpdatedAt": "2023-06-29T16:26:08.389Z",
+      "databaseEntryUpdatedAt": "2023-06-30T04:32:37.815Z",
       "viewCount": 11,
       "weeklyViewCount": 0,
       "installCount": 9,
@@ -7383,7 +7383,7 @@
       "description": "This item empty! Yeet!",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWThrowableItems/releases/download/v0.1.0/VioVayo.YeetMod.zip",
-      "downloadCount": 76,
+      "downloadCount": 77,
       "latestReleaseDate": "2023-05-16T22:46:00Z",
       "firstReleaseDate": "2023-05-16T22:46:00Z",
       "repo": "https://github.com/VioVayo/OWThrowableItems",
@@ -7393,7 +7393,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWThrowableItems/main/README.md"
       },
       "authorDisplay": "VioVayo & JohnCorby",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First Release!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7403,7 +7403,7 @@
         "main": "throwableitems.webp"
       },
       "repoUpdatedAt": "2023-05-16T23:01:43Z",
-      "databaseEntryUpdatedAt": "2023-06-29T16:26:15.720Z",
+      "databaseEntryUpdatedAt": "2023-06-30T04:32:41.574Z",
       "viewCount": 50,
       "weeklyViewCount": 0,
       "installCount": 28,
@@ -7594,8 +7594,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.ChristmasStory/main/README.md"
       },
       "authorDisplay": "hearth1an & xen",
-      "latestReleaseDescription": "- Feldspar spawn fixed\r\n- Ernesto pretty \r\n- Chinese translation fixed\r\n- French translation added by Balex",
-      "latestPrereleaseDescription": "- Added DLC check on start\r\n- Some translation fixes\r\n- Added slides made by Elwensà and me\r\n- Added music for slides\r\n\r\nFrom this point mod is ready for release, can do translations!",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v0.1.7",
         "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v0.1.7/hearth1an.ChristmasStory.zip",
