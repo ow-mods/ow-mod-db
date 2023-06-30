@@ -20,7 +20,10 @@
         "gameplay",
         "integration"
       ],
-      "uniqueName": "Raicuparta.NomaiVR"
+      "uniqueName": "Raicuparta.NomaiVR",
+      "repoVariations": [
+        "Raicuparta/NomaiVR"
+      ]
     },
     {
       "name": "Quantum Space Buddies",
@@ -30,7 +33,10 @@
         "integration"
       ],
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
-      "authorDisplay": "_nebula, JohnCorby, and friends"
+      "authorDisplay": "_nebula, JohnCorby, and friends",
+      "repoVariations": [
+        "Raicuparta/quantum-space-buddies"
+      ]
     },
     {
       "name": "Light Bramble",
@@ -170,7 +176,9 @@
       ],
       "uniqueName": "PacificEngine.OW_CommonResources",
       "utility": true,
-      "authorDisplay": "PacificEngine"
+      "authorDisplay": "PacificEngine",
+      "downloadCountOffset": 8555,
+      "firstReleaseDateOverride": "2021-11-04T17:05:47Z"
     },
     {
       "name": "No Alt Tab Pause",
@@ -289,7 +297,10 @@
         "content",
         "story"
       ],
-      "uniqueName": "xen.NewHorizons"
+      "uniqueName": "xen.NewHorizons",
+      "repoVariations": [
+        "xen-42/outer-wilds-new-horizons"
+      ]
     },
     {
       "authorDisplay": "xen",
@@ -299,7 +310,10 @@
       "tags": [
         "content"
       ],
-      "uniqueName": "xen.NewHorizonsExamples"
+      "uniqueName": "xen.NewHorizonsExamples",
+      "repoVariations": [
+        "xen-42/ow-new-horizons-examples"
+      ]
     },
     {
       "name": "Real Solar System",
@@ -352,7 +366,9 @@
       "tags": [
         "content"
       ],
-      "uniqueName": "Jammer.OuterWildsGalaxy"
+      "uniqueName": "Jammer.OuterWildsGalaxy",
+      "downloadCountOffset": 4828,
+      "firstReleaseDateOverride": "2021-12-31T23:31:02Z"
     },
     {
       "name": "Signals+",
@@ -464,11 +480,14 @@
     },
     {
       "name": "Collider Visualizer",
-      "repo": "ShoosGun/ColliderVisualizer",
+      "repo": "loco-choco/ColliderVisualizer",
       "tags": [
         "tool"
       ],
-      "uniqueName": "Locochoco.ColliderVisualizer"
+      "uniqueName": "Locochoco.ColliderVisualizer",
+      "repoVariations": [
+        "ShoosGun/ColliderVisualizer"
+      ]
     },
     {
       "name": "Archaeologist Achievement Helper",
@@ -534,19 +553,25 @@
     },
     {
       "name": "Input Demo Recorder",
-      "repo": "ShoosGun/InputDemoRecorder",
+      "repo": "loco-choco/InputDemoRecorder",
       "tags": [
         "tool"
       ],
-      "uniqueName": "Locochoco.InputDemoRecorder"
+      "uniqueName": "Locochoco.InputDemoRecorder",
+      "repoVariations": [
+        "ShoosGun/InputDemoRecorder"
+      ]
     },
     {
       "name": "Celeste Wilds",
-      "repo": "ShoosGun/CelesteWilds",
+      "repo": "loco-choco/CelesteWilds",
       "tags": [
         "gameplay"
       ],
-      "uniqueName": "Locochoco.CelesteWilds"
+      "uniqueName": "Locochoco.CelesteWilds",
+      "repoVariations": [
+        "ShoosGun/CelesteWilds"
+      ]
     },
     {
       "name": "Grapefruit",
@@ -677,7 +702,9 @@
       "tags": [
         "content"
       ],
-      "uniqueName": "Jammer.jammerlore"
+      "uniqueName": "Jammer.jammerlore",
+      "downloadCountOffset": 373,
+      "firstReleaseDateOverride": "2022-04-17T14:52:12Z"
     },
     {
       "name": "Ghostbuster",
@@ -943,77 +970,103 @@
     {
       "alpha": true,
       "name": "OWAML",
-      "repo": "ShoosGun/OWAML",
+      "repo": "ow-mods/owaml",
       "required": true,
       "tags": [
         "library"
       ],
       "uniqueName": "Locochoco.OWAML",
-      "utility": true
+      "authorDisplay": "Locochoco & MegaPiggy",
+      "utility": true,
+      "repoVariations": [
+        "ShoosGun/OWAML",
+        "loco-choco/OWAML"
+      ]
     },
     {
       "alpha": true,
       "name": "CAMOWA",
-      "repo": "ShoosGun/CAMOWA",
+      "repo": "loco-choco/CAMOWA",
       "tags": [
         "library"
       ],
       "uniqueName": "Locochoco.CAMOWA",
-      "utility": true
+      "utility": true,
+      "repoVariations": [
+        "ShoosGun/CAMOWA"
+      ]
     },
     {
       "alpha": true,
       "name": "Alpha Fixes",
-      "repo": "ShoosGun/AlphaFixes",
+      "repo": "loco-choco/AlphaFixes",
       "tags": [
         "tweaks"
       ],
-      "uniqueName": "Locochoco.AlphaFixes"
+      "uniqueName": "Locochoco.AlphaFixes",
+      "repoVariations": [
+        "ShoosGun/AlphaFixes"
+      ]
     },
     {
       "alpha": true,
       "name": "Navinha",
-      "repo": "ShoosGun/navinha",
+      "repo": "loco-choco/Navinha",
       "tags": [
         "gameplay"
       ],
-      "uniqueName": "Locochoco.NAVE"
+      "uniqueName": "Locochoco.NAVE",
+      "repoVariations": [
+        "ShoosGun/navinha"
+      ]
     },
     {
       "alpha": true,
       "name": "Free Cam Mod",
-      "repo": "ShoosGun/FreeCamMod",
+      "repo": "loco-choco/FreeCamMod",
       "tags": [
         "tool"
       ],
-      "uniqueName": "Locochoco.FreeCamMod"
+      "uniqueName": "Locochoco.FreeCamMod",
+      "repoVariations": [
+        "ShoosGun/FreeCamMod"
+      ]
     },
     {
       "alpha": true,
       "name": "Probe Grapple",
-      "repo": "ShoosGun/ProbeGrappleMod",
+      "repo": "loco-choco/ProbeGrappleMod",
       "tags": [
         "gameplay"
       ],
-      "uniqueName": "Locochoco.ProbeGrapple"
+      "uniqueName": "Locochoco.ProbeGrapple",
+      "repoVariations": [
+        "ShoosGun/ProbeGrappleMod"
+      ]
     },
     {
       "alpha": true,
       "name": "Cooler Bottom Cams",
-      "repo": "ShoosGun/CBC",
+      "repo": "loco-choco/CBC",
       "tags": [
         "tweaks"
       ],
-      "uniqueName": "Locochoco.CoolerBottomCams"
+      "uniqueName": "Locochoco.CoolerBottomCams",
+      "repoVariations": [
+        "ShoosGun/CBC"
+      ]
     },
     {
       "alpha": true,
       "name": "Enhanced Mallows",
-      "repo": "ShoosGun/EM",
+      "repo": "loco-choco/EM",
       "tags": [
         "tweaks"
       ],
-      "uniqueName": "Locochoco.EnhancedMallows"
+      "uniqueName": "Locochoco.EnhancedMallows",
+      "repoVariations": [
+        "ShoosGun/EM"
+      ]
     },
     {
       "alpha": true,
@@ -1036,11 +1089,14 @@
     {
       "alpha": true,
       "name": "Runtime Unity Editor",
-      "repo": "ShoosGun/RuntimeUnityEditor",
+      "repo": "loco-choco/RuntimeUnityEditor",
       "tags": [
         "tool"
       ],
-      "uniqueName": "Locochoco.RuntimeUnityEditor"
+      "uniqueName": "Locochoco.RuntimeUnityEditor",
+      "repoVariations": [
+        "ShoosGun/RuntimeUnityEditor"
+      ]
     },
     {
       "name": "Cloudless Giant's Deep",
@@ -1292,12 +1348,15 @@
     {
       "authorDisplay": "Locochoco",
       "name": "Gizmos Library",
-      "repo": "ShoosGun/GizmosLibrary",
+      "repo": "loco-choco/GizmosLibrary",
       "tags": [
         "library"
       ],
       "uniqueName": "Locochoco.GizmosLibrary",
-      "utility": true
+      "utility": true,
+      "repoVariations": [
+        "ShoosGun/GizmosLibrary"
+      ]
     },
     {
       "authorDisplay": "coderCleric",
@@ -1332,7 +1391,7 @@
     {
       "authorDisplay": "Locochoco",
       "name": "Slate's Shipyard",
-      "repo": "ShoosGun/SlateShipyard",
+      "repo": "loco-choco/SlateShipyard",
       "tags": [
         "library",
         "gameplay",
@@ -1340,17 +1399,23 @@
         "content"
       ],
       "uniqueName": "Locochoco.SlateShipyard",
-      "utility": true
+      "utility": true,
+      "repoVariations": [
+        "ShoosGun/SlateShipyard"
+      ]
     },
     {
       "authorDisplay": "Locochoco",
       "name": "Spaceshipinha",
       "parent": "Locochoco.SlateShipyard",
-      "repo": "ShoosGun/Spaceshipinha",
+      "repo": "loco-choco/Spaceshipinha",
       "tags": [
         "gameplay"
       ],
-      "uniqueName": "Locochoco.Spaceshipinha"
+      "uniqueName": "Locochoco.Spaceshipinha",
+      "repoVariations": [
+        "ShoosGun/Spaceshipinha"
+      ]
     },
     {
       "authorDisplay": "Hawkbar",
@@ -1365,11 +1430,14 @@
       "authorDisplay": "Locochoco",
       "name": "Car Example",
       "parent": "Locochoco.SlateShipyard",
-      "repo": "ShoosGun/CarExample",
+      "repo": "loco-choco/CarExample",
       "tags": [
         "gameplay"
       ],
-      "uniqueName": "Locochoco.CarExample"
+      "uniqueName": "Locochoco.CarExample",
+      "repoVariations": [
+        "ShoosGun/CarExample"
+      ]
     },
     {
       "authorDisplay": "clay",
@@ -1577,13 +1645,16 @@
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
       "uniqueName": "Locochoco.ShipyardOWOAddon",
-      "repo": "ShoosGun/ShipyardOWOCompat",
+      "repo": "loco-choco/ShipyardOWOCompat",
       "tags": [
         "library"
       ],
       "parent": "Vesper.OuterWildsMMO",
       "utility": true,
-      "authorDisplay": "Locochoco"
+      "authorDisplay": "Locochoco",
+      "repoVariations": [
+        "ShoosGun/ShipyardOWOCompat"
+      ]
     },
     {
       "name": "i let the voices on the discord server make bad ideas for planets",
@@ -1638,13 +1709,16 @@
     {
       "name": "Kerbal Space Ventures",
       "uniqueName": "Locochoco.KSPShips",
-      "repo": "ShoosGun/Kerbal-Space-Ventures",
+      "repo": "loco-choco/Kerbal-Space-Ventures",
       "tags": [
         "gameplay",
         "tool"
       ],
       "parent": "Locochoco.SlateShipyard",
-      "authorDisplay": "Locochoco & FunkyShoeMan"
+      "authorDisplay": "Locochoco & FunkyShoeMan",
+      "repoVariations": [
+        "ShoosGun/Kerbal-Space-Ventures"
+      ]
     },
     {
       "name": "Solar Systems I Made as a Kid",

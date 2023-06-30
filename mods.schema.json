@@ -69,7 +69,20 @@
                 "localization"
               ]
             }
-          }
+          },
+          "downloadCountOffset": {
+            "type": "number",
+            "description": "An amount that will be added to the mod's current download count."
+          },
+          "firstReleaseDateOverride": {
+            "type": "string",
+            "description": "A date that will override the current first release date. Format: YYYY-MM-DDThh:mm:ssZ"
+          },
+          "repoVariations": {
+            "type": "array",
+            "description": "List of previous GitHub repository names. Used for merging download count history. Do not use if current repo is fork of original repo.",
+            "items": {"type": "string"}
+          },
         }
       }
     }

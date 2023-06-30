@@ -13,4 +13,7 @@ export type ModInfo = {
   parent?: string;
   authorDisplay?: string;
   tags: string[];
+  downloadCountOffset?: number;
+  firstReleaseDateOverride?: string;
+  repoVariations?: string[];
 };
