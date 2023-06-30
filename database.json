@@ -834,7 +834,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-day-dream/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-day-dream/master/README.md"
       },
-      "latestReleaseDescription": "- Fixed fog being broken since patch 13 (thanks Vio!)\r\n- Fixed fog and atmosphere not being updated properly when changing settings\r\n- Adjusted fog and atmosphere colours",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1219,8 +1219,8 @@
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
-      "latestReleaseDescription": "### Changes:\r\n* Added stools, which will spawn around the solar system. These stools can help the player use things like the model rocket or other areas where being shorter than normal can make something more difficult. The stool placements are not final, but they should spawn in most locations where they would be needed!\r\n* Revamped config menu.\r\n  * The \"Height %\" and \"Radius %\" settings now represent actual percentages, so a Height % of 100 will make the player be normal height.\r\n* Readded native compatibility with Hiker's Mod via an API. **Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
-      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v2.0.0-pr2",
         "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
@@ -1283,7 +1283,7 @@
       "author": "MegaPiggy",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/MegaPiggy/Outer-Wilds-Galaxy/releases/download/v1.15.0/Outer-Wilds-Galaxy.zip",
-      "downloadCount": 4929,
+      "downloadCount": 4933,
       "latestReleaseDate": "2023-06-22T00:50:19Z",
       "firstReleaseDate": "2021-12-31T23:31:02Z",
       "repo": "https://github.com/MegaPiggy/Outer-Wilds-Galaxy",
@@ -1293,7 +1293,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/Outer-Wilds-Galaxy/main/README.md"
       },
       "authorDisplay": "Jammer",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Final or semi-final update before Outer Wilds Galaxy Rerun is released \r\n\r\nFixes:\r\n- Fixed duel water code on Kerbin\r\n- Fixed low resolution hightmap on Kerbin\r\n- [Re?]Added Raging Giant's stellar expansion. \r\n- Added Jewl's stellar expansion.\r\n- Minor tweeks\r\n- Kevlar - Nevlar protoplanetary disk is bugged, adjusted Kevlar And Nevlar's orbits due to this. ",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -1303,7 +1303,7 @@
         "main": "outerwildsgalaxy.webp"
       },
       "repoUpdatedAt": "2023-06-22T00:50:18Z",
-      "databaseEntryUpdatedAt": "2023-06-29T22:44:39.499Z",
+      "databaseEntryUpdatedAt": "2023-06-30T10:46:47.079Z",
       "viewCount": 71,
       "weeklyViewCount": 0,
       "installCount": 129,
@@ -2491,7 +2491,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/jammerlore/main/README.md"
       },
       "authorDisplay": "Jammer",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Reupload",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -2502,7 +2502,7 @@
         "openGraph": "jammerlore-static.webp"
       },
       "repoUpdatedAt": "2023-01-22T00:02:08Z",
-      "databaseEntryUpdatedAt": "2023-06-29T22:44:39.806Z",
+      "databaseEntryUpdatedAt": "2023-06-30T10:46:49.912Z",
       "viewCount": 5,
       "weeklyViewCount": 0,
       "installCount": 15,
@@ -3795,8 +3795,8 @@
         "htmlUrl": "https://github.com/12090113/outer-wilds-cubes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-cubes/main/README.md"
       },
-      "latestReleaseDescription": "It now automatically saves your placed blocks when you die, and automatically loads that save when you wake up. This can be disabled in the mod settings.",
-      "latestPrereleaseDescription": "QSB compatibility! QSB compatibility will eventually become a separate QSB addon, but is just a pre-release for now. As far as I can tell, everything is synced right now except if you join after someone has already placed blocks, then those blocks won't show up for you. This will eventually be fixed in the future dedicated compatibility mod.",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v0.3.6-pre",
         "downloadUrl": "https://github.com/12090113/outer-wilds-cubes/releases/download/v0.3.6-pre/12090113.Cubes.zip",
@@ -3893,7 +3893,7 @@
         "htmlUrl": "https://github.com/Hawkbat/ow-mod-sound-test/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-mod-sound-test/master/README.md"
       },
-      "latestReleaseDescription": "Sounds can now be stopped at any point and will no longer overlap with each other.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -4075,7 +4075,7 @@
         "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-ss-ascension/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ss-ascension/main/README.md"
       },
-      "latestReleaseDescription": "Fixed computers not appearing",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -4694,7 +4694,7 @@
         "htmlUrl": "https://github.com/Ciborgm9/Rogue-Planet/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ciborgm9/Rogue-Planet/main/README.md"
       },
-      "latestReleaseDescription": "Update manifest.json\n\nAdds tags to the mod",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
