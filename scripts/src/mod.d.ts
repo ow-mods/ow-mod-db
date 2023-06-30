@@ -35,6 +35,7 @@ export interface BaseMod {
     downloadUrl: string;
     date: string;
   };
+  repoVariations?: string[];
 }
 
 export interface OutputMod extends BaseMod {

@@ -15,4 +15,5 @@ export type ModInfo = {
   tags: string[];
   downloadCountOffset?: number;
   firstReleaseDateOverride?: string;
+  repoVariations?: string[];
 };
