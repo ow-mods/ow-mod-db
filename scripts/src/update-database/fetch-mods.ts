@@ -65,12 +65,26 @@ export async function fetchMods(
                 )
               : {};
 
+          const repoURL = `${REPO_URL_BASE}/${modInfo.repo}`;
+          const repoVariations = 
+            modInfo.repoVariations 
+              ? modInfo.repoVariations.map(
+                  (value: string) => `${REPO_URL_BASE}/${value}`
+                ) 
+              : [];
+
           if (!requiresUpdate) {
             return {
               ...previousMod,
-              latestPrereleaseDescription: "",
-              latestReleaseDescription: "",
+              alpha: modInfo.alpha,
+              required: modInfo.required,
+              utility: modInfo.utility,
+              parent: modInfo.parent,
+              repo: repoURL,
+              authorDisplay: modInfo.authorDisplay,
+              tags: modInfo.tags,
               thumbnail: thumbnailInfo ?? {},
+              repoVariations,
             };
           }
 
@@ -133,7 +147,7 @@ export async function fetchMods(
             downloadCount: totalDownloadCount,
             latestReleaseDate: cleanLatestRelease.date,
             firstReleaseDate,
-            repo: `${REPO_URL_BASE}/${modInfo.repo}`,
+            repo: repoURL,
             version: cleanLatestRelease.version,
             readme,
             authorDisplay: modInfo.authorDisplay,
@@ -151,7 +165,7 @@ export async function fetchMods(
             thumbnail: thumbnailInfo ?? {},
             repoUpdatedAt,
             databaseEntryUpdatedAt: new Date().toISOString(),
-            repoVariations: (modInfo.repoVariations ?? []).map((value: string) => `${REPO_URL_BASE}/${value}`),
+            repoVariations,
           };
 
           return mod;
