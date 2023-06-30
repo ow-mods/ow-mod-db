@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126919
+    "downloadCount": 126922
   },
   "releases": [
     {
@@ -47,7 +47,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 56497,
+      "downloadCount": 56513,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -57,8 +57,8 @@
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
       },
       "authorDisplay": "Raicuparta & Artum",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
+      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
       "prerelease": {
         "version": "2.9.3-pre",
         "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
@@ -74,11 +74,11 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2023-06-30T00:32:43Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.477Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.733Z",
       "viewCount": 1289,
       "weeklyViewCount": 0,
-      "installCount": 643,
-      "weeklyInstallCount": 161
+      "installCount": 647,
+      "weeklyInstallCount": 165
     },
     {
       "name": "Quantum Space Buddies",
@@ -115,8 +115,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T04:32:47.779Z",
       "viewCount": 1211,
       "weeklyViewCount": 0,
-      "installCount": 643,
-      "weeklyInstallCount": 161
+      "installCount": 648,
+      "weeklyInstallCount": 166
     },
     {
       "name": "Light Bramble",
@@ -146,8 +146,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T05:22:20.054Z",
       "viewCount": 206,
       "weeklyViewCount": 0,
-      "installCount": 192,
-      "weeklyInstallCount": 53
+      "installCount": 194,
+      "weeklyInstallCount": 55
     },
     {
       "name": "FreeCam",
@@ -216,7 +216,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.7.0/release.zip",
-      "downloadCount": 10201,
+      "downloadCount": 10202,
       "latestReleaseDate": "2022-03-23T11:03:42Z",
       "firstReleaseDate": "2020-09-20T09:43:23Z",
       "repo": "https://github.com/clubby789/OWClock",
@@ -225,8 +225,8 @@
         "htmlUrl": "https://github.com/clubby789/OWClock/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/clubby789/OWClock/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "## What's Changed\r\n* Version 0.7.0 EotE events by @Tllya in https://github.com/clubby789/OWClock/pull/15\r\n",
+      "latestPrereleaseDescription": "> Closes #7\r\n> It might help with #4 too because the RecalculatePosition is called every time settings are changed now.\r\n> Remove redundant \\ from build event.\r\n> OwmlDir can be dynamic with %appdata%\r\n> Make UniqueName match.\r\n> Remove events from list when they have passed (Should improve performance slightly)\r\n> RecalculatePosition from Configure to fix HudScale.\r\n> Add comments.\r\n> Organize code blocks.",
       "prerelease": {
         "version": "0.6.1",
         "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.6.1/Release.zip",
@@ -240,11 +240,11 @@
         "main": "clock.webp"
       },
       "repoUpdatedAt": "2023-06-26T11:15:41Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:52.681Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:40.426Z",
       "viewCount": 74,
       "weeklyViewCount": 0,
-      "installCount": 228,
-      "weeklyInstallCount": 56
+      "installCount": 229,
+      "weeklyInstallCount": 57
     },
     {
       "name": "HD Screenshot",
@@ -304,8 +304,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T02:55:41.297Z",
       "viewCount": 44,
       "weeklyViewCount": 0,
-      "installCount": 149,
-      "weeklyInstallCount": 33
+      "installCount": 150,
+      "weeklyInstallCount": 34
     },
     {
       "name": "ScoutStreaming",
@@ -322,7 +322,7 @@
         "htmlUrl": "https://github.com/Vesper-Works/Scout-Streaming/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Scout-Streaming/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed NH log bug",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -332,7 +332,7 @@
         "main": "scoutstreaming.webp"
       },
       "repoUpdatedAt": "2023-06-26T11:17:35Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:51.722Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:38.830Z",
       "viewCount": 25,
       "weeklyViewCount": 0,
       "installCount": 118,
@@ -402,8 +402,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T07:57:34.508Z",
       "viewCount": 152,
       "weeklyViewCount": 0,
-      "installCount": 104,
-      "weeklyInstallCount": 20
+      "installCount": 105,
+      "weeklyInstallCount": 21
     },
     {
       "name": "Cheat and Debug Menu",
@@ -431,8 +431,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T11:56:32.757Z",
       "viewCount": 62,
       "weeklyViewCount": 0,
-      "installCount": 93,
-      "weeklyInstallCount": 24
+      "installCount": 94,
+      "weeklyInstallCount": 25
     },
     {
       "name": "Cheats Mod",
@@ -460,8 +460,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T11:56:34.519Z",
       "viewCount": 199,
       "weeklyViewCount": 0,
-      "installCount": 251,
-      "weeklyInstallCount": 72
+      "installCount": 252,
+      "weeklyInstallCount": 73
     },
     {
       "name": "Difficulty Mod",
@@ -638,8 +638,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T11:56:32.470Z",
       "viewCount": 10,
       "weeklyViewCount": 0,
-      "installCount": 34,
-      "weeklyInstallCount": 7
+      "installCount": 35,
+      "weeklyInstallCount": 8
     },
     {
       "name": "No Alt Tab Pause",
@@ -667,8 +667,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T05:22:19.251Z",
       "viewCount": 13,
       "weeklyViewCount": 0,
-      "installCount": 41,
-      "weeklyInstallCount": 6
+      "installCount": 42,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Echoes of the Caribbean",
@@ -759,8 +759,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T05:22:19.626Z",
       "viewCount": 7,
       "weeklyViewCount": 0,
-      "installCount": 107,
-      "weeklyInstallCount": 22
+      "installCount": 108,
+      "weeklyInstallCount": 23
     },
     {
       "name": "NomaiVR FFR",
@@ -785,8 +785,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T05:22:23.408Z",
       "viewCount": 44,
       "weeklyViewCount": 0,
-      "installCount": 263,
-      "weeklyInstallCount": 53
+      "installCount": 265,
+      "weeklyInstallCount": 55
     },
     {
       "name": "Static Camera",
@@ -879,8 +879,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T05:22:20.970Z",
       "viewCount": 139,
       "weeklyViewCount": 0,
-      "installCount": 159,
-      "weeklyInstallCount": 39
+      "installCount": 160,
+      "weeklyInstallCount": 40
     },
     {
       "name": "Unity Explorer",
@@ -1072,8 +1072,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T09:29:05.029Z",
       "viewCount": 347,
       "weeklyViewCount": 0,
-      "installCount": 342,
-      "weeklyInstallCount": 107
+      "installCount": 343,
+      "weeklyInstallCount": 108
     },
     {
       "name": "New Horizons Examples",
@@ -1246,7 +1246,7 @@
       "description": "Customizable movement speed and jump height, instant jump, sprinting, climbing, and more.",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.3/Owen013.MovementMod.zip",
-      "downloadCount": 3044,
+      "downloadCount": 3047,
       "latestReleaseDate": "2023-04-16T23:12:23Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
@@ -1255,8 +1255,8 @@
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
+      "latestReleaseDescription": "### Changes:\r\n* Upgraded the config menu to add tooltips, better explaining each setting.\r\n* Readded compatibility with Smol Hatchling via API.\r\n* Animation speed is now based on the player's actual ground speed, rather than their current MAX ground speed. Fixes an issue where the turning and jumping animations would be unusually fast if the player's current maximum speed was greater than 6. \r\n\r\n**Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nChangelog:\r\n- Made it so that if the player isn't wearing the suit, they will start sprinting whenever they are holding the sprint button while grounded, regardless of if they are moving or not. This fixes an issue where if the player pressed and held the sprint button while they were standing still, they wouldn't be able to jump until they pressed a movement input to actually start sprinting.",
       "prerelease": {
         "version": "v1.5.0-pr3",
         "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.5.0-pr3/Owen013.MovementMod.zip",
@@ -1270,11 +1270,11 @@
         "main": "hikersmod.webp"
       },
       "repoUpdatedAt": "2023-06-26T11:19:26Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:05.915Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.040Z",
       "viewCount": 15,
       "weeklyViewCount": 0,
-      "installCount": 51,
-      "weeklyInstallCount": 10
+      "installCount": 52,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Outer Wilds Galaxy",
@@ -1306,8 +1306,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T10:46:47.079Z",
       "viewCount": 71,
       "weeklyViewCount": 0,
-      "installCount": 129,
-      "weeklyInstallCount": 29
+      "installCount": 130,
+      "weeklyInstallCount": 30
     },
     {
       "name": "Signals+",
@@ -1556,8 +1556,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T07:57:34.269Z",
       "viewCount": 53,
       "weeklyViewCount": 0,
-      "installCount": 98,
-      "weeklyInstallCount": 31
+      "installCount": 100,
+      "weeklyInstallCount": 33
     },
     {
       "name": "Astroneer Solar System",
@@ -1751,7 +1751,7 @@
       "description": "Marks ship log entries that have missing facts required for the Archaeologist achievement as \"There's more to explore here.\". It also lets you view which facts you haven't revealed!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ArchaeologistAchievementHelper/releases/download/1.3.1/dgarro.ArchaeologistAchievementHelper.zip",
-      "downloadCount": 3521,
+      "downloadCount": 3524,
       "latestReleaseDate": "2022-10-23T04:39:10Z",
       "firstReleaseDate": "2022-01-16T23:16:49Z",
       "repo": "https://github.com/dgarroDC/ArchaeologistAchievementHelper",
@@ -1761,7 +1761,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ArchaeologistAchievementHelper/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added an `Unnamed` option for the \"Show missing entries\" setting to avoid showing the names of the missing entries (the text \"MISSING ENTRY\" would be shown instead), the `Named` option shows the real name as before.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -1771,11 +1771,11 @@
         "main": "archaeologistachievementhelper.webp"
       },
       "repoUpdatedAt": "2023-06-26T11:18:07Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:54.907Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:40.423Z",
       "viewCount": 100,
       "weeklyViewCount": 0,
-      "installCount": 121,
-      "weeklyInstallCount": 39
+      "installCount": 122,
+      "weeklyInstallCount": 40
     },
     {
       "name": "Enter the Warioverse",
@@ -2160,8 +2160,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T11:56:34.521Z",
       "viewCount": 161,
       "weeklyViewCount": 0,
-      "installCount": 292,
-      "weeklyInstallCount": 70
+      "installCount": 295,
+      "weeklyInstallCount": 73
     },
     {
       "name": "Only Timber Hearth",
@@ -2235,7 +2235,7 @@
       "description": "Adds the ability to translate the unknown language.",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/GhostTranslations/releases/download/1.0.2/MegaPiggy.GhostTranslations.zip",
-      "downloadCount": 1912,
+      "downloadCount": 1914,
       "latestReleaseDate": "2022-09-18T02:24:25Z",
       "firstReleaseDate": "2022-04-03T00:22:57Z",
       "repo": "https://github.com/MegaPiggy/GhostTranslations",
@@ -2245,7 +2245,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/GhostTranslations/master/README.md"
       },
       "authorDisplay": "MegaPiggy",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Updated for patch 13",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -2255,7 +2255,7 @@
         "main": "ghosttranslations.webp"
       },
       "repoUpdatedAt": "2023-06-26T11:24:18Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:54.907Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:40.443Z",
       "viewCount": 96,
       "weeklyViewCount": 0,
       "installCount": 67,
@@ -2320,8 +2320,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T05:22:21.732Z",
       "viewCount": 9,
       "weeklyViewCount": 0,
-      "installCount": 33,
-      "weeklyInstallCount": 8
+      "installCount": 34,
+      "weeklyInstallCount": 9
     },
     {
       "name": "Vengeful Cannon",
@@ -2471,8 +2471,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T05:22:22.305Z",
       "viewCount": 41,
       "weeklyViewCount": 0,
-      "installCount": 61,
-      "weeklyInstallCount": 14
+      "installCount": 62,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Jammer Lore",
@@ -2536,8 +2536,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T05:22:22.511Z",
       "viewCount": 5,
       "weeklyViewCount": 0,
-      "installCount": 11,
-      "weeklyInstallCount": 3
+      "installCount": 12,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Open Doors",
@@ -3313,8 +3313,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T06:57:08.887Z",
       "viewCount": 51,
       "weeklyViewCount": 0,
-      "installCount": 218,
-      "weeklyInstallCount": 45
+      "installCount": 219,
+      "weeklyInstallCount": 46
     },
     {
       "name": "Hatchling Outfitter",
@@ -3353,7 +3353,7 @@
       "description": "QOL features. Disable screen dot, disable automatic scout equipping, exit dialogue early, and more. Check out readme on GitHub!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/QOLFixes/releases/download/v1.3.3/Owen013.QOLFixes.zip",
-      "downloadCount": 759,
+      "downloadCount": 766,
       "latestReleaseDate": "2023-04-10T02:59:38Z",
       "firstReleaseDate": "2022-05-23T15:52:47Z",
       "repo": "https://github.com/Owen013/QOLFixes",
@@ -3362,7 +3362,7 @@
         "htmlUrl": "https://github.com/Owen013/QOLFixes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/QOLFixes/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Made it so that the reticule disappearer doesn't only work at a certain location.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -3370,7 +3370,7 @@
       "slug": "qualityoflifechanges",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-26T11:24:50Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:52.681Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:40.423Z",
       "viewCount": 10,
       "weeklyViewCount": 0,
       "installCount": 32,
@@ -3944,12 +3944,12 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 3020,
+      "downloadCount": 3021,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
       "version": "1.0.0",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Updated to latest game version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -3957,7 +3957,7 @@
       "slug": "stoptime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-26T11:19:55Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:14.099Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:59.648Z",
       "viewCount": 35,
       "weeklyViewCount": 0,
       "installCount": 58,
@@ -4431,8 +4431,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T04:32:48.141Z",
       "viewCount": 582,
       "weeklyViewCount": 0,
-      "installCount": 409,
-      "weeklyInstallCount": 114
+      "installCount": 412,
+      "weeklyInstallCount": 117
     },
     {
       "name": "Secret Words",
@@ -4505,8 +4505,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T04:58:20.785Z",
       "viewCount": 37,
       "weeklyViewCount": 0,
-      "installCount": 56,
-      "weeklyInstallCount": 12
+      "installCount": 57,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Spaceshipinha",
@@ -4543,8 +4543,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T04:58:20.886Z",
       "viewCount": 21,
       "weeklyViewCount": 0,
-      "installCount": 44,
-      "weeklyInstallCount": 7
+      "installCount": 45,
+      "weeklyInstallCount": 8
     },
     {
       "name": "DOOM",
@@ -4613,8 +4613,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T04:58:20.886Z",
       "viewCount": 6,
       "weeklyViewCount": 0,
-      "installCount": 42,
-      "weeklyInstallCount": 7
+      "installCount": 43,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Clear Glass",
@@ -4739,8 +4739,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T04:58:20.492Z",
       "viewCount": 4,
       "weeklyViewCount": 0,
-      "installCount": 10,
-      "weeklyInstallCount": 2
+      "installCount": 11,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Secret Settings",
@@ -4803,8 +4803,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T04:58:20.613Z",
       "viewCount": 46,
       "weeklyViewCount": 0,
-      "installCount": 81,
-      "weeklyInstallCount": 21
+      "installCount": 82,
+      "weeklyInstallCount": 22
     },
     {
       "name": "Heavy Sleeper",
@@ -5907,7 +5907,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/NoDotMod/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "bin chilling!!!",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -5917,7 +5917,7 @@
         "main": "nodotmod.webp"
       },
       "repoUpdatedAt": "2022-12-28T09:21:39Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:05.292Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:50.130Z",
       "viewCount": 13,
       "weeklyViewCount": 0,
       "installCount": 15,
@@ -5929,7 +5929,7 @@
       "description": "Adds a Day/Night cycle to the stranger.",
       "author": "Komodo5197",
       "downloadUrl": "https://github.com/Komodo5197/StrangerNightCycle/releases/download/v1.0.0/Komodo.StrangerNightCycle.zip",
-      "downloadCount": 231,
+      "downloadCount": 232,
       "latestReleaseDate": "2022-12-31T10:17:01Z",
       "firstReleaseDate": "2022-12-31T10:17:01Z",
       "repo": "https://github.com/Komodo5197/StrangerNightCycle",
@@ -5938,7 +5938,7 @@
         "htmlUrl": "https://github.com/Komodo5197/StrangerNightCycle/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Komodo5197/StrangerNightCycle/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Initial release.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -5948,7 +5948,7 @@
         "main": "strangernightcycle.webp"
       },
       "repoUpdatedAt": "2022-12-31T10:18:02Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:54.907Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.366Z",
       "viewCount": 6,
       "weeklyViewCount": 0,
       "installCount": 24,
@@ -5971,7 +5971,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/KSP/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Increased resolution of bodies\r\n- Jool now has a core",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -5981,7 +5981,7 @@
         "main": "ksp.webp"
       },
       "repoUpdatedAt": "2023-01-07T17:25:25Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:04.811Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:38.840Z",
       "viewCount": 9,
       "weeklyViewCount": 0,
       "installCount": 27,
@@ -6003,7 +6003,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Ale32bit/OWAughJetpack/main/README.md"
       },
       "authorDisplay": "AlexDevs",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## What's Changed\r\n* Fix for the audio loading issues by @Atakku in https://github.com/Ale32bit/OWAughJetpack/pull/1\r\n\r\n## New Contributors\r\n* @Atakku made their first contribution in https://github.com/Ale32bit/OWAughJetpack/pull/1\r\n\r\n**Full Changelog**: https://github.com/Ale32bit/OWAughJetpack/compare/v0.1.0...v0.1.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -6011,7 +6011,7 @@
       "slug": "aughjetpackboost",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-21T17:23:09Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:51.721Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:38.830Z",
       "viewCount": 1,
       "weeklyViewCount": 0,
       "installCount": 13,
@@ -6033,7 +6033,7 @@
         "htmlUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/OWFixPluginTypesSerialization/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix a very silly bug, don't worry about it ;)",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6043,7 +6043,7 @@
         "main": "owfixplugintypesserialization.webp"
       },
       "repoUpdatedAt": "2023-05-18T23:47:29Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:54.906Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.031Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
       "installCount": 3,
@@ -6073,7 +6073,7 @@
       "slug": "funnynoises",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-23T01:55:05Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:52.683Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:38.840Z",
       "viewCount": 12,
       "weeklyViewCount": 0,
       "installCount": 8,
@@ -6085,7 +6085,7 @@
       "description": "A mod that adds some extra pride to the game!",
       "author": "Fusion-Flux",
       "downloadUrl": "https://github.com/Fusion-Flux/Proud-Hearthians/releases/download/0.1.2/FusionFlux.ProudHearthians.zip",
-      "downloadCount": 198,
+      "downloadCount": 199,
       "latestReleaseDate": "2023-01-13T18:52:32Z",
       "firstReleaseDate": "2023-01-13T00:50:27Z",
       "repo": "https://github.com/Fusion-Flux/Proud-Hearthians",
@@ -6095,7 +6095,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Fusion-Flux/Proud-Hearthians/main/README.md"
       },
       "authorDisplay": "Fusion Flux",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Added Aro and Ace flags",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -6105,7 +6105,7 @@
         "main": "proudhearthians.webp"
       },
       "repoUpdatedAt": "2023-01-22T15:48:21Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.169Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:50.130Z",
       "viewCount": 11,
       "weeklyViewCount": 0,
       "installCount": 28,
@@ -6145,7 +6145,7 @@
       "author": "spacepiano",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/spacepiano/Spacepiano.TheSpiralSystem/releases/download/v1.0.1/Spacepiano.TheSpiralSystem.zip",
-      "downloadCount": 493,
+      "downloadCount": 496,
       "latestReleaseDate": "2023-01-22T10:34:42Z",
       "firstReleaseDate": "2023-01-18T20:36:54Z",
       "repo": "https://github.com/spacepiano/Spacepiano.TheSpiralSystem",
@@ -6167,7 +6167,7 @@
         "main": "thespiralsystem.webp"
       },
       "repoUpdatedAt": "2023-01-22T10:36:01Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:05.293Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.031Z",
       "viewCount": 45,
       "weeklyViewCount": 0,
       "installCount": 66,
@@ -6180,7 +6180,7 @@
       "author": "tetraminus",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/tetraminus/Tetraminus.BrokenBalance/releases/download/v0.1.0/Tetraminus.BrokenBalance.zip",
-      "downloadCount": 402,
+      "downloadCount": 404,
       "latestReleaseDate": "2023-01-22T23:02:20Z",
       "firstReleaseDate": "2023-01-19T02:58:27Z",
       "repo": "https://github.com/tetraminus/Tetraminus.BrokenBalance",
@@ -6190,7 +6190,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/tetraminus/Tetraminus.BrokenBalance/main/README.md"
       },
       "authorDisplay": "Tetraminus, Aidancode",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "ready i guess",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6200,7 +6200,7 @@
       "slug": "brokenbalance",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-23T20:43:35Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:56:54.907Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:38.878Z",
       "viewCount": 18,
       "weeklyViewCount": 0,
       "installCount": 45,
@@ -6236,8 +6236,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T10:15:54.409Z",
       "viewCount": 819,
       "weeklyViewCount": 0,
-      "installCount": 482,
-      "weeklyInstallCount": 142
+      "installCount": 484,
+      "weeklyInstallCount": 144
     },
     {
       "name": "Daylight Savings",
@@ -6246,7 +6246,7 @@
       "author": "FreezeDriedMangos",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/FreezeDriedMangos/ow-daylight-savings/releases/download/v1.1.0/ow-daylight-savings.zip",
-      "downloadCount": 217,
+      "downloadCount": 219,
       "latestReleaseDate": "2023-01-21T04:43:04Z",
       "firstReleaseDate": "2023-01-20T21:38:19Z",
       "repo": "https://github.com/FreezeDriedMangos/ow-daylight-savings",
@@ -6256,7 +6256,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/FreezeDriedMangos/ow-daylight-savings/main/README.md"
       },
       "authorDisplay": "Clay",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Ernesto has arrived!",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6267,7 +6267,7 @@
         "main": "daylightsavings.webp"
       },
       "repoUpdatedAt": "2023-01-21T04:43:37Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.117Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.040Z",
       "viewCount": 9,
       "weeklyViewCount": 0,
       "installCount": 18,
@@ -6280,7 +6280,7 @@
       "author": "TheMultiuniverse",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TheMultiuniverse/Multiverse.Brightdusk/releases/download/v1.2.0/Multiverse.Brightdusk.zip",
-      "downloadCount": 376,
+      "downloadCount": 378,
       "latestReleaseDate": "2023-01-22T01:23:06Z",
       "firstReleaseDate": "2023-01-21T01:24:18Z",
       "repo": "https://github.com/TheMultiuniverse/Multiverse.Brightdusk",
@@ -6290,7 +6290,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TheMultiuniverse/Multiverse.Brightdusk/main/README.md"
       },
       "authorDisplay": "Multiverse",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Changed some dialogue to make things sound slightly more physically plausible ",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6301,7 +6301,7 @@
         "main": "brightdusk.webp"
       },
       "repoUpdatedAt": "2023-01-22T01:25:02Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:05.293Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:40.444Z",
       "viewCount": 15,
       "weeklyViewCount": 0,
       "installCount": 47,
@@ -6314,7 +6314,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/Time-Dialator/releases/download/1.1.0/O32.TimeDialator.zip",
-      "downloadCount": 561,
+      "downloadCount": 563,
       "latestReleaseDate": "2023-01-22T20:48:45Z",
       "firstReleaseDate": "2023-01-21T19:03:34Z",
       "repo": "https://github.com/RealOrbital32/Time-Dialator",
@@ -6324,7 +6324,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Time-Dialator/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- two ship logs are clearer, to reduce confusion 📝\r\n- added a box to a thing that you're not supposed to bring the ship 📦\r\n- \"sussy amogus\"? 🤔",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6336,7 +6336,7 @@
         "main": "timedialator.webp"
       },
       "repoUpdatedAt": "2023-01-22T20:49:16Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:05.928Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:50.129Z",
       "viewCount": 56,
       "weeklyViewCount": 0,
       "installCount": 67,
@@ -6384,7 +6384,7 @@
       "author": "Hawkbat",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam/releases/download/0.3.0/Hawkbar.ArcanumAdrift.zip",
-      "downloadCount": 763,
+      "downloadCount": 765,
       "latestReleaseDate": "2023-01-23T05:11:17Z",
       "firstReleaseDate": "2023-01-22T02:49:47Z",
       "repo": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam",
@@ -6394,7 +6394,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-wrong-warp-nh-jam/main/README.md"
       },
       "authorDisplay": "The Wrong Warp Team",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added animations to the various gears\r\n- Added a ceiling window to the entry corridor\r\n- Fixed a geometry collision issue",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6406,7 +6406,7 @@
         "main": "arcanumadrift.webp"
       },
       "repoUpdatedAt": "2023-01-27T22:56:53Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:05.293Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:50.129Z",
       "viewCount": 82,
       "weeklyViewCount": 0,
       "installCount": 98,
@@ -6454,7 +6454,7 @@
       "author": "artificialparanoia",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/artificialparanoia/Divergence/releases/download/v1.0.1/artificialparanoia.Divergence.zip",
-      "downloadCount": 464,
+      "downloadCount": 466,
       "latestReleaseDate": "2023-01-24T09:09:19Z",
       "firstReleaseDate": "2023-01-23T12:15:37Z",
       "repo": "https://github.com/artificialparanoia/Divergence",
@@ -6463,7 +6463,7 @@
         "htmlUrl": "https://github.com/artificialparanoia/Divergence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/artificialparanoia/Divergence/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "### Fixes and Improvements\r\n\r\n- Massively reworked a major puzzle concerning arriving in certain places.\r\n- Updated various clues and ship logs for a particular location to make progression more apparent.\r\n- Fixed an issue with translations not displaying properly.\r\n- Fixed an issue with a shiplog entry saying \"there is more to explore here\", even though there is nothing else to explore. \r\n- Improved compatibility with VoiceMod\r\n\r\n### Additions\r\n\r\n- Added a secret hidden in plain sight.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6475,7 +6475,7 @@
         "main": "divergence.webp"
       },
       "repoUpdatedAt": "2023-01-27T01:12:21Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.171Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.408Z",
       "viewCount": 42,
       "weeklyViewCount": 0,
       "installCount": 62,
@@ -6523,7 +6523,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearth1an.Intervention/releases/download/v1.0.4/hearth1an.Intervention.zip",
-      "downloadCount": 540,
+      "downloadCount": 543,
       "latestReleaseDate": "2023-01-24T19:53:34Z",
       "firstReleaseDate": "2023-01-23T16:50:35Z",
       "repo": "https://github.com/hearth1an/hearth1an.Intervention",
@@ -6533,7 +6533,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.Intervention/main/README.md"
       },
       "authorDisplay": "hearth1an",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Hotfix\n\n- Fixed credits trigger radius (thx Acamaeda)",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6546,7 +6546,7 @@
         "openGraph": "intervention-static.webp"
       },
       "repoUpdatedAt": "2023-01-24T19:53:33Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.215Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.412Z",
       "viewCount": 44,
       "weeklyViewCount": 0,
       "installCount": 57,
@@ -6559,7 +6559,7 @@
       "author": "CreativeNameTxt",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CreativeNameTxt/March-of-gears/releases/download/jam/CreativeNameTxt.OrbitTest.zip",
-      "downloadCount": 364,
+      "downloadCount": 367,
       "latestReleaseDate": "2023-01-23T14:33:43Z",
       "firstReleaseDate": "2023-01-23T14:33:43Z",
       "repo": "https://github.com/CreativeNameTxt/March-of-gears",
@@ -6577,7 +6577,7 @@
       "slug": "marchofgears",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-23T14:35:49Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:04.811Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.031Z",
       "viewCount": 7,
       "weeklyViewCount": 0,
       "installCount": 17,
@@ -6590,7 +6590,7 @@
       "author": "MikelSalazar",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/MikelSalazar/CelestialOrrery/releases/download/post-jam/MikelSalazar.CelestialOrrery.zip",
-      "downloadCount": 450,
+      "downloadCount": 454,
       "latestReleaseDate": "2023-01-23T19:07:22Z",
       "firstReleaseDate": "2023-01-23T16:45:08Z",
       "repo": "https://github.com/MikelSalazar/CelestialOrrery",
@@ -6600,7 +6600,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/MikelSalazar/CelestialOrrery/main/README.md"
       },
       "authorDisplay": "Mikel Salazar",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "A post-jam release with a few improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6611,7 +6611,7 @@
         "main": "celestialorrery.webp"
       },
       "repoUpdatedAt": "2023-01-23T19:08:20Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.165Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.370Z",
       "viewCount": 15,
       "weeklyViewCount": 0,
       "installCount": 34,
@@ -6659,7 +6659,7 @@
       "author": "halleyyyyy",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/halleyyyyy/CelestialLeeway/releases/download/v0.2.0/CelestialLeeway.zip",
-      "downloadCount": 259,
+      "downloadCount": 261,
       "latestReleaseDate": "2023-03-01T03:11:42Z",
       "firstReleaseDate": "2023-01-26T02:43:02Z",
       "repo": "https://github.com/halleyyyyy/CelestialLeeway",
@@ -6680,7 +6680,7 @@
         "main": "celestialleeway.webp"
       },
       "repoUpdatedAt": "2023-03-01T03:14:05Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.171Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.390Z",
       "viewCount": 5,
       "weeklyViewCount": 0,
       "installCount": 28,
@@ -6703,7 +6703,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/KSPOPM/main/README.md"
       },
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Is the original solar system not enough? Well, here's KSP's Outer Planets Mod, squished down into an OW-sized system.",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6713,7 +6713,7 @@
         "main": "kspouterplanetsmod.webp"
       },
       "repoUpdatedAt": "2023-02-02T11:02:27Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.138Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.353Z",
       "viewCount": 24,
       "weeklyViewCount": 0,
       "installCount": 34,
@@ -6736,7 +6736,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/snazzyostrich/snazzyostrich.DeepianMoon/main/README.md"
       },
       "authorDisplay": "snazzyostrich",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "my singig monster",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -6744,7 +6744,7 @@
       "slug": "deepianmoon",
       "thumbnail": {},
       "repoUpdatedAt": "2023-02-11T15:40:03Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.169Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.031Z",
       "viewCount": 17,
       "weeklyViewCount": 0,
       "installCount": 36,
@@ -6779,8 +6779,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T10:15:56.134Z",
       "viewCount": 31,
       "weeklyViewCount": 0,
-      "installCount": 25,
-      "weeklyInstallCount": 5
+      "installCount": 26,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Real Solar System - Outer Relics Support and Examples",
@@ -6798,7 +6798,7 @@
         "htmlUrl": "https://github.com/GameWyrm/RealSolarSystemOuterRelics/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/RealSolarSystemOuterRelics/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "# 1.0.1\r\n\r\nNo actual changes, just fixed manifest version.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -6808,7 +6808,7 @@
       "slug": "realsolarsystemouterrelicssupportandexamples",
       "thumbnail": {},
       "repoUpdatedAt": "2023-02-20T23:40:49Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:05.298Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.039Z",
       "viewCount": 6,
       "weeklyViewCount": 0,
       "installCount": 14,
@@ -6841,7 +6841,7 @@
         "main": "photosensitivityfixes.webp"
       },
       "repoUpdatedAt": "2023-02-21T00:09:53Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.303Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.386Z",
       "viewCount": 2,
       "weeklyViewCount": 0,
       "installCount": 2,
@@ -6895,7 +6895,7 @@
         "htmlUrl": "https://github.com/QuantumBlur314/BonusRocks95/blob/11_ReturnOfTheLists/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/QuantumBlur314/BonusRocks95/11_ReturnOfTheLists/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "YOU ALREADY KNOW WHAT IT ISSSSSSSSSS",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -6903,7 +6903,7 @@
       "slug": "warpwindowvanishvolumetweaks",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-07T00:54:37Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:05.293Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.031Z",
       "viewCount": 3,
       "weeklyViewCount": 0,
       "installCount": 7,
@@ -6988,7 +6988,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-green-screen/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Add colour and keybind options\r\n- Make green screen double-sided\r\n- Clear markers if the user goes to another planet\r\n- Use active camera for creating markers instead of exclusively the player camera",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -6999,7 +6999,7 @@
         "main": "greenscreen.webp"
       },
       "repoUpdatedAt": "2023-03-17T00:43:46Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.181Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.384Z",
       "viewCount": 3,
       "weeklyViewCount": 0,
       "installCount": 8,
@@ -7125,8 +7125,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T10:15:56.131Z",
       "viewCount": 103,
       "weeklyViewCount": 0,
-      "installCount": 231,
-      "weeklyInstallCount": 76
+      "installCount": 232,
+      "weeklyInstallCount": 77
     },
     {
       "name": "Ship Ball Pit",
@@ -7145,7 +7145,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-ballpit/main/README.md"
       },
       "authorDisplay": "TerrificTrifid",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Turns your entire ship into a ball pit! Totally not a safety hazard!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7155,7 +7155,7 @@
         "main": "shipballpit.webp"
       },
       "repoUpdatedAt": "2023-04-01T20:31:20Z",
-      "databaseEntryUpdatedAt": "2023-06-30T01:57:06.373Z",
+      "databaseEntryUpdatedAt": "2023-06-30T14:15:51.384Z",
       "viewCount": 18,
       "weeklyViewCount": 0,
       "installCount": 37,
@@ -7440,8 +7440,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T09:29:05.023Z",
       "viewCount": 458,
       "weeklyViewCount": 0,
-      "installCount": 363,
-      "weeklyInstallCount": 64
+      "installCount": 365,
+      "weeklyInstallCount": 66
     },
     {
       "name": "The Hatchling's Journal",
@@ -7614,8 +7614,8 @@
       "databaseEntryUpdatedAt": "2023-06-30T04:11:36.744Z",
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 109,
-      "weeklyInstallCount": 109
+      "installCount": 113,
+      "weeklyInstallCount": 113
     },
     {
       "name": "Icelandic Localization",
