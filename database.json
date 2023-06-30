@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 126956
+    "downloadCount": 126958
   },
   "releases": [
     {
@@ -2823,7 +2823,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 1832,
+      "downloadCount": 1837,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2832,7 +2832,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- Added progress tracking to pop-ups (displays each time you complete one out of however many objectives)\r\n- Fixed greyscale image quality\r\n- Some code improvements\r\n\r\nThanks nebula",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2843,7 +2843,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-03-28T22:48:00Z",
-      "databaseEntryUpdatedAt": "2023-06-30T06:57:08.888Z",
+      "databaseEntryUpdatedAt": "2023-06-30T19:12:57.440Z",
       "viewCount": 27,
       "weeklyViewCount": 0,
       "installCount": 97,
@@ -3289,7 +3289,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.5/dgarro.SuitLog.zip",
-      "downloadCount": 2386,
+      "downloadCount": 2391,
       "latestReleaseDate": "2022-10-07T13:24:11Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -3299,7 +3299,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fix compatibility issue with the [Custom Ship Log Modes](https://outerwildsmods.com/mods/customshiplogmodes/) mod:\r\nThe Suit Log wasn't able to setup when that mod was enabled, practically making Suit Log disabled.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3310,7 +3310,7 @@
         "openGraph": "suitlog-static.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:09:14Z",
-      "databaseEntryUpdatedAt": "2023-06-30T06:57:08.887Z",
+      "databaseEntryUpdatedAt": "2023-06-30T19:12:57.442Z",
       "viewCount": 51,
       "weeklyViewCount": 0,
       "installCount": 219,
@@ -3862,7 +3862,7 @@
         "htmlUrl": "https://github.com/mrwallace888/OWNH-Carson-System/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/mrwallace888/OWNH-Carson-System/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "# Another revamp after the release of `1.0`. Here's what's changed:\r\n\r\n- New `README.md` and logo (ooh, shiny). Go check it out!\r\n- Music has been temporarily replaced until I can compose something better. I feel it wasn't polished enough.\r\n- Skybox has been changed.\r\n- Urath, Alpinia, Dester, and Mirtha have been given pretty clouds (they even cast shadows and go dark at night!). Should make it feel just a little more immersive.\r\n- Optimization and bugfixing.\r\n- Urath has had a terrain overhaul.\r\n- New icons added to the ship log.\r\n- **A strange new planet has appeared in the system through unknown means...**",
       "latestPrereleaseDescription": "",
       "tags": [
         "content"
@@ -3872,7 +3872,7 @@
         "main": "carsonsystem.webp"
       },
       "repoUpdatedAt": "2023-05-31T19:48:05Z",
-      "databaseEntryUpdatedAt": "2023-06-30T06:57:08.888Z",
+      "databaseEntryUpdatedAt": "2023-06-30T19:12:57.440Z",
       "viewCount": 6,
       "weeklyViewCount": 0,
       "installCount": 30,
@@ -3923,7 +3923,7 @@
         "htmlUrl": "https://github.com/xen-42/outer-wilds-localization-utility/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-localization-utility/main/README.md"
       },
-      "latestReleaseDescription": "- New languages appear in the options slider\r\n- Can replace a language instead of just adding new ones\r\n- Added font size modifier and default font spacing options\r\n- Fixed some errors\r\n\r\nThanks MegaPiggy for contributing these things months ago and then I forgot to make a release haha (oops)",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library",
@@ -4941,7 +4941,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.3.0/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 4137,
+      "downloadCount": 4139,
       "latestReleaseDate": "2023-05-05T04:37:48Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -4951,7 +4951,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/ShipLogSlideReelPlayer/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "**Fullscreen mode**\r\nAdds a feature to toggle fullscreen. Note that this a non-diegetic feature: it isn't fullscreen on the in-game computer, it's fullscreen on your monitor (or game window), allowing you to appreciate the reels in all their glory and without being affected by lights from the game world, offering a more CINEMATIC experience.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -4962,7 +4962,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2023-05-15T15:14:07Z",
-      "databaseEntryUpdatedAt": "2023-06-30T06:57:08.890Z",
+      "databaseEntryUpdatedAt": "2023-06-30T19:12:57.792Z",
       "viewCount": 9,
       "weeklyViewCount": 0,
       "installCount": 42,
@@ -6349,7 +6349,7 @@
       "author": "coderCleric",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/coderCleric/Scavenger_Hunt/releases/download/v1.0.1/Scavenger_Hunt.zip",
-      "downloadCount": 326,
+      "downloadCount": 328,
       "latestReleaseDate": "2023-03-27T23:57:45Z",
       "firstReleaseDate": "2023-01-21T21:28:39Z",
       "repo": "https://github.com/coderCleric/Scavenger_Hunt",
@@ -6359,7 +6359,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/coderCleric/Scavenger_Hunt/main/README.md"
       },
       "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Fixed some warnings and made other small improvements.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6371,7 +6371,7 @@
         "main": "owventuresscavengerhunt.webp"
       },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
-      "databaseEntryUpdatedAt": "2023-06-30T06:57:09.231Z",
+      "databaseEntryUpdatedAt": "2023-06-30T19:12:57.791Z",
       "viewCount": 10,
       "weeklyViewCount": 0,
       "installCount": 31,
@@ -7072,7 +7072,7 @@
       "description": "Changes to the Ghost AI that make them harder to avoid",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWSmarterGhosts/releases/download/v0.2.1/VioVayo.SmarterGhosts.zip",
-      "downloadCount": 90,
+      "downloadCount": 91,
       "latestReleaseDate": "2023-04-22T21:15:56Z",
       "firstReleaseDate": "2023-03-26T19:18:05Z",
       "repo": "https://github.com/VioVayo/OWSmarterGhosts",
@@ -7081,7 +7081,7 @@
         "htmlUrl": "https://github.com/VioVayo/OWSmarterGhosts/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWSmarterGhosts/main/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- More Ghosts will start hunting the player early if given reason to\r\n- Tweaks to noise radii",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7089,7 +7089,7 @@
       "slug": "smarterghosts",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T21:19:50Z",
-      "databaseEntryUpdatedAt": "2023-06-30T06:57:05.320Z",
+      "databaseEntryUpdatedAt": "2023-06-30T19:12:55.104Z",
       "viewCount": 9,
       "weeklyViewCount": 0,
       "installCount": 11,
@@ -7491,7 +7491,7 @@
         "htmlUrl": "https://github.com/codelazarus14/InhabitantChess/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/codelazarus14/InhabitantChess/master/README.md"
       },
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "First release, still missing a few features and error-prone but it's stable enough :/",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7503,7 +7503,7 @@
         "main": "inhabitantchess.webp"
       },
       "repoUpdatedAt": "2023-06-21T16:33:18Z",
-      "databaseEntryUpdatedAt": "2023-06-30T06:57:09.231Z",
+      "databaseEntryUpdatedAt": "2023-06-30T19:12:57.791Z",
       "viewCount": 144,
       "weeklyViewCount": 0,
       "installCount": 42,
