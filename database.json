@@ -1083,18 +1083,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.11.3/xen.NewHorizons.zip",
-      "downloadCount": 26434,
-      "latestReleaseDate": "2023-07-01T01:13:43Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.0/xen.NewHorizons.zip",
+      "downloadCount": 26461,
+      "latestReleaseDate": "2023-07-01T07:03:30Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.11.3",
+      "version": "v1.12.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- Orbs now function!\r\n\r\n## Minor features\r\n- Added the Ember Twin Cairn variant (#591)\r\n\r\n## Improvements\r\n- Renames the cairn NomaiTextType enums to what they actually are.\r\n\r\n## Bug fixes\r\n- Fixed fog in DLC location (had broken the Hazy Dreams addon) (Thanks Vio!)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/610**",
+      "latestReleaseDescription": "Forgot to bump manifest oops\r\n\r\n## Minor features\r\n- Added the Ember Twin Cairn variant (resolves #591)\r\n\r\n## Improvements\r\n- Orbs now function!\r\n- Renames the cairn NomaiTextType enums to what they actually are.\r\n\r\n## Bug fixes\r\n- Fixed fog in DLC location (had broken the Hazy Dreams addon) (Thanks Vio!)\r\n\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/613**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-07-01T01:18:12Z",
-      "databaseEntryUpdatedAt": "2023-07-01T01:21:01.676Z",
+      "repoUpdatedAt": "2023-07-01T07:06:54Z",
+      "databaseEntryUpdatedAt": "2023-07-01T07:11:01.072Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
