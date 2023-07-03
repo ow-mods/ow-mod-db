@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 127338
+    "downloadCount": 127339
   },
   "releases": [
     {
@@ -1084,7 +1084,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.0/xen.NewHorizons.zip",
-      "downloadCount": 26521,
+      "downloadCount": 26564,
       "latestReleaseDate": "2023-07-01T16:06:03Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-07-02T00:05:52Z",
-      "databaseEntryUpdatedAt": "2023-07-02T14:23:22.122Z",
+      "repoUpdatedAt": "2023-07-03T02:12:30Z",
+      "databaseEntryUpdatedAt": "2023-07-03T02:17:36.632Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -7914,6 +7914,39 @@
       "weeklyViewCount": 15,
       "installCount": 4,
       "weeklyInstallCount": 4
+    },
+    {
+      "name": "Outer Wilds Kazoo",
+      "uniqueName": "OuterWildsKazoo",
+      "description": "A mod that replaces all of the music with handcrafted kazoo counterparts. Special thanks to Vio for basically teaching me C#",
+      "author": "GoldenCrepe",
+      "downloadUrl": "https://github.com/GoldenCrepe/OuterWildsKazoo/releases/download/v0.1.0/GoldenCrepe.OuterWildsKazoo.zip",
+      "downloadCount": 2,
+      "latestReleaseDate": "2023-07-02T06:17:19Z",
+      "firstReleaseDate": "2023-07-02T06:17:19Z",
+      "repo": "https://github.com/GoldenCrepe/OuterWildsKazoo",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/GoldenCrepe/OuterWildsKazoo/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/GoldenCrepe/OuterWildsKazoo/main/README.md"
+      },
+      "authorDisplay": "GoldenCrepe & Vio",
+      "latestReleaseDescription": "the first release. hopefully no bugs need to be fixed.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "audiovisual"
+      ],
+      "slug": "outerwildskazoo",
+      "thumbnail": {
+        "main": "outerwildskazoo.webp"
+      },
+      "repoUpdatedAt": "2023-07-02T06:26:14Z",
+      "databaseEntryUpdatedAt": "2023-07-03T02:17:36.714Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
