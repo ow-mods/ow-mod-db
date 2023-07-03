@@ -888,7 +888,7 @@
       "description": "Outer Wilds mod: gives the player night vision on Echoes of the Eye's dream world.",
       "author": "Heelio",
       "downloadUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/releases/download/0.1.1/Heelio.EotEBrighterDreams.zip",
-      "downloadCount": 4708,
+      "downloadCount": 4710,
       "latestReleaseDate": "2021-11-28T22:52:25Z",
       "firstReleaseDate": "2021-11-28T20:52:42Z",
       "repo": "https://github.com/Heelio/EotE-Brighter-Dreams",
@@ -907,7 +907,7 @@
         "main": "eotebrighterdreams.webp"
       },
       "repoUpdatedAt": "2023-06-20T13:46:53Z",
-      "databaseEntryUpdatedAt": "2023-07-03T04:42:26.313Z",
+      "databaseEntryUpdatedAt": "2023-07-03T16:44:20.972Z",
       "repoVariations": [],
       "viewCount": 128,
       "weeklyViewCount": 11,
@@ -1083,18 +1083,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.0/xen.NewHorizons.zip",
-      "downloadCount": 26601,
-      "latestReleaseDate": "2023-07-01T16:06:03Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.1/xen.NewHorizons.zip",
+      "downloadCount": 26603,
+      "latestReleaseDate": "2023-07-03T16:37:09Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.12.0",
+      "version": "v1.12.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "Forgot to bump manifest oops\r\n\r\n## Minor features\r\n- Added the Ember Twin Cairn variant (resolves #591)\r\n\r\n## Improvements\r\n- Orbs now function!\r\n- Renames the cairn NomaiTextType enums to what they actually are.\r\n\r\n## Bug fixes\r\n- Fixed fog in DLC location (had broken the Hazy Dreams addon) (Thanks Vio!)\r\n\r\n",
+      "latestReleaseDescription": "## Minor features\r\n- Starting popups can be shown multiple times using `repeatPopup` in the addon-manifest file #621\r\n\r\n## Improvements\r\n- Can now use `pathToAnimController` on a character dialogue to link it to a Hearthian recorder so that it's visual effects will be triggered during the dialogue (resolves #520)\r\n- Can now change the spawn point within the base game Hearthian system (resolves #567)\r\n- Added a 5 second delay to warp transmitters after you come back through the return pad. Means 360 degree alignment target actually works when returning through it instead of sending you straight back. (resolves #563)\r\n- Only signal frequencies in use by the current system will be shown. (resolves #572)\r\n\r\n## Bug fixes\r\n- Fixed spawning on tidally locked planets (resolves #505)\r\n- Fixed vanilla objects being given labels (OPC, QM, SS) #623\r\n- Fixed solar flare tint not matching star colour #616\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/620**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-07-03T16:26:12Z",
-      "databaseEntryUpdatedAt": "2023-07-03T16:29:49.225Z",
+      "repoUpdatedAt": "2023-07-03T16:40:28Z",
+      "databaseEntryUpdatedAt": "2023-07-03T16:44:22.885Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -7513,7 +7513,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.1.1/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 1043,
+      "downloadCount": 1051,
       "latestReleaseDate": "2023-06-28T12:36:49Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7532,7 +7532,7 @@
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-28T15:19:18Z",
-      "databaseEntryUpdatedAt": "2023-07-03T04:42:26.175Z",
+      "databaseEntryUpdatedAt": "2023-07-03T16:44:20.972Z",
       "repoVariations": [],
       "viewCount": 14,
       "weeklyViewCount": 14,
