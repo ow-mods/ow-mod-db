@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 127541
+    "downloadCount": 127544
   },
   "releases": [
     {
@@ -90,7 +90,7 @@
       "description": "Outer Wilds online multiplayer mod, using Mirror and OWML.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.28.3/QSB.zip",
-      "downloadCount": 32029,
+      "downloadCount": 32036,
       "latestReleaseDate": "2023-06-25T14:10:50Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -116,7 +116,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-07-04T04:08:02Z",
-      "databaseEntryUpdatedAt": "2023-07-04T04:13:57.135Z",
+      "databaseEntryUpdatedAt": "2023-07-04T16:29:46.374Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies"
       ],
@@ -6610,18 +6610,18 @@
       "description": "A Nomai wall in the Timber Hearth Observatory speaks of a strange Nomai spacecraft.",
       "author": "Hawkbat",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam/releases/download/0.3.0/Hawkbar.ArcanumAdrift.zip",
+      "downloadUrl": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam/releases/download/0.3.1/Hawkbar.ArcanumAdrift.zip",
       "downloadCount": 779,
-      "latestReleaseDate": "2023-01-23T05:11:17Z",
+      "latestReleaseDate": "2023-07-04T16:12:53Z",
       "firstReleaseDate": "2023-01-22T02:49:47Z",
       "repo": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "readme": {
         "htmlUrl": "https://github.com/Hawkbat/ow-wrong-warp-nh-jam/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/ow-wrong-warp-nh-jam/main/README.md"
       },
       "authorDisplay": "The Wrong Warp Team",
-      "latestReleaseDescription": "- Added animations to the various gears\r\n- Added a ceiling window to the entry corridor\r\n- Fixed a geometry collision issue",
+      "latestReleaseDescription": "## What's Changed\r\n* First post-jam update\r\n* Japanese translation by @TRSasasusu\r\n* Put the floor back on in later parts of the mod\r\n* Minor animation tweaks\r\n\r\n**Full Changelog**: https://github.com/Hawkbat/ow-wrong-warp-nh-jam/compare/0.3.0...0.3.1",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6632,8 +6632,8 @@
       "thumbnail": {
         "main": "arcanumadrift.webp"
       },
-      "repoUpdatedAt": "2023-07-04T15:27:41Z",
-      "databaseEntryUpdatedAt": "2023-07-04T15:32:17.552Z",
+      "repoUpdatedAt": "2023-07-04T16:16:10Z",
+      "databaseEntryUpdatedAt": "2023-07-04T16:29:42.882Z",
       "repoVariations": [],
       "viewCount": 75,
       "weeklyViewCount": 12,
