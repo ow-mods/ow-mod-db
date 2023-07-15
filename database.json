@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 128994
+    "downloadCount": 128998
   },
   "releases": [
     {
@@ -6239,17 +6239,17 @@
       "description": "A port of https://github.com/xiaoxiao921/FixPluginTypesSerialization for Outer Wilds",
       "author": "JohnCorby",
       "utility": true,
-      "downloadUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/releases/download/1.0.1/JohnCorby.OWFixPluginTypesSerialization.zip",
+      "downloadUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/releases/download/1.0.2/JohnCorby.OWFixPluginTypesSerialization.zip",
       "downloadCount": 83,
-      "latestReleaseDate": "2023-02-18T21:57:50Z",
+      "latestReleaseDate": "2023-07-15T06:17:42Z",
       "firstReleaseDate": "2023-01-07T19:23:53Z",
       "repo": "https://github.com/JohnCorby/OWFixPluginTypesSerialization",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "readme": {
         "htmlUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/OWFixPluginTypesSerialization/master/README.md"
       },
-      "latestReleaseDescription": "Fix a very silly bug, don't worry about it ;)",
+      "latestReleaseDescription": "Add warning on startup so people will properly disable the mod hopefully (also linux support guide)",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6258,8 +6258,8 @@
       "thumbnail": {
         "main": "owfixplugintypesserialization.webp"
       },
-      "repoUpdatedAt": "2023-07-15T01:31:26Z",
-      "databaseEntryUpdatedAt": "2023-07-15T02:02:34.289Z",
+      "repoUpdatedAt": "2023-07-15T06:18:15Z",
+      "databaseEntryUpdatedAt": "2023-07-15T06:26:42.257Z",
       "repoVariations": [],
       "viewCount": 1,
       "weeklyViewCount": 1,
