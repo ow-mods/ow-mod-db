@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 129208
+    "downloadCount": 129211
   },
   "releases": [
     {
@@ -1083,18 +1083,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.3/xen.NewHorizons.zip",
-      "downloadCount": 27347,
-      "latestReleaseDate": "2023-07-16T14:49:32Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.2/xen.NewHorizons.zip",
+      "downloadCount": 27340,
+      "latestReleaseDate": "2023-07-14T02:37:42Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.12.3",
+      "version": "v1.12.2",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n- Fixes dying on spawn in Evacuation\r\n- Fixes the player seeing objects loading out when changing star system\r\n- Fixes a NRE on reload without the Stranger\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/639**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fix softlock affecting The Machine due to a secret hidden slide reel that destroyed everything (thanks Damian for finding this)\r\n- More than one cloak can now work at a time, and it only took me over a year (Fixes #108)\r\n- Stranger cloak will no longer appear in other systems (Fixes #600)\r\n- Fixed cloaks breaking if the planet has no ReferenceFrame enabled\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/631**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-07-16T14:52:59Z",
-      "databaseEntryUpdatedAt": "2023-07-16T15:13:30.931Z",
+      "repoUpdatedAt": "2023-07-16T15:48:39Z",
+      "databaseEntryUpdatedAt": "2023-07-16T15:51:08.638Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -8149,6 +8149,43 @@
       },
       "repoUpdatedAt": "2023-07-16T13:48:49Z",
       "databaseEntryUpdatedAt": "2023-07-16T13:51:55.434Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
+    },
+    {
+      "name": "Origins",
+      "uniqueName": "hearth1an.Origins",
+      "description": "Story mod about Dark Bramble lore made for modding july 2023 jam.",
+      "author": "hearth1an",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/hearth1an/Origins/releases/download/v1.0.0/hearth1an.Origins.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2023-07-16T15:39:10Z",
+      "firstReleaseDate": "2023-07-16T15:39:10Z",
+      "repo": "https://github.com/hearth1an/Origins",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/hearth1an/Origins/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/hearth1an/Origins/main/README.md"
+      },
+      "authorDisplay": "hearth1an",
+      "latestReleaseDescription": "New story mod for modding jam!",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "jam",
+        "content",
+        "story"
+      ],
+      "slug": "origins",
+      "thumbnail": {
+        "main": "origins.webp",
+        "openGraph": "origins-static.webp"
+      },
+      "repoUpdatedAt": "2023-07-16T15:41:15Z",
+      "databaseEntryUpdatedAt": "2023-07-16T15:51:08.878Z",
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
