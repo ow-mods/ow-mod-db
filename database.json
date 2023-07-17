@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 129271
+    "downloadCount": 129272
   },
   "releases": [
     {
@@ -1083,18 +1083,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.2/xen.NewHorizons.zip",
-      "downloadCount": 27392,
-      "latestReleaseDate": "2023-07-14T02:37:42Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.4/xen.NewHorizons.zip",
+      "downloadCount": 27398,
+      "latestReleaseDate": "2023-07-16T23:44:20Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.12.2",
+      "version": "v1.12.4",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n- Fix softlock affecting The Machine due to a secret hidden slide reel that destroyed everything (thanks Damian for finding this)\r\n- More than one cloak can now work at a time, and it only took me over a year (Fixes #108)\r\n- Stranger cloak will no longer appear in other systems (Fixes #600)\r\n- Fixed cloaks breaking if the planet has no ReferenceFrame enabled\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/631**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fixes dying on spawn in Evacuation\r\n- Fixes the player seeing objects loading out when changing star system\r\n- Fixes a NRE on reload without the Stranger\r\n- No longer get burned by the sun when spawning in (for real this time)\r\n\r\nThis time without introducing a bug that breaks systems with only a single planet! \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/642**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-07-17T00:13:40Z",
-      "databaseEntryUpdatedAt": "2023-07-17T01:54:09.233Z",
+      "repoUpdatedAt": "2023-07-17T03:19:44Z",
+      "databaseEntryUpdatedAt": "2023-07-17T03:34:26.648Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
