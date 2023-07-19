@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 129562
+    "downloadCount": 129564
   },
   "releases": [
     {
@@ -1083,18 +1083,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.4/xen.NewHorizons.zip",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.5/xen.NewHorizons.zip",
       "downloadCount": 27562,
-      "latestReleaseDate": "2023-07-16T23:44:20Z",
+      "latestReleaseDate": "2023-07-19T04:48:55Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.12.4",
+      "version": "v1.12.5",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n- Fixes dying on spawn in Evacuation\r\n- Fixes the player seeing objects loading out when changing star system\r\n- Fixes a NRE on reload without the Stranger\r\n- No longer get burned by the sun when spawning in (for real this time)\r\n\r\nThis time without introducing a bug that breaks systems with only a single planet! \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/642**",
+      "latestReleaseDescription": "## Minor features\r\n- Added `solarFlareSettings` to star where you can change the size, life length, and time between spawns of solar flares. Fixes #368, fixes #369.\r\n- Added `initialRotation` to orbit module. Fixes #360.\r\n- NH will no longer free the map view angle by default. If you want it in your star system, set `freeMapAngle` in the system config.\r\n- \"Returning to system\" autopilot behaviour now works in other star systems. Enable it using `returnToSolarSystemWhenTooFar` in the star system config. Off by default.\r\n- Add support for custom `fogColorRampTexture` (resolves #530)\r\n\r\n## Improvements\r\n- Bramble dimensions now support having gravity. Fixes #632.\r\n- Warp-drive system images can go in the `systems` folder now instead of in `planets`. Fixes #637.\r\n- Added `offset` to player and ship spawn positions. By default it moves them up by 4m to prevent clipping into the ground but this can be non ideal in cramped spawn locations.\r\n\r\n## Bug fixes\r\n- Will no longer show 2 debug prompts in certain mods. Fixes #643.\r\n- Stability between loops should be improved as coroutines are now cancelled when the scene unloads. If you were for some reason using the `Delay` class from inside NH for your mod and relying on it doing things between scenes, then what the hell is wrong with you.\r\n- Warp drive lock-on now overrides the \"returning to system\" autopilot. Fixes #649.\r\n- Fixed the map pan, zoom, and view distance to make sense for each system. Fixes #290.\r\n- Fixed scout/ship HUD markers being hidden if there were no cloaking fields in the system. Fixes #647. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/646**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-07-19T04:18:55Z",
-      "databaseEntryUpdatedAt": "2023-07-19T04:28:40.525Z",
+      "repoUpdatedAt": "2023-07-19T04:49:30Z",
+      "databaseEntryUpdatedAt": "2023-07-19T04:55:46.229Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
