@@ -1083,18 +1083,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.5/xen.NewHorizons.zip",
-      "downloadCount": 27684,
-      "latestReleaseDate": "2023-07-19T04:48:55Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.6/xen.NewHorizons.zip",
+      "downloadCount": 27704,
+      "latestReleaseDate": "2023-07-20T22:39:27Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.12.5",
+      "version": "v1.12.6",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- Added `solarFlareSettings` to star where you can change the size, life length, and time between spawns of solar flares. Fixes #368, fixes #369.\r\n- Added `initialRotation` to orbit module. Fixes #360.\r\n- NH will no longer free the map view angle by default. If you want it in your star system, set `freeMapAngle` in the system config.\r\n- \"Returning to system\" autopilot behaviour now works in other star systems. Enable it using `returnToSolarSystemWhenTooFar` in the star system config. Off by default.\r\n- Add support for custom `fogColorRampTexture` (resolves #530)\r\n\r\n## Improvements\r\n- Bramble dimensions now support having gravity. Fixes #632.\r\n- Warp-drive system images can go in the `systems` folder now instead of in `planets`. Fixes #637.\r\n- Added `offset` to player and ship spawn positions. By default it moves them up by 4m to prevent clipping into the ground but this can be non ideal in cramped spawn locations.\r\n\r\n## Bug fixes\r\n- Will no longer show 2 debug prompts in certain mods. Fixes #643.\r\n- Stability between loops should be improved as coroutines are now cancelled when the scene unloads. If you were for some reason using the `Delay` class from inside NH for your mod and relying on it doing things between scenes, then what the hell is wrong with you.\r\n- Warp drive lock-on now overrides the \"returning to system\" autopilot. Fixes #649.\r\n- Fixed the map pan, zoom, and view distance to make sense for each system. Fixes #290.\r\n- Fixed scout/ship HUD markers being hidden if there were no cloaking fields in the system. Fixes #647. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/646**",
+      "latestReleaseDescription": "## Minor features\r\n- Added `activationCondition` and `deactivationCondition` to details, allowing them to be enabled/disabled depending on a dialogue condition. Resolves #482.\r\n- Can now create empty game objects by having a prop detail without a path.\r\n- Added new day/night audio volume. Switches between two clips depending on the time of day. Resolves #319.\r\n\r\n## Improvements\r\n- If the `path` for a detail is empty it will create an empty game object now. This can be useful for adding other props to it as its children.\r\n\r\n## Bug fixes\r\n- Black hole vanish effects now tied to the size of the black hole. Fixes #215.\r\n- Black hole ambience pitch isn't weirdly high for large black holes anymore. Fixes #226.\r\n- Change system black holes now make a sound when entering them.\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/655**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-07-20T14:58:32Z",
-      "databaseEntryUpdatedAt": "2023-07-20T15:21:20.620Z",
+      "repoUpdatedAt": "2023-07-20T22:41:57Z",
+      "databaseEntryUpdatedAt": "2023-07-20T22:44:09.176Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -7513,7 +7513,7 @@
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
       "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.1.3/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 1408,
+      "downloadCount": 1427,
       "latestReleaseDate": "2023-07-20T10:32:52Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
@@ -7532,7 +7532,7 @@
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
       "repoUpdatedAt": "2023-07-20T10:38:07Z",
-      "databaseEntryUpdatedAt": "2023-07-20T10:42:25.060Z",
+      "databaseEntryUpdatedAt": "2023-07-20T22:43:59.484Z",
       "repoVariations": [],
       "viewCount": 137,
       "weeklyViewCount": 49,
