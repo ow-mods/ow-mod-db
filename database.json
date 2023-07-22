@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.17.2/OuterWildsModManager-Installer.exe",
-    "downloadCount": 129771
+    "downloadCount": 129772
   },
   "releases": [
     {
@@ -1083,18 +1083,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.6/xen.NewHorizons.zip",
-      "downloadCount": 27821,
-      "latestReleaseDate": "2023-07-20T22:39:27Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.12.7/xen.NewHorizons.zip",
+      "downloadCount": 27822,
+      "latestReleaseDate": "2023-07-22T05:46:03Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.12.6",
+      "version": "v1.12.7",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- Added `activationCondition` and `deactivationCondition` to details, allowing them to be enabled/disabled depending on a dialogue condition. Resolves #482.\r\n- Can now create empty game objects by having a prop detail without a path.\r\n- Added new day/night audio volume. Switches between two clips depending on the time of day. Resolves #319.\r\n\r\n## Improvements\r\n- If the `path` for a detail is empty it will create an empty game object now. This can be useful for adding other props to it as its children.\r\n\r\n## Bug fixes\r\n- Black hole vanish effects now tied to the size of the black hole. Fixes #215.\r\n- Black hole ambience pitch isn't weirdly high for large black holes anymore. Fixes #226.\r\n- Change system black holes now make a sound when entering them.\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/655**",
+      "latestReleaseDescription": "## Minor features\r\n- Allow setting hazard type and damage per second, as well as first contact damage, for tornados and hurricanes. Resolves #496 \r\n\r\n## Improvements\r\n- Throw errors when attempting to make a signal without a frequency or name. Resolves #660.\r\n\r\n## Bug fixes\r\n- Supernovae are no longer silent. Fixes #522.\r\n- Supernovae proxies will no longer explode on top of you.\r\n- Lightning now appears properly on top of basic clouds. Fixes #321.\r\n- Bramble music won't play if in another audio volume. Fixes #651.\r\n- Fix QM clouds defaulting to GD fog when not given a tint. Fixes #182.\r\n- Makes creating empty details actually work\r\n- Fixed suit up again #333 \r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/658**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-07-22T05:43:45Z",
-      "databaseEntryUpdatedAt": "2023-07-22T05:46:23.470Z",
+      "repoUpdatedAt": "2023-07-22T05:54:41Z",
+      "databaseEntryUpdatedAt": "2023-07-22T05:59:05.974Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -2352,7 +2352,7 @@
       "description": "The mod's not yet finished. All characters are fully voiced, but the files are currently being mixed to improve their quality and add environmental effects.",
       "author": "Krevace",
       "downloadUrl": "https://github.com/Krevace/ow-voice-mod/releases/download/0.4.2/Krevace.VoiceMod.zip",
-      "downloadCount": 4775,
+      "downloadCount": 4782,
       "latestReleaseDate": "2022-12-08T20:58:57Z",
       "firstReleaseDate": "2022-04-08T00:40:29Z",
       "repo": "https://github.com/Krevace/ow-voice-mod",
@@ -2372,7 +2372,7 @@
         "main": "voiceactingmod.webp"
       },
       "repoUpdatedAt": "2023-05-26T08:25:43Z",
-      "databaseEntryUpdatedAt": "2023-07-21T17:53:13.817Z",
+      "databaseEntryUpdatedAt": "2023-07-22T05:58:55.965Z",
       "repoVariations": [],
       "viewCount": 229,
       "weeklyViewCount": 72,
@@ -8325,7 +8325,7 @@
       "slug": "owaml",
       "thumbnail": {},
       "repoUpdatedAt": "2023-07-09T23:47:49Z",
-      "databaseEntryUpdatedAt": "2023-07-21T17:53:34.461Z",
+      "databaseEntryUpdatedAt": "2023-07-22T05:59:15.573Z",
       "repoVariations": [
         "https://github.com/ShoosGun/OWAML",
         "https://github.com/loco-choco/OWAML"
