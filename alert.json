@@ -1,4 +1,5 @@
 {
-  "enabled": false,
+  "$comment": "This alert json is only used for the legacy mod manager. The new mod manager uses alert-v2.json instead",
+  "enabled": true,
   "message": "This version of the mod manager is not maintained anymore. Get the new manager: https://outerwildsmods.com/mod-manager"
 }
