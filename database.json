@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 130674
+    "downloadCount": 130676
   },
   "releases": [
     {
@@ -14,18 +14,18 @@
       "author": "ow-mods",
       "required": true,
       "utility": true,
-      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.3/OWML.zip",
-      "downloadCount": 106844,
-      "latestReleaseDate": "2023-07-03T20:32:03Z",
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.4/OWML.zip",
+      "downloadCount": 106848,
+      "latestReleaseDate": "2023-07-29T18:26:36Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
-      "version": "2.9.3",
+      "version": "2.9.4",
       "readme": {
         "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "- The mod list is now pre-sorted by the unique name, so mods with the same dependents (addons) will be loaded in the same order every time.\r\n- Mod APIs now support generic parameters.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2023-07-29T18:09:43Z",
-      "databaseEntryUpdatedAt": "2023-07-29T18:23:13.862Z",
+      "repoUpdatedAt": "2023-07-29T18:34:16Z",
+      "databaseEntryUpdatedAt": "2023-07-29T18:35:34.039Z",
       "repoVariations": [],
       "viewCount": 1363,
       "weeklyViewCount": 257,
@@ -8221,7 +8221,7 @@
         "main": "tesseractssecret.webp"
       },
       "repoUpdatedAt": "2023-07-21T16:58:04Z",
-      "databaseEntryUpdatedAt": "2023-07-29T06:34:53.366Z",
+      "databaseEntryUpdatedAt": "2023-07-29T18:35:26.225Z",
       "repoVariations": [],
       "viewCount": 195,
       "weeklyViewCount": 118,
