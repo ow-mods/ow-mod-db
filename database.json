@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 130765
+    "downloadCount": 130766
   },
   "releases": [
     {
@@ -8298,6 +8298,40 @@
       "weeklyViewCount": 15,
       "installCount": 4,
       "weeklyInstallCount": 4
+    },
+    {
+      "name": "Outer Wives",
+      "uniqueName": "Raicuparta.OuterWives",
+      "description": "An Outer Wilds Dating Sim. Talk to your favorite character to get started.",
+      "author": "Raicuparta",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/Raicuparta/outer-wives/releases/download/v0.1.0/Raicuparta.OuterWives.zip",
+      "downloadCount": 1,
+      "latestReleaseDate": "2023-07-30T16:25:55Z",
+      "firstReleaseDate": "2023-07-30T16:25:55Z",
+      "repo": "https://github.com/Raicuparta/outer-wives",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Raicuparta/outer-wives/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/outer-wives/main/README.md"
+      },
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay",
+        "content"
+      ],
+      "slug": "outerwives",
+      "thumbnail": {
+        "main": "outerwives.webp"
+      },
+      "repoUpdatedAt": "2023-07-30T16:47:39Z",
+      "databaseEntryUpdatedAt": "2023-07-30T16:49:21.070Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
