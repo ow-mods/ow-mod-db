@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 130869
+    "downloadCount": 130870
   },
   "releases": [
     {
@@ -8271,18 +8271,18 @@
       "description": "Adds player skins to Quantum Space Buddies",
       "author": "xen-42",
       "parent": "Raicuparta.QuantumSpaceBuddies",
-      "downloadUrl": "https://github.com/xen-42/ow-qsb-skins/releases/download/v0.1.0/xen.QSBSkins.zip",
-      "downloadCount": 16,
-      "latestReleaseDate": "2023-07-29T18:42:37Z",
+      "downloadUrl": "https://github.com/xen-42/ow-qsb-skins/releases/download/v0.2.0/xen.QSBSkins.zip",
+      "downloadCount": 17,
+      "latestReleaseDate": "2023-07-31T22:14:22Z",
       "firstReleaseDate": "2023-07-29T18:42:37Z",
       "repo": "https://github.com/xen-42/ow-qsb-skins",
-      "version": "v0.1.0",
+      "version": "v0.2.0",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-qsb-skins/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-qsb-skins/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "Initial release with Chert, Gabbro, and Feldspar as available suited skins",
+      "latestReleaseDescription": "- Mod now uses the QSB API for messaging\r\n- Will no longer be disconnected from a server if the host doesn't have the mod, and users without the mod are not able to connect to you.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -8291,8 +8291,8 @@
       "thumbnail": {
         "main": "skinsforqsb.webp"
       },
-      "repoUpdatedAt": "2023-07-31T22:12:37Z",
-      "databaseEntryUpdatedAt": "2023-07-31T22:22:04.892Z",
+      "repoUpdatedAt": "2023-07-31T22:59:44Z",
+      "databaseEntryUpdatedAt": "2023-07-31T23:00:34.463Z",
       "repoVariations": [],
       "viewCount": 33,
       "weeklyViewCount": 33,
