@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 130861
+    "downloadCount": 130863
   },
   "releases": [
     {
@@ -89,18 +89,18 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Quantum Space Buddies (QSB) is a multiplayer mod for Outer Wilds.",
       "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/v0.29.1/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 33691,
-      "latestReleaseDate": "2023-07-28T00:09:10Z",
+      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/v0.30.0/Raicuparta.QuantumSpaceBuddies.zip",
+      "downloadCount": 33693,
+      "latestReleaseDate": "2023-07-31T21:14:12Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
-      "version": "v0.29.1",
+      "version": "v0.30.0",
       "readme": {
         "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Fixed multiple issues with kicking players.\r\n- Reverted some New Horizons compatibility changes, to try to resolve some other connection bugs. Sorry Xen :(\r\n- Made more things public for addons.\r\n- Updated package/dependency versions.\r\n- Updated README and added separate document for development.\r\n",
+      "latestReleaseDescription": "- Implemented API\r\n  - Can use PlayerInfo's CustomData methods from the API\r\n  - Can send messages with custom data from the API\r\n- Increased text chat character limit to 256\r\n- Added method `QSBCore.RegisterNotRequiredForAllPlayers` for registering \"cosmetic\" addons (addons that don't send any networking data)\r\n- Removed check for NH compatibility addon.\r\n- Made every internal class public.\r\n- Added API test mod.\r\n- Update OWML version.\r\n- Cleanup of DebugLog.",
       "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
@@ -115,8 +115,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-07-31T21:00:54Z",
-      "databaseEntryUpdatedAt": "2023-07-31T21:09:04.124Z",
+      "repoUpdatedAt": "2023-07-31T21:19:37Z",
+      "databaseEntryUpdatedAt": "2023-07-31T21:22:52.981Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies"
       ],
@@ -6718,7 +6718,7 @@
       "author": "CantAffordaName",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.Archipelago/releases/download/v1.0.0-FixedRelease/CantAffordaName.Archipelago.zip",
-      "downloadCount": 396,
+      "downloadCount": 397,
       "latestReleaseDate": "2023-01-23T17:04:35Z",
       "firstReleaseDate": "2023-01-23T17:04:35Z",
       "repo": "https://github.com/CantAffordaName/CantAffordaName.Archipelago",
@@ -6740,7 +6740,7 @@
         "main": "archipelago.webp"
       },
       "repoUpdatedAt": "2023-06-16T17:15:01Z",
-      "databaseEntryUpdatedAt": "2023-07-31T09:09:03.956Z",
+      "databaseEntryUpdatedAt": "2023-07-31T21:22:42.216Z",
       "repoVariations": [],
       "viewCount": 24,
       "weeklyViewCount": 4,
@@ -7675,7 +7675,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.2.3/O32.UnnamedMystery.zip",
-      "downloadCount": 830,
+      "downloadCount": 835,
       "latestReleaseDate": "2023-07-20T06:17:23Z",
       "firstReleaseDate": "2023-06-05T04:01:15Z",
       "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
@@ -7696,7 +7696,7 @@
         "main": "unnamedmystery.webp"
       },
       "repoUpdatedAt": "2023-07-20T06:20:37Z",
-      "databaseEntryUpdatedAt": "2023-07-31T09:09:12.545Z",
+      "databaseEntryUpdatedAt": "2023-07-31T21:22:42.693Z",
       "repoVariations": [],
       "viewCount": 320,
       "weeklyViewCount": 69,
