@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 131008
+    "downloadCount": 131011
   },
   "releases": [
     {
@@ -90,7 +90,7 @@
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/v0.30.1/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 33864,
+      "downloadCount": 33870,
       "latestReleaseDate": "2023-07-31T23:26:02Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
@@ -115,8 +115,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-08-02T19:38:23Z",
-      "databaseEntryUpdatedAt": "2023-08-02T19:50:09.153Z",
+      "repoUpdatedAt": "2023-08-02T20:31:03Z",
+      "databaseEntryUpdatedAt": "2023-08-02T20:36:19.476Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies"
       ],
@@ -1084,7 +1084,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.13.0/xen.NewHorizons.zip",
-      "downloadCount": 28728,
+      "downloadCount": 28755,
       "latestReleaseDate": "2023-07-27T04:28:10Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1106,7 +1106,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2023-07-28T19:02:21Z",
-      "databaseEntryUpdatedAt": "2023-08-02T08:24:10.820Z",
+      "databaseEntryUpdatedAt": "2023-08-02T20:36:19.477Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -7667,41 +7667,6 @@
       "weeklyViewCount": 7,
       "installCount": 19,
       "weeklyInstallCount": 1
-    },
-    {
-      "name": "Unnamed Mystery",
-      "uniqueName": "O32.UnnamedMystery",
-      "description": "Unnamed Mystery is a fairly large story mod (by NH definition), striving to create an experience with similar impact to the base game. Available in English, French, and Simplified Chinese.",
-      "author": "RealOrbital32",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.2.3/O32.UnnamedMystery.zip",
-      "downloadCount": 841,
-      "latestReleaseDate": "2023-07-20T06:17:23Z",
-      "firstReleaseDate": "2023-06-05T04:01:15Z",
-      "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
-      "version": "1.2.3",
-      "readme": {
-        "htmlUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Unnamed-Mystery/main/README.md"
-      },
-      "authorDisplay": "Orbital 32 (a.k.a. cigtu), ItsKan, and others",
-      "latestReleaseDescription": "General changes:\r\n- A \"coming soon\" for Helioraxia's core\r\n- Ship log changes. Some color switches too.\r\n\r\nVoice Mod changes:\r\n- Sound effects in places where they didn't exist\r\n- Nylox no longer stutters his words",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "content",
-        "story"
-      ],
-      "slug": "unnamedmystery",
-      "thumbnail": {
-        "main": "unnamedmystery.webp"
-      },
-      "repoUpdatedAt": "2023-07-20T06:20:37Z",
-      "databaseEntryUpdatedAt": "2023-08-02T09:46:52.089Z",
-      "repoVariations": [],
-      "viewCount": 322,
-      "weeklyViewCount": 73,
-      "installCount": 135,
-      "weeklyInstallCount": 29
     },
     {
       "name": "The Hatchling's Journal",
