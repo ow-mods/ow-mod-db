@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 131186
+    "downloadCount": 131188
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.5/OWML.zip",
-      "downloadCount": 107920,
+      "downloadCount": 108036,
       "latestReleaseDate": "2023-07-30T20:21:16Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-07-30T20:21:15Z",
-      "databaseEntryUpdatedAt": "2023-08-04T09:54:58.001Z",
+      "databaseEntryUpdatedAt": "2023-08-04T22:14:33.632Z",
       "repoVariations": [],
       "viewCount": 1503,
       "weeklyViewCount": 356,
@@ -8305,17 +8305,17 @@
       "description": "An Outer Wilds Dating Sim. Talk to your favorite character to get started.",
       "author": "Raicuparta",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Raicuparta/outer-wives/releases/download/v0.2.3/Raicuparta.OuterWives.zip",
+      "downloadUrl": "https://github.com/Raicuparta/outer-wives/releases/download/v0.2.4/Raicuparta.OuterWives.zip",
       "downloadCount": 79,
-      "latestReleaseDate": "2023-08-03T09:18:50Z",
+      "latestReleaseDate": "2023-08-04T22:06:19Z",
       "firstReleaseDate": "2023-07-30T16:25:55Z",
       "repo": "https://github.com/Raicuparta/outer-wives",
-      "version": "v0.2.3",
+      "version": "v0.2.4",
       "readme": {
         "htmlUrl": "https://github.com/Raicuparta/outer-wives/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/outer-wives/main/README.md"
       },
-      "latestReleaseDescription": "Fix compatibility with NomaiVR, by allowing the player to unequip the probe launcher while keeping a reference to the people photographed (even though the picture itself was discarded). Only happens if NomaiVR is enabled.",
+      "latestReleaseDescription": "Prevent idiot dumb wives from accepting every stone without checking if it's the one they wanted",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -8325,8 +8325,8 @@
       "thumbnail": {
         "main": "outerwives.webp"
       },
-      "repoUpdatedAt": "2023-08-03T09:29:23Z",
-      "databaseEntryUpdatedAt": "2023-08-04T21:55:43.297Z",
+      "repoUpdatedAt": "2023-08-04T22:08:01Z",
+      "databaseEntryUpdatedAt": "2023-08-04T22:14:27.171Z",
       "repoVariations": [],
       "viewCount": 230,
       "weeklyViewCount": 230,
