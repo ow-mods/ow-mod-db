@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 131449
+    "downloadCount": 131450
   },
   "releases": [
     {
@@ -427,7 +427,7 @@
       "description": "Allows using some commands from Debug Mode and adds other functions as well.",
       "author": "glitchewski",
       "downloadUrl": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu/releases/download/0.5.3/Glitch.CheatAndDebugMenu.zip",
-      "downloadCount": 3857,
+      "downloadCount": 3858,
       "latestReleaseDate": "2021-10-25T06:38:12Z",
       "firstReleaseDate": "2021-10-12T21:02:20Z",
       "repo": "https://github.com/glitchewski/OWML.Glitch.CheatAndDebugMenu",
@@ -444,7 +444,7 @@
       "slug": "cheatanddebugmenu",
       "thumbnail": {},
       "repoUpdatedAt": "2023-07-15T17:00:40Z",
-      "databaseEntryUpdatedAt": "2023-08-07T11:29:52.583Z",
+      "databaseEntryUpdatedAt": "2023-08-07T23:36:48.239Z",
       "repoVariations": [],
       "viewCount": 271,
       "weeklyViewCount": 58,
@@ -7576,7 +7576,7 @@
       "author": "bismuthdistrict",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem/releases/download/publish/bismuthdistrict.9YearOldSystem.zip",
-      "downloadCount": 257,
+      "downloadCount": 258,
       "latestReleaseDate": "2023-04-22T02:44:00Z",
       "firstReleaseDate": "2023-04-22T02:44:00Z",
       "repo": "https://github.com/bismuthdistrict/bismuthdistrict.9YearOldSystem",
@@ -7594,7 +7594,7 @@
       "slug": "9yearoldsystem",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-22T02:46:02Z",
-      "databaseEntryUpdatedAt": "2023-08-07T11:29:52.082Z",
+      "databaseEntryUpdatedAt": "2023-08-07T23:36:47.690Z",
       "repoVariations": [],
       "viewCount": 25,
       "weeklyViewCount": 8,
@@ -8092,7 +8092,7 @@
       "downloadCount": 225,
       "latestReleaseDate": "2023-07-19T23:56:22Z",
       "firstReleaseDate": "2023-07-16T06:20:35Z",
-      "repo": "https://github.com/GameWyrm/OuterWildsSummerJam",
+      "repo": "https://github.com/GameWyrm/HearthsNeighbor",
       "version": "v1.0.1",
       "readme": {
         "htmlUrl": "https://github.com/GameWyrm/HearthsNeighbor/blob/main/README.md",
@@ -8114,7 +8114,9 @@
       },
       "repoUpdatedAt": "2023-08-07T22:45:42Z",
       "databaseEntryUpdatedAt": "2023-08-07T22:54:24.913Z",
-      "repoVariations": [],
+      "repoVariations": [
+        "https://github.com/GameWyrm/OuterWildsSummerJam"
+      ],
       "viewCount": 349,
       "weeklyViewCount": 102,
       "installCount": 161,
