@@ -1083,18 +1083,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.13.0/xen.NewHorizons.zip",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.14.0/xen.NewHorizons.zip",
       "downloadCount": 29117,
-      "latestReleaseDate": "2023-07-27T04:28:10Z",
+      "latestReleaseDate": "2023-08-08T04:42:33Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.13.0",
+      "version": "v1.14.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- New API methods to: Add ship logs from xml, add dialogue from xml, create a new planet from json string. All of these methods work directly with strings or XElements and don't load files on their own.\r\n\r\n## Improvements\r\n- Pitch anglerfish sounds based on scale. Resolves #160.\r\n\r\n## Bug fixes\r\n- Fixes ship being broken when spawning on the center of the universe. Resolves #648\r\n- Fix Stranger cloak breaking on second loop onwards. Resolves #673.",
+      "latestReleaseDescription": "## Major features\r\n- Implement Nomai shuttles and gravity cannons. The gravity cannon also takes a position for a computer displaying where the shuttle is currently landed, and a position for the gravity cannon controls. Shuttles are linked to gravity cannons using the `id` and `shuttleID` parameters.\r\n- Added a `CreateNomaiText` method to the API that allows you to directly write Nomai text without loading from an external xml file.\r\n\r\n## Improvements\r\n- Load times are now faster when going to a new star system.\r\n\r\n## Bug fixes\r\n- Fix Nomai mask being coloured weird sometimes (let center of the universe die)\r\n- Make clearing `default system` options setting actually reset it\r\n- Details preserve sectors better. This means you can set up subsectors in your own bundles and they should work.\r\n- Shadows glitch out way less\r\n  - Custom planets now can have better, longer shadows (using ProxyShadowCaster and ProxyShadowCasterGroup from existing details and in bundles)\r\n  - Shadows no longer jitter\r\n  - Note: short-distance shadows still cast from planets behind suns. However, this also happens in vanilla, so it is not fixed here \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/684**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-08-08T04:40:30Z",
-      "databaseEntryUpdatedAt": "2023-08-08T04:42:25.969Z",
+      "repoUpdatedAt": "2023-08-08T04:56:08Z",
+      "databaseEntryUpdatedAt": "2023-08-08T04:58:20.353Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
