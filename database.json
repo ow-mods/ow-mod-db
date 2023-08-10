@@ -6239,17 +6239,17 @@
       "description": "A port of https://github.com/xiaoxiao921/FixPluginTypesSerialization for Outer Wilds. Linux users: read the README",
       "author": "JohnCorby",
       "utility": true,
-      "downloadUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/releases/download/1.0.4/JohnCorby.OWFixPluginTypesSerialization.zip",
-      "downloadCount": 249,
-      "latestReleaseDate": "2023-07-23T05:53:11Z",
+      "downloadUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/releases/download/v1.0.6/JohnCorby.OWFixPluginTypesSerialization.zip",
+      "downloadCount": 253,
+      "latestReleaseDate": "2023-08-10T02:37:31Z",
       "firstReleaseDate": "2023-01-07T19:23:53Z",
       "repo": "https://github.com/JohnCorby/OWFixPluginTypesSerialization",
-      "version": "1.0.4",
+      "version": "v1.0.6",
       "readme": {
         "htmlUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/OWFixPluginTypesSerialization/master/README.md"
       },
-      "latestReleaseDescription": "Okay now it ACTUALLY doesn't explode.\r\n\r\nAnd also yells at you if you don't run the game via the manager, instead of exploding and having no mods run.\r\n(You need to run the game thru the manager or else this mod doesn't get installed properly.)",
+      "latestReleaseDescription": "Only load dlls from mods that depend on OWFixPluginTypesSerialization. this should fix the issue with nh and qsb addons where people include a stripped or older version of nh or qsb that gets loaded instead of the proper mod.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -6258,8 +6258,8 @@
       "thumbnail": {
         "main": "owfixplugintypesserialization.webp"
       },
-      "repoUpdatedAt": "2023-07-28T07:15:41Z",
-      "databaseEntryUpdatedAt": "2023-08-09T23:24:53.432Z",
+      "repoUpdatedAt": "2023-08-10T02:39:27Z",
+      "databaseEntryUpdatedAt": "2023-08-10T02:44:17.106Z",
       "repoVariations": [],
       "viewCount": 21,
       "weeklyViewCount": 1,
