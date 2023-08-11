@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 131711
+    "downloadCount": 131713
   },
   "releases": [
     {
@@ -1083,18 +1083,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.14.0/xen.NewHorizons.zip",
-      "downloadCount": 29452,
-      "latestReleaseDate": "2023-08-08T04:42:33Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.14.1/xen.NewHorizons.zip",
+      "downloadCount": 29455,
+      "latestReleaseDate": "2023-08-11T20:55:37Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.14.0",
+      "version": "v1.14.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- Implement Nomai shuttles and gravity cannons. The gravity cannon also takes a position for a computer displaying where the shuttle is currently landed, and a position for the gravity cannon controls. Shuttles are linked to gravity cannons using the `id` and `shuttleID` parameters.\r\n- Added a `CreateNomaiText` method to the API that allows you to directly write Nomai text without loading from an external xml file.\r\n\r\n## Improvements\r\n- Load times are now faster when going to a new star system.\r\n\r\n## Bug fixes\r\n- Fix Nomai mask being coloured weird sometimes (let center of the universe die)\r\n- Make clearing `default system` options setting actually reset it\r\n- Details preserve sectors better. This means you can set up subsectors in your own bundles and they should work.\r\n- Shadows glitch out way less\r\n  - Custom planets now can have better, longer shadows (using ProxyShadowCaster and ProxyShadowCasterGroup from existing details and in bundles)\r\n  - Shadows no longer jitter\r\n  - Note: short-distance shadows still cast from planets behind suns. However, this also happens in vanilla, so it is not fixed here \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/684**",
+      "latestReleaseDescription": "## Minor features\r\n- Add option to freeze a physics detail until its touched. Good for things in zero G, to avoid them drifting away before the player can interact with them.\r\n- `AddPhysics` on `Base` module for planets allows a planet to be pushed out of orbit. Intended for satellites or small props floating in orbit. Implements #194\r\n\r\n## Bug Fixes\r\n- Fix default system override being unreliable #687 \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/690**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1105,8 +1105,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-08-11T20:53:07Z",
-      "databaseEntryUpdatedAt": "2023-08-11T20:58:07.005Z",
+      "repoUpdatedAt": "2023-08-11T21:13:18Z",
+      "databaseEntryUpdatedAt": "2023-08-11T21:16:32.993Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -2832,7 +2832,7 @@
       "description": "The dam on the stranger will no longer break!!",
       "author": "LikeMauro",
       "downloadUrl": "https://github.com/LikeMauro/NoDamBreak-Mod/releases/download/0.1.1/likemauro.nodambreak.zip",
-      "downloadCount": 431,
+      "downloadCount": 432,
       "latestReleaseDate": "2022-04-28T14:36:09Z",
       "firstReleaseDate": "2022-04-23T15:01:04Z",
       "repo": "https://github.com/LikeMauro/NoDamBreak-Mod",
@@ -2851,7 +2851,7 @@
         "main": "nodambreak.webp"
       },
       "repoUpdatedAt": "2022-06-02T14:23:26Z",
-      "databaseEntryUpdatedAt": "2023-08-11T09:04:00.873Z",
+      "databaseEntryUpdatedAt": "2023-08-11T21:16:22.840Z",
       "repoVariations": [],
       "viewCount": 21,
       "weeklyViewCount": 8,
