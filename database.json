@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 132105
+    "downloadCount": 132107
   },
   "releases": [
     {
@@ -14,18 +14,18 @@
       "author": "ow-mods",
       "required": true,
       "utility": true,
-      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.5/OWML.zip",
-      "downloadCount": 110123,
-      "latestReleaseDate": "2023-07-30T20:21:16Z",
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.6/OWML.zip",
+      "downloadCount": 110125,
+      "latestReleaseDate": "2023-08-17T22:36:48Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
-      "version": "2.9.5",
+      "version": "2.9.6",
       "readme": {
         "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Improved API to make more parameters work. For example :\r\n  - `Action<int, T>` now works\r\n  - `Action<Action<int>, T>` should now work, if you want to commit a sin.\r\n  - `Action<Action<Action<int, T, Action<T>>, T>` should work, but only if you want to lose all your friends.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2023-08-17T22:03:21Z",
-      "databaseEntryUpdatedAt": "2023-08-17T22:16:06.662Z",
+      "repoUpdatedAt": "2023-08-17T22:36:47Z",
+      "databaseEntryUpdatedAt": "2023-08-17T22:41:57.378Z",
       "repoVariations": [],
       "viewCount": 1294,
       "weeklyViewCount": 377,
@@ -2851,7 +2851,7 @@
         "main": "nodambreak.webp"
       },
       "repoUpdatedAt": "2022-06-02T14:23:26Z",
-      "databaseEntryUpdatedAt": "2023-08-17T10:31:59.445Z",
+      "databaseEntryUpdatedAt": "2023-08-17T22:41:56.265Z",
       "repoVariations": [],
       "viewCount": 20,
       "weeklyViewCount": 5,
@@ -6434,7 +6434,7 @@
       "description": "A quite large story and puzzle mod that takes place on Dark Bramble.",
       "author": "StreetlightsBehindTheTrees",
       "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.0.6/SBtT.TheOutsider.zip",
-      "downloadCount": 5408,
+      "downloadCount": 5423,
       "latestReleaseDate": "2023-06-25T23:57:20Z",
       "firstReleaseDate": "2023-01-19T22:22:18Z",
       "repo": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
@@ -6455,7 +6455,7 @@
         "main": "theoutsider.webp"
       },
       "repoUpdatedAt": "2023-08-16T09:58:50Z",
-      "databaseEntryUpdatedAt": "2023-08-17T10:31:58.782Z",
+      "databaseEntryUpdatedAt": "2023-08-17T22:41:46.107Z",
       "repoVariations": [],
       "viewCount": 1425,
       "weeklyViewCount": 448,
