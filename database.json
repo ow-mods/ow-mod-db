@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 132113
+    "downloadCount": 132114
   },
   "releases": [
     {
@@ -1545,7 +1545,9 @@
         "content"
       ],
       "slug": "solarneighbourhood",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "solarneighbourhood.webp"
+      },
       "repoUpdatedAt": "2023-08-06T08:35:26Z",
       "databaseEntryUpdatedAt": "2023-08-18T02:38:23.686Z",
       "repoVariations": [],
@@ -4337,7 +4339,7 @@
       "author": "misternebula",
       "parent": "xen.AchievementTracker",
       "downloadUrl": "https://github.com/misternebula/cut-achievements/releases/download/1.0.0/CutAchievements.zip",
-      "downloadCount": 694,
+      "downloadCount": 696,
       "latestReleaseDate": "2022-08-23T22:28:07Z",
       "firstReleaseDate": "2022-08-23T22:28:07Z",
       "repo": "https://github.com/misternebula/cut-achievements",
@@ -4350,7 +4352,7 @@
       "slug": "cutachievements",
       "thumbnail": {},
       "repoUpdatedAt": "2023-03-28T22:48:07Z",
-      "databaseEntryUpdatedAt": "2023-08-17T14:52:18.292Z",
+      "databaseEntryUpdatedAt": "2023-08-18T03:09:33.095Z",
       "repoVariations": [],
       "viewCount": 30,
       "weeklyViewCount": 7,
@@ -6738,7 +6740,7 @@
         "main": "archipelago.webp"
       },
       "repoUpdatedAt": "2023-06-16T17:15:01Z",
-      "databaseEntryUpdatedAt": "2023-08-17T14:51:59.449Z",
+      "databaseEntryUpdatedAt": "2023-08-18T03:09:23.756Z",
       "repoVariations": [],
       "viewCount": 22,
       "weeklyViewCount": 6,
