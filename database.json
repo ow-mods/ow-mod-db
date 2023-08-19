@@ -930,11 +930,11 @@
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/main/README.md"
       },
       "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "* Adds interactable gizmos \r\n    * To use them first select a transform with the scene inspector\r\n    * Then press `R` to cycle from `Local Position`, `Local Rotation` and none.\r\n    * You can even then press `T` to when...\r\n         * in `Local Position` mode go from actual local position to using the transform orientation\r\n         * in `Local Rotation` to toggle a rotation wheel that always looks at the camera\r\n         \r\n * This used Unity Explorer version `4.9.0`\r\n * This is a pre-release, so if something goes terribly wrong please tell me.",
+      "latestPrereleaseDescription": "- Changed default Hotkeys from:\r\n  - \"R\" &rarr; \"G\"\r\n  - \"T\" &rarr; \"B\"\r\n- Added configuration for changing keys, but isn't implemented.",
       "prerelease": {
-        "version": "5.0.0",
-        "downloadUrl": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/releases/download/5.0.0/Vesper.UnityExplorer.zip",
-        "date": "2022-11-07T21:42:48Z"
+        "version": "5.0.1",
+        "downloadUrl": "https://github.com/Vesper-Works/Unity-Explorer-For-Outer-Wilds/releases/download/5.0.1/Vesper.UnityExplorer.zip",
+        "date": "2023-08-19T04:14:10Z"
       },
       "tags": [
         "tool"
@@ -943,8 +943,8 @@
       "thumbnail": {
         "main": "unityexplorer.webp"
       },
-      "repoUpdatedAt": "2022-11-08T02:50:03Z",
-      "databaseEntryUpdatedAt": "2023-08-19T02:51:47.324Z",
+      "repoUpdatedAt": "2023-08-19T04:14:15Z",
+      "databaseEntryUpdatedAt": "2023-08-19T04:24:30.064Z",
       "repoVariations": [],
       "viewCount": 218,
       "weeklyViewCount": 74,
