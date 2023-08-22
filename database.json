@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.7/OWML.zip",
-      "downloadCount": 110864,
+      "downloadCount": 110949,
       "latestReleaseDate": "2023-08-21T22:21:24Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -25,7 +25,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "Removed the in-depth type checks on enums in API methods. \r\n- This means that enums in APIs will accept any value, as long as the enum has the same name as uses the same underlying type.\r\n- API providers can add entries to their enums or change entry names.\r\n- Mods that use an old version of the enum will still work (provided that no entries were deleted and no value of any entries were changed).\r\n- It will be up to the API vendors / consumers to handle unknown/deprecated/new values. ",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-08-21T22:21:23Z",
-      "databaseEntryUpdatedAt": "2023-08-21T22:29:16.585Z",
+      "databaseEntryUpdatedAt": "2023-08-22T10:31:04.756Z",
       "repoVariations": [],
       "viewCount": 1261,
       "weeklyViewCount": 228,
@@ -4562,7 +4562,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.7/hearth1an.TheVision.zip",
-      "downloadCount": 10431,
+      "downloadCount": 10435,
       "latestReleaseDate": "2023-08-14T20:05:01Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4584,7 +4584,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2023-08-14T20:05:42Z",
-      "databaseEntryUpdatedAt": "2023-08-21T22:29:15.014Z",
+      "databaseEntryUpdatedAt": "2023-08-22T10:31:04.813Z",
       "repoVariations": [],
       "viewCount": 918,
       "weeklyViewCount": 262,
