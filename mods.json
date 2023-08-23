@@ -27,7 +27,7 @@
     },
     {
       "name": "Quantum Space Buddies",
-      "repo": "misternebula/quantum-space-buddies",
+      "repo": "qsb-dev/quantum-space-buddies",
       "tags": [
         "gameplay",
         "integration"
@@ -35,7 +35,8 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "authorDisplay": "_nebula, JohnCorby, and friends",
       "repoVariations": [
-        "Raicuparta/quantum-space-buddies"
+        "Raicuparta/quantum-space-buddies",
+        "misternebula/quantum-space-buddies"
       ]
     },
     {
@@ -2388,13 +2389,16 @@
     {
       "name": "QSB Multiple Ships",
       "uniqueName": "_nebula.QSBMultipleShips",
-      "repo": "misternebula/qsb-multiple-ships",
+      "repo": "qsb-dev/qsb-multiple-ships",
       "tags": [
         "gameplay",
         "tweaks"
       ],
       "parent": "Raicuparta.QuantumSpaceBuddies",
-      "authorDisplay": "_nebula"
+      "authorDisplay": "_nebula",
+      "repoVariations": [
+        "misternebula/qsb-multiple-ships"
+      ]
     },
     {
       "name": "Nomai Grand Prix",
@@ -2537,12 +2541,15 @@
     {
       "name": "QSB TTS",
       "uniqueName": "_nebula.QSBTTS",
-      "repo": "misternebula/qsb-tts",
+      "repo": "qsb-dev/qsb-tts",
       "tags": [
         "audiovisual"
       ],
       "parent": "Raicuparta.QuantumSpaceBuddies",
-      "authorDisplay": "_nebula"
+      "authorDisplay": "_nebula",
+      "repoVariations": [
+        "misternebula/qsb-tts"
+      ]
     },
     {
       "name": "Lore Tracker",
