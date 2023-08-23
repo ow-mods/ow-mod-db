@@ -88,23 +88,23 @@
       "name": "Quantum Space Buddies",
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
-      "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/v0.30.2/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 35189,
+      "author": "qsb-dev",
+      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v0.30.2/Raicuparta.QuantumSpaceBuddies.zip",
+      "downloadCount": 35190,
       "latestReleaseDate": "2023-08-09T03:42:09Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/misternebula/quantum-space-buddies",
       "version": "v0.30.2",
       "readme": {
-        "htmlUrl": "https://github.com/misternebula/quantum-space-buddies/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/misternebula/quantum-space-buddies/master/README.md"
+        "htmlUrl": "https://github.com/qsb-dev/quantum-space-buddies/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
       "latestReleaseDescription": "- API: add GetIsHost and GetIsInMultiplayer\r\n- sync player custom data (only syncs serializable things)\r\n- hash qsbmessage/addon message, fail gracefully if no message found. this means addons can send QSBMessage without being required for all players.\r\n- debug setting: lantency simulation\r\n- internal: better setting and documentation of QSBPatch.Remote",
       "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
-        "downloadUrl": "https://github.com/misternebula/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
+        "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/0.24.0-pr1/QSB.zip",
         "date": "2022-12-28T14:17:46Z"
       },
       "tags": [
@@ -115,8 +115,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-08-14T15:49:33Z",
-      "databaseEntryUpdatedAt": "2023-08-23T18:53:42.622Z",
+      "repoUpdatedAt": "2023-08-23T20:37:33Z",
+      "databaseEntryUpdatedAt": "2023-08-23T20:45:37.784Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies"
       ],
@@ -1122,7 +1122,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.19.0/nh-examples.zip",
-      "downloadCount": 4604,
+      "downloadCount": 4609,
       "latestReleaseDate": "2023-08-08T04:53:34Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -1142,7 +1142,7 @@
         "main": "newhorizonsexamples.webp"
       },
       "repoUpdatedAt": "2023-08-10T04:54:08Z",
-      "databaseEntryUpdatedAt": "2023-08-23T08:42:32.021Z",
+      "databaseEntryUpdatedAt": "2023-08-23T20:45:37.783Z",
       "repoVariations": [
         "https://github.com/xen-42/ow-new-horizons-examples"
       ],
@@ -3168,7 +3168,7 @@
         "main": "togglevelocitymatching.webp"
       },
       "repoUpdatedAt": "2023-08-16T06:38:43Z",
-      "databaseEntryUpdatedAt": "2023-08-23T08:42:23.725Z",
+      "databaseEntryUpdatedAt": "2023-08-23T20:45:37.809Z",
       "repoVariations": [],
       "viewCount": 18,
       "weeklyViewCount": 5,
@@ -7952,9 +7952,9 @@
       "name": "QSB Multiple Ships",
       "uniqueName": "_nebula.QSBMultipleShips",
       "description": "An addon for QSB that makes each player have their own ship.",
-      "author": "misternebula",
+      "author": "qsb-dev",
       "parent": "Raicuparta.QuantumSpaceBuddies",
-      "downloadUrl": "https://github.com/misternebula/qsb-multiple-ships/releases/download/0.1.0/_nebula.QSBMultipleShips.zip",
+      "downloadUrl": "https://github.com/qsb-dev/qsb-multiple-ships/releases/download/0.1.0/_nebula.QSBMultipleShips.zip",
       "downloadCount": 344,
       "latestReleaseDate": "2023-07-09T19:59:07Z",
       "firstReleaseDate": "2023-07-09T19:59:07Z",
@@ -7969,8 +7969,8 @@
       ],
       "slug": "qsbmultipleships",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-07-22T22:38:17Z",
-      "databaseEntryUpdatedAt": "2023-08-23T20:33:09.539Z",
+      "repoUpdatedAt": "2023-08-23T20:45:13Z",
+      "databaseEntryUpdatedAt": "2023-08-23T20:45:47.932Z",
       "repoVariations": [],
       "viewCount": 107,
       "weeklyViewCount": 26,
@@ -8201,7 +8201,7 @@
       "author": "CantAffordaName",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.TesseractsSecret/releases/download/v1.0.3/CantAffordaName.TesseractsSecret.zip",
-      "downloadCount": 230,
+      "downloadCount": 238,
       "latestReleaseDate": "2023-08-10T01:03:32Z",
       "firstReleaseDate": "2023-07-16T16:52:24Z",
       "repo": "https://github.com/CantAffordaName/CantAffordaName.TesseractsSecret",
@@ -8223,7 +8223,7 @@
         "main": "tesseractssecret.webp"
       },
       "repoUpdatedAt": "2023-08-18T07:18:20Z",
-      "databaseEntryUpdatedAt": "2023-08-23T08:42:32.020Z",
+      "databaseEntryUpdatedAt": "2023-08-23T20:45:38.056Z",
       "repoVariations": [],
       "viewCount": 207,
       "weeklyViewCount": 45,
@@ -8402,17 +8402,17 @@
       "name": "QSB TTS",
       "uniqueName": "_nebula.QSBTTS",
       "description": "Outer Wilds provides a realistic simulation of life in outer space.",
-      "author": "misternebula",
+      "author": "qsb-dev",
       "parent": "Raicuparta.QuantumSpaceBuddies",
-      "downloadUrl": "https://github.com/misternebula/qsb-tts/releases/download/1.0.0/_nebula.QSBTTS.zip",
+      "downloadUrl": "https://github.com/qsb-dev/qsb-tts/releases/download/1.0.0/_nebula.QSBTTS.zip",
       "downloadCount": 17,
       "latestReleaseDate": "2023-08-16T15:51:49Z",
       "firstReleaseDate": "2023-08-16T15:51:49Z",
       "repo": "https://github.com/misternebula/qsb-tts",
       "version": "1.0.0",
       "readme": {
-        "htmlUrl": "https://github.com/misternebula/qsb-tts/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/misternebula/qsb-tts/main/README.md"
+        "htmlUrl": "https://github.com/qsb-dev/qsb-tts/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/qsb-tts/main/README.md"
       },
       "authorDisplay": "_nebula",
       "latestReleaseDescription": "Initial release.",
@@ -8422,8 +8422,8 @@
       ],
       "slug": "qsbtts",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-08-17T16:44:03Z",
-      "databaseEntryUpdatedAt": "2023-08-23T18:28:04.449Z",
+      "repoUpdatedAt": "2023-08-23T20:44:41Z",
+      "databaseEntryUpdatedAt": "2023-08-23T20:45:37.564Z",
       "repoVariations": [],
       "viewCount": 91,
       "weeklyViewCount": 91,
