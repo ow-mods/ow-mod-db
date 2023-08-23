@@ -7512,18 +7512,18 @@
       "description": "Universal translation for The Outsider; EN -> JA, pt-BR, zh-CN, RU, FR (making others are welcoming!) And patches to solve some issues of The Outsider",
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
-      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.1.4/orclecle.TranslationForTheOutsider.zip",
+      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.1.5/orclecle.TranslationForTheOutsider.zip",
       "downloadCount": 2254,
-      "latestReleaseDate": "2023-07-31T13:10:09Z",
+      "latestReleaseDate": "2023-08-23T15:25:45Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
-      "version": "v1.1.4",
+      "version": "v1.1.5",
       "readme": {
         "htmlUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "## Translation for The Outsider\r\n\r\n*  [Remake Chinese translation #19](https://github.com/TRSasasusu/TranslationForTheOutsider/pull/19) by @solitary-sails ",
+      "latestReleaseDescription": "## Fixes for The Outsider itself\r\n\r\n* [The shiplog is bugged, only a title: PLANET NAME is appeared #20](https://github.com/TRSasasusu/TranslationForTheOutsider/issues/20)\r\n    * To solve this, add a conflict of `\"dgarro.CustomShipLogModes\"`",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization",
@@ -7531,8 +7531,8 @@
       ],
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-08-23T15:16:41Z",
-      "databaseEntryUpdatedAt": "2023-08-23T15:22:15.804Z",
+      "repoUpdatedAt": "2023-08-23T15:29:46Z",
+      "databaseEntryUpdatedAt": "2023-08-23T15:35:18.003Z",
       "repoVariations": [],
       "viewCount": 121,
       "weeklyViewCount": 21,
@@ -8089,7 +8089,7 @@
       "author": "GameWyrm",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/GameWyrm/HearthsNeighbor/releases/download/v1.0.3/GameWyrm.HearthsNeighbor.zip",
-      "downloadCount": 388,
+      "downloadCount": 412,
       "latestReleaseDate": "2023-08-20T05:07:47Z",
       "firstReleaseDate": "2023-07-16T06:20:35Z",
       "repo": "https://github.com/GameWyrm/HearthsNeighbor",
@@ -8113,7 +8113,7 @@
         "main": "hearthsneighbor.webp"
       },
       "repoUpdatedAt": "2023-08-20T14:31:19Z",
-      "databaseEntryUpdatedAt": "2023-08-23T03:24:31.202Z",
+      "databaseEntryUpdatedAt": "2023-08-23T15:35:18.003Z",
       "repoVariations": [
         "https://github.com/GameWyrm/OuterWildsSummerJam"
       ],
