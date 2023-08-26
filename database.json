@@ -1084,18 +1084,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.14.7/xen.NewHorizons.zip",
-      "downloadCount": 30822,
-      "latestReleaseDate": "2023-08-24T16:38:42Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.15.0/xen.NewHorizons.zip",
+      "downloadCount": 30823,
+      "latestReleaseDate": "2023-08-26T06:28:25Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.14.7",
+      "version": "v1.15.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- Can change the distance that orbit lines are shown at now using `orbitLineFadeStartDistance` and `orbitLineFadeEndDistance`.\r\n\r\n## Bug fixes\r\n- Fixed spawning inside cloaks. Fixes #671 \r\n- Fixed default system override logging errors on load\r\n- Fixed star size in shader params\r\n- Fixed water inside of cloaks. Was a bug affecting Tesseract's Secret, although they have their own workaround so this won't change anything.\r\n- Fixed missing null check in detail builder orb fix (solves an issue in Intervention). Fixes #708\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/707**",
+      "latestReleaseDescription": "## Major features\r\n- New `ParticleFields` module. Add particles to your planet (ex: leaves,\r\nrain, snow, fireflies, and more). Resolves #219\r\n\r\n## Improvements\r\n- Cached more stuff to improve loading times. Resolves #683 \r\n- Cleaned up how planets are destroyed. Should make load screens faster. Resolves #573 \r\n\r\n## Bug fixes\r\n- Fixes Bramble colours at a distance. Fixes #372 and #641\r\n- Allow setting ship spawns in main solar system / separately from the player spawn. Resolves #677\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/712**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1106,8 +1106,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-08-26T06:26:19Z",
-      "databaseEntryUpdatedAt": "2023-08-26T06:35:56.447Z",
+      "repoUpdatedAt": "2023-08-26T06:57:00Z",
+      "databaseEntryUpdatedAt": "2023-08-26T07:00:50.410Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -6241,7 +6241,7 @@
       "author": "JohnCorby",
       "utility": true,
       "downloadUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/releases/download/v1.0.6/JohnCorby.OWFixPluginTypesSerialization.zip",
-      "downloadCount": 326,
+      "downloadCount": 328,
       "latestReleaseDate": "2023-08-10T02:37:31Z",
       "firstReleaseDate": "2023-01-07T19:23:53Z",
       "repo": "https://github.com/JohnCorby/OWFixPluginTypesSerialization",
@@ -6260,7 +6260,7 @@
         "main": "owfixplugintypesserialization.webp"
       },
       "repoUpdatedAt": "2023-08-10T02:39:27Z",
-      "databaseEntryUpdatedAt": "2023-08-25T18:54:03.634Z",
+      "databaseEntryUpdatedAt": "2023-08-26T07:00:40.246Z",
       "repoVariations": [],
       "viewCount": 8,
       "weeklyViewCount": 1,
@@ -8277,7 +8277,7 @@
       "author": "xen-42",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/xen-42/ow-qsb-skins/releases/download/v0.2.0/xen.QSBSkins.zip",
-      "downloadCount": 178,
+      "downloadCount": 181,
       "latestReleaseDate": "2023-07-31T22:14:22Z",
       "firstReleaseDate": "2023-07-29T18:42:37Z",
       "repo": "https://github.com/xen-42/ow-qsb-skins",
@@ -8297,7 +8297,7 @@
         "main": "skinsforqsb.webp"
       },
       "repoUpdatedAt": "2023-07-31T22:59:44Z",
-      "databaseEntryUpdatedAt": "2023-08-25T18:54:12.410Z",
+      "databaseEntryUpdatedAt": "2023-08-26T07:00:40.255Z",
       "repoVariations": [],
       "viewCount": 181,
       "weeklyViewCount": 38,
@@ -8394,7 +8394,7 @@
       "slug": "debughud",
       "thumbnail": {},
       "repoUpdatedAt": "2023-08-16T15:50:34Z",
-      "databaseEntryUpdatedAt": "2023-08-25T18:54:02.750Z",
+      "databaseEntryUpdatedAt": "2023-08-26T07:00:39.949Z",
       "repoVariations": [],
       "viewCount": 32,
       "weeklyViewCount": 18,
