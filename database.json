@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 132583
+    "downloadCount": 132584
   },
   "releases": [
     {
@@ -1084,18 +1084,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.15.1/xen.NewHorizons.zip",
-      "downloadCount": 30928,
-      "latestReleaseDate": "2023-08-26T16:30:49Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.16.0/xen.NewHorizons.zip",
+      "downloadCount": 30932,
+      "latestReleaseDate": "2023-08-26T21:54:04Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.15.1",
+      "version": "v1.16.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n- Fix blackholes not being properly initialized when using conditional object activation.\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/714**",
+      "latestReleaseDescription": "## Major features\r\n- API now allows you to register a custom builder method. This method takes the planet game object and the json string of its `extras` module, allowing you to alter your planet accordingly.\r\n\r\n## Improvements\r\n- Can now update the orbits of the HGT. Implements #225  \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/716**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1106,8 +1106,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-08-26T21:50:19Z",
-      "databaseEntryUpdatedAt": "2023-08-26T21:54:26.318Z",
+      "repoUpdatedAt": "2023-08-26T22:11:48Z",
+      "databaseEntryUpdatedAt": "2023-08-26T22:27:25.250Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
