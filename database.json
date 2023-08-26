@@ -1084,18 +1084,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.15.0/xen.NewHorizons.zip",
-      "downloadCount": 30823,
-      "latestReleaseDate": "2023-08-26T06:28:25Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.15.1/xen.NewHorizons.zip",
+      "downloadCount": 30887,
+      "latestReleaseDate": "2023-08-26T16:30:49Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.15.0",
+      "version": "v1.15.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- New `ParticleFields` module. Add particles to your planet (ex: leaves,\r\nrain, snow, fireflies, and more). Resolves #219\r\n\r\n## Improvements\r\n- Cached more stuff to improve loading times. Resolves #683 \r\n- Cleaned up how planets are destroyed. Should make load screens faster. Resolves #573 \r\n\r\n## Bug fixes\r\n- Fixes Bramble colours at a distance. Fixes #372 and #641\r\n- Allow setting ship spawns in main solar system / separately from the player spawn. Resolves #677\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/712**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fix blackholes not being properly initialized when using conditional object activation.\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/714**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1106,8 +1106,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-08-26T06:57:00Z",
-      "databaseEntryUpdatedAt": "2023-08-26T07:00:50.410Z",
+      "repoUpdatedAt": "2023-08-26T16:31:39Z",
+      "databaseEntryUpdatedAt": "2023-08-26T16:34:05.398Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
