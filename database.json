@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 132992
+    "downloadCount": 132993
   },
   "releases": [
     {
@@ -3941,7 +3941,10 @@
         "gameplay"
       ],
       "slug": "blockplacing",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "blockplacing.webp",
+        "openGraph": "blockplacing-static.webp"
+      },
       "repoUpdatedAt": "2023-05-01T02:55:34Z",
       "databaseEntryUpdatedAt": "2023-09-04T08:35:46.304Z",
       "repoVariations": [],
@@ -8048,41 +8051,6 @@
       "weeklyInstallCount": 15
     },
     {
-      "name": "Ernesto's Fun Day Off!",
-      "uniqueName": "Turtle.FunDayOff",
-      "description": "2023 Mod Jam Participant. Can you find and escape Ernesto's FUN Dungeon? Made in only 2 days.",
-      "author": "TextureTurtle",
-      "downloadUrl": "https://github.com/TextureTurtle/ErnestosFunDayOff/releases/download/0.4.0/MOD.WORKS.PATCH.zip",
-      "downloadCount": 131,
-      "latestReleaseDate": "2023-07-16T17:36:22Z",
-      "firstReleaseDate": "2023-07-16T05:18:30Z",
-      "repo": "https://github.com/TextureTurtle/ErnestosFunDayOff",
-      "version": "0.4.0",
-      "readme": {
-        "htmlUrl": "https://github.com/TextureTurtle/ErnestosFunDayOff/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/TextureTurtle/ErnestosFunDayOff/main/README.md"
-      },
-      "authorDisplay": "Texture_Turtle",
-      "latestReleaseDescription": "Had to fix mod real quick to be downloadable",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
-      "slug": "ernestosfundayoff",
-      "thumbnail": {
-        "main": "ernestosfundayoff.webp"
-      },
-      "repoUpdatedAt": "2023-07-16T17:36:52Z",
-      "databaseEntryUpdatedAt": "2023-09-04T08:35:46.303Z",
-      "repoVariations": [],
-      "viewCount": 41,
-      "weeklyViewCount": 10,
-      "installCount": 28,
-      "weeklyInstallCount": 6
-    },
-    {
       "name": "Hearth's Neighbor",
       "uniqueName": "GameWyrm.HearthsNeighbor",
       "description": "Warp to Hearth's Neighbor, a nearby star system with its own secrets hidden within...",
@@ -8489,7 +8457,7 @@
       "slug": "sorrisoronaldo",
       "thumbnail": {},
       "repoUpdatedAt": "2023-09-01T12:09:31Z",
-      "databaseEntryUpdatedAt": "2023-09-04T02:01:42.147Z",
+      "databaseEntryUpdatedAt": "2023-09-04T14:32:03.872Z",
       "repoVariations": [],
       "viewCount": 51,
       "weeklyViewCount": 51,
