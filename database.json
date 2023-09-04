@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 132997
+    "downloadCount": 132999
   },
   "releases": [
     {
@@ -3941,10 +3941,7 @@
         "gameplay"
       ],
       "slug": "blockplacing",
-      "thumbnail": {
-        "main": "blockplacing.webp",
-        "openGraph": "blockplacing-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-05-01T02:55:34Z",
       "databaseEntryUpdatedAt": "2023-09-04T08:35:46.304Z",
       "repoVariations": [],
@@ -4191,7 +4188,10 @@
         "gameplay"
       ],
       "slug": "permadeathmode",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "permadeathmode.webp",
+        "openGraph": "permadeathmode-static.webp"
+      },
       "repoUpdatedAt": "2022-09-16T21:21:17Z",
       "databaseEntryUpdatedAt": "2023-09-04T07:44:46.404Z",
       "repoVariations": [],
@@ -4804,7 +4804,9 @@
         "audiovisual"
       ],
       "slug": "clearglass",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "clearglass.webp"
+      },
       "repoUpdatedAt": "2022-09-29T02:52:26Z",
       "databaseEntryUpdatedAt": "2023-09-04T07:44:46.950Z",
       "repoVariations": [],
@@ -5862,7 +5864,9 @@
         "content"
       ],
       "slug": "howdidthishappen",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "howdidthishappen.webp"
+      },
       "repoUpdatedAt": "2022-12-15T01:02:53Z",
       "databaseEntryUpdatedAt": "2023-09-04T10:49:27.232Z",
       "repoVariations": [],
@@ -5955,7 +5959,9 @@
         "gameplay"
       ],
       "slug": "outerpictures",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "outerpictures.webp"
+      },
       "repoUpdatedAt": "2022-12-23T12:58:17Z",
       "databaseEntryUpdatedAt": "2023-09-04T10:49:27.231Z",
       "repoVariations": [],
@@ -6082,7 +6088,10 @@
         "tweaks"
       ],
       "slug": "enablemeditation",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "enablemeditation.webp",
+        "openGraph": "enablemeditation-static.webp"
+      },
       "repoUpdatedAt": "2023-06-26T11:42:25Z",
       "databaseEntryUpdatedAt": "2023-09-04T09:59:14.435Z",
       "repoVariations": [],
@@ -6440,7 +6449,9 @@
         "story"
       ],
       "slug": "theoutsider",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "theoutsider.webp"
+      },
       "repoUpdatedAt": "2023-08-16T09:58:50Z",
       "databaseEntryUpdatedAt": "2023-09-04T04:40:49.000Z",
       "repoVariations": [],
@@ -6616,7 +6627,9 @@
         "story"
       ],
       "slug": "arcanumadrift",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "arcanumadrift.webp"
+      },
       "repoUpdatedAt": "2023-07-04T16:16:10Z",
       "databaseEntryUpdatedAt": "2023-09-04T09:59:18.399Z",
       "repoVariations": [],
@@ -7062,7 +7075,9 @@
         "audiovisual"
       ],
       "slug": "photosensitivityfixes",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "photosensitivityfixes.webp"
+      },
       "repoUpdatedAt": "2023-02-21T00:09:53Z",
       "databaseEntryUpdatedAt": "2023-09-04T09:59:18.583Z",
       "repoVariations": [],
@@ -8642,9 +8657,7 @@
         "gameplay"
       ],
       "slug": "navinha",
-      "thumbnail": {
-        "main": "navinha.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-06-01T00:19:12Z",
       "databaseEntryUpdatedAt": "2023-09-04T07:44:45.048Z",
       "repoVariations": [
