@@ -3941,7 +3941,10 @@
         "gameplay"
       ],
       "slug": "blockplacing",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "blockplacing.webp",
+        "openGraph": "blockplacing-static.webp"
+      },
       "repoUpdatedAt": "2023-05-01T02:55:34Z",
       "databaseEntryUpdatedAt": "2023-09-04T20:45:43.788Z",
       "repoVariations": [],
@@ -5203,7 +5206,9 @@
         "tool"
       ],
       "slug": "developerconsole",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "developerconsole.webp"
+      },
       "repoUpdatedAt": "2022-11-07T03:52:35Z",
       "databaseEntryUpdatedAt": "2023-09-04T11:43:01.259Z",
       "repoVariations": [],
