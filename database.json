@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133004
+    "downloadCount": 133006
   },
   "releases": [
     {
@@ -1385,7 +1385,7 @@
         "main": "signals.webp"
       },
       "repoUpdatedAt": "2023-09-01T04:50:04Z",
-      "databaseEntryUpdatedAt": "2023-09-04T05:40:42.056Z",
+      "databaseEntryUpdatedAt": "2023-09-04T17:51:03.003Z",
       "repoVariations": [],
       "viewCount": 76,
       "weeklyViewCount": 24,
@@ -1447,7 +1447,7 @@
         "main": "meteorlaunching.webp"
       },
       "repoUpdatedAt": "2023-09-01T04:48:42Z",
-      "databaseEntryUpdatedAt": "2023-09-04T05:40:42.056Z",
+      "databaseEntryUpdatedAt": "2023-09-04T17:50:51.650Z",
       "repoVariations": [],
       "viewCount": 41,
       "weeklyViewCount": 12,
@@ -1656,7 +1656,7 @@
       "description": "B for Black hole, G for White hole. Use uppercase when changing keybinds.",
       "author": "Nageld",
       "downloadUrl": "https://github.com/Nageld/Outer-Wilds-Black-Hole-Portal-Gun/releases/download/v0.3.0/Book.BlackHolePortalGun.zip",
-      "downloadCount": 2292,
+      "downloadCount": 2293,
       "latestReleaseDate": "2023-01-05T02:34:47Z",
       "firstReleaseDate": "2022-01-12T02:05:23Z",
       "repo": "https://github.com/Nageld/Outer-Wilds-Black-Hole-Portal-Gun",
@@ -1675,7 +1675,7 @@
         "main": "blackholeportalgun.webp"
       },
       "repoUpdatedAt": "2023-09-01T04:49:18Z",
-      "databaseEntryUpdatedAt": "2023-09-04T05:40:42.056Z",
+      "databaseEntryUpdatedAt": "2023-09-04T17:51:02.754Z",
       "repoVariations": [],
       "viewCount": 59,
       "weeklyViewCount": 18,
@@ -2927,7 +2927,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v0.4.0/xen.AchievementTracker.zip",
-      "downloadCount": 2061,
+      "downloadCount": 2062,
       "latestReleaseDate": "2022-08-23T22:13:51Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2947,7 +2947,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2023-09-01T04:51:41Z",
-      "databaseEntryUpdatedAt": "2023-09-04T05:40:42.311Z",
+      "databaseEntryUpdatedAt": "2023-09-04T17:50:50.712Z",
       "repoVariations": [],
       "viewCount": 69,
       "weeklyViewCount": 18,
@@ -4191,7 +4191,10 @@
         "gameplay"
       ],
       "slug": "permadeathmode",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "permadeathmode.webp",
+        "openGraph": "permadeathmode-static.webp"
+      },
       "repoUpdatedAt": "2022-09-16T21:21:17Z",
       "databaseEntryUpdatedAt": "2023-09-04T07:44:46.404Z",
       "repoVariations": [],
