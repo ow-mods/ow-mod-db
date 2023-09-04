@@ -3941,7 +3941,10 @@
         "gameplay"
       ],
       "slug": "blockplacing",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "blockplacing.webp",
+        "openGraph": "blockplacing-static.webp"
+      },
       "repoUpdatedAt": "2023-05-01T02:55:34Z",
       "databaseEntryUpdatedAt": "2023-09-04T08:35:46.304Z",
       "repoVariations": [],
@@ -5464,10 +5467,7 @@
         "gameplay"
       ],
       "slug": "strangerspingravity",
-      "thumbnail": {
-        "main": "strangerspingravity.webp",
-        "openGraph": "strangerspingravity-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-01-27T04:28:15Z",
       "databaseEntryUpdatedAt": "2023-09-04T10:49:16.406Z",
       "repoVariations": [],
