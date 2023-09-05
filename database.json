@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133031
+    "downloadCount": 133032
   },
   "releases": [
     {
@@ -623,9 +623,7 @@
         "gameplay"
       ],
       "slug": "randomizer",
-      "thumbnail": {
-        "main": "randomizer.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-01-25T00:26:09Z",
       "databaseEntryUpdatedAt": "2023-09-05T08:19:32.788Z",
       "repoVariations": [],
@@ -3743,9 +3741,7 @@
         "content"
       ],
       "slug": "upsilonandromedae",
-      "thumbnail": {
-        "main": "upsilonandromedae.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-07-25T05:29:08Z",
       "databaseEntryUpdatedAt": "2023-09-05T08:19:35.861Z",
       "repoVariations": [],
@@ -3941,7 +3937,10 @@
         "gameplay"
       ],
       "slug": "blockplacing",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "blockplacing.webp",
+        "openGraph": "blockplacing-static.webp"
+      },
       "repoUpdatedAt": "2023-05-01T02:55:34Z",
       "databaseEntryUpdatedAt": "2023-09-05T08:57:59.290Z",
       "repoVariations": [],
@@ -4188,10 +4187,7 @@
         "gameplay"
       ],
       "slug": "permadeathmode",
-      "thumbnail": {
-        "main": "permadeathmode.webp",
-        "openGraph": "permadeathmode-static.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-09-16T21:21:17Z",
       "databaseEntryUpdatedAt": "2023-09-05T08:19:55.889Z",
       "repoVariations": [],
@@ -7106,7 +7102,10 @@
         "gameplay"
       ],
       "slug": "hatchlingicarus",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "hatchlingicarus.webp",
+        "openGraph": "hatchlingicarus-static.webp"
+      },
       "repoUpdatedAt": "2023-04-26T04:11:05Z",
       "databaseEntryUpdatedAt": "2023-09-05T08:45:02.998Z",
       "repoVariations": [],
