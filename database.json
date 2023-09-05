@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133019
+    "downloadCount": 133021
   },
   "releases": [
     {
@@ -623,9 +623,7 @@
         "gameplay"
       ],
       "slug": "randomizer",
-      "thumbnail": {
-        "main": "randomizer.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-01-25T00:26:09Z",
       "databaseEntryUpdatedAt": "2023-09-04T19:48:15.519Z",
       "repoVariations": [],
@@ -2235,7 +2233,9 @@
         "tweaks"
       ],
       "slug": "vanillafix",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "vanillafix.webp"
+      },
       "repoUpdatedAt": "2023-08-12T22:47:25Z",
       "databaseEntryUpdatedAt": "2023-09-04T18:27:54.979Z",
       "repoVariations": [],
