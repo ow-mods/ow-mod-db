@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133017
+    "downloadCount": 133019
   },
   "releases": [
     {
@@ -2235,9 +2235,7 @@
         "tweaks"
       ],
       "slug": "vanillafix",
-      "thumbnail": {
-        "main": "vanillafix.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-08-12T22:47:25Z",
       "databaseEntryUpdatedAt": "2023-09-04T18:27:54.979Z",
       "repoVariations": [],
@@ -6044,7 +6042,7 @@
       "author": "RealOrbital32",
       "parent": "O32.FunnySystem",
       "downloadUrl": "https://github.com/RealOrbital32/funny-christmas/releases/download/1.2.1/O32.FunnyChristmas.zip",
-      "downloadCount": 266,
+      "downloadCount": 267,
       "latestReleaseDate": "2023-08-16T07:12:55Z",
       "firstReleaseDate": "2022-12-25T23:10:05Z",
       "repo": "https://github.com/RealOrbital32/funny-christmas",
@@ -6062,7 +6060,7 @@
       "slug": "funnychristmas",
       "thumbnail": {},
       "repoUpdatedAt": "2023-08-16T07:13:00Z",
-      "databaseEntryUpdatedAt": "2023-09-04T12:31:57.020Z",
+      "databaseEntryUpdatedAt": "2023-09-05T01:31:30.773Z",
       "repoVariations": [],
       "viewCount": 10,
       "weeklyViewCount": 1,
@@ -6594,7 +6592,9 @@
         "story"
       ],
       "slug": "owventuresscavengerhunt",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "owventuresscavengerhunt.webp"
+      },
       "repoUpdatedAt": "2023-03-28T00:02:59Z",
       "databaseEntryUpdatedAt": "2023-09-04T19:48:21.182Z",
       "repoVariations": [],
@@ -6993,7 +6993,7 @@
       "description": "A mod for Outer Wilds that adds various Nomai Keys to the world which must be collected before the game can be completed.",
       "author": "GameWyrm",
       "downloadUrl": "https://github.com/GameWyrm/OuterRelics/releases/download/v1.0.0/GameWyrm.OuterRelics.zip",
-      "downloadCount": 364,
+      "downloadCount": 365,
       "latestReleaseDate": "2023-08-09T03:50:35Z",
       "firstReleaseDate": "2023-02-18T00:46:33Z",
       "repo": "https://github.com/GameWyrm/OuterRelics",
@@ -7012,8 +7012,8 @@
       "thumbnail": {
         "main": "outerrelics.webp"
       },
-      "repoUpdatedAt": "2023-08-09T03:54:50Z",
-      "databaseEntryUpdatedAt": "2023-09-04T23:49:59.156Z",
+      "repoUpdatedAt": "2023-09-05T01:06:13Z",
+      "databaseEntryUpdatedAt": "2023-09-05T01:31:31.598Z",
       "repoVariations": [],
       "viewCount": 61,
       "weeklyViewCount": 14,
@@ -7109,7 +7109,10 @@
         "gameplay"
       ],
       "slug": "hatchlingicarus",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "hatchlingicarus.webp",
+        "openGraph": "hatchlingicarus-static.webp"
+      },
       "repoUpdatedAt": "2023-04-26T04:11:05Z",
       "databaseEntryUpdatedAt": "2023-09-04T20:32:46.141Z",
       "repoVariations": [],
@@ -7671,7 +7674,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.2.3/O32.UnnamedMystery.zip",
-      "downloadCount": 1128,
+      "downloadCount": 1138,
       "latestReleaseDate": "2023-07-20T06:17:23Z",
       "firstReleaseDate": "2023-06-05T04:01:15Z",
       "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
@@ -7692,7 +7695,7 @@
         "main": "unnamedmystery.webp"
       },
       "repoUpdatedAt": "2023-08-16T07:15:13Z",
-      "databaseEntryUpdatedAt": "2023-09-04T12:31:59.500Z",
+      "databaseEntryUpdatedAt": "2023-09-05T01:31:31.451Z",
       "repoVariations": [],
       "viewCount": 241,
       "weeklyViewCount": 44,
