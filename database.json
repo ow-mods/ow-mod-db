@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133130
+    "downloadCount": 133131
   },
   "releases": [
     {
@@ -2099,7 +2099,9 @@
         "gameplay"
       ],
       "slug": "celestewilds",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "celestewilds.webp"
+      },
       "repoUpdatedAt": "2022-11-03T15:45:12Z",
       "databaseEntryUpdatedAt": "2023-09-08T21:04:40.422Z",
       "repoVariations": [
@@ -5468,7 +5470,10 @@
         "gameplay"
       ],
       "slug": "strangerspingravity",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "strangerspingravity.webp",
+        "openGraph": "strangerspingravity-static.webp"
+      },
       "repoUpdatedAt": "2023-01-27T04:28:15Z",
       "databaseEntryUpdatedAt": "2023-09-08T11:41:36.065Z",
       "repoVariations": [],
@@ -7363,9 +7368,7 @@
         "gameplay"
       ],
       "slug": "qsbgamemodes",
-      "thumbnail": {
-        "main": "qsbgamemodes.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-30T04:26:43Z",
       "databaseEntryUpdatedAt": "2023-09-08T21:31:36.741Z",
       "repoVariations": [],
