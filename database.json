@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133710
+    "downloadCount": 133712
   },
   "releases": [
     {
@@ -7513,18 +7513,18 @@
       "description": "Universal translation for The Outsider; EN -> JA, pt-BR, zh-CN, RU, FR (making others are welcoming!) And patches to solve some issues of The Outsider",
       "author": "TRSasasusu",
       "parent": "SBtT.TheOutsider",
-      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.1.6/orclecle.TranslationForTheOutsider.zip",
-      "downloadCount": 2990,
-      "latestReleaseDate": "2023-08-25T15:02:10Z",
+      "downloadUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/releases/download/v1.1.7/orclecle.TranslationForTheOutsider.zip",
+      "downloadCount": 2999,
+      "latestReleaseDate": "2023-09-23T12:34:11Z",
       "firstReleaseDate": "2023-04-10T15:39:53Z",
       "repo": "https://github.com/TRSasasusu/TranslationForTheOutsider",
-      "version": "v1.1.6",
+      "version": "v1.1.7",
       "readme": {
         "htmlUrl": "https://github.com/TRSasasusu/TranslationForTheOutsider/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/TranslationForTheOutsider/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "## Fixes for The Outsider itself\r\n\r\n* [The shiplog is bugged, only a title: PLANET NAME is appeared #20](https://github.com/TRSasasusu/TranslationForTheOutsider/issues/20)\r\n    * Thanks to @dgarroDC , fix this issue without setting conflicts against `\"dgarro.CustomShipLogModes\"` by removing duplicated entries.\r\n    * Now, there is no conflicts against `\"dgarro.CustomShipLogModes\"`.",
+      "latestReleaseDescription": "## Translation for The Outsider\r\n\r\n*  [Fixed some names translations to fit their name in base game. #21](https://github.com/TRSasasusu/TranslationForTheOutsider/pull/21) (in french translation) by @Chaxiraxi \r\n* Fix some japanese translation\r\n\r\n## Fixes for The Outsider itself\r\n\r\n* [Initial Campsite is floating in the air after pulling to Giant's Deep (The Outsider's Issue) #17](https://github.com/TRSasasusu/TranslationForTheOutsider/issues/17)",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization",
@@ -7532,8 +7532,8 @@
       ],
       "slug": "translationandpatchesfortheoutsider",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-09-20T16:10:16Z",
-      "databaseEntryUpdatedAt": "2023-09-23T05:19:40.107Z",
+      "repoUpdatedAt": "2023-09-23T12:39:55Z",
+      "databaseEntryUpdatedAt": "2023-09-23T12:53:49.535Z",
       "repoVariations": [],
       "viewCount": 112,
       "weeklyViewCount": 22,
