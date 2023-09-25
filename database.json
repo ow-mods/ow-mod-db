@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133821
+    "downloadCount": 133823
   },
   "releases": [
     {
@@ -14,18 +14,18 @@
       "author": "ow-mods",
       "required": true,
       "utility": true,
-      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.7/OWML.zip",
-      "downloadCount": 115539,
-      "latestReleaseDate": "2023-08-21T22:21:24Z",
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.8/OWML.zip",
+      "downloadCount": 115541,
+      "latestReleaseDate": "2023-09-25T20:58:24Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
-      "version": "2.9.7",
+      "version": "2.9.8",
       "readme": {
         "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "Removed the in-depth type checks on enums in API methods. \r\n- This means that enums in APIs will accept any value, as long as the enum has the same name as uses the same underlying type.\r\n- API providers can add entries to their enums or change entry names.\r\n- Mods that use an old version of the enum will still work (provided that no entries were deleted and no value of any entries were changed).\r\n- It will be up to the API vendors / consumers to handle unknown/deprecated/new values. ",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2023-09-25T20:51:20Z",
-      "databaseEntryUpdatedAt": "2023-09-25T20:52:52.746Z",
+      "repoUpdatedAt": "2023-09-25T20:58:23Z",
+      "databaseEntryUpdatedAt": "2023-09-25T21:01:08.442Z",
       "repoVariations": [],
       "viewCount": 809,
       "weeklyViewCount": 226,
@@ -1766,7 +1766,9 @@
         "audiovisual"
       ],
       "slug": "outerwildsmusicplayer",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "outerwildsmusicplayer.webp"
+      },
       "repoUpdatedAt": "2022-06-28T18:42:51Z",
       "databaseEntryUpdatedAt": "2023-09-25T14:43:50.876Z",
       "repoVariations": [],
