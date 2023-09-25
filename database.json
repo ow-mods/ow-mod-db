@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133831
+    "downloadCount": 133832
   },
   "releases": [
     {
@@ -1675,7 +1675,7 @@
         "main": "blackholeportalgun.webp"
       },
       "repoUpdatedAt": "2023-09-01T04:49:18Z",
-      "databaseEntryUpdatedAt": "2023-09-25T11:52:10.266Z",
+      "databaseEntryUpdatedAt": "2023-09-25T23:57:42.377Z",
       "repoVariations": [],
       "viewCount": 43,
       "weeklyViewCount": 7,
@@ -2525,8 +2525,8 @@
       "thumbnail": {
         "main": "emptyhollow.webp"
       },
-      "repoUpdatedAt": "2023-01-22T00:02:39Z",
-      "databaseEntryUpdatedAt": "2023-09-25T14:43:50.766Z",
+      "repoUpdatedAt": "2023-09-25T23:53:29Z",
+      "databaseEntryUpdatedAt": "2023-09-25T23:57:33.142Z",
       "repoVariations": [],
       "viewCount": 22,
       "weeklyViewCount": 11,
@@ -5086,18 +5086,18 @@
       "description": "Allows other mods to add their custom Ship Log modes",
       "author": "dgarroDC",
       "utility": true,
-      "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.4/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 12909,
-      "latestReleaseDate": "2023-06-14T00:36:11Z",
+      "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.5/dgarro.CustomShipLogModes.zip",
+      "downloadCount": 12927,
+      "latestReleaseDate": "2023-09-25T23:47:06Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "readme": {
         "htmlUrl": "https://github.com/dgarroDC/CustomShipLogModes/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Adds 3 more \"Item List\" API methods: `ItemListUpdateListUI`, `ItemListGetItemsUI` and `ItemListGetIndexUI`, more info about them in the [README](https://github.com/dgarroDC/CustomShipLogModes#creating-ui-item-lists).\r\n\r\n**Important notice:** This update is actually required for [The Hatchling's Journal](https://outerwildsmods.com/mods/thehatchlingsjournal/) (the mod doesn't work without it), but I forgot to release this patch before releasing the mod, sorry for the inconvenience! ",
+      "latestReleaseDescription": "This is a dirty hotfix after Outer Wilds Patch 14 issues to prevent other mods from exploding. There are still issues to be fixed: the selection arrow in the mode selector mode is wrongly placed, item lists without a description field aren't expanded vertically (including the mode selector mode) and upper right prompts aren't visible for custom modes (now map mode and rumor mode have their own list that is visible only when the corresponding mode is active, instead of a global one like before, and with this hotfix custom modes are using the map mode one). Probably a lot more issues!\r\n\r\nNew Horizons should work now, but the upper right prompts in Interstellar Mode (change mode, exit ship log...) are currently invisible.",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -5106,8 +5106,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2023-07-22T22:41:12Z",
-      "databaseEntryUpdatedAt": "2023-09-25T18:15:45.735Z",
+      "repoUpdatedAt": "2023-09-25T23:53:34Z",
+      "databaseEntryUpdatedAt": "2023-09-25T23:57:43.091Z",
       "repoVariations": [],
       "viewCount": 37,
       "weeklyViewCount": 6,
