@@ -733,17 +733,17 @@
       "uniqueName": "xen.ThirdPersonCamera",
       "description": "A third-person camera for Outer Wilds.",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.0.3/xen.ThirdPersonCamera.zip",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.1.0/xen.ThirdPersonCamera.zip",
       "downloadCount": 2986,
-      "latestReleaseDate": "2022-09-17T06:24:14Z",
+      "latestReleaseDate": "2023-09-27T16:29:21Z",
       "firstReleaseDate": "2021-11-16T19:46:51Z",
       "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
-      "version": "v2.0.3",
+      "version": "v2.1.0",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-third-person-camera/main/README.md"
       },
-      "latestReleaseDescription": "- Update to patch 13\r\n- Update to use new Common Camera API",
+      "latestReleaseDescription": "- Fixed errors due to patch 14\r\n- Using the ship log no longer kicks your out of third person\r\n- Fixed notifications overlapping on-screen text",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -752,8 +752,8 @@
       "thumbnail": {
         "main": "thirdpersoncamera.webp"
       },
-      "repoUpdatedAt": "2023-09-27T15:49:52Z",
-      "databaseEntryUpdatedAt": "2023-09-27T15:54:51.655Z",
+      "repoUpdatedAt": "2023-09-27T16:32:43Z",
+      "databaseEntryUpdatedAt": "2023-09-27T16:37:48.789Z",
       "repoVariations": [],
       "viewCount": 318,
       "weeklyViewCount": 78,
@@ -3504,17 +3504,17 @@
       "description": "Common utilities for Outer Wilds camera mods",
       "author": "xen-42",
       "utility": true,
-      "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.2.2/xen.CommonCameraUtility.zip",
+      "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.3.0/xen.CommonCameraUtil.zip",
       "downloadCount": 13836,
-      "latestReleaseDate": "2022-10-22T15:26:44Z",
+      "latestReleaseDate": "2023-09-27T16:28:00Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
-      "version": "v1.2.2",
+      "version": "v1.3.0",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-common-camera-util/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-common-camera-util/main/README.md"
       },
-      "latestReleaseDescription": "- Fixes player head showing when in first person\r\n- Disables mod functionality if [NomaiVR](https://outerwildsmods.com/mods/nomaivr/) is installed\r\n- Fixed cameras not working properly with [DayDream](https://github.com/xen-42/outer-wilds-day-dream)",
+      "latestReleaseDescription": "- Updated to OW patch 14\r\n- Fixed decapitation by landing camera",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -3523,8 +3523,8 @@
       "thumbnail": {
         "main": "commoncamerautility.webp"
       },
-      "repoUpdatedAt": "2023-09-27T15:50:26Z",
-      "databaseEntryUpdatedAt": "2023-09-27T15:54:51.653Z",
+      "repoUpdatedAt": "2023-09-27T16:29:17Z",
+      "databaseEntryUpdatedAt": "2023-09-27T16:37:48.760Z",
       "repoVariations": [],
       "viewCount": 66,
       "weeklyViewCount": 29,
