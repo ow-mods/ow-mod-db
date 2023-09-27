@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133943
+    "downloadCount": 133945
   },
   "releases": [
     {
@@ -1084,18 +1084,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.16.4/xen.NewHorizons.zip",
-      "downloadCount": 33115,
-      "latestReleaseDate": "2023-09-08T03:19:25Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.17.0/xen.NewHorizons.zip",
+      "downloadCount": 33117,
+      "latestReleaseDate": "2023-09-27T22:12:49Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.16.4",
+      "version": "v1.17.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n- Log an error when trying to orbit a body that doesn't have a gravity volume.\r\n- QuantumGroups of type \"states\" no longer ignore probe snapshots taken of them (resolves #598)\r\n- Unnamed Mystery is now playable again (oops sorry cigtu) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/724**",
+      "latestReleaseDescription": "## Major features\r\n- Updated to Outer Wilds patch 14\r\n\r\n## Improvements\r\n- Added Japanese localization. Thanks TRSasasusu!\r\n- Ghost animator components don't always get removed now (except when they need to be)\r\n\r\n## Bug fixes\r\n- Fixed a bug where ParticleFields assumes you have an Atmosphere and fails to build your planet if you don't\r\n- Reload Configs button always reloads bundles/textures/audio now\r\n- Fixed a bug where fog preview lights were being affected too much by node scaling (cause of #574)\r\n- Fixed an issue where fog of bramble nodes was being double scaled (maybe caused by c9ee5ec1ac38a7ad9b5b9c4c7329ec526bf8cace)\r\n- When loading into a custom star system on the first loop, the time loop will actually start now.\r\n\r\nThanks coderCleric for the Bramble bug fixes \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/735**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1106,8 +1106,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-09-27T21:49:54Z",
-      "databaseEntryUpdatedAt": "2023-09-27T22:01:04.027Z",
+      "repoUpdatedAt": "2023-09-27T22:14:42Z",
+      "databaseEntryUpdatedAt": "2023-09-27T22:21:52.445Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -5087,7 +5087,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.5/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 13133,
+      "downloadCount": 13167,
       "latestReleaseDate": "2023-09-25T23:47:06Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -5106,8 +5106,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2023-09-27T17:02:10Z",
-      "databaseEntryUpdatedAt": "2023-09-27T17:06:43.761Z",
+      "repoUpdatedAt": "2023-09-27T22:04:51Z",
+      "databaseEntryUpdatedAt": "2023-09-27T22:21:52.373Z",
       "repoVariations": [],
       "viewCount": 44,
       "weeklyViewCount": 21,
