@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133940
+    "downloadCount": 133941
   },
   "releases": [
     {
@@ -163,18 +163,18 @@
       "uniqueName": "misternebula.FreeCam",
       "description": "A free-camera mod for Outer Wilds",
       "author": "misternebula",
-      "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.6.0/misternebula.FreeCam.zip",
+      "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.7.0/misternebula.FreeCam.zip",
       "downloadCount": 5981,
-      "latestReleaseDate": "2022-10-04T20:27:56Z",
+      "latestReleaseDate": "2023-09-27T19:40:51Z",
       "firstReleaseDate": "2020-04-10T13:12:27Z",
       "repo": "https://github.com/misternebula/FreeCam",
-      "version": "v2.6.0",
+      "version": "v2.7.0",
       "readme": {
         "htmlUrl": "https://github.com/misternebula/FreeCam/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/misternebula/FreeCam/master/README.md"
       },
       "authorDisplay": "_nebula & xen",
-      "latestReleaseDescription": "## Features:\r\n- Added on-screen prompts for all controls (can be hidden in the options menu)\r\n- Added new key (\") to toggle hiding the HUD (good for screenshots!)\r\n\r\n## Fixes:\r\n- Removed helmet toggle key since it does nothing now (CCU handles this).\r\n- Fixed a bug which locked your controls if you used FreeCam while in a projection pool.",
+      "latestReleaseDescription": "- Fixed issues caused by Patch 14",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
@@ -183,8 +183,8 @@
       "thumbnail": {
         "main": "freecam.webp"
       },
-      "repoUpdatedAt": "2023-09-27T19:38:30Z",
-      "databaseEntryUpdatedAt": "2023-09-27T19:40:15.846Z",
+      "repoUpdatedAt": "2023-09-27T19:47:27Z",
+      "databaseEntryUpdatedAt": "2023-09-27T19:53:04.344Z",
       "repoVariations": [],
       "viewCount": 171,
       "weeklyViewCount": 51,
