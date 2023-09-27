@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133923
+    "downloadCount": 133925
   },
   "releases": [
     {
@@ -89,18 +89,18 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
       "author": "qsb-dev",
-      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v0.31.0/Raicuparta.QuantumSpaceBuddies.zip",
+      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v0.31.1/Raicuparta.QuantumSpaceBuddies.zip",
       "downloadCount": 37004,
-      "latestReleaseDate": "2023-09-18T22:12:51Z",
+      "latestReleaseDate": "2023-09-27T13:58:19Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/qsb-dev/quantum-space-buddies",
-      "version": "v0.31.0",
+      "version": "v0.31.1",
       "readme": {
         "htmlUrl": "https://github.com/qsb-dev/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Replaced Epic transport with Steam transport. Should fix a lot of connection issues.\r\n- Added `copy-id` command to chat, which copies the Steam ID to the clipboard. (Doesn't work on KCP servers)\r\n- Added `UnityEvent<string, uint> OnChatMessage();` and `void SendChatMessage(string message, bool systemMessage, Color color);` to the API. Closes #645 \r\n   - OnChatMessage is invoked whenever a message appears in chat, excluding the output of commands.\r\n   - SendChatMessage sends a message in chat. If `systemMessage` is true, the message is prefixed with \"QSB: \", otherwise it's prefixed with the local player's name.\r\n- Updated OWML\r\n- Updated documentation",
+      "latestReleaseDescription": "- Fixed issue with not being able to start a lobby in Patch 14.\r\n- Updated OWML.",
       "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
@@ -115,8 +115,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-09-27T13:49:20Z",
-      "databaseEntryUpdatedAt": "2023-09-27T13:53:37.067Z",
+      "repoUpdatedAt": "2023-09-27T13:59:24Z",
+      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.024Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies",
         "https://github.com/misternebula/quantum-space-buddies"
@@ -7470,7 +7470,7 @@
         "main": "colorcameras.webp"
       },
       "repoUpdatedAt": "2023-04-08T17:29:05Z",
-      "databaseEntryUpdatedAt": "2023-09-27T02:02:11.868Z",
+      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.014Z",
       "repoVariations": [],
       "viewCount": 31,
       "weeklyViewCount": 10,
@@ -7500,7 +7500,7 @@
       "slug": "invertlookcontrols",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-07T09:14:55Z",
-      "databaseEntryUpdatedAt": "2023-09-27T02:02:10.532Z",
+      "databaseEntryUpdatedAt": "2023-09-27T14:11:51.840Z",
       "repoVariations": [],
       "viewCount": 11,
       "weeklyViewCount": 8,
@@ -7563,7 +7563,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-25T14:11:34Z",
-      "databaseEntryUpdatedAt": "2023-09-27T02:02:10.544Z",
+      "databaseEntryUpdatedAt": "2023-09-27T14:11:51.846Z",
       "repoVariations": [],
       "viewCount": 8,
       "weeklyViewCount": 3,
@@ -7662,7 +7662,7 @@
         "main": "throwableitems.webp"
       },
       "repoUpdatedAt": "2023-05-16T23:01:43Z",
-      "databaseEntryUpdatedAt": "2023-09-27T02:02:14.483Z",
+      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.405Z",
       "repoVariations": [],
       "viewCount": 14,
       "weeklyViewCount": 2,
@@ -7909,7 +7909,7 @@
         "main": "icelandiclocalization.webp"
       },
       "repoUpdatedAt": "2023-06-29T16:28:54Z",
-      "databaseEntryUpdatedAt": "2023-09-27T02:02:14.483Z",
+      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.379Z",
       "repoVariations": [],
       "viewCount": 5,
       "weeklyViewCount": 1,
@@ -7942,7 +7942,7 @@
         "main": "outerwildskazoo.webp"
       },
       "repoUpdatedAt": "2023-07-07T19:47:29Z",
-      "databaseEntryUpdatedAt": "2023-09-27T02:02:14.483Z",
+      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.021Z",
       "repoVariations": [],
       "viewCount": 35,
       "weeklyViewCount": 7,
@@ -8131,7 +8131,7 @@
       "description": "A short story mod for Outer Wilds.",
       "author": "Hawkbat",
       "downloadUrl": "https://github.com/Hawkbat/ow-mod-jam-2/releases/download/0.1.0/Hawkbar.TheSurvivors.zip",
-      "downloadCount": 305,
+      "downloadCount": 307,
       "latestReleaseDate": "2023-07-16T07:37:52Z",
       "firstReleaseDate": "2023-07-16T07:37:52Z",
       "repo": "https://github.com/Hawkbat/ow-mod-jam-2",
@@ -8153,7 +8153,7 @@
         "main": "thesurvivors.webp"
       },
       "repoUpdatedAt": "2023-07-16T13:48:49Z",
-      "databaseEntryUpdatedAt": "2023-09-27T02:02:11.868Z",
+      "databaseEntryUpdatedAt": "2023-09-27T14:11:51.844Z",
       "repoVariations": [],
       "viewCount": 167,
       "weeklyViewCount": 47,
@@ -8331,7 +8331,7 @@
         "main": "outerwives.webp"
       },
       "repoUpdatedAt": "2023-08-04T22:08:01Z",
-      "databaseEntryUpdatedAt": "2023-09-27T02:02:11.871Z",
+      "databaseEntryUpdatedAt": "2023-09-27T14:11:51.985Z",
       "repoVariations": [],
       "viewCount": 265,
       "weeklyViewCount": 24,
