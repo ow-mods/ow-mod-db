@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 133952
+    "downloadCount": 133953
   },
   "releases": [
     {
@@ -90,7 +90,7 @@
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
       "author": "qsb-dev",
       "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v0.31.1/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 37004,
+      "downloadCount": 37105,
       "latestReleaseDate": "2023-09-27T13:58:19Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/qsb-dev/quantum-space-buddies",
@@ -116,7 +116,7 @@
         "main": "quantumspacebuddies.webp"
       },
       "repoUpdatedAt": "2023-09-27T13:59:24Z",
-      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.024Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:55.972Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies",
         "https://github.com/misternebula/quantum-space-buddies"
@@ -5083,11 +5083,11 @@
     {
       "name": "Custom Ship Log Modes",
       "uniqueName": "dgarro.CustomShipLogModes",
-      "description": "Allows other mods to add their custom Ship Log modes!",
+      "description": "Allows other mods to add their custom Ship Log modes",
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.6/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 13186,
+      "downloadCount": 13195,
       "latestReleaseDate": "2023-09-28T01:27:32Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -5097,7 +5097,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix most remaining identified issues of Outer Wilds Patch 14, see notes here: https://github.com/dgarroDC/CustomShipLogModes/releases/tag/1.1.6",
+      "latestReleaseDescription": "Fix most remaining identified issues of Outer Wilds Patch 14:\r\n- There is now a new upper right prompt list used for custom modes instead of the Map Mode one, so now they are visible again!\r\n- The selection arrow is now properly horizontally placed on item lists without the photo area (including mode selector)\r\n- Item lists without the description field (including mode selector) are expanded vertically again\r\n- For now, item lists will be forcibly set their UI sizes to regular (so they would look like the Map Mode item list with regular size), and this includes the description field (since this is shared with vanilla modes, this size is restored when closing the item list), but this could be made configurable in the future\r\n- The new mask for the photo now has graphics disabled for item lists, avoiding undesirable effects like a white image covering the question mark. Mobius might disable this graphic in the Map Mode on the next hotfix, making this change unnecessary (but shouldn't cause any issues)\r\n\r\nThere are still minor issues. For example, some item lists (for example, in Journal) don't have the photo properly placed (related to mask?), the upper right prompts in Map Mode look bad when using large UI (because of the extra prompt and the fact that in large UI these are placed vertically), and also some error logs related to the mask. However, I want to wait for the Outer Wilds hotfix before tackling these issues (unless the hotfix takes a lot of time to be released or isn't released at all).",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -5106,8 +5106,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2023-09-28T01:33:17Z",
-      "databaseEntryUpdatedAt": "2023-09-28T01:35:06.928Z",
+      "repoUpdatedAt": "2023-09-28T02:23:35Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:56.283Z",
       "repoVariations": [],
       "viewCount": 45,
       "weeklyViewCount": 21,
@@ -7470,7 +7470,7 @@
         "main": "colorcameras.webp"
       },
       "repoUpdatedAt": "2023-04-08T17:29:05Z",
-      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.014Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:55.571Z",
       "repoVariations": [],
       "viewCount": 31,
       "weeklyViewCount": 8,
@@ -7483,7 +7483,7 @@
       "description": "Inverts Look inputs (right-stick) on both axes",
       "author": "Tephirax",
       "downloadUrl": "https://github.com/Tephirax/Invert-Look-Controls/releases/download/0.1.1/Tephirax.InvertLookControls.zip",
-      "downloadCount": 103,
+      "downloadCount": 104,
       "latestReleaseDate": "2023-04-07T09:14:49Z",
       "firstReleaseDate": "2023-04-06T09:50:37Z",
       "repo": "https://github.com/Tephirax/Invert-Look-Controls",
@@ -7500,7 +7500,7 @@
       "slug": "invertlookcontrols",
       "thumbnail": {},
       "repoUpdatedAt": "2023-04-07T09:14:55Z",
-      "databaseEntryUpdatedAt": "2023-09-27T14:11:51.840Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:43.034Z",
       "repoVariations": [],
       "viewCount": 11,
       "weeklyViewCount": 8,
@@ -7546,7 +7546,7 @@
       "description": "Easy Dream World access and triggering of events",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWDreamWorldModAssist/releases/download/v0.1.5/VioVayo.DWModAssist.zip",
-      "downloadCount": 91,
+      "downloadCount": 92,
       "latestReleaseDate": "2023-06-25T14:05:45Z",
       "firstReleaseDate": "2023-04-16T11:39:43Z",
       "repo": "https://github.com/VioVayo/OWDreamWorldModAssist",
@@ -7563,7 +7563,7 @@
       "slug": "dreamworldmoddinganddebugassist",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-25T14:11:34Z",
-      "databaseEntryUpdatedAt": "2023-09-27T14:11:51.846Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:43.757Z",
       "repoVariations": [],
       "viewCount": 8,
       "weeklyViewCount": 3,
@@ -7662,7 +7662,7 @@
         "main": "throwableitems.webp"
       },
       "repoUpdatedAt": "2023-05-16T23:01:43Z",
-      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.405Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:56.039Z",
       "repoVariations": [],
       "viewCount": 14,
       "weeklyViewCount": 2,
@@ -7730,8 +7730,8 @@
       "thumbnail": {
         "main": "thehatchlingsjournal.webp"
       },
-      "repoUpdatedAt": "2023-09-28T01:54:11Z",
-      "databaseEntryUpdatedAt": "2023-09-28T02:01:50.685Z",
+      "repoUpdatedAt": "2023-09-28T02:09:26Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:56.031Z",
       "repoVariations": [],
       "viewCount": 49,
       "weeklyViewCount": 22,
@@ -7909,7 +7909,7 @@
         "main": "icelandiclocalization.webp"
       },
       "repoUpdatedAt": "2023-06-29T16:28:54Z",
-      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.379Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:56.022Z",
       "repoVariations": [],
       "viewCount": 4,
       "weeklyViewCount": 1,
@@ -7942,7 +7942,7 @@
         "main": "outerwildskazoo.webp"
       },
       "repoUpdatedAt": "2023-07-07T19:47:29Z",
-      "databaseEntryUpdatedAt": "2023-09-27T14:12:04.021Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:56.227Z",
       "repoVariations": [],
       "viewCount": 34,
       "weeklyViewCount": 6,
@@ -8153,7 +8153,7 @@
         "main": "thesurvivors.webp"
       },
       "repoUpdatedAt": "2023-07-16T13:48:49Z",
-      "databaseEntryUpdatedAt": "2023-09-27T14:11:51.844Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:55.701Z",
       "repoVariations": [],
       "viewCount": 161,
       "weeklyViewCount": 44,
@@ -8311,7 +8311,7 @@
       "author": "Raicuparta",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Raicuparta/outer-wives/releases/download/v0.2.4/Raicuparta.OuterWives.zip",
-      "downloadCount": 207,
+      "downloadCount": 208,
       "latestReleaseDate": "2023-08-04T22:06:19Z",
       "firstReleaseDate": "2023-07-30T16:25:55Z",
       "repo": "https://github.com/Raicuparta/outer-wives",
@@ -8331,7 +8331,7 @@
         "main": "outerwives.webp"
       },
       "repoUpdatedAt": "2023-08-04T22:08:01Z",
-      "databaseEntryUpdatedAt": "2023-09-27T14:11:51.985Z",
+      "databaseEntryUpdatedAt": "2023-09-28T02:26:55.851Z",
       "repoVariations": [],
       "viewCount": 261,
       "weeklyViewCount": 22,
