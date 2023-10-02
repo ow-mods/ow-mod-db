@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 134152
+    "downloadCount": 134153
   },
   "releases": [
     {
@@ -8504,18 +8504,18 @@
       "uniqueName": "SBtT.CameraShake",
       "description": "This mod adds some camera shakage to various parts of the game.",
       "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/SBtT.CameraShake/releases/download/1.0.0/SBtT.CameraShake.zip",
+      "downloadUrl": "https://github.com/MegaPiggy/SBtT.CameraShake/releases/download/1.0.1/SBtT.CameraShake.zip",
       "downloadCount": 21,
-      "latestReleaseDate": "2023-09-28T00:58:46Z",
+      "latestReleaseDate": "2023-10-02T04:05:24Z",
       "firstReleaseDate": "2023-09-28T00:58:46Z",
       "repo": "https://github.com/MegaPiggy/SBtT.CameraShake",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "readme": {
         "htmlUrl": "https://github.com/MegaPiggy/SBtT.CameraShake/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SBtT.CameraShake/main/README.md"
       },
       "authorDisplay": "Streetlights Behind the Trees",
-      "latestReleaseDescription": "first release",
+      "latestReleaseDescription": "- New API for other modders to use\r\n- Added more detail to the flood impact shakes (different shake will play depending on what the dam wave hits)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -8525,8 +8525,8 @@
       "thumbnail": {
         "main": "camerashake.webp"
       },
-      "repoUpdatedAt": "2023-10-02T03:51:52Z",
-      "databaseEntryUpdatedAt": "2023-10-02T03:56:46.237Z",
+      "repoUpdatedAt": "2023-10-02T04:05:53Z",
+      "databaseEntryUpdatedAt": "2023-10-02T04:08:08.122Z",
       "repoVariations": [],
       "viewCount": 73,
       "weeklyViewCount": 73,
