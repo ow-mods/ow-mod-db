@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 134242
+    "downloadCount": 134243
   },
   "releases": [
     {
@@ -641,7 +641,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/OW_CommonResources/releases/download/0.5.15/PacificEngine.OW_CommonResources.zip",
-      "downloadCount": 14364,
+      "downloadCount": 14370,
       "latestReleaseDate": "2022-09-29T17:14:07Z",
       "firstReleaseDate": "2021-11-04T17:05:47Z",
       "repo": "https://github.com/dgarroDC/OW_CommonResources",
@@ -659,7 +659,7 @@
       "slug": "pacificenginescommonresources",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-26T10:51:50Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:40.773Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:42.281Z",
       "repoVariations": [],
       "viewCount": 29,
       "weeklyViewCount": 10,
@@ -1008,7 +1008,7 @@
       "slug": "autoresume",
       "thumbnail": {},
       "repoUpdatedAt": "2023-08-03T13:29:36Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:40.773Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:42.699Z",
       "repoVariations": [],
       "viewCount": 15,
       "weeklyViewCount": 6,
@@ -1084,18 +1084,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.17.0/xen.NewHorizons.zip",
-      "downloadCount": 33683,
-      "latestReleaseDate": "2023-09-27T22:12:49Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.17.1/xen.NewHorizons.zip",
+      "downloadCount": 33685,
+      "latestReleaseDate": "2023-10-04T00:45:06Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.17.0",
+      "version": "v1.17.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- Updated to Outer Wilds patch 14\r\n\r\n## Improvements\r\n- Added Japanese localization. Thanks TRSasasusu!\r\n- Ghost animator components don't always get removed now (except when they need to be)\r\n\r\n## Bug fixes\r\n- Fixed a bug where ParticleFields assumes you have an Atmosphere and fails to build your planet if you don't\r\n- Reload Configs button always reloads bundles/textures/audio now\r\n- Fixed a bug where fog preview lights were being affected too much by node scaling (cause of #574)\r\n- Fixed an issue where fog of bramble nodes was being double scaled (maybe caused by c9ee5ec1ac38a7ad9b5b9c4c7329ec526bf8cace)\r\n- When loading into a custom star system on the first loop, the time loop will actually start now.\r\n\r\nThanks coderCleric for the Bramble bug fixes \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/735**",
+      "latestReleaseDescription": "## Bug fixes\r\n- In new systems, banish the sun to the shadow zone to prevent it eating vision torches. Yummy. Fixes #736\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/739**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1106,8 +1106,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-10-04T19:54:02Z",
-      "databaseEntryUpdatedAt": "2023-10-04T19:55:08.638Z",
+      "repoUpdatedAt": "2023-10-04T20:02:16Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:52.300Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -2320,7 +2320,7 @@
       "description": "Adds the ability to translate the unknown language.",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/GhostTranslations/releases/download/1.0.2/MegaPiggy.GhostTranslations.zip",
-      "downloadCount": 2153,
+      "downloadCount": 2155,
       "latestReleaseDate": "2023-07-25T05:05:11Z",
       "firstReleaseDate": "2022-04-03T00:22:57Z",
       "repo": "https://github.com/MegaPiggy/GhostTranslations",
@@ -2340,7 +2340,7 @@
         "main": "ghosttranslations.webp"
       },
       "repoUpdatedAt": "2023-07-25T05:11:14Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:42.071Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:44.875Z",
       "repoVariations": [],
       "viewCount": 164,
       "weeklyViewCount": 41,
@@ -3169,7 +3169,7 @@
         "main": "togglevelocitymatching.webp"
       },
       "repoUpdatedAt": "2023-08-16T06:38:43Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:41.487Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:43.773Z",
       "repoVariations": [],
       "viewCount": 12,
       "weeklyViewCount": 0,
@@ -4084,7 +4084,7 @@
       "description": "A mod for Outer Wilds that stops the end of the loop from happening.",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/StopTime/releases/download/1.0.0/StopTime.zip",
-      "downloadCount": 3223,
+      "downloadCount": 3225,
       "latestReleaseDate": "2022-07-25T22:47:06Z",
       "firstReleaseDate": "2020-04-12T19:16:40Z",
       "repo": "https://github.com/misternebula/StopTime",
@@ -4097,7 +4097,7 @@
       "slug": "stoptime",
       "thumbnail": {},
       "repoUpdatedAt": "2023-06-26T11:19:55Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:59.451Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:17:04.646Z",
       "repoVariations": [],
       "viewCount": 55,
       "weeklyViewCount": 9,
@@ -4619,7 +4619,7 @@
         "main": "secretwords.webp"
       },
       "repoUpdatedAt": "2023-08-08T15:35:54Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:42.581Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:43.773Z",
       "repoVariations": [],
       "viewCount": 23,
       "weeklyViewCount": 4,
@@ -4953,7 +4953,7 @@
       "author": "Samster68OW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Samster68OW/fretsquest/releases/download/v0.5.1/fretsquest.zip",
-      "downloadCount": 2360,
+      "downloadCount": 2361,
       "latestReleaseDate": "2023-02-21T20:51:47Z",
       "firstReleaseDate": "2022-10-01T23:01:22Z",
       "repo": "https://github.com/Samster68OW/fretsquest",
@@ -4974,7 +4974,7 @@
         "main": "fretsquest.webp"
       },
       "repoUpdatedAt": "2023-09-23T05:22:33Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:49.815Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:44.870Z",
       "repoVariations": [],
       "viewCount": 64,
       "weeklyViewCount": 11,
@@ -5019,7 +5019,7 @@
       "author": "RealOrbital32",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/RealOrbital32/funny-system/releases/download/1.8.0/O32.FunnySystem.zip",
-      "downloadCount": 1564,
+      "downloadCount": 1566,
       "latestReleaseDate": "2023-01-28T23:35:50Z",
       "firstReleaseDate": "2022-10-02T21:32:53Z",
       "repo": "https://github.com/RealOrbital32/funny-system",
@@ -5039,7 +5039,7 @@
         "main": "funnysystem.webp"
       },
       "repoUpdatedAt": "2023-01-30T06:05:15Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:49.815Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:45.415Z",
       "repoVariations": [],
       "viewCount": 32,
       "weeklyViewCount": 6,
@@ -5175,7 +5175,7 @@
         "main": "smallestsysteminthegalaxy.webp"
       },
       "repoUpdatedAt": "2023-01-07T20:47:13Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:49.814Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:44.402Z",
       "repoVariations": [],
       "viewCount": 18,
       "weeklyViewCount": 2,
@@ -5210,7 +5210,7 @@
         "main": "developerconsole.webp"
       },
       "repoUpdatedAt": "2022-11-07T03:52:35Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:42.768Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:44.402Z",
       "repoVariations": [],
       "viewCount": 9,
       "weeklyViewCount": 2,
@@ -5309,7 +5309,7 @@
         "main": "thewildsextended.webp"
       },
       "repoUpdatedAt": "2022-11-03T02:33:23Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:57:49.815Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:16:52.299Z",
       "repoVariations": [],
       "viewCount": 22,
       "weeklyViewCount": 2,
@@ -7971,7 +7971,7 @@
       "slug": "qsbmultipleships",
       "thumbnail": {},
       "repoUpdatedAt": "2023-08-23T20:45:13Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:58:08.532Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:17:34.781Z",
       "repoVariations": [
         "https://github.com/misternebula/qsb-multiple-ships"
       ],
@@ -8593,7 +8593,7 @@
       "slug": "owaml",
       "thumbnail": {},
       "repoUpdatedAt": "2023-07-22T21:07:06Z",
-      "databaseEntryUpdatedAt": "2023-10-04T07:58:31.592Z",
+      "databaseEntryUpdatedAt": "2023-10-04T20:17:02.618Z",
       "repoVariations": [
         "https://github.com/ShoosGun/OWAML",
         "https://github.com/loco-choco/OWAML"
