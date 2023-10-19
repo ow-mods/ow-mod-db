@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 134720
+    "downloadCount": 134721
   },
   "releases": [
     {
@@ -5137,7 +5137,9 @@
         "tweaks"
       ],
       "slug": "shiplogslidereelplayerplus",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "shiplogslidereelplayerplus.webp"
+      },
       "repoUpdatedAt": "2023-09-27T03:34:24Z",
       "databaseEntryUpdatedAt": "2023-10-19T09:22:50.059Z",
       "repoVariations": [],
@@ -8564,6 +8566,33 @@
       "weeklyViewCount": 49,
       "installCount": 7,
       "weeklyInstallCount": 3
+    },
+    {
+      "name": "Toggle Hud",
+      "uniqueName": "Yurtle.ToggleHUD",
+      "description": "",
+      "author": "Yurtle212",
+      "downloadUrl": "https://github.com/Yurtle212/OuterWilds-ToggleHUD/releases/download/v0.1.0/Yurtle.ToggleHUD.zip",
+      "downloadCount": 1,
+      "latestReleaseDate": "2023-10-18T22:53:03Z",
+      "firstReleaseDate": "2023-10-18T22:53:03Z",
+      "repo": "https://github.com/Yurtle212/OuterWilds-ToggleHUD",
+      "version": "v0.1.0",
+      "authorDisplay": "Yurtle",
+      "latestReleaseDescription": "First release",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "togglehud",
+      "thumbnail": {},
+      "repoUpdatedAt": "2023-10-18T22:55:29Z",
+      "databaseEntryUpdatedAt": "2023-10-19T14:28:03.926Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
