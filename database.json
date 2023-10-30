@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 134984
+    "downloadCount": 134985
   },
   "releases": [
     {
@@ -89,18 +89,18 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
       "author": "qsb-dev",
-      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v0.31.1/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 38863,
-      "latestReleaseDate": "2023-09-27T13:58:19Z",
+      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v0.31.2/Raicuparta.QuantumSpaceBuddies.zip",
+      "downloadCount": 38864,
+      "latestReleaseDate": "2023-10-30T11:14:03Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/qsb-dev/quantum-space-buddies",
-      "version": "v0.31.1",
+      "version": "v0.31.2",
       "readme": {
         "htmlUrl": "https://github.com/qsb-dev/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Fixed issue with not being able to start a lobby in Patch 14.\r\n- Updated OWML.",
+      "latestReleaseDescription": "Fixed QSB not working on Epic and Microsoft versions due to steamworks dll differences.",
       "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
@@ -115,8 +115,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-10-30T10:45:43Z",
-      "databaseEntryUpdatedAt": "2023-10-30T10:50:08.615Z",
+      "repoUpdatedAt": "2023-10-30T11:15:22Z",
+      "databaseEntryUpdatedAt": "2023-10-30T11:19:43.093Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies",
         "https://github.com/misternebula/quantum-space-buddies"
@@ -6719,7 +6719,7 @@
       "author": "CantAffordaName",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.Archipelago/releases/download/v1.0.0-FixedRelease/CantAffordaName.Archipelago.zip",
-      "downloadCount": 491,
+      "downloadCount": 492,
       "latestReleaseDate": "2023-01-23T17:04:35Z",
       "firstReleaseDate": "2023-01-23T17:04:35Z",
       "repo": "https://github.com/CantAffordaName/CantAffordaName.Archipelago",
@@ -6741,7 +6741,7 @@
         "main": "archipelago.webp"
       },
       "repoUpdatedAt": "2023-09-18T22:56:25Z",
-      "databaseEntryUpdatedAt": "2023-10-29T23:13:53.606Z",
+      "databaseEntryUpdatedAt": "2023-10-30T11:19:28.434Z",
       "repoVariations": [],
       "viewCount": 24,
       "weeklyViewCount": 5,
@@ -6755,7 +6755,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearth1an.Intervention/releases/download/v1.0.7/hearth1an.Intervention.zip",
-      "downloadCount": 983,
+      "downloadCount": 985,
       "latestReleaseDate": "2023-10-03T04:03:24Z",
       "firstReleaseDate": "2023-01-23T16:50:35Z",
       "repo": "https://github.com/hearth1an/hearth1an.Intervention",
@@ -6778,7 +6778,7 @@
         "openGraph": "intervention-static.webp"
       },
       "repoUpdatedAt": "2023-10-03T04:03:40Z",
-      "databaseEntryUpdatedAt": "2023-10-29T23:13:56.790Z",
+      "databaseEntryUpdatedAt": "2023-10-30T11:19:43.383Z",
       "repoVariations": [],
       "viewCount": 105,
       "weeklyViewCount": 28,
@@ -7710,7 +7710,7 @@
       "description": "Take your notes in a new Ship Log mode that lets you create and view your own entries",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/Journal/releases/download/1.1.1/dgarro.Journal.zip",
-      "downloadCount": 212,
+      "downloadCount": 213,
       "latestReleaseDate": "2023-09-28T02:27:24Z",
       "firstReleaseDate": "2023-06-06T01:36:21Z",
       "repo": "https://github.com/dgarroDC/Journal",
@@ -7731,7 +7731,7 @@
         "main": "thehatchlingsjournal.webp"
       },
       "repoUpdatedAt": "2023-09-30T03:09:06Z",
-      "databaseEntryUpdatedAt": "2023-10-29T23:13:56.434Z",
+      "databaseEntryUpdatedAt": "2023-10-30T11:19:43.085Z",
       "repoVariations": [],
       "viewCount": 63,
       "weeklyViewCount": 10,
