@@ -89,18 +89,18 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
       "author": "qsb-dev",
-      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v0.31.2/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 39233,
-      "latestReleaseDate": "2023-10-30T11:14:03Z",
+      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v0.31.1/Raicuparta.QuantumSpaceBuddies.zip",
+      "downloadCount": 38887,
+      "latestReleaseDate": "2023-09-27T13:58:19Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/qsb-dev/quantum-space-buddies",
-      "version": "v0.31.2",
+      "version": "v0.31.1",
       "readme": {
         "htmlUrl": "https://github.com/qsb-dev/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "Fixed QSB not working on Epic and Microsoft versions due to steamworks dll differences.",
+      "latestReleaseDescription": "- Fixed issue with not being able to start a lobby in Patch 14.\r\n- Updated OWML.",
       "latestPrereleaseDescription": "- Overhauled how deaths and respawns work. This fixes a lot of bugs when dying in a DLC location.\r\n- Added Spanish localization - thanks to [poleshe](https://github.com/poleshe)\r\n- Fixed being able to meditate while dead.\r\n- Fixed a bug where players would sometimes be kicked after the statue cutscene.\r\n- Fixed patches from addons not working properly.\r\n- Fixed errors after the statue cutscene.\r\n- Removed startup popup for QSB changelog, because it was too annoying to keep updated.",
       "prerelease": {
         "version": "0.24.0-pr1",
@@ -115,8 +115,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2023-10-31T17:51:10Z",
-      "databaseEntryUpdatedAt": "2023-11-03T18:39:37.572Z",
+      "repoUpdatedAt": "2023-11-03T20:20:59Z",
+      "databaseEntryUpdatedAt": "2023-11-03T20:21:51.405Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies",
         "https://github.com/misternebula/quantum-space-buddies"
