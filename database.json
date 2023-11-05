@@ -43,6 +43,48 @@
       "weeklyInstallCount": 0
     },
     {
+      "name": "NomaiVR",
+      "uniqueName": "Raicuparta.NomaiVR",
+      "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
+      "author": "Raicuparta",
+      "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
+      "downloadCount": 61536,
+      "latestReleaseDate": "2023-01-23T22:12:18Z",
+      "firstReleaseDate": "2020-01-06T20:41:19Z",
+      "repo": "https://github.com/Raicuparta/nomai-vr",
+      "version": "2.9.2",
+      "readme": {
+        "htmlUrl": "https://github.com/Raicuparta/nomai-vr/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Raicuparta/nomai-vr/master/README.md"
+      },
+      "authorDisplay": "Raicuparta & Artum",
+      "latestReleaseDescription": "- Changed toolbelt hiding logic to support more mods",
+      "latestPrereleaseDescription": "This release doesn't disable keyboard inputs, like normal NomaiVR does. You need to repair the game before installing this release.\r\n\r\nA side effect of this change is that the ending of the game (after the credits) has really bad performance. So if you're gonna finish the game, don't use this.",
+      "prerelease": {
+        "version": "2.9.3-pre",
+        "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.3-pre/Raicuparta.NomaiVR.zip",
+        "date": "2023-02-26T00:30:26Z"
+      },
+      "tags": [
+        "gameplay",
+        "integration"
+      ],
+      "slug": "nomaivr",
+      "thumbnail": {
+        "main": "nomaivr.webp",
+        "openGraph": "nomaivr-static.webp"
+      },
+      "repoUpdatedAt": "2023-10-31T18:08:22Z",
+      "databaseEntryUpdatedAt": "2023-11-05T07:39:21.635Z",
+      "repoVariations": [
+        "https://github.com/Raicuparta/NomaiVR"
+      ],
+      "viewCount": 3651,
+      "weeklyViewCount": 930,
+      "installCount": 940,
+      "weeklyInstallCount": 299
+    },
+    {
       "name": "Quantum Space Buddies",
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
@@ -122,7 +164,7 @@
       "description": "A free-camera mod for Outer Wilds",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.7.0/misternebula.FreeCam.zip",
-      "downloadCount": 6378,
+      "downloadCount": 6380,
       "latestReleaseDate": "2023-09-27T19:40:51Z",
       "firstReleaseDate": "2020-04-10T13:12:27Z",
       "repo": "https://github.com/misternebula/FreeCam",
@@ -142,7 +184,7 @@
         "main": "freecam.webp"
       },
       "repoUpdatedAt": "2023-09-27T19:47:27Z",
-      "databaseEntryUpdatedAt": "2023-11-04T19:34:48.145Z",
+      "databaseEntryUpdatedAt": "2023-11-05T07:39:10.479Z",
       "repoVariations": [],
       "viewCount": 222,
       "weeklyViewCount": 52,
@@ -5601,7 +5643,7 @@
         "main": "nbodychaos.webp"
       },
       "repoUpdatedAt": "2023-10-19T15:03:38Z",
-      "databaseEntryUpdatedAt": "2023-11-04T19:34:48.064Z",
+      "databaseEntryUpdatedAt": "2023-11-05T07:39:09.947Z",
       "repoVariations": [],
       "viewCount": 23,
       "weeklyViewCount": 6,
@@ -6020,7 +6062,7 @@
       "slug": "funnychristmas",
       "thumbnail": {},
       "repoUpdatedAt": "2023-08-16T07:13:00Z",
-      "databaseEntryUpdatedAt": "2023-11-04T19:34:46.738Z",
+      "databaseEntryUpdatedAt": "2023-11-05T07:39:10.019Z",
       "repoVariations": [],
       "viewCount": 4,
       "weeklyViewCount": 1,
@@ -7117,7 +7159,7 @@
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
       "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.0.3/VioVayo.HugMod.zip",
-      "downloadCount": 1051,
+      "downloadCount": 1054,
       "latestReleaseDate": "2023-09-29T20:33:22Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
@@ -7136,7 +7178,7 @@
         "main": "hugmod.webp"
       },
       "repoUpdatedAt": "2023-09-29T20:37:22Z",
-      "databaseEntryUpdatedAt": "2023-11-04T19:34:56.730Z",
+      "databaseEntryUpdatedAt": "2023-11-05T07:39:11.433Z",
       "repoVariations": [],
       "viewCount": 61,
       "weeklyViewCount": 21,
@@ -8036,7 +8078,7 @@
         "main": "ernestosfundayoff.webp"
       },
       "repoUpdatedAt": "2023-07-16T17:36:52Z",
-      "databaseEntryUpdatedAt": "2023-11-04T19:34:56.730Z",
+      "databaseEntryUpdatedAt": "2023-11-05T07:39:11.424Z",
       "repoVariations": [],
       "viewCount": 29,
       "weeklyViewCount": 8,
