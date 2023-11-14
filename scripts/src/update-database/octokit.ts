@@ -3,7 +3,7 @@ import { type OctokitOptions } from "@octokit/core/dist-types/types.js";
 import { retry } from "@octokit/plugin-retry";
 import { throttling } from "@octokit/plugin-throttling";
 import fetch from "node-fetch";
-import { getLatestDate } from "./dates.js";
+import { getLatestDate } from "../helpers/dates.js";
 
 // It's useful to log the API call count,
 // but replacing the fetch function seems to some times cause the "premature close" error.

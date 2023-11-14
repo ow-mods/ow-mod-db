@@ -1,4 +1,7 @@
 import type { BaseMod } from "../mod.js";
+import { getDateAgeInHours } from "../helpers/dates.js";
+
+const MAX_UPDATE_AGE_HOURS = 24;
 
 export type DiffItem =
   | {
@@ -24,20 +27,25 @@ export function getDiff(previousDatabase: BaseMod[], nextDatabase: BaseMod[]) {
       (mod) => mod.uniqueName === nextDatabaseMod.uniqueName
     );
 
-    if (!previousDatabaseMod) {
-      diff.push({
-        diffType: "add",
-        nextMod: nextDatabaseMod,
-      });
-      continue;
-    }
+    if (
+      getDateAgeInHours(nextDatabaseMod.latestReleaseDate) <
+      MAX_UPDATE_AGE_HOURS
+    ) {
+      if (!previousDatabaseMod) {
+        diff.push({
+          diffType: "add",
+          nextMod: nextDatabaseMod,
+        });
+        continue;
+      }
 
-    if (previousDatabaseMod.version !== nextDatabaseMod.version) {
-      diff.push({
-        diffType: "update",
-        previousMod: previousDatabaseMod,
-        nextMod: nextDatabaseMod,
-      });
+      if (previousDatabaseMod.version !== nextDatabaseMod.version) {
+        diff.push({
+          diffType: "update",
+          previousMod: previousDatabaseMod,
+          nextMod: nextDatabaseMod,
+        });
+      }
     }
 
     if (
@@ -45,11 +53,16 @@ export function getDiff(previousDatabase: BaseMod[], nextDatabase: BaseMod[]) {
       previousDatabaseMod?.prerelease?.version !==
         nextDatabaseMod.prerelease.version
     ) {
-      diff.push({
-        diffType: "update-prerelease",
-        previousMod: previousDatabaseMod,
-        nextMod: nextDatabaseMod,
-      });
+      if (
+        getDateAgeInHours(nextDatabaseMod.prerelease.date) <
+        MAX_UPDATE_AGE_HOURS
+      ) {
+        diff.push({
+          diffType: "update-prerelease",
+          previousMod: previousDatabaseMod,
+          nextMod: nextDatabaseMod,
+        });
+      }
     }
   }
 

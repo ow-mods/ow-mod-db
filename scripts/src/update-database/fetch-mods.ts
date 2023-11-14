@@ -5,9 +5,9 @@ import {
   getCleanedUpReleaseList,
   getRepoUpdatedAt,
   getAllReleases,
-} from "./helpers/octokit.js";
-import { filterFulfilledPromiseSettleResults } from "./helpers/promises.js";
-import { getDateAgeInHours } from "./helpers/dates.js";
+} from "./octokit.js";
+import { filterFulfilledPromiseSettleResults } from "../helpers/promises.js";
+import { getDateAgeInHours } from "../helpers/dates.js";
 import { getReadmeUrls } from "./readmes.js";
 import { RELEASE_EXTENSION } from "../constants.js";
 import { BaseMod, OutputMod } from "../mod.js";
@@ -66,12 +66,11 @@ export async function fetchMods(
               : {};
 
           const repoURL = `${REPO_URL_BASE}/${modInfo.repo}`;
-          const repoVariations = 
-            modInfo.repoVariations 
-              ? modInfo.repoVariations.map(
-                  (value: string) => `${REPO_URL_BASE}/${value}`
-                ) 
-              : [];
+          const repoVariations = modInfo.repoVariations
+            ? modInfo.repoVariations.map(
+                (value: string) => `${REPO_URL_BASE}/${value}`
+              )
+            : [];
 
           if (!requiresUpdate) {
             return {
@@ -130,7 +129,8 @@ export async function fetchMods(
             totalDownloadCount += modInfo.downloadCountOffset;
           }
 
-          const firstReleaseDate = modInfo.firstReleaseDateOverride ??
+          const firstReleaseDate =
+            modInfo.firstReleaseDateOverride ??
             (releases[releases.length - 1] ?? cleanLatestRelease).date;
           const latestPrerelease = prereleases[0];
 

@@ -1,5 +1,5 @@
 import { RELEASE_EXTENSION } from "../constants.js";
-import { getAllReleases, getOctokit } from "./helpers/octokit.js";
+import { getAllReleases, getOctokit } from "./octokit.js";
 
 const MANAGER_REPO_AUTHOR = "ow-mods";
 const MANAGER_REPO_NAME = "ow-mod-manager";
