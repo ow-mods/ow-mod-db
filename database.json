@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 135430
+    "downloadCount": 135431
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.8/OWML.zip",
-      "downloadCount": 123343,
+      "downloadCount": 123401,
       "latestReleaseDate": "2023-09-25T20:58:24Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2023-11-11T21:37:49Z",
-      "databaseEntryUpdatedAt": "2023-11-16T11:09:01.205Z",
+      "databaseEntryUpdatedAt": "2023-11-16T23:14:28.730Z",
       "repoVariations": [],
       "viewCount": 887,
       "weeklyViewCount": 191,
@@ -8091,18 +8091,18 @@
       "description": "Warp to Hearth's Neighbor, a nearby star system with its own secrets hidden within...",
       "author": "GameWyrm",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/GameWyrm/HearthsNeighbor/releases/download/v1.0.5/GameWyrm.HearthsNeighbor.zip",
+      "downloadUrl": "https://github.com/GameWyrm/HearthsNeighbor/releases/download/v1.0.6/GameWyrm.HearthsNeighbor.zip",
       "downloadCount": 1189,
-      "latestReleaseDate": "2023-09-23T01:40:06Z",
+      "latestReleaseDate": "2023-11-16T22:53:19Z",
       "firstReleaseDate": "2023-07-16T06:20:35Z",
       "repo": "https://github.com/GameWyrm/HearthsNeighbor",
-      "version": "v1.0.5",
+      "version": "v1.0.6",
       "readme": {
         "htmlUrl": "https://github.com/GameWyrm/HearthsNeighbor/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/HearthsNeighbor/main/README.md"
       },
       "authorDisplay": "GameWyrm, EndgameZero, Lumine0409, and FunkyShoeMan",
-      "latestReleaseDescription": "Final update for the foreseeable future (barring bug fixes and translations). This update does not add any significant content, but makes some slight updates to existing puzzles and adds a French translation. Also, check the final room for a lot of new stuff :)",
+      "latestReleaseDescription": "* Added Japanese translation by Orclecle\r\n* Implemented a Curiosity and colors in the Ship Log\r\n* Disabled the debug spam in the log",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -8115,8 +8115,8 @@
       "thumbnail": {
         "main": "hearthsneighbor.webp"
       },
-      "repoUpdatedAt": "2023-11-16T22:50:02Z",
-      "databaseEntryUpdatedAt": "2023-11-16T22:54:23.248Z",
+      "repoUpdatedAt": "2023-11-16T22:56:58Z",
+      "databaseEntryUpdatedAt": "2023-11-16T23:14:26.218Z",
       "repoVariations": [
         "https://github.com/GameWyrm/OuterWildsSummerJam"
       ],
