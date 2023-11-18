@@ -1085,7 +1085,7 @@
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.17.3/xen.NewHorizons.zip",
-      "downloadCount": 36119,
+      "downloadCount": 36128,
       "latestReleaseDate": "2023-10-19T23:58:22Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1106,8 +1106,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-11-18T01:02:43Z",
-      "databaseEntryUpdatedAt": "2023-11-18T01:17:58.081Z",
+      "repoUpdatedAt": "2023-11-18T04:02:52Z",
+      "databaseEntryUpdatedAt": "2023-11-18T04:09:39.566Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -7386,7 +7386,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-ballpit/releases/download/v0.1.1/TerrificTrifid.ShipBallpit.zip",
-      "downloadCount": 233,
+      "downloadCount": 234,
       "latestReleaseDate": "2023-11-15T02:58:04Z",
       "firstReleaseDate": "2023-04-01T18:39:31Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-ballpit",
@@ -7406,7 +7406,7 @@
         "main": "shipballpit.webp"
       },
       "repoUpdatedAt": "2023-11-15T02:59:55Z",
-      "databaseEntryUpdatedAt": "2023-11-17T15:53:35.446Z",
+      "databaseEntryUpdatedAt": "2023-11-18T04:09:38.456Z",
       "repoVariations": [],
       "viewCount": 31,
       "weeklyViewCount": 19,
@@ -8232,6 +8232,43 @@
       "weeklyViewCount": 43,
       "installCount": 48,
       "weeklyInstallCount": 23
+    },
+    {
+      "name": "The Quasar Project",
+      "uniqueName": "Trifid.QuasarProject",
+      "description": "A demo of an upcoming story mod, as an entry in the summer jam.",
+      "author": "TerrificTrifid",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-quasar-project/releases/download/v0.2.0/Trifid.QuasarProject.zip",
+      "downloadCount": 496,
+      "latestReleaseDate": "2023-08-09T05:25:10Z",
+      "firstReleaseDate": "2023-07-16T17:06:28Z",
+      "repo": "https://github.com/TerrificTrifid/ow-nh-quasar-project",
+      "version": "v0.2.0",
+      "readme": {
+        "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-quasar-project/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-quasar-project/main/README.md"
+      },
+      "authorDisplay": "Trifid, JohnCorby, Turtle, Tetraminus",
+      "latestReleaseDescription": "- Added the main mechanic and its intro content!\r\n- Added more structures and details at the ending.\r\n- Various improvements and bug fixes.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "jam",
+        "gameplay",
+        "content",
+        "story"
+      ],
+      "slug": "thequasarproject",
+      "thumbnail": {
+        "main": "thequasarproject.webp"
+      },
+      "repoUpdatedAt": "2023-10-30T07:18:35Z",
+      "databaseEntryUpdatedAt": "2023-11-18T04:09:38.181Z",
+      "repoVariations": [],
+      "viewCount": 51,
+      "weeklyViewCount": 10,
+      "installCount": 19,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Skins for QSB",
