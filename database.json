@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 135561
+    "downloadCount": 135562
   },
   "releases": [
     {
@@ -8049,6 +8049,41 @@
       "weeklyViewCount": 16,
       "installCount": 22,
       "weeklyInstallCount": 4
+    },
+    {
+      "name": "Ernesto's Fun Day Off!",
+      "uniqueName": "Turtle.FunDayOff",
+      "description": "2023 Mod Jam Participant. Can you find and escape Ernesto's FUN Dungeon? Made in only 2 days.",
+      "author": "TextureTurtle",
+      "downloadUrl": "https://github.com/TextureTurtle/ErnestosFunDayOff/releases/download/0.4.0/MOD.WORKS.PATCH.zip",
+      "downloadCount": 182,
+      "latestReleaseDate": "2023-07-16T17:36:22Z",
+      "firstReleaseDate": "2023-07-16T05:18:30Z",
+      "repo": "https://github.com/TextureTurtle/ErnestosFunDayOff",
+      "version": "0.4.0",
+      "readme": {
+        "htmlUrl": "https://github.com/TextureTurtle/ErnestosFunDayOff/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/TextureTurtle/ErnestosFunDayOff/main/README.md"
+      },
+      "authorDisplay": "Texture_Turtle",
+      "latestReleaseDescription": "Had to fix mod real quick to be downloadable",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "jam",
+        "content",
+        "story"
+      ],
+      "slug": "ernestosfundayoff",
+      "thumbnail": {
+        "main": "ernestosfundayoff.webp"
+      },
+      "repoUpdatedAt": "2023-07-16T17:36:52Z",
+      "databaseEntryUpdatedAt": "2023-11-21T13:37:52.509Z",
+      "repoVariations": [],
+      "viewCount": 27,
+      "weeklyViewCount": 6,
+      "installCount": 11,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Hearth's Neighbor",
