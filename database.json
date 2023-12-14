@@ -7605,18 +7605,18 @@
       "uniqueName": "dgarro.EpicasAlbum",
       "description": "Upload your scout snapshots to an album in your Ship Log computer!",
       "author": "dgarroDC",
-      "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.1.1/dgarro.EpicasAlbum.zip",
-      "downloadCount": 287,
-      "latestReleaseDate": "2023-09-28T02:25:51Z",
+      "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.1.2/dgarro.EpicasAlbum.zip",
+      "downloadCount": 288,
+      "latestReleaseDate": "2023-12-14T02:23:17Z",
       "firstReleaseDate": "2023-05-15T04:11:44Z",
       "repo": "https://github.com/dgarroDC/EpicasAlbum",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "readme": {
         "htmlUrl": "https://github.com/dgarroDC/EpicasAlbum/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/EpicasAlbum/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix bottom prompts not showing after Outer Wilds Patch 14 (upper right prompts are already visible after the last Custom Ship Log Modes update)",
+      "latestReleaseDescription": "Fix issues with shutdown situations (ship electrical systems damaged) when the snapshot deletion confirmation is open (it's now closed canceling the deletion) or the snapshot chooser dialog is open (it's now closed without making a selection).\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7626,8 +7626,8 @@
       "thumbnail": {
         "main": "picasalbum.webp"
       },
-      "repoUpdatedAt": "2023-12-14T00:14:54Z",
-      "databaseEntryUpdatedAt": "2023-12-14T01:19:30.252Z",
+      "repoUpdatedAt": "2023-12-14T02:43:27Z",
+      "databaseEntryUpdatedAt": "2023-12-14T02:46:19.961Z",
       "repoVariations": [],
       "viewCount": 13,
       "weeklyViewCount": 1,
@@ -7707,18 +7707,18 @@
       "uniqueName": "dgarro.Journal",
       "description": "Take your notes in a new Ship Log mode that lets you create and view your own entries",
       "author": "dgarroDC",
-      "downloadUrl": "https://github.com/dgarroDC/Journal/releases/download/1.1.1/dgarro.Journal.zip",
+      "downloadUrl": "https://github.com/dgarroDC/Journal/releases/download/1.1.2/dgarro.Journal.zip",
       "downloadCount": 238,
-      "latestReleaseDate": "2023-09-28T02:27:24Z",
+      "latestReleaseDate": "2023-12-14T02:29:27Z",
       "firstReleaseDate": "2023-06-06T01:36:21Z",
       "repo": "https://github.com/dgarroDC/Journal",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "readme": {
         "htmlUrl": "https://github.com/dgarroDC/Journal/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/Journal/main/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix middle prompts not showing after Outer Wilds Patch 14 (upper right prompts are already visible after the last Custom Ship Log Modes update)",
+      "latestReleaseDescription": "Fix issues with shutdown situations (ship electrical systems damaged) in unexpected states. Particularly, it prevents a softlock when editing an entry name or description (it also saves the changes made on them).\r\n\r\nThank you @QuantumBlur314 for reporting this bug!\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7728,8 +7728,8 @@
       "thumbnail": {
         "main": "thehatchlingsjournal.webp"
       },
-      "repoUpdatedAt": "2023-12-14T00:16:53Z",
-      "databaseEntryUpdatedAt": "2023-12-14T01:19:30.252Z",
+      "repoUpdatedAt": "2023-12-14T02:43:44Z",
+      "databaseEntryUpdatedAt": "2023-12-14T02:46:25.211Z",
       "repoVariations": [],
       "viewCount": 25,
       "weeklyViewCount": 5,
