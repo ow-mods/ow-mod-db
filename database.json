@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 136132
+    "downloadCount": 136133
   },
   "releases": [
     {
@@ -1084,18 +1084,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.17.3/xen.NewHorizons.zip",
-      "downloadCount": 37311,
-      "latestReleaseDate": "2023-10-19T23:58:22Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.0/xen.NewHorizons.zip",
+      "downloadCount": 37312,
+      "latestReleaseDate": "2023-12-17T06:06:45Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.17.3",
+      "version": "v1.18.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes:\r\n- Fix the map grid marker under the player/probe/ship being messed up in other star systems \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/745**",
+      "latestReleaseDescription": "## Major features\r\n- Custom items and item sockets, as an extension of the existing details. Interactivity can be added without code by setting dialogue conditions with an item's `pickupCondition` or socket's `insertCondition`, and then turning other details on or off using their `activationCondition`.\r\n\r\n## Minor features\r\n- Added API methods for looking up translated strings for localization.\r\n\r\n## Bug fixes\r\n- Fixes orbs on copied details\r\n- Fix slide module default values #754\r\n- Fix slides being inverted in the ship log #746  \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/759**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1106,8 +1106,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2023-12-17T06:51:10Z",
-      "databaseEntryUpdatedAt": "2023-12-17T06:56:37.732Z",
+      "repoUpdatedAt": "2023-12-17T07:09:20Z",
+      "databaseEntryUpdatedAt": "2023-12-17T07:13:24.496Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
