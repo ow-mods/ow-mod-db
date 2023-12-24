@@ -66,6 +66,13 @@ body:
       description: If this mod is an addon for another mod, place the parent's uniqueName here. For instance, custom planets made with New Horizons would have `xen.NewHorizons` in this field.
       placeholder: Raicuparta.ModTemplateParent
   - type: dropdown
+    id: dlc
+    attributes:
+      label: DLC Required
+      description: Select "DLC Required" if this mod requires the Echoes of the Eye DLC to work.
+      options:
+        - "DLC Required"
+  - type: dropdown
     id: alpha
     attributes:
       label: Alpha Mod

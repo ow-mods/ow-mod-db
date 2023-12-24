@@ -21,6 +21,7 @@ type IssueForm = {
   uniqueName?: string;
   repoUrl?: string;
   alpha?: string;
+  dlc?: string;
   utility?: string;
   parent?: string;
   authorDisplay?: string;
@@ -35,6 +36,7 @@ async function run() {
     parent,
     utility,
     alpha,
+    dlc,
     authorDisplay,
     tags,
   }: IssueForm = JSON.parse(core.getInput(Input.form));
@@ -81,6 +83,10 @@ async function run() {
 
   if (tags) {
     newMod.tags = tags.split(", ");
+  }
+
+  if (dlc) {
+    newMod.tags.push("requires-dlc");
   }
 
   const existingMod = mods.find(
