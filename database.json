@@ -8122,7 +8122,6 @@
       "uniqueName": "GameWyrm.HearthsNeighbor",
       "description": "Warp to Hearth's Neighbor, a nearby star system with its own secrets hidden within...",
       "author": "GameWyrm",
-      "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/GameWyrm/HearthsNeighbor/releases/download/v1.0.7/GameWyrm.HearthsNeighbor.zip",
       "downloadCount": 1531,
       "latestReleaseDate": "2023-11-21T17:26:55Z",
@@ -8141,7 +8140,8 @@
         "gameplay",
         "content",
         "story",
-        "audiovisual"
+        "audiovisual",
+        "requires-dlc"
       ],
       "slug": "hearthsneighbor",
       "thumbnail": {
