@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 136317
+    "downloadCount": 136318
   },
   "releases": [
     {
@@ -1308,19 +1308,19 @@
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
       "latestReleaseDescription": "Changes:\r\n- Default **Sprint Strafe Speed** is now 8.\r\n- Sprinting will now use the oxygen thrust sound when out of fuel and the underwater thrust sound when underwater.\r\n- The jetpack thruster flame will no longer appear when underwater.\r\n\r\nBugfixes:\r\n- The jetpack will no longer be silent when used normally.\r\n- The thrust sound will no longer be too quiet after using the jetpack and landing.",
-      "latestPrereleaseDescription": "**This is a prerelease.**\r\n\r\nAdds camera shaker compatibility, the option to set emergency boost volume, and probably some other stuff that I don't remember.",
+      "latestPrereleaseDescription": "**This is a prerelease, hopefully the last one for this version.**\r\n\r\nHopefully fixed a bug where the ship thrusters would emergency boost too.",
       "prerelease": {
-        "version": "v1.6.2-pr1",
-        "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.6.2-pr1/Owen013.MovementMod.zip",
-        "date": "2023-12-23T22:44:39Z"
+        "version": "v1.6.2-pr2",
+        "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.6.2-pr2/Owen013.MovementMod.zip",
+        "date": "2023-12-26T18:22:29Z"
       },
       "tags": [
         "gameplay"
       ],
       "slug": "hikersmod",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-12-26T18:18:33Z",
-      "databaseEntryUpdatedAt": "2023-12-26T18:21:28.627Z",
+      "repoUpdatedAt": "2023-12-26T18:23:00Z",
+      "databaseEntryUpdatedAt": "2023-12-26T18:34:23.776Z",
       "repoVariations": [],
       "viewCount": 57,
       "weeklyViewCount": 11,
