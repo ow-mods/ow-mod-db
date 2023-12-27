@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 136342
+    "downloadCount": 136343
   },
   "releases": [
     {
@@ -1297,17 +1297,17 @@
       "uniqueName": "Owen013.MovementMod",
       "description": "Instant jumping, sprinting, jetpack features, customizable player stats, and more!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.6.1/Owen013.MovementMod.zip",
-      "downloadCount": 3545,
-      "latestReleaseDate": "2023-12-15T01:01:28Z",
+      "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.6.2/Owen013.MovementMod.zip",
+      "downloadCount": 3546,
+      "latestReleaseDate": "2023-12-27T18:51:23Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
-      "version": "v1.6.1",
+      "version": "v1.6.2",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
       },
-      "latestReleaseDescription": "Changes:\r\n- Default **Sprint Strafe Speed** is now 8.\r\n- Sprinting will now use the oxygen thrust sound when out of fuel and the underwater thrust sound when underwater.\r\n- The jetpack thruster flame will no longer appear when underwater.\r\n\r\nBugfixes:\r\n- The jetpack will no longer be silent when used normally.\r\n- The thrust sound will no longer be too quiet after using the jetpack and landing.",
+      "latestReleaseDescription": "# Hiker's Mod v1.6.2\r\n**Changes:**\r\n- Added compatibility with the Camera Shake mod by Streetlights Behind the Trees! Performing an Emergency Boost with the Camera Shake mod enabled will now cause the screen to shake.\r\n  - The intensity of the camera shake can be adjusted in the config menu.\r\n- The volume of the sound that plays when you do an Emergency Boost is now slightly quieter by default and can be changed in the config menu.\r\n- The jetpack flame that appears when you do an Emergency Boost is just a teensy bit smaller.\r\n\r\n**Bugfixes:**\r\n- The ship's left thruster will no longer create a huge downward flame when you do an Emergency Boost. Thank you to Hotklou for reporting this bug!\r\n\r\n**Behind the Scenes:**\r\n- Added a very basic API that can be used by other mods to know when the player is sprinting or Emergency Boosting. This API is a work in progress, so if you want anything to be added to it you can let me know by opening an issue to request a feature.\r\n- Code cleaned up for efficiency and readability.",
       "latestPrereleaseDescription": "**This is a prerelease, hopefully the last one for this version.**\r\n\r\nHopefully fixed a bug where the ship thrusters would emergency boost too.",
       "prerelease": {
         "version": "v1.6.2-pr2",
@@ -1319,8 +1319,8 @@
       ],
       "slug": "hikersmod",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-12-27T18:40:16Z",
-      "databaseEntryUpdatedAt": "2023-12-27T18:50:37.411Z",
+      "repoUpdatedAt": "2023-12-27T19:05:42Z",
+      "databaseEntryUpdatedAt": "2023-12-27T19:07:22.681Z",
       "repoVariations": [],
       "viewCount": 56,
       "weeklyViewCount": 10,
