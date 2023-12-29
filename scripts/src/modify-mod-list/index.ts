@@ -85,7 +85,7 @@ async function run() {
     newMod.tags = tags.split(", ");
   }
 
-  if (dlc) {
+  if (dlc === "DLC Required") {
     newMod.tags.push("requires-dlc");
   }
 
