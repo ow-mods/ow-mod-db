@@ -2476,9 +2476,9 @@
         "gameplay",
         "content",
         "story",
-        "audiovisual"
+        "audiovisual",
+        "requires-dlc"
       ],
-      "parent": "xen.NewHorizons",
       "authorDisplay": "GameWyrm, EndgameZero, Lumine0409, and FunkyShoeMan",
       "repoVariations": [
         "GameWyrm/OuterWildsSummerJam"
@@ -2677,14 +2677,21 @@
       "authorDisplay": "Acamaeda"
     },
     {
+      "name": "Glowstick Bracelets",
+      "uniqueName": "VioVayo.GlowyBraceletMod",
+      "repo": "VioVayo/OWGlowstickBracelets",
+      "tags": [
+        "content"
+      ]
+    },
+    {
       "name": "Simpler Times",
       "uniqueName": "atk.IntactMod2",
       "repo": "bruvin-sky/SimplerTimes",
       "tags": [
         "gameplay",
         "tweaks",
-        "audiovisual",
-        "requires-dlc"
+        "audiovisual"
       ],
       "authorDisplay": "atk"
     }
