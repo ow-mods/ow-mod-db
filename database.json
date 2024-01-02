@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 136493
+    "downloadCount": 136494
   },
   "releases": [
     {
@@ -734,17 +734,17 @@
       "uniqueName": "xen.ThirdPersonCamera",
       "description": "A third-person camera for Outer Wilds.",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.1.0/xen.ThirdPersonCamera.zip",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.1.1/xen.ThirdPersonCamera.zip",
       "downloadCount": 3389,
-      "latestReleaseDate": "2023-09-27T16:29:21Z",
+      "latestReleaseDate": "2024-01-02T21:27:48Z",
       "firstReleaseDate": "2021-11-16T19:46:51Z",
       "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
-      "version": "v2.1.0",
+      "version": "v2.1.1",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-third-person-camera/main/README.md"
       },
-      "latestReleaseDescription": "- Fixed errors due to patch 14\r\n- Using the ship log no longer kicks your out of third person\r\n- Fixed notifications overlapping on-screen text",
+      "latestReleaseDescription": "- Add Patreon donation link to mod manifest",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -753,8 +753,8 @@
       "thumbnail": {
         "main": "thirdpersoncamera.webp"
       },
-      "repoUpdatedAt": "2024-01-02T21:25:55Z",
-      "databaseEntryUpdatedAt": "2024-01-02T21:30:42.846Z",
+      "repoUpdatedAt": "2024-01-02T22:00:52Z",
+      "databaseEntryUpdatedAt": "2024-01-02T22:02:47.554Z",
       "repoVariations": [],
       "viewCount": 382,
       "weeklyViewCount": 257,
@@ -856,17 +856,17 @@
       "uniqueName": "xen.DayDream",
       "description": "Makes it daytime in the DLC dream world and lets you enter from any campfire.",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-day-dream/releases/download/v1.2.1/xen.DayDream.zip",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-day-dream/releases/download/v1.2.2/xen.DayDream.zip",
       "downloadCount": 3129,
-      "latestReleaseDate": "2023-06-28T22:06:38Z",
+      "latestReleaseDate": "2024-01-02T21:28:12Z",
       "firstReleaseDate": "2021-11-28T16:50:14Z",
       "repo": "https://github.com/xen-42/outer-wilds-day-dream",
-      "version": "v1.2.1",
+      "version": "v1.2.2",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-day-dream/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-day-dream/master/README.md"
       },
-      "latestReleaseDescription": "- Fixed fog being broken since patch 13 (thanks Vio!)\r\n- Fixed fog and atmosphere not being updated properly when changing settings\r\n- Adjusted fog and atmosphere colours",
+      "latestReleaseDescription": "- Add Patreon donation link to mod manifest",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -877,8 +877,8 @@
       "thumbnail": {
         "main": "daydream.webp"
       },
-      "repoUpdatedAt": "2024-01-02T21:26:39Z",
-      "databaseEntryUpdatedAt": "2024-01-02T21:30:42.711Z",
+      "repoUpdatedAt": "2024-01-02T22:00:42Z",
+      "databaseEntryUpdatedAt": "2024-01-02T22:02:47.163Z",
       "repoVariations": [],
       "viewCount": 43,
       "weeklyViewCount": 9,
@@ -2614,17 +2614,17 @@
       "uniqueName": "xen.GhostBuster",
       "description": "Allows you to extinguish the lanterns of the inhabitants in Echoes of the Eye.",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/ow-ghostbuster/releases/download/v1.0.0/xen.GhostBuster.zip",
+      "downloadUrl": "https://github.com/xen-42/ow-ghostbuster/releases/download/v1.0.1/xen.GhostBuster.zip",
       "downloadCount": 570,
-      "latestReleaseDate": "2023-07-19T23:06:04Z",
+      "latestReleaseDate": "2024-01-02T21:58:18Z",
       "firstReleaseDate": "2022-04-19T02:50:26Z",
       "repo": "https://github.com/xen-42/ow-ghostbuster",
-      "version": "v1.0.0",
+      "version": "v1.0.1",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-ghostbuster/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-ghostbuster/master/README.md"
       },
-      "latestReleaseDescription": "- Fixed a bug where there were interact receivers for extinguished lanterns\r\n- Added a \"debug logs\" option\r\n- Added a \"show names\" option that let's you know whose life you're snuffing out. You monster.",
+      "latestReleaseDescription": "- Add Patreon donation link to mod manifest",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2634,8 +2634,8 @@
       "thumbnail": {
         "main": "ghostbuster.webp"
       },
-      "repoUpdatedAt": "2023-08-06T08:34:59Z",
-      "databaseEntryUpdatedAt": "2024-01-02T21:30:44.332Z",
+      "repoUpdatedAt": "2024-01-02T22:02:00Z",
+      "databaseEntryUpdatedAt": "2024-01-02T22:02:47.766Z",
       "repoVariations": [],
       "viewCount": 38,
       "weeklyViewCount": 15,
@@ -3514,17 +3514,17 @@
       "description": "Common utilities for Outer Wilds camera mods",
       "author": "xen-42",
       "utility": true,
-      "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.3.1/xen.CommonCameraUtil.zip",
-      "downloadCount": 19096,
-      "latestReleaseDate": "2023-12-03T20:49:24Z",
+      "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.3.2/xen.CommonCameraUtil.zip",
+      "downloadCount": 19100,
+      "latestReleaseDate": "2024-01-02T21:26:33Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
-      "version": "v1.3.1",
+      "version": "v1.3.2",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-common-camera-util/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-common-camera-util/main/README.md"
       },
-      "latestReleaseDescription": "- Implements some compatibility fixes with the Hatchling Outfitter mod (thanks Owen_013!)",
+      "latestReleaseDescription": "- Add Patreon donation link to mod manifest",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -3533,8 +3533,8 @@
       "thumbnail": {
         "main": "commoncamerautility.webp"
       },
-      "repoUpdatedAt": "2024-01-02T21:25:33Z",
-      "databaseEntryUpdatedAt": "2024-01-02T21:30:44.871Z",
+      "repoUpdatedAt": "2024-01-02T22:01:06Z",
+      "databaseEntryUpdatedAt": "2024-01-02T22:02:47.888Z",
       "repoVariations": [],
       "viewCount": 78,
       "weeklyViewCount": 13,
@@ -3546,17 +3546,17 @@
       "uniqueName": "xen.BetterModelShip",
       "description": "Adds a remote camera to the model ship",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-better-model-ship/releases/download/v0.2.0/xen.BetterModelShip.zip",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-better-model-ship/releases/download/v0.2.1/xen.BetterModelShip.zip",
       "downloadCount": 1521,
-      "latestReleaseDate": "2023-09-27T17:06:30Z",
+      "latestReleaseDate": "2024-01-02T21:25:55Z",
       "firstReleaseDate": "2022-05-25T21:51:16Z",
       "repo": "https://github.com/xen-42/outer-wilds-better-model-ship",
-      "version": "v0.2.0",
+      "version": "v0.2.1",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-better-model-ship/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-better-model-ship/main/README.md"
       },
-      "latestReleaseDescription": "- Update to work on patch 14",
+      "latestReleaseDescription": "- Add Patreon donation link to mod manifest",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3565,8 +3565,8 @@
       "thumbnail": {
         "main": "bettermodelship.webp"
       },
-      "repoUpdatedAt": "2024-01-02T21:24:30Z",
-      "databaseEntryUpdatedAt": "2024-01-02T21:30:44.853Z",
+      "repoUpdatedAt": "2024-01-02T22:01:37Z",
+      "databaseEntryUpdatedAt": "2024-01-02T22:02:47.165Z",
       "repoVariations": [],
       "viewCount": 21,
       "weeklyViewCount": 7,
@@ -4064,7 +4064,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/outer-wilds-localization-utility/releases/download/v0.2.1/xen.LocalizationUtility.zip",
-      "downloadCount": 237,
+      "downloadCount": 239,
       "latestReleaseDate": "2022-11-11T22:50:57Z",
       "firstReleaseDate": "2022-07-22T16:51:31Z",
       "repo": "https://github.com/xen-42/outer-wilds-localization-utility",
@@ -4081,8 +4081,8 @@
       ],
       "slug": "interplanetarypolyglot",
       "thumbnail": {},
-      "repoUpdatedAt": "2023-10-08T23:40:03Z",
-      "databaseEntryUpdatedAt": "2024-01-02T11:53:13.309Z",
+      "repoUpdatedAt": "2024-01-02T21:59:30Z",
+      "databaseEntryUpdatedAt": "2024-01-02T22:02:47.165Z",
       "repoVariations": [],
       "viewCount": 12,
       "weeklyViewCount": 2,
@@ -7249,18 +7249,18 @@
       "uniqueName": "xen.GreenScreenMod",
       "description": "Allows placing a green screen for pictures and video",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-green-screen/releases/download/0.1.1/xen.GreenScreenMod.zip",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-green-screen/releases/download/v0.1.2/xen.GreenScreenMod.zip",
       "downloadCount": 86,
-      "latestReleaseDate": "2023-03-17T00:43:43Z",
+      "latestReleaseDate": "2024-01-02T21:48:24Z",
       "firstReleaseDate": "2023-03-16T04:32:43Z",
       "repo": "https://github.com/xen-42/outer-wilds-green-screen",
-      "version": "0.1.1",
+      "version": "v0.1.2",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-green-screen/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-green-screen/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "- Add colour and keybind options\r\n- Make green screen double-sided\r\n- Clear markers if the user goes to another planet\r\n- Use active camera for creating markers instead of exclusively the player camera",
+      "latestReleaseDescription": "- Add Patreon donation link to mod manifest",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -7270,8 +7270,8 @@
       "thumbnail": {
         "main": "greenscreen.webp"
       },
-      "repoUpdatedAt": "2024-01-02T21:42:37Z",
-      "databaseEntryUpdatedAt": "2024-01-02T21:43:22.205Z",
+      "repoUpdatedAt": "2024-01-02T22:00:31Z",
+      "databaseEntryUpdatedAt": "2024-01-02T22:02:47.551Z",
       "repoVariations": [],
       "viewCount": 6,
       "weeklyViewCount": 1,
@@ -8309,18 +8309,18 @@
       "description": "Adds player skins to Quantum Space Buddies",
       "author": "xen-42",
       "parent": "Raicuparta.QuantumSpaceBuddies",
-      "downloadUrl": "https://github.com/xen-42/ow-qsb-skins/releases/download/v0.2.0/xen.QSBSkins.zip",
+      "downloadUrl": "https://github.com/xen-42/ow-qsb-skins/releases/download/v0.2.1/xen.QSBSkins.zip",
       "downloadCount": 680,
-      "latestReleaseDate": "2023-07-31T22:14:22Z",
+      "latestReleaseDate": "2024-01-02T21:58:52Z",
       "firstReleaseDate": "2023-07-29T18:42:37Z",
       "repo": "https://github.com/xen-42/ow-qsb-skins",
-      "version": "v0.2.0",
+      "version": "v0.2.1",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-qsb-skins/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-qsb-skins/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "- Mod now uses the QSB API for messaging\r\n- Will no longer be disconnected from a server if the host doesn't have the mod, and users without the mod are not able to connect to you.",
+      "latestReleaseDescription": "- Add Patreon donation link to mod manifest",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -8329,8 +8329,8 @@
       "thumbnail": {
         "main": "skinsforqsb.webp"
       },
-      "repoUpdatedAt": "2024-01-02T21:55:24Z",
-      "databaseEntryUpdatedAt": "2024-01-02T21:56:04.398Z",
+      "repoUpdatedAt": "2024-01-02T22:01:47Z",
+      "databaseEntryUpdatedAt": "2024-01-02T22:02:47.552Z",
       "repoVariations": [],
       "viewCount": 70,
       "weeklyViewCount": 26,
