@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.0/xen.NewHorizons.zip",
-      "downloadCount": 38375,
-      "latestReleaseDate": "2023-12-17T06:06:45Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.1/xen.NewHorizons.zip",
+      "downloadCount": 38405,
+      "latestReleaseDate": "2024-01-02T03:45:57Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.18.0",
+      "version": "v1.18.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- Custom items and item sockets, as an extension of the existing details. Interactivity can be added without code by setting dialogue conditions with an item's `pickupCondition` or socket's `insertCondition`, and then turning other details on or off using their `activationCondition`.\r\n\r\n## Minor features\r\n- Added API methods for looking up translated strings for localization.\r\n\r\n## Bug fixes\r\n- Fixes orbs on copied details\r\n- Fix slide module default values #754\r\n- Fix slides being inverted in the ship log #746  \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/759**",
+      "latestReleaseDescription": "## Improvements\r\n- StopTime and SlowTime mods will now effect the time loop in new\r\nsystems\r\n\r\n## Bug fixes\r\n- Re-added missing method signatures that were breaking Dreamstalker\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/763**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-01-01T19:51:46Z",
-      "databaseEntryUpdatedAt": "2024-01-01T19:53:57.143Z",
+      "repoUpdatedAt": "2024-01-02T03:46:39Z",
+      "databaseEntryUpdatedAt": "2024-01-02T03:52:26.075Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
