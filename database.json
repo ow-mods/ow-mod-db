@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.1/xen.NewHorizons.zip",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.2/xen.NewHorizons.zip",
       "downloadCount": 38418,
-      "latestReleaseDate": "2024-01-02T03:45:57Z",
+      "latestReleaseDate": "2024-01-02T05:42:46Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.18.1",
+      "version": "v1.18.2",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Improvements\r\n- StopTime and SlowTime mods will now effect the time loop in new\r\nsystems\r\n\r\n## Bug fixes\r\n- Re-added missing method signatures that were breaking Dreamstalker\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/763**",
+      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Fix looping crash of obsolete effects builder method\r\n- Re-added even more missing method signatures that were breaking Dreamstalker (just update your mod xen!)\r\n- Tessellated renderers in asset bundles will now have their shaders\r\nreplaced just like normal renderers \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/765**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-01-02T05:40:15Z",
-      "databaseEntryUpdatedAt": "2024-01-02T05:44:03.440Z",
+      "repoUpdatedAt": "2024-01-02T05:47:43Z",
+      "databaseEntryUpdatedAt": "2024-01-02T05:52:24.704Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
