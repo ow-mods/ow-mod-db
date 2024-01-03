@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 136526
+    "downloadCount": 136527
   },
   "releases": [
     {
@@ -735,7 +735,7 @@
       "description": "A third-person camera for Outer Wilds.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.1.1/xen.ThirdPersonCamera.zip",
-      "downloadCount": 3396,
+      "downloadCount": 3405,
       "latestReleaseDate": "2024-01-02T21:27:48Z",
       "firstReleaseDate": "2021-11-16T19:46:51Z",
       "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
@@ -754,7 +754,7 @@
         "main": "thirdpersoncamera.webp"
       },
       "repoUpdatedAt": "2024-01-02T22:00:52Z",
-      "databaseEntryUpdatedAt": "2024-01-03T10:10:06.009Z",
+      "databaseEntryUpdatedAt": "2024-01-03T22:26:19.521Z",
       "repoVariations": [],
       "viewCount": 389,
       "weeklyViewCount": 210,
@@ -857,7 +857,7 @@
       "description": "Makes it daytime in the DLC dream world and lets you enter from any campfire.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-day-dream/releases/download/v1.2.2/xen.DayDream.zip",
-      "downloadCount": 3134,
+      "downloadCount": 3139,
       "latestReleaseDate": "2024-01-02T21:28:12Z",
       "firstReleaseDate": "2021-11-28T16:50:14Z",
       "repo": "https://github.com/xen-42/outer-wilds-day-dream",
@@ -878,7 +878,7 @@
         "main": "daydream.webp"
       },
       "repoUpdatedAt": "2024-01-02T22:00:42Z",
-      "databaseEntryUpdatedAt": "2024-01-03T10:10:04.144Z",
+      "databaseEntryUpdatedAt": "2024-01-03T22:26:19.231Z",
       "repoVariations": [],
       "viewCount": 45,
       "weeklyViewCount": 11,
@@ -2614,17 +2614,17 @@
       "uniqueName": "xen.GhostBuster",
       "description": "Allows you to extinguish the lanterns of the inhabitants in Echoes of the Eye.",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/ow-ghostbuster/releases/download/v1.0.1/xen.GhostBuster.zip",
-      "downloadCount": 576,
-      "latestReleaseDate": "2024-01-02T21:58:18Z",
+      "downloadUrl": "https://github.com/xen-42/ow-ghostbuster/releases/download/v1.0.0/xen.GhostBuster.zip",
+      "downloadCount": 571,
+      "latestReleaseDate": "2023-07-19T23:06:04Z",
       "firstReleaseDate": "2022-04-19T02:50:26Z",
       "repo": "https://github.com/xen-42/ow-ghostbuster",
-      "version": "v1.0.1",
+      "version": "v1.0.0",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-ghostbuster/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-ghostbuster/master/README.md"
       },
-      "latestReleaseDescription": "- Add Patreon donation link to mod manifest",
+      "latestReleaseDescription": "- Fixed a bug where there were interact receivers for extinguished lanterns\r\n- Added a \"debug logs\" option\r\n- Added a \"show names\" option that let's you know whose life you're snuffing out. You monster.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2635,7 +2635,7 @@
         "main": "ghostbuster.webp"
       },
       "repoUpdatedAt": "2024-01-02T22:02:00Z",
-      "databaseEntryUpdatedAt": "2024-01-03T10:10:03.457Z",
+      "databaseEntryUpdatedAt": "2024-01-03T22:26:19.521Z",
       "repoVariations": [],
       "viewCount": 38,
       "weeklyViewCount": 15,
@@ -3515,7 +3515,7 @@
       "author": "xen-42",
       "utility": true,
       "downloadUrl": "https://github.com/xen-42/ow-common-camera-util/releases/download/v1.3.2/xen.CommonCameraUtil.zip",
-      "downloadCount": 19192,
+      "downloadCount": 19279,
       "latestReleaseDate": "2024-01-02T21:26:33Z",
       "firstReleaseDate": "2022-05-25T04:30:54Z",
       "repo": "https://github.com/xen-42/ow-common-camera-util",
@@ -3534,7 +3534,7 @@
         "main": "commoncamerautility.webp"
       },
       "repoUpdatedAt": "2024-01-02T22:01:06Z",
-      "databaseEntryUpdatedAt": "2024-01-03T10:10:03.448Z",
+      "databaseEntryUpdatedAt": "2024-01-03T22:26:19.767Z",
       "repoVariations": [],
       "viewCount": 79,
       "weeklyViewCount": 15,
@@ -3547,7 +3547,7 @@
       "description": "Adds a remote camera to the model ship",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-better-model-ship/releases/download/v0.2.1/xen.BetterModelShip.zip",
-      "downloadCount": 1527,
+      "downloadCount": 1533,
       "latestReleaseDate": "2024-01-02T21:25:55Z",
       "firstReleaseDate": "2022-05-25T21:51:16Z",
       "repo": "https://github.com/xen-42/outer-wilds-better-model-ship",
@@ -3566,7 +3566,7 @@
         "main": "bettermodelship.webp"
       },
       "repoUpdatedAt": "2024-01-02T22:01:37Z",
-      "databaseEntryUpdatedAt": "2024-01-03T10:10:03.663Z",
+      "databaseEntryUpdatedAt": "2024-01-03T22:26:19.521Z",
       "repoVariations": [],
       "viewCount": 24,
       "weeklyViewCount": 10,
@@ -7271,7 +7271,7 @@
         "main": "greenscreen.webp"
       },
       "repoUpdatedAt": "2024-01-02T22:00:31Z",
-      "databaseEntryUpdatedAt": "2024-01-03T10:10:06.009Z",
+      "databaseEntryUpdatedAt": "2024-01-03T22:26:19.522Z",
       "repoVariations": [],
       "viewCount": 6,
       "weeklyViewCount": 1,
@@ -8310,7 +8310,7 @@
       "author": "xen-42",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/xen-42/ow-qsb-skins/releases/download/v0.2.1/xen.QSBSkins.zip",
-      "downloadCount": 700,
+      "downloadCount": 705,
       "latestReleaseDate": "2024-01-02T21:58:52Z",
       "firstReleaseDate": "2023-07-29T18:42:37Z",
       "repo": "https://github.com/xen-42/ow-qsb-skins",
@@ -8330,7 +8330,7 @@
         "main": "skinsforqsb.webp"
       },
       "repoUpdatedAt": "2024-01-02T22:01:47Z",
-      "databaseEntryUpdatedAt": "2024-01-03T10:10:06.009Z",
+      "databaseEntryUpdatedAt": "2024-01-03T22:26:19.521Z",
       "repoVariations": [],
       "viewCount": 75,
       "weeklyViewCount": 29,
