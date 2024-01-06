@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 136567
+    "downloadCount": 136568
   },
   "releases": [
     {
@@ -457,25 +457,25 @@
       "uniqueName": "PacificEngine.CheatsMod",
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
-      "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.4/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 11723,
-      "latestReleaseDate": "2022-01-25T00:19:05Z",
+      "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.5/PacificEngine.OW_CheatsMod.zip",
+      "downloadCount": 11729,
+      "latestReleaseDate": "2024-01-06T07:12:47Z",
       "firstReleaseDate": "2021-10-21T06:56:51Z",
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
-      "version": "0.7.4",
+      "version": "0.7.5",
       "readme": {
         "htmlUrl": "https://github.com/PacificEngine/OW_CheatsMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_CheatsMod/main/README.md"
       },
-      "latestReleaseDescription": "## What's Changed\r\n- Added ability to log the current state of Player Position, Bramble Portals, and Warp Pads\r\n\r\n**Full Changelog**: https://github.com/PacificEngine/OW_CheatsMod/compare/0.7.3...0.7.4",
+      "latestReleaseDescription": "Moved the location of the files to fix issues with linux versions",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
       ],
       "slug": "cheatsmod",
       "thumbnail": {},
-      "repoUpdatedAt": "2024-01-06T05:21:51Z",
-      "databaseEntryUpdatedAt": "2024-01-06T05:26:52.482Z",
+      "repoUpdatedAt": "2024-01-06T07:06:47Z",
+      "databaseEntryUpdatedAt": "2024-01-06T07:15:58.952Z",
       "repoVariations": [],
       "viewCount": 425,
       "weeklyViewCount": 158,
