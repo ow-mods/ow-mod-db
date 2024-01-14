@@ -48,7 +48,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 65346,
+      "downloadCount": 65403,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -75,7 +75,7 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2024-01-06T00:21:46Z",
-      "databaseEntryUpdatedAt": "2024-01-13T15:38:18.891Z",
+      "databaseEntryUpdatedAt": "2024-01-14T03:48:43.055Z",
       "repoVariations": [
         "https://github.com/Raicuparta/NomaiVR"
       ],
@@ -1298,14 +1298,14 @@
       "description": "Instant jumping, sprinting, jetpack features, customizable player stats, and more!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Hikers-Mod/releases/download/v1.6.2/Owen013.MovementMod.zip",
-      "downloadCount": 3672,
+      "downloadCount": 3674,
       "latestReleaseDate": "2023-12-27T18:51:23Z",
       "firstReleaseDate": "2021-12-23T22:23:22Z",
       "repo": "https://github.com/Owen013/Hikers-Mod",
       "version": "v1.6.2",
       "readme": {
-        "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/master/README.md"
+        "htmlUrl": "https://github.com/Owen013/Hikers-Mod/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hikers-Mod/main/README.md"
       },
       "latestReleaseDescription": "# Hiker's Mod v1.6.2\r\n**Changes:**\r\n- Added compatibility with the Camera Shake mod by Streetlights Behind the Trees! Performing an Emergency Boost with the Camera Shake mod enabled will now cause the screen to shake.\r\n  - The intensity of the camera shake can be adjusted in the config menu.\r\n- The volume of the sound that plays when you do an Emergency Boost is now slightly quieter by default and can be changed in the config menu.\r\n- The jetpack flame that appears when you do an Emergency Boost is just a teensy bit smaller.\r\n\r\n**Bugfixes:**\r\n- The ship's left thruster will no longer create a huge downward flame when you do an Emergency Boost. Thank you to Hotklou for reporting this bug!\r\n\r\n**Behind the Scenes:**\r\n- Added a very basic API that can be used by other mods to know when the player is sprinting or Emergency Boosting. This API is a work in progress, so if you want anything to be added to it you can let me know by opening an issue to request a feature.\r\n- Code cleaned up for efficiency and readability.",
       "latestPrereleaseDescription": "**This is a prerelease, hopefully the last one for this version.**\r\n\r\nHopefully fixed a bug where the ship thrusters would emergency boost too.",
@@ -1319,8 +1319,8 @@
       ],
       "slug": "hikersmod",
       "thumbnail": {},
-      "repoUpdatedAt": "2024-01-13T22:01:36Z",
-      "databaseEntryUpdatedAt": "2024-01-13T22:02:29.856Z",
+      "repoUpdatedAt": "2024-01-14T03:42:38Z",
+      "databaseEntryUpdatedAt": "2024-01-14T03:48:42.390Z",
       "repoVariations": [],
       "viewCount": 76,
       "weeklyViewCount": 7,
@@ -3381,17 +3381,17 @@
       "uniqueName": "Owen013.HatchlingOutfit",
       "description": "Customize player outfit",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Hatchling-Outfitter/releases/download/v1.2.0/Owen013.HatchlingOutfit.zip",
+      "downloadUrl": "https://github.com/Owen013/Hatchling-Outfitter/releases/download/v1.2.1/Owen013.HatchlingOutfit.zip",
       "downloadCount": 430,
-      "latestReleaseDate": "2022-10-01T22:27:26Z",
+      "latestReleaseDate": "2024-01-14T03:40:52Z",
       "firstReleaseDate": "2022-05-22T16:48:09Z",
       "repo": "https://github.com/Owen013/Hatchling-Outfitter",
-      "version": "v1.2.0",
+      "version": "v1.2.1",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/Hatchling-Outfitter/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hatchling-Outfitter/main/README.md"
       },
-      "latestReleaseDescription": "This version has been sitting on my computer unchanged for so long that I don't even remember what it adds. Enjoy.",
+      "latestReleaseDescription": "The custom outfit should now appear correctly on custom camera **in most cases. (See below)**\r\n\r\nKnown Bug: if you put the player's helmet on when its normally off or vice-versa and switch to a custom camera (like Static Camera) and then go back into the config and set the player's helmet to be in its default state (on when the suit is worn or off when it isn't) then the player's head will not appear in the custom camera until you switch back to the normal camera and back into the custom one. This should be fixed when the next version of Common Camera Utility is released.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -3400,8 +3400,8 @@
       "thumbnail": {
         "main": "hatchlingoutfitter.webp"
       },
-      "repoUpdatedAt": "2024-01-14T03:30:44Z",
-      "databaseEntryUpdatedAt": "2024-01-14T03:36:00.726Z",
+      "repoUpdatedAt": "2024-01-14T03:41:30Z",
+      "databaseEntryUpdatedAt": "2024-01-14T03:48:42.920Z",
       "repoVariations": [],
       "viewCount": 20,
       "weeklyViewCount": 2,
@@ -6637,7 +6637,7 @@
       "author": "artificialparanoia",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/artificialparanoia/Divergence/releases/download/v1.0.2/artificialparanoia.Divergence.zip",
-      "downloadCount": 896,
+      "downloadCount": 901,
       "latestReleaseDate": "2023-12-21T07:51:55Z",
       "firstReleaseDate": "2023-01-23T12:15:37Z",
       "repo": "https://github.com/artificialparanoia/Divergence",
@@ -6659,7 +6659,7 @@
         "main": "divergence.webp"
       },
       "repoUpdatedAt": "2023-12-21T07:47:08Z",
-      "databaseEntryUpdatedAt": "2024-01-13T15:38:17.382Z",
+      "databaseEntryUpdatedAt": "2024-01-14T03:48:40.475Z",
       "repoVariations": [],
       "viewCount": 186,
       "weeklyViewCount": 13,
