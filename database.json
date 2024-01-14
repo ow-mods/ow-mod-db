@@ -7702,17 +7702,17 @@
       "uniqueName": "codelazarus14.InhabitantChess",
       "description": "Adds a playable board game to the end of the Outer Wilds DLC",
       "author": "codelazarus14",
-      "downloadUrl": "https://github.com/codelazarus14/InhabitantChess/releases/download/v0.1.0/codelazarus14.InhabitantChess.zip",
-      "downloadCount": 185,
-      "latestReleaseDate": "2023-06-07T16:15:55Z",
+      "downloadUrl": "https://github.com/codelazarus14/InhabitantChess/releases/download/v0.1.1/codelazarus14.InhabitantChess.zip",
+      "downloadCount": 186,
+      "latestReleaseDate": "2024-01-14T17:31:20Z",
       "firstReleaseDate": "2023-06-07T16:15:55Z",
       "repo": "https://github.com/codelazarus14/InhabitantChess",
-      "version": "v0.1.0",
+      "version": "v0.1.1",
       "readme": {
         "htmlUrl": "https://github.com/codelazarus14/InhabitantChess/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/codelazarus14/InhabitantChess/master/README.md"
       },
-      "latestReleaseDescription": "First release, still missing a few features and error-prone but it's stable enough :/",
+      "latestReleaseDescription": "Note: if the game is generating errors related to missing config settings, you might need to delete `config.json` in the mod folder to generate a fresh one. \r\n\r\n- Added sound effects on game win/loss\r\n- Added score prompt to HUD\r\n- Removed shortcut unlock requirement, can be toggled like any other mod option\r\n- Fixed some sounds interrupting each other\r\n- Fixed vision torch/torch socket changing interactable at the wrong times\r\n- Fixed bug where the player's turn could be skipped after previously losing an adjacent piece\r\n- Updated README",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -7724,8 +7724,8 @@
       "thumbnail": {
         "main": "inhabitantchess.webp"
       },
-      "repoUpdatedAt": "2024-01-14T17:06:09Z",
-      "databaseEntryUpdatedAt": "2024-01-14T17:18:08.748Z",
+      "repoUpdatedAt": "2024-01-14T17:49:19Z",
+      "databaseEntryUpdatedAt": "2024-01-14T17:55:52.926Z",
       "repoVariations": [],
       "viewCount": 26,
       "weeklyViewCount": 7,
@@ -8659,7 +8659,7 @@
       "slug": "enhancedivergencemod",
       "thumbnail": {},
       "repoUpdatedAt": "2024-01-01T14:52:57Z",
-      "databaseEntryUpdatedAt": "2024-01-14T05:52:56.476Z",
+      "databaseEntryUpdatedAt": "2024-01-14T17:55:52.943Z",
       "repoVariations": [],
       "viewCount": 115,
       "weeklyViewCount": 10,
