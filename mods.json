@@ -348,6 +348,7 @@
       "uniqueName": "Ellie3.ElliePlanets"
     },
     {
+      "authorDisplay": "Owen_013",
       "name": "Smol Hatchling",
       "repo": "Owen013/Smol-Hatchling",
       "tags": [
@@ -356,25 +357,13 @@
       "uniqueName": "Owen013.TeenyHatchling"
     },
     {
+      "authorDisplay": "Owen_013",
       "name": "Hiker's Mod",
       "repo": "Owen013/Hikers-Mod",
       "tags": [
         "gameplay"
       ],
       "uniqueName": "Owen013.MovementMod"
-    },
-    {
-      "authorDisplay": "Jammer",
-      "name": "Outer Wilds Galaxy",
-      "parent": "xen.NewHorizons",
-      "repo": "MegaPiggy/Outer-Wilds-Galaxy",
-      "tags": [
-        "content",
-        "requires-dlc"
-      ],
-      "uniqueName": "Jammer.OuterWildsGalaxy",
-      "downloadCountOffset": 4828,
-      "firstReleaseDateOverride": "2021-12-31T23:31:02Z"
     },
     {
       "name": "Signals+",
@@ -706,18 +695,6 @@
       "authorDisplay": "Tandicase"
     },
     {
-      "authorDisplay": "Jammer",
-      "name": "Jammer Lore",
-      "parent": "xen.NewHorizons",
-      "repo": "MegaPiggy/jammerlore",
-      "tags": [
-        "content"
-      ],
-      "uniqueName": "Jammer.jammerlore",
-      "downloadCountOffset": 373,
-      "firstReleaseDateOverride": "2022-04-17T14:52:12Z"
-    },
-    {
       "name": "Ghostbuster",
       "repo": "xen-42/ow-ghostbuster",
       "tags": [
@@ -938,6 +915,7 @@
       "authorDisplay": "Damián Garro"
     },
     {
+      "authorDisplay": "Owen_013",
       "name": "Hatchling Outfitter",
       "repo": "Owen013/Hatchling-Outfitter",
       "tags": [
@@ -946,6 +924,7 @@
       "uniqueName": "Owen013.HatchlingOutfit"
     },
     {
+      "authorDisplay": "Owen_013",
       "name": "Quality of Life Changes",
       "repo": "Owen013/QOLFixes",
       "tags": [
@@ -2704,6 +2683,15 @@
         "integration"
       ],
       "authorDisplay": "Ixrec"
+    },
+    {
+      "authorDisplay": "Owen_013",
+      "name": "First Person Presence",
+      "repo": "Owen013/FirstPersonPresence",
+      "tags": [
+        "audiovisual"
+      ],
+      "uniqueName": "Owen_013.FirstPersonPresence"
     }
   ]
 }
