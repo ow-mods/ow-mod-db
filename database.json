@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 136819
+    "downloadCount": 136820
   },
   "releases": [
     {
@@ -8769,6 +8769,40 @@
       "weeklyViewCount": 103,
       "installCount": 76,
       "weeklyInstallCount": 25
+    },
+    {
+      "name": "Archipelago Randomizer",
+      "uniqueName": "Ixrec.ArchipelagoRandomizer",
+      "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
+      "author": "Ixrec",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.2/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 52,
+      "latestReleaseDate": "2024-01-17T21:37:44Z",
+      "firstReleaseDate": "2024-01-03T18:17:33Z",
+      "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
+      "version": "v0.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
+      },
+      "authorDisplay": "Ixrec",
+      "latestReleaseDescription": "- Better Connection Info Management on the Main Menu\r\n\t- Connection failures no longer break the main menu. Instead, we don't attempt to connect until you click Resume (or click New and enter connection info), and if the connection fails we show an error popup.\r\n\t- The Resume button's error popup also has a Retry button\r\n\t- Added a \"Change Connection Info\" button\r\n\r\n- (from @GameWyrm) In-Game Console Improvements:\r\n\t- Reaching the rendering limit now drops old messages and displays a warning (instead of turning the pause console blank until you restart)\r\n\t- Added a button to mute the sound for new console messages\r\n\t- Added a button to filter console messages to only those involving your world\r\n\r\n- Logic & Location Fixes:\r\n\t- Bramble Island's logic required Translator. Now it correctly doesn't.\r\n\t- Harmonia Signal's logic didn't require Signalscope. Now it correctly does.\r\n\t- Renamed 'ET: Quantum Moon Locator (Text Scroll)' to 'ET: Quantum Moon Locator (2nd Scroll)', since it's the 2nd scroll that triggers this\r\n\t- Made 'GD: Control Module Logs (Text Wheels)' get checked if *any* of the 3 text wheel stacks gets translated, not just the middle one\r\n\r\n- Miscellaneous:\r\n\t- Bumped the OWML manifest version to 0.1.2 (everyone noticed I forgot to do this for 0.1.1)\r\n\t- Death link now includes the slot name in death messages, does a lot more logging in general to help pin down other problems, and @Hopop and others contributed several new death messages\r\n\t- Reworked the README's installation instructions based on feedback, updated the roadmap to reflect my current thoughts, and other tweaks\r\n\t- @GameWyrm also contributed a logo image that the Mod Manager can display for us\r\n\t- Increased height of warp pad prompt trigger area, since one player didn't notice that there was a warp pad prompt\r\n\t- Don't print the \"Welcome to your Nth loop!\" message when you're at the Eye\r\n",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay",
+        "integration"
+      ],
+      "slug": "archipelagorandomizer",
+      "thumbnail": {
+        "main": "archipelagorandomizer.webp"
+      },
+      "repoUpdatedAt": "2024-01-17T21:42:08Z",
+      "databaseEntryUpdatedAt": "2024-01-17T22:42:59.478Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     },
     {
       "name": "First Person Presence",
