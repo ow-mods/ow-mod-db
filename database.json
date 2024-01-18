@@ -690,7 +690,7 @@
       "slug": "noalttabpause",
       "thumbnail": {},
       "repoUpdatedAt": "2024-01-17T06:01:05Z",
-      "databaseEntryUpdatedAt": "2024-01-18T06:41:59.746Z",
+      "databaseEntryUpdatedAt": "2024-01-18T18:47:26.520Z",
       "repoVariations": [],
       "viewCount": 16,
       "weeklyViewCount": 2,
@@ -5225,7 +5225,7 @@
         "main": "alternatevoices.webp"
       },
       "repoUpdatedAt": "2024-01-01T02:26:52Z",
-      "databaseEntryUpdatedAt": "2024-01-18T06:42:00.646Z",
+      "databaseEntryUpdatedAt": "2024-01-18T18:47:28.184Z",
       "repoVariations": [],
       "viewCount": 55,
       "weeklyViewCount": 12,
@@ -8741,7 +8741,7 @@
       "description": "Simpler Times is a mod for Outer Wilds, that fixes up several Nomai structures in the game, and removes some timed elements from the planets, making for a more exploratory/new game plus experience.",
       "author": "bruvin-sky",
       "downloadUrl": "https://github.com/bruvin-sky/SimplerTimes/releases/download/v0.1.1/SimplerTimes.zip",
-      "downloadCount": 126,
+      "downloadCount": 127,
       "latestReleaseDate": "2023-12-31T00:43:12Z",
       "firstReleaseDate": "2023-12-29T13:33:38Z",
       "repo": "https://github.com/bruvin-sky/SimplerTimes",
@@ -8763,7 +8763,7 @@
         "main": "simplertimes.webp"
       },
       "repoUpdatedAt": "2023-12-31T01:14:45Z",
-      "databaseEntryUpdatedAt": "2024-01-18T06:42:01.075Z",
+      "databaseEntryUpdatedAt": "2024-01-18T18:47:31.733Z",
       "repoVariations": [],
       "viewCount": 340,
       "weeklyViewCount": 101,
@@ -8786,7 +8786,7 @@
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "- Better Connection Info Management on the Main Menu\r\n\t- Connection failures no longer break the main menu. Instead, we don't attempt to connect until you click Resume (or click New and enter connection info), and if the connection fails we show an error popup.\r\n\t- The Resume button's error popup also has a Retry button\r\n\t- Added a \"Change Connection Info\" button\r\n\r\n- (from @GameWyrm) In-Game Console Improvements:\r\n\t- Reaching the rendering limit now drops old messages and displays a warning (instead of turning the pause console blank until you restart)\r\n\t- Added a button to mute the sound for new console messages\r\n\t- Added a button to filter console messages to only those involving your world\r\n\r\n- Logic & Location Fixes:\r\n\t- Bramble Island's logic required Translator. Now it correctly doesn't.\r\n\t- Harmonia Signal's logic didn't require Signalscope. Now it correctly does.\r\n\t- Renamed 'ET: Quantum Moon Locator (Text Scroll)' to 'ET: Quantum Moon Locator (2nd Scroll)', since it's the 2nd scroll that triggers this\r\n\t- Made 'GD: Control Module Logs (Text Wheels)' get checked if *any* of the 3 text wheel stacks gets translated, not just the middle one\r\n\r\n- Miscellaneous:\r\n\t- Bumped the OWML manifest version to 0.1.2 (everyone noticed I forgot to do this for 0.1.1)\r\n\t- Death link now includes the slot name in death messages, does a lot more logging in general to help pin down other problems, and @Hopop and others contributed several new death messages\r\n\t- Reworked the README's installation instructions based on feedback, updated the roadmap to reflect my current thoughts, and other tweaks\r\n\t- @GameWyrm also contributed a logo image that the Mod Manager can display for us\r\n\t- Increased height of warp pad prompt trigger area, since one player didn't notice that there was a warp pad prompt\r\n\t- Don't print the \"Welcome to your Nth loop!\" message when you're at the Eye\r\n",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Better Connection Info Management on the Main Menu\r\n\t- Connection failures no longer break the main menu. Instead, we don't attempt to connect until you click Resume (or click New and enter connection info), and if the connection fails we show an error popup.\r\n\t- The Resume button's error popup also has a Retry button\r\n\t- Added a \"Change Connection Info\" button\r\n\r\n- (from @GameWyrm) In-Game Console Improvements:\r\n\t- Reaching the rendering limit now drops old messages and displays a warning (instead of turning the pause console blank until you restart)\r\n\t- Added a button to mute the sound for new console messages\r\n\t- Added a button to filter console messages to only those involving your world\r\n\r\n- Logic & Location Fixes:\r\n\t- Bramble Island's logic required Translator. Now it correctly doesn't.\r\n\t- Harmonica Signal's logic didn't require Signalscope. Now it correctly does.\r\n\t- Renamed 'ET: Quantum Moon Locator (Text Scroll)' to 'ET: Quantum Moon Locator (2nd Scroll)', since it's the 2nd scroll that triggers this\r\n\t- Made 'GD: Control Module Logs (Text Wheels)' get checked if *any* of the 3 text wheel stacks gets translated, not just the middle one\r\n\r\n- Miscellaneous:\r\n\t- Bumped the OWML manifest version to 0.1.2 (everyone noticed I forgot to do this for 0.1.1)\r\n\t- Death link now includes the slot name in death messages, does a lot more logging in general to help pin down other problems, and @Hopop and others contributed several new death messages\r\n\t- Reworked the README's installation instructions based on feedback, updated the roadmap to reflect my current thoughts, and other tweaks\r\n\t- @GameWyrm also contributed a logo image that the Mod Manager can display for us\r\n\t- Increased height of warp pad prompt trigger area, since one player didn't notice that there was a warp pad prompt\r\n\t- Don't print the \"Welcome to your Nth loop!\" message when you're at the Eye\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -8796,8 +8796,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-01-18T17:03:18Z",
-      "databaseEntryUpdatedAt": "2024-01-18T17:12:05.097Z",
+      "repoUpdatedAt": "2024-01-18T18:46:02Z",
+      "databaseEntryUpdatedAt": "2024-01-18T18:47:27.253Z",
       "repoVariations": [],
       "viewCount": 20,
       "weeklyViewCount": 20,
