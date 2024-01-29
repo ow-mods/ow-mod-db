@@ -81,8 +81,8 @@
       ],
       "viewCount": 2741,
       "weeklyViewCount": 539,
-      "installCount": 1496,
-      "weeklyInstallCount": 305
+      "installCount": 1497,
+      "weeklyInstallCount": 306
     },
     {
       "name": "Quantum Space Buddies",
@@ -255,8 +255,8 @@
       "repoVariations": [],
       "viewCount": 152,
       "weeklyViewCount": 18,
-      "installCount": 307,
-      "weeklyInstallCount": 57
+      "installCount": 308,
+      "weeklyInstallCount": 58
     },
     {
       "name": "HD Screenshot",
@@ -1079,8 +1079,8 @@
       "repoVariations": [],
       "viewCount": 6,
       "weeklyViewCount": 1,
-      "installCount": 18,
-      "weeklyInstallCount": 6
+      "installCount": 19,
+      "weeklyInstallCount": 7
     },
     {
       "name": "New Horizons",
@@ -1186,8 +1186,8 @@
       "repoVariations": [],
       "viewCount": 336,
       "weeklyViewCount": 67,
-      "installCount": 210,
-      "weeklyInstallCount": 46
+      "installCount": 211,
+      "weeklyInstallCount": 47
     },
     {
       "name": "Atropos",
@@ -1360,8 +1360,8 @@
       "repoVariations": [],
       "viewCount": 49,
       "weeklyViewCount": 9,
-      "installCount": 60,
-      "weeklyInstallCount": 15
+      "installCount": 61,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Save Editor",
@@ -1746,8 +1746,8 @@
       "repoVariations": [],
       "viewCount": 47,
       "weeklyViewCount": 9,
-      "installCount": 88,
-      "weeklyInstallCount": 16
+      "installCount": 89,
+      "weeklyInstallCount": 17
     },
     {
       "name": "Collider Visualizer",
@@ -2318,8 +2318,8 @@
       "repoVariations": [],
       "viewCount": 207,
       "weeklyViewCount": 48,
-      "installCount": 129,
-      "weeklyInstallCount": 34
+      "installCount": 130,
+      "weeklyInstallCount": 35
     },
     {
       "name": "Voice Acting Mod",
@@ -2351,8 +2351,8 @@
       "repoVariations": [],
       "viewCount": 849,
       "weeklyViewCount": 160,
-      "installCount": 780,
-      "weeklyInstallCount": 182
+      "installCount": 781,
+      "weeklyInstallCount": 183
     },
     {
       "name": "Their Homeworld",
@@ -2859,8 +2859,8 @@
       "repoVariations": [],
       "viewCount": 76,
       "weeklyViewCount": 25,
-      "installCount": 32,
-      "weeklyInstallCount": 6
+      "installCount": 33,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Achievements+",
@@ -3349,18 +3349,18 @@
       "uniqueName": "dgarro.SuitLog",
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
-      "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.6/dgarro.SuitLog.zip",
+      "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.7/dgarro.SuitLog.zip",
       "downloadCount": 3736,
-      "latestReleaseDate": "2023-12-24T22:19:41Z",
+      "latestReleaseDate": "2024-01-29T05:29:37Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
-      "version": "1.2.6",
+      "version": "1.2.7",
       "readme": {
         "htmlUrl": "https://github.com/dgarroDC/SuitLog/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/SuitLog/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "Fix NRE errors when starting the solar system after Outer Wilds Patch 14 (#1). The errors were harmless, only causing unnecessary noise in the logs, so this fix avoids it.\r\n\r\nThanks @xen-42 and @Ixrec for reporting this issue!",
+      "latestReleaseDescription": "- Planets (and other locations) with no entries revealed but that are visible in the vanilla Ship Log's Map Mode are now also visible in the Suit Log (also with the message \"No discoveries yet.\"). This also includes New Horizon's planets (the ones without `invisibleWhenHidden` set in `true`).\r\n- With this update a large internal refactor to the codebase was done, moving most of the logic to a `SuitLogMode`  and a `SuitLogItemList`. This doesn't change anything to the mod functionality yet, but it's a first step to a future update that will include the possibility to others mods to add Custom Suit Log Modes, allowing them to use the Suit Log UI with a similar API to the Custom Ship Log Modes \"Item List\" API methods (this should help porting existing Ship Log Modes that use those methods to the Suit Log, although there will be some different that will be clarified when the update is complete).",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -3370,8 +3370,8 @@
         "main": "suitlog.webp",
         "openGraph": "suitlog-static.webp"
       },
-      "repoUpdatedAt": "2024-01-29T05:22:26Z",
-      "databaseEntryUpdatedAt": "2024-01-29T05:29:14.586Z",
+      "repoUpdatedAt": "2024-01-29T05:37:23Z",
+      "databaseEntryUpdatedAt": "2024-01-29T05:42:00.916Z",
       "repoVariations": [],
       "viewCount": 114,
       "weeklyViewCount": 21,
@@ -4210,8 +4210,8 @@
       "repoVariations": [],
       "viewCount": 68,
       "weeklyViewCount": 18,
-      "installCount": 145,
-      "weeklyInstallCount": 32
+      "installCount": 147,
+      "weeklyInstallCount": 34
     },
     {
       "name": "Artifact Laser",
@@ -4537,8 +4537,8 @@
       "repoVariations": [],
       "viewCount": 1126,
       "weeklyViewCount": 208,
-      "installCount": 560,
-      "weeklyInstallCount": 128
+      "installCount": 562,
+      "weeklyInstallCount": 130
     },
     {
       "name": "Secret Words",
@@ -6522,8 +6522,8 @@
       "repoVariations": [],
       "viewCount": 83,
       "weeklyViewCount": 19,
-      "installCount": 68,
-      "weeklyInstallCount": 16
+      "installCount": 70,
+      "weeklyInstallCount": 18
     },
     {
       "name": "OW Ventures Scavenger Hunt",
@@ -7142,8 +7142,8 @@
       "repoVariations": [],
       "viewCount": 92,
       "weeklyViewCount": 13,
-      "installCount": 66,
-      "weeklyInstallCount": 13
+      "installCount": 67,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Mod Data Tools",
@@ -7664,8 +7664,8 @@
       "repoVariations": [],
       "viewCount": 250,
       "weeklyViewCount": 58,
-      "installCount": 192,
-      "weeklyInstallCount": 37
+      "installCount": 193,
+      "weeklyInstallCount": 38
     },
     {
       "name": "The Hatchling's Journal",
@@ -8160,8 +8160,8 @@
       "repoVariations": [],
       "viewCount": 280,
       "weeklyViewCount": 74,
-      "installCount": 161,
-      "weeklyInstallCount": 39
+      "installCount": 162,
+      "weeklyInstallCount": 40
     },
     {
       "name": "Tesseract's Secret",
@@ -8696,7 +8696,7 @@
       "slug": "quietechoes",
       "thumbnail": {},
       "repoUpdatedAt": "2023-12-23T04:04:13Z",
-      "databaseEntryUpdatedAt": "2024-01-28T17:36:21.374Z",
+      "databaseEntryUpdatedAt": "2024-01-29T05:41:58.982Z",
       "repoVariations": [],
       "viewCount": 153,
       "weeklyViewCount": 15,
