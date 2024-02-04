@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.4/xen.NewHorizons.zip",
-      "downloadCount": 40601,
-      "latestReleaseDate": "2024-02-03T23:44:33Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.5/xen.NewHorizons.zip",
+      "downloadCount": 40602,
+      "latestReleaseDate": "2024-02-04T06:08:23Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.18.4",
+      "version": "v1.18.5",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- Can now set `preloadBundles` in the addon config file. This will load asset bundles on the main menu and keep them loaded. Will improve initial load times at the cost of more memory usage. (#749)\r\n- Can now set `subtitlePath` in the addon config file for displaying a subtitle for your mod on the main menu.\r\n\r\n## Improvements\r\n- Will show a warning popup if you have addons requiring the DLC installed but not the DLC itself (#728).\r\n\r\n## Bug fixes\r\n- Fixes a bug where the ship was not removed from volumes when being repositioned. Affected INSANE people who had stars larger than 8000m wide.\r\n- Probably fixes a bug where the ship would think it is grounded when spawned in zero-g (#748).\r\n- Fixed a bug where using system override to spawn in a ship-less system would break (#738).\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/771**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fixed some people having an NRE when clicking resume game.\r\n- Fixed a typo to better check if addons are using the DLC\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/774**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-02-04T06:06:35Z",
-      "databaseEntryUpdatedAt": "2024-02-04T06:15:06.678Z",
+      "repoUpdatedAt": "2024-02-04T06:24:04Z",
+      "databaseEntryUpdatedAt": "2024-02-04T06:29:18.901Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
