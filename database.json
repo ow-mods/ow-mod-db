@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.5/xen.NewHorizons.zip",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.6/xen.NewHorizons.zip",
       "downloadCount": 40908,
-      "latestReleaseDate": "2024-02-04T06:08:23Z",
+      "latestReleaseDate": "2024-02-07T16:35:10Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.18.5",
+      "version": "v1.18.6",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n- Fixed some people having an NRE when clicking resume game.\r\n- Fixed a typo to better check if addons are using the DLC\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/774**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fix NRE when checking for DLC requirement, don't write warning prompt for false positives.\r\n- Log error if addon-manifest.json contains errors\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/777**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-02-07T16:33:23Z",
-      "databaseEntryUpdatedAt": "2024-02-07T16:39:24.175Z",
+      "repoUpdatedAt": "2024-02-07T17:21:17Z",
+      "databaseEntryUpdatedAt": "2024-02-07T17:26:51.029Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
