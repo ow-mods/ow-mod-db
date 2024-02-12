@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 137262
+    "downloadCount": 137263
   },
   "releases": [
     {
@@ -48,7 +48,7 @@
       "description": "Outer Wilds VR Mod with 6DOF tracking and full motion control support",
       "author": "Raicuparta",
       "downloadUrl": "https://github.com/Raicuparta/nomai-vr/releases/download/2.9.2/Raicuparta.NomaiVR.zip",
-      "downloadCount": 66957,
+      "downloadCount": 66972,
       "latestReleaseDate": "2023-01-23T22:12:18Z",
       "firstReleaseDate": "2020-01-06T20:41:19Z",
       "repo": "https://github.com/Raicuparta/nomai-vr",
@@ -75,7 +75,7 @@
         "openGraph": "nomaivr-static.webp"
       },
       "repoUpdatedAt": "2024-02-05T20:06:40Z",
-      "databaseEntryUpdatedAt": "2024-02-12T09:36:59.428Z",
+      "databaseEntryUpdatedAt": "2024-02-12T21:46:25.434Z",
       "repoVariations": [
         "https://github.com/Raicuparta/NomaiVR"
       ],
@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.6/xen.NewHorizons.zip",
-      "downloadCount": 41394,
-      "latestReleaseDate": "2024-02-07T16:35:10Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.7/xen.NewHorizons.zip",
+      "downloadCount": 41401,
+      "latestReleaseDate": "2024-02-12T18:31:11Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.18.6",
+      "version": "v1.18.7",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n- Fix NRE when checking for DLC requirement, don't write warning prompt for false positives.\r\n- Log error if addon-manifest.json contains errors\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/777**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Stop \"Ship Log Updated\" notification appearing whenever you changed star system. (#779)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/780**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-02-12T21:25:51Z",
-      "databaseEntryUpdatedAt": "2024-02-12T21:33:53.877Z",
+      "repoUpdatedAt": "2024-02-12T21:40:12Z",
+      "databaseEntryUpdatedAt": "2024-02-12T21:46:25.285Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
