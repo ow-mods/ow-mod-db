@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 137417
+    "downloadCount": 137418
   },
   "releases": [
     {
@@ -3350,7 +3350,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.2.8/dgarro.SuitLog.zip",
-      "downloadCount": 4221,
+      "downloadCount": 4225,
       "latestReleaseDate": "2024-02-09T03:17:54Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -3370,8 +3370,8 @@
         "main": "suitlog.webp",
         "openGraph": "suitlog-static.webp"
       },
-      "repoUpdatedAt": "2024-02-10T23:16:40Z",
-      "databaseEntryUpdatedAt": "2024-02-23T16:50:35.967Z",
+      "repoUpdatedAt": "2024-02-24T00:00:30Z",
+      "databaseEntryUpdatedAt": "2024-02-24T01:21:04.456Z",
       "repoVariations": [],
       "viewCount": 134,
       "weeklyViewCount": 24,
@@ -6186,6 +6186,39 @@
       "weeklyInstallCount": 2
     },
     {
+      "name": "OWFixPluginTypesSerialization",
+      "uniqueName": "JohnCorby.OWFixPluginTypesSerialization",
+      "description": "A port of https://github.com/xiaoxiao921/FixPluginTypesSerialization for Outer Wilds. Linux users: read the README",
+      "author": "JohnCorby",
+      "utility": true,
+      "downloadUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/releases/download/v1.0.6/JohnCorby.OWFixPluginTypesSerialization.zip",
+      "downloadCount": 542,
+      "latestReleaseDate": "2023-08-10T02:37:31Z",
+      "firstReleaseDate": "2023-01-07T19:23:53Z",
+      "repo": "https://github.com/JohnCorby/OWFixPluginTypesSerialization",
+      "version": "v1.0.6",
+      "readme": {
+        "htmlUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/OWFixPluginTypesSerialization/master/README.md"
+      },
+      "latestReleaseDescription": "Only load dlls from mods that depend on OWFixPluginTypesSerialization. this should fix the issue with nh and qsb addons where people include a stripped or older version of nh or qsb that gets loaded instead of the proper mod.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "library"
+      ],
+      "slug": "owfixplugintypesserialization",
+      "thumbnail": {
+        "main": "owfixplugintypesserialization.webp"
+      },
+      "repoUpdatedAt": "2023-10-08T23:40:43Z",
+      "databaseEntryUpdatedAt": "2024-02-24T01:21:04.884Z",
+      "repoVariations": [],
+      "viewCount": 3,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
+    },
+    {
       "name": "Funny Noises",
       "uniqueName": "Atakku.FunnyNoises",
       "description": "",
@@ -7565,6 +7598,39 @@
       "weeklyInstallCount": 3
     },
     {
+      "name": "Throwable Items",
+      "uniqueName": "VioVayo.YeetMod",
+      "description": "This item empty! Yeet!",
+      "author": "VioVayo",
+      "downloadUrl": "https://github.com/VioVayo/OWThrowableItems/releases/download/v0.1.0/VioVayo.YeetMod.zip",
+      "downloadCount": 202,
+      "latestReleaseDate": "2023-05-16T22:46:00Z",
+      "firstReleaseDate": "2023-05-16T22:46:00Z",
+      "repo": "https://github.com/VioVayo/OWThrowableItems",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/VioVayo/OWThrowableItems/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWThrowableItems/main/README.md"
+      },
+      "authorDisplay": "VioVayo & JohnCorby",
+      "latestReleaseDescription": "First Release!",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "throwableitems",
+      "thumbnail": {
+        "main": "throwableitems.webp"
+      },
+      "repoUpdatedAt": "2023-05-16T23:01:43Z",
+      "databaseEntryUpdatedAt": "2024-02-24T01:21:05.028Z",
+      "repoVariations": [],
+      "viewCount": 12,
+      "weeklyViewCount": 4,
+      "installCount": 17,
+      "weeklyInstallCount": 2
+    },
+    {
       "name": "Unnamed Mystery",
       "uniqueName": "O32.UnnamedMystery",
       "description": "Unnamed Mystery is a fairly large story mod (by NH definition), striving to create an experience with similar impact to the base game. Available in English, French, and Simplified Chinese.",
@@ -7667,43 +7733,6 @@
       "weeklyViewCount": 3,
       "installCount": 21,
       "weeklyInstallCount": 5
-    },
-    {
-      "name": "Slip 'N Slide",
-      "uniqueName": "JohnCorby.SlipNSlide",
-      "description": "Makes everything very slippery. Also adds a bunch of silly sounds and songs.",
-      "author": "JohnCorby",
-      "downloadUrl": "https://github.com/JohnCorby/ow-slip-n-slide/releases/download/v1.0.1/JohnCorby.SlipNSlide.zip",
-      "downloadCount": 148,
-      "latestReleaseDate": "2023-06-09T03:42:31Z",
-      "firstReleaseDate": "2023-06-08T02:05:54Z",
-      "repo": "https://github.com/JohnCorby/ow-slip-n-slide",
-      "version": "v1.0.1",
-      "readme": {
-        "htmlUrl": "https://github.com/JohnCorby/ow-slip-n-slide/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/ow-slip-n-slide/master/README.md"
-      },
-      "authorDisplay": "JohnCorby & Trifid",
-      "latestReleaseDescription": "fixed a memory leak when loading audio",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "gameplay",
-        "tweaks",
-        "tool",
-        "content",
-        "audiovisual"
-      ],
-      "slug": "slipnslide",
-      "thumbnail": {
-        "main": "slipnslide.webp"
-      },
-      "repoUpdatedAt": "2023-06-09T03:56:16Z",
-      "databaseEntryUpdatedAt": "2024-02-23T14:00:22.360Z",
-      "repoVariations": [],
-      "viewCount": 7,
-      "weeklyViewCount": 3,
-      "installCount": 10,
-      "weeklyInstallCount": 4
     },
     {
       "name": "Sad Supernova Music",
@@ -8591,7 +8620,7 @@
       "slug": "quietechoes",
       "thumbnail": {},
       "repoUpdatedAt": "2023-12-23T04:04:13Z",
-      "databaseEntryUpdatedAt": "2024-02-23T12:28:28.006Z",
+      "databaseEntryUpdatedAt": "2024-02-24T01:21:04.490Z",
       "repoVariations": [],
       "viewCount": 49,
       "weeklyViewCount": 10,
@@ -8671,7 +8700,7 @@
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
       "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.3/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 222,
+      "downloadCount": 223,
       "latestReleaseDate": "2024-01-27T20:29:35Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
@@ -8691,8 +8720,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-02-23T19:32:05Z",
-      "databaseEntryUpdatedAt": "2024-02-23T19:41:52.061Z",
+      "repoUpdatedAt": "2024-02-24T01:06:04Z",
+      "databaseEntryUpdatedAt": "2024-02-24T01:21:05.080Z",
       "repoVariations": [],
       "viewCount": 310,
       "weeklyViewCount": 35,
