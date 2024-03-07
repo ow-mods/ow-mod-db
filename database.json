@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.8/xen.NewHorizons.zip",
-      "downloadCount": 43266,
-      "latestReleaseDate": "2024-02-24T02:17:45Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.9/xen.NewHorizons.zip",
+      "downloadCount": 43279,
+      "latestReleaseDate": "2024-03-07T23:08:16Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.18.8",
+      "version": "v1.18.9",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n- Default to automatic map mode positioning when mixing manual and automatic (would just break before)\r\n- Account for map mode image scale when automatically positioning\r\n- How long could you use your ship warp drive to just go to the eye?!?!?!?! How did I never notice this????? Nobody reported this???? Me when I install signals+ and then the game goes \"hey wanna just jump to the end of the game\"????????? What?!?!!?!?!?!?!?!?!?!!!!!!!!!! AHHHHHHHHHHHHHHHHH!!!! \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/785**",
+      "latestReleaseDescription": "## Minor features\r\n- New `pathToExistingDialogue` field for adding new DialogueNodes and DialogueOptions to existing character dialogues. For example, you can now just add new responses to Slate's dialogue instead of replacing it! Will improve mod compat and simplify translating.\r\n\r\n## Improvements\r\n- Singularities will now pre-load assets for their destination when the player/probe is nearby (if the destination is a vanilla planet) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/793**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-03-05T02:29:38Z",
-      "databaseEntryUpdatedAt": "2024-03-07T15:19:07.793Z",
+      "repoUpdatedAt": "2024-03-07T23:05:27Z",
+      "databaseEntryUpdatedAt": "2024-03-07T23:08:49.467Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
