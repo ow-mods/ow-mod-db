@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 137732
+    "downloadCount": 137733
   },
   "releases": [
     {
@@ -8777,18 +8777,18 @@
       "uniqueName": "Owen_013.FirstPersonPresence",
       "description": "Step into the hatchling's hiking boots with viewmodel hands, view bobbing, and more!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.3.0/Owen_013.FirstPersonPresence.zip",
-      "downloadCount": 155,
-      "latestReleaseDate": "2024-03-12T18:59:23Z",
+      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.3.1/Owen_013.FirstPersonPresence.zip",
+      "downloadCount": 157,
+      "latestReleaseDate": "2024-03-13T12:04:03Z",
       "firstReleaseDate": "2024-01-16T01:43:20Z",
       "repo": "https://github.com/Owen013/FirstPersonPresence",
-      "version": "v1.3.0",
+      "version": "v1.3.1",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/FirstPersonPresence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/FirstPersonPresence/main/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "- Added hands to all item/tool viewmodels!\r\n  - Compatible with Hatchling Outfitter!\r\n  - These can be disabled in the config menu.\r\n![image](https://github.com/Owen013/FirstPersonPresence/assets/96493201/169ce69e-ce3a-4b93-b361-77b15d6a0190)\r\n![hand](https://github.com/Owen013/FirstPersonPresence/assets/96493201/5267cd6a-72c0-4d65-91ff-83b688629e53)\r\n![lanternhand](https://github.com/Owen013/FirstPersonPresence/assets/96493201/924b9c54-c44d-41bc-89c1-a8adb0972b0c)\r\n\r\n- View bobbing now looks smoother when you start/stop moving.\r\n- Added screen animations for jumping, landing, and falling (these can be individually disabled in the config menu).\r\n- Added a recoil effect to the scout launcher (this can be disabled in the config menu).",
+      "latestReleaseDescription": "- Dynamic Tool Grip (formerly Dynamic Tool Height) now uses a new behavior that fixes visual bugs with viewmodel hands for a few items. You can revert to the old behavior in the config menu if you want.\r\n- Improved viewmodel hand positions for several items.\r\n- The config option to enable/disable viewmodel hands now works properly.\r\n- Fixed a shader bug with some viewmodel hands.\r\n- Viewmodel hands will no longer be visible for a single frame after the item is put down.\r\n- Tool sway should now be consistent at different framerates.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -8797,8 +8797,8 @@
       "thumbnail": {
         "main": "immersion.webp"
       },
-      "repoUpdatedAt": "2024-03-12T20:18:49Z",
-      "databaseEntryUpdatedAt": "2024-03-13T08:33:29.944Z",
+      "repoUpdatedAt": "2024-03-13T12:08:24Z",
+      "databaseEntryUpdatedAt": "2024-03-13T12:33:54.992Z",
       "repoVariations": [],
       "viewCount": 31,
       "weeklyViewCount": 31,
