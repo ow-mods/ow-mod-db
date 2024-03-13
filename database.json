@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.18.9/xen.NewHorizons.zip",
-      "downloadCount": 43900,
-      "latestReleaseDate": "2024-03-07T23:08:16Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.19.0/xen.NewHorizons.zip",
+      "downloadCount": 43934,
+      "latestReleaseDate": "2024-03-13T18:15:34Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.18.9",
+      "version": "v1.19.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- New `pathToExistingDialogue` field for adding new DialogueNodes and DialogueOptions to existing character dialogues. For example, you can now just add new responses to Slate's dialogue instead of replacing it! Will improve mod compat and simplify translating.\r\n\r\n## Improvements\r\n- Singularities will now pre-load assets for their destination when the player/probe is nearby (if the destination is a vanilla planet) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/793**",
+      "latestReleaseDescription": "## Major features:\r\n- Compatibility fixes for The Outsider!\r\n\r\n## Minor features\r\n- Add `shipLogStartingPlanetID` to star system config to set the planet to focus on when entering the ship log for the first time in a loop (#786 & #797)\r\n- Rigidbody patches no longer run when QSB is installed and enabled.\r\n- Implemented API method for adding subtitles\r\n\r\n## Improvements\r\n- Translation keys are much more forgiving now (they are case-insensitive and ignore whitespace)\r\n\r\n## Bug fixes\r\n- NH will not longer resize Dark Brambles fog #778\r\n- Custom Bramble seeds now have fog inside of them\r\n- Fixed ocean fog radius: Water no longer looks weird just below the surface. Thanks Can't Afford A Name for pointing the solution out.\r\n- Stops time loop from still happening when the ATP is disabled #796\r\n- Fix possible lag when near black holes \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/795**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-03-12T22:00:57Z",
-      "databaseEntryUpdatedAt": "2024-03-13T10:21:25.603Z",
+      "repoUpdatedAt": "2024-03-13T18:17:17Z",
+      "databaseEntryUpdatedAt": "2024-03-13T18:20:17.160Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -6389,7 +6389,7 @@
       "description": "A quite large story and puzzle mod that takes place on Dark Bramble.",
       "author": "StreetlightsBehindTheTrees",
       "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.0.6/SBtT.TheOutsider.zip",
-      "downloadCount": 9877,
+      "downloadCount": 9878,
       "latestReleaseDate": "2023-06-25T23:57:20Z",
       "firstReleaseDate": "2023-01-19T22:22:18Z",
       "repo": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
@@ -6410,8 +6410,8 @@
       "thumbnail": {
         "main": "theoutsider.webp"
       },
-      "repoUpdatedAt": "2024-03-13T05:12:44Z",
-      "databaseEntryUpdatedAt": "2024-03-13T17:30:00.448Z",
+      "repoUpdatedAt": "2024-03-13T18:02:21Z",
+      "databaseEntryUpdatedAt": "2024-03-13T18:20:16.965Z",
       "repoVariations": [],
       "viewCount": 590,
       "weeklyViewCount": 139,
