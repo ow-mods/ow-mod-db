@@ -2686,7 +2686,7 @@
     },
     {
       "authorDisplay": "Owen_013",
-      "name": "First Person Presence",
+      "name": "Immersion",
       "repo": "Owen013/FirstPersonPresence",
       "tags": [
         "audiovisual"
@@ -2701,6 +2701,49 @@
         "content"
       ],
       "parent": "xen.NewHorizons"
+    },
+    {
+      "name": "No Achievements",
+      "uniqueName": "MegaPiggy.NoAchievements",
+      "repo": "MegaPiggy/OuterWildsNoAchievements",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "authorDisplay": "MegaPiggy"
+    },
+    {
+      "name": "Screenshot Tool",
+      "uniqueName": "Hawkbar.ScreenshotTool",
+      "repo": "Hawkbat/OuterWildsModScreenshotTool",
+      "tags": [
+        "tool"
+      ],
+      "authorDisplay": "Hawkbar"
+    },
+    {
+      "name": "General Enhancements",
+      "uniqueName": "SBtT.GeneralEnhancements",
+      "repo": "MegaPiggy/SBtT.GeneralEnhancements",
+      "tags": [
+        "gameplay",
+        "tweaks",
+        "audiovisual",
+        "requires-dlc"
+      ],
+      "authorDisplay": "Streetlights Behind the Trees"
+    },
+    {
+      "name": "Astral Codec",
+      "uniqueName": "Walker.AstralCodex",
+      "repo": "2walker2/Astral-Codex",
+      "tags": [
+        "gameplay",
+        "content",
+        "story"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "2walker2"
     }
   ]
 }
