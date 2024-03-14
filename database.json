@@ -3383,18 +3383,18 @@
       "uniqueName": "Owen013.HatchlingOutfit",
       "description": "Customize player outfit",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Hatchling-Outfitter/releases/download/v1.2.2/Owen013.HatchlingOutfit.zip",
-      "downloadCount": 510,
-      "latestReleaseDate": "2024-03-14T02:42:32Z",
+      "downloadUrl": "https://github.com/Owen013/Hatchling-Outfitter/releases/download/v1.2.3/Owen013.HatchlingOutfit.zip",
+      "downloadCount": 511,
+      "latestReleaseDate": "2024-03-14T22:46:46Z",
       "firstReleaseDate": "2022-05-22T16:48:09Z",
       "repo": "https://github.com/Owen013/Hatchling-Outfitter",
-      "version": "v1.2.2",
+      "version": "v1.2.3",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/Hatchling-Outfitter/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hatchling-Outfitter/main/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "MonoBehaviors now properly unsubscribe from events to prevent the config from breaking after the first loop.",
+      "latestReleaseDescription": "- The helmet visibility is now based on whether or not you're wearing the helmet rather than the whole suit; if you're wearing the suit but not the helmet, the head will now appear unhelmeted.\r\n- Fixed a bug(?) in the vanilla game where the shadow of your right arm will appear even the arm is not visible (usually because you're holding an item).",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -3403,8 +3403,8 @@
       "thumbnail": {
         "main": "hatchlingoutfitter.webp"
       },
-      "repoUpdatedAt": "2024-03-14T02:40:44Z",
-      "databaseEntryUpdatedAt": "2024-03-14T14:55:23.815Z",
+      "repoUpdatedAt": "2024-03-14T22:46:54Z",
+      "databaseEntryUpdatedAt": "2024-03-14T22:53:44.950Z",
       "repoVariations": [],
       "viewCount": 23,
       "weeklyViewCount": 11,
@@ -7926,7 +7926,7 @@
       "author": "qsb-dev",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/qsb-dev/qsb-multiple-ships/releases/download/0.1.0/_nebula.QSBMultipleShips.zip",
-      "downloadCount": 1055,
+      "downloadCount": 1057,
       "latestReleaseDate": "2023-07-09T19:59:07Z",
       "firstReleaseDate": "2023-07-09T19:59:07Z",
       "repo": "https://github.com/qsb-dev/qsb-multiple-ships",
@@ -7941,7 +7941,7 @@
       "slug": "qsbmultipleships",
       "thumbnail": {},
       "repoUpdatedAt": "2023-08-23T20:45:13Z",
-      "databaseEntryUpdatedAt": "2024-03-14T10:50:50.005Z",
+      "databaseEntryUpdatedAt": "2024-03-14T22:54:29.306Z",
       "repoVariations": [
         "https://github.com/misternebula/qsb-multiple-ships"
       ],
