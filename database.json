@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.19.0/xen.NewHorizons.zip",
-      "downloadCount": 44206,
-      "latestReleaseDate": "2024-03-13T18:15:34Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.19.1/xen.NewHorizons.zip",
+      "downloadCount": 44209,
+      "latestReleaseDate": "2024-03-15T18:18:59Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.19.0",
+      "version": "v1.19.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features:\r\n- Compatibility fixes for The Outsider!\r\n\r\n## Minor features\r\n- Add `shipLogStartingPlanetID` to star system config to set the planet to focus on when entering the ship log for the first time in a loop (#786 & #797)\r\n- Rigidbody patches no longer run when QSB is installed and enabled.\r\n- Implemented API method for adding subtitles\r\n\r\n## Improvements\r\n- Translation keys are much more forgiving now (they are case-insensitive and ignore whitespace)\r\n\r\n## Bug fixes\r\n- NH will not longer resize Dark Brambles fog #778\r\n- Custom Bramble seeds now have fog inside of them\r\n- Fixed ocean fog radius: Water no longer looks weird just below the surface. Thanks Can't Afford A Name for pointing the solution out.\r\n- Stops time loop from still happening when the ATP is disabled #796\r\n- Fix possible lag when near black holes \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/795**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fix translation keys containing <CDATA> breaking. Thanks orclecle for the report!\r\n- Added a sphere collision to item props if they had none. Thanks Hawkbar!\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/807**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-03-15T18:29:54Z",
-      "databaseEntryUpdatedAt": "2024-03-15T18:30:47.534Z",
+      "repoUpdatedAt": "2024-03-15T18:31:59Z",
+      "databaseEntryUpdatedAt": "2024-03-15T18:43:11.829Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
