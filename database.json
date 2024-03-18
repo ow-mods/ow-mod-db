@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.19.2/xen.NewHorizons.zip",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.19.3/xen.NewHorizons.zip",
       "downloadCount": 44752,
-      "latestReleaseDate": "2024-03-15T21:00:49Z",
+      "latestReleaseDate": "2024-03-18T04:01:53Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.19.2",
+      "version": "v1.19.3",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Improvements\r\n- Stars using start and end tint now look way less awful\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/809**",
+      "latestReleaseDescription": "## Improvements\r\n- CharacterDialogueTrees from a Unity asset bundle will now load properly and have translations supported\r\n\r\n## Bug fixes\r\n- Sector cull groups now function properly (not erroneously enabled even without KeepLoaded) (fix #792)\r\n- Fixes a problem where projected slides are brighter than the source image (fix #755)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/813**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-03-18T04:25:25Z",
-      "databaseEntryUpdatedAt": "2024-03-18T04:35:31.028Z",
+      "repoUpdatedAt": "2024-03-18T04:53:44Z",
+      "databaseEntryUpdatedAt": "2024-03-18T05:01:01.516Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -8907,25 +8907,25 @@
       "description": "Mod jam 3!",
       "author": "xen-42",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/xen-42/ow-mod-jam-3-base/releases/download/v0.2.0/xen.ModJam3.zip",
+      "downloadUrl": "https://github.com/xen-42/ow-mod-jam-3-base/releases/download/v0.4.0/xen.ModJam3.zip",
       "downloadCount": 31,
-      "latestReleaseDate": "2024-03-15T17:52:27Z",
+      "latestReleaseDate": "2024-03-18T04:54:13Z",
       "firstReleaseDate": "2024-03-15T16:01:33Z",
       "repo": "https://github.com/xen-42/ow-mod-jam-3-base",
-      "version": "v0.2.0",
+      "version": "v0.4.0",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-mod-jam-3-base/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-mod-jam-3-base/main/README.md"
       },
-      "latestReleaseDescription": "- Now rearranges static bodies and Bramble dimensions\r\n- Fixed NRE when no ship logs\r\n\r\nIf you run into any issues or have any concerns let me know!\r\n",
+      "latestReleaseDescription": "I forgot to release v0.3.0 whoops:\r\n- Sun is prettier\r\n- Allow overriding initial spawn position\r\n- Space planets out more\r\n\r\nv0.4.0:\r\n- Fixed Bramble dimension spacing (probably)\r\n\r\nAdds properties to the `extras` module:\r\n- `\"closeToSun\": true` will position the planet close to the sun\r\n- `\"farFromSun\": true` will do the opposite",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam"
       ],
       "slug": "modjam3",
       "thumbnail": {},
-      "repoUpdatedAt": "2024-03-18T04:04:45Z",
-      "databaseEntryUpdatedAt": "2024-03-18T04:21:56.516Z",
+      "repoUpdatedAt": "2024-03-18T04:57:15Z",
+      "databaseEntryUpdatedAt": "2024-03-18T05:01:00.530Z",
       "repoVariations": [],
       "viewCount": 68,
       "weeklyViewCount": 68,
