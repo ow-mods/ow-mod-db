@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 137875
+    "downloadCount": 137876
   },
   "releases": [
     {
@@ -227,7 +227,7 @@
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
       "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.7.0/release.zip",
-      "downloadCount": 12654,
+      "downloadCount": 12656,
       "latestReleaseDate": "2022-03-23T11:03:42Z",
       "firstReleaseDate": "2020-09-20T09:43:23Z",
       "repo": "https://github.com/clubby789/OWClock",
@@ -251,7 +251,7 @@
         "main": "clock.webp"
       },
       "repoUpdatedAt": "2024-01-02T06:49:11Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:53:26.365Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:55:32.275Z",
       "repoVariations": [],
       "viewCount": 154,
       "weeklyViewCount": 36,
@@ -458,7 +458,7 @@
       "description": "Togglable features and teleportation",
       "author": "PacificEngine",
       "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.5/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 13121,
+      "downloadCount": 13122,
       "latestReleaseDate": "2024-01-06T07:12:47Z",
       "firstReleaseDate": "2021-10-21T06:56:51Z",
       "repo": "https://github.com/PacificEngine/OW_CheatsMod",
@@ -475,7 +475,7 @@
       "slug": "cheatsmod",
       "thumbnail": {},
       "repoUpdatedAt": "2024-01-06T07:06:47Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:53:26.526Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:55:31.182Z",
       "repoVariations": [],
       "viewCount": 360,
       "weeklyViewCount": 101,
@@ -1261,7 +1261,7 @@
       "description": "Customizable player scale!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.4.0/Owen013.TeenyHatchling.zip",
-      "downloadCount": 1481,
+      "downloadCount": 1482,
       "latestReleaseDate": "2023-04-16T23:33:53Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
@@ -1286,7 +1286,7 @@
         "main": "smolhatchling.webp"
       },
       "repoUpdatedAt": "2024-01-21T23:28:33Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:53:26.527Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:55:33.461Z",
       "repoVariations": [],
       "viewCount": 18,
       "weeklyViewCount": 6,
@@ -3350,7 +3350,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.3.1/dgarro.SuitLog.zip",
-      "downloadCount": 4793,
+      "downloadCount": 4795,
       "latestReleaseDate": "2024-03-02T22:07:14Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -3371,7 +3371,7 @@
         "openGraph": "suitlog-static.webp"
       },
       "repoUpdatedAt": "2024-03-02T22:10:12Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:53:26.548Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:55:32.305Z",
       "repoVariations": [],
       "viewCount": 163,
       "weeklyViewCount": 29,
@@ -5273,7 +5273,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/ow-dreamstalker/releases/download/v0.1.9/xen.Dreamstalker.zip",
-      "downloadCount": 1747,
+      "downloadCount": 1751,
       "latestReleaseDate": "2024-02-12T22:40:59Z",
       "firstReleaseDate": "2022-10-27T01:52:29Z",
       "repo": "https://github.com/xen-42/ow-dreamstalker",
@@ -5296,7 +5296,7 @@
         "main": "escapethedreamstalker.webp"
       },
       "repoUpdatedAt": "2024-02-14T05:30:15Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:53:26.365Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:55:32.636Z",
       "repoVariations": [],
       "viewCount": 44,
       "weeklyViewCount": 15,
@@ -6384,6 +6384,41 @@
       "weeklyInstallCount": 4
     },
     {
+      "name": "The Outsider",
+      "uniqueName": "SBtT.TheOutsider",
+      "description": "A quite large story and puzzle mod that takes place on Dark Bramble.",
+      "author": "StreetlightsBehindTheTrees",
+      "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.1.1/SBtT.TheOutsider.zip",
+      "downloadCount": 10163,
+      "latestReleaseDate": "2024-03-15T03:28:16Z",
+      "firstReleaseDate": "2023-01-19T22:22:18Z",
+      "repo": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
+      "version": "v1.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/main/README.md"
+      },
+      "authorDisplay": "Streetlights Behind the Trees",
+      "latestReleaseDescription": "- Merges the [Translation and Patches for The Outsider](https://github.com/TRSasasusu/TranslationForTheOutsider) mod into the base mod. Thank you [orclecle](https://github.com/TRSasasusu) for all the bug fixes and for translation support!\r\n- Implements general compatibility with New Horizons.\r\n- Marks the previous fix/translation mod as incompatible.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "content",
+        "story",
+        "requires-dlc"
+      ],
+      "slug": "theoutsider",
+      "thumbnail": {
+        "main": "theoutsider.webp"
+      },
+      "repoUpdatedAt": "2024-03-15T03:29:35Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:55:32.370Z",
+      "repoVariations": [],
+      "viewCount": 701,
+      "weeklyViewCount": 249,
+      "installCount": 527,
+      "weeklyInstallCount": 143
+    },
+    {
       "name": "Daylight Savings",
       "uniqueName": "clay.DaylightSavings",
       "description": "A mod made for the New Horizons jam",
@@ -7117,7 +7152,7 @@
       "author": "Hawkbat",
       "utility": true,
       "downloadUrl": "https://github.com/Hawkbat/ow-mod-data-tools/releases/download/0.2.0/Hawkbar.ModDataTools.zip",
-      "downloadCount": 99,
+      "downloadCount": 100,
       "latestReleaseDate": "2023-04-25T01:07:07Z",
       "firstReleaseDate": "2023-03-13T19:52:32Z",
       "repo": "https://github.com/Hawkbat/ow-mod-data-tools",
@@ -7136,7 +7171,7 @@
         "main": "moddatatools.webp"
       },
       "repoUpdatedAt": "2024-02-01T02:41:45Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:53:26.135Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:55:32.262Z",
       "repoVariations": [],
       "viewCount": 8,
       "weeklyViewCount": 1,
@@ -8557,7 +8592,7 @@
       "slug": "enhancedivergencemod",
       "thumbnail": {},
       "repoUpdatedAt": "2024-02-09T17:13:12Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:53:26.150Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:55:31.496Z",
       "repoVariations": [],
       "viewCount": 32,
       "weeklyViewCount": 6,
@@ -8787,7 +8822,7 @@
       "slug": "screenshottool",
       "thumbnail": {},
       "repoUpdatedAt": "2024-02-21T08:52:29Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:53:26.361Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:55:31.494Z",
       "repoVariations": [],
       "viewCount": 65,
       "weeklyViewCount": 15,
