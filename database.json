@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 137874
+    "downloadCount": 137875
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.9.8/OWML.zip",
-      "downloadCount": 141949,
+      "downloadCount": 141952,
       "latestReleaseDate": "2023-09-25T20:58:24Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2024-03-19T16:23:06Z",
-      "databaseEntryUpdatedAt": "2024-03-19T16:27:02.311Z",
+      "repoUpdatedAt": "2024-03-19T16:38:50Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:42:39.042Z",
       "repoVariations": [],
       "viewCount": 883,
       "weeklyViewCount": 236,
@@ -4903,7 +4903,7 @@
       "author": "Samster68OW",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Samster68OW/fretsquest/releases/download/v0.5.1/fretsquest.zip",
-      "downloadCount": 2836,
+      "downloadCount": 2844,
       "latestReleaseDate": "2023-02-21T20:51:47Z",
       "firstReleaseDate": "2022-10-01T23:01:22Z",
       "repo": "https://github.com/Samster68OW/fretsquest",
@@ -4924,7 +4924,7 @@
         "main": "fretsquest.webp"
       },
       "repoUpdatedAt": "2024-03-09T12:09:35Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:41:04.033Z",
+      "databaseEntryUpdatedAt": "2024-03-19T16:42:37.970Z",
       "repoVariations": [],
       "viewCount": 61,
       "weeklyViewCount": 26,
@@ -6382,41 +6382,6 @@
       "weeklyViewCount": 11,
       "installCount": 19,
       "weeklyInstallCount": 4
-    },
-    {
-      "name": "The Outsider",
-      "uniqueName": "SBtT.TheOutsider",
-      "description": "A quite large story and puzzle mod that takes place on Dark Bramble.",
-      "author": "StreetlightsBehindTheTrees",
-      "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.1.1/SBtT.TheOutsider.zip",
-      "downloadCount": 10150,
-      "latestReleaseDate": "2024-03-15T03:28:16Z",
-      "firstReleaseDate": "2023-01-19T22:22:18Z",
-      "repo": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
-      "version": "v1.1.1",
-      "readme": {
-        "htmlUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/main/README.md"
-      },
-      "authorDisplay": "Streetlights Behind the Trees",
-      "latestReleaseDescription": "- Merges the [Translation and Patches for The Outsider](https://github.com/TRSasasusu/TranslationForTheOutsider) mod into the base mod. Thank you [orclecle](https://github.com/TRSasasusu) for all the bug fixes and for translation support!\r\n- Implements general compatibility with New Horizons.\r\n- Marks the previous fix/translation mod as incompatible.",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "content",
-        "story",
-        "requires-dlc"
-      ],
-      "slug": "theoutsider",
-      "thumbnail": {
-        "main": "theoutsider.webp"
-      },
-      "repoUpdatedAt": "2024-03-15T03:29:35Z",
-      "databaseEntryUpdatedAt": "2024-03-19T04:41:04.033Z",
-      "repoVariations": [],
-      "viewCount": 701,
-      "weeklyViewCount": 249,
-      "installCount": 527,
-      "weeklyInstallCount": 143
     },
     {
       "name": "Daylight Savings",
