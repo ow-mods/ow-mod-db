@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A custom world creation tool for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.19.5/xen.NewHorizons.zip",
-      "downloadCount": 45582,
-      "latestReleaseDate": "2024-03-23T21:00:31Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.19.6/xen.NewHorizons.zip",
+      "downloadCount": 45615,
+      "latestReleaseDate": "2024-03-23T22:08:50Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.19.5",
+      "version": "v1.19.6",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Improvements\r\n- Conditional object activation GameObject will now be a sibling of the object it acts on. Makes it easier to copy details.\r\n- When starting a new expedition in another solar system, you will skip to loop 2. This means that quitting the game or entering a game over scene will still give you the \"Resume Expedition\" option on the main menu and not erase your progress.\r\n\r\n## Bug fixes\r\n- Fixed fog ramp being null sometimes.\r\n- Fixed getting locked into the \"ship warp drive activated\" dialogue when spawning inside the ship.\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/820**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fix sun trying to destroy phantom shuttles\r\n- Fix cull group error spam\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/824**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-03-23T22:10:43Z",
-      "databaseEntryUpdatedAt": "2024-03-23T22:17:24.511Z",
+      "repoUpdatedAt": "2024-03-23T23:31:25Z",
+      "databaseEntryUpdatedAt": "2024-03-23T23:44:00.469Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
