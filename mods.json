@@ -2732,6 +2732,18 @@
         "jam"
       ],
       "parent": "xen.NewHorizons"
+    },
+    {
+      "name": "Jam Hub",
+      "uniqueName": "coderCleric.JamHub",
+      "repo": "coderCleric/JamHub",
+      "tags": [
+        "jam",
+        "content",
+        "requires-dlc"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "coderCleric"
     }
   ]
 }
