@@ -8704,18 +8704,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.4-rc/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.5/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 328,
-      "latestReleaseDate": "2024-03-15T13:50:38Z",
+      "latestReleaseDate": "2024-03-24T15:11:55Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.1.4-rc",
+      "version": "v0.1.5",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "Due to unresolvable instability in the 0.2.0 release candidate, we're abandoning that branch in favor of a series of smaller releases, of which this is the first.\r\n\r\nFor installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **No More Nothings**: All the \"Nothing\"s have been replaced with proper `filler` items: Oxygen Refills, Jetpack Fuel Refills and Marshmallows (including Perfect and Burnt variants).\r\n  - This is the only significant feature in this patch release, by design.\r\n- Some of the logic, item classifications, AP location names and internal code changes have been taken from 0.2.0 to make it easier to reapply parts of 0.2.0 as future patches. For example, the \"Quantum Fluctuations Frequency\" has its new name of \"Scan Any Quantum Fluctuation\", Feldspar's Signal is now considered progression, etc. This may cause some minor inconsistencies in the short term, but nothing game-breaking.\r\n- A compatibility warning has been added to the in-game console if your .apworld and mod versions do not match exactly. _I originally intended to provide some backwards and forwards compatibility between different mod and apworld versions, but the 0.2.0 instability has made that infeasible for now._",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **27 new default locations**. Most of these are the notes, tape recorders, and fuel tanks left by other Hearthians, and many of them don't require any items to reach besides Launch Codes, so this should give you much more to do on a first session before getting stuck in \"BK mode\". _This is also preparation for a future random spawn feature, since spawning on a planet with only 0-1 checks available wouldn't be much fun._\r\n  - If you played the abandoned 0.2.0 RC, you may recall that Esker's fuel tank was overlooked. This has been fixed.\r\n- **Reworked Signalscope**: Now a signal cannot be scanned until you have the corresponding frequency item (which makes all frequencies `progression`, even Hide & Seek), and a signal cannot be detected at long range until you have the signal item (which makes multiple signals `progression`).\r\n- The \"Activate Nomai Warp Platform\" prompt should appear much more reliably now (from @GameWyrm).\r\n  - This was in the abandoned 0.2.0 RC, though we forgot to mention it in the release notes back then.\r\n- For death link players: The sun has been nerfed so that it only kills you once when you die.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, remember to follow [these additional steps](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer?tab=readme-ov-file#what-if-i-want-to-run-an-older-version-of-this-mod-so-i-can-finish-a-longer-async-or-run-a-prerelease-version-for-testing).\r\n\r\n- **27 new default locations**. Most of these are the notes, tape recorders, and fuel tanks left by other Hearthians, and many of them don't require any items to reach besides Launch Codes, so this should give you much more to do on a first session before getting stuck in \"BK mode\". _This is also preparation for a future random spawn feature, since spawning on a planet with only 0-1 checks available wouldn't be much fun._\r\n  - If you played the abandoned 0.2.0 RC, you may recall that Esker's fuel tank was overlooked. This has been fixed.\r\n- **Reworked Signalscope**: Now a signal cannot be scanned until you have the corresponding frequency item (which makes all frequencies `progression`, even Hide & Seek), and a signal cannot be detected at long range until you have the signal item (which makes multiple signals `progression`).\r\n- The \"Activate Nomai Warp Platform\" prompt should appear much more reliably now (from @GameWyrm).\r\n  - This was in the abandoned 0.2.0 RC, though we forgot to mention it in the release notes back then.\r\n- For death link players: The sun has been nerfed so that it only kills you once when you die.",
       "prerelease": {
         "version": "v0.1.5-rc",
@@ -8730,8 +8730,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-03-19T23:29:53Z",
-      "databaseEntryUpdatedAt": "2024-03-24T13:36:08.393Z",
+      "repoUpdatedAt": "2024-03-24T15:12:11Z",
+      "databaseEntryUpdatedAt": "2024-03-24T15:18:09.596Z",
       "repoVariations": [],
       "viewCount": 132,
       "weeklyViewCount": 69,
