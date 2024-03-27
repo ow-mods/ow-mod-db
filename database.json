@@ -9203,18 +9203,18 @@
       "description": "Adds a planet and moon named Axiom and Aicale. My mod entry for the 3rd Outer Wilds Jam.",
       "author": "MegaPiggy",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/MegaPiggy/axiom-and-aicale/releases/download/1.0.1/MegaPiggy.Axiom.zip",
-      "downloadCount": 26,
-      "latestReleaseDate": "2024-03-27T09:23:50Z",
+      "downloadUrl": "https://github.com/MegaPiggy/axiom-and-aicale/releases/download/1.0.2/MegaPiggy.Axiom.zip",
+      "downloadCount": 31,
+      "latestReleaseDate": "2024-03-27T11:06:14Z",
       "firstReleaseDate": "2024-03-27T00:01:11Z",
       "repo": "https://github.com/MegaPiggy/axiom-and-aicale",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "readme": {
         "htmlUrl": "https://github.com/MegaPiggy/axiom-and-aicale/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/axiom-and-aicale/main/README.md"
       },
       "authorDisplay": "MegaPiggy",
-      "latestReleaseDescription": "- New config to disable alpha SFX (you're welcome xen)\r\n- Added some culling\r\n- Removed some details to keep it less laggy\r\n- Finished ship logs\r\n- No more dialogue softlocking (as far as I know lol)\r\n- Some more dialogue\r\n- New subtitle\r\n- File size is only a little bit smaller. I'll optimize in future.\r\n\r\nEverything in this mod is just as non-critical as before but actually works",
+      "latestReleaseDescription": "- Fix moon warden softlock. Who knew writing dialogue would be so complicated. Sometimes I just forget to add a \"goodbye\" to a character.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -9224,8 +9224,8 @@
       "thumbnail": {
         "main": "axiomsrefuge.webp"
       },
-      "repoUpdatedAt": "2024-03-27T09:30:05Z",
-      "databaseEntryUpdatedAt": "2024-03-27T09:35:46.965Z",
+      "repoUpdatedAt": "2024-03-27T11:07:59Z",
+      "databaseEntryUpdatedAt": "2024-03-27T11:13:08.798Z",
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
