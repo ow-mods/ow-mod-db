@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 138009
+    "downloadCount": 138010
   },
   "releases": [
     {
@@ -5023,7 +5023,7 @@
         "openGraph": "scoutteleporter-static.webp"
       },
       "repoUpdatedAt": "2023-07-15T11:49:22Z",
-      "databaseEntryUpdatedAt": "2024-03-26T23:40:37.625Z",
+      "databaseEntryUpdatedAt": "2024-03-27T11:45:36.999Z",
       "repoVariations": [],
       "viewCount": 21,
       "weeklyViewCount": 11,
@@ -7250,25 +7250,27 @@
       "uniqueName": "nice2cu1.OuterWildFixFont",
       "description": "The mod fixes the problem that most of the Chinese-inclusive story mod text is incomplete by replacing the fonts of some interfaces.",
       "author": "nice2cu1",
-      "downloadUrl": "https://github.com/nice2cu1/OuterWildFixFont/releases/download/2.0.4/nice2cu1.OuterWildFixFont.zip",
-      "downloadCount": 707,
-      "latestReleaseDate": "2024-03-24T14:19:18Z",
+      "downloadUrl": "https://github.com/nice2cu1/OuterWildFixFont/releases/download/2.0.5/nice2cu1.OuterWildFixFont.zip",
+      "downloadCount": 710,
+      "latestReleaseDate": "2024-03-27T11:39:36Z",
       "firstReleaseDate": "2023-01-31T10:50:17Z",
       "repo": "https://github.com/nice2cu1/OuterWildFixFont",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "readme": {
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "修复飞船信号镜、控制台文字大小问题。[#4](https://github.com/nice2cu1/OuterWildFixFont/issues/4)",
+      "latestReleaseDescription": "新增：\r\n1.在MOD菜单中添加滑块来控制飞船日志文字大小，以应对更多极端情况。（即时生效）\r\n调整：\r\n1.改变ConsoleDisplay的查找逻辑，减少Find Object的次数，以免造成性能损失",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
       ],
       "slug": "outerwildschinesefix",
-      "thumbnail": {},
-      "repoUpdatedAt": "2024-03-24T14:25:24Z",
-      "databaseEntryUpdatedAt": "2024-03-27T03:20:22.980Z",
+      "thumbnail": {
+        "main": "outerwildschinesefix.webp"
+      },
+      "repoUpdatedAt": "2024-03-27T11:39:50Z",
+      "databaseEntryUpdatedAt": "2024-03-27T11:45:36.999Z",
       "repoVariations": [],
       "viewCount": 34,
       "weeklyViewCount": 19,
