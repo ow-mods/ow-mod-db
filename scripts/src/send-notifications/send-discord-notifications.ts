@@ -1,6 +1,7 @@
 import fetch from "node-fetch";
 import { THUMBNAIL_URL_BASE } from "../constants.js";
 import { DiffItem } from "./get-diff.js";
+const core = require("@actions/core");
 
 function getNotificationTitle(diffItem: DiffItem) {
   switch (diffItem.diffType) {
@@ -72,7 +73,7 @@ function getUrlParams(diffItem: DiffItem) {
 function getEmbed(diffItem: DiffItem) {
   const description = getNotificationDescription(diffItem);
 
-  return {
+  let embed = {
     type: "rich",
     title: diffItem.nextMod.name,
     fields: [
@@ -99,6 +100,9 @@ function getEmbed(diffItem: DiffItem) {
       }`,
     },
   };
+
+  core.info(embed);
+  return embed;
 }
 
 function pingRoleId(id: string) {
