@@ -35,7 +35,7 @@ function getNotificationDescription({ diffType, nextMod }: DiffItem) {
     }
   }
 
-  const maxLength = 1000; // Not sure if this is documented somewhere, I found this experimentally (cap is somewhere between 1000 and 1050)
+  const maxLength = 4000; // Max length of a Discord embed description is 4096, have to leave room for the title though.
   const truncatedDisclaimer = '**...**\n\n**Check the mod repo for the complete changelog.**';
   const endPosition = maxLength - 1 - truncatedDisclaimer.length;
 
@@ -98,11 +98,8 @@ function getEmbed(diffItem: DiffItem) {
   return {
     type: "rich",
     title: diffItem.nextMod.name,
+    description: `${getNotificationTitle(diffItem)}\n>>> ${description}`,
     fields: [
-      {
-        name: getNotificationTitle(diffItem),
-        value: description ? `>>> ${description}` : "\u200B",
-      },
       {
         name: "\u200B",
         value: `<:github:1085179483784499260> [Source Code](${diffItem.nextMod.repo})`,
