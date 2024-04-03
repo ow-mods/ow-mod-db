@@ -101,7 +101,7 @@ function getEmbed(diffItem: DiffItem) {
     },
   };
 
-  core.info(embed);
+  core.info(JSON.stringify(embed));
   return embed;
 }
 
