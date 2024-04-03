@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 138140
+    "downloadCount": 138141
   },
   "releases": [
     {
@@ -8709,18 +8709,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.5/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.6/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 393,
-      "latestReleaseDate": "2024-03-25T15:41:09Z",
+      "latestReleaseDate": "2024-04-03T01:25:44Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.1.5",
+      "version": "v0.1.6",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **27 new default locations**. Most of these are the notes, tape recorders, and fuel tanks left by other Hearthians, and many of them don't require any items to reach besides Launch Codes, so this should give you much more to do on a first session before getting stuck in \"BK mode\". _This is also preparation for a future random spawn feature, since spawning on a planet with only 0-1 checks available wouldn't be much fun._\r\n  - If you played the abandoned 0.2.0 RC, you may recall that Esker's fuel tank was overlooked. This has been fixed.\r\n- **Reworked Signalscope**: Now a signal cannot be scanned until you have the corresponding frequency item (which makes all frequencies `progression`, even Hide & Seek), and a signal cannot be detected at long range until you have the signal item (which makes multiple signals `progression`).\r\n- The \"Activate Nomai Warp Platform\" prompt should appear much more reliably now (from @GameWyrm).\r\n  - This was in the abandoned 0.2.0 RC, though we forgot to mention it in the release notes back then.\r\n- For death link players: The sun has been nerfed so that it only kills you once when you die.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **Logsanity**: Added a `logsanity` option (`false` by default) that adds **176 more locations** for all the (non-DLC, non-rumor, non-missable) ship log facts in the game. (Thanks @hopop201 for help checking these location names for spoilers)\r\n- Various bugfixes, tweaks and internal code cleanups. The ones noticeable to players are:\r\n  - Previously, receiving a non-unique filler item (marshmallow, oxygen refill, fuel refill) after switching profiles would have no effect. This should be fixed now.\r\n  - Reaching Feldspar via Signalscope is now in logic. Previously there was a bug causing only the Scout method to be in logic.\r\n  - When you connect to a multiworld made with a different .apworld version from the mod version, the warning message now appears in the in-game console without having to pause first, so it should be harder to miss\r\n  - When the mod tries to check a location but the AP server times out, it now prints a warning to the in-game console (not just the OWML logs), so it's easier to tell there's a connection issue beyond the mod's control\r\n- Additional tweaks since the Release Candidate:\r\n  - The logsanity location \"ET Ship Log: Sunless City 3 - Signal\" now correctly requires Ghost Matter Wavelength\r\n  - Made mid-game communication with the AP server non-blocking. That means the game will no longer freeze for up to 2 seconds whenever it tries to tell the AP server you checked a location (this is usually only noticeable if the server is down).\r\n  - Rewrote README instructions for installing old or prerelease versions of the mod now that I've become aware of and tested more Outer Wilds Mod Manager features.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.1.6-rc\"**.\r\n\r\n- **Logsanity**: Added a `logsanity` option (`false` by default) that adds **176 more locations** for all the (non-DLC, non-rumor, non-missable) ship log facts in the game. (Thanks @hopop201 for help checking these location names for spoilers)\r\n- Various bugfixes, tweaks and internal code cleanups. The ones noticeable to players are:\r\n  - Previously, receiving a non-unique filler item (marshmallow, oxygen refill, fuel refill) after switching profiles would have no effect. This should be fixed now.\r\n  - Reaching Feldspar via Signalscope is now in logic. Previously there was a bug causing only the Scout method to be in logic.\r\n  - When you connect to a multiworld made with a different .apworld version from the mod version, the warning message now appears in the in-game console without having to pause first, so it should be harder to miss\r\n  - When the mod tries to check a location but the AP server times out, it now prints a warning to the in-game console (not just the OWML logs), so it's easier to tell there's a connection issue beyond the mod's control",
       "prerelease": {
         "version": "v0.1.6-rc",
@@ -8735,8 +8735,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-04-03T01:18:50Z",
-      "databaseEntryUpdatedAt": "2024-04-03T01:19:40.384Z",
+      "repoUpdatedAt": "2024-04-03T01:26:49Z",
+      "databaseEntryUpdatedAt": "2024-04-03T02:01:51.571Z",
       "repoVariations": [],
       "viewCount": 138,
       "weeklyViewCount": 19,
@@ -9095,7 +9095,7 @@
       "author": "GameWyrm",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/GameWyrm/hearths-neighbor-2/releases/download/v1.0.1/GameWyrm.HearthsNeighbor2.zip",
-      "downloadCount": 175,
+      "downloadCount": 177,
       "latestReleaseDate": "2024-03-26T23:37:35Z",
       "firstReleaseDate": "2024-03-26T05:45:55Z",
       "repo": "https://github.com/GameWyrm/hearths-neighbor-2",
@@ -9118,8 +9118,8 @@
       "thumbnail": {
         "main": "hearthsneighbor2magistarium.webp"
       },
-      "repoUpdatedAt": "2024-04-02T04:59:44Z",
-      "databaseEntryUpdatedAt": "2024-04-02T17:21:26.734Z",
+      "repoUpdatedAt": "2024-04-03T01:37:09Z",
+      "databaseEntryUpdatedAt": "2024-04-03T02:01:51.366Z",
       "repoVariations": [],
       "viewCount": 128,
       "weeklyViewCount": 128,
