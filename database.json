@@ -1260,18 +1260,18 @@
       "uniqueName": "Owen013.TeenyHatchling",
       "description": "Customizable player scale!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.4.0/Owen013.TeenyHatchling.zip",
+      "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.5.0/Owen013.TeenyHatchling.zip",
       "downloadCount": 1489,
-      "latestReleaseDate": "2023-04-16T23:33:53Z",
+      "latestReleaseDate": "2024-04-06T17:02:06Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
-      "version": "v1.4.0",
+      "version": "v1.5.0",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/master/readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/master/readme.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "### Changes:\r\n* Added stools, which will spawn around the solar system. These stools can help the player use things like the model rocket or other areas where being shorter than normal can make something more difficult. The stool placements are not final, but they should spawn in most locations where they would be needed!\r\n* Revamped config menu.\r\n  * The \"Height %\" and \"Radius %\" settings now represent actual percentages, so a Height % of 100 will make the player be normal height.\r\n* Readded native compatibility with Hiker's Mod via an API. **Delete Owen013.HikersModSHAddon, as it is now obsolete.**",
+      "latestReleaseDescription": "- The stool item will now have a viewmodel arm if Immersion (Owen_013.FirstPersonPresence) is installed!\r\n- The DLC is no longer required to avoid errors.\r\n- Major behind-the-scenes refactoring.",
       "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
       "prerelease": {
         "version": "v2.0.0-pr2",
@@ -1285,8 +1285,8 @@
       "thumbnail": {
         "main": "smolhatchling.webp"
       },
-      "repoUpdatedAt": "2024-04-06T16:47:27Z",
-      "databaseEntryUpdatedAt": "2024-04-06T16:57:33.431Z",
+      "repoUpdatedAt": "2024-04-06T17:05:03Z",
+      "databaseEntryUpdatedAt": "2024-04-06T17:18:23.351Z",
       "repoVariations": [],
       "viewCount": 13,
       "weeklyViewCount": 2,
@@ -8662,7 +8662,7 @@
         "main": "glowstickbracelets.webp"
       },
       "repoUpdatedAt": "2024-01-03T03:33:22Z",
-      "databaseEntryUpdatedAt": "2024-04-06T05:17:04.313Z",
+      "databaseEntryUpdatedAt": "2024-04-06T17:18:23.350Z",
       "repoVariations": [],
       "viewCount": 24,
       "weeklyViewCount": 2,
@@ -8748,18 +8748,18 @@
       "uniqueName": "Owen_013.FirstPersonPresence",
       "description": "Step into the hatchling's hiking boots with viewmodel hands, view bobbing, and more!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.3.3/Owen_013.FirstPersonPresence.zip",
+      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.3.4/Owen_013.FirstPersonPresence.zip",
       "downloadCount": 449,
-      "latestReleaseDate": "2024-03-23T20:06:11Z",
+      "latestReleaseDate": "2024-04-06T17:04:44Z",
       "firstReleaseDate": "2024-01-16T01:43:20Z",
       "repo": "https://github.com/Owen013/FirstPersonPresence",
-      "version": "v1.3.3",
+      "version": "v1.3.4",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/FirstPersonPresence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/FirstPersonPresence/main/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "- Worked on improving tool sway just a bit more (now sways toward the camera a bit more and won't jitter around if you turn quickly).\r\n- Improved viewbob for Translator Tool (no longer bobs forward and backward).\r\n- Tweaked viewmodel arm for Scout Launcher.\r\n- Fixed a crash that would happen if you synced to the museum statue with Landing Animation enabled.\r\n- Fixed a bug that made arm grabby things not work unless you put down and picked a certain artifact back up.\r\n- Config now uses sliders instead of number fields.\r\n- Removed unused config options.",
+      "latestReleaseDescription": "The NewViewmodelArm method in the API will now return the GameObject of the viewmodel arm instead of the ViewmodelArm component.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -8768,8 +8768,8 @@
       "thumbnail": {
         "main": "immersion.webp"
       },
-      "repoUpdatedAt": "2024-04-06T16:46:15Z",
-      "databaseEntryUpdatedAt": "2024-04-06T16:57:33.254Z",
+      "repoUpdatedAt": "2024-04-06T17:05:01Z",
+      "databaseEntryUpdatedAt": "2024-04-06T17:18:23.350Z",
       "repoVariations": [],
       "viewCount": 197,
       "weeklyViewCount": 29,
