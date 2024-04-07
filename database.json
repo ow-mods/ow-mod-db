@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 138220
+    "downloadCount": 138221
   },
   "releases": [
     {
@@ -1261,7 +1261,7 @@
       "description": "Customizable player scale!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v1.5.0/Owen013.TeenyHatchling.zip",
-      "downloadCount": 1489,
+      "downloadCount": 1494,
       "latestReleaseDate": "2024-04-06T17:02:06Z",
       "firstReleaseDate": "2021-12-22T22:19:44Z",
       "repo": "https://github.com/Owen013/Smol-Hatchling",
@@ -1286,7 +1286,7 @@
         "main": "smolhatchling.webp"
       },
       "repoUpdatedAt": "2024-04-06T18:00:03Z",
-      "databaseEntryUpdatedAt": "2024-04-06T18:21:31.074Z",
+      "databaseEntryUpdatedAt": "2024-04-07T06:30:09.619Z",
       "repoVariations": [],
       "viewCount": 13,
       "weeklyViewCount": 1,
@@ -6841,7 +6841,7 @@
         "main": "evacuation.webp"
       },
       "repoUpdatedAt": "2024-03-16T12:25:25Z",
-      "databaseEntryUpdatedAt": "2024-04-06T18:21:30.385Z",
+      "databaseEntryUpdatedAt": "2024-04-07T06:30:09.224Z",
       "repoVariations": [],
       "viewCount": 135,
       "weeklyViewCount": 43,
@@ -7250,17 +7250,17 @@
       "uniqueName": "nice2cu1.OuterWildFixFont",
       "description": "The mod fixes the problem that most of the Chinese-inclusive story mod text is incomplete by replacing the fonts of some interfaces.",
       "author": "nice2cu1",
-      "downloadUrl": "https://github.com/nice2cu1/OuterWildFixFont/releases/download/2.0.5/nice2cu1.OuterWildFixFont.zip",
-      "downloadCount": 789,
-      "latestReleaseDate": "2024-03-27T11:39:36Z",
+      "downloadUrl": "https://github.com/nice2cu1/OuterWildFixFont/releases/download/2.0.6/nice2cu1.OuterWildFixFont.zip",
+      "downloadCount": 790,
+      "latestReleaseDate": "2024-04-07T06:23:01Z",
       "firstReleaseDate": "2023-01-31T10:50:17Z",
       "repo": "https://github.com/nice2cu1/OuterWildFixFont",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "readme": {
         "htmlUrl": "https://github.com/nice2cu1/OuterWildFixFont/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/nice2cu1/OuterWildFixFont/master/Readme.md"
       },
-      "latestReleaseDescription": "新增：\r\n1.在MOD菜单中添加滑块来控制飞船日志文字大小，以应对更多极端情况。（即时生效）\r\n调整：\r\n1.改变ConsoleDisplay的查找逻辑，减少Find Object的次数，以免造成性能损失",
+      "latestReleaseDescription": "1、调整ConsoleDisplay的修改逻辑。\r\n2、修复手拿信号镜以及飞船信号镜文字太小/缺失问题。\r\n3、删除不必要的日志输出。",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -7269,8 +7269,8 @@
       "thumbnail": {
         "main": "outerwildschinesefix.webp"
       },
-      "repoUpdatedAt": "2024-03-27T11:57:45Z",
-      "databaseEntryUpdatedAt": "2024-04-07T04:38:32.336Z",
+      "repoUpdatedAt": "2024-04-07T06:23:10Z",
+      "databaseEntryUpdatedAt": "2024-04-07T06:30:09.224Z",
       "repoVariations": [],
       "viewCount": 96,
       "weeklyViewCount": 47,
@@ -7889,7 +7889,7 @@
       "author": "qsb-dev",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/qsb-dev/qsb-multiple-ships/releases/download/0.1.0/_nebula.QSBMultipleShips.zip",
-      "downloadCount": 1154,
+      "downloadCount": 1163,
       "latestReleaseDate": "2023-07-09T19:59:07Z",
       "firstReleaseDate": "2023-07-09T19:59:07Z",
       "repo": "https://github.com/qsb-dev/qsb-multiple-ships",
@@ -7904,7 +7904,7 @@
       "slug": "qsbmultipleships",
       "thumbnail": {},
       "repoUpdatedAt": "2023-08-23T20:45:13Z",
-      "databaseEntryUpdatedAt": "2024-04-06T18:21:43.729Z",
+      "databaseEntryUpdatedAt": "2024-04-07T06:30:21.870Z",
       "repoVariations": [
         "https://github.com/misternebula/qsb-multiple-ships"
       ],
