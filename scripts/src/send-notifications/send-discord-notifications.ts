@@ -35,6 +35,29 @@ function getNotificationDescription({ diffType, nextMod }: DiffItem) {
     }
   }
 
+  const maxLength = 4000; // Max length of a Discord embed description is 4096, have to leave room for the title though.
+  const truncatedDisclaimer = '**...**\n\n**Check the mod repo for the complete changelog.**';
+  const endPosition = maxLength - 1 - truncatedDisclaimer.length;
+
+  if (description && description.length > maxLength) {
+    description = description.slice(0, endPosition);
+    // Don't slice in the middle of a word
+    let lastIndex = description.lastIndexOf(" ");
+    if (description[lastIndex-1].match(/^[.,:!?]/)) {
+      lastIndex--;
+    }
+    description = description.slice(0, lastIndex);
+    // Try to respect markdown links in the form [text text text](website.something.whatever)
+    // Because we only slice at spaces we just have to check if we're inside square brackets
+    let openSquareBracket = description.lastIndexOf("[");
+    let closeSquareBracket = description.lastIndexOf("]");
+    if (openSquareBracket != -1 && (closeSquareBracket == -1 || closeSquareBracket < openSquareBracket)) 
+    {
+      description = description.slice(0, openSquareBracket);
+    }
+    description += truncatedDisclaimer;
+  }
+
   return (
     description ||
     `Mod tagged as ${
@@ -75,11 +98,8 @@ function getEmbed(diffItem: DiffItem) {
   return {
     type: "rich",
     title: diffItem.nextMod.name,
+    description: `${getNotificationTitle(diffItem)}\n>>> ${description}`,
     fields: [
-      {
-        name: getNotificationTitle(diffItem),
-        value: description ? `>>> ${description}` : "\u200B",
-      },
       {
         name: "\u200B",
         value: `<:github:1085179483784499260> [Source Code](${diffItem.nextMod.repo})`,
