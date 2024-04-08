@@ -2859,14 +2859,24 @@
       "parent": "xen.NewHorizons",
       "authorDisplay": "Bird"
     },
-    {
-      "authorDisplay": "Owen_013",
+    { 
       "name": "Tripping and Clumsiness",
+      "uniqueName": "Owen_013.TrippingAndClumsiness",
       "repo": "Owen013/TrippingAndClumsiness",
       "tags": [
         "audiovisual"
       ],
-      "uniqueName": "Owen_013.TrippingAndClumsiness"
+      "authorDisplay": "Owen_013"
+    },
+    {
+      "name": "Pick Up Chert",
+      "uniqueName": "orclecle.PickUpChert",
+      "repo": "TRSasasusu/PickUpChert",
+      "tags": [
+        "tool",
+        "content"
+      ],
+      "authorDisplay": "orclecle"
     }
   ]
 }
