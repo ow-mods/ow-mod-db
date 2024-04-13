@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.19.8/xen.NewHorizons.zip",
-      "downloadCount": 47941,
-      "latestReleaseDate": "2024-04-09T14:25:59Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.19.9/xen.NewHorizons.zip",
+      "downloadCount": 47953,
+      "latestReleaseDate": "2024-04-12T03:52:04Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.19.8",
+      "version": "v1.19.9",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Improvements\r\n- Dialogue options added to existing characters will go to the top of the list not the bottom.\r\n\r\n## Bug fixes\r\n- Disabled reference frames are no longer targetable (#834)\r\n- Don't look for old parent path when propagating signals.\r\n- Don't explode if an object is deleted in a custom bramble node\r\n- Fixes compat issue with Visible Stranger where the Probe's map marker would vanish forever.\r\n- Fixes translation failing when falling back to English from an unsupported language\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/836**",
+      "latestReleaseDescription": "## Minor features\r\n- Position and rotation offsets for custom item holding and socketing\r\n\r\n## Bug fixes\r\n- Fixed NRE when using API to make Nomai text \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/840**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-04-12T03:50:31Z",
-      "databaseEntryUpdatedAt": "2024-04-13T16:28:49.351Z",
+      "repoUpdatedAt": "2024-04-13T18:23:19Z",
+      "databaseEntryUpdatedAt": "2024-04-13T18:33:24.448Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -8104,7 +8104,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearth1an.Origins/releases/download/v1.0.8/hearth1an.Origins.zip",
-      "downloadCount": 2553,
+      "downloadCount": 2555,
       "latestReleaseDate": "2023-10-09T19:55:23Z",
       "firstReleaseDate": "2023-07-16T15:39:10Z",
       "repo": "https://github.com/hearth1an/Origins",
@@ -8127,7 +8127,7 @@
         "openGraph": "origins-static.webp"
       },
       "repoUpdatedAt": "2024-03-09T20:57:55Z",
-      "databaseEntryUpdatedAt": "2024-04-13T06:28:20.169Z",
+      "databaseEntryUpdatedAt": "2024-04-13T18:33:24.321Z",
       "repoVariations": [],
       "viewCount": 329,
       "weeklyViewCount": 72,
