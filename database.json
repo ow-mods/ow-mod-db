@@ -9093,18 +9093,18 @@
       "description": "The Magister has called you to his station...",
       "author": "GameWyrm",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/GameWyrm/hearths-neighbor-2/releases/download/v1.1.1/GameWyrm.HearthsNeighbor2.zip",
-      "downloadCount": 420,
-      "latestReleaseDate": "2024-04-18T06:25:31Z",
+      "downloadUrl": "https://github.com/GameWyrm/hearths-neighbor-2/releases/download/v1.1.2/GameWyrm.HearthsNeighbor2.zip",
+      "downloadCount": 426,
+      "latestReleaseDate": "2024-04-18T22:26:09Z",
       "firstReleaseDate": "2024-03-26T05:45:55Z",
       "repo": "https://github.com/GameWyrm/hearths-neighbor-2",
-      "version": "v1.1.1",
+      "version": "v1.1.2",
       "readme": {
         "htmlUrl": "https://github.com/GameWyrm/hearths-neighbor-2/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/hearths-neighbor-2/master/README.md"
       },
       "authorDisplay": "GameWyrm, EndgameZero, FunkyShoeMan, and CelestialsStorm",
-      "latestReleaseDescription": "* Fixed performance of Library lighting\r\n* Other minor visual improvements\r\n* Sectoring, so overall performance should be better",
+      "latestReleaseDescription": "* Hotfix to add pikpik_carrot and JohnCorby to the credits (forgot to add them in last update, whoops)\r\n* Also properly set the planet to keepLoaded so that NH no longer creates a redundant parent sector",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -9117,8 +9117,8 @@
       "thumbnail": {
         "main": "hearthsneighbor2magistarium.webp"
       },
-      "repoUpdatedAt": "2024-04-18T06:27:26Z",
-      "databaseEntryUpdatedAt": "2024-04-18T18:50:05.470Z",
+      "repoUpdatedAt": "2024-04-18T22:27:37Z",
+      "databaseEntryUpdatedAt": "2024-04-18T22:29:27.183Z",
       "repoVariations": [],
       "viewCount": 301,
       "weeklyViewCount": 89,
