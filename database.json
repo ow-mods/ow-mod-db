@@ -4186,17 +4186,17 @@
       "uniqueName": "MegaPiggy.OWRichPresence",
       "description": "Adds discord rich presence to Outer Wilds",
       "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/OWRichPresence/releases/download/1.5.1/MegaPiggy.OWRichPresence.zip",
+      "downloadUrl": "https://github.com/MegaPiggy/OWRichPresence/releases/download/1.6.0/MegaPiggy.OWRichPresence.zip",
       "downloadCount": 3122,
-      "latestReleaseDate": "2024-03-28T02:49:55Z",
+      "latestReleaseDate": "2024-04-26T03:48:13Z",
       "firstReleaseDate": "2022-08-21T06:44:58Z",
       "repo": "https://github.com/MegaPiggy/OWRichPresence",
-      "version": "1.5.1",
+      "version": "1.6.0",
       "readme": {
         "htmlUrl": "https://github.com/MegaPiggy/OWRichPresence/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/OWRichPresence/master/README.md"
       },
-      "latestReleaseDescription": "Added custom icon support for \r\n- [Mod Jam 3](https://outerwildsmods.com/mods/modjam3/)\r\n- [Axiom's Refuge](https://outerwildsmods.com/mods/axiomsrefuge/)\r\n- [Hearth's Neighbor 2: Magistarium](https://outerwildsmods.com/mods/hearthsneighbor2magistarium/)\r\n- [Granite's Invitation](https://outerwildsmods.com/mods/granitesinvitation/)\r\n- [Finis](https://outerwildsmods.com/mods/finis/)\r\n- [Callis's Thesis](https://outerwildsmods.com/mods/callissthesis/)\r\n- [Echo Hike](https://outerwildsmods.com/mods/echohike/)\r\n- [Jam Hub](https://outerwildsmods.com/mods/jamhub/)\r\n\r\nI would add the other mods but they don't have ship log icons so oh well.",
+      "latestReleaseDescription": "- Added custom icon support for [Band Together](https://outerwildsmods.com/mods/bandtogether/)\r\n- Added handler callbacks to API (#4) by @qguv\r\n  - Allows any modders to hook into my system and use my rich presence stuff to make mods that update other services (like for example a [Home Assistant](https://github.com/qguv/OuterWildsAtHome) 😉)",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration"
@@ -4205,8 +4205,8 @@
       "thumbnail": {
         "main": "discordrichpresence.webp"
       },
-      "repoUpdatedAt": "2024-04-26T03:45:59Z",
-      "databaseEntryUpdatedAt": "2024-04-26T03:58:29.812Z",
+      "repoUpdatedAt": "2024-04-26T03:59:46Z",
+      "databaseEntryUpdatedAt": "2024-04-26T04:23:14.653Z",
       "repoVariations": [],
       "viewCount": 73,
       "weeklyViewCount": 14,
@@ -8026,18 +8026,18 @@
       "description": "Warp to Hearth's Neighbor, a nearby star system with its own secrets hidden within...",
       "author": "GameWyrm",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/GameWyrm/HearthsNeighbor/releases/download/v1.0.7/GameWyrm.HearthsNeighbor.zip",
+      "downloadUrl": "https://github.com/GameWyrm/HearthsNeighbor/releases/download/v1.0.8/GameWyrm.HearthsNeighbor.zip",
       "downloadCount": 2618,
-      "latestReleaseDate": "2023-11-21T17:26:55Z",
+      "latestReleaseDate": "2024-04-26T03:57:11Z",
       "firstReleaseDate": "2023-07-16T06:20:35Z",
       "repo": "https://github.com/GameWyrm/HearthsNeighbor",
-      "version": "v1.0.7",
+      "version": "v1.0.8",
       "readme": {
         "htmlUrl": "https://github.com/GameWyrm/HearthsNeighbor/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/HearthsNeighbor/main/README.md"
       },
       "authorDisplay": "GameWyrm, EndgameZero, Lumine0409, and FunkyShoeMan",
-      "latestReleaseDescription": "* Updated Russian translation by Metrocop12",
+      "latestReleaseDescription": "* Added a new ship log to make it more obvious where the ending is\r\n* Added a new sequence to the ending to tie this mod to Magistarium\r\n* Added (jank) QSB support. Only some things are synced (spoilers below)\r\n\r\nSynced:\r\n* Lake Core lever\r\n* All Lava Core Shrine buttons\r\n* Derelict Ship keypad\r\n* The Final Button\r\n\r\nNot Synced:\r\n* Lava Core pressure plates (a pain to rewrite and would completely nullify the puzzles)\r\n* Elevators (could require new animations and potentially tedious for play)\r\n* Final music\r\nCertain elements that you are intended to activate from a distance will look weird for another player that is close to and looking at the element, but it will not have any negative affect on gameplay.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -8051,8 +8051,8 @@
       "thumbnail": {
         "main": "hearthsneighbor.webp"
       },
-      "repoUpdatedAt": "2024-04-26T03:45:04Z",
-      "databaseEntryUpdatedAt": "2024-04-26T03:46:05.614Z",
+      "repoUpdatedAt": "2024-04-26T04:07:41Z",
+      "databaseEntryUpdatedAt": "2024-04-26T04:23:14.683Z",
       "repoVariations": [
         "https://github.com/GameWyrm/OuterWildsSummerJam"
       ],
