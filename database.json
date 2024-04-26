@@ -8709,18 +8709,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.6/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 530,
-      "latestReleaseDate": "2024-04-03T01:25:44Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.7/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 537,
+      "latestReleaseDate": "2024-04-26T19:35:17Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.1.6",
+      "version": "v0.1.7",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **Logsanity**: Added a `logsanity` option (`false` by default) that adds **176 more locations** for all the (non-DLC, non-rumor, non-missable) ship log facts in the game. (Thanks @hopop201 for help checking these location names for spoilers)\r\n- Various bugfixes, tweaks and internal code cleanups. The ones noticeable to players are:\r\n  - Previously, receiving a non-unique filler item (marshmallow, oxygen refill, fuel refill) after switching profiles would have no effect. This should be fixed now.\r\n  - Reaching Feldspar via Signalscope is now in logic. Previously there was a bug causing only the Scout method to be in logic.\r\n  - When you connect to a multiworld made with a different .apworld version from the mod version, the warning message now appears in the in-game console without having to pause first, so it should be harder to miss\r\n  - When the mod tries to check a location but the AP server times out, it now prints a warning to the in-game console (not just the OWML logs), so it's easier to tell there's a connection issue beyond the mod's control\r\n- Additional tweaks since the Release Candidate:\r\n  - The logsanity location \"ET Ship Log: Sunless City 3 - Signal\" now correctly requires Ghost Matter Wavelength\r\n  - Made mid-game communication with the AP server non-blocking. That means the game will no longer freeze for up to 2 seconds whenever it tries to tell the AP server you checked a location (this is usually only noticeable if the server is down).\r\n  - Rewrote README instructions for installing old or prerelease versions of the mod now that I've become aware of and tested more Outer Wilds Mod Manager features.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **In-Game Tracker**: (from @GameWyrm) A complete in-game tracker in the Ship Log. Automatically tracks what items you have, which locations you've checked, and which locations you can reach with your current items. It even shows which items/locations have Archipelago hints, and the full randomizer logic for each location, and has hand-written descriptions of each location (many contributed by @hopop201). _In other words, the Universal Tracker is no longer required to play this randomizer._\r\n- Rework the main menu code to use the new OWML.MenuHelper API. This should fix the inconsistent spacing of main menu items, and remove the dependency on MenuFramework.\r\n- The behavior of Warp Core Installation Manual and the \"Vessel 2 - Dead Core\" logsanity location have been tweaked to make checking that location less tedious. Now picking up the dead warp core will trigger the ship log fact and AP location (and the Manual is required to pick it up), so you won't need to make a whole second trip to the Vessel just for this one location.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.1.7-rc\"**.\r\n\r\n- **In-Game Tracker**: (from @GameWyrm) A complete in-game tracker in the Ship Log. Automatically tracks what items you have, which locations you've checked, and which locations you can reach with your current items. It even shows which items/locations have Archipelago hints, and the full randomizer logic for each location, and has hand-written descriptions of each location (many contributed by @hopop201). _In other words, the Universal Tracker is no longer required to play this randomizer._\r\n- Rework the main menu code to use the new OWML.MenuHelper API. This should fix the inconsistent spacing of main menu items, and remove the dependency on MenuFramework.\r\n- The behavior of Warp Core Installation Manual and the \"Vessel 2 - Dead Core\" logsanity location have been tweaked to make checking that location less tedious. Now picking up the dead warp core will trigger the ship log fact and AP location (and the Manual is required to pick it up), so you won't need to make a whole second trip to the Vessel just for this one location.",
       "prerelease": {
         "version": "v0.1.7-rc",
@@ -8735,8 +8735,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-04-23T20:07:50Z",
-      "databaseEntryUpdatedAt": "2024-04-26T08:50:51.065Z",
+      "repoUpdatedAt": "2024-04-26T19:35:39Z",
+      "databaseEntryUpdatedAt": "2024-04-26T19:42:56.040Z",
       "repoVariations": [],
       "viewCount": 68,
       "weeklyViewCount": 11,
@@ -8918,17 +8918,17 @@
       "description": "For the 3rd Outer Wilds mod jam, all entries must be set in the same system. This system!",
       "author": "xen-42",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/xen-42/ow-mod-jam-3-base/releases/download/v1.0.0/xen.ModJam3.zip",
+      "downloadUrl": "https://github.com/xen-42/ow-mod-jam-3-base/releases/download/v1.1.0/xen.ModJam3.zip",
       "downloadCount": 1005,
-      "latestReleaseDate": "2024-04-13T19:34:13Z",
+      "latestReleaseDate": "2024-04-26T19:33:15Z",
       "firstReleaseDate": "2024-03-15T16:01:33Z",
       "repo": "https://github.com/xen-42/ow-mod-jam-3-base",
-      "version": "v1.0.0",
+      "version": "v1.1.0",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-mod-jam-3-base/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-mod-jam-3-base/main/README.md"
       },
-      "latestReleaseDescription": "The jam has now been judged!\r\n- Ping now has dialogue specific to each jam entry\r\n- Talking to Ping after completing a jam entry will reveal new objects around the Starship Community\r\n- The downstairs whiteboards now list the winners\r\n- Upstairs now has short preview text for each entry\r\n\r\nCongrats to all entrants! Symbiosis and Band Together currently lack extra content here but it will be added once they are complete.",
+      "latestReleaseDescription": "- Added support for the ending of Band Together now that it is fully playable.\r\n- Updated the preview image used for Magistarium.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam"
@@ -8937,8 +8937,8 @@
       "thumbnail": {
         "main": "modjam3.webp"
       },
-      "repoUpdatedAt": "2024-04-26T19:29:02Z",
-      "databaseEntryUpdatedAt": "2024-04-26T19:30:30.827Z",
+      "repoUpdatedAt": "2024-04-26T19:33:52Z",
+      "databaseEntryUpdatedAt": "2024-04-26T19:42:56.431Z",
       "repoVariations": [],
       "viewCount": 190,
       "weeklyViewCount": 28,
@@ -9240,7 +9240,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-trifidjam3/releases/download/v1.1.0/Trifid.TrifidJam3.zip",
-      "downloadCount": 404,
+      "downloadCount": 411,
       "latestReleaseDate": "2024-04-05T03:18:51Z",
       "firstReleaseDate": "2024-03-26T23:52:29Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-trifidjam3",
@@ -9262,7 +9262,7 @@
         "main": "echohike.webp"
       },
       "repoUpdatedAt": "2024-04-17T05:10:34Z",
-      "databaseEntryUpdatedAt": "2024-04-26T07:32:23.367Z",
+      "databaseEntryUpdatedAt": "2024-04-26T19:42:56.667Z",
       "repoVariations": [],
       "viewCount": 315,
       "weeklyViewCount": 43,
