@@ -7118,17 +7118,17 @@
       "uniqueName": "VioVayo.HugMod",
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
-      "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.1.0/VioVayo.HugMod.zip",
-      "downloadCount": 1613,
-      "latestReleaseDate": "2024-04-19T13:51:18Z",
+      "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.1.1/VioVayo.HugMod.zip",
+      "downloadCount": 1614,
+      "latestReleaseDate": "2024-04-27T19:51:56Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
-      "version": "v1.1.0",
+      "version": "v1.1.1",
       "readme": {
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "- Added new API method that returns an array of huggable GOs\r\n- (Don't overuse this)",
+      "latestReleaseDescription": "- reworked the failsafes meant to prevent player getting stuck in a hug sequence to be more versatile\r\n- improved out-of-bounds navigation for the friends you can make with Friendmaker Mode\r\n- fixed eye scene dialogue animation bug and other minor tweaks",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7137,8 +7137,8 @@
       "thumbnail": {
         "main": "hugmod.webp"
       },
-      "repoUpdatedAt": "2024-04-27T19:49:07Z",
-      "databaseEntryUpdatedAt": "2024-04-27T19:51:26.395Z",
+      "repoUpdatedAt": "2024-04-27T20:00:22Z",
+      "databaseEntryUpdatedAt": "2024-04-27T20:10:08.347Z",
       "repoVariations": [],
       "viewCount": 52,
       "weeklyViewCount": 17,
@@ -9240,7 +9240,7 @@
       "author": "TerrificTrifid",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-trifidjam3/releases/download/v1.1.0/Trifid.TrifidJam3.zip",
-      "downloadCount": 415,
+      "downloadCount": 421,
       "latestReleaseDate": "2024-04-05T03:18:51Z",
       "firstReleaseDate": "2024-03-26T23:52:29Z",
       "repo": "https://github.com/TerrificTrifid/ow-nh-trifidjam3",
@@ -9262,7 +9262,7 @@
         "main": "echohike.webp"
       },
       "repoUpdatedAt": "2024-04-26T19:48:18Z",
-      "databaseEntryUpdatedAt": "2024-04-27T08:08:44.218Z",
+      "databaseEntryUpdatedAt": "2024-04-27T20:10:08.422Z",
       "repoVariations": [],
       "viewCount": 286,
       "weeklyViewCount": 45,
