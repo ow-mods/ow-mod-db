@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.20.0/xen.NewHorizons.zip",
-      "downloadCount": 49537,
-      "latestReleaseDate": "2024-04-25T21:05:13Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.20.1/xen.NewHorizons.zip",
+      "downloadCount": 49539,
+      "latestReleaseDate": "2024-04-28T00:14:58Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.20.0",
+      "version": "v1.20.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n- Quantum Space Buddies is no longer incompatible. Expect there to still be bugs when playing NH addons with QSB, especially code-oriented ones!\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/849**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fixes The Vision roasting you in the sun if you're Turkish (use invariant culture when changing string casing)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/851**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-04-28T01:08:02Z",
-      "databaseEntryUpdatedAt": "2024-04-28T01:27:10.211Z",
+      "repoUpdatedAt": "2024-04-28T01:42:38Z",
+      "databaseEntryUpdatedAt": "2024-04-28T02:02:41.136Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -8846,18 +8846,18 @@
       "uniqueName": "SBtT.GeneralEnhancements",
       "description": "Adds a bunch of little things. You can toggle things to your liking in the settings.",
       "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/SBtT.GeneralEnhancements/releases/download/1.0.2/SBtT.GeneralEnhancements.zip",
+      "downloadUrl": "https://github.com/MegaPiggy/SBtT.GeneralEnhancements/releases/download/1.0.3/SBtT.GeneralEnhancements.zip",
       "downloadCount": 538,
-      "latestReleaseDate": "2024-04-08T23:47:13Z",
+      "latestReleaseDate": "2024-04-28T01:34:35Z",
       "firstReleaseDate": "2024-02-22T16:20:59Z",
       "repo": "https://github.com/MegaPiggy/SBtT.GeneralEnhancements",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "readme": {
         "htmlUrl": "https://github.com/MegaPiggy/SBtT.GeneralEnhancements/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/SBtT.GeneralEnhancements/main/README.md"
       },
       "authorDisplay": "Streetlights Behind the Trees",
-      "latestReleaseDescription": "- Added ability to blink with gamepad (left shoulder, when not holding anything or controlling ship)\r\n- Added blink animation for skipping to ship to smooth it a bit\r\n- Fixed ringed planet atmosphere when NH is installed\r\n- Fixed some other issues with NH\r\n- Fixed ship thruster flame also turning green\r\n- Fixed softlock when sleep at ship computer",
+      "latestReleaseDescription": "Fixed issue where would blink when try to roll with jetpack in zero-g.",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -8868,8 +8868,8 @@
       "thumbnail": {
         "main": "generalenhancements.webp"
       },
-      "repoUpdatedAt": "2024-04-08T23:46:03Z",
-      "databaseEntryUpdatedAt": "2024-04-27T15:29:16.151Z",
+      "repoUpdatedAt": "2024-04-28T01:35:30Z",
+      "databaseEntryUpdatedAt": "2024-04-28T02:02:39.274Z",
       "repoVariations": [],
       "viewCount": 200,
       "weeklyViewCount": 25,
@@ -9094,7 +9094,7 @@
       "author": "GameWyrm",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/GameWyrm/hearths-neighbor-2/releases/download/v1.1.3/GameWyrm.HearthsNeighbor2.zip",
-      "downloadCount": 632,
+      "downloadCount": 642,
       "latestReleaseDate": "2024-04-22T05:32:32Z",
       "firstReleaseDate": "2024-03-26T05:45:55Z",
       "repo": "https://github.com/GameWyrm/hearths-neighbor-2",
@@ -9117,8 +9117,8 @@
       "thumbnail": {
         "main": "hearthsneighbor2magistarium.webp"
       },
-      "repoUpdatedAt": "2024-04-26T00:01:00Z",
-      "databaseEntryUpdatedAt": "2024-04-27T14:17:32.529Z",
+      "repoUpdatedAt": "2024-04-28T01:49:13Z",
+      "databaseEntryUpdatedAt": "2024-04-28T02:02:40.601Z",
       "repoVariations": [],
       "viewCount": 395,
       "weeklyViewCount": 139,
