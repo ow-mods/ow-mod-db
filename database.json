@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 138608
+    "downloadCount": 138609
   },
   "releases": [
     {
@@ -7118,17 +7118,17 @@
       "uniqueName": "VioVayo.HugMod",
       "description": "Adds a hug mechanic to the game",
       "author": "VioVayo",
-      "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.1.1/VioVayo.HugMod.zip",
-      "downloadCount": 1614,
-      "latestReleaseDate": "2024-04-27T19:51:56Z",
+      "downloadUrl": "https://github.com/VioVayo/OWHugMod/releases/download/v1.1.2/VioVayo.HugMod.zip",
+      "downloadCount": 1626,
+      "latestReleaseDate": "2024-04-28T04:09:15Z",
       "firstReleaseDate": "2023-03-05T19:33:18Z",
       "repo": "https://github.com/VioVayo/OWHugMod",
-      "version": "v1.1.1",
+      "version": "v1.1.2",
       "readme": {
         "htmlUrl": "https://github.com/VioVayo/OWHugMod/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/VioVayo/OWHugMod/main/README.md"
       },
-      "latestReleaseDescription": "- reworked the failsafes meant to prevent player getting stuck in a hug sequence to be more versatile\r\n- improved out-of-bounds navigation for the friends you can make with Friendmaker Mode\r\n- fixed eye scene dialogue animation bug and other minor tweaks",
+      "latestReleaseDescription": "Forgot to fix an issue with ReturnAction falsely striking entries off the waypoints list in the last update (sorry)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -7137,8 +7137,8 @@
       "thumbnail": {
         "main": "hugmod.webp"
       },
-      "repoUpdatedAt": "2024-04-27T20:00:22Z",
-      "databaseEntryUpdatedAt": "2024-04-27T20:10:08.347Z",
+      "repoUpdatedAt": "2024-04-28T04:11:57Z",
+      "databaseEntryUpdatedAt": "2024-04-28T04:15:31.398Z",
       "repoVariations": [],
       "viewCount": 48,
       "weeklyViewCount": 11,
