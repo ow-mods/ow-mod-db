@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.11.1/OWML.zip",
-      "downloadCount": 151556,
+      "downloadCount": 151629,
       "latestReleaseDate": "2024-03-22T11:31:04Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2024-04-18T20:48:38Z",
-      "databaseEntryUpdatedAt": "2024-05-02T23:56:29.114Z",
+      "databaseEntryUpdatedAt": "2024-05-03T12:25:57.239Z",
       "repoVariations": [],
       "viewCount": 1248,
       "weeklyViewCount": 271,
@@ -8720,12 +8720,12 @@
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **In-Game Tracker**: (from @GameWyrm) A complete in-game tracker in the Ship Log. Automatically tracks what items you have, which locations you've checked, and which locations you can reach with your current items. It even shows which items/locations have Archipelago hints, and the full randomizer logic for each location, and has hand-written descriptions of each location (many contributed by @hopop201). _In other words, the Universal Tracker is no longer required to play this randomizer._\r\n- Rework the main menu code to use the new OWML.MenuHelper API. This should fix the inconsistent spacing of main menu items, and remove the dependency on MenuFramework.\r\n- The behavior of Warp Core Installation Manual and the \"Vessel 2 - Dead Core\" logsanity location have been tweaked to make checking that location less tedious. Now picking up the dead warp core will trigger the ship log fact and AP location (and the Manual is required to pick it up), so you won't need to make a whole second trip to the Vessel just for this one location.",
-      "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.1.7-rc\"**.\r\n\r\n- **In-Game Tracker**: (from @GameWyrm) A complete in-game tracker in the Ship Log. Automatically tracks what items you have, which locations you've checked, and which locations you can reach with your current items. It even shows which items/locations have Archipelago hints, and the full randomizer logic for each location, and has hand-written descriptions of each location (many contributed by @hopop201). _In other words, the Universal Tracker is no longer required to play this randomizer._\r\n- Rework the main menu code to use the new OWML.MenuHelper API. This should fix the inconsistent spacing of main menu items, and remove the dependency on MenuFramework.\r\n- The behavior of Warp Core Installation Manual and the \"Vessel 2 - Dead Core\" logsanity location have been tweaked to make checking that location less tedious. Now picking up the dead warp core will trigger the ship log fact and AP location (and the Manual is required to pick it up), so you won't need to make a whole second trip to the Vessel just for this one location.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **In-Game Tracker**: (from @GameWyrm) A complete in-game tracker in the Ship Log. Automatically tracks what items you have, which locations you've checked, and which locations you can reach with your current items. It even shows which items/locations have Archipelago hints, and the full randomizer logic for each location, and has hand-written descriptions of each location (many contributed by @hopop201). _In other words, the Universal Tracker is no longer required to play this randomizer._\r\n- Rework the main menu code to use the new OWML.MenuHelper API. This should fix the inconsistent spacing of main menu items, and remove the dependency on MenuFramework. (EDIT: apparently it also fixed NomaiVR compatibility?)\r\n- The behavior of Warp Core Installation Manual and the \"Vessel 2 - Dead Core\" logsanity location have been tweaked to make checking that location less tedious. Now picking up the dead warp core will trigger the ship log fact and AP location (and the Manual is required to pick it up), so you won't need to make a whole second trip to the Vessel just for this one location.",
+      "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.1.8-rc\"**.\r\n\r\n- `useful` and `trap` items:\r\n  - Autopilot\r\n  - Landing Camera\r\n  - Eject Button\r\n  - Velocity Matcher\r\n  - Surface Integrity Scanner\r\n  - 3 Oxygen Capacity Upgrades (now you start at 50% of vanilla capacity, and end at 200%)\r\n  - 3 Fuel Capacity Upgrades (also 50% -> 200%)\r\n  - 3 Boost Duration Upgrades (also 50% -> 200%)\r\n  - Ship Damage Trap\r\n  - Audio Trap\r\n  - Nap Trap\r\n  - *If you've played the abandoned 0.2.0 RC: The bugs with Capacity Upgrades and Nap Traps should be fixed now.*\r\n- `trap_chance` and `trap_type_weights` options to configure the trap items\r\n- Allow the `start_inventory_from_pool` generic option (in addition to `start_inventory`), since some players expressed interest in putting *unique* `useful` items such as Autopilot in their start inventory.\r\n- Signalscope bugfixes: now it works during the Eye finale, and it correctly requires Hide & Seek frequency to scan Hide & Seek signals\r\n- Tracker fixes and tweaks: (from @dgarro) fixed a visual off-by-one glitch after switching modes, (from @GameWyrm) added Esker's House Fuel Tank to the tracker, used colored text for location descriptions, reworked how the per-planet totals are displayed",
       "prerelease": {
-        "version": "v0.1.7-rc",
-        "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.7-rc/Ixrec.ArchipelagoRandomizer.zip",
-        "date": "2024-04-23T20:05:42Z"
+        "version": "v0.1.8-rc",
+        "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.1.8-rc/Ixrec.ArchipelagoRandomizer.zip",
+        "date": "2024-05-03T12:11:48Z"
       },
       "tags": [
         "gameplay",
@@ -8735,8 +8735,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-05-02T21:22:05Z",
-      "databaseEntryUpdatedAt": "2024-05-03T09:26:35.082Z",
+      "repoUpdatedAt": "2024-05-03T12:12:22Z",
+      "databaseEntryUpdatedAt": "2024-05-03T12:25:56.306Z",
       "repoVariations": [],
       "viewCount": 75,
       "weeklyViewCount": 27,
