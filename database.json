@@ -9408,40 +9408,6 @@
       "weeklyInstallCount": 5
     },
     {
-      "name": "Resource Management",
-      "uniqueName": "Stonesword.ResourceManagement",
-      "description": "A mod that makes the oxygen and fuel in your ship matter.",
-      "author": "el-piedras",
-      "downloadUrl": "https://github.com/el-piedras/Resource-Management/releases/download/v0.3.0/Stonesword.ResourceManagement.zip",
-      "downloadCount": 91,
-      "latestReleaseDate": "2024-04-20T03:29:16Z",
-      "firstReleaseDate": "2024-04-09T01:51:54Z",
-      "repo": "https://github.com/el-piedras/Resource-Management",
-      "version": "v0.3.0",
-      "readme": {
-        "htmlUrl": "https://github.com/el-piedras/Resource-Management/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/el-piedras/Resource-Management/main/README.md"
-      },
-      "authorDisplay": "Stonesword",
-      "latestReleaseDescription": "# Resource Management v0.3.0\r\n\r\n### Ship Emergency Thrusters\r\n- They work about the same as your suit: When you run out of fuel, they will activate and drain oxygen at a *very* quick rate whenever you're thrusting, so watch out.\r\n\r\n### Mod settings\r\n- Now you can access the mod configuration from the Mods tabs in the game settings. You'll be able to customize certain parameters such as oxygen regeneration rate, or enable / disable certain functions.\r\n\r\n### And *a* bug fix\r\n- (Hopefully) fixed a NRE spam in console after dying / meditating\r\n\r\n\r\n- Removed code",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
-      "slug": "resourcemanagement",
-      "thumbnail": {
-        "main": "resourcemanagement.webp"
-      },
-      "repoUpdatedAt": "2024-04-20T03:34:54Z",
-      "databaseEntryUpdatedAt": "2024-05-05T19:30:20.414Z",
-      "repoVariations": [],
-      "viewCount": 137,
-      "weeklyViewCount": 16,
-      "installCount": 19,
-      "weeklyInstallCount": 11
-    },
-    {
       "name": "Reactive Hearthians",
       "uniqueName": "OmegaFallon.ReactiveHearthians",
       "description": "Adds new dialogue to most Hearthians.",
