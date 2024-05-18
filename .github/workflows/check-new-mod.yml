@@ -1,0 +1,56 @@
+name: Check New Mod
+
+on:
+  pull_request:
+    types: [opened, labeled, synchronize, edited]
+    branches: [master, source, main]
+
+permissions:
+  contents: read
+  pull-requests: write
+  checks: write
+
+jobs:
+  check-new-mod:
+    runs-on: ubuntu-latest
+    env:
+      modUniqueName: ""
+      modRepo: ""
+    if: "${{ contains(github.event.pull_request.labels.*.name, 'add-mod') && startsWith(github.event.pull_request.title, 'Add new mod: ') }}"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Get Mod Info
+        id: get-mod-info
+        run: |
+          tmp="${{ github.event.pull_request.title }}"
+          echo "modUniqueName=${tmp:13}" >> $GITHUB_ENV
+
+          pat="https://github.com/([[:alnum:]_\/-]*)"
+          ser="${{ github.event.pull_request.body }}"
+          if [[ $ser =~ $pat ]]; then
+            echo "modRepo=${BASH_REMATCH[1]}" >> $GITHUB_ENV
+          fi
+      - name: Initial Comment
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            ### :hourglass: Starting Mod Check 
+            View the `Checks` tab for the status of this check.
+      - name: Check Mod
+        id: check-mod
+        continue-on-error: true
+        uses: Bwc9876/mods-checker@main
+        with:
+          sourceType: repo
+          source: ${{ env.modRepo }}
+          overrideName: Check of ${{ env.modUniqueName }}
+          expectedUniqueName: ${{ env.modUniqueName }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Final Comment
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          filePath: ./results.md
+      - name: Return
+        if: ${{ steps.check-mod.outcome == 'failure' }}
+        run: exit 1
