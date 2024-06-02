@@ -8709,18 +8709,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.0/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 1004,
-      "latestReleaseDate": "2024-05-20T10:13:07Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.1/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 1011,
+      "latestReleaseDate": "2024-06-02T15:12:46Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.2.0",
+      "version": "v0.2.1",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\nWhile the 0.1.x releases focused on fleshing out the Archipelago items and locations, the 0.2.x releases will focus on other kinds of randomization. That's why this is v0.2.0 instead of v0.1.9.\r\n\r\n- **Random Coordinates**: A `randomize_coordinates` option (`true` by default) that generates random Nomai hexagonal coordinates for the Eye of the Universe, and requires you to enter them instead of the vanilla coordinates to complete the game. Also edits the Ship Log, the Probe Tracker Module hologram, and the \"Eye Coordinates\" UI prompt to show these random coordinates, but only after you have the \"Coordinates\" AP item. In other words: simply memorizing the vanilla coordinates will no longer work.\r\n- **Suitless Logic**: An experimental `shuffle_spacesuit` option (`false` by default) that requires you to play suitless until you find the Spacesuit item. Logic contributed by @thestrangepie and playtested by rowlet (muffin).\r\n- Tracker checklist tweaks (from me this time):\r\n\t- The logic display will now show all of the logic for however many logical regions you must pass through to reach a location. For example, The Vessel's entry will now tell you that you (logically) need Silent Running Mode, Escape Pod 3 Signal, etc, not just that the final step requires Scout.\r\n\t- Each location list now shows all green/accessible locations first, then red/inaccessible locations, then white/checked locations at the bottom.\r\n\t- Each item/region in the logic is now highlighted red or green to indicate whether you have it/can reach it, making it easier to tell what you're missing or which path the logic expects you to take.\r\n\t- Fixed extra spaces, extra parentheses and missing parentheses in the logic display.\r\n\t- Location lists show longer, more accurate titles at the top (e.g. \"Timber Hearth\" became \"Timber Hearth & Attlerock\").\r\n- Options -> Mods -> Mods -> Archipelago Randomizer now contains several persistent settings:\r\n\t- The in-game console's mute and filter buttons now toggle settings, so they will \"stay pressed\" after quitting and resuming.\r\n\t- A \"Death Link Override\" setting for when you no longer want to play with whichever death_link option you set in your .yaml.\r\n\t- Customize the initial and upgrade values for fuel, oxygen and boost.\r\n\t- Debug settings to troubleshoot The Crash. If you don't know what these are for, just ignore them.\r\n- Receiving a death link death while time is frozen (game paused, reading ship log, etc) will now \"buffer\" the death until time resumes to prevent glitchy softlock-like states.\r\n- Taking photos of quantum objects without the Imaging Rule should no longer \"break\" the camera if the quantum object is obstructed by something else. In other words, you should no longer randomly get \"Unexpected Camera Error\" when the Quantum Moon happens to be \"behind\" the planet you're taking pictures of.\r\n- Set a \"persistent condition\" in the savefile when an AP progression item is found (e.g. \"HAS_AP_ITEM_NOMAI_WARP_CODES\"). This is intended to help with autosplitting, since an upcoming autosplitter update will allow it to read savefile conditions.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **Dark Bramble layout randomization**: A new `randomize_dark_bramble_layout` .yaml option (off by default) changes which Dark Bramble 'rooms' are linked to which other rooms. These layouts are often significantly harder to navigate than vanilla Dark Bramble, since they allow several paths to the same room and more complex loops / recursion. The logic for Dark Bramble locations has not been changed; you're still expected to follow Scouts and Signalscope signals to each point of interest.\r\n- **Orbit randomization**: A new `randomize_orbits` .yaml option (on by default) changes which planets are closer or farther from the sun, the orbit angles of planets and satellites, and some planets' axes of rotation.\r\n- **Quality-Of-Life Settings for Nomai Text** (from @GameWyrm): Added \"Auto Expand Nomai Text\", \"Instant Translator\" and \"Colorize Locations By AP Item Type\" mod settings (all off by default for now).\r\n- **Updates to Suitless Logic** (from @ghtsp/thestrangepie)\r\n- Various smaller fixes:\r\n  - The Eye Coordinates prompt in The Vessel now shows your randomized coordinates every loop, instead of reverting back to vanilla coordinates after the first loop of a play session.\r\n  - Tweaked coordinate generation so each \"size\" is now equally likely (e.g. each coordinate is now equally likely to have 2 points or 6 points, even though there are far more 6-point shapes). The idea is that your coordinates should no longer be dominated by 5-point and 6-point shapes.\r\n  - Spoiler log improvements: The extra sections for random coordinates, DB layout, etc now include player/slot names. Random coordinates are described with words instead of numbers.\r\n  - The Hatchling no longer requires ancient Nomai technology to cure their insomnia. In other words, Nap Traps work before the loop starts.\r\n  - \"BH: Old Settlement Murals\" location now triggers on any of the three murals, not just the middle one (no one complained but this bugged me)",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.2.1-rc\"**.\r\n\r\n- **Dark Bramble layout randomization**: A new `randomize_dark_bramble_layout` .yaml option (off by default) changes which Dark Bramble 'rooms' are linked to which other rooms. These layouts are often significantly harder to navigate than vanilla Dark Bramble, since they allow several paths to the same room and more complex loops / recursion. The logic for Dark Bramble locations has not been changed; you're still expected to follow Scouts and Signalscope signals to each point of interest.\r\n- **Orbit randomization**: A new `randomize_orbits` .yaml option (on by default) changes which planets are closer or farther from the sun, the orbit angles of planets and satellites, and some planets' axes of rotation.\r\n- **Quality-Of-Life Settings for Nomai Text** (from @GameWyrm): Added \"Auto Expand Nomai Text\", \"Instant Translator\" and \"Colorize Locations By AP Item Type\" mod settings (all off by default for now).\r\n- **Updates to Suitless Logic** (from @ghtsp/thestrangepie)\r\n- Various smaller fixes:\r\n  - The Eye Coordinates prompt in The Vessel now shows your randomized coordinates every loop, instead of reverting back to vanilla coordinates after the first loop of a play session.\r\n  - Tweaked coordinate generation so each \"size\" is now equally likely (e.g. each coordinate is now equally likely to have 2 points or 6 points, even though there are far more 6-point shapes). The idea is that your coordinates should no longer be dominated by 5-point and 6-point shapes.\r\n  - Spoiler log improvements: The extra sections for random coordinates, DB layout, etc now include player/slot names. Random coordinates are described with words instead of numbers.\r\n  - The Hatchling no longer requires ancient Nomai technology to cure their insomnia. In other words, Nap Traps work before the loop starts.\r\n  - \"BH: Old Settlement Murals\" location now triggers on any of the three murals, not just the middle one (no one complained but this bugged me)",
       "prerelease": {
         "version": "v0.2.1-rc",
@@ -8735,8 +8735,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-06-01T21:55:25Z",
-      "databaseEntryUpdatedAt": "2024-06-02T09:58:52.405Z",
+      "repoUpdatedAt": "2024-06-02T15:16:23Z",
+      "databaseEntryUpdatedAt": "2024-06-02T15:18:21.923Z",
       "repoVariations": [],
       "viewCount": 241,
       "weeklyViewCount": 57,
@@ -8883,7 +8883,7 @@
       "author": "2walker2",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/2walker2/Astral-Codex/releases/download/1.3.0/Walker.AstralCodex.zip",
-      "downloadCount": 3733,
+      "downloadCount": 3767,
       "latestReleaseDate": "2024-04-23T22:58:05Z",
       "firstReleaseDate": "2024-02-24T02:22:36Z",
       "repo": "https://github.com/2walker2/Astral-Codex",
@@ -8905,7 +8905,7 @@
         "main": "astralcodec.webp"
       },
       "repoUpdatedAt": "2024-06-01T02:44:16Z",
-      "databaseEntryUpdatedAt": "2024-06-02T03:01:00.284Z",
+      "databaseEntryUpdatedAt": "2024-06-02T15:18:21.695Z",
       "repoVariations": [],
       "viewCount": 539,
       "weeklyViewCount": 141,
