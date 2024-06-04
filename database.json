@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.20.2/xen.NewHorizons.zip",
-      "downloadCount": 52238,
-      "latestReleaseDate": "2024-04-30T22:59:41Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.20.3/xen.NewHorizons.zip",
+      "downloadCount": 52239,
+      "latestReleaseDate": "2024-06-04T03:08:36Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.20.2",
+      "version": "v1.20.3",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- To avoid having to copy paste a repeated `DialogueOptionsList`, you can instead put `ReuseDialogueOptionsListFrom` and reference another `DialogueNode` whose options you want to repeat. Implements #854\r\n\r\n## Improvements\r\n- Now uses selected language instead of system language when making strings fully uppercase or lowercase in translations \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/856**",
+      "latestReleaseDescription": "## Minor features\r\n\r\n- Added `parentPath` to scatter. This parent is the pivot and should be at the position where you'd like to scatter (which would usually be zero).\r\n\r\n## Improvements\r\n- Now avoiding unnecessary EndConversation calls. (Fix #859)\r\n\r\n## Bug fixes\r\n\r\n- Prevents a softlock when at the eye (JohnCorby's fault) (Fix #865)\r\n- Pause on load like in base game (Fix #783)\r\n- Fixed disabled reference frames not being disabled (for the third time)\r\n- Fixed sectors being rotated on tidally locked bodies\r\n- Fixed scatter not working properly on tidally locked bodies\r\n- Fixed returning to solar system radius not being calculated correctly\r\n- Supposedly fixed rafts but didn't actually (wtf Hawkbar!)\r\n- Stop popups spamming your entire save file potentially. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/880**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-06-04T04:00:06Z",
-      "databaseEntryUpdatedAt": "2024-06-04T04:09:32.086Z",
+      "repoUpdatedAt": "2024-06-04T04:48:38Z",
+      "databaseEntryUpdatedAt": "2024-06-04T04:54:58.937Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -4187,7 +4187,7 @@
       "description": "Adds discord rich presence to Outer Wilds",
       "author": "MegaPiggy",
       "downloadUrl": "https://github.com/MegaPiggy/OWRichPresence/releases/download/1.6.0/MegaPiggy.OWRichPresence.zip",
-      "downloadCount": 3513,
+      "downloadCount": 3518,
       "latestReleaseDate": "2024-04-26T03:48:13Z",
       "firstReleaseDate": "2022-08-21T06:44:58Z",
       "repo": "https://github.com/MegaPiggy/OWRichPresence",
@@ -4206,7 +4206,7 @@
         "main": "discordrichpresence.webp"
       },
       "repoUpdatedAt": "2024-04-26T03:59:46Z",
-      "databaseEntryUpdatedAt": "2024-06-03T16:42:24.385Z",
+      "databaseEntryUpdatedAt": "2024-06-04T04:54:58.043Z",
       "repoVariations": [],
       "viewCount": 66,
       "weeklyViewCount": 18,
