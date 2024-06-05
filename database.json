@@ -14,18 +14,18 @@
       "author": "ow-mods",
       "required": true,
       "utility": true,
-      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.12.0/OWML.zip",
-      "downloadCount": 156571,
-      "latestReleaseDate": "2024-06-05T20:24:46Z",
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.12.1/OWML.zip",
+      "downloadCount": 156577,
+      "latestReleaseDate": "2024-06-05T21:26:01Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
-      "version": "2.12.0",
+      "version": "2.12.1",
       "readme": {
         "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Mod config settings now support translations. OWML will look for files named after the `TextTranslation.Language` enums in base game in a folder named `translations` where your mod is installed. Eg, `translations/english.json`. These files will follow the same format as New Horizons translations, and the `UIDictionary` will be used to store key-value pairs for your translation results. Translations support the `title` and `tooltip` fields for a setting, and if the title is absent it will use the setting's ID as a key. Check the OWML settings documentation for more info.\r\n- Added `dlcOnly` support to settings that should only appear when Echoes of the Eye is installed.",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2024-06-05T21:14:02Z",
-      "databaseEntryUpdatedAt": "2024-06-05T21:15:16.662Z",
+      "repoUpdatedAt": "2024-06-05T21:26:00Z",
+      "databaseEntryUpdatedAt": "2024-06-05T21:28:42.376Z",
       "repoVariations": [],
       "viewCount": 845,
       "weeklyViewCount": 325,
@@ -9276,7 +9276,7 @@
       "author": "Etherpod",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Etherpod/Band-Together/releases/download/v2.1.1/pikpik_carrot.BandTogether.zip",
-      "downloadCount": 848,
+      "downloadCount": 849,
       "latestReleaseDate": "2024-05-15T03:37:27Z",
       "firstReleaseDate": "2024-03-27T00:02:51Z",
       "repo": "https://github.com/Etherpod/Band-Together",
@@ -9299,7 +9299,7 @@
         "main": "bandtogether.webp"
       },
       "repoUpdatedAt": "2024-05-15T03:42:16Z",
-      "databaseEntryUpdatedAt": "2024-06-05T09:18:17.892Z",
+      "databaseEntryUpdatedAt": "2024-06-05T21:28:32.741Z",
       "repoVariations": [],
       "viewCount": 216,
       "weeklyViewCount": 41,
