@@ -14,18 +14,18 @@
       "author": "ow-mods",
       "required": true,
       "utility": true,
-      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.12.1/OWML.zip",
-      "downloadCount": 158100,
-      "latestReleaseDate": "2024-06-05T21:26:01Z",
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.13.0/OWML.zip",
+      "downloadCount": 158104,
+      "latestReleaseDate": "2024-06-10T23:07:21Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
-      "version": "2.12.1",
+      "version": "2.13.0",
       "readme": {
         "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "- Fixed an NRE that broke menus",
+      "latestReleaseDescription": "First round of fixes for Patch 15",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2024-06-10T22:54:25Z",
-      "databaseEntryUpdatedAt": "2024-06-10T22:57:38.092Z",
+      "repoUpdatedAt": "2024-06-10T23:07:21Z",
+      "databaseEntryUpdatedAt": "2024-06-10T23:09:53.673Z",
       "repoVariations": [],
       "viewCount": 981,
       "weeklyViewCount": 299,
@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.20.3/xen.NewHorizons.zip",
-      "downloadCount": 52905,
-      "latestReleaseDate": "2024-06-04T03:08:36Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.21.0/xen.NewHorizons.zip",
+      "downloadCount": 52906,
+      "latestReleaseDate": "2024-06-10T22:56:09Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.20.3",
+      "version": "v1.21.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n\r\n- Added `parentPath` to scatter. This parent is the pivot and should be at the position where you'd like to scatter (which would usually be zero).\r\n\r\n## Improvements\r\n- Now avoiding unnecessary EndConversation calls. (Fix #859)\r\n\r\n## Bug fixes\r\n\r\n- Prevents a softlock when at the eye (JohnCorby's fault) (Fix #865)\r\n- Pause on load like in base game (Fix #783)\r\n- Fixed disabled reference frames not being disabled (for the third time)\r\n- Fixed sectors being rotated on tidally locked bodies\r\n- Fixed scatter not working properly on tidally locked bodies\r\n- Fixed returning to solar system radius not being calculated correctly\r\n- Supposedly fixed rafts but didn't actually (wtf Hawkbar!)\r\n- Stop popups spamming your entire save file potentially. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/880**",
+      "latestReleaseDescription": "## Major features\r\n\r\n- Updated to work with Patch 15 (fixed game libs + game over text issue) (thanks Jeffrey Yu from Mobius for pointing that one out!)\r\n\r\n## Minor features\r\n\r\n- New slide reel options. `reelModel` and `reelCondition` parameters for slide reel mesh and material. (#811)\r\n  - Models: 6-slided, 7-slided, 8-slided, and Whole (7-slided but connected like 8-slided).\r\n  - Conditions: Antique (Stranger), Pristine (Dreamworld), Rusted (Burnt)\r\n- `rotate` parameter added to slide info. Rotates the slide reel item while inside a projector.\r\n- Added map marker module with display distance overrides (#847)\r\n\r\n## Improvements\r\n- Relative spawning when warping with vessel just like vanilla\r\n- No more wake up effects for vessel warping\r\n- Map mode icon setting changes now work when updating an existing planet. Fixes #875\r\n\r\n## Bug fixes\r\n\r\n- Fixed nomai lamps on custom vessel looking like they are off\r\n- Fixed broken black and white holes on custom vessel\r\n- Fixed vessel coordinate orb not unlocking on start\r\n- Dialogue replacement can no longer replace dialogue on other planets than the one the config file is for.\r\n- Fix seeing solar system before opening your eyes if there was conditional object activation being used\r\n- Fix getting stuck in chair when warping back from NH Examples\r\n- Fix seeing solar system for one frame when going to the Eye\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/886**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-06-10T22:56:43Z",
-      "databaseEntryUpdatedAt": "2024-06-10T22:57:37.704Z",
+      "repoUpdatedAt": "2024-06-10T23:05:34Z",
+      "databaseEntryUpdatedAt": "2024-06-10T23:09:52.965Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
