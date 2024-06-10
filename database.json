@@ -5036,18 +5036,18 @@
       "description": "Allows other mods to add their custom Ship Log modes",
       "author": "dgarroDC",
       "utility": true,
-      "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.8/dgarro.CustomShipLogModes.zip",
+      "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.9/dgarro.CustomShipLogModes.zip",
       "downloadCount": 26851,
-      "latestReleaseDate": "2024-03-03T05:56:52Z",
+      "latestReleaseDate": "2024-06-10T23:35:20Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "readme": {
         "htmlUrl": "https://github.com/dgarroDC/CustomShipLogModes/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/dgarroDC/CustomShipLogModes/master/README.md"
       },
       "authorDisplay": "Damián Garro",
-      "latestReleaseDescription": "- For item lists without the description field, now they start scrolling later when navigating down, the selection arrow can now go down to the displayed 12th UI item instead of the 5th, which was wasting a lot of free vertical space. It is still consistent with vanilla, but counting from the bottom of the list instead of the top.\r\n- Vanilla modes now are displayed at the top of the mode selection list instead of at the bottom.\r\n- Item lists are no longer displayed over the Ship Log's exterior border (the item lists's root object is now the sibling following the description field in the objects hierarchy). Because of this, The Hatchling's Journal cursor no longer renders over that border anymore, making it more look consistent with the vanilla modes.",
+      "latestReleaseDescription": "Fixed to work with Outer Wilds Patch 15 (updated game libs). Thank you @xen-42 !",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -5056,8 +5056,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2024-06-10T23:27:19Z",
-      "databaseEntryUpdatedAt": "2024-06-10T23:35:10.293Z",
+      "repoUpdatedAt": "2024-06-10T23:35:24Z",
+      "databaseEntryUpdatedAt": "2024-06-10T23:47:54.369Z",
       "repoVariations": [],
       "viewCount": 38,
       "weeklyViewCount": 15,
