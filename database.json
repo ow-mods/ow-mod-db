@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 139135
+    "downloadCount": 139136
   },
   "releases": [
     {
@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.21.0/xen.NewHorizons.zip",
-      "downloadCount": 52960,
-      "latestReleaseDate": "2024-06-10T22:56:09Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.21.1/xen.NewHorizons.zip",
+      "downloadCount": 52962,
+      "latestReleaseDate": "2024-06-11T03:27:59Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.21.0",
+      "version": "v1.21.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n\r\n- Updated to work with Patch 15 (fixed game libs + game over text issue) (thanks Jeffrey Yu from Mobius for pointing that one out!)\r\n\r\n## Minor features\r\n\r\n- New slide reel options. `reelModel` and `reelCondition` parameters for slide reel mesh and material. (#811)\r\n  - Models: 6-slided, 7-slided, 8-slided, and Whole (7-slided but connected like 8-slided).\r\n  - Conditions: Antique (Stranger), Pristine (Dreamworld), Rusted (Burnt)\r\n- `rotate` parameter added to slide info. Rotates the slide reel item while inside a projector.\r\n- Added map marker module with display distance overrides (#847)\r\n\r\n## Improvements\r\n- Relative spawning when warping with vessel just like vanilla\r\n- No more wake up effects for vessel warping\r\n- Map mode icon setting changes now work when updating an existing planet. Fixes #875\r\n\r\n## Bug fixes\r\n\r\n- Fixed nomai lamps on custom vessel looking like they are off\r\n- Fixed broken black and white holes on custom vessel\r\n- Fixed vessel coordinate orb not unlocking on start\r\n- Dialogue replacement can no longer replace dialogue on other planets than the one the config file is for.\r\n- Fix seeing solar system before opening your eyes if there was conditional object activation being used\r\n- Fix getting stuck in chair when warping back from NH Examples\r\n- Fix seeing solar system for one frame when going to the Eye\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/886**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fixed the hatchling just never opening their eyes ever again after warping\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/892**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-06-11T03:13:00Z",
-      "databaseEntryUpdatedAt": "2024-06-11T03:24:12.680Z",
+      "repoUpdatedAt": "2024-06-11T03:29:15Z",
+      "databaseEntryUpdatedAt": "2024-06-11T03:37:50.656Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -5037,7 +5037,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.9/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 26914,
+      "downloadCount": 26918,
       "latestReleaseDate": "2024-06-10T23:35:20Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -5056,8 +5056,8 @@
       "thumbnail": {
         "main": "customshiplogmodes.webp"
       },
-      "repoUpdatedAt": "2024-06-11T03:18:31Z",
-      "databaseEntryUpdatedAt": "2024-06-11T03:24:11.947Z",
+      "repoUpdatedAt": "2024-06-11T03:24:16Z",
+      "databaseEntryUpdatedAt": "2024-06-11T03:37:50.066Z",
       "repoVariations": [],
       "viewCount": 38,
       "weeklyViewCount": 11,
