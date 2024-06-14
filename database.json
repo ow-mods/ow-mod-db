@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.21.1/xen.NewHorizons.zip",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.21.2/xen.NewHorizons.zip",
       "downloadCount": 53428,
-      "latestReleaseDate": "2024-06-11T03:27:59Z",
+      "latestReleaseDate": "2024-06-13T17:44:17Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.21.1",
+      "version": "v1.21.2",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n- Fixed the hatchling just never opening their eyes ever again after warping\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/892**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fix compatibility issues with the Outsider that somehow got triggered by Patch 15\r\n- Fixed an NRE in NHSupernovaPlanetEffectController that happens with vanilla bodies\r\n- Potentially fix multiple star system cards appearing in ship log\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/895**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-06-14T03:03:23Z",
-      "databaseEntryUpdatedAt": "2024-06-14T15:35:04.357Z",
+      "repoUpdatedAt": "2024-06-14T15:56:31Z",
+      "databaseEntryUpdatedAt": "2024-06-14T15:59:22.923Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -5037,7 +5037,7 @@
       "author": "dgarroDC",
       "utility": true,
       "downloadUrl": "https://github.com/dgarroDC/CustomShipLogModes/releases/download/1.1.10/dgarro.CustomShipLogModes.zip",
-      "downloadCount": 27432,
+      "downloadCount": 27488,
       "latestReleaseDate": "2024-06-12T03:19:26Z",
       "firstReleaseDate": "2022-10-05T04:54:06Z",
       "repo": "https://github.com/dgarroDC/CustomShipLogModes",
@@ -5057,7 +5057,7 @@
         "main": "customshiplogmodes.webp"
       },
       "repoUpdatedAt": "2024-06-12T03:29:48Z",
-      "databaseEntryUpdatedAt": "2024-06-14T03:50:33.935Z",
+      "databaseEntryUpdatedAt": "2024-06-14T15:59:22.286Z",
       "repoVariations": [],
       "viewCount": 49,
       "weeklyViewCount": 22,
@@ -5070,7 +5070,7 @@
       "description": "Play Echoes of the Eye slide reels in your Ship Log computer with an enhanced player!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/ShipLogSlideReelPlayer/releases/download/2.4.1/dgarro.ShipLogSlideReelPlayer.zip",
-      "downloadCount": 5529,
+      "downloadCount": 5533,
       "latestReleaseDate": "2024-06-12T03:19:44Z",
       "firstReleaseDate": "2021-12-30T22:37:20Z",
       "repo": "https://github.com/dgarroDC/ShipLogSlideReelPlayer",
@@ -5091,7 +5091,7 @@
         "main": "shiplogslidereelplayerplus.webp"
       },
       "repoUpdatedAt": "2024-06-12T03:25:09Z",
-      "databaseEntryUpdatedAt": "2024-06-14T03:50:33.752Z",
+      "databaseEntryUpdatedAt": "2024-06-14T15:59:22.240Z",
       "repoVariations": [],
       "viewCount": 25,
       "weeklyViewCount": 10,
@@ -6388,18 +6388,18 @@
       "uniqueName": "SBtT.TheOutsider",
       "description": "A quite large story and puzzle mod that takes place on Dark Bramble.",
       "author": "StreetlightsBehindTheTrees",
-      "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.1.3/SBtT.TheOutsider.zip",
+      "downloadUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/releases/download/v1.1.4/SBtT.TheOutsider.zip",
       "downloadCount": 13428,
-      "latestReleaseDate": "2024-05-10T23:51:36Z",
+      "latestReleaseDate": "2024-06-14T15:54:08Z",
       "firstReleaseDate": "2023-01-19T22:22:18Z",
       "repo": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
-      "version": "v1.1.3",
+      "version": "v1.1.4",
       "readme": {
         "htmlUrl": "https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/main/README.md"
       },
       "authorDisplay": "Streetlights Behind the Trees",
-      "latestReleaseDescription": "* [Fix translation typo #15](https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/pull/15) by @solitary-sails ",
+      "latestReleaseDescription": "* [Italian translation correction. #17](https://github.com/StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider/issues/17) by @NerYtheLonesomeHearthian",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -6410,8 +6410,8 @@
       "thumbnail": {
         "main": "theoutsider.webp"
       },
-      "repoUpdatedAt": "2024-06-14T15:43:56Z",
-      "databaseEntryUpdatedAt": "2024-06-14T15:46:59.939Z",
+      "repoUpdatedAt": "2024-06-14T15:58:58Z",
+      "databaseEntryUpdatedAt": "2024-06-14T15:59:22.178Z",
       "repoVariations": [],
       "viewCount": 1129,
       "weeklyViewCount": 335,
@@ -7539,7 +7539,7 @@
       "description": "Upload your scout snapshots to an album in your Ship Log computer!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/EpicasAlbum/releases/download/1.1.3/dgarro.EpicasAlbum.zip",
-      "downloadCount": 590,
+      "downloadCount": 592,
       "latestReleaseDate": "2024-06-12T03:25:35Z",
       "firstReleaseDate": "2023-05-15T04:11:44Z",
       "repo": "https://github.com/dgarroDC/EpicasAlbum",
@@ -7560,7 +7560,7 @@
         "main": "picasalbum.webp"
       },
       "repoUpdatedAt": "2024-06-12T03:26:33Z",
-      "databaseEntryUpdatedAt": "2024-06-14T03:50:33.893Z",
+      "databaseEntryUpdatedAt": "2024-06-14T15:59:22.133Z",
       "repoVariations": [],
       "viewCount": 29,
       "weeklyViewCount": 21,
@@ -7662,7 +7662,7 @@
         "main": "thehatchlingsjournal.webp"
       },
       "repoUpdatedAt": "2024-06-12T03:27:06Z",
-      "databaseEntryUpdatedAt": "2024-06-14T03:50:33.657Z",
+      "databaseEntryUpdatedAt": "2024-06-14T15:59:22.310Z",
       "repoVariations": [],
       "viewCount": 29,
       "weeklyViewCount": 18,
@@ -9675,7 +9675,7 @@
       "author": "GameWyrm",
       "parent": "CrypticBird.Jam3",
       "downloadUrl": "https://github.com/GameWyrm/SymbiosisShipLogs/releases/download/1.0.1/GameWyrm.SymbiosisShipLogs.zip",
-      "downloadCount": 79,
+      "downloadCount": 83,
       "latestReleaseDate": "2024-06-03T23:05:47Z",
       "firstReleaseDate": "2024-06-02T06:22:22Z",
       "repo": "https://github.com/GameWyrm/SymbiosisShipLogs",
@@ -9696,7 +9696,7 @@
         "main": "symbiosisshiplogs.webp"
       },
       "repoUpdatedAt": "2024-06-03T23:07:32Z",
-      "databaseEntryUpdatedAt": "2024-06-14T03:50:33.886Z",
+      "databaseEntryUpdatedAt": "2024-06-14T15:59:21.958Z",
       "repoVariations": [],
       "viewCount": 126,
       "weeklyViewCount": 49,
