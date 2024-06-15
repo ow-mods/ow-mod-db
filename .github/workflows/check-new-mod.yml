@@ -36,9 +36,12 @@ jobs:
       - name: Initial Comment
         uses: thollander/actions-comment-pull-request@v2
         with:
+          comment_tag: pending
+          mode: recreate
           message: |
             ### :hourglass: Starting Mod Check 
             View the `Checks` tab for the status of this check.
+            You can retry this check anytime by commenting `checker, retry`.
       - name: Check Mod
         id: check-mod
         continue-on-error: true
@@ -49,11 +52,12 @@ jobs:
           overrideName: Check of ${{ env.modUniqueName }}
           expectedUniqueName: ${{ env.modUniqueName }}
           token: ${{ secrets.GITHUB_TOKEN }}
-      - run: echo -e "\nTo re-run the check, comment 'checker, retry' on this PR." >> ./results.md
       - name: Final Comment
         uses: thollander/actions-comment-pull-request@v2
         with:
           filePath: ./results.md
+          comment_tag: results
+          mode: recreate
       - name: Return
         if: ${{ steps.check-mod.outcome == 'failure' }}
         run: exit 1
