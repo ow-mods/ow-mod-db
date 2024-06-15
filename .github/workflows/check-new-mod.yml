@@ -4,6 +4,8 @@ on:
   pull_request:
     types: [opened, labeled, synchronize, edited]
     branches: [master, source, main]
+  issue_comment:
+    types: [created]
 
 permissions:
   contents: read
@@ -16,7 +18,7 @@ jobs:
     env:
       modUniqueName: ""
       modRepo: ""
-    if: "${{ contains(github.event.pull_request.labels.*.name, 'add-mod') && startsWith(github.event.pull_request.title, 'Add new mod: ') }}"
+    if: "${{ (github.event.comment && github.event.issue.pull_request && contains(github.event.issue.labels.*.name, 'add-mod') && startsWith(github.event.pull_request.title, 'Add new mod: ') && startsWith(github.event.comment.body, 'checker, retry')) || (github.event.pull_request && contains(github.event.pull_request.labels.*.name, 'add-mod') && startsWith(github.event.pull_request.title, 'Add new mod: ')) }}"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,6 +49,7 @@ jobs:
           overrideName: Check of ${{ env.modUniqueName }}
           expectedUniqueName: ${{ env.modUniqueName }}
           token: ${{ secrets.GITHUB_TOKEN }}
+      - run: echo -e "\nTo re-run the check, comment 'checker, retry' on this PR." >> ./results.md
       - name: Final Comment
         uses: thollander/actions-comment-pull-request@v2
         with:
