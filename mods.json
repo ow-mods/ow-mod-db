@@ -2702,7 +2702,7 @@
         "tweaks",
         "audiovisual"
       ],
-      "authorDisplay": "Streetlights Behind the Trees"
+      "authorDisplay": "Streetlights Behind the Trees & MegaPiggy"
     },
     {
       "name": "Astral Codec",
@@ -2950,6 +2950,72 @@
         "localization"
       ],
       "authorDisplay": "Eztainu"
+    },
+    {
+      "name": "Spoiler Quarantine Release",
+      "uniqueName": "MegaPiggy.SpoilerQuarantineRelease",
+      "repo": "MegaPiggy/SpoilerQuarantineRelease",
+      "tags": [
+        "tweaks"
+      ],
+      "alpha": true,
+      "authorDisplay": "MegaPiggy"
+    },
+    {
+      "name": "Symbiosis Ship Logs",
+      "uniqueName": "GameWyrm.SymbiosisShipLogs",
+      "repo": "GameWyrm/SymbiosisShipLogs",
+      "tags": [
+        "jam",
+        "tweaks",
+        "integration"
+      ],
+      "parent": "CrypticBird.Jam3"
+    },
+    {
+      "name": "Quantum Moon Equator Orbit",
+      "uniqueName": "MegaPiggy.QuantumMoonEquatorOrbit",
+      "repo": "MegaPiggy/QuantumMoonEquatorOrbit",
+      "tags": [
+        "tweaks"
+      ],
+      "authorDisplay": "MegaPiggy"
+    },
+    {
+      "name": "Pride Lantern",
+      "uniqueName": "Bwc9876.PrideLantern",
+      "repo": "Bwc9876/PrideLantern",
+      "tags": [
+        "audiovisual",
+        "requires-dlc"
+      ]
+    },
+    {
+      "name": "Line Numbers",
+      "uniqueName": "MegaPiggy.LineNumbers",
+      "repo": "MegaPiggy/OWLineNumbers",
+      "tags": [
+        "tool"
+      ],
+      "authorDisplay": "MegaPiggy"
+    },
+    {
+      "name": "Retro Health Display",
+      "uniqueName": "MegaPiggy.RetroHealthDisplay",
+      "repo": "MegaPiggy/RetroHealthDisplay",
+      "tags": [
+        "audiovisual"
+      ],
+      "authorDisplay": "MegaPiggy"
+    },
+    {
+      "name": "Cinematic Unity Explorer",
+      "uniqueName": "MegaPiggy.CinematicUnityExplorer",
+      "repo": "MegaPiggy/Cinematic-Unity-Explorer-For-Outer-Wilds",
+      "tags": [
+        "tool"
+      ],
+      "authorDisplay": "MegaPiggy"
     }
   ]
 }
