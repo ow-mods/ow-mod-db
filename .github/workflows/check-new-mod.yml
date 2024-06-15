@@ -25,11 +25,11 @@ jobs:
       - name: Get Mod Info
         id: get-mod-info
         run: |
-          tmp="${{ github.event.pull_request.title }}"
+          tmp="${{ github.event.pull_request.title && github.event.pull_request.title || github.event.issue.title }}"
           echo "modUniqueName=${tmp:13}" >> $GITHUB_ENV
 
           pat="https://github.com/([[:alnum:]_\/-]*)"
-          ser="${{ github.event.pull_request.body }}"
+          ser="${{ github.event.pull_request.body && github.event.pull_request.body || github.event.issue.body }}"
           if [[ $ser =~ $pat ]]; then
             echo "modRepo=${BASH_REMATCH[1]}" >> $GITHUB_ENV
           fi
