@@ -24,24 +24,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GH_TOKEN }}
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          node-version: "20"
 
       - name: Cache pnpm modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.pnpm-store
           key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-
 
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v4
         with:
           version: 8.6.10
           run_install: true
@@ -52,7 +52,7 @@ jobs:
           pnpm run build
 
       - name: Checkout database repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: master
           path: database
@@ -73,18 +73,18 @@ jobs:
           google-service-account: ${{ github.event_name != 'pull_request' && secrets.GOOGLE_SERVICE_ACCOUNT || '' }}
 
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: database
 
       - name: Deploy to GitHub Pages
         if: ${{ github.event_name != 'pull_request' }}
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         if: ${{ github.event_name != 'pull_request' }}
         with:
           branch: master
