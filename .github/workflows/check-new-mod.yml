@@ -18,7 +18,7 @@ jobs:
     env:
       modUniqueName: ""
       modRepo: ""
-    if: "${{ (github.event.comment && github.event.issue.pull_request && contains(github.event.issue.labels.*.name, 'add-mod') && startsWith(github.event.pull_request.title, 'Add new mod: ') && startsWith(github.event.comment.body, 'checker, retry')) || (github.event.pull_request && contains(github.event.pull_request.labels.*.name, 'add-mod') && startsWith(github.event.pull_request.title, 'Add new mod: ')) }}"
+    if: "${{ (github.event.comment && github.event.issue.pull_request && contains(github.event.issue.labels.*.name, 'add-mod') && startsWith(github.event.issue.title, 'Add new mod: ') && startsWith(github.event.comment.body, 'checker, retry')) || (github.event.pull_request && contains(github.event.pull_request.labels.*.name, 'add-mod') && startsWith(github.event.pull_request.title, 'Add new mod: ')) }}"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
