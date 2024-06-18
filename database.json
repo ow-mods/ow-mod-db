@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 139218
+    "downloadCount": 139219
   },
   "releases": [
     {
@@ -1087,18 +1087,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.0/xen.NewHorizons.zip",
-      "downloadCount": 53969,
-      "latestReleaseDate": "2024-06-18T04:20:42Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.1/xen.NewHorizons.zip",
+      "downloadCount": 53975,
+      "latestReleaseDate": "2024-06-18T16:20:00Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.22.0",
+      "version": "v1.22.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Major features\r\n\r\n-  Added `GlobalMusic` module to system config (change end times, bramble dimension, and final end times music) (Resolves #894)\r\n- Slides are now loaded in the background instead of freezing your game. Brings load time of current Eyes of the Past dev build from 2.5 minutes to 40 seconds (hooray). (Fixes #812)\r\n\r\n## Improvements\r\n\r\n- Setting `parentPath` will be more robust on most props (retries the build operation until it finds the parent)\r\n\r\n## Bug fixes\r\n\r\n- Fix quantum planet NRE when body gets updated (astro object gets recreated)\r\n- Fix custom signal NRE that happens when going to solar system to get prefabs for eye\r\n- Fixed global bramble music not playing because all dimensions have an ambient audio volume\r\n- No more infinite load when warping back to Outer Wilds system with the Vessel\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/902**",
+      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Fix an NRE that affected Astral Codec\r\n- Undo a change that made NH stop creating props if their parent path was invalid (will revert to whatever the old behaviour was; using root sector or dialogue anim controller). Affected Astral Codec.\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/909**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-06-18T16:17:59Z",
-      "databaseEntryUpdatedAt": "2024-06-18T16:29:01.214Z",
+      "repoUpdatedAt": "2024-06-18T16:29:47Z",
+      "databaseEntryUpdatedAt": "2024-06-18T16:43:53.662Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
