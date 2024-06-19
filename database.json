@@ -1088,7 +1088,7 @@
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.1/xen.NewHorizons.zip",
-      "downloadCount": 54127,
+      "downloadCount": 54166,
       "latestReleaseDate": "2024-06-18T16:20:00Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1109,8 +1109,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-06-19T02:56:05Z",
-      "databaseEntryUpdatedAt": "2024-06-19T15:22:13.815Z",
+      "repoUpdatedAt": "2024-06-19T21:54:05Z",
+      "databaseEntryUpdatedAt": "2024-06-19T21:55:55.027Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -9900,6 +9900,38 @@
       "weeklyViewCount": 12,
       "installCount": 2,
       "weeklyInstallCount": 2
+    },
+    {
+      "name": "Debug Eye Helper",
+      "uniqueName": "xen.EyeHelper",
+      "description": "Adds pause menu options to instantly go to and from the Eye of the Universe. Useful if you're making a mod set at the Eye.",
+      "author": "xen-42",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-eye-helper/releases/download/v1.0.0/xen.EyeHelper.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2024-06-19T21:53:39Z",
+      "firstReleaseDate": "2024-06-19T21:53:39Z",
+      "repo": "https://github.com/xen-42/outer-wilds-eye-helper",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/xen-42/outer-wilds-eye-helper/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-eye-helper/main/README.md"
+      },
+      "latestReleaseDescription": "- Adds pause menu options to instantly go to and from the Eye of the Universe. Useful if you're making a mod set at the Eye.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "tool"
+      ],
+      "slug": "debugeyehelper",
+      "thumbnail": {
+        "main": "debugeyehelper.webp"
+      },
+      "repoUpdatedAt": "2024-06-19T21:54:13Z",
+      "databaseEntryUpdatedAt": "2024-06-19T21:55:54.342Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
