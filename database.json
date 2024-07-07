@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 139536
+    "downloadCount": 139538
   },
   "releases": [
     {
@@ -9873,18 +9873,18 @@
       "uniqueName": "picalines.OuterScout",
       "description": "A cinematic toolbox for Outer Wilds & Blender",
       "author": "Picalines",
-      "downloadUrl": "https://github.com/Picalines/outer-scout/releases/download/v0.1.1/picalines.OuterScout.zip",
+      "downloadUrl": "https://github.com/Picalines/outer-scout/releases/download/v0.1.2/picalines.OuterScout.zip",
       "downloadCount": 21,
-      "latestReleaseDate": "2024-06-29T10:45:21Z",
+      "latestReleaseDate": "2024-07-07T20:16:26Z",
       "firstReleaseDate": "2024-06-18T21:16:49Z",
       "repo": "https://github.com/Picalines/outer-scout",
-      "version": "v0.1.1",
+      "version": "v0.1.2",
       "readme": {
         "htmlUrl": "https://github.com/Picalines/outer-scout/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Picalines/outer-scout/master/README.md"
       },
       "authorDisplay": "picalines",
-      "latestReleaseDescription": "# What's changed\r\n- `POST /scene/recording` now throws `BadRequest` if you haven't added any recorders to the scene\r\n- The player's camera is now turned off during recording via `.enabled`. This is an attempt to fix a bug where a broken texture from a turned-off camera is shown instead of the GUI\r\n\r\n**Full Changelog**: https://github.com/Picalines/outer-scout/compare/v0.1.0...v0.1.1",
+      "latestReleaseDescription": "- fix: proper check for opened pause menu\r\n- fix: show player head/helmet when not hiding their model\r\n- fix: \"recording started/finished\" wasn't logged to the console\r\n\r\n**Full Changelog**: https://github.com/Picalines/outer-scout/compare/v0.1.1...v0.1.2",
       "latestPrereleaseDescription": "",
       "tags": [
         "integration",
@@ -9894,8 +9894,8 @@
       "thumbnail": {
         "main": "outerscout.webp"
       },
-      "repoUpdatedAt": "2024-07-07T18:57:45Z",
-      "databaseEntryUpdatedAt": "2024-07-07T19:05:27.267Z",
+      "repoUpdatedAt": "2024-07-07T20:20:13Z",
+      "databaseEntryUpdatedAt": "2024-07-07T20:20:30.211Z",
       "repoVariations": [],
       "viewCount": 201,
       "weeklyViewCount": 85,
