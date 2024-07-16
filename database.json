@@ -6643,7 +6643,7 @@
       "author": "artificialparanoia",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/artificialparanoia/Divergence/releases/download/v1.0.5/Divergence.zip",
-      "downloadCount": 1466,
+      "downloadCount": 1471,
       "latestReleaseDate": "2024-06-23T19:59:55Z",
       "firstReleaseDate": "2023-01-23T12:15:37Z",
       "repo": "https://github.com/artificialparanoia/Divergence",
@@ -6665,7 +6665,7 @@
         "main": "divergence.webp"
       },
       "repoUpdatedAt": "2024-06-24T14:22:36Z",
-      "databaseEntryUpdatedAt": "2024-07-16T08:46:10.733Z",
+      "databaseEntryUpdatedAt": "2024-07-16T20:55:16.789Z",
       "repoVariations": [],
       "viewCount": 160,
       "weeklyViewCount": 14,
@@ -7595,7 +7595,7 @@
         "main": "throwableitems.webp"
       },
       "repoUpdatedAt": "2024-06-14T22:24:21Z",
-      "databaseEntryUpdatedAt": "2024-07-16T08:46:10.591Z",
+      "databaseEntryUpdatedAt": "2024-07-16T20:55:16.785Z",
       "repoVariations": [],
       "viewCount": 17,
       "weeklyViewCount": 1,
@@ -8711,18 +8711,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.3/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 1380,
-      "latestReleaseDate": "2024-06-11T08:44:20Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.4/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 1381,
+      "latestReleaseDate": "2024-07-16T20:49:41Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.2.3",
+      "version": "v0.2.4",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\nOuter Wilds Patch 15 came out yesterday, and requires many (all?) mods to be rebuilt and republished on the latest OuterWildsGameLibs. This is that rebuild, which fixes the most immediate and obvious errors caused by the Patch, and is probably required to even begin testing for other issues.\r\n\r\n~~The biggest Patch 15 issue I'm aware of that this does **not** fix is the broken in-game tracker, but that currently appears to be an issue with Custom Ship Log Mode.~~ EDIT: All Patch 15 issues we know of have been resolved.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **Non-Vanilla Spawns & Randomized Warp Platforms**: A collection of related features that allow you to spawn on any of the 4 normal planets with suit on and time loop already started, have Launch Codes placed randomly like any other item so you have to play shipless for a while, and randomize where warp pads go for greater early game variety if you find Nomai Warp Codes before Launch Codes.\r\n\t- `spawn` option: Defaults to `vanilla`, which does what you're used to (wake up in TH village, get Launch Codes from Hornfels, walk past the statue to start the time loop). Setting this to `hourglass_twins`, `timber_hearth`, `brittle_hollow`, or `giants_deep` will spawn you and your ship on that planet, in your suit, with the time loop already started, and Launch Codes placed randomly like any other item. Remember you can use weighted options syntax to randomly choose from multiple spawns.\r\n\t- \"Launch Codes\" is now a real item, in the sense that you can't fly the ship without it.\r\n\t- `randomize_warp_platforms` option: Randomize which Nomai warp platforms are connected to each other.\r\n\t- `early_key_item` option: Ensures that either Translator, Nomai Warp Codes, or Launch Codes will be somewhere in sphere 1 and in your own world.\r\n\t- The Universal Tracker should continue to work, because I've implemented the hooks it needs to understand non-vanilla spawns and randomized warp platforms.\r\n- Bugfixes:\r\n\t- Fixed the OPC orbits. Previously, rolling an unlucky orbit angle would make the OPC debris pass through the OPC, crushing you before you could check the locations inside, but now the debris should follow behind the main OPC body at any orbit angle.\r\n\t- Prevent various Interloper collisions with planets in randomized orbits. This time I tested every relevant combination, so there shouldn't be any more of these.\r\n\t- Updated our MultiClient.Net library from v5 to v6. This should fix the issue where in-game console messages would sometimes show e.g. \"(Item: 1234)\" instead of proper names.\r\n\t- The in-game tracker should now display logic for all locations, instead of failing on some inaccessible ones.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.2.4-rc\"**.\r\n\r\n- **Non-Vanilla Spawns & Randomized Warp Platforms**: A collection of related features that allow you to spawn on any of the 4 normal planets with suit on and time loop already started, have Launch Codes placed randomly like any other item so you have to play shipless for a while, and randomize where warp pads go for greater early game variety if you find Nomai Warp Codes before Launch Codes.\r\n\t- `spawn` option: Defaults to `vanilla`, which does what you're used to (wake up in TH village, get Launch Codes from Hornfels, walk past the statue to start the time loop). Setting this to `hourglass_twins`, `timber_hearth`, `brittle_hollow`, or `giants_deep` will spawn you and your ship on that planet, in your suit, with the time loop already started, and Launch Codes placed randomly like any other item. Remember you can use weighted options syntax to randomly choose from multiple spawns.\r\n\t- \"Launch Codes\" is now a real item, in the sense that you can't fly the ship without it.\r\n\t- `randomize_warp_platforms` option: Randomize which Nomai warp platforms are connected to each other.\r\n\t- `early_key_item` option: Ensures that at least one of Translator, Nomai Warp Codes, or Launch Codes will be somewhere in sphere 1.\r\n\t- The Universal Tracker should continue to work, because I've implemented the hooks it needs to understand non-vanilla spawns and randomized warp platforms.\r\n- Bugfixes:\r\n\t- Fixed the OPC orbits. Previously, rolling an unlucky orbit angle would make the OPC debris pass through the OPC, crushing you before you could check the locations inside, but now the debris should follow behind the main OPC body at any orbit angle.\r\n\t- Prevent various Interloper collisions with planets in randomized orbits. This time I tested every relevant combination, so there shouldn't be any more of these.\r\n\t- Updated our MultiClient.Net library from v5 to v6. This should fix the issue where in-game console messages would sometimes show e.g. \"(Item: 1234)\" instead of proper names.\r\n\t- The in-game tracker should now display logic for all locations, instead of failing on some inaccessible ones.\r\n",
       "prerelease": {
         "version": "v0.2.4-rc",
@@ -8737,8 +8737,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-07-16T20:23:09Z",
-      "databaseEntryUpdatedAt": "2024-07-16T20:29:58.960Z",
+      "repoUpdatedAt": "2024-07-16T20:51:38Z",
+      "databaseEntryUpdatedAt": "2024-07-16T20:55:17.264Z",
       "repoVariations": [],
       "viewCount": 70,
       "weeklyViewCount": 15,
