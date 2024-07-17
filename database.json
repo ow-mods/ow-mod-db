@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 139681
+    "downloadCount": 139682
   },
   "releases": [
     {
@@ -1212,7 +1212,9 @@
         "content"
       ],
       "slug": "atropos",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "atropos.webp"
+      },
       "repoUpdatedAt": "2024-07-09T12:18:46Z",
       "databaseEntryUpdatedAt": "2024-07-17T15:40:11.790Z",
       "repoVariations": [],
