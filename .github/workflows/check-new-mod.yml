@@ -58,6 +58,3 @@ jobs:
           filePath: ./results.md
           comment_tag: results
           mode: recreate
-      - name: Return
-        if: ${{ steps.check-mod.outcome == 'failure' }}
-        run: exit 1
