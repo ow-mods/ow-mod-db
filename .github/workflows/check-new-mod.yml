@@ -28,7 +28,7 @@ jobs:
           tmp="${{ github.event.pull_request.title && github.event.pull_request.title || github.event.issue.title }}"
           echo "modUniqueName=${tmp:13}" >> $GITHUB_ENV
 
-          pat="https://github.com/([[:alnum:]_\/\-\.]*)"
+          pat="https://github.com/(.*)"
           ser="${{ github.event.pull_request.body && github.event.pull_request.body || github.event.issue.body }}"
           if [[ $ser =~ $pat ]]; then
             echo "modRepo=${BASH_REMATCH[1]}" >> $GITHUB_ENV
