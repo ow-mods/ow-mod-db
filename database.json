@@ -389,17 +389,17 @@
       "uniqueName": "Vesper.OuterWildsMMO",
       "description": "An Outer Wilds MMO experience, just connect and play! Currently the main server is offline.",
       "author": "Vesper-Works",
-      "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.3/Release.0.6.3.zip",
-      "downloadCount": 11570,
-      "latestReleaseDate": "2023-01-12T00:25:40Z",
+      "downloadUrl": "https://github.com/Vesper-Works/OuterWildsOnline/releases/download/0.6.4/0.6.4_OWO_Release.zip",
+      "downloadCount": 11575,
+      "latestReleaseDate": "2024-08-03T18:13:04Z",
       "firstReleaseDate": "2021-11-18T23:08:53Z",
       "repo": "https://github.com/Vesper-Works/OuterWildsOnline",
-      "version": "0.6.3",
+      "version": "0.6.4",
       "readme": {
         "htmlUrl": "https://github.com/Vesper-Works/OuterWildsOnline/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vesper-Works/OuterWildsOnline/master/README.md"
       },
-      "latestReleaseDescription": "I've migrated the server to a cloud-hosted didgeridoo courtesy of Book.\r\nIf you're reading this ping him with a heart he deserves it",
+      "latestReleaseDescription": "Fixed bug where a room wasn't created due to the game libs removing a helper function.\r\n\r\n:bleh:",
       "latestPrereleaseDescription": "Disables chat in prerelease for VR incompatibility ",
       "prerelease": {
         "version": "0.6.2",
@@ -413,8 +413,8 @@
       "thumbnail": {
         "main": "outerwildsonline.webp"
       },
-      "repoUpdatedAt": "2024-08-01T19:36:18Z",
-      "databaseEntryUpdatedAt": "2024-08-03T08:18:35.169Z",
+      "repoUpdatedAt": "2024-08-03T18:11:11Z",
+      "databaseEntryUpdatedAt": "2024-08-03T18:23:40.519Z",
       "repoVariations": [],
       "viewCount": 257,
       "weeklyViewCount": 97,
