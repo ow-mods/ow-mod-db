@@ -5457,7 +5457,7 @@
       "slug": "slatesshipyardforouterwildsonline",
       "thumbnail": {},
       "repoUpdatedAt": "2022-11-23T01:43:40Z",
-      "databaseEntryUpdatedAt": "2024-08-12T03:25:58.836Z",
+      "databaseEntryUpdatedAt": "2024-08-12T15:40:29.972Z",
       "repoVariations": [
         "https://github.com/ShoosGun/ShipyardOWOCompat"
       ],
@@ -6291,7 +6291,7 @@
       "description": "Adds a pretty effect to lights that also kills your computer. Mess around with config to tune it to your liking.",
       "author": "JohnCorby",
       "downloadUrl": "https://github.com/JohnCorby/ow-volumetric-lights/releases/download/0.1.1/JohnCorby.VolumetricLights.zip",
-      "downloadCount": 839,
+      "downloadCount": 840,
       "latestReleaseDate": "2023-01-18T23:49:19Z",
       "firstReleaseDate": "2023-01-15T04:47:32Z",
       "repo": "https://github.com/JohnCorby/ow-volumetric-lights",
@@ -6306,7 +6306,7 @@
       "slug": "volumetriclights",
       "thumbnail": {},
       "repoUpdatedAt": "2023-01-18T23:46:45Z",
-      "databaseEntryUpdatedAt": "2024-08-12T03:26:13.830Z",
+      "databaseEntryUpdatedAt": "2024-08-12T15:40:45.012Z",
       "repoVariations": [],
       "viewCount": 22,
       "weeklyViewCount": 8,
@@ -8710,18 +8710,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.5/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.6/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 1672,
-      "latestReleaseDate": "2024-07-27T09:21:04Z",
+      "latestReleaseDate": "2024-08-12T15:26:38Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.2.5",
+      "version": "v0.2.6",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **In-Game Hint System**: Talking to any of the five Hearthian travelers will now show an \"[Archipelago Hints]\" option on top of the usual list of questions you can ask them. Selecting this option will generate hints for 2 of the unchecked locations on their associated planet (with progression items, if any are left). 1 will be a \"precise\" hint sent to the AP server, and 1 a \"vague\" hint with only a location.\r\n- **Every bug I can reproduce has been fixed**, and every small tweak I've been meaning to do has been done:\r\n\t- Warp platform randomization will no longer connect the Sun Station platform to parts of Ash Twin that are buried in sand until 10+ minutes into the loop (specifically the TH, BH and GD towers).\r\n\t- The in-game tracker should no longer arbitrarily ignore some of your randomized warp connections.\r\n\t- Connecting to multiple games or slots in one play session no longer causes The Vessel's coordinates prompt to mistakently show you the previous game/slot's coordinates.\r\n\t- The mod now checks and saves the \"room id\" of the AP server it connects to. If you try to Resume an expedition on the wrong room, it shows a warning popup, so now you get a chance to cancel the connection before e.g. accidentally auto-100%-ing a new game just by forgetting to click New instead of Resume.\r\n\t- In-game console logs about connection errors are now deduplicated and omit the stack trace. In other words: if you remember your in-game console suddenly having a million lines of orange text, it should be just one line now.\r\n\t- Another iteration on Imaging Rule. Now, even if you trick the mod into letting you take a photo of a quantum object without Imaging Rule, it won't stop the quantum object from moving around, so the AP item still blocks progress.\r\n\t- If you don't have the Scout yet, the Scout Launcher will now wake up in \"Photo Mode\". Hopefully this will make it easier for first-time randomizer players to notice photo mode exists even if they never used it in vanilla.\r\n\t- The fuel and oxygen %s in the top left corner would sometimes fail to reach their maximum value, e.g. showing 49.8% for a full tank with no upgrades instead of 50.0%. This has been fixed.\r\n\t- Non-vanilla spawns now hide the \"duplicate\" spacesuit inside the ship.\r\n\t- The Scout Launcher lying on the floor of the spaceship is now correctly hidden when playing with `shuffle_spacesuit: true` or a non-vanilla `spawn`.\r\n\t- Fixed a non-determinism bug in warp platform randomization.\r\n\t- Fixed exceptions when spawning at the eye, quitting inside a jellyfish and dying on a warp platform that would log an error but were otherwise harmless in practice.\r\n",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **Bugfixes for In-Game Hints**:\r\n  - Hints now work with `logsanity: false`\r\n  - Feldspar no longer forgets to offer hints the second time you talk to them\r\n- Clarify and reduce in-game console error messages by putting network errors only in the log files and using a generic in-game warning message that explains the connection may have been lost\r\n- Update `shuffle_spacesuit`'s option description to explain the incompatibility with non-vanilla spawns",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.2.5-rc\"**.\r\n\r\n- **In-Game Hint System**: Talking to any of the five Hearthian travelers will now show an \"[Archipelago Hints]\" option on top of the usual list of questions you can ask them. Selecting this option will generate hints for 2 of the unchecked locations on their associated planet (with progression items, if any are left). 1 will be a \"precise\" hint sent to the AP server, and 1 a \"vague\" hint with only a location.\r\n- **Every bug I can reproduce has been fixed**, and every small tweak I've been meaning to do has been done:\r\n\t- Warp platform randomization will no longer connect the Sun Station platform to parts of Ash Twin that are buried in sand until 10+ minutes into the loop (specifically the TH, BH and GD towers).\r\n\t- The in-game tracker should no longer arbitrarily ignore some of your randomized warp connections.\r\n\t- Connecting to multiple games or slots in one play session no longer causes The Vessel's coordinates prompt to mistakently show you the previous game/slot's coordinates.\r\n\t- The mod now checks and saves the \"room id\" of the AP server it connects to. If you try to Resume an expedition on the wrong room, it shows a warning popup, so now you get a chance to cancel the connection before e.g. accidentally auto-100%-ing a new game just by forgetting to click New instead of Resume.\r\n\t- In-game console logs about connection errors are now deduplicated and omit the stack trace. In other words: if you remember your in-game console suddenly having a million lines of orange text, it should be just one line now.\r\n\t- Another iteration on Imaging Rule. Now, even if you trick the mod into letting you take a photo of a quantum object without Imaging Rule, it won't stop the quantum object from moving around, so the AP item still blocks progress.\r\n\t- If you don't have the Scout yet, the Scout Launcher will now wake up in \"Photo Mode\". Hopefully this will make it easier for first-time randomizer players to notice photo mode exists even if they never used it in vanilla.\r\n\t- The fuel and oxygen %s in the top left corner would sometimes fail to reach their maximum value, e.g. showing 49.8% for a full tank with no upgrades instead of 50.0%. This has been fixed.\r\n\t- Non-vanilla spawns now hide the \"duplicate\" spacesuit inside the ship.\r\n\t- The Scout Launcher lying on the floor of the spaceship is now correctly hidden when playing with `shuffle_spacesuit: true` or a non-vanilla `spawn`.\r\n\t- Fixed a non-determinism bug in warp platform randomization.\r\n\t- Fixed exceptions when spawning at the eye, quitting inside a jellyfish and dying on a warp platform that would log an error but were otherwise harmless in practice.\r\n",
       "prerelease": {
         "version": "v0.2.5-rc",
@@ -8736,8 +8736,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-08-12T15:17:23Z",
-      "databaseEntryUpdatedAt": "2024-08-12T15:26:07.987Z",
+      "repoUpdatedAt": "2024-08-12T15:31:09Z",
+      "databaseEntryUpdatedAt": "2024-08-12T15:40:17.009Z",
       "repoVariations": [],
       "viewCount": 270,
       "weeklyViewCount": 59,
