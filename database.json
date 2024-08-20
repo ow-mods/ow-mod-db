@@ -4824,7 +4824,7 @@
         "main": "espiedserenity.webp"
       },
       "repoUpdatedAt": "2024-02-29T14:20:06Z",
-      "databaseEntryUpdatedAt": "2024-08-20T07:53:06.701Z",
+      "databaseEntryUpdatedAt": "2024-08-20T20:17:53.145Z",
       "repoVariations": [],
       "viewCount": 5,
       "weeklyViewCount": 2,
@@ -6187,39 +6187,6 @@
       "weeklyViewCount": 1,
       "installCount": 11,
       "weeklyInstallCount": 3
-    },
-    {
-      "name": "OWFixPluginTypesSerialization",
-      "uniqueName": "JohnCorby.OWFixPluginTypesSerialization",
-      "description": "A port of https://github.com/xiaoxiao921/FixPluginTypesSerialization for Outer Wilds. Linux users: read the README",
-      "author": "JohnCorby",
-      "utility": true,
-      "downloadUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/releases/download/v1.0.6/JohnCorby.OWFixPluginTypesSerialization.zip",
-      "downloadCount": 703,
-      "latestReleaseDate": "2023-08-10T02:37:31Z",
-      "firstReleaseDate": "2023-01-07T19:23:53Z",
-      "repo": "https://github.com/JohnCorby/OWFixPluginTypesSerialization",
-      "version": "v1.0.6",
-      "readme": {
-        "htmlUrl": "https://github.com/JohnCorby/OWFixPluginTypesSerialization/blob/master/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/JohnCorby/OWFixPluginTypesSerialization/master/README.md"
-      },
-      "latestReleaseDescription": "Only load dlls from mods that depend on OWFixPluginTypesSerialization. this should fix the issue with nh and qsb addons where people include a stripped or older version of nh or qsb that gets loaded instead of the proper mod.",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "library"
-      ],
-      "slug": "owfixplugintypesserialization",
-      "thumbnail": {
-        "main": "owfixplugintypesserialization.webp"
-      },
-      "repoUpdatedAt": "2023-10-08T23:40:43Z",
-      "databaseEntryUpdatedAt": "2024-08-20T17:12:58.301Z",
-      "repoVariations": [],
-      "viewCount": 1,
-      "weeklyViewCount": 0,
-      "installCount": 0,
-      "weeklyInstallCount": 0
     },
     {
       "name": "Funny Noises",
