@@ -8708,18 +8708,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.6/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.7/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 1813,
-      "latestReleaseDate": "2024-08-12T15:26:38Z",
+      "latestReleaseDate": "2024-08-28T18:01:44Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.2.6",
+      "version": "v0.2.7",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **Bugfixes for In-Game Hints**:\r\n  - Hints now work with `logsanity: false`\r\n  - Feldspar no longer forgets to offer hints the second time you talk to them\r\n- Clarify and reduce in-game console error messages by putting network errors only in the log files and using a generic in-game warning message that explains the connection may have been lost\r\n- Update `shuffle_spacesuit`'s option description to explain the incompatibility with non-vanilla spawns",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **Randomize Ghost Matter**: There is now a client-only mod setting to randomize the placement of ghost matter each loop, so that the Ghost Matter Wavelength item remains useful after you memorize the vanilla ghost matter. For now this affects the Interloper, Bramble Island, and the Sunless City Eye Shrine.\r\n- **More In-Game Tracker Tweaks**:\r\n\t- The inventory mode now shows item descriptions even for items you haven't collected yet. This makes it viable to use the in-game tracker as documentation and a tutorial for new players, since you can now simply read every entry to learn the items.\r\n\t- Inventory mode's frequency entries now list all associated signals, and the progression signals now have separate entries explaining why they're important.\r\n\t- Goal logic is now visible in the tracker. Go to checklist mode and select the \"Mission\" category to see the usual logic display for your Song of Five/Six goal.\r\n- Various internal cleanups, optimizations and refactors. These indirectly matter to players because:\r\n\t- It should be much easier to add new categories to the in-game tracker now, which 0.3.x will be doing.\r\n\t- Archipelago now loads outer_wilds.apworld in 5-10ms instead of 10-50ms (Archipelago core wants all worlds to load in <10ms each).\r\n- New mod setting for crash debugging: \"Don't Apply Received Items In-Game\". Don't worry about this unless you've been trying to debug the end-of-loop crash.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.2.7-rc\"**.\r\n\r\n- **Randomize Ghost Matter**: There is now a client-only mod setting to randomize the placement of ghost matter each loop, so that the Ghost Matter Wavelength item remains useful after you memorize the vanilla ghost matter. For now this affects the Interloper, Bramble Island, and the Sunless City Eye Shrine.\r\n- **More In-Game Tracker Tweaks**:\r\n\t- The inventory mode now shows item descriptions even for items you haven't collected yet. This makes it viable to use the in-game tracker as documentation and a tutorial for new players, since you can now simply read every entry to learn the items.\r\n\t- Inventory mode's frequency entries now list all associated signals, and the progression signals now have separate entries explaining why they're important.\r\n\t- Goal logic is now visible in the tracker. Go to checklist mode and select the \"Mission\" category to see the usual logic display for your Song of Five/Six goal.\r\n- Various internal cleanups, optimizations and refactors. These indirectly matter to players because:\r\n\t- It should be much easier to add new categories to the in-game tracker now, which 0.3.x will be doing.\r\n\t- Archipelago now loads outer_wilds.apworld in 5-10ms instead of 10-50ms (Archipelago core wants all worlds to load in <10ms each).\r\n- New mod setting for crash debugging: \"Don't Apply Received Items In-Game\". Don't worry about this unless you've been trying to debug the end-of-loop crash.",
       "prerelease": {
         "version": "v0.2.7-rc",
@@ -8734,8 +8734,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-08-28T17:45:33Z",
-      "databaseEntryUpdatedAt": "2024-08-28T17:57:40.200Z",
+      "repoUpdatedAt": "2024-08-28T18:02:26Z",
+      "databaseEntryUpdatedAt": "2024-08-28T18:29:45.858Z",
       "repoVariations": [],
       "viewCount": 270,
       "weeklyViewCount": 68,
