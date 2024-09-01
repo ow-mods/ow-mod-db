@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -40,7 +40,7 @@ jobs:
         uses: ./actions/modify-mod-list
         with:
           out-file: mods.json
-          github-token: ${{ secrets.GH_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           form: "${{ steps.issue-parser.outputs.jsonString }}"
           mods: "${{ env.mods_output }}"
 
@@ -52,6 +52,6 @@ jobs:
           body: "Closes #${{ github.event.issue.number }}\n${{fromJSON(steps.issue-parser.outputs.jsonString).repoUrl}}"
           branch-suffix: random
           delete-branch: true
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           committer: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
           labels: "add-mod"
