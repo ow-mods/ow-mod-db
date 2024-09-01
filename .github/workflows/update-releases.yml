@@ -23,11 +23,12 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GH_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -67,7 +68,7 @@ jobs:
         uses: ./actions/update-database
         with:
           out-directory: database
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
           mods: mods.json
           previous-database: previous-database.json
           google-service-account: ${{ github.event_name != 'pull_request' && secrets.GOOGLE_SERVICE_ACCOUNT || '' }}
@@ -81,7 +82,7 @@ jobs:
         if: ${{ github.event_name != 'pull_request' }}
         uses: actions/deploy-pages@v4
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ env.GITHUB_TOKEN }}
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -97,7 +98,7 @@ jobs:
       - name: Dispatch Website Build Event
         if: ${{ github.event_name != 'pull_request' }}
         run: |
-          curl -XPOST -u "${{ secrets.GH_USER }}:${{ secrets.GH_TOKEN }}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/ow-mods/outerwildsmods.com/dispatches --data '{"event_type": "build"}'
+          curl -XPOST -u "${{ secrets.GH_USER }}:${{ env.GITHUB_TOKEN }}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/ow-mods/outerwildsmods.com/dispatches --data '{"event_type": "build"}'
 
       - name: Send Notifications
         if: ${{ github.event_name != 'pull_request' }}
