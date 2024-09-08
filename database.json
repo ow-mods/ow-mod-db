@@ -225,17 +225,17 @@
       "uniqueName": "clubby789.OWClock",
       "description": "A clock overlay mod for Outer Wilds, including events",
       "author": "clubby789",
-      "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.7.0/release.zip",
+      "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.8.1/Release.zip",
       "downloadCount": 14305,
-      "latestReleaseDate": "2022-03-23T11:03:42Z",
+      "latestReleaseDate": "2024-09-08T11:46:53Z",
       "firstReleaseDate": "2020-09-20T09:43:23Z",
       "repo": "https://github.com/clubby789/OWClock",
-      "version": "0.7.0",
+      "version": "0.8.1",
       "readme": {
         "htmlUrl": "https://github.com/clubby789/OWClock/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/clubby789/OWClock/master/README.md"
       },
-      "latestReleaseDescription": "## What's Changed\r\n* Version 0.7.0 EotE events by @Tllya in https://github.com/clubby789/OWClock/pull/15\r\n",
+      "latestReleaseDescription": "## What's Changed\r\n- Allow toggling display with `H` (#12)\r\n- Allow displaying only when suit is equipped (#17)\r\n- Fix clock showing up on main menu (#11)\r\n- Fix clock going negative (#16)",
       "latestPrereleaseDescription": "> Closes #7\r\n> It might help with #4 too because the RecalculatePosition is called every time settings are changed now.\r\n> Remove redundant \\ from build event.\r\n> OwmlDir can be dynamic with %appdata%\r\n> Make UniqueName match.\r\n> Remove events from list when they have passed (Should improve performance slightly)\r\n> RecalculatePosition from Configure to fix HudScale.\r\n> Add comments.\r\n> Organize code blocks.",
       "prerelease": {
         "version": "0.6.1",
@@ -249,8 +249,8 @@
       "thumbnail": {
         "main": "clock.webp"
       },
-      "repoUpdatedAt": "2024-09-08T11:21:13Z",
-      "databaseEntryUpdatedAt": "2024-09-08T11:34:47.820Z",
+      "repoUpdatedAt": "2024-09-08T11:43:49Z",
+      "databaseEntryUpdatedAt": "2024-09-08T11:47:23.723Z",
       "repoVariations": [],
       "viewCount": 132,
       "weeklyViewCount": 42,
