@@ -8714,7 +8714,7 @@
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
       "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.7/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 1938,
+      "downloadCount": 1939,
       "latestReleaseDate": "2024-08-28T18:01:44Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
@@ -8725,11 +8725,11 @@
       },
       "authorDisplay": "Ixrec",
       "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **Randomize Ghost Matter**: There is now a client-only mod setting to randomize the placement of ghost matter each loop, so that the Ghost Matter Wavelength item remains useful after you memorize the vanilla ghost matter. For now this affects the Interloper, Bramble Island, and the Sunless City Eye Shrine.\r\n- **More In-Game Tracker Tweaks**:\r\n\t- The inventory mode now shows item descriptions even for items you haven't collected yet. This makes it viable to use the in-game tracker as documentation and a tutorial for new players, since you can now simply read every entry to learn the items.\r\n\t- Inventory mode's frequency entries now list all associated signals, and the progression signals now have separate entries explaining why they're important.\r\n\t- Goal logic is now visible in the tracker. Go to checklist mode and select the \"Mission\" category to see the usual logic display for your Song of Five/Six goal.\r\n- Various internal cleanups, optimizations and refactors. These indirectly matter to players because:\r\n\t- It should be much easier to add new categories to the in-game tracker now, which 0.3.x will be doing.\r\n\t- Archipelago now loads outer_wilds.apworld in 5-10ms instead of 10-50ms (Archipelago core wants all worlds to load in <10ms each).\r\n- New mod setting for crash debugging: \"Don't Apply Received Items In-Game\". Don't worry about this unless you've been trying to debug the end-of-loop crash.",
-      "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.2.7-rc\"**.\r\n\r\n- **Randomize Ghost Matter**: There is now a client-only mod setting to randomize the placement of ghost matter each loop, so that the Ghost Matter Wavelength item remains useful after you memorize the vanilla ghost matter. For now this affects the Interloper, Bramble Island, and the Sunless City Eye Shrine.\r\n- **More In-Game Tracker Tweaks**:\r\n\t- The inventory mode now shows item descriptions even for items you haven't collected yet. This makes it viable to use the in-game tracker as documentation and a tutorial for new players, since you can now simply read every entry to learn the items.\r\n\t- Inventory mode's frequency entries now list all associated signals, and the progression signals now have separate entries explaining why they're important.\r\n\t- Goal logic is now visible in the tracker. Go to checklist mode and select the \"Mission\" category to see the usual logic display for your Song of Five/Six goal.\r\n- Various internal cleanups, optimizations and refactors. These indirectly matter to players because:\r\n\t- It should be much easier to add new categories to the in-game tracker now, which 0.3.x will be doing.\r\n\t- Archipelago now loads outer_wilds.apworld in 5-10ms instead of 10-50ms (Archipelago core wants all worlds to load in <10ms each).\r\n- New mod setting for crash debugging: \"Don't Apply Received Items In-Game\". Don't worry about this unless you've been trying to debug the end-of-loop crash.",
+      "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.0-rc\"**.\r\n\r\n- Echoes of the Eye DLC integration:\r\n\t- new `enable_eote_dlc` option, default `false`\r\n\t- 10 new progression items: Stranger Light Modulator, Breach Override Codes, River Lowlands/Cinder Isles/Hidden Gorge Painting Code, Dream Totem Patch, Raft Docks Patch, Limbo Warp Patch, Projection Range Patch and Alarm Bypass Patch. See in-game tracker for details.\r\n\t- 34 new default locations, and 72 new logsanity locations. See in-game tracker for details.\r\n\t- `goal` option has 4 new values: the old Song of Six has been renamed to Song of the Nomai, and we now have Echoes of the Eye (just complete the DLC), Song of the Stranger (reach Eye with Prisoner), a new Song of Six (reach Eye with either Solanum or Prisoner) and Song of Seven (reach Eye with both).\r\n\t- `spawn` option has a new value of `stranger`\r\n\t- Added owlk screams to the Audio Trap when DLC is enabled\r\n\t- Random Ghost Matter setting now affects GM inside The Stranger\r\n- The base game rando now has items and locations for the Deep Space Radio frequency and its two signals, since those exist when the DLC is not installed, and I decided they are not relevant for DLC logic.\r\n- Fixed logic for WHS projection stone logsanity locations that were made retroactively incorrect by warp platform rando.\r\n- Fixed the apworld's region connection code to properly set \"indirect connections\". Although no user-facing bugs were reported due to this, it was technically incorrect and could theoretically have led to generating unwinnable multiworlds, especially in the DLC's more complex logic.\r\n",
       "prerelease": {
-        "version": "v0.2.7-rc",
-        "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.7-rc/Ixrec.ArchipelagoRandomizer.zip",
-        "date": "2024-08-26T17:59:08Z"
+        "version": "v0.3.0-rc",
+        "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.0-rc/Ixrec.ArchipelagoRandomizer.zip",
+        "date": "2024-09-13T12:46:34Z"
       },
       "tags": [
         "gameplay",
@@ -8739,8 +8739,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-09-12T22:13:00Z",
-      "databaseEntryUpdatedAt": "2024-09-13T10:37:27.044Z",
+      "repoUpdatedAt": "2024-09-13T12:54:45Z",
+      "databaseEntryUpdatedAt": "2024-09-13T12:56:33.486Z",
       "repoVariations": [],
       "viewCount": 213,
       "weeklyViewCount": 29,
