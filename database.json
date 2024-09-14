@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 140493
+    "downloadCount": 140494
   },
   "releases": [
     {
@@ -10231,6 +10231,36 @@
       "weeklyViewCount": 59,
       "installCount": 13,
       "weeklyInstallCount": 4
+    },
+    {
+      "name": "Skin Changer",
+      "uniqueName": "pikpik_carrot.SkinChanger",
+      "description": "Lets you change your skin",
+      "author": "pikpik-carrot",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/pikpik-carrot/SkinChanger/releases/download/v1.0.0/pikpik_carrot.SkinChanger.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2024-09-14T04:05:17Z",
+      "firstReleaseDate": "2024-09-14T04:05:17Z",
+      "repo": "https://github.com/pikpik-carrot/SkinChanger",
+      "version": "v1.0.0",
+      "authorDisplay": "pikpik_carrot",
+      "latestReleaseDescription": "First version of the mod. You can play as 25 characters in total.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay",
+        "audiovisual",
+        "requires-dlc"
+      ],
+      "slug": "skinchanger",
+      "thumbnail": {},
+      "repoUpdatedAt": "2024-09-14T04:18:33Z",
+      "databaseEntryUpdatedAt": "2024-09-14T04:33:40.754Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
