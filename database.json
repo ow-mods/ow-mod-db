@@ -10233,28 +10233,34 @@
       "weeklyInstallCount": 4
     },
     {
-      "name": "Skin Changer",
+      "name": "Ultimate Skin Changer",
       "uniqueName": "pikpik_carrot.SkinChanger",
       "description": "Lets you change your skin",
       "author": "pikpik-carrot",
-      "downloadUrl": "https://github.com/pikpik-carrot/SkinChanger/releases/download/v1.0.0/pikpik_carrot.SkinChanger.zip",
+      "downloadUrl": "https://github.com/pikpik-carrot/SkinChanger/releases/download/v1.1.0/pikpik_carrot.SkinChanger.zip",
       "downloadCount": 14,
-      "latestReleaseDate": "2024-09-14T04:05:17Z",
+      "latestReleaseDate": "2024-09-14T20:33:54Z",
       "firstReleaseDate": "2024-09-14T04:05:17Z",
       "repo": "https://github.com/pikpik-carrot/SkinChanger",
-      "version": "v1.0.0",
+      "version": "v1.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/pikpik-carrot/SkinChanger/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/pikpik-carrot/SkinChanger/main/README.md"
+      },
       "authorDisplay": "pikpik_carrot, JohnCorby, SBtT",
-      "latestReleaseDescription": "First version of the mod. You can play as 25 characters in total.",
+      "latestReleaseDescription": "Removed NH and cleaned up code",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
         "audiovisual",
         "requires-dlc"
       ],
-      "slug": "skinchanger",
-      "thumbnail": {},
-      "repoUpdatedAt": "2024-09-14T19:57:49Z",
-      "databaseEntryUpdatedAt": "2024-09-14T20:23:07.618Z",
+      "slug": "ultimateskinchanger",
+      "thumbnail": {
+        "main": "ultimateskinchanger.webp"
+      },
+      "repoUpdatedAt": "2024-09-14T20:35:47Z",
+      "databaseEntryUpdatedAt": "2024-09-14T20:37:30.858Z",
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
