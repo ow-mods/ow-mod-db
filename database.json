@@ -4824,7 +4824,7 @@
         "main": "espiedserenity.webp"
       },
       "repoUpdatedAt": "2024-02-29T14:20:06Z",
-      "databaseEntryUpdatedAt": "2024-09-15T17:21:03.073Z",
+      "databaseEntryUpdatedAt": "2024-09-16T05:29:41.404Z",
       "repoVariations": [],
       "viewCount": 3,
       "weeklyViewCount": 0,
@@ -6214,7 +6214,7 @@
         "main": "owfixplugintypesserialization.webp"
       },
       "repoUpdatedAt": "2023-10-08T23:40:43Z",
-      "databaseEntryUpdatedAt": "2024-09-15T17:21:02.996Z",
+      "databaseEntryUpdatedAt": "2024-09-16T05:29:40.583Z",
       "repoVariations": [],
       "viewCount": 2,
       "weeklyViewCount": 0,
@@ -8714,7 +8714,7 @@
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
       "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.7/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 2007,
+      "downloadCount": 2020,
       "latestReleaseDate": "2024-08-28T18:01:44Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
@@ -8725,7 +8725,7 @@
       },
       "authorDisplay": "Ixrec",
       "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- **Randomize Ghost Matter**: There is now a client-only mod setting to randomize the placement of ghost matter each loop, so that the Ghost Matter Wavelength item remains useful after you memorize the vanilla ghost matter. For now this affects the Interloper, Bramble Island, and the Sunless City Eye Shrine.\r\n- **More In-Game Tracker Tweaks**:\r\n\t- The inventory mode now shows item descriptions even for items you haven't collected yet. This makes it viable to use the in-game tracker as documentation and a tutorial for new players, since you can now simply read every entry to learn the items.\r\n\t- Inventory mode's frequency entries now list all associated signals, and the progression signals now have separate entries explaining why they're important.\r\n\t- Goal logic is now visible in the tracker. Go to checklist mode and select the \"Mission\" category to see the usual logic display for your Song of Five/Six goal.\r\n- Various internal cleanups, optimizations and refactors. These indirectly matter to players because:\r\n\t- It should be much easier to add new categories to the in-game tracker now, which 0.3.x will be doing.\r\n\t- Archipelago now loads outer_wilds.apworld in 5-10ms instead of 10-50ms (Archipelago core wants all worlds to load in <10ms each).\r\n- New mod setting for crash debugging: \"Don't Apply Received Items In-Game\". Don't worry about this unless you've been trying to debug the end-of-loop crash.",
-      "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.0-rc3\"**.\r\n\r\nThis is the same as [the previous release candidate](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/tag/v0.3.0-rc2) except:\r\n- Stranger logic now includes going from Hangar to HG Lab with only breach codes (i.e. no launch codes), and going from HG to Reservoir with nothing (i.e. no light modulator).\r\n- Fixed Shrouded Woodlands Archive access logic missing an item to unlock the SW raft dock.\r\n- Fixed Hidden Gorge Secret Room access logic missing the light modulator item for lowering the elevator above that room.\r\n- Fixed in-game tracker failing to show non-OW item names on hinted locations.\r\n- Fixed in-game tracker incorrectly displaying a Song of Seven goal as \"Song of the Nomai\".\r\n- Fixed parts of the in-game tracker on non-DLC slots incorrectly including the DLC-only tape recorder locations.\r\n- The \"Requires Stranger Light Modulator\" prompt will now only display if the player is relatively close to the light sensor they're shining their flashlight on, which should reduce cases where it's more confusing than helpful.\r\n- Fixed song of six + DLC off failing generation too late with a confusing error, instead of right away with a claer error.\r\n- Fixed logic for Village 1-2 logsanity locations incorrectly expecting you to reach Timber Hearth, and THV->TH connection logic incorrectly expecting Launch Codes instead of just Spacesuit.\r\n- Added item name groups \"Base Progression\", \"DLC Progression\", \"Quantum Rules\", \"Patches\" and location name groups \"The Stranger\", \"Dreamworld\", \"Interloper\", \"Sun Station\", \"WHS\"",
+      "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.0-rc3\"**.\r\n\r\nThis is the same as [the previous release candidate](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/tag/v0.3.0-rc2) except:\r\n- Stranger logic now includes going from Hangar to HG Lab with only breach codes (i.e. no launch codes), and going from HG to Reservoir with nothing (i.e. no light modulator).\r\n- Fixed Shrouded Woodlands Archive access logic missing an item to unlock the SW raft dock.\r\n- Fixed Hidden Gorge Secret Room access logic missing the light modulator item for lowering the elevator above that room.\r\n- Fixed in-game tracker failing to show non-OW item names on hinted locations.\r\n- Fixed in-game tracker incorrectly displaying a Song of Seven goal as \"Song of the Nomai\".\r\n- Fixed parts of the in-game tracker on non-DLC slots incorrectly including the DLC-only tape recorder locations.\r\n- The \"Requires Stranger Light Modulator\" prompt will now only display if the player is relatively close to the light sensor they're shining their flashlight on, which should reduce cases where it's more confusing than helpful.\r\n- Fixed song of six + DLC off failing generation too late with a confusing error, instead of right away with a clear error.\r\n- Fixed logic for Village 1-2 logsanity locations incorrectly expecting you to reach Timber Hearth, and THV->TH connection logic incorrectly expecting Launch Codes instead of just Spacesuit.\r\n- Added item name groups \"Base Progression\", \"DLC Progression\", \"Quantum Rules\", \"Patches\" and location name groups \"The Stranger\", \"Dreamworld\", \"Interloper\", \"Sun Station\", \"WHS\"",
       "prerelease": {
         "version": "v0.3.0-rc3",
         "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.0-rc3/Ixrec.ArchipelagoRandomizer.zip",
@@ -8740,7 +8740,7 @@
         "main": "archipelagorandomizer.webp"
       },
       "repoUpdatedAt": "2024-09-15T17:18:22Z",
-      "databaseEntryUpdatedAt": "2024-09-15T17:21:03.292Z",
+      "databaseEntryUpdatedAt": "2024-09-16T05:29:41.368Z",
       "repoVariations": [],
       "viewCount": 202,
       "weeklyViewCount": 25,
