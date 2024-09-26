@@ -1086,18 +1086,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.4/xen.NewHorizons.zip",
-      "downloadCount": 62455,
-      "latestReleaseDate": "2024-08-08T15:52:43Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.5/xen.NewHorizons.zip",
+      "downloadCount": 62473,
+      "latestReleaseDate": "2024-09-16T22:35:48Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.22.4",
+      "version": "v1.22.5",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n- New option setting \"sequential pre-caching\" will prevent running out of memory when creating slide reel caches, at the cost of reduced performance when loading.\r\n\r\n## Improvements\r\n- Added log message in the event that `QueryBody` could not find a body\r\n\r\n## Bug fixes\r\n- Fixed `QueryBody` documentation to match API\r\n- Discovered that if you modify the default SolarySystem, `QuerySystem` will fail due to an IO error as the relative path is not set. While not an ideal solution, we have settled on just setting the relativePath if a mod adjusts the system. This will mean that the last mod loaded that makes these changes will have set the relative path. \r\n- Fixed ship HUD marker vanishing when Visible Stranger is installed\r\n\r\nThank you Magnus for the `QueryBody` fixes!\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/927**",
+      "latestReleaseDescription": "## Minor features\r\n\r\n- Added dialogue attention points (thanks @Hawkbat)\r\n\r\n## Bug fixes\r\n\r\n- Fix Outsider breaking ship logs in other star systems\r\n- Fix SetDefaultStarSystem api method not working correctly\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/932**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1108,8 +1108,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-09-22T17:21:51Z",
-      "databaseEntryUpdatedAt": "2024-09-25T18:16:36.530Z",
+      "repoUpdatedAt": "2024-09-26T02:36:42Z",
+      "databaseEntryUpdatedAt": "2024-09-26T02:43:42.826Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -1124,18 +1124,18 @@
       "description": "An example project showing what planets can be made with New Horizons. (Warning: spoilers inside)",
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.22.0/nh-examples.zip",
-      "downloadCount": 6277,
-      "latestReleaseDate": "2024-06-21T15:51:58Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.23.0/nh-examples.zip",
+      "downloadCount": 6278,
+      "latestReleaseDate": "2024-09-26T02:41:24Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
-      "version": "v0.22.0",
+      "version": "v0.23.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "- New slide reel prefab examples\r\n- New ternary planet system example\r\n- New ship logs in Sequestered Luminary\r\n- New custom global music\r\n- Fixed hindering skies map mode ship log",
+      "latestReleaseDescription": "- Added examples of dialogue attention points to Frigid Pigmy",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -1145,8 +1145,8 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "repoUpdatedAt": "2024-08-15T19:19:27Z",
-      "databaseEntryUpdatedAt": "2024-09-25T20:56:43.568Z",
+      "repoUpdatedAt": "2024-09-26T02:41:24Z",
+      "databaseEntryUpdatedAt": "2024-09-26T02:43:42.329Z",
       "repoVariations": [
         "https://github.com/xen-42/ow-new-horizons-examples"
       ],
