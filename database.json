@@ -1086,18 +1086,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.5/xen.NewHorizons.zip",
-      "downloadCount": 62702,
-      "latestReleaseDate": "2024-09-16T22:35:48Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.6/xen.NewHorizons.zip",
+      "downloadCount": 62707,
+      "latestReleaseDate": "2024-09-27T19:54:32Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.22.5",
+      "version": "v1.22.6",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Minor features\r\n\r\n- Added dialogue attention points (thanks @Hawkbat)\r\n\r\n## Bug fixes\r\n\r\n- Fix Outsider breaking ship logs in other star systems\r\n- Fix SetDefaultStarSystem api method not working correctly\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/932**",
+      "latestReleaseDescription": "## Minor features\r\n\r\n- Added `canExitViaWarpDrive` and `factRequiredToExitViaWarpDrive` to enable/disable warping out of your own system. Replaces setting `canEnterViaWarpDrive = false` on the base solar system (which now does nothing). Fixes compatibility between Astral Codec and anything that uses the warp drive. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/937**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1108,8 +1108,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-09-27T19:55:59Z",
-      "databaseEntryUpdatedAt": "2024-09-27T19:56:47.201Z",
+      "repoUpdatedAt": "2024-09-27T19:59:58Z",
+      "databaseEntryUpdatedAt": "2024-09-27T20:17:32.928Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
