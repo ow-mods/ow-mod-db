@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 140814
+    "downloadCount": 140815
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.13.0/OWML.zip",
-      "downloadCount": 178746,
+      "downloadCount": 178833,
       "latestReleaseDate": "2024-06-10T23:07:21Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2024-09-28T07:20:38Z",
-      "databaseEntryUpdatedAt": "2024-10-01T08:12:36.210Z",
+      "databaseEntryUpdatedAt": "2024-10-01T20:13:00.422Z",
       "repoVariations": [],
       "viewCount": 1389,
       "weeklyViewCount": 174,
@@ -4902,18 +4902,18 @@
       "description": "A short story addon where you help a friend recover something that was stolen from him.",
       "author": "Samster68OW",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Samster68OW/fretsquest/releases/download/v0.5.3/fretsquest.zip",
-      "downloadCount": 3699,
-      "latestReleaseDate": "2024-05-30T18:51:34Z",
+      "downloadUrl": "https://github.com/Samster68OW/fretsquest/releases/download/v1.0.0/fretsquest.zip",
+      "downloadCount": 3701,
+      "latestReleaseDate": "2024-10-01T20:06:26Z",
       "firstReleaseDate": "2022-10-01T23:01:22Z",
       "repo": "https://github.com/Samster68OW/fretsquest",
-      "version": "v0.5.3",
+      "version": "v1.0.0",
       "readme": {
         "htmlUrl": "https://github.com/Samster68OW/fretsquest/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Samster68OW/fretsquest/main/README.md"
       },
       "authorDisplay": "Samster68",
-      "latestReleaseDescription": "- Made corrections that I forgot about.",
+      "latestReleaseDescription": "v1.0.0\r\n\r\n2nd Anniversary Edition!\r\n\r\nNew Features\r\n- A new short mystery with new dialogue, ship logs, and more!\r\n- The mod finally has a proper ending!\r\n- Integration with the Achievements+ mod!\r\n- Lots of improvements to the Ship Log!\r\n- Kept the vibe low-budget for that “baby’s first mod” feel.\r\n\r\nGeneral Polishing\r\n- Bumped mod’s OWML version (2.11.1 -> 2.13.0).\r\n- Updated json files for newer schemas.\r\n- Updated the README and credits.\r\n- Added ‘known-issues’ document to ‘developer’ folder to track known errors and bugs.\r\n- Rewrote code in a lot of documents solely to confuse people.\r\n\r\nCustom System Changes\r\n- Lost Strings: Rearranged some props and adjusted spawning.\r\n- Green Base: New texture, props, logs, and more.\r\n- Bracket’s Rest: New texture, new props, and is now the moon of Green Base.\r\n- Dried Tears: Now has an asteroid belt and an inclined orbit.\r\n\r\nOther Tweaks\r\n- New popup when launching the game.\r\n- Added planets to the title screen.\r\n- Adjusted ship log images in stock solar system.\r\n- Fixed some English typos and inconsistencies.\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -4924,8 +4924,8 @@
       "thumbnail": {
         "main": "fretsquest.webp"
       },
-      "repoUpdatedAt": "2024-05-30T18:51:33Z",
-      "databaseEntryUpdatedAt": "2024-10-01T13:59:26.299Z",
+      "repoUpdatedAt": "2024-10-01T20:06:25Z",
+      "databaseEntryUpdatedAt": "2024-10-01T20:12:59.539Z",
       "repoVariations": [],
       "viewCount": 23,
       "weeklyViewCount": 12,
