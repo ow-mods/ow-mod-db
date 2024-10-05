@@ -1086,18 +1086,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.7/xen.NewHorizons.zip",
-      "downloadCount": 63521,
-      "latestReleaseDate": "2024-09-28T02:00:50Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.8/xen.NewHorizons.zip",
+      "downloadCount": 63528,
+      "latestReleaseDate": "2024-10-05T01:52:50Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.22.7",
+      "version": "v1.22.8",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, clay, MegaPiggy, John, Hawkbar, Trifid, Book",
-      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Oops that last update didn't actually work\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/939**",
+      "latestReleaseDescription": "## Minor features\r\n\r\n- Added `allowShipAutoroll` to `Water` and `Atmosphere` (closes #935)\r\n- Replaced `invulnerableToSun` with `hasFluidDetector` and better documented anglerfish making planets go gorp (closes #830)\r\n- The spawn module now has `playerSpawnPoints` and `shipSpawnPoints` allowing you to define multiple possible spawns on one planet.\r\n- Spawn points now have `makeDefaultIfFactRevealed` and `makeDefaultIfPersistentCondition` allowing you to change which spawn the player uses. Priority goes fact -> persistent condition -> default\r\n- Black holes and change star system volumes now have `spawnPointID`. If this is set, entering one of these volumes will send you to the spawn with a matching `id` (closes #917)\r\n\r\n## Improvements\r\n\r\n- Allows subtitles of any size now (images get rescaled if need be) (closes #893)\r\n- Added documentation of naming scheme for alt ship log images (closes #848)\r\n- Consistency between planet and system name: use config value, otherwise use file name\r\n\r\n## Bug fixes\r\n\r\n- Fix subtitles start cycling before main menu is visible (closes #844)\r\n- Fix disappearing signalscope UI after warping to new star system (closes #934)\r\n- Fix null primary body not defaulting to center of universe in other star systems (closes #933) (probably)\r\n- Fix proxy details requiring \"keepLoaded\" set to true to work (closes #940)\r\n- Handle proxy body edge case when all scales = 0 (closes #941)\r\n- \"Orphaned\" signalscope reticles are disabled instead of being stuck on screen when a signal is disabled (closes #925)\r\n- Stranger text misalignment (closes #924)\r\n- Fixed simulation materials for custom slide reels. (closes #946)\r\n- Fix empty warp drive ship log page appearing\r\n- Use save data directly when checking for facts for ship log warp drive\r\n- Fixed slide reel caches in multi-system mods \r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/944**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1108,8 +1108,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-10-05T01:06:55Z",
-      "databaseEntryUpdatedAt": "2024-10-05T01:15:04.151Z",
+      "repoUpdatedAt": "2024-10-05T02:17:35Z",
+      "databaseEntryUpdatedAt": "2024-10-05T02:30:24.956Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -1125,7 +1125,7 @@
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.23.0/nh-examples.zip",
-      "downloadCount": 6345,
+      "downloadCount": 6346,
       "latestReleaseDate": "2024-09-26T02:41:24Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
@@ -1145,8 +1145,8 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "repoUpdatedAt": "2024-10-05T00:50:08Z",
-      "databaseEntryUpdatedAt": "2024-10-05T01:15:03.885Z",
+      "repoUpdatedAt": "2024-10-05T01:43:35Z",
+      "databaseEntryUpdatedAt": "2024-10-05T02:30:24.419Z",
       "repoVariations": [
         "https://github.com/xen-42/ow-new-horizons-examples"
       ],
@@ -1286,7 +1286,7 @@
         "main": "smolhatchling.webp"
       },
       "repoUpdatedAt": "2024-10-02T00:40:54Z",
-      "databaseEntryUpdatedAt": "2024-10-04T14:27:35.296Z",
+      "databaseEntryUpdatedAt": "2024-10-05T02:30:24.417Z",
       "repoVariations": [],
       "viewCount": 13,
       "weeklyViewCount": 3,
@@ -4510,7 +4510,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.9/hearth1an.TheVision.zip",
-      "downloadCount": 20548,
+      "downloadCount": 20560,
       "latestReleaseDate": "2024-06-16T15:13:49Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4533,7 +4533,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2024-09-05T15:16:01Z",
-      "databaseEntryUpdatedAt": "2024-10-04T14:27:35.452Z",
+      "databaseEntryUpdatedAt": "2024-10-05T02:30:24.575Z",
       "repoVariations": [],
       "viewCount": 791,
       "weeklyViewCount": 176,
@@ -8714,7 +8714,7 @@
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
       "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.2/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 2310,
+      "downloadCount": 2315,
       "latestReleaseDate": "2024-10-02T12:07:54Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
@@ -8740,7 +8740,7 @@
         "main": "archipelagorandomizer.webp"
       },
       "repoUpdatedAt": "2024-10-02T12:13:01Z",
-      "databaseEntryUpdatedAt": "2024-10-04T14:27:35.300Z",
+      "databaseEntryUpdatedAt": "2024-10-05T02:30:24.557Z",
       "repoVariations": [],
       "viewCount": 225,
       "weeklyViewCount": 79,
@@ -8887,7 +8887,7 @@
       "author": "2walker2",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/2walker2/Astral-Codex/releases/download/1.7.0/Walker.AstralCodex.zip",
-      "downloadCount": 8079,
+      "downloadCount": 8093,
       "latestReleaseDate": "2024-09-05T06:28:32Z",
       "firstReleaseDate": "2024-02-24T02:22:36Z",
       "repo": "https://github.com/2walker2/Astral-Codex",
@@ -8909,7 +8909,7 @@
         "main": "astralcodec.webp"
       },
       "repoUpdatedAt": "2024-09-06T04:28:55Z",
-      "databaseEntryUpdatedAt": "2024-10-04T14:27:35.292Z",
+      "databaseEntryUpdatedAt": "2024-10-05T02:30:24.514Z",
       "repoVariations": [],
       "viewCount": 739,
       "weeklyViewCount": 151,
