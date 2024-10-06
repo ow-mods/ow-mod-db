@@ -1086,18 +1086,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.22.8/xen.NewHorizons.zip",
-      "downloadCount": 63789,
-      "latestReleaseDate": "2024-10-05T01:52:50Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.23.0/xen.NewHorizons.zip",
+      "downloadCount": 63806,
+      "latestReleaseDate": "2024-10-06T18:15:21Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.22.8",
+      "version": "v1.23.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Minor features\r\n\r\n- Added `allowShipAutoroll` to `Water` and `Atmosphere` (closes #935)\r\n- Replaced `invulnerableToSun` with `hasFluidDetector` and better documented anglerfish making planets go gorp (closes #830)\r\n- The spawn module now has `playerSpawnPoints` and `shipSpawnPoints` allowing you to define multiple possible spawns on one planet.\r\n- Spawn points now have `makeDefaultIfFactRevealed` and `makeDefaultIfPersistentCondition` allowing you to change which spawn the player uses. Priority goes fact -> persistent condition -> default\r\n- Black holes and change star system volumes now have `spawnPointID`. If this is set, entering one of these volumes will send you to the spawn with a matching `id` (closes #917)\r\n\r\n## Improvements\r\n\r\n- Allows subtitles of any size now (images get rescaled if need be) (closes #893)\r\n- Added documentation of naming scheme for alt ship log images (closes #848)\r\n- Consistency between planet and system name: use config value, otherwise use file name\r\n\r\n## Bug fixes\r\n\r\n- Fix subtitles start cycling before main menu is visible (closes #844)\r\n- Fix disappearing signalscope UI after warping to new star system (closes #934)\r\n- Fix null primary body not defaulting to center of universe in other star systems (closes #933) (probably)\r\n- Fix proxy details requiring \"keepLoaded\" set to true to work (closes #940)\r\n- Handle proxy body edge case when all scales = 0 (closes #941)\r\n- \"Orphaned\" signalscope reticles are disabled instead of being stuck on screen when a signal is disabled (closes #925)\r\n- Stranger text misalignment (closes #924)\r\n- Fixed simulation materials for custom slide reels. (closes #946)\r\n- Fix empty warp drive ship log page appearing\r\n- Use save data directly when checking for facts for ship log warp drive\r\n- Fixed slide reel caches in multi-system mods \r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/944**",
+      "latestReleaseDescription": "Thank you Hawkbar for implementing custom Dreamworlds in this update!\r\n\r\n## Major features\r\n- Added `Dream.inDreamWorld` to planet configs to treat a planet as if it were part of the dream world dimension. The planet's contents will be deactivated unless you enter via a dream arrival point or another dream world dimension. Closes #916\r\n- Added `dreamCampfires` and `dreamArrivalPoints` as new linked prop types, which allow you to create new entry points into Echoes of the Eye's dream world or create similar experiences using custom planets.\r\n\r\n## Improvements\r\n- General support for dream world simulations even if the vanilla dream world is disabled in custom solar systems.\r\n- Preserve held items when warping (closes #192). Note that if you leave an item in another system and warp out, that item will be gone forever from all systems until you start a new loop. Some items (i.e., slide reels) do not work between systems.\r\n\r\n## Bug fixes\r\n- Time loop will be disabled in other systems if you removed the AWC and warped while holding it or using the Vessel. Closes #952\r\n- Fixed configs getting loaded more than once if parent body is updated again #921\r\n\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/956**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1108,8 +1108,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-10-06T19:26:40Z",
-      "databaseEntryUpdatedAt": "2024-10-06T19:38:22.856Z",
+      "repoUpdatedAt": "2024-10-06T21:25:06Z",
+      "databaseEntryUpdatedAt": "2024-10-06T21:30:03.322Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
