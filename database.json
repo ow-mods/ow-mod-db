@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 140864
+    "downloadCount": 140866
   },
   "releases": [
     {
@@ -1086,18 +1086,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.23.0/xen.NewHorizons.zip",
-      "downloadCount": 64007,
-      "latestReleaseDate": "2024-10-06T18:15:21Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.23.1/xen.NewHorizons.zip",
+      "downloadCount": 64008,
+      "latestReleaseDate": "2024-10-08T03:05:05Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.23.0",
+      "version": "v1.23.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "Thank you Hawkbar for implementing custom Dreamworlds in this update!\r\n\r\n## Major features\r\n- Added `Dream.inDreamWorld` to planet configs to treat a planet as if it were part of the dream world dimension. The planet's contents will be deactivated unless you enter via a dream arrival point or another dream world dimension. Closes #916\r\n- Added `dreamCampfires` and `dreamArrivalPoints` as new linked prop types, which allow you to create new entry points into Echoes of the Eye's dream world or create similar experiences using custom planets.\r\n\r\n## Improvements\r\n- General support for dream world simulations even if the vanilla dream world is disabled in custom solar systems.\r\n- Preserve held items when warping (closes #192). Note that if you leave an item in another system and warp out, that item will be gone forever from all systems until you start a new loop. Some items (i.e., slide reels) do not work between systems.\r\n\r\n## Bug fixes\r\n- Time loop will be disabled in other systems if you removed the AWC and warped while holding it or using the Vessel. Closes #952\r\n- Fixed configs getting loaded more than once if parent body is updated again #921\r\n\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/956**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fix a bug breaking Eyes of the Past and Band Together\r\n- Better handle when a mod tries using DLC props when the DLC is not installed\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/963**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1108,8 +1108,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-10-08T03:02:04Z",
-      "databaseEntryUpdatedAt": "2024-10-08T15:26:16.744Z",
+      "repoUpdatedAt": "2024-10-08T15:52:26Z",
+      "databaseEntryUpdatedAt": "2024-10-08T15:54:59.710Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -1286,7 +1286,7 @@
         "main": "smolhatchling.webp"
       },
       "repoUpdatedAt": "2024-10-02T00:40:54Z",
-      "databaseEntryUpdatedAt": "2024-10-08T03:53:10.639Z",
+      "databaseEntryUpdatedAt": "2024-10-08T15:54:59.395Z",
       "repoVariations": [],
       "viewCount": 13,
       "weeklyViewCount": 1,
@@ -4510,7 +4510,7 @@
       "author": "hearth1an",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/hearth1an/hearthian.TheVision/releases/download/v1.1.9/hearth1an.TheVision.zip",
-      "downloadCount": 20637,
+      "downloadCount": 20642,
       "latestReleaseDate": "2024-06-16T15:13:49Z",
       "firstReleaseDate": "2022-09-04T17:24:56Z",
       "repo": "https://github.com/hearth1an/hearthian.TheVision",
@@ -4533,7 +4533,7 @@
         "openGraph": "thevision-static.webp"
       },
       "repoUpdatedAt": "2024-09-05T15:16:01Z",
-      "databaseEntryUpdatedAt": "2024-10-08T03:53:10.879Z",
+      "databaseEntryUpdatedAt": "2024-10-08T15:54:59.707Z",
       "repoVariations": [],
       "viewCount": 776,
       "weeklyViewCount": 199,
@@ -8887,7 +8887,7 @@
       "author": "2walker2",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/2walker2/Astral-Codex/releases/download/1.7.0/Walker.AstralCodex.zip",
-      "downloadCount": 8163,
+      "downloadCount": 8167,
       "latestReleaseDate": "2024-09-05T06:28:32Z",
       "firstReleaseDate": "2024-02-24T02:22:36Z",
       "repo": "https://github.com/2walker2/Astral-Codex",
@@ -8909,7 +8909,7 @@
         "main": "astralcodec.webp"
       },
       "repoUpdatedAt": "2024-09-06T04:28:55Z",
-      "databaseEntryUpdatedAt": "2024-10-08T03:53:10.638Z",
+      "databaseEntryUpdatedAt": "2024-10-08T15:54:59.396Z",
       "repoVariations": [],
       "viewCount": 688,
       "weeklyViewCount": 173,
