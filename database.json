@@ -1086,18 +1086,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.23.2/xen.NewHorizons.zip",
-      "downloadCount": 64219,
-      "latestReleaseDate": "2024-10-08T23:56:31Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.23.3/xen.NewHorizons.zip",
+      "downloadCount": 64228,
+      "latestReleaseDate": "2024-10-10T03:58:17Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.23.2",
+      "version": "v1.23.3",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Actually fix Band Together for real\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/964**",
+      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Fix an issue where a signal from Astral Codec mistakenly thought it was inside Dark Bramble if the Outsider was installed. (closes #966)\r\n- Fix moving satellites of satellites of planets (closes #960)\r\n- Fix black hole vanishing when vessel warping (closes #957)\r\n- Fix size of tornado force volumes\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/967**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1108,8 +1108,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-10-10T03:02:19Z",
-      "databaseEntryUpdatedAt": "2024-10-10T03:13:09.149Z",
+      "repoUpdatedAt": "2024-10-10T04:00:34Z",
+      "databaseEntryUpdatedAt": "2024-10-10T04:02:47.142Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
