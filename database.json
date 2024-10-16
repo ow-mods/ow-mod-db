@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 140933
+    "downloadCount": 140934
   },
   "releases": [
     {
@@ -2868,7 +2868,7 @@
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
       "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v1.0.0/xen.AchievementTracker.zip",
-      "downloadCount": 3992,
+      "downloadCount": 4014,
       "latestReleaseDate": "2024-10-15T01:55:26Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
@@ -2888,7 +2888,7 @@
         "main": "achievements.webp"
       },
       "repoUpdatedAt": "2024-10-15T01:57:55Z",
-      "databaseEntryUpdatedAt": "2024-10-15T14:48:28.718Z",
+      "databaseEntryUpdatedAt": "2024-10-16T02:49:11.368Z",
       "repoVariations": [],
       "viewCount": 74,
       "weeklyViewCount": 15,
@@ -8739,8 +8739,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-10-16T01:37:08Z",
-      "databaseEntryUpdatedAt": "2024-10-16T01:51:36.847Z",
+      "repoUpdatedAt": "2024-10-16T01:54:13Z",
+      "databaseEntryUpdatedAt": "2024-10-16T02:49:11.336Z",
       "repoVariations": [],
       "viewCount": 249,
       "weeklyViewCount": 37,
@@ -8752,18 +8752,18 @@
       "uniqueName": "Owen_013.FirstPersonPresence",
       "description": "Step into the hatchling's hiking boots with viewmodel hands, view bobbing, and more!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.0/Owen_013.FirstPersonPresence.zip",
-      "downloadCount": 1488,
-      "latestReleaseDate": "2024-10-15T18:33:18Z",
+      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.1/Owen_013.FirstPersonPresence.zip",
+      "downloadCount": 1508,
+      "latestReleaseDate": "2024-10-16T02:09:52Z",
       "firstReleaseDate": "2024-01-16T01:43:20Z",
       "repo": "https://github.com/Owen013/FirstPersonPresence",
-      "version": "v1.4.0",
+      "version": "v1.4.1",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/FirstPersonPresence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/FirstPersonPresence/main/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "### Camera and Tool Bobbing now look slightly different:\r\n\r\n![bob](https://github.com/user-attachments/assets/0dd330f2-9363-45c7-ae16-d896516700a4)\r\n\r\nCamera and Tool Bobbing have also been adjusted so that they will almost always match up with the player's walking animation. It may be a bit off when you first start walking, but it will quickly correct itself.\r\n\r\n### Tool Sway has been improved! It now looks better when looking further up/down, and a rotational component has been added to make it look better.\r\n\r\n![sway](https://github.com/user-attachments/assets/bf8e151f-506e-41cd-bd53-0598023def3a)\r\n\r\nYou can disable the translational or rotational components individually by turning their amount down to 0 in the config menu.\r\n\r\n### Swapped the Dynamic Tool Position behaviors so that the legacy setting is now the default, making the new default behavior the same as it was prior to v1.3.1.\r\n\r\n![toolpos](https://github.com/user-attachments/assets/276be83c-af39-418f-a676-f50147ad8953)",
+      "latestReleaseDescription": "Fixed an embarrassing bug that caused the forward component of the Tool Sway to not scale properly when looking further up/down.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -8772,8 +8772,8 @@
       "thumbnail": {
         "main": "immersion.webp"
       },
-      "repoUpdatedAt": "2024-10-15T18:33:20Z",
-      "databaseEntryUpdatedAt": "2024-10-15T18:46:06.334Z",
+      "repoUpdatedAt": "2024-10-16T02:10:00Z",
+      "databaseEntryUpdatedAt": "2024-10-16T02:49:11.256Z",
       "repoVariations": [],
       "viewCount": 57,
       "weeklyViewCount": 9,
@@ -9280,7 +9280,7 @@
       "author": "Etherpod",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Etherpod/Band-Together/releases/download/v2.1.2/pikpik_carrot.BandTogether.zip",
-      "downloadCount": 1673,
+      "downloadCount": 1676,
       "latestReleaseDate": "2024-10-09T00:27:49Z",
       "firstReleaseDate": "2024-03-27T00:02:51Z",
       "repo": "https://github.com/Etherpod/Band-Together",
@@ -9303,7 +9303,7 @@
         "main": "bandtogether.webp"
       },
       "repoUpdatedAt": "2024-10-09T23:11:54Z",
-      "databaseEntryUpdatedAt": "2024-10-15T14:48:28.549Z",
+      "databaseEntryUpdatedAt": "2024-10-16T02:49:11.254Z",
       "repoVariations": [],
       "viewCount": 118,
       "weeklyViewCount": 46,
@@ -10272,7 +10272,7 @@
       "description": "Lets you change your skin",
       "author": "pikpik-carrot",
       "downloadUrl": "https://github.com/pikpik-carrot/SkinChanger/releases/download/v2.1.0/pikpik_carrot.SkinChanger.zip",
-      "downloadCount": 173,
+      "downloadCount": 175,
       "latestReleaseDate": "2024-09-30T20:19:46Z",
       "firstReleaseDate": "2024-09-14T04:05:17Z",
       "repo": "https://github.com/pikpik-carrot/SkinChanger",
@@ -10294,7 +10294,7 @@
         "main": "ultimateskinchanger.webp"
       },
       "repoUpdatedAt": "2024-09-30T20:21:11Z",
-      "databaseEntryUpdatedAt": "2024-10-15T14:48:28.297Z",
+      "databaseEntryUpdatedAt": "2024-10-16T02:49:11.214Z",
       "repoVariations": [],
       "viewCount": 224,
       "weeklyViewCount": 35,
