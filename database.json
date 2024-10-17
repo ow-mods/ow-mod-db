@@ -8752,18 +8752,18 @@
       "uniqueName": "Owen_013.FirstPersonPresence",
       "description": "Step into the hatchling's hiking boots with viewmodel hands, view bobbing, and more!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.1/Owen_013.FirstPersonPresence.zip",
-      "downloadCount": 1537,
-      "latestReleaseDate": "2024-10-16T02:09:52Z",
+      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.2/Owen_013.FirstPersonPresence.zip",
+      "downloadCount": 1542,
+      "latestReleaseDate": "2024-10-17T23:15:48Z",
       "firstReleaseDate": "2024-01-16T01:43:20Z",
       "repo": "https://github.com/Owen013/FirstPersonPresence",
-      "version": "v1.4.1",
+      "version": "v1.4.2",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/FirstPersonPresence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/FirstPersonPresence/main/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "Fixed an embarrassing bug that caused the forward component of the Tool Sway to not scale properly when looking further up/down.",
+      "latestReleaseDescription": "### Changes\r\n- **View Bobbing** will now transition a little more smoothly when you first start moving.\r\n- Made the default **Tool Sway** a bit more subtle.\r\n- **Hide Stowed Items** has been improved; the item will now smoothly move offscreen instead of suddenly disappearing.\r\n- The camera will now rotate around its own center instead of the player's.\r\n- Tweaked the Scout Launcher fire animation a bit.\r\n- Moved the viewmodel hand for a certain artifact.\r\n\r\n### Bugfix\r\n- View bobbing will no longer keep moving for a few seconds after the game is paused.\r\n- Viewmodel arms will no longer remain visible on held items for one frame after they were dropped.\r\n- The Translator Tool will no longer bob forward and backward unintentionally if **Tool Bob Forward Intensity** is set to a value other than 1.\r\n- The Translator Tool offset magnitude will now always be the same as every other tool.",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -8772,8 +8772,8 @@
       "thumbnail": {
         "main": "immersion.webp"
       },
-      "repoUpdatedAt": "2024-10-16T02:10:00Z",
-      "databaseEntryUpdatedAt": "2024-10-17T15:18:23.418Z",
+      "repoUpdatedAt": "2024-10-17T23:18:46Z",
+      "databaseEntryUpdatedAt": "2024-10-17T23:24:13.119Z",
       "repoVariations": [],
       "viewCount": 78,
       "weeklyViewCount": 32,
