@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 140968
+    "downloadCount": 140969
   },
   "releases": [
     {
@@ -1086,18 +1086,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.23.4/xen.NewHorizons.zip",
-      "downloadCount": 65351,
-      "latestReleaseDate": "2024-10-14T03:36:32Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.0/xen.NewHorizons.zip",
+      "downloadCount": 65354,
+      "latestReleaseDate": "2024-10-20T06:37:37Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.23.4",
+      "version": "v1.24.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Fixed held item persistence breaking dream world entry via death (oops)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/971**",
+      "latestReleaseDescription": "## Major features\r\n- New dream world related prop types: alarm totems, grapple totems, projection totems, portholes/peepholes, and dream candles. Where possible, these have been modified to work with the regular flashlight as well as the artifact for use outside of the dream world. Thank you Hawkbar for these features! \r\n\r\n## Minor features\r\n- Add `colliderRadius` to `itemSocket` so that you can make them actually work \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/978**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1108,8 +1108,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-10-19T16:18:43Z",
-      "databaseEntryUpdatedAt": "2024-10-20T04:43:36.579Z",
+      "repoUpdatedAt": "2024-10-20T06:38:21Z",
+      "databaseEntryUpdatedAt": "2024-10-20T06:39:58.332Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
