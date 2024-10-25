@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 141016
+    "downloadCount": 141017
   },
   "releases": [
     {
@@ -1086,18 +1086,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.0/xen.NewHorizons.zip",
-      "downloadCount": 65884,
-      "latestReleaseDate": "2024-10-20T06:37:37Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.1/xen.NewHorizons.zip",
+      "downloadCount": 65903,
+      "latestReleaseDate": "2024-10-25T01:12:40Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.24.0",
+      "version": "v1.24.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Major features\r\n- New dream world related prop types: alarm totems, grapple totems, projection totems, portholes/peepholes, and dream candles. Where possible, these have been modified to work with the regular flashlight as well as the artifact for use outside of the dream world. Thank you Hawkbar for these features! \r\n\r\n## Minor features\r\n- Add `colliderRadius` to `itemSocket` so that you can make them actually work \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/978**",
+      "latestReleaseDescription": "- Fixed an Outsider-compatibility bug accidentally introduced by an old Outsider-compatibility fix (affected The Vision)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/980**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1108,8 +1108,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-10-20T06:38:21Z",
-      "databaseEntryUpdatedAt": "2024-10-24T19:40:13.088Z",
+      "repoUpdatedAt": "2024-10-25T01:16:36Z",
+      "databaseEntryUpdatedAt": "2024-10-25T01:18:12.433Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
