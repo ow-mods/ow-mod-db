@@ -1086,18 +1086,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.1/xen.NewHorizons.zip",
-      "downloadCount": 66231,
-      "latestReleaseDate": "2024-10-25T01:12:40Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.2/xen.NewHorizons.zip",
+      "downloadCount": 66232,
+      "latestReleaseDate": "2024-10-27T17:07:00Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.24.1",
+      "version": "v1.24.2",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "- Fixed an Outsider-compatibility bug accidentally introduced by an old Outsider-compatibility fix (affected The Vision)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/980**",
+      "latestReleaseDescription": "## Minor features\r\n\r\n- Added `persistentConditionsToSet` and `conditionsToSet` to slide reels. Now instead of just revealing ship logs at the end of a slide reel/vision, you can set persistent and dialogue conditions. (fixes #976)\r\n\r\n## Improvements\r\n\r\n- Static body shiplogs are now automatically arranged by their distance to the primary (previously only considered semi-major axis)\r\n- Will register a planet config as invalid if the planet is listed as its own primary orbital body (nonsense) (fixes #983)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/985**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1108,8 +1108,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-10-27T17:05:34Z",
-      "databaseEntryUpdatedAt": "2024-10-27T17:10:38.455Z",
+      "repoUpdatedAt": "2024-10-27T17:29:19Z",
+      "databaseEntryUpdatedAt": "2024-10-27T17:30:43.014Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
