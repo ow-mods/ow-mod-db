@@ -8713,18 +8713,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.6/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.6.1/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 2668,
-      "latestReleaseDate": "2024-10-27T14:21:48Z",
+      "latestReleaseDate": "2024-11-01T20:59:43Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.6",
+      "version": "v0.3.6.1",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Fixed goal logic display for Song of Six failing to show all the regions for getting to either Solanum or Prisoner\r\n- Added a \"Translator**s**\" item name group, primarily for `split_translator: true` slots\r\n- Added \"Ignoring everywhere you've already been, ...\" to the in-game hint text. The hints always worked this way, but before there was no way for players to know this other than being told on Discord.\r\n- Fixed logic for AC: Missing Fuel Geode to require visiting LC first, and updated its tracker description\r\n- Changed tracker descriptions for HN2's Magister's Room locations to mention waiting for low gravity if you're low on boost, like the Lamp Book location descriptions do",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Fixed the \"GD: See the Coordinates\" location never getting checked on a `randomize_coordinates: false` slot\r\n\r\n_This fix is getting an urgent release all by itself because it's a never-before-discovered game-breaking bug for an ongoing Archipelago event in the Outer Wilds speedrunning server. Apparently speedrunners are the only ones who turn off `randomize_coordinates`._",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8739,8 +8739,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-11-01T20:39:42Z",
-      "databaseEntryUpdatedAt": "2024-11-01T20:39:50.840Z",
+      "repoUpdatedAt": "2024-11-01T21:06:34Z",
+      "databaseEntryUpdatedAt": "2024-11-01T21:13:39.442Z",
       "repoVariations": [],
       "viewCount": 231,
       "weeklyViewCount": 60,
