@@ -454,27 +454,30 @@
     {
       "name": "Cheats Mod",
       "uniqueName": "PacificEngine.CheatsMod",
-      "description": "Togglable features and teleportation",
-      "author": "PacificEngine",
-      "downloadUrl": "https://github.com/PacificEngine/OW_CheatsMod/releases/download/0.7.5/PacificEngine.OW_CheatsMod.zip",
-      "downloadCount": 16489,
-      "latestReleaseDate": "2024-01-06T07:12:47Z",
-      "firstReleaseDate": "2021-10-21T06:56:51Z",
-      "repo": "https://github.com/PacificEngine/OW_CheatsMod",
-      "version": "0.7.5",
+      "description": "Fork of Pacific Engine's Cheats Mod but without Common Resources as a dependency.",
+      "author": "MegaPiggy",
+      "downloadUrl": "https://github.com/MegaPiggy/CheatsMod_NoCommonResources/releases/download/0.7.6/MegaPiggy.CheatsMod.zip",
+      "downloadCount": 16495,
+      "latestReleaseDate": "2024-11-03T17:31:47Z",
+      "firstReleaseDate": "2021-10-21T06:57:15Z",
+      "repo": "https://github.com/MegaPiggy/CheatsMod_NoCommonResources",
+      "version": "0.7.6",
       "readme": {
-        "htmlUrl": "https://github.com/PacificEngine/OW_CheatsMod/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/PacificEngine/OW_CheatsMod/main/README.md"
+        "htmlUrl": "https://github.com/MegaPiggy/CheatsMod_NoCommonResources/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/CheatsMod_NoCommonResources/main/README.md"
       },
-      "latestReleaseDescription": "Moved the location of the files to fix issues with linux versions",
+      "authorDisplay": "MegaPiggy & PacificEngine",
+      "latestReleaseDescription": "- PacificEngine's Common Resources is no longer a dependency\r\n- You can teleport to the Mapping & Backer Satellites now.\r\n- Added keybinds to change the state of the Quantum Moon\r\n- You can now give yourself the vision torch, every Solanum conversation stone, and every projection stone.\r\n- Lantern/Artifact focus petals no longer go inside of the flames.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool"
       ],
       "slug": "cheatsmod",
-      "thumbnail": {},
-      "repoUpdatedAt": "2024-01-06T07:06:47Z",
-      "databaseEntryUpdatedAt": "2024-11-03T14:59:21.794Z",
+      "thumbnail": {
+        "main": "cheatsmod.webp"
+      },
+      "repoUpdatedAt": "2024-11-03T17:32:52Z",
+      "databaseEntryUpdatedAt": "2024-11-03T17:42:35.532Z",
       "repoVariations": [],
       "viewCount": 354,
       "weeklyViewCount": 105,
@@ -10401,38 +10404,6 @@
       "weeklyViewCount": 69,
       "installCount": 44,
       "weeklyInstallCount": 13
-    },
-    {
-      "name": "Cheats Mod (No CR)",
-      "uniqueName": "MegaPiggy.CheatsModNoCR",
-      "description": "Fork of Pacific Engine's Cheats Mod but without Common Resources as a dependency.",
-      "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/CheatsMod_NoCommonResources/releases/download/0.7.6/MegaPiggy.CheatsMod.zip",
-      "downloadCount": 4,
-      "latestReleaseDate": "2024-11-03T17:31:47Z",
-      "firstReleaseDate": "2024-11-03T16:28:28Z",
-      "repo": "https://github.com/MegaPiggy/CheatsMod_NoCommonResources",
-      "version": "0.7.6",
-      "readme": {
-        "htmlUrl": "https://github.com/MegaPiggy/CheatsMod_NoCommonResources/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/CheatsMod_NoCommonResources/main/README.md"
-      },
-      "latestReleaseDescription": "- PacificEngine's Common Resources is no longer a dependency\r\n- You can teleport to the Mapping & Backer Satellites now.\r\n- Added keybinds to change the state of the Quantum Moon\r\n- You can now give yourself the vision torch, every Solanum conversation stone, and every projection stone.\r\n- Lantern/Artifact focus petals no longer go inside of the flames.",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "tool"
-      ],
-      "slug": "cheatsmodnocr",
-      "thumbnail": {
-        "main": "cheatsmodnocr.webp"
-      },
-      "repoUpdatedAt": "2024-11-03T17:32:52Z",
-      "databaseEntryUpdatedAt": "2024-11-03T17:38:09.364Z",
-      "repoVariations": [],
-      "viewCount": 0,
-      "weeklyViewCount": 0,
-      "installCount": 0,
-      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
