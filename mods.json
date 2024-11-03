@@ -123,11 +123,14 @@
     },
     {
       "name": "Cheats Mod",
-      "repo": "PacificEngine/OW_CheatsMod",
+      "repo": "MegaPiggy/CheatsMod_NoCommonResources",
       "tags": [
         "tool"
       ],
-      "uniqueName": "PacificEngine.CheatsMod"
+      "uniqueName": "PacificEngine.CheatsMod",
+      "authorDisplay": "MegaPiggy & PacificEngine",
+      "downloadCountOffset": 16489,
+      "firstReleaseDateOverride": "2021-10-21T06:57:15Z"
     },
     {
       "name": "Difficulty Mod",
@@ -3173,14 +3176,6 @@
         "audiovisual"
       ],
       "authorDisplay": "Anonymous"
-    },
-    {
-      "name": "Cheats Mod (No CR)",
-      "uniqueName": "MegaPiggy.CheatsModNoCR",
-      "repo": "MegaPiggy/CheatsMod_NoCommonResources",
-      "tags": [
-        "tool"
-      ]
     }
   ]
 }
