@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 141115
+    "downloadCount": 141116
   },
   "releases": [
     {
@@ -1089,18 +1089,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.2/xen.NewHorizons.zip",
-      "downloadCount": 66931,
-      "latestReleaseDate": "2024-10-27T17:07:00Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.3/xen.NewHorizons.zip",
+      "downloadCount": 66938,
+      "latestReleaseDate": "2024-11-04T00:09:07Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.24.2",
+      "version": "v1.24.3",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Minor features\r\n\r\n- Added `persistentConditionsToSet` and `conditionsToSet` to slide reels. Now instead of just revealing ship logs at the end of a slide reel/vision, you can set persistent and dialogue conditions. (fixes #976)\r\n\r\n## Improvements\r\n\r\n- Static body shiplogs are now automatically arranged by their distance to the primary (previously only considered semi-major axis)\r\n- Will register a planet config as invalid if the planet is listed as its own primary orbital body (nonsense) (fixes #983)\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/985**",
+      "latestReleaseDescription": "## Improvements\r\n\r\n- Allow spawning inside Bramble dimensions (**base game spawn points do not work yet**)\r\n\r\n## Bug fixes\r\n\r\n- Fix bug where projected slides look too bright (**addons devs: delete the SlideReelsCache folder so the images get regenerated**)\r\n- Fixed bug where planet name wasn't falling back to the filename early enough (would have an empty name instead) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/987**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1111,8 +1111,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-11-04T00:30:57Z",
-      "databaseEntryUpdatedAt": "2024-11-04T00:36:31.084Z",
+      "repoUpdatedAt": "2024-11-04T00:45:49Z",
+      "databaseEntryUpdatedAt": "2024-11-04T01:53:15.915Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -10198,7 +10198,7 @@
       "slug": "slidinginshipfix",
       "thumbnail": {},
       "repoUpdatedAt": "2024-08-28T00:54:08Z",
-      "databaseEntryUpdatedAt": "2024-11-03T13:53:13.464Z",
+      "databaseEntryUpdatedAt": "2024-11-04T01:53:14.547Z",
       "repoVariations": [],
       "viewCount": 10,
       "weeklyViewCount": 0,
