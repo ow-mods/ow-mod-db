@@ -1089,18 +1089,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.3/xen.NewHorizons.zip",
-      "downloadCount": 67039,
-      "latestReleaseDate": "2024-11-04T00:09:07Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.4/xen.NewHorizons.zip",
+      "downloadCount": 67041,
+      "latestReleaseDate": "2024-11-04T15:41:07Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.24.3",
+      "version": "v1.24.4",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Improvements\r\n\r\n- Allow spawning inside Bramble dimensions (**base game spawn points do not work yet**)\r\n\r\n## Bug fixes\r\n\r\n- Fix bug where projected slides look too bright (**addons devs: delete the SlideReelsCache folder so the images get regenerated**)\r\n- Fixed bug where planet name wasn't falling back to the filename early enough (would have an empty name instead) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/987**",
+      "latestReleaseDescription": "## Bug fixes\r\n\r\n- TH spawnpoint will not be overridden by custom spawn points unless they are set to be the default. Fixes an unintended issue with the Vision where hearth1an put a non-functioning spawn point inside Ember Twin for no reason that just got activated last update (why hearth1an why).\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/991**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1111,8 +1111,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-11-04T15:38:05Z",
-      "databaseEntryUpdatedAt": "2024-11-04T15:41:49.856Z",
+      "repoUpdatedAt": "2024-11-04T15:51:47Z",
+      "databaseEntryUpdatedAt": "2024-11-04T15:54:29.311Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
