@@ -1089,18 +1089,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.4/xen.NewHorizons.zip",
-      "downloadCount": 67497,
-      "latestReleaseDate": "2024-11-04T15:41:07Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.5/xen.NewHorizons.zip",
+      "downloadCount": 67510,
+      "latestReleaseDate": "2024-11-07T18:20:12Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.24.4",
+      "version": "v1.24.5",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Bug fixes\r\n\r\n- TH spawnpoint will not be overridden by custom spawn points unless they are set to be the default. Fixes an unintended issue with the Vision where hearth1an put a non-functioning spawn point inside Ember Twin for no reason that just got activated last update (why hearth1an why).\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/991**",
+      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Resolve error when specifying a dialogue attention point but not an offset for that attention point\r\n- Uncomment that TH spawn fix because somehow it was commented out\r\n\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/994**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1111,8 +1111,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-11-07T18:18:13Z",
-      "databaseEntryUpdatedAt": "2024-11-07T18:31:45.901Z",
+      "repoUpdatedAt": "2024-11-07T20:36:33Z",
+      "databaseEntryUpdatedAt": "2024-11-07T20:39:14.520Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
