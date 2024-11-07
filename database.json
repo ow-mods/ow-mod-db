@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 141172
+    "downloadCount": 141173
   },
   "releases": [
     {
@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.14.0/OWML.zip",
-      "downloadCount": 180976,
+      "downloadCount": 181071,
       "latestReleaseDate": "2024-11-02T19:01:01Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2024-11-05T01:42:56Z",
-      "databaseEntryUpdatedAt": "2024-11-06T14:21:14.835Z",
+      "databaseEntryUpdatedAt": "2024-11-07T02:31:13.090Z",
       "repoVariations": [],
       "viewCount": 789,
       "weeklyViewCount": 349,
@@ -9407,7 +9407,7 @@
         "main": "pickupchert.webp"
       },
       "repoUpdatedAt": "2024-09-07T15:41:02Z",
-      "databaseEntryUpdatedAt": "2024-11-06T14:21:14.030Z",
+      "databaseEntryUpdatedAt": "2024-11-07T02:31:12.499Z",
       "repoVariations": [],
       "viewCount": 13,
       "weeklyViewCount": 6,
@@ -10228,7 +10228,7 @@
       "slug": "eskericecream",
       "thumbnail": {},
       "repoUpdatedAt": "2024-09-01T19:12:39Z",
-      "databaseEntryUpdatedAt": "2024-11-06T14:21:13.677Z",
+      "databaseEntryUpdatedAt": "2024-11-07T02:31:11.947Z",
       "repoVariations": [],
       "viewCount": 23,
       "weeklyViewCount": 2,
@@ -10412,7 +10412,7 @@
       "author": "xen-42",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/xen-42/ow-mod-jam-4/releases/download/v1.0.2/xenandWyrm.EscapeRoomJam4.zip",
-      "downloadCount": 130,
+      "downloadCount": 139,
       "latestReleaseDate": "2024-11-04T15:08:48Z",
       "firstReleaseDate": "2024-11-03T20:26:46Z",
       "repo": "https://github.com/xen-42/ow-mod-jam-4",
@@ -10436,7 +10436,7 @@
         "main": "outerwildsescaperoom.webp"
       },
       "repoUpdatedAt": "2024-11-05T00:17:28Z",
-      "databaseEntryUpdatedAt": "2024-11-06T14:21:13.782Z",
+      "databaseEntryUpdatedAt": "2024-11-07T02:31:12.500Z",
       "repoVariations": [],
       "viewCount": 96,
       "weeklyViewCount": 96,
@@ -10449,18 +10449,18 @@
       "description": "A mysterious ringed planet has appeared around Giant's Deep...",
       "author": "Hawkbat",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Hawkbat/OuterWildsModJam4/releases/download/v0.1.2/Hawkbar.GreenFlameBlade.zip",
-      "downloadCount": 105,
-      "latestReleaseDate": "2024-11-05T00:50:09Z",
+      "downloadUrl": "https://github.com/Hawkbat/OuterWildsModJam4/releases/download/v0.2.0/Hawkbar.GreenFlameBlade.zip",
+      "downloadCount": 112,
+      "latestReleaseDate": "2024-11-07T02:10:00Z",
       "firstReleaseDate": "2024-11-04T06:47:12Z",
       "repo": "https://github.com/Hawkbat/OuterWildsModJam4",
-      "version": "v0.1.2",
+      "version": "v0.2.0",
       "readme": {
         "htmlUrl": "https://github.com/Hawkbat/OuterWildsModJam4/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Hawkbat/OuterWildsModJam4/main/README.md"
       },
       "authorDisplay": "The Wrong Warp Team",
-      "latestReleaseDescription": "- Tweaks to two frequently misunderstood ship logs.",
+      "latestReleaseDescription": "- Added additional gameplay objects to Slate's campsite\r\n- Added a small additional story beat to an early sequence\r\n- Added visual feedback when returning to a location after completing objectives\r\n- Added a gravity field to a precarious location to prevent accidentally being flung away\r\n- Changed the visuals for some clues in a central location for better clarity\r\n- Fixed certain objects not interacting with the new tool while socketed\r\n- Fixed an issue with 3D-positioned audio falling out of sync with the player\r\n- Fixed several softlocks related to holding the new tool while flying the ship\r\n- Fixed an important location being visible (and accessible!) without entering the surrounding area first\r\n- Fixed a softlock when being kicked out of the dream world while looking through a peephole\r\n- Partially fixed an issue with the pictures taken by the new tool being displayed incorrectly",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -10472,8 +10472,8 @@
       "thumbnail": {
         "main": "dreambound.webp"
       },
-      "repoUpdatedAt": "2024-11-06T17:06:16Z",
-      "databaseEntryUpdatedAt": "2024-11-06T17:25:25.578Z",
+      "repoUpdatedAt": "2024-11-07T02:24:05Z",
+      "databaseEntryUpdatedAt": "2024-11-07T02:31:12.500Z",
       "repoVariations": [],
       "viewCount": 86,
       "weeklyViewCount": 86,
@@ -10487,7 +10487,7 @@
       "author": "TRSasasusu",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TRSasasusu/Guardian/releases/download/v0.1.1/orclecle.Guardian.zip",
-      "downloadCount": 68,
+      "downloadCount": 75,
       "latestReleaseDate": "2024-11-05T00:37:10Z",
       "firstReleaseDate": "2024-11-04T21:57:45Z",
       "repo": "https://github.com/TRSasasusu/Guardian",
@@ -10509,7 +10509,7 @@
         "main": "guardian.webp"
       },
       "repoUpdatedAt": "2024-11-05T00:39:45Z",
-      "databaseEntryUpdatedAt": "2024-11-06T14:21:13.960Z",
+      "databaseEntryUpdatedAt": "2024-11-07T02:31:12.499Z",
       "repoVariations": [],
       "viewCount": 38,
       "weeklyViewCount": 38,
@@ -10599,7 +10599,7 @@
       "description": "A very short story mod made for the October 2024 Outer Wilds Mod Jam.",
       "author": "AsymmetricalCavern",
       "downloadUrl": "https://github.com/AsymmetricalCavern/LonesomeLake/releases/download/1.0.0/AsymmetricalCavern.LonesomeLake.zip",
-      "downloadCount": 52,
+      "downloadCount": 58,
       "latestReleaseDate": "2024-11-05T00:29:33Z",
       "firstReleaseDate": "2024-11-05T00:29:33Z",
       "repo": "https://github.com/AsymmetricalCavern/LonesomeLake",
@@ -10621,7 +10621,7 @@
         "main": "lonesomelake.webp"
       },
       "repoUpdatedAt": "2024-11-05T00:56:50Z",
-      "databaseEntryUpdatedAt": "2024-11-06T14:21:13.782Z",
+      "databaseEntryUpdatedAt": "2024-11-07T02:31:12.702Z",
       "repoVariations": [],
       "viewCount": 25,
       "weeklyViewCount": 25,
@@ -10635,7 +10635,7 @@
       "author": "Etherpod",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Etherpod/LuminaTerra/releases/download/v1.0.2/Etherpod.LuminaTerra.zip",
-      "downloadCount": 88,
+      "downloadCount": 99,
       "latestReleaseDate": "2024-11-05T03:45:40Z",
       "firstReleaseDate": "2024-11-05T01:00:28Z",
       "repo": "https://github.com/Etherpod/LuminaTerra",
@@ -10655,8 +10655,8 @@
       "thumbnail": {
         "main": "luminaterra.webp"
       },
-      "repoUpdatedAt": "2024-11-05T03:46:50Z",
-      "databaseEntryUpdatedAt": "2024-11-06T16:47:42.784Z",
+      "repoUpdatedAt": "2024-11-07T01:29:54Z",
+      "databaseEntryUpdatedAt": "2024-11-07T02:31:12.499Z",
       "repoVariations": [],
       "viewCount": 35,
       "weeklyViewCount": 35,
@@ -10670,7 +10670,7 @@
       "author": "Echatsum",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Echatsum/MisfiredJump/releases/download/0.1.0/Echatsum.MisfiredJump.zip",
-      "downloadCount": 48,
+      "downloadCount": 53,
       "latestReleaseDate": "2024-11-05T01:21:45Z",
       "firstReleaseDate": "2024-11-05T01:21:45Z",
       "repo": "https://github.com/Echatsum/MisfiredJump",
@@ -10694,7 +10694,7 @@
         "main": "misfiredjump.webp"
       },
       "repoUpdatedAt": "2024-11-05T01:36:02Z",
-      "databaseEntryUpdatedAt": "2024-11-06T14:21:14.227Z",
+      "databaseEntryUpdatedAt": "2024-11-07T02:31:12.499Z",
       "repoVariations": [],
       "viewCount": 20,
       "weeklyViewCount": 20,
