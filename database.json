@@ -8716,18 +8716,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.6.1/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.7/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 2867,
-      "latestReleaseDate": "2024-11-01T20:59:43Z",
+      "latestReleaseDate": "2024-11-10T21:59:52Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.6.1",
+      "version": "v0.3.7",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Fixed the \"GD: See the Coordinates\" location never getting checked on a `randomize_coordinates: false` slot\r\n\r\n_This fix is getting an urgent release all by itself because it's a never-before-discovered game-breaking bug for an ongoing Archipelago event in the Outer Wilds speedrunning server. Apparently speedrunners are the only ones who turn off `randomize_coordinates`._",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Added \"Projection Range Patch\" to the logic for the Dream Raft Loop -> Endless Canyon connection, fixing some unbeatable seeds (thanks Hopop for catching this)\r\n- Fixed `spawn: random_non_vanilla` never choosing `stranger` (if DLC enabled) or never choosing `giants_deep` (if DLC disabled) (thanks Kinrah for noticing this)\r\n- Fixed sporadic generation errors and incorrect Universal Tracker output involving some of the DLC and Outsider logic (thanks DanPark and Baby Groot for independently catching this)\r\n- Fixed incorrect and incomplete in-game tracker logic display involving some of the DLC and Outsider logic (thanks Baby Groot for catching this)\r\n- Added \"Raft Docks Patch\" as an alternative to \"Dream Totem Patch\" in the logic for reaching the Starlit Cove 4 location and the CI Symbol Room region (thanks Hopop and Baby Groot for suggesting this)\r\n- Fixed hints for one slot incorrectly being used on another slot (thanks Hopop for catching this)\r\n- Fixed New Horizons effectively giving you the Quantum Moon Signal item when you weren't supposed to have it yet\r\n- The .apworld's logic deserialization code now uses Archipelago's `restricted_loads` utility for slightly better security (thanks Eijebong for raising this concern and suggesting this solution)\r\n- The visual effects of the Scout passing through ghost matter (the \"Hazard\" UI indicator, the green splash and trail) will now be brought back after you get the Ghost Matter Wavelength item (thanks Dagoth Xil for requesting this)\r\n- More typo fixes in tracker descriptions (thanks @Zannick)\r\n- Filled in the missing persistent conditions for split translator, the DSR frequency and story mod progression items. (these conditions are intended to help speedrunners use autosplitters for the randomizer; thanks to the speedrunning server for noticing these omissions)\r\n- The in-game hints now use a proper timeout when informing the AP server of the new hint",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8742,8 +8742,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-11-10T21:32:29Z",
-      "databaseEntryUpdatedAt": "2024-11-10T21:36:20.119Z",
+      "repoUpdatedAt": "2024-11-10T22:01:27Z",
+      "databaseEntryUpdatedAt": "2024-11-10T22:01:57.764Z",
       "repoVariations": [],
       "viewCount": 187,
       "weeklyViewCount": 43,
