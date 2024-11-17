@@ -10309,18 +10309,18 @@
       "uniqueName": "Etherpod.ShipEnhancements",
       "description": "Adds way too much stuff for the ship in the mod settings.",
       "author": "Etherpod",
-      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v0.2.0/Etherpod.ShipEnhancements.zip",
+      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v1.0.0/Etherpod.ShipEnhancements.zip",
       "downloadCount": 326,
-      "latestReleaseDate": "2024-10-06T22:30:56Z",
+      "latestReleaseDate": "2024-11-17T21:16:42Z",
       "firstReleaseDate": "2024-09-15T02:38:59Z",
       "repo": "https://github.com/Etherpod/Ship-Enhancements",
-      "version": "v0.2.0",
+      "version": "v1.0.0",
       "readme": {
         "htmlUrl": "https://github.com/Etherpod/Ship-Enhancements/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Etherpod/Ship-Enhancements/main/README.md"
       },
       "authorDisplay": "Etherpod",
-      "latestReleaseDescription": "## New Settings\r\n- **Reactor Lifetime Multiplier**\r\n  - Controls how long it takes for the ship's reactor to explode.\r\n- **Disable Ship Friction**\r\n  - Removes friction from the ship so that it slides around everywhere. Also makes the inside of the ship slippery.\r\n- **Add Signalscope Component**\r\n  - Turns the ship's signalscope into a damageable component.\r\n- **Cockpit Rust**\r\n  - Applies a permanent layer of rust to the cockpit that obscures your vision. The amount of rust is controlled by a slider in the settings.\r\n- **Cockpit Dirt Accumulation Rate**\r\n  - Controls how quickly dirt builds up on the cockpit. It will obscure your vision, but you can wash it off with some water.\r\n- **Ship Thruster Color**\r\n  - Changes the color of the ship's thrusters and the color of the thrust indicator inside.\r\n- **Disable Seatbelt**\r\n  - Removes your seatbelt. If you crash the ship too hard you'll go flying out of your chair.\r\n- **Add Portable Tractor Beam**\r\n  - Adds a portable Nomai tractor beam inside of the ship. You can place it on the ground for an extra boost in height.\r\n  \r\n## New Features\r\n- \"Random\" Preset\r\n  - A new preset in the mod settings that randomizes all of the options each loop.\r\n- Achievements\r\n  - Added 8 achievements for the **Achievements+** mod.\r\n\r\n## Minor Changes\r\n- Slightly improved the math for the Ship Bounciness setting\r\n- Gravity Landing Gear now temporarily disables when applying upwards thrust\r\n- Overdrive now temporarily changes the color of the thrust indicator inside of the ship\r\n- Added notifications for when the scout is unable to be launched due to it being in a different launcher\r\n- Moved the Ship Signal to the Outer Wilds Ventures frequency to avoid conflicts with New Horizons\r\n- Changed the sound of the Ship Signal to be quieter\r\n\r\n## Bug Fixes\r\n- Fixed some incorrectly named ship light colors\r\n- Fixed a bug where overdrive was still useable when fuel was depleted\r\n- Fixed a bug where Persistent Input was still useable when fuel was depleted\r\n- Fixed a bug where the Thrust Modulator buttons would break when losing power during the overdrive sequence\r\n- Fixed a bug where the mod **General Enhancements** would override Ship Input Latency\r\n- Fixed a bug where turning on Disable Ship Scout Recall would occasionally cause issues at the beginning of the next loop",
+      "latestReleaseDescription": "**Ship Enhancements is fully compatible with QSB now!**\r\n\r\n## New Settings\r\n- **Disable Ship Suit** - Removes your spacesuit from the ship. Not recommended for exploring anywhere without oxygen.\r\n- **Damage Indicator Color** - Lets you change the overall color of the damage indicators on the ship, like making the master alarm flash green instead of red.\r\n\r\n## New Features\r\n- Added some easter eggs for settings that would previously break trying to process negative numbers\r\n- Added a new hidden achievement for the **Achievements+** mod to go with one of the easter eggs\r\n\r\n## Bug Fixes + Improvements\r\n- Fixed a bug where the Sun's temperature zone wouldn't scale properly over the course of the loop\r\n- Fixed a bug where damaging the fuel tank with ship repair disabled would prevent you from transferring fuel\r\n- Adjusted ship oxygen to drain based on how many players are inside\r\n- Changed the ship signal sound and moved it to the Outer Wilds Ventures frequency for New Horizons compatibility\r\n- Fixed the bounce math for the Ship Bounciness setting again\r\n- Potentially fixed bug with mod config causing errors after an update",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -10331,8 +10331,8 @@
       "thumbnail": {
         "main": "shipenhancements.webp"
       },
-      "repoUpdatedAt": "2024-11-17T20:59:14Z",
-      "databaseEntryUpdatedAt": "2024-11-17T21:14:46.914Z",
+      "repoUpdatedAt": "2024-11-17T21:25:17Z",
+      "databaseEntryUpdatedAt": "2024-11-17T21:30:03.934Z",
       "repoVariations": [],
       "viewCount": 262,
       "weeklyViewCount": 38,
