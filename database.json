@@ -7705,7 +7705,7 @@
         "main": "inhabitantchess.webp"
       },
       "repoUpdatedAt": "2024-10-29T17:16:22Z",
-      "databaseEntryUpdatedAt": "2024-12-06T05:40:11.469Z",
+      "databaseEntryUpdatedAt": "2024-12-06T17:46:02.414Z",
       "repoVariations": [],
       "viewCount": 16,
       "weeklyViewCount": 4,
@@ -7775,7 +7775,7 @@
         "main": "sadsupernovamusic.webp"
       },
       "repoUpdatedAt": "2023-06-08T07:05:38Z",
-      "databaseEntryUpdatedAt": "2024-12-06T05:40:11.578Z",
+      "databaseEntryUpdatedAt": "2024-12-06T17:46:02.345Z",
       "repoVariations": [],
       "viewCount": 8,
       "weeklyViewCount": 3,
@@ -8717,18 +8717,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.8/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.9/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 4049,
-      "latestReleaseDate": "2024-11-15T17:04:12Z",
+      "latestReleaseDate": "2024-12-06T17:37:55Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.8",
+      "version": "v0.3.9",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Unbreak the Randomize Ghost Matter setting. It simply wasn't randomizing anything due to a bug introduced all the way back in 0.3.3, but now it's working again.\r\n- Fix in-game hints showing AP location ids instead of location names.\r\n- Story mod logic fixes:\r\n  - Fixed HN2 finale logic having the same Access Code twice instead of two different Access Codes (thanks Dan Park)\r\n  - Fixed Shrouded Woodlands Archives _not_ being logically reachable from The Outsider's connection to Endless Canyon (thanks Kinrah)\r\n  - Fixed The Outsider's connection to Endless Canyon logically requiring SLM even though it's in the Dreamworld\r\n  - Fixed Cinder Isles Symbol Room being logically reachable from The Outsider when it isn't reachable in-game (most of the Dreamworld is, but you can't fly back to the Stranger afterward in the same loop) by logically requiring that you have one of the Painting Codes (thanks Kinrah)\r\n- Tracker descriptions for the first Lingering Chime locations now include directions for reaching it.\r\n- Tracker descriptions for the first Cinder Isles Symbol Room locations now explain that it requires one of the vanilla DLC entrances to Dreamworld, not the one added by a story mod.\r\n\r\nSomeday we'll make it a whole week without finding more bugs.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Suit Log integration for the In-Game Tracker (implemented by @Pikrass)\r\n- Worked around the Vessel's \"Eye Coordinates\" prompt failing to show up for many players by reimplementing it in mod code. The reimplemented prompt will simply be visible whenever the coordinates input pillar is raised (and you're still in the Vessel zone), not just in a specific area in front of the pillar.\r\n- `death_link: all` now includes all of the dreamworld wake-ups that the base game does not consider \"deaths\", namely: submerging your lantern, getting your lantern extinguished by enemies, getting woken up by alarms, and having the green campfire you're using get extinguished by the flood\r\n- Old Settlement text will now correctly require Translator (Brittle Hollow) even after it falls into the black hole, similar to the Tower of Quantum Knowledge\r\n- Logic fixes and changes:\r\n\t- \"Scan Escape Pod 3 Signal\" now logically requires Signalscope and Distress Beacon Frequency, even when story mod logic allows you to reach EP3 without the scope. This prevents unbeatable seeds.\r\n\t- By popular demand, HN1 Lava Core logic has been reworked so locations outside the Entrance Station now logically require the Signalscope and Lava Core Signals Frequency\r\n\t- The Endless Canyon Mural can now be logically reached with Projection Range Patch instead of Dream Totem Patch, using the invisible bridge on the far right\r\n\t- Simplified the logic for reaching Cliffside Home, since Secluded Structure already logically requires Ghost Matter Wavelength\r\n- In-Game Tracker tweaks:\r\n\t- Corrected descriptions for FQ: Scan Rim's Second Radio Signal and DW: Shrouded Woodlands Bridge\r\n\t- AP Inventory handles split_translator better: The \"Translator\" entry now shows [-] and [X] when you have some or all of the translators, and any hints displayed in this entry now specify which translator the hint is for.\r\n\t- Story Mod Frequencies entry is no longer shown when 0 story mods are enabled\r\n- In-Game Hint fixes:\r\n\t- Fixed asking for hints breaking if the region has exactly 1 location left unchecked.\r\n\t- Unbreak hints for item/location names with the \"<\" character by simply deleting that character. After extensive testing, there seems to be no way to get Outer Wilds' dialogue text display to show a \"<\" without interpreting it as markdown (unlike normal Unity text such as the in-game console), so deleting it is the only way to show the rest of the hint.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8743,8 +8743,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-12-06T17:29:00Z",
-      "databaseEntryUpdatedAt": "2024-12-06T17:33:23.358Z",
+      "repoUpdatedAt": "2024-12-06T17:42:02Z",
+      "databaseEntryUpdatedAt": "2024-12-06T17:46:02.623Z",
       "repoVariations": [],
       "viewCount": 743,
       "weeklyViewCount": 278,
