@@ -2450,7 +2450,6 @@
         "gameplay",
         "content",
         "story",
-        "audiovisual",
         "requires-dlc"
       ],
       "parent": "xen.NewHorizons",
@@ -3299,6 +3298,16 @@
         "content"
       ],
       "parent": "xen.NewHorizons"
+    },
+    {
+      "name": "Traveler's Pack",
+      "uniqueName": "Etherpod.TravelersPack",
+      "repo": "Etherpod/TravelersPack",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "authorDisplay": "Etherpod"
     }
   ]
 }
