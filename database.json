@@ -8052,7 +8052,6 @@
         "gameplay",
         "content",
         "story",
-        "audiovisual",
         "requires-dlc"
       ],
       "slug": "hearthsneighbor",
@@ -10772,6 +10771,40 @@
       "weeklyViewCount": 51,
       "installCount": 79,
       "weeklyInstallCount": 14
+    },
+    {
+      "name": "Traveler's Pack",
+      "uniqueName": "Etherpod.TravelersPack",
+      "description": "Lets you store your items in a backpack for easy transportation.",
+      "author": "Etherpod",
+      "downloadUrl": "https://github.com/Etherpod/TravelersPack/releases/download/v1.0.0/Etherpod.TravelersPack.zip",
+      "downloadCount": 2,
+      "latestReleaseDate": "2024-12-10T08:43:09Z",
+      "firstReleaseDate": "2024-12-10T08:43:09Z",
+      "repo": "https://github.com/Etherpod/TravelersPack",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Etherpod/TravelersPack/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Etherpod/TravelersPack/main/README.md"
+      },
+      "authorDisplay": "Etherpod",
+      "latestReleaseDescription": "",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "slug": "travelerspack",
+      "thumbnail": {
+        "main": "travelerspack.webp"
+      },
+      "repoUpdatedAt": "2024-12-10T08:45:03Z",
+      "databaseEntryUpdatedAt": "2024-12-10T17:57:48.172Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
