@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 141769
+    "downloadCount": 141770
   },
   "releases": [
     {
@@ -88,18 +88,18 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
       "author": "qsb-dev",
-      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v1.2.1/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 63503,
-      "latestReleaseDate": "2024-12-16T01:23:21Z",
+      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v1.2.2/Raicuparta.QuantumSpaceBuddies.zip",
+      "downloadCount": 63597,
+      "latestReleaseDate": "2024-12-17T02:13:41Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/qsb-dev/quantum-space-buddies",
-      "version": "v1.2.1",
+      "version": "v1.2.2",
       "readme": {
         "htmlUrl": "https://github.com/qsb-dev/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Added Korean translation. (By @Akasha0513)\r\n- Added customizable KCP port number.",
+      "latestReleaseDescription": "- (Probably) fixed a bug where NomaiVR would still respect the \"pause time when\" options in the pre-flight checklist, by lying to NomaiVR that we're totally not pausing time right now don't worry about it dude",
       "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.0.0-pr1",
@@ -114,8 +114,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2024-12-16T16:06:25Z",
-      "databaseEntryUpdatedAt": "2024-12-16T16:35:22.309Z",
+      "repoUpdatedAt": "2024-12-17T02:16:26Z",
+      "databaseEntryUpdatedAt": "2024-12-17T02:20:16.220Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies",
         "https://github.com/misternebula/quantum-space-buddies"
