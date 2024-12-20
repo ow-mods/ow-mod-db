@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.5/xen.NewHorizons.zip",
-      "downloadCount": 71304,
-      "latestReleaseDate": "2024-11-07T18:20:12Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.24.6/xen.NewHorizons.zip",
+      "downloadCount": 71305,
+      "latestReleaseDate": "2024-12-18T02:42:14Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.24.5",
+      "version": "v1.24.6",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Resolve error when specifying a dialogue attention point but not an offset for that attention point\r\n- Uncomment that TH spawn fix because somehow it was commented out\r\n\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/994**",
+      "latestReleaseDescription": "## Minor features\r\n\r\n- Added `gravityAlignmentRadiusOverride`, overrides how far the player must be from the planet for their feet to automatically orient towards the ground.\r\n- Added `allowOutsideItems` to system config, allows preventing items being brought into other systems (implements #997)\r\n- Modded ship log entries with the same ID as an existing entry are now merged into that original entry, allowing for new rumor and explore facts and sub-entries to be added to vanilla ship log entries. Implements #996 (thanks @Hawkbat!)\r\n- Allow planets to choose whether they're factored into calculating the radius of the solar system using `trackForSolarSystemRadius` (used for zooming/panning distance/speed and autopilot auto-returning to solar system). Thanks @ZygZagGaming!\r\n\r\n## Bug fixes\r\n- Fixes a ship log softlock on Archipelago (not randomizer) caused by CantAffordaName making a planet called \"Planet that fixes glitches\" and then immediately deleting it (this in fact caused glitches) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/995**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2024-12-18T02:43:21Z",
-      "databaseEntryUpdatedAt": "2024-12-20T03:50:15.003Z",
+      "repoUpdatedAt": "2024-12-20T03:57:23Z",
+      "databaseEntryUpdatedAt": "2024-12-20T04:13:20.490Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -10310,7 +10310,7 @@
       "description": "Adds way too much stuff for the ship in the mod settings.",
       "author": "Etherpod",
       "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v1.0.1/Etherpod.ShipEnhancements.zip",
-      "downloadCount": 554,
+      "downloadCount": 555,
       "latestReleaseDate": "2024-11-21T00:58:04Z",
       "firstReleaseDate": "2024-09-15T02:38:59Z",
       "repo": "https://github.com/Etherpod/Ship-Enhancements",
@@ -10332,7 +10332,7 @@
         "main": "shipenhancements.webp"
       },
       "repoUpdatedAt": "2024-12-19T15:48:03Z",
-      "databaseEntryUpdatedAt": "2024-12-19T15:58:47.054Z",
+      "databaseEntryUpdatedAt": "2024-12-20T04:13:19.762Z",
       "repoVariations": [],
       "viewCount": 224,
       "weeklyViewCount": 43,
@@ -10778,7 +10778,7 @@
       "description": "Lets you store your items in a backpack for easy transportation.",
       "author": "Etherpod",
       "downloadUrl": "https://github.com/Etherpod/TravelersPack/releases/download/v1.0.1/Etherpod.TravelersPack.zip",
-      "downloadCount": 63,
+      "downloadCount": 65,
       "latestReleaseDate": "2024-12-16T02:34:02Z",
       "firstReleaseDate": "2024-12-10T08:43:09Z",
       "repo": "https://github.com/Etherpod/TravelersPack",
@@ -10799,7 +10799,7 @@
         "main": "travelerspack.webp"
       },
       "repoUpdatedAt": "2024-12-16T02:34:37Z",
-      "databaseEntryUpdatedAt": "2024-12-19T15:58:46.800Z",
+      "databaseEntryUpdatedAt": "2024-12-20T04:13:19.465Z",
       "repoVariations": [],
       "viewCount": 141,
       "weeklyViewCount": 111,
