@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 141867
+    "downloadCount": 141868
   },
   "releases": [
     {
@@ -8716,18 +8716,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.10/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 4608,
-      "latestReleaseDate": "2024-12-23T05:30:43Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.11/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 4613,
+      "latestReleaseDate": "2024-12-23T23:16:51Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.10",
+      "version": "v0.3.11",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Reverted the Vessel coordinates prompt reimplementation from 0.3.9, after feedback made it clear it was only making things worse, and the issues with this prompt are too user/machine-specific for me to debug.\r\n- As an alternative, the in-game tracker will now (after you get the Coordinates AP item) show the actual coordinates in both the AP Inventory's \"Eye of the Universe Coordinates\" entry and the AP Checklist's \"Mission\" entry.\r\n  - This ensures you'll always be able to view your coordinates in-game, even if you never visit the Probe Tracking Module *and* the usual Vessel prompt breaks for you. \r\n  - Recall that as of 0.3.9, the in-game tracker supports the Suit Log mod, so these new coordinate displays can also be accessed outside the ship.\r\n- \"Chert's Grove Shard Plaque\" now has a custom in-game tracker thumbnail, since the stock ship log image of the grove shard was too misleading.\r\n- For non-BH spawns: prevented `randomize_warp_platforms: true` from connecting Sun Station to Brittle Hollow or White Hole Station, because that could lead to logic expecting you to reach the Sun Station through a \"warp path\" passing through Ash Twin towers that aren't exposed until too late in the loop.\r\n- Ship Log: Sun Station 2-3 in-game tracker descriptions now mention that you must take the projection stone specifically to Brittle Hollow's north pole in order to view and translate its text",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Updated the Archipelago.MultiClient.Net and OWML libraries to their latest versions. The main reason this matters to players (and was worth another release so soon) is that today's MultiClient update preemptively fixes a bug that would have been exposed by Archipelago's upcoming \"Hint Status/Priority\" feature.\r\n- Universal Tracker now works on `dlc_only: true` slots. Apparently no one ever tried UT on a `dlc_only` slot until today.\r\n- Ship Log: WHS 2-3 in-game tracker descriptions now mention that you must take the projection stone specifically to Brittle Hollow's north pole in order to view and translate its text. In 0.3.10, this note was mistakenly added to Sun Station locations instead of WHS locations.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8742,8 +8742,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2024-12-23T07:56:22Z",
-      "databaseEntryUpdatedAt": "2024-12-23T20:30:12.992Z",
+      "repoUpdatedAt": "2024-12-23T23:17:46Z",
+      "databaseEntryUpdatedAt": "2024-12-23T23:27:57.298Z",
       "repoVariations": [],
       "viewCount": 931,
       "weeklyViewCount": 219,
@@ -9880,7 +9880,7 @@
       "description": "A cinematic toolbox for Outer Wilds & Blender",
       "author": "Picalines",
       "downloadUrl": "https://github.com/Picalines/outer-scout/releases/download/v0.1.3/picalines.OuterScout.zip",
-      "downloadCount": 99,
+      "downloadCount": 100,
       "latestReleaseDate": "2024-07-11T19:43:06Z",
       "firstReleaseDate": "2024-06-18T21:16:49Z",
       "repo": "https://github.com/Picalines/outer-scout",
@@ -9901,7 +9901,7 @@
         "main": "outerscout.webp"
       },
       "repoUpdatedAt": "2024-11-24T12:00:48Z",
-      "databaseEntryUpdatedAt": "2024-12-23T11:19:23.347Z",
+      "databaseEntryUpdatedAt": "2024-12-23T23:27:56.940Z",
       "repoVariations": [],
       "viewCount": 24,
       "weeklyViewCount": 5,
