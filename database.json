@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 141915
+    "downloadCount": 141916
   },
   "releases": [
     {
@@ -10872,6 +10872,38 @@
       "weeklyViewCount": 63,
       "installCount": 30,
       "weeklyInstallCount": 11
+    },
+    {
+      "name": "Podracing Tracker",
+      "uniqueName": "TheIterator.PodracingTracker",
+      "description": "A tracker for the podracing game in Outer Wilds",
+      "author": "5PIterator",
+      "downloadUrl": "https://github.com/5PIterator/Podracing-Tracker/releases/download/0.1.0/TheIterator.PodracingTracker.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2024-12-26T13:00:51Z",
+      "firstReleaseDate": "2024-12-26T13:00:51Z",
+      "repo": "https://github.com/5PIterator/Podracing-Tracker",
+      "version": "0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/5PIterator/Podracing-Tracker/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/5PIterator/Podracing-Tracker/main/README.md"
+      },
+      "latestReleaseDescription": "Podracing is a challenge in Outer Wilds revolving around flying around the Solar System and landing on specific locations. The more locations you land on, the higher your score. The Podracing Tracker modification is then a mod specifically designed to track the score and rules of Podracing.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "tool"
+      ],
+      "slug": "podracingtracker",
+      "thumbnail": {
+        "main": "podracingtracker.webp"
+      },
+      "repoUpdatedAt": "2024-12-24T13:42:31Z",
+      "databaseEntryUpdatedAt": "2024-12-26T13:24:09.485Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
