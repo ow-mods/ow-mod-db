@@ -1091,7 +1091,7 @@
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.25.0/xen.NewHorizons.zip",
-      "downloadCount": 73538,
+      "downloadCount": 73539,
       "latestReleaseDate": "2025-01-06T15:44:50Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-01-07T03:59:43Z",
-      "databaseEntryUpdatedAt": "2025-01-07T04:00:19.070Z",
+      "repoUpdatedAt": "2025-01-07T04:01:39Z",
+      "databaseEntryUpdatedAt": "2025-01-07T04:05:06.588Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -1149,8 +1149,8 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "repoUpdatedAt": "2025-01-07T03:59:55Z",
-      "databaseEntryUpdatedAt": "2025-01-07T04:00:18.439Z",
+      "repoUpdatedAt": "2025-01-07T04:01:30Z",
+      "databaseEntryUpdatedAt": "2025-01-07T04:05:05.986Z",
       "repoVariations": [
         "https://github.com/xen-42/ow-new-horizons-examples"
       ],
@@ -10972,6 +10972,40 @@
       "weeklyViewCount": 92,
       "installCount": 15,
       "weeklyInstallCount": 15
+    },
+    {
+      "name": "Trunic Localization",
+      "uniqueName": "pikpik_carrot.OWTrunic",
+      "description": "This mod transcribes the entierty of Outer Wilds into the language found in TUNIC (aka Trunic)! If you ever wanted to play Outer Wilds in a way thats alteast 100% more annoying then this is your mod!",
+      "author": "pikpik-carrot",
+      "parent": "xen.LocalizationUtility",
+      "downloadUrl": "https://github.com/pikpik-carrot/OWTrunic/releases/download/1.0.0/pikpik_carrot.OWTrunic.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2025-01-07T03:24:31Z",
+      "firstReleaseDate": "2025-01-07T03:24:31Z",
+      "repo": "https://github.com/pikpik-carrot/OWTrunic",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/pikpik-carrot/OWTrunic/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/pikpik-carrot/OWTrunic/main/README.md"
+      },
+      "authorDisplay": "EndgameZero & pikpik_carrot",
+      "latestReleaseDescription": "First release",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "localization"
+      ],
+      "slug": "truniclocalization",
+      "thumbnail": {
+        "main": "truniclocalization.webp"
+      },
+      "repoUpdatedAt": "2025-01-07T04:03:21Z",
+      "databaseEntryUpdatedAt": "2025-01-07T04:05:05.790Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
