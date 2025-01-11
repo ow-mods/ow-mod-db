@@ -8181,43 +8181,6 @@
       "weeklyInstallCount": 9
     },
     {
-      "name": "The Quasar Project",
-      "uniqueName": "Trifid.QuasarProject",
-      "description": "A demo of an upcoming story mod, as an entry in the summer jam.",
-      "author": "TerrificTrifid",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/TerrificTrifid/ow-nh-quasar-project/releases/download/v0.2.0/Trifid.QuasarProject.zip",
-      "downloadCount": 851,
-      "latestReleaseDate": "2023-08-09T05:25:10Z",
-      "firstReleaseDate": "2023-07-16T17:06:28Z",
-      "repo": "https://github.com/TerrificTrifid/ow-nh-quasar-project",
-      "version": "v0.2.0",
-      "readme": {
-        "htmlUrl": "https://github.com/TerrificTrifid/ow-nh-quasar-project/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/TerrificTrifid/ow-nh-quasar-project/main/README.md"
-      },
-      "authorDisplay": "Trifid, JohnCorby, Turtle, Tetraminus",
-      "latestReleaseDescription": "- Added the main mechanic and its intro content!\r\n- Added more structures and details at the ending.\r\n- Various improvements and bug fixes.",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content",
-        "story"
-      ],
-      "slug": "thequasarproject",
-      "thumbnail": {
-        "main": "thequasarproject.webp"
-      },
-      "repoUpdatedAt": "2024-08-05T13:36:23Z",
-      "databaseEntryUpdatedAt": "2025-01-11T14:56:00.071Z",
-      "repoVariations": [],
-      "viewCount": 22,
-      "weeklyViewCount": 11,
-      "installCount": 12,
-      "weeklyInstallCount": 2
-    },
-    {
       "name": "Skins for QSB",
       "uniqueName": "xen.QSBSkins",
       "description": "Adds player skins to Quantum Space Buddies",
@@ -8679,41 +8642,6 @@
       "weeklyInstallCount": 2
     },
     {
-      "name": "Simpler Times",
-      "uniqueName": "atk.IntactMod2",
-      "description": "Simpler Times is a mod for Outer Wilds, that fixes up several Nomai structures in the game, and removes some timed elements from the planets, making for a more exploratory/new game plus experience.",
-      "author": "bruvin-sky",
-      "downloadUrl": "https://github.com/bruvin-sky/SimplerTimes/releases/download/v0.1.4/SimplerTimes.zip",
-      "downloadCount": 915,
-      "latestReleaseDate": "2024-06-06T07:00:55Z",
-      "firstReleaseDate": "2023-12-29T13:33:38Z",
-      "repo": "https://github.com/bruvin-sky/SimplerTimes",
-      "version": "v0.1.4",
-      "readme": {
-        "htmlUrl": "https://github.com/bruvin-sky/SimplerTimes/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/bruvin-sky/SimplerTimes/main/README.md"
-      },
-      "authorDisplay": "atk",
-      "latestReleaseDescription": "Made Hourglass Twins' water exchange loop infinitely\r\nFixed a constant error caused by a shader on the HGT getting angry about the missing sand\r\nFixed the ice blocking the Interloper's entrance not being hidden + redundant gm notification volumes\r\nFixed a light in a module on the OPC being keeploaded, which looked weird from far away\r\nFixed some low gravity volumes on the Hanging City highways\r\nAdded a landing pad to the Sun Station and slapped the Hotshot achievement thing on there (disclaimer: no idea if it works!!)\r\n\r\nNOTE: This mod disables the supernova and the loop ending on its own. You will be free to explore as long as you wish, but you will need to find death yourself to save and restart the star system!",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "gameplay",
-        "tweaks",
-        "audiovisual"
-      ],
-      "slug": "simplertimes",
-      "thumbnail": {
-        "main": "simplertimes.webp"
-      },
-      "repoUpdatedAt": "2024-06-06T07:06:22Z",
-      "databaseEntryUpdatedAt": "2025-01-11T19:18:03.764Z",
-      "repoVariations": [],
-      "viewCount": 51,
-      "weeklyViewCount": 19,
-      "installCount": 54,
-      "weeklyInstallCount": 10
-    },
-    {
       "name": "Archipelago Randomizer",
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
@@ -8922,39 +8850,6 @@
       "weeklyInstallCount": 184
     },
     {
-      "name": "Mod Jam 3",
-      "uniqueName": "xen.ModJam3",
-      "description": "The base solar system for the 3rd Outer Wilds mod jam. Install jam entries separately to play!",
-      "author": "xen-42",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/xen-42/ow-mod-jam-3-base/releases/download/v1.2.1/xen.ModJam3.zip",
-      "downloadCount": 4601,
-      "latestReleaseDate": "2024-12-02T05:53:51Z",
-      "firstReleaseDate": "2024-03-15T16:01:33Z",
-      "repo": "https://github.com/xen-42/ow-mod-jam-3-base",
-      "version": "v1.2.1",
-      "readme": {
-        "htmlUrl": "https://github.com/xen-42/ow-mod-jam-3-base/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-mod-jam-3-base/main/README.md"
-      },
-      "latestReleaseDescription": "- Updated the preview image for Finis to reflect its new updates (thanks orclecle for the PR)",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "jam"
-      ],
-      "slug": "modjam3",
-      "thumbnail": {
-        "main": "modjam3.webp"
-      },
-      "repoUpdatedAt": "2024-12-02T05:54:23Z",
-      "databaseEntryUpdatedAt": "2025-01-11T19:18:03.641Z",
-      "repoVariations": [],
-      "viewCount": 72,
-      "weeklyViewCount": 16,
-      "installCount": 40,
-      "weeklyInstallCount": 14
-    },
-    {
       "name": "Jam Hub",
       "uniqueName": "coderCleric.JamHub",
       "description": "Adds a hub for the modding community. Made for the March 2024 mod jam.",
@@ -8989,41 +8884,6 @@
       "weeklyViewCount": 5,
       "installCount": 47,
       "weeklyInstallCount": 13
-    },
-    {
-      "name": "Granite's Invitation",
-      "uniqueName": "xen.UnofficialJam3Entry",
-      "description": "Visit Granite at their dusty cabin on Gravelrock for their birthday party.",
-      "author": "xen-42",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/xen-42/ow-mod-jam-3-entry/releases/download/v1.0.1/xen.UnofficialJam3Entry.zip",
-      "downloadCount": 963,
-      "latestReleaseDate": "2024-03-24T00:25:38Z",
-      "firstReleaseDate": "2024-03-23T21:18:20Z",
-      "repo": "https://github.com/xen-42/ow-mod-jam-3-entry",
-      "version": "v1.0.1",
-      "readme": {
-        "htmlUrl": "https://github.com/xen-42/ow-mod-jam-3-entry/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-mod-jam-3-entry/main/README.md"
-      },
-      "latestReleaseDescription": "- Randomize audio clips to avoid eardrum death\r\n- Disable signals after invitation has been given",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "jam",
-        "story",
-        "requires-dlc"
-      ],
-      "slug": "granitesinvitation",
-      "thumbnail": {
-        "main": "granitesinvitation.webp"
-      },
-      "repoUpdatedAt": "2024-03-26T19:37:59Z",
-      "databaseEntryUpdatedAt": "2025-01-11T19:18:03.618Z",
-      "repoVariations": [],
-      "viewCount": 10,
-      "weeklyViewCount": 7,
-      "installCount": 17,
-      "weeklyInstallCount": 3
     },
     {
       "name": "Solar Rangers",
@@ -9579,40 +9439,6 @@
       "weeklyInstallCount": 8
     },
     {
-      "name": "Play as Gabbro",
-      "uniqueName": "xen.PlayAsGabbro",
-      "description": "You can now play as Gabbro",
-      "author": "xen-42",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/xen-42/ow-play-as-gabbro/releases/download/v0.1.0/xen.PlayAsGabbro.zip",
-      "downloadCount": 298,
-      "latestReleaseDate": "2024-04-26T01:46:05Z",
-      "firstReleaseDate": "2024-04-26T01:46:05Z",
-      "repo": "https://github.com/xen-42/ow-play-as-gabbro",
-      "version": "v0.1.0",
-      "readme": {
-        "htmlUrl": "https://github.com/xen-42/ow-play-as-gabbro/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-play-as-gabbro/main/README.md"
-      },
-      "latestReleaseDescription": "- Spawn on Giants Deep with your ship\r\n- Visually look like Gabbro\r\n- Spawn Hatchling on TH with some new dialogue\r\n- Altered the first loop",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "tweaks",
-        "content"
-      ],
-      "slug": "playasgabbro",
-      "thumbnail": {
-        "main": "playasgabbro.webp"
-      },
-      "repoUpdatedAt": "2024-04-26T01:47:12Z",
-      "databaseEntryUpdatedAt": "2025-01-11T19:18:03.748Z",
-      "repoVariations": [],
-      "viewCount": 37,
-      "weeklyViewCount": 12,
-      "installCount": 21,
-      "weeklyInstallCount": 6
-    },
-    {
       "name": "Expedition Takeoff",
       "uniqueName": "Etherpod.ExpeditionTakeoff",
       "description": "Adds an animation to the title screen when starting a game.",
@@ -9804,39 +9630,6 @@
       "weeklyViewCount": 0,
       "installCount": 1,
       "weeklyInstallCount": 0
-    },
-    {
-      "name": "Retro Health Display",
-      "uniqueName": "MegaPiggy.RetroHealthDisplay",
-      "description": "Reactivates the old 2016 health display on the player's HUD",
-      "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/RetroHealthDisplay/releases/download/2.1.0/MegaPiggy.RetroHealthDisplay.zip",
-      "downloadCount": 121,
-      "latestReleaseDate": "2024-06-14T04:14:10Z",
-      "firstReleaseDate": "2024-06-13T02:39:07Z",
-      "repo": "https://github.com/MegaPiggy/RetroHealthDisplay",
-      "version": "2.1.0",
-      "readme": {
-        "htmlUrl": "https://github.com/MegaPiggy/RetroHealthDisplay/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/RetroHealthDisplay/main/README.md"
-      },
-      "authorDisplay": "MegaPiggy",
-      "latestReleaseDescription": "Set value to zero on death",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "audiovisual"
-      ],
-      "slug": "retrohealthdisplay",
-      "thumbnail": {
-        "main": "retrohealthdisplay.webp"
-      },
-      "repoUpdatedAt": "2024-06-14T14:58:18Z",
-      "databaseEntryUpdatedAt": "2025-01-11T19:18:03.824Z",
-      "repoVariations": [],
-      "viewCount": 7,
-      "weeklyViewCount": 1,
-      "installCount": 17,
-      "weeklyInstallCount": 2
     },
     {
       "name": "Cinematic Unity Explorer",
@@ -10557,43 +10350,6 @@
       "weeklyViewCount": 5,
       "installCount": 32,
       "weeklyInstallCount": 6
-    },
-    {
-      "name": "Root Access",
-      "uniqueName": "2walker2.OWJam4ModProject",
-      "description": "A dream of ever greater heights.",
-      "author": "2walker2",
-      "downloadUrl": "https://github.com/2walker2/OWJam4ModProject/releases/download/v1.0.1/2walker2.OWJam4ModProject.zip",
-      "downloadCount": 443,
-      "latestReleaseDate": "2024-11-05T02:53:10Z",
-      "firstReleaseDate": "2024-11-05T00:00:33Z",
-      "repo": "https://github.com/2walker2/OWJam4ModProject",
-      "version": "v1.0.1",
-      "readme": {
-        "htmlUrl": "https://github.com/2walker2/OWJam4ModProject/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/2walker2/OWJam4ModProject/main/README.md"
-      },
-      "authorDisplay": "Greenpixel, JohnCorby, 2walker2",
-      "latestReleaseDescription": "Fixed an issue where a light sensor could be activated by the wrong light.",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
-      "slug": "rootaccess",
-      "thumbnail": {
-        "main": "rootaccess.webp"
-      },
-      "repoUpdatedAt": "2024-11-05T02:53:21Z",
-      "databaseEntryUpdatedAt": "2025-01-11T19:30:46.852Z",
-      "repoVariations": [],
-      "viewCount": 146,
-      "weeklyViewCount": 38,
-      "installCount": 102,
-      "weeklyInstallCount": 21
     },
     {
       "name": "Lonesome Lake",
