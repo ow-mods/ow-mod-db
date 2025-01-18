@@ -187,8 +187,8 @@
       "repoVariations": [],
       "viewCount": 196,
       "weeklyViewCount": 37,
-      "installCount": 188,
-      "weeklyInstallCount": 58
+      "installCount": 189,
+      "weeklyInstallCount": 59
     },
     {
       "name": "Crouch Mod",
@@ -1086,80 +1086,6 @@
       "weeklyInstallCount": 4
     },
     {
-      "name": "New Horizons",
-      "uniqueName": "xen.NewHorizons",
-      "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
-      "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.25.1/xen.NewHorizons.zip",
-      "downloadCount": 75214,
-      "latestReleaseDate": "2025-01-13T23:12:22Z",
-      "firstReleaseDate": "2021-12-19T01:29:02Z",
-      "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.25.1",
-      "readme": {
-        "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
-      },
-      "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "Prop placer and the debug menu have been removed. These features were either super broken or never even fully implemented, and since Clay is now heavily retired from NH they were never going to get fixed. People are better off using Unity or the raycasting tool instead.\r\n\r\n## Minor Features\r\n- Prometheus stole fire from the gods and gave it to man. For this he was chained to a rock and tortured for eternity. Resolves #564 (quantum lightning).\r\n- Can now control if socketed quantum objects align with gravity or use socket rotation, and if they randomize rotation around the local Y axis. Fixes #751.\r\n\r\n## Improvements\r\n- Makes quantum organization cleaner (split into separate lists by the type of quantum group, state or socket).\r\n- Quantum socket groups can now have an equal number of props to sockets and will work accordingly. Fixes #597 \r\n- ID on sector component is now set to the name of the body\r\n- Changed focal point sphere of influence to be 1.5x of the distance between the 2 bodies instead of being 0\r\n\r\n## Bug fixes\r\n- Fixed Rich Presence not working on focal points\r\n- Minimap is now disabled automatically on focal points\r\n- Coordinate interface orb no longer tries to return to its raised position on Vessel when first entering a custom star system. Fixes #958  \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1019**",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "tool",
-        "content",
-        "story"
-      ],
-      "slug": "newhorizons",
-      "thumbnail": {
-        "main": "newhorizons.webp"
-      },
-      "repoUpdatedAt": "2025-01-18T16:11:37Z",
-      "databaseEntryUpdatedAt": "2025-01-18T16:20:58.961Z",
-      "repoVariations": [
-        "https://github.com/xen-42/outer-wilds-new-horizons"
-      ],
-      "viewCount": 662,
-      "weeklyViewCount": 186,
-      "installCount": 297,
-      "weeklyInstallCount": 97
-    },
-    {
-      "name": "New Horizons Examples",
-      "uniqueName": "xen.NewHorizonsExamples",
-      "description": "An example project showing what planets can be made with New Horizons. (Warning: spoilers inside)",
-      "author": "Outer-Wilds-New-Horizons",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.25.0/nh-examples.zip",
-      "downloadCount": 6899,
-      "latestReleaseDate": "2025-01-14T21:05:52Z",
-      "firstReleaseDate": "2021-12-19T01:28:05Z",
-      "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
-      "version": "v0.25.0",
-      "readme": {
-        "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
-      },
-      "authorDisplay": "xen",
-      "latestReleaseDescription": "0.25.0\n\n- Added example of extended vanilla ship log entry\r\n- Added quantum lightning, socket, and shuffle examples to Frigid Pygmy\r\n- Made Sequestered Luminary no longer selectable on ship log map mode\r\n- Added ship log entry location example to Frigid Pygmy",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "content",
-        "requires-dlc"
-      ],
-      "slug": "newhorizonsexamples",
-      "thumbnail": {
-        "main": "newhorizonsexamples.webp"
-      },
-      "repoUpdatedAt": "2025-01-14T21:45:06Z",
-      "databaseEntryUpdatedAt": "2025-01-18T11:00:19.503Z",
-      "repoVariations": [
-        "https://github.com/xen-42/ow-new-horizons-examples"
-      ],
-      "viewCount": 99,
-      "weeklyViewCount": 46,
-      "installCount": 66,
-      "weeklyInstallCount": 24
-    },
-    {
       "name": "Real Solar System",
       "uniqueName": "xen.RealSolarSystem",
       "description": "Adds our solar system to Outer Wilds (check the ship's log)",
@@ -1750,8 +1676,8 @@
       "repoVariations": [],
       "viewCount": 60,
       "weeklyViewCount": 28,
-      "installCount": 103,
-      "weeklyInstallCount": 31
+      "installCount": 104,
+      "weeklyInstallCount": 32
     },
     {
       "name": "Collider Visualizer",
@@ -1817,8 +1743,8 @@
       "repoVariations": [],
       "viewCount": 197,
       "weeklyViewCount": 51,
-      "installCount": 263,
-      "weeklyInstallCount": 61
+      "installCount": 264,
+      "weeklyInstallCount": 62
     },
     {
       "name": "Enter the Warioverse",
@@ -2355,8 +2281,8 @@
       "repoVariations": [],
       "viewCount": 650,
       "weeklyViewCount": 170,
-      "installCount": 848,
-      "weeklyInstallCount": 224
+      "installCount": 850,
+      "weeklyInstallCount": 226
     },
     {
       "name": "Their Homeworld",
@@ -2896,8 +2822,8 @@
       "repoVariations": [],
       "viewCount": 73,
       "weeklyViewCount": 21,
-      "installCount": 131,
-      "weeklyInstallCount": 33
+      "installCount": 132,
+      "weeklyInstallCount": 34
     },
     {
       "name": "Supernova On Demand",
@@ -8749,8 +8675,8 @@
       "repoVariations": [],
       "viewCount": 850,
       "weeklyViewCount": 161,
-      "installCount": 490,
-      "weeklyInstallCount": 135
+      "installCount": 491,
+      "weeklyInstallCount": 136
     },
     {
       "name": "Immersion",
