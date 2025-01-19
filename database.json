@@ -122,8 +122,8 @@
       ],
       "viewCount": 2791,
       "weeklyViewCount": 606,
-      "installCount": 1602,
-      "weeklyInstallCount": 354
+      "installCount": 1603,
+      "weeklyInstallCount": 355
     },
     {
       "name": "Light Bramble",
@@ -254,8 +254,8 @@
       "repoVariations": [],
       "viewCount": 178,
       "weeklyViewCount": 52,
-      "installCount": 426,
-      "weeklyInstallCount": 122
+      "installCount": 427,
+      "weeklyInstallCount": 123
     },
     {
       "name": "HD Screenshot",
@@ -1084,6 +1084,80 @@
       "weeklyViewCount": 2,
       "installCount": 19,
       "weeklyInstallCount": 4
+    },
+    {
+      "name": "New Horizons",
+      "uniqueName": "xen.NewHorizons",
+      "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
+      "author": "Outer-Wilds-New-Horizons",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.25.1/xen.NewHorizons.zip",
+      "downloadCount": 75268,
+      "latestReleaseDate": "2025-01-13T23:12:22Z",
+      "firstReleaseDate": "2021-12-19T01:29:02Z",
+      "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
+      "version": "v1.25.1",
+      "readme": {
+        "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
+      },
+      "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
+      "latestReleaseDescription": "Prop placer and the debug menu have been removed. These features were either super broken or never even fully implemented, and since Clay is now heavily retired from NH they were never going to get fixed. People are better off using Unity or the raycasting tool instead.\r\n\r\n## Minor Features\r\n- Prometheus stole fire from the gods and gave it to man. For this he was chained to a rock and tortured for eternity. Resolves #564 (quantum lightning).\r\n- Can now control if socketed quantum objects align with gravity or use socket rotation, and if they randomize rotation around the local Y axis. Fixes #751.\r\n\r\n## Improvements\r\n- Makes quantum organization cleaner (split into separate lists by the type of quantum group, state or socket).\r\n- Quantum socket groups can now have an equal number of props to sockets and will work accordingly. Fixes #597 \r\n- ID on sector component is now set to the name of the body\r\n- Changed focal point sphere of influence to be 1.5x of the distance between the 2 bodies instead of being 0\r\n\r\n## Bug fixes\r\n- Fixed Rich Presence not working on focal points\r\n- Minimap is now disabled automatically on focal points\r\n- Coordinate interface orb no longer tries to return to its raised position on Vessel when first entering a custom star system. Fixes #958  \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1019**",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "tool",
+        "content",
+        "story"
+      ],
+      "slug": "newhorizons",
+      "thumbnail": {
+        "main": "newhorizons.webp"
+      },
+      "repoUpdatedAt": "2025-01-18T23:28:05Z",
+      "databaseEntryUpdatedAt": "2025-01-19T04:52:20.961Z",
+      "repoVariations": [
+        "https://github.com/xen-42/outer-wilds-new-horizons"
+      ],
+      "viewCount": 675,
+      "weeklyViewCount": 181,
+      "installCount": 292,
+      "weeklyInstallCount": 82
+    },
+    {
+      "name": "New Horizons Examples",
+      "uniqueName": "xen.NewHorizonsExamples",
+      "description": "An example project showing what planets can be made with New Horizons. (Warning: spoilers inside)",
+      "author": "Outer-Wilds-New-Horizons",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.25.0/nh-examples.zip",
+      "downloadCount": 6905,
+      "latestReleaseDate": "2025-01-14T21:05:52Z",
+      "firstReleaseDate": "2021-12-19T01:28:05Z",
+      "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
+      "version": "v0.25.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
+      },
+      "authorDisplay": "xen",
+      "latestReleaseDescription": "0.25.0\n\n- Added example of extended vanilla ship log entry\r\n- Added quantum lightning, socket, and shuffle examples to Frigid Pygmy\r\n- Made Sequestered Luminary no longer selectable on ship log map mode\r\n- Added ship log entry location example to Frigid Pygmy",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "content",
+        "requires-dlc"
+      ],
+      "slug": "newhorizonsexamples",
+      "thumbnail": {
+        "main": "newhorizonsexamples.webp"
+      },
+      "repoUpdatedAt": "2025-01-14T21:45:06Z",
+      "databaseEntryUpdatedAt": "2025-01-19T04:52:20.482Z",
+      "repoVariations": [
+        "https://github.com/xen-42/ow-new-horizons-examples"
+      ],
+      "viewCount": 106,
+      "weeklyViewCount": 54,
+      "installCount": 66,
+      "weeklyInstallCount": 23
     },
     {
       "name": "Real Solar System",
@@ -8403,8 +8477,8 @@
       "repoVariations": [],
       "viewCount": 28,
       "weeklyViewCount": 7,
-      "installCount": 44,
-      "weeklyInstallCount": 9
+      "installCount": 45,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Silly Filters",
@@ -8502,8 +8576,8 @@
       "repoVariations": [],
       "viewCount": 71,
       "weeklyViewCount": 22,
-      "installCount": 114,
-      "weeklyInstallCount": 27
+      "installCount": 115,
+      "weeklyInstallCount": 28
     },
     {
       "name": "Enhance Divergence Mod",
@@ -8645,7 +8719,7 @@
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
       "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.11/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 5470,
+      "downloadCount": 5485,
       "latestReleaseDate": "2024-12-23T23:16:51Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
@@ -8671,7 +8745,7 @@
         "main": "archipelagorandomizer.webp"
       },
       "repoUpdatedAt": "2025-01-10T13:04:08Z",
-      "databaseEntryUpdatedAt": "2025-01-18T16:50:25.212Z",
+      "databaseEntryUpdatedAt": "2025-01-19T04:52:20.797Z",
       "repoVariations": [],
       "viewCount": 854,
       "weeklyViewCount": 170,
@@ -10839,7 +10913,7 @@
       "description": "Customise your marshmallow \"cooking\" experience a smidge more.",
       "author": "ColumbidaeCafe",
       "downloadUrl": "https://github.com/ColumbidaeCafe/MoarMarshmallows/releases/download/v0.1.0/ColumbidaeCafe.MoarMarshmallows.zip",
-      "downloadCount": 44,
+      "downloadCount": 45,
       "latestReleaseDate": "2024-12-28T02:19:33Z",
       "firstReleaseDate": "2024-12-28T02:19:33Z",
       "repo": "https://github.com/ColumbidaeCafe/MoarMarshmallows",
@@ -10861,7 +10935,7 @@
         "main": "moarmarshmallows.webp"
       },
       "repoUpdatedAt": "2024-12-29T21:02:59Z",
-      "databaseEntryUpdatedAt": "2025-01-18T16:50:24.909Z",
+      "databaseEntryUpdatedAt": "2025-01-19T04:52:20.582Z",
       "repoVariations": [],
       "viewCount": 209,
       "weeklyViewCount": 43,
