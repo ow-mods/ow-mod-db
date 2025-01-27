@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 142381
+    "downloadCount": 142382
   },
   "releases": [
     {
@@ -1119,8 +1119,8 @@
       ],
       "viewCount": 672,
       "weeklyViewCount": 176,
-      "installCount": 305,
-      "weeklyInstallCount": 74
+      "installCount": 306,
+      "weeklyInstallCount": 75
     },
     {
       "name": "New Horizons Examples",
@@ -1190,8 +1190,8 @@
       "repoVariations": [],
       "viewCount": 275,
       "weeklyViewCount": 88,
-      "installCount": 309,
-      "weeklyInstallCount": 84
+      "installCount": 310,
+      "weeklyInstallCount": 85
     },
     {
       "name": "Atropos",
@@ -2355,8 +2355,8 @@
       "repoVariations": [],
       "viewCount": 716,
       "weeklyViewCount": 205,
-      "installCount": 904,
-      "weeklyInstallCount": 268
+      "installCount": 906,
+      "weeklyInstallCount": 270
     },
     {
       "name": "Their Homeworld",
@@ -3381,39 +3381,6 @@
       "weeklyViewCount": 36,
       "installCount": 474,
       "weeklyInstallCount": 123
-    },
-    {
-      "name": "Hatchling Outfitter",
-      "uniqueName": "Owen013.HatchlingOutfit",
-      "description": "Customize the player model by adding/removing pieces of the space suit",
-      "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Hatchling-Outfitter/releases/download/v1.2.3/Owen013.HatchlingOutfit.zip",
-      "downloadCount": 803,
-      "latestReleaseDate": "2024-03-14T22:46:46Z",
-      "firstReleaseDate": "2022-05-22T16:48:09Z",
-      "repo": "https://github.com/Owen013/Hatchling-Outfitter",
-      "version": "v1.2.3",
-      "readme": {
-        "htmlUrl": "https://github.com/Owen013/Hatchling-Outfitter/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Hatchling-Outfitter/main/README.md"
-      },
-      "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "- The helmet visibility is now based on whether or not you're wearing the helmet rather than the whole suit; if you're wearing the suit but not the helmet, the head will now appear unhelmeted.\r\n- Fixed a bug(?) in the vanilla game where the shadow of your right arm will appear even the arm is not visible (usually because you're holding an item).",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "audiovisual"
-      ],
-      "slug": "hatchlingoutfitter",
-      "thumbnail": {
-        "main": "hatchlingoutfitter.webp"
-      },
-      "repoUpdatedAt": "2024-10-18T19:48:47Z",
-      "databaseEntryUpdatedAt": "2025-01-26T23:21:49.803Z",
-      "repoVariations": [],
-      "viewCount": 20,
-      "weeklyViewCount": 5,
-      "installCount": 16,
-      "weeklyInstallCount": 5
     },
     {
       "name": "Quality of Life Features",
