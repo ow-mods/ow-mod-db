@@ -122,8 +122,8 @@
       ],
       "viewCount": 3368,
       "weeklyViewCount": 1051,
-      "installCount": 3281,
-      "weeklyInstallCount": 1556
+      "installCount": 3283,
+      "weeklyInstallCount": 1558
     },
     {
       "name": "Light Bramble",
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.25.1/xen.NewHorizons.zip",
-      "downloadCount": 77665,
-      "latestReleaseDate": "2025-01-13T23:12:22Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.26.0/xen.NewHorizons.zip",
+      "downloadCount": 77671,
+      "latestReleaseDate": "2025-02-10T21:53:50Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.25.1",
+      "version": "v1.26.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "Prop placer and the debug menu have been removed. These features were either super broken or never even fully implemented, and since Clay is now heavily retired from NH they were never going to get fixed. People are better off using Unity or the raycasting tool instead.\r\n\r\n## Minor Features\r\n- Prometheus stole fire from the gods and gave it to man. For this he was chained to a rock and tortured for eternity. Resolves #564 (quantum lightning).\r\n- Can now control if socketed quantum objects align with gravity or use socket rotation, and if they randomize rotation around the local Y axis. Fixes #751.\r\n\r\n## Improvements\r\n- Makes quantum organization cleaner (split into separate lists by the type of quantum group, state or socket).\r\n- Quantum socket groups can now have an equal number of props to sockets and will work accordingly. Fixes #597 \r\n- ID on sector component is now set to the name of the body\r\n- Changed focal point sphere of influence to be 1.5x of the distance between the 2 bodies instead of being 0\r\n\r\n## Bug fixes\r\n- Fixed Rich Presence not working on focal points\r\n- Minimap is now disabled automatically on focal points\r\n- Coordinate interface orb no longer tries to return to its raised position on Vessel when first entering a custom star system. Fixes #958  \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1019**",
+      "latestReleaseDescription": "## Major features\r\n\r\n- Added a new `EyeOfTheUniverse` module to the planet body config for features specific to the Eye of the Universe scene.\r\n- Added `eyeTravelers`, `quantumInstruments`, and `instrumentZones` to the `EyeOfTheUniverse` module to support adding new travelers and instrument 'puzzles' to the Eye of the Universe in a compatibility-minded way. (Thanks Hawkbar!)\r\n\r\n## Improvements\r\n\r\n- Added Portuguese (Brazil) localization (thank you avengerx and loco-choco!)\r\n- When custom travelers are present, a new custom audio scheduler is used for the campfire song at the Eye of the Universe to reduce desyncing and remove the awkward cross-fade into the finale audio clip.\r\n\r\n## Bug fixes\r\n\r\n- Fixed raft docks not working with NH rafts (Fixes #1005)\r\n- Fixed a bug caused by fixing focalpoints that broke circumbinary planets\r\n- Stopped orbit lines from generating at the eye (thanks anon!)\r\n- Fixed getting violently flung into a wall and dying when using vessel warp sometimes (Fixes #1034)\r\n- Might have fixed getting violently flung into a wall and dying when using ship warp sometimes (Fixes #975 maybe) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1038**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-02-10T21:50:55Z",
-      "databaseEntryUpdatedAt": "2025-02-10T21:54:37.764Z",
+      "repoUpdatedAt": "2025-02-10T21:55:11Z",
+      "databaseEntryUpdatedAt": "2025-02-10T22:02:16.354Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -1655,8 +1655,8 @@
       "repoVariations": [],
       "viewCount": 49,
       "weeklyViewCount": 13,
-      "installCount": 105,
-      "weeklyInstallCount": 35
+      "installCount": 106,
+      "weeklyInstallCount": 36
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 559,
       "weeklyViewCount": 173,
-      "installCount": 603,
-      "weeklyInstallCount": 182
+      "installCount": 604,
+      "weeklyInstallCount": 183
     },
     {
       "name": "Only Timber Hearth",
@@ -2355,8 +2355,8 @@
       "repoVariations": [],
       "viewCount": 715,
       "weeklyViewCount": 170,
-      "installCount": 987,
-      "weeklyInstallCount": 299
+      "installCount": 988,
+      "weeklyInstallCount": 300
     },
     {
       "name": "Their Homeworld",
@@ -10035,8 +10035,8 @@
       "repoVariations": [],
       "viewCount": 29,
       "weeklyViewCount": 10,
-      "installCount": 38,
-      "weeklyInstallCount": 6
+      "installCount": 39,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Hearthian Golf The Front Nine",
