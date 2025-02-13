@@ -89,7 +89,7 @@
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
       "author": "qsb-dev",
       "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v1.2.3/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 71839,
+      "downloadCount": 71892,
       "latestReleaseDate": "2024-12-23T22:37:07Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/qsb-dev/quantum-space-buddies",
@@ -114,8 +114,8 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2025-02-10T23:42:46Z",
-      "databaseEntryUpdatedAt": "2025-02-13T02:43:04.719Z",
+      "repoUpdatedAt": "2025-02-13T14:07:27Z",
+      "databaseEntryUpdatedAt": "2025-02-13T14:20:04.012Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies",
         "https://github.com/misternebula/quantum-space-buddies"
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.26.0/xen.NewHorizons.zip",
-      "downloadCount": 78211,
-      "latestReleaseDate": "2025-02-10T21:53:50Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.26.1/xen.NewHorizons.zip",
+      "downloadCount": 78216,
+      "latestReleaseDate": "2025-02-13T14:08:00Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.26.0",
+      "version": "v1.26.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Major features\r\n\r\n- Added a new `EyeOfTheUniverse` module to the planet body config for features specific to the Eye of the Universe scene.\r\n- Added `eyeTravelers`, `quantumInstruments`, and `instrumentZones` to the `EyeOfTheUniverse` module to support adding new travelers and instrument 'puzzles' to the Eye of the Universe in a compatibility-minded way. (Thanks Hawkbar!)\r\n\r\n## Improvements\r\n\r\n- Added Portuguese (Brazil) localization (thank you avengerx and loco-choco!)\r\n- When custom travelers are present, a new custom audio scheduler is used for the campfire song at the Eye of the Universe to reduce desyncing and remove the awkward cross-fade into the finale audio clip.\r\n\r\n## Bug fixes\r\n\r\n- Fixed raft docks not working with NH rafts (Fixes #1005)\r\n- Fixed a bug caused by fixing focalpoints that broke circumbinary planets\r\n- Stopped orbit lines from generating at the eye (thanks anon!)\r\n- Fixed getting violently flung into a wall and dying when using vessel warp sometimes (Fixes #1034)\r\n- Might have fixed getting violently flung into a wall and dying when using ship warp sometimes (Fixes #975 maybe) \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1038**",
+      "latestReleaseDescription": "## Bug fixes\r\n- Fixed an oversight where any mod that changes the spawn (Archipelago Randomizer and Play as Gabbro) would cause you to instantly die\r\n- Fixed a pointless bug in EOTP that pikpik then fixed in EOTP also so now this fix is redundant but I'm not removing it!\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1039**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-02-13T13:52:42Z",
-      "databaseEntryUpdatedAt": "2025-02-13T13:55:29.401Z",
+      "repoUpdatedAt": "2025-02-13T14:09:25Z",
+      "databaseEntryUpdatedAt": "2025-02-13T14:20:04.813Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 570,
       "weeklyViewCount": 146,
-      "installCount": 600,
-      "weeklyInstallCount": 172
+      "installCount": 601,
+      "weeklyInstallCount": 173
     },
     {
       "name": "Only Timber Hearth",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 1049,
       "weeklyViewCount": 245,
-      "installCount": 717,
-      "weeklyInstallCount": 194
+      "installCount": 719,
+      "weeklyInstallCount": 196
     },
     {
       "name": "Secret Words",
@@ -6420,8 +6420,8 @@
       "repoVariations": [],
       "viewCount": 1125,
       "weeklyViewCount": 319,
-      "installCount": 681,
-      "weeklyInstallCount": 186
+      "installCount": 682,
+      "weeklyInstallCount": 187
     },
     {
       "name": "Daylight Savings",
@@ -8749,8 +8749,8 @@
       "repoVariations": [],
       "viewCount": 817,
       "weeklyViewCount": 163,
-      "installCount": 482,
-      "weeklyInstallCount": 121
+      "installCount": 483,
+      "weeklyInstallCount": 122
     },
     {
       "name": "Immersion",
