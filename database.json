@@ -80,8 +80,8 @@
       ],
       "viewCount": 2531,
       "weeklyViewCount": 598,
-      "installCount": 1294,
-      "weeklyInstallCount": 253
+      "installCount": 1295,
+      "weeklyInstallCount": 254
     },
     {
       "name": "Quantum Space Buddies",
@@ -120,10 +120,10 @@
         "https://github.com/Raicuparta/quantum-space-buddies",
         "https://github.com/misternebula/quantum-space-buddies"
       ],
-      "viewCount": 3571,
-      "weeklyViewCount": 824,
-      "installCount": 4067,
-      "weeklyInstallCount": 1248
+      "viewCount": 3572,
+      "weeklyViewCount": 825,
+      "installCount": 4070,
+      "weeklyInstallCount": 1251
     },
     {
       "name": "Light Bramble",
@@ -187,8 +187,8 @@
       "repoVariations": [],
       "viewCount": 240,
       "weeklyViewCount": 55,
-      "installCount": 217,
-      "weeklyInstallCount": 63
+      "installCount": 218,
+      "weeklyInstallCount": 64
     },
     {
       "name": "Crouch Mod",
@@ -254,8 +254,8 @@
       "repoVariations": [],
       "viewCount": 169,
       "weeklyViewCount": 34,
-      "installCount": 499,
-      "weeklyInstallCount": 114
+      "installCount": 501,
+      "weeklyInstallCount": 116
     },
     {
       "name": "HD Screenshot",
@@ -317,8 +317,8 @@
       "repoVariations": [],
       "viewCount": 167,
       "weeklyViewCount": 44,
-      "installCount": 180,
-      "weeklyInstallCount": 50
+      "installCount": 181,
+      "weeklyInstallCount": 51
     },
     {
       "name": "ScoutStreaming",
@@ -416,8 +416,8 @@
       "repoUpdatedAt": "2025-01-24T10:14:48Z",
       "databaseEntryUpdatedAt": "2025-02-17T19:58:50.453Z",
       "repoVariations": [],
-      "viewCount": 364,
-      "weeklyViewCount": 92,
+      "viewCount": 365,
+      "weeklyViewCount": 93,
       "installCount": 120,
       "weeklyInstallCount": 28
     },
@@ -481,8 +481,8 @@
       "repoVariations": [],
       "viewCount": 644,
       "weeklyViewCount": 193,
-      "installCount": 507,
-      "weeklyInstallCount": 131
+      "installCount": 510,
+      "weeklyInstallCount": 134
     },
     {
       "name": "Difficulty Mod",
@@ -761,8 +761,8 @@
       "repoVariations": [],
       "viewCount": 242,
       "weeklyViewCount": 49,
-      "installCount": 159,
-      "weeklyInstallCount": 35
+      "installCount": 161,
+      "weeklyInstallCount": 37
     },
     {
       "name": "NomaiVR Online Patches",
@@ -819,8 +819,8 @@
       "repoVariations": [],
       "viewCount": 130,
       "weeklyViewCount": 34,
-      "installCount": 356,
-      "weeklyInstallCount": 71
+      "installCount": 357,
+      "weeklyInstallCount": 72
     },
     {
       "name": "Static Camera",
@@ -918,8 +918,8 @@
       "repoVariations": [],
       "viewCount": 441,
       "weeklyViewCount": 93,
-      "installCount": 319,
-      "weeklyInstallCount": 72
+      "installCount": 320,
+      "weeklyInstallCount": 73
     },
     {
       "name": "Unity Explorer",
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.26.1/xen.NewHorizons.zip",
-      "downloadCount": 79037,
-      "latestReleaseDate": "2025-02-13T14:08:00Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.27.0/xen.NewHorizons.zip",
+      "downloadCount": 79065,
+      "latestReleaseDate": "2025-02-18T01:02:14Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.26.1",
+      "version": "v1.27.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
-      "latestReleaseDescription": "## Bug fixes\r\n- Fixed an oversight where any mod that changes the spawn (Archipelago Randomizer and Play as Gabbro) would cause you to instantly die\r\n- Fixed a pointless bug in EOTP that pikpik then fixed in EOTP also so now this fix is redundant but I'm not removing it!\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1039**",
+      "latestReleaseDescription": "## Major features\r\n- Slide reels are now streamed, improving load times and memory usage (Fixes #898). Other projectors (auto, torch) are not streamed yet.\r\n- Reworked game over screens. Can now either use credits volumes as before, or set `gameOver` in the addon manifest where you can define a dialogue condition which will then trigger a game over sequence the next time you die (displaying a message and/or triggering the credits). Fixes #832\r\n- Added `conditionalChecks` to star system configs. These allow you to automatically set or unset dialogue conditions, persistent conditions, and ship log facts based on other conditions being met, to handle more complex interactive situations that a single `requiredCondition` or `requiredFact` can't cover. Implements #1048 \r\n- Adds title screen configuration (fixes #1027)\r\n\r\n## Minor features\r\n- Can set `displaySlides` on a slide reel now to define which slide indices should be displayed on the physical reel model. Fixes #888.\r\n- Allowed game over to trigger flashback without resetting to menu (credits type `none`).\r\n- Allowed game over to fade to black instead of causing death (leave death type field empty)\r\n- Allowed game over to set credits volume text colour.\r\n- Add visual options for proc gen (i.e., asteroids). Can add a triplanar texture or use a preset material for quantum, ice, or rocks. Fixes #1014\r\n- Add `afterTraveler` to custom Eye Travelers to place them after a base game traveler in the campfire order (resolves #1037)\r\n\r\n## Improvements\r\n- Empty slide reel slots are now transparent on the slide reel model. Requires existing slide reel caches to be cleared.\r\n- Screen fades out faster now on system-changing black hole. Fixes #783.\r\n- Colourize splash effects to custom fluid volumes (implements #740)\r\n- Cached generation of map mode outlines to improve loading times.\r\n- Fixed order of travelers at the Eye when both base game guests have been gathered and custom travelers are used\r\n- Make specific optimizations based on profiler results for big mods, load times should now be up to twice as fast!\r\n\r\n## Bug fixes\r\n- Fixed a 3 frame hitch when changing tools\r\n- Fixed an NH bug at the Eye of the Universe where we were checking for a condition instead of a persistent condition\r\n- Fixed custom items breaking if `pickupAudio` and `dropAudio` were not set. Custom items will now default to the warp core item sounds. Each sound can be disabled individually by specifying \"None\" as the audio type.\r\n- Fixed custom items breaking if `removeComponents` was set on the detail.\r\n- Fixed custom items constantly re-reading the translation table to get their localized names \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1042**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-02-17T22:13:12Z",
-      "databaseEntryUpdatedAt": "2025-02-17T22:15:39.474Z",
+      "repoUpdatedAt": "2025-02-18T01:15:17Z",
+      "databaseEntryUpdatedAt": "2025-02-18T02:06:14.439Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -1128,18 +1128,18 @@
       "description": "An example project showing what planets can be made with New Horizons. (Warning: spoilers inside)",
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.25.0/nh-examples.zip",
-      "downloadCount": 7106,
-      "latestReleaseDate": "2025-01-14T21:05:52Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.26.0/nh-examples.zip",
+      "downloadCount": 7107,
+      "latestReleaseDate": "2025-02-18T01:32:06Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
-      "version": "v0.25.0",
+      "version": "v0.26.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "0.25.0\n\n- Added example of extended vanilla ship log entry\r\n- Added quantum lightning, socket, and shuffle examples to Frigid Pygmy\r\n- Made Sequestered Luminary no longer selectable on ship log map mode\r\n- Added ship log entry location example to Frigid Pygmy",
+      "latestReleaseDescription": "0.26.0\n\n- Fixed Lure Twins\n- Tweaked some prop positions\n- Added a working raft dock to Wetrock\n- Added Ernesto and Slate to the final jam session\n- Added basic conditional check example\n- Added custom title screen examples",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -1149,15 +1149,15 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "repoUpdatedAt": "2025-02-17T21:06:06Z",
-      "databaseEntryUpdatedAt": "2025-02-17T21:12:54.766Z",
+      "repoUpdatedAt": "2025-02-18T01:32:00Z",
+      "databaseEntryUpdatedAt": "2025-02-18T02:06:13.393Z",
       "repoVariations": [
         "https://github.com/xen-42/ow-new-horizons-examples"
       ],
       "viewCount": 102,
       "weeklyViewCount": 19,
-      "installCount": 99,
-      "weeklyInstallCount": 25
+      "installCount": 100,
+      "weeklyInstallCount": 26
     },
     {
       "name": "Real Solar System",
@@ -1190,8 +1190,8 @@
       "repoVariations": [],
       "viewCount": 259,
       "weeklyViewCount": 60,
-      "installCount": 307,
-      "weeklyInstallCount": 77
+      "installCount": 308,
+      "weeklyInstallCount": 78
     },
     {
       "name": "Atropos",
@@ -1294,8 +1294,8 @@
       "repoVariations": [],
       "viewCount": 30,
       "weeklyViewCount": 7,
-      "installCount": 24,
-      "weeklyInstallCount": 6
+      "installCount": 25,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Hiker's Mod",
@@ -1426,8 +1426,8 @@
       "repoVariations": [],
       "viewCount": 43,
       "weeklyViewCount": 12,
-      "installCount": 72,
-      "weeklyInstallCount": 21
+      "installCount": 73,
+      "weeklyInstallCount": 22
     },
     {
       "name": "Slate Simulator",
@@ -1623,8 +1623,8 @@
       "repoVariations": [],
       "viewCount": 32,
       "weeklyViewCount": 8,
-      "installCount": 51,
-      "weeklyInstallCount": 14
+      "installCount": 52,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Black Hole Portal Gun",
@@ -1655,8 +1655,8 @@
       "repoVariations": [],
       "viewCount": 45,
       "weeklyViewCount": 7,
-      "installCount": 105,
-      "weeklyInstallCount": 23
+      "installCount": 106,
+      "weeklyInstallCount": 24
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -1750,8 +1750,8 @@
       "repoVariations": [],
       "viewCount": 61,
       "weeklyViewCount": 9,
-      "installCount": 99,
-      "weeklyInstallCount": 22
+      "installCount": 100,
+      "weeklyInstallCount": 23
     },
     {
       "name": "Collider Visualizer",
@@ -1850,8 +1850,8 @@
       "repoVariations": [],
       "viewCount": 23,
       "weeklyViewCount": 5,
-      "installCount": 25,
-      "weeklyInstallCount": 8
+      "installCount": 26,
+      "weeklyInstallCount": 9
     },
     {
       "name": "21st Century Anglerfish",
@@ -1979,8 +1979,8 @@
       "repoVariations": [],
       "viewCount": 30,
       "weeklyViewCount": 20,
-      "installCount": 17,
-      "weeklyInstallCount": 6
+      "installCount": 18,
+      "weeklyInstallCount": 7
     },
     {
       "name": "TRAPPIST-1",
@@ -2355,8 +2355,8 @@
       "repoVariations": [],
       "viewCount": 724,
       "weeklyViewCount": 182,
-      "installCount": 964,
-      "weeklyInstallCount": 206
+      "installCount": 965,
+      "weeklyInstallCount": 207
     },
     {
       "name": "Their Homeworld",
@@ -2671,8 +2671,8 @@
       "repoVariations": [],
       "viewCount": 12,
       "weeklyViewCount": 2,
-      "installCount": 7,
-      "weeklyInstallCount": 1
+      "installCount": 8,
+      "weeklyInstallCount": 2
     },
     {
       "name": "Add LIV Support",
@@ -3148,8 +3148,8 @@
       "repoVariations": [],
       "viewCount": 143,
       "weeklyViewCount": 36,
-      "installCount": 203,
-      "weeklyInstallCount": 48
+      "installCount": 204,
+      "weeklyInstallCount": 49
     },
     {
       "name": "Changed Twins",
@@ -3181,8 +3181,8 @@
       "repoVariations": [],
       "viewCount": 12,
       "weeklyViewCount": 4,
-      "installCount": 10,
-      "weeklyInstallCount": 2
+      "installCount": 11,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Power Failure",
@@ -4050,8 +4050,8 @@
       "repoVariations": [],
       "viewCount": 26,
       "weeklyViewCount": 8,
-      "installCount": 58,
-      "weeklyInstallCount": 14
+      "installCount": 59,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Galaxy Skybox: NGC 1087",
@@ -4539,10 +4539,10 @@
       "repoUpdatedAt": "2024-11-04T16:37:00Z",
       "databaseEntryUpdatedAt": "2025-02-17T19:58:52.646Z",
       "repoVariations": [],
-      "viewCount": 1049,
-      "weeklyViewCount": 238,
-      "installCount": 713,
-      "weeklyInstallCount": 162
+      "viewCount": 1050,
+      "weeklyViewCount": 239,
+      "installCount": 715,
+      "weeklyInstallCount": 164
     },
     {
       "name": "Secret Words",
@@ -4620,8 +4620,8 @@
       ],
       "viewCount": 93,
       "weeklyViewCount": 22,
-      "installCount": 69,
-      "weeklyInstallCount": 13
+      "installCount": 70,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Spaceshipinha",
@@ -4694,8 +4694,8 @@
       "repoVariations": [],
       "viewCount": 115,
       "weeklyViewCount": 17,
-      "installCount": 116,
-      "weeklyInstallCount": 25
+      "installCount": 118,
+      "weeklyInstallCount": 27
     },
     {
       "name": "Car Example",
@@ -5100,8 +5100,8 @@
       "repoVariations": [],
       "viewCount": 45,
       "weeklyViewCount": 15,
-      "installCount": 110,
-      "weeklyInstallCount": 18
+      "installCount": 111,
+      "weeklyInstallCount": 19
     },
     {
       "name": "Smallest System in the Galaxy",
@@ -5305,8 +5305,8 @@
       "repoVariations": [],
       "viewCount": 51,
       "weeklyViewCount": 16,
-      "installCount": 37,
-      "weeklyInstallCount": 8
+      "installCount": 38,
+      "weeklyInstallCount": 9
     },
     {
       "name": "Ship Self Destruct Button",
@@ -6158,8 +6158,8 @@
       "repoVariations": [],
       "viewCount": 7,
       "weeklyViewCount": 2,
-      "installCount": 11,
-      "weeklyInstallCount": 5
+      "installCount": 12,
+      "weeklyInstallCount": 6
     },
     {
       "name": "AUGH Jetpack Boost",
@@ -6420,8 +6420,8 @@
       "repoVariations": [],
       "viewCount": 1164,
       "weeklyViewCount": 320,
-      "installCount": 700,
-      "weeklyInstallCount": 174
+      "installCount": 702,
+      "weeklyInstallCount": 176
     },
     {
       "name": "Daylight Savings",
@@ -6527,8 +6527,8 @@
       "repoVariations": [],
       "viewCount": 88,
       "weeklyViewCount": 27,
-      "installCount": 73,
-      "weeklyInstallCount": 17
+      "installCount": 74,
+      "weeklyInstallCount": 18
     },
     {
       "name": "OW Ventures Scavenger Hunt",
@@ -6599,8 +6599,8 @@
       "repoVariations": [],
       "viewCount": 69,
       "weeklyViewCount": 13,
-      "installCount": 73,
-      "weeklyInstallCount": 13
+      "installCount": 74,
+      "weeklyInstallCount": 14
     },
     {
       "name": "The Machine",
@@ -6636,8 +6636,8 @@
       "repoVariations": [],
       "viewCount": 40,
       "weeklyViewCount": 8,
-      "installCount": 31,
-      "weeklyInstallCount": 6
+      "installCount": 32,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Divergence",
@@ -6672,8 +6672,8 @@
       "repoVariations": [],
       "viewCount": 46,
       "weeklyViewCount": 5,
-      "installCount": 43,
-      "weeklyInstallCount": 4
+      "installCount": 44,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Archipelago",
@@ -6850,8 +6850,8 @@
       "repoVariations": [],
       "viewCount": 82,
       "weeklyViewCount": 25,
-      "installCount": 85,
-      "weeklyInstallCount": 18
+      "installCount": 86,
+      "weeklyInstallCount": 19
     },
     {
       "name": "Celestial Leeway",
@@ -7147,8 +7147,8 @@
       "repoVariations": [],
       "viewCount": 97,
       "weeklyViewCount": 29,
-      "installCount": 161,
-      "weeklyInstallCount": 41
+      "installCount": 162,
+      "weeklyInstallCount": 42
     },
     {
       "name": "Mod Data Tools",
@@ -7823,8 +7823,8 @@
       "repoVariations": [],
       "viewCount": 108,
       "weeklyViewCount": 34,
-      "installCount": 90,
-      "weeklyInstallCount": 21
+      "installCount": 91,
+      "weeklyInstallCount": 22
     },
     {
       "name": "Icelandic Localization",
@@ -8103,8 +8103,8 @@
       "repoVariations": [],
       "viewCount": 60,
       "weeklyViewCount": 17,
-      "installCount": 43,
-      "weeklyInstallCount": 13
+      "installCount": 44,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Origins",
@@ -8138,8 +8138,8 @@
       "repoUpdatedAt": "2024-11-04T16:35:16Z",
       "databaseEntryUpdatedAt": "2025-02-17T19:58:54.670Z",
       "repoVariations": [],
-      "viewCount": 286,
-      "weeklyViewCount": 61,
+      "viewCount": 287,
+      "weeklyViewCount": 62,
       "installCount": 201,
       "weeklyInstallCount": 40
     },
@@ -8747,10 +8747,10 @@
       "repoUpdatedAt": "2025-02-08T01:41:56Z",
       "databaseEntryUpdatedAt": "2025-02-17T17:44:08.408Z",
       "repoVariations": [],
-      "viewCount": 820,
-      "weeklyViewCount": 174,
-      "installCount": 475,
-      "weeklyInstallCount": 101
+      "viewCount": 821,
+      "weeklyViewCount": 175,
+      "installCount": 476,
+      "weeklyInstallCount": 102
     },
     {
       "name": "Immersion",
@@ -8782,8 +8782,8 @@
       "repoVariations": [],
       "viewCount": 130,
       "weeklyViewCount": 29,
-      "installCount": 247,
-      "weeklyInstallCount": 49
+      "installCount": 248,
+      "weeklyInstallCount": 50
     },
     {
       "name": "No Achievements",
@@ -8882,8 +8882,8 @@
       "repoVariations": [],
       "viewCount": 292,
       "weeklyViewCount": 79,
-      "installCount": 263,
-      "weeklyInstallCount": 63
+      "installCount": 264,
+      "weeklyInstallCount": 64
     },
     {
       "name": "Astral Codec",
@@ -9129,8 +9129,8 @@
       "repoUpdatedAt": "2024-06-17T11:10:26Z",
       "databaseEntryUpdatedAt": "2025-02-17T19:58:54.699Z",
       "repoVariations": [],
-      "viewCount": 236,
-      "weeklyViewCount": 60,
+      "viewCount": 237,
+      "weeklyViewCount": 61,
       "installCount": 192,
       "weeklyInstallCount": 40
     },
@@ -10414,7 +10414,7 @@
       "author": "Hawkbat",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Hawkbat/OuterWildsModJam4/releases/download/v0.2.4/Hawkbar.GreenFlameBlade.zip",
-      "downloadCount": 1775,
+      "downloadCount": 1822,
       "latestReleaseDate": "2025-02-17T12:57:00Z",
       "firstReleaseDate": "2024-11-04T06:47:12Z",
       "repo": "https://github.com/Hawkbat/OuterWildsModJam4",
@@ -10437,7 +10437,7 @@
         "main": "dreambound.webp"
       },
       "repoUpdatedAt": "2025-02-17T13:11:27Z",
-      "databaseEntryUpdatedAt": "2025-02-17T13:20:05.232Z",
+      "databaseEntryUpdatedAt": "2025-02-18T02:06:13.129Z",
       "repoVariations": [],
       "viewCount": 452,
       "weeklyViewCount": 133,
@@ -10998,8 +10998,8 @@
       "repoUpdatedAt": "2025-02-08T16:44:17Z",
       "databaseEntryUpdatedAt": "2025-02-17T19:46:04.045Z",
       "repoVariations": [],
-      "viewCount": 47,
-      "weeklyViewCount": 37,
+      "viewCount": 48,
+      "weeklyViewCount": 38,
       "installCount": 6,
       "weeklyInstallCount": 5
     },
@@ -11008,18 +11008,18 @@
       "uniqueName": "AnonymousStrangerOW.TheStrangerTheyAre",
       "description": "A somewhat large story mod that adds onto the story of Echoes of the Eye.",
       "author": "AnonymousStrangerOW",
-      "downloadUrl": "https://github.com/AnonymousStrangerOW/TheStrangerTheyAre/releases/download/v1.2.1/AnonymousStrangerOW.TheStrangerTheyAre.zip",
-      "downloadCount": 654,
-      "latestReleaseDate": "2025-02-16T04:25:23Z",
+      "downloadUrl": "https://github.com/AnonymousStrangerOW/TheStrangerTheyAre/releases/download/v1.3.0/AnonymousStrangerOW.TheStrangerTheyAre.zip",
+      "downloadCount": 697,
+      "latestReleaseDate": "2025-02-18T01:49:13Z",
       "firstReleaseDate": "2025-02-10T22:31:38Z",
       "repo": "https://github.com/AnonymousStrangerOW/TheStrangerTheyAre",
-      "version": "v1.2.1",
+      "version": "v1.3.0",
       "readme": {
         "htmlUrl": "https://github.com/AnonymousStrangerOW/TheStrangerTheyAre/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/AnonymousStrangerOW/TheStrangerTheyAre/main/README.md"
       },
       "authorDisplay": "Anonymous",
-      "latestReleaseDescription": "- clarifies and fixes more dialogue and shiplogs\r\n- scales a certain pile of ashes to the desired size\r\n- removes a random ernesto i left for testing purposes at the eye\r\n\r\nbig things that will be implemented on the next new horizons version:\r\n- eye of the universe bugs should all be fixed\r\n- optimization in nh to help the mod load faster",
+      "latestReleaseDescription": "- fixed the non-functioning interactables in a certain simulated area\r\n- fixed an issue with a certain bramble node going missing\r\n- made yet another shiplog clearer to understand",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -11031,11 +11031,11 @@
       "thumbnail": {
         "main": "thestrangertheyare.webp"
       },
-      "repoUpdatedAt": "2025-02-16T04:24:26Z",
-      "databaseEntryUpdatedAt": "2025-02-17T16:53:02.157Z",
+      "repoUpdatedAt": "2025-02-18T01:57:57Z",
+      "databaseEntryUpdatedAt": "2025-02-18T02:06:13.388Z",
       "repoVariations": [],
-      "viewCount": 516,
-      "weeklyViewCount": 516,
+      "viewCount": 518,
+      "weeklyViewCount": 518,
       "installCount": 197,
       "weeklyInstallCount": 197
     }
