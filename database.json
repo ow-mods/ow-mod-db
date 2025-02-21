@@ -1091,7 +1091,7 @@
       "description": "A tool for modifying or creating new planets, dialogue, ship logs, and more for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.27.0/xen.NewHorizons.zip",
-      "downloadCount": 79651,
+      "downloadCount": 79710,
       "latestReleaseDate": "2025-02-18T01:02:14Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1100,7 +1100,7 @@
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
-      "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, Trifid, and friends",
+      "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, and friends",
       "latestReleaseDescription": "## Major features\r\n- Slide reels are now streamed, improving load times and memory usage (Fixes #898). Other projectors (auto, torch) are not streamed yet.\r\n- Reworked game over screens. Can now either use credits volumes as before, or set `gameOver` in the addon manifest where you can define a dialogue condition which will then trigger a game over sequence the next time you die (displaying a message and/or triggering the credits). Fixes #832\r\n- Added `conditionalChecks` to star system configs. These allow you to automatically set or unset dialogue conditions, persistent conditions, and ship log facts based on other conditions being met, to handle more complex interactive situations that a single `requiredCondition` or `requiredFact` can't cover. Implements #1048 \r\n- Adds title screen configuration (fixes #1027)\r\n\r\n## Minor features\r\n- Can set `displaySlides` on a slide reel now to define which slide indices should be displayed on the physical reel model. Fixes #888.\r\n- Allowed game over to trigger flashback without resetting to menu (credits type `none`).\r\n- Allowed game over to fade to black instead of causing death (leave death type field empty)\r\n- Allowed game over to set credits volume text colour.\r\n- Add visual options for proc gen (i.e., asteroids). Can add a triplanar texture or use a preset material for quantum, ice, or rocks. Fixes #1014\r\n- Add `afterTraveler` to custom Eye Travelers to place them after a base game traveler in the campfire order (resolves #1037)\r\n\r\n## Improvements\r\n- Empty slide reel slots are now transparent on the slide reel model. Requires existing slide reel caches to be cleared.\r\n- Screen fades out faster now on system-changing black hole. Fixes #783.\r\n- Colourize splash effects to custom fluid volumes (implements #740)\r\n- Cached generation of map mode outlines to improve loading times.\r\n- Fixed order of travelers at the Eye when both base game guests have been gathered and custom travelers are used\r\n- Make specific optimizations based on profiler results for big mods, load times should now be up to twice as fast!\r\n\r\n## Bug fixes\r\n- Fixed a 3 frame hitch when changing tools\r\n- Fixed an NH bug at the Eye of the Universe where we were checking for a condition instead of a persistent condition\r\n- Fixed custom items breaking if `pickupAudio` and `dropAudio` were not set. Custom items will now default to the warp core item sounds. Each sound can be disabled individually by specifying \"None\" as the audio type.\r\n- Fixed custom items breaking if `removeComponents` was set on the detail.\r\n- Fixed custom items constantly re-reading the translation table to get their localized names \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1042**",
       "latestPrereleaseDescription": "",
       "tags": [
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-02-21T08:28:43Z",
-      "databaseEntryUpdatedAt": "2025-02-21T08:39:39.066Z",
+      "repoUpdatedAt": "2025-02-21T19:27:31Z",
+      "databaseEntryUpdatedAt": "2025-02-21T19:27:56.907Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
