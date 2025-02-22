@@ -122,8 +122,8 @@
       ],
       "viewCount": 3479,
       "weeklyViewCount": 786,
-      "installCount": 4279,
-      "weeklyInstallCount": 1126
+      "installCount": 4281,
+      "weeklyInstallCount": 1128
     },
     {
       "name": "Light Bramble",
@@ -317,8 +317,8 @@
       "repoVariations": [],
       "viewCount": 160,
       "weeklyViewCount": 49,
-      "installCount": 189,
-      "weeklyInstallCount": 63
+      "installCount": 190,
+      "weeklyInstallCount": 64
     },
     {
       "name": "ScoutStreaming",
@@ -894,7 +894,7 @@
       "description": "Outer Wilds mod: gives the player night vision on Echoes of the Eye's dream world.",
       "author": "Heelio",
       "downloadUrl": "https://github.com/Heelio/EotE-Brighter-Dreams/releases/download/0.1.1/Heelio.EotEBrighterDreams.zip",
-      "downloadCount": 10229,
+      "downloadCount": 10239,
       "latestReleaseDate": "2021-11-28T22:52:25Z",
       "firstReleaseDate": "2021-11-28T20:52:42Z",
       "repo": "https://github.com/Heelio/EotE-Brighter-Dreams",
@@ -914,7 +914,7 @@
         "main": "eotebrighterdreams.webp"
       },
       "repoUpdatedAt": "2025-02-17T03:21:17Z",
-      "databaseEntryUpdatedAt": "2025-02-22T05:11:40.093Z",
+      "databaseEntryUpdatedAt": "2025-02-22T17:12:33.793Z",
       "repoVariations": [],
       "viewCount": 415,
       "weeklyViewCount": 90,
@@ -1091,7 +1091,7 @@
       "description": "The story mod creation framework for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.27.0/xen.NewHorizons.zip",
-      "downloadCount": 79860,
+      "downloadCount": 79866,
       "latestReleaseDate": "2025-02-18T01:02:14Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-02-22T04:28:13Z",
-      "databaseEntryUpdatedAt": "2025-02-22T16:42:25.219Z",
+      "repoUpdatedAt": "2025-02-22T17:06:25Z",
+      "databaseEntryUpdatedAt": "2025-02-22T17:12:34.697Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 610,
       "weeklyViewCount": 136,
-      "installCount": 616,
-      "weeklyInstallCount": 157
+      "installCount": 617,
+      "weeklyInstallCount": 158
     },
     {
       "name": "Only Timber Hearth",
@@ -10265,8 +10265,8 @@
       "repoVariations": [],
       "viewCount": 55,
       "weeklyViewCount": 11,
-      "installCount": 49,
-      "weeklyInstallCount": 14
+      "installCount": 50,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Ship Enhancements",
@@ -10404,8 +10404,8 @@
       "repoVariations": [],
       "viewCount": 82,
       "weeklyViewCount": 24,
-      "installCount": 65,
-      "weeklyInstallCount": 14
+      "installCount": 66,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Dreambound",
@@ -10441,8 +10441,8 @@
       "repoVariations": [],
       "viewCount": 452,
       "weeklyViewCount": 148,
-      "installCount": 259,
-      "weeklyInstallCount": 82
+      "installCount": 260,
+      "weeklyInstallCount": 83
     },
     {
       "name": "Guardian",
@@ -11038,6 +11038,47 @@
       "weeklyViewCount": 502,
       "installCount": 287,
       "weeklyInstallCount": 165
+    },
+    {
+      "name": "Forgotten Castaways",
+      "uniqueName": "cleric.DeepBramble",
+      "description": "A 6-8 hour story mod following 4 Nomai who descend deeper into Dark Bramble.",
+      "author": "coderCleric",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/coderCleric/DeepBramble/releases/download/v1.0.0/cleric.DeepBramble.zip",
+      "downloadCount": 4,
+      "latestReleaseDate": "2025-02-21T23:43:51Z",
+      "firstReleaseDate": "2025-02-21T23:43:51Z",
+      "repo": "https://github.com/coderCleric/DeepBramble",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/coderCleric/DeepBramble/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/coderCleric/DeepBramble/main/README.md"
+      },
+      "authorDisplay": "coderCleric",
+      "latestReleaseDescription": "First release of the mod! After almost three years in development!!!\r\n\r\nNOTE TO PLAYTESTERS: The unique name of the mod is different than the versions that you got, so make sure to delete the old version before installing this one if you decide to play again!",
+      "latestPrereleaseDescription": "Thought last one would be final playtest but playtesting is taking a while, so here's another!",
+      "prerelease": {
+        "version": "v0.2.1",
+        "downloadUrl": "https://github.com/coderCleric/DeepBramble/releases/download/v0.2.1/Cleric.ForgottenCastaways.zip",
+        "date": "2024-11-15T00:51:07Z"
+      },
+      "tags": [
+        "content",
+        "story",
+        "requires-dlc"
+      ],
+      "slug": "forgottencastaways",
+      "thumbnail": {
+        "main": "forgottencastaways.webp"
+      },
+      "repoUpdatedAt": "2025-02-22T15:26:26Z",
+      "databaseEntryUpdatedAt": "2025-02-22T17:12:34.187Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
