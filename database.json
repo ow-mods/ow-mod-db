@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 142692
+    "downloadCount": 142693
   },
   "releases": [
     {
@@ -88,18 +88,18 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
       "author": "qsb-dev",
-      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v1.2.3/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 73533,
-      "latestReleaseDate": "2024-12-23T22:37:07Z",
+      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v1.3.0/Raicuparta.QuantumSpaceBuddies.zip",
+      "downloadCount": 73547,
+      "latestReleaseDate": "2025-02-22T19:47:02Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/qsb-dev/quantum-space-buddies",
-      "version": "v1.2.3",
+      "version": "v1.3.0",
       "readme": {
         "htmlUrl": "https://github.com/qsb-dev/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Fixed the Quantum Shrine not working in the 6th location.",
+      "latestReleaseDescription": "- Replaced MenuFramework with calls to \"new\" OWML menu system.\r\n- Fixed poses for holding items not working. No idea how long this has been broken...\r\n- Rewrote the HUD that shows what planet each player is on.\r\n  - Added compatibility with custom New Horizons planets. The HUD will use the sprite defined in `MapModeInfo.revealedSprite`. If no sprite is defined, it will use the default unknown icon (a question mark).\r\n    - This should also work when base-game planets have their ship log icon overridden with a new one, but I haven't tested this since I don't think anyone has actually done this yet.\r\n  - Added a new config option, `Always Show Planet Icons`, which is by default disabled. Normally, QSB will display a question mark when you are in places where you cannot usually open your map. By enabling this option, this behaviour does not happen. This means the exact planet you are on will always be visible, even if it doesn't fit thematically to know that information.\r\n- Stop players from connecting if they have New Horizons installed and the server doesn't, or vice versa.\r\n- Increased default timeout length from 25 seconds to 40 seconds. This should help with timeouts during long New Horizons load times.\r\n- Made other players invisible in an ending sequence.\r\n- Made player markers invisible in more locations.",
       "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.0.0-pr1",
@@ -114,16 +114,16 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2025-02-22T18:48:50Z",
-      "databaseEntryUpdatedAt": "2025-02-22T18:57:16.024Z",
+      "repoUpdatedAt": "2025-02-22T19:49:19Z",
+      "databaseEntryUpdatedAt": "2025-02-22T19:55:48.519Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies",
         "https://github.com/misternebula/quantum-space-buddies"
       ],
       "viewCount": 3498,
       "weeklyViewCount": 805,
-      "installCount": 4322,
-      "weeklyInstallCount": 1169
+      "installCount": 4324,
+      "weeklyInstallCount": 1171
     },
     {
       "name": "Light Bramble",
@@ -1750,8 +1750,8 @@
       "repoVariations": [],
       "viewCount": 55,
       "weeklyViewCount": 6,
-      "installCount": 101,
-      "weeklyInstallCount": 22
+      "installCount": 102,
+      "weeklyInstallCount": 23
     },
     {
       "name": "Collider Visualizer",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 612,
       "weeklyViewCount": 138,
-      "installCount": 626,
-      "weeklyInstallCount": 167
+      "installCount": 627,
+      "weeklyInstallCount": 168
     },
     {
       "name": "Only Timber Hearth",
@@ -6527,8 +6527,8 @@
       "repoVariations": [],
       "viewCount": 88,
       "weeklyViewCount": 20,
-      "installCount": 83,
-      "weeklyInstallCount": 20
+      "installCount": 84,
+      "weeklyInstallCount": 21
     },
     {
       "name": "OW Ventures Scavenger Hunt",
@@ -8248,8 +8248,8 @@
       "repoVariations": [],
       "viewCount": 126,
       "weeklyViewCount": 27,
-      "installCount": 365,
-      "weeklyInstallCount": 79
+      "installCount": 366,
+      "weeklyInstallCount": 80
     },
     {
       "name": "Outer Wives",
@@ -8782,8 +8782,8 @@
       "repoVariations": [],
       "viewCount": 132,
       "weeklyViewCount": 40,
-      "installCount": 254,
-      "weeklyInstallCount": 56
+      "installCount": 255,
+      "weeklyInstallCount": 57
     },
     {
       "name": "No Achievements",
@@ -9931,8 +9931,8 @@
       "repoVariations": [],
       "viewCount": 4,
       "weeklyViewCount": 0,
-      "installCount": 11,
-      "weeklyInstallCount": 3
+      "installCount": 12,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Every Jam 3 Mod",
@@ -11077,8 +11077,8 @@
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 2,
-      "weeklyInstallCount": 2
+      "installCount": 3,
+      "weeklyInstallCount": 3
     }
   ],
   "alphaReleases": [
