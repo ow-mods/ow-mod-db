@@ -88,18 +88,18 @@
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
       "author": "qsb-dev",
-      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v1.3.0/Raicuparta.QuantumSpaceBuddies.zip",
-      "downloadCount": 74774,
-      "latestReleaseDate": "2025-02-22T19:47:02Z",
+      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v1.4.0/Raicuparta.QuantumSpaceBuddies.zip",
+      "downloadCount": 74783,
+      "latestReleaseDate": "2025-02-27T15:46:37Z",
       "firstReleaseDate": "2020-03-01T18:04:22Z",
       "repo": "https://github.com/qsb-dev/quantum-space-buddies",
-      "version": "v1.3.0",
+      "version": "v1.4.0",
       "readme": {
         "htmlUrl": "https://github.com/qsb-dev/quantum-space-buddies/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/quantum-space-buddies/master/README.md"
       },
       "authorDisplay": "_nebula, JohnCorby, and friends",
-      "latestReleaseDescription": "- Replaced MenuFramework with calls to \"new\" OWML menu system.\r\n- Fixed poses for holding items not working. No idea how long this has been broken...\r\n- Rewrote the HUD that shows what planet each player is on.\r\n  - Added compatibility with custom New Horizons planets. The HUD will use the sprite defined in `MapModeInfo.revealedSprite`. If no sprite is defined, it will use the default unknown icon (a question mark).\r\n    - This should also work when base-game planets have their ship log icon overridden with a new one, but I haven't tested this since I don't think anyone has actually done this yet.\r\n  - Added a new config option, `Always Show Planet Icons`, which is by default disabled. Normally, QSB will display a question mark when you are in places where you cannot usually open your map. By enabling this option, this behaviour does not happen. This means the exact planet you are on will always be visible, even if it doesn't fit thematically to know that information.\r\n- Stop players from connecting if they have New Horizons installed and the server doesn't, or vice versa.\r\n- Increased default timeout length from 25 seconds to 40 seconds. This should help with timeouts during long New Horizons load times.\r\n- Made other players invisible in an ending sequence.\r\n- Made player markers invisible in more locations.",
+      "latestReleaseDescription": "- Rewritten Steam networking transport. There shouldn't be much difference to what it was before, but hopefully more stable! Please report any issues if they happen.\r\n- Moved debug settings to normal mod config menus.\r\n- Moved \"Disconnect\" button to the bottom of the pause menu, instead of the top.\r\n\r\nAlso, it's (pretty much) QSB's 5th birthday! Half a decade... I'm old.",
       "latestPrereleaseDescription": "",
       "prerelease": {
         "version": "v1.0.0-pr1",
@@ -114,16 +114,16 @@
       "thumbnail": {
         "main": "quantumspacebuddies.webp"
       },
-      "repoUpdatedAt": "2025-02-27T15:33:56Z",
-      "databaseEntryUpdatedAt": "2025-02-27T15:45:12.218Z",
+      "repoUpdatedAt": "2025-02-27T16:15:12Z",
+      "databaseEntryUpdatedAt": "2025-02-27T16:32:37.352Z",
       "repoVariations": [
         "https://github.com/Raicuparta/quantum-space-buddies",
         "https://github.com/misternebula/quantum-space-buddies"
       ],
       "viewCount": 3489,
       "weeklyViewCount": 829,
-      "installCount": 4515,
-      "weeklyInstallCount": 886
+      "installCount": 4516,
+      "weeklyInstallCount": 887
     },
     {
       "name": "Light Bramble",
@@ -1091,7 +1091,7 @@
       "description": "The story mod creation framework for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.27.0/xen.NewHorizons.zip",
-      "downloadCount": 80476,
+      "downloadCount": 80515,
       "latestReleaseDate": "2025-02-18T01:02:14Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1113,7 +1113,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2025-02-27T04:11:21Z",
-      "databaseEntryUpdatedAt": "2025-02-27T04:28:28.065Z",
+      "databaseEntryUpdatedAt": "2025-02-27T16:32:38.347Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -4694,8 +4694,8 @@
       "repoVariations": [],
       "viewCount": 81,
       "weeklyViewCount": 15,
-      "installCount": 110,
-      "weeklyInstallCount": 36
+      "installCount": 111,
+      "weeklyInstallCount": 37
     },
     {
       "name": "Car Example",
@@ -8140,8 +8140,8 @@
       "repoVariations": [],
       "viewCount": 284,
       "weeklyViewCount": 54,
-      "installCount": 189,
-      "weeklyInstallCount": 45
+      "installCount": 190,
+      "weeklyInstallCount": 46
     },
     {
       "name": "Tesseract's Secret",
@@ -8248,8 +8248,8 @@
       "repoVariations": [],
       "viewCount": 137,
       "weeklyViewCount": 32,
-      "installCount": 402,
-      "weeklyInstallCount": 101
+      "installCount": 403,
+      "weeklyInstallCount": 102
     },
     {
       "name": "Outer Wives",
@@ -11009,7 +11009,7 @@
       "description": "A somewhat large story mod that adds onto the story of Echoes of the Eye.",
       "author": "AnonymousStrangerOW",
       "downloadUrl": "https://github.com/AnonymousStrangerOW/TheStrangerTheyAre/releases/download/v2.0.0/AnonymousStrangerOW.TheStrangerTheyAre.zip",
-      "downloadCount": 1581,
+      "downloadCount": 1600,
       "latestReleaseDate": "2025-02-24T03:40:32Z",
       "firstReleaseDate": "2025-02-10T22:31:38Z",
       "repo": "https://github.com/AnonymousStrangerOW/TheStrangerTheyAre",
@@ -11032,7 +11032,7 @@
         "main": "thestrangertheyare.webp"
       },
       "repoUpdatedAt": "2025-02-24T03:39:37Z",
-      "databaseEntryUpdatedAt": "2025-02-27T04:28:27.247Z",
+      "databaseEntryUpdatedAt": "2025-02-27T16:32:37.179Z",
       "repoVariations": [],
       "viewCount": 969,
       "weeklyViewCount": 360,
