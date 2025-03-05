@@ -122,8 +122,8 @@
       ],
       "viewCount": 3382,
       "weeklyViewCount": 965,
-      "installCount": 4105,
-      "weeklyInstallCount": 913
+      "installCount": 4110,
+      "weeklyInstallCount": 918
     },
     {
       "name": "Light Bramble",
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "The story mod creation framework for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.27.1/xen.NewHorizons.zip",
-      "downloadCount": 81396,
-      "latestReleaseDate": "2025-03-01T20:51:43Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.27.2/xen.NewHorizons.zip",
+      "downloadCount": 81399,
+      "latestReleaseDate": "2025-03-05T17:26:16Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.27.1",
+      "version": "v1.27.2",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, and friends",
-      "latestReleaseDescription": "## Improvements\r\n- The sphere colliders added to custom items and item sockets to make them interactible no longer have collision by default. Mod authors can restore the previous behavior by setting `colliderIsTrigger` to false. Resolves #1054.\r\n- Nomai scrolls created using `translatorTexts` no longer have collision. This matches how scrolls behave in the base game.\r\n\r\n## Bug fixes\r\n- Fixed details not having collision if they were immediately deactivated after being created (for instance, via `activationCondition`)\r\n- Fixed light sensors disabling themselves on activation if their detail was immediately deactivated after being created\r\n- Fixed quantum groups with number of objects equal to number of sockets not having correct scales and including a duplicate of the final object.\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1061**",
+      "latestReleaseDescription": "## Improvements\r\n- No longer forces all translations added with TranslationHandler.AddUI into being uppercase. Fixes #1062.\r\n\r\n## Bug fixes\r\n\r\n- Fixed a config migration issue that was breaking Lonesome Lake\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1063**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,15 +1112,15 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-03-05T17:23:58Z",
-      "databaseEntryUpdatedAt": "2025-03-05T17:39:07.388Z",
+      "repoUpdatedAt": "2025-03-05T18:18:04Z",
+      "databaseEntryUpdatedAt": "2025-03-05T18:19:16.054Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
       "viewCount": 631,
       "weeklyViewCount": 189,
-      "installCount": 298,
-      "weeklyInstallCount": 78
+      "installCount": 299,
+      "weeklyInstallCount": 79
     },
     {
       "name": "New Horizons Examples",
@@ -6420,8 +6420,8 @@
       "repoVariations": [],
       "viewCount": 1169,
       "weeklyViewCount": 286,
-      "installCount": 681,
-      "weeklyInstallCount": 178
+      "installCount": 682,
+      "weeklyInstallCount": 179
     },
     {
       "name": "Daylight Savings",
@@ -7279,8 +7279,8 @@
       "repoVariations": [],
       "viewCount": 84,
       "weeklyViewCount": 35,
-      "installCount": 77,
-      "weeklyInstallCount": 31
+      "installCount": 78,
+      "weeklyInstallCount": 32
     },
     {
       "name": "Smarter Ghosts",
@@ -7642,8 +7642,8 @@
       "repoVariations": [],
       "viewCount": 163,
       "weeklyViewCount": 48,
-      "installCount": 159,
-      "weeklyInstallCount": 51
+      "installCount": 160,
+      "weeklyInstallCount": 52
     },
     {
       "name": "The Hatchling's Journal",
@@ -8918,8 +8918,8 @@
       "repoVariations": [],
       "viewCount": 837,
       "weeklyViewCount": 195,
-      "installCount": 559,
-      "weeklyInstallCount": 161
+      "installCount": 560,
+      "weeklyInstallCount": 162
     },
     {
       "name": "Mod Jam 3",
@@ -9102,18 +9102,18 @@
       "description": "The Magister has called you to his station...",
       "author": "GameWyrm",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/GameWyrm/hearths-neighbor-2/releases/download/v1.1.3/GameWyrm.HearthsNeighbor2.zip",
+      "downloadUrl": "https://github.com/GameWyrm/hearths-neighbor-2/releases/download/v1.1.4/GameWyrm.HearthsNeighbor2.zip",
       "downloadCount": 3170,
-      "latestReleaseDate": "2024-04-22T05:32:32Z",
+      "latestReleaseDate": "2025-03-05T17:52:40Z",
       "firstReleaseDate": "2024-03-26T05:45:55Z",
       "repo": "https://github.com/GameWyrm/hearths-neighbor-2",
-      "version": "v1.1.3",
+      "version": "v1.1.4",
       "readme": {
         "htmlUrl": "https://github.com/GameWyrm/hearths-neighbor-2/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameWyrm/hearths-neighbor-2/master/README.md"
       },
       "authorDisplay": "GameWyrm, EndgameZero, FunkyShoeMan, and CelestialsStorm",
-      "latestReleaseDescription": "* Added some new decorations in Vespa's room. Thanks Pikpik!\r\n* Fixed some text that wasn't properly translated\r\n* Added REVERB to many places on the Magistarium",
+      "latestReleaseDescription": "* The floors have an improved sheen\r\n* Getting around has been improved thanks to additional signage\r\n* A pool now actually contains water rather than a simple illusory film at the top\r\n* Other languages may know Ernesto's glory\r\n* Chinese translation courtesy of Mashroom\r\n* Korean translation courtesy of Barirn\r\n* Removed Herobri- I mean Kirmby\r\n\r\nNote: This does not include the Voice Acting update.",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -9126,8 +9126,8 @@
       "thumbnail": {
         "main": "hearthsneighbor2magistarium.webp"
       },
-      "repoUpdatedAt": "2025-03-05T16:29:10Z",
-      "databaseEntryUpdatedAt": "2025-03-05T16:38:22.334Z",
+      "repoUpdatedAt": "2025-03-05T17:53:26Z",
+      "databaseEntryUpdatedAt": "2025-03-05T18:19:15.164Z",
       "repoVariations": [],
       "viewCount": 197,
       "weeklyViewCount": 42,
