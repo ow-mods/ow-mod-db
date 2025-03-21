@@ -15,7 +15,7 @@
       "required": true,
       "utility": true,
       "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.15.1/OWML.zip",
-      "downloadCount": 219817,
+      "downloadCount": 219973,
       "latestReleaseDate": "2025-02-13T21:37:16Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
@@ -35,7 +35,7 @@
         "main": "owml.webp"
       },
       "repoUpdatedAt": "2025-03-09T17:15:03Z",
-      "databaseEntryUpdatedAt": "2025-03-21T09:30:58.169Z",
+      "databaseEntryUpdatedAt": "2025-03-21T21:36:36.920Z",
       "repoVariations": [],
       "viewCount": 1354,
       "weeklyViewCount": 402,
@@ -1426,8 +1426,8 @@
       "repoVariations": [],
       "viewCount": 40,
       "weeklyViewCount": 10,
-      "installCount": 63,
-      "weeklyInstallCount": 19
+      "installCount": 64,
+      "weeklyInstallCount": 20
     },
     {
       "name": "Slate Simulator",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 944,
       "weeklyViewCount": 221,
-      "installCount": 574,
-      "weeklyInstallCount": 156
+      "installCount": 575,
+      "weeklyInstallCount": 157
     },
     {
       "name": "Secret Words",
@@ -5234,8 +5234,8 @@
       "repoVariations": [],
       "viewCount": 56,
       "weeklyViewCount": 8,
-      "installCount": 47,
-      "weeklyInstallCount": 6
+      "installCount": 48,
+      "weeklyInstallCount": 7
     },
     {
       "name": "The Wilds: Extended",
@@ -8477,8 +8477,8 @@
       "repoVariations": [],
       "viewCount": 35,
       "weeklyViewCount": 9,
-      "installCount": 47,
-      "weeklyInstallCount": 11
+      "installCount": 48,
+      "weeklyInstallCount": 12
     },
     {
       "name": "Silly Filters",
@@ -8576,8 +8576,8 @@
       "repoVariations": [],
       "viewCount": 88,
       "weeklyViewCount": 32,
-      "installCount": 125,
-      "weeklyInstallCount": 41
+      "installCount": 126,
+      "weeklyInstallCount": 42
     },
     {
       "name": "Enhance Divergence Mod",
@@ -8718,18 +8718,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.11/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.12/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 6681,
-      "latestReleaseDate": "2024-12-23T23:16:51Z",
+      "latestReleaseDate": "2025-03-21T21:25:21Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.11",
+      "version": "v0.3.12",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Updated the Archipelago.MultiClient.Net and OWML libraries to their latest versions. The main reason this matters to players (and was worth another release so soon) is that today's MultiClient update preemptively fixes a bug that would have been exposed by Archipelago's upcoming \"Hint Status/Priority\" feature.\r\n- Universal Tracker now works on `dlc_only: true` slots. Apparently no one ever tried UT on a `dlc_only` slot until today.\r\n- Ship Log: WHS 2-3 in-game tracker descriptions now mention that you must take the projection stone specifically to Brittle Hollow's north pole in order to view and translate its text. In 0.3.10, this note was mistakenly added to Sun Station locations instead of WHS locations.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\nThe most important part of this update is:\r\n\r\n- Stop setting an explicit Archipelago client protocol version to the MultiClient.Net library, so the library will default to setting its own more up-to-date protocol version instead. This matters because when Archipelago 0.6.0 comes out, archipelago.gg is expected to start **_rejecting all connections from older versions of this mod_** that were incorrectly specifying an older protocol version.\r\n\r\nThat's why I wanted to get this update out now, while there's still plenty of time for it to fully replace 0.3.11 before AP 0.6.0 comes out. To go along with that, I've also implemented and reviewed the following low-risk bug fixes and contributions:\r\n\r\n- Fixed EotU Coordinates in Suit Log. Now all of the Suit Log entries that show the Coordinates should work even if you haven't opened the Ship Log first.\r\n- Slightly tweaked Brittle Hollow spawn position. The ship now faces the wall, so you won't get stuck on a tree if you press forward during liftoff. (thanks @RS-Mind)\r\n- Fixed Nomai Text Colorization for AP items with both `progression` and `useful` flags. (thanks @ScipioWright)\r\n- Fixed several errors in the Sixth Location logsanity descriptions (thanks Useless for pointing these out)\r\n- Solved \"the recursive EP3 problem\". If you rolled a Dark Bramble layout where the Escape Pod 3 room's inner portal led into Escape Pod 3 again, then it was impossible to leave (and follow your Scout marker to The Vessel) because \"backing out\" of the room was also recursive. To solve this, the \"backing out\" warps that don't lead to outer space will now warp you to the first DB room instead (whatever that is for your random layout), so now it should always be possible to get back to space and/or follow the Scout marker after reaching the grave seed.\r\n- Added Quothe's and Skurry's OW AP rando videos to the README",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8744,8 +8744,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2025-03-21T21:20:08Z",
-      "databaseEntryUpdatedAt": "2025-03-21T21:22:52.946Z",
+      "repoUpdatedAt": "2025-03-21T21:28:14Z",
+      "databaseEntryUpdatedAt": "2025-03-21T21:36:36.445Z",
       "repoVariations": [],
       "viewCount": 500,
       "weeklyViewCount": 137,
@@ -10196,8 +10196,8 @@
       "repoVariations": [],
       "viewCount": 18,
       "weeklyViewCount": 6,
-      "installCount": 6,
-      "weeklyInstallCount": 1
+      "installCount": 7,
+      "weeklyInstallCount": 2
     },
     {
       "name": "Cruncy Marshmallows",
@@ -10585,7 +10585,7 @@
         "main": "lonesomelake.webp"
       },
       "repoUpdatedAt": "2024-11-05T00:56:50Z",
-      "databaseEntryUpdatedAt": "2025-03-21T09:30:57.251Z",
+      "databaseEntryUpdatedAt": "2025-03-21T21:36:36.263Z",
       "repoVariations": [],
       "viewCount": 51,
       "weeklyViewCount": 6,
