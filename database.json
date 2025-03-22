@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 143006
+    "downloadCount": 143007
   },
   "releases": [
     {
@@ -122,8 +122,8 @@
       ],
       "viewCount": 3016,
       "weeklyViewCount": 755,
-      "installCount": 2757,
-      "weeklyInstallCount": 636
+      "installCount": 2759,
+      "weeklyInstallCount": 638
     },
     {
       "name": "Light Bramble",
@@ -163,7 +163,7 @@
       "description": "A free-camera mod for Outer Wilds",
       "author": "misternebula",
       "downloadUrl": "https://github.com/misternebula/FreeCam/releases/download/v2.9.0/misternebula.FreeCam.zip",
-      "downloadCount": 10607,
+      "downloadCount": 10611,
       "latestReleaseDate": "2024-06-11T21:22:10Z",
       "firstReleaseDate": "2020-04-10T13:12:27Z",
       "repo": "https://github.com/misternebula/FreeCam",
@@ -183,7 +183,7 @@
         "main": "freecam.webp"
       },
       "repoUpdatedAt": "2025-01-18T17:45:54Z",
-      "databaseEntryUpdatedAt": "2025-03-21T16:32:53.505Z",
+      "databaseEntryUpdatedAt": "2025-03-22T04:46:02.521Z",
       "repoVariations": [],
       "viewCount": 243,
       "weeklyViewCount": 64,
@@ -2355,8 +2355,8 @@
       "repoVariations": [],
       "viewCount": 727,
       "weeklyViewCount": 217,
-      "installCount": 773,
-      "weeklyInstallCount": 184
+      "installCount": 775,
+      "weeklyInstallCount": 186
     },
     {
       "name": "Their Homeworld",
@@ -7606,6 +7606,46 @@
       "weeklyInstallCount": 10
     },
     {
+      "name": "Unnamed Mystery",
+      "uniqueName": "O32.UnnamedMystery",
+      "description": "Unnamed Mystery is a fairly large story mod (by NH definition), striving to create an experience with similar impact to the base game. Available in English, French, and Simplified Chinese.",
+      "author": "RealOrbital32",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/1.2.3/O32.UnnamedMystery.zip",
+      "downloadCount": 5210,
+      "latestReleaseDate": "2023-07-20T06:17:23Z",
+      "firstReleaseDate": "2023-06-05T04:01:15Z",
+      "repo": "https://github.com/RealOrbital32/Unnamed-Mystery",
+      "version": "1.2.3",
+      "readme": {
+        "htmlUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/RealOrbital32/Unnamed-Mystery/main/README.md"
+      },
+      "authorDisplay": "Orbital 32 (a.k.a. cigtu), ItsKan, and others",
+      "latestReleaseDescription": "General changes:\r\n- A \"coming soon\" for Helioraxia's core\r\n- Ship log changes. Some color switches too.\r\n\r\nVoice Mod changes:\r\n- Sound effects in places where they didn't exist\r\n- Nylox no longer stutters his words",
+      "latestPrereleaseDescription": "A pre-release for the 2.0.0 beta. This is V0 of the beta.\r\n\r\nThis beta includes updates planet textures... and that's it. I don't know when I'll update this, life has been rather busy.",
+      "prerelease": {
+        "version": "2.0.0-BETA-0",
+        "downloadUrl": "https://github.com/RealOrbital32/Unnamed-Mystery/releases/download/2.0.0-BETA-0/O32.UnnamedMystery.zip",
+        "date": "2024-09-10T23:52:44Z"
+      },
+      "tags": [
+        "content",
+        "story"
+      ],
+      "slug": "unnamedmystery",
+      "thumbnail": {
+        "main": "unnamedmystery.webp"
+      },
+      "repoUpdatedAt": "2024-09-10T23:53:15Z",
+      "databaseEntryUpdatedAt": "2025-03-22T04:46:02.417Z",
+      "repoVariations": [],
+      "viewCount": 163,
+      "weeklyViewCount": 46,
+      "installCount": 162,
+      "weeklyInstallCount": 37
+    },
+    {
       "name": "The Hatchling's Journal",
       "uniqueName": "dgarro.Journal",
       "description": "Take your notes in a new Ship Log mode that lets you create and view your own entries",
@@ -7859,7 +7899,7 @@
       "author": "qsb-dev",
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "downloadUrl": "https://github.com/qsb-dev/qsb-multiple-ships/releases/download/0.1.0/_nebula.QSBMultipleShips.zip",
-      "downloadCount": 2660,
+      "downloadCount": 2664,
       "latestReleaseDate": "2023-07-09T19:59:07Z",
       "firstReleaseDate": "2023-07-09T19:59:07Z",
       "repo": "https://github.com/qsb-dev/qsb-multiple-ships",
@@ -7874,7 +7914,7 @@
       "slug": "qsbmultipleships",
       "thumbnail": {},
       "repoUpdatedAt": "2025-02-24T06:11:57Z",
-      "databaseEntryUpdatedAt": "2025-03-21T16:33:06.758Z",
+      "databaseEntryUpdatedAt": "2025-03-22T04:46:15.451Z",
       "repoVariations": [
         "https://github.com/misternebula/qsb-multiple-ships"
       ],
@@ -8027,8 +8067,8 @@
       ],
       "viewCount": 398,
       "weeklyViewCount": 119,
-      "installCount": 327,
-      "weeklyInstallCount": 88
+      "installCount": 328,
+      "weeklyInstallCount": 89
     },
     {
       "name": "The Survivors",
@@ -8878,8 +8918,8 @@
       "repoVariations": [],
       "viewCount": 805,
       "weeklyViewCount": 231,
-      "installCount": 517,
-      "weeklyInstallCount": 139
+      "installCount": 518,
+      "weeklyInstallCount": 140
     },
     {
       "name": "Mod Jam 3",
@@ -9091,8 +9131,8 @@
       "repoVariations": [],
       "viewCount": 216,
       "weeklyViewCount": 60,
-      "installCount": 157,
-      "weeklyInstallCount": 42
+      "installCount": 158,
+      "weeklyInstallCount": 43
     },
     {
       "name": "Finis",
@@ -10092,7 +10132,7 @@
         "main": "ernestochase.webp"
       },
       "repoUpdatedAt": "2025-02-06T22:58:14Z",
-      "databaseEntryUpdatedAt": "2025-03-21T16:32:53.504Z",
+      "databaseEntryUpdatedAt": "2025-03-22T04:46:02.292Z",
       "repoVariations": [],
       "viewCount": 33,
       "weeklyViewCount": 7,
@@ -11006,7 +11046,7 @@
       "author": "coderCleric",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/coderCleric/DeepBramble/releases/download/v1.1.1/cleric.DeepBramble.zip",
-      "downloadCount": 544,
+      "downloadCount": 555,
       "latestReleaseDate": "2025-03-16T19:26:29Z",
       "firstReleaseDate": "2025-02-21T23:43:51Z",
       "repo": "https://github.com/coderCleric/DeepBramble",
@@ -11033,12 +11073,12 @@
         "main": "forgottencastaways.webp"
       },
       "repoUpdatedAt": "2025-03-17T14:51:56Z",
-      "databaseEntryUpdatedAt": "2025-03-21T16:32:53.505Z",
+      "databaseEntryUpdatedAt": "2025-03-22T04:46:02.547Z",
       "repoVariations": [],
       "viewCount": 788,
       "weeklyViewCount": 225,
-      "installCount": 263,
-      "weeklyInstallCount": 66
+      "installCount": 264,
+      "weeklyInstallCount": 67
     },
     {
       "name": "Trans Rights Mod",
