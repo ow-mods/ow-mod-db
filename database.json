@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 143090
+    "downloadCount": 143091
   },
   "releases": [
     {
@@ -80,8 +80,8 @@
       ],
       "viewCount": 2061,
       "weeklyViewCount": 488,
-      "installCount": 1032,
-      "weeklyInstallCount": 263
+      "installCount": 1035,
+      "weeklyInstallCount": 266
     },
     {
       "name": "Quantum Space Buddies",
@@ -317,8 +317,8 @@
       "repoVariations": [],
       "viewCount": 186,
       "weeklyViewCount": 42,
-      "installCount": 328,
-      "weeklyInstallCount": 83
+      "installCount": 329,
+      "weeklyInstallCount": 84
     },
     {
       "name": "ScoutStreaming",
@@ -542,8 +542,8 @@
       "repoVariations": [],
       "viewCount": 103,
       "weeklyViewCount": 28,
-      "installCount": 124,
-      "weeklyInstallCount": 36
+      "installCount": 125,
+      "weeklyInstallCount": 37
     },
     {
       "name": "SlowTime",
@@ -2156,8 +2156,8 @@
       "repoVariations": [],
       "viewCount": 55,
       "weeklyViewCount": 14,
-      "installCount": 133,
-      "weeklyInstallCount": 36
+      "installCount": 134,
+      "weeklyInstallCount": 37
     },
     {
       "name": "Hollodjustment",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 586,
       "weeklyViewCount": 128,
-      "installCount": 742,
-      "weeklyInstallCount": 215
+      "installCount": 743,
+      "weeklyInstallCount": 216
     },
     {
       "name": "Only Timber Hearth",
@@ -8718,18 +8718,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.12/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.13/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 7000,
-      "latestReleaseDate": "2025-03-21T21:25:21Z",
+      "latestReleaseDate": "2025-03-30T13:41:52Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.12",
+      "version": "v0.3.13",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\nThe most important part of this update is:\r\n\r\n- Stop setting an explicit Archipelago client protocol version to the MultiClient.Net library, so the library will default to setting its own more up-to-date protocol version instead. This matters because when Archipelago 0.6.0 comes out, archipelago.gg is expected to start **_rejecting all connections from older versions of this mod_** that were incorrectly specifying an older protocol version.\r\n\r\nThat's why I wanted to get this update out now, while there's still plenty of time for it to fully replace 0.3.11 before AP 0.6.0 comes out. To go along with that, I've also implemented and reviewed the following low-risk bug fixes and contributions:\r\n\r\n- Fixed EotU Coordinates in Suit Log. Now all of the Suit Log entries that show the Coordinates should work even if you haven't opened the Ship Log first.\r\n- Slightly tweaked Brittle Hollow spawn position. The ship now faces the wall, so you won't get stuck on a tree if you press forward during liftoff. (thanks @RS-Mind)\r\n- Fixed Nomai Text Colorization for AP items with both `progression` and `useful` flags. (thanks @ScipioWright)\r\n- Fixed several errors in the Sixth Location logsanity descriptions (thanks Useless for pointing these out)\r\n- Solved \"the recursive EP3 problem\". If you rolled a Dark Bramble layout where the Escape Pod 3 room's inner portal led into Escape Pod 3 again, then it was impossible to leave (and follow your Scout marker to The Vessel) because \"backing out\" of the room was also recursive. To solve this, the \"backing out\" warps that don't lead to outer space will now warp you to the first DB room instead (whatever that is for your random layout), so now it should always be possible to get back to space and/or follow the Scout marker after reaching the grave seed.\r\n- Added Quothe's and Skurry's OW AP rando videos to the README",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Updated the MultiClient.Net library to fix a compatibility issue before AP 0.6.0 comes out (yes, another one). This time it was a backwards incompatible change to the upcoming \"hint status\" feature, so updating to MultiClient.Net v6.6.0 should prevent errors about `hint_status` when the mod generates AP hints.\r\n- Yaml-less Univeral Tracker support. You no longer need to hang on to your .yaml file to use Universal Tracker with outer_wilds.apworld.\r\n- Tweak the code that handles receiving items from the Archipelago server so most of it runs in Unity's Update() methods instead of the Archipelago websocket thread. There's a theory that the websocket thread is more unstable than the threads Unity expects to exist (which is supported by experience from a few other rando projects), so maybe this will help with the end-of-loop native crashes.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8744,8 +8744,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2025-03-30T13:38:40Z",
-      "databaseEntryUpdatedAt": "2025-03-30T13:42:03.128Z",
+      "repoUpdatedAt": "2025-03-30T13:45:42Z",
+      "databaseEntryUpdatedAt": "2025-03-30T13:54:47.111Z",
       "repoVariations": [],
       "viewCount": 519,
       "weeklyViewCount": 193,
