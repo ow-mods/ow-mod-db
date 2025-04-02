@@ -1,7 +1,9 @@
-import { Octokit, RestEndpointMethodTypes } from "@octokit/action";
-import { type OctokitOptions } from "@octokit/core/dist-types/types.js";
+import { RestEndpointMethodTypes } from "@octokit/action";
+import { Octokit, OctokitOptions } from "@octokit/core";
 import { retry } from "@octokit/plugin-retry";
+import { paginateRest } from "@octokit/plugin-paginate-rest";
 import { throttling } from "@octokit/plugin-throttling";
+import { restEndpointMethods } from "@octokit/plugin-rest-endpoint-methods";
 import fetch from "node-fetch";
 import { getLatestDate } from "../helpers/dates.js";
 
@@ -18,7 +20,12 @@ type OctokitRelease =
   RestEndpointMethodTypes["repos"]["listReleases"]["response"]["data"][number];
 
 function createOctokit() {
-  const OctokitWithPlugins = Octokit.plugin(retry, throttling);
+  const OctokitWithPlugins = Octokit.plugin(
+    retry,
+    throttling,
+    paginateRest,
+    restEndpointMethods
+  );
   return new OctokitWithPlugins({
     request: LOG_API_CALL_COUNTS
       ? {

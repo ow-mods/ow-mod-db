@@ -26,15 +26,10 @@ jobs:
         id: local-mods
         run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
 
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8.6.10
-          run_install: true
-
       - name: Build
         run: |
           cd scripts
-          pnpm run build
+          npm run build
 
       - id: modify-mod-list
         uses: ./actions/modify-mod-list
