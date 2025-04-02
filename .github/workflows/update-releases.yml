@@ -32,11 +32,12 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
-
-      - name: Build
-        run: |
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: scripts/package-lock.json
+      - run: |
           cd scripts
+          npm ci
           npm run build
 
       - name: Checkout database repo

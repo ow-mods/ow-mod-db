@@ -13,10 +13,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
         with:
@@ -26,9 +22,14 @@ jobs:
         id: local-mods
         run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
 
-      - name: Build
-        run: |
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: scripts/package-lock.json
+      - run: |
           cd scripts
+          npm ci
           npm run build
 
       - id: modify-mod-list
