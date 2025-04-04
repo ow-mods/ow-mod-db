@@ -1190,8 +1190,8 @@
       "repoVariations": [],
       "viewCount": 304,
       "weeklyViewCount": 80,
-      "installCount": 257,
-      "weeklyInstallCount": 72
+      "installCount": 258,
+      "weeklyInstallCount": 73
     },
     {
       "name": "Atropos",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 580,
       "weeklyViewCount": 141,
-      "installCount": 702,
-      "weeklyInstallCount": 186
+      "installCount": 703,
+      "weeklyInstallCount": 187
     },
     {
       "name": "Only Timber Hearth",
@@ -4694,8 +4694,8 @@
       "repoVariations": [],
       "viewCount": 38,
       "weeklyViewCount": 6,
-      "installCount": 97,
-      "weeklyInstallCount": 28
+      "installCount": 98,
+      "weeklyInstallCount": 29
     },
     {
       "name": "Car Example",
@@ -8716,18 +8716,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.13/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 7195,
-      "latestReleaseDate": "2025-03-30T13:41:52Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.14/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 7197,
+      "latestReleaseDate": "2025-04-04T14:41:07Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.13",
+      "version": "v0.3.14",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Updated the MultiClient.Net library to fix a compatibility issue before AP 0.6.0 comes out (yes, another one). This time it was a backwards incompatible change to the upcoming \"hint status\" feature, so updating to MultiClient.Net v6.6.0 should prevent errors about `hint_status` when the mod generates AP hints.\r\n- Yaml-less Univeral Tracker support. You no longer need to hang on to your .yaml file to use Universal Tracker with outer_wilds.apworld.\r\n- Tweak the code that handles receiving items from the Archipelago server so most of it runs in Unity's Update() methods instead of the Archipelago websocket thread. There's a theory that the websocket thread is more unstable than the threads Unity expects to exist (which is supported by experience from a few other rando projects), so maybe this will help with the end-of-loop native crashes.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Fixed yaml-less UT support for various options (logsanity, enable DLC, etc).\r\n- @msyverw's \"Warp path logic\" for Black Hole Forge. If your slot has a \"warp path\" from Brittle Hollow to the Hanging City Ceiling, then Forge locations will be in-logic with only Nomai Warp Codes and Brittle Hollow access.\r\n\t- In all previous versions, Forge locations always required Launch Codes for simplicity.\r\n- The in-game tracker's Mission page now explicitly states whether or not the game believes you've met Solanum and/or the Prisoner on this profile yet (if they're relevant to your chosen goal).\r\n- Move received death link handling off the websocket thread as well, since the anecdotal evidence so far tells us this trick really does help prevent native Unity crashes.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8742,8 +8742,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2025-04-04T14:27:30Z",
-      "databaseEntryUpdatedAt": "2025-04-04T14:29:01.708Z",
+      "repoUpdatedAt": "2025-04-04T14:42:14Z",
+      "databaseEntryUpdatedAt": "2025-04-04T14:45:36.544Z",
       "repoVariations": [],
       "viewCount": 562,
       "weeklyViewCount": 147,
