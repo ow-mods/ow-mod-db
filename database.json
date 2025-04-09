@@ -1119,7 +1119,7 @@
       ],
       "viewCount": 677,
       "weeklyViewCount": 155,
-      "installCount": 244,
+      "installCount": 245,
       "weeklyInstallCount": 59
     },
     {
@@ -8475,7 +8475,7 @@
       "repoVariations": [],
       "viewCount": 33,
       "weeklyViewCount": 9,
-      "installCount": 40,
+      "installCount": 41,
       "weeklyInstallCount": 9
     },
     {
@@ -11173,6 +11173,37 @@
       "weeklyViewCount": 61,
       "installCount": 56,
       "weeklyInstallCount": 22
+    },
+    {
+      "name": "Dear ImGui",
+      "uniqueName": "Throckmorpheus.ImGuiOW",
+      "description": "Outer Wilds library mod adding support for Dear ImGui.",
+      "author": "throckmorpheus",
+      "downloadUrl": "https://github.com/throckmorpheus/ImguiOW/releases/download/v0.1.1/Throckmorpheus.ImGuiOW.zip",
+      "downloadCount": 0,
+      "latestReleaseDate": "2025-04-09T03:38:00Z",
+      "firstReleaseDate": "2025-04-09T01:58:18Z",
+      "repo": "https://github.com/throckmorpheus/ImguiOW",
+      "version": "v0.1.1",
+      "readme": {
+        "htmlUrl": "https://github.com/throckmorpheus/ImguiOW/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/throckmorpheus/ImguiOW/main/README.md"
+      },
+      "latestReleaseDescription": "Fix ImGui accidentally rendering on the far layer even when a main camera exists because I'm stupid and didn't check that it was working properly after refactoring",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "library",
+        "tool"
+      ],
+      "slug": "dearimgui",
+      "thumbnail": {},
+      "repoUpdatedAt": "2025-04-09T03:39:11Z",
+      "databaseEntryUpdatedAt": "2025-04-09T17:54:34.734Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
