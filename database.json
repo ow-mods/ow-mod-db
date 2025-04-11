@@ -221,6 +221,43 @@
       "weeklyInstallCount": 4
     },
     {
+      "name": "Clock",
+      "uniqueName": "clubby789.OWClock",
+      "description": "A clock overlay mod for Outer Wilds, including events",
+      "author": "clubby789",
+      "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.8.1/Release.zip",
+      "downloadCount": 18237,
+      "latestReleaseDate": "2024-09-08T11:46:53Z",
+      "firstReleaseDate": "2020-09-20T09:43:23Z",
+      "repo": "https://github.com/clubby789/OWClock",
+      "version": "0.8.1",
+      "readme": {
+        "htmlUrl": "https://github.com/clubby789/OWClock/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/clubby789/OWClock/master/README.md"
+      },
+      "latestReleaseDescription": "## What's Changed\r\n- Allow toggling display with `H` (#12)\r\n- Allow displaying only when suit is equipped (#17)\r\n- Fix clock showing up on main menu (#11)\r\n- Fix clock going negative (#16)",
+      "latestPrereleaseDescription": "> Closes #7\r\n> It might help with #4 too because the RecalculatePosition is called every time settings are changed now.\r\n> Remove redundant \\ from build event.\r\n> OwmlDir can be dynamic with %appdata%\r\n> Make UniqueName match.\r\n> Remove events from list when they have passed (Should improve performance slightly)\r\n> RecalculatePosition from Configure to fix HudScale.\r\n> Add comments.\r\n> Organize code blocks.",
+      "prerelease": {
+        "version": "0.6.1",
+        "downloadUrl": "https://github.com/clubby789/OWClock/releases/download/0.6.1/Release.zip",
+        "date": "2021-12-14T10:05:19Z"
+      },
+      "tags": [
+        "tool"
+      ],
+      "slug": "clock",
+      "thumbnail": {
+        "main": "clock.webp"
+      },
+      "repoUpdatedAt": "2024-11-06T16:57:35Z",
+      "databaseEntryUpdatedAt": "2025-04-11T05:57:45.593Z",
+      "repoVariations": [],
+      "viewCount": 136,
+      "weeklyViewCount": 39,
+      "installCount": 330,
+      "weeklyInstallCount": 72
+    },
+    {
       "name": "HD Screenshot",
       "uniqueName": "Alek.Cammie",
       "description": "Screenshot mod for Outer Wilds.",
@@ -280,8 +317,8 @@
       "repoVariations": [],
       "viewCount": 173,
       "weeklyViewCount": 31,
-      "installCount": 265,
-      "weeklyInstallCount": 48
+      "installCount": 266,
+      "weeklyInstallCount": 49
     },
     {
       "name": "ScoutStreaming",
@@ -1082,8 +1119,8 @@
       ],
       "viewCount": 660,
       "weeklyViewCount": 152,
-      "installCount": 231,
-      "weeklyInstallCount": 66
+      "installCount": 232,
+      "weeklyInstallCount": 67
     },
     {
       "name": "New Horizons Examples",
@@ -1359,6 +1396,38 @@
       "weeklyViewCount": 42,
       "installCount": 59,
       "weeklyInstallCount": 24
+    },
+    {
+      "name": "Meteor Launching",
+      "uniqueName": "12090113.MeteorLaunching",
+      "description": "Allows you to shoot meteors or marshmallows with middle mouse click (or the back button if enabled in the mod settings)",
+      "author": "12090113",
+      "downloadUrl": "https://github.com/12090113/outer-wilds-meteor-launching/releases/download/v0.2.2/MeteorLaunching.zip",
+      "downloadCount": 3170,
+      "latestReleaseDate": "2022-05-28T00:34:22Z",
+      "firstReleaseDate": "2022-01-03T02:43:01Z",
+      "repo": "https://github.com/12090113/outer-wilds-meteor-launching",
+      "version": "v0.2.2",
+      "readme": {
+        "htmlUrl": "https://github.com/12090113/outer-wilds-meteor-launching/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/12090113/outer-wilds-meteor-launching/master/README.md"
+      },
+      "latestReleaseDescription": "More API stuff from @MegaPiggy.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay"
+      ],
+      "slug": "meteorlaunching",
+      "thumbnail": {
+        "main": "meteorlaunching.webp"
+      },
+      "repoUpdatedAt": "2023-09-01T04:48:42Z",
+      "databaseEntryUpdatedAt": "2025-04-11T05:57:45.739Z",
+      "repoVariations": [],
+      "viewCount": 34,
+      "weeklyViewCount": 9,
+      "installCount": 47,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Slate Simulator",
@@ -2151,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 642,
       "weeklyViewCount": 178,
-      "installCount": 719,
-      "weeklyInstallCount": 172
+      "installCount": 720,
+      "weeklyInstallCount": 173
     },
     {
       "name": "Only Timber Hearth",
@@ -3696,8 +3765,8 @@
       "repoVariations": [],
       "viewCount": 6,
       "weeklyViewCount": 1,
-      "installCount": 4,
-      "weeklyInstallCount": 2
+      "installCount": 5,
+      "weeklyInstallCount": 3
     },
     {
       "name": "No Sun",
@@ -6349,8 +6418,8 @@
       "repoVariations": [],
       "viewCount": 1019,
       "weeklyViewCount": 252,
-      "installCount": 553,
-      "weeklyInstallCount": 146
+      "installCount": 554,
+      "weeklyInstallCount": 147
     },
     {
       "name": "Daylight Savings",
@@ -8880,8 +8949,8 @@
       "repoVariations": [],
       "viewCount": 42,
       "weeklyViewCount": 7,
-      "installCount": 21,
-      "weeklyInstallCount": 4
+      "installCount": 22,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Jam Hub",
