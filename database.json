@@ -122,8 +122,8 @@
       ],
       "viewCount": 2334,
       "weeklyViewCount": 529,
-      "installCount": 1955,
-      "weeklyInstallCount": 502
+      "installCount": 1957,
+      "weeklyInstallCount": 504
     },
     {
       "name": "Light Bramble",
@@ -1119,8 +1119,8 @@
       ],
       "viewCount": 610,
       "weeklyViewCount": 157,
-      "installCount": 219,
-      "weeklyInstallCount": 69
+      "installCount": 220,
+      "weeklyInstallCount": 70
     },
     {
       "name": "New Horizons Examples",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 594,
       "weeklyViewCount": 172,
-      "installCount": 740,
-      "weeklyInstallCount": 217
+      "installCount": 742,
+      "weeklyInstallCount": 219
     },
     {
       "name": "Only Timber Hearth",
@@ -4214,8 +4214,8 @@
       "repoVariations": [],
       "viewCount": 139,
       "weeklyViewCount": 65,
-      "installCount": 166,
-      "weeklyInstallCount": 45
+      "installCount": 168,
+      "weeklyInstallCount": 47
     },
     {
       "name": "Artifact Laser",
@@ -4866,8 +4866,8 @@
       "repoVariations": [],
       "viewCount": 20,
       "weeklyViewCount": 4,
-      "installCount": 13,
-      "weeklyInstallCount": 5
+      "installCount": 14,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Secret Settings",
@@ -6418,8 +6418,8 @@
       "repoVariations": [],
       "viewCount": 948,
       "weeklyViewCount": 205,
-      "installCount": 536,
-      "weeklyInstallCount": 146
+      "installCount": 537,
+      "weeklyInstallCount": 147
     },
     {
       "name": "Daylight Savings",
@@ -8246,8 +8246,8 @@
       "repoVariations": [],
       "viewCount": 108,
       "weeklyViewCount": 27,
-      "installCount": 243,
-      "weeklyInstallCount": 61
+      "installCount": 244,
+      "weeklyInstallCount": 62
     },
     {
       "name": "Outer Wives",
@@ -8747,8 +8747,8 @@
       "repoVariations": [],
       "viewCount": 625,
       "weeklyViewCount": 172,
-      "installCount": 259,
-      "weeklyInstallCount": 74
+      "installCount": 260,
+      "weeklyInstallCount": 75
     },
     {
       "name": "Immersion",
@@ -10271,18 +10271,18 @@
       "uniqueName": "Etherpod.ShipEnhancements",
       "description": "Adds way too much stuff for the ship in the mod settings.",
       "author": "Etherpod",
-      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v1.1.0/Etherpod.ShipEnhancements.zip",
+      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v2.0.0/Etherpod.ShipEnhancements.zip",
       "downloadCount": 1555,
-      "latestReleaseDate": "2025-01-19T07:10:27Z",
+      "latestReleaseDate": "2025-04-18T05:28:49Z",
       "firstReleaseDate": "2024-09-15T02:38:59Z",
       "repo": "https://github.com/Etherpod/Ship-Enhancements",
-      "version": "v1.1.0",
+      "version": "v2.0.0",
       "readme": {
         "htmlUrl": "https://github.com/Etherpod/Ship-Enhancements/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Etherpod/Ship-Enhancements/main/README.md"
       },
       "authorDisplay": "Etherpod",
-      "latestReleaseDescription": "# New Settings\r\n\r\n- **Disable Automatic Lights** - Keeps all the lights on when you leave the ship.\r\n- **Add Expedition Flag** - Adds a flag item to the ship that you can place down.\r\n- **Add Portable Fuel Canister** - Adds a fuel tank to the ship that you can bring around with you. Place it down somewhere to refuel your jetpack.\r\n- **Chaotic Cyclones** - Changes cyclones to apply an additional upwards spin to the ship.\r\n- **Extra Explosion Damage** - Makes explosions damage the ship and Brittle Hollow fragments.\r\n- **Single-Use Tractor Beam** - Your ship's tractor beam can now only be used once.\r\n- **Disable Retro Rockets** - Disables your backwards thrusters, making it much harder to slow down.\r\n- **Max Dirt Accumulation** - Adds a limit to the amount of dirt that can build up on the cockpit.\r\n- **Add Ship Warp Core** - Integrates a Nomai warp core into your cockpit that can return you back to Timber Hearth.\r\n- **Repair Time Multiplier** - Adjust the time it takes to repair parts of your ship.\r\n- **Air Drag Multiplier** - Adjusts how much your ship is slowed down by air from atmospheres.\r\n- **Add Ship Clock** - Adds a clock to the cockpit that tells the time in seconds and minutes.\r\n- **Enable Stun Damage** - Locks up your controls for a few seconds if your ship hits something too hard.\r\n- **Enable Repair Confirmation** - Plays a sound when everything has been repaired.\r\n- **Fix Ship Gravity** - A quality of life feature that gets rid of a bug that made moving in your ship impossible when in areas of high gravity.\r\n- **Enable Removable Gravity Crystal** - Lets you remove your ship's gravity crystal and place it down somewhere else.\r\n- **Random Hull + Component Damage** - Applies a random amount of damage to a random set of parts at the start of the loop.\r\n- **Enable Fragile Ship** - Prevents you from piloting your ship if it has taken any damage.\r\n- **Faulty Heat Regulators** - Your ship can no longer shed heat, meaning it constantly gains temperature. You'll have to find somewhere cold to cool it down.\r\n\r\n# Feature Changes\r\n\r\n- Added the ability to send commands to the ship using the Ship Signal\r\n- Added more temperature zones around the Solar System and added a temperature zone to every campfire\r\n- Low ship temperatures now lower your maximum thrust output and make it possible for the engine to stall\r\n- High ship temperatures now make the ship hull damage you on contact\r\n- The ship can now take temperature damage while cooling down\r\n- Reorganized settings to place similar settings next to each other and make things easier to find\r\n- Added a bunch of new dialogue to Slate\r\n- Moved the tether prompts to the bottom left and changed the tether disconnect keybind from the **Scout Reverse Snapshot** keybind to a combination of the **Free Look** keybind and the **Interact** keybind\r\n- Changed Ship Bounciness between 0 and 1 to use a Unity physics material for more accurate bouncing, which also makes players bounce off the ship\r\n- Added more sounds to the Extra Noise setting\r\n- **Atmosphere Angular Drag Multiplier** only applies to air and fog now\r\n- Changed the color of some new switches\r\n- Added a turbo feature to the **Portable Tractor Beam**\r\n\r\n# Bug Fixes\r\n\r\n- Fixed an error with map markers at the Eye\r\n- Fixed a bug where you could sleep at the Portable Campfire on the Quantum Moon\r\n- Fixed a bug where the damage and damage speed multipliers would break when set to zero\r\n- Fixed a bug where certain items would equip a tool after interacting with them\r\n- Fixed a bug where the ship would still explode when the Ship Explosion Multiplier was set to zero\r\n- Fixed a bug where turning off the ship would sometimes preserve the last persistent input\r\n- Removed the small spaces between the Thrust Modulator buttons\r\n- Fixed a bug where the ship’s signal couldn’t be detected inside Dark Bramble or The Stranger\r\n- Fixed a bug where items placed on detachable parts of the ship would not move with the part if it detached\r\n- Fixed a bug where connecting a tether between a non-static body and a static body would sometimes cause the tether to not work\r\n- Fixed a bug where connecting two different things with a tether would sometimes cause them to jolt towards each other\r\n- Fixed a bug where disabling button prompts in the settings would remove a few button prompts that were meant to stay visible\r\n- Fixed a bug where larger values for the Ship Explosion Multiplier would cause the explosion to move around unnaturally\r\n- Fixed a bug where the Engine Switch indicator light for the thrusters would sometimes show the incorrect status\r\n- Prevented some of the auto hatch code from running in multiplayer\r\n- Fixed a bug where the mod would implode if you tried to load a singleplayer game while Quantum Space Buddies was enabled\r\n- Fixed a bug where the pick up prompt for the ship's scout launcher would sometimes appear at the wrong time\r\n- Fixed a bug where items inside the ship would turn invisible when it was destroyed\r\n",
+      "latestReleaseDescription": "The full changelog is too big to fit on Discord, you can see the entire thing here: https://github.com/Etherpod/Ship-Enhancements/releases/tag/v2.0.0\r\n\r\n# New Settings\r\n\r\n- **Add Ernesto** - Self explanatory\r\n- **Extra Eject Buttons** - Adds a few more eject buttons to the ship that eject different modules\r\n- **Prevent System Failure** - Forces the ship to stay functional as long as the cockpit is attached\r\n- **Interactable Ship Curtain** - Lets you close the curtain in the cabin to block off the cockpit\r\n- **Add Repair Wrench** - Adds a wrench to the ship that you need to be holding if you want to repair anything\r\n- **Funny Sounds** - Adds some silly sound effects\r\n- **Always Allow Map Lock-on** - Lets you use the lock-on feature with the map while on a planet (QOL setting)\r\n- **Ship Warp Core Component** - A modifier for the ship warp core that turns it into a damageable component (part of the Ship Warp Core setting)\r\n- **Disable Ship Medkit** - Takes away your ability to heal yourself in the ship\r\n- **Add Radio** - Adds a radio to the ship cockpit that you can listen to music on\r\n- **Disable Fluid Prevention** - Makes it so stuff like sand and water can enter the ship\r\n- **Disable Hazard Prevention** - Makes it so hazards like heat and ghost matter can damage you inside the ship\r\n- **Prolong Digestion** - Gives you some time to rethink your life decisions while being digested by an anglerfish\r\n- **Unlimited Items** - Lets you duplicate items inside of the ship\r\n- **Ship Noise Multiplier** - Lets you make your ship louder or quieter from the perspective of anglerfish\r\n- **Ship Water/Sand Damage** - Damages your ship when you touch water/falling sand\r\n- **Disable Minimap Markers** - Turns off the icons shown on your minimap\r\n- **Ship Scout Photo Mode** - Lets you switch to photo mode with the ship's scout launcher\r\n- **Add Autopilot Controls** - Adds a new interface to the cockpit that gives you access to the new autopilot features Slate was working on (replaces **Persistent Input**)\r\n- **Fix Ship Thrust Indicator** - Fixes a bug where the ship's thrust display turns off when you leave the flight chair (QOL setting)\r\n- **Add Auto Align Controls** - Adds an interface to the cockpit that lets you rotate your ship torwards the current lock-on target\r\n- **Ship Horn Variant** - Lets you honk by equipping the ship's signalscope and pressing the flashlight button\r\n- **Randomizer Iterations/Difficulty** - Controls how the settings are randomized on the Random preset\r\n- **Disable Ship Hatch** - Completely removes the hatch from the ship\r\n\r\n# Feature Changes\r\n\r\n- Replaced **Disable Retro Rockets** with **Disable Thrusters**, which lets you choose a thrust direction to disable\r\n- Replaced **Disable Ship Friction** with **Ship Friction**, which lets you adjust how much friction to apply to the ship\r\n- Replaced **Disable Ship Repair** with **Repair Limit**, which lets you set a limit on how many parts you're allowed to repair\r\n- Replaced **Chaotic Cyclones** with a **Cyclone Chaos** slider, which lets you make cyclones even more chaotic\r\n- Removed **Add Persistent Input**\r\n- Renamed **Enable Manual Scout Recall** to **Disable Handheld Scout Recall** and moved it to the appropriate section\r\n- Renamed **Disable Map Markers** to **Disable HUD Markers**\r\n- Replaced the **Relaxed**, **Hardcore**, and **Wanderer** presets with **Impossible** and **New Stuff**\r\n- Added \"Hot\" and \"Cold\" as options to the **Add Temperature Zones** setting\r\n- Added 3 new achievements for the **Achievements+** mod\r\n- Changed the ship explosion for when the **Ship Explosion Multiplier** is set to a high enough number\r\n- Added more commands to the ship signal\r\n- Overhauled item sound effects\r\n- Warping to gravity cannons can now also be done through lock-on\r\n- Added a temperature increase when traveling through an atmosphere quickly while temperature zones are enabled\r\n- Cockpit dirt can now be removed through extremely violent spinning and high-speed atmospheric re-entry\r\n- Temperature will now increase faster if **Faulty Heat Regulators** is enabled and the reactor is damaged\r\n- Made it possible for explosions to kill anglerfish and cause the portable fuel tank to explode\r\n- Added an effect to the screen for when you spin too quickly\r\n- Made it possible to put custom images onto the **Expedition Flag**, check the mod page for more info\r\n- Added a marker to the minimap when the **Expedition Flag** is placed down\r\n- Made the **Gravity Landing Gear** more powerful and added a new switch\r\n- Limited ship temperature to the current temperature\r\n- Setting **Ship Temperature Resistance** to zero or a negative value actually does something now\r\n\r\n# Bug Fixes + Minor Edits\r\n\r\n- Fixed a bug where the headlights indicator in the cockpit would stay lit if the headlights were disabled\r\n- Fixed a bug where the temperature for the portable fuel canister was being calculated using the ship's position\r\n- Fixed a bug where the overdrive was still usable when both thrusters were broken\r\n- Fixed a bug where you could pick up the probe, place the probe in the ship, and transfer fuel to the ship without wearing your suit\r\n- Fixed a bug where the engine switch would sometimes desync in multiplayer\r\n- Fixed some wacky behavior with tethering modules to the ship and ejecting them\r\n- Removed floating shadows and fixed missing shadows\r\n- Fixed a bug where opening the settings menu twice after selecting a preset would change the preset back to **Custom**\r\n- Fixed a bug where button prompts for new items would sometimes appear in the pause menu\r\n- Fixed a bug where you could get the **Hulk Smash!** achievement without actually doing anything\r\n- Fixed a bug introduced by a QSB update where all the new items would break in multiplayer\r\n- Fixed a bug where using the return warp with the cockpit detached would sometimes mess up your HUD\r\n- Fixed a bug where anglerfish would use the player position to detect noise from the ship (re-implemented from Vanilla Fix)\r\n- Fixed a bug where **Ship Bounciness** would always apply maximum bounce when using a value between 0 and 1\r\n- Fixed a bug where the **Ship Warp Core** wouldn't warp to the correct location in custom star systems\r\n- Fixed a bug where a couple switches on the extendable panel were sometimes unreachable\r\n- Fixed a bug where interactibles on the extendable panel were disabled when the power was flickering\r\n- Fixed a bug where some models inside the ship were still affected by ambient light (doesn't apply to items)\r\n- Fixed a bug where items in the ship would disappear when you exited the ship\r\n- Fixed a bug where the **Portable Fuel Canister** had no audio when exploding\r\n- Fixed a bug where **Single-Use Tractor Beam** wouldn't work in multiplayer\r\n- Fixed a bug where the landing camera and headlights were still usable after the front leg detached\r\n- Fixed a bug where placing a tether hook on the landing gear in multiplayer would throw an error\r\n- Fixed a bug where placing a tether hook on objects with rotated sectors would break the tether physics\r\n- Fixed a bug where some of the ship's audio could be heard from anywhere in the universe\r\n- Fixed a bug where the ship explosion's light source wasn't scaled properly\r\n- Fixed a bug where explosions would sometimes apply damage to things before actually reaching them\r\n- Fixed a bug where changing the preset in the settings menu wouldn't show any changes until closing and opening the menu\r\n- Changed the engine switch prompt to a hold prompt\r\n- Added temperature zones to custom stars made with New Horizons\r\n- Made the clock slightly louder\r\n- Extended the max tether length\r\n- Made some changes to Slate's dialogue\r\n- Edited the extendable panel to highlight the button you're looking at\r\n- Changed the mod banner\r\n- Added dividers and a warning to the settings menu",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -10293,8 +10293,8 @@
       "thumbnail": {
         "main": "shipenhancements.webp"
       },
-      "repoUpdatedAt": "2025-04-18T04:23:58Z",
-      "databaseEntryUpdatedAt": "2025-04-18T04:30:16.282Z",
+      "repoUpdatedAt": "2025-04-18T05:30:30Z",
+      "databaseEntryUpdatedAt": "2025-04-18T05:33:24.009Z",
       "repoVariations": [],
       "viewCount": 280,
       "weeklyViewCount": 76,
@@ -11171,8 +11171,8 @@
       "repoVariations": [],
       "viewCount": 228,
       "weeklyViewCount": 62,
-      "installCount": 82,
-      "weeklyInstallCount": 26
+      "installCount": 83,
+      "weeklyInstallCount": 27
     },
     {
       "name": "Dear ImGui",
