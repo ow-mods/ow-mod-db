@@ -80,8 +80,8 @@
       ],
       "viewCount": 1768,
       "weeklyViewCount": 541,
-      "installCount": 869,
-      "weeklyInstallCount": 239
+      "installCount": 870,
+      "weeklyInstallCount": 240
     },
     {
       "name": "Quantum Space Buddies",
@@ -122,8 +122,8 @@
       ],
       "viewCount": 2327,
       "weeklyViewCount": 540,
-      "installCount": 1955,
-      "weeklyInstallCount": 499
+      "installCount": 1960,
+      "weeklyInstallCount": 504
     },
     {
       "name": "Light Bramble",
@@ -349,8 +349,8 @@
       "repoVariations": [],
       "viewCount": 34,
       "weeklyViewCount": 7,
-      "installCount": 132,
-      "weeklyInstallCount": 32
+      "installCount": 133,
+      "weeklyInstallCount": 33
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -955,8 +955,8 @@
       "repoVariations": [],
       "viewCount": 84,
       "weeklyViewCount": 11,
-      "installCount": 44,
-      "weeklyInstallCount": 10
+      "installCount": 45,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Half-Life Overhaul",
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "The story mod creation framework for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.27.3/xen.NewHorizons.Release.zip",
-      "downloadCount": 85907,
-      "latestReleaseDate": "2025-03-15T07:12:40Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.28.0/xen.NewHorizons.zip",
+      "downloadCount": 85910,
+      "latestReleaseDate": "2025-04-19T04:43:42Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.27.3",
+      "version": "v1.28.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, and friends",
-      "latestReleaseDescription": "## Minor features\r\n\r\n- Added a debug option for visualizing the names of custom bramble warp\r\nvolumes and their entrances/exits. Resolves #1066\r\n\r\n## Bug fixes\r\n\r\n- Fixed broken implementation of #1062 by changing\r\nTranslationHandler.AddUI to take a bool for translations being\r\nuppercase.\r\n- NH-made spawn points now show up in Cheat And Debug Menu's spawn point\r\nteleporter \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1065**",
+      "latestReleaseDescription": "## Major features\r\n\r\n- Added a new `forces` sub-module to the `Volumes` planet module with new volume types for the various force volumes available in the game, including `directionalVolumes` (used by Nomai gravity crystals and anti-gravity surfaces) and `cylindricalVolumes` (used by the rings on the Construction Yard island), as well as `gravityVolumes`, `polarVolumes`, and `radialVolumes`. Resolves #1041\r\n\r\n## Minor features\r\n- Added additional `gameOver` settings for custom music and credits length: `audio`, `audioVolume`, `audioLooping` and `length` (thanks Smuffy @josshmot!)\r\n- Added `raftDocks` to `Props` module. An easier way to spawn in docks for rafts.\r\n- Added `dockPath` to `RaftInfo`. This is a path to the dock the raft will start attached to.\r\n- Added `pristine` boolean to `RaftInfo`. Makes the raft use the Dreamworld model.\r\n- Added `speedLimiterVolumes` to `Volumes` module. This is the same thing the Stranger uses to slow you down.\r\n- All volumes now support shapes other than the default sphere via the new `shape` property, such as boxes, capsules, cylinders, hemispheres, and more.\r\n- All volumes now have `rotation` and `alignRadial` fields, allowing for non-spherical shapes to be rotated, and for `revealVolumes` to be pointed in other directions for the `maxAngle` check.\r\n \r\n## Improvements\r\n- Standing vision torch now shows up in tronworld\r\n- Standing vision torch can use the dreamworld model with `slideCondition` property set to `pristine`. (resolves #1080)\r\n\r\n## Bug fixes\r\n- Fixed a bug that didn't allow comet tails to be made on unmoved vanilla planets/moons.\r\n- Fixed a bug where atmospheres on the Dreamworld were visible at all times (affected Hazy Dreams)\r\n- Specific objects copied from the Stranger no longer vanish when the dam breaks\r\n- NH-made rafts no longer skip a node when riding on the Dam's raft carrier. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1071**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,15 +1112,15 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-04-19T04:44:42Z",
-      "databaseEntryUpdatedAt": "2025-04-19T04:46:50.912Z",
+      "repoUpdatedAt": "2025-04-19T05:10:24Z",
+      "databaseEntryUpdatedAt": "2025-04-19T05:27:42.087Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
       "viewCount": 614,
       "weeklyViewCount": 161,
-      "installCount": 222,
-      "weeklyInstallCount": 68
+      "installCount": 223,
+      "weeklyInstallCount": 69
     },
     {
       "name": "New Horizons Examples",
@@ -1128,18 +1128,18 @@
       "description": "An example project showing what planets can be made with New Horizons. (Warning: spoilers inside)",
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.26.0/nh-examples.zip",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.27.0/nh-examples.zip",
       "downloadCount": 7382,
-      "latestReleaseDate": "2025-02-18T01:32:06Z",
+      "latestReleaseDate": "2025-04-19T05:11:24Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
-      "version": "v0.26.0",
+      "version": "v0.27.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "0.26.0\n\n- Fixed Lure Twins\n- Tweaked some prop positions\n- Added a working raft dock to Wetrock\n- Added Ernesto and Slate to the final jam session\n- Added basic conditional check example\n- Added custom title screen examples",
+      "latestReleaseDescription": "0.27.0\r\n\r\n- Better Snowball comet tail\r\n- Made the artificial gravity squares orbit\r\n- Added custom credits examples (thanks Smuffy @josshmot!)\r\n- Docked raft and clean raft examples\r\n- Thunderdome example of force volumes and shapes",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -1149,8 +1149,8 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "repoUpdatedAt": "2025-04-19T04:41:29Z",
-      "databaseEntryUpdatedAt": "2025-04-19T04:46:50.283Z",
+      "repoUpdatedAt": "2025-04-19T05:11:23Z",
+      "databaseEntryUpdatedAt": "2025-04-19T05:27:41.540Z",
       "repoVariations": [
         "https://github.com/xen-42/ow-new-horizons-examples"
       ],
@@ -1394,8 +1394,8 @@
       "repoVariations": [],
       "viewCount": 105,
       "weeklyViewCount": 27,
-      "installCount": 79,
-      "weeklyInstallCount": 25
+      "installCount": 80,
+      "weeklyInstallCount": 26
     },
     {
       "name": "Meteor Launching",
@@ -1817,8 +1817,8 @@
       "repoVariations": [],
       "viewCount": 150,
       "weeklyViewCount": 57,
-      "installCount": 164,
-      "weeklyInstallCount": 55
+      "installCount": 165,
+      "weeklyInstallCount": 56
     },
     {
       "name": "Enter the Warioverse",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 594,
       "weeklyViewCount": 176,
-      "installCount": 758,
-      "weeklyInstallCount": 240
+      "installCount": 759,
+      "weeklyInstallCount": 241
     },
     {
       "name": "Only Timber Hearth",
@@ -2355,8 +2355,8 @@
       "repoVariations": [],
       "viewCount": 606,
       "weeklyViewCount": 158,
-      "installCount": 631,
-      "weeklyInstallCount": 167
+      "installCount": 633,
+      "weeklyInstallCount": 169
     },
     {
       "name": "Their Homeworld",
@@ -3148,8 +3148,8 @@
       "repoVariations": [],
       "viewCount": 136,
       "weeklyViewCount": 31,
-      "installCount": 150,
-      "weeklyInstallCount": 41
+      "installCount": 151,
+      "weeklyInstallCount": 42
     },
     {
       "name": "Changed Twins",
@@ -3379,8 +3379,8 @@
       "repoVariations": [],
       "viewCount": 102,
       "weeklyViewCount": 25,
-      "installCount": 330,
-      "weeklyInstallCount": 89
+      "installCount": 332,
+      "weeklyInstallCount": 91
     },
     {
       "name": "Hatchling Outfitter",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 754,
       "weeklyViewCount": 185,
-      "installCount": 492,
-      "weeklyInstallCount": 130
+      "installCount": 494,
+      "weeklyInstallCount": 132
     },
     {
       "name": "Secret Words",
@@ -4799,8 +4799,8 @@
       "repoVariations": [],
       "viewCount": 3,
       "weeklyViewCount": 2,
-      "installCount": 0,
-      "weeklyInstallCount": 0
+      "installCount": 1,
+      "weeklyInstallCount": 1
     },
     {
       "name": "Espied Serenity",
@@ -6418,8 +6418,8 @@
       "repoVariations": [],
       "viewCount": 985,
       "weeklyViewCount": 241,
-      "installCount": 545,
-      "weeklyInstallCount": 152
+      "installCount": 546,
+      "weeklyInstallCount": 153
     },
     {
       "name": "Daylight Savings",
@@ -7918,8 +7918,8 @@
       ],
       "viewCount": 76,
       "weeklyViewCount": 24,
-      "installCount": 131,
-      "weeklyInstallCount": 40
+      "installCount": 133,
+      "weeklyInstallCount": 42
     },
     {
       "name": "Nomai Grand Prix",
@@ -8673,8 +8673,8 @@
       "repoVariations": [],
       "viewCount": 5,
       "weeklyViewCount": 2,
-      "installCount": 7,
-      "weeklyInstallCount": 4
+      "installCount": 8,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Simpler Times",
@@ -8880,8 +8880,8 @@
       "repoVariations": [],
       "viewCount": 228,
       "weeklyViewCount": 77,
-      "installCount": 192,
-      "weeklyInstallCount": 65
+      "installCount": 196,
+      "weeklyInstallCount": 69
     },
     {
       "name": "Astral Codec",
@@ -9899,8 +9899,8 @@
       "repoVariations": [],
       "viewCount": 5,
       "weeklyViewCount": 2,
-      "installCount": 19,
-      "weeklyInstallCount": 7
+      "installCount": 20,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Sand Control",
@@ -10298,8 +10298,8 @@
       "repoVariations": [],
       "viewCount": 296,
       "weeklyViewCount": 95,
-      "installCount": 152,
-      "weeklyInstallCount": 49
+      "installCount": 153,
+      "weeklyInstallCount": 50
     },
     {
       "name": "Outer Adventure 2",
@@ -11034,8 +11034,8 @@
       "repoVariations": [],
       "viewCount": 936,
       "weeklyViewCount": 224,
-      "installCount": 374,
-      "weeklyInstallCount": 99
+      "installCount": 375,
+      "weeklyInstallCount": 100
     },
     {
       "name": "Forgotten Castaways",
