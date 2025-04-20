@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 143267
+    "downloadCount": 143270
   },
   "releases": [
     {
@@ -187,8 +187,8 @@
       "repoVariations": [],
       "viewCount": 217,
       "weeklyViewCount": 53,
-      "installCount": 178,
-      "weeklyInstallCount": 51
+      "installCount": 179,
+      "weeklyInstallCount": 52
     },
     {
       "name": "Crouch Mod",
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "The story mod creation framework for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.28.0/xen.NewHorizons.zip",
-      "downloadCount": 86180,
-      "latestReleaseDate": "2025-04-19T04:43:42Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.28.1/xen.NewHorizons.zip",
+      "downloadCount": 86185,
+      "latestReleaseDate": "2025-04-20T02:43:25Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.28.0",
+      "version": "v1.28.1",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, and friends",
-      "latestReleaseDescription": "## Major features\r\n\r\n- Added a new `forces` sub-module to the `Volumes` planet module with new volume types for the various force volumes available in the game, including `directionalVolumes` (used by Nomai gravity crystals and anti-gravity surfaces) and `cylindricalVolumes` (used by the rings on the Construction Yard island), as well as `gravityVolumes`, `polarVolumes`, and `radialVolumes`. Resolves #1041\r\n\r\n## Minor features\r\n- Added additional `gameOver` settings for custom music and credits length: `audio`, `audioVolume`, `audioLooping` and `length` (thanks Smuffy @josshmot!)\r\n- Added `raftDocks` to `Props` module. An easier way to spawn in docks for rafts.\r\n- Added `dockPath` to `RaftInfo`. This is a path to the dock the raft will start attached to.\r\n- Added `pristine` boolean to `RaftInfo`. Makes the raft use the Dreamworld model.\r\n- Added `speedLimiterVolumes` to `Volumes` module. This is the same thing the Stranger uses to slow you down.\r\n- All volumes now support shapes other than the default sphere via the new `shape` property, such as boxes, capsules, cylinders, hemispheres, and more.\r\n- All volumes now have `rotation` and `alignRadial` fields, allowing for non-spherical shapes to be rotated, and for `revealVolumes` to be pointed in other directions for the `maxAngle` check.\r\n \r\n## Improvements\r\n- Standing vision torch now shows up in tronworld\r\n- Standing vision torch can use the dreamworld model with `slideCondition` property set to `pristine`. (resolves #1080)\r\n\r\n## Bug fixes\r\n- Fixed a bug that didn't allow comet tails to be made on unmoved vanilla planets/moons.\r\n- Fixed a bug where atmospheres on the Dreamworld were visible at all times (affected Hazy Dreams)\r\n- Specific objects copied from the Stranger no longer vanish when the dam breaks\r\n- NH-made rafts no longer skip a node when riding on the Dam's raft carrier. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1071**",
+      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Change volumes back to using shapes by default (not colliders) else they get disabled when put on held items (affected one mod but somehow not another mod)\r\n- Fixed bug where volume radius gets ignored if you define a sphere shape \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1088**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-04-20T02:36:51Z",
-      "databaseEntryUpdatedAt": "2025-04-20T03:10:49.110Z",
+      "repoUpdatedAt": "2025-04-20T04:23:42Z",
+      "databaseEntryUpdatedAt": "2025-04-20T04:30:38.300Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -3246,8 +3246,8 @@
       "repoVariations": [],
       "viewCount": 36,
       "weeklyViewCount": 10,
-      "installCount": 36,
-      "weeklyInstallCount": 19
+      "installCount": 37,
+      "weeklyInstallCount": 20
     },
     {
       "name": "Less Lonely Ship",
@@ -3476,8 +3476,8 @@
       "repoVariations": [],
       "viewCount": 135,
       "weeklyViewCount": 24,
-      "installCount": 92,
-      "weeklyInstallCount": 27
+      "installCount": 93,
+      "weeklyInstallCount": 28
     },
     {
       "name": "Better Model Ship",
@@ -6418,8 +6418,8 @@
       "repoVariations": [],
       "viewCount": 998,
       "weeklyViewCount": 256,
-      "installCount": 559,
-      "weeklyInstallCount": 156
+      "installCount": 560,
+      "weeklyInstallCount": 157
     },
     {
       "name": "Daylight Savings",
@@ -8065,8 +8065,8 @@
       ],
       "viewCount": 442,
       "weeklyViewCount": 125,
-      "installCount": 286,
-      "weeklyInstallCount": 90
+      "installCount": 287,
+      "weeklyInstallCount": 91
     },
     {
       "name": "The Survivors",
@@ -10298,8 +10298,8 @@
       "repoVariations": [],
       "viewCount": 298,
       "weeklyViewCount": 105,
-      "installCount": 158,
-      "weeklyInstallCount": 54
+      "installCount": 160,
+      "weeklyInstallCount": 56
     },
     {
       "name": "Outer Adventure 2",
