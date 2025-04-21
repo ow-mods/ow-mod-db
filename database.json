@@ -154,8 +154,8 @@
       "repoVariations": [],
       "viewCount": 272,
       "weeklyViewCount": 76,
-      "installCount": 242,
-      "weeklyInstallCount": 56
+      "installCount": 243,
+      "weeklyInstallCount": 57
     },
     {
       "name": "FreeCam",
@@ -1260,44 +1260,6 @@
       "weeklyInstallCount": 2
     },
     {
-      "name": "Smol Hatchling",
-      "uniqueName": "Owen013.TeenyHatchling",
-      "description": "A tool for resizing the Player, Anglerfish, Inhabitants, and more in Outer Wilds!",
-      "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0/Owen013.TeenyHatchling.zip",
-      "downloadCount": 2180,
-      "latestReleaseDate": "2024-10-19T16:07:22Z",
-      "firstReleaseDate": "2021-12-22T22:19:44Z",
-      "repo": "https://github.com/Owen013/Smol-Hatchling",
-      "version": "v2.0.0",
-      "readme": {
-        "htmlUrl": "https://github.com/Owen013/Smol-Hatchling/blob/main/readme.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Owen013/Smol-Hatchling/main/readme.md"
-      },
-      "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "# Smol Hatchling 2.0: Outer Wilds Scale Manipulator\r\nSmol Hatchling has been remade from the ground up! Smol Hatchling can now be used not only by players who want to experience Outer Wilds from many different scales, but by other mod developers who may want to resize the player or other things in their mods.\r\n\r\n## Features\r\n\r\n### Customizable Scale for the Player, Anglerfish, the Stranger's Inhabitants, and more!\r\nWith Smol Hatchling, you can set the player character to any size you want; smaller than a marshmallow, bigger than the solar system, or anywhere in between!\r\n\r\nIt even comes with hotkeys you can use to change your scale on the fly: press the \"<\" key to divide your size by two, \">\" to multiply it by two, and \"/\" to return to normal. Player properties such as their collider size, grounded raycasts, and speed are automatically tweaked to work with the Player being resized.\r\n\r\nSmol Hatchling can be used to resize **any object** in the game. All moving creatures will have their movement speed and other attributes adjusted as well so it makes sense compared to their size! I'm planning to add adjustments for other types of objects in the future so that they will also be fully functional at different sizes!\r\n\r\nNote: Custom Player Scale must be enabled in the config menu prior to use. Otherwise, Smol Hatchling will automatically use the default player scale or the scale set by other mods.\r\n\r\n### API for use by other Mods\r\nSmol Hatchling comes with an API that other mods can use to resize the Player or other objects!",
-      "latestPrereleaseDescription": "**This is a prerelease**\r\n\r\nThis prerelease adds the different character attributes for story mode! In this, your speed and jump height are reduced slightly, which is one of the gameplay changes in story mode. You will occasionally have to use stools to get to places where a normal-sized Hearthian could simply jump! This is **enabled** by default but can be turned off in the config menu.\r\n\r\nThis is compatible with Hiker's Mod via the addon, but you will have to opt into the v1.1.0-pr1 prerelease for the addon in order for it to work properly.",
-      "prerelease": {
-        "version": "v2.0.0-pr2",
-        "downloadUrl": "https://github.com/Owen013/Smol-Hatchling/releases/download/v2.0.0-pr2/Owen013.TeenyHatchling.zip",
-        "date": "2023-04-05T20:30:42Z"
-      },
-      "tags": [
-        "gameplay"
-      ],
-      "slug": "smolhatchling",
-      "thumbnail": {
-        "main": "smolhatchling.webp"
-      },
-      "repoUpdatedAt": "2024-10-19T16:20:44Z",
-      "databaseEntryUpdatedAt": "2025-04-21T07:43:57.591Z",
-      "repoVariations": [],
-      "viewCount": 17,
-      "weeklyViewCount": 6,
-      "installCount": 18,
-      "weeklyInstallCount": 4
-    },
-    {
       "name": "Hiker's Mod",
       "uniqueName": "Owen013.MovementMod",
       "description": "Sprinting, instant jumping, customizable player stats, and other movement features.",
@@ -1590,8 +1552,8 @@
       "repoVariations": [],
       "viewCount": 227,
       "weeklyViewCount": 101,
-      "installCount": 222,
-      "weeklyInstallCount": 105
+      "installCount": 223,
+      "weeklyInstallCount": 106
     },
     {
       "name": "Astroneer Solar System",
