@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 143470
+    "downloadCount": 143471
   },
   "releases": [
     {
@@ -122,8 +122,8 @@
       ],
       "viewCount": 2525,
       "weeklyViewCount": 745,
-      "installCount": 2133,
-      "weeklyInstallCount": 538
+      "installCount": 2137,
+      "weeklyInstallCount": 542
     },
     {
       "name": "Light Bramble",
@@ -154,8 +154,8 @@
       "repoVariations": [],
       "viewCount": 253,
       "weeklyViewCount": 46,
-      "installCount": 227,
-      "weeklyInstallCount": 65
+      "installCount": 228,
+      "weeklyInstallCount": 66
     },
     {
       "name": "FreeCam",
@@ -481,8 +481,8 @@
       "repoVariations": [],
       "viewCount": 659,
       "weeklyViewCount": 200,
-      "installCount": 436,
-      "weeklyInstallCount": 107
+      "installCount": 437,
+      "weeklyInstallCount": 108
     },
     {
       "name": "Difficulty Mod",
@@ -737,17 +737,17 @@
       "uniqueName": "xen.ThirdPersonCamera",
       "description": "A third-person camera for Outer Wilds.",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.1.1/xen.ThirdPersonCamera.zip",
-      "downloadCount": 5429,
-      "latestReleaseDate": "2024-01-02T21:27:48Z",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.2.0/xen.ThirdPersonCamera.zip",
+      "downloadCount": 5430,
+      "latestReleaseDate": "2025-05-10T20:59:58Z",
       "firstReleaseDate": "2021-11-16T19:46:51Z",
       "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
-      "version": "v2.1.1",
+      "version": "v2.2.0",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-third-person-camera/main/README.md"
       },
-      "latestReleaseDescription": "- Add Patreon donation link to mod manifest",
+      "latestReleaseDescription": "- Fixed a bug where quitting to main menu while in 3rd person makes you levitate on the ground unable to move when you reload.\r\n- Added translation support for options and button prompts\r\n- Added French translations (probably bad)\r\n- Added option to hide/show button prompts and also checks the base game button prompt setting (thanks Owen for the PR that I forgot about for 1 year)",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -756,8 +756,8 @@
       "thumbnail": {
         "main": "thirdpersoncamera.webp"
       },
-      "repoUpdatedAt": "2025-05-10T20:59:05Z",
-      "databaseEntryUpdatedAt": "2025-05-10T21:00:59.070Z",
+      "repoUpdatedAt": "2025-05-10T21:06:47Z",
+      "databaseEntryUpdatedAt": "2025-05-10T21:24:21.620Z",
       "repoVariations": [],
       "viewCount": 202,
       "weeklyViewCount": 45,
@@ -918,8 +918,8 @@
       "repoVariations": [],
       "viewCount": 293,
       "weeklyViewCount": 65,
-      "installCount": 251,
-      "weeklyInstallCount": 65
+      "installCount": 252,
+      "weeklyInstallCount": 66
     },
     {
       "name": "Unity Explorer",
@@ -955,8 +955,8 @@
       "repoVariations": [],
       "viewCount": 57,
       "weeklyViewCount": 18,
-      "installCount": 39,
-      "weeklyInstallCount": 13
+      "installCount": 40,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Half-Life Overhaul",
@@ -1330,8 +1330,8 @@
       "repoVariations": [],
       "viewCount": 40,
       "weeklyViewCount": 12,
-      "installCount": 69,
-      "weeklyInstallCount": 22
+      "installCount": 70,
+      "weeklyInstallCount": 23
     },
     {
       "name": "Signals+",
@@ -1655,8 +1655,8 @@
       "repoVariations": [],
       "viewCount": 50,
       "weeklyViewCount": 11,
-      "installCount": 72,
-      "weeklyInstallCount": 20
+      "installCount": 73,
+      "weeklyInstallCount": 21
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -2896,8 +2896,8 @@
       "repoVariations": [],
       "viewCount": 167,
       "weeklyViewCount": 51,
-      "installCount": 190,
-      "weeklyInstallCount": 61
+      "installCount": 191,
+      "weeklyInstallCount": 62
     },
     {
       "name": "Supernova On Demand",
@@ -3118,8 +3118,8 @@
       "repoVariations": [],
       "viewCount": 21,
       "weeklyViewCount": 5,
-      "installCount": 26,
-      "weeklyInstallCount": 7
+      "installCount": 27,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Time Saver",
@@ -3312,8 +3312,8 @@
       "repoVariations": [],
       "viewCount": 18,
       "weeklyViewCount": 3,
-      "installCount": 18,
-      "weeklyInstallCount": 3
+      "installCount": 19,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Backer's satellite signal",
@@ -3765,8 +3765,8 @@
       "repoVariations": [],
       "viewCount": 9,
       "weeklyViewCount": 2,
-      "installCount": 4,
-      "weeklyInstallCount": 0
+      "installCount": 5,
+      "weeklyInstallCount": 1
     },
     {
       "name": "No Sun",
@@ -4307,8 +4307,8 @@
       "repoVariations": [],
       "viewCount": 20,
       "weeklyViewCount": 5,
-      "installCount": 13,
-      "weeklyInstallCount": 3
+      "installCount": 14,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Chargeable Scout Launcher",
@@ -4620,8 +4620,8 @@
       ],
       "viewCount": 110,
       "weeklyViewCount": 26,
-      "installCount": 67,
-      "weeklyInstallCount": 17
+      "installCount": 68,
+      "weeklyInstallCount": 18
     },
     {
       "name": "Spaceshipinha",
@@ -5032,8 +5032,8 @@
       "repoVariations": [],
       "viewCount": 28,
       "weeklyViewCount": 4,
-      "installCount": 58,
-      "weeklyInstallCount": 13
+      "installCount": 59,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Custom Ship Log Modes",
@@ -6418,8 +6418,8 @@
       "repoVariations": [],
       "viewCount": 1547,
       "weeklyViewCount": 720,
-      "installCount": 898,
-      "weeklyInstallCount": 367
+      "installCount": 899,
+      "weeklyInstallCount": 368
     },
     {
       "name": "Daylight Savings",
@@ -7145,8 +7145,8 @@
       "repoVariations": [],
       "viewCount": 72,
       "weeklyViewCount": 29,
-      "installCount": 102,
-      "weeklyInstallCount": 36
+      "installCount": 103,
+      "weeklyInstallCount": 37
     },
     {
       "name": "Mod Data Tools",
@@ -7709,8 +7709,8 @@
       "repoVariations": [],
       "viewCount": 36,
       "weeklyViewCount": 14,
-      "installCount": 14,
-      "weeklyInstallCount": 5
+      "installCount": 15,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Slip 'N Slide",
@@ -8916,8 +8916,8 @@
       "repoVariations": [],
       "viewCount": 748,
       "weeklyViewCount": 226,
-      "installCount": 591,
-      "weeklyInstallCount": 193
+      "installCount": 593,
+      "weeklyInstallCount": 195
     },
     {
       "name": "Mod Jam 3",
@@ -11034,8 +11034,8 @@
       "repoVariations": [],
       "viewCount": 1144,
       "weeklyViewCount": 289,
-      "installCount": 555,
-      "weeklyInstallCount": 174
+      "installCount": 556,
+      "weeklyInstallCount": 175
     },
     {
       "name": "Forgotten Castaways",
