@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 143529
+    "downloadCount": 143530
   },
   "releases": [
     {
@@ -31,7 +31,9 @@
         "library"
       ],
       "slug": "owml",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "owml.webp"
+      },
       "repoUpdatedAt": "2025-05-07T13:38:31Z",
       "databaseEntryUpdatedAt": "2025-05-15T17:56:59.938Z",
       "repoVariations": [],
@@ -471,7 +473,9 @@
         "tool"
       ],
       "slug": "cheatsmod",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "cheatsmod.webp"
+      },
       "repoUpdatedAt": "2025-04-08T19:56:23Z",
       "databaseEntryUpdatedAt": "2025-05-15T11:20:14.180Z",
       "repoVariations": [],
@@ -906,14 +910,16 @@
         "requires-dlc"
       ],
       "slug": "eotebrighterdreams",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "eotebrighterdreams.webp"
+      },
       "repoUpdatedAt": "2025-02-17T03:21:17Z",
       "databaseEntryUpdatedAt": "2025-05-15T11:20:14.180Z",
       "repoVariations": [],
       "viewCount": 316,
       "weeklyViewCount": 80,
-      "installCount": 254,
-      "weeklyInstallCount": 65
+      "installCount": 255,
+      "weeklyInstallCount": 66
     },
     {
       "name": "Unity Explorer",
@@ -1068,7 +1074,9 @@
         "audiovisual"
       ],
       "slug": "majorasmasksmoon",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "majorasmasksmoon.webp"
+      },
       "repoUpdatedAt": "2022-01-17T15:12:52Z",
       "databaseEntryUpdatedAt": "2025-05-15T19:43:49.256Z",
       "repoVariations": [],
@@ -1083,7 +1091,7 @@
       "description": "The story mod creation framework for Outer Wilds.",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.28.2/xen.NewHorizons.zip",
-      "downloadCount": 89493,
+      "downloadCount": 89539,
       "latestReleaseDate": "2025-04-25T16:17:13Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1105,7 +1113,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2025-05-12T21:36:10Z",
-      "databaseEntryUpdatedAt": "2025-05-15T10:42:58.932Z",
+      "databaseEntryUpdatedAt": "2025-05-15T22:53:40.085Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -2847,7 +2855,9 @@
         "tweaks"
       ],
       "slug": "survivethesupernova",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "survivethesupernova.webp"
+      },
       "repoUpdatedAt": "2023-07-15T11:47:23Z",
       "databaseEntryUpdatedAt": "2025-05-15T19:43:51.269Z",
       "repoVariations": [],
@@ -3747,7 +3757,9 @@
         "content"
       ],
       "slug": "blackholesun",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "blackholesun.webp"
+      },
       "repoUpdatedAt": "2023-10-08T23:39:59Z",
       "databaseEntryUpdatedAt": "2025-05-15T19:43:51.865Z",
       "repoVariations": [],
@@ -3819,8 +3831,8 @@
       "repoVariations": [],
       "viewCount": 7,
       "weeklyViewCount": 1,
-      "installCount": 4,
-      "weeklyInstallCount": 2
+      "installCount": 5,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Ship Remote Autopilot",
@@ -4598,7 +4610,9 @@
         "content"
       ],
       "slug": "slatesshipyard",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "slatesshipyard.webp"
+      },
       "repoUpdatedAt": "2023-08-15T22:10:15Z",
       "databaseEntryUpdatedAt": "2025-05-15T19:43:52.752Z",
       "repoVariations": [
@@ -5078,7 +5092,9 @@
         "tweaks"
       ],
       "slug": "shiplogslidereelplayerplus",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "shiplogslidereelplayerplus.webp"
+      },
       "repoUpdatedAt": "2025-03-10T00:20:41Z",
       "databaseEntryUpdatedAt": "2025-05-15T16:19:49.264Z",
       "repoVariations": [],
@@ -5353,8 +5369,8 @@
       "repoVariations": [],
       "viewCount": 15,
       "weeklyViewCount": 0,
-      "installCount": 5,
-      "weeklyInstallCount": 2
+      "installCount": 6,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Dancin' Wilds Ventures",
@@ -5546,7 +5562,9 @@
         "tweaks"
       ],
       "slug": "trajectoryprediction",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "trajectoryprediction.webp"
+      },
       "repoUpdatedAt": "2024-10-29T06:16:23Z",
       "databaseEntryUpdatedAt": "2025-05-15T19:43:53.528Z",
       "repoVariations": [],
@@ -5676,7 +5694,9 @@
         "content"
       ],
       "slug": "solarsystemsimadeasakid",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "solarsystemsimadeasakid.webp"
+      },
       "repoUpdatedAt": "2023-01-07T16:29:14Z",
       "databaseEntryUpdatedAt": "2025-05-15T19:43:53.702Z",
       "repoVariations": [],
@@ -6096,7 +6116,9 @@
         "requires-dlc"
       ],
       "slug": "strangernightcycle",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "strangernightcycle.webp"
+      },
       "repoUpdatedAt": "2022-12-31T10:18:02Z",
       "databaseEntryUpdatedAt": "2025-05-15T19:43:54.079Z",
       "repoVariations": [],
@@ -7610,7 +7632,9 @@
         "story"
       ],
       "slug": "unnamedmystery",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "unnamedmystery.webp"
+      },
       "repoUpdatedAt": "2024-09-10T23:53:15Z",
       "databaseEntryUpdatedAt": "2025-05-15T15:52:06.046Z",
       "repoVariations": [],
@@ -7685,8 +7709,8 @@
       "repoVariations": [],
       "viewCount": 24,
       "weeklyViewCount": 4,
-      "installCount": 12,
-      "weeklyInstallCount": 4
+      "installCount": 13,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Slip 'N Slide",
@@ -8011,7 +8035,7 @@
       "author": "GameWyrm",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/GameWyrm/HearthsNeighbor/releases/download/v1.1.0/GameWyrm.HearthsNeighbor.zip",
-      "downloadCount": 8326,
+      "downloadCount": 8329,
       "latestReleaseDate": "2025-04-10T04:53:50Z",
       "firstReleaseDate": "2023-07-16T06:20:35Z",
       "repo": "https://github.com/GameWyrm/HearthsNeighbor",
@@ -8034,8 +8058,8 @@
       "thumbnail": {
         "main": "hearthsneighbor.webp"
       },
-      "repoUpdatedAt": "2025-04-10T04:55:31Z",
-      "databaseEntryUpdatedAt": "2025-05-15T19:43:55.280Z",
+      "repoUpdatedAt": "2025-05-15T22:53:05Z",
+      "databaseEntryUpdatedAt": "2025-05-15T22:53:38.805Z",
       "repoVariations": [
         "https://github.com/GameWyrm/OuterWildsSummerJam"
       ],
@@ -9077,7 +9101,7 @@
       "author": "GameWyrm",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/GameWyrm/hearths-neighbor-2/releases/download/v1.1.4/GameWyrm.HearthsNeighbor2.zip",
-      "downloadCount": 4056,
+      "downloadCount": 4057,
       "latestReleaseDate": "2025-03-05T17:52:40Z",
       "firstReleaseDate": "2024-03-26T05:45:55Z",
       "repo": "https://github.com/GameWyrm/hearths-neighbor-2",
@@ -9100,8 +9124,8 @@
       "thumbnail": {
         "main": "hearthsneighbor2magistarium.webp"
       },
-      "repoUpdatedAt": "2025-05-07T06:09:52Z",
-      "databaseEntryUpdatedAt": "2025-05-15T20:58:42.091Z",
+      "repoUpdatedAt": "2025-05-15T22:53:29Z",
+      "databaseEntryUpdatedAt": "2025-05-15T22:53:38.804Z",
       "repoVariations": [],
       "viewCount": 193,
       "weeklyViewCount": 54,
@@ -9583,8 +9607,8 @@
       "repoVariations": [],
       "viewCount": 27,
       "weeklyViewCount": 7,
-      "installCount": 17,
-      "weeklyInstallCount": 5
+      "installCount": 18,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Expedition Takeoff",
@@ -10102,7 +10126,9 @@
         "gameplay"
       ],
       "slug": "ernestochase",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "ernestochase.webp"
+      },
       "repoUpdatedAt": "2025-02-06T22:58:14Z",
       "databaseEntryUpdatedAt": "2025-05-15T15:52:06.433Z",
       "repoVariations": [],
@@ -10237,8 +10263,8 @@
       "repoVariations": [],
       "viewCount": 57,
       "weeklyViewCount": 13,
-      "installCount": 52,
-      "weeklyInstallCount": 17
+      "installCount": 53,
+      "weeklyInstallCount": 18
     },
     {
       "name": "Ship Enhancements",
@@ -10272,8 +10298,8 @@
       "repoVariations": [],
       "viewCount": 322,
       "weeklyViewCount": 61,
-      "installCount": 171,
-      "weeklyInstallCount": 52
+      "installCount": 172,
+      "weeklyInstallCount": 53
     },
     {
       "name": "Outer Adventure 2",
@@ -10526,8 +10552,8 @@
       "repoVariations": [],
       "viewCount": 52,
       "weeklyViewCount": 8,
-      "installCount": 42,
-      "weeklyInstallCount": 9
+      "installCount": 43,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Lonesome Lake",
@@ -10697,7 +10723,9 @@
         "content"
       ],
       "slug": "thebox",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "thebox.webp"
+      },
       "repoUpdatedAt": "2024-11-05T04:11:12Z",
       "databaseEntryUpdatedAt": "2025-05-15T16:19:51.925Z",
       "repoVariations": [],
@@ -11006,8 +11034,8 @@
       "repoVariations": [],
       "viewCount": 1122,
       "weeklyViewCount": 209,
-      "installCount": 572,
-      "weeklyInstallCount": 170
+      "installCount": 573,
+      "weeklyInstallCount": 171
     },
     {
       "name": "Forgotten Castaways",
@@ -11143,8 +11171,8 @@
       "repoVariations": [],
       "viewCount": 52,
       "weeklyViewCount": 8,
-      "installCount": 12,
-      "weeklyInstallCount": 3
+      "installCount": 13,
+      "weeklyInstallCount": 4
     },
     {
       "name": "Ship Alarm",
@@ -11371,7 +11399,9 @@
         "tweaks"
       ],
       "slug": "alphafixes",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "alphafixes.webp"
+      },
       "repoUpdatedAt": "2022-05-31T00:54:03Z",
       "databaseEntryUpdatedAt": "2025-05-15T19:43:51.525Z",
       "repoVariations": [
