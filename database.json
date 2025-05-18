@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 143541
+    "downloadCount": 143542
   },
   "releases": [
     {
@@ -841,7 +841,9 @@
         "tool"
       ],
       "slug": "staticcamera",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "staticcamera.webp"
+      },
       "repoUpdatedAt": "2024-03-15T01:35:25Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:33.476Z",
       "repoVariations": [],
@@ -1038,7 +1040,9 @@
         "audiovisual"
       ],
       "slug": "outerthomasechoesofthetankengine",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "outerthomasechoesofthetankengine.webp"
+      },
       "repoUpdatedAt": "2022-05-20T07:08:12Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:33.768Z",
       "repoVariations": [],
@@ -1242,7 +1246,9 @@
         "content"
       ],
       "slug": "ellieplanets",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "ellieplanets.webp"
+      },
       "repoUpdatedAt": "2022-01-08T21:25:50Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:33.794Z",
       "repoVariations": [],
@@ -1410,7 +1416,9 @@
         "gameplay"
       ],
       "slug": "meteorlaunching",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "meteorlaunching.webp"
+      },
       "repoUpdatedAt": "2023-09-01T04:48:42Z",
       "databaseEntryUpdatedAt": "2025-05-17T21:29:02.275Z",
       "repoVariations": [],
@@ -1440,7 +1448,9 @@
         "gameplay"
       ],
       "slug": "slatesimulator",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "slatesimulator.webp"
+      },
       "repoUpdatedAt": "2022-06-16T19:44:27Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:33.391Z",
       "repoVariations": [],
@@ -1603,7 +1613,9 @@
         "content"
       ],
       "slug": "astroneersolarsystem",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "astroneersolarsystem.webp"
+      },
       "repoUpdatedAt": "2023-10-08T23:40:05Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:34.146Z",
       "repoVariations": [],
@@ -1957,7 +1969,9 @@
         "content"
       ],
       "slug": "incursionfinaldawn",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "incursionfinaldawn.webp"
+      },
       "repoUpdatedAt": "2022-05-30T21:12:41Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:33.858Z",
       "repoVariations": [],
@@ -2518,7 +2532,9 @@
         "content"
       ],
       "slug": "interstellargargantua",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "interstellargargantua.webp"
+      },
       "repoUpdatedAt": "2022-04-16T15:48:32Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:34.036Z",
       "repoVariations": [],
@@ -2742,7 +2758,9 @@
         "tweaks"
       ],
       "slug": "noend",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "noend.webp"
+      },
       "repoUpdatedAt": "2022-04-23T23:10:50Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:36.251Z",
       "repoVariations": [],
@@ -2868,7 +2886,9 @@
         "tweaks"
       ],
       "slug": "achievements",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "achievements.webp"
+      },
       "repoUpdatedAt": "2025-04-21T18:23:51Z",
       "databaseEntryUpdatedAt": "2025-05-18T04:53:45.621Z",
       "repoVariations": [],
@@ -3056,7 +3076,9 @@
         "content"
       ],
       "slug": "timbertwin",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "timbertwin.webp"
+      },
       "repoUpdatedAt": "2022-06-21T14:46:41Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:35.642Z",
       "repoVariations": [],
@@ -3182,9 +3204,7 @@
         "requires-dlc"
       ],
       "slug": "powerfailure",
-      "thumbnail": {
-        "main": "powerfailure.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-05-14T09:54:08Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:36.046Z",
       "repoVariations": [],
@@ -4209,7 +4229,9 @@
         "requires-dlc"
       ],
       "slug": "artifactlaser",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "artifactlaser.webp"
+      },
       "repoUpdatedAt": "2022-08-29T22:06:45Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:36.927Z",
       "repoVariations": [],
@@ -4578,7 +4600,9 @@
         "content"
       ],
       "slug": "slatesshipyard",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "slatesshipyard.webp"
+      },
       "repoUpdatedAt": "2023-08-15T22:10:15Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:37.505Z",
       "repoVariations": [
@@ -4822,7 +4846,9 @@
         "requires-dlc"
       ],
       "slug": "greenjetpack",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "greenjetpack.webp"
+      },
       "repoUpdatedAt": "2022-10-21T05:07:39Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:37.693Z",
       "repoVariations": [],
@@ -5188,7 +5214,9 @@
         "audiovisual"
       ],
       "slug": "alternatevoices",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "alternatevoices.webp"
+      },
       "repoUpdatedAt": "2025-04-19T08:14:43Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:38.117Z",
       "repoVariations": [],
@@ -6043,7 +6071,9 @@
         "tweaks"
       ],
       "slug": "nodotmod",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "nodotmod.webp"
+      },
       "repoUpdatedAt": "2024-07-23T04:44:44Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:39.457Z",
       "repoVariations": [],
@@ -9823,8 +9853,8 @@
       "repoVariations": [],
       "viewCount": 7,
       "weeklyViewCount": 2,
-      "installCount": 19,
-      "weeklyInstallCount": 6
+      "installCount": 20,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Sand Control",
@@ -10318,9 +10348,7 @@
         "requires-dlc"
       ],
       "slug": "outerwildsescaperoom",
-      "thumbnail": {
-        "main": "outerwildsescaperoom.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2025-03-02T00:13:15Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:42.285Z",
       "repoVariations": [],
@@ -10391,9 +10419,7 @@
         "story"
       ],
       "slug": "guardian",
-      "thumbnail": {
-        "main": "guardian.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2025-01-31T17:25:52Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:42.242Z",
       "repoVariations": [],
@@ -10468,9 +10494,7 @@
         "requires-dlc"
       ],
       "slug": "rootaccess",
-      "thumbnail": {
-        "main": "rootaccess.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2024-11-05T02:53:21Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:42.453Z",
       "repoVariations": [],
@@ -10538,9 +10562,7 @@
         "story"
       ],
       "slug": "luminaterra",
-      "thumbnail": {
-        "main": "luminaterra.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2024-12-31T02:07:57Z",
       "databaseEntryUpdatedAt": "2025-05-18T04:53:45.967Z",
       "repoVariations": [],
@@ -10848,9 +10870,7 @@
         "tweaks"
       ],
       "slug": "freedomunits",
-      "thumbnail": {
-        "main": "freedomunits.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2024-12-30T05:46:22Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:42.464Z",
       "repoVariations": [],
@@ -10968,7 +10988,7 @@
       "author": "coderCleric",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/coderCleric/DeepBramble/releases/download/v1.1.3/cleric.DeepBramble.zip",
-      "downloadCount": 1223,
+      "downloadCount": 1228,
       "latestReleaseDate": "2025-05-07T17:58:25Z",
       "firstReleaseDate": "2025-02-21T23:43:51Z",
       "repo": "https://github.com/coderCleric/DeepBramble",
@@ -10995,7 +11015,7 @@
         "main": "forgottencastaways.webp"
       },
       "repoUpdatedAt": "2025-05-13T05:43:50Z",
-      "databaseEntryUpdatedAt": "2025-05-17T19:40:46.462Z",
+      "databaseEntryUpdatedAt": "2025-05-18T07:52:34.755Z",
       "repoVariations": [],
       "viewCount": 405,
       "weeklyViewCount": 91,
@@ -11121,9 +11141,7 @@
         "gameplay"
       ],
       "slug": "shipalarm",
-      "thumbnail": {
-        "main": "shipalarm.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2025-05-03T15:38:22Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:42.616Z",
       "repoVariations": [],
@@ -11392,7 +11410,9 @@
         "gameplay"
       ],
       "slug": "navinha",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "navinha.webp"
+      },
       "repoUpdatedAt": "2022-06-01T00:19:12Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:35.956Z",
       "repoVariations": [
