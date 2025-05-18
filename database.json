@@ -70,9 +70,7 @@
         "integration"
       ],
       "slug": "nomaivr",
-      "thumbnail": {
-        "main": "nomaivr.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2025-04-29T07:18:25Z",
       "databaseEntryUpdatedAt": "2025-05-18T02:05:45.050Z",
       "repoVariations": [
@@ -179,7 +177,9 @@
         "tool"
       ],
       "slug": "freecam",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "freecam.webp"
+      },
       "repoUpdatedAt": "2025-01-18T17:45:54Z",
       "databaseEntryUpdatedAt": "2025-05-18T04:35:15.790Z",
       "repoVariations": [],
@@ -276,7 +276,9 @@
         "tool"
       ],
       "slug": "hdscreenshot",
-      "thumbnail": {},
+      "thumbnail": {
+        "main": "hdscreenshot.webp"
+      },
       "repoUpdatedAt": "2021-11-26T09:40:01Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:32.459Z",
       "repoVariations": [],
@@ -469,9 +471,7 @@
         "tool"
       ],
       "slug": "cheatsmod",
-      "thumbnail": {
-        "main": "cheatsmod.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2025-04-08T19:56:23Z",
       "databaseEntryUpdatedAt": "2025-05-18T02:05:44.473Z",
       "repoVariations": [],
@@ -2724,9 +2724,7 @@
         "tool"
       ],
       "slug": "360camera",
-      "thumbnail": {
-        "main": "360camera.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-03-04T10:44:09Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:34.544Z",
       "repoVariations": [],
@@ -2789,9 +2787,7 @@
         "requires-dlc"
       ],
       "slug": "nodambreak",
-      "thumbnail": {
-        "main": "nodambreak.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2023-09-13T17:50:43Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:35.933Z",
       "repoVariations": [],
@@ -2916,9 +2912,7 @@
         "tool"
       ],
       "slug": "supernovaondemand",
-      "thumbnail": {
-        "main": "supernovaondemand.webp"
-      },
+      "thumbnail": {},
       "repoUpdatedAt": "2022-04-29T13:08:54Z",
       "databaseEntryUpdatedAt": "2025-05-17T20:37:35.742Z",
       "repoVariations": [],
@@ -9199,8 +9193,8 @@
       "repoVariations": [],
       "viewCount": 14,
       "weeklyViewCount": 6,
-      "installCount": 41,
-      "weeklyInstallCount": 8
+      "installCount": 42,
+      "weeklyInstallCount": 9
     },
     {
       "name": "Echo Hike",
