@@ -187,8 +187,8 @@
       "repoVariations": [],
       "viewCount": 246,
       "weeklyViewCount": 52,
-      "installCount": 197,
-      "weeklyInstallCount": 50
+      "installCount": 198,
+      "weeklyInstallCount": 51
     },
     {
       "name": "Crouch Mod",
@@ -481,8 +481,8 @@
       "repoVariations": [],
       "viewCount": 631,
       "weeklyViewCount": 166,
-      "installCount": 403,
-      "weeklyInstallCount": 101
+      "installCount": 404,
+      "weeklyInstallCount": 102
     },
     {
       "name": "Difficulty Mod",
@@ -542,8 +542,8 @@
       "repoVariations": [],
       "viewCount": 106,
       "weeklyViewCount": 17,
-      "installCount": 91,
-      "weeklyInstallCount": 27
+      "installCount": 92,
+      "weeklyInstallCount": 28
     },
     {
       "name": "SlowTime",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 935,
       "weeklyViewCount": 201,
-      "installCount": 668,
-      "weeklyInstallCount": 152
+      "installCount": 669,
+      "weeklyInstallCount": 153
     },
     {
       "name": "Secret Words",
@@ -4933,8 +4933,8 @@
       "repoVariations": [],
       "viewCount": 205,
       "weeklyViewCount": 36,
-      "installCount": 93,
-      "weeklyInstallCount": 25
+      "installCount": 94,
+      "weeklyInstallCount": 26
     },
     {
       "name": "Heavy Sleeper",
@@ -8682,18 +8682,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.15/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 8332,
-      "latestReleaseDate": "2025-05-11T14:01:24Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.16/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 8334,
+      "latestReleaseDate": "2025-05-22T19:53:06Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.15",
+      "version": "v0.3.16",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- @RS-Mind 's \"Randomize Stranger Codes\" mod setting. This randomizes the Jammer Projection room code, the Abandoned Temple code, and the three Sealed Vault codes.\r\n- Made \"HN2: The Device\" logically reachable without \"Magistarium Engine Access Code\"\r\n- Made the \"DW: Endless Canyon Mural\" location logically reachable using Raft Docks Patch instead of Hidden Gorge Painting Code, since you can take the elevator up and walk directly to the mural without any projecting or extinguishing\r\n\t- This involved splitting the \"Endless Canyon\" logic region into \"Endless Canyon Start\" and \"Endless Canyon Lodge Bottom Floor\"\r\n- Fixed the \"double dream death link\" bug where having Death Link set to AllDeaths *and* dying in the dreamworld *and* being already dead irl would send 2 death links; now it will correctly send just 1 death link\r\n- Fixed the Probe Tracking Module entry showing vanilla coordinates in the Suit Log if you opened Suit Log before Ship Log\r\n- Updated OWML libraries for base game patch 16. As far as we know, nothing actually broke, but it can't hurt.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Fixed a bug that caused `randomize_coordinates: false` to break Suit Log integration. Thanks @hanophora, Useless and Fore772 for figuring this out.\r\n- Two small fixes from @RS-Mind for the \"Randomize Stranger Codes\" setting they added to 0.3.15. Now the randomized codes will never be all 0s, and if a multiworld has multiple OW slots each slot will now get different codes.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8708,8 +8708,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2025-05-22T19:44:59Z",
-      "databaseEntryUpdatedAt": "2025-05-22T19:49:39.047Z",
+      "repoUpdatedAt": "2025-05-22T19:54:53Z",
+      "databaseEntryUpdatedAt": "2025-05-22T20:11:55.963Z",
       "repoVariations": [],
       "viewCount": 490,
       "weeklyViewCount": 146,
@@ -8882,8 +8882,8 @@
       "repoVariations": [],
       "viewCount": 735,
       "weeklyViewCount": 163,
-      "installCount": 569,
-      "weeklyInstallCount": 142
+      "installCount": 572,
+      "weeklyInstallCount": 145
     },
     {
       "name": "Mod Jam 3",
@@ -8951,8 +8951,8 @@
       "repoVariations": [],
       "viewCount": 11,
       "weeklyViewCount": 1,
-      "installCount": 27,
-      "weeklyInstallCount": 6
+      "installCount": 28,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Granite's Invitation",
@@ -9312,8 +9312,8 @@
       "repoVariations": [],
       "viewCount": 59,
       "weeklyViewCount": 15,
-      "installCount": 45,
-      "weeklyInstallCount": 15
+      "installCount": 46,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Tripping and Clumsiness",
@@ -11308,8 +11308,8 @@
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 0,
-      "weeklyInstallCount": 0
+      "installCount": 1,
+      "weeklyInstallCount": 1
     }
   ],
   "alphaReleases": [
