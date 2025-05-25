@@ -481,8 +481,8 @@
       "repoVariations": [],
       "viewCount": 616,
       "weeklyViewCount": 153,
-      "installCount": 392,
-      "weeklyInstallCount": 88
+      "installCount": 393,
+      "weeklyInstallCount": 89
     },
     {
       "name": "Difficulty Mod",
@@ -2355,8 +2355,8 @@
       "repoVariations": [],
       "viewCount": 373,
       "weeklyViewCount": 92,
-      "installCount": 629,
-      "weeklyInstallCount": 133
+      "installCount": 630,
+      "weeklyInstallCount": 134
     },
     {
       "name": "Their Homeworld",
@@ -3148,8 +3148,8 @@
       "repoVariations": [],
       "viewCount": 125,
       "weeklyViewCount": 26,
-      "installCount": 152,
-      "weeklyInstallCount": 38
+      "installCount": 153,
+      "weeklyInstallCount": 39
     },
     {
       "name": "Changed Twins",
@@ -7749,6 +7749,48 @@
       "weeklyInstallCount": 3
     },
     {
+      "name": "Christmas Story",
+      "uniqueName": "hearth1an.ChristmasStory",
+      "description": "Story mod about Christmas adventures! Translations: EN, ZH, FR, JA, DE, IT, ES, RU, KO",
+      "author": "hearth1an",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v1.1.2/hearth1an.ChristmasStory.zip",
+      "downloadCount": 3644,
+      "latestReleaseDate": "2025-03-07T14:34:31Z",
+      "firstReleaseDate": "2023-06-22T20:22:57Z",
+      "repo": "https://github.com/hearth1an/hearth1an.ChristmasStory",
+      "version": "v1.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/hearth1an/hearth1an.ChristmasStory/main/README.md"
+      },
+      "authorDisplay": "hearth1an & xen",
+      "latestReleaseDescription": "- fixed japanese translation\r\n- korean translation added by Barirn",
+      "latestPrereleaseDescription": "- Added DLC check on start\r\n- Some translation fixes\r\n- Added slides made by Elwensà and me\r\n- Added music for slides\r\n\r\nFrom this point mod is ready for release, can do translations!",
+      "prerelease": {
+        "version": "v0.1.7",
+        "downloadUrl": "https://github.com/hearth1an/hearth1an.ChristmasStory/releases/download/v0.1.7/hearth1an.ChristmasStory.zip",
+        "date": "2023-06-22T19:46:50Z"
+      },
+      "tags": [
+        "content",
+        "story",
+        "requires-dlc"
+      ],
+      "slug": "christmasstory",
+      "thumbnail": {
+        "main": "christmasstory.webp",
+        "openGraph": "christmasstory-static.webp"
+      },
+      "repoUpdatedAt": "2025-03-07T14:40:28Z",
+      "databaseEntryUpdatedAt": "2025-05-25T14:16:28.799Z",
+      "repoVariations": [],
+      "viewCount": 67,
+      "weeklyViewCount": 21,
+      "installCount": 72,
+      "weeklyInstallCount": 13
+    },
+    {
       "name": "Icelandic Localization",
       "uniqueName": "Steini.IcelandicTranslation",
       "description": "Localizing Outer Wilds (Fjarlæg Firnindi) into Icelandic",
@@ -11236,18 +11278,18 @@
       "uniqueName": "Vambok.NomaiSky",
       "description": "A procedurally generated universe of near infinite possibilities",
       "author": "Vambok",
-      "downloadUrl": "https://github.com/Vambok/NomaiSky/releases/download/v0.2.0/Vambok.NomaiSky.zip",
-      "downloadCount": 91,
-      "latestReleaseDate": "2025-05-22T17:35:25Z",
+      "downloadUrl": "https://github.com/Vambok/NomaiSky/releases/download/v0.3.0/Vambok.NomaiSky.zip",
+      "downloadCount": 92,
+      "latestReleaseDate": "2025-05-25T14:07:53Z",
       "firstReleaseDate": "2025-05-22T17:35:25Z",
       "repo": "https://github.com/Vambok/NomaiSky",
-      "version": "v0.2.0",
+      "version": "v0.3.0",
       "readme": {
         "htmlUrl": "https://github.com/Vambok/NomaiSky/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vambok/NomaiSky/main/README.md"
       },
       "authorDisplay": "Vambok",
-      "latestReleaseDescription": "### First public beta release!\r\n\r\n_Outer Y lost a month of work to this crap so you might as well give it a try while waiting x)_",
+      "latestReleaseDescription": "### Changes:\r\n- Allowed previously visited systems to be rebuilt when the procedural generation is updated\r\n- Added a setting to choose whether to start the game in the last visited system, in the Outer Wilds, in a random system or in a distant random system\r\n- Added acknowledgments to new contributors! (thank you <3)\r\n\r\n### Bug fixes:\r\n- Fixed a bug where moon orbited very very very far from their planet (physics is important!)\r\n- Fixed the location of some jam mods systems (lore is important!)",
       "latestPrereleaseDescription": "First beta release!",
       "prerelease": {
         "version": "v0.1.0",
@@ -11261,8 +11303,8 @@
       "thumbnail": {
         "main": "nomaissky.webp"
       },
-      "repoUpdatedAt": "2025-05-25T13:11:46Z",
-      "databaseEntryUpdatedAt": "2025-05-25T13:21:59.154Z",
+      "repoUpdatedAt": "2025-05-25T14:09:07Z",
+      "databaseEntryUpdatedAt": "2025-05-25T14:16:28.565Z",
       "repoVariations": [],
       "viewCount": 169,
       "weeklyViewCount": 169,
