@@ -61,8 +61,11 @@ jobs:
       - name: Make database copy
         run: cp database/database.json previous-database.json
 
-      - name: Remove existing thumbnails
-        run: rm -rf database/thumbnails
+      # We used to remove existing thumbnails to avoid accumulating them forever,
+      # but sometimes that would mean deleting thumbnails for existing mods when something went wrong,
+      # so we don't do that anymore.
+      # - name: Remove existing thumbnails
+      #   run: rm -rf database/thumbnails
 
       - name: Fetch mod releases and manifests
         uses: ./actions/update-database
