@@ -24,10 +24,7 @@ export async function generateModThumbnail(
 ): Promise<ThumbnailInfo> {
   const rawImageFilePath =
     (await downloadImage(thumbnailUrl, slug)) ??
-    (await downloadImage(
-      await getFirstImageUrl(readmeUrl),
-      slug
-    ));
+    (await downloadImage(await getFirstImageUrl(readmeUrl), slug));
 
   if (rawImageFilePath == null) {
     console.log(`Failed to download any thumbnail for ${slug}`);
@@ -106,8 +103,16 @@ export function getRawContentUrl(readmeUrl: string) {
   return readmeUrl.replace(/\/(?!.*\/).+/, "");
 }
 
+function tryGetUrl(url: string): URL | null {
+  try {
+    return new URL(url);
+  } catch {
+    return null;
+  }
+}
+
 export async function getFirstImageUrl(
-  readmeUrl: string,
+  readmeUrl: string
 ): Promise<string | null> {
   const markdown = await getReadmeMarkdown(readmeUrl);
   const baseUrl = getRawContentUrl(readmeUrl);
@@ -119,18 +124,17 @@ export async function getFirstImageUrl(
   let event;
   while ((event = walker.next())) {
     const node = event.node;
-    if (
-      node.type === "image" &&
-      node.destination &&
-      !node.destination.endsWith(".svg") &&
-      !node.destination.startsWith("https://img.shields.io/") &&
-      !node.destination.startsWith("http://img.shields.io/")
-    ) {
-      const imageUrl = node.destination;
+    if (node.type !== "image" || !node.destination) continue;
 
-      const fullUrl = imageUrl.startsWith("http")
+    const imageUrl = tryGetUrl(node.destination);
+
+    if (
+      !imageUrl?.pathname.endsWith(".svg") &&
+      imageUrl?.host !== "img.shields.io"
+    ) {
+      const fullUrl = imageUrl
         ? // GitHub allows embedding images that actually point to webpages on github.com, so we have to replace the URLs here
-          imageUrl.replace(
+          node.destination.replace(
             /^https?:\/\/github.com\/(.+)\/(.+)\/blob\/(.+)\//gm,
             `${GITHUB_RAW_CONTENT_URL}/$1/$2/$3/`
           )
@@ -152,23 +156,23 @@ async function downloadImage(
 
   try {
     const response = await fetch(imageUrl);
-    
+
     if (!response.ok) {
       return null;
     }
-    
+
     const temporaryDirectory = "tmp/raw-thumbnails";
-    
+
     if (!fs.existsSync(temporaryDirectory)) {
       await fsp.mkdir(temporaryDirectory, { recursive: true });
     }
-    
+
     const relativeImagePath = `${temporaryDirectory}/${fileName}`;
     const fullImagePath = getPath(relativeImagePath);
-    
+
     const image = await response.arrayBuffer();
     await fsp.writeFile(fullImagePath, Buffer.from(image));
-    
+
     return fullImagePath;
   } catch (error) {
     console.error(`Failed to download image from url ${imageUrl}: ${error}`);
