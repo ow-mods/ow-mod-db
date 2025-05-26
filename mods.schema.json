@@ -40,10 +40,6 @@
             "type": "boolean",
             "description": "True if this mod isn't useful by itself, and only serves as a dependency for other mods."
           },
-          "thumbnailUrl": {
-            "type": "string",
-            "description": "Full URL to a thumbnail image that will be used on the website and mod manager. Ideally in a 3:1 ratio (example: 900 by 300 pixels)"
-          },
           "authorDisplay": {
             "type": "string",
             "description": "Custom name to show in the author field for this mod. Useful if your mod is in an organization, or made by multiple people. Leave blank to use the repository owner name."
@@ -87,7 +83,7 @@
             "type": "array",
             "description": "List of previous GitHub repository names. Used for merging download count history. Do not use if current repo is fork of original repo.",
             "items": {"type": "string"}
-          }
+          },
         }
       }
     }
