@@ -18,23 +18,16 @@ type ThumbnailInfo = {
 
 export async function generateModThumbnail(
   slug: string,
+  thumbnailUrl: string | undefined,
   readmeUrl: string,
   outputDirectory: string
 ): Promise<ThumbnailInfo> {
-  const readme = await getReadmeMarkdown(readmeUrl);
-
-  if (!readme) {
-    return {};
-  }
-
-  const firstImageUrl = getFirstImageUrl(readme, getRawContentUrl(readmeUrl));
-
-  if (firstImageUrl == null) return {};
-
-  const rawImageFilePath = await downloadImage(firstImageUrl, slug);
+  const rawImageFilePath =
+    (await downloadImage(thumbnailUrl, slug)) ??
+    (await downloadImage(await getFirstImageUrl(readmeUrl), slug));
 
   if (rawImageFilePath == null) {
-    console.log(`Failed to download image ${firstImageUrl} for ${slug}`);
+    console.log(`Failed to download any thumbnail for ${slug}`);
     return {};
   }
 
@@ -110,10 +103,20 @@ export function getRawContentUrl(readmeUrl: string) {
   return readmeUrl.replace(/\/(?!.*\/).+/, "");
 }
 
-export function getFirstImageUrl(
-  markdown: string,
-  baseUrl: string
-): string | null {
+function tryGetUrl(url: string): URL | null {
+  try {
+    return new URL(url);
+  } catch {
+    return null;
+  }
+}
+
+export async function getFirstImageUrl(
+  readmeUrl: string
+): Promise<string | null> {
+  const markdown = await getReadmeMarkdown(readmeUrl);
+  const baseUrl = getRawContentUrl(readmeUrl);
+
   if (!markdown) return null;
 
   const parsed = new Parser().parse(markdown);
@@ -121,18 +124,17 @@ export function getFirstImageUrl(
   let event;
   while ((event = walker.next())) {
     const node = event.node;
-    if (
-      node.type === "image" &&
-      node.destination &&
-      !node.destination.endsWith(".svg") &&
-      !node.destination.startsWith("https://img.shields.io/") &&
-      !node.destination.startsWith("http://img.shields.io/")
-    ) {
-      const imageUrl = node.destination;
+    if (node.type !== "image" || !node.destination) continue;
 
-      const fullUrl = imageUrl.startsWith("http")
+    const imageUrl = tryGetUrl(node.destination);
+
+    if (
+      !imageUrl?.pathname.endsWith(".svg") &&
+      imageUrl?.host !== "img.shields.io"
+    ) {
+      const fullUrl = imageUrl
         ? // GitHub allows embedding images that actually point to webpages on github.com, so we have to replace the URLs here
-          imageUrl.replace(
+          node.destination.replace(
             /^https?:\/\/github.com\/(.+)\/(.+)\/blob\/(.+)\//gm,
             `${GITHUB_RAW_CONTENT_URL}/$1/$2/$3/`
           )
@@ -146,27 +148,34 @@ export function getFirstImageUrl(
   return null;
 }
 
-export async function downloadImage(
-  imageUrl: string,
+async function downloadImage(
+  imageUrl: string | undefined | null,
   fileName: string
 ): Promise<string | null> {
-  const response = await fetch(imageUrl);
+  if (!imageUrl) return null;
 
-  if (!response.ok) {
+  try {
+    const response = await fetch(imageUrl);
+
+    if (!response.ok) {
+      return null;
+    }
+
+    const temporaryDirectory = "tmp/raw-thumbnails";
+
+    if (!fs.existsSync(temporaryDirectory)) {
+      await fsp.mkdir(temporaryDirectory, { recursive: true });
+    }
+
+    const relativeImagePath = `${temporaryDirectory}/${fileName}`;
+    const fullImagePath = getPath(relativeImagePath);
+
+    const image = await response.arrayBuffer();
+    await fsp.writeFile(fullImagePath, Buffer.from(image));
+
+    return fullImagePath;
+  } catch (error) {
+    console.error(`Failed to download image from url ${imageUrl}: ${error}`);
     return null;
   }
-
-  const temporaryDirectory = "tmp/raw-thumbnails";
-
-  if (!fs.existsSync(temporaryDirectory)) {
-    await fsp.mkdir(temporaryDirectory, { recursive: true });
-  }
-
-  const relativeImagePath = `${temporaryDirectory}/${fileName}`;
-  const fullImagePath = getPath(relativeImagePath);
-
-  const image = await response.arrayBuffer();
-  await fsp.writeFile(fullImagePath, Buffer.from(image));
-
-  return fullImagePath;
 }

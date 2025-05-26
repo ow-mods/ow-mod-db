@@ -20,6 +20,7 @@ type IssueForm = {
   name?: string;
   uniqueName?: string;
   repoUrl?: string;
+  thumbnailUrl?: string;
   alpha?: string;
   dlc?: string;
   utility?: string;
@@ -39,6 +40,7 @@ async function run() {
     dlc,
     authorDisplay,
     tags,
+    thumbnailUrl,
   }: IssueForm = JSON.parse(core.getInput(Input.form));
 
   if (!name || !repoUrl || !uniqueName) {
@@ -89,6 +91,10 @@ async function run() {
     newMod.tags.push("requires-dlc");
   }
 
+  if (thumbnailUrl) {
+    newMod.thumbnailUrl = thumbnailUrl;
+  }
+
   const existingMod = mods.find(
     (modFromList) => uniqueName === modFromList.uniqueName
   );
@@ -101,6 +107,7 @@ async function run() {
     existingMod.alpha = newMod.alpha;
     existingMod.authorDisplay = newMod.authorDisplay;
     existingMod.tags = newMod.tags;
+    existingMod.thumbnailUrl = newMod.thumbnailUrl;
   }
 
   const newModDb: ModList = {
