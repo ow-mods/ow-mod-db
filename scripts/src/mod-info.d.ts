@@ -7,7 +7,6 @@ export type ModInfo = {
   name: string;
   uniqueName: string;
   repo: string;
-  thumbnailUrl?: string;
   alpha?: boolean;
   required?: boolean;
   utility?: boolean;

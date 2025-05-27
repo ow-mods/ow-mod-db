@@ -60,7 +60,6 @@ export async function fetchMods(
             readme && readme.downloadUrl
               ? await generateModThumbnail(
                   slug,
-                  modInfo.thumbnailUrl,
                   readme.downloadUrl,
                   outputDirectory
                 )
