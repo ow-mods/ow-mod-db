@@ -19,7 +19,7 @@ type ThumbnailInfo = {
 export async function generateModThumbnail(
   slug: string,
   thumbnailUrl: string | undefined,
-  readmeUrl: string,
+  readmeUrl: string | undefined,
   outputDirectory: string
 ): Promise<ThumbnailInfo> {
   const rawImageFilePath =
@@ -112,8 +112,10 @@ function tryGetUrl(url: string): URL | null {
 }
 
 export async function getFirstImageUrl(
-  readmeUrl: string
+  readmeUrl: string | undefined
 ): Promise<string | null> {
+  if (!readmeUrl) return null;
+
   const markdown = await getReadmeMarkdown(readmeUrl);
   const baseUrl = getRawContentUrl(readmeUrl);
 
