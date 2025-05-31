@@ -56,14 +56,14 @@ export async function fetchMods(
 
           const slug = modInfo.name.replace(/\W/g, "").toLowerCase();
 
-          const thumbnailInfo =
-            readme && readme.downloadUrl
-              ? await generateModThumbnail(
-                  slug,
-                  readme.downloadUrl,
-                  outputDirectory
-                )
-              : {};
+          const thumbnailInfo = requiresUpdate
+            ? await generateModThumbnail(
+                slug,
+                modInfo.thumbnailUrl,
+                readme?.downloadUrl,
+                outputDirectory
+              )
+            : previousMod.thumbnail;
 
           const repoURL = `${REPO_URL_BASE}/${modInfo.repo}`;
           const repoVariations = modInfo.repoVariations
@@ -82,7 +82,7 @@ export async function fetchMods(
               repo: repoURL,
               authorDisplay: modInfo.authorDisplay,
               tags: modInfo.tags,
-              thumbnail: thumbnailInfo ?? {},
+              thumbnail: thumbnailInfo,
               repoVariations,
             };
           }
