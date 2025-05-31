@@ -33,6 +33,14 @@ body:
       placeholder: https://github.com/Raicuparta/ow-mod-template
     validations:
       required: true
+  - type: input
+    id: thumbnailUrl
+    attributes:
+      label: Thumbnail URL
+      description: "Full URL to a thumbnail image that will be used on the website and mod manager. Ideally in a 3:1 ratio (example: 900 by 300 pixels)"
+      placeholder: https://user-images.githubusercontent.com/22628069/154112130-b777f618-245f-44c9-9408-e11141fc5fde.png
+    validations:
+      required: false
   - type: dropdown
     id: tags
     validations:
