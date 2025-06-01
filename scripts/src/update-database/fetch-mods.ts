@@ -58,20 +58,18 @@ export async function fetchMods(
 
           const thumbnailInfo = previousMod?.thumbnail ?? {};
 
-          if (requiresUpdate) {
-            const newThumbnail = await generateModThumbnail(
-              slug,
-              modInfo.thumbnailUrl,
-              readme?.downloadUrl,
-              outputDirectory
-            );
+          const newThumbnail = await generateModThumbnail(
+            slug,
+            modInfo.thumbnailUrl,
+            readme?.downloadUrl,
+            outputDirectory
+          );
 
-            if (newThumbnail.main) {
-              thumbnailInfo.main = newThumbnail.main;
-            }
-            if (newThumbnail.openGraph) {
-              thumbnailInfo.openGraph = newThumbnail.openGraph;
-            }
+          if (newThumbnail.main) {
+            thumbnailInfo.main = newThumbnail.main;
+          }
+          if (newThumbnail.openGraph) {
+            thumbnailInfo.openGraph = newThumbnail.openGraph;
           }
 
           const repoURL = `${REPO_URL_BASE}/${modInfo.repo}`;
