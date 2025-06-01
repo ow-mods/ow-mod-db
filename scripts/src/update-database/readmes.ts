@@ -39,5 +39,12 @@ export async function getReadmeUrls(
 
 export async function getReadmeMarkdown(url: string): Promise<string | null> {
   const response = await fetch(url);
-  return response.status === 200 ? response.text() : null;
+  if (!response.ok) {
+    console.error(
+      `Failed to fetch README from ${url}: ${response.status} ${response.statusText}`
+    );
+    return null;
+  }
+
+  return await response.text();
 }

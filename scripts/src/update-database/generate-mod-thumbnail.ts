@@ -141,7 +141,7 @@ export async function getFirstImageUrl(
             `${GITHUB_RAW_CONTENT_URL}/$1/$2/$3/`
           )
         : // For relative URLs we also have to resolve them
-          `${baseUrl}/${imageUrl}`;
+          `${baseUrl}/${node.destination}`;
 
       return fullUrl;
     }
@@ -160,6 +160,9 @@ async function downloadImage(
     const response = await fetch(imageUrl);
 
     if (!response.ok) {
+      console.error(
+        `Failed to download image from url ${imageUrl}: ${response.status} ${response.statusText}`
+      );
       return null;
     }
 
@@ -175,6 +178,7 @@ async function downloadImage(
     const image = await response.arrayBuffer();
     await fsp.writeFile(fullImagePath, Buffer.from(image));
 
+    console.log(`Downloaded image from ${imageUrl} to ${fullImagePath}`);
     return fullImagePath;
   } catch (error) {
     console.error(`Failed to download image from url ${imageUrl}: ${error}`);
