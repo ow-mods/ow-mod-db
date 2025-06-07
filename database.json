@@ -187,8 +187,8 @@
       "repoVariations": [],
       "viewCount": 208,
       "weeklyViewCount": 58,
-      "installCount": 161,
-      "weeklyInstallCount": 34
+      "installCount": 162,
+      "weeklyInstallCount": 35
     },
     {
       "name": "Crouch Mod",
@@ -918,8 +918,8 @@
       "repoVariations": [],
       "viewCount": 292,
       "weeklyViewCount": 89,
-      "installCount": 217,
-      "weeklyInstallCount": 59
+      "installCount": 218,
+      "weeklyInstallCount": 60
     },
     {
       "name": "Unity Explorer",
@@ -1119,8 +1119,8 @@
       ],
       "viewCount": 736,
       "weeklyViewCount": 245,
-      "installCount": 278,
-      "weeklyInstallCount": 65
+      "installCount": 280,
+      "weeklyInstallCount": 67
     },
     {
       "name": "New Horizons Examples",
@@ -1156,8 +1156,8 @@
       ],
       "viewCount": 69,
       "weeklyViewCount": 20,
-      "installCount": 74,
-      "weeklyInstallCount": 18
+      "installCount": 75,
+      "weeklyInstallCount": 19
     },
     {
       "name": "Real Solar System",
@@ -1590,8 +1590,8 @@
       "repoVariations": [],
       "viewCount": 184,
       "weeklyViewCount": 84,
-      "installCount": 208,
-      "weeklyInstallCount": 84
+      "installCount": 209,
+      "weeklyInstallCount": 85
     },
     {
       "name": "Astroneer Solar System",
@@ -2156,8 +2156,8 @@
       "repoVariations": [],
       "viewCount": 63,
       "weeklyViewCount": 18,
-      "installCount": 106,
-      "weeklyInstallCount": 31
+      "installCount": 107,
+      "weeklyInstallCount": 32
     },
     {
       "name": "Hollodjustment",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 416,
       "weeklyViewCount": 146,
-      "installCount": 619,
-      "weeklyInstallCount": 184
+      "installCount": 620,
+      "weeklyInstallCount": 185
     },
     {
       "name": "Only Timber Hearth",
@@ -2355,8 +2355,8 @@
       "repoVariations": [],
       "viewCount": 356,
       "weeklyViewCount": 123,
-      "installCount": 525,
-      "weeklyInstallCount": 136
+      "installCount": 526,
+      "weeklyInstallCount": 137
     },
     {
       "name": "Their Homeworld",
@@ -3379,8 +3379,8 @@
       "repoVariations": [],
       "viewCount": 140,
       "weeklyViewCount": 31,
-      "installCount": 302,
-      "weeklyInstallCount": 77
+      "installCount": 303,
+      "weeklyInstallCount": 78
     },
     {
       "name": "Hatchling Outfitter",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 775,
       "weeklyViewCount": 231,
-      "installCount": 531,
-      "weeklyInstallCount": 127
+      "installCount": 534,
+      "weeklyInstallCount": 130
     },
     {
       "name": "Secret Words",
@@ -7243,8 +7243,8 @@
       "repoVariations": [],
       "viewCount": 77,
       "weeklyViewCount": 25,
-      "installCount": 129,
-      "weeklyInstallCount": 38
+      "installCount": 130,
+      "weeklyInstallCount": 39
     },
     {
       "name": "Smarter Ghosts",
@@ -8246,8 +8246,8 @@
       "repoVariations": [],
       "viewCount": 88,
       "weeklyViewCount": 25,
-      "installCount": 30,
-      "weeklyInstallCount": 5
+      "installCount": 31,
+      "weeklyInstallCount": 6
     },
     {
       "name": "No Supernova",
@@ -8682,18 +8682,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.16/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 8714,
-      "latestReleaseDate": "2025-05-22T19:53:06Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.17/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 8715,
+      "latestReleaseDate": "2025-06-07T14:41:30Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.16",
+      "version": "v0.3.17",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Fixed a bug that caused `randomize_coordinates: false` to break Suit Log integration. Thanks @hanophora, Useless and Fore772 for figuring this out.\r\n- Two small fixes from @RS-Mind for the \"Randomize Stranger Codes\" setting they added to 0.3.15. Now the randomized codes will never be all 0s, and if a multiworld has multiple OW slots each slot will now get different codes.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Five new trap items from @MYoshua64 . Suit Puncture Trap and HUD Corruption Trap are enabled by default, while Map Disable Trap, Ice Physics Trap and Supernova Trap are disabled by default. Change the `trap_type_weights` option to opt-in to them.\r\n- Spacesuit is now logically required to enter the Black Hole Forge. This is because the lastest base game patch no longer allows you to manipulate Nomai orbs from inside the ship, so when playing suitless it's no longer possible to raise the Forge _and_ live so you can get into it afterward.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8708,8 +8708,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2025-06-07T14:32:29Z",
-      "databaseEntryUpdatedAt": "2025-06-07T14:43:51.346Z",
+      "repoUpdatedAt": "2025-06-07T15:07:28Z",
+      "databaseEntryUpdatedAt": "2025-06-07T15:25:23.778Z",
       "repoVariations": [],
       "viewCount": 486,
       "weeklyViewCount": 123,
@@ -8846,8 +8846,8 @@
       "repoVariations": [],
       "viewCount": 248,
       "weeklyViewCount": 60,
-      "installCount": 197,
-      "weeklyInstallCount": 58
+      "installCount": 198,
+      "weeklyInstallCount": 59
     },
     {
       "name": "Astral Codec",
@@ -8882,8 +8882,8 @@
       "repoVariations": [],
       "viewCount": 672,
       "weeklyViewCount": 220,
-      "installCount": 516,
-      "weeklyInstallCount": 133
+      "installCount": 517,
+      "weeklyInstallCount": 134
     },
     {
       "name": "Mod Jam 3",
@@ -9932,8 +9932,8 @@
       "repoVariations": [],
       "viewCount": 41,
       "weeklyViewCount": 19,
-      "installCount": 49,
-      "weeklyInstallCount": 17
+      "installCount": 50,
+      "weeklyInstallCount": 18
     },
     {
       "name": "Clues for The Obtuse",
@@ -11041,8 +11041,8 @@
       "repoVariations": [],
       "viewCount": 347,
       "weeklyViewCount": 76,
-      "installCount": 185,
-      "weeklyInstallCount": 40
+      "installCount": 186,
+      "weeklyInstallCount": 41
     },
     {
       "name": "Trans Rights Mod",
