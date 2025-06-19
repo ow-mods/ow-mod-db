@@ -122,8 +122,8 @@
       ],
       "viewCount": 2391,
       "weeklyViewCount": 680,
-      "installCount": 1620,
-      "weeklyInstallCount": 450
+      "installCount": 1622,
+      "weeklyInstallCount": 452
     },
     {
       "name": "Light Bramble",
@@ -8278,8 +8278,8 @@
       "repoVariations": [],
       "viewCount": 31,
       "weeklyViewCount": 8,
-      "installCount": 11,
-      "weeklyInstallCount": 5
+      "installCount": 12,
+      "weeklyInstallCount": 6
     },
     {
       "name": "DebugHUD",
@@ -11278,18 +11278,18 @@
       "uniqueName": "Vambok.NomaiSky",
       "description": "A procedurally generated universe of near infinite possibilities",
       "author": "Vambok",
-      "downloadUrl": "https://github.com/Vambok/NomaiSky/releases/download/v0.4.1/Vambok.NomaiSky.zip",
-      "downloadCount": 502,
-      "latestReleaseDate": "2025-06-14T23:37:04Z",
+      "downloadUrl": "https://github.com/Vambok/NomaiSky/releases/download/v0.4.2/Vambok.NomaiSky.zip",
+      "downloadCount": 506,
+      "latestReleaseDate": "2025-06-19T23:25:14Z",
       "firstReleaseDate": "2025-05-22T17:35:25Z",
       "repo": "https://github.com/Vambok/NomaiSky",
-      "version": "v0.4.1",
+      "version": "v0.4.2",
       "readme": {
         "htmlUrl": "https://github.com/Vambok/NomaiSky/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Vambok/NomaiSky/main/README.md"
       },
       "authorDisplay": "Vambok",
-      "latestReleaseDescription": "### Tweaks:\r\n- Your ship state is now saved on quit (not only on system change)\r\n- Warping message displayed on warp\r\n### Fixes:\r\n- Autopilot state and object targeting are no longer reset on system change\r\n- Autopilot is no longer flying too fast to distant stars *(you'll escape frying, yay!)*\r\n- Fixed the infamous empty system bug *(caused by lag at warp)*\r\n- Fixed clouds appearance\r\n- Travel lines are now only visible in map\r\n- Visit markers are no longer shared between game profiles\r\n- Ship state is now saving properly\r\n- Tool prompt is now correctly hidden when spawning at flight console",
+      "latestReleaseDescription": "### Added:\r\n- Loading screen tips! (togglable in settings)\r\n### Tweaks:\r\n- Galactic map is now spherical\r\n- Improved flame textures\r\n### Fixes:\r\n- Game now saves current flame textures\r\n- No longer possible to siphon fuel from inside the ship",
       "latestPrereleaseDescription": "First beta release!",
       "prerelease": {
         "version": "v0.1.0",
@@ -11303,8 +11303,8 @@
       "thumbnail": {
         "main": "nomaissky.webp"
       },
-      "repoUpdatedAt": "2025-06-16T06:21:32Z",
-      "databaseEntryUpdatedAt": "2025-06-19T19:41:31.249Z",
+      "repoUpdatedAt": "2025-06-19T23:29:18Z",
+      "databaseEntryUpdatedAt": "2025-06-19T23:39:37.663Z",
       "repoVariations": [],
       "viewCount": 1057,
       "weeklyViewCount": 280,
