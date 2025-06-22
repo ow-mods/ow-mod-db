@@ -122,8 +122,8 @@
       ],
       "viewCount": 2378,
       "weeklyViewCount": 641,
-      "installCount": 1621,
-      "weeklyInstallCount": 392
+      "installCount": 1623,
+      "weeklyInstallCount": 394
     },
     {
       "name": "Light Bramble",
@@ -187,8 +187,8 @@
       "repoVariations": [],
       "viewCount": 183,
       "weeklyViewCount": 39,
-      "installCount": 171,
-      "weeklyInstallCount": 52
+      "installCount": 172,
+      "weeklyInstallCount": 53
     },
     {
       "name": "Crouch Mod",
@@ -635,8 +635,8 @@
       "repoVariations": [],
       "viewCount": 37,
       "weeklyViewCount": 11,
-      "installCount": 29,
-      "weeklyInstallCount": 9
+      "installCount": 30,
+      "weeklyInstallCount": 10
     },
     {
       "name": "PacificEngine's Common Resources",
@@ -1156,8 +1156,8 @@
       ],
       "viewCount": 71,
       "weeklyViewCount": 15,
-      "installCount": 74,
-      "weeklyInstallCount": 20
+      "installCount": 75,
+      "weeklyInstallCount": 21
     },
     {
       "name": "Real Solar System",
@@ -1655,8 +1655,8 @@
       "repoVariations": [],
       "viewCount": 31,
       "weeklyViewCount": 8,
-      "installCount": 53,
-      "weeklyInstallCount": 15
+      "installCount": 54,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 745,
       "weeklyViewCount": 172,
-      "installCount": 507,
-      "weeklyInstallCount": 163
+      "installCount": 508,
+      "weeklyInstallCount": 164
     },
     {
       "name": "Secret Words",
@@ -6418,8 +6418,8 @@
       "repoVariations": [],
       "viewCount": 1618,
       "weeklyViewCount": 419,
-      "installCount": 702,
-      "weeklyInstallCount": 221
+      "installCount": 705,
+      "weeklyInstallCount": 224
     },
     {
       "name": "Daylight Savings",
@@ -6848,8 +6848,8 @@
       "repoVariations": [],
       "viewCount": 93,
       "weeklyViewCount": 22,
-      "installCount": 67,
-      "weeklyInstallCount": 16
+      "installCount": 68,
+      "weeklyInstallCount": 17
     },
     {
       "name": "Celestial Leeway",
@@ -8682,18 +8682,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.17/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.18/Ixrec.ArchipelagoRandomizer.zip",
       "downloadCount": 9061,
-      "latestReleaseDate": "2025-06-07T14:41:30Z",
+      "latestReleaseDate": "2025-06-22T20:23:37Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.17",
+      "version": "v0.3.18",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Five new trap items from @MYoshua64 . Suit Puncture Trap and HUD Corruption Trap are enabled by default, while Map Disable Trap, Ice Physics Trap and Supernova Trap are disabled by default. Change the `trap_type_weights` option to opt-in to them.\r\n- Spacesuit is now logically required to enter the Black Hole Forge. This is because the lastest base game patch no longer allows you to manipulate Nomai orbs from inside the ship, so when playing suitless it's no longer possible to raise the Forge _and_ live so you can get into it afterward.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- A new `upgrade_counts` .yaml option from @msyverw that lets you change how many fuel, oxygen and boost upgrade items will be placed in the multiworld. Recall that the mod already has client-side settings for fuel/oxygen/boost.\r\n- The five trap items added in 0.3.17 now have proper descriptions from @MYoshua64 and images for the AP Inventory ship log mode, which should get rid of those error messages some of you noticed.\r\n- The Ice Physics Trap no longer affects the Dreamworld.\r\n",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8708,8 +8708,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2025-06-22T19:15:21Z",
-      "databaseEntryUpdatedAt": "2025-06-22T19:16:24.141Z",
+      "repoUpdatedAt": "2025-06-22T20:25:11Z",
+      "databaseEntryUpdatedAt": "2025-06-22T20:26:40.700Z",
       "repoVariations": [],
       "viewCount": 409,
       "weeklyViewCount": 70,
@@ -8915,8 +8915,8 @@
       "repoVariations": [],
       "viewCount": 48,
       "weeklyViewCount": 14,
-      "installCount": 17,
-      "weeklyInstallCount": 2
+      "installCount": 18,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Jam Hub",
@@ -9095,8 +9095,8 @@
       "repoVariations": [],
       "viewCount": 252,
       "weeklyViewCount": 97,
-      "installCount": 137,
-      "weeklyInstallCount": 39
+      "installCount": 138,
+      "weeklyInstallCount": 40
     },
     {
       "name": "Finis",
@@ -10553,8 +10553,8 @@
       "repoVariations": [],
       "viewCount": 19,
       "weeklyViewCount": 5,
-      "installCount": 12,
-      "weeklyInstallCount": 2
+      "installCount": 13,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Lumina Terra",
@@ -11000,8 +11000,8 @@
       "repoVariations": [],
       "viewCount": 789,
       "weeklyViewCount": 179,
-      "installCount": 434,
-      "weeklyInstallCount": 131
+      "installCount": 435,
+      "weeklyInstallCount": 132
     },
     {
       "name": "Forgotten Castaways",
@@ -11041,8 +11041,8 @@
       "repoVariations": [],
       "viewCount": 273,
       "weeklyViewCount": 59,
-      "installCount": 145,
-      "weeklyInstallCount": 26
+      "installCount": 146,
+      "weeklyInstallCount": 27
     },
     {
       "name": "Trans Rights Mod",
