@@ -122,8 +122,8 @@
       ],
       "viewCount": 2461,
       "weeklyViewCount": 649,
-      "installCount": 1680,
-      "weeklyInstallCount": 455
+      "installCount": 1681,
+      "weeklyInstallCount": 456
     },
     {
       "name": "Light Bramble",
@@ -418,8 +418,8 @@
       "repoVariations": [],
       "viewCount": 264,
       "weeklyViewCount": 63,
-      "installCount": 74,
-      "weeklyInstallCount": 20
+      "installCount": 76,
+      "weeklyInstallCount": 22
     },
     {
       "name": "Cheat and Debug Menu",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 471,
       "weeklyViewCount": 116,
-      "installCount": 654,
-      "weeklyInstallCount": 171
+      "installCount": 656,
+      "weeklyInstallCount": 173
     },
     {
       "name": "Only Timber Hearth",
@@ -2355,8 +2355,8 @@
       "repoVariations": [],
       "viewCount": 488,
       "weeklyViewCount": 122,
-      "installCount": 598,
-      "weeklyInstallCount": 177
+      "installCount": 599,
+      "weeklyInstallCount": 178
     },
     {
       "name": "Their Homeworld",
@@ -2990,8 +2990,8 @@
       "repoVariations": [],
       "viewCount": 17,
       "weeklyViewCount": 3,
-      "installCount": 34,
-      "weeklyInstallCount": 17
+      "installCount": 35,
+      "weeklyInstallCount": 18
     },
     {
       "name": "Arkose bug fix",
@@ -3148,8 +3148,8 @@
       "repoVariations": [],
       "viewCount": 114,
       "weeklyViewCount": 31,
-      "installCount": 159,
-      "weeklyInstallCount": 47
+      "installCount": 160,
+      "weeklyInstallCount": 48
     },
     {
       "name": "Changed Twins",
@@ -3246,8 +3246,8 @@
       "repoVariations": [],
       "viewCount": 30,
       "weeklyViewCount": 7,
-      "installCount": 39,
-      "weeklyInstallCount": 13
+      "installCount": 40,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Less Lonely Ship",
@@ -3929,8 +3929,8 @@
       "repoVariations": [],
       "viewCount": 10,
       "weeklyViewCount": 4,
-      "installCount": 30,
-      "weeklyInstallCount": 7
+      "installCount": 31,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Carson System",
@@ -7884,8 +7884,8 @@
       ],
       "viewCount": 62,
       "weeklyViewCount": 21,
-      "installCount": 120,
-      "weeklyInstallCount": 38
+      "installCount": 121,
+      "weeklyInstallCount": 39
     },
     {
       "name": "Nomai Grand Prix",
@@ -8212,8 +8212,8 @@
       "repoVariations": [],
       "viewCount": 105,
       "weeklyViewCount": 28,
-      "installCount": 198,
-      "weeklyInstallCount": 54
+      "installCount": 199,
+      "weeklyInstallCount": 55
     },
     {
       "name": "Outer Wives",
@@ -9203,8 +9203,8 @@
       "repoVariations": [],
       "viewCount": 21,
       "weeklyViewCount": 6,
-      "installCount": 33,
-      "weeklyInstallCount": 7
+      "installCount": 34,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Echo Hike",
@@ -10237,18 +10237,18 @@
       "uniqueName": "Etherpod.ShipEnhancements",
       "description": "Adds way too much stuff for the ship in the mod settings.",
       "author": "Etherpod",
-      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v2.1.0/Etherpod.ShipEnhancements.zip",
-      "downloadCount": 2503,
-      "latestReleaseDate": "2025-05-26T02:39:20Z",
+      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v2.1.1/Etherpod.ShipEnhancements.zip",
+      "downloadCount": 2505,
+      "latestReleaseDate": "2025-06-28T21:34:31Z",
       "firstReleaseDate": "2024-09-15T02:38:59Z",
       "repo": "https://github.com/Etherpod/Ship-Enhancements",
-      "version": "v2.1.0",
+      "version": "v2.1.1",
       "readme": {
         "htmlUrl": "https://github.com/Etherpod/Ship-Enhancements/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Etherpod/Ship-Enhancements/main/README.md"
       },
       "authorDisplay": "Etherpod",
-      "latestReleaseDescription": "# New Settings\r\n\r\n- Split Ship Lock-On - Makes the ship lock-on target independent from the player lock-on target (QOL setting, disabled by default)\r\n- Enable Color Blending - Overcomplicates the ship decoration\r\n- Remove Masi Sticker - Restores the ship to its former glory (QOL setting)\r\n\r\n# Feature Changes\r\n\r\n- Overhauled the SFX for larger ship explosions\r\n- Overhauled the ship decoration settings\r\n\r\n# Bug Fixes + Minor Changes\r\n\r\n- Fixed a bug where enabling auto alignment and locking onto the ship would crash the game\r\n- Fixed a bug where the Portable Campfire would have no temperature zone when temperature zones were set to \"Hot\"\r\n- Fixed a bug where setting a thruster color would turn on thruster flame damage\r\n- Fixed a bug where the ship warp core wouldn't work in the vanilla solar system when New Horizons was enabled\r\n- Fixed a vanilla bug where the light above the ship log wouldn't update the emission scale correctly\r\n- Fixed a bug where some buttons on the extendable panel couldn't be reached while in the cockpit chair\r\n- Made decoration and QOL settings independent from presets\r\n- Changed the radio volume keybinds to left/right instead of up/down\r\n- Added damage icons to the ship damage screen for the scout launcher and warp core\r\n",
+      "latestReleaseDescription": "# Feature Changes\r\n\r\n- Added a file named **RandomizerSettings.json** to the mod folder that lets you customize the Random preset\r\n- Removed the **Remove Masi Sicker** setting because the devs fixed it\r\n\r\n# Bug Fixes\r\n\r\n- Fixed a bug where ending the loop while locked onto something with Split Ship Lock-on enabled would cause errors\r\n- Fixed a bug where the Default Settings button in the settings menu would sometimes not work properly\r\n- Fixed some bugs with the moving parts on the radio\r\n- Added a tooltip to the selected preset explaining what it does\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -10259,8 +10259,8 @@
       "thumbnail": {
         "main": "shipenhancements.webp"
       },
-      "repoUpdatedAt": "2025-06-28T09:57:39Z",
-      "databaseEntryUpdatedAt": "2025-06-28T09:58:34.530Z",
+      "repoUpdatedAt": "2025-06-28T21:37:43Z",
+      "databaseEntryUpdatedAt": "2025-06-28T21:38:57.621Z",
       "repoVariations": [],
       "viewCount": 355,
       "weeklyViewCount": 69,
