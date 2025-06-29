@@ -80,6 +80,7 @@ export async function fetchMods(
             : [];
 
           if (!requiresUpdate) {
+            console.log("Skipping mod update for", slug);
             return {
               ...previousMod,
               alpha: modInfo.alpha,
@@ -112,6 +113,8 @@ export async function fetchMods(
               release.assets[0] &&
               release.assets[0].browser_download_url.endsWith(RELEASE_EXTENSION)
           );
+
+          console.log("Release list for", slug, " ", releaseList);
 
           const latestRelease = releaseList[0];
 

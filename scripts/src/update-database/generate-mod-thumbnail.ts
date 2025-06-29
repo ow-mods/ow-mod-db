@@ -178,7 +178,7 @@ async function downloadImage(
     const image = await response.arrayBuffer();
     await fsp.writeFile(fullImagePath, Buffer.from(image));
 
-    console.log(`Downloaded image from ${imageUrl} to ${fullImagePath}`);
+    //console.log(`Downloaded image from ${imageUrl} to ${fullImagePath}`);
     return fullImagePath;
   } catch (error) {
     console.error(`Failed to download image from url ${imageUrl}: ${error}`);
