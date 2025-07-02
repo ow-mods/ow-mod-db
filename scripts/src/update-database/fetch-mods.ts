@@ -60,24 +60,24 @@ export async function fetchMods(
 
           // This was breaking for coderCleric's GhostEverything mod and preventing the DB from even recognizing it exists: should do a permanent fix eventually
           // Also it's thumbnail will still not work
-          let newThumbnail = {};
+
           try {
-            newThumbnail = await generateModThumbnail(
+            const newThumbnail = await generateModThumbnail(
               slug,
               modInfo.thumbnailUrl,
               readme?.downloadUrl,
               outputDirectory
             );
+
+            if (newThumbnail.main) {
+              thumbnailInfo.main = newThumbnail.main;
+            }
+            if (newThumbnail.openGraph) {
+              thumbnailInfo.openGraph = newThumbnail.openGraph;
+            }
           }
           catch (error) {
-            console.error(`Failed to generate mod thumbnail for mod ${mod.uniqueName}: ${error}`);
-          }
-
-          if (newThumbnail.main) {
-            thumbnailInfo.main = newThumbnail.main;
-          }
-          if (newThumbnail.openGraph) {
-            thumbnailInfo.openGraph = newThumbnail.openGraph;
+            console.error(`Failed to generate mod thumbnail for mod ${modInfo.uniqueName}: ${error}`);
           }
 
           const repoURL = `${REPO_URL_BASE}/${modInfo.repo}`;
