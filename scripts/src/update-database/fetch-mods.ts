@@ -58,8 +58,11 @@ export async function fetchMods(
 
           const thumbnailInfo = previousMod?.thumbnail ?? {};
 
+          // This was breaking for coderCleric's GhostEverything mod and preventing the DB from even recognizing it exists: should do a permanent fix eventually
+          // Also it's thumbnail will still not work
+          let newThumbnail = {};
           try {
-            const newThumbnail = await generateModThumbnail(
+            newThumbnail = await generateModThumbnail(
               slug,
               modInfo.thumbnailUrl,
               readme?.downloadUrl,
