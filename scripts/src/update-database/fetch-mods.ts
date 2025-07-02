@@ -58,12 +58,17 @@ export async function fetchMods(
 
           const thumbnailInfo = previousMod?.thumbnail ?? {};
 
-          const newThumbnail = await generateModThumbnail(
-            slug,
-            modInfo.thumbnailUrl,
-            readme?.downloadUrl,
-            outputDirectory
-          );
+          try {
+            const newThumbnail = await generateModThumbnail(
+              slug,
+              modInfo.thumbnailUrl,
+              readme?.downloadUrl,
+              outputDirectory
+            );
+          }
+          catch (error) {
+            console.error(`Failed to generate mod thumbnail for mod ${mod.uniqueName}: ${error}`);
+          }
 
           if (newThumbnail.main) {
             thumbnailInfo.main = newThumbnail.main;
