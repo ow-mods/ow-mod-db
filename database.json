@@ -80,8 +80,8 @@
       ],
       "viewCount": 1921,
       "weeklyViewCount": 613,
-      "installCount": 926,
-      "weeklyInstallCount": 299
+      "installCount": 928,
+      "weeklyInstallCount": 301
     },
     {
       "name": "Quantum Space Buddies",
@@ -122,8 +122,8 @@
       ],
       "viewCount": 3027,
       "weeklyViewCount": 896,
-      "installCount": 2157,
-      "weeklyInstallCount": 662
+      "installCount": 2159,
+      "weeklyInstallCount": 664
     },
     {
       "name": "Light Bramble",
@@ -317,8 +317,8 @@
       "repoVariations": [],
       "viewCount": 231,
       "weeklyViewCount": 77,
-      "installCount": 316,
-      "weeklyInstallCount": 91
+      "installCount": 317,
+      "weeklyInstallCount": 92
     },
     {
       "name": "ScoutStreaming",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 617,
       "weeklyViewCount": 215,
-      "installCount": 763,
-      "weeklyInstallCount": 228
+      "installCount": 766,
+      "weeklyInstallCount": 231
     },
     {
       "name": "Only Timber Hearth",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 692,
       "weeklyViewCount": 231,
-      "installCount": 494,
-      "weeklyInstallCount": 130
+      "installCount": 495,
+      "weeklyInstallCount": 131
     },
     {
       "name": "Secret Words",
@@ -8031,8 +8031,8 @@
       ],
       "viewCount": 302,
       "weeklyViewCount": 77,
-      "installCount": 252,
-      "weeklyInstallCount": 72
+      "installCount": 253,
+      "weeklyInstallCount": 73
     },
     {
       "name": "The Survivors",
@@ -8104,8 +8104,8 @@
       "repoVariations": [],
       "viewCount": 154,
       "weeklyViewCount": 42,
-      "installCount": 117,
-      "weeklyInstallCount": 30
+      "installCount": 118,
+      "weeklyInstallCount": 31
     },
     {
       "name": "Tesseract's Secret",
@@ -8722,7 +8722,7 @@
       "description": "Step into the hatchling's hiking boots with viewmodel hands, view bobbing, and more!",
       "author": "Owen013",
       "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.2/Owen_013.FirstPersonPresence.zip",
-      "downloadCount": 3810,
+      "downloadCount": 3811,
       "latestReleaseDate": "2024-10-17T23:15:48Z",
       "firstReleaseDate": "2024-01-16T01:43:20Z",
       "repo": "https://github.com/Owen013/FirstPersonPresence",
@@ -8733,7 +8733,12 @@
       },
       "authorDisplay": "Owen_013",
       "latestReleaseDescription": "### Changes\r\n- **View Bobbing** will now transition a little more smoothly when you first start moving.\r\n- Made the default **Tool Sway** a bit more subtle.\r\n- **Hide Stowed Items** has been improved; the item will now smoothly move offscreen instead of suddenly disappearing.\r\n- The camera will now rotate around its own center instead of the player's.\r\n- Tweaked the Scout Launcher fire animation a bit.\r\n- Moved the viewmodel hand for a certain artifact.\r\n\r\n### Bugfix\r\n- View bobbing will no longer keep moving for a few seconds after the game is paused.\r\n- Viewmodel arms will no longer remain visible on held items for one frame after they were dropped.\r\n- The Translator Tool will no longer bob forward and backward unintentionally if **Tool Bob Forward Intensity** is set to a value other than 1.\r\n- The Translator Tool offset magnitude will now always be the same as every other tool.",
-      "latestPrereleaseDescription": "",
+      "latestPrereleaseDescription": "Attempted to fix a bug where items place by other mods will have glitched hands attached to them, even when they're not being held.\r\n\r\nWould appreciate testers, preferably ones who also have story mods such as Astral Codec installed to test custom items.\r\n\r\nRelevant Changes:\r\n- Viewmodel hands on OWItems will now disable the ViewmodelArm GameObject if they aren't being held by ItemTool.\r\n- Viewmodel hands will now only be created on an item/tool when it is equipped for the first time.",
+      "prerelease": {
+        "version": "v1.4.3-pr1",
+        "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.3-pr1/Owen_013.FirstPersonPresence.zip",
+        "date": "2025-07-14T06:33:16Z"
+      },
       "tags": [
         "audiovisual"
       ],
@@ -8741,8 +8746,8 @@
       "thumbnail": {
         "main": "immersion.webp"
       },
-      "repoUpdatedAt": "2024-10-21T22:55:50Z",
-      "databaseEntryUpdatedAt": "2025-07-13T23:58:59.578Z",
+      "repoUpdatedAt": "2025-07-14T06:35:28Z",
+      "databaseEntryUpdatedAt": "2025-07-14T06:43:52.868Z",
       "repoVariations": [],
       "viewCount": 103,
       "weeklyViewCount": 39,
