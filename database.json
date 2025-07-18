@@ -122,8 +122,8 @@
       ],
       "viewCount": 3092,
       "weeklyViewCount": 854,
-      "installCount": 2429,
-      "weeklyInstallCount": 812
+      "installCount": 2431,
+      "weeklyInstallCount": 814
     },
     {
       "name": "Light Bramble",
@@ -542,8 +542,8 @@
       "repoVariations": [],
       "viewCount": 101,
       "weeklyViewCount": 22,
-      "installCount": 137,
-      "weeklyInstallCount": 59
+      "installCount": 138,
+      "weeklyInstallCount": 60
     },
     {
       "name": "SlowTime",
@@ -819,8 +819,8 @@
       "repoVariations": [],
       "viewCount": 109,
       "weeklyViewCount": 42,
-      "installCount": 323,
-      "weeklyInstallCount": 131
+      "installCount": 324,
+      "weeklyInstallCount": 132
     },
     {
       "name": "Static Camera",
@@ -1119,8 +1119,8 @@
       ],
       "viewCount": 737,
       "weeklyViewCount": 173,
-      "installCount": 249,
-      "weeklyInstallCount": 64
+      "installCount": 250,
+      "weeklyInstallCount": 65
     },
     {
       "name": "New Horizons Examples",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 658,
       "weeklyViewCount": 224,
-      "installCount": 886,
-      "weeklyInstallCount": 322
+      "installCount": 887,
+      "weeklyInstallCount": 323
     },
     {
       "name": "Only Timber Hearth",
@@ -3379,8 +3379,8 @@
       "repoVariations": [],
       "viewCount": 123,
       "weeklyViewCount": 36,
-      "installCount": 378,
-      "weeklyInstallCount": 123
+      "installCount": 379,
+      "weeklyInstallCount": 124
     },
     {
       "name": "Hatchling Outfitter",
@@ -3476,8 +3476,8 @@
       "repoVariations": [],
       "viewCount": 102,
       "weeklyViewCount": 41,
-      "installCount": 105,
-      "weeklyInstallCount": 51
+      "installCount": 106,
+      "weeklyInstallCount": 52
     },
     {
       "name": "Better Model Ship",
@@ -5032,8 +5032,8 @@
       "repoVariations": [],
       "viewCount": 28,
       "weeklyViewCount": 15,
-      "installCount": 64,
-      "weeklyInstallCount": 31
+      "installCount": 65,
+      "weeklyInstallCount": 32
     },
     {
       "name": "Custom Ship Log Modes",
@@ -5066,8 +5066,8 @@
       "repoVariations": [],
       "viewCount": 106,
       "weeklyViewCount": 34,
-      "installCount": 91,
-      "weeklyInstallCount": 46
+      "installCount": 92,
+      "weeklyInstallCount": 47
     },
     {
       "name": "Ship Log Slide Reel Player Plus",
@@ -5570,8 +5570,8 @@
       "repoVariations": [],
       "viewCount": 63,
       "weeklyViewCount": 23,
-      "installCount": 69,
-      "weeklyInstallCount": 26
+      "installCount": 70,
+      "weeklyInstallCount": 27
     },
     {
       "name": "N Body Chaos",
@@ -8031,8 +8031,8 @@
       ],
       "viewCount": 313,
       "weeklyViewCount": 96,
-      "installCount": 284,
-      "weeklyInstallCount": 88
+      "installCount": 285,
+      "weeklyInstallCount": 89
     },
     {
       "name": "The Survivors",
@@ -8212,8 +8212,8 @@
       "repoVariations": [],
       "viewCount": 105,
       "weeklyViewCount": 35,
-      "installCount": 232,
-      "weeklyInstallCount": 61
+      "installCount": 235,
+      "weeklyInstallCount": 64
     },
     {
       "name": "Outer Wives",
@@ -8721,18 +8721,18 @@
       "uniqueName": "Owen_013.FirstPersonPresence",
       "description": "Step into the hatchling's hiking boots with viewmodel hands, view bobbing, and more!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.3/Owen_013.FirstPersonPresence.zip",
+      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.4/Owen_013.FirstPersonPresence.zip",
       "downloadCount": 3896,
-      "latestReleaseDate": "2025-07-15T22:00:49Z",
+      "latestReleaseDate": "2025-07-18T15:31:06Z",
       "firstReleaseDate": "2024-01-16T01:43:20Z",
       "repo": "https://github.com/Owen013/FirstPersonPresence",
-      "version": "v1.4.3",
+      "version": "v1.4.4",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/FirstPersonPresence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/FirstPersonPresence/main/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "### Bugfixes\r\n- Viewmodel Arms will no longer appear on dropped items placed by other mods such as Astral Codec.\r\n- Viewmodel Arms will no longer throw NullReferenceExceptions every frame when The Outsider is installed.\r\n- View Bobbing will now scale properly when resizing the Player with Smol Hatchling.\r\n\r\n### Changes\r\n- Performance improvements\r\n  - Viewmodel Arms are now only created when an item/tool is equipped for the first time, and are deactivated when the item is dropped. This means there are no longer 100+ Viewmodel Arms all calling LateUpdate() (or, worse, throwing NREs) every frame.\r\n- Tweaked default settings to be less vomit-inducing.",
+      "latestReleaseDescription": "**This version has been tested with and works on Astral Codec and the Outsider. It should also work with any other story mods. Please submit an issue if you encounter bugs.**\r\n\r\n### Fixes\r\n- Viewmodel Arms no longer break the game when picking up certain items placed by other mods.\r\n- Fixed the Viewmodel Arm position for the Jeff Scroll.\r\n- Fixed an issue where the Spacesuit Viewmodel Arm would have weird shading or appear fully dark in certain areas.\r\n- Viewmodel sway is now frame-independent (I think).",
       "latestPrereleaseDescription": "Attempted to fix a bug where items place by other mods will have glitched hands attached to them, even when they're not being held.\r\n\r\nWould appreciate testers, preferably ones who also have story mods such as Astral Codec installed to test custom items.\r\n\r\nRelevant Changes:\r\n- Viewmodel hands on OWItems will now disable the ViewmodelArm GameObject if they aren't being held by ItemTool.\r\n- Viewmodel hands will now only be created on an item/tool when it is equipped for the first time.",
       "prerelease": {
         "version": "v1.4.3-pr1",
@@ -8746,8 +8746,8 @@
       "thumbnail": {
         "main": "immersion.webp"
       },
-      "repoUpdatedAt": "2025-07-18T14:12:15Z",
-      "databaseEntryUpdatedAt": "2025-07-18T14:29:03.287Z",
+      "repoUpdatedAt": "2025-07-18T15:33:15Z",
+      "databaseEntryUpdatedAt": "2025-07-18T15:40:54.294Z",
       "repoVariations": [],
       "viewCount": 134,
       "weeklyViewCount": 67,
@@ -8851,8 +8851,8 @@
       "repoVariations": [],
       "viewCount": 255,
       "weeklyViewCount": 57,
-      "installCount": 220,
-      "weeklyInstallCount": 61
+      "installCount": 221,
+      "weeklyInstallCount": 62
     },
     {
       "name": "Astral Codec",
@@ -8887,8 +8887,8 @@
       "repoVariations": [],
       "viewCount": 1179,
       "weeklyViewCount": 258,
-      "installCount": 682,
-      "weeklyInstallCount": 208
+      "installCount": 683,
+      "weeklyInstallCount": 209
     },
     {
       "name": "Mod Jam 3",
@@ -11005,8 +11005,8 @@
       "repoVariations": [],
       "viewCount": 561,
       "weeklyViewCount": 137,
-      "installCount": 379,
-      "weeklyInstallCount": 108
+      "installCount": 380,
+      "weeklyInstallCount": 109
     },
     {
       "name": "Forgotten Castaways",
