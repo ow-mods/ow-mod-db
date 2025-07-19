@@ -37,7 +37,7 @@ body:
     id: thumbnailUrl
     attributes:
       label: Thumbnail URL
-      description: "Full URL to a thumbnail image that will be used on the website and mod manager. Ideally in a 3:1 ratio (example: 900 by 300 pixels). Not required! We take an image from your README if this isn't specified."
+      description: "Full URL to a thumbnail image that will be used on the website and mod manager. Ideally in a 3:1 ratio (example: 900 by 300 pixels). Not required! We take the first image (if there is one) from your README if this isn't given."
       placeholder: https://user-images.githubusercontent.com/22628069/154112130-b777f618-245f-44c9-9408-e11141fc5fde.png
     validations:
       required: false
