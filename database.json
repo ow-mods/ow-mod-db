@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 144102
+    "downloadCount": 144104
   },
   "releases": [
     {
@@ -5169,8 +5169,8 @@
       "repoVariations": [],
       "viewCount": 16,
       "weeklyViewCount": 1,
-      "installCount": 8,
-      "weeklyInstallCount": 0
+      "installCount": 9,
+      "weeklyInstallCount": 1
     },
     {
       "name": "Console Cheats",
@@ -11748,8 +11748,8 @@
       "repoVariations": [],
       "viewCount": 88,
       "weeklyViewCount": 88,
-      "installCount": 85,
-      "weeklyInstallCount": 85
+      "installCount": 86,
+      "weeklyInstallCount": 86
     },
     {
       "name": "Eden's Hope",
@@ -11867,7 +11867,7 @@
       "author": "TRSasasusu",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TRSasasusu/Jam5PingBox/releases/download/v0.2.0/orclecle.Jam5PingBox.zip",
-      "downloadCount": 99,
+      "downloadCount": 107,
       "latestReleaseDate": "2025-07-21T17:01:34Z",
       "firstReleaseDate": "2025-07-21T00:37:49Z",
       "repo": "https://github.com/TRSasasusu/Jam5PingBox",
@@ -11888,13 +11888,51 @@
       "thumbnail": {
         "main": "diorama.webp"
       },
-      "repoUpdatedAt": "2025-07-21T17:11:15Z",
-      "databaseEntryUpdatedAt": "2025-07-22T05:37:51.396Z",
+      "repoUpdatedAt": "2025-07-22T14:03:42Z",
+      "databaseEntryUpdatedAt": "2025-07-22T14:10:27.063Z",
       "repoVariations": [],
       "viewCount": 63,
       "weeklyViewCount": 63,
-      "installCount": 56,
-      "weeklyInstallCount": 56
+      "installCount": 57,
+      "weeklyInstallCount": 57
+    },
+    {
+      "name": "Catastrophe",
+      "uniqueName": "Onbvb.catastrophe",
+      "description": "My first mod, made for Mod Jam 5",
+      "author": "Onbvb",
+      "downloadUrl": "https://github.com/Onbvb/catastrophe/releases/download/v1.0.0/Onbvb.catastrophe.zip",
+      "downloadCount": 2,
+      "latestReleaseDate": "2025-07-22T13:54:35Z",
+      "firstReleaseDate": "2025-07-22T13:54:35Z",
+      "repo": "https://github.com/Onbvb/catastrophe",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/Onbvb/catastrophe/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/Onbvb/catastrophe/main/README.md"
+      },
+      "authorDisplay": "Onbvb",
+      "latestReleaseDescription": "Initial release!",
+      "latestPrereleaseDescription": "Pre-release for playtesting",
+      "prerelease": {
+        "version": "v0.1.0",
+        "downloadUrl": "https://github.com/Onbvb/catastrophe/releases/download/v0.1.0/Onbvb.catastrophe.zip",
+        "date": "2025-07-20T00:11:58Z"
+      },
+      "tags": [
+        "jam",
+        "story",
+        "requires-dlc"
+      ],
+      "slug": "catastrophe",
+      "thumbnail": {},
+      "repoUpdatedAt": "2025-07-22T14:07:49Z",
+      "databaseEntryUpdatedAt": "2025-07-22T14:10:27.040Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
