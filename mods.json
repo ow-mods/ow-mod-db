@@ -3680,6 +3680,27 @@
       "authorDisplay": "Team Geswaldo (Solec, T3rtu, Heroplays1122, and Vodblink)"
     },
     {
+      "name": "Under a Radio Moon",
+      "uniqueName": "Etherpod.T0187",
+      "repo": "Etherpod/under-a-radio-moon",
+      "tags": [
+        "jam"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Etherpod, ditzy, harperlr, Ernest"
+    },
+    {
+      "name": "Project ARC",
+      "uniqueName": "MegaPiggy.AnomalyResearchAndContainment",
+      "repo": "MegaPiggy/AnomalyResearchAndContainment",
+      "tags": [
+        "story",
+        "jam",
+        "content"
+      ],
+      "parent": "xen.NewHorizons" 
+    },
+    {
       "name": "Bright Spark",
       "uniqueName": "Ender.Beryl.BrightSpark",
       "repo": "SebasCapo/OW-Miniature",
@@ -3688,7 +3709,8 @@
         "gameplay",
         "story"
       ],
-      "authorDisplay": "Ender, Beryl"
+      "authorDisplay": "Ender, Beryl",
+      "parent": "xen.NewHorizons" 
     }
   ]
 }
