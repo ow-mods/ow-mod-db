@@ -122,8 +122,8 @@
       ],
       "viewCount": 3150,
       "weeklyViewCount": 735,
-      "installCount": 2357,
-      "weeklyInstallCount": 560
+      "installCount": 2358,
+      "weeklyInstallCount": 561
     },
     {
       "name": "Light Bramble",
@@ -3443,8 +3443,8 @@
       "repoVariations": [],
       "viewCount": 22,
       "weeklyViewCount": 7,
-      "installCount": 28,
-      "weeklyInstallCount": 10
+      "installCount": 29,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Common Camera Utility",
@@ -7787,8 +7787,8 @@
       "repoVariations": [],
       "viewCount": 73,
       "weeklyViewCount": 16,
-      "installCount": 62,
-      "weeklyInstallCount": 18
+      "installCount": 63,
+      "weeklyInstallCount": 19
     },
     {
       "name": "Icelandic Localization",
@@ -8067,8 +8067,8 @@
       "repoVariations": [],
       "viewCount": 60,
       "weeklyViewCount": 18,
-      "installCount": 34,
-      "weeklyInstallCount": 9
+      "installCount": 35,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Origins",
@@ -10269,8 +10269,8 @@
       "repoVariations": [],
       "viewCount": 384,
       "weeklyViewCount": 89,
-      "installCount": 159,
-      "weeklyInstallCount": 49
+      "installCount": 160,
+      "weeklyInstallCount": 50
     },
     {
       "name": "Outer Adventure 2",
@@ -11176,8 +11176,8 @@
       "repoVariations": [],
       "viewCount": 39,
       "weeklyViewCount": 10,
-      "installCount": 26,
-      "weeklyInstallCount": 4
+      "installCount": 27,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Dear ImGui",
@@ -11613,24 +11613,19 @@
       "description": "The base star system for the 5th Outer Wilds mod jam.",
       "author": "xen-42",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/xen-42/ow-mod-jam-5-base/releases/download/v1.0.3/xen-42.ModJam5.zip",
-      "downloadCount": 318,
-      "latestReleaseDate": "2025-07-09T01:14:46Z",
+      "downloadUrl": "https://github.com/xen-42/ow-mod-jam-5-base/releases/download/v1.0.4/xen-42.ModJam5.zip",
+      "downloadCount": 330,
+      "latestReleaseDate": "2025-07-23T14:39:00Z",
       "firstReleaseDate": "2025-07-05T21:43:26Z",
       "repo": "https://github.com/xen-42/ow-mod-jam-5-base",
-      "version": "v1.0.3",
+      "version": "v1.0.4",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/ow-mod-jam-5-base/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/ow-mod-jam-5-base/main/README.md"
       },
       "authorDisplay": "xen and SBtT",
-      "latestReleaseDescription": "Added a jetpack refuel spot and a tractor beam to take you to the ship platform.",
-      "latestPrereleaseDescription": "- Changed central station glass type.\r\n- Adjusted ranges for stars in entries.\r\n- Hardcoded order of entries to avoid overlaps.\r\n- Removed the example platform, moved its props to the center.\r\n- Removed minimaps from platforms (affected central station).\r\n- Added space music (thanks Lezzlebit).\r\n- Added ship log map markers for the center station and starship community.\r\n- Adjusted the model of the central station.",
-      "prerelease": {
-        "version": "v1.0.4",
-        "downloadUrl": "https://github.com/xen-42/ow-mod-jam-5-base/releases/download/v1.0.4/xen-42.ModJam5.zip",
-        "date": "2025-07-23T03:27:32Z"
-      },
+      "latestReleaseDescription": "- Changed Central Station glass type to not hide certain effects.\r\n- Adjusted ranges for stars in entries to lessen light bleeding between entries.\r\n- Hardcoded order of entries to avoid overlaps.\r\n- Removed the example platform, moved its props to the center to make room.\r\n- Removed minimaps from platforms (bug that affected Central Station).\r\n- Added space music (thanks Lezzlebit).\r\n- Added ship log map markers for the Central Station and Starship Community.\r\n- Adjusted the model of the Central Station (thanks Streetlights).\r\n- Moved systems and platforms out slightly to make more room.\r\n\r\nAll entries should now fit in the same system! If this update breaks anything about your entry please fix it and let the judges know, we will use the fixed version of your mod for judging since this breaking wasn't your fault but ours (try to get this done quickly though).",
+      "latestPrereleaseDescription": "",
       "tags": [
         "jam"
       ],
@@ -11638,13 +11633,13 @@
       "thumbnail": {
         "main": "modjam5.webp"
       },
-      "repoUpdatedAt": "2025-07-23T03:29:45Z",
-      "databaseEntryUpdatedAt": "2025-07-23T03:50:43.099Z",
+      "repoUpdatedAt": "2025-07-23T14:42:13Z",
+      "databaseEntryUpdatedAt": "2025-07-23T14:52:25.205Z",
       "repoVariations": [],
       "viewCount": 363,
       "weeklyViewCount": 140,
-      "installCount": 108,
-      "weeklyInstallCount": 43
+      "installCount": 109,
+      "weeklyInstallCount": 44
     },
     {
       "name": "The Hearthian Parable",
@@ -11677,8 +11672,8 @@
       "repoVariations": [],
       "viewCount": 157,
       "weeklyViewCount": 157,
-      "installCount": 108,
-      "weeklyInstallCount": 108
+      "installCount": 109,
+      "weeklyInstallCount": 109
     },
     {
       "name": "APOLLO's Planet",
@@ -11820,8 +11815,8 @@
       "repoVariations": [],
       "viewCount": 112,
       "weeklyViewCount": 112,
-      "installCount": 109,
-      "weeklyInstallCount": 109
+      "installCount": 110,
+      "weeklyInstallCount": 110
     },
     {
       "name": "The Cosmic Curators",
@@ -11866,18 +11861,18 @@
       "description": "Lore of a Nomai named Ping. Explore why there are modding jams in the Outer Wilds universe. Outer Wilds Mod Jam 5 entry",
       "author": "TRSasasusu",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/TRSasasusu/Jam5PingBox/releases/download/v0.4.1/orclecle.Jam5PingBox.zip",
-      "downloadCount": 206,
-      "latestReleaseDate": "2025-07-22T21:33:15Z",
+      "downloadUrl": "https://github.com/TRSasasusu/Jam5PingBox/releases/download/v0.4.2/orclecle.Jam5PingBox.zip",
+      "downloadCount": 207,
+      "latestReleaseDate": "2025-07-23T14:21:42Z",
       "firstReleaseDate": "2025-07-21T00:37:49Z",
       "repo": "https://github.com/TRSasasusu/Jam5PingBox",
-      "version": "v0.4.1",
+      "version": "v0.4.2",
       "readme": {
         "htmlUrl": "https://github.com/TRSasasusu/Jam5PingBox/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TRSasasusu/Jam5PingBox/main/README.md"
       },
       "authorDisplay": "orclecle",
-      "latestReleaseDescription": "# v0.4.1\r\n## Ernesto\r\n\r\n* Add Ernesto, who loves the location to display the coordinate.",
+      "latestReleaseDescription": "# v0.4.2\r\n## Compatibility fix with Mod Jam 5 v1.0.4\r\n\r\n* **Now, Diorama has compatibility with Mod Jam 5 both v1.0.3 and v1.0.4.**\r\n\r\n## Notes for judges\r\n\r\n**The jam submission version is Diorama v0.4.1 and Mod Jam 5 v1.0.3.**",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -11888,13 +11883,13 @@
       "thumbnail": {
         "main": "diorama.webp"
       },
-      "repoUpdatedAt": "2025-07-23T14:07:02Z",
-      "databaseEntryUpdatedAt": "2025-07-23T14:27:46.433Z",
+      "repoUpdatedAt": "2025-07-23T14:35:09Z",
+      "databaseEntryUpdatedAt": "2025-07-23T14:52:24.513Z",
       "repoVariations": [],
       "viewCount": 106,
       "weeklyViewCount": 106,
-      "installCount": 96,
-      "weeklyInstallCount": 96
+      "installCount": 97,
+      "weeklyInstallCount": 97
     },
     {
       "name": "Mystery of the Missing Cake",
@@ -11928,8 +11923,8 @@
       "repoVariations": [],
       "viewCount": 9,
       "weeklyViewCount": 9,
-      "installCount": 47,
-      "weeklyInstallCount": 47
+      "installCount": 50,
+      "weeklyInstallCount": 50
     },
     {
       "name": "Catastrophe",
@@ -11966,8 +11961,8 @@
       "repoVariations": [],
       "viewCount": 19,
       "weeklyViewCount": 19,
-      "installCount": 49,
-      "weeklyInstallCount": 49
+      "installCount": 50,
+      "weeklyInstallCount": 50
     },
     {
       "name": "Core Collapse",
@@ -11975,18 +11970,18 @@
       "description": "Help a group of Nomai save their knowledge from destruction. Made for the 5th Outer Wilds Mod Jam.",
       "author": "TheLoweDown256",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/TheLoweDown256/TLDJam5/releases/download/v1.0.0/TheLoweDown256.TLDJam5.zip",
-      "downloadCount": 83,
-      "latestReleaseDate": "2025-07-22T23:49:17Z",
+      "downloadUrl": "https://github.com/TheLoweDown256/TLDJam5/releases/download/v1.0.1/TheLoweDown256.TLDJam5.zip",
+      "downloadCount": 107,
+      "latestReleaseDate": "2025-07-23T14:39:17Z",
       "firstReleaseDate": "2025-07-22T17:52:32Z",
       "repo": "https://github.com/TheLoweDown256/TLDJam5",
-      "version": "v1.0.0",
+      "version": "v1.0.1",
       "readme": {
         "htmlUrl": "https://github.com/TheLoweDown256/TLDJam5/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/TheLoweDown256/TLDJam5/main/README.md"
       },
       "authorDisplay": "TheLoweDown256",
-      "latestReleaseDescription": "Final release before jam end.",
+      "latestReleaseDescription": "No longer spams errors when the player dies",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -11998,13 +11993,13 @@
       "thumbnail": {
         "main": "corecollapse.webp"
       },
-      "repoUpdatedAt": "2025-07-23T02:38:28Z",
-      "databaseEntryUpdatedAt": "2025-07-23T03:50:43.276Z",
+      "repoUpdatedAt": "2025-07-23T14:40:10Z",
+      "databaseEntryUpdatedAt": "2025-07-23T14:52:24.735Z",
       "repoVariations": [],
       "viewCount": 27,
       "weeklyViewCount": 27,
-      "installCount": 53,
-      "weeklyInstallCount": 53
+      "installCount": 54,
+      "weeklyInstallCount": 54
     },
     {
       "name": "Powerfail",
@@ -12037,8 +12032,8 @@
       "repoVariations": [],
       "viewCount": 16,
       "weeklyViewCount": 16,
-      "installCount": 53,
-      "weeklyInstallCount": 53
+      "installCount": 55,
+      "weeklyInstallCount": 55
     },
     {
       "name": "Under a Radio Moon",
@@ -12071,8 +12066,8 @@
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 44,
-      "weeklyInstallCount": 44
+      "installCount": 45,
+      "weeklyInstallCount": 45
     },
     {
       "name": "Project ARC",
@@ -12106,8 +12101,8 @@
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 40,
-      "weeklyInstallCount": 40
+      "installCount": 41,
+      "weeklyInstallCount": 41
     },
     {
       "name": "Bright Spark",
@@ -12140,8 +12135,8 @@
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 43,
-      "weeklyInstallCount": 43
+      "installCount": 44,
+      "weeklyInstallCount": 44
     },
     {
       "name": "Scale of the Universe",
@@ -12175,8 +12170,8 @@
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 35,
-      "weeklyInstallCount": 35
+      "installCount": 37,
+      "weeklyInstallCount": 37
     },
     {
       "name": "On A Rail!",
@@ -12208,8 +12203,8 @@
       "repoVariations": [],
       "viewCount": 0,
       "weeklyViewCount": 0,
-      "installCount": 17,
-      "weeklyInstallCount": 17
+      "installCount": 19,
+      "weeklyInstallCount": 19
     }
   ],
   "alphaReleases": [
