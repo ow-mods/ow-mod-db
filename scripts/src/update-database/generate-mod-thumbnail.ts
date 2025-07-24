@@ -5,6 +5,7 @@ import path from "path";
 import fetch from "node-fetch";
 import { getReadmeMarkdown } from "./readmes.js";
 import { GITHUB_RAW_CONTENT_URL } from "../constants.js";
+import { Parser as HtmlParser } from "htmlparser2";
 
 export const thumbnailSize = {
   width: 450,
@@ -111,6 +112,32 @@ function tryGetUrl(url: string): URL | null {
   }
 }
 
+function extractImageUrlFromHtml(html: string): string | null {
+  try {
+    let imageUrl: string | null = null;
+
+    const parser = new HtmlParser(
+      {
+        onopentag(name, attribs) {
+          if (name === "img" && !imageUrl) {
+            imageUrl = attribs.src || null;
+            parser.pause();
+          }
+        },
+      },
+      { decodeEntities: true }
+    );
+
+    parser.write(html);
+    parser.end();
+
+    return imageUrl;
+  } catch (error) {
+    console.error("Failed to parse HTML with DOMParser:", error);
+    return null;
+  }
+}
+
 export async function getFirstImageUrl(
   readmeUrl: string | undefined
 ): Promise<string | null> {
@@ -126,22 +153,34 @@ export async function getFirstImageUrl(
   let event;
   while ((event = walker.next())) {
     const node = event.node;
-    if (node.type !== "image" || !node.destination) continue;
 
-    const imageUrl = tryGetUrl(node.destination);
+    let imageUrl: string | null = null;
+
+    if (node.type === "image" && node.destination) {
+      imageUrl = node.destination;
+    } else if (
+      (node.type === "html_inline" || node.type === "html_block") &&
+      node.literal
+    ) {
+      imageUrl = extractImageUrlFromHtml(node.literal);
+    }
+
+    if (!imageUrl) continue;
+
+    const parsedImageUrl = tryGetUrl(imageUrl);
 
     if (
-      !imageUrl?.pathname.endsWith(".svg") &&
-      imageUrl?.host !== "img.shields.io"
+      !parsedImageUrl?.pathname.endsWith(".svg") &&
+      parsedImageUrl?.host !== "img.shields.io"
     ) {
-      const fullUrl = imageUrl
+      const fullUrl = parsedImageUrl
         ? // GitHub allows embedding images that actually point to webpages on github.com, so we have to replace the URLs here
-          node.destination.replace(
+          imageUrl.replace(
             /^https?:\/\/github.com\/(.+)\/(.+)\/blob\/(.+)\//gm,
             `${GITHUB_RAW_CONTENT_URL}/$1/$2/$3/`
           )
         : // For relative URLs we also have to resolve them
-          `${baseUrl}/${node.destination}`;
+          `${baseUrl}/${imageUrl}`;
 
       return fullUrl;
     }
@@ -176,7 +215,7 @@ async function downloadImage(
     const fullImagePath = getPath(relativeImagePath);
 
     const image = await response.arrayBuffer();
-    await fsp.writeFile(fullImagePath, Buffer.from(image));
+    await fsp.writeFile(fullImagePath, new Uint8Array(image));
 
     console.log(`Downloaded image from ${imageUrl} to ${fullImagePath}`);
     return fullImagePath;

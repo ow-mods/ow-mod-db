@@ -13,7 +13,7 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "@actions/core": "^1.10.1",
+    "@actions/core": "^1.11.1",
     "@google-analytics/data": "^3.3.0",
     "@octokit/action": "^4.0.10",
     "@octokit/core": "^4.2.4",
@@ -21,15 +21,16 @@
     "@octokit/plugin-throttling": "^4.3.2",
     "@octokit/request-error": "^3.0.3",
     "@octokit/types": "^9.3.2",
-    "@types/commonmark": "^0.27.9",
-    "@types/node": "^18.19.34",
+    "@types/commonmark": "^0.27.10",
+    "@types/node": "^18.19.120",
     "@types/sharp": "^0.31.1",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "commonmark": "^0.30.0",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
+    "htmlparser2": "^10.0.0",
     "node-fetch": "^3.3.2",
-    "sharp": "^0.33.4",
+    "sharp": "^0.33.5",
     "typescript": "^4.9.5"
   },
   "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
