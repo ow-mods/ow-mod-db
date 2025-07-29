@@ -761,8 +761,8 @@
       "repoVariations": [],
       "viewCount": 173,
       "weeklyViewCount": 41,
-      "installCount": 72,
-      "weeklyInstallCount": 21
+      "installCount": 74,
+      "weeklyInstallCount": 23
     },
     {
       "name": "NomaiVR Online Patches",
@@ -5762,9 +5762,11 @@
         "tool"
       ],
       "slug": "nomaitextprinter",
-      "thumbnail": {},
-      "repoUpdatedAt": "2025-07-29T21:18:16Z",
-      "databaseEntryUpdatedAt": "2025-07-29T21:19:12.168Z",
+      "thumbnail": {
+        "main": "nomaitextprinter.webp"
+      },
+      "repoUpdatedAt": "2025-07-29T21:34:25Z",
+      "databaseEntryUpdatedAt": "2025-07-29T21:40:04.265Z",
       "repoVariations": [],
       "viewCount": 13,
       "weeklyViewCount": 2,
@@ -8887,8 +8889,8 @@
       "repoVariations": [],
       "viewCount": 915,
       "weeklyViewCount": 234,
-      "installCount": 509,
-      "weeklyInstallCount": 139
+      "installCount": 510,
+      "weeklyInstallCount": 140
     },
     {
       "name": "Mod Jam 3",
@@ -11789,18 +11791,18 @@
       "description": "Explore a Nomai educational project and festival entry.",
       "author": "2walker2",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/2walker2/OWJam5ModProject/releases/download/v1.0.3/2walker2.OWJam5ModProject.zip",
-      "downloadCount": 485,
-      "latestReleaseDate": "2025-07-23T21:17:50Z",
+      "downloadUrl": "https://github.com/2walker2/OWJam5ModProject/releases/download/v1.0.4/2walker2.OWJam5ModProject.zip",
+      "downloadCount": 486,
+      "latestReleaseDate": "2025-07-29T21:21:05Z",
       "firstReleaseDate": "2025-07-20T19:07:36Z",
       "repo": "https://github.com/2walker2/OWJam5ModProject",
-      "version": "v1.0.3",
+      "version": "v1.0.4",
       "readme": {
         "htmlUrl": "https://github.com/2walker2/OWJam5ModProject/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/2walker2/OWJam5ModProject/main/README.md"
       },
       "authorDisplay": "coderCleric, Lezzlebit, 2walker2, JohnCorby",
-      "latestReleaseDescription": "fix sun light range",
+      "latestReleaseDescription": "Lots of minor design changes based on watching people play over the last week.\r\n- Prevented clipping into ice when warping under certain circumstances\r\n- Made a beacon taller so it's more visible from a greater distance\r\n- Minor structure edits to reduce clipping and make some texts harder to miss\r\n- The buried portion of a certain structure now includes an interior\r\n- A signal-related structure has been made more visually distinct and visible from a greater distance\r\n- Minor text and ship log updates\r\n- Scaled up a secret warp receiver to make it less likely to strand you in deep space\r\n- Moved a deadly dialog option to the end of the list\r\n- Daucus has been tinted redder to make it more easily distinguishable from The Big One\r\n- Certain Nomai text spirals have been re-positioned to be easier to target with the translator",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -11811,13 +11813,13 @@
       "thumbnail": {
         "main": "heliostudy.webp"
       },
-      "repoUpdatedAt": "2025-07-29T21:16:50Z",
-      "databaseEntryUpdatedAt": "2025-07-29T21:19:12.446Z",
+      "repoUpdatedAt": "2025-07-29T21:27:26Z",
+      "databaseEntryUpdatedAt": "2025-07-29T21:40:04.652Z",
       "repoVariations": [],
       "viewCount": 236,
       "weeklyViewCount": 203,
-      "installCount": 218,
-      "weeklyInstallCount": 184
+      "installCount": 219,
+      "weeklyInstallCount": 185
     },
     {
       "name": "The Cosmic Curators",
@@ -11999,8 +12001,8 @@
       "repoVariations": [],
       "viewCount": 152,
       "weeklyViewCount": 152,
-      "installCount": 154,
-      "weeklyInstallCount": 154
+      "installCount": 155,
+      "weeklyInstallCount": 155
     },
     {
       "name": "Powerfail",
