@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 144181
+    "downloadCount": 144182
   },
   "releases": [
     {
@@ -122,8 +122,8 @@
       ],
       "viewCount": 3072,
       "weeklyViewCount": 770,
-      "installCount": 2284,
-      "weeklyInstallCount": 537
+      "installCount": 2285,
+      "weeklyInstallCount": 538
     },
     {
       "name": "Light Bramble",
@@ -349,8 +349,8 @@
       "repoVariations": [],
       "viewCount": 47,
       "weeklyViewCount": 11,
-      "installCount": 122,
-      "weeklyInstallCount": 23
+      "installCount": 123,
+      "weeklyInstallCount": 24
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -8853,8 +8853,8 @@
       "repoVariations": [],
       "viewCount": 246,
       "weeklyViewCount": 63,
-      "installCount": 229,
-      "weeklyInstallCount": 69
+      "installCount": 230,
+      "weeklyInstallCount": 70
     },
     {
       "name": "Astral Codec",
@@ -11324,18 +11324,18 @@
       "uniqueName": "Novaenia.MouseFix",
       "description": "Fixes mouse input in Outer Wilds, removes mouse smoothing and lets you look straight up/down",
       "author": "Novaenia",
-      "downloadUrl": "https://github.com/Novaenia/OWMouseFix/releases/download/v0.1.1/Novaenia.MouseFix.zip",
-      "downloadCount": 167,
-      "latestReleaseDate": "2025-05-25T01:13:31Z",
+      "downloadUrl": "https://github.com/Novaenia/OWMouseFix/releases/download/v0.1.2/Novaenia.MouseFix.zip",
+      "downloadCount": 168,
+      "latestReleaseDate": "2025-08-02T12:03:11Z",
       "firstReleaseDate": "2025-05-24T21:16:57Z",
       "repo": "https://github.com/Novaenia/OWMouseFix",
-      "version": "v0.1.1",
+      "version": "v0.1.2",
       "readme": {
         "htmlUrl": "https://github.com/Novaenia/OWMouseFix/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Novaenia/OWMouseFix/master/README.md"
       },
       "authorDisplay": "Novaenia",
-      "latestReleaseDescription": "fixed horizontal and vertical sensitivity not actually being 1:1 due to a one-line error",
+      "latestReleaseDescription": "Fixes made by @Owen013, thank you!\r\n* Fixes jetpack controls being jittery or locking up entirely while in zero-G\r\n* Fixes player not turning with the moving platform or planet they're standing on\r\n* The ship free look is not longer twice as sensitive on the X-axis.",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
@@ -11344,8 +11344,8 @@
       "thumbnail": {
         "main": "mousefix.webp"
       },
-      "repoUpdatedAt": "2025-05-25T01:24:27Z",
-      "databaseEntryUpdatedAt": "2025-08-02T11:59:06.905Z",
+      "repoUpdatedAt": "2025-08-02T12:04:13Z",
+      "databaseEntryUpdatedAt": "2025-08-02T12:56:51.816Z",
       "repoVariations": [],
       "viewCount": 40,
       "weeklyViewCount": 2,
@@ -11855,8 +11855,8 @@
       "repoVariations": [],
       "viewCount": 228,
       "weeklyViewCount": 95,
-      "installCount": 229,
-      "weeklyInstallCount": 97
+      "installCount": 230,
+      "weeklyInstallCount": 98
     },
     {
       "name": "Diorama",
@@ -11865,7 +11865,7 @@
       "author": "TRSasasusu",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TRSasasusu/Jam5PingBox/releases/download/v0.4.2/orclecle.Jam5PingBox.zip",
-      "downloadCount": 430,
+      "downloadCount": 432,
       "latestReleaseDate": "2025-07-23T14:21:42Z",
       "firstReleaseDate": "2025-07-21T00:37:49Z",
       "repo": "https://github.com/TRSasasusu/Jam5PingBox",
@@ -11886,8 +11886,8 @@
       "thumbnail": {
         "main": "diorama.webp"
       },
-      "repoUpdatedAt": "2025-08-02T09:35:33Z",
-      "databaseEntryUpdatedAt": "2025-08-02T09:47:47.956Z",
+      "repoUpdatedAt": "2025-08-02T12:52:36Z",
+      "databaseEntryUpdatedAt": "2025-08-02T12:56:51.869Z",
       "repoVariations": [],
       "viewCount": 219,
       "weeklyViewCount": 74,
