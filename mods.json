@@ -3758,6 +3758,16 @@
       ],
       "parent": "xen-42.ModJam5",
       "authorDisplay": "A bunch of people"
+    },
+    {
+      "name": "Talk To Prisoner",
+      "uniqueName": "xen.TalkToPrisoner",
+      "repo": "xen-42/talk-to-prisoner",
+      "tags": [
+        "content",
+        "requires-dlc"
+      ],
+      "parent": "xen.NewHorizons"
     }
   ]
 }
