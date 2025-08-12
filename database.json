@@ -4,7 +4,7 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 144309
+    "downloadCount": 144312
   },
   "releases": [
     {
@@ -122,8 +122,8 @@
       ],
       "viewCount": 2874,
       "weeklyViewCount": 713,
-      "installCount": 1901,
-      "weeklyInstallCount": 414
+      "installCount": 1902,
+      "weeklyInstallCount": 415
     },
     {
       "name": "Light Bramble",
@@ -418,8 +418,8 @@
       "repoVariations": [],
       "viewCount": 302,
       "weeklyViewCount": 61,
-      "installCount": 86,
-      "weeklyInstallCount": 15
+      "installCount": 87,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Cheat and Debug Menu",
@@ -1091,7 +1091,7 @@
       "description": "The story mod creation framework for Outer Wilds",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.28.6/xen.NewHorizons.zip",
-      "downloadCount": 98956,
+      "downloadCount": 98997,
       "latestReleaseDate": "2025-08-05T01:57:27Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1113,7 +1113,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2025-08-12T00:10:00Z",
-      "databaseEntryUpdatedAt": "2025-08-12T01:10:49.183Z",
+      "databaseEntryUpdatedAt": "2025-08-12T13:42:15.583Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -3414,37 +3414,6 @@
       "weeklyViewCount": 2,
       "installCount": 11,
       "weeklyInstallCount": 3
-    },
-    {
-      "name": "Quality of Life Features",
-      "uniqueName": "Owen013.QOLFixes",
-      "description": "Contextual reticle, disable automatic scout equipping, exit dialogue early, and more features that weren't big enough for their own mod.",
-      "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/QOLFixes/releases/download/v1.3.5/Owen013.QOLFixes.zip",
-      "downloadCount": 1938,
-      "latestReleaseDate": "2024-03-16T18:27:36Z",
-      "firstReleaseDate": "2022-05-23T15:52:47Z",
-      "repo": "https://github.com/Owen013/QOLFixes",
-      "version": "v1.3.5",
-      "readme": {
-        "htmlUrl": "https://github.com/Owen013/QOLFixes/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Owen013/QOLFixes/main/README.md"
-      },
-      "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "- Renamed mod to QOL Features\r\n- You can now toggle the space helmet with H, if you've enabled this feature in the config.\r\n- You can now manually equip the translator tool with T, if you've enabled this feature in the config.",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "tweaks"
-      ],
-      "slug": "qualityoflifefeatures",
-      "thumbnail": {},
-      "repoUpdatedAt": "2025-07-22T00:40:25Z",
-      "databaseEntryUpdatedAt": "2025-08-12T01:10:47.671Z",
-      "repoVariations": [],
-      "viewCount": 22,
-      "weeklyViewCount": 7,
-      "installCount": 35,
-      "weeklyInstallCount": 12
     },
     {
       "name": "Common Camera Utility",
@@ -6059,8 +6028,8 @@
       "repoVariations": [],
       "viewCount": 29,
       "weeklyViewCount": 6,
-      "installCount": 65,
-      "weeklyInstallCount": 24
+      "installCount": 66,
+      "weeklyInstallCount": 25
     },
     {
       "name": "No Dot Mod",
@@ -6420,8 +6389,8 @@
       "repoVariations": [],
       "viewCount": 1229,
       "weeklyViewCount": 216,
-      "installCount": 607,
-      "weeklyInstallCount": 156
+      "installCount": 608,
+      "weeklyInstallCount": 157
     },
     {
       "name": "Daylight Savings",
@@ -8354,7 +8323,7 @@
       "description": "Outer Wilds mod that keeps track of seen and unseen lore across game sessions, highlighting new content in purple for easy identification.",
       "author": "FancyFurret",
       "downloadUrl": "https://github.com/FancyFurret/outer-wilds-lore-tracker/releases/download/v0.1.2/FancyFurret.LoreTracker.zip",
-      "downloadCount": 1383,
+      "downloadCount": 1385,
       "latestReleaseDate": "2025-07-24T04:42:23Z",
       "firstReleaseDate": "2023-08-22T04:49:53Z",
       "repo": "https://github.com/osum4est/outer-wilds-lore-tracker",
@@ -8375,7 +8344,7 @@
         "main": "loretracker.webp"
       },
       "repoUpdatedAt": "2025-07-24T04:46:24Z",
-      "databaseEntryUpdatedAt": "2025-08-12T01:10:48.406Z",
+      "databaseEntryUpdatedAt": "2025-08-12T13:42:14.591Z",
       "repoVariations": [],
       "viewCount": 44,
       "weeklyViewCount": 11,
@@ -8685,7 +8654,7 @@
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
       "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.18/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 9976,
+      "downloadCount": 9986,
       "latestReleaseDate": "2025-06-22T20:23:37Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
@@ -8711,7 +8680,7 @@
         "main": "archipelagorandomizer.webp"
       },
       "repoUpdatedAt": "2025-07-30T07:01:11Z",
-      "databaseEntryUpdatedAt": "2025-08-12T01:10:48.324Z",
+      "databaseEntryUpdatedAt": "2025-08-12T13:42:14.871Z",
       "repoVariations": [],
       "viewCount": 392,
       "weeklyViewCount": 73,
@@ -9210,8 +9179,8 @@
       "repoVariations": [],
       "viewCount": 27,
       "weeklyViewCount": 9,
-      "installCount": 45,
-      "weeklyInstallCount": 11
+      "installCount": 46,
+      "weeklyInstallCount": 12
     },
     {
       "name": "Echo Hike",
@@ -10104,7 +10073,7 @@
         "main": "ernestochase.webp"
       },
       "repoUpdatedAt": "2025-06-19T09:58:31Z",
-      "databaseEntryUpdatedAt": "2025-08-12T01:10:48.071Z",
+      "databaseEntryUpdatedAt": "2025-08-12T13:42:14.311Z",
       "repoVariations": [],
       "viewCount": 16,
       "weeklyViewCount": 4,
@@ -11554,7 +11523,7 @@
       "description": "Free cam rotation in map view",
       "author": "Vambok",
       "downloadUrl": "https://github.com/Vambok/FreeLook/releases/download/v1.0.0/Vambok.FreeLook.zip",
-      "downloadCount": 51,
+      "downloadCount": 52,
       "latestReleaseDate": "2025-06-21T00:01:02Z",
       "firstReleaseDate": "2025-06-21T00:01:02Z",
       "repo": "https://github.com/Vambok/FreeLook",
@@ -11571,7 +11540,7 @@
       "slug": "freelook",
       "thumbnail": {},
       "repoUpdatedAt": "2025-06-21T00:02:26Z",
-      "databaseEntryUpdatedAt": "2025-08-12T01:10:47.759Z",
+      "databaseEntryUpdatedAt": "2025-08-12T13:42:13.885Z",
       "repoVariations": [],
       "viewCount": 46,
       "weeklyViewCount": 4,
@@ -11603,7 +11572,7 @@
         "main": "ghosteverything.webp"
       },
       "repoUpdatedAt": "2025-07-01T22:03:06Z",
-      "databaseEntryUpdatedAt": "2025-08-12T01:10:48.131Z",
+      "databaseEntryUpdatedAt": "2025-08-12T13:42:14.200Z",
       "repoVariations": [],
       "viewCount": 81,
       "weeklyViewCount": 6,
