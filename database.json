@@ -4,44 +4,9 @@
     "downloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "zipDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Portable.zip",
     "installerDownloadUrl": "https://github.com/ow-mods/ow-mod-manager/releases/download/v1.18.0/OuterWildsModManager-Installer.exe",
-    "downloadCount": 144313
+    "downloadCount": 144314
   },
   "releases": [
-    {
-      "name": "OWML",
-      "uniqueName": "Alek.OWML",
-      "description": "The mod loader and mod framework for Outer Wilds",
-      "author": "ow-mods",
-      "required": true,
-      "utility": true,
-      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.15.3/OWML.zip",
-      "downloadCount": 258138,
-      "latestReleaseDate": "2025-06-24T23:27:31Z",
-      "firstReleaseDate": "2019-12-18T16:07:26Z",
-      "repo": "https://github.com/amazingalek/owml",
-      "version": "2.15.3",
-      "readme": {
-        "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
-        "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
-      },
-      "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "library"
-      ],
-      "slug": "owml",
-      "thumbnail": {
-        "main": "owml.webp"
-      },
-      "repoUpdatedAt": "2025-08-11T00:07:58Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:03.007Z",
-      "repoVariations": [],
-      "viewCount": 1396,
-      "weeklyViewCount": 308,
-      "installCount": 0,
-      "weeklyInstallCount": 0
-    },
     {
       "name": "NomaiVR",
       "uniqueName": "Raicuparta.NomaiVR",
@@ -122,8 +87,8 @@
       ],
       "viewCount": 2874,
       "weeklyViewCount": 713,
-      "installCount": 1910,
-      "weeklyInstallCount": 423
+      "installCount": 1911,
+      "weeklyInstallCount": 424
     },
     {
       "name": "Light Bramble",
@@ -448,8 +413,8 @@
       "repoVariations": [],
       "viewCount": 157,
       "weeklyViewCount": 43,
-      "installCount": 102,
-      "weeklyInstallCount": 30
+      "installCount": 103,
+      "weeklyInstallCount": 31
     },
     {
       "name": "Cheats Mod",
@@ -2865,39 +2830,6 @@
       "weeklyViewCount": 6,
       "installCount": 19,
       "weeklyInstallCount": 2
-    },
-    {
-      "name": "Achievements+",
-      "uniqueName": "xen.AchievementTracker",
-      "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
-      "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v1.0.0/xen.AchievementTracker.zip",
-      "downloadCount": 6863,
-      "latestReleaseDate": "2024-10-15T01:55:26Z",
-      "firstReleaseDate": "2022-04-27T06:22:23Z",
-      "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
-      "version": "v1.0.0",
-      "readme": {
-        "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
-      },
-      "latestReleaseDescription": "- Add sfx on achievement unlock (thanks pikpik)\r\n- Add option for enabling debug logs (off by default)\r\n- Make saving more reliable\r\n- Got rid of popup queue because it looked bad\r\n- Popups don't stick around when the game is paused\r\n- Fixed some button highlights, only show page buttons when relevant\r\n- Cleaned up stuff",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
-      "slug": "achievements",
-      "thumbnail": {
-        "main": "achievements.webp"
-      },
-      "repoUpdatedAt": "2025-07-27T05:44:04Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.496Z",
-      "repoVariations": [],
-      "viewCount": 160,
-      "weeklyViewCount": 33,
-      "installCount": 181,
-      "weeklyInstallCount": 44
     },
     {
       "name": "Supernova On Demand",
@@ -6389,8 +6321,8 @@
       "repoVariations": [],
       "viewCount": 1229,
       "weeklyViewCount": 216,
-      "installCount": 609,
-      "weeklyInstallCount": 158
+      "installCount": 610,
+      "weeklyInstallCount": 159
     },
     {
       "name": "Daylight Savings",
@@ -6607,42 +6539,6 @@
       "weeklyViewCount": 3,
       "installCount": 28,
       "weeklyInstallCount": 9
-    },
-    {
-      "name": "Divergence",
-      "uniqueName": "artificialparanoia.Divergence",
-      "description": "There is more to explore here. A short story mod for Outer Wilds.",
-      "author": "artificialparanoia",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/artificialparanoia/Divergence/releases/download/v1.0.9/artificialparanoia.Divergence.zip",
-      "downloadCount": 2660,
-      "latestReleaseDate": "2025-08-12T02:01:53Z",
-      "firstReleaseDate": "2023-01-23T12:15:37Z",
-      "repo": "https://github.com/artificialparanoia/Divergence",
-      "version": "v1.0.9",
-      "readme": {
-        "htmlUrl": "https://github.com/artificialparanoia/Divergence/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/artificialparanoia/Divergence/main/README.md"
-      },
-      "latestReleaseDescription": "### Fixes and Improvements\r\n- Fixed an issue where a particular area would turn invisible in certain contexts\r\n- Fixed additional audio and visual issues when returning to a particular area in certain contexts\r\n- Made a music cue slightly quieter",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
-      "slug": "divergence",
-      "thumbnail": {
-        "main": "divergence.webp"
-      },
-      "repoUpdatedAt": "2025-08-12T02:08:01Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.592Z",
-      "repoVariations": [],
-      "viewCount": 116,
-      "weeklyViewCount": 17,
-      "installCount": 46,
-      "weeklyInstallCount": 14
     },
     {
       "name": "Archipelago",
@@ -8688,44 +8584,6 @@
       "weeklyInstallCount": 57
     },
     {
-      "name": "Immersion",
-      "uniqueName": "Owen_013.FirstPersonPresence",
-      "description": "Step into the hatchling's hiking boots with viewmodel hands, view bobbing, and more!",
-      "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.4/Owen_013.FirstPersonPresence.zip",
-      "downloadCount": 4325,
-      "latestReleaseDate": "2025-07-18T15:31:06Z",
-      "firstReleaseDate": "2024-01-16T01:43:20Z",
-      "repo": "https://github.com/Owen013/FirstPersonPresence",
-      "version": "v1.4.4",
-      "readme": {
-        "htmlUrl": "https://github.com/Owen013/FirstPersonPresence/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Owen013/FirstPersonPresence/main/README.md"
-      },
-      "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "**This version has been tested with and works on Astral Codec and the Outsider. It should also work with any other story mods. Please submit an issue if you encounter bugs.**\r\n\r\n### Fixes\r\n- Viewmodel Arms no longer break the game when picking up certain items placed by other mods.\r\n- Fixed the Viewmodel Arm position for the Jeff Scroll.\r\n- Fixed an issue where the Spacesuit Viewmodel Arm would have weird shading or appear fully dark in certain areas.\r\n- Viewmodel sway is now frame-independent (I think).",
-      "latestPrereleaseDescription": "Attempted to fix a bug where items place by other mods will have glitched hands attached to them, even when they're not being held.\r\n\r\nWould appreciate testers, preferably ones who also have story mods such as Astral Codec installed to test custom items.\r\n\r\nRelevant Changes:\r\n- Viewmodel hands on OWItems will now disable the ViewmodelArm GameObject if they aren't being held by ItemTool.\r\n- Viewmodel hands will now only be created on an item/tool when it is equipped for the first time.",
-      "prerelease": {
-        "version": "v1.4.3-pr1",
-        "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.4.3-pr1/Owen_013.FirstPersonPresence.zip",
-        "date": "2025-07-14T06:33:16Z"
-      },
-      "tags": [
-        "audiovisual"
-      ],
-      "slug": "immersion",
-      "thumbnail": {
-        "main": "immersion.webp"
-      },
-      "repoUpdatedAt": "2025-07-18T15:33:15Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.630Z",
-      "repoVariations": [],
-      "viewCount": 173,
-      "weeklyViewCount": 17,
-      "installCount": 185,
-      "weeklyInstallCount": 45
-    },
-    {
       "name": "No Achievements",
       "uniqueName": "MegaPiggy.NoAchievements",
       "description": "A mod that stops you from earning achievements. For the people who don't want achievements while modding.",
@@ -8826,42 +8684,6 @@
       "weeklyInstallCount": 69
     },
     {
-      "name": "Astral Codec",
-      "uniqueName": "Walker.AstralCodex",
-      "description": "A fan-made expansion exploring the origin of The Interloper (EN,JP,CN,RU,FR,KO,IT). @;{&< ?/ })& ?][\"[/;| *?/*&+} (?] &?}&",
-      "author": "2walker2",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/2walker2/Astral-Codex/releases/download/1.9.1/Walker.AstralCodex.zip",
-      "downloadCount": 17299,
-      "latestReleaseDate": "2025-07-29T20:41:05Z",
-      "firstReleaseDate": "2024-02-24T02:22:36Z",
-      "repo": "https://github.com/2walker2/Astral-Codex",
-      "version": "1.9.1",
-      "readme": {
-        "htmlUrl": "https://github.com/2walker2/Astral-Codex/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/2walker2/Astral-Codex/main/README.md"
-      },
-      "authorDisplay": "2walker2",
-      "latestReleaseDescription": "- French translation updates by LaraNanuq\r\n- Russian translation update by Groove619",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "gameplay",
-        "content",
-        "story"
-      ],
-      "slug": "astralcodec",
-      "thumbnail": {
-        "main": "astralcodec.webp"
-      },
-      "repoUpdatedAt": "2025-07-29T20:42:11Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.640Z",
-      "repoVariations": [],
-      "viewCount": 892,
-      "weeklyViewCount": 210,
-      "installCount": 477,
-      "weeklyInstallCount": 117
-    },
-    {
       "name": "Mod Jam 3",
       "uniqueName": "xen.ModJam3",
       "description": "The base solar system for the 3rd Outer Wilds mod jam. Install jam entries separately to play!",
@@ -8893,6 +8715,42 @@
       "weeklyViewCount": 16,
       "installCount": 37,
       "weeklyInstallCount": 12
+    },
+    {
+      "name": "Jam Hub",
+      "uniqueName": "coderCleric.JamHub",
+      "description": "Adds a hub for the modding community. Made for the March 2024 mod jam.",
+      "author": "coderCleric",
+      "parent": "xen.NewHorizons",
+      "downloadUrl": "https://github.com/coderCleric/JamHub/releases/download/v1.1.2/coderCleric.JamHub.zip",
+      "downloadCount": 1954,
+      "latestReleaseDate": "2024-04-21T23:36:27Z",
+      "firstReleaseDate": "2024-03-23T20:18:16Z",
+      "repo": "https://github.com/coderCleric/JamHub",
+      "version": "v1.1.2",
+      "readme": {
+        "htmlUrl": "https://github.com/coderCleric/JamHub/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/coderCleric/JamHub/master/README.md"
+      },
+      "authorDisplay": "coderCleric",
+      "latestReleaseDescription": "Fixed an issue when trying to switch profiles.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "jam",
+        "content",
+        "requires-dlc"
+      ],
+      "slug": "jamhub",
+      "thumbnail": {
+        "main": "jamhub.webp"
+      },
+      "repoUpdatedAt": "2025-08-12T13:53:45Z",
+      "databaseEntryUpdatedAt": "2025-08-12T15:15:56.540Z",
+      "repoVariations": [],
+      "viewCount": 16,
+      "weeklyViewCount": 7,
+      "installCount": 46,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Granite's Invitation",
@@ -9181,43 +9039,6 @@
       "weeklyViewCount": 6,
       "installCount": 63,
       "weeklyInstallCount": 19
-    },
-    {
-      "name": "Band Together",
-      "uniqueName": "pikpik_carrot.BandTogether",
-      "description": "Embark on a quest to restore harmony.",
-      "author": "Etherpod",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Etherpod/Band-Together/releases/download/v2.1.4/pikpik_carrot.BandTogether.zip",
-      "downloadCount": 3858,
-      "latestReleaseDate": "2025-08-04T04:44:09Z",
-      "firstReleaseDate": "2024-03-27T00:02:51Z",
-      "repo": "https://github.com/Etherpod/Band-Together",
-      "version": "v2.1.4",
-      "readme": {
-        "htmlUrl": "https://github.com/Etherpod/Band-Together/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Etherpod/Band-Together/main/README.md"
-      },
-      "authorDisplay": "pikpik_carrot, Etherpod, Ditzy, TheHipOne",
-      "latestReleaseDescription": "Added translation for Simplified Chinese. Thank you @AaaGss for providing the translation!",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
-      "slug": "bandtogether",
-      "thumbnail": {
-        "main": "bandtogether.webp"
-      },
-      "repoUpdatedAt": "2025-08-04T09:11:00Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.385Z",
-      "repoVariations": [],
-      "viewCount": 97,
-      "weeklyViewCount": 40,
-      "installCount": 80,
-      "weeklyInstallCount": 26
     },
     {
       "name": "Symbiosis",
@@ -10909,83 +10730,6 @@
       "weeklyInstallCount": 0
     },
     {
-      "name": "The Stranger They Are",
-      "uniqueName": "AnonymousStrangerOW.TheStrangerTheyAre",
-      "description": "A somewhat large story mod that adds onto the story of Echoes of the Eye.",
-      "author": "MegaPiggy",
-      "downloadUrl": "https://github.com/MegaPiggy/TheStrangerTheyAre/releases/download/v2.6.0/AnonymousStrangerOW.TheStrangerTheyAre.zip",
-      "downloadCount": 10179,
-      "latestReleaseDate": "2025-07-30T19:34:47Z",
-      "firstReleaseDate": "2025-02-10T22:31:38Z",
-      "repo": "https://github.com/AnonymousStrangerOW/TheStrangerTheyAre",
-      "version": "v2.6.0",
-      "readme": {
-        "htmlUrl": "https://github.com/MegaPiggy/TheStrangerTheyAre/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/MegaPiggy/TheStrangerTheyAre/main/README.md"
-      },
-      "authorDisplay": "Anonymous",
-      "latestReleaseDescription": "- Added missing simple chinese translations by @nice2cu1\r\n- Added french translation by cOa Rex",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
-      "slug": "thestrangertheyare",
-      "thumbnail": {
-        "main": "thestrangertheyare.webp"
-      },
-      "repoUpdatedAt": "2025-08-04T22:00:38Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.800Z",
-      "repoVariations": [],
-      "viewCount": 727,
-      "weeklyViewCount": 155,
-      "installCount": 283,
-      "weeklyInstallCount": 75
-    },
-    {
-      "name": "Forgotten Castaways",
-      "uniqueName": "cleric.DeepBramble",
-      "description": "A 6-8 hour story mod following 4 Nomai who descend deeper into Dark Bramble.",
-      "author": "coderCleric",
-      "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/coderCleric/DeepBramble/releases/download/v1.2.1/cleric.DeepBramble.zip",
-      "downloadCount": 2237,
-      "latestReleaseDate": "2025-07-24T18:10:05Z",
-      "firstReleaseDate": "2025-02-21T23:43:51Z",
-      "repo": "https://github.com/coderCleric/DeepBramble",
-      "version": "v1.2.1",
-      "readme": {
-        "htmlUrl": "https://github.com/coderCleric/DeepBramble/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/coderCleric/DeepBramble/main/README.md"
-      },
-      "authorDisplay": "coderCleric",
-      "latestReleaseDescription": "Fixed a bug that made the xbox version not work.",
-      "latestPrereleaseDescription": "Thought last one would be final playtest but playtesting is taking a while, so here's another!",
-      "prerelease": {
-        "version": "v0.2.1",
-        "downloadUrl": "https://github.com/coderCleric/DeepBramble/releases/download/v0.2.1/Cleric.ForgottenCastaways.zip",
-        "date": "2024-11-15T00:51:07Z"
-      },
-      "tags": [
-        "content",
-        "story",
-        "requires-dlc"
-      ],
-      "slug": "forgottencastaways",
-      "thumbnail": {
-        "main": "forgottencastaways.webp"
-      },
-      "repoUpdatedAt": "2025-08-11T00:06:45Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.385Z",
-      "repoVariations": [],
-      "viewCount": 330,
-      "weeklyViewCount": 69,
-      "installCount": 156,
-      "weeklyInstallCount": 43
-    },
-    {
       "name": "Trans Rights Mod",
       "uniqueName": "CrystalENVT.TransRightsMod",
       "description": "A mod for Outer Wilds that converts the Launch Codes from --|-..|-. to Trans Rights (or Trans Wrongs)",
@@ -11213,44 +10957,6 @@
       "weeklyViewCount": 9,
       "installCount": 12,
       "weeklyInstallCount": 1
-    },
-    {
-      "name": "Nomai's Sky",
-      "uniqueName": "Vambok.NomaiSky",
-      "description": "A procedurally generated universe of near infinite possibilities",
-      "author": "Vambok",
-      "downloadUrl": "https://github.com/Vambok/NomaiSky/releases/download/v0.4.3/Vambok.NomaiSky.zip",
-      "downloadCount": 1055,
-      "latestReleaseDate": "2025-07-02T16:24:14Z",
-      "firstReleaseDate": "2025-05-22T17:35:25Z",
-      "repo": "https://github.com/Vambok/NomaiSky",
-      "version": "v0.4.3",
-      "readme": {
-        "htmlUrl": "https://github.com/Vambok/NomaiSky/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/Vambok/NomaiSky/main/README.md"
-      },
-      "authorDisplay": "Vambok",
-      "latestReleaseDescription": "### Added:\r\n- Difficulty setting (fuel capacity)\r\n- Setting tooltips\r\n- A few planet props (rocks, grass, etc.), a lot more to come (v0.5)\r\n### Tweaks:\r\n- Stars can now be even smaller\r\n- Water now appears only in the \"Habitable Zone\" of the system (where water can be liquid)\r\n- Water level is now more likely to let some land exposed\r\n- Heightmaps improved imperceptibly\r\n- Loading texts stay on the spinning logo screen and can now0_@##$^\\\\£%\r\n### Fixes:\r\n- Refueling notif correctly hides when finished\r\n- Refilling with Kerosene now saves correctly\r\n- Going back to Timber Heart now always refill fuel properly",
-      "latestPrereleaseDescription": "First beta release!",
-      "prerelease": {
-        "version": "v0.1.0",
-        "downloadUrl": "https://github.com/Vambok/NomaiSky/releases/download/v0.1.0/Vambok.NomaiSky.zip",
-        "date": "2025-05-11T07:02:24Z"
-      },
-      "tags": [
-        "content"
-      ],
-      "slug": "nomaissky",
-      "thumbnail": {
-        "main": "nomaissky.webp"
-      },
-      "repoUpdatedAt": "2025-08-11T00:07:47Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.411Z",
-      "repoVariations": [],
-      "viewCount": 413,
-      "weeklyViewCount": 52,
-      "installCount": 129,
-      "weeklyInstallCount": 25
     },
     {
       "name": "Mouse Fix",
@@ -11617,7 +11323,7 @@
       "description": "a short entry for the 5th outer wilds mod jam",
       "author": "ObscureReferencedotENTITY",
       "downloadUrl": "https://github.com/ObscureReferencedotENTITY/APOLLO-s-Planet/releases/download/v0.1.0/APOLLO.939sPlanetdotSTRUCTURE.zip",
-      "downloadCount": 317,
+      "downloadCount": 321,
       "latestReleaseDate": "2025-07-19T23:55:30Z",
       "firstReleaseDate": "2025-07-19T23:55:30Z",
       "repo": "https://github.com/ObscureReferencedotENTITY/APOLLO-s-Planet",
@@ -11639,7 +11345,7 @@
         "main": "apollosplanet.webp"
       },
       "repoUpdatedAt": "2025-07-20T01:09:33Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.383Z",
+      "databaseEntryUpdatedAt": "2025-08-12T15:15:56.808Z",
       "repoVariations": [],
       "viewCount": 217,
       "weeklyViewCount": 32,
@@ -11828,41 +11534,6 @@
       "weeklyInstallCount": 54
     },
     {
-      "name": "Mystery of the Missing Cake",
-      "uniqueName": "Boreas.Jam5CakeCapere",
-      "description": "Small Submission for Outer Wilds Mod Jam 5, Mystery of the Missing Cake",
-      "author": "NotADuck02",
-      "downloadUrl": "https://github.com/NotADuck02/Boreas.Jam5Campfire/releases/download/0.0.1/Boreas.Jam5Campfire-main.zip",
-      "downloadCount": 287,
-      "latestReleaseDate": "2025-07-22T18:25:16Z",
-      "firstReleaseDate": "2025-07-22T18:25:16Z",
-      "repo": "https://github.com/NotADuck02/Boreas.Jam5Campfire",
-      "version": "0.0.1",
-      "readme": {
-        "htmlUrl": "https://github.com/NotADuck02/Boreas.Jam5Campfire/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/NotADuck02/Boreas.Jam5Campfire/main/README.md"
-      },
-      "authorDisplay": "Boreas",
-      "latestReleaseDescription": "Initial Release",
-      "latestPrereleaseDescription": "",
-      "tags": [
-        "jam",
-        "story",
-        "content"
-      ],
-      "slug": "mysteryofthemissingcake",
-      "thumbnail": {
-        "main": "mysteryofthemissingcake.webp"
-      },
-      "repoUpdatedAt": "2025-07-22T18:32:04Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.384Z",
-      "repoVariations": [],
-      "viewCount": 123,
-      "weeklyViewCount": 27,
-      "installCount": 216,
-      "weeklyInstallCount": 43
-    },
-    {
       "name": "Catastrophe",
       "uniqueName": "Onbvb.catastrophe",
       "description": "My first mod, made for Mod Jam 5",
@@ -11907,7 +11578,7 @@
       "author": "TheLoweDown256",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TheLoweDown256/TLDJam5/releases/download/v1.0.8/TheLoweDown256.TLDJam5.zip",
-      "downloadCount": 823,
+      "downloadCount": 834,
       "latestReleaseDate": "2025-08-10T13:41:31Z",
       "firstReleaseDate": "2025-07-22T17:52:32Z",
       "repo": "https://github.com/TheLoweDown256/TLDJam5",
@@ -11930,7 +11601,7 @@
         "main": "corecollapse.webp"
       },
       "repoUpdatedAt": "2025-08-10T13:59:39Z",
-      "databaseEntryUpdatedAt": "2025-08-12T02:56:02.389Z",
+      "databaseEntryUpdatedAt": "2025-08-12T15:15:55.313Z",
       "repoVariations": [],
       "viewCount": 317,
       "weeklyViewCount": 91,
