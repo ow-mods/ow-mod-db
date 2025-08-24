@@ -122,8 +122,8 @@
       ],
       "viewCount": 2891,
       "weeklyViewCount": 821,
-      "installCount": 1865,
-      "weeklyInstallCount": 587
+      "installCount": 1867,
+      "weeklyInstallCount": 589
     },
     {
       "name": "Light Bramble",
@@ -918,8 +918,8 @@
       "repoVariations": [],
       "viewCount": 398,
       "weeklyViewCount": 118,
-      "installCount": 280,
-      "weeklyInstallCount": 81
+      "installCount": 281,
+      "weeklyInstallCount": 82
     },
     {
       "name": "Unity Explorer",
@@ -2322,8 +2322,8 @@
       "repoVariations": [],
       "viewCount": 130,
       "weeklyViewCount": 40,
-      "installCount": 73,
-      "weeklyInstallCount": 29
+      "installCount": 74,
+      "weeklyInstallCount": 30
     },
     {
       "name": "Voice Acting Mod",
@@ -3246,8 +3246,8 @@
       "repoVariations": [],
       "viewCount": 29,
       "weeklyViewCount": 4,
-      "installCount": 35,
-      "weeklyInstallCount": 9
+      "installCount": 36,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Less Lonely Ship",
@@ -8033,8 +8033,8 @@
       ],
       "viewCount": 353,
       "weeklyViewCount": 100,
-      "installCount": 274,
-      "weeklyInstallCount": 90
+      "installCount": 275,
+      "weeklyInstallCount": 91
     },
     {
       "name": "The Survivors",
@@ -8684,18 +8684,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.18/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 10191,
-      "latestReleaseDate": "2025-06-22T20:23:37Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.19/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 10196,
+      "latestReleaseDate": "2025-08-24T15:45:06Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.18",
+      "version": "v0.3.19",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- A new `upgrade_counts` .yaml option from @msyverw that lets you change how many fuel, oxygen and boost upgrade items will be placed in the multiworld. Recall that the mod already has client-side settings for fuel/oxygen/boost.\r\n- The five trap items added in 0.3.17 now have proper descriptions from @MYoshua64 and images for the AP Inventory ship log mode, which should get rid of those error messages some of you noticed.\r\n- The Ice Physics Trap no longer affects the Dreamworld.\r\n",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Fixed taking off the spacesuit in seeds where you wake up wearing it. This unbreaks a critical puzzle in one of the story mods, which we suspect was somehow broken by base game patch 16.\r\n- Add a \"AP Console: Drop All AP Server Messages\" mod setting, partly because larger asyncs can be too spammy even with the existing filter setting, but also because we suspect excessive console messages are destabilizing Outer Wilds in general for some randomizer players.\r\n- Worked around a bug that would break resuming a randomized expedition if an AP item with quotes in its name landed in that OW slot. Thanks Xayah for reporting this.\r\n\t- For what it's worth, the other AP game which exposed this bug was Paper Mario: TTYD. We don't know how many other games might be affected.\r\n- Corrected tracker description for \"HN2: Reading Room (Memory Cube)\"; somehow it was a copy-paste of an unrelated HN1 location\r\n- Corrected logic for \"FQ Ship Log: Fret's Quest 4 - Reported\" to be about translating the ritual recorder, not completing the entire song for Tuner\r\n- Prevent death links being sent to/from a slot you're no longer playing by explicitly cleaning up the old deathlink service when switching slots.\r\n- Tweak in-game hint text from \"everywhere you've already been\" to \"everywhere you went before asking me for hints\" to avoid implying that we're regenerating the hints every time you talk to the same traveler.\r\n- Moved early_key_item implementation earlier to comply with Core AP PR #4481, hopefully fixing some subtle conflicts with start_inventory_from_pool and (non_)local_items.\r\n- This won't affect players soon or directly, but I've added [the proposed apworld manifest](https://github.com/ArchipelagoMW/Archipelago/pull/4516) to outer_wilds.apworld and used [the proposed apworld build tool](https://github.com/ArchipelagoMW/Archipelago/pull/5340) to create it. This won't benefit players anytime soon, but hopefully it's a step towards a proper core AP toolchain for managing custom apworlds.",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8710,8 +8710,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2025-08-24T15:49:51Z",
-      "databaseEntryUpdatedAt": "2025-08-24T15:54:47.346Z",
+      "repoUpdatedAt": "2025-08-24T15:54:46Z",
+      "databaseEntryUpdatedAt": "2025-08-24T16:24:49.078Z",
       "repoVariations": [],
       "viewCount": 356,
       "weeklyViewCount": 119,
@@ -8753,8 +8753,8 @@
       "repoVariations": [],
       "viewCount": 94,
       "weeklyViewCount": 28,
-      "installCount": 206,
-      "weeklyInstallCount": 59
+      "installCount": 207,
+      "weeklyInstallCount": 60
     },
     {
       "name": "No Achievements",
@@ -8889,8 +8889,8 @@
       "repoVariations": [],
       "viewCount": 906,
       "weeklyViewCount": 237,
-      "installCount": 520,
-      "weeklyInstallCount": 180
+      "installCount": 522,
+      "weeklyInstallCount": 182
     },
     {
       "name": "Mod Jam 3",
@@ -10075,8 +10075,8 @@
       "repoVariations": [],
       "viewCount": 54,
       "weeklyViewCount": 15,
-      "installCount": 43,
-      "weeklyInstallCount": 14
+      "installCount": 44,
+      "weeklyInstallCount": 15
     },
     {
       "name": "Ernesto Chase",
