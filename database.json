@@ -122,8 +122,8 @@
       ],
       "viewCount": 2955,
       "weeklyViewCount": 859,
-      "installCount": 1954,
-      "weeklyInstallCount": 612
+      "installCount": 1955,
+      "weeklyInstallCount": 613
     },
     {
       "name": "Light Bramble",
@@ -542,8 +542,8 @@
       "repoVariations": [],
       "viewCount": 114,
       "weeklyViewCount": 39,
-      "installCount": 128,
-      "weeklyInstallCount": 35
+      "installCount": 129,
+      "weeklyInstallCount": 36
     },
     {
       "name": "SlowTime",
@@ -918,8 +918,8 @@
       "repoVariations": [],
       "viewCount": 426,
       "weeklyViewCount": 154,
-      "installCount": 298,
-      "weeklyInstallCount": 92
+      "installCount": 299,
+      "weeklyInstallCount": 93
     },
     {
       "name": "Unity Explorer",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 819,
       "weeklyViewCount": 269,
-      "installCount": 866,
-      "weeklyInstallCount": 292
+      "installCount": 867,
+      "weeklyInstallCount": 293
     },
     {
       "name": "Only Timber Hearth",
@@ -6646,7 +6646,7 @@
       "author": "artificialparanoia",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/artificialparanoia/Divergence/releases/download/v1.1.1/artificialparanoia.Divergence.zip",
-      "downloadCount": 2845,
+      "downloadCount": 2846,
       "latestReleaseDate": "2025-08-16T06:39:24Z",
       "firstReleaseDate": "2023-01-23T12:15:37Z",
       "repo": "https://github.com/artificialparanoia/Divergence",
@@ -6656,7 +6656,12 @@
         "downloadUrl": "https://raw.githubusercontent.com/artificialparanoia/Divergence/main/README.md"
       },
       "latestReleaseDescription": "### Fixes and Improvements\r\n\r\n- Fixed a bug where a certain area would fade in slowly in certain contexts",
-      "latestPrereleaseDescription": "",
+      "latestPrereleaseDescription": "This is an experimental prerelease and is missing some things that will be present in the final version! Please report any bugs you may find.\r\n\r\n## Fixes and Improvements\r\n\r\n### General\r\n\r\n- Prevented an music track from playing more times than it should, and adjusted the ambience of a certain location.\r\n- Fixed a bug where signals would break in a certain context.\r\n- Updated the visuals of a certain sequence to more clearly indicate its location.\r\n- Made an alarm work in a way that's consistent with others of its kind.\r\n- A certain utility will now accurately track the occupants of a specific location.\r\n- Fixed a bug where certain beams of light wouldn't appear as they should.\r\n- Fixed an issue where \"Unidentified Signal Nearby\" would appear in the HUD despite there being no signal nearby.\r\n- Moved an easter egg to an even less conspicuous place.\r\n\r\n### Art\r\n\r\n- Added the new logo to the main menu as a subtitle (thanks Classic!)\r\n\r\n### Story and Text\r\n\r\n- Various text corrections and improvements\r\n- Added some additional dialogue options to Hornfels about certain topics\r\n- Reworked a particular text log to be more relevant and clear",
+      "prerelease": {
+        "version": "v1.5.0-pr.1",
+        "downloadUrl": "https://github.com/artificialparanoia/Divergence/releases/download/v1.5.0-pr.1/artificialparanoia.Divergence.zip",
+        "date": "2025-08-31T20:05:15Z"
+      },
       "tags": [
         "jam",
         "content",
@@ -6667,8 +6672,8 @@
       "thumbnail": {
         "main": "divergence.webp"
       },
-      "repoUpdatedAt": "2025-08-31T20:01:42Z",
-      "databaseEntryUpdatedAt": "2025-08-31T20:18:56.185Z",
+      "repoUpdatedAt": "2025-08-31T20:19:42Z",
+      "databaseEntryUpdatedAt": "2025-08-31T20:35:41.609Z",
       "repoVariations": [],
       "viewCount": 154,
       "weeklyViewCount": 44,
@@ -11818,8 +11823,8 @@
       "repoVariations": [],
       "viewCount": 608,
       "weeklyViewCount": 196,
-      "installCount": 346,
-      "weeklyInstallCount": 111
+      "installCount": 347,
+      "weeklyInstallCount": 112
     },
     {
       "name": "The Cosmic Curators",
@@ -12011,7 +12016,7 @@
       "author": "SolecAnimations",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/SolecAnimations/Powerfail/releases/download/1.2.0/TeamGeswaldo.Jam5Mod.zip",
-      "downloadCount": 841,
+      "downloadCount": 842,
       "latestReleaseDate": "2025-08-09T20:18:30Z",
       "firstReleaseDate": "2025-07-22T21:34:53Z",
       "repo": "https://github.com/SolecAnimations/Powerfail",
@@ -12031,7 +12036,7 @@
         "main": "powerfail.webp"
       },
       "repoUpdatedAt": "2025-08-09T22:56:26Z",
-      "databaseEntryUpdatedAt": "2025-08-31T08:26:19.850Z",
+      "databaseEntryUpdatedAt": "2025-08-31T20:35:41.689Z",
       "repoVariations": [],
       "viewCount": 129,
       "weeklyViewCount": 18,
