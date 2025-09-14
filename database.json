@@ -737,17 +737,17 @@
       "uniqueName": "xen.ThirdPersonCamera",
       "description": "A third-person camera for Outer Wilds.",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.2.0/xen.ThirdPersonCamera.zip",
-      "downloadCount": 6103,
-      "latestReleaseDate": "2025-05-10T20:59:58Z",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/releases/download/v2.2.1/xen.ThirdPersonCamera.zip",
+      "downloadCount": 6106,
+      "latestReleaseDate": "2025-09-14T16:38:23Z",
       "firstReleaseDate": "2021-11-16T19:46:51Z",
       "repo": "https://github.com/xen-42/outer-wilds-third-person-camera",
-      "version": "v2.2.0",
+      "version": "v2.2.1",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-third-person-camera/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-third-person-camera/main/README.md"
       },
-      "latestReleaseDescription": "- Fixed a bug where quitting to main menu while in 3rd person makes you levitate on the ground unable to move when you reload.\r\n- Added translation support for options and button prompts\r\n- Added French translations (probably bad)\r\n- Added option to hide/show button prompts and also checks the base game button prompt setting (thanks Owen for the PR that I forgot about for 1 year)",
+      "latestReleaseDescription": "- Fixed a bug where the ship log splash screen would stay stuck on until a scout photo was taken",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay"
@@ -756,8 +756,8 @@
       "thumbnail": {
         "main": "thirdpersoncamera.webp"
       },
-      "repoUpdatedAt": "2025-05-10T21:06:47Z",
-      "databaseEntryUpdatedAt": "2025-09-14T11:31:34.548Z",
+      "repoUpdatedAt": "2025-09-14T16:40:46Z",
+      "databaseEntryUpdatedAt": "2025-09-14T16:42:38.154Z",
       "repoVariations": [],
       "viewCount": 183,
       "weeklyViewCount": 60,
@@ -4403,8 +4403,8 @@
       "repoVariations": [],
       "viewCount": 5,
       "weeklyViewCount": 0,
-      "installCount": 3,
-      "weeklyInstallCount": 1
+      "installCount": 4,
+      "weeklyInstallCount": 2
     },
     {
       "name": "Hazy Dreams",
@@ -11422,8 +11422,8 @@
       "repoVariations": [],
       "viewCount": 111,
       "weeklyViewCount": 21,
-      "installCount": 50,
-      "weeklyInstallCount": 15
+      "installCount": 51,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Diagonal Movement Unpatch",
@@ -12384,8 +12384,8 @@
       "repoVariations": [],
       "viewCount": 110,
       "weeklyViewCount": 49,
-      "installCount": 16,
-      "weeklyInstallCount": 6
+      "installCount": 17,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Hearthian Fishing",
