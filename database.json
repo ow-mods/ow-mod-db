@@ -122,8 +122,8 @@
       ],
       "viewCount": 2956,
       "weeklyViewCount": 673,
-      "installCount": 1919,
-      "weeklyInstallCount": 424
+      "installCount": 1920,
+      "weeklyInstallCount": 425
     },
     {
       "name": "Light Bramble",
@@ -254,8 +254,8 @@
       "repoVariations": [],
       "viewCount": 170,
       "weeklyViewCount": 37,
-      "installCount": 332,
-      "weeklyInstallCount": 72
+      "installCount": 333,
+      "weeklyInstallCount": 73
     },
     {
       "name": "HD Screenshot",
@@ -481,8 +481,8 @@
       "repoVariations": [],
       "viewCount": 928,
       "weeklyViewCount": 271,
-      "installCount": 424,
-      "weeklyInstallCount": 94
+      "installCount": 425,
+      "weeklyInstallCount": 95
     },
     {
       "name": "Difficulty Mod",
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "The story mod creation framework for Outer Wilds",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.28.6/xen.NewHorizons.zip",
-      "downloadCount": 102102,
-      "latestReleaseDate": "2025-08-05T01:57:27Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.28.7/xen.NewHorizons.zip",
+      "downloadCount": 102135,
+      "latestReleaseDate": "2025-09-15T21:56:36Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.28.6",
+      "version": "v1.28.7",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, and friends",
-      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Fixed a floating point precision bug that broke the 13th registered Signalscope frequency\r\n\r\nAlso added coderCleric's Nomai Text Printer mod to the documentation since it is very useful for story mod development! \r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1113**",
+      "latestReleaseDescription": "## Improvements\r\n\r\n- Updated description of VariableSizeModule (thanks LeeSpork)\r\n\r\n## Bug fixes\r\n\r\n- Make `GetPlanet` only check planets in the current system. This prevents it from pulling the wrong config if a planet in another system has the same name (thanks coderCleric).\r\n- Fixed interaction volumes breaking when no shape provided.\r\n- Added an effect ruleset to sand. Fixes #1099\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1123**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2025-09-13T23:20:22Z",
-      "databaseEntryUpdatedAt": "2025-09-15T12:19:17.158Z",
+      "repoUpdatedAt": "2025-09-15T21:58:27Z",
+      "databaseEntryUpdatedAt": "2025-09-15T22:09:44.856Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -4214,8 +4214,8 @@
       "repoVariations": [],
       "viewCount": 65,
       "weeklyViewCount": 17,
-      "installCount": 142,
-      "weeklyInstallCount": 37
+      "installCount": 143,
+      "weeklyInstallCount": 38
     },
     {
       "name": "Artifact Laser",
