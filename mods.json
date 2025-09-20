@@ -6,9 +6,7 @@
       "name": "OWML",
       "repo": "amazingalek/owml",
       "required": true,
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "uniqueName": "Alek.OWML",
       "utility": true
     },
@@ -16,22 +14,14 @@
       "name": "NomaiVR",
       "repo": "Raicuparta/nomai-vr",
       "authorDisplay": "Raicuparta & Artum",
-      "tags": [
-        "gameplay",
-        "integration"
-      ],
+      "tags": ["gameplay", "integration"],
       "uniqueName": "Raicuparta.NomaiVR",
-      "repoVariations": [
-        "Raicuparta/NomaiVR"
-      ]
+      "repoVariations": ["Raicuparta/NomaiVR"]
     },
     {
       "name": "Quantum Space Buddies",
       "repo": "qsb-dev/quantum-space-buddies",
-      "tags": [
-        "gameplay",
-        "integration"
-      ],
+      "tags": ["gameplay", "integration"],
       "uniqueName": "Raicuparta.QuantumSpaceBuddies",
       "authorDisplay": "_nebula, JohnCorby, and friends",
       "repoVariations": [
@@ -42,91 +32,69 @@
     {
       "name": "Light Bramble",
       "repo": "amazingalek/owml-light-bramble",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "Alek.LightBramble"
     },
     {
       "name": "FreeCam",
       "repo": "misternebula/FreeCam",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "misternebula.FreeCam",
       "authorDisplay": "_nebula & xen"
     },
     {
       "name": "Crouch Mod",
       "repo": "amazingalek/owml-crouch-mod",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Alek.CrouchMod"
     },
     {
       "name": "Clock",
       "repo": "clubby789/OWClock",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "clubby789.OWClock"
     },
     {
       "name": "HD Screenshot",
       "repo": "amazingalek/owml-cammie",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Alek.Cammie"
     },
     {
       "name": "Menu Framework",
       "repo": "misternebula/MenuFramework",
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "uniqueName": "_nebula.MenuFramework",
       "utility": true
     },
     {
       "name": "ScoutStreaming",
       "repo": "Vesper-Works/Scout-Streaming",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Vesper.ScoutStreaming"
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
       "repo": "Vesper-Works/Vesper-s-Assorted-OuterWilds-Shaders",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "Vesper.VespersAssortedOuterWildsShaders"
     },
     {
       "name": "Outer Wilds Online",
       "repo": "Vesper-Works/OuterWildsOnline",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Vesper.OuterWildsMMO"
     },
     {
       "name": "Cheat and Debug Menu",
       "repo": "glitchewski/OWML.Glitch.CheatAndDebugMenu",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Glitch.AltDebugMenu"
     },
     {
       "name": "Cheats Mod",
       "repo": "MegaPiggy/CheatsMod_NoCommonResources",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "PacificEngine.CheatsMod",
       "authorDisplay": "MegaPiggy & PacificEngine",
       "downloadCountOffset": 16489,
@@ -135,51 +103,37 @@
     {
       "name": "Difficulty Mod",
       "repo": "PacificEngine/OW_HardMode",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "PacificEngine.OW_HardMode"
     },
     {
       "name": "Peaceful Ghosts",
       "repo": "leadpogrommer/PeacefulGhosts",
-      "tags": [
-        "gameplay",
-        "requires-dlc"
-      ],
+      "tags": ["gameplay", "requires-dlc"],
       "uniqueName": "Leadpogrommer.PeacefulGhosts"
     },
     {
       "name": "SlowTime",
       "repo": "dwatson251/ow-slowtime",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "dnlwtsn.SlowTime"
     },
     {
       "name": "OW Smooth Thrust",
       "repo": "TAImatem/OW_SmoothThrust",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "TruAI.SmoothThrust"
     },
     {
       "name": "PacificEngine's Randomizer",
       "repo": "PacificEngine/OW_Randomizer",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "uniqueName": "PacificEngine.OW_Randomizer"
     },
     {
       "name": "PacificEngine's Common Resources",
       "repo": "dgarroDC/OW_CommonResources",
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "uniqueName": "PacificEngine.OW_CommonResources",
       "utility": true,
       "authorDisplay": "PacificEngine",
@@ -189,148 +143,106 @@
     {
       "name": "No Alt Tab Pause",
       "repo": "lStewieAl/OuterWilds-NoAltTabPause",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "lStewieAl.RunInBackground"
     },
     {
       "name": "Echoes of the Caribbean",
       "repo": "tealhelix/ow-mod-eote-ridemusic",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "tealhelix.EotE-RideMusic"
     },
     {
       "name": "Third Person Camera",
       "repo": "xen-42/outer-wilds-third-person-camera",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "xen.ThirdPersonCamera"
     },
     {
       "name": "NomaiVR Online Patches",
       "parent": "Raicuparta.NomaiVR",
       "repo": "artumino/NomaiVROnlinePatches",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Artum.NomaiVROnlinePatches"
     },
     {
       "name": "NomaiVR FFR",
       "parent": "Raicuparta.NomaiVR",
       "repo": "artumino/NomaiVR-FixedFoveatedRendering",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Artum.NomaiVRFoveated"
     },
     {
       "name": "Static Camera",
       "repo": "xen-42/outer-wilds-static-camera",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "xen.StaticCamera"
     },
     {
       "name": "Daydream",
       "repo": "xen-42/outer-wilds-day-dream",
-      "tags": [
-        "tool",
-        "audiovisual",
-        "requires-dlc"
-      ],
+      "tags": ["tool", "audiovisual", "requires-dlc"],
       "uniqueName": "xen.DayDream"
     },
     {
       "name": "EotE Brighter Dreams",
       "repo": "Heelio/EotE-Brighter-Dreams",
-      "tags": [
-        "audiovisual",
-        "requires-dlc"
-      ],
+      "tags": ["audiovisual", "requires-dlc"],
       "uniqueName": "Heelio.EotEBrighterDreams"
     },
     {
       "name": "Unity Explorer",
       "repo": "Vesper-Works/Unity-Explorer-For-Outer-Wilds",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Vesper.UnityExplorer"
     },
     {
       "authorDisplay": "Vesper & xen",
       "name": "Half-Life Overhaul",
       "repo": "Vesper-Works/OuterWildsHalf-Life",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "Vesper.HalfLifeOverhaul"
     },
     {
       "name": "Auto Resume",
       "repo": "Vesper-Works/AutoResume",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Vesper.AutoResume"
     },
     {
       "name": "Outer Thomas Echoes of the Tank Engine",
       "repo": "xen-42/outer-wilds-tank-engine",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "xen.TankEngine"
     },
     {
       "name": "Majora's Mask's Moon",
       "repo": "xen-42/outer-wilds-majoras-mask",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "xen.MajorasMask"
     },
     {
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, and friends",
       "name": "New Horizons",
       "repo": "Outer-Wilds-New-Horizons/new-horizons",
-      "tags": [
-        "tool",
-        "content",
-        "story"
-      ],
+      "tags": ["tool", "content", "story"],
       "uniqueName": "xen.NewHorizons",
-      "repoVariations": [
-        "xen-42/outer-wilds-new-horizons"
-      ]
+      "repoVariations": ["xen-42/outer-wilds-new-horizons"]
     },
     {
       "authorDisplay": "xen",
       "name": "New Horizons Examples",
       "parent": "xen.NewHorizons",
       "repo": "Outer-Wilds-New-Horizons/nh-examples",
-      "tags": [
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["content", "requires-dlc"],
       "uniqueName": "xen.NewHorizonsExamples",
-      "repoVariations": [
-        "xen-42/ow-new-horizons-examples"
-      ]
+      "repoVariations": ["xen-42/ow-new-horizons-examples"]
     },
     {
       "name": "Real Solar System",
       "parent": "xen.NewHorizons",
       "repo": "xen-42/outer-wilds-real-solar-system",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "xen.RealSolarSystem",
       "authorDisplay": "Trifid, xen, MegaPiggy"
     },
@@ -338,165 +250,123 @@
       "name": "Atropos",
       "parent": "xen.NewHorizons",
       "repo": "TitchMW/OWAtropos",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Titch.OWAtropos"
     },
     {
       "name": "ElliePlanets!",
       "parent": "xen.NewHorizons",
       "repo": "ellie3-OW/ElliePlanets",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Ellie3.ElliePlanets"
     },
     {
       "authorDisplay": "Owen_013",
       "name": "Smol Hatchling",
       "repo": "Owen013/Smol-Hatchling",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Owen013.TeenyHatchling"
     },
     {
       "authorDisplay": "Owen_013",
       "name": "Hiker's Mod",
       "repo": "Owen013/Hikers-Mod",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Owen013.MovementMod"
     },
     {
       "name": "Signals+",
       "parent": "xen.NewHorizons",
       "repo": "xen-42/outer-wilds-signals-plus",
-      "tags": [
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["content", "requires-dlc"],
       "uniqueName": "xen.SignalsPlus"
     },
     {
       "name": "Save Editor",
       "repo": "Bwc9876/OW-SaveEditor",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Bwc9876.SaveEditor"
     },
     {
       "name": "Meteor Launching",
       "repo": "12090113/outer-wilds-meteor-launching",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "12090113.MeteorLaunching"
     },
     {
       "name": "Slate Simulator",
       "repo": "Bwc9876/OW-Slate-Simulator",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Bwc9876.SlatePOV"
     },
     {
       "name": "TARDIS from Doctor Who",
       "parent": "xen.NewHorizons",
       "repo": "TitchMW/tardisfromdoctorwho",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "TitchMW.tardisfromdoctorwho"
     },
     {
       "name": "Solar Neighbourhood",
       "parent": "xen.NewHorizons",
       "repo": "ErroneousCreationist/solarneighbourhood",
-      "tags": [
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["content", "requires-dlc"],
       "uniqueName": "ErroneousCreationist.solarneighbourhood"
     },
     {
       "name": "Vanilla Main Menu",
       "repo": "artificialparanoia/VanillaMainMenu",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "artificial.VanillaMainMenu"
     },
     {
       "name": "Outer Wilds Korean Translation",
       "repo": "milesand/outer-wilds-korean-translation",
-      "tags": [
-        "localization"
-      ],
+      "tags": ["localization"],
       "uniqueName": "milesand.OWKT"
     },
     {
       "name": "Astroneer Solar System",
       "parent": "xen.NewHorizons",
       "repo": "ErroneousCreationist/astroneersolarsystem",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "ErroneousCreationist.astroneersolarsystem"
     },
     {
       "name": "Black Hole Portal Gun",
       "repo": "Nageld/Outer-Wilds-Black-Hole-Portal-Gun",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Book.BlackHolePortalGun"
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
       "repo": "xen-42/outer-wilds-wario",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "xen.OuterWario"
     },
     {
       "name": "Suicide Mod",
       "repo": "gurrenm3/OuterWilds_SuicideMod",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Gurrenm3.SuicideMod"
     },
     {
       "name": "Outer Wilds Music Player",
       "repo": "TitchMW/outerwildsmusicplayer",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "Titch.OWMusicPlayer"
     },
     {
       "name": "Collider Visualizer",
       "repo": "loco-choco/ColliderVisualizer",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Locochoco.ColliderVisualizer",
-      "repoVariations": [
-        "ShoosGun/ColliderVisualizer"
-      ]
+      "repoVariations": ["ShoosGun/ColliderVisualizer"]
     },
     {
       "name": "Archaeologist Achievement Helper",
       "repo": "dgarroDC/ArchaeologistAchievementHelper",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "dgarro.ArchaeologistAchievementHelper",
       "authorDisplay": "Damián Garro"
     },
@@ -504,135 +374,98 @@
       "name": "Enter the Warioverse",
       "parent": "xen.NewHorizons",
       "repo": "Roggsy/enterthewarioverse",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Roggsy.enterthewarioverse"
     },
     {
       "name": "21st Century Anglerfish",
       "repo": "mrmeep321/21stCenturyAnglerfish",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "mrmeep321.Angler"
     },
     {
       "name": "Medley of Planets",
       "parent": "xen.NewHorizons",
       "repo": "Leopard501/PlanetMedley",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "smallbug.MedleyOfPlanets"
     },
     {
       "name": "Outer Wilds Flyover",
       "repo": "piggeywig2000/OuterWildsFlyover",
-      "tags": [
-        "content",
-        "gameplay"
-      ],
+      "tags": ["content", "gameplay"],
       "uniqueName": "piggeywig2000.OuterWildsFlyover"
     },
     {
       "name": "Incursion: Final Dawn",
       "parent": "xen.NewHorizons",
       "repo": "ErroneousCreationist/incursionfinaldawn",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "ErroneousCreationist.incursionfinaldawn"
     },
     {
       "name": "TRAPPIST-1",
       "parent": "xen.NewHorizons",
       "repo": "Leopard501/TRAPPIST-1",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "smallbug.trappist-1"
     },
     {
       "name": "Input Demo Recorder",
       "repo": "loco-choco/InputDemoRecorder",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Locochoco.InputDemoRecorder",
-      "repoVariations": [
-        "ShoosGun/InputDemoRecorder"
-      ]
+      "repoVariations": ["ShoosGun/InputDemoRecorder"]
     },
     {
       "name": "Celeste Wilds",
       "repo": "loco-choco/CelesteWilds",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Locochoco.CelesteWilds",
-      "repoVariations": [
-        "ShoosGun/CelesteWilds"
-      ]
+      "repoVariations": ["ShoosGun/CelesteWilds"]
     },
     {
       "name": "Grapefruit",
       "parent": "xen.NewHorizons",
       "repo": "Tllya/Grapefruit",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Tlya.Grapefruit"
     },
     {
       "name": "Visible Stranger",
       "repo": "xen-42/ow-decloaked",
-      "tags": [
-        "audiovisual",
-        "requires-dlc"
-      ],
+      "tags": ["audiovisual", "requires-dlc"],
       "uniqueName": "xen.Decloaked"
     },
     {
       "name": "Hollodjustment",
       "repo": "Tllya/ow-mod-Hollodjustment",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Tlya.Hollodjustment"
     },
     {
       "name": "Vanilla Fix",
       "repo": "JohnCorby/ow-vanilla-fix",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "JohnCorby.VanillaFix"
     },
     {
       "name": "Only Timber Hearth",
       "parent": "xen.NewHorizons",
       "repo": "Tllya/ow-nh-only-timber-hearth",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Tlya.OnlyTH"
     },
     {
       "name": "Title Screen Bug Fix",
       "repo": "xen-42/outer-wilds-cursed-title",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "xen.CursedTitle"
     },
     {
       "name": "Ghost Translations",
       "repo": "MegaPiggy/GhostTranslations",
-      "tags": [
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["content", "requires-dlc"],
       "uniqueName": "MegaPiggy.GhostTranslations",
       "authorDisplay": "MegaPiggy",
       "downloadCountOffset": 1189
@@ -640,9 +473,7 @@
     {
       "name": "Voice Acting Mod",
       "repo": "Krevace/ow-voice-mod",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "Krevace.VoiceMod",
       "authorDisplay": "Krevace & JohnCorby"
     },
@@ -650,42 +481,32 @@
       "name": "Their Homeworld",
       "parent": "xen.NewHorizons",
       "repo": "CreativeNameTxt/their-home-world",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "CreativeNameTxt.theirhomeworld"
     },
     {
       "name": "Vengeful Cannon",
       "repo": "misternebula/VengefulCannon",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "_nebula.VengefulCannon"
     },
     {
       "name": "Almond System",
       "parent": "xen.NewHorizons",
       "repo": "MellowSus/almondsystem",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "MellowSus.almondsystem"
     },
     {
       "name": "Persistant Marshmallow",
       "repo": "BUNN1E5/PersistantMarshmallow",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "BUNN1E5.PersistantMarshmallow"
     },
     {
       "name": "Empty Hollow",
       "repo": "MegaPiggy/EmptyHollow",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "MegaPiggy.EmptyHollow",
       "authorDisplay": "MegaPiggy"
     },
@@ -693,228 +514,170 @@
       "name": "Interstellar: Gargantua",
       "parent": "xen.NewHorizons",
       "repo": "Tllya/interstellargargantua",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Tandicase.interstellargargantua",
       "authorDisplay": "Tandicase"
     },
     {
       "name": "Ghostbuster",
       "repo": "xen-42/ow-ghostbuster",
-      "tags": [
-        "gameplay",
-        "requires-dlc"
-      ],
+      "tags": ["gameplay", "requires-dlc"],
       "uniqueName": "xen.GhostBuster"
     },
     {
       "name": "Open Doors",
       "repo": "YanWittmann/OpenDoors",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Skyball.OpenDoors"
     },
     {
       "name": "Sleep Mod",
       "repo": "LikeMauro/SleepMod",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "likemauro.sleepmod"
     },
     {
       "name": "Ghost Matter Nerf",
       "repo": "QuentinGruber/ghostMatterNerf",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Kentin.GhostMatterNerf"
     },
     {
       "name": "Add LIV Support",
       "parent": "Raicuparta.NomaiVR",
       "repo": "Raicuparta/ow-liv",
-      "tags": [
-        "integration"
-      ],
+      "tags": ["integration"],
       "uniqueName": "Raicuparta.OwLiv"
     },
     {
       "name": "360 Camera",
       "repo": "BUNN1E5/OW360Camera",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "BUNN1E5.OW360Camera"
     },
     {
       "name": "No End",
       "repo": "LikeMauro/NoEnd-Mod",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "likemauro.noend"
     },
     {
       "name": "No Dam Break",
       "repo": "LikeMauro/NoDamBreak-Mod",
-      "tags": [
-        "tweaks",
-        "requires-dlc"
-      ],
+      "tags": ["tweaks", "requires-dlc"],
       "uniqueName": "likemauro.nodambreak"
     },
     {
       "name": "Alter Time",
       "repo": "spacepiano/Outer-Wilds---Speed-up-Time",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Spacepiano.AlterTime"
     },
     {
       "name": "Survive the Supernova",
       "repo": "joshua-smith98/OW-SurviveTheSupernova",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Joooosh.SurviveTheSupernova"
     },
     {
       "name": "Achievements+",
       "repo": "xen-42/outer-wilds-achievement-tracker",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "uniqueName": "xen.AchievementTracker"
     },
     {
       "name": "Supernova On Demand",
       "repo": "QuentinGruber/SupernovaOnDemand",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Kentin.SupernovaOnDemand"
     },
     {
       "name": "Big Heads",
       "repo": "joshua-smith98/OW-BigHeads",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "Joooosh.BigHeads"
     },
     {
       "name": "Bring Me My Ship",
       "repo": "Switch-9867/BringMeMyShip",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Switch.BringMeMyShip"
     },
     {
       "name": "Arkose bug fix",
       "parent": "xen.NewHorizons",
       "repo": "Tllya/arkosebugfix",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Tlya.arkosebugfix"
     },
     {
       "name": "Woah Watch Those Frames",
       "repo": "Switch-9867/WoahWatchThoseFrames",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Switch.WoahWatchThoseFrames"
     },
     {
       "name": "Timber Twin",
       "parent": "xen.NewHorizons",
       "repo": "ParagonOrang/ow-timber-twin",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "paragon.TimberTwin"
     },
     {
       "name": "Toggle Velocity Matching",
       "repo": "Vesper-Works/Toggle-Velocity-Matching",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Vesper.ToggleVelocityMatching"
     },
     {
       "name": "Time Saver",
       "repo": "Bwc9876/OW-TimeSaver",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Bwc9876.TimeSaver"
     },
     {
       "name": "Changed Twins",
       "parent": "xen.NewHorizons",
       "repo": "ClassicalBro/changed.twins",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Classic.ChangedTwins"
     },
     {
       "name": "Power Failure",
       "repo": "LivingFray/OW-PowerFailure",
-      "tags": [
-        "audiovisual",
-        "requires-dlc"
-      ],
+      "tags": ["audiovisual", "requires-dlc"],
       "uniqueName": "LivingFray.PowerFailure"
     },
     {
       "name": "Outer Wilds Traditional Chinese Translation",
       "repo": "puffbro/outer-wilds-traditional-chinese-translation",
-      "tags": [
-        "localization"
-      ],
+      "tags": ["localization"],
       "uniqueName": "PuFF.OWCHT"
     },
     {
       "name": "Less Lonely Ship",
       "parent": "xen.NewHorizons",
       "repo": "ClassicalBro/Less-Lonely-Ship",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Classic.CozyShip"
     },
     {
       "name": "Cloudless Quantum Moons",
       "parent": "xen.NewHorizons",
       "repo": "TerrificTrifid/ow-nh-visible-qms",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "TerrificTrifid.VisibleQMs"
     },
     {
       "name": "Backer's satellite signal",
       "parent": "xen.NewHorizons",
       "repo": "Tllya/backers-satellite-signal",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Tlya.Backerssignal"
     },
     {
       "name": "Suit Log",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "dgarro.SuitLog",
       "repo": "dgarroDC/SuitLog",
       "authorDisplay": "Damián Garro"
@@ -923,35 +686,27 @@
       "authorDisplay": "Owen_013",
       "name": "Hatchling Outfitter",
       "repo": "Owen013/Hatchling-Outfitter",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "Owen013.HatchlingOutfit"
     },
     {
       "authorDisplay": "Owen_013",
       "name": "Quality of Life Features",
       "repo": "Owen013/QOLFixes",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Owen013.QOLFixes"
     },
     {
       "name": "Common Camera Utility",
       "repo": "xen-42/ow-common-camera-util",
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "uniqueName": "xen.CommonCameraUtility",
       "utility": true
     },
     {
       "name": "Better Model Ship",
       "repo": "xen-42/outer-wilds-better-model-ship",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "xen.BetterModelShip"
     },
     {
@@ -959,9 +714,7 @@
       "name": "BepInEx",
       "repo": "MegaPiggy/BepInEx",
       "required": true,
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "uniqueName": "bbepis.BepInEx",
       "utility": true
     },
@@ -970,369 +723,269 @@
       "name": "OWAML",
       "repo": "ow-mods/owaml",
       "required": true,
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "uniqueName": "Locochoco.OWAML",
       "authorDisplay": "Locochoco & MegaPiggy",
       "utility": true,
-      "repoVariations": [
-        "ShoosGun/OWAML",
-        "loco-choco/OWAML"
-      ]
+      "repoVariations": ["ShoosGun/OWAML", "loco-choco/OWAML"]
     },
     {
       "alpha": true,
       "name": "CAMOWA",
       "repo": "loco-choco/CAMOWA",
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "uniqueName": "Locochoco.CAMOWA",
       "utility": true,
-      "repoVariations": [
-        "ShoosGun/CAMOWA"
-      ]
+      "repoVariations": ["ShoosGun/CAMOWA"]
     },
     {
       "alpha": true,
       "name": "Alpha Fixes",
       "repo": "loco-choco/AlphaFixes",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Locochoco.AlphaFixes",
-      "repoVariations": [
-        "ShoosGun/AlphaFixes"
-      ]
+      "repoVariations": ["ShoosGun/AlphaFixes"]
     },
     {
       "alpha": true,
       "name": "Navinha",
       "repo": "loco-choco/Navinha",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Locochoco.NAVE",
-      "repoVariations": [
-        "ShoosGun/navinha"
-      ]
+      "repoVariations": ["ShoosGun/navinha"]
     },
     {
       "alpha": true,
       "name": "Free Cam Mod",
       "repo": "loco-choco/FreeCamMod",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Locochoco.FreeCamMod",
-      "repoVariations": [
-        "ShoosGun/FreeCamMod"
-      ]
+      "repoVariations": ["ShoosGun/FreeCamMod"]
     },
     {
       "alpha": true,
       "name": "Probe Grapple",
       "repo": "loco-choco/ProbeGrappleMod",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Locochoco.ProbeGrapple",
-      "repoVariations": [
-        "ShoosGun/ProbeGrappleMod"
-      ]
+      "repoVariations": ["ShoosGun/ProbeGrappleMod"]
     },
     {
       "alpha": true,
       "name": "Cooler Bottom Cams",
       "repo": "loco-choco/CBC",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Locochoco.CoolerBottomCams",
-      "repoVariations": [
-        "ShoosGun/CBC"
-      ]
+      "repoVariations": ["ShoosGun/CBC"]
     },
     {
       "alpha": true,
       "name": "Enhanced Mallows",
       "repo": "loco-choco/EM",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "Locochoco.EnhancedMallows",
-      "repoVariations": [
-        "ShoosGun/EM"
-      ]
+      "repoVariations": ["ShoosGun/EM"]
     },
     {
       "alpha": true,
       "name": "Automatic Launch Codes",
       "repo": "MegaPiggy/AutomaticLaunchCodes",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "MegaPiggy.AutomaticLaunchCodes"
     },
     {
       "alpha": true,
       "name": "No Probe Launch Window",
       "repo": "MegaPiggy/NoProbeLaunchWindow",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "uniqueName": "MegaPiggy.NoProbeLaunchWindow"
     },
     {
       "alpha": true,
       "name": "Runtime Unity Editor",
       "repo": "loco-choco/RuntimeUnityEditor",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Locochoco.RuntimeUnityEditor",
-      "repoVariations": [
-        "ShoosGun/RuntimeUnityEditor"
-      ]
+      "repoVariations": ["ShoosGun/RuntimeUnityEditor"]
     },
     {
       "name": "Cloudless Giant's Deep",
       "parent": "xen.NewHorizons",
       "repo": "gpixl/CloudlessGiantsDeep",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "gpixl.NoMoreGDClouds"
     },
     {
       "name": "Involuntary Blink",
       "repo": "MegaPiggy/InvoluntaryBlink",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "MegaPiggy.InvoluntaryBlink"
     },
     {
       "name": "Primitive Launching",
       "parent": "12090113.MeteorLaunching",
       "repo": "MegaPiggy/PrimitiveLaunching",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "MegaPiggy.PrimitiveLaunching"
     },
     {
       "name": "Alpha Title Screen",
       "repo": "MegaPiggy/AlphaRegression",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "MegaPiggy.AlphaRegression"
     },
     {
       "name": "Controllable Stranger",
       "repo": "LikeMauro/Controllable-Stranger",
-      "tags": [
-        "tool",
-        "requires-dlc"
-      ],
+      "tags": ["tool", "requires-dlc"],
       "uniqueName": "likemauro.controllablestranger"
     },
     {
       "name": "Upsilon Andromedae",
       "parent": "xen.NewHorizons",
       "repo": "MegaPiggy/UpsilonAndromedae",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "MegaPiggy.UpsilonAndromedae"
     },
     {
       "name": "Fact Log",
       "repo": "Hawkbat/ow-mod-fact-log",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Hawkbar.FactLog"
     },
     {
       "name": "BlackHole Sun",
       "parent": "xen.NewHorizons",
       "repo": "ShuitOnDiscord/BlackHoleSun",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Shuit.BlackHoleSun"
     },
     {
       "name": "No Sun",
       "parent": "xen.NewHorizons",
       "repo": "ShuitOnDiscord/NoSun",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Shuit.NoSun"
     },
     {
       "name": "Ordered Orbits",
       "parent": "xen.NewHorizons",
       "repo": "ShuitOnDiscord/MovedOrbits",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Shuit.MovedOrbits"
     },
     {
       "name": "Ship Remote Autopilot",
       "repo": "TitchMW/remoteautopilot",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Titch.ShipRemoteAutopilot"
     },
     {
       "name": "Block Placing",
       "repo": "12090113/outer-wilds-cubes",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "12090113.Cubes"
     },
     {
       "name": "Czech Localization",
       "repo": "shippy/outer-wilds-czech",
-      "tags": [
-        "localization"
-      ],
+      "tags": ["localization"],
       "uniqueName": "shippy.czech"
     },
     {
       "name": "Carson System",
       "parent": "xen.NewHorizons",
       "repo": "mrwallace888/OWNH-Carson-System",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "JackFoxtrot.CarsonSystem"
     },
     {
       "name": "Sound Test",
       "repo": "Hawkbat/ow-mod-sound-test",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Hawkbar.SoundTest"
     },
     {
       "name": "Interplanetary Polyglot",
       "repo": "xen-42/outer-wilds-localization-utility",
-      "tags": [
-        "library",
-        "localization"
-      ],
+      "tags": ["library", "localization"],
       "uniqueName": "xen.LocalizationUtility",
       "utility": true
     },
     {
       "name": "StopTime",
       "repo": "misternebula/StopTime",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "_nebula.StopTime"
     },
     {
       "name": "Galaxy Skybox: NGC 1087",
       "parent": "xen.NewHorizons",
       "repo": "TerrificTrifid/ow-nh-ngc1087",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "TerrificTrifid.NGC1087"
     },
     {
       "name": "Quantum Moon Orbit Line",
       "repo": "MegaPiggy/QuantumMoonOrbitLine",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "MegaPiggy.QuantumMoonOrbitLine",
       "authorDisplay": "MegaPiggy"
     },
     {
       "name": "Permadeath Mode",
       "repo": "piggeywig2000/OuterWildsPermadeath",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "piggeywig2000.Permadeath"
     },
     {
       "name": "Sun Station Ascension",
       "parent": "xen.NewHorizons",
       "repo": "TerrificTrifid/ow-nh-ss-ascension",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "TerrificTrifid.SSAscension"
     },
     {
       "name": "Discord Rich Presence",
       "repo": "MegaPiggy/OWRichPresence",
-      "tags": [
-        "integration"
-      ],
+      "tags": ["integration"],
       "uniqueName": "MegaPiggy.OWRichPresence"
     },
     {
       "name": "Artifact Laser",
       "repo": "coderCleric/artifact_laser",
-      "tags": [
-        "gameplay",
-        "requires-dlc"
-      ],
+      "tags": ["gameplay", "requires-dlc"],
       "uniqueName": "Cleric.ArtifactLaser"
     },
     {
       "name": "Speed Modifier/Walk Button on KBM",
       "repo": "ilyabru/OWSpeedModifier",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "ilyabru.OWSpeedModifier"
     },
     {
       "name": "Cut Achievements",
       "parent": "xen.AchievementTracker",
       "repo": "misternebula/cut-achievements",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "_nebula.CutAchievements"
     },
     {
       "name": "Chargeable Scout Launcher",
       "repo": "coderCleric/chargeable-scout",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Cleric.ChargeableScout"
     },
     {
       "name": "(Razer/SteelSeries) RGB Integration",
       "repo": "LivingFray/OW-RGB-Integration",
-      "tags": [
-        "integration"
-      ],
+      "tags": ["integration"],
       "uniqueName": "LivingFray.RGBIntegration"
     },
     {
       "name": "Europe Times",
       "repo": "MegaPiggy/EuropeTimes",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "MegaPiggy.EuropeTimes"
     },
     {
@@ -1340,32 +993,23 @@
       "name": "Hazy Dreams",
       "parent": "xen.NewHorizons",
       "repo": "Landriejx/HazyDreams",
-      "tags": [
-        "audiovisual",
-        "requires-dlc"
-      ],
+      "tags": ["audiovisual", "requires-dlc"],
       "uniqueName": "Laundryjx.HazyDreams"
     },
     {
       "authorDisplay": "Locochoco",
       "name": "Gizmos Library",
       "repo": "loco-choco/GizmosLibrary",
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "uniqueName": "Locochoco.GizmosLibrary",
       "utility": true,
-      "repoVariations": [
-        "ShoosGun/GizmosLibrary"
-      ]
+      "repoVariations": ["ShoosGun/GizmosLibrary"]
     },
     {
       "authorDisplay": "coderCleric",
       "name": "Wacky Rotations",
       "repo": "coderCleric/WackyRotations",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Cleric.WackyRotations"
     },
     {
@@ -1373,11 +1017,7 @@
       "name": "The Vision",
       "parent": "xen.NewHorizons",
       "repo": "hearth1an/hearthian.TheVision",
-      "tags": [
-        "story",
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["story", "content", "requires-dlc"],
       "uniqueName": "hearth1an.TheVision"
     },
     {
@@ -1385,48 +1025,32 @@
       "name": "Secret Words",
       "parent": "xen.NewHorizons",
       "repo": "FixxionsLair/Secret-Words",
-      "tags": [
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["content", "requires-dlc"],
       "uniqueName": "Fixxion.SecretWords"
     },
     {
       "authorDisplay": "Locochoco",
       "name": "Slate's Shipyard",
       "repo": "loco-choco/SlateShipyard",
-      "tags": [
-        "library",
-        "gameplay",
-        "tool",
-        "content"
-      ],
+      "tags": ["library", "gameplay", "tool", "content"],
       "uniqueName": "Locochoco.SlateShipyard",
       "utility": true,
-      "repoVariations": [
-        "ShoosGun/SlateShipyard"
-      ]
+      "repoVariations": ["ShoosGun/SlateShipyard"]
     },
     {
       "authorDisplay": "Locochoco",
       "name": "Spaceshipinha",
       "parent": "Locochoco.SlateShipyard",
       "repo": "loco-choco/Spaceshipinha",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Locochoco.Spaceshipinha",
-      "repoVariations": [
-        "ShoosGun/Spaceshipinha"
-      ]
+      "repoVariations": ["ShoosGun/Spaceshipinha"]
     },
     {
       "authorDisplay": "Hawkbar",
       "name": "DOOM",
       "repo": "Hawkbat/ow-mod-doom",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Hawkbar.Doom"
     },
     {
@@ -1434,58 +1058,42 @@
       "name": "Car Example",
       "parent": "Locochoco.SlateShipyard",
       "repo": "loco-choco/CarExample",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Locochoco.CarExample",
-      "repoVariations": [
-        "ShoosGun/CarExample"
-      ]
+      "repoVariations": ["ShoosGun/CarExample"]
     },
     {
       "authorDisplay": "clay",
       "name": "Clear Glass",
       "repo": "FreezeDriedMangos/ow-clear-glass",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "clay.ClearGlass"
     },
     {
       "authorDisplay": "Astien75",
       "name": "Bhaptics Outer Wilds",
       "repo": "Astienth/ow-bhaptics",
-      "tags": [
-        "integration"
-      ],
+      "tags": ["integration"],
       "uniqueName": "Astien.OWBhaptics"
     },
     {
       "name": "Espied Serenity",
       "parent": "xen.NewHorizons",
       "repo": "Ciborgm9/Rogue-Planet",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "Ciborgm9.Espied_Serenity"
     },
     {
       "name": "Green Jetpack",
       "repo": "TheLoreExplorer/GreenJetpack3",
-      "tags": [
-        "gameplay",
-        "audiovisual",
-        "requires-dlc"
-      ],
+      "tags": ["gameplay", "audiovisual", "requires-dlc"],
       "uniqueName": "TheLoreExplorer.GreenJetpack"
     },
     {
       "authorDisplay": "xen",
       "name": "Secret Settings",
       "repo": "xen-42/outer-wilds-secret-settings",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "xen.SecretSettings"
     },
     {
@@ -1493,20 +1101,14 @@
       "name": "Fret's Quest",
       "parent": "xen.NewHorizons",
       "repo": "Samster68OW/fretsquest",
-      "tags": [
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["content", "story", "requires-dlc"],
       "uniqueName": "Samster68.FretsQuest"
     },
     {
       "authorDisplay": "Smaed",
       "name": "Heavy Sleeper",
       "repo": "Smaedd/OW_HeavySleeper",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "Smaed.HeavySleeper"
     },
     {
@@ -1514,27 +1116,21 @@
       "name": "Funny System",
       "parent": "xen.NewHorizons",
       "repo": "RealOrbital32/funny-system",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "O32.FunnySystem"
     },
     {
       "authorDisplay": "hearth1an",
       "name": "Scout Teleporter",
       "repo": "hearth1an/hearth1an.ScoutTeleporter",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "uniqueName": "hearth1an.ProbeTeleporter"
     },
     {
       "authorDisplay": "Damián Garro",
       "name": "Custom Ship Log Modes",
       "repo": "dgarroDC/CustomShipLogModes",
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "uniqueName": "dgarro.CustomShipLogModes",
       "utility": true
     },
@@ -1542,10 +1138,7 @@
       "authorDisplay": "Damián Garro",
       "name": "Ship Log Slide Reel Player Plus",
       "repo": "dgarroDC/ShipLogSlideReelPlayer",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "uniqueName": "dgarro.ShipLogSlideReelPlayer"
     },
     {
@@ -1553,19 +1146,14 @@
       "name": "Smallest System in the Galaxy",
       "parent": "xen.NewHorizons",
       "repo": "RealOrbital32/smallest",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "uniqueName": "O32.Smallest"
     },
     {
       "authorDisplay": "Smaed",
       "name": "Developer Console",
       "repo": "Smaedd/OW_DeveloperConsole",
-      "tags": [
-        "library",
-        "tool"
-      ],
+      "tags": ["library", "tool"],
       "uniqueName": "Smaed.DeveloperConsole",
       "utility": true
     },
@@ -1573,18 +1161,14 @@
       "authorDisplay": "Smaed",
       "name": "Console Cheats",
       "repo": "Smaedd/OW_ConsoleCheats",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "uniqueName": "Smaed.ConsoleCheats"
     },
     {
       "name": "Alternate Voices",
       "uniqueName": "Krevace.MoVoicesMod",
       "repo": "Krevace/ow-alt-voices-mod",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "parent": "Krevace.VoiceMod",
       "authorDisplay": "Krevace"
     },
@@ -1592,9 +1176,7 @@
       "name": "The Wilds: Extended",
       "uniqueName": "FunkyShoeMan.TheWildsExtended",
       "repo": "FunkyShoeMan/TheWildsExtended",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "FunkyShoeMan"
     },
@@ -1602,12 +1184,7 @@
       "name": "Escape the Dreamstalker",
       "uniqueName": "xen.Dreamstalker",
       "repo": "xen-42/ow-dreamstalker",
-      "tags": [
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["gameplay", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "xen & JohnCorby"
     },
@@ -1615,17 +1192,13 @@
       "name": "Ship Self Destruct Button",
       "uniqueName": "TheLoreExplorer.SelfDestructButton",
       "repo": "TheLoreExplorer/SelfDestructButton",
-      "tags": [
-        "tweaks"
-      ]
+      "tags": ["tweaks"]
     },
     {
       "name": "Ernesto Takeover",
       "uniqueName": "FunkyShoeMan.ErnestoTakeover",
       "repo": "FunkyShoeMan/Ernesto-Takeover",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "FunkyShoeMan"
     },
@@ -1633,10 +1206,7 @@
       "name": "Dancin' Wilds Ventures",
       "uniqueName": "CantAffordaName.DancinWildsVentures",
       "repo": "CantAffordaName/CantAffordaName.DancinWildsVentures",
-      "tags": [
-        "content",
-        "audiovisual"
-      ],
+      "tags": ["content", "audiovisual"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Can't Afford a Name"
     },
@@ -1644,32 +1214,23 @@
       "name": "Stranger Spin Gravity",
       "uniqueName": "Komodo.StrangerSpinGravity",
       "repo": "Komodo5197/StrangerSpinGravity",
-      "tags": [
-        "gameplay",
-        "requires-dlc"
-      ]
+      "tags": ["gameplay", "requires-dlc"]
     },
     {
       "name": "Slate's Shipyard for Outer Wilds Online",
       "uniqueName": "Locochoco.ShipyardOWOAddon",
       "repo": "loco-choco/ShipyardOWOCompat",
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "parent": "Vesper.OuterWildsMMO",
       "utility": true,
       "authorDisplay": "Locochoco",
-      "repoVariations": [
-        "ShoosGun/ShipyardOWOCompat"
-      ]
+      "repoVariations": ["ShoosGun/ShipyardOWOCompat"]
     },
     {
       "name": "i let the voices on the discord server make bad ideas for planets",
       "uniqueName": "O32.Discord",
       "repo": "RealOrbital32/discord",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Orbital 32 (a.k.a. cigtu) and members from the discord modding server"
     },
@@ -1677,10 +1238,7 @@
       "name": "Super Wild Galaxy",
       "uniqueName": "CantAffordaName.SuperWildGalaxy",
       "repo": "CantAffordaName/CantAffordaName.SuperWildGalaxy",
-      "tags": [
-        "gameplay",
-        "content"
-      ],
+      "tags": ["gameplay", "content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Can't Afford a Name"
     },
@@ -1688,52 +1246,36 @@
       "name": "Trajectory Prediction",
       "uniqueName": "OlegSkutte.TrajectoryPrediction",
       "repo": "SkutteOleg/TrajectoryPrediction",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "authorDisplay": "Oleg Skutte"
     },
     {
       "name": "N Body Chaos",
       "uniqueName": "TacoTechnica.NBodyChaos",
       "repo": "adrisj7/OW_NBodyChaos",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "authorDisplay": "TacoTechnica"
     },
     {
       "name": "Shared Ship Log",
       "uniqueName": "Tephirax.OuterWildsSharedShipLog",
       "repo": "Tephirax/SharedShipLog",
-      "tags": [
-        "integration",
-        "tool"
-      ]
+      "tags": ["integration", "tool"]
     },
     {
       "name": "Kerbal Space Ventures",
       "uniqueName": "Locochoco.KSPShips",
       "repo": "loco-choco/Kerbal-Space-Ventures",
-      "tags": [
-        "gameplay",
-        "tool"
-      ],
+      "tags": ["gameplay", "tool"],
       "parent": "Locochoco.SlateShipyard",
       "authorDisplay": "Locochoco & FunkyShoeMan",
-      "repoVariations": [
-        "ShoosGun/Kerbal-Space-Ventures"
-      ]
+      "repoVariations": ["ShoosGun/Kerbal-Space-Ventures"]
     },
     {
       "name": "Solar Systems I Made as a Kid",
       "uniqueName": "O32.ssimaak",
       "repo": "RealOrbital32/Solar-Systems-I-Made-as-a-Kid",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)"
     },
@@ -1741,9 +1283,7 @@
       "name": "Owlystem",
       "uniqueName": "O32.Owlystem",
       "repo": "RealOrbital32/Owlystem",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Orbital 32 (a.k.a. cigtu), classic by Classic"
     },
@@ -1751,9 +1291,7 @@
       "name": "Nomai Text Printer",
       "uniqueName": "Cleric.NomaiTextPrinter",
       "repo": "coderCleric/NomaiTextPrinter",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "utility": true,
       "authorDisplay": "coderCleric"
     },
@@ -1761,72 +1299,55 @@
       "name": "The Final Shortcut",
       "uniqueName": "Acamaeda.Shortcut",
       "repo": "Acamaeda/OuterWildsShortcut",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "How Did This Happen?",
       "uniqueName": "Acamaeda.Happen",
       "repo": "Acamaeda/OuterWildsExperiment",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "I Don't Like Sand",
       "uniqueName": "Acamaeda.Sand",
       "repo": "Acamaeda/OuterWildsSand",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Outer Wilds en Andalûh",
       "uniqueName": "VholyIQ.OuterWildsAndaluh",
       "repo": "andergd/OuterWildsAndaluh",
-      "tags": [
-        "localization"
-      ],
+      "tags": ["localization"],
       "authorDisplay": "Vholy IQ"
     },
     {
       "name": "Outer Pictures",
       "uniqueName": "Pau318.OuterPictures",
       "repo": "Pau318/OuterPictures",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "authorDisplay": "Pau318"
     },
     {
       "name": "SpeedTools",
       "uniqueName": "GrimLala.SpeedTools",
       "repo": "GrimLala/SpeedTools",
-      "tags": [
-        "gameplay",
-        "tool"
-      ],
+      "tags": ["gameplay", "tool"],
       "authorDisplay": "grimsalad & LordLala"
     },
     {
       "name": "Break On Demand",
       "uniqueName": "Raoul1808.BreakOnDemand",
       "repo": "Raoul1808/BreakOnDemand",
-      "tags": [
-        "gameplay"
-      ]
+      "tags": ["gameplay"]
     },
     {
       "name": "Funny Christmas",
       "uniqueName": "O32.FunnyChristmas",
       "repo": "RealOrbital32/funny-christmas",
-      "tags": [
-        "story"
-      ],
+      "tags": ["story"],
       "parent": "O32.FunnySystem",
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)"
     },
@@ -1834,18 +1355,14 @@
       "name": "Enable Meditation",
       "uniqueName": "xen.EnableMeditation",
       "repo": "xen-42/outer-wilds-meditation",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "authorDisplay": "xen"
     },
     {
       "name": "No Dot Mod",
       "uniqueName": "hearth1an.NoDotMod",
       "repo": "hearth1an/NoDotMod",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "utility": true,
       "authorDisplay": "hearth1an"
     },
@@ -1853,18 +1370,13 @@
       "name": "Stranger Night Cycle",
       "uniqueName": "Komodo.StrangerNightCycle",
       "repo": "Komodo5197/StrangerNightCycle",
-      "tags": [
-        "gameplay",
-        "requires-dlc"
-      ]
+      "tags": ["gameplay", "requires-dlc"]
     },
     {
       "name": "KSP",
       "uniqueName": "O32.KSP",
       "repo": "RealOrbital32/KSP",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)"
     },
@@ -1872,58 +1384,42 @@
       "name": "AUGH Jetpack Boost",
       "uniqueName": "AlexDevs.OWAughJetpack",
       "repo": "Ale32bit/OWAughJetpack",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "authorDisplay": "AlexDevs"
     },
     {
       "name": "OWFixPluginTypesSerialization",
       "uniqueName": "JohnCorby.OWFixPluginTypesSerialization",
       "repo": "JohnCorby/OWFixPluginTypesSerialization",
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "utility": true
     },
     {
       "name": "Funny Noises",
       "uniqueName": "Atakku.FunnyNoises",
       "repo": "Atakku/OWFunnyNoises",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "authorDisplay": "Atakku"
     },
     {
       "name": "Proud Hearthians",
       "uniqueName": "FusionFlux.ProudHearthians",
       "repo": "Fusion-Flux/Proud-Hearthians",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "authorDisplay": "Fusion Flux"
     },
     {
       "name": "Volumetric Lights",
       "uniqueName": "JohnCorby.VolumetricLights",
       "repo": "JohnCorby/ow-volumetric-lights",
-      "tags": [
-        "tweaks",
-        "audiovisual"
-      ],
+      "tags": ["tweaks", "audiovisual"],
       "authorDisplay": "JohnCorby & _nebula"
     },
     {
       "name": "The Spiral System",
       "uniqueName": "Spacepiano.TheSpiralSystem",
       "repo": "spacepiano/Spacepiano.TheSpiralSystem",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Spacecorn"
     },
@@ -1931,11 +1427,7 @@
       "name": "Broken Balance",
       "uniqueName": "Tetraminus.BrokenBalance",
       "repo": "tetraminus/Tetraminus.BrokenBalance",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Tetraminus, Aidancode"
     },
@@ -1943,21 +1435,14 @@
       "name": "The Outsider",
       "uniqueName": "SBtT.TheOutsider",
       "repo": "StreetlightsBehindTheTrees/Outer-Wilds-The-Outsider",
-      "tags": [
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["content", "story", "requires-dlc"],
       "authorDisplay": "Streetlights Behind the Trees"
     },
     {
       "name": "Daylight Savings",
       "uniqueName": "clay.DaylightSavings",
       "repo": "FreezeDriedMangos/ow-daylight-savings",
-      "tags": [
-        "jam",
-        "content"
-      ],
+      "tags": ["jam", "content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Clay"
     },
@@ -1965,11 +1450,7 @@
       "name": "Brightdusk",
       "uniqueName": "Multiverse.Brightdusk",
       "repo": "TheMultiuniverse/Multiverse.Brightdusk",
-      "tags": [
-        "jam",
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Multiverse"
     },
@@ -1977,11 +1458,7 @@
       "name": "Time Dialator",
       "uniqueName": "O32.TimeDialator",
       "repo": "RealOrbital32/Time-Dialator",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)"
     },
@@ -1989,11 +1466,7 @@
       "name": "OW Ventures Scavenger Hunt",
       "uniqueName": "Cleric.ScavengerHunt",
       "repo": "coderCleric/Scavenger_Hunt",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "coderCleric"
     },
@@ -2001,11 +1474,7 @@
       "name": "Arcanum Adrift",
       "uniqueName": "Hawkbar.ArcanumAdrift",
       "repo": "Hawkbat/ow-wrong-warp-nh-jam",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "The Wrong Warp Team"
     },
@@ -2013,12 +1482,7 @@
       "name": "The Machine",
       "uniqueName": "smallbug.NHJam1",
       "repo": "Leopard501/NHJam1",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Small Bug"
     },
@@ -2026,23 +1490,14 @@
       "name": "Divergence",
       "uniqueName": "artificialparanoia.Divergence",
       "repo": "artificialparanoia/Divergence",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Archipelago",
       "uniqueName": "CantAffordaName.Archipelago",
       "repo": "CantAffordaName/CantAffordaName.Archipelago",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Can't Afford a Name"
     },
@@ -2050,12 +1505,7 @@
       "name": "Intervention",
       "uniqueName": "hearth1an.Intervention",
       "repo": "hearth1an/hearth1an.Intervention",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "hearth1an"
     },
@@ -2063,20 +1513,14 @@
       "name": "March of gears",
       "uniqueName": "CreativeNameTxt.OrbitTest",
       "repo": "CreativeNameTxt/March-of-gears",
-      "tags": [
-        "jam",
-        "content"
-      ],
+      "tags": ["jam", "content"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Celestial Orrery",
       "uniqueName": "MikelSalazar.CelestialOrrery",
       "repo": "MikelSalazar/CelestialOrrery",
-      "tags": [
-        "jam",
-        "tweaks"
-      ],
+      "tags": ["jam", "tweaks"],
       "authorDisplay": "Mikel Salazar",
       "parent": "xen.NewHorizons"
     },
@@ -2084,12 +1528,7 @@
       "name": "Evacuation",
       "uniqueName": "2walker2.Evacuation",
       "repo": "2walker2/NHJamTeamErnesto",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc"],
       "authorDisplay": "2walker2, Texture_Turtle, Samster68",
       "parent": "xen.NewHorizons"
     },
@@ -2097,10 +1536,7 @@
       "name": "Celestial Leeway",
       "uniqueName": "halleyyyyy.CelestialLeeway",
       "repo": "halleyyyyy/CelestialLeeway",
-      "tags": [
-        "content",
-        "story"
-      ],
+      "tags": ["content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Halley"
     },
@@ -2108,9 +1544,7 @@
       "name": "KSP: Outer Planets Mod",
       "uniqueName": "O32.KSPOPM",
       "repo": "RealOrbital32/KSPOPM",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Orbital 32 (a.k.a. cigtu)"
     },
@@ -2118,9 +1552,7 @@
       "name": "Deepian Moon",
       "uniqueName": "snazzyostrich.DeepianMoon",
       "repo": "snazzyostrich/snazzyostrich.DeepianMoon",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "snazzyostrich"
     },
@@ -2128,99 +1560,72 @@
       "name": "Outer Relics",
       "uniqueName": "GameWyrm.OuterRelics",
       "repo": "GameWyrm/OuterRelics",
-      "tags": [
-        "gameplay",
-        "content"
-      ]
+      "tags": ["gameplay", "content"]
     },
     {
       "name": "Real Solar System - Outer Relics Support and Examples",
       "uniqueName": "GameWyrm.RealSolarSystemOuterRelics",
       "repo": "GameWyrm/RealSolarSystemOuterRelics",
-      "tags": [
-        "gameplay",
-        "integration",
-        "content"
-      ],
+      "tags": ["gameplay", "integration", "content"],
       "parent": "GameWyrm.OuterRelics"
     },
     {
       "name": "Hatchling Icarus",
       "uniqueName": "Cleric.HatchlingIcarus",
       "repo": "coderCleric/HatchlingIcarus",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "authorDisplay": "coderCleric"
     },
     {
       "name": "Warp Window & VanishVolume Tweaks",
       "uniqueName": "QuantumBlur314.BonusRocks95",
       "repo": "QuantumBlur314/BonusRocks95",
-      "tags": [
-        "tweaks"
-      ]
+      "tags": ["tweaks"]
     },
     {
       "name": "Hug Mod",
       "uniqueName": "VioVayo.HugMod",
       "repo": "VioVayo/OWHugMod",
-      "tags": [
-        "gameplay"
-      ]
+      "tags": ["gameplay"]
     },
     {
       "name": "Mod Data Tools",
       "uniqueName": "Hawkbar.ModDataTools",
       "repo": "Hawkbat/ow-mod-data-tools",
-      "tags": [
-        "library"
-      ],
+      "tags": ["library"],
       "utility": true
     },
     {
       "name": "Green Screen",
       "uniqueName": "xen.GreenScreenMod",
       "repo": "xen-42/outer-wilds-green-screen",
-      "tags": [
-        "tool",
-        "audiovisual"
-      ],
+      "tags": ["tool", "audiovisual"],
       "authorDisplay": "xen"
     },
     {
       "name": "Customizable Anglerfish AI",
       "uniqueName": "Anyar.CustomAnglerfishAI",
       "repo": "TwentyPorts/CustomAnglerfishAI",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "authorDisplay": "Anyar"
     },
     {
       "name": "Outer Wilds Chinese Fix",
       "uniqueName": "nice2cu1.OuterWildFixFont",
       "repo": "nice2cu1/OuterWildFixFont",
-      "tags": [
-        "localization"
-      ]
+      "tags": ["localization"]
     },
     {
       "name": "Smarter Ghosts",
       "uniqueName": "VioVayo.SmarterGhosts",
       "repo": "VioVayo/OWSmarterGhosts",
-      "tags": [
-        "gameplay",
-        "requires-dlc"
-      ]
+      "tags": ["gameplay", "requires-dlc"]
     },
     {
       "name": "QSB Game Modes",
       "uniqueName": "BUNN1E5.QSBGameModes",
       "repo": "BUNN1E5/QSBGameModes",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "authorDisplay": "BUNN1E5 & Locochoco"
     },
@@ -2228,9 +1633,7 @@
       "name": "Ship Ball Pit",
       "uniqueName": "TerrificTrifid.ShipBallpit",
       "repo": "TerrificTrifid/ow-nh-ballpit",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "TerrificTrifid"
     },
@@ -2238,44 +1641,32 @@
       "name": "Mod that does Nothing",
       "uniqueName": "VioVayo.ModThatDoesNothing",
       "repo": "VioVayo/OWModThatDoesNothing",
-      "tags": [
-        "audiovisual"
-      ]
+      "tags": ["audiovisual"]
     },
     {
       "name": "Color Cameras",
       "uniqueName": "TerrificTrifid.ColorCameras",
       "repo": "TerrificTrifid/ow-color-cameras",
-      "tags": [
-        "gameplay",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "audiovisual"],
       "authorDisplay": "TerrificTrifid"
     },
     {
       "name": "Invert Look Controls",
       "uniqueName": "Tephirax.InvertLookControls",
       "repo": "Tephirax/Invert-Look-Controls",
-      "tags": [
-        "gameplay"
-      ]
+      "tags": ["gameplay"]
     },
     {
       "name": "Dream World Modding and Debug Assist",
       "uniqueName": "VioVayo.DWModAssist",
       "repo": "VioVayo/OWDreamWorldModAssist",
-      "tags": [
-        "tool",
-        "requires-dlc"
-      ]
+      "tags": ["tool", "requires-dlc"]
     },
     {
       "name": "9 Year Old System",
       "uniqueName": "bismuthdistrict.9YearOldSystem",
       "repo": "bismuthdistrict/bismuthdistrict.9YearOldSystem",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "bismuthdistrict and Sam Lastname's daughter"
     },
@@ -2283,29 +1674,21 @@
       "name": "Épicas Album",
       "uniqueName": "dgarro.EpicasAlbum",
       "repo": "dgarroDC/EpicasAlbum",
-      "tags": [
-        "gameplay",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "audiovisual"],
       "authorDisplay": "Damián Garro"
     },
     {
       "name": "Throwable Items",
       "uniqueName": "VioVayo.YeetMod",
       "repo": "VioVayo/OWThrowableItems",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "authorDisplay": "VioVayo & JohnCorby"
     },
     {
       "name": "Unnamed Mystery",
       "uniqueName": "O32.UnnamedMystery",
       "repo": "RealOrbital32/Unnamed-Mystery",
-      "tags": [
-        "content",
-        "story"
-      ],
+      "tags": ["content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Orbital 32 (a.k.a. cigtu), ItsKan, and others"
     },
@@ -2313,54 +1696,34 @@
       "name": "The Hatchling's Journal",
       "uniqueName": "dgarro.Journal",
       "repo": "dgarroDC/Journal",
-      "tags": [
-        "gameplay",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "audiovisual"],
       "authorDisplay": "Damián Garro"
     },
     {
       "name": "Inhabitant Chess",
       "uniqueName": "codelazarus14.InhabitantChess",
       "repo": "codelazarus14/InhabitantChess",
-      "tags": [
-        "gameplay",
-        "content",
-        "audiovisual",
-        "requires-dlc"
-      ]
+      "tags": ["gameplay", "content", "audiovisual", "requires-dlc"]
     },
     {
       "name": "Slip 'N Slide",
       "uniqueName": "JohnCorby.SlipNSlide",
       "repo": "JohnCorby/ow-slip-n-slide",
-      "tags": [
-        "gameplay",
-        "tweaks",
-        "tool",
-        "content",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "tweaks", "tool", "content", "audiovisual"],
       "authorDisplay": "JohnCorby & Trifid"
     },
     {
       "name": "Sad Supernova Music",
       "uniqueName": "hearth1an.SadSupernovaMusic",
       "repo": "hearth1an/hearth1an.SadSupernovaMusic",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "authorDisplay": "hearth1an"
     },
     {
       "name": "Christmas Story",
       "uniqueName": "hearth1an.ChristmasStory",
       "repo": "hearth1an/hearth1an.ChristmasStory",
-      "tags": [
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "hearth1an & xen"
     },
@@ -2368,54 +1731,37 @@
       "name": "Icelandic Localization",
       "uniqueName": "Steini.IcelandicTranslation",
       "repo": "kksteini/OuterWildsIcelandic",
-      "tags": [
-        "localization"
-      ],
+      "tags": ["localization"],
       "authorDisplay": "Steini"
     },
     {
       "name": "Outer Wilds Kazoo",
       "uniqueName": "GoldenCrepe.OuterWildsKazoo",
       "repo": "GoldenCrepe/OuterWildsKazoo",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "authorDisplay": "GoldenCrepe & Vio"
     },
     {
       "name": "QSB Multiple Ships",
       "uniqueName": "_nebula.QSBMultipleShips",
       "repo": "qsb-dev/qsb-multiple-ships",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "authorDisplay": "_nebula",
-      "repoVariations": [
-        "misternebula/qsb-multiple-ships"
-      ]
+      "repoVariations": ["misternebula/qsb-multiple-ships"]
     },
     {
       "name": "Nomai Grand Prix",
       "uniqueName": "NomaiGrandPrix",
       "repo": "bucketon/OWRandomSpeedrun",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "authorDisplay": "Zac Bauermeister, David Damschen, Ben Kirzhner, Chris Maines"
     },
     {
       "name": "Mindscapes",
       "uniqueName": "coderCleric.Mindscapes",
       "repo": "coderCleric/Mindscapes",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "gameplay", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "coderCleric"
     },
@@ -2423,11 +1769,7 @@
       "name": "Ernesto's Fun Day Off!",
       "uniqueName": "Turtle.FunDayOff",
       "repo": "TextureTurtle/ErnestosFunDayOff",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Texture_Turtle"
     },
@@ -2435,28 +1777,16 @@
       "name": "Hearth's Neighbor",
       "uniqueName": "GameWyrm.HearthsNeighbor",
       "repo": "GameWyrm/HearthsNeighbor",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "gameplay", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "GameWyrm, EndgameZero, Lumine0409, and FunkyShoeMan",
-      "repoVariations": [
-        "GameWyrm/OuterWildsSummerJam"
-      ]
+      "repoVariations": ["GameWyrm/OuterWildsSummerJam"]
     },
     {
       "name": "The Survivors",
       "uniqueName": "Hawkbar.TheSurvivors",
       "repo": "Hawkbat/ow-mod-jam-2",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "The Wrong Warp Team"
     },
@@ -2464,11 +1794,7 @@
       "name": "Origins",
       "uniqueName": "hearth1an.Origins",
       "repo": "hearth1an/Origins",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "hearth1an"
     },
@@ -2476,12 +1802,7 @@
       "name": "Tesseract's Secret",
       "uniqueName": "CantAffordaName.TesseractsSecret",
       "repo": "CantAffordaName/CantAffordaName.TesseractsSecret",
-      "tags": [
-        "jam",
-        "gameplay",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "gameplay", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Can't Afford a Name"
     },
@@ -2489,12 +1810,7 @@
       "name": "The Quasar Project",
       "uniqueName": "Trifid.QuasarProject",
       "repo": "TerrificTrifid/ow-nh-quasar-project",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "gameplay", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Trifid, JohnCorby, Turtle, Tetraminus",
       "downloadCountOffset": 235
@@ -2503,9 +1819,7 @@
       "name": "Skins for QSB",
       "uniqueName": "xen.QSBSkins",
       "repo": "xen-42/ow-qsb-skins",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "authorDisplay": "xen"
     },
@@ -2513,110 +1827,78 @@
       "name": "Outer Wives",
       "uniqueName": "Raicuparta.OuterWives",
       "repo": "Raicuparta/outer-wives",
-      "tags": [
-        "gameplay",
-        "content"
-      ],
+      "tags": ["gameplay", "content"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "No Supernova",
       "uniqueName": "Boofdev.NoSupernova",
       "repo": "hexahigh/NoSupernova",
-      "tags": [
-        "tweaks",
-        "tool"
-      ],
+      "tags": ["tweaks", "tool"],
       "authorDisplay": "Boofdev"
     },
     {
       "name": "DebugHUD",
       "uniqueName": "Chaxiraxi.DebugHUD",
       "repo": "Chaxiraxi/DebugHUD",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "authorDisplay": "Chaxiraxi"
     },
     {
       "name": "QSB TTS",
       "uniqueName": "_nebula.QSBTTS",
       "repo": "qsb-dev/qsb-tts",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "parent": "Raicuparta.QuantumSpaceBuddies",
       "authorDisplay": "_nebula",
-      "repoVariations": [
-        "misternebula/qsb-tts"
-      ]
+      "repoVariations": ["misternebula/qsb-tts"]
     },
     {
       "name": "Lore Tracker",
       "uniqueName": "FancyFurret.LoreTracker",
       "repo": "osum4est/outer-wilds-lore-tracker",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "authorDisplay": "FancyFurret"
     },
     {
       "name": "Sorriso Ronaldo",
       "uniqueName": "Felps.SorrisoRonaldo",
       "repo": "7Felps/SorrisoRonaldo",
-      "tags": [
-        "audiovisual"
-      ]
+      "tags": ["audiovisual"]
     },
     {
       "name": "Camera Shake",
       "uniqueName": "SBtT.CameraShake",
       "repo": "MegaPiggy/SBtT.CameraShake",
-      "tags": [
-        "gameplay",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "audiovisual"],
       "authorDisplay": "Streetlights Behind the Trees"
     },
     {
       "name": "Silly Filters",
       "uniqueName": "MoonstoneStudios.SillyFilters",
       "repo": "MoonstoneStudios/SillyFilters",
-      "tags": [
-        "gameplay",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "audiovisual"],
       "authorDisplay": "Moonstone"
     },
     {
       "name": "Toggle Hud",
       "uniqueName": "Yurtle.ToggleHUD",
       "repo": "Yurtle212/OuterWilds-ToggleHUD",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "authorDisplay": "Yurtle"
     },
     {
       "name": "Global SSR",
       "uniqueName": "_nebula.GlobalScreenSpaceReflections",
       "repo": "misternebula/GlobalScreenSpaceReflections",
-      "tags": [
-        "tweaks",
-        "audiovisual"
-      ],
+      "tags": ["tweaks", "audiovisual"],
       "authorDisplay": "_nebula"
     },
     {
       "name": "Enhance Divergence Mod",
       "uniqueName": "orclecle.TinyPatchForDivergence",
       "repo": "TRSasasusu/TinyPatchForDivergence",
-      "tags": [
-        "tweaks",
-        "audiovisual",
-        "requires-dlc"
-      ],
+      "tags": ["tweaks", "audiovisual", "requires-dlc"],
       "parent": "artificialparanoia.Divergence",
       "authorDisplay": "orclecle"
     },
@@ -2624,10 +1906,7 @@
       "name": "Quiet Echoes",
       "uniqueName": "Acamaeda.QuietEchoes",
       "repo": "Acamaeda/OuterWildsQuietEchoes",
-      "tags": [
-        "tweaks",
-        "requires-dlc"
-      ],
+      "tags": ["tweaks", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Acamaeda"
     },
@@ -2635,79 +1914,55 @@
       "name": "Glowstick Bracelets",
       "uniqueName": "VioVayo.GlowyBraceletMod",
       "repo": "VioVayo/OWGlowstickBracelets",
-      "tags": [
-        "content"
-      ]
+      "tags": ["content"]
     },
     {
       "name": "Simpler Times",
       "uniqueName": "atk.IntactMod2",
       "repo": "bruvin-sky/SimplerTimes",
-      "tags": [
-        "gameplay",
-        "tweaks",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "tweaks", "audiovisual"],
       "authorDisplay": "atk"
     },
     {
       "name": "Archipelago Randomizer",
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "repo": "Ixrec/OuterWildsArchipelagoRandomizer",
-      "tags": [
-        "gameplay",
-        "integration"
-      ],
+      "tags": ["gameplay", "integration"],
       "authorDisplay": "Ixrec"
     },
     {
       "authorDisplay": "Owen_013",
       "name": "Immersion",
       "repo": "Owen013/FirstPersonPresence",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "uniqueName": "Owen_013.FirstPersonPresence"
     },
     {
       "name": "No Achievements",
       "uniqueName": "MegaPiggy.NoAchievements",
       "repo": "MegaPiggy/OuterWildsNoAchievements",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "authorDisplay": "MegaPiggy"
     },
     {
       "name": "Screenshot Tool",
       "uniqueName": "Hawkbar.ScreenshotTool",
       "repo": "Hawkbat/OuterWildsModScreenshotTool",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "authorDisplay": "Hawkbar"
     },
     {
       "name": "General Enhancements",
       "uniqueName": "SBtT.GeneralEnhancements",
       "repo": "MegaPiggy/SBtT.GeneralEnhancements",
-      "tags": [
-        "gameplay",
-        "tweaks",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "tweaks", "audiovisual"],
       "authorDisplay": "Streetlights Behind the Trees & MegaPiggy"
     },
     {
       "name": "Astral Codec",
       "uniqueName": "Walker.AstralCodex",
       "repo": "2walker2/Astral-Codex",
-      "tags": [
-        "gameplay",
-        "content",
-        "story"
-      ],
+      "tags": ["gameplay", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "2walker2",
       "firstReleaseDateOverride": "2024-02-24T02:22:36Z"
@@ -2716,20 +1971,14 @@
       "name": "Mod Jam 3",
       "uniqueName": "xen.ModJam3",
       "repo": "xen-42/ow-mod-jam-3-base",
-      "tags": [
-        "jam"
-      ],
+      "tags": ["jam"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Jam Hub",
       "uniqueName": "coderCleric.JamHub",
       "repo": "coderCleric/JamHub",
-      "tags": [
-        "jam",
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "coderCleric"
     },
@@ -2737,21 +1986,14 @@
       "name": "Granite's Invitation",
       "uniqueName": "xen.UnofficialJam3Entry",
       "repo": "xen-42/ow-mod-jam-3-entry",
-      "tags": [
-        "jam",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "story", "requires-dlc"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Solar Rangers",
       "uniqueName": "Hawkbar.SolarRangers",
       "repo": "Hawkbat/SolarRangers",
-      "tags": [
-        "jam",
-        "story"
-      ],
+      "tags": ["jam", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "The Wrong Warp Team"
     },
@@ -2759,11 +2001,7 @@
       "name": "Callis's Thesis",
       "uniqueName": "Echatsum.CallisThesis",
       "repo": "Echatsum/Echatsum.CallisThesis",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Echatsum"
     },
@@ -2771,13 +2009,7 @@
       "name": "Hearth's Neighbor 2: Magistarium",
       "uniqueName": "GameWyrm.HearthsNeighbor2",
       "repo": "GameWyrm/hearths-neighbor-2",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "gameplay", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "GameWyrm, EndgameZero, FunkyShoeMan, and CelestialsStorm"
     },
@@ -2785,11 +2017,7 @@
       "name": "Finis",
       "uniqueName": "orclecle.Finis",
       "repo": "TRSasasusu/Finis",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "orclecle"
     },
@@ -2797,12 +2025,7 @@
       "name": "Reflections",
       "uniqueName": "TeamErnesto.OWJam3ModProject",
       "repo": "2walker2/OWJam3ModProject",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Walker, GayCoffee, Greenpixel"
     },
@@ -2810,10 +2033,7 @@
       "name": "Axiom's Refuge",
       "uniqueName": "MegaPiggy.Axiom",
       "repo": "MegaPiggy/axiom-and-aicale",
-      "tags": [
-        "jam",
-        "story"
-      ],
+      "tags": ["jam", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "MegaPiggy"
     },
@@ -2821,11 +2041,7 @@
       "name": "Echo Hike",
       "uniqueName": "Trifid.TrifidJam3",
       "repo": "TerrificTrifid/ow-nh-trifidjam3",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content"
-      ],
+      "tags": ["jam", "gameplay", "content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Trifid & chatti"
     },
@@ -2833,12 +2049,7 @@
       "name": "Band Together",
       "uniqueName": "pikpik_carrot.BandTogether",
       "repo": "Etherpod/Band-Together",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "pikpik_carrot, Etherpod, Ditzy, TheHipOne"
     },
@@ -2846,11 +2057,7 @@
       "name": "Symbiosis",
       "uniqueName": "CrypticBird.Jam3",
       "repo": "CrypticBird/Outer-Wilds-Symbiosis",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Bird"
     },
@@ -2858,101 +2065,74 @@
       "name": "Tripping and Clumsiness",
       "uniqueName": "Owen_013.TrippingAndClumsiness",
       "repo": "Owen013/TrippingAndClumsiness",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "authorDisplay": "Owen_013"
     },
     {
       "name": "Pick Up Chert",
       "uniqueName": "orclecle.PickUpChert",
       "repo": "TRSasasusu/PickUpChert",
-      "tags": [
-        "tool",
-        "content"
-      ],
+      "tags": ["tool", "content"],
       "authorDisplay": "orclecle"
     },
     {
       "name": "Resource Management",
       "uniqueName": "Stonesword.ResourceManagement",
       "repo": "el-piedras/Resource-Management",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "authorDisplay": "Stonesword"
     },
     {
       "name": "Reactive Hearthians",
       "uniqueName": "OmegaFallon.ReactiveHearthians",
       "repo": "omega-fallon/ReactiveHearthians",
-      "tags": [
-        "tweaks",
-        "story"
-      ],
+      "tags": ["tweaks", "story"],
       "authorDisplay": "OmegaFallon"
     },
     {
       "name": "Single Brain Cell Mod",
       "uniqueName": "VioVayo.SingleBrainCell",
       "repo": "VioVayo/OWSingleBrainCell",
-      "tags": [
-        "gameplay"
-      ]
+      "tags": ["gameplay"]
     },
     {
       "name": "Ship Light Toggle",
       "uniqueName": "Hawkbar.ShipLightToggle",
       "repo": "Hawkbat/OuterWildsModShipLightToggle",
-      "tags": [
-        "tweaks"
-      ]
+      "tags": ["tweaks"]
     },
     {
       "name": "Fast Travel",
       "uniqueName": "Hawkbar.FastTravel",
       "repo": "Hawkbat/OuterWildsModFastTravel",
-      "tags": [
-        "tweaks"
-      ]
+      "tags": ["tweaks"]
     },
     {
       "name": "Play as Gabbro",
       "uniqueName": "xen.PlayAsGabbro",
       "repo": "xen-42/ow-play-as-gabbro",
-      "tags": [
-        "tweaks",
-        "content"
-      ],
+      "tags": ["tweaks", "content"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Expedition Takeoff",
       "uniqueName": "Etherpod.ExpeditionTakeoff",
       "repo": "Etherpod/ExpeditionTakeoff",
-      "tags": [
-        "content",
-        "audiovisual"
-      ],
+      "tags": ["content", "audiovisual"],
       "authorDisplay": "Etherpod"
     },
     {
       "name": "Outer Wilds Basque Translation",
       "uniqueName": "Eztainu.OW_Euskaraz_Mod",
       "repo": "Eztainu/OW_Euskaraz_Mod",
-      "tags": [
-        "localization"
-      ],
+      "tags": ["localization"],
       "authorDisplay": "Eztainu"
     },
     {
       "name": "Spoiler Quarantine Release",
       "uniqueName": "MegaPiggy.SpoilerQuarantineRelease",
       "repo": "MegaPiggy/SpoilerQuarantineRelease",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "alpha": true,
       "authorDisplay": "MegaPiggy"
     },
@@ -2960,86 +2140,60 @@
       "name": "Symbiosis Ship Logs",
       "uniqueName": "GameWyrm.SymbiosisShipLogs",
       "repo": "GameWyrm/SymbiosisShipLogs",
-      "tags": [
-        "jam",
-        "tweaks",
-        "integration"
-      ],
+      "tags": ["jam", "tweaks", "integration"],
       "parent": "CrypticBird.Jam3"
     },
     {
       "name": "Quantum Moon Equator Orbit",
       "uniqueName": "MegaPiggy.QuantumMoonEquatorOrbit",
       "repo": "MegaPiggy/QuantumMoonEquatorOrbit",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "authorDisplay": "MegaPiggy"
     },
     {
       "name": "Pride Lantern",
       "uniqueName": "Bwc9876.PrideLantern",
       "repo": "Bwc9876/PrideLantern",
-      "tags": [
-        "audiovisual",
-        "requires-dlc"
-      ]
+      "tags": ["audiovisual", "requires-dlc"]
     },
     {
       "name": "Line Numbers",
       "uniqueName": "MegaPiggy.LineNumbers",
       "repo": "MegaPiggy/OWLineNumbers",
-      "tags": [
-        "tool"
-      ],
+      "tags": ["tool"],
       "authorDisplay": "MegaPiggy"
     },
     {
       "name": "Retro Health Display",
       "uniqueName": "MegaPiggy.RetroHealthDisplay",
       "repo": "MegaPiggy/RetroHealthDisplay",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "authorDisplay": "MegaPiggy"
     },
     {
       "name": "Outer Scout",
       "uniqueName": "picalines.OuterScout",
       "repo": "Picalines/outer-scout",
-      "tags": [
-        "integration",
-        "tool"
-      ],
+      "tags": ["integration", "tool"],
       "authorDisplay": "picalines"
     },
     {
       "name": "Debug Eye Helper",
       "uniqueName": "xen.EyeHelper",
       "repo": "xen-42/outer-wilds-eye-helper",
-      "tags": [
-        "tool"
-      ]
+      "tags": ["tool"]
     },
     {
       "name": "Sand Control",
       "uniqueName": "xen-42.SandControl",
       "repo": "xen-42/outer-wilds-sand-control",
-      "tags": [
-        "tool"
-      ]
+      "tags": ["tool"]
     },
     {
       "name": "Every Jam 3 Mod",
       "uniqueName": "xen-42.ModJam3All",
       "repo": "xen-42/ow-mod-jam-3-all",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc",
-        "pack"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc", "pack"],
       "parent": "xen.ModJam3",
       "authorDisplay": "a bunch of people"
     },
@@ -3047,29 +2201,21 @@
       "name": "Clues for The Obtuse",
       "uniqueName": "atk.ObtuseClues",
       "repo": "bruvin-sky/atk.ObtuseClues",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Hoarder's Ship",
       "uniqueName": "atk.Hoarder",
       "repo": "bruvin-sky/atk.Hoarder",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Hearthian Golf The Front Nine",
       "uniqueName": "Samster68.HearthianGolf",
       "repo": "Samster68OW/hearthian-golf",
-      "tags": [
-        "gameplay",
-        "content"
-      ],
+      "tags": ["gameplay", "content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Samster68"
     },
@@ -3077,75 +2223,54 @@
       "name": "OWUkrainian",
       "uniqueName": "Dim0v.OWUkrainian",
       "repo": "dim0v/OWUkrainian",
-      "tags": [
-        "localization"
-      ],
+      "tags": ["localization"],
       "authorDisplay": "Dim0v"
     },
     {
       "name": "Ernesto Chase",
       "uniqueName": "Etherpod.ErnestoChase",
       "repo": "Etherpod/Ernesto-Chase",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "authorDisplay": "Etherpod"
     },
     {
       "name": "Sliding In Ship Fix",
       "uniqueName": "Throckmorpheus.SlidingInShipFix",
       "repo": "throckmorpheus/SlidingInShipFix",
-      "tags": [
-        "tweaks"
-      ]
+      "tags": ["tweaks"]
     },
     {
       "name": "Esker Ice Cream",
       "uniqueName": "almaz5200.EskerIceCream",
       "repo": "Almaz5200/EskerIceCream",
-      "tags": [
-        "content"
-      ]
+      "tags": ["content"]
     },
     {
       "name": "Cruncy Marshmallows",
       "uniqueName": "NineMeowz.CruncyMarshmallows",
       "repo": "TheCatProductionsOfficial/Cruncy-Marshmallows",
-      "tags": [
-        "tweaks",
-        "audiovisual"
-      ],
+      "tags": ["tweaks", "audiovisual"],
       "authorDisplay": "NineMeowz"
     },
     {
       "name": "ULTIMATE Skin Changer",
       "uniqueName": "pikpik_carrot.SkinChanger",
       "repo": "pikpik-carrot/SkinChanger",
-      "tags": [
-        "gameplay",
-        "audiovisual",
-        "requires-dlc"
-      ],
+      "tags": ["gameplay", "audiovisual", "requires-dlc"],
       "authorDisplay": "pikpik_carrot, JohnCorby, SBtT, xen"
     },
     {
       "name": "Ship Enhancements",
       "uniqueName": "Etherpod.ShipEnhancements",
       "repo": "Etherpod/Ship-Enhancements",
-      "tags": [
-        "gameplay",
-        "tweaks",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "tweaks", "audiovisual"],
       "authorDisplay": "Etherpod"
     },
     {
       "name": "Outer Adventure 2",
       "uniqueName": "gany.LiveAndLearn",
       "repo": "Minecraft633/outer-adventure-2",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Ganymede2076"
     },
@@ -3153,23 +2278,14 @@
       "name": "Warp To Vessel",
       "uniqueName": "AnonymousStrangerOW.WarpToVessel",
       "repo": "AnonymousStrangerOW/WarpToVessel",
-      "tags": [
-        "tool",
-        "audiovisual"
-      ],
+      "tags": ["tool", "audiovisual"],
       "authorDisplay": "Anonymous"
     },
     {
       "name": "Outer Wilds Escape Room",
       "uniqueName": "xen.EscapeRoomJam4",
       "repo": "xen-42/ow-mod-jam-4",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "gameplay", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "GameWyrm and xen"
     },
@@ -3177,12 +2293,7 @@
       "name": "Dreambound",
       "uniqueName": "Hawkbar.GreenFlameBlade",
       "repo": "Hawkbat/OuterWildsModJam4",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "The Wrong Warp Team"
     },
@@ -3190,11 +2301,7 @@
       "name": "Guardian",
       "uniqueName": "orclecle.Guardian",
       "repo": "TRSasasusu/Guardian",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "orclecle"
     },
@@ -3202,10 +2309,7 @@
       "name": "Iceolation",
       "uniqueName": "pikpik_carrot,shoe,TextureTurtle.2024FallJam",
       "repo": "pikpik-carrot/2024FallJam",
-      "tags": [
-        "jam",
-        "story"
-      ],
+      "tags": ["jam", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "pikpik_carrot, shoe, Texture Turtle, Toxic"
     },
@@ -3213,34 +2317,21 @@
       "name": "Root Access",
       "uniqueName": "2walker2.OWJam4ModProject",
       "repo": "2walker2/OWJam4ModProject",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "gameplay", "content", "story", "requires-dlc"],
       "authorDisplay": "Greenpixel, JohnCorby, 2walker2"
     },
     {
       "name": "Lonesome Lake",
       "uniqueName": "AsymmetricalCavern.LonesomeLake",
       "repo": "AsymmetricalCavern/LonesomeLake",
-      "tags": [
-        "jam",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "story", "requires-dlc"],
       "authorDisplay": "Asymmetrical Cavern"
     },
     {
       "name": "Lumina Terra",
       "uniqueName": "Etherpod.LuminaTerra",
       "repo": "Etherpod/LuminaTerra",
-      "tags": [
-        "jam",
-        "story"
-      ],
+      "tags": ["jam", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Etherpod & ditzy"
     },
@@ -3248,13 +2339,7 @@
       "name": "Misfired Jump",
       "uniqueName": "Echatsum.MisfiredJump",
       "repo": "Echatsum/MisfiredJump",
-      "tags": [
-        "jam",
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "gameplay", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Echatsum"
     },
@@ -3262,12 +2347,7 @@
       "name": "Liaison",
       "uniqueName": "TeamMitis.Liaison",
       "repo": "Acamaeda/TeamMitisJam",
-      "tags": [
-        "jam",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Team Mitis"
     },
@@ -3275,40 +2355,27 @@
       "name": "The Box",
       "uniqueName": "MegaPiggy.Jam4JokeEntry",
       "repo": "MegaPiggy/Jam4JokeEntry",
-      "tags": [
-        "jam",
-        "content"
-      ],
+      "tags": ["jam", "content"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Traveler's Pack",
       "uniqueName": "Etherpod.TravelersPack",
       "repo": "Etherpod/TravelersPack",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ],
+      "tags": ["gameplay", "tweaks"],
       "authorDisplay": "Etherpod"
     },
     {
       "name": "Axis Consolidator",
       "uniqueName": "Makaque.AxisConsolidator",
       "repo": "Makaque/AxisConsolidator",
-      "tags": [
-        "gameplay",
-        "tweaks"
-      ]
+      "tags": ["gameplay", "tweaks"]
     },
     {
       "name": "Nomai Scavenger Hunt",
       "uniqueName": "Boreas.ScavengerHunt",
       "repo": "NotADuck02/Boreas.ScavengerHunt",
-      "tags": [
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Boreas"
     },
@@ -3316,37 +2383,27 @@
       "name": "Podracing Tracker",
       "uniqueName": "TheIterator.PodracingTracker",
       "repo": "5PIterator/Podracing-Tracker",
-      "tags": [
-        "tool"
-      ]
+      "tags": ["tool"]
     },
     {
       "name": "Moar Marshmallows",
       "uniqueName": "ColumbidaeCafe.MoarMarshmallows",
       "repo": "ColumbidaeCafe/MoarMarshmallows",
-      "tags": [
-        "tweaks",
-        "content",
-        "audiovisual"
-      ],
+      "tags": ["tweaks", "content", "audiovisual"],
       "authorDisplay": "ColumbidaeCafe"
     },
     {
       "name": "Freedom Units",
       "uniqueName": "Hawkbar.FreedomUnits",
       "repo": "Hawkbat/FreedomUnits",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "authorDisplay": "Hawkbar"
     },
     {
       "name": "Trunic Localization",
       "uniqueName": "pikpik_carrot.OWTrunic",
       "repo": "pikpik-carrot/OWTrunic",
-      "tags": [
-        "localization"
-      ],
+      "tags": ["localization"],
       "parent": "xen.LocalizationUtility",
       "authorDisplay": "EndgameZero & pikpik_carrot"
     },
@@ -3354,33 +2411,21 @@
       "name": "Language Swap",
       "uniqueName": "Ixrec.LanguageSwap",
       "repo": "Ixrec/OuterWildsLanguageSwap",
-      "tags": [
-        "tool",
-        "localization"
-      ],
+      "tags": ["tool", "localization"],
       "authorDisplay": "Ixrec"
     },
     {
       "name": "The Stranger They Are",
       "uniqueName": "AnonymousStrangerOW.TheStrangerTheyAre",
       "repo": "AnonymousStrangerOW/TheStrangerTheyAre",
-      "tags": [
-        "gameplay",
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["gameplay", "content", "story", "requires-dlc"],
       "authorDisplay": "Anonymous"
     },
     {
       "name": "Forgotten Castaways",
       "uniqueName": "cleric.DeepBramble",
       "repo": "coderCleric/DeepBramble",
-      "tags": [
-        "content",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["content", "story", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "coderCleric"
     },
@@ -3388,19 +2433,14 @@
       "name": "Trans Rights Mod",
       "uniqueName": "CrystalENVT.TransRightsMod",
       "repo": "CrystalSpore/OuterWildsTransRightsMod",
-      "tags": [
-        "tweaks",
-        "audiovisual"
-      ],
+      "tags": ["tweaks", "audiovisual"],
       "authorDisplay": "CrystalENVT"
     },
     {
       "name": "Weather Mod",
       "uniqueName": "Solec.WeathMod",
       "repo": "SolecAnimations/Outer-Wilds-Weather-Mod",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Solec"
     },
@@ -3408,46 +2448,33 @@
       "name": "Prop Placer",
       "uniqueName": "xen.PropPlacer",
       "repo": "xen-42/ow-prop-placer",
-      "tags": [
-        "tool"
-      ]
+      "tags": ["tool"]
     },
     {
       "name": "Ship Alarm",
       "uniqueName": "SpatialXX.ShipAlarm",
       "repo": "SpatialXX/ShipAlarm",
-      "tags": [
-        "audiovisual",
-        "gameplay"
-      ],
+      "tags": ["audiovisual", "gameplay"],
       "authorDisplay": "SpatialX"
     },
     {
       "name": "Dear ImGui",
       "uniqueName": "Throckmorpheus.ImGuiOW",
       "repo": "throckmorpheus/ImguiOW",
-      "tags": [
-        "library",
-        "tool"
-      ]
+      "tags": ["library", "tool"]
     },
     {
       "name": "Flight Path Vector",
       "uniqueName": "SpatialX.ShipCompassHUD",
       "repo": "SpatialXX/ShipCompassHUD",
-      "tags": [
-        "audiovisual",
-        "tool"
-      ],
+      "tags": ["audiovisual", "tool"],
       "authorDisplay": "SpatialX"
     },
     {
       "name": "Ice Consistency",
       "uniqueName": "Solec.CometBramble",
       "repo": "SolecAnimations/Ice-Consistency",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Solec"
     },
@@ -3455,9 +2482,7 @@
       "name": "Nomai's Sky",
       "uniqueName": "Vambok.NomaiSky",
       "repo": "Vambok/NomaiSky",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "authorDisplay": "Vambok",
       "thumbnailUrl": "https://github.com/user-attachments/assets/199e06ff-891e-48b3-86a7-3c3ad3c7a48d"
     },
@@ -3465,28 +2490,21 @@
       "name": "Mouse Fix",
       "uniqueName": "Novaenia.MouseFix",
       "repo": "Novaenia/OWMouseFix",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "authorDisplay": "Novaenia"
     },
     {
       "name": "Portal 2 Skinpack",
       "uniqueName": "pikpik_carrot.Portal2Skinpack",
       "repo": "pikpik-carrot/Portal2Skins",
-      "tags": [
-        "gameplay",
-        "audiovisual"
-      ],
+      "tags": ["gameplay", "audiovisual"],
       "parent": "pikpik_carrot.SkinChanger"
     },
     {
       "name": "Fly to the Eye",
       "uniqueName": "pikpik_carrot.EotUFly",
       "repo": "pikpik-carrot/EotUFly",
-      "tags": [
-        "content"
-      ],
+      "tags": ["content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "pikpik_carrot"
     },
@@ -3494,26 +2512,19 @@
       "name": "Diagonal Movement Unpatch",
       "uniqueName": "thearst3rd.OWDiagonalMovementUnpatch",
       "repo": "thearst3rd/OWDiagonalMovementUnpatch",
-      "tags": [
-        "tweaks"
-      ]
+      "tags": ["tweaks"]
     },
     {
       "name": "Team Fortress 2 Skinpack",
       "uniqueName": "pikpik_carrot.TF2Skins",
       "repo": "pikpik-carrot/TF2Skins",
-      "tags": [
-        "gameplay",
-        "audiovisual"
-      ]
+      "tags": ["gameplay", "audiovisual"]
     },
     {
       "name": "BONGG",
       "uniqueName": "Puzzle_Dude98.BONGG",
       "repo": "PuzzleDude98/BONGG",
-      "tags": [
-        "audiovisual"
-      ],
+      "tags": ["audiovisual"],
       "authorDisplay": "Puzzle Dude98",
       "thumbnailUrl": "https://i.pinimg.com/1200x/c3/0f/94/c30f94597b2c94ba91256413a1259266.jpg"
     },
@@ -3521,34 +2532,26 @@
       "name": "Overslept",
       "uniqueName": "Point7651.OverSlept",
       "repo": "Point7651/OverSlept",
-      "tags": [
-        "tweaks"
-      ],
+      "tags": ["tweaks"],
       "thumbnailUrl": "https://private-user-images.githubusercontent.com/144411884/455148263-6e682f95-6740-4fdc-9774-8cecbe5d408c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk5MDE4NzYsIm5iZiI6MTc0OTkwMTU3NiwicGF0aCI6Ii8xNDQ0MTE4ODQvNDU1MTQ4MjYzLTZlNjgyZjk1LTY3NDAtNGZkYy05Nzc0LThjZWNiZTVkNDA4Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYxNFQxMTQ2MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMTJlYzBkYTJhOWZmN2QzYWViNDNlMjk2Y2YxM2FiMDRkZTE1N2RmMWI3NTkyNzI2N2M5YmU4YWNiOGViOGJkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.a8qnS2vRQjkE-oXTmkq1k9zNRuf7hseCDG0Kavchq0U"
     },
     {
       "name": "Free Look",
       "uniqueName": "Vambok.FreeLook",
       "repo": "Vambok/FreeLook",
-      "tags": [
-        "tweaks"
-      ]
+      "tags": ["tweaks"]
     },
     {
       "name": "Ghost Everything",
       "uniqueName": "coderCleric.GhostEverything",
       "repo": "coderCleric/GhostEverything",
-      "tags": [
-        "tweaks"
-      ]
+      "tags": ["tweaks"]
     },
     {
       "name": "Mod Jam 5",
       "uniqueName": "xen-42.ModJam5",
       "repo": "xen-42/ow-mod-jam-5-base",
-      "tags": [
-        "jam"
-      ],
+      "tags": ["jam"],
       "authorDisplay": "xen and SBtT",
       "parent": "xen.NewHorizons"
     },
@@ -3556,45 +2559,28 @@
       "name": "The Hearthian Parable",
       "uniqueName": "Vambok.HearthianParable",
       "repo": "Vambok/HearthianParable",
-      "tags": [
-        "jam",
-        "story",
-        "audiovisual"
-      ],
+      "tags": ["jam", "story", "audiovisual"],
       "thumbnailUrl": "https://raw.githubusercontent.com/Vambok/HearthianParable/refs/heads/main/error.png"
     },
     {
       "name": "APOLLO's Planet",
       "uniqueName": "APOLLO.939sPlanetdotSTRUCTURE",
       "repo": "ObscureReferencedotENTITY/APOLLO-s-Planet",
-      "tags": [
-        "jam",
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "content", "requires-dlc"],
       "authorDisplay": "apollo939"
     },
     {
       "name": "The Mystery of I Cannot Find My Cat",
       "uniqueName": "LeeSpork.ModJam5",
       "repo": "LeeSpork/ow-mod-jam-5-entry",
-      "tags": [
-        "jam",
-        "story",
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "story", "content", "requires-dlc"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Eden's Hope",
       "uniqueName": "Hawkbar.Terrarium",
       "repo": "Hawkbat/OuterWildsModJam5",
-      "tags": [
-        "jam",
-        "story",
-        "content"
-      ],
+      "tags": ["jam", "story", "content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "The Wrong Warp Team"
     },
@@ -3602,11 +2588,7 @@
       "name": "Heliostudy",
       "uniqueName": "2walker2.OWJam5ModProject",
       "repo": "2walker2/OWJam5ModProject",
-      "tags": [
-        "jam",
-        "story",
-        "content"
-      ],
+      "tags": ["jam", "story", "content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "coderCleric, Lezzlebit, 2walker2, JohnCorby"
     },
@@ -3614,24 +2596,14 @@
       "name": "The Cosmic Curators",
       "uniqueName": "TheSignalJammers.FifthModJam",
       "repo": "AnonymousStrangerOW/ModJam5",
-      "tags": [
-        "jam",
-        "story",
-        "content",
-        "gameplay",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "story", "content", "gameplay", "requires-dlc"],
       "authorDisplay": "The Signal Jammers"
     },
     {
       "name": "Diorama",
       "uniqueName": "orclecle.Jam5PingBox",
       "repo": "TRSasasusu/Jam5PingBox",
-      "tags": [
-        "jam",
-        "content",
-        "story"
-      ],
+      "tags": ["jam", "content", "story"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "orclecle"
     },
@@ -3639,34 +2611,21 @@
       "name": "Mystery of the Missing Cake",
       "uniqueName": "Boreas.Jam5CakeCapere",
       "repo": "NotADuck02/Boreas.Jam5Campfire",
-      "tags": [
-        "jam",
-        "story",
-        "content"
-      ],
+      "tags": ["jam", "story", "content"],
       "authorDisplay": "Boreas"
     },
     {
       "name": "Catastrophe",
       "uniqueName": "Onbvb.catastrophe",
       "repo": "Onbvb/catastrophe",
-      "tags": [
-        "jam",
-        "story",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "story", "requires-dlc"],
       "authorDisplay": "Onbvb"
     },
     {
       "name": "Core Collapse",
       "uniqueName": "TheLoweDown256.TLDJam5",
       "repo": "TheLoweDown256/TLDJam5",
-      "tags": [
-        "jam",
-        "story",
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "story", "content", "requires-dlc"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "TheLoweDown256"
     },
@@ -3674,9 +2633,7 @@
       "name": "Powerfail",
       "uniqueName": "TeamGeswaldo.Jam5",
       "repo": "SolecAnimations/Powerfail",
-      "tags": [
-        "jam"
-      ],
+      "tags": ["jam"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Team Geswaldo (Solec, T3rtu, Heroplays1122, and Vodblink)"
     },
@@ -3684,9 +2641,7 @@
       "name": "Under a Radio Moon",
       "uniqueName": "Etherpod.T0187",
       "repo": "Etherpod/under-a-radio-moon",
-      "tags": [
-        "jam"
-      ],
+      "tags": ["jam"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Etherpod, ditzy, harperlr, Ernest"
     },
@@ -3694,22 +2649,14 @@
       "name": "Project ARC",
       "uniqueName": "MegaPiggy.AnomalyResearchAndContainment",
       "repo": "MegaPiggy/AnomalyResearchAndContainment",
-      "tags": [
-        "story",
-        "jam",
-        "content"
-      ],
+      "tags": ["story", "jam", "content"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Bright Spark",
       "uniqueName": "Ender.Beryl.BrightSpark",
       "repo": "SebasCapo/OW-Miniature",
-      "tags": [
-        "jam",
-        "gameplay",
-        "story"
-      ],
+      "tags": ["jam", "gameplay", "story"],
       "authorDisplay": "Ender, Beryl",
       "parent": "xen.NewHorizons"
     },
@@ -3717,10 +2664,7 @@
       "name": "Scale of the Universe",
       "uniqueName": "Trifid.TrifidJam5",
       "repo": "TerrificTrifid/ow-nh-trifidjam5",
-      "tags": [
-        "jam",
-        "content"
-      ],
+      "tags": ["jam", "content"],
       "parent": "xen.NewHorizons",
       "authorDisplay": "Trifid"
     },
@@ -3728,22 +2672,14 @@
       "name": "On A Rail!",
       "uniqueName": "CantAffordaName.OnARail",
       "repo": "CantAffordaName/CantAffordaName.OnARail",
-      "tags": [
-        "jam",
-        "gameplay",
-        "story"
-      ],
+      "tags": ["jam", "gameplay", "story"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Mod Jam 5 (A-Side)",
       "uniqueName": "xen42.ModJam5Part1",
       "repo": "xen-42/ow-mod-jam-5-a",
-      "tags": [
-        "jam",
-        "pack",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "pack", "requires-dlc"],
       "parent": "xen-42.ModJam5",
       "authorDisplay": "A bunch of people"
     },
@@ -3751,11 +2687,7 @@
       "name": "Mod Jam 5 (B-Side)",
       "uniqueName": "xen42.ModJam5Part2",
       "repo": "xen-42/ow-mod-jam-5-b",
-      "tags": [
-        "jam",
-        "pack",
-        "requires-dlc"
-      ],
+      "tags": ["jam", "pack", "requires-dlc"],
       "parent": "xen-42.ModJam5",
       "authorDisplay": "A bunch of people"
     },
@@ -3763,27 +2695,20 @@
       "name": "Talk To Prisoner",
       "uniqueName": "xen.TalkToPrisoner",
       "repo": "xen-42/talk-to-prisoner",
-      "tags": [
-        "content",
-        "requires-dlc"
-      ],
+      "tags": ["content", "requires-dlc"],
       "parent": "xen.NewHorizons"
     },
     {
       "name": "Outer Wilds Chinese Translation Fixed",
       "uniqueName": "DragonflyL5.OWCHTfix",
       "repo": "dragonflyl5/OWCHTfix",
-      "tags": [
-        "localization"
-      ]
+      "tags": ["localization"]
     },
     {
       "name": "Summon Ship",
       "uniqueName": "LeCreepyboy.SummonShip",
       "repo": "LeCreepyboy/SummonShip",
-      "tags": [
-        "gameplay"
-      ],
+      "tags": ["gameplay"],
       "authorDisplay": "LeCreepyboy",
       "thumbnailUrl": "https://private-user-images.githubusercontent.com/188862025/483694838-046dc7d0-0be4-4fca-9ed7-a5811048f417.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY0ODI2ODAsIm5iZiI6MTc1NjQ4MjM4MCwicGF0aCI6Ii8xODg4NjIwMjUvNDgzNjk0ODM4LTA0NmRjN2QwLTBiZTQtNGZjYS05ZWQ3LWE1ODExMDQ4ZjQxNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgyOVQxNTQ2MjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NjcwOWFkN2UwYTcwMjg2NjA0MDVjZTYwYzRhOTU2ZDZhYjAwZTZhNDdjMjY2NDUxMGIwODlmYjRkODBiMzkzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UFOD29L6ng_p5xWLZfLw7qvmvIhvGkF43bouWYpw3z4"
     },
@@ -3791,9 +2716,7 @@
       "name": "Hearthian Fishing",
       "uniqueName": "Samster68.HearthianFishing",
       "repo": "SolecAnimations/HearthianFishing",
-      "tags": [
-        "story"
-      ],
+      "tags": ["story"],
       "parent": "xen.NewHorizons, Etherpod.TravelersPack",
       "authorDisplay": "Samster & Solec"
     }
