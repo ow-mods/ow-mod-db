@@ -51,7 +51,11 @@ body:
       multiple: true
       options:
         # These options have to match the ones defined in mods.schema.json
-        - jam
+        - jam1
+        - jam2
+        - jam3
+        - jam4
+        - jam5
         - library
         - gameplay
         - tweaks

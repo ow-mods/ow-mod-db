@@ -3,9 +3,7 @@
   "title": "Outer Wilds Mod Database Schema",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "mods"
-  ],
+  "required": ["mods"],
   "properties": {
     "$schema": {
       "type": "string"
@@ -14,11 +12,7 @@
       "type": "array",
       "items": {
         "additionalProperties": false,
-        "required": [
-          "name",
-          "uniqueName",
-          "repo"
-        ],
+        "required": ["name", "uniqueName", "repo"],
         "properties": {
           "name": {
             "type": "string",
@@ -61,7 +55,11 @@
             "description": "List of tags that describe the mod, used for filtering mod lists. If changing this list, make sure to also update the tags in the issue template add-mod.yml",
             "items": {
               "enum": [
-                "jam",
+                "jam1",
+                "jam2",
+                "jam3",
+                "jam4",
+                "jam5",
                 "library",
                 "gameplay",
                 "tweaks",
@@ -87,7 +85,7 @@
           "repoVariations": {
             "type": "array",
             "description": "List of previous GitHub repository names. Used for merging download count history. Do not use if current repo is fork of original repo.",
-            "items": {"type": "string"}
+            "items": { "type": "string" }
           }
         }
       }
