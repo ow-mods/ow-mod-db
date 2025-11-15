@@ -10250,18 +10250,18 @@
       "uniqueName": "Etherpod.ShipEnhancements",
       "description": "Adds way too much stuff for the ship in the mod settings.",
       "author": "Etherpod",
-      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v2.1.3/Etherpod.ShipEnhancements.zip",
+      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v2.2.0/Etherpod.ShipEnhancements.zip",
       "downloadCount": 4231,
-      "latestReleaseDate": "2025-07-29T20:45:21Z",
+      "latestReleaseDate": "2025-11-15T08:49:55Z",
       "firstReleaseDate": "2024-09-15T02:38:59Z",
       "repo": "https://github.com/Etherpod/Ship-Enhancements",
-      "version": "v2.1.3",
+      "version": "v2.2.0",
       "readme": {
         "htmlUrl": "https://github.com/Etherpod/Ship-Enhancements/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Etherpod/Ship-Enhancements/main/README.md"
       },
       "authorDisplay": "Etherpod",
-      "latestReleaseDescription": "- Made the tether less springy and harder to snap\r\n- Removed debug messages that were added in a previous hotfix",
+      "latestReleaseDescription": "Read the changelog on the GitHub releases page if the full version isn't displayed!\r\n\r\n# New Settings\r\n- **Enable Quantum Ship** - Makes the ship quantum while on the Quantum Moon\r\n- **Add Resource Pump** - Adds a pump to the back of your ship that allows you to refill your ship's resources (fuel, oxygen, water) or fire them out of the pump in a very wasteful manner\r\n- **Use Water Tank** - Makes water one of your ship's resources and adds a gauge for it in the cockpit, other features will need to consume water to function\r\n- **Water Drain Multiplier** - Adjusts how quickly devices drain your water reserves\r\n- **Add Water Cooling** - Adds a lever next to the ship log that turns on water cooling, which consumes water to prevent your ship from getting hot\r\n- **Allow Reactor Overload** - Lets you interact with the reactor component to overload it, which prevents your ship from getting cold but makes the reactor explode faster\r\n- **Temperature Difficulty** - Controls how dangerous the side effects of high/low temperature are\r\n- **Buttons Require Flight Chair** - Prevents you from interacting with buttons in the cockpit unless you're piloting the ship\r\n- **Remember Ship State** - Preserves the currently selected settings and the state of the ship (resource levels, damage, etc) while warping between solar systems, when you die the ship will reset and the settings will update\r\n- **Enable Gas Leak** - Not recommended\r\n- Added **ExperimentalSettings.json** to the mod folder\r\n\r\n# Feature Changes\r\n- The ship gravity crystal can now be duplicated with the **Unlimited Items** setting\r\n- Split the **Enable Repair Wrench** setting into Disabled/Enabled/Required, where Enabled speeds up repairs while holding the wrench and Required requires you to be holding the wrench\r\n- Replaced the **Faulty Heat Regulators** setting with **Passive Temperature Gain**, which lets you gain \"passive cold-ness\" as well\r\n- Higher values of **Cyclone Chaos** will now make cyclones deal damage to the ship\r\n- Renamed **Disable Automatic Lights** to **Keep Power On**\r\n\r\n# Temperature Rework\r\n- Cold areas no longer apply passive damage to the ship\r\n- Cold areas now make the ship more vurnerable to impact damage\r\n- The ship engine will now start like usual after stalling at the cost of damage to the ship\r\n- The inside glass of the cockpit will now freeze over if the reactor heats up and the outside temperature is low\r\n- Hot areas now increase the strength of the ship thrusters\r\n- Hot areas now passively make the reactor hotter\r\n\r\n# Compatibility Fixes\r\n- Made the continuous velocity match from **General Enhancements** compatible with the **Autopilot Controls**\r\n- Added extra temperature zones to **The Stranger They Are**, **Heliostudy**, **Unnamed Mystery**, **Evacuation**, **Fret's Quest 2**, **On A Rail**, **Misfired Jump**, **Christmas Story**, **Echo Hike**, and **Axiom's Refuge**\r\n- Made every item compatible with the **Throwable Items** mod\r\n- Fixed a bug where the player marker would still be visible if **Disable Minimap Markers** was used with **General Enhancements**\r\n\r\n# Minor Changes\r\n- Previously entered radio codes now appear in the ship\r\n- Repair prompts now display the number of parts you can repair\r\n- Added temperature zones to the Quantum Moon\r\n- Added console notifications for **Fragile Ship** and **Stun Damage**\r\n- Added brackets to the ship scout screen when **Scout Photo Mode** is enabled and being used\r\n- Made explosions push the ship around a lot more\r\n- The **Radio** now plays music in both ears while being held\r\n- Reduced some loading times in the settings menu\r\n- Organized the settings menu, including moving settings around and adding subsections\r\n\r\n# Bug Fixes\r\n- Fixed a bug where giving two moving objects a gravity crystal would crash the game\r\n- Fixed a bug where no audio would play when a ship module was ejected\r\n- Fixed a bug where components added by the mod wouldn't count towards total ship damage\r\n- Fixed a bug where the \"Activate Overdrive\" button would sometimes be interactable at the wrong time\r\n- Fixed a bug where the added button panel wouldn't match the **Interior Hull Color** setting\r\n- Fixed a bug where the **Repair Wrench** was required to repair the satellite in the Zero-G cave\r\n",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -10272,8 +10272,8 @@
       "thumbnail": {
         "main": "shipenhancements.webp"
       },
-      "repoUpdatedAt": "2025-11-15T08:33:56Z",
-      "databaseEntryUpdatedAt": "2025-11-15T08:47:08.101Z",
+      "repoUpdatedAt": "2025-11-15T08:54:30Z",
+      "databaseEntryUpdatedAt": "2025-11-15T08:59:39.404Z",
       "repoVariations": [],
       "viewCount": 223,
       "weeklyViewCount": 35,
