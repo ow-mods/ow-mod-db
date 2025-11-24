@@ -12491,6 +12491,42 @@
       "weeklyInstallCount": 18
     },
     {
+      "name": "Head Tracking",
+      "uniqueName": "udkyo.HeadTracking",
+      "description": "Outer Wilds Head Tracking Mod",
+      "author": "udkyo",
+      "downloadUrl": "https://github.com/udkyo/outer-wilds-head-tracking/releases/download/v1.0.0/udkyo.HeadTracking-v1.0.0.zip",
+      "downloadCount": 3,
+      "latestReleaseDate": "2025-11-23T16:59:58Z",
+      "firstReleaseDate": "2025-11-23T16:59:58Z",
+      "repo": "https://github.com/udkyo/outer-wilds-head-tracking",
+      "version": "v1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/udkyo/outer-wilds-head-tracking/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/udkyo/outer-wilds-head-tracking/main/README.md"
+      },
+      "authorDisplay": "udkyo",
+      "latestReleaseDescription": "Initial release of Head Tracking for Outer Wilds.\r\n\r\n### Features\r\n\r\n- **OpenTrack Integration** - Receive head tracking data via UDP (port 5252)\r\n- **Multiple Input Methods** - Works with phone, webcam, Tobii eye tracker, TrackIR, and any other OpenTrack-supported device\r\n- **Full 6DOF Control** - Yaw, pitch, and roll camera rotation\r\n- **Configurable Sensitivity** - Per-axis sensitivity settings for yaw, pitch, and roll\r\n- **Smart Behavior** - Automatically reduces or disables head tracking during:\r\n  - Dialogue scenes (when game controls camera)\r\n  - Model ship flight (prevents camera lock-ups)\r\n  - Signalscope zoom (for precise aiming)\r\n- **Visual Fixes** - Proper handling of:\r\n  - Map markers and UI elements\r\n  - Reticle positioning\r\n  - Flashlight direction\r\n  - Quantum object visibility\r\n  - Dark Bramble fog lights\r\n- **Hotkeys**\r\n  - F8: Re-center view\r\n  - F9: Toggle head tracking on/off\r\n\r\n[1.0.0]: https://github.com/udkyo/outer-wilds-head-tracking/releases/tag/v1.0.0",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay",
+        "tweaks",
+        "audiovisual"
+      ],
+      "slug": "headtracking",
+      "thumbnail": {
+        "main": "headtracking.webp",
+        "openGraph": "headtracking-static.webp"
+      },
+      "repoUpdatedAt": "2025-11-23T17:03:28Z",
+      "databaseEntryUpdatedAt": "2025-11-24T20:40:18.350Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
+    },
+    {
       "name": "Around the World in 90 Seconds Trigger Visualizer",
       "uniqueName": "MDJ287.AroundTheWorldColliderVisualizer",
       "description": "Mod for visualizing various triggers in Outer Wilds. Based on loco-choco's \"Collider Visualizer.\"",
