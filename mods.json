@@ -3678,7 +3678,9 @@
         "jam"
       ],
       "parent": "xen.NewHorizons",
-      "authorDisplay": "Team Geswaldo (Solec, T3rtu, Heroplays1122, and Vodblink)"
+      "authorDisplay": "Team Geswaldo (Solec, T3rtu, Heroplays1122, and Vodblink)",
+      "downloadCountOffset": 1231,
+      "firstReleaseDateOverride": "2025-07-22T21:34:53Z"
     },
     {
       "name": "Under a Radio Moon",
@@ -3856,6 +3858,15 @@
       "parent": "xen.LocalizationUtility",
       "authorDisplay": "thunninoi",
       "thumbnailUrl": "https://raw.githubusercontent.com/thunni-noi/OuterWilds-ThaiTranslation/refs/heads/main/img/banner_revised.png"
+    },
+    {
+      "name": "Customisable Ship Lighting",
+      "uniqueName": "Titch.CustomisableShipLighting",
+      "repo": "sherwoodw28/CustomisableShipLighting",
+      "tags": [
+        "gameplay"
+      ],
+      "authorDisplay": "Titch"
     }
   ]
 }
