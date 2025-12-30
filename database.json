@@ -1655,8 +1655,8 @@
       "repoVariations": [],
       "viewCount": 27,
       "weeklyViewCount": 9,
-      "installCount": 45,
-      "weeklyInstallCount": 17
+      "installCount": 46,
+      "weeklyInstallCount": 18
     },
     {
       "name": "Outer Wario Echoes of the Waaaaaaaaaaah",
@@ -3508,8 +3508,8 @@
       "repoVariations": [],
       "viewCount": 29,
       "weeklyViewCount": 7,
-      "installCount": 59,
-      "weeklyInstallCount": 23
+      "installCount": 60,
+      "weeklyInstallCount": 24
     },
     {
       "name": "Cloudless Giant's Deep",
@@ -12492,16 +12492,16 @@
       "name": "Head Tracking",
       "uniqueName": "udkyo.HeadTracking",
       "description": "Add immersive head tracking to Outer Wilds using OpenTrack.",
-      "author": "udkyo",
-      "downloadUrl": "https://github.com/udkyo/outer-wilds-head-tracking/releases/download/v1.0.1/udkyo.HeadTracking-v1.0.1.zip",
+      "author": "HeadTracking",
+      "downloadUrl": "https://github.com/HeadTracking/OuterWilds/releases/download/v1.0.1/udkyo.HeadTracking-v1.0.1.zip",
       "downloadCount": 34,
       "latestReleaseDate": "2025-11-30T01:37:42Z",
       "firstReleaseDate": "2025-11-23T16:59:58Z",
       "repo": "https://github.com/udkyo/outer-wilds-head-tracking",
       "version": "v1.0.1",
       "readme": {
-        "htmlUrl": "https://github.com/udkyo/outer-wilds-head-tracking/blob/main/README.md",
-        "downloadUrl": "https://raw.githubusercontent.com/udkyo/outer-wilds-head-tracking/main/README.md"
+        "htmlUrl": "https://github.com/HeadTracking/OuterWilds/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/HeadTracking/OuterWilds/main/README.md"
       },
       "authorDisplay": "udkyo",
       "latestReleaseDescription": "### Fixed\r\n\r\n- Fix LOOK marker flickering when using head tracking (markers now respond to reticle direction, not head direction)\r\n- Fix camera jerk when switching between Nomai translator text nodes\r\n- Disable head tracking while game is paused\r\n- Recenter head tracking automatically when resuming from pause menu\r\n\r\n### Changed\r\n\r\n- Remove dead code and unused methods",
@@ -12516,8 +12516,8 @@
         "main": "headtracking.webp",
         "openGraph": "headtracking-static.webp"
       },
-      "repoUpdatedAt": "2025-12-04T00:09:43Z",
-      "databaseEntryUpdatedAt": "2025-12-30T14:33:34.566Z",
+      "repoUpdatedAt": "2025-12-30T19:07:03Z",
+      "databaseEntryUpdatedAt": "2025-12-30T19:11:55.875Z",
       "repoVariations": [],
       "viewCount": 80,
       "weeklyViewCount": 10,
