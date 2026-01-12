@@ -80,8 +80,8 @@
       ],
       "viewCount": 2440,
       "weeklyViewCount": 754,
-      "installCount": 1107,
-      "weeklyInstallCount": 331
+      "installCount": 1108,
+      "weeklyInstallCount": 332
     },
     {
       "name": "Quantum Space Buddies",
@@ -254,8 +254,8 @@
       "repoVariations": [],
       "viewCount": 190,
       "weeklyViewCount": 67,
-      "installCount": 438,
-      "weeklyInstallCount": 141
+      "installCount": 439,
+      "weeklyInstallCount": 142
     },
     {
       "name": "HD Screenshot",
@@ -481,8 +481,8 @@
       "repoVariations": [],
       "viewCount": 765,
       "weeklyViewCount": 266,
-      "installCount": 446,
-      "weeklyInstallCount": 137
+      "installCount": 447,
+      "weeklyInstallCount": 138
     },
     {
       "name": "Difficulty Mod",
@@ -1590,8 +1590,8 @@
       "repoVariations": [],
       "viewCount": 150,
       "weeklyViewCount": 43,
-      "installCount": 147,
-      "weeklyInstallCount": 51
+      "installCount": 148,
+      "weeklyInstallCount": 52
     },
     {
       "name": "Astroneer Solar System",
@@ -3379,8 +3379,8 @@
       "repoVariations": [],
       "viewCount": 112,
       "weeklyViewCount": 43,
-      "installCount": 438,
-      "weeklyInstallCount": 149
+      "installCount": 439,
+      "weeklyInstallCount": 150
     },
     {
       "name": "Hatchling Outfitter",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 696,
       "weeklyViewCount": 233,
-      "installCount": 400,
-      "weeklyInstallCount": 126
+      "installCount": 401,
+      "weeklyInstallCount": 127
     },
     {
       "name": "Secret Words",
@@ -8689,18 +8689,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.19/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 13012,
-      "latestReleaseDate": "2025-08-24T15:45:06Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.3.20/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 13013,
+      "latestReleaseDate": "2026-01-12T18:57:33Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v0.3.19",
+      "version": "v0.3.20",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Fixed taking off the spacesuit in seeds where you wake up wearing it. This unbreaks a critical puzzle in one of the story mods, which we suspect was somehow broken by base game patch 16.\r\n- Add a \"AP Console: Drop All AP Server Messages\" mod setting, partly because larger asyncs can be too spammy even with the existing filter setting, but also because we suspect excessive console messages are destabilizing Outer Wilds in general for some randomizer players.\r\n- Worked around a bug that would break resuming a randomized expedition if an AP item with quotes in its name landed in that OW slot. Thanks Xayah for reporting this.\r\n\t- For what it's worth, the other AP game which exposed this bug was Paper Mario: TTYD. We don't know how many other games might be affected.\r\n- Corrected tracker description for \"HN2: Reading Room (Memory Cube)\"; somehow it was a copy-paste of an unrelated HN1 location\r\n- Corrected logic for \"FQ Ship Log: Fret's Quest 4 - Reported\" to be about translating the ritual recorder, not completing the entire song for Tuner\r\n- Prevent death links being sent to/from a slot you're no longer playing by explicitly cleaning up the old deathlink service when switching slots.\r\n- Tweak in-game hint text from \"everywhere you've already been\" to \"everywhere you went before asking me for hints\" to avoid implying that we're regenerating the hints every time you talk to the same traveler.\r\n- Moved early_key_item implementation earlier to comply with Core AP PR #4481, hopefully fixing some subtle conflicts with start_inventory_from_pool and (non_)local_items.\r\n- This won't affect players soon or directly, but I've added [the proposed apworld manifest](https://github.com/ArchipelagoMW/Archipelago/pull/4516) to outer_wilds.apworld and used [the proposed apworld build tool](https://github.com/ArchipelagoMW/Archipelago/pull/5340) to create it. This won't benefit players anytime soon, but hopefully it's a step towards a proper core AP toolchain for managing custom apworlds.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- From @t-rbernard: \"Death Link Roulette\" mod/client options, which can be used to randomly convert incoming death links into various trap item effects\r\n- shuffle_spacesuit issues:\r\n\t- Fixed the ship's \"Return Suit\" prompt appearing and *working* even when you aren't wearing the suit. This bug allowed you to \"take off\" and then put on the suit without receiving the \"Spacesuit\" AP item.\r\n\t- Fixed the Spacesuit appearing in your ship (before receiving the \"Spacesuit\" AP item) when you warp into a New Horizons custom system\r\n\t- The warp to Sun Station is supposed to logically require Spacesuit, but due to a lambda capture bug (found by mysteryem's new fuzzer hook) it didn't in practice. This has now been fixed, so it's no longer theoretically possible for Spacesuit to get placed inside the Sun Station.\r\n\t- Somehow, the in-game tracker had an equivalent bug despite being completely different code, so it was not showing the \"(Item: Spacesuit)\" requirement on this connection. That's also fixed now.\r\n- Fixed warping from a NewHorizons system back to the vanilla Outer Wilds system. Previously, this would often hang forever on the loading screen. (thanks msyverw / RS_Mind for pinning this down and prototyping a fix)\r\n- Changed the implementation details of trap_type_weights and upgrade_counts so that:\r\n\t- The keys can now be omitted, with the same meaning as an explicit 0. For example, `trap_type_weights: { \"Supernova Trap\": 1 }` is valid now; no more listing 0s for all the other traps.\r\n\t- These options can now also be edited by AP's built-in \"Options Creator\" (and probably unofficial webhosts).\r\n- Tweaked the tracker descriptions for Gabbro's Island 3 and 4 so they now explicitly say exactly how many loops are required to unlock these log facts\r\n- Finally removed all of the [DEBUG] mod settings\r\n- Fixed the `Location SLF__TH_VILLAGE_X3 is missing an AP id, so not sending anything to the AP server` warning",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8715,13 +8715,13 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2026-01-12T18:48:39Z",
-      "databaseEntryUpdatedAt": "2026-01-12T18:58:36.695Z",
+      "repoUpdatedAt": "2026-01-12T19:00:09Z",
+      "databaseEntryUpdatedAt": "2026-01-12T19:28:00.769Z",
       "repoVariations": [],
       "viewCount": 958,
       "weeklyViewCount": 260,
-      "installCount": 499,
-      "weeklyInstallCount": 141
+      "installCount": 500,
+      "weeklyInstallCount": 142
     },
     {
       "name": "Immersion",
@@ -9261,7 +9261,7 @@
       "author": "Etherpod",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Etherpod/Band-Together/releases/download/v2.1.5/pikpik_carrot.BandTogether.zip",
-      "downloadCount": 5141,
+      "downloadCount": 5144,
       "latestReleaseDate": "2025-12-27T22:06:37Z",
       "firstReleaseDate": "2024-03-27T00:02:51Z",
       "repo": "https://github.com/Etherpod/Band-Together",
@@ -9284,7 +9284,7 @@
         "main": "bandtogether.webp"
       },
       "repoUpdatedAt": "2025-12-27T22:08:38Z",
-      "databaseEntryUpdatedAt": "2026-01-12T07:25:20.631Z",
+      "databaseEntryUpdatedAt": "2026-01-12T19:28:00.761Z",
       "repoVariations": [],
       "viewCount": 174,
       "weeklyViewCount": 35,
@@ -10418,8 +10418,8 @@
       "repoVariations": [],
       "viewCount": 142,
       "weeklyViewCount": 47,
-      "installCount": 121,
-      "weeklyInstallCount": 32
+      "installCount": 122,
+      "weeklyInstallCount": 33
     },
     {
       "name": "Guardian",
@@ -11576,7 +11576,7 @@
       "slug": "freelook",
       "thumbnail": {},
       "repoUpdatedAt": "2025-06-21T00:02:26Z",
-      "databaseEntryUpdatedAt": "2026-01-12T07:25:20.593Z",
+      "databaseEntryUpdatedAt": "2026-01-12T19:28:00.312Z",
       "repoVariations": [],
       "viewCount": 17,
       "weeklyViewCount": 7,
@@ -11608,7 +11608,7 @@
         "main": "ghosteverything.webp"
       },
       "repoUpdatedAt": "2025-07-01T22:03:06Z",
-      "databaseEntryUpdatedAt": "2026-01-12T07:25:20.787Z",
+      "databaseEntryUpdatedAt": "2026-01-12T19:28:00.507Z",
       "repoVariations": [],
       "viewCount": 13,
       "weeklyViewCount": 4,
@@ -11979,7 +11979,7 @@
       "author": "TheLoweDown256",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/TheLoweDown256/TLDJam5/releases/download/v1.1.0/TheLoweDown256.TLDJam5.zip",
-      "downloadCount": 1881,
+      "downloadCount": 1883,
       "latestReleaseDate": "2025-08-25T16:02:36Z",
       "firstReleaseDate": "2025-07-22T17:52:32Z",
       "repo": "https://github.com/TheLoweDown256/TLDJam5",
@@ -12002,7 +12002,7 @@
         "main": "corecollapse.webp"
       },
       "repoUpdatedAt": "2025-09-02T22:38:12Z",
-      "databaseEntryUpdatedAt": "2026-01-12T07:25:20.847Z",
+      "databaseEntryUpdatedAt": "2026-01-12T19:28:00.764Z",
       "repoVariations": [],
       "viewCount": 67,
       "weeklyViewCount": 12,
@@ -12048,7 +12048,7 @@
       "author": "Etherpod",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/Etherpod/under-a-radio-moon/releases/download/1.0.2/Etherpod.T0187.zip",
-      "downloadCount": 1243,
+      "downloadCount": 1245,
       "latestReleaseDate": "2025-08-06T01:06:55Z",
       "firstReleaseDate": "2025-07-23T00:00:46Z",
       "repo": "https://github.com/Etherpod/under-a-radio-moon",
@@ -12068,7 +12068,7 @@
         "main": "underaradiomoon.webp"
       },
       "repoUpdatedAt": "2025-09-08T22:33:37Z",
-      "databaseEntryUpdatedAt": "2026-01-12T07:25:20.631Z",
+      "databaseEntryUpdatedAt": "2026-01-12T19:28:00.396Z",
       "repoVariations": [],
       "viewCount": 25,
       "weeklyViewCount": 6,
@@ -12186,7 +12186,7 @@
       "author": "CantAffordaName",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/CantAffordaName/CantAffordaName.OnARail/releases/download/v1.1.2/CantAffordaName.OnARail.zip",
-      "downloadCount": 1635,
+      "downloadCount": 1637,
       "latestReleaseDate": "2025-08-29T09:18:02Z",
       "firstReleaseDate": "2025-07-23T02:13:01Z",
       "repo": "https://github.com/CantAffordaName/CantAffordaName.OnARail",
@@ -12207,7 +12207,7 @@
         "main": "onarail.webp"
       },
       "repoUpdatedAt": "2025-08-29T09:24:33Z",
-      "databaseEntryUpdatedAt": "2026-01-12T07:25:21.152Z",
+      "databaseEntryUpdatedAt": "2026-01-12T19:28:00.761Z",
       "repoVariations": [],
       "viewCount": 76,
       "weeklyViewCount": 21,
@@ -12345,7 +12345,7 @@
         "main": "outerwildschinesetranslationfixed.webp"
       },
       "repoUpdatedAt": "2025-09-06T09:24:24Z",
-      "databaseEntryUpdatedAt": "2026-01-12T07:25:20.740Z",
+      "databaseEntryUpdatedAt": "2026-01-12T19:28:00.761Z",
       "repoVariations": [],
       "viewCount": 38,
       "weeklyViewCount": 12,
