@@ -1091,7 +1091,7 @@
       "description": "The story mod creation framework for Outer Wilds",
       "author": "Outer-Wilds-New-Horizons",
       "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.28.8/xen.NewHorizons.zip",
-      "downloadCount": 111652,
+      "downloadCount": 111677,
       "latestReleaseDate": "2025-09-24T16:56:43Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
@@ -1113,7 +1113,7 @@
         "main": "newhorizons.webp"
       },
       "repoUpdatedAt": "2026-01-13T02:24:31Z",
-      "databaseEntryUpdatedAt": "2026-01-13T03:17:32.501Z",
+      "databaseEntryUpdatedAt": "2026-01-13T15:22:04.758Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -3354,7 +3354,7 @@
       "description": "Suit up and view your Ship Log anywhere!",
       "author": "dgarroDC",
       "downloadUrl": "https://github.com/dgarroDC/SuitLog/releases/download/1.4.2/dgarro.SuitLog.zip",
-      "downloadCount": 16594,
+      "downloadCount": 16631,
       "latestReleaseDate": "2026-01-13T02:13:27Z",
       "firstReleaseDate": "2022-05-21T21:47:27Z",
       "repo": "https://github.com/dgarroDC/SuitLog",
@@ -3375,7 +3375,7 @@
         "openGraph": "suitlog-static.webp"
       },
       "repoUpdatedAt": "2026-01-13T02:21:04Z",
-      "databaseEntryUpdatedAt": "2026-01-13T03:17:31.486Z",
+      "databaseEntryUpdatedAt": "2026-01-13T15:22:03.927Z",
       "repoVariations": [],
       "viewCount": 113,
       "weeklyViewCount": 39,
@@ -6323,18 +6323,18 @@
       "description": "Adds a new star system (and small story!) to outer wilds",
       "author": "spacepiano",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/spacepiano/Spacepiano.TheSpiralSystem/releases/download/v1.0.1/Spacepiano.TheSpiralSystem.zip",
+      "downloadUrl": "https://github.com/spacepiano/Spacepiano.TheSpiralSystem/releases/download/v1.0.2/Spacepiano.TheSpiralSystem.zip",
       "downloadCount": 1722,
-      "latestReleaseDate": "2023-01-22T10:34:42Z",
+      "latestReleaseDate": "2026-01-13T14:58:49Z",
       "firstReleaseDate": "2023-01-18T20:36:54Z",
       "repo": "https://github.com/spacepiano/Spacepiano.TheSpiralSystem",
-      "version": "v1.0.1",
+      "version": "v1.0.2",
       "readme": {
         "htmlUrl": "https://github.com/spacepiano/Spacepiano.TheSpiralSystem/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/spacepiano/Spacepiano.TheSpiralSystem/main/README.md"
       },
       "authorDisplay": "Spacecorn",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "v1.0.2\r\n\r\nAdded Chinese Translation",
       "latestPrereleaseDescription": "",
       "tags": [
         "jam",
@@ -6346,8 +6346,8 @@
       "thumbnail": {
         "main": "thespiralsystem.webp"
       },
-      "repoUpdatedAt": "2026-01-13T14:34:15Z",
-      "databaseEntryUpdatedAt": "2026-01-13T14:54:03.582Z",
+      "repoUpdatedAt": "2026-01-13T15:00:46Z",
+      "databaseEntryUpdatedAt": "2026-01-13T15:22:03.630Z",
       "repoVariations": [],
       "viewCount": 21,
       "weeklyViewCount": 10,
@@ -12721,6 +12721,38 @@
       "weeklyViewCount": 8,
       "installCount": 5,
       "weeklyInstallCount": 3
+    },
+    {
+      "name": "Outer Wilds Death Messages",
+      "uniqueName": "RattmanTheStupid.OuterCraftDeathMessages",
+      "description": "Adds funny death messages to Outer Wilds.",
+      "author": "deadend-g4mes",
+      "downloadUrl": "https://github.com/deadend-g4mes/OuterCraftDeathMessages/releases/download/v0.2.0/RattmanTheStupid.OuterCraftDeathMessages.zip",
+      "downloadCount": 4,
+      "latestReleaseDate": "2026-01-12T21:34:30Z",
+      "firstReleaseDate": "2026-01-09T10:47:42Z",
+      "repo": "https://github.com/deadend-g4mes/OuterCraftDeathMessages",
+      "version": "v0.2.0",
+      "readme": {
+        "htmlUrl": "https://github.com/deadend-g4mes/OuterCraftDeathMessages/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/deadend-g4mes/OuterCraftDeathMessages/main/README.md"
+      },
+      "authorDisplay": "RattmanTheStupid",
+      "latestReleaseDescription": "Text now displays on screen instead of in the OWML log.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay",
+        "requires-dlc"
+      ],
+      "slug": "outerwildsdeathmessages",
+      "thumbnail": {},
+      "repoUpdatedAt": "2026-01-12T21:36:25Z",
+      "databaseEntryUpdatedAt": "2026-01-13T15:22:04.143Z",
+      "repoVariations": [],
+      "viewCount": 0,
+      "weeklyViewCount": 0,
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
