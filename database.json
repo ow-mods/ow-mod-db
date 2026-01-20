@@ -80,8 +80,8 @@
       ],
       "viewCount": 2512,
       "weeklyViewCount": 652,
-      "installCount": 1113,
-      "weeklyInstallCount": 269
+      "installCount": 1114,
+      "weeklyInstallCount": 270
     },
     {
       "name": "Quantum Space Buddies",
@@ -697,8 +697,8 @@
       "repoVariations": [],
       "viewCount": 31,
       "weeklyViewCount": 10,
-      "installCount": 64,
-      "weeklyInstallCount": 27
+      "installCount": 65,
+      "weeklyInstallCount": 28
     },
     {
       "name": "Echoes of the Caribbean",
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "The story mod creation framework for Outer Wilds",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.28.8/xen.NewHorizons.zip",
-      "downloadCount": 112127,
-      "latestReleaseDate": "2025-09-24T16:56:43Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.29.0/xen.NewHorizons.zip",
+      "downloadCount": 112131,
+      "latestReleaseDate": "2026-01-20T20:53:06Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.28.8",
+      "version": "v1.29.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, and friends",
-      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Reverted sand effect ruleset fix that actually broke things (made the player blind when standing on sand underwater in some instances).\r\n \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1124**",
+      "latestReleaseDescription": "## Major features\r\n\r\n- Overhauled the visuals of New Horizons' interstellar mode in the ship\r\nlog! Additionally, if your ship is equipped with a warp drive functionally,\r\nthere will be a new visual 3D model representing the warp drive on your\r\nship! Thanks @lezzlebit for implementing this!\r\n- Ability to specify a sector path for things to use, instead of just the planet's top-level sector. Can also automatically find the innermost sector\r\n\r\n# Minor features\r\n\r\n- Added `sectorPath` to most props to allow specifying a sector other\r\nthan the planet's root sector for the purposes of culling and other\r\nsector behavior. The special value `\"auto\"` finds the first sector in\r\nthe prop's parent hierarchy.\r\n- Particle fields\r\n\t- No more arbitrary particle limit (slightly breaks back compat since any too large input that was being capped now isn't, but that behavior was pointless and not worth preserving)\r\n\t- Override field radius\r\n\r\n## Improvements\r\n\r\n- Particle fields:\r\n\t- More depth in documentation\r\n\t- Default rain is now the correct higher density, and snow is equivalent without needing duplicates\r\n\r\n## Bug fixes\r\n\r\n- Added a security check to ScatterBuilder.\r\n- CurrentStarSystem now prevents invalid values properly. Fixes #1128\r\n- Stranger type translator texts are now colored properly. Fixes #1125\r\n- Star ambient lights are no longer always orange. Fixes #1102 \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1127**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2026-01-20T18:34:53Z",
-      "databaseEntryUpdatedAt": "2026-01-20T19:08:00.262Z",
+      "repoUpdatedAt": "2026-01-20T20:54:01Z",
+      "databaseEntryUpdatedAt": "2026-01-20T21:19:35.576Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -1128,18 +1128,18 @@
       "description": "An example project showing what planets can be made with New Horizons. (Warning: spoilers inside)",
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.28.0/nh-examples.zip",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.29.0/nh-examples.zip",
       "downloadCount": 8446,
-      "latestReleaseDate": "2025-07-21T00:32:38Z",
+      "latestReleaseDate": "2026-01-20T21:06:03Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
-      "version": "v0.28.0",
+      "version": "v0.29.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "0.28.0 (#61)\n\n- Fixed gravity on the cubes orbiting Timber Hearth\n- Added a standing vision torch in the Dreamworld\n- Repairable broken door example\n- Condition trigger volume example\n- Projection totem condition example\n- Interaction volumes example",
+      "latestReleaseDescription": "0.29.0 (#62)\r\n\r\n- Fixed Sequestered Luminary's map mode\r\n- Improved the Lava Twins",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -1149,8 +1149,8 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "repoUpdatedAt": "2026-01-20T18:46:27Z",
-      "databaseEntryUpdatedAt": "2026-01-20T19:07:59.874Z",
+      "repoUpdatedAt": "2026-01-20T21:06:02Z",
+      "databaseEntryUpdatedAt": "2026-01-20T21:19:34.856Z",
       "repoVariations": [
         "https://github.com/xen-42/ow-new-horizons-examples"
       ],
@@ -2156,8 +2156,8 @@
       "repoVariations": [],
       "viewCount": 67,
       "weeklyViewCount": 10,
-      "installCount": 128,
-      "weeklyInstallCount": 36
+      "installCount": 129,
+      "weeklyInstallCount": 37
     },
     {
       "name": "Hollodjustment",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 618,
       "weeklyViewCount": 170,
-      "installCount": 925,
-      "weeklyInstallCount": 249
+      "installCount": 926,
+      "weeklyInstallCount": 250
     },
     {
       "name": "Only Timber Hearth",
@@ -2322,8 +2322,8 @@
       "repoVariations": [],
       "viewCount": 166,
       "weeklyViewCount": 42,
-      "installCount": 64,
-      "weeklyInstallCount": 16
+      "installCount": 65,
+      "weeklyInstallCount": 17
     },
     {
       "name": "Voice Acting Mod",
@@ -3148,8 +3148,8 @@
       "repoVariations": [],
       "viewCount": 146,
       "weeklyViewCount": 41,
-      "installCount": 202,
-      "weeklyInstallCount": 46
+      "installCount": 203,
+      "weeklyInstallCount": 47
     },
     {
       "name": "Changed Twins",
@@ -3246,8 +3246,8 @@
       "repoVariations": [],
       "viewCount": 13,
       "weeklyViewCount": 3,
-      "installCount": 45,
-      "weeklyInstallCount": 13
+      "installCount": 46,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Less Lonely Ship",
@@ -4182,8 +4182,8 @@
       "repoVariations": [],
       "viewCount": 16,
       "weeklyViewCount": 4,
-      "installCount": 25,
-      "weeklyInstallCount": 5
+      "installCount": 26,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Discord Rich Presence",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 738,
       "weeklyViewCount": 202,
-      "installCount": 420,
-      "weeklyInstallCount": 113
+      "installCount": 421,
+      "weeklyInstallCount": 114
     },
     {
       "name": "Secret Words",
@@ -5570,8 +5570,8 @@
       "repoVariations": [],
       "viewCount": 74,
       "weeklyViewCount": 13,
-      "installCount": 94,
-      "weeklyInstallCount": 17
+      "installCount": 95,
+      "weeklyInstallCount": 18
     },
     {
       "name": "N Body Chaos",
@@ -6389,8 +6389,8 @@
       "repoVariations": [],
       "viewCount": 892,
       "weeklyViewCount": 243,
-      "installCount": 598,
-      "weeklyInstallCount": 163
+      "installCount": 600,
+      "weeklyInstallCount": 165
     },
     {
       "name": "Daylight Savings",
@@ -8188,8 +8188,8 @@
       "repoVariations": [],
       "viewCount": 104,
       "weeklyViewCount": 18,
-      "installCount": 210,
-      "weeklyInstallCount": 41
+      "installCount": 211,
+      "weeklyInstallCount": 42
     },
     {
       "name": "Outer Wives",
@@ -8254,8 +8254,8 @@
       "repoVariations": [],
       "viewCount": 25,
       "weeklyViewCount": 10,
-      "installCount": 18,
-      "weeklyInstallCount": 5
+      "installCount": 19,
+      "weeklyInstallCount": 6
     },
     {
       "name": "DebugHUD",
@@ -8650,8 +8650,8 @@
       "repoVariations": [],
       "viewCount": 43,
       "weeklyViewCount": 5,
-      "installCount": 41,
-      "weeklyInstallCount": 7
+      "installCount": 42,
+      "weeklyInstallCount": 8
     },
     {
       "name": "Archipelago Randomizer",
@@ -8689,8 +8689,8 @@
       "repoVariations": [],
       "viewCount": 1047,
       "weeklyViewCount": 242,
-      "installCount": 538,
-      "weeklyInstallCount": 159
+      "installCount": 539,
+      "weeklyInstallCount": 160
     },
     {
       "name": "Immersion",
@@ -8827,8 +8827,8 @@
       "repoVariations": [],
       "viewCount": 210,
       "weeklyViewCount": 41,
-      "installCount": 235,
-      "weeklyInstallCount": 57
+      "installCount": 236,
+      "weeklyInstallCount": 58
     },
     {
       "name": "Astral Codec",
@@ -11119,8 +11119,8 @@
       "repoVariations": [],
       "viewCount": 12,
       "weeklyViewCount": 3,
-      "installCount": 11,
-      "weeklyInstallCount": 2
+      "installCount": 12,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Ship Alarm",
@@ -11153,8 +11153,8 @@
       "repoVariations": [],
       "viewCount": 29,
       "weeklyViewCount": 4,
-      "installCount": 31,
-      "weeklyInstallCount": 9
+      "installCount": 32,
+      "weeklyInstallCount": 10
     },
     {
       "name": "Dear ImGui",
