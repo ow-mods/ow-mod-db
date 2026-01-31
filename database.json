@@ -14,18 +14,18 @@
       "author": "ow-mods",
       "required": true,
       "utility": true,
-      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.15.4/OWML.zip",
-      "downloadCount": 297797,
-      "latestReleaseDate": "2025-08-28T23:12:53Z",
+      "downloadUrl": "https://github.com/ow-mods/owml/releases/download/2.15.5/OWML.zip",
+      "downloadCount": 297803,
+      "latestReleaseDate": "2026-01-31T14:53:21Z",
       "firstReleaseDate": "2019-12-18T16:07:26Z",
       "repo": "https://github.com/amazingalek/owml",
-      "version": "2.15.4",
+      "version": "2.15.5",
       "readme": {
         "htmlUrl": "https://github.com/ow-mods/owml/blob/master/Readme.md",
         "downloadUrl": "https://raw.githubusercontent.com/ow-mods/owml/master/Readme.md"
       },
       "authorDisplay": "Alek & friends",
-      "latestReleaseDescription": "fix latest game version for gamepass",
+      "latestReleaseDescription": "",
       "latestPrereleaseDescription": "",
       "tags": [
         "library"
@@ -34,8 +34,8 @@
       "thumbnail": {
         "main": "owml.webp"
       },
-      "repoUpdatedAt": "2026-01-31T14:40:58Z",
-      "databaseEntryUpdatedAt": "2026-01-31T14:48:33.450Z",
+      "repoUpdatedAt": "2026-01-31T14:53:20Z",
+      "databaseEntryUpdatedAt": "2026-01-31T15:02:05.950Z",
       "repoVariations": [],
       "viewCount": 837,
       "weeklyViewCount": 169,
@@ -2871,17 +2871,17 @@
       "uniqueName": "xen.AchievementTracker",
       "description": "Displays stock, DLC, and custom mod achievements on a menu screen and shows a popup when you earn one.",
       "author": "xen-42",
-      "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v1.0.0/xen.AchievementTracker.zip",
+      "downloadUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/releases/download/v1.0.1/xen.AchievementTracker.zip",
       "downloadCount": 8059,
-      "latestReleaseDate": "2024-10-15T01:55:26Z",
+      "latestReleaseDate": "2026-01-31T14:45:32Z",
       "firstReleaseDate": "2022-04-27T06:22:23Z",
       "repo": "https://github.com/xen-42/outer-wilds-achievement-tracker",
-      "version": "v1.0.0",
+      "version": "v1.0.1",
       "readme": {
         "htmlUrl": "https://github.com/xen-42/outer-wilds-achievement-tracker/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/xen-42/outer-wilds-achievement-tracker/main/README.md"
       },
-      "latestReleaseDescription": "- Add sfx on achievement unlock (thanks pikpik)\r\n- Add option for enabling debug logs (off by default)\r\n- Make saving more reliable\r\n- Got rid of popup queue because it looked bad\r\n- Popups don't stick around when the game is paused\r\n- Fixed some button highlights, only show page buttons when relevant\r\n- Cleaned up stuff",
+      "latestReleaseDescription": "- Added Chinese translation (thanks SheepCreater2)\r\n- Fixed it being impossible to 100% achievements on a profile (Beginner's Luck was always reset)\r\n- Adds semi-hidden achievements. These are achievements that devs can set up a \"before earned\" description to give a hint to players explicitly stating what needs to be done. (I've updated the tutorial in readme and example project if you want an easier explanation)\r\n- Makes it so that the \"X hidden achievement\" box for fully secret achievements is translatable, rather than always English\r\n- Fixes the queue on the in-game achievement popup\r\n\r\nThank you Stache for creating most of this update!",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -2891,8 +2891,8 @@
       "thumbnail": {
         "main": "achievements.webp"
       },
-      "repoUpdatedAt": "2026-01-31T14:44:48Z",
-      "databaseEntryUpdatedAt": "2026-01-31T14:48:31.728Z",
+      "repoUpdatedAt": "2026-01-31T14:56:20Z",
+      "databaseEntryUpdatedAt": "2026-01-31T15:02:04.968Z",
       "repoVariations": [],
       "viewCount": 140,
       "weeklyViewCount": 23,
