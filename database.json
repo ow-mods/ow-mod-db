@@ -84,6 +84,48 @@
       "weeklyInstallCount": 235
     },
     {
+      "name": "Quantum Space Buddies",
+      "uniqueName": "Raicuparta.QuantumSpaceBuddies",
+      "description": "Quantum Space Buddies ( QSB ) is a multiplayer mod for Outer Wilds.",
+      "author": "qsb-dev",
+      "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v1.5.0/Raicuparta.QuantumSpaceBuddies.zip",
+      "downloadCount": 109291,
+      "latestReleaseDate": "2025-03-02T05:57:45Z",
+      "firstReleaseDate": "2020-03-01T18:04:22Z",
+      "repo": "https://github.com/qsb-dev/quantum-space-buddies",
+      "version": "v1.5.0",
+      "readme": {
+        "htmlUrl": "https://github.com/qsb-dev/quantum-space-buddies/blob/master/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/quantum-space-buddies/master/README.md"
+      },
+      "authorDisplay": "_nebula, JohnCorby, and friends",
+      "latestReleaseDescription": "- Fix some quantum objects in NH mods. They should move around now, at least. (ty xen)\r\n- Fix most items in NH mods. Custom item logic will not work, but you can do normal item things (pick up, drop, insert into slot). (ty xen)\r\n- Fix chat/HUD working in custom systems. It still does not work in the eye yet.\r\n\r\nxen and nebula said they tested this so i will not :)",
+      "latestPrereleaseDescription": "",
+      "prerelease": {
+        "version": "v1.0.0-pr1",
+        "downloadUrl": "https://github.com/qsb-dev/quantum-space-buddies/releases/download/v1.0.0-pr1/Raicuparta.QuantumSpaceBuddies.zip",
+        "date": "2024-02-07T20:57:19Z"
+      },
+      "tags": [
+        "gameplay",
+        "integration"
+      ],
+      "slug": "quantumspacebuddies",
+      "thumbnail": {
+        "main": "quantumspacebuddies.webp"
+      },
+      "repoUpdatedAt": "2026-01-12T06:51:45Z",
+      "databaseEntryUpdatedAt": "2026-02-01T13:49:40.130Z",
+      "repoVariations": [
+        "https://github.com/Raicuparta/quantum-space-buddies",
+        "https://github.com/misternebula/quantum-space-buddies"
+      ],
+      "viewCount": 2768,
+      "weeklyViewCount": 676,
+      "installCount": 1667,
+      "weeklyInstallCount": 397
+    },
+    {
       "name": "Light Bramble",
       "uniqueName": "Alek.LightBramble",
       "description": "Dark Bramble without fish or fog.",
@@ -7791,6 +7833,37 @@
       "weeklyInstallCount": 2
     },
     {
+      "name": "QSB Multiple Ships",
+      "uniqueName": "_nebula.QSBMultipleShips",
+      "description": "An addon for QSB that makes each player have their own ship.",
+      "author": "qsb-dev",
+      "parent": "Raicuparta.QuantumSpaceBuddies",
+      "downloadUrl": "https://github.com/qsb-dev/qsb-multiple-ships/releases/download/0.1.0/_nebula.QSBMultipleShips.zip",
+      "downloadCount": 3965,
+      "latestReleaseDate": "2023-07-09T19:59:07Z",
+      "firstReleaseDate": "2023-07-09T19:59:07Z",
+      "repo": "https://github.com/qsb-dev/qsb-multiple-ships",
+      "version": "0.1.0",
+      "authorDisplay": "_nebula",
+      "latestReleaseDescription": "- Initial addon release.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "slug": "qsbmultipleships",
+      "thumbnail": {},
+      "repoUpdatedAt": "2025-02-24T06:11:57Z",
+      "databaseEntryUpdatedAt": "2026-02-01T13:49:53.600Z",
+      "repoVariations": [
+        "https://github.com/misternebula/qsb-multiple-ships"
+      ],
+      "viewCount": 50,
+      "weeklyViewCount": 8,
+      "installCount": 108,
+      "weeklyInstallCount": 41
+    },
+    {
       "name": "Nomai Grand Prix",
       "uniqueName": "NomaiGrandPrix",
       "description": "random shipless speedrun generator for Outer Wilds",
@@ -8214,6 +8287,40 @@
       "weeklyViewCount": 1,
       "installCount": 3,
       "weeklyInstallCount": 1
+    },
+    {
+      "name": "QSB TTS",
+      "uniqueName": "_nebula.QSBTTS",
+      "description": "Outer Wilds provides a realistic simulation of life in outer space.",
+      "author": "qsb-dev",
+      "parent": "Raicuparta.QuantumSpaceBuddies",
+      "downloadUrl": "https://github.com/qsb-dev/qsb-tts/releases/download/1.0.0/_nebula.QSBTTS.zip",
+      "downloadCount": 694,
+      "latestReleaseDate": "2023-08-16T15:51:49Z",
+      "firstReleaseDate": "2023-08-16T15:51:49Z",
+      "repo": "https://github.com/qsb-dev/qsb-tts",
+      "version": "1.0.0",
+      "readme": {
+        "htmlUrl": "https://github.com/qsb-dev/qsb-tts/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/qsb-dev/qsb-tts/main/README.md"
+      },
+      "authorDisplay": "_nebula",
+      "latestReleaseDescription": "Initial release.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "audiovisual"
+      ],
+      "slug": "qsbtts",
+      "thumbnail": {},
+      "repoUpdatedAt": "2025-11-17T15:08:59Z",
+      "databaseEntryUpdatedAt": "2026-02-01T13:49:39.687Z",
+      "repoVariations": [
+        "https://github.com/misternebula/qsb-tts"
+      ],
+      "viewCount": 39,
+      "weeklyViewCount": 13,
+      "installCount": 25,
+      "weeklyInstallCount": 5
     },
     {
       "name": "Lore Tracker",
@@ -8969,8 +9076,8 @@
       "repoVariations": [],
       "viewCount": 249,
       "weeklyViewCount": 45,
-      "installCount": 187,
-      "weeklyInstallCount": 52
+      "installCount": 188,
+      "weeklyInstallCount": 53
     },
     {
       "name": "Finis",
