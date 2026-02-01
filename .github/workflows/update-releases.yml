@@ -71,7 +71,7 @@ jobs:
         uses: ./actions/update-database
         with:
           out-directory: database
-          GITHUB_TOKEN: ${{ env.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           mods: mods.json
           previous-database: previous-database.json
           google-service-account: ${{ github.event_name != 'pull_request' && secrets.GOOGLE_SERVICE_ACCOUNT || '' }}
