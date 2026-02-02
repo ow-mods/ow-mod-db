@@ -64,9 +64,13 @@ async function getAsyncStuff(previousDatabase: OutputMod[]) {
     weeklyInstallCounts,
   ] = await Promise.allSettled(promises);
 
+  if (nextDatabase.status === "rejected") {
+    throw new Error(`Failed to update database: ${nextDatabase.reason}`);
+  }
+
   return {
     modManager: getSettledResult(modManager),
-    nextDatabase: getSettledResult(nextDatabase) ?? [],
+    nextDatabase: nextDatabase.value,
     viewCounts: getSettledResult(viewCounts) ?? {},
     weeklyViewCounts: getSettledResult(weeklyViewCounts) ?? {},
     installCounts: getSettledResult(installCounts) ?? {},

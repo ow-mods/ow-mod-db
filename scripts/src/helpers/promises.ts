@@ -5,13 +5,3 @@ export const getSettledResult = <TResult>(
 
   return results.value;
 };
-
-export function filterFulfilledPromiseSettleResults<T>(
-  result: PromiseSettledResult<T | null | undefined>
-): result is PromiseFulfilledResult<T> {
-  return (
-    result.status === "fulfilled" &&
-    result.value != null &&
-    result.value != undefined
-  );
-}
