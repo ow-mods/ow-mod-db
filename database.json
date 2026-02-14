@@ -80,8 +80,8 @@
       ],
       "viewCount": 2143,
       "weeklyViewCount": 489,
-      "installCount": 847,
-      "weeklyInstallCount": 209
+      "installCount": 848,
+      "weeklyInstallCount": 210
     },
     {
       "name": "Quantum Space Buddies",
@@ -122,8 +122,8 @@
       ],
       "viewCount": 2608,
       "weeklyViewCount": 764,
-      "installCount": 1517,
-      "weeklyInstallCount": 410
+      "installCount": 1518,
+      "weeklyInstallCount": 411
     },
     {
       "name": "Light Bramble",
@@ -481,8 +481,8 @@
       "repoVariations": [],
       "viewCount": 772,
       "weeklyViewCount": 139,
-      "installCount": 412,
-      "weeklyInstallCount": 100
+      "installCount": 413,
+      "weeklyInstallCount": 101
     },
     {
       "name": "Difficulty Mod",
@@ -819,8 +819,8 @@
       "repoVariations": [],
       "viewCount": 114,
       "weeklyViewCount": 21,
-      "installCount": 223,
-      "weeklyInstallCount": 47
+      "installCount": 224,
+      "weeklyInstallCount": 48
     },
     {
       "name": "Static Camera",
@@ -4541,8 +4541,8 @@
       "repoVariations": [],
       "viewCount": 635,
       "weeklyViewCount": 165,
-      "installCount": 401,
-      "weeklyInstallCount": 122
+      "installCount": 403,
+      "weeklyInstallCount": 124
     },
     {
       "name": "Secret Words",
@@ -8689,26 +8689,26 @@
       "repoVariations": [],
       "viewCount": 614,
       "weeklyViewCount": 108,
-      "installCount": 511,
-      "weeklyInstallCount": 125
+      "installCount": 512,
+      "weeklyInstallCount": 126
     },
     {
       "name": "Immersion",
       "uniqueName": "Owen_013.FirstPersonPresence",
       "description": "Step into the hatchling's hiking boots with viewmodel hands, view bobbing, and more!",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.5.2/Owen_013.FirstPersonPresence.zip",
-      "downloadCount": 6058,
-      "latestReleaseDate": "2026-02-06T15:21:58Z",
+      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.5.3/Owen_013.FirstPersonPresence.zip",
+      "downloadCount": 6059,
+      "latestReleaseDate": "2026-02-14T18:40:40Z",
       "firstReleaseDate": "2024-01-16T01:43:20Z",
       "repo": "https://github.com/Owen013/FirstPersonPresence",
-      "version": "v1.5.2",
+      "version": "v1.5.3",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/FirstPersonPresence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/FirstPersonPresence/main/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "### Fixes\r\n- Viewmodel Arms will no longer sometimes be in the wrong place.\r\n- Fixed various visual bugs that could occur at scene load.",
+      "latestReleaseDescription": "### Changes\r\n- Viewmodel Arm poses have been tweaked for all tools/items.\r\n- Viewmodel Arms for certain items will no longer partially/completely disappear when too close to a wall.\r\n- Viewmodel Arm Data now uses a better JSON structure.\r\n- The API has been updated to allow for easier creation of custom Viewmodel Arms by other mods.\r\n- Hide Stowed Items now moves the held item off-screen more naturally.",
       "latestPrereleaseDescription": "Attempted to fix a bug where items place by other mods will have glitched hands attached to them, even when they're not being held.\r\n\r\nWould appreciate testers, preferably ones who also have story mods such as Astral Codec installed to test custom items.\r\n\r\nRelevant Changes:\r\n- Viewmodel hands on OWItems will now disable the ViewmodelArm GameObject if they aren't being held by ItemTool.\r\n- Viewmodel hands will now only be created on an item/tool when it is equipped for the first time.",
       "prerelease": {
         "version": "v1.4.3-pr1",
@@ -8722,8 +8722,8 @@
       "thumbnail": {
         "main": "immersion.webp"
       },
-      "repoUpdatedAt": "2026-02-14T18:40:05Z",
-      "databaseEntryUpdatedAt": "2026-02-14T18:49:49.629Z",
+      "repoUpdatedAt": "2026-02-14T19:19:49Z",
+      "databaseEntryUpdatedAt": "2026-02-14T19:41:55.036Z",
       "repoVariations": [],
       "viewCount": 155,
       "weeklyViewCount": 59,
@@ -11084,8 +11084,8 @@
       "thumbnail": {
         "main": "weathermod.webp"
       },
-      "repoUpdatedAt": "2026-02-14T19:16:08Z",
-      "databaseEntryUpdatedAt": "2026-02-14T19:16:34.413Z",
+      "repoUpdatedAt": "2026-02-14T19:23:57Z",
+      "databaseEntryUpdatedAt": "2026-02-14T19:41:54.722Z",
       "repoVariations": [],
       "viewCount": 17,
       "weeklyViewCount": 7,
@@ -11323,8 +11323,8 @@
       "repoVariations": [],
       "viewCount": 38,
       "weeklyViewCount": 16,
-      "installCount": 62,
-      "weeklyInstallCount": 21
+      "installCount": 63,
+      "weeklyInstallCount": 22
     },
     {
       "name": "Portal 2 Skinpack",
@@ -11792,8 +11792,8 @@
       "repoVariations": [],
       "viewCount": 319,
       "weeklyViewCount": 61,
-      "installCount": 178,
-      "weeklyInstallCount": 61
+      "installCount": 179,
+      "weeklyInstallCount": 62
     },
     {
       "name": "The Cosmic Curators",
