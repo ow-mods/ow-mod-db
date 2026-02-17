@@ -3246,8 +3246,8 @@
       "repoVariations": [],
       "viewCount": 8,
       "weeklyViewCount": 2,
-      "installCount": 29,
-      "weeklyInstallCount": 11
+      "installCount": 30,
+      "weeklyInstallCount": 12
     },
     {
       "name": "Less Lonely Ship",
@@ -3420,26 +3420,28 @@
       "uniqueName": "Owen013.QOLFixes",
       "description": "A collection of subtle improvements and features. Contextual Reticle, Helmet Toggling, More Visible Ghosts, etc...",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/QOLFixes/releases/download/v1.3.5/Owen013.QOLFixes.zip",
-      "downloadCount": 2151,
-      "latestReleaseDate": "2024-03-16T18:27:36Z",
+      "downloadUrl": "https://github.com/Owen013/QOLFixes/releases/download/v1.3.6/Owen013.QOLFixes.zip",
+      "downloadCount": 2152,
+      "latestReleaseDate": "2026-02-17T20:35:01Z",
       "firstReleaseDate": "2022-05-23T15:52:47Z",
       "repo": "https://github.com/Owen013/QOLFixes",
-      "version": "v1.3.5",
+      "version": "v1.3.6",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/QOLFixes/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/QOLFixes/main/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "- Renamed mod to QOL Features\r\n- You can now toggle the space helmet with H, if you've enabled this feature in the config.\r\n- You can now manually equip the translator tool with T, if you've enabled this feature in the config.",
+      "latestReleaseDescription": "### Changes\r\n- Added a \"When Safe\" option to the Helmet Toggling feature, which prevents you from removing the space helmet when it is unsafe to do so and automatically puts on your space helmet when the environment becomes unsafe.\r\n- The Helmet Toggling feature will now prevent the game from automatically putting the helmet back on in certain situations (i.e. when you stop roasting marshmallows or exit the pilot seat) if you've manually taken it off.\r\n- Manual Translator Equipping key now toggles whether or not the translator is equipped, like the base game's Signalscope button.\r\n- Renamed a few of the features (look at the config menu you DOLT).",
       "latestPrereleaseDescription": "",
       "tags": [
         "tweaks"
       ],
       "slug": "qualityoflifefeatures",
-      "thumbnail": {},
-      "repoUpdatedAt": "2026-02-17T18:10:50Z",
-      "databaseEntryUpdatedAt": "2026-02-17T19:14:42.257Z",
+      "thumbnail": {
+        "main": "qualityoflifefeatures.webp"
+      },
+      "repoUpdatedAt": "2026-02-17T20:35:38Z",
+      "databaseEntryUpdatedAt": "2026-02-17T20:45:01.780Z",
       "repoVariations": [],
       "viewCount": 22,
       "weeklyViewCount": 2,
@@ -9422,7 +9424,7 @@
         "main": "reactivehearthians.webp"
       },
       "repoUpdatedAt": "2026-02-15T18:02:58Z",
-      "databaseEntryUpdatedAt": "2026-02-17T08:01:30.226Z",
+      "databaseEntryUpdatedAt": "2026-02-17T20:45:01.780Z",
       "repoVariations": [],
       "viewCount": 51,
       "weeklyViewCount": 10,
