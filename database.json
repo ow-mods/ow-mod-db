@@ -2542,8 +2542,8 @@
       "repoVariations": [],
       "viewCount": 99,
       "weeklyViewCount": 27,
-      "installCount": 88,
-      "weeklyInstallCount": 22
+      "installCount": 89,
+      "weeklyInstallCount": 23
     },
     {
       "name": "Ghostbuster",
@@ -8660,18 +8660,18 @@
       "uniqueName": "Ixrec.ArchipelagoRandomizer",
       "description": "An Outer Wilds mod for the Archipelago multi-game randomizer system",
       "author": "Ixrec",
-      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v1.1.0/Ixrec.ArchipelagoRandomizer.zip",
-      "downloadCount": 15147,
-      "latestReleaseDate": "2026-01-25T20:00:02Z",
+      "downloadUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v1.2.0/Ixrec.ArchipelagoRandomizer.zip",
+      "downloadCount": 15148,
+      "latestReleaseDate": "2026-02-22T17:14:33Z",
       "firstReleaseDate": "2024-01-03T18:17:33Z",
       "repo": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer",
-      "version": "v1.1.0",
+      "version": "v1.2.0",
       "readme": {
         "htmlUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Ixrec/OuterWildsArchipelagoRandomizer/main/README.md"
       },
       "authorDisplay": "Ixrec",
-      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- Echo Hike story mod integration (thanks @aXu-AP ). The main appeal of this mod is the unique \"Threader\" item, which is a grapple beam/hook that works on any surface in the game.\r\n\t- `enable_eh_mod` option. When this is `true`, Threader use will be in-logic for:\r\n\t\t- Entering the BH Forge without a \"warp path\" to the Hanging City Ceiling\r\n\t\t- Climbing up into the bottom floor of GD tower rather than solving the Imaging Rule puzzles above\r\n\t\t- (if `enable_eote_dlc` is also `true`) Navigating The Stranger without rafts / Stranger Light Modulator\r\n\t\t- (if `enable_fc_mod` is also `true`) Reaching the Eye Signal Lab without the crystal puzzle\r\n\t- After receiving the \"Threader\" AP item, actual Threaders will be placed near all of your possible spawn points, including DLC and story mod systems.\r\n\t- 11 new AP locations (3 default, 8 logsanity) on the Echo Hike planet itself\r\n- The \"[Archipelago Hints]\" option in NPC dialogue trees has been moved near the bottom, to reduce the risk of accidentally spending your hint by mashing through the dialogue (thanks aXu-AP)\r\n- The custom loading spinner (with the 6 colored moons instead of 1 orange moon) has been fixed\r\n- Previously, the \"AP Console: Drop All AP Server Messages\" setting would write AP server messages to the mod logs instead of the in-game console. Now, it won't write the messages anywhere at all. Hopefully this improves attempts to use this setting to mitigate instability in large multiworlds.",
+      "latestReleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation).\r\n\r\n- New `song_of_the_universe` goal and `required_friends` option (thanks @msyverw). This goal requires meeting a certain number of \"friends\" before going to the Eye. For example, if you enable the DLC and all 7 story mods, `song_of_the_universe: true` and `required_friends: 9` will require you to reach the ends of the DLC and all 7 story mods before goaling.\r\n- Added option groups. Since this is a custom game, mostly this means reordering and adding headers to the template/example .yamls, but you may also see these on alternate webhosts. \r\n- Universal Tracker nits:\r\n\t- In `shuffle_spacesuit: true` slots, Universal Tracker's `/next_progression` command should now be aware of the Spacesuit item\r\n\t- The Universal Tracker code can now handle missing options in slot_data. This probably has no impact today, but the next time we add a new logic-relevant option, it should allow UT with the latest OW apworld to just work on slots generated before the option was added.\r\n\t- Some dead code required by older Universal Tracker versions has been cleaned up (specifically the `interpret_slot_data` stub)\r\n",
       "latestPrereleaseDescription": "For installation instructions [see the README](https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation). Since this is a prerelease version, in the Outer Wilds Mod Manager's \"Get Mods\" section you will have to click the three dots and select **\"Use Prerelease v0.3.3-rc\"**.\r\n\r\n- **The Outsider and Astral Codec story mod integrations**:\r\n\t- The Outsider adds 21 locations (+44 logsanity).\r\n\t- Astral Codec adds 21 locations (+39 logsanity) and 1 frequency item.\r\n\t- Restrictions have been implemented for random orbits and random warps to avoid breaking certain puzzle mechanics in these mods.\r\n- Fixes/Tweaks:\r\n\t- Fixed the eternal beep regression. Scanning a base game signal before receiving its item will no longer trigger an infinite loop of beeps.\r\n\t- You can no longer spawn the dream raft without the Dream Totem Patch item.\r\n\t- The in-game tracker's logic display now puts a linebreak after every \"... Location Logic:\" and \"... Region Logic:\", so the auto-generated logic strings always start at the left edge of the screen.\r\n\t- Several typo fixes in tracker descriptions (thanks @Zannick)\r\n\t- Added a \"Goal completed! Notifying AP server.\" message to the in-game console. Sometimes AP's own goal completion message gets dropped by the network, and to players it looks like a mod bug if nothing at all gets displayed.\r\n\t- Spacesuit is now logically required to enter all mods, including HN1, so (even if we never do \"proper suitless logic\") using both shuffle_spacesuit and enable_hn1_mod is no longer broken.\r\n\t- Fixed the \"not marked as checked on the AP server\" message talking about locations that weren't even generated for the current slot.\r\n\r\nLike the vanilla game and its DLC, we highly recommend playing the Astral Codec and The Outsider story mods on their own before randomizing their content.",
       "prerelease": {
         "version": "v0.3.3-rc",
@@ -8686,8 +8686,8 @@
       "thumbnail": {
         "main": "archipelagorandomizer.webp"
       },
-      "repoUpdatedAt": "2026-02-22T17:10:42Z",
-      "databaseEntryUpdatedAt": "2026-02-22T17:14:19.360Z",
+      "repoUpdatedAt": "2026-02-22T17:18:38Z",
+      "databaseEntryUpdatedAt": "2026-02-22T17:46:57.506Z",
       "repoVariations": [],
       "viewCount": 488,
       "weeklyViewCount": 142,
@@ -10979,8 +10979,8 @@
       "thumbnail": {
         "main": "thestrangertheyare.webp"
       },
-      "repoUpdatedAt": "2026-02-22T16:44:14Z",
-      "databaseEntryUpdatedAt": "2026-02-22T16:46:45.622Z",
+      "repoUpdatedAt": "2026-02-22T17:33:30Z",
+      "databaseEntryUpdatedAt": "2026-02-22T17:46:57.941Z",
       "repoVariations": [],
       "viewCount": 574,
       "weeklyViewCount": 161,
