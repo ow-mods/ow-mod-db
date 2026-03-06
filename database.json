@@ -80,8 +80,8 @@
       ],
       "viewCount": 1924,
       "weeklyViewCount": 523,
-      "installCount": 827,
-      "weeklyInstallCount": 247
+      "installCount": 828,
+      "weeklyInstallCount": 248
     },
     {
       "name": "Quantum Space Buddies",
@@ -122,8 +122,8 @@
       ],
       "viewCount": 2582,
       "weeklyViewCount": 789,
-      "installCount": 1599,
-      "weeklyInstallCount": 516
+      "installCount": 1601,
+      "weeklyInstallCount": 518
     },
     {
       "name": "Light Bramble",
@@ -187,8 +187,8 @@
       "repoVariations": [],
       "viewCount": 250,
       "weeklyViewCount": 62,
-      "installCount": 173,
-      "weeklyInstallCount": 33
+      "installCount": 174,
+      "weeklyInstallCount": 34
     },
     {
       "name": "Crouch Mod",
@@ -819,8 +819,8 @@
       "repoVariations": [],
       "viewCount": 103,
       "weeklyViewCount": 32,
-      "installCount": 210,
-      "weeklyInstallCount": 54
+      "installCount": 211,
+      "weeklyInstallCount": 55
     },
     {
       "name": "Static Camera",
@@ -1913,8 +1913,8 @@
       "repoVariations": [],
       "viewCount": 83,
       "weeklyViewCount": 17,
-      "installCount": 69,
-      "weeklyInstallCount": 13
+      "installCount": 70,
+      "weeklyInstallCount": 14
     },
     {
       "name": "Outer Wilds Flyover",
@@ -2156,8 +2156,8 @@
       "repoVariations": [],
       "viewCount": 78,
       "weeklyViewCount": 15,
-      "installCount": 100,
-      "weeklyInstallCount": 29
+      "installCount": 101,
+      "weeklyInstallCount": 30
     },
     {
       "name": "Hollodjustment",
@@ -3148,8 +3148,8 @@
       "repoVariations": [],
       "viewCount": 111,
       "weeklyViewCount": 30,
-      "installCount": 141,
-      "weeklyInstallCount": 45
+      "installCount": 142,
+      "weeklyInstallCount": 46
     },
     {
       "name": "Changed Twins",
@@ -8190,8 +8190,8 @@
       "repoVariations": [],
       "viewCount": 89,
       "weeklyViewCount": 32,
-      "installCount": 205,
-      "weeklyInstallCount": 60
+      "installCount": 206,
+      "weeklyInstallCount": 61
     },
     {
       "name": "Outer Wives",
@@ -8699,18 +8699,18 @@
       "uniqueName": "Owen_013.FirstPersonPresence",
       "description": "Step into the hatchling's hiking boots with Viewmodel Arms, View Bobbing, and more.",
       "author": "Owen013",
-      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.5.6/Owen_013.FirstPersonPresence.zip",
-      "downloadCount": 6574,
-      "latestReleaseDate": "2026-03-01T21:44:18Z",
+      "downloadUrl": "https://github.com/Owen013/FirstPersonPresence/releases/download/v1.5.7/Owen013.FirstPersonPresence.zip",
+      "downloadCount": 6575,
+      "latestReleaseDate": "2026-03-06T00:05:18Z",
       "firstReleaseDate": "2024-01-16T01:43:20Z",
       "repo": "https://github.com/Owen013/FirstPersonPresence",
-      "version": "v1.5.6",
+      "version": "v1.5.7",
       "readme": {
         "htmlUrl": "https://github.com/Owen013/FirstPersonPresence/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Owen013/FirstPersonPresence/main/README.md"
       },
       "authorDisplay": "Owen_013",
-      "latestReleaseDescription": "### Changes\r\n- Various Landing Animation Improvements:\r\n  - The held item/tool now also has an animation for landing.\r\n    - The Camera and Viewmodel Landing Animations can be individually enabled/disabled in the config.\r\n  - Landing Animation is slightly more impactful, with a faster recovery time.\r\n  - Added options to customize the maximum distance, recovery speed, and smoothness of the Landing Animation in the config.\r\n- Camera and viewmodel animations will no longer freeze in place when time is frozen while the player is reading text, viewing the ship log, or talking to others. These animations will now either finish playing or, for continuous animations, smoothly transition into an idle state.\r\n\r\n### Fixes\r\n- Fixed a bug when using Hide Stowed Items that caused the item to skip to the end of its stowing animation early.\r\n- Fixed a bug where Viewmodel Arms on items would disappear when the player sat down at the ship cockpit and would stay invisible until the player dropped the item and picked it up again.",
+      "latestReleaseDescription": "### Viewmodel Sway\r\n- Now moves in a hemispherical motion.\r\n- Should now be more consistent from item to item.\r\n\r\n### Other Changes\r\n- Added Viewmodel Arm Data for the Compass item from Dreambound.\r\n- Conversation Stones are now further from the camera when Viewmodel Arms are enabled.\r\n\r\n### Bugfixes\r\n- Viewmodel Arms will no longer briefly disappear when using Lantern Grapple Points.\r\n- Viewmodel Arms will no longer be created for items that have no Arm Data associated with them.\r\n- Viewmodel Arms will no longer be added to certain items if their `OWItem` type doesn't match its `ItemType`.",
       "latestPrereleaseDescription": "Attempted to fix a bug where items place by other mods will have glitched hands attached to them, even when they're not being held.\r\n\r\nWould appreciate testers, preferably ones who also have story mods such as Astral Codec installed to test custom items.\r\n\r\nRelevant Changes:\r\n- Viewmodel hands on OWItems will now disable the ViewmodelArm GameObject if they aren't being held by ItemTool.\r\n- Viewmodel hands will now only be created on an item/tool when it is equipped for the first time.",
       "prerelease": {
         "version": "v1.4.3-pr1",
@@ -8724,8 +8724,8 @@
       "thumbnail": {
         "main": "immersion.webp"
       },
-      "repoUpdatedAt": "2026-03-06T00:04:28Z",
-      "databaseEntryUpdatedAt": "2026-03-06T13:16:28.663Z",
+      "repoUpdatedAt": "2026-03-06T15:04:09Z",
+      "databaseEntryUpdatedAt": "2026-03-06T15:42:03.562Z",
       "repoVariations": [],
       "viewCount": 305,
       "weeklyViewCount": 94,
@@ -11025,8 +11025,8 @@
       "repoVariations": [],
       "viewCount": 307,
       "weeklyViewCount": 91,
-      "installCount": 211,
-      "weeklyInstallCount": 54
+      "installCount": 212,
+      "weeklyInstallCount": 55
     },
     {
       "name": "Trans Rights Mod",
