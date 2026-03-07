@@ -80,8 +80,8 @@
       ],
       "viewCount": 1920,
       "weeklyViewCount": 524,
-      "installCount": 823,
-      "weeklyInstallCount": 238
+      "installCount": 826,
+      "weeklyInstallCount": 241
     },
     {
       "name": "Quantum Space Buddies",
@@ -349,8 +349,8 @@
       "repoVariations": [],
       "viewCount": 36,
       "weeklyViewCount": 12,
-      "installCount": 89,
-      "weeklyInstallCount": 26
+      "installCount": 90,
+      "weeklyInstallCount": 27
     },
     {
       "name": "Vesper's Assorted OuterWilds Shaders",
@@ -418,8 +418,8 @@
       "repoVariations": [],
       "viewCount": 200,
       "weeklyViewCount": 64,
-      "installCount": 55,
-      "weeklyInstallCount": 15
+      "installCount": 56,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Cheat and Debug Menu",
@@ -481,8 +481,8 @@
       "repoVariations": [],
       "viewCount": 655,
       "weeklyViewCount": 257,
-      "installCount": 383,
-      "weeklyInstallCount": 124
+      "installCount": 384,
+      "weeklyInstallCount": 125
     },
     {
       "name": "Difficulty Mod",
@@ -792,8 +792,8 @@
       "repoVariations": [],
       "viewCount": 8,
       "weeklyViewCount": 3,
-      "installCount": 32,
-      "weeklyInstallCount": 11
+      "installCount": 34,
+      "weeklyInstallCount": 13
     },
     {
       "name": "NomaiVR FFR",
@@ -819,8 +819,8 @@
       "repoVariations": [],
       "viewCount": 97,
       "weeklyViewCount": 31,
-      "installCount": 206,
-      "weeklyInstallCount": 54
+      "installCount": 211,
+      "weeklyInstallCount": 59
     },
     {
       "name": "Static Camera",
@@ -1190,8 +1190,8 @@
       "repoVariations": [],
       "viewCount": 264,
       "weeklyViewCount": 63,
-      "installCount": 229,
-      "weeklyInstallCount": 50
+      "installCount": 230,
+      "weeklyInstallCount": 51
     },
     {
       "name": "Atropos",
@@ -1256,8 +1256,8 @@
       "repoVariations": [],
       "viewCount": 6,
       "weeklyViewCount": 1,
-      "installCount": 7,
-      "weeklyInstallCount": 1
+      "installCount": 8,
+      "weeklyInstallCount": 2
     },
     {
       "name": "Smol Hatchling",
@@ -2220,8 +2220,8 @@
       "repoVariations": [],
       "viewCount": 582,
       "weeklyViewCount": 159,
-      "installCount": 778,
-      "weeklyInstallCount": 212
+      "installCount": 780,
+      "weeklyInstallCount": 214
     },
     {
       "name": "Only Timber Hearth",
@@ -3478,8 +3478,8 @@
       "repoVariations": [],
       "viewCount": 97,
       "weeklyViewCount": 30,
-      "installCount": 90,
-      "weeklyInstallCount": 26
+      "installCount": 91,
+      "weeklyInstallCount": 27
     },
     {
       "name": "Better Model Ship",
@@ -4696,8 +4696,8 @@
       "repoVariations": [],
       "viewCount": 54,
       "weeklyViewCount": 9,
-      "installCount": 55,
-      "weeklyInstallCount": 15
+      "installCount": 56,
+      "weeklyInstallCount": 16
     },
     {
       "name": "Car Example",
@@ -6391,8 +6391,8 @@
       "repoVariations": [],
       "viewCount": 937,
       "weeklyViewCount": 253,
-      "installCount": 625,
-      "weeklyInstallCount": 181
+      "installCount": 626,
+      "weeklyInstallCount": 182
     },
     {
       "name": "Daylight Savings",
@@ -8865,8 +8865,8 @@
       "repoVariations": [],
       "viewCount": 685,
       "weeklyViewCount": 181,
-      "installCount": 503,
-      "weeklyInstallCount": 143
+      "installCount": 506,
+      "weeklyInstallCount": 146
     },
     {
       "name": "Mod Jam 3",
@@ -10221,18 +10221,18 @@
       "uniqueName": "Etherpod.ShipEnhancements",
       "description": "Adds way too much stuff for the ship in the mod settings.",
       "author": "Etherpod",
-      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v2.2.1/Etherpod.ShipEnhancements.zip",
+      "downloadUrl": "https://github.com/Etherpod/Ship-Enhancements/releases/download/v2.2.2/Etherpod.ShipEnhancements.zip",
       "downloadCount": 5613,
-      "latestReleaseDate": "2026-01-23T21:39:25Z",
+      "latestReleaseDate": "2026-03-07T10:19:14Z",
       "firstReleaseDate": "2024-09-15T02:38:59Z",
       "repo": "https://github.com/Etherpod/Ship-Enhancements",
-      "version": "v2.2.1",
+      "version": "v2.2.2",
       "readme": {
         "htmlUrl": "https://github.com/Etherpod/Ship-Enhancements/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Etherpod/Ship-Enhancements/main/README.md"
       },
       "authorDisplay": "Etherpod",
-      "latestReleaseDescription": "This update is just some hotfixes, but there's a much bigger update on it's way. Stay tuned!\r\n\r\n\r\n# Feature Changes\r\n\r\n- **Dirt Accumulation Time** can now be made negative, which adds dirt instead of clearing and clears dirt instead of adding\r\n- If the **Engine Switch** is enabled, the ship will now be turned on by default at the start of the loop (can be changed in **ExperimentalSettings.json**)\r\n- Added **ResetSettings()** to the API, which just sets every config setting to their default values\r\n\r\n\r\n# Bug Fixes\r\n\r\n- Fixed a bug where going to the Eye would break the game\r\n- Fixed a bug where enabling Nomai VR would break the game\r\n- Fixed a bug where ice would form on the cockpit when it wasn't cold outside\r\n- Fixed a bug where enabling water cooling and overloading the reactor would have no effect on **Passive Temperature Gain**\r\n- Fixed a bug where rust and dirt would have the opposite effect from the settings\r\n- Fixed a bug where disabling **Remember Ship State** and warping to a new system would still remember the settings\r\n- Fixed a bug where **Disable Rotation Speed Limit** would also increase the ship's look sensitivity\r\n- Fixed a bug where the reactor could be overloaded while repairing it\r\n- Fixed a bug where holding the roll button when the ship takes stun damage would prevent roll mode from disabling\r\n- Fixed a bug where the tether could be accidentally detached while piloting the ship and using free look\r\n- Fixed a bug where the cockpit ice would sometimes become desynced while in multiplayer\r\n- Fixed a bug where the ship would desync when the engine sputtered while in multiplayer\r\n- Fixed a bug where the preset setting could not be made hidden using the API\r\n- Fixed a bug where the **AddTemperatureZone()** function in the API was broken\r\n",
+      "latestReleaseDescription": "More bug fixes! (among other minor changes)\r\n\r\n- The lock-on UI will no longer be cut off on the edges of the screen (thank you @dit-zy!)\r\n- Items that detect water will now properly detect the river inside The Stranger\r\n- Parking the ship in the docking bay of The Stranger and being inside when the dam breaks will no longer place the ship underwater\r\n- Enabling the **Gravity Landing Gear** no longer lets the ship touch lava wirelessly\r\n- Enabling **Reactor Overload** and repairing the reactor no longer automatically overloads it\r\n- Added a code that was missing from the **Radio**\r\n- The **Interactable Ship Curtain** is no longer imbued with divine light\r\n- Placing the **Portable Fuel Canister** inside the ship will now use the temperature of the ship instead of the outside temperature\r\n- The **Remember Ship State** setting will now remember when the ship is destroyed and will leave behind items that are not inside the ship\r\n- Added a new setting to **ExperimentalSettings.json**\r\n- Gave Ernesto a new question system\r\n- Made some slight changes to Slate's dialogue\r\n- Improved the logic for the Random preset",
       "latestPrereleaseDescription": "",
       "tags": [
         "gameplay",
@@ -10243,8 +10243,8 @@
       "thumbnail": {
         "main": "shipenhancements.webp"
       },
-      "repoUpdatedAt": "2026-03-07T09:19:37Z",
-      "databaseEntryUpdatedAt": "2026-03-07T09:47:23.314Z",
+      "repoUpdatedAt": "2026-03-07T10:20:17Z",
+      "databaseEntryUpdatedAt": "2026-03-07T10:38:02.437Z",
       "repoVariations": [],
       "viewCount": 226,
       "weeklyViewCount": 54,
@@ -10984,8 +10984,8 @@
       "repoVariations": [],
       "viewCount": 557,
       "weeklyViewCount": 114,
-      "installCount": 334,
-      "weeklyInstallCount": 80
+      "installCount": 335,
+      "weeklyInstallCount": 81
     },
     {
       "name": "Forgotten Castaways",
