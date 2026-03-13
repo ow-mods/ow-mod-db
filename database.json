@@ -154,8 +154,8 @@
       "repoVariations": [],
       "viewCount": 330,
       "weeklyViewCount": 104,
-      "installCount": 251,
-      "weeklyInstallCount": 80
+      "installCount": 252,
+      "weeklyInstallCount": 81
     },
     {
       "name": "FreeCam",
@@ -918,8 +918,8 @@
       "repoVariations": [],
       "viewCount": 329,
       "weeklyViewCount": 107,
-      "installCount": 241,
-      "weeklyInstallCount": 80
+      "installCount": 242,
+      "weeklyInstallCount": 81
     },
     {
       "name": "Unity Explorer",
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "The story mod creation framework for Outer Wilds",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.29.1/xen.NewHorizons.zip",
-      "downloadCount": 116884,
-      "latestReleaseDate": "2026-01-26T02:20:20Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.29.2/xen.NewHorizons.zip",
+      "downloadCount": 116890,
+      "latestReleaseDate": "2026-03-13T17:41:57Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.29.1",
+      "version": "v1.29.2",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, and friends",
-      "latestReleaseDescription": "## Minor features\r\n\r\n- Added `optOutWarpDriveModel` to star system config. Allows you to disable the warp drive model in your system and exclude it from the visibility logic for other systems.\r\n- New mod setting to turn off warp drive model.\r\n\r\n## Improvements\r\n\r\n- Added a zoom button prompt to interstellar mode\r\n- Reworked how the warp drive model gets enabled. Now it will only show up if there is two distinct systems that you can enter and exit.\r\n\r\n## Bug fixes\r\n\r\n- Fixed the disappearance time on the Hearthian Sun in interstellar mode.\r\n- Fixed the broken ambient lights on planets \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1132**",
+      "latestReleaseDescription": "## Minor features\r\n\r\n- Can now implement custom translatable alien languages. This is done on each arc by\r\nsetting `customTextImage` to an image path, `legiblePersistentCondition`\r\nfor learning the new language, and optionally `customLanguageName` to\r\ngive it a name.\r\n- Can now override the color translation text for an arc with `overrideUnreadColor` and optionally `overrideTranslatedColor`\r\n- Can now have a separate ship spawn point for warping into the system with the ship's warp drive with `warpDriveSpawnPointID` in system config. Resolves #1133\r\n- Added `musicFadeInTime`, `musicVolume`, and `ambienceVolume` to title screen configs.\r\n- Added `IsWarpingBackToEye`, `GetCenterOfStarSystem`, `GetPlayerSpawnPoint`, `GetShipSpawnPoint` to API.\r\n- Added `showDescriptionNotAchieved` to achievement info and `DescriptionNotAchieved` to achievement translations.\r\n- Added `campfires` to `Props`. Can set the state to be lit, smoldering, or unlit.\r\n- Added `fuelTanks` to `Props`. Can change type to be the Hearthian tanks or DLC torchs.\r\n- Added `alarmBells` to `Props`. Resolves #1118\r\n- Added `alarmBellPath` to `dreamCampfires`.\r\n- Added `playerRecoveryVolumes` to `Volumes`. Interacting can refuel or heal the player.\r\n- Reveal volumes can now use different shapes.\r\n\r\n## Improvements\r\n\r\n- Moved `solarSystemVolume` to a better name `starSystemVolumes`.\r\n- `IsWarpingBackToEye` now stops `OnCompleteSceneLoad` from running.\r\n- Now logs if it fails to load your credits.\r\n\r\n## Bug fixes\r\n\r\n- Somewhat fix ghost birds having broken arms in mods like Examples and Granite's Invitation but Escape Room is still broken ahhhhh why why why why!!!!! Mobius why did you slightly adjust ghost birds in a patch!!!!! No it's okay you're allowed I forgive you.\r\n- Translator tool no longer appears in dream world.\r\n- Fix fonts for different languages on star chart mode. Fixes #1137\r\n- Fix rich presence on quantum planets.\r\n- Fix speed limiter volume exception.\r\n- Fix credits button on title screen not working.\r\n- Fix warping to the Outer Wilds killing you instantly.\r\n- Fix DLC required popup not appearing for some DLC props. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1135**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,8 +1112,8 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2026-03-13T14:01:50Z",
-      "databaseEntryUpdatedAt": "2026-03-13T14:31:13.808Z",
+      "repoUpdatedAt": "2026-03-13T17:44:10Z",
+      "databaseEntryUpdatedAt": "2026-03-13T18:22:45.715Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
@@ -1128,18 +1128,18 @@
       "description": "An example project showing what planets can be made with New Horizons. (Warning: spoilers inside)",
       "author": "Outer-Wilds-New-Horizons",
       "parent": "xen.NewHorizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.29.0/nh-examples.zip",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/releases/download/v0.30.0/nh-examples.zip",
       "downloadCount": 8655,
-      "latestReleaseDate": "2026-01-20T21:06:03Z",
+      "latestReleaseDate": "2026-03-13T17:44:01Z",
       "firstReleaseDate": "2021-12-19T01:28:05Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/nh-examples",
-      "version": "v0.29.0",
+      "version": "v0.30.0",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/nh-examples/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/nh-examples/main/README.md"
       },
       "authorDisplay": "xen",
-      "latestReleaseDescription": "0.29.0 (#62)\r\n\r\n- Fixed Sequestered Luminary's map mode\r\n- Improved the Lava Twins",
+      "latestReleaseDescription": "- Added gorp language\r\n- Added alarm bells above dream campfires",
       "latestPrereleaseDescription": "",
       "tags": [
         "content",
@@ -1149,8 +1149,8 @@
       "thumbnail": {
         "main": "newhorizonsexamples.webp"
       },
-      "repoUpdatedAt": "2026-03-13T15:24:21Z",
-      "databaseEntryUpdatedAt": "2026-03-13T15:25:10.206Z",
+      "repoUpdatedAt": "2026-03-13T17:44:00Z",
+      "databaseEntryUpdatedAt": "2026-03-13T18:22:44.694Z",
       "repoVariations": [
         "https://github.com/xen-42/ow-new-horizons-examples"
       ],
@@ -11953,7 +11953,7 @@
       "author": "SolecAnimations",
       "parent": "xen.NewHorizons",
       "downloadUrl": "https://github.com/SolecAnimations/Powerfail/releases/download/9.0/TeamGeswaldo.Jam5.zip",
-      "downloadCount": 1840,
+      "downloadCount": 1842,
       "latestReleaseDate": "2026-02-01T20:36:53Z",
       "firstReleaseDate": "2025-07-22T21:34:53Z",
       "repo": "https://github.com/SolecAnimations/Powerfail",
@@ -11972,8 +11972,8 @@
       "thumbnail": {
         "main": "powerfail.webp"
       },
-      "repoUpdatedAt": "2026-03-12T22:11:17Z",
-      "databaseEntryUpdatedAt": "2026-03-13T10:33:30.347Z",
+      "repoUpdatedAt": "2026-03-13T18:18:48Z",
+      "databaseEntryUpdatedAt": "2026-03-13T18:22:44.190Z",
       "repoVariations": [],
       "viewCount": 65,
       "weeklyViewCount": 18,
