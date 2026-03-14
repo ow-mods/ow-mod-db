@@ -80,8 +80,8 @@
       ],
       "viewCount": 1906,
       "weeklyViewCount": 471,
-      "installCount": 802,
-      "weeklyInstallCount": 191
+      "installCount": 804,
+      "weeklyInstallCount": 193
     },
     {
       "name": "Quantum Space Buddies",
@@ -122,8 +122,8 @@
       ],
       "viewCount": 2439,
       "weeklyViewCount": 642,
-      "installCount": 1624,
-      "weeklyInstallCount": 429
+      "installCount": 1626,
+      "weeklyInstallCount": 431
     },
     {
       "name": "Light Bramble",
@@ -154,8 +154,8 @@
       "repoVariations": [],
       "viewCount": 335,
       "weeklyViewCount": 104,
-      "installCount": 248,
-      "weeklyInstallCount": 67
+      "installCount": 250,
+      "weeklyInstallCount": 69
     },
     {
       "name": "FreeCam",
@@ -254,8 +254,8 @@
       "repoVariations": [],
       "viewCount": 179,
       "weeklyViewCount": 59,
-      "installCount": 469,
-      "weeklyInstallCount": 128
+      "installCount": 471,
+      "weeklyInstallCount": 130
     },
     {
       "name": "HD Screenshot",
@@ -317,8 +317,8 @@
       "repoVariations": [],
       "viewCount": 101,
       "weeklyViewCount": 29,
-      "installCount": 221,
-      "weeklyInstallCount": 39
+      "installCount": 222,
+      "weeklyInstallCount": 40
     },
     {
       "name": "ScoutStreaming",
@@ -416,8 +416,8 @@
       "repoUpdatedAt": "2025-08-04T07:08:38Z",
       "databaseEntryUpdatedAt": "2026-03-14T02:49:03.683Z",
       "repoVariations": [],
-      "viewCount": 187,
-      "weeklyViewCount": 41,
+      "viewCount": 188,
+      "weeklyViewCount": 42,
       "installCount": 47,
       "weeklyInstallCount": 10
     },
@@ -819,8 +819,8 @@
       "repoVariations": [],
       "viewCount": 90,
       "weeklyViewCount": 10,
-      "installCount": 206,
-      "weeklyInstallCount": 49
+      "installCount": 207,
+      "weeklyInstallCount": 50
     },
     {
       "name": "Static Camera",
@@ -1090,18 +1090,18 @@
       "uniqueName": "xen.NewHorizons",
       "description": "The story mod creation framework for Outer Wilds",
       "author": "Outer-Wilds-New-Horizons",
-      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.29.2/xen.NewHorizons.zip",
-      "downloadCount": 116935,
-      "latestReleaseDate": "2026-03-13T17:41:57Z",
+      "downloadUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/releases/download/v1.29.3/xen.NewHorizons.zip",
+      "downloadCount": 116936,
+      "latestReleaseDate": "2026-03-14T04:45:51Z",
       "firstReleaseDate": "2021-12-19T01:29:02Z",
       "repo": "https://github.com/Outer-Wilds-New-Horizons/new-horizons",
-      "version": "v1.29.2",
+      "version": "v1.29.3",
       "readme": {
         "htmlUrl": "https://github.com/Outer-Wilds-New-Horizons/new-horizons/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/README.md"
       },
       "authorDisplay": "xen, Bwc9876, JohnCorby, MegaPiggy, and friends",
-      "latestReleaseDescription": "## Minor features\r\n\r\n- Can now implement custom translatable alien languages. This is done on each arc by\r\nsetting `customTextImage` to an image path, `legiblePersistentCondition`\r\nfor learning the new language, and optionally `customLanguageName` to\r\ngive it a name.\r\n- Can now override the color translation text for an arc with `overrideUnreadColor` and optionally `overrideTranslatedColor`\r\n- Can now have a separate ship spawn point for warping into the system with the ship's warp drive with `warpDriveSpawnPointID` in system config. Resolves #1133\r\n- Added `musicFadeInTime`, `musicVolume`, and `ambienceVolume` to title screen configs.\r\n- Added `IsWarpingBackToEye`, `GetCenterOfStarSystem`, `GetPlayerSpawnPoint`, `GetShipSpawnPoint` to API.\r\n- Added `showDescriptionNotAchieved` to achievement info and `DescriptionNotAchieved` to achievement translations.\r\n- Added `campfires` to `Props`. Can set the state to be lit, smoldering, or unlit.\r\n- Added `fuelTanks` to `Props`. Can change type to be the Hearthian tanks or DLC torchs.\r\n- Added `alarmBells` to `Props`. Resolves #1118\r\n- Added `alarmBellPath` to `dreamCampfires`.\r\n- Added `playerRecoveryVolumes` to `Volumes`. Interacting can refuel or heal the player.\r\n- Reveal volumes can now use different shapes.\r\n\r\n## Improvements\r\n\r\n- Moved `solarSystemVolume` to a better name `starSystemVolumes`.\r\n- `IsWarpingBackToEye` now stops `OnCompleteSceneLoad` from running.\r\n- Now logs if it fails to load your credits.\r\n\r\n## Bug fixes\r\n\r\n- Somewhat fix ghost birds having broken arms in mods like Examples and Granite's Invitation but Escape Room is still broken ahhhhh why why why why!!!!! Mobius why did you slightly adjust ghost birds in a patch!!!!! No it's okay you're allowed I forgive you.\r\n- Translator tool no longer appears in dream world.\r\n- Fix fonts for different languages on star chart mode. Fixes #1137\r\n- Fix rich presence on quantum planets.\r\n- Fix speed limiter volume exception.\r\n- Fix credits button on title screen not working.\r\n- Fix warping to the Outer Wilds killing you instantly.\r\n- Fix DLC required popup not appearing for some DLC props. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1135**",
+      "latestReleaseDescription": "## Bug fixes\r\n\r\n- Reverted patch that made translator tool not appear in dream world. If anyone ever puts translator text in dream world I will rapidly approach your location.\r\n- Fixed star system `conditionalChecks` not giving you persistent conditions when a check is met.\r\n- Setting title screen music or ambience to `None` no longer breaks. \r\n\r\n**Generated From PR: https://github.com/Outer-Wilds-New-Horizons/new-horizons/pull/1139**",
       "latestPrereleaseDescription": "",
       "tags": [
         "tool",
@@ -1112,13 +1112,13 @@
       "thumbnail": {
         "main": "newhorizons.webp"
       },
-      "repoUpdatedAt": "2026-03-14T03:49:39Z",
-      "databaseEntryUpdatedAt": "2026-03-14T04:26:27.034Z",
+      "repoUpdatedAt": "2026-03-14T04:45:13Z",
+      "databaseEntryUpdatedAt": "2026-03-14T04:49:37.506Z",
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
-      "viewCount": 810,
-      "weeklyViewCount": 235,
+      "viewCount": 811,
+      "weeklyViewCount": 236,
       "installCount": 314,
       "weeklyInstallCount": 86
     },
@@ -1156,8 +1156,8 @@
       ],
       "viewCount": 68,
       "weeklyViewCount": 19,
-      "installCount": 46,
-      "weeklyInstallCount": 6
+      "installCount": 47,
+      "weeklyInstallCount": 7
     },
     {
       "name": "Real Solar System",
@@ -1190,8 +1190,8 @@
       "repoVariations": [],
       "viewCount": 250,
       "weeklyViewCount": 59,
-      "installCount": 217,
-      "weeklyInstallCount": 52
+      "installCount": 218,
+      "weeklyInstallCount": 53
     },
     {
       "name": "Atropos",
@@ -1364,8 +1364,8 @@
       "repoVariations": [],
       "viewCount": 27,
       "weeklyViewCount": 7,
-      "installCount": 27,
-      "weeklyInstallCount": 5
+      "installCount": 28,
+      "weeklyInstallCount": 6
     },
     {
       "name": "Save Editor",
@@ -1815,8 +1815,8 @@
       "repoUpdatedAt": "2023-07-15T11:52:12Z",
       "databaseEntryUpdatedAt": "2026-03-14T02:49:04.494Z",
       "repoVariations": [],
-      "viewCount": 131,
-      "weeklyViewCount": 38,
+      "viewCount": 132,
+      "weeklyViewCount": 39,
       "installCount": 191,
       "weeklyInstallCount": 64
     },
@@ -2156,8 +2156,8 @@
       "repoVariations": [],
       "viewCount": 87,
       "weeklyViewCount": 33,
-      "installCount": 115,
-      "weeklyInstallCount": 41
+      "installCount": 116,
+      "weeklyInstallCount": 42
     },
     {
       "name": "Hollodjustment",
@@ -2320,8 +2320,8 @@
       "repoUpdatedAt": "2026-01-16T14:54:18Z",
       "databaseEntryUpdatedAt": "2026-03-14T02:49:05.904Z",
       "repoVariations": [],
-      "viewCount": 114,
-      "weeklyViewCount": 23,
+      "viewCount": 115,
+      "weeklyViewCount": 24,
       "installCount": 62,
       "weeklyInstallCount": 17
     },
@@ -2355,8 +2355,8 @@
       "repoVariations": [],
       "viewCount": 543,
       "weeklyViewCount": 158,
-      "installCount": 667,
-      "weeklyInstallCount": 186
+      "installCount": 668,
+      "weeklyInstallCount": 187
     },
     {
       "name": "Their Homeworld",
@@ -3377,10 +3377,10 @@
       "repoUpdatedAt": "2026-01-13T02:21:04Z",
       "databaseEntryUpdatedAt": "2026-03-14T02:49:06.801Z",
       "repoVariations": [],
-      "viewCount": 159,
-      "weeklyViewCount": 65,
-      "installCount": 454,
-      "weeklyInstallCount": 109
+      "viewCount": 160,
+      "weeklyViewCount": 66,
+      "installCount": 457,
+      "weeklyInstallCount": 112
     },
     {
       "name": "Hatchling Outfitter",
@@ -4541,10 +4541,10 @@
       "repoUpdatedAt": "2026-01-28T10:42:06Z",
       "databaseEntryUpdatedAt": "2026-03-14T02:49:09.075Z",
       "repoVariations": [],
-      "viewCount": 713,
-      "weeklyViewCount": 189,
-      "installCount": 397,
-      "weeklyInstallCount": 119
+      "viewCount": 714,
+      "weeklyViewCount": 190,
+      "installCount": 398,
+      "weeklyInstallCount": 120
     },
     {
       "name": "Secret Words",
@@ -6389,10 +6389,10 @@
       "repoUpdatedAt": "2026-01-24T09:02:35Z",
       "databaseEntryUpdatedAt": "2026-03-14T02:49:10.989Z",
       "repoVariations": [],
-      "viewCount": 968,
-      "weeklyViewCount": 241,
-      "installCount": 636,
-      "weeklyInstallCount": 181
+      "viewCount": 969,
+      "weeklyViewCount": 242,
+      "installCount": 637,
+      "weeklyInstallCount": 182
     },
     {
       "name": "Daylight Savings",
@@ -6534,8 +6534,8 @@
       "repoVariations": [],
       "viewCount": 4,
       "weeklyViewCount": 2,
-      "installCount": 11,
-      "weeklyInstallCount": 2
+      "installCount": 12,
+      "weeklyInstallCount": 3
     },
     {
       "name": "Arcanum Adrift",
@@ -7087,8 +7087,8 @@
       "repoUpdatedAt": "2025-08-09T01:06:50Z",
       "databaseEntryUpdatedAt": "2026-03-14T02:49:11.921Z",
       "repoVariations": [],
-      "viewCount": 61,
-      "weeklyViewCount": 12,
+      "viewCount": 62,
+      "weeklyViewCount": 13,
       "installCount": 70,
       "weeklyInstallCount": 17
     },
@@ -8009,8 +8009,8 @@
       ],
       "viewCount": 393,
       "weeklyViewCount": 93,
-      "installCount": 317,
-      "weeklyInstallCount": 86
+      "installCount": 318,
+      "weeklyInstallCount": 87
     },
     {
       "name": "The Survivors",
@@ -8655,10 +8655,10 @@
       "repoUpdatedAt": "2026-02-26T19:49:12Z",
       "databaseEntryUpdatedAt": "2026-03-13T21:42:19.550Z",
       "repoVariations": [],
-      "viewCount": 789,
-      "weeklyViewCount": 244,
-      "installCount": 586,
-      "weeklyInstallCount": 152
+      "viewCount": 792,
+      "weeklyViewCount": 247,
+      "installCount": 589,
+      "weeklyInstallCount": 155
     },
     {
       "name": "Immersion",
@@ -8795,8 +8795,8 @@
       "repoVariations": [],
       "viewCount": 187,
       "weeklyViewCount": 57,
-      "installCount": 198,
-      "weeklyInstallCount": 49
+      "installCount": 199,
+      "weeklyInstallCount": 50
     },
     {
       "name": "Astral Codec",
@@ -8831,8 +8831,8 @@
       "repoVariations": [],
       "viewCount": 676,
       "weeklyViewCount": 204,
-      "installCount": 510,
-      "weeklyInstallCount": 143
+      "installCount": 511,
+      "weeklyInstallCount": 144
     },
     {
       "name": "Mod Jam 3",
@@ -8864,8 +8864,8 @@
       "repoVariations": [],
       "viewCount": 72,
       "weeklyViewCount": 20,
-      "installCount": 38,
-      "weeklyInstallCount": 10
+      "installCount": 39,
+      "weeklyInstallCount": 11
     },
     {
       "name": "Jam Hub",
@@ -8935,8 +8935,8 @@
       "repoVariations": [],
       "viewCount": 16,
       "weeklyViewCount": 5,
-      "installCount": 61,
-      "weeklyInstallCount": 12
+      "installCount": 62,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Solar Rangers",
@@ -9006,8 +9006,8 @@
       "repoVariations": [],
       "viewCount": 9,
       "weeklyViewCount": 2,
-      "installCount": 63,
-      "weeklyInstallCount": 12
+      "installCount": 64,
+      "weeklyInstallCount": 13
     },
     {
       "name": "Hearth's Neighbor 2: Magistarium",
@@ -9117,8 +9117,8 @@
       "repoVariations": [],
       "viewCount": 49,
       "weeklyViewCount": 16,
-      "installCount": 100,
-      "weeklyInstallCount": 27
+      "installCount": 101,
+      "weeklyInstallCount": 28
     },
     {
       "name": "Axiom's Refuge",
@@ -9188,8 +9188,8 @@
       "repoVariations": [],
       "viewCount": 92,
       "weeklyViewCount": 37,
-      "installCount": 129,
-      "weeklyInstallCount": 32
+      "installCount": 130,
+      "weeklyInstallCount": 33
     },
     {
       "name": "Band Together",
@@ -9225,8 +9225,8 @@
       "repoVariations": [],
       "viewCount": 76,
       "weeklyViewCount": 13,
-      "installCount": 110,
-      "weeklyInstallCount": 26
+      "installCount": 111,
+      "weeklyInstallCount": 27
     },
     {
       "name": "Symbiosis",
@@ -9392,8 +9392,8 @@
       "repoUpdatedAt": "2026-02-15T18:02:58Z",
       "databaseEntryUpdatedAt": "2026-03-13T21:42:19.436Z",
       "repoVariations": [],
-      "viewCount": 61,
-      "weeklyViewCount": 19,
+      "viewCount": 63,
+      "weeklyViewCount": 21,
       "installCount": 40,
       "weeklyInstallCount": 9
     },
@@ -10214,8 +10214,8 @@
       "repoVariations": [],
       "viewCount": 253,
       "weeklyViewCount": 76,
-      "installCount": 163,
-      "weeklyInstallCount": 41
+      "installCount": 164,
+      "weeklyInstallCount": 42
     },
     {
       "name": "Outer Adventure 2",
@@ -10645,8 +10645,8 @@
       "repoUpdatedAt": "2024-11-05T04:11:12Z",
       "databaseEntryUpdatedAt": "2026-03-14T02:49:16.018Z",
       "repoVariations": [],
-      "viewCount": 15,
-      "weeklyViewCount": 9,
+      "viewCount": 16,
+      "weeklyViewCount": 10,
       "installCount": 17,
       "weeklyInstallCount": 5
     },
@@ -10679,8 +10679,8 @@
       "repoUpdatedAt": "2026-03-13T20:57:18Z",
       "databaseEntryUpdatedAt": "2026-03-13T21:42:19.357Z",
       "repoVariations": [],
-      "viewCount": 39,
-      "weeklyViewCount": 13,
+      "viewCount": 40,
+      "weeklyViewCount": 14,
       "installCount": 70,
       "weeklyInstallCount": 22
     },
@@ -10950,8 +10950,8 @@
       "repoVariations": [],
       "viewCount": 565,
       "weeklyViewCount": 132,
-      "installCount": 330,
-      "weeklyInstallCount": 82
+      "installCount": 331,
+      "weeklyInstallCount": 83
     },
     {
       "name": "Forgotten Castaways",
@@ -10989,8 +10989,8 @@
       "repoUpdatedAt": "2026-02-25T18:02:49Z",
       "databaseEntryUpdatedAt": "2026-03-13T21:42:19.439Z",
       "repoVariations": [],
-      "viewCount": 351,
-      "weeklyViewCount": 115,
+      "viewCount": 352,
+      "weeklyViewCount": 116,
       "installCount": 218,
       "weeklyInstallCount": 58
     },
@@ -12886,10 +12886,10 @@
       "repoUpdatedAt": "2026-03-02T03:34:06Z",
       "databaseEntryUpdatedAt": "2026-03-14T02:49:18.183Z",
       "repoVariations": [],
-      "viewCount": 201,
-      "weeklyViewCount": 120,
-      "installCount": 63,
-      "weeklyInstallCount": 39
+      "viewCount": 202,
+      "weeklyViewCount": 121,
+      "installCount": 64,
+      "weeklyInstallCount": 40
     }
   ],
   "alphaReleases": [
