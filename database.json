@@ -12763,18 +12763,18 @@
       "uniqueName": "GameDev46.TimberHearthForest",
       "description": "Adds more trees, grass, fireflies and clouds to Timber Hearth",
       "author": "GameDev46",
-      "downloadUrl": "https://github.com/GameDev46/TimberHearthForest/releases/download/v1.0.7/GameDev46.TimberHearthForest.zip",
+      "downloadUrl": "https://github.com/GameDev46/TimberHearthForest/releases/download/v1.0.8/GameDev46.TimberHearthForest.zip",
       "downloadCount": 155,
-      "latestReleaseDate": "2026-03-08T02:51:33Z",
+      "latestReleaseDate": "2026-03-22T23:00:14Z",
       "firstReleaseDate": "2026-02-22T19:20:56Z",
       "repo": "https://github.com/GameDev46/TimberHearthForest",
-      "version": "v1.0.7",
+      "version": "v1.0.8",
       "readme": {
         "htmlUrl": "https://github.com/GameDev46/TimberHearthForest/blob/main/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/GameDev46/TimberHearthForest/main/README.md"
       },
       "authorDisplay": "GameDev46",
-      "latestReleaseDescription": "# Updates and Patches\r\n\r\n- Fixed tree visibility not taking into account the scout view or Timber Hearth's little satellite",
+      "latestReleaseDescription": "# Updates and Patches\r\n\r\n## Clouds\r\n\r\n- Added clouds to Timber Hearth\r\n- Added setting to control cloud density\r\n\r\n## Trees\r\n\r\n- Added setting to enable or disable the tree occlusion optimisation (When enabled tree groups which are out of the camera's view are hidden to hopefully increase performance)\r\n\r\n## Formatting\r\n\r\n- Fixed some mod settings having unclear or wrong tooltips\r\n- Cleaned up code by moving sections into their own internal classes\r\n- Rewrote README and repo description to include the new updates",
       "latestPrereleaseDescription": "",
       "tags": [
         "audiovisual"
@@ -12783,8 +12783,8 @@
       "thumbnail": {
         "main": "timberhearthforest.webp"
       },
-      "repoUpdatedAt": "2026-03-22T22:58:09Z",
-      "databaseEntryUpdatedAt": "2026-03-22T23:00:37.908Z",
+      "repoUpdatedAt": "2026-03-22T23:11:48Z",
+      "databaseEntryUpdatedAt": "2026-03-22T23:39:29.579Z",
       "repoVariations": [],
       "viewCount": 282,
       "weeklyViewCount": 54,
