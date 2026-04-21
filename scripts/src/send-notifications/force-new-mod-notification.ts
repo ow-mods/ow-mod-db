@@ -9,6 +9,7 @@ enum Input {
     currentDatabaseFile = "current-database",
     discordHookUrl = "discord-hook-url",
     discordNewModRoleId = "discord-new-mod-role-id",
+    discordModUpdateRoleId = "discord-mod-update-role-id",
     modUniqueId = "mod-unique-id",
 }
 
@@ -45,7 +46,7 @@ async function run() {
 
         sendDiscordNotifications(
             discordHookUrl,
-            "",
+            core.getInput(Input.discordModUpdateRoleId),
             core.getInput(Input.discordNewModRoleId),
             diff,
             {}

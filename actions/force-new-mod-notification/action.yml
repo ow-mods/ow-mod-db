@@ -10,6 +10,9 @@ inputs:
   discord-new-mod-role-id:
     description: "ID for the Discord role to ping when there's a new mod added to the database"
     required: true
+  discord-mod-update-role-id:
+    description: "ID for the Discord role to ping when there's a mod update"
+    required: true
   mod-unique-id:
     description: "The unique id of the mod to post the notification for"
     required: true

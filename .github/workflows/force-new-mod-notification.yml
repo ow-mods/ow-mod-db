@@ -57,4 +57,5 @@ jobs:
           current-database: database/database.json
           discord-hook-url: ${{ secrets.DISCORD_HOOK_URL }}
           discord-new-mod-role-id: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
+          discord-mod-update-role-id: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
           mod-unique-id: ${{ github.event.inputs.modUniqueID }}
