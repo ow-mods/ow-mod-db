@@ -1,0 +1,60 @@
+name: Force new mod notification
+
+on:
+  workflow_dispatch:
+    inputs:
+      modUniqueID:
+        description: "The unique id of the mod to notify about"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Cache pnpm modules
+        uses: actions/cache@v4
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9.4.0
+          run_install: true
+
+      - name: Build
+        run: |
+          cd scripts
+          pnpm run build
+
+      - name: Checkout database repo
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: database
+
+      - name: Send Notifications
+        uses: ./actions/force-new-mod-notification
+        with:
+          current-database: database/database.json
+          discord-hook-url: ${{ secrets.DISCORD_HOOK_URL }}
+          discord-new-mod-role-id: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
+          mod-unique-id: ${{ github.event.inputs.modUniqueID }}

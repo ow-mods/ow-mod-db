@@ -1,0 +1,18 @@
+name: "Force new mod notification"
+description: "Sends the new mod notification (use if it was missed by update-releases)"
+inputs:
+  current-database:
+    description: "Current version of the database.json output"
+    required: true
+  discord-hook-url:
+    description: "Secret Discord hook url with token"
+    required: true
+  discord-new-mod-role-id:
+    description: "ID for the Discord role to ping when there's a new mod added to the database"
+    required: true
+  mod-unique-id:
+    description: "The unique id of the mod to post the notification for"
+    required: true
+runs:
+  using: "node16"
+  main: "../../scripts/build/send-notifications/force-new-mod-notification.js"
