@@ -13255,18 +13255,18 @@
       "uniqueName": "Seacucu.OWCHTRefined",
       "description": "A refined Traditional Chinese (Taiwan) localization mod for Outer Wilds, with improved translation quality and ongoing maintenance.",
       "author": "seacucu",
-      "downloadUrl": "https://github.com/seacucu/OWCHT-Refined/releases/download/v1.0.3/Seacucu.OWCHTRefined.zip",
-      "downloadCount": 16,
-      "latestReleaseDate": "2026-06-05T15:05:09Z",
+      "downloadUrl": "https://github.com/seacucu/OWCHT-Refined/releases/download/v2.0.0/Seacucu.OWCHTRefined.zip",
+      "downloadCount": 17,
+      "latestReleaseDate": "2026-06-12T13:39:08Z",
       "firstReleaseDate": "2026-06-05T11:18:27Z",
       "repo": "https://github.com/seacucu/OWCHT-Refined",
-      "version": "v1.0.3",
+      "version": "v2.0.0",
       "readme": {
         "htmlUrl": "https://github.com/seacucu/OWCHT-Refined/blob/master/README.md",
         "downloadUrl": "https://raw.githubusercontent.com/seacucu/OWCHT-Refined/master/README.md"
       },
       "authorDisplay": "Seacucu",
-      "latestReleaseDescription": "",
+      "latestReleaseDescription": "## 2.0.0 — 全新架構\n\n- 改基於 [Interplanetary Polyglot](https://outerwildsmods.com/mods/interplanetarypolyglot/) 框架，於語言選單新增獨立的「正體中文」選項，不再佔用簡體中文語言槽\n- 翻譯自英文原文全文重譯，並與遊戲 1.1.16 現行文本完全同步（含《眼之回音》DLC）\n- 修正先前部分 UI 選項顯示數字 key 的問題（反轉視野等 6 條後期新增條目）\n- 動態字型解決缺字問題\n\n**安裝需求**：需要前置模組 Interplanetary Polyglot（透過 Mod Manager 安裝會自動帶入）。\n\n---\n\n- Now built on [Interplanetary Polyglot](https://outerwildsmods.com/mods/interplanetarypolyglot/): adds Traditional Chinese as a standalone language option instead of replacing Simplified Chinese\n- Fully retranslated from the English original, synchronized with game version 1.1.16 (incl. *Echoes of the Eye* DLC)\n- Fixed UI options showing numeric keys (6 entries added in later game updates)\n- Dynamic font eliminates missing characters\n\n**Requires** Interplanetary Polyglot (auto-installed via Mod Manager).",
       "latestPrereleaseDescription": "",
       "tags": [
         "localization"
@@ -13275,8 +13275,8 @@
       "thumbnail": {
         "main": "traditionalchinesetranslationrefined.webp"
       },
-      "repoUpdatedAt": "2026-06-06T06:10:36Z",
-      "databaseEntryUpdatedAt": "2026-06-12T09:09:45.259Z",
+      "repoUpdatedAt": "2026-06-12T15:08:26Z",
+      "databaseEntryUpdatedAt": "2026-06-12T15:51:24.456Z",
       "repoVariations": [],
       "viewCount": 7,
       "weeklyViewCount": 7,
