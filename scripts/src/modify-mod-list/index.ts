@@ -12,7 +12,6 @@ const Input = {
 
 const Output = {
   mods: "mods",
-  editedExistingMod: "edited-existing-mod",
 } as const;
 
 // From .github/ISSUE_TEMPLATE/add-mod.yml.
@@ -96,7 +95,7 @@ async function run() {
   }
 
   const existingMod = mods.find(
-    (modFromList: ModInfo) => uniqueName === modFromList.uniqueName
+    (modFromList: ModInfo) => uniqueName === modFromList.uniqueName,
   );
 
   if (existingMod) {
@@ -125,10 +124,6 @@ async function run() {
     writeFile(outFile, jsonString, (error) => {
       if (error) console.log("Couldn't Write To Mods File: ", error);
     });
-  }
-
-  if (existingMod) {
-    core.setOutput(Output.editedExistingMod, true);
   }
 }
 
