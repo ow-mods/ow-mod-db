@@ -5,8 +5,7 @@ import path from "path";
 import { fetchMods } from "./fetch-mods.js";
 import { fetchModManager, type ModManagerOutput } from "./fetch-mod-manager.js";
 import { toJsonString } from "../helpers/to-json-string.js";
-import { getViewCounts } from "./analytics/get-view-counts.js";
-import { getInstallCounts } from "./analytics/get-install-counts.js";
+import { getInstallCounts } from "./get-install-counts.js";
 import { getSettledResult } from "../helpers/promises.js";
 import { apiCallCount, rateLimitReached } from "./octokit.js";
 import { DATABASE_FILE_NAME } from "../constants.js";
@@ -16,7 +15,7 @@ enum Input {
   outDirectory = "out-directory",
   modsFile = "mods",
   previousDatabaseFile = "previous-database",
-  googleServiceAccount = "google-service-account",
+  cloudflareApiToken = "cloudflare-api-token",
 }
 
 enum Output {
@@ -28,7 +27,7 @@ const measureTime = <T>(promise: Promise<T>, name: string) => {
 
   promise.finally(() => {
     console.log(
-      `Method "${name}" took ${performance.now() - initialTime} ms to finish.`
+      `Method "${name}" took ${performance.now() - initialTime} ms to finish.`,
     );
   });
 
@@ -36,7 +35,7 @@ const measureTime = <T>(promise: Promise<T>, name: string) => {
 };
 
 async function getAsyncStuff(previousDatabase: OutputMod[]) {
-  const googleServiceAccount = core.getInput(Input.googleServiceAccount);
+  const cloudflareApiToken = core.getInput(Input.cloudflareApiToken);
 
   const mods = (await fsp.readFile(core.getInput(Input.modsFile))).toString();
 
@@ -44,25 +43,14 @@ async function getAsyncStuff(previousDatabase: OutputMod[]) {
     measureTime(fetchModManager(), "fetchModManager"),
     measureTime(
       fetchMods(mods, core.getInput(Input.outDirectory), previousDatabase),
-      "fetchMods"
+      "fetchMods",
     ),
-    measureTime(getViewCounts(30, googleServiceAccount), "getViewCounts30"),
-    measureTime(getViewCounts(8, googleServiceAccount), "getViewCounts8"),
-    measureTime(
-      getInstallCounts(30, googleServiceAccount),
-      "getInstallCounts30"
-    ),
-    measureTime(getInstallCounts(8, googleServiceAccount), "getInstallCounts8"),
+    measureTime(getInstallCounts(30, cloudflareApiToken), "getInstallCounts30"),
+    measureTime(getInstallCounts(8, cloudflareApiToken), "getInstallCounts8"),
   ] as const;
 
-  const [
-    modManager,
-    nextDatabase,
-    viewCounts,
-    weeklyViewCounts,
-    installCounts,
-    weeklyInstallCounts,
-  ] = await Promise.allSettled(promises);
+  const [modManager, nextDatabase, installCounts, weeklyInstallCounts] =
+    await Promise.allSettled(promises);
 
   if (nextDatabase.status === "rejected") {
     throw new Error(`Failed to update database: ${nextDatabase.reason}`);
@@ -71,8 +59,6 @@ async function getAsyncStuff(previousDatabase: OutputMod[]) {
   return {
     modManager: getSettledResult(modManager),
     nextDatabase: nextDatabase.value,
-    viewCounts: getSettledResult(viewCounts) ?? {},
-    weeklyViewCounts: getSettledResult(weeklyViewCounts) ?? {},
     installCounts: getSettledResult(installCounts) ?? {},
     weeklyInstallCounts: getSettledResult(weeklyInstallCounts) ?? {},
   };
@@ -98,14 +84,8 @@ async function run() {
   ];
 
   try {
-    const {
-      modManager,
-      nextDatabase,
-      viewCounts,
-      weeklyViewCounts,
-      installCounts,
-      weeklyInstallCounts,
-    } = await getAsyncStuff(previousMods);
+    const { modManager, nextDatabase, installCounts, weeklyInstallCounts } =
+      await getAsyncStuff(previousMods);
 
     if (!modManager) {
       throw new Error("Failed to update database: mod manager output is null.");
@@ -113,8 +93,6 @@ async function run() {
 
     const modListWithAnalytics = nextDatabase.map((mod) => ({
       ...mod,
-      viewCount: viewCounts[mod.slug] ?? 0,
-      weeklyViewCount: weeklyViewCounts[mod.slug] ?? 0,
       installCount: installCounts[mod.uniqueName] ?? 0,
       weeklyInstallCount: weeklyInstallCounts[mod.uniqueName] ?? 0,
     }));
@@ -149,7 +127,7 @@ async function run() {
       databaseJson,
       (error) => {
         if (error) console.log("Error Saving To File:", error);
-      }
+      },
     );
   } catch (error) {
     core.setFailed(`Error running workflow script: ${error}`);
