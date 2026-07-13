@@ -11,7 +11,9 @@ import { apiCallCount, rateLimitReached } from "./octokit.ts";
 import { DATABASE_FILE_NAME } from "../constants.ts";
 import type { OutputMod } from "../mod.ts";
 
-const { values: { outDirectory, modsFile, previousDatabaseFile } } = parseArgs({
+const {
+  values: { outDirectory, modsFile, previousDatabaseFile },
+} = parseArgs({
   options: {
     outDirectory: { type: "string" },
     modsFile: { type: "string" },
@@ -20,13 +22,14 @@ const { values: { outDirectory, modsFile, previousDatabaseFile } } = parseArgs({
 });
 
 const cloudflareApiToken = process.env.CLOUDFLARE_API_TOKEN ?? "";
+const githubToken = process.env.GITHUB_TOKEN;
 
 if (!outDirectory || !modsFile || !previousDatabaseFile) {
   console.error(
     "Usage: node src/update-database/index.ts" +
-    " --outDirectory <path> --modsFile <path> --previousDatabaseFile <path>",
+      " --outDirectory <path> --modsFile <path> --previousDatabaseFile <path>",
   );
-  console.error("Env: CLOUDFLARE_API_TOKEN");
+  console.error("Env: CLOUDFLARE_API_TOKEN, GITHUB_TOKEN");
   process.exit(1);
 }
 
@@ -47,10 +50,7 @@ async function getAsyncStuff(previousDatabase: OutputMod[]) {
 
   const promises = [
     measureTime(fetchModManager(), "fetchModManager"),
-    measureTime(
-      fetchMods(mods, outDirectory!, previousDatabase),
-      "fetchMods",
-    ),
+    measureTime(fetchMods(mods, outDirectory!, previousDatabase), "fetchMods"),
     measureTime(getInstallCounts(30, cloudflareApiToken), "getInstallCounts30"),
     measureTime(getInstallCounts(8, cloudflareApiToken), "getInstallCounts8"),
   ] as const;
