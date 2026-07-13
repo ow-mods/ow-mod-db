@@ -8,7 +8,8 @@ export async function getInstallCounts(
     const query = `
       SELECT blob3, count() as count
       FROM event_counter_analytics
-      WHERE blob2 = 'ModInstall'
+      WHERE blob1 = 'ow-mod-man'
+        AND blob2 = 'ModInstall'
         AND blob3 IS NOT NULL
         AND timestamp >= NOW() - INTERVAL '${daysAgo}' DAY
       GROUP BY blob3
