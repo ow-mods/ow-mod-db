@@ -68,13 +68,12 @@ jobs:
       #   run: rm -rf database/thumbnails
 
       - name: Fetch mod releases and manifests
-        uses: ./actions/update-database
-        with:
-          out-directory: database
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          mods: mods.json
-          previous-database: previous-database.json
-          cloudflare-api-token: ${{ github.event_name != 'pull_request' && secrets.CLOUDFLARE_API_TOKEN || '' }}
+        run: node scripts/build/update-database/index.js
+        env:
+          INPUT_OUT_DIRECTORY: database
+          INPUT_MODS: mods.json
+          INPUT_PREVIOUS_DATABASE: previous-database.json
+          INPUT_CLOUDFLARE_API_TOKEN: ${{ github.event_name != 'pull_request' && secrets.CLOUDFLARE_API_TOKEN || '' }}
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
@@ -105,11 +104,11 @@ jobs:
 
       - name: Send Notifications
         if: ${{ github.event_name != 'pull_request' }}
-        uses: ./actions/send-notifications
-        with:
-          previous-database: previous-database.json
-          next-database: database/database.json
-          discord-mod-hook-urls: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
-          discord-hook-url: ${{ secrets.DISCORD_HOOK_URL }}
-          discord-mod-update-role-id: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
-          discord-new-mod-role-id: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
+        run: node scripts/build/send-notifications/index.js
+        env:
+          INPUT_PREVIOUS_DATABASE: previous-database.json
+          INPUT_NEXT_DATABASE: database/database.json
+          INPUT_DISCORD_MOD_HOOK_URLS: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
+          INPUT_DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
+          INPUT_DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
+          INPUT_DISCORD_NEW_MOD_ROLE_ID: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}

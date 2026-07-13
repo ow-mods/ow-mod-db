@@ -52,10 +52,10 @@ jobs:
           path: database
 
       - name: Send Notifications
-        uses: ./actions/force-new-mod-notification
-        with:
-          current-database: database/database.json
-          discord-hook-url: ${{ secrets.DISCORD_HOOK_URL }}
-          discord-new-mod-role-id: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
-          discord-mod-update-role-id: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
-          mod-unique-id: ${{ github.event.inputs.modUniqueID }}
+        run: node scripts/build/send-notifications/force-new-mod-notification.js
+        env:
+          INPUT_CURRENT_DATABASE: database/database.json
+          INPUT_DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
+          INPUT_DISCORD_NEW_MOD_ROLE_ID: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
+          INPUT_DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
+          INPUT_MOD_UNIQUE_ID: ${{ github.event.inputs.modUniqueID }}

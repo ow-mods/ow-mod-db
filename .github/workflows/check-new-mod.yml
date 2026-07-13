@@ -39,7 +39,7 @@ jobs:
           comment_tag: pending
           mode: recreate
           message: |
-            ### :hourglass: Starting Mod Check 
+            ### :hourglass: Starting Mod Check
             View the `Checks` tab for the status of this check.
             You can retry this check anytime by commenting `checker, retry`.
       - name: Check Mod
