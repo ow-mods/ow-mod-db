@@ -1,6 +1,6 @@
 import { fetchMods } from "../update-database/fetch-mods.js";
-import modsJson from "./mods.json" assert { type: "json" };
-import secrets from "./secrets.json" assert { type: "json" };
+import modsJson from "./mods.json" with { type: "json" };
+import secrets from "./secrets.json" with { type: "json" };
 import { BaseMod } from "../mod.js";
 import { getDiff } from "../send-notifications/get-diff.js";
 import { sendDiscordNotifications } from "../send-notifications/send-discord-notifications.js";

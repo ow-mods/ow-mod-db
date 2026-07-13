@@ -1,7 +1,7 @@
 import * as core from "@actions/core";
 
 import { writeFile } from "fs";
-import type { ModInfo, ModList } from "../mod-info";
+import type { ModInfo, ModList } from "../mod-info.js";
 
 enum Input {
   outFile = "out-file",
@@ -96,7 +96,7 @@ async function run() {
   }
 
   const existingMod = mods.find(
-    (modFromList) => uniqueName === modFromList.uniqueName
+    (modFromList: ModInfo) => uniqueName === modFromList.uniqueName
   );
 
   if (existingMod) {
