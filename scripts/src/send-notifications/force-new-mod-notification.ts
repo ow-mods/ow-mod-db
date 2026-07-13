@@ -1,22 +1,34 @@
-import * as core from "@actions/core";
+import { parseArgs } from "util";
 import { sendDiscordNotifications } from "./send-discord-notifications.ts";
 import type { DiffItem } from "./get-diff.ts";
 import { promises as fsp } from "fs";
 import type { DatabaseOutput } from "../mod.ts";
 import type { BaseMod } from "../mod.ts";
 
-const Input = {
-    currentDatabaseFile: "current-database",
-    discordHookUrl: "discord-hook-url",
-    discordNewModRoleId: "discord-new-mod-role-id",
-    discordModUpdateRoleId: "discord-mod-update-role-id",
-    modUniqueId: "mod-unique-id",
-} as const;
+const { values: { currentDatabaseFile, modUniqueId } } = parseArgs({
+  options: {
+    currentDatabaseFile: { type: "string" },
+    modUniqueId: { type: "string" },
+  },
+});
+
+const discordHookUrl = process.env.DISCORD_HOOK_URL ?? "";
+const discordNewModRoleId = process.env.DISCORD_NEW_MOD_ROLE_ID ?? "";
+const discordModUpdateRoleId = process.env.DISCORD_MOD_UPDATE_ROLE_ID ?? "";
+
+if (!currentDatabaseFile || !modUniqueId) {
+  console.error(
+    "Usage: node src/send-notifications/force-new-mod-notification.ts" +
+    " --currentDatabaseFile <path> --modUniqueId <id>",
+  );
+  console.error("Env: DISCORD_HOOK_URL, DISCORD_NEW_MOD_ROLE_ID, DISCORD_MOD_UPDATE_ROLE_ID");
+  process.exit(1);
+}
 
 async function run() {
     try {
         const previousDatabaseJson = (
-            await fsp.readFile(core.getInput(Input.currentDatabaseFile))
+            await fsp.readFile(currentDatabaseFile!)
         ).toString();
 
         const previousDatabaseOutput: DatabaseOutput =
@@ -27,15 +39,11 @@ async function run() {
             ...previousDatabaseOutput.alphaReleases,
         ];
 
-        const newModUniqueID = core.getInput(Input.modUniqueId);
-
-        const newMod = previousMods.find((mod) => mod.uniqueName == newModUniqueID);
+        const newMod = previousMods.find((mod) => mod.uniqueName == modUniqueId!);
 
         if (newMod === undefined) {
-            throw new Error(newModUniqueID + " was not found in the database");
+            throw new Error(modUniqueId! + " was not found in the database");
         }
-
-        const discordHookUrl = core.getInput(Input.discordHookUrl);
 
         const diff: DiffItem[] = [];
 
@@ -46,14 +54,14 @@ async function run() {
 
         sendDiscordNotifications(
             discordHookUrl,
-            core.getInput(Input.discordModUpdateRoleId),
-            core.getInput(Input.discordNewModRoleId),
+            discordModUpdateRoleId,
+            discordNewModRoleId,
             diff,
             {}
         );
     } catch (error) {
-        core.setFailed(`Error running workflow script: ${error}`);
-        console.log(`Error running workflow script: ${error}`);
+        console.error(`Error running workflow script: ${error}`);
+        process.exit(1);
     }
 }
 

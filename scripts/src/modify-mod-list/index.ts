@@ -1,18 +1,23 @@
-import * as core from "@actions/core";
-
+import { parseArgs } from "util";
 import { writeFile } from "fs";
 import type { ModInfo, ModList } from "../mod-info.ts";
 
-const Input = {
-  outFile: "out-file",
-  form: "form",
-  mods: "mods",
-  gitHubToken: "github-token",
-} as const;
+const { values: { outFile, form } } = parseArgs({
+  options: {
+    outFile: { type: "string" },
+    form: { type: "string" },
+  },
+});
 
-const Output = {
-  mods: "mods",
-} as const;
+const modsRaw = process.env.MODS ?? "";
+
+if (!outFile || !form || !modsRaw) {
+  console.error(
+    "Usage: node src/modify-mod-list/index.ts --outFile <path> --form <json>",
+  );
+  console.error("Env: MODS");
+  process.exit(1);
+}
 
 // From .github/ISSUE_TEMPLATE/add-mod.yml.
 type IssueForm = {
@@ -40,7 +45,7 @@ async function run() {
     authorDisplay,
     tags,
     thumbnailUrl,
-  }: IssueForm = JSON.parse(core.getInput(Input.form));
+  }: IssueForm = JSON.parse(form!);
 
   if (!name || !repoUrl || !uniqueName) {
     throw new Error("Invalid form format");
@@ -56,7 +61,7 @@ async function run() {
     repo = repo.slice(0, -4);
   }
 
-  const modDb: ModList = JSON.parse(core.getInput(Input.mods));
+  const modDb: ModList = JSON.parse(modsRaw);
   const mods = modDb.mods;
 
   const newMod: ModInfo = {
@@ -116,9 +121,7 @@ async function run() {
 
   const jsonString = JSON.stringify(newModDb, null, 2);
 
-  core.setOutput(Output.mods, jsonString);
-
-  const outFile = core.getInput(Input.outFile);
+  console.log(jsonString);
 
   if (outFile) {
     writeFile(outFile, jsonString, (error) => {
