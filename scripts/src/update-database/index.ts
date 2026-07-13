@@ -21,7 +21,7 @@ const {
   },
 });
 
-const cloudflareApiToken = process.env.CLOUDFLARE_API_TOKEN ?? "";
+const cloudflareApiToken = process.env.CLOUDFLARE_API_TOKEN;
 const githubToken = process.env.GITHUB_TOKEN;
 
 if (!outDirectory || !modsFile || !previousDatabaseFile) {
@@ -30,6 +30,16 @@ if (!outDirectory || !modsFile || !previousDatabaseFile) {
       " --outDirectory <path> --modsFile <path> --previousDatabaseFile <path>",
   );
   console.error("Env: CLOUDFLARE_API_TOKEN, GITHUB_TOKEN");
+  process.exit(1);
+}
+
+if (!cloudflareApiToken) {
+  console.error("CLOUDFLARE_API_TOKEN environment variable is required");
+  process.exit(1);
+}
+
+if (!githubToken) {
+  console.error("GITHUB_TOKEN environment variable is required");
   process.exit(1);
 }
 
@@ -51,8 +61,11 @@ async function getAsyncStuff(previousDatabase: OutputMod[]) {
   const promises = [
     measureTime(fetchModManager(), "fetchModManager"),
     measureTime(fetchMods(mods, outDirectory!, previousDatabase), "fetchMods"),
-    measureTime(getInstallCounts(30, cloudflareApiToken), "getInstallCounts30"),
-    measureTime(getInstallCounts(8, cloudflareApiToken), "getInstallCounts8"),
+    measureTime(
+      getInstallCounts(30, cloudflareApiToken!),
+      "getInstallCounts30",
+    ),
+    measureTime(getInstallCounts(8, cloudflareApiToken!), "getInstallCounts8"),
   ] as const;
 
   const [modManager, nextDatabase, installCounts, weeklyInstallCounts] =
