@@ -1,16 +1,16 @@
-import { generateModThumbnail } from "./generate-mod-thumbnail.js";
+import { generateModThumbnail } from "./generate-mod-thumbnail.ts";
 import {
   getOctokit,
   getCleanedUpRelease,
   getCleanedUpReleaseList,
   getRepoUpdatedAt,
   getAllReleases,
-} from "./octokit.js";
-import { getDateAgeInHours } from "../helpers/dates.js";
-import { getReadmeUrls } from "./readmes.js";
-import { RELEASE_EXTENSION } from "../constants.js";
-import { BaseMod, OutputMod } from "../mod.js";
-import type { ModList } from "../mod-info.js";
+} from "./octokit.ts";
+import { getDateAgeInHours } from "../helpers/dates.ts";
+import { getReadmeUrls } from "./readmes.ts";
+import { RELEASE_EXTENSION } from "../constants.ts";
+import type { BaseMod, OutputMod } from "../mod.ts";
+import type { ModList } from "../mod-info.ts";
 
 const REPO_URL_BASE = "https://github.com";
 const FULL_UPDATE_RATE_HOURS = 12;

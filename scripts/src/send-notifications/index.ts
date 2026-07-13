@@ -1,9 +1,9 @@
 import * as core from "@actions/core";
 import { promises as fsp } from "fs";
 
-import { sendDiscordNotifications } from "./send-discord-notifications.js";
-import { getDiff } from "./get-diff.js";
-import type { DatabaseOutput } from "../mod.js";
+import { sendDiscordNotifications } from "./send-discord-notifications.ts";
+import { getDiff } from "./get-diff.ts";
+import type { DatabaseOutput } from "../mod.ts";
 
 enum Input {
   previousDatabaseFile = "previous-database",
