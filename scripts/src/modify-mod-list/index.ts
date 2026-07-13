@@ -3,17 +3,17 @@ import * as core from "@actions/core";
 import { writeFile } from "fs";
 import type { ModInfo, ModList } from "../mod-info.ts";
 
-enum Input {
-  outFile = "out-file",
-  form = "form",
-  mods = "mods",
-  gitHubToken = "github-token",
-}
+const Input = {
+  outFile: "out-file",
+  form: "form",
+  mods: "mods",
+  gitHubToken: "github-token",
+} as const;
 
-enum Output {
-  mods = "mods",
-  editedExistingMod = "edited-existing-mod",
-}
+const Output = {
+  mods: "mods",
+  editedExistingMod: "edited-existing-mod",
+} as const;
 
 // From .github/ISSUE_TEMPLATE/add-mod.yml.
 type IssueForm = {

@@ -5,13 +5,13 @@ import { promises as fsp } from "fs";
 import type { DatabaseOutput } from "../mod.ts";
 import type { BaseMod } from "../mod.ts";
 
-enum Input {
-    currentDatabaseFile = "current-database",
-    discordHookUrl = "discord-hook-url",
-    discordNewModRoleId = "discord-new-mod-role-id",
-    discordModUpdateRoleId = "discord-mod-update-role-id",
-    modUniqueId = "mod-unique-id",
-}
+const Input = {
+    currentDatabaseFile: "current-database",
+    discordHookUrl: "discord-hook-url",
+    discordNewModRoleId: "discord-new-mod-role-id",
+    discordModUpdateRoleId: "discord-mod-update-role-id",
+    modUniqueId: "mod-unique-id",
+} as const;
 
 async function run() {
     try {

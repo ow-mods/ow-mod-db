@@ -6,7 +6,12 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "node src/test/test.ts"
+    "test": "node src/test/test.ts",
+    "typecheck": "tsc",
+    "update-database": "node src/update-database/index.ts",
+    "send-notifications": "node src/send-notifications/index.ts",
+    "force-new-mod-notification": "node src/send-notifications/force-new-mod-notification.ts",
+    "modify-mod-list": "node src/modify-mod-list/index.ts"
   },
   "dependencies": {
     "@actions/core": "^3.0.1",

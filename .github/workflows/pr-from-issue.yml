@@ -30,7 +30,8 @@ jobs:
         working-directory: scripts
 
       - id: modify-mod-list
-        run: node scripts/src/modify-mod-list/index.ts
+        run: npm run modify-mod-list
+        working-directory: scripts
         env:
           INPUT_OUT_FILE: mods.json
           INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

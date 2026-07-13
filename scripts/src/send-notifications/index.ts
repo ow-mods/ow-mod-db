@@ -5,14 +5,14 @@ import { sendDiscordNotifications } from "./send-discord-notifications.ts";
 import { getDiff } from "./get-diff.ts";
 import type { DatabaseOutput } from "../mod.ts";
 
-enum Input {
-  previousDatabaseFile = "previous-database",
-  nextDatabaseFile = "next-database",
-  discordHookUrl = "discord-hook-url",
-  discordModUpdateRoleId = "discord-mod-update-role-id",
-  discordNewModRoleId = "discord-new-mod-role-id",
-  discordModHookUrls = "discord-mod-hook-urls",
-}
+const Input = {
+  previousDatabaseFile: "previous-database",
+  nextDatabaseFile: "next-database",
+  discordHookUrl: "discord-hook-url",
+  discordModUpdateRoleId: "discord-mod-update-role-id",
+  discordNewModRoleId: "discord-new-mod-role-id",
+  discordModHookUrls: "discord-mod-hook-urls",
+} as const;
 
 async function run() {
   const previousDatabaseJson = (

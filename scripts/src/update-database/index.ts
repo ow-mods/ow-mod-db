@@ -11,16 +11,16 @@ import { apiCallCount, rateLimitReached } from "./octokit.ts";
 import { DATABASE_FILE_NAME } from "../constants.ts";
 import type { OutputMod } from "../mod.ts";
 
-enum Input {
-  outDirectory = "out-directory",
-  modsFile = "mods",
-  previousDatabaseFile = "previous-database",
-  cloudflareApiToken = "cloudflare-api-token",
-}
+const Input = {
+  outDirectory: "out-directory",
+  modsFile: "mods",
+  previousDatabaseFile: "previous-database",
+  cloudflareApiToken: "cloudflare-api-token",
+} as const;
 
-enum Output {
-  releases = "releases",
-}
+const Output = {
+  releases: "releases",
+} as const;
 
 const measureTime = <T>(promise: Promise<T>, name: string) => {
   const initialTime = performance.now();
