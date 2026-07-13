@@ -19,7 +19,7 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -31,7 +31,7 @@ jobs:
         working-directory: scripts
 
       - name: Checkout database repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: master
           path: database
