@@ -24,22 +24,18 @@ const {
 const cloudflareApiToken = process.env.CLOUDFLARE_API_TOKEN;
 const githubToken = process.env.GITHUB_TOKEN;
 
-if (!outDirectory || !modsFile || !previousDatabaseFile) {
+if (
+  !outDirectory ||
+  !modsFile ||
+  !previousDatabaseFile ||
+  !cloudflareApiToken ||
+  !githubToken
+) {
   console.error(
     "Usage: node src/update-database/index.ts" +
       " --outDirectory <path> --modsFile <path> --previousDatabaseFile <path>",
   );
-  console.error("Env: CLOUDFLARE_API_TOKEN, GITHUB_TOKEN");
-  process.exit(1);
-}
-
-if (!cloudflareApiToken) {
-  console.error("CLOUDFLARE_API_TOKEN environment variable is required");
-  process.exit(1);
-}
-
-if (!githubToken) {
-  console.error("GITHUB_TOKEN environment variable is required");
+  console.error("Required env vars: CLOUDFLARE_API_TOKEN, GITHUB_TOKEN");
   process.exit(1);
 }
 
