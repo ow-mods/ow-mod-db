@@ -53,13 +53,14 @@ jobs:
       #   run: rm -rf database/thumbnails
 
       - name: Fetch mod releases and manifests
-        run: npm run update-database
+        run: >-
+          npm run update-database --
+          --outDirectory ../database
+          --modsFile ../mods.json
+          --previousDatabaseFile ../previous-database.json
         working-directory: scripts
         env:
-          INPUT_OUT_DIRECTORY: ../database
-          INPUT_MODS: ../mods.json
-          INPUT_PREVIOUS_DATABASE: ../previous-database.json
-          INPUT_CLOUDFLARE_API_TOKEN: ${{ github.event_name != 'pull_request' && secrets.CLOUDFLARE_API_TOKEN || '' }}
+          CLOUDFLARE_API_TOKEN: ${{ github.event_name != 'pull_request' && secrets.CLOUDFLARE_API_TOKEN || '' }}
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
@@ -90,12 +91,13 @@ jobs:
 
       - name: Send Notifications
         if: ${{ github.event_name != 'pull_request' }}
-        run: npm run send-notifications
+        run: >-
+          npm run send-notifications --
+          --previousDatabaseFile ../previous-database.json
+          --nextDatabaseFile ../database/database.json
         working-directory: scripts
         env:
-          INPUT_PREVIOUS_DATABASE: ../previous-database.json
-          INPUT_NEXT_DATABASE: ../database/database.json
-          INPUT_DISCORD_MOD_HOOK_URLS: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
-          INPUT_DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
-          INPUT_DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
-          INPUT_DISCORD_NEW_MOD_ROLE_ID: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
+          DISCORD_MOD_HOOK_URLS: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
+          DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
+          DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
+          DISCORD_NEW_MOD_ROLE_ID: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}

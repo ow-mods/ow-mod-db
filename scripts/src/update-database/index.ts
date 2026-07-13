@@ -1,4 +1,4 @@
-import * as core from "@actions/core";
+import { parseArgs } from "util";
 import fs, { promises as fsp, writeFile } from "fs";
 import path from "path";
 
@@ -11,16 +11,24 @@ import { apiCallCount, rateLimitReached } from "./octokit.ts";
 import { DATABASE_FILE_NAME } from "../constants.ts";
 import type { OutputMod } from "../mod.ts";
 
-const Input = {
-  outDirectory: "out-directory",
-  modsFile: "mods",
-  previousDatabaseFile: "previous-database",
-  cloudflareApiToken: "cloudflare-api-token",
-} as const;
+const { values: { outDirectory, modsFile, previousDatabaseFile } } = parseArgs({
+  options: {
+    outDirectory: { type: "string" },
+    modsFile: { type: "string" },
+    previousDatabaseFile: { type: "string" },
+  },
+});
 
-const Output = {
-  releases: "releases",
-} as const;
+const cloudflareApiToken = process.env.CLOUDFLARE_API_TOKEN ?? "";
+
+if (!outDirectory || !modsFile || !previousDatabaseFile) {
+  console.error(
+    "Usage: node src/update-database/index.ts" +
+    " --outDirectory <path> --modsFile <path> --previousDatabaseFile <path>",
+  );
+  console.error("Env: CLOUDFLARE_API_TOKEN");
+  process.exit(1);
+}
 
 const measureTime = <T>(promise: Promise<T>, name: string) => {
   const initialTime = performance.now();
@@ -35,14 +43,12 @@ const measureTime = <T>(promise: Promise<T>, name: string) => {
 };
 
 async function getAsyncStuff(previousDatabase: OutputMod[]) {
-  const cloudflareApiToken = core.getInput(Input.cloudflareApiToken);
-
-  const mods = (await fsp.readFile(core.getInput(Input.modsFile))).toString();
+  const mods = (await fsp.readFile(modsFile!)).toString();
 
   const promises = [
     measureTime(fetchModManager(), "fetchModManager"),
     measureTime(
-      fetchMods(mods, core.getInput(Input.outDirectory), previousDatabase),
+      fetchMods(mods, outDirectory!, previousDatabase),
       "fetchMods",
     ),
     measureTime(getInstallCounts(30, cloudflareApiToken), "getInstallCounts30"),
@@ -72,7 +78,7 @@ type DatabaseOutput = {
 
 async function run() {
   const previousDatabaseJson = (
-    await fsp.readFile(core.getInput(Input.previousDatabaseFile))
+    await fsp.readFile(previousDatabaseFile!)
   ).toString();
 
   const previousDatabaseOutput: DatabaseOutput =
@@ -110,13 +116,11 @@ async function run() {
     }
 
     if (rateLimitReached) {
-      core.setFailed("Rate limit reached");
-      return;
-    } else {
-      core.setOutput(Output.releases, databaseJson);
+      console.error("Rate limit reached");
+      process.exit(1);
     }
 
-    const outputDirectoryPath = core.getInput(Input.outDirectory);
+    const outputDirectoryPath = outDirectory!;
 
     if (!fs.existsSync(outputDirectoryPath)) {
       await fsp.mkdir(outputDirectoryPath, { recursive: true });
@@ -130,8 +134,8 @@ async function run() {
       },
     );
   } catch (error) {
-    core.setFailed(`Error running workflow script: ${error}`);
-    console.log(`Error running workflow script: ${error}`);
+    console.error(`Error running workflow script: ${error}`);
+    process.exit(1);
   }
 }
 

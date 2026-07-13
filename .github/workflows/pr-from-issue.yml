@@ -30,13 +30,13 @@ jobs:
         working-directory: scripts
 
       - id: modify-mod-list
-        run: npm run modify-mod-list
+        run: >-
+          npm run modify-mod-list --
+          --outFile ../mods.json
+          --form '${{ steps.issue-parser.outputs.jsonString }}'
         working-directory: scripts
         env:
-          INPUT_OUT_FILE: ../mods.json
-          INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          INPUT_FORM: ${{ steps.issue-parser.outputs.jsonString }}
-          INPUT_MODS: ${{ env.mods_output }}
+          MODS: ${{ env.mods_output }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
