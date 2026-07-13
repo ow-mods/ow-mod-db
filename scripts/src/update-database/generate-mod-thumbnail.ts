@@ -1,5 +1,5 @@
 import { Parser } from "commonmark";
-import sharp from "sharp";
+import sharp, { type Sharp, type Metadata } from "sharp";
 import fs, { promises as fsp } from "fs";
 import path from "path";
 import fetch from "node-fetch";
@@ -71,8 +71,8 @@ export async function generateModThumbnail(
 }
 
 const writeImageFile = (
-  sharpImage: sharp.Sharp,
-  metadata: sharp.Metadata,
+  sharpImage: Sharp,
+  metadata: Metadata,
   filePath: string
 ) => {
   if (!metadata.width || !metadata.height) {

@@ -1,4 +1,4 @@
-import secrets from "./secrets.json" assert { type: "json" };
+import secrets from "./secrets.json" with { type: "json" };
 import { BaseMod } from "../mod.js";
 import { sendDiscordNotifications } from "../send-notifications/send-discord-notifications.js";
 import { promises as fsp } from "fs";

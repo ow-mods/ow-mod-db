@@ -8,29 +8,24 @@
   "scripts": {
     "build": "tsc",
     "build-test": "tsc --project tsconfig.test.json",
-    "build-and-test": "set GITHUB_ACTION=true && pnpm run build-test && pnpm run test",
-    "test": "node build/test/test.js",
-    "lint": "eslint src"
+    "build-and-test": "set GITHUB_ACTION=true && npm run build-test && npm run test",
+    "test": "node build/test/test.js"
   },
   "dependencies": {
-    "@actions/core": "^1.11.1",
-    "@octokit/action": "^4.0.10",
-    "@octokit/core": "^4.2.4",
-    "@octokit/plugin-retry": "^4.1.6",
-    "@octokit/plugin-throttling": "^4.3.2",
-    "@octokit/request-error": "^3.0.3",
-    "@octokit/types": "^9.3.2",
+    "@actions/core": "^3.0.1",
+    "@octokit/action": "^8.0.4",
+    "@octokit/core": "^7.0.6",
+    "@octokit/plugin-retry": "^8.1.0",
+    "@octokit/plugin-throttling": "^11.0.3",
+    "@octokit/request-error": "^7.1.0",
+    "@octokit/types": "^16.0.0",
     "@types/commonmark": "^0.27.10",
-    "@types/node": "^18.19.120",
-    "@types/sharp": "^0.31.1",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "commonmark": "^0.30.0",
-    "eslint": "^8.57.1",
-    "htmlparser2": "^10.0.0",
+    "@types/node": "^26.1.1",
+    "@types/sharp": "^0.32.0",
+    "commonmark": "^0.31.2",
+    "htmlparser2": "^12.0.0",
     "node-fetch": "^3.3.2",
-    "sharp": "^0.33.5",
-    "typescript": "^4.9.5"
-  },
-  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
+    "sharp": "^0.35.3",
+    "typescript": "^7.0.2"
+  }
 }
