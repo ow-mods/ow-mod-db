@@ -53,7 +53,8 @@ jobs:
       #   run: rm -rf database/thumbnails
 
       - name: Fetch mod releases and manifests
-        run: node scripts/src/update-database/index.ts
+        run: npm run update-database
+        working-directory: scripts
         env:
           INPUT_OUT_DIRECTORY: database
           INPUT_MODS: mods.json
@@ -89,7 +90,8 @@ jobs:
 
       - name: Send Notifications
         if: ${{ github.event_name != 'pull_request' }}
-        run: node scripts/src/send-notifications/index.ts
+        run: npm run send-notifications
+        working-directory: scripts
         env:
           INPUT_PREVIOUS_DATABASE: previous-database.json
           INPUT_NEXT_DATABASE: database/database.json

@@ -37,7 +37,8 @@ jobs:
           path: database
 
       - name: Send Notifications
-        run: node scripts/src/send-notifications/force-new-mod-notification.ts
+        run: npm run force-new-mod-notification
+        working-directory: scripts
         env:
           INPUT_CURRENT_DATABASE: database/database.json
           INPUT_DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
