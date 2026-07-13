@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
-import { THUMBNAIL_URL_BASE } from "../constants.js";
-import { DiffItem } from "./get-diff.js";
+import { THUMBNAIL_URL_BASE } from "../constants.ts";
+import type { DiffItem } from "./get-diff.ts";
 
 function getNotificationTitle(diffItem: DiffItem) {
   switch (diffItem.diffType) {

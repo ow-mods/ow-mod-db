@@ -1,9 +1,9 @@
 import secrets from "./secrets.json" with { type: "json" };
-import { BaseMod } from "../mod.js";
-import { sendDiscordNotifications } from "../send-notifications/send-discord-notifications.js";
+import { BaseMod } from "../mod.ts";
+import { sendDiscordNotifications } from "../send-notifications/send-discord-notifications.ts";
 import { promises as fsp } from "fs";
-import type { DatabaseOutput } from "../mod.js";
-import type { DiffItem } from "../send-notifications/get-diff.js";
+import type { DatabaseOutput } from "../mod.ts";
+import type { DiffItem } from "../send-notifications/get-diff.ts";
 
 async function test() {
 	const now = new Date().toISOString();

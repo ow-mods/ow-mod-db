@@ -1,7 +1,7 @@
 import * as core from "@actions/core";
 
 import { writeFile } from "fs";
-import type { ModInfo, ModList } from "../mod-info.js";
+import type { ModInfo, ModList } from "../mod-info.ts";
 
 enum Input {
   outFile = "out-file",

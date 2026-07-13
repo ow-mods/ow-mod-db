@@ -25,25 +25,10 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "26"
 
-      - name: Cache pnpm modules
-        uses: actions/cache@v4
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-
-
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9.4.0
-          run_install: true
-
-      - name: Build
-        run: |
-          cd scripts
-          pnpm run build
+      - run: npm ci
+        working-directory: scripts
 
       - name: Checkout database repo
         uses: actions/checkout@v4
@@ -52,7 +37,7 @@ jobs:
           path: database
 
       - name: Send Notifications
-        run: node scripts/build/send-notifications/force-new-mod-notification.js
+        run: node scripts/src/send-notifications/force-new-mod-notification.ts
         env:
           INPUT_CURRENT_DATABASE: database/database.json
           INPUT_DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}

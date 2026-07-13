@@ -1,5 +1,5 @@
-import type { BaseMod } from "../mod.js";
-import { getDateAgeInHours } from "../helpers/dates.js";
+import type { BaseMod } from "../mod.ts";
+import { getDateAgeInHours } from "../helpers/dates.ts";
 
 const MAX_UPDATE_AGE_HOURS = 24;
 

@@ -1,4 +1,4 @@
-import { type ModManagerOutput } from "./update-database/fetch-mod-manager.js";
+import { type ModManagerOutput } from "./update-database/fetch-mod-manager.ts";
 
 export interface BaseMod {
   name: string;

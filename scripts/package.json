@@ -6,10 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "build-test": "tsc --project tsconfig.test.json",
-    "build-and-test": "set GITHUB_ACTION=true && npm run build-test && npm run test",
-    "test": "node build/test/test.js"
+    "test": "node src/test/test.ts"
   },
   "dependencies": {
     "@actions/core": "^3.0.1",

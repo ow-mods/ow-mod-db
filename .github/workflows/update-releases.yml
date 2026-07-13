@@ -32,25 +32,10 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "26"
 
-      - name: Cache pnpm modules
-        uses: actions/cache@v4
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-
-
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9.4.0
-          run_install: true
-
-      - name: Build
-        run: |
-          cd scripts
-          pnpm run build
+      - run: npm ci
+        working-directory: scripts
 
       - name: Checkout database repo
         uses: actions/checkout@v4
@@ -68,7 +53,7 @@ jobs:
       #   run: rm -rf database/thumbnails
 
       - name: Fetch mod releases and manifests
-        run: node scripts/build/update-database/index.js
+        run: node scripts/src/update-database/index.ts
         env:
           INPUT_OUT_DIRECTORY: database
           INPUT_MODS: mods.json
@@ -104,7 +89,7 @@ jobs:
 
       - name: Send Notifications
         if: ${{ github.event_name != 'pull_request' }}
-        run: node scripts/build/send-notifications/index.js
+        run: node scripts/src/send-notifications/index.ts
         env:
           INPUT_PREVIOUS_DATABASE: previous-database.json
           INPUT_NEXT_DATABASE: database/database.json

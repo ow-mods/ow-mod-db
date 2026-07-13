@@ -1,9 +1,9 @@
 import * as core from "@actions/core";
-import { sendDiscordNotifications } from "./send-discord-notifications.js";
-import type { DiffItem } from "./get-diff.js";
+import { sendDiscordNotifications } from "./send-discord-notifications.ts";
+import type { DiffItem } from "./get-diff.ts";
 import { promises as fsp } from "fs";
-import type { DatabaseOutput } from "../mod.js";
-import type { BaseMod } from "../mod.js";
+import type { DatabaseOutput } from "../mod.ts";
+import type { BaseMod } from "../mod.ts";
 
 enum Input {
     currentDatabaseFile = "current-database",

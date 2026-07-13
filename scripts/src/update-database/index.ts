@@ -2,14 +2,14 @@ import * as core from "@actions/core";
 import fs, { promises as fsp, writeFile } from "fs";
 import path from "path";
 
-import { fetchMods } from "./fetch-mods.js";
-import { fetchModManager, type ModManagerOutput } from "./fetch-mod-manager.js";
-import { toJsonString } from "../helpers/to-json-string.js";
-import { getInstallCounts } from "./get-install-counts.js";
-import { getSettledResult } from "../helpers/promises.js";
-import { apiCallCount, rateLimitReached } from "./octokit.js";
-import { DATABASE_FILE_NAME } from "../constants.js";
-import type { OutputMod } from "../mod.js";
+import { fetchMods } from "./fetch-mods.ts";
+import { fetchModManager, type ModManagerOutput } from "./fetch-mod-manager.ts";
+import { toJsonString } from "../helpers/to-json-string.ts";
+import { getInstallCounts } from "./get-install-counts.ts";
+import { getSettledResult } from "../helpers/promises.ts";
+import { apiCallCount, rateLimitReached } from "./octokit.ts";
+import { DATABASE_FILE_NAME } from "../constants.ts";
+import type { OutputMod } from "../mod.ts";
 
 enum Input {
   outDirectory = "out-directory",

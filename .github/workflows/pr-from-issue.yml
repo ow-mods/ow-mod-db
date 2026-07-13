@@ -15,7 +15,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "26"
 
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
@@ -26,18 +26,11 @@ jobs:
         id: local-mods
         run: echo "mods_output=$(< ./mods.json sed ':a;N;$!ba;s/\n/ /g')" >> $GITHUB_ENV
 
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 9.4.0
-          run_install: true
-
-      - name: Build
-        run: |
-          cd scripts
-          pnpm run build
+      - run: npm ci
+        working-directory: scripts
 
       - id: modify-mod-list
-        run: node scripts/build/modify-mod-list/index.js
+        run: node scripts/src/modify-mod-list/index.ts
         env:
           INPUT_OUT_FILE: mods.json
           INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
