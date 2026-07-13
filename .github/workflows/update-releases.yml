@@ -56,9 +56,9 @@ jobs:
         run: npm run update-database
         working-directory: scripts
         env:
-          INPUT_OUT_DIRECTORY: database
-          INPUT_MODS: mods.json
-          INPUT_PREVIOUS_DATABASE: previous-database.json
+          INPUT_OUT_DIRECTORY: ../database
+          INPUT_MODS: ../mods.json
+          INPUT_PREVIOUS_DATABASE: ../previous-database.json
           INPUT_CLOUDFLARE_API_TOKEN: ${{ github.event_name != 'pull_request' && secrets.CLOUDFLARE_API_TOKEN || '' }}
 
       - name: Upload Pages Artifact
@@ -93,8 +93,8 @@ jobs:
         run: npm run send-notifications
         working-directory: scripts
         env:
-          INPUT_PREVIOUS_DATABASE: previous-database.json
-          INPUT_NEXT_DATABASE: database/database.json
+          INPUT_PREVIOUS_DATABASE: ../previous-database.json
+          INPUT_NEXT_DATABASE: ../database/database.json
           INPUT_DISCORD_MOD_HOOK_URLS: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           INPUT_DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
           INPUT_DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}

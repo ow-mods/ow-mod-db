@@ -40,7 +40,7 @@ jobs:
         run: npm run force-new-mod-notification
         working-directory: scripts
         env:
-          INPUT_CURRENT_DATABASE: database/database.json
+          INPUT_CURRENT_DATABASE: ../database/database.json
           INPUT_DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
           INPUT_DISCORD_NEW_MOD_ROLE_ID: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
           INPUT_DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
