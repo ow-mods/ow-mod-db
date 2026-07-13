@@ -74,7 +74,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           mods: mods.json
           previous-database: previous-database.json
-          google-service-account: ${{ github.event_name != 'pull_request' && secrets.GOOGLE_SERVICE_ACCOUNT || '' }}
+          cloudflare-api-token: ${{ github.event_name != 'pull_request' && secrets.CLOUDFLARE_API_TOKEN || '' }}
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

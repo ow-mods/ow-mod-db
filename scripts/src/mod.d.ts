@@ -39,8 +39,6 @@ export interface BaseMod {
 }
 
 export interface OutputMod extends BaseMod {
-  viewCount: number;
-  weeklyViewCount: number;
   installCount: number;
   weeklyInstallCount: number;
 }

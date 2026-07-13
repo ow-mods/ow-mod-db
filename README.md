@@ -55,25 +55,6 @@ ID for the Discord role to ping when there's a mod update.
 
 ID for the Discord role to ping when there's a new mod added to the database.
 
-### GOOGLE_SERVICE_ACCOUNT
+### CLOUDFLARE_API_TOKEN
 
-Base64-encoded JSON object. Credentials of a Google service account with permissions to get the outerwildsmods.com view counts from google analytics. JSON format (before base64 encoding):
-
-```json
-{
-  "type": "service_account",
-  "project_id": "XXX",
-  "private_key_id": "XXX",
-  "private_key": "XXX",
-  "client_email": "XXX",
-  "client_id": "XXX",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "XXX"
-}
-```
-
-The Google service account is created on [Google Cloud](https://console.cloud.google.com). Specifically, you need to create the credentials on [APIs and Services -> Google Analytics Data API -> Credentials](https://console.cloud.google.com/apis/api/analyticsdata.googleapis.com/credentials). Then I guess (because I don't remember if that's how I did it back then) you fill in the json above, encode it with base64, and save it in the `GOOGLE_SERVICE_ACCOUNT` secret.
-
-You also need to note the "email" address of those credentials, and give it view permissions in [Google Analytics](https://analytics.google.com/analytics), under Admin -> Account -> Account Access Management. Fun stuff.
+Cloudflare API token from [here](https://dash.cloudflare.com/profile/api-tokens), with Analytics read permissions.
