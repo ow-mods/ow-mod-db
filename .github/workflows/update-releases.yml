@@ -60,7 +60,7 @@ jobs:
           --previousDatabaseFile ../previous-database.json
         working-directory: scripts
         env:
-          CLOUDFLARE_API_TOKEN: ${{ github.event_name != 'pull_request' && secrets.CLOUDFLARE_API_TOKEN || '' }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           GITHUB_TOKEN: ${{ env.GH_TOKEN }}
 
       - name: Upload Pages Artifact
