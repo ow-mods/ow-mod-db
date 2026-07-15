@@ -1,0 +1,177 @@
+name: Handle Mod Issue
+
+on:
+  issues:
+    types: [opened, reopened, edited]
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      issue-number:
+        description: "Issue number to process"
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+env:
+  ISSUE_NUMBER: ${{ github.event.inputs.issue-number || github.event.issue.number }}
+  RETRY_HINT: "You can retry this check anytime by commenting `checker, retry`."
+
+jobs:
+  check-new-mod:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event.issue.state != 'closed' &&
+        contains(github.event.issue.labels.*.name, 'add-mod') &&
+        github.event.issue.pull_request == null &&
+        (
+          github.event.comment == null ||
+          startsWith(github.event.comment.body, 'checker, retry')
+        )
+      )
+
+    outputs:
+      check-passed: ${{ steps.check-mod.outcome == 'success' }}
+      jsonString: ${{ steps.issue-parser.outputs.jsonString }}
+
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Resolve Issue Body
+        id: issue-body
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            body=$(gh api "repos/${{ github.repository }}/issues/${{ env.ISSUE_NUMBER }}" --jq '.body')
+          else
+            body='${{ github.event.issue.body }}'
+          fi
+
+          echo 'body<<EOF' >> $GITHUB_OUTPUT
+          echo "$body" >> $GITHUB_OUTPUT
+          echo 'EOF' >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: stefanbuck/github-issue-parser@cb6e97157cbf851e3a393ff8d57c93a484cc323f # v3.2.5
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/add-mod.yml
+          issue-body: ${{ steps.issue-body.outputs.body }}
+
+      - name: Get Mod Info
+        id: get-mod-info
+        run: |
+          jsonString='${{ steps.issue-parser.outputs.jsonString }}'
+
+          modUniqueName=$(echo "$jsonString" | jq -r '.uniqueName // empty')
+          echo "modUniqueName=$modUniqueName" >> $GITHUB_ENV
+
+          repoUrl=$(echo "$jsonString" | jq -r '.repoUrl // empty')
+          modRepo=$(echo "$repoUrl" | sed -E 's#https://github.com/([^/]+/[^/]+).*#\1#')
+          echo "modRepo=$modRepo" >> $GITHUB_ENV
+
+      - name: Find Report Comment
+        uses: peter-evans/find-comment@b30e6a3c0ed37e7c023ccd3f1db5c6c0b0c23aad # v4.0.0
+        id: find-report
+        with:
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          comment-author: "github-actions[bot]"
+          body-includes: "<!-- mod-check-report -->"
+
+      - name: Pending Comment
+        id: pending-comment
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        with:
+          comment-id: ${{ steps.find-report.outputs.comment-id }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          body: |
+            <!-- mod-check-report -->
+            :hourglass: **Checking mod...**
+
+            ${{ env.RETRY_HINT }}
+          edit-mode: replace
+
+      - name: Check Mod
+        id: check-mod
+        continue-on-error: true
+        uses: Bwc9876/mods-checker@main
+        with:
+          sourceType: repo
+          source: ${{ env.modRepo }}
+          overrideName: Check of ${{ env.modUniqueName }}
+          expectedUniqueName: ${{ env.modUniqueName }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get Results
+        id: results
+        run: |
+          content=$(cat ./results.md 2>/dev/null || echo 'The mod checker did not produce any output.')
+          echo 'content<<EOF' >> $GITHUB_OUTPUT
+          echo "$content" >> $GITHUB_OUTPUT
+          echo 'EOF' >> $GITHUB_OUTPUT
+
+      - name: Results Comment
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        with:
+          comment-id: ${{ steps.pending-comment.outputs.comment-id }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          body: |
+            <!-- mod-check-report -->
+            ${{ steps.results.outputs.content }}
+
+            ${{ env.RETRY_HINT }}
+          edit-mode: replace
+
+  pr-from-issue:
+    needs: check-new-mod
+    if: needs.check-new-mod.outputs.check-passed == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "26"
+
+      - name: Get local Mod Database file
+        id: local-mods
+        run: echo "mods_output=$(tr '\n' ' ' < ./mods.json)" >> $GITHUB_ENV
+
+      - run: npm ci
+        working-directory: scripts
+
+      - id: modify-mod-list
+        run: >-
+          npm run modify-mod-list --
+          --outFile ../mods.json
+          --form '${{ needs.check-new-mod.outputs.jsonString }}'
+        working-directory: scripts
+        env:
+          MODS: ${{ env.mods_output }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          title: "Add/Edit mod: ${{ fromJSON(needs.check-new-mod.outputs.jsonString).uniqueName }}"
+          commit-message: "Add/Edit mod: ${{ fromJSON(needs.check-new-mod.outputs.jsonString).uniqueName }}"
+          body: "Created from #${{ env.ISSUE_NUMBER }}\n${{ fromJSON(needs.check-new-mod.outputs.jsonString).repoUrl }}"
+          branch: add-mod-issue-${{ env.ISSUE_NUMBER }}
+          delete-branch: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          committer: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+          labels: "add-mod"
+
+      - name: Close Issue
+        run: gh issue close "${{ env.ISSUE_NUMBER }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
