@@ -61,6 +61,6 @@ jobs:
       - name: Final Comment
         uses: thollander/actions-comment-pull-request@24bffb9b452ba05a4f3f77933840a6a841d1b32b # v3.0.1
         with:
-          filePath: ./results.md
-          comment_tag: results
+          file-path: ./results.md
+          comment-tag: results
           mode: recreate
