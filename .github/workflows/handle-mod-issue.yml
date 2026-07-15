@@ -13,7 +13,7 @@ on:
         type: number
 
 permissions:
-  contents: read
+  contents: write
   issues: write
   pull-requests: write
 
@@ -37,7 +37,7 @@ jobs:
       )
 
     outputs:
-      check-passed: ${{ steps.check-mod.outcome == 'success' }}
+      check-passed: ${{ steps.check-result.outputs.passed }}
       jsonString: ${{ steps.issue-parser.outputs.jsonString }}
 
     steps:
@@ -46,12 +46,7 @@ jobs:
       - name: Resolve Issue Body
         id: issue-body
         run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
-            body=$(gh api "repos/${{ github.repository }}/issues/${{ env.ISSUE_NUMBER }}" --jq '.body')
-          else
-            body='${{ github.event.issue.body }}'
-          fi
-
+          body=$(gh api "repos/${{ github.repository }}/issues/${{ env.ISSUE_NUMBER }}" --jq '.body')
           echo 'body<<EOF' >> $GITHUB_OUTPUT
           echo "$body" >> $GITHUB_OUTPUT
           echo 'EOF' >> $GITHUB_OUTPUT
@@ -71,6 +66,10 @@ jobs:
 
           modUniqueName=$(echo "$jsonString" | jq -r '.uniqueName // empty')
           echo "modUniqueName=$modUniqueName" >> $GITHUB_ENV
+
+          isEdit=$(echo "$jsonString" | jq -r '.isEdit // empty')
+          skipDuplicateCheck=$([ -n "$isEdit" ] && [ "$isEdit" != "None" ] && echo "true" || echo "false")
+          echo "skipDuplicateCheck=$skipDuplicateCheck" >> $GITHUB_ENV
 
           repoUrl=$(echo "$jsonString" | jq -r '.repoUrl // empty')
           modRepo=$(echo "$repoUrl" | sed -E 's#https://github.com/([^/]+/[^/]+).*#\1#')
@@ -106,6 +105,7 @@ jobs:
           source: ${{ env.modRepo }}
           overrideName: Check of ${{ env.modUniqueName }}
           expectedUniqueName: ${{ env.modUniqueName }}
+          skipDuplicateCheck: ${{ env.skipDuplicateCheck }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get Results
@@ -115,6 +115,18 @@ jobs:
           echo 'content<<EOF' >> $GITHUB_OUTPUT
           echo "$content" >> $GITHUB_OUTPUT
           echo 'EOF' >> $GITHUB_OUTPUT
+
+      - name: Determine Check Result
+        id: check-result
+        if: always()
+        run: |
+          result='${{ steps.check-mod.outputs.resultJson }}'
+          error=$(echo "$result" | jq -r '.error // empty')
+          if [ -z "$error" ]; then
+            echo "passed=true" >> $GITHUB_OUTPUT
+          else
+            echo "passed=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Results Comment
         uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0

@@ -75,6 +75,13 @@ body:
       description: If this mod is an addon for another mod, place the parent's uniqueName here. For instance, custom planets made with New Horizons would have `xen.NewHorizons` in this field.
       placeholder: Raicuparta.ModTemplateParent
   - type: dropdown
+    id: isEdit
+    attributes:
+      label: I'm editing an existing mod
+      description: Select "Editing existing mod" if you're updating a mod that already exists in the database.
+      options:
+        - "Editing existing mod"
+  - type: dropdown
     id: dlc
     attributes:
       label: DLC Required
