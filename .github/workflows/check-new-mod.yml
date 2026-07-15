@@ -32,7 +32,7 @@ jobs:
         id: get-mod-info
         run: |
           tmp="${{ github.event.pull_request.title && github.event.pull_request.title || github.event.issue.title }}"
-          echo "modUniqueName=${tmp:13}" >> $GITHUB_ENV
+          echo "modUniqueName=${tmp:14}" >> $GITHUB_ENV
 
           pat="https://github.com/(.*)/?"
           ser="${{ github.event.pull_request.body && github.event.pull_request.body || github.event.issue.body }}"
