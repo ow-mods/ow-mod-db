@@ -146,8 +146,8 @@
       "repoUpdatedAt": "2026-06-10T06:20:07Z",
       "databaseEntryUpdatedAt": "2026-08-16T13:10:10.991Z",
       "repoVariations": [],
-      "installCount": 247,
-      "weeklyInstallCount": 57
+      "installCount": 248,
+      "weeklyInstallCount": 58
     },
     {
       "name": "FreeCam",
@@ -240,8 +240,8 @@
       "repoUpdatedAt": "2025-04-28T20:39:51Z",
       "databaseEntryUpdatedAt": "2026-08-16T13:10:10.733Z",
       "repoVariations": [],
-      "installCount": 453,
-      "weeklyInstallCount": 126
+      "installCount": 454,
+      "weeklyInstallCount": 127
     },
     {
       "name": "HD Screenshot",
@@ -1051,8 +1051,8 @@
       "repoVariations": [
         "https://github.com/xen-42/outer-wilds-new-horizons"
       ],
-      "installCount": 344,
-      "weeklyInstallCount": 63
+      "installCount": 345,
+      "weeklyInstallCount": 64
     },
     {
       "name": "New Horizons Examples",
@@ -6246,8 +6246,8 @@
       "repoUpdatedAt": "2025-09-03T22:17:34Z",
       "databaseEntryUpdatedAt": "2026-08-16T13:10:19.973Z",
       "repoVariations": [],
-      "installCount": 46,
-      "weeklyInstallCount": 17
+      "installCount": 48,
+      "weeklyInstallCount": 19
     },
     {
       "name": "Archipelago",
@@ -12772,6 +12772,38 @@
       "repoVariations": [],
       "installCount": 19,
       "weeklyInstallCount": 19
+    },
+    {
+      "name": "Sun-Proof Hotshot Readout",
+      "uniqueName": "dokaloop.SunProofHotshotReadout",
+      "description": "Make the lock-on distance/velocity readout readable against the sun. Custom colors, outlines, range tiers, and a bloom toggle.",
+      "author": "dokaloop",
+      "downloadUrl": "https://github.com/dokaloop/SunProofHotshotReadout/releases/download/v0.1.0/dokaloop.SunProofHotshotReadout.zip",
+      "downloadCount": 3,
+      "latestReleaseDate": "2026-08-16T14:48:37Z",
+      "firstReleaseDate": "2026-08-16T14:48:37Z",
+      "repo": "https://github.com/dokaloop/SunProofHotshotReadout",
+      "version": "v0.1.0",
+      "readme": {
+        "htmlUrl": "https://github.com/dokaloop/SunProofHotshotReadout/blob/main/README.md",
+        "downloadUrl": "https://raw.githubusercontent.com/dokaloop/SunProofHotshotReadout/main/README.md"
+      },
+      "authorDisplay": "dokaloop",
+      "latestReleaseDescription": "First release! Customize lock-on readout colors & outlines, with a bloom toggle.",
+      "latestPrereleaseDescription": "",
+      "tags": [
+        "tool",
+        "audiovisual"
+      ],
+      "slug": "sunproofhotshotreadout",
+      "thumbnail": {
+        "main": "sunproofhotshotreadout.webp"
+      },
+      "repoUpdatedAt": "2026-08-16T14:52:19Z",
+      "databaseEntryUpdatedAt": "2026-08-16T22:47:51.656Z",
+      "repoVariations": [],
+      "installCount": 0,
+      "weeklyInstallCount": 0
     }
   ],
   "alphaReleases": [
