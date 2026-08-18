@@ -1,23 +1,14 @@
 import { parseArgs } from "util";
-import { writeFile } from "fs";
+import { readFileSync, writeFileSync } from "fs";
 import type { ModInfo, ModList } from "../mod-info.ts";
 
-const { values: { outFile, form } } = parseArgs({
+const { values: { outFile } } = parseArgs({
   options: {
     outFile: { type: "string" },
-    form: { type: "string" },
   },
 });
 
-const modsRaw = process.env.MODS ?? "";
-
-if (!outFile || !form || !modsRaw) {
-  console.error(
-    "Usage: node src/modify-mod-list/index.ts --outFile <path> --form <json>",
-  );
-  console.error("Env: MODS");
-  process.exit(1);
-}
+const formRaw = process.env.FORM;
 
 // From .github/ISSUE_TEMPLATE/add-mod.yml.
 type IssueForm = {
@@ -33,7 +24,13 @@ type IssueForm = {
   tags?: string;
 };
 
-async function run() {
+function run() {
+  if (!outFile || !formRaw) {
+    console.error("Usage: node src/modify-mod-list/index.ts --outFile <path>");
+    console.error("Env: FORM (JSON from the mod issue form)");
+    process.exit(1);
+  }
+
   const {
     name,
     repoUrl,
@@ -45,7 +42,7 @@ async function run() {
     authorDisplay,
     tags,
     thumbnailUrl,
-  }: IssueForm = JSON.parse(form!);
+  }: IssueForm = JSON.parse(formRaw);
 
   if (!name || !repoUrl || !uniqueName) {
     throw new Error("Invalid form format");
@@ -61,7 +58,7 @@ async function run() {
     repo = repo.slice(0, -4);
   }
 
-  const modDb: ModList = JSON.parse(modsRaw);
+  const modDb: ModList = JSON.parse(readFileSync(outFile, "utf8"));
   const mods = modDb.mods;
 
   const newMod: ModInfo = {
@@ -123,10 +120,13 @@ async function run() {
 
   console.log(jsonString);
 
-  if (outFile) {
-    writeFile(outFile, jsonString, (error) => {
-      if (error) console.log("Couldn't Write To Mods File: ", error);
-    });
+  // Write synchronously and fail loudly: if the write fails and the step still
+  // exits 0, create-pull-request would create a PR from an unchanged mods.json.
+  try {
+    writeFileSync(outFile, jsonString);
+  } catch (error) {
+    console.error("Couldn't write to mods file: ", error);
+    process.exit(1);
   }
 }
 

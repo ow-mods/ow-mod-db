@@ -45,11 +45,14 @@ jobs:
 
       - name: Resolve Issue Body
         id: issue-body
+        # Only needed for manual runs: on issue/comment events the body is already
+        # in github.event.issue.body (which is the parser's default).
+        if: github.event_name == 'workflow_dispatch'
         run: |
           body=$(gh api "repos/${{ github.repository }}/issues/${{ env.ISSUE_NUMBER }}" --jq '.body')
-          echo 'body<<EOF' >> $GITHUB_OUTPUT
+          echo "body<<BODY_EOF_${{ github.run_id }}" >> $GITHUB_OUTPUT
           echo "$body" >> $GITHUB_OUTPUT
-          echo 'EOF' >> $GITHUB_OUTPUT
+          echo "BODY_EOF_${{ github.run_id }}" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -57,23 +60,25 @@ jobs:
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/add-mod.yml
-          issue-body: ${{ steps.issue-body.outputs.body }}
+          issue-body: ${{ steps.issue-body.outputs.body || github.event.issue.body }}
 
       - name: Get Mod Info
         id: get-mod-info
         run: |
-          jsonString='${{ steps.issue-parser.outputs.jsonString }}'
-
-          modUniqueName=$(echo "$jsonString" | jq -r '.uniqueName // empty')
+          modUniqueName=$(jq -r '.uniqueName // empty' <<< "$FORM")
           echo "modUniqueName=$modUniqueName" >> $GITHUB_ENV
 
-          isEdit=$(echo "$jsonString" | jq -r '.isEdit // empty')
+          isEdit=$(jq -r '.isEdit // empty' <<< "$FORM")
           skipDuplicateCheck=$([ -n "$isEdit" ] && [ "$isEdit" != "None" ] && echo "true" || echo "false")
           echo "skipDuplicateCheck=$skipDuplicateCheck" >> $GITHUB_ENV
 
-          repoUrl=$(echo "$jsonString" | jq -r '.repoUrl // empty')
-          modRepo=$(echo "$repoUrl" | sed -E 's#https://github.com/([^/]+/[^/]+).*#\1#')
+          repoUrl=$(jq -r '.repoUrl // empty' <<< "$FORM")
+          # Same extraction as scripts/src/modify-mod-list/index.ts:
+          # accept any github.com/owner/repo and strip a trailing .git.
+          modRepo=$(printf '%s' "$repoUrl" | sed -E 's#.*github\.com/([^/]+/[^/]+)/?.*#\1#' | sed -E 's#\.git$##')
           echo "modRepo=$modRepo" >> $GITHUB_ENV
+        env:
+          FORM: ${{ steps.issue-parser.outputs.jsonString }}
 
       - name: Find Report Comment
         uses: peter-evans/find-comment@b30e6a3c0ed37e7c023ccd3f1db5c6c0b0c23aad # v4.0.0
@@ -112,21 +117,32 @@ jobs:
         id: results
         run: |
           content=$(cat ./results.md 2>/dev/null || echo 'The mod checker did not produce any output.')
-          echo 'content<<EOF' >> $GITHUB_OUTPUT
+          echo "content<<RESULTS_EOF_${{ github.run_id }}" >> $GITHUB_OUTPUT
           echo "$content" >> $GITHUB_OUTPUT
-          echo 'EOF' >> $GITHUB_OUTPUT
+          echo "RESULTS_EOF_${{ github.run_id }}" >> $GITHUB_OUTPUT
 
       - name: Determine Check Result
         id: check-result
         if: always()
         run: |
-          result='${{ steps.check-mod.outputs.resultJson }}'
-          error=$(echo "$result" | jq -r '.error // empty')
+          # Fail closed: if the checker crashed without producing resultJson
+          # (or produced unparseable JSON), treat the check as failed instead
+          # of silently passing.
+          if [ -z "$RESULT" ]; then
+            echo "passed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          if ! error=$(jq -r '.error // empty' <<< "$RESULT" 2>/dev/null); then
+            echo "passed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
           if [ -z "$error" ]; then
             echo "passed=true" >> $GITHUB_OUTPUT
           else
             echo "passed=false" >> $GITHUB_OUTPUT
           fi
+        env:
+          RESULT: ${{ steps.check-mod.outputs.resultJson }}
 
       - name: Results Comment
         uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
@@ -155,21 +171,14 @@ jobs:
         with:
           node-version: "26"
 
-      - name: Get local Mod Database file
-        id: local-mods
-        run: echo "mods_output=$(tr '\n' ' ' < ./mods.json)" >> $GITHUB_ENV
-
       - run: npm ci
         working-directory: scripts
 
       - id: modify-mod-list
-        run: >-
-          npm run modify-mod-list --
-          --outFile ../mods.json
-          --form '${{ needs.check-new-mod.outputs.jsonString }}'
+        run: npm run modify-mod-list -- --outFile ../mods.json
         working-directory: scripts
         env:
-          MODS: ${{ env.mods_output }}
+          FORM: ${{ needs.check-new-mod.outputs.jsonString }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
