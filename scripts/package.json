@@ -6,26 +6,32 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "node src/test/test.ts",
     "typecheck": "tsc",
     "update-database": "node src/update-database/index.ts",
-    "send-notifications": "node src/send-notifications/index.ts",
-    "force-new-mod-notification": "node src/send-notifications/force-new-mod-notification.ts",
-    "modify-mod-list": "node src/modify-mod-list/index.ts"
+    "handle-mod-issue": "node src/handle-mod-issue/index.ts"
   },
   "dependencies": {
-    "@octokit/action": "^8.0.4",
+    "@github/issue-parser": "^2.0.0",
     "@octokit/core": "^7.0.6",
+    "@octokit/plugin-paginate-rest": "^15.0.0",
+    "@octokit/plugin-rest-endpoint-methods": "^18.0.0",
     "@octokit/plugin-retry": "^8.1.0",
     "@octokit/plugin-throttling": "^11.0.3",
     "@octokit/request-error": "^7.1.0",
     "@octokit/types": "^16.0.0",
     "@types/commonmark": "^0.27.10",
     "@types/node": "^26.1.1",
+    "adm-zip": "^0.6.0",
     "commonmark": "^0.31.2",
     "htmlparser2": "^12.0.0",
     "node-fetch": "^3.3.2",
+    "octokit-plugin-create-pull-request": "^6.0.1",
+    "semver": "^7.8.5",
     "sharp": "^0.35.3",
     "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.8",
+    "@types/semver": "^7.8.0"
   }
 }

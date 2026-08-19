@@ -19,7 +19,11 @@ export type DiffItem =
       diffType: "update-prerelease";
     };
 
-export function getDiff(previousDatabase: BaseMod[], nextDatabase: BaseMod[]) {
+export function getDiff(
+  previousDatabase: BaseMod[],
+  nextDatabase: BaseMod[],
+  newModUniqueNames: Set<string> = new Set(),
+) {
   const diff: DiffItem[] = [];
 
   for (const nextDatabaseMod of nextDatabase) {
@@ -27,18 +31,20 @@ export function getDiff(previousDatabase: BaseMod[], nextDatabase: BaseMod[]) {
       (mod) => mod.uniqueName === nextDatabaseMod.uniqueName
     );
 
-    if (
-      getDateAgeInHours(nextDatabaseMod.latestReleaseDate) <
-      MAX_UPDATE_AGE_HOURS
-    ) {
-      if (!previousDatabaseMod) {
+    if (!previousDatabaseMod) {
+      if (newModUniqueNames.has(nextDatabaseMod.uniqueName)) {
         diff.push({
           diffType: "add",
           nextMod: nextDatabaseMod,
         });
-        continue;
       }
+      continue;
+    }
 
+    if (
+      getDateAgeInHours(nextDatabaseMod.latestReleaseDate) <
+      MAX_UPDATE_AGE_HOURS
+    ) {
       if (previousDatabaseMod.version !== nextDatabaseMod.version) {
         diff.push({
           diffType: "update",

@@ -1,4 +1,10 @@
-import { type ModManagerOutput } from "./update-database/fetch-mod-manager.ts";
+export interface OutputModManager {
+  version: string;
+  downloadUrl: string;
+  zipDownloadUrl: string;
+  installerDownloadUrl: string;
+  downloadCount: number;
+}
 
 export interface BaseMod {
   name: string;
@@ -44,7 +50,7 @@ export interface OutputMod extends BaseMod {
 }
 
 export type DatabaseOutput = {
-  modManager: ModManagerOutput;
+  modManager: OutputModManager;
   releases: OutputMod[];
   alphaReleases: OutputMod[];
 };

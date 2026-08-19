@@ -1,16 +1,37 @@
 import { generateModThumbnail } from "./generate-mod-thumbnail.ts";
-import {
-  getOctokit,
-  getCleanedUpRelease,
-  getCleanedUpReleaseList,
-  getRepoUpdatedAt,
-  getAllReleases,
-} from "./octokit.ts";
-import { getDateAgeInHours } from "../helpers/dates.ts";
+import type { RestEndpointMethodTypes } from "@octokit/plugin-rest-endpoint-methods";
+import { getAllReleases, getOctokit } from "../helpers/octokit.ts";
+import { getDateAgeInHours, getLatestDate } from "../helpers/dates.ts";
 import { getReadmeUrls } from "./readmes.ts";
-import { RELEASE_EXTENSION } from "../constants.ts";
+import { RELEASE_EXTENSION } from "../config.ts";
 import type { BaseMod, OutputMod } from "../mod.ts";
 import type { ModList } from "../mod-info.ts";
+
+type OctokitRepo = RestEndpointMethodTypes["repos"]["get"]["response"]["data"];
+type OctokitRelease =
+  RestEndpointMethodTypes["repos"]["listReleases"]["response"]["data"][number];
+
+function getCleanedUpRelease(release: OctokitRelease) {
+  const asset = release.assets[0];
+
+  return {
+    downloadUrl: asset.browser_download_url,
+    downloadCount: asset.download_count,
+    version: release.tag_name,
+    date: asset.created_at,
+    description: release.body,
+  };
+}
+
+function getCleanedUpReleaseList(releaseList: OctokitRelease[]) {
+  return releaseList
+    .filter(({ assets }) => assets.length > 0)
+    .map(getCleanedUpRelease);
+}
+
+function getRepoUpdatedAt(repository: OctokitRepo) {
+  return getLatestDate(repository.updated_at, repository.pushed_at);
+}
 
 const REPO_URL_BASE = "https://github.com";
 const FULL_UPDATE_RATE_HOURS = 12;
@@ -18,7 +39,7 @@ const FULL_UPDATE_RATE_HOURS = 12;
 export async function fetchMods(
   modsJson: string,
   outputDirectory: string,
-  previousDatabase: OutputMod[]
+  previousDatabase: OutputMod[],
 ): Promise<BaseMod[]> {
   const modDb: ModList = JSON.parse(modsJson);
   const modInfos = modDb.mods;
@@ -27,7 +48,7 @@ export async function fetchMods(
   return Promise.all(
     modInfos.map(async (modInfo) => {
       const previousMod = previousDatabase.find(
-        (mod) => mod.uniqueName === modInfo.uniqueName
+        (mod) => mod.uniqueName === modInfo.uniqueName,
       );
 
       try {
@@ -64,7 +85,7 @@ export async function fetchMods(
             slug,
             modInfo.thumbnailUrl,
             readme?.downloadUrl,
-            outputDirectory
+            outputDirectory,
           );
 
           if (newThumbnail.main) {
@@ -73,15 +94,16 @@ export async function fetchMods(
           if (newThumbnail.openGraph) {
             thumbnailInfo.openGraph = newThumbnail.openGraph;
           }
-        }
-        catch (error) {
-          console.error(`Failed to generate mod thumbnail for mod ${modInfo.uniqueName}: ${error}`);
+        } catch (error) {
+          console.error(
+            `Failed to generate mod thumbnail for mod ${modInfo.uniqueName}: ${error}`,
+          );
         }
 
         const repoURL = `${REPO_URL_BASE}/${modInfo.repo}`;
         const repoVariations = modInfo.repoVariations
           ? modInfo.repoVariations.map(
-              (value: string) => `${REPO_URL_BASE}/${value}`
+              (value: string) => `${REPO_URL_BASE}/${value}`,
             )
           : [];
 
@@ -104,26 +126,26 @@ export async function fetchMods(
           .sort(
             (releaseA, releaseB) =>
               new Date(releaseB.created_at).valueOf() -
-              new Date(releaseA.created_at).valueOf()
+              new Date(releaseA.created_at).valueOf(),
           )
           .filter((release) => !release.draft);
 
         const prereleaseList = fullReleaseList.filter(
-          (release) => release.prerelease
+          (release) => release.prerelease,
         );
 
         const releaseList = fullReleaseList.filter(
           (release) =>
             !release.prerelease &&
             release.assets[0] &&
-            release.assets[0].browser_download_url.endsWith(RELEASE_EXTENSION)
+            release.assets[0].browser_download_url.endsWith(RELEASE_EXTENSION),
         );
 
         const latestRelease = releaseList[0];
 
         if (!latestRelease) {
           throw new Error(
-            "Failed to find latest release from either release list or latest release endpoint"
+            "Failed to find latest release from either release list or latest release endpoint",
           );
         }
 
@@ -135,7 +157,7 @@ export async function fetchMods(
           (accumulator, release) => {
             return accumulator + release.downloadCount;
           },
-          0
+          0,
         );
 
         if (modInfo.downloadCountOffset) {
@@ -186,6 +208,6 @@ export async function fetchMods(
         console.error(`Error updating mod ${modInfo.uniqueName}:`, error);
         throw error;
       }
-    })
+    }),
   );
 }

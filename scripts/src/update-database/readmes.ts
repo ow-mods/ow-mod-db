@@ -1,5 +1,5 @@
 import { RequestError } from "@octokit/request-error";
-import type { CreatedOctokit } from "./octokit.ts";
+import type { CreatedOctokit } from "../helpers/octokit.ts";
 import fetch from "node-fetch";
 import type { ModInfo } from "../mod-info.ts";
 

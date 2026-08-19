@@ -1,10 +1,10 @@
-import { Octokit } from "@octokit/action";
-import type { RestEndpointMethodTypes } from "@octokit/action";
-import { type OctokitOptions } from "@octokit/core";
+import { Octokit, type OctokitOptions } from "@octokit/core";
+import { paginateRest } from "@octokit/plugin-paginate-rest";
+import { restEndpointMethods } from "@octokit/plugin-rest-endpoint-methods";
 import { retry } from "@octokit/plugin-retry";
 import { throttling } from "@octokit/plugin-throttling";
+import { createPullRequest } from "octokit-plugin-create-pull-request";
 import fetch from "node-fetch";
-import { getLatestDate } from "../helpers/dates.ts";
 
 // It's useful to log the API call count,
 // but replacing the fetch function seems to some times cause the "premature close" error.
@@ -14,13 +14,17 @@ const LOG_API_CALL_COUNTS = false;
 export let rateLimitReached = false;
 export let apiCallCount = 0;
 
-type OctokitRepo = RestEndpointMethodTypes["repos"]["get"]["response"]["data"];
-type OctokitRelease =
-  RestEndpointMethodTypes["repos"]["listReleases"]["response"]["data"][number];
-
-function createOctokit() {
-  const OctokitWithPlugins = Octokit.plugin(retry, throttling);
+function createOctokit(token: string, baseUrl: string) {
+  const OctokitWithPlugins = Octokit.plugin(
+    retry,
+    throttling,
+    paginateRest,
+    restEndpointMethods,
+    createPullRequest,
+  );
   return new OctokitWithPlugins({
+    auth: token,
+    baseUrl,
     request: LOG_API_CALL_COUNTS
       ? {
           fetch: (...parameters: Parameters<typeof fetch>) => {
@@ -66,33 +70,17 @@ function createOctokit() {
 export type CreatedOctokit = ReturnType<typeof createOctokit>;
 let createdOctokit: CreatedOctokit;
 
+const GITHUB_API_URL = "https://api.github.com";
+
 export function getOctokit() {
+  const token = process.env.GH_TOKEN;
+  if (!token) {
+    throw new Error("Missing GitHub token. Set the GH_TOKEN environment variable.");
+  }
   if (!createdOctokit) {
-    createdOctokit = createOctokit();
+    createdOctokit = createOctokit(token, GITHUB_API_URL);
   }
   return createdOctokit;
-}
-
-export function getCleanedUpRelease(release: OctokitRelease) {
-  const asset = release.assets[0];
-
-  return {
-    downloadUrl: asset.browser_download_url,
-    downloadCount: asset.download_count,
-    version: release.tag_name,
-    date: asset.created_at,
-    description: release.body,
-  };
-}
-
-export function getCleanedUpReleaseList(releaseList: OctokitRelease[]) {
-  return releaseList
-    .filter(({ assets }) => assets.length > 0)
-    .map(getCleanedUpRelease);
-}
-
-export function getRepoUpdatedAt(repository: OctokitRepo) {
-  return getLatestDate(repository.updated_at, repository.pushed_at);
 }
 
 export async function getAllReleases(

@@ -1,6 +1,97 @@
+import { promises as fsp } from "fs";
+import path from "path";
 import fetch from "node-fetch";
-import { THUMBNAIL_URL_BASE } from "../constants.ts";
-import type { DiffItem } from "./get-diff.ts";
+
+import { DATABASE_FILE_NAME, THUMBNAIL_URL_BASE } from "../config.ts";
+import { getDiff, type DiffItem } from "./get-diff.ts";
+import type { DatabaseOutput, OutputMod } from "../mod.ts";
+import type { ModList } from "../mod-info.ts";
+
+export async function notifyDatabase(
+  databaseDirectory: string,
+  previousDatabaseFile: string,
+  modsFile: string,
+  previousModsFile: string,
+) {
+  const discordHookUrl = process.env.DISCORD_HOOK_URL;
+
+  if (!discordHookUrl) {
+    console.log("No DISCORD_HOOK_URL set, skipping notifications");
+    return;
+  }
+
+  const nextDatabaseFile = path.join(databaseDirectory, DATABASE_FILE_NAME);
+
+  const [previousMods, nextMods, newModUniqueNames] = await Promise.all([
+    readDatabaseFile(previousDatabaseFile),
+    readDatabaseFile(nextDatabaseFile),
+    getNewModUniqueNames(modsFile, previousModsFile),
+  ]);
+
+  const diff = getDiff(previousMods, nextMods, newModUniqueNames);
+
+  const discordModUpdateRoleId = process.env.DISCORD_MOD_UPDATE_ROLE_ID ?? "";
+  const discordNewModRoleId = process.env.DISCORD_NEW_MOD_ROLE_ID ?? "";
+  const discordModHookUrls: Record<string, string> = JSON.parse(
+    process.env.DISCORD_MOD_HOOK_URLS ?? "{}",
+  );
+
+  console.log(`Sending notifications for ${diff.length} items...`);
+
+  try {
+    if (diff.length > 0) {
+      const containsNewMod = diff.find(
+        (diffItem) => diffItem.diffType === "add",
+      );
+
+      const response = await fetch(discordHookUrl, {
+        method: "post",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          content: `${pingRoleId(discordModUpdateRoleId)} ${
+            containsNewMod ? pingRoleId(discordNewModRoleId) : ""
+          }`,
+          embeds: diff.map(getEmbed),
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(
+          `Discord API post response not ok. ${response.status}: ${response.statusText}`,
+        );
+      }
+    }
+  } catch (error) {
+    console.error(
+      `Failed to send Discord notification for ${diff.length} diffs: ${error}`,
+    );
+  }
+
+  for (const diffItem of diff) {
+    try {
+      const discordModHookUrl = discordModHookUrls[diffItem.nextMod.uniqueName];
+      if (discordModHookUrl) {
+        fetch(discordModHookUrl, {
+          method: "post",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            embeds: [getEmbed(diffItem)],
+          }),
+        });
+      }
+    } catch (error) {
+      console.error(
+        `Failed to send Discord notification for specific mod channel: ${error}`,
+      );
+    }
+  }
+
+  console.log("Done");
+}
 
 function getNotificationTitle(diffItem: DiffItem) {
   switch (diffItem.diffType) {
@@ -125,64 +216,32 @@ function pingRoleId(id: string) {
   return `<@&${id}>`;
 }
 
-export async function sendDiscordNotifications(
-  discordHookUrl: string,
-  discordModUpdateRoleId: string,
-  discordNewModRoleId: string,
-  diff: DiffItem[],
-  discordModHookUrls: Record<string, string>
-) {
-  console.log(`Sending notifications for ${diff.length} items...`);
+function readDatabaseFile(filePath: string): Promise<OutputMod[]> {
+  return fsp.readFile(filePath).then((json) => {
+    const databaseOutput: DatabaseOutput = JSON.parse(json.toString());
+    return [...databaseOutput.releases, ...databaseOutput.alphaReleases];
+  });
+}
 
-  try {
-    if (diff.length > 0) {
-      const containsNewMod = diff.find(
-        (diffItem) => diffItem.diffType === "add"
-      );
+async function getNewModUniqueNames(
+  modsFile: string,
+  previousModsFile: string,
+): Promise<Set<string>> {
+  const [currentModsJson, previousModsJson] = await Promise.all([
+    fsp.readFile(modsFile, "utf8"),
+    fsp.readFile(previousModsFile, "utf8"),
+  ]);
 
-      const response = await fetch(discordHookUrl, {
-        method: "post",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          content: `${pingRoleId(discordModUpdateRoleId)} ${
-            containsNewMod ? pingRoleId(discordNewModRoleId) : ""
-          }`,
-          embeds: diff.map(getEmbed),
-        }),
-      });
+  const currentModList: ModList = JSON.parse(currentModsJson);
+  const previousModList: ModList = JSON.parse(previousModsJson);
 
-      if (!response.ok) {
-        throw new Error(
-          `Discord API post response not ok. ${response.status}: ${response.statusText}`
-        );
-      }
-    }
-  } catch (error) {
-    console.error(
-      `Failed to send Discord notification for ${diff.length} diffs: ${error}`
-    );
-  }
+  const previousUniqueNames = new Set(
+    previousModList.mods.map((mod) => mod.uniqueName),
+  );
 
-  for (const diffItem of diff) {
-    try {
-      const discordModHookUrl = discordModHookUrls[diffItem.nextMod.uniqueName];
-      if (discordModHookUrl) {
-        fetch(discordModHookUrl, {
-          method: "post",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            embeds: [getEmbed(diffItem)],
-          }),
-        });
-      }
-    } catch (error) {
-      console.error(
-        `Failed to send Discord notification for specific mod channel: ${error}`
-      );
-    }
-  }
+  return new Set(
+    currentModList.mods
+      .filter((mod) => !previousUniqueNames.has(mod.uniqueName))
+      .map((mod) => mod.uniqueName),
+  );
 }

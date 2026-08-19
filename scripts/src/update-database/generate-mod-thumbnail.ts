@@ -4,7 +4,7 @@ import fs, { promises as fsp } from "fs";
 import path from "path";
 import fetch from "node-fetch";
 import { getReadmeMarkdown } from "./readmes.ts";
-import { GITHUB_RAW_CONTENT_URL } from "../constants.ts";
+import { GITHUB_RAW_CONTENT_URL } from "../config.ts";
 import { Parser as HtmlParser } from "htmlparser2";
 
 export const thumbnailSize = {
