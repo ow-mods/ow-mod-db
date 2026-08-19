@@ -1,26 +1,19 @@
-import { RELEASE_EXTENSION } from "../constants.ts";
-import { getAllReleases, getOctokit } from "./octokit.ts";
+import { RELEASE_EXTENSION } from "../config.ts";
+import { getAllReleases, getOctokit } from "../helpers/octokit.ts";
+import type { OutputModManager } from "../mod.ts";
 
 const MANAGER_REPO_AUTHOR = "ow-mods";
 const MANAGER_REPO_NAME = "ow-mod-manager";
 const LEGACY_RELEASE_TAG = "LEGACY";
 const EXE_EXTENSION = "exe";
 
-export type ModManagerOutput = {
-  version: string;
-  downloadUrl: string;
-  zipDownloadUrl: string;
-  installerDownloadUrl: string;
-  downloadCount: number;
-};
-
-export async function fetchModManager(): Promise<ModManagerOutput> {
+export async function fetchModManager(): Promise<OutputModManager> {
   const octokit = getOctokit();
 
   const managerReleases = await getAllReleases(
     octokit,
     MANAGER_REPO_AUTHOR,
-    MANAGER_REPO_NAME
+    MANAGER_REPO_NAME,
   );
   const managerLatestRelease = managerReleases[0];
   const managerDownloadCount = managerReleases.reduce(
@@ -30,7 +23,7 @@ export async function fetchModManager(): Promise<ModManagerOutput> {
           ({ name }) =>
             (name.endsWith(RELEASE_EXTENSION) &&
               !name.includes(LEGACY_RELEASE_TAG)) ||
-            name.endsWith(EXE_EXTENSION)
+            name.endsWith(EXE_EXTENSION),
         )
         .reduce((assetsDownloadAccumulator, { download_count }) => {
           return assetsDownloadAccumulator + download_count;
@@ -38,21 +31,21 @@ export async function fetchModManager(): Promise<ModManagerOutput> {
 
       return managerDownloadAccumulator + assetsDownloadCount;
     },
-    0
+    0,
   );
 
   const assets = managerLatestRelease.assets;
   const zipAssets = assets.filter((asset) =>
-    asset.name.endsWith(`.${RELEASE_EXTENSION}`)
+    asset.name.endsWith(`.${RELEASE_EXTENSION}`),
   );
   const legacyZipAsset = zipAssets.find((asset) =>
-    asset.name.includes(LEGACY_RELEASE_TAG)
+    asset.name.includes(LEGACY_RELEASE_TAG),
   );
   const mainZipAsset = zipAssets.find(
-    (asset) => !asset.name.includes(LEGACY_RELEASE_TAG)
+    (asset) => !asset.name.includes(LEGACY_RELEASE_TAG),
   );
   const exeAsset = assets.find((asset) =>
-    asset.name.endsWith(`.${EXE_EXTENSION}`)
+    asset.name.endsWith(`.${EXE_EXTENSION}`),
   );
 
   return {

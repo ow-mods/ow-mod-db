@@ -24,10 +24,6 @@ GitHub token with repo permissions. Format:
 ghp_XXX
 ```
 
-### `GH_USER`
-
-User name that owns GH_TOKEN
-
 ### `DISCORD_HOOK_URL`
 
 Discord web hook URL where all the notifications are sent. Format:

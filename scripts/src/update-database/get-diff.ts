@@ -14,12 +14,16 @@ export type DiffItem =
       diffType: "update";
     }
   | {
-      previousMod?: BaseMod;
+      previousMod: BaseMod;
       nextMod: BaseMod;
       diffType: "update-prerelease";
     };
 
-export function getDiff(previousDatabase: BaseMod[], nextDatabase: BaseMod[]) {
+export function getDiff(
+  previousDatabase: BaseMod[],
+  nextDatabase: BaseMod[],
+  newModUniqueNames: Set<string> = new Set(),
+) {
   const diff: DiffItem[] = [];
 
   for (const nextDatabaseMod of nextDatabase) {
@@ -27,18 +31,20 @@ export function getDiff(previousDatabase: BaseMod[], nextDatabase: BaseMod[]) {
       (mod) => mod.uniqueName === nextDatabaseMod.uniqueName
     );
 
-    if (
-      getDateAgeInHours(nextDatabaseMod.latestReleaseDate) <
-      MAX_UPDATE_AGE_HOURS
-    ) {
-      if (!previousDatabaseMod) {
+    if (!previousDatabaseMod) {
+      if (newModUniqueNames.has(nextDatabaseMod.uniqueName)) {
         diff.push({
           diffType: "add",
           nextMod: nextDatabaseMod,
         });
-        continue;
       }
+      continue;
+    }
 
+    if (
+      getDateAgeInHours(nextDatabaseMod.latestReleaseDate) <
+      MAX_UPDATE_AGE_HOURS
+    ) {
       if (previousDatabaseMod.version !== nextDatabaseMod.version) {
         diff.push({
           diffType: "update",
@@ -50,7 +56,7 @@ export function getDiff(previousDatabase: BaseMod[], nextDatabase: BaseMod[]) {
 
     if (
       nextDatabaseMod.prerelease &&
-      previousDatabaseMod?.prerelease?.version !==
+      previousDatabaseMod.prerelease?.version !==
         nextDatabaseMod.prerelease.version
     ) {
       if (
@@ -80,7 +86,7 @@ export function getDiff(previousDatabase: BaseMod[], nextDatabase: BaseMod[]) {
         break;
       case "update-prerelease":
         console.log(
-          `Prerelease of ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was updated from ${diffItem.previousMod?.prerelease?.version} to ${diffItem.nextMod.prerelease?.version}`
+          `Prerelease of ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was updated from ${diffItem.previousMod.prerelease?.version ?? "none"} to ${diffItem.nextMod.prerelease?.version}`
         );
         break;
     }

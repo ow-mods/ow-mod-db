@@ -1,6 +1,5 @@
 import { RequestError } from "@octokit/request-error";
-import type { CreatedOctokit } from "./octokit.ts";
-import fetch from "node-fetch";
+import type { CreatedOctokit } from "../helpers/octokit.ts";
 import type { ModInfo } from "../mod-info.ts";
 
 export async function getReadmeUrls(

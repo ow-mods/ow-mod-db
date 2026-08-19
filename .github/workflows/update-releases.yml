@@ -21,14 +21,12 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  update-releases:
     runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
-          fetch-depth: 0
+          fetch-depth: 2
 
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
@@ -43,27 +41,45 @@ jobs:
           ref: master
           path: database
 
-      - name: Make database copy
+      - name: Get previous mods.json
+        run: >-
+          if [ "${{ github.event_name }}" = "push" ]; then
+            git fetch origin "${{ github.event.before }}";
+            git show "${{ github.event.before }}:mods.json" > previous-mods.json;
+          else
+            git show "HEAD~1:mods.json" > previous-mods.json;
+          fi
+
+      - name: Get previous database.json
         run: cp database/database.json previous-database.json
 
-      # We used to remove existing thumbnails to avoid accumulating them forever,
-      # but sometimes that would mean deleting thumbnails for existing mods when something went wrong,
-      # so we don't do that anymore.
-      # - name: Remove existing thumbnails
-      #   run: rm -rf database/thumbnails
-
-      - name: Fetch mod releases and manifests
+      - name: Build Database
         run: >-
-          npm run update-database --
-          --outDirectory ../database
+          npm run update-database -- build
           --modsFile ../mods.json
+          --outputDirectory ../database
           --previousDatabaseFile ../previous-database.json
         working-directory: scripts
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          GITHUB_TOKEN: ${{ env.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit Database
+        if: ${{ github.event_name != 'pull_request' }}
+        working-directory: database
+        run: |
+          git config user.name "Outer Wilds Mod Database"
+          git config user.email "database@outerwildsmods.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit to the database repository"
+          else
+            git commit -m "Update mod database"
+            git push origin master
+          fi
 
       - name: Upload Pages Artifact
+        if: ${{ github.event_name != 'pull_request' }}
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: database
@@ -72,30 +88,28 @@ jobs:
         if: ${{ github.event_name != 'pull_request' }}
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
         with:
-          token: ${{ env.GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
+      - name: Dispatch Website Build
         if: ${{ github.event_name != 'pull_request' }}
-        with:
-          branch: master
-          repository: database
-          commit_message: Update mod database
-          commit_user_name: Outer Wilds Mod Database
-          commit_user_email: database@outerwildsmods.com
-          commit_author: Outer Wilds Mod Database <database@outerwildsmods.com>
+        run: gh api -X POST repos/ow-mods/outerwildsmods.com/dispatches -f event_type=build
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Dispatch Website Build Event
+      - name: Wait for Website Build
         if: ${{ github.event_name != 'pull_request' }}
-        run: |
-          curl -XPOST -u "${{ secrets.GH_USER }}:${{ env.GH_TOKEN }}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/ow-mods/outerwildsmods.com/dispatches --data '{"event_type": "build"}'
+        # Notification links point at the website, which is rebuilt from the
+        # just-deployed database; give the build time to finish first.
+        run: sleep 300
 
-      - name: Send Notifications
+      - name: Notify
         if: ${{ github.event_name != 'pull_request' }}
         run: >-
-          npm run send-notifications --
+          npm run update-database -- notify
+          --databaseDirectory ../database
           --previousDatabaseFile ../previous-database.json
-          --nextDatabaseFile ../database/database.json
+          --modsFile ../mods.json
+          --previousModsFile ../previous-mods.json
         working-directory: scripts
         env:
           DISCORD_MOD_HOOK_URLS: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
