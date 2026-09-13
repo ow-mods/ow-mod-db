@@ -3,6 +3,24 @@ description: Request for a new mod to be added to the database, or edit an exist
 title: "[Your mod name here]"
 labels: ["add-mod"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        # Database Rules
+
+        1. All mods must follow the [Mobius Digital Fan Content Policy](https://www.mobiusdigitalgames.com/fan-content-policy.html)
+        2. All Mods must be open source
+           All source code must be hosted in a public repository. Private repos can be used to host game assets and other non-code assets to build into assetbundles.
+        3. We may remove or reject any mod for any reason, including possible usage of AI.
+
+        We will moderate based on the rules as intended, not as written.
+  - type: checkboxes
+    id: rules-agreement
+    attributes:
+      label: I have a read and acknowledge the above rules
+      options:
+        - label: Confirm
+          required: true
   - type: input
     id: discordId
     attributes:
