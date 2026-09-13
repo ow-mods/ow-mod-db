@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Database Rules
+        ## Database Rules
 
         1. All mods must follow the [Mobius Digital Fan Content Policy](https://www.mobiusdigitalgames.com/fan-content-policy.html)
         2. All Mods must be open source
@@ -17,7 +17,7 @@ body:
   - type: checkboxes
     id: rules-agreement
     attributes:
-      label: I have a read and acknowledge the above rules
+      label: I have a read and acknowledged the above rules
       options:
         - label: Confirm
           required: true
