@@ -11,6 +11,7 @@
     "update-database": "node src/update-database/index.ts",
     "send-notifications": "node src/send-notifications/index.ts",
     "force-new-mod-notification": "node src/send-notifications/force-new-mod-notification.ts",
+    "force-update-mod-notification": "node src/send-notifications/force-update-mod-notification.ts",
     "modify-mod-list": "node src/modify-mod-list/index.ts"
   },
   "dependencies": {
