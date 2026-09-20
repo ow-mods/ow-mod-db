@@ -5,10 +5,11 @@ import { promises as fsp } from "fs";
 import type { DatabaseOutput } from "../mod.ts";
 import type { BaseMod } from "../mod.ts";
 
-const { values: { currentDatabaseFile, modUniqueId } } = parseArgs({
+const { values: { currentDatabaseFile, modUniqueId, modPreviousVersion } } = parseArgs({
   options: {
     currentDatabaseFile: { type: "string" },
     modUniqueId: { type: "string" },
+    modPreviousVersion: { type: "string" },
   },
 });
 
@@ -19,7 +20,7 @@ const discordModUpdateRoleId = process.env.DISCORD_MOD_UPDATE_ROLE_ID ?? "";
 if (!currentDatabaseFile || !modUniqueId) {
   console.error(
     "Usage: node src/send-notifications/force-update-mod-notification.ts" +
-    " --currentDatabaseFile <path> --modUniqueId <id>",
+    " --currentDatabaseFile <path> --modUniqueId <id> --modPreviousVersion <str>",
   );
   console.error("Env: DISCORD_HOOK_URL, DISCORD_NEW_MOD_ROLE_ID, DISCORD_MOD_UPDATE_ROLE_ID");
   process.exit(1);
@@ -27,29 +28,33 @@ if (!currentDatabaseFile || !modUniqueId) {
 
 async function run() {
     try {
-        const previousDatabaseJson = (
+        const currentDatabaseJson = (
             await fsp.readFile(currentDatabaseFile!)
         ).toString();
 
-        const previousDatabaseOutput: DatabaseOutput =
+        const currentDatabaseOutput: DatabaseOutput =
             JSON.parse(previousDatabaseJson);
-    
-        const previousMods = [
-            ...previousDatabaseOutput.releases,
-            ...previousDatabaseOutput.alphaReleases,
+
+        const currentMods = [
+            ...currentDatabaseOutput.releases,
+            ...currentDatabaseOutput.alphaReleases,
         ];
 
-        const updatedMod = previousMods.find((mod) => mod.uniqueName == modUniqueId!);
+        const currentMod = currentMods.find((mod) => mod.uniqueName == modUniqueId!);
 
-        if (updatedMod === undefined) {
+        if (currentMod === undefined) {
             throw new Error(modUniqueId! + " was not found in the database");
         }
+
+        const previousMod = { ...currentMod }
+        previousMod.version = modPreviousVersion
 
         const diff: DiffItem[] = [];
 
         diff.push({
           diffType: "update",
-          nextMod: updatedMod as BaseMod,
+          nextMod: currentMod as BaseMod,
+          previousMod: previousMod as BaseMod
         });
 
         sendDiscordNotifications(

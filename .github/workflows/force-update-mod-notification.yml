@@ -7,6 +7,10 @@ on:
         description: "The unique id of the mod to notify about"
         required: true
         type: string
+      previousModVersion:
+        description: "The version of this mod prior to the update we are notifying about (the current version is taken from the database)"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -41,6 +45,7 @@ jobs:
           npm run force-update-mod-notification --
           --currentDatabaseFile ../database/database.json
           --modUniqueId '${{ github.event.inputs.modUniqueID }}'
+          --previousModVersion '${{ github.event.inputs.previousModVersion}}'
         working-directory: scripts
         env:
           DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
