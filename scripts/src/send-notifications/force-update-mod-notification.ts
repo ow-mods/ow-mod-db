@@ -5,11 +5,11 @@ import { promises as fsp } from "fs";
 import type { DatabaseOutput } from "../mod.ts";
 import type { BaseMod } from "../mod.ts";
 
-const { values: { currentDatabaseFile, modUniqueId, modPreviousVersion } } = parseArgs({
+const { values: { currentDatabaseFile, modUniqueId, previousModVersion } } = parseArgs({
   options: {
     currentDatabaseFile: { type: "string" },
     modUniqueId: { type: "string" },
-    modPreviousVersion: { type: "string" },
+    previousModVersion: { type: "string" },
   },
 });
 
@@ -20,7 +20,7 @@ const discordModUpdateRoleId = process.env.DISCORD_MOD_UPDATE_ROLE_ID ?? "";
 if (!currentDatabaseFile || !modUniqueId) {
   console.error(
     "Usage: node src/send-notifications/force-update-mod-notification.ts" +
-    " --currentDatabaseFile <path> --modUniqueId <id> --modPreviousVersion <str>",
+    " --currentDatabaseFile <path> --modUniqueId <id> --previousModVersion <str>",
   );
   console.error("Env: DISCORD_HOOK_URL, DISCORD_NEW_MOD_ROLE_ID, DISCORD_MOD_UPDATE_ROLE_ID");
   process.exit(1);
@@ -47,7 +47,7 @@ async function run() {
         }
 
         const previousMod = { ...currentMod }
-        previousMod.version = modPreviousVersion
+        previousMod.version = previousModVersion
 
         const diff: DiffItem[] = [];
 
