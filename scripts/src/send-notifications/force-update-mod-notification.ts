@@ -33,7 +33,7 @@ async function run() {
         ).toString();
 
         const currentDatabaseOutput: DatabaseOutput =
-            JSON.parse(previousDatabaseJson);
+            JSON.parse(currentDatabaseJson);
 
         const currentMods = [
             ...currentDatabaseOutput.releases,
