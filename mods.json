@@ -3441,15 +3441,6 @@
       "thumbnailUrl": "https://github.com/user-attachments/assets/199e06ff-891e-48b3-86a7-3c3ad3c7a48d"
     },
     {
-      "name": "Mouse Fix",
-      "uniqueName": "Novaenia.MouseFix",
-      "repo": "Novaenia/OWMouseFix",
-      "tags": [
-        "tweaks"
-      ],
-      "authorDisplay": "Novaenia"
-    },
-    {
       "name": "Portal 2 Skinpack",
       "uniqueName": "pikpik_carrot.Portal2Skinpack",
       "repo": "pikpik-carrot/Portal2Skins",
@@ -4106,16 +4097,6 @@
       "authorDisplay": "The Wrong Warp Team"
     },
     {
-      "name": "Echoes of the Oberver",
-      "uniqueName": "Known-Mouse.EchoesOfTheObserver",
-      "repo": "TropicWiden/OuterWilds-Summer2026ModJam-EchoesOfTheObserver",
-      "tags": [
-        "jam",
-        "story"
-      ],
-      "authorDisplay": "Known-Mouse"
-    },
-    {
       "name": "Bruce Saves the Worlds",
       "uniqueName": "LeeSpork.Jam6",
       "repo": "LeeSpork/Bruce-Saves-the-Worlds",
@@ -4158,6 +4139,179 @@
         "jam"
       ],
       "authorDisplay": "Riddle Major, Colourfullcat"
+    },
+    {
+      "name": "Hotel Penumbra",
+      "uniqueName": "GameWyrm.HotelPenumbra",
+      "repo": "GameWyrm/ow-mod-jam-6",
+      "tags": [
+        "jam",
+        "story",
+        "content",
+        "gameplay"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Hearths Jammers - GameWyrm, pikpik, Stache, Callirhoe, and Yommi"
+    },
+    {
+      "name": "Through The Ages",
+      "uniqueName": "TeamFred.ThroughTheAges",
+      "repo": "Jam-6-Team-Fred/Jam_6_Team_Fred_Mod",
+      "tags": [
+        "jam",
+        "story",
+        "content",
+        "gameplay"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Team Fred (Art, CrystalENVT, Gay Coffee, Hamstry, The Phantom Driver, T3rtu)",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Jam-6-Team-Fred/Jam_6_Team_Fred_Mod/refs/heads/main/ThroughTheAges_Logo_3_by_1.png"
+    },
+    {
+      "name": "Borrowed Tomorrows",
+      "uniqueName": "Olallieberry.BorrowedTomorrows",
+      "repo": "Etherpod/Olallieberry",
+      "tags": [
+        "jam",
+        "story",
+        "content",
+        "gameplay"
+      ],
+      "parent": "xen.NewHorizons",
+      "authorDisplay": "Olallieberry - ditzy, MegaPiggy, Xya, Etherpod"
+    },
+    {
+      "name": "Lingering Translations",
+      "uniqueName": "MegaPiggy.LingeringTranslations",
+      "repo": "MegaPiggy/LingeringTranslations",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ]
+    },
+    {
+      "name": "You're Finally Awake",
+      "uniqueName": "Hawkbar.YoureFinallyAwake",
+      "repo": "Hawkbat/OuterWildsModYoureFinallyAwake",
+      "tags": [
+        "audiovisual"
+      ]
+    },
+    {
+      "name": "The Longer They Load",
+      "uniqueName": "Hamstry.TheLongerTheyLoad",
+      "repo": "Hamstryk/The-Longer-They-Load",
+      "tags": [
+        "gameplay",
+        "requires-dlc"
+      ],
+      "parent": "AnonymousStrangerOW.TheStrangerTheyAre",
+      "authorDisplay": "Hamstry",
+      "thumbnailUrl": "https://raw.githubusercontent.com/Hamstryk/The-Longer-They-Load/refs/heads/main/TSTAButGood/owmm_img.png"
+    },
+    {
+      "name": "Echoes Of The Desert",
+      "uniqueName": "LaStringa.SbekuMod",
+      "repo": "SbekuMod/Mod-V2",
+      "tags": [
+        "content",
+        "requires-dlc"
+      ],
+      "authorDisplay": "LaStringa"
+    },
+    {
+      "name": "Probe Roulette",
+      "uniqueName": "Depthbomb.ProbeRoulette",
+      "repo": "depthbomb/OuterWildsProbeRoulette",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "authorDisplay": "depthbomb",
+      "thumbnailUrl": "https://raw.githubusercontent.com/depthbomb/OuterWildsProbeRoulette/refs/heads/main/art/banner.png"
+    },
+    {
+      "name": "Outer Wilds Greek Translation",
+      "uniqueName": "Dimitrios.GreekTranslation",
+      "repo": "DimitriosNossis/Outer-Wilds-Greek-Translation",
+      "tags": [
+        "localization"
+      ],
+      "thumbnailUrl": "https://github.com/DimitriosNossis/Outer-Wilds-Greek-Translation/blob/main/outer%20wilds%20greek%20translation3-1.png"
+    },
+    {
+      "name": "Lucid Dreaming Visualizer",
+      "uniqueName": "MDJ287.LucidDreamingVisualizer",
+      "repo": "MDJ287/LucidDreamingVisualizer",
+      "tags": [
+        "tool",
+        "requires-dlc"
+      ]
+    },
+    {
+      "name": "Scout Streaming Revamp",
+      "uniqueName": "WannaCry.ScoutStreamingRevamp",
+      "repo": "WannaCry1LoL/ScoutStreamingRevamp",
+      "tags": [
+        "gameplay"
+      ]
+    },
+    {
+      "name": "Exclusive Fullscreen",
+      "uniqueName": "MegaPiggy.ExclusiveFullscreen",
+      "repo": "MegaPiggy/OuterWildsExclusiveFullscreen",
+      "tags": [
+        "tweaks"
+      ]
+    },
+    {
+      "name": "Smart Autopilot",
+      "uniqueName": "Depthbomb.SmartAutopilot",
+      "repo": "depthbomb/OuterWildsSmartAutopilot",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "authorDisplay": "depthbomb"
+    },
+    {
+      "name": "OWMixedInput",
+      "uniqueName": "MillieRose.OWMixedInput",
+      "repo": "milliero-se/OWMixedInput",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "authorDisplay": "Millie Rose"
+    },
+    {
+      "name": "Configurable Time Loop",
+      "uniqueName": "xen-42.ConfigurableSlowTime",
+      "repo": "xen-42/ow-configurable-slow-time",
+      "tags": [
+        "tweaks"
+      ]
+    },
+    {
+      "name": "Quantum Blink VR",
+      "uniqueName": "Zra.QuantumBlinkVR",
+      "repo": "applezra/QuantumBlinkVR",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "parent": "Raicuparta.NomaiVR"
+    },
+    {
+      "name": "Orbiter",
+      "uniqueName": "SairajLoke.Orbiter",
+      "repo": "SairajLoke/OuterWilds-Orbiter",
+      "tags": [
+        "gameplay",
+        "tweaks"
+      ],
+      "authorDisplay": "Sairaj Loke",
+      "thumbnailUrl": "https://github.com/SairajLoke/OuterWilds-Orbiter/blob/orbiter/resources/thumbnail.png"
     }
   ]
 }

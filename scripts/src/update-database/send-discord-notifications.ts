@@ -12,22 +12,26 @@ export async function notifyDatabase(
   modsFile: string,
   previousModsFile: string,
 ) {
+  const nextDatabaseFile = path.join(databaseDirectory, DATABASE_FILE_NAME);
+
+  const [previousMods, nextMods, newModUniqueNames] = await Promise.all([
+    readDatabaseMods(previousDatabaseFile),
+    readDatabaseMods(nextDatabaseFile),
+    getNewModUniqueNames(modsFile, previousModsFile),
+  ]);
+
+  await sendDiffNotifications(
+    getDiff(previousMods, nextMods, newModUniqueNames),
+  );
+}
+
+export async function sendDiffNotifications(diff: DiffItem[]) {
   const discordHookUrl = process.env.DISCORD_HOOK_URL;
 
   if (!discordHookUrl) {
     console.log("No DISCORD_HOOK_URL set, skipping notifications");
     return;
   }
-
-  const nextDatabaseFile = path.join(databaseDirectory, DATABASE_FILE_NAME);
-
-  const [previousMods, nextMods, newModUniqueNames] = await Promise.all([
-    readDatabaseFile(previousDatabaseFile),
-    readDatabaseFile(nextDatabaseFile),
-    getNewModUniqueNames(modsFile, previousModsFile),
-  ]);
-
-  const diff = getDiff(previousMods, nextMods, newModUniqueNames);
 
   const discordModUpdateRoleId = process.env.DISCORD_MOD_UPDATE_ROLE_ID ?? "";
   const discordNewModRoleId = process.env.DISCORD_NEW_MOD_ROLE_ID ?? "";
@@ -221,7 +225,7 @@ function pingRoleId(id: string) {
   return `<@&${id}>`;
 }
 
-function readDatabaseFile(filePath: string): Promise<OutputMod[]> {
+export function readDatabaseMods(filePath: string): Promise<OutputMod[]> {
   return fsp.readFile(filePath, "utf8").then((json) => {
     const databaseOutput: DatabaseOutput = JSON.parse(json);
     return [...databaseOutput.releases, ...databaseOutput.alphaReleases];

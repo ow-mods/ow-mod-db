@@ -2,7 +2,11 @@ import path from "path";
 
 import { parseRequiredArgs } from "../helpers/args.ts";
 import { buildDatabase } from "./build-database.ts";
-import { notifyDatabase } from "./send-discord-notifications.ts";
+import {
+  notifyDatabase,
+  readDatabaseMods,
+  sendDiffNotifications,
+} from "./send-discord-notifications.ts";
 
 function getRequiredEnv(name: string) {
   const value = process.env[name];
@@ -72,10 +76,44 @@ async function run() {
       );
       break;
     }
+    case "notify-mod": {
+      const values = parseRequiredArgs(
+        {
+          args: commandArgs,
+          options: {
+            databaseFile: { type: "string" },
+            modUniqueName: { type: "string" },
+            previousVersion: { type: "string" },
+          },
+          required: ["databaseFile", "modUniqueName", "previousVersion"],
+        },
+      );
+
+      const mods = await readDatabaseMods(path.resolve(values.databaseFile));
+      const mod = mods.find(
+        (candidate) => candidate.uniqueName === values.modUniqueName,
+      );
+
+      if (!mod) {
+        console.error(
+          `Mod "${values.modUniqueName}" was not found in ${values.databaseFile}`,
+        );
+        process.exit(1);
+      }
+
+      await sendDiffNotifications([
+        {
+          diffType: "update",
+          nextMod: mod,
+          previousMod: { ...mod, version: values.previousVersion },
+        },
+      ]);
+      break;
+    }
     default:
       console.error(
         `Unknown command "${command ?? ""}". ` +
-          "Usage: node src/update-database/index.ts <build|notify> [options...]",
+          "Usage: node src/update-database/index.ts <build|notify|notify-mod> [options...]",
       );
       process.exit(1);
   }
