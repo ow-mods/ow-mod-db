@@ -6,6 +6,7 @@ import { fetchModManager } from "./fetch-mod-manager.ts";
 import { getInstallCounts } from "./get-install-counts.ts";
 import { rateLimitReached } from "../helpers/octokit.ts";
 import { DATABASE_FILE_NAME } from "../config.ts";
+import { readMods } from "../mod-list.ts";
 import type { DatabaseOutput } from "../mod.ts";
 
 const measureTime = <T>(promise: Promise<T>, name: string) => {
@@ -29,7 +30,7 @@ function getSettledResult<TResult>(
 }
 
 export async function buildDatabase(
-  modsFile: string,
+  modsDirectory: string,
   previousDatabaseFile: string,
   outputDirectory: string,
   cloudflareApiToken: string,
@@ -44,7 +45,7 @@ export async function buildDatabase(
     ...previousDatabaseOutput.alphaReleases,
   ];
 
-  const mods = (await fsp.readFile(modsFile)).toString();
+  const mods = await readMods(modsDirectory);
 
   const promises = [
     measureTime(fetchModManager(), "fetchModManager"),

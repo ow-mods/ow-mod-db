@@ -4,25 +4,19 @@ import path from "path";
 import { DATABASE_FILE_NAME, THUMBNAIL_URL_BASE } from "../config.ts";
 import { getDiff, type DiffItem } from "./get-diff.ts";
 import type { DatabaseOutput, OutputMod } from "../mod.ts";
-import type { ModList } from "../mod-info.ts";
 
 export async function notifyDatabase(
   databaseDirectory: string,
   previousDatabaseFile: string,
-  modsFile: string,
-  previousModsFile: string,
 ) {
   const nextDatabaseFile = path.join(databaseDirectory, DATABASE_FILE_NAME);
 
-  const [previousMods, nextMods, newModUniqueNames] = await Promise.all([
+  const [previousMods, nextMods] = await Promise.all([
     readDatabaseMods(previousDatabaseFile),
     readDatabaseMods(nextDatabaseFile),
-    getNewModUniqueNames(modsFile, previousModsFile),
   ]);
 
-  await sendDiffNotifications(
-    getDiff(previousMods, nextMods, newModUniqueNames),
-  );
+  await sendDiffNotifications(getDiff(previousMods, nextMods));
 }
 
 export async function sendDiffNotifications(diff: DiffItem[]) {
@@ -230,27 +224,4 @@ export function readDatabaseMods(filePath: string): Promise<OutputMod[]> {
     const databaseOutput: DatabaseOutput = JSON.parse(json);
     return [...databaseOutput.releases, ...databaseOutput.alphaReleases];
   });
-}
-
-async function getNewModUniqueNames(
-  modsFile: string,
-  previousModsFile: string,
-): Promise<Set<string>> {
-  const [currentModsJson, previousModsJson] = await Promise.all([
-    fsp.readFile(modsFile, "utf8"),
-    fsp.readFile(previousModsFile, "utf8"),
-  ]);
-
-  const currentModList: ModList = JSON.parse(currentModsJson);
-  const previousModList: ModList = JSON.parse(previousModsJson);
-
-  const previousUniqueNames = new Set(
-    previousModList.mods.map((mod) => mod.uniqueName),
-  );
-
-  return new Set(
-    currentModList.mods
-      .filter((mod) => !previousUniqueNames.has(mod.uniqueName))
-      .map((mod) => mod.uniqueName),
-  );
 }

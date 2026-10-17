@@ -5,7 +5,7 @@ import { getDateAgeInHours, getLatestDate } from "../helpers/dates.ts";
 import { getReadmeUrls } from "./readmes.ts";
 import { RELEASE_EXTENSION } from "../config.ts";
 import type { BaseMod, OutputMod } from "../mod.ts";
-import type { ModList } from "../mod-info.ts";
+import type { ModInfo } from "../mod-info.ts";
 
 type OctokitRepo = RestEndpointMethodTypes["repos"]["get"]["response"]["data"];
 type OctokitRelease =
@@ -37,12 +37,10 @@ const REPO_URL_BASE = "https://github.com";
 const FULL_UPDATE_RATE_HOURS = 12;
 
 export async function fetchMods(
-  modsJson: string,
+  modInfos: ModInfo[],
   outputDirectory: string,
   previousDatabase: OutputMod[],
 ): Promise<BaseMod[]> {
-  const modDb: ModList = JSON.parse(modsJson);
-  const modInfos = modDb.mods;
   const octokit = getOctokit();
 
   return Promise.all(

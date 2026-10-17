@@ -10,7 +10,7 @@ on:
     branches:
       - source
     paths:
-      - "mods.json"
+      - "mods/**"
   pull_request:
     branches:
       - "source"
@@ -25,8 +25,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
-        with:
-          fetch-depth: 2
 
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
@@ -41,22 +39,13 @@ jobs:
           ref: master
           path: database
 
-      - name: Get previous mods.json
-        run: >-
-          if [ "${{ github.event_name }}" = "push" ]; then
-            git fetch origin "${{ github.event.before }}";
-            git show "${{ github.event.before }}:mods.json" > previous-mods.json;
-          else
-            git show "HEAD~1:mods.json" > previous-mods.json;
-          fi
-
       - name: Get previous database.json
         run: cp database/database.json previous-database.json
 
       - name: Build Database
         run: >-
           npm run update-database -- build
-          --modsFile ../mods.json
+          --modsDirectory ../mods
           --outputDirectory ../database
           --previousDatabaseFile ../previous-database.json
         working-directory: scripts
@@ -108,8 +97,6 @@ jobs:
           npm run update-database -- notify
           --databaseDirectory ../database
           --previousDatabaseFile ../previous-database.json
-          --modsFile ../mods.json
-          --previousModsFile ../previous-mods.json
         working-directory: scripts
         env:
           DISCORD_MOD_HOOK_URLS: ${{ secrets.DISCORD_MOD_HOOK_URLS }}

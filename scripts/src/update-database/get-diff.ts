@@ -22,7 +22,6 @@ export type DiffItem =
 export function getDiff(
   previousDatabase: BaseMod[],
   nextDatabase: BaseMod[],
-  newModUniqueNames: Set<string> = new Set(),
 ) {
   const diff: DiffItem[] = [];
 
@@ -32,12 +31,10 @@ export function getDiff(
     );
 
     if (!previousDatabaseMod) {
-      if (newModUniqueNames.has(nextDatabaseMod.uniqueName)) {
-        diff.push({
-          diffType: "add",
-          nextMod: nextDatabaseMod,
-        });
-      }
+      diff.push({
+        diffType: "add",
+        nextMod: nextDatabaseMod,
+      });
       continue;
     }
 

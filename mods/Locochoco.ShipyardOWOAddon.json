@@ -1,0 +1,15 @@
+{
+  "$schema": "./mod.schema.json",
+  "authorDisplay": "Locochoco",
+  "name": "Slate's Shipyard for Outer Wilds Online",
+  "parent": "Vesper.OuterWildsMMO",
+  "repo": "loco-choco/ShipyardOWOCompat",
+  "repoVariations": [
+    "ShoosGun/ShipyardOWOCompat"
+  ],
+  "tags": [
+    "library"
+  ],
+  "uniqueName": "Locochoco.ShipyardOWOAddon",
+  "utility": true
+}

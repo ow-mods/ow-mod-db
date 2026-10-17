@@ -6,7 +6,7 @@ Review of `source...horrible-ts-mess` (`b1c0259`). `npm run typecheck` passes. O
 
 ## Worth fixing
 
-1. **New-mod notifications can be missed** — `getNewModUniqueNames()` in `scripts/src/update-database/send-discord-notifications.ts:235` derives "new" from the previous Git commit's `mods.json`. If commit A adds a mod and the workflow fails, then commit B lands before the next successful run, only B is considered new; A never gets an add notification because it's absent from the previous database but not in the commit diff. The old logic did not depend on Git history. Better: compute new names as _current `mods.json` uniqueNames minus previous database uniqueNames_. That is more accurate and lets you delete the fragile `previous-mods.json`/`fetch-depth: 2`/`HEAD~1` logic entirely.
+1. ~~**New-mod notifications can be missed**~~ — Fixed by the split into the `mods/` folder: the previous-mod list is no longer read from Git history, so new mods are simply the ones absent from the previous database (`getDiff()` in `scripts/src/update-database/get-diff.ts`). The fragile `previous-mods.json`/`fetch-depth: 2`/`HEAD~1` logic is gone.
 
 2. **Checker lost DLL validation** — old `mods-checker` verified that `manifest.json` declares a DLL and that the DLL actually exists in the ZIP (`MissingDLL` / `InvalidDLL`), and effectively validated installability. `scripts/src/handle-mod-issue/checker.ts` only checks that `filename` is a string if present (`checker.ts:234`) and accepts a `manifest.json` from any nested path (`checker.ts:181-205`). Mods that would previously fail now pass. This is the clearest accidental feature removal.
 

@@ -45,7 +45,7 @@ jobs:
       - name: Handle Mod Issue
         run: >-
           npm run handle-mod-issue --
-          --modsFile ../mods.json
+          --modsDirectory ../mods
           --issueTemplateFile ../.github/ISSUE_TEMPLATE/add-mod.yml
           --issueNumber "${{ github.event.inputs.issue-number || github.event.issue.number }}"
           --commentAuthor "github-actions[bot]"

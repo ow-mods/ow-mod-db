@@ -1,90 +1,72 @@
-import type { ModInfo, ModList } from "../mod-info.ts";
+import { getModFileName, serializeModFile, type ModFile } from "../mod-list.ts";
+import type { ModInfo } from "../mod-info.ts";
 import type { ModIssueForm } from "./issue-form.ts";
 
 type ModifyModListResult = {
+  fileName: string;
   newContent: string;
   changed: boolean;
 };
 
 export function modifyModList(
-  currentContent: string,
+  modFiles: ModFile[],
   form: ModIssueForm,
   repo: string,
 ): ModifyModListResult {
-  const { name, uniqueName, parent, alpha, dlc, authorDisplay, tags, thumbnailUrl } =
-    form;
+  const {
+    name,
+    uniqueName,
+    parent,
+    alpha,
+    dlc,
+    authorDisplay,
+    tags,
+    thumbnailUrl,
+  } = form;
 
   if (!name || !uniqueName) {
     throw new Error("Invalid form format");
   }
 
-  const modDb: ModList = JSON.parse(currentContent);
-  const mods = modDb.mods;
+  const existingFile = modFiles.find(
+    (modFile) => modFile.mod.uniqueName === uniqueName,
+  );
 
-  const newMod: ModInfo = {
-    name,
-    uniqueName,
-    repo,
-    tags: [],
-  };
+  const newMod: ModInfo = existingFile
+    ? { ...existingFile.mod }
+    : {
+        name,
+        uniqueName,
+        repo,
+        tags: [],
+      };
 
-  if (parent) {
+  newMod.name = name;
+  newMod.repo = repo;
+  newMod.tags = [...tags];
+
+  if (parent !== undefined) {
     newMod.parent = parent;
   }
-
   if (alpha.includes("Is alpha mod")) {
     newMod.alpha = true;
   }
-
-  if (authorDisplay) {
+  if (authorDisplay !== undefined) {
     newMod.authorDisplay = authorDisplay;
   }
-
-  if (tags.length) {
-    newMod.tags = [...tags];
+  if (thumbnailUrl !== undefined) {
+    newMod.thumbnailUrl = thumbnailUrl;
   }
-
-  if (dlc.includes("DLC Required")) {
+  if (dlc.includes("DLC Required") && !newMod.tags.includes("requires-dlc")) {
     newMod.tags.push("requires-dlc");
   }
 
-  if (thumbnailUrl) {
-    newMod.thumbnailUrl = thumbnailUrl;
-  }
-
-  const existingMod = mods.find(
-    (modFromList) => uniqueName === modFromList.uniqueName,
-  );
-
-  if (existingMod) {
-    existingMod.name = newMod.name;
-    existingMod.repo = newMod.repo;
-    existingMod.tags = newMod.tags;
-    // Only overwrite optional fields when the form actually sets them; the form
-    // can't express removing them, so leaving them blank must not wipe them.
-    if (newMod.parent !== undefined) {
-      existingMod.parent = newMod.parent;
-    }
-    if (newMod.alpha !== undefined) {
-      existingMod.alpha = newMod.alpha;
-    }
-    if (newMod.authorDisplay !== undefined) {
-      existingMod.authorDisplay = newMod.authorDisplay;
-    }
-    if (newMod.thumbnailUrl !== undefined) {
-      existingMod.thumbnailUrl = newMod.thumbnailUrl;
-    }
-  }
-
-  const newModDb: ModList = {
-    $schema: "./mods.schema.json",
-    mods: existingMod ? mods : [...mods, newMod],
-  };
-
-  const newContent = JSON.stringify(newModDb, null, 2);
+  const fileName = existingFile?.fileName ?? getModFileName(uniqueName);
+  const newContent = serializeModFile(newMod);
 
   return {
+    fileName,
     newContent,
-    changed: newContent !== currentContent,
+    changed: newContent !== existingFile?.content,
   };
 }

@@ -30,11 +30,15 @@ async function run() {
         {
           args: commandArgs,
           options: {
-            modsFile: { type: "string" },
+            modsDirectory: { type: "string" },
             outputDirectory: { type: "string" },
             previousDatabaseFile: { type: "string" },
           },
-          required: ["modsFile", "outputDirectory", "previousDatabaseFile"],
+          required: [
+            "modsDirectory",
+            "outputDirectory",
+            "previousDatabaseFile",
+          ],
         },
       );
 
@@ -42,7 +46,7 @@ async function run() {
       getRequiredEnv("GH_TOKEN");
 
       await buildDatabase(
-        path.resolve(values.modsFile),
+        path.resolve(values.modsDirectory),
         path.resolve(values.previousDatabaseFile),
         path.resolve(values.outputDirectory),
         cloudflareApiToken,
@@ -56,23 +60,14 @@ async function run() {
           options: {
             databaseDirectory: { type: "string" },
             previousDatabaseFile: { type: "string" },
-            modsFile: { type: "string" },
-            previousModsFile: { type: "string" },
           },
-          required: [
-            "databaseDirectory",
-            "previousDatabaseFile",
-            "modsFile",
-            "previousModsFile",
-          ],
+          required: ["databaseDirectory", "previousDatabaseFile"],
         },
       );
 
       await notifyDatabase(
         path.resolve(values.databaseDirectory),
         path.resolve(values.previousDatabaseFile),
-        path.resolve(values.modsFile),
-        path.resolve(values.previousModsFile),
       );
       break;
     }

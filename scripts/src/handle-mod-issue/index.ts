@@ -1,11 +1,13 @@
 import { readFileSync } from "node:fs";
+import path from "node:path";
+
 import { parseRequiredArgs } from "../helpers/args.ts";
 import { getOctokit } from "../helpers/octokit.ts";
 import {
   ADD_MOD_LABEL,
   DATABASE_REPOSITORY,
 } from "../config.ts";
-import type { ModList } from "../mod-info.ts";
+import { MODS_DIRECTORY_NAME, readModFiles } from "../mod-list.ts";
 import {
   checkMod,
   getErrorMessage,
@@ -23,16 +25,22 @@ const RETRY_HINT =
 const values = parseRequiredArgs(
   {
     options: {
-      modsFile: { type: "string" },
+      modsDirectory: { type: "string" },
       issueTemplateFile: { type: "string" },
       issueNumber: { type: "string" },
       commentAuthor: { type: "string" },
     },
-    required: ["modsFile", "issueTemplateFile", "issueNumber", "commentAuthor"],
+    required: [
+      "modsDirectory",
+      "issueTemplateFile",
+      "issueNumber",
+      "commentAuthor",
+    ],
   },
 );
 
-const { modsFile, issueTemplateFile, issueNumber, commentAuthor } = values;
+const { modsDirectory, issueTemplateFile, issueNumber, commentAuthor } =
+  values;
 
 function extractModRepo(repoUrl: string): string | undefined {
   let repo = repoUrl.match(/github\.com\/([^/]+\/[^/]+)\/?.*/)?.[1];
@@ -174,12 +182,9 @@ async function run() {
 
   const reportCommentId = await postComment(buildPendingComment());
 
-  const modsContent = readFileSync(modsFile, "utf8");
+  const modFiles = await readModFiles(path.resolve(modsDirectory));
   const mods = new Map(
-    (JSON.parse(modsContent) as ModList).mods.map((mod) => [
-      mod.uniqueName,
-      mod.name,
-    ]),
+    modFiles.map(({ mod }) => [mod.uniqueName, mod.name]),
   );
 
   let result: CheckResult;
@@ -208,7 +213,11 @@ async function run() {
     return;
   }
 
-  const { newContent, changed } = modifyModList(modsContent, form, modRepo);
+  const { fileName, newContent, changed } = modifyModList(
+    modFiles,
+    form,
+    modRepo,
+  );
 
   if (changed) {
     const title = `Add/Edit mod: ${form.uniqueName}`;
@@ -225,7 +234,7 @@ async function run() {
       changes: [
         {
           files: {
-            "mods.json": newContent,
+            [`${MODS_DIRECTORY_NAME}/${fileName}`]: newContent,
           },
           commit: title,
           committer: {
@@ -239,10 +248,10 @@ async function run() {
     console.log(
       pr
         ? `Created/updated pull request #${String(pr.data.number)}`
-        : "No changes to mods.json, no pull request created",
+        : "No changes to the mods directory, no pull request created",
     );
   } else {
-    console.log("No changes to mods.json, no pull request created");
+    console.log("No changes to the mods directory, no pull request created");
   }
 
   await octokit.rest.issues.update({
