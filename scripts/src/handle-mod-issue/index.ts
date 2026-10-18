@@ -29,6 +29,7 @@ const values = parseRequiredArgs(
       issueTemplateFile: { type: "string" },
       issueNumber: { type: "string" },
       commentAuthor: { type: "string" },
+      force: { type: "boolean" },
     },
     required: [
       "modsDirectory",
@@ -39,8 +40,13 @@ const values = parseRequiredArgs(
   },
 );
 
-const { modsDirectory, issueTemplateFile, issueNumber, commentAuthor } =
-  values;
+const {
+  modsDirectory,
+  issueTemplateFile,
+  issueNumber,
+  commentAuthor,
+  force = false,
+} = values;
 
 function extractModRepo(repoUrl: string): string | undefined {
   let repo = repoUrl.match(/github\.com\/([^/]+\/[^/]+)\/?.*/)?.[1];
@@ -138,7 +144,7 @@ async function run() {
     ) &&
     !issue.pull_request;
 
-  if (!applicable) {
+  if (!force && !applicable) {
     console.log("Issue is not applicable for a mod check, skipping");
     return;
   }

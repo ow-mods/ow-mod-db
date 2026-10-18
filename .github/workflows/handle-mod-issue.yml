@@ -49,6 +49,7 @@ jobs:
           --issueTemplateFile ../.github/ISSUE_TEMPLATE/add-mod.yml
           --issueNumber "${{ github.event.inputs.issue-number || github.event.issue.number }}"
           --commentAuthor "github-actions[bot]"
+          ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
         working-directory: scripts
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
