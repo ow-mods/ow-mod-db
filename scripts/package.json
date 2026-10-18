@@ -12,26 +12,22 @@
   },
   "dependencies": {
     "@github/issue-parser": "^2.0.0",
-    "@octokit/core": "^7.0.6",
-    "@octokit/plugin-paginate-rest": "^15.0.0",
+    "@octokit/core": "^7.0.8",
+    "@octokit/plugin-paginate-rest": "^16.0.0",
     "@octokit/plugin-rest-endpoint-methods": "^18.0.0",
-    "@octokit/plugin-retry": "^8.1.0",
-    "@octokit/plugin-throttling": "^11.0.3",
-    "@octokit/request-error": "^7.1.0",
-    "@octokit/types": "^16.0.0",
+    "@octokit/plugin-retry": "^8.1.1",
+    "@octokit/plugin-throttling": "^11.0.5",
+    "@octokit/request-error": "^7.1.2",
     "@types/commonmark": "^0.27.10",
-    "@types/node": "^26.1.1",
-    "adm-zip": "^0.6.0",
+    "@types/node": "^26.6.5",
+    "@types/semver": "^7.8.0",
+    "adm-zip": "^0.6.1",
     "ajv": "^8.20.0",
     "commonmark": "^0.31.2",
     "htmlparser2": "^12.0.0",
     "octokit-plugin-create-pull-request": "^6.0.1",
     "semver": "^7.8.5",
-    "sharp": "^0.35.3",
+    "sharp": "^0.35.5",
     "typescript": "^7.0.2"
-  },
-  "devDependencies": {
-    "@types/adm-zip": "^0.5.8",
-    "@types/semver": "^7.8.0"
   }
 }
