@@ -32,17 +32,6 @@ Discord web hook URL where all the notifications are sent. Format:
 https://discord.com/api/webhooks/XXX/YYY
 ```
 
-### `DISCORD_MOD_HOOK_URLS`
-
-JSON object where keys are the uniqueName of a mod, and the values are the Discord hook urls of the channel where update notifications should be sent to. Format:
-
-```json
-{
-  "uniqueNameA": "https://discord.com/api/webhooks/XXX/YYY",
-  "uniqueNameB": "https://discord.com/api/webhooks/WWW/ZZZ"
-}
-```
-
 ### DISCORD_MOD_UPDATE_ROLE_ID
 
 ID for the Discord role to ping when there's a mod update.

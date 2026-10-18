@@ -1,8 +1,8 @@
-const dayInMilliseconds = 1000 * 60 * 60;
+const hourInMilliseconds = 1000 * 60 * 60;
 
 export function getDateAgeInHours(dateText: string) {
   return (
-    (new Date().valueOf() - new Date(dateText).valueOf()) / dayInMilliseconds
+    (new Date().valueOf() - new Date(dateText).valueOf()) / hourInMilliseconds
   );
 }
 

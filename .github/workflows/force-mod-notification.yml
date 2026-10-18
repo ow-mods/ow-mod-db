@@ -1,4 +1,6 @@
-name: Force update mod notification
+name: Force mod notification
+
+concurrency: database-master
 
 on:
   workflow_dispatch:
@@ -8,12 +10,12 @@ on:
         required: true
         type: string
       previousModVersion:
-        description: "The version of this mod prior to the update we are notifying about (the current version is taken from the database)"
-        required: true
+        description: "The version of this mod prior to the update we are notifying about (the current version is taken from the database). Leave empty to send a new-mod notification."
+        required: false
         type: string
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   notify:
@@ -44,7 +46,18 @@ jobs:
         env:
           MOD_UNIQUE_NAME: ${{ github.event.inputs.modUniqueName }}
           PREVIOUS_MOD_VERSION: ${{ github.event.inputs.previousModVersion }}
-          DISCORD_MOD_HOOK_URLS: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
           DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
-          DISCORD_NEW_MOD_ROLE_ID: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
+
+      - name: Commit Notification State
+        working-directory: database
+        run: |
+          git config user.name "Outer Wilds Mod Database"
+          git config user.email "database@outerwildsmods.com"
+          git add notifications.json
+          if git diff --cached --quiet; then
+            echo "No notification state changes to commit"
+          else
+            git commit -m "Update notification state"
+            git push origin master
+          fi

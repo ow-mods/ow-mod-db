@@ -4,8 +4,7 @@ import { parseRequiredArgs } from "../helpers/args.ts";
 import { buildDatabase } from "./build-database.ts";
 import {
   notifyDatabase,
-  readDatabaseMods,
-  sendDiffNotifications,
+  notifyMod,
 } from "./send-discord-notifications.ts";
 
 function getRequiredEnv(name: string) {
@@ -59,16 +58,12 @@ async function run() {
           args: commandArgs,
           options: {
             databaseDirectory: { type: "string" },
-            previousDatabaseFile: { type: "string" },
           },
-          required: ["databaseDirectory", "previousDatabaseFile"],
+          required: ["databaseDirectory"],
         },
       );
 
-      await notifyDatabase(
-        path.resolve(values.databaseDirectory),
-        path.resolve(values.previousDatabaseFile),
-      );
+      await notifyDatabase(path.resolve(values.databaseDirectory));
       break;
     }
     case "notify-mod": {
@@ -80,29 +75,15 @@ async function run() {
             modUniqueName: { type: "string" },
             previousVersion: { type: "string" },
           },
-          required: ["databaseFile", "modUniqueName", "previousVersion"],
+          required: ["databaseFile", "modUniqueName"],
         },
       );
 
-      const mods = await readDatabaseMods(path.resolve(values.databaseFile));
-      const mod = mods.find(
-        (candidate) => candidate.uniqueName === values.modUniqueName,
+      await notifyMod(
+        path.resolve(values.databaseFile),
+        values.modUniqueName,
+        values.previousVersion || undefined,
       );
-
-      if (!mod) {
-        console.error(
-          `Mod "${values.modUniqueName}" was not found in ${values.databaseFile}`,
-        );
-        process.exit(1);
-      }
-
-      await sendDiffNotifications([
-        {
-          diffType: "update",
-          nextMod: mod,
-          previousMod: { ...mod, version: values.previousVersion },
-        },
-      ]);
       break;
     }
     default:

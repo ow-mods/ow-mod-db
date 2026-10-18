@@ -1,6 +1,6 @@
 name: Update Releases
 
-concurrency: update-releases
+concurrency: database-master
 
 on:
   schedule:
@@ -85,21 +85,25 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Wait for Website Build
-        if: ${{ github.event_name != 'pull_request' }}
-        # Notification links point at the website, which is rebuilt from the
-        # just-deployed database; give the build time to finish first.
-        run: sleep 300
-
       - name: Notify
         if: ${{ github.event_name != 'pull_request' }}
         run: >-
           npm run update-database -- notify
           --databaseDirectory ../database
-          --previousDatabaseFile ../previous-database.json
         working-directory: scripts
         env:
-          DISCORD_MOD_HOOK_URLS: ${{ secrets.DISCORD_MOD_HOOK_URLS }}
           DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
           DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
           DISCORD_NEW_MOD_ROLE_ID: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
+
+      - name: Commit Notification State
+        if: ${{ github.event_name != 'pull_request' }}
+        working-directory: database
+        run: |
+          git add notifications.json
+          if git diff --cached --quiet; then
+            echo "No notification state changes to commit"
+          else
+            git commit -m "Update notification state"
+            git push origin master
+          fi

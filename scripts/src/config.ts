@@ -11,4 +11,6 @@ export const RELEASE_EXTENSION = "zip";
 
 export const DATABASE_FILE_NAME = "database.json";
 
+export const NOTIFICATIONS_FILE_NAME = "notifications.json";
+
 export const ADD_MOD_LABEL = "add-mod";

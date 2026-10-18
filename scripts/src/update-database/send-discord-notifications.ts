@@ -1,227 +1,312 @@
-import { promises as fsp } from "fs";
-import path from "path";
+import { promises as fsp } from "node:fs";
+import path from "node:path";
+import { setTimeout as sleep } from "node:timers/promises";
 
 import { DATABASE_FILE_NAME, THUMBNAIL_URL_BASE } from "../config.ts";
-import { getDiff, type DiffItem } from "./get-diff.ts";
-import type { DatabaseOutput, OutputMod } from "../mod.ts";
+import { getDiff, type DiffItem, type NotifiedMods } from "./get-diff.ts";
+import {
+  applyDiffToState,
+  getNotificationStatePath,
+  readNotificationState,
+  writeNotificationState,
+} from "./notification-state.ts";
+import type { BaseMod, DatabaseOutput, OutputMod } from "../mod.ts";
 
-export async function notifyDatabase(
-  databaseDirectory: string,
-  previousDatabaseFile: string,
-) {
+const MAX_EMBEDS_PER_MESSAGE = 10;
+const MAX_SEND_ATTEMPTS = 3;
+const MAX_DESCRIPTION_LENGTH = 4000;
+const TRUNCATED_DISCLAIMER =
+  "**...**\n\n**Check the mod repo for the complete changelog.**";
+
+const NOTIFICATION_CONFIG = {
+  new: {
+    color: 3066993,
+    imageKey: "image",
+    urlParams: "?linked-from-notification=true",
+  },
+  update: {
+    color: 15105570,
+    imageKey: "thumbnail",
+    urlParams: "",
+  },
+  prerelease: {
+    color: 0,
+    imageKey: "thumbnail",
+    urlParams: "?prerelease=true",
+  },
+} as const;
+
+export async function notifyDatabase(databaseDirectory: string) {
   const nextDatabaseFile = path.join(databaseDirectory, DATABASE_FILE_NAME);
+  const notificationsFile = getNotificationStatePath(databaseDirectory);
 
-  const [previousMods, nextMods] = await Promise.all([
-    readDatabaseMods(previousDatabaseFile),
+  const [nextMods, state] = await Promise.all([
     readDatabaseMods(nextDatabaseFile),
+    readNotificationState(notificationsFile),
   ]);
 
-  await sendDiffNotifications(getDiff(previousMods, nextMods));
-}
+  const diff = getDiff(state, nextMods);
 
-export async function sendDiffNotifications(diff: DiffItem[]) {
-  const discordHookUrl = process.env.DISCORD_HOOK_URL;
-
-  if (!discordHookUrl) {
-    console.log("No DISCORD_HOOK_URL set, skipping notifications");
+  if (diff.length === 0) {
+    console.log("No notifications to send");
     return;
   }
 
-  const discordModUpdateRoleId = process.env.DISCORD_MOD_UPDATE_ROLE_ID ?? "";
-  const discordNewModRoleId = process.env.DISCORD_NEW_MOD_ROLE_ID ?? "";
-  const discordModHookUrls: Record<string, string> = JSON.parse(
-    process.env.DISCORD_MOD_HOOK_URLS ?? "{}",
+  await sendAndAdvanceState(notificationsFile, state, diff);
+}
+
+export async function notifyMod(
+  databaseFile: string,
+  modUniqueName: string,
+  previousVersion?: string,
+) {
+  const mods = await readDatabaseMods(databaseFile);
+  const mod = mods.find(
+    (candidate) => candidate.uniqueName === modUniqueName,
   );
+
+  if (!mod) {
+    throw new Error(`Mod "${modUniqueName}" was not found in ${databaseFile}`);
+  }
+
+  const notificationsFile = getNotificationStatePath(
+    path.dirname(databaseFile),
+  );
+  const state = await readNotificationState(notificationsFile);
+
+  const diff: DiffItem[] = [
+    {
+      diffType: "release",
+      nextMod: mod,
+      previousVersion,
+    },
+  ];
+
+  await sendAndAdvanceState(notificationsFile, state, diff);
+}
+
+async function sendAndAdvanceState(
+  notificationsFile: string,
+  state: NotifiedMods,
+  diff: DiffItem[],
+) {
+  await sendDiffNotifications(diff);
+  await writeNotificationState(
+    notificationsFile,
+    applyDiffToState(state, diff),
+  );
+  console.log(`Notification state written to ${notificationsFile}`);
+}
+
+async function sendDiffNotifications(diff: DiffItem[]) {
+  const discordHookUrl = process.env.DISCORD_HOOK_URL;
+
+  if (!discordHookUrl) {
+    throw new Error("DISCORD_HOOK_URL is not set");
+  }
+
+  const updateRoleId = process.env.DISCORD_MOD_UPDATE_ROLE_ID ?? "";
+  const newModRoleId = process.env.DISCORD_NEW_MOD_ROLE_ID ?? "";
 
   console.log(`Sending notifications for ${diff.length} items...`);
 
-  try {
-    if (diff.length > 0) {
-      const containsNewMod = diff.find(
-        (diffItem) => diffItem.diffType === "add",
-      );
-
-      const response = await fetch(discordHookUrl, {
-        method: "post",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          content: `${pingRoleId(discordModUpdateRoleId)} ${
-            containsNewMod ? pingRoleId(discordNewModRoleId) : ""
-          }`,
-          embeds: diff.map(getEmbed),
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error(
-          `Discord API post response not ok. ${response.status}: ${response.statusText}`,
-        );
-      }
-    }
-  } catch (error) {
-    console.error(
-      `Failed to send Discord notification for ${diff.length} diffs: ${error}`,
+  for (
+    let index = 0;
+    index < diff.length;
+    index += MAX_EMBEDS_PER_MESSAGE
+  ) {
+    const chunk = diff.slice(index, index + MAX_EMBEDS_PER_MESSAGE);
+    const containsNewMod = chunk.some(
+      (diffItem) =>
+        diffItem.diffType === "release" && !diffItem.previousVersion,
     );
-  }
 
-  for (const diffItem of diff) {
-    const discordModHookUrl = discordModHookUrls[diffItem.nextMod.uniqueName];
-    if (!discordModHookUrl) continue;
+    const roleIds = containsNewMod
+      ? [updateRoleId, newModRoleId]
+      : [updateRoleId];
+    const content = roleIds
+      .filter(Boolean)
+      .map((roleId) => `<@&${roleId}>`)
+      .join(" ");
 
-    try {
-      const response = await fetch(discordModHookUrl, {
-        method: "post",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          embeds: [getEmbed(diffItem)],
-        }),
-      });
+    await postDiscordMessage(discordHookUrl, {
+      content,
+      embeds: chunk.map(getEmbed),
+    });
 
-      if (!response.ok) {
-        throw new Error(
-          `Discord API post response not ok. ${response.status}: ${response.statusText}`,
-        );
-      }
-    } catch (error) {
-      console.error(
-        `Failed to send Discord notification for specific mod channel: ${error}`,
-      );
-    }
+    console.log(
+      `Sent notifications for ${index + chunk.length}/${diff.length} items.`,
+    );
   }
 
   console.log("Done");
 }
 
-function getNotificationTitle(diffItem: DiffItem) {
-  switch (diffItem.diffType) {
-    case "add":
-      return `New ${
-        diffItem.nextMod.parent
-          ? `addon for \`${diffItem.nextMod.parent}\``
-          : "mod"
-      }`;
-    case "update": {
-      return `Update ${diffItem.previousMod.version} → **${diffItem.nextMod.version}**`;
+async function postDiscordMessage(webhookUrl: string, payload: unknown) {
+  const url = new URL(webhookUrl);
+  url.searchParams.set("wait", "true");
+
+  const body = JSON.stringify(payload);
+
+  for (let attempt = 1; attempt <= MAX_SEND_ATTEMPTS; attempt++) {
+    let response: Response;
+
+    try {
+      response = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body,
+      });
+    } catch (error) {
+      if (attempt === MAX_SEND_ATTEMPTS) {
+        throw error;
+      }
+
+      const delayMs = getBackoffDelayMs(attempt);
+      console.warn(
+        `Discord request failed: ${error}. Retrying in ${delayMs}ms...`,
+      );
+      await sleep(delayMs);
+      continue;
     }
-    case "update-prerelease": {
-      return `Prerelease **${diffItem.nextMod.prerelease?.version}**`;
+
+    if (response.ok) {
+      return;
     }
+
+    const responseText = await response.text().catch(() => "");
+    const error = new Error(
+      `Discord API post response not ok. ${response.status}: ${
+        response.statusText
+      }${responseText ? ` - ${responseText}` : ""}`,
+    );
+
+    const isRetryable = response.status === 429 || response.status >= 500;
+
+    if (!isRetryable || attempt === MAX_SEND_ATTEMPTS) {
+      throw error;
+    }
+
+    const retryAfterSeconds = Number(response.headers.get("retry-after"));
+    const delayMs =
+      Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0
+        ? retryAfterSeconds * 1000
+        : getBackoffDelayMs(attempt);
+
+    console.warn(`${error.message}. Retrying in ${delayMs}ms...`);
+    await sleep(delayMs);
   }
 }
 
-function getNotificationDescription({ diffType, nextMod }: DiffItem) {
-  let description: string | undefined = "";
-  switch (diffType) {
-    case "add":
-      description = nextMod.description;
-      break;
-    case "update": {
-      description = nextMod.latestReleaseDescription || nextMod.description;
-      break;
-    }
-    case "update-prerelease": {
-      description = nextMod.latestPrereleaseDescription || nextMod.description;
-      break;
-    }
+function getBackoffDelayMs(attempt: number) {
+  return 1000 * 2 ** (attempt - 1);
+}
+
+function getNotificationTitle(diffItem: DiffItem) {
+  const { nextMod } = diffItem;
+
+  if (diffItem.diffType === "prerelease") {
+    return `Prerelease **${nextMod.prerelease?.version}**`;
   }
 
-  const maxLength = 4000; // Max length of a Discord embed description is 4096, have to leave room for the title though.
-  const truncatedDisclaimer = '**...**\n\n**Check the mod repo for the complete changelog.**';
-  const endPosition = maxLength - 1 - truncatedDisclaimer.length;
-
-  if (description && description.length > maxLength) {
-    description = description.slice(0, endPosition);
-    // Don't slice in the middle of a word
-    let lastIndex = description.lastIndexOf(" ");
-    if (description[lastIndex-1].match(/^[.,:!?]/)) {
-      lastIndex--;
-    }
-    description = description.slice(0, lastIndex);
-    // Try to respect markdown links in the form [text text text](website.something.whatever)
-    // Because we only slice at spaces we just have to check if we're inside square brackets
-    let openSquareBracket = description.lastIndexOf("[");
-    let closeSquareBracket = description.lastIndexOf("]");
-    if (openSquareBracket != -1 && (closeSquareBracket == -1 || closeSquareBracket < openSquareBracket)) 
-    {
-      description = description.slice(0, openSquareBracket);
-    }
-    description += truncatedDisclaimer;
+  if (!diffItem.previousVersion) {
+    return `New ${
+      nextMod.parent ? `addon for \`${nextMod.parent}\`` : "mod"
+    }`;
   }
+
+  return `Update ${diffItem.previousVersion} → **${nextMod.version}**`;
+}
+
+function getNotificationDescription(diffItem: DiffItem) {
+  const { diffType, nextMod } = diffItem;
+
+  const description =
+    diffType === "prerelease"
+      ? nextMod.latestPrereleaseDescription || nextMod.description
+      : diffItem.previousVersion
+        ? nextMod.latestReleaseDescription || nextMod.description
+        : nextMod.description;
 
   return (
-    description ||
+    truncateDescription(description) ||
     `Mod tagged as ${
       nextMod.tags.length > 0 ? nextMod.tags.join(",") : "ABSOLUTELY NOTHING"
     }`
   );
 }
 
-function getNotificationColor(diffItem: DiffItem) {
-  switch (diffItem.diffType) {
-    case "add":
-      return 3066993;
-    case "update":
-      return 15105570;
-    case "update-prerelease":
-      return 0;
+function truncateDescription(description: string) {
+  if (description.length <= MAX_DESCRIPTION_LENGTH) {
+    return description;
   }
-}
 
-function getNotificationImageKey(diffItem: DiffItem) {
-  return diffItem.diffType === "add" ? "image" : "thumbnail";
-}
+  let truncated = description.slice(
+    0,
+    MAX_DESCRIPTION_LENGTH - TRUNCATED_DISCLAIMER.length,
+  );
 
-function getUrlParams(diffItem: DiffItem) {
-  switch (diffItem.diffType) {
-    case "add":
-      return "?linked-from-notification=true";
-    case "update-prerelease":
-      return "?prerelease=true";
-    default:
-      return "";
+  // Don't slice in the middle of a word.
+  const lastSpaceIndex = truncated.lastIndexOf(" ");
+  if (lastSpaceIndex > 0) {
+    truncated = truncated.slice(0, lastSpaceIndex);
   }
+
+  // Don't leave an unclosed markdown link.
+  const openBracketIndex = truncated.lastIndexOf("[");
+  const closeBracketIndex = truncated.lastIndexOf("]");
+  if (
+    openBracketIndex !== -1 &&
+    closeBracketIndex < openBracketIndex
+  ) {
+    truncated = truncated.slice(0, openBracketIndex);
+  }
+
+  return `${truncated}${TRUNCATED_DISCLAIMER}`;
 }
 
 function getEmbed(diffItem: DiffItem) {
+  const { nextMod } = diffItem;
+  const config = NOTIFICATION_CONFIG[getNotificationType(diffItem)];
   const description = getNotificationDescription(diffItem);
 
   return {
     type: "rich",
-    title: diffItem.nextMod.name,
+    title: nextMod.name,
     description: `${getNotificationTitle(diffItem)}\n>>> ${description}`,
     fields: [
       {
         name: "\u200B",
-        value: `<:github:1085179483784499260> [Source Code](${diffItem.nextMod.repo})`,
+        value: `<:github:1085179483784499260> [Source Code](${nextMod.repo})`,
       },
     ],
     author: {
-      name: diffItem.nextMod.authorDisplay ?? diffItem.nextMod.author,
-      icon_url: `https://github.com/${diffItem.nextMod.author}.png`,
+      name: nextMod.authorDisplay ?? nextMod.author,
+      icon_url: `https://github.com/${nextMod.author}.png`,
     },
-    url: `https://outerwildsmods.com/mods/${
-      diffItem.nextMod.slug
-    }${getUrlParams(diffItem)}`,
-    color: getNotificationColor(diffItem),
-    [getNotificationImageKey(diffItem)]: {
+    url: `https://outerwildsmods.com/mods/${nextMod.slug}${config.urlParams}`,
+    color: config.color,
+    [config.imageKey]: {
       url: `${THUMBNAIL_URL_BASE}/${
-        diffItem.nextMod.thumbnail.openGraph ?? diffItem.nextMod.thumbnail.main
+        nextMod.thumbnail.openGraph ?? nextMod.thumbnail.main
       }`,
     },
   };
 }
 
-function pingRoleId(id: string) {
-  return `<@&${id}>`;
+function getNotificationType(diffItem: DiffItem) {
+  if (diffItem.diffType === "prerelease") {
+    return "prerelease";
+  }
+
+  return diffItem.previousVersion ? "update" : "new";
 }
 
-export function readDatabaseMods(filePath: string): Promise<OutputMod[]> {
-  return fsp.readFile(filePath, "utf8").then((json) => {
-    const databaseOutput: DatabaseOutput = JSON.parse(json);
-    return [...databaseOutput.releases, ...databaseOutput.alphaReleases];
-  });
+async function readDatabaseMods(filePath: string): Promise<OutputMod[]> {
+  const json = await fsp.readFile(filePath, "utf8");
+  const databaseOutput: DatabaseOutput = JSON.parse(json);
+
+  return [...databaseOutput.releases, ...databaseOutput.alphaReleases];
 }

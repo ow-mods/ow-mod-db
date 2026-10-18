@@ -1,91 +1,74 @@
 import type { BaseMod } from "../mod.ts";
-import { getDateAgeInHours } from "../helpers/dates.ts";
 
-const MAX_UPDATE_AGE_HOURS = 24;
+export type NotifiedMod = {
+  version: string;
+  prereleaseVersion?: string;
+};
+
+export type NotifiedMods = Record<string, NotifiedMod>;
 
 export type DiffItem =
   | {
+      diffType: "release";
       nextMod: BaseMod;
-      diffType: "add";
+      previousVersion?: string;
     }
   | {
-      previousMod: BaseMod;
+      diffType: "prerelease";
       nextMod: BaseMod;
-      diffType: "update";
-    }
-  | {
-      previousMod: BaseMod;
-      nextMod: BaseMod;
-      diffType: "update-prerelease";
+      previousPrereleaseVersion?: string;
     };
 
 export function getDiff(
-  previousDatabase: BaseMod[],
+  notifiedMods: NotifiedMods,
   nextDatabase: BaseMod[],
-) {
+): DiffItem[] {
   const diff: DiffItem[] = [];
 
-  for (const nextDatabaseMod of nextDatabase) {
-    const previousDatabaseMod = previousDatabase.find(
-      (mod) => mod.uniqueName === nextDatabaseMod.uniqueName
-    );
+  for (const nextMod of nextDatabase) {
+    const notifiedMod = notifiedMods[nextMod.uniqueName];
 
-    if (!previousDatabaseMod) {
+    if (!notifiedMod) {
       diff.push({
-        diffType: "add",
-        nextMod: nextDatabaseMod,
+        diffType: "release",
+        nextMod,
       });
       continue;
     }
 
-    if (
-      getDateAgeInHours(nextDatabaseMod.latestReleaseDate) <
-      MAX_UPDATE_AGE_HOURS
-    ) {
-      if (previousDatabaseMod.version !== nextDatabaseMod.version) {
-        diff.push({
-          diffType: "update",
-          previousMod: previousDatabaseMod,
-          nextMod: nextDatabaseMod,
-        });
-      }
+    if (notifiedMod.version !== nextMod.version) {
+      diff.push({
+        diffType: "release",
+        nextMod,
+        previousVersion: notifiedMod.version,
+      });
     }
 
     if (
-      nextDatabaseMod.prerelease &&
-      previousDatabaseMod.prerelease?.version !==
-        nextDatabaseMod.prerelease.version
+      nextMod.prerelease &&
+      notifiedMod.prereleaseVersion !== nextMod.prerelease.version
     ) {
-      if (
-        getDateAgeInHours(nextDatabaseMod.prerelease.date) <
-        MAX_UPDATE_AGE_HOURS
-      ) {
-        diff.push({
-          diffType: "update-prerelease",
-          previousMod: previousDatabaseMod,
-          nextMod: nextDatabaseMod,
-        });
-      }
+      diff.push({
+        diffType: "prerelease",
+        nextMod,
+        previousPrereleaseVersion: notifiedMod.prereleaseVersion,
+      });
     }
   }
 
   for (const diffItem of diff) {
-    switch (diffItem.diffType) {
-      case "add":
-        console.log(
-          `Mod ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was added`
-        );
-        break;
-      case "update":
-        console.log(
-          `Mod ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was updated from ${diffItem.previousMod.version} to ${diffItem.nextMod.version}`
-        );
-        break;
-      case "update-prerelease":
-        console.log(
-          `Prerelease of ${diffItem.nextMod.name} by ${diffItem.nextMod.author} was updated from ${diffItem.previousMod.prerelease?.version ?? "none"} to ${diffItem.nextMod.prerelease?.version}`
-        );
-        break;
+    const { nextMod } = diffItem;
+
+    if (diffItem.diffType === "prerelease") {
+      console.log(
+        `Prerelease of ${nextMod.name} by ${nextMod.author} was updated from ${diffItem.previousPrereleaseVersion ?? "none"} to ${nextMod.prerelease?.version}`,
+      );
+    } else if (diffItem.previousVersion) {
+      console.log(
+        `Mod ${nextMod.name} by ${nextMod.author} was updated from ${diffItem.previousVersion} to ${nextMod.version}`,
+      );
+    } else {
+      console.log(`Mod ${nextMod.name} by ${nextMod.author} was added`);
     }
   }
 

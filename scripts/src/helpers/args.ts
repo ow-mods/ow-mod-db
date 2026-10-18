@@ -4,17 +4,24 @@ import {
   type ParseArgsOptionsConfig,
 } from "node:util";
 
+type ValueType<
+  O extends ParseArgsOptionsConfig,
+  K extends keyof O & string,
+> = O[K] extends { type: "boolean" }
+  ? O[K] extends { multiple: true }
+    ? boolean[]
+    : boolean
+  : O[K] extends { multiple: true }
+    ? string[]
+    : string;
+
 type RequiredValues<
   O extends ParseArgsOptionsConfig,
   R extends readonly (keyof O & string)[],
 > = {
-  [K in R[number]]: O[K] extends { type: "boolean" }
-    ? O[K] extends { multiple: true }
-      ? boolean[]
-      : boolean
-    : O[K] extends { multiple: true }
-      ? string[]
-      : string;
+  [K in R[number]]: ValueType<O, K>;
+} & {
+  [K in Exclude<keyof O & string, R[number]>]?: ValueType<O, K>;
 };
 
 type RequiredArgsConfig<
