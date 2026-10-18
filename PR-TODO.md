@@ -8,15 +8,10 @@ Fixed after review: missing `notifications.json` is now initialized from the cur
 
 No remaining must-fix items.
 
-## Worth doing while here
-
-- **`measureTime` creates an unhandled rejected promise.** `promise.finally(...)` is not handled (`scripts/src/update-database/build-database.ts:12-21`), so a failed `fetchMods` can terminate Node via unhandled rejection before the intended `Failed to update database` error. Use `promise.then(log, log)` or return/handle the derived promise.
-- **Validate mod files against `mods/mod.schema.json`.** Right now only filename/JSON/duplicates are checked; typos like `"tag"` instead of `"tags"` silently produce wrong database entries. A small schema validation in `readModFiles` (or a cheap CI step) fits the one-file-per-mod design.
-- **Document notification state.** README should explain `notifications.json`, how it is advanced, and how to reset/seed it. This is now required operational knowledge.
-
 ## Manual test checklist
 
 ### Add-mod issue flow
+
 1. New mod, all fields filled → pending comment, success report, one new `mods/<uniqueName>.json` in a PR, correct `$schema`, sorted fields, tags/DLC/alpha/parent/thumbnail/author, issue closed.
 2. New mod, only required fields → no undefined/empty optional fields written; defaults correct.
 3. Duplicate `uniqueName` → failure report, no PR.
@@ -26,12 +21,14 @@ No remaining must-fix items.
 7. Simulate a transient GitHub API failure and confirm it is not reported as "repo missing" or "no license".
 
 ### Mods folder / database build
+
 7. Direct PR with wrong filename, duplicate `uniqueName`, invalid JSON, invalid tag → build fails with a clear message; `mod.schema.json` is ignored as a mod file.
 8. Build with a new mod, an updated release, a removed mod, and an alpha mod → `database.json` shape correct, removed mod gone, alpha in `alphaReleases`, install counts/mod manager/thumbnails present.
 9. Update a release version → version/download URL/date/description refresh; unchanged mods reuse cached data; `databaseEntryUpdatedAt` logic still refreshes after 12h.
 10. PR build must not commit/deploy/notify; merged `mods/**` push must run the full production flow.
 
 ### Notifications
+
 11. Missing `notifications.json` → (after fix) seeds/skips without failing and without a mass notification; `{}` is not used as a bootstrap.
 12. New mod → new-mod notification, state entry added, next run sends nothing.
 13. Release update → update notification with correct old/new versions, state advances.
@@ -43,5 +40,6 @@ No remaining must-fix items.
 19. Remove and re-add a mod with the same version → decide/verify whether it should notify.
 
 ### Deployment
+
 20. Scheduled, push, and manual runs: database commit → Pages deploy → website dispatch → Discord notify → state commit. Break each stage once and verify the next run retries without losing or duplicating notifications.
 21. Confirm `database.json`, thumbnails, and the Discord website links resolve after the website rebuild.

@@ -1,6 +1,8 @@
 import { promises as fsp } from "node:fs";
 import path from "node:path";
 
+import { Ajv } from "ajv";
+
 import type { ModInfo } from "./mod-info.ts";
 
 export const MODS_DIRECTORY_NAME = "mods";
@@ -40,7 +42,22 @@ export function serializeModFile(mod: ModInfo) {
   )}\n`;
 }
 
+async function createModValidator(directory: string) {
+  const schemaPath = path.join(directory, MOD_SCHEMA_FILE_NAME);
+
+  let schema: object;
+  try {
+    schema = JSON.parse(await fsp.readFile(schemaPath, "utf8"));
+  } catch (error) {
+    throw new Error(`Failed to read mod schema ${schemaPath}: ${error}`);
+  }
+
+  const ajv = new Ajv({ allErrors: true });
+  return { validate: ajv.compile(schema) };
+}
+
 export async function readModFiles(directory: string): Promise<ModFile[]> {
+  const { validate } = await createModValidator(directory);
   const entries = await fsp.readdir(directory, { withFileTypes: true });
 
   const fileNames = entries
@@ -65,6 +82,22 @@ export async function readModFiles(directory: string): Promise<ModFile[]> {
         mod = JSON.parse(content);
       } catch (error) {
         throw new Error(`Failed to parse ${filePath}: ${error}`);
+      }
+
+      if (!validate(mod)) {
+        const errors = (validate.errors ?? [])
+          .map(({ instancePath, message, params }) => {
+            const property = params.additionalProperty
+              ? ` "${params.additionalProperty}"`
+              : "";
+
+            return `${instancePath || "/"}${property} ${message}`;
+          })
+          .join("\n");
+
+        throw new Error(
+          `${filePath} does not match ${MOD_SCHEMA_FILE_NAME}:\n${errors}`,
+        );
       }
 
       const expectedFileName = getModFileName(mod.uniqueName);
