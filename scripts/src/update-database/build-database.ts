@@ -9,18 +9,6 @@ import { DATABASE_FILE_NAME } from "../config.ts";
 import { readMods } from "../mod-list.ts";
 import type { DatabaseOutput } from "../mod.ts";
 
-const measureTime = <T>(promise: Promise<T>, name: string) => {
-  const initialTime = performance.now();
-
-  promise.finally(() => {
-    console.log(
-      `Method "${name}" took ${performance.now() - initialTime} ms to finish.`,
-    );
-  });
-
-  return promise;
-};
-
 function getSettledResult<TResult>(
   results: PromiseSettledResult<TResult>,
 ): TResult | undefined {
@@ -47,19 +35,17 @@ export async function buildDatabase(
 
   const mods = await readMods(modsDirectory);
 
-  const promises = [
-    measureTime(fetchModManager(), "fetchModManager"),
-    measureTime(fetchMods(mods, outputDirectory, previousMods), "fetchMods"),
-    measureTime(getInstallCounts(30, cloudflareApiToken), "getInstallCounts30"),
-    measureTime(getInstallCounts(8, cloudflareApiToken), "getInstallCounts8"),
-  ] as const;
-
   const [
     modManagerResult,
     nextDatabase,
     installCountsResult,
     weeklyInstallCountsResult,
-  ] = await Promise.allSettled(promises);
+  ] = await Promise.allSettled([
+    fetchModManager(),
+    fetchMods(mods, outputDirectory, previousMods),
+    getInstallCounts(30, cloudflareApiToken),
+    getInstallCounts(8, cloudflareApiToken),
+  ] as const);
 
   if (nextDatabase.status === "rejected") {
     throw new Error(`Failed to update database: ${nextDatabase.reason}`);
