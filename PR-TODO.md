@@ -4,11 +4,9 @@ If Rai merged this file to the source branch, he's an idiot.
 
 Second-pass review of `source...horrible-ts-mess` (`5a441fcd`). `npm run typecheck` passes. Migration checked: all 436 `mods/*.json` files match the old `mods.json` entries field-for-field (apart from `$schema`). The points you removed from this file are treated as resolved; below are only new findings.
 
-Fixed after review: missing `notifications.json` is now initialized from the current database and notifications are skipped for that run. Invalid `uniqueName`s are now rejected by the checker before PR creation; `getModFileName` no longer validates.
+Fixed after review: missing `notifications.json` is now initialized from the current database and notifications are skipped for that run. Invalid `uniqueName`s are now rejected by the checker before PR creation; `getModFileName` no longer validates. Checker API failures now only become user-facing errors on 404; other failures propagate as checker crashes.
 
-## Must fix
-
-1. **Checker treats transient GitHub errors as mod problems** — `repos.get` turns any `RequestError` into "repo doesn't exist" (`checker.ts:60-70`), `getLatestRelease` turns any error into "missing release" (`:73-82`), and a failed `getForRepo` license call is treated as "no license" and hard-fails the mod (`:113-127`). Only 404 should produce those user-facing messages; other failures should surface as a checker error so valid mods are not rejected during API hiccups/rate limits.
+No remaining must-fix items.
 
 ## Worth doing while here
 
@@ -26,7 +24,7 @@ Fixed after review: missing `notifications.json` is now initialized from the cur
 4. Failure cases: `uniqueName` invalid as a file name (slash, colon, unicode, `.`, `..`), manifest `uniqueName` mismatch, manifest version vs release tag mismatch, no release, no ZIP asset, invalid/missing `manifest.json`, no open-source license, missing dependency, nonexistent repo, invalid repo URL. Each must show the intended report and leave the issue open.
 5. Repo URL variants: `https://github.com/o/r`, trailing `/`, trailing `.git`, extra path/query, non-GitHub URL.
 6. Retry via `checker, retry` updates the existing report comment (not duplicate); manual dispatch with `--force` works on a closed/unlabelled issue.
-7. (After checker fix) simulate a transient GitHub API failure and confirm it is not reported as "repo missing" or "no license".
+7. Simulate a transient GitHub API failure and confirm it is not reported as "repo missing" or "no license".
 
 ### Edit-mod issue flow
 8. Edit name/repo/tags/author/thumbnail/parent/DLC → only the existing file changes; `downloadCountOffset`, `firstReleaseDateOverride`, `repoVariations`, `required`, `utility` are preserved.

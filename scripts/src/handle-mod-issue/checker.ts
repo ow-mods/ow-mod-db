@@ -28,6 +28,10 @@ function fail(message: string): never {
   throw new CheckError(message);
 }
 
+function isNotFound(error: unknown) {
+  return error instanceof RequestError && error.status === 404;
+}
+
 export function getErrorMessage(error: unknown) {
   return error instanceof Error ? error.message : String(error);
 }
@@ -70,9 +74,9 @@ export async function checkMod(options: CheckModOptions): Promise<CheckResult> {
       const { data } = await octokit.rest.repos.get({ owner, repo: repoName });
       description = data.description;
     } catch (error) {
-      if (error instanceof RequestError) {
+      if (isNotFound(error)) {
         fail(
-          `This mod's repo doesn't appear to exist, please double check the URL you specified (GitHub gave status ${error.status})`,
+          "This mod's repo doesn't appear to exist, please double check the URL you specified",
         );
       }
       throw error;
@@ -85,10 +89,13 @@ export async function checkMod(options: CheckModOptions): Promise<CheckResult> {
         repo: repoName,
       });
       release = data;
-    } catch {
-      fail(
-        "This mod appears to be missing a release, did you forget to publish it?",
-      );
+    } catch (error) {
+      if (isNotFound(error)) {
+        fail(
+          "This mod appears to be missing a release, did you forget to publish it?",
+        );
+      }
+      throw error;
     }
 
     const expectedVersion = fixVersion(release.tag_name);
@@ -114,7 +121,11 @@ export async function checkMod(options: CheckModOptions): Promise<CheckResult> {
 
     try {
       await octokit.rest.repos.getReadme({ owner, repo: repoName });
-    } catch {
+    } catch (error) {
+      if (!isNotFound(error)) {
+        throw error;
+      }
+
       warnings.push(
         "This mod's repo doesn't have a README, the README is used on the website to describe your mod. You can add one by creating a file called `README.md` at the root of your repo",
       );
@@ -127,7 +138,11 @@ export async function checkMod(options: CheckModOptions): Promise<CheckResult> {
         repo: repoName,
       });
       license = data.license?.spdx_id ?? null;
-    } catch {
+    } catch (error) {
+      if (!isNotFound(error)) {
+        throw error;
+      }
+
       // No license file.
     }
 
