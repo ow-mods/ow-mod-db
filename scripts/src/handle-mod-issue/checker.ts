@@ -12,7 +12,6 @@ export type CheckResult = {
 type CheckModOptions = {
   repo: string;
   expectedUniqueName: string;
-  skipDuplicateCheck: boolean;
   mods: Map<string, string>;
 };
 
@@ -55,13 +54,11 @@ export async function checkMod(options: CheckModOptions): Promise<CheckResult> {
       );
     }
 
-    if (!options.skipDuplicateCheck) {
-      const existingName = options.mods.get(options.expectedUniqueName);
-      if (existingName) {
-        fail(
-          `This unique name appears to be in use by another mod (${existingName}), please choose a different one`,
-        );
-      }
+    const existingName = options.mods.get(options.expectedUniqueName);
+    if (existingName) {
+      fail(
+        `This unique name appears to be in use by another mod (${existingName}), please choose a different one`,
+      );
     }
 
     const [owner, repoName] = options.repo.split("/");

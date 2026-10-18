@@ -6,7 +6,9 @@ The database is deployed to GitHub Pages, since GitHub aggressively caches direc
 
 ## [Click here to add your mod to the database](https://github.com/ow-mods/ow-mod-db/issues/new?labels=add-mod&template=add-mod.yml&title=%5BYour+mod+name+here%5D)
 
-Or, if you want, you can [edit the mod list yourself and open a PR](https://github.com/ow-mods/ow-mod-db/tree/source/mods). Add or edit `mods/<uniqueName>.json` for your mod.
+To add a mod, you can use the issue form above or [open a PR](https://github.com/ow-mods/ow-mod-db/new/source/mods) that creates a `mods/<uniqueName>.json` that follows the [schema](https://github.com/ow-mods/ow-mod-db/blob/source/mods/mod.schema.json).
+
+To update an existing mod, edit its `mods/<uniqueName>.json` file directly and open a PR.
 
 ## How it works
 

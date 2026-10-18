@@ -19,7 +19,7 @@
     },
     "uniqueName": {
       "type": "string",
-      "description": "Your mod's ID, unchangeable and unique within the whole database. IMPORTANT: must match uniqueName from your mod's manifest.json. If you're editing an existing mod, this must match the uniqueName of that mod. This property can't be edited."
+      "description": "Your mod's ID, unchangeable and unique within the whole database. IMPORTANT: must match uniqueName from your mod's manifest.json."
     },
     "repo": {
       "type": "string",

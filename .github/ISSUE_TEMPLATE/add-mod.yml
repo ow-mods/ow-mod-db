@@ -1,5 +1,5 @@
-name: Add new mod / edit existing mod
-description: Request for a new mod to be added to the database, or edit an existing mod.
+name: Add new mod
+description: Request for a new mod to be added to the database.
 title: "[Your mod name here]"
 labels: ["add-mod"]
 body:
@@ -31,7 +31,7 @@ body:
     id: uniqueName
     attributes:
       label: Mod uniqueName
-      description: "Your mod's ID, unchangeable and unique within the whole database. IMPORTANT: must match uniqueName from your mod's `manifest.json`. If you're editing an existing mod, this must match the `uniqueName` of that mod. This property can't be edited."
+      description: "Your mod's ID, unchangeable and unique within the whole database. IMPORTANT: must match uniqueName from your mod's `manifest.json`."
       placeholder: Raicuparta.ModTemplate
     validations:
       required: true
@@ -39,7 +39,7 @@ body:
     id: name
     attributes:
       label: Mod name
-      description: Human-readable title for your mod. If you want to change your mod's name later, you'll need to request a change to the database again.
+      description: Human-readable title for your mod.
       placeholder: Outer Wilds Mod Template
     validations:
       required: true
@@ -92,13 +92,6 @@ body:
       label: Parent uniqueName
       description: If this mod is an addon for another mod, place the parent's uniqueName here. For instance, custom planets made with New Horizons would have `xen.NewHorizons` in this field.
       placeholder: Raicuparta.ModTemplateParent
-  - type: dropdown
-    id: isEdit
-    attributes:
-      label: I'm editing an existing mod
-      description: Select "Editing existing mod" if you're updating a mod that already exists in the database.
-      options:
-        - "Editing existing mod"
   - type: dropdown
     id: dlc
     attributes:

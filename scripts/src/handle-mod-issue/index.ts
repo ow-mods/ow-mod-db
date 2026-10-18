@@ -7,15 +7,15 @@ import {
   ADD_MOD_LABEL,
   DATABASE_REPOSITORY,
 } from "../config.ts";
-import { MODS_DIRECTORY_NAME, readModFiles } from "../mod-list.ts";
+import { MODS_DIRECTORY_NAME, readMods } from "../mod-list.ts";
 import {
   checkMod,
   getErrorMessage,
   renderMarkdown,
   type CheckResult,
 } from "./checker.ts";
+import { createModFile } from "./create-mod-file.ts";
 import { parseModIssueForm, type ParsedIssue } from "./issue-form.ts";
-import { modifyModList } from "./modify-mod-list.ts";
 
 const REPORT_COMMENT_MARKER = "<!-- mod-check-report -->";
 
@@ -188,9 +188,9 @@ async function run() {
 
   const reportCommentId = await postComment(buildPendingComment());
 
-  const modFiles = await readModFiles(path.resolve(modsDirectory));
+  const existingMods = await readMods(path.resolve(modsDirectory));
   const mods = new Map(
-    modFiles.map(({ mod }) => [mod.uniqueName, mod.name]),
+    existingMods.map((mod) => [mod.uniqueName, mod.name]),
   );
 
   let result: CheckResult;
@@ -198,7 +198,6 @@ async function run() {
     result = await checkMod({
       repo: modRepo,
       expectedUniqueName: form.uniqueName,
-      skipDuplicateCheck: form.isEdit.includes("Editing existing mod"),
       mods,
     });
   } catch (error) {
@@ -219,46 +218,37 @@ async function run() {
     return;
   }
 
-  const { fileName, newContent, changed } = modifyModList(
-    modFiles,
-    form,
-    modRepo,
-  );
+  const { fileName, content } = createModFile(form, modRepo);
+  const title = `Add mod: ${form.uniqueName}`;
 
-  if (changed) {
-    const title = `Add/Edit mod: ${form.uniqueName}`;
-
-    const pr = await octokit.createPullRequest({
-      owner: DATABASE_REPOSITORY.owner,
-      repo: DATABASE_REPOSITORY.repo,
-      title,
-      body: `Created from #${issueNumberValue}\n${form.repoUrl}`,
-      head: `add-mod-issue-${issueNumberValue}`,
-      update: true,
-      createWhenEmpty: false,
-      labels: [ADD_MOD_LABEL],
-      changes: [
-        {
-          files: {
-            [`${MODS_DIRECTORY_NAME}/${fileName}`]: newContent,
-          },
-          commit: title,
-          committer: {
-            name: "Outer Wilds Mods",
-            email: "workflows@outerwildsmods.com",
-          },
+  const pr = await octokit.createPullRequest({
+    owner: DATABASE_REPOSITORY.owner,
+    repo: DATABASE_REPOSITORY.repo,
+    title,
+    body: `Created from #${issueNumberValue}\n${form.repoUrl}`,
+    head: `add-mod-issue-${issueNumberValue}`,
+    update: true,
+    createWhenEmpty: false,
+    labels: [ADD_MOD_LABEL],
+    changes: [
+      {
+        files: {
+          [`${MODS_DIRECTORY_NAME}/${fileName}`]: content,
         },
-      ],
-    });
+        commit: title,
+        committer: {
+          name: "Outer Wilds Mods",
+          email: "workflows@outerwildsmods.com",
+        },
+      },
+    ],
+  });
 
-    console.log(
-      pr
-        ? `Created/updated pull request #${String(pr.data.number)}`
-        : "No changes to the mods directory, no pull request created",
-    );
-  } else {
-    console.log("No changes to the mods directory, no pull request created");
-  }
+  console.log(
+    pr
+      ? `Created/updated pull request #${String(pr.data.number)}`
+      : "No pull request created",
+  );
 
   await octokit.rest.issues.update({
     owner: DATABASE_REPOSITORY.owner,

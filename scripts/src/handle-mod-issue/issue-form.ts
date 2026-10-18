@@ -17,7 +17,6 @@ export type ParsedIssue = ModIssueForm & {
   // discordId not used anywhere in the codebase right now (unless this comment is outdated), but
   // used to identify the modder and give them their purple role.
   discordId?: string;
-  isEdit: string[];
 };
 
 function getString(value: string | string[] | Checkboxes | undefined) {
@@ -44,7 +43,6 @@ export function parseModIssueForm(
     tags: getStringArray(parsed.tags),
     authorDisplay: getString(parsed.authorDisplay),
     parent: getString(parsed.parent),
-    isEdit: getStringArray(parsed.isEdit),
     dlc: getStringArray(parsed.dlc),
     alpha: getStringArray(parsed.alpha),
   };
