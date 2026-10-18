@@ -11,16 +11,14 @@ export function getNotificationStatePath(databaseDirectory: string) {
 
 export async function readNotificationState(
   filePath: string,
-): Promise<NotifiedMods> {
+): Promise<NotifiedMods | undefined> {
   let content: string;
 
   try {
     content = await fsp.readFile(filePath, "utf8");
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === "ENOENT") {
-      throw new Error(
-        `No notification state found at ${filePath}. Create it on master before sending notifications.`,
-      );
+      return undefined;
     }
 
     throw error;
@@ -42,6 +40,16 @@ function getNotifiedMod(mod: BaseMod): NotifiedMod {
       ? { prereleaseVersion: mod.prerelease.version }
       : {}),
   };
+}
+
+export function createNotificationState(mods: BaseMod[]): NotifiedMods {
+  const nextMods: NotifiedMods = {};
+
+  for (const mod of mods) {
+    nextMods[mod.uniqueName] = getNotifiedMod(mod);
+  }
+
+  return sortMods(nextMods);
 }
 
 export function applyDiffToState(

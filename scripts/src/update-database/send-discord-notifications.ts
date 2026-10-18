@@ -6,6 +6,7 @@ import { DATABASE_FILE_NAME, THUMBNAIL_URL_BASE } from "../config.ts";
 import { getDiff, type DiffItem, type NotifiedMods } from "./get-diff.ts";
 import {
   applyDiffToState,
+  createNotificationState,
   getNotificationStatePath,
   readNotificationState,
   writeNotificationState,
@@ -45,6 +46,11 @@ export async function notifyDatabase(databaseDirectory: string) {
     readNotificationState(notificationsFile),
   ]);
 
+  if (!state) {
+    await primeNotificationState(notificationsFile, nextMods);
+    return;
+  }
+
   const diff = getDiff(state, nextMods);
 
   if (diff.length === 0) {
@@ -74,6 +80,11 @@ export async function notifyMod(
   );
   const state = await readNotificationState(notificationsFile);
 
+  if (!state) {
+    await primeNotificationState(notificationsFile, mods);
+    return;
+  }
+
   const diff: DiffItem[] = [
     {
       diffType: "release",
@@ -83,6 +94,19 @@ export async function notifyMod(
   ];
 
   await sendAndAdvanceState(notificationsFile, state, diff);
+}
+
+async function primeNotificationState(
+  notificationsFile: string,
+  mods: BaseMod[],
+) {
+  await writeNotificationState(
+    notificationsFile,
+    createNotificationState(mods),
+  );
+  console.log(
+    `Notification state not found. Initialized ${notificationsFile} with ${mods.length} mods; skipping notifications for this run.`,
+  );
 }
 
 async function sendAndAdvanceState(
