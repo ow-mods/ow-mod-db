@@ -4,13 +4,11 @@ If Rai merged this file to the source branch, he's an idiot.
 
 Second-pass review of `source...horrible-ts-mess` (`5a441fcd`). `npm run typecheck` passes. Migration checked: all 436 `mods/*.json` files match the old `mods.json` entries field-for-field (apart from `$schema`). The points you removed from this file are treated as resolved; below are only new findings.
 
-Fixed after review: missing `notifications.json` is now initialized from the current database and notifications are skipped for that run.
+Fixed after review: missing `notifications.json` is now initialized from the current database and notifications are skipped for that run. Invalid `uniqueName`s are now rejected by the checker before PR creation; `getModFileName` no longer validates.
 
 ## Must fix
 
-1. **A valid `uniqueName` can pass the checker and then crash the PR step** — `getModFileName` accepts only `[A-Za-z0-9._, -]` (`scripts/src/mod-list.ts:19-31`), but `modifyModList` is called only after the success report is posted (`handle-mod-issue/index.ts:212-226`). A mod whose manifest uses e.g. `:` or a unicode character will get a green report, then the workflow throws while creating the file; the issue stays open with no PR and no explanation. Validate the unique name before/inside `checkMod` and report it as a normal checker failure, and document the restriction in `mod.schema.json`.
-
-2. **Checker treats transient GitHub errors as mod problems** — `repos.get` turns any `RequestError` into "repo doesn't exist" (`checker.ts:60-70`), `getLatestRelease` turns any error into "missing release" (`:73-82`), and a failed `getForRepo` license call is treated as "no license" and hard-fails the mod (`:113-127`). Only 404 should produce those user-facing messages; other failures should surface as a checker error so valid mods are not rejected during API hiccups/rate limits.
+1. **Checker treats transient GitHub errors as mod problems** — `repos.get` turns any `RequestError` into "repo doesn't exist" (`checker.ts:60-70`), `getLatestRelease` turns any error into "missing release" (`:73-82`), and a failed `getForRepo` license call is treated as "no license" and hard-fails the mod (`:113-127`). Only 404 should produce those user-facing messages; other failures should surface as a checker error so valid mods are not rejected during API hiccups/rate limits.
 
 ## Worth doing while here
 
@@ -25,7 +23,7 @@ Fixed after review: missing `notifications.json` is now initialized from the cur
 1. New mod, all fields filled → pending comment, success report, one new `mods/<uniqueName>.json` in a PR, correct `$schema`, sorted fields, tags/DLC/alpha/parent/thumbnail/author, issue closed.
 2. New mod, only required fields → no undefined/empty optional fields written; defaults correct.
 3. Duplicate `uniqueName` with duplicate-check enabled → failure report, no PR.
-4. Failure cases: manifest `uniqueName` mismatch, manifest version vs release tag mismatch, no release, no ZIP asset, invalid/missing `manifest.json`, no open-source license, missing dependency, nonexistent repo, invalid repo URL. Each must show the intended report and leave the issue open.
+4. Failure cases: `uniqueName` invalid as a file name (slash, colon, unicode, `.`, `..`), manifest `uniqueName` mismatch, manifest version vs release tag mismatch, no release, no ZIP asset, invalid/missing `manifest.json`, no open-source license, missing dependency, nonexistent repo, invalid repo URL. Each must show the intended report and leave the issue open.
 5. Repo URL variants: `https://github.com/o/r`, trailing `/`, trailing `.git`, extra path/query, non-GitHub URL.
 6. Retry via `checker, retry` updates the existing report comment (not duplicate); manual dispatch with `--force` works on a closed/unlabelled issue.
 7. (After checker fix) simulate a transient GitHub API failure and confirm it is not reported as "repo missing" or "no license".

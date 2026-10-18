@@ -36,13 +36,21 @@ function fixVersion(version: string) {
   return version.trim().replace(/^v+/, "");
 }
 
-export async function checkMod(
-  options: CheckModOptions,
-): Promise<CheckResult> {
+export async function checkMod(options: CheckModOptions): Promise<CheckResult> {
   const octokit = getOctokit();
   const warnings: string[] = [];
 
   try {
+    if (
+      !/^[A-Za-z0-9._, -]+$/.test(options.expectedUniqueName) ||
+      options.expectedUniqueName === "." ||
+      options.expectedUniqueName === ".."
+    ) {
+      fail(
+        `The unique name "${options.expectedUniqueName}" can't be used as a file name. Mod unique names may only contain letters, numbers, spaces, and the characters ".", "_", ",", and "-".`,
+      );
+    }
+
     if (!options.skipDuplicateCheck) {
       const existingName = options.mods.get(options.expectedUniqueName);
       if (existingName) {
@@ -78,7 +86,9 @@ export async function checkMod(
       });
       release = data;
     } catch {
-      fail("This mod appears to be missing a release, did you forget to publish it?");
+      fail(
+        "This mod appears to be missing a release, did you forget to publish it?",
+      );
     }
 
     const expectedVersion = fixVersion(release.tag_name);
@@ -144,7 +154,9 @@ export async function checkMod(
 
     for (const dependency of manifest.dependencies ?? []) {
       if (!options.mods.has(dependency)) {
-        fail(`This mod depends on another mod that seemingly doesn't exist: ${dependency}`);
+        fail(
+          `This mod depends on another mod that seemingly doesn't exist: ${dependency}`,
+        );
       }
     }
 
@@ -166,7 +178,9 @@ async function downloadAndParseManifest(url: string): Promise<Manifest> {
   }
 
   if (!response.ok) {
-    fail(`Failed to download the mod: ${response.status} ${response.statusText}`);
+    fail(
+      `Failed to download the mod: ${response.status} ${response.statusText}`,
+    );
   }
 
   const buffer = Buffer.from(await response.arrayBuffer());
@@ -183,7 +197,9 @@ function parseManifestFromZip(zipBuffer: Buffer): Manifest {
   try {
     zip = new AdmZip(zipBuffer);
   } catch (error) {
-    throw new Error(`Failed to read the zip archive: ${getErrorMessage(error)}`);
+    throw new Error(
+      `Failed to read the zip archive: ${getErrorMessage(error)}`,
+    );
   }
 
   for (const entry of zip.getEntries()) {
@@ -195,7 +211,9 @@ function parseManifestFromZip(zipBuffer: Buffer): Manifest {
     try {
       text = entry.getData().toString("utf8");
     } catch (error) {
-      throw new Error(`Failed to read manifest.json in the zip archive: ${getErrorMessage(error)}`);
+      throw new Error(
+        `Failed to read manifest.json in the zip archive: ${getErrorMessage(error)}`,
+      );
     }
 
     return parseManifest(text);
@@ -227,23 +245,34 @@ function parseManifest(raw: string): Manifest {
 
   for (const field of ["uniqueName", "name", "author", "version"]) {
     if (typeof obj[field] !== "string") {
-      throw new Error(`Invalid manifest.json: missing or invalid field "${field}"`);
+      throw new Error(
+        `Invalid manifest.json: missing or invalid field "${field}"`,
+      );
     }
   }
 
   for (const field of ["filename", "owmlVersion", "patcher", "donateLink"]) {
     if (obj[field] !== undefined && typeof obj[field] !== "string") {
-      throw new Error(`Invalid manifest.json: field "${field}" must be a string`);
+      throw new Error(
+        `Invalid manifest.json: field "${field}" must be a string`,
+      );
     }
   }
 
-  for (const field of ["dependencies", "conflicts", "pathsToPreserve", "donateLinks"]) {
+  for (const field of [
+    "dependencies",
+    "conflicts",
+    "pathsToPreserve",
+    "donateLinks",
+  ]) {
     if (
       obj[field] !== undefined &&
       (!Array.isArray(obj[field]) ||
         obj[field].some((value) => typeof value !== "string"))
     ) {
-      throw new Error(`Invalid manifest.json: field "${field}" must be an array of strings`);
+      throw new Error(
+        `Invalid manifest.json: field "${field}" must be an array of strings`,
+      );
     }
   }
 
@@ -291,7 +320,8 @@ export function renderMarkdown(result: CheckResult) {
         `the mod manager should open and install it.\n\n\`\`\`txt\nowmods://install-url/${result.url}\n\`\`\`\n\n`;
     }
 
-    out += "Now that all checks have passed, please wait until a database admin approves your mod.\n\n";
+    out +=
+      "Now that all checks have passed, please wait until a database admin approves your mod.\n\n";
   } else {
     out +=
       "> ❌ Failed, This mod doesn't seem to be valid, please fix the errors above and try again.\n\n";

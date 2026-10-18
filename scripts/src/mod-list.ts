@@ -8,7 +8,6 @@ export const MOD_SCHEMA_FILE_NAME = "mod.schema.json";
 export const MOD_SCHEMA_REFERENCE = `./${MOD_SCHEMA_FILE_NAME}`;
 
 const MOD_FILE_EXTENSION = ".json";
-const MOD_FILE_NAME_PATTERN = /^[A-Za-z0-9._, -]+$/;
 
 export type ModFile = {
   fileName: string;
@@ -17,16 +16,6 @@ export type ModFile = {
 };
 
 export function getModFileName(uniqueName: string) {
-  if (
-    !MOD_FILE_NAME_PATTERN.test(uniqueName) ||
-    uniqueName === "." ||
-    uniqueName === ".."
-  ) {
-    throw new Error(
-      `Mod uniqueName "${uniqueName}" can't be used as a file name. Mod unique names may only contain letters, numbers, spaces, and the characters ".", "_", ",", and "-".`,
-    );
-  }
-
   return `${uniqueName}${MOD_FILE_EXTENSION}`;
 }
 
