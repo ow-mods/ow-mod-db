@@ -42,7 +42,7 @@ Discord web hook URL where all the notifications are sent. Format:
 https://discord.com/api/webhooks/XXX/YYY
 ```
 
-### CLOUDFLARE_API_TOKEN
+### `CLOUDFLARE_API_TOKEN`
 
 Cloudflare API token from [here](https://dash.cloudflare.com/profile/api-tokens), with Analytics read permissions.
 
@@ -50,11 +50,11 @@ Cloudflare API token from [here](https://dash.cloudflare.com/profile/api-tokens)
 
 Edit them in the [repository settings](https://github.com/ow-mods/ow-mod-db/settings/variables/actions).
 
-### DISCORD_MOD_UPDATE_ROLE_ID
+### `DISCORD_MOD_UPDATE_ROLE_ID`
 
 ID for the Discord role to ping when there's a mod update.
 
-### DISCORD_NEW_MOD_ROLE_ID
+### `DISCORD_NEW_MOD_ROLE_ID`
 
 ID for the Discord role to ping when there's a new mod added to the database.
 
