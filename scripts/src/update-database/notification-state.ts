@@ -1,0 +1,104 @@
+import { promises as fsp } from "node:fs";
+import path from "node:path";
+
+import { NOTIFICATIONS_FILE_NAME } from "../config.ts";
+import type { BaseMod } from "../mod.ts";
+import type { DiffItem, NotifiedMod, NotifiedMods } from "./get-diff.ts";
+
+export function getNotificationStatePath(databaseDirectory: string) {
+  return path.join(databaseDirectory, NOTIFICATIONS_FILE_NAME);
+}
+
+export async function readNotificationState(
+  filePath: string,
+): Promise<NotifiedMods | undefined> {
+  let content: string;
+
+  try {
+    content = await fsp.readFile(filePath, "utf8");
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") {
+      return undefined;
+    }
+
+    throw error;
+  }
+
+  const parsed: unknown = JSON.parse(content);
+
+  if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+    throw new Error(`Invalid notification state in ${filePath}`);
+  }
+
+  return parsed as NotifiedMods;
+}
+
+function getNotifiedMod(mod: BaseMod): NotifiedMod {
+  return {
+    version: mod.version,
+    latestReleaseDate: mod.latestReleaseDate,
+    ...(mod.prerelease
+      ? {
+          prerelease: {
+            version: mod.prerelease.version,
+            date: mod.prerelease.date,
+          },
+        }
+      : {}),
+  };
+}
+
+export function createNotificationState(mods: BaseMod[]): NotifiedMods {
+  const nextMods: NotifiedMods = {};
+
+  for (const mod of mods) {
+    nextMods[mod.uniqueName] = getNotifiedMod(mod);
+  }
+
+  return sortMods(nextMods);
+}
+
+export function applyDiffToState(
+  mods: NotifiedMods,
+  diff: DiffItem[],
+): NotifiedMods {
+  const nextMods: NotifiedMods = { ...mods };
+
+  for (const diffItem of diff) {
+    const uniqueName = diffItem.nextMod.uniqueName;
+
+    if (diffItem.releaseType === "release") {
+      nextMods[uniqueName] = getNotifiedMod(diffItem.nextMod);
+      continue;
+    }
+
+    const prerelease = diffItem.nextMod.prerelease;
+
+    if (prerelease) {
+      nextMods[uniqueName] = {
+        ...nextMods[uniqueName],
+        prerelease: {
+          version: prerelease.version,
+          date: prerelease.date,
+        },
+      };
+    }
+  }
+
+  return sortMods(nextMods);
+}
+
+export async function writeNotificationState(
+  filePath: string,
+  mods: NotifiedMods,
+) {
+  await fsp.writeFile(filePath, `${JSON.stringify(sortMods(mods), null, 2)}\n`);
+}
+
+function sortMods(mods: NotifiedMods): NotifiedMods {
+  return Object.fromEntries(
+    Object.entries(mods).sort(([uniqueNameA], [uniqueNameB]) =>
+      uniqueNameA.localeCompare(uniqueNameB),
+    ),
+  );
+}

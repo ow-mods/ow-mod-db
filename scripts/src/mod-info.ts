@@ -1,9 +1,5 @@
-export type ModList = {
-  $schema: string;
-  mods: ModInfo[];
-};
-
 export type ModInfo = {
+  $schema?: string;
   name: string;
   uniqueName: string;
   repo: string;

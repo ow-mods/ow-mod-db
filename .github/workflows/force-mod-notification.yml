@@ -1,0 +1,64 @@
+name: Force mod notification
+
+concurrency: database-master
+
+on:
+  workflow_dispatch:
+    inputs:
+      modUniqueName:
+        description: "The unique name of the mod to notify about"
+        required: true
+        type: string
+      previousModVersion:
+        description: "The version of this mod prior to the update we are notifying about (the current version is taken from the database). Leave empty to send a new-mod notification."
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "26"
+
+      - run: npm ci
+        working-directory: scripts
+
+      - name: Checkout database repo
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          ref: master
+          path: database
+
+      - name: Send Notification
+        run: >-
+          npm run update-database -- notify-mod
+          --databaseFile ../database/database.json
+          --modUniqueName "$MOD_UNIQUE_NAME"
+          --previousVersion "$PREVIOUS_MOD_VERSION"
+        working-directory: scripts
+        env:
+          MOD_UNIQUE_NAME: ${{ github.event.inputs.modUniqueName }}
+          PREVIOUS_MOD_VERSION: ${{ github.event.inputs.previousModVersion }}
+          DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
+          DISCORD_MOD_UPDATE_ROLE_ID: ${{ vars.DISCORD_MOD_UPDATE_ROLE_ID }}
+          DISCORD_NEW_MOD_ROLE_ID: ${{ vars.DISCORD_NEW_MOD_ROLE_ID }}
+
+      - name: Commit Notification State
+        working-directory: database
+        run: |
+          git config user.name "Outer Wilds Mod Database"
+          git config user.email "database@outerwildsmods.com"
+          git add notifications.json
+          if git diff --cached --quiet; then
+            echo "No notification state changes to commit"
+          else
+            git commit -m "Update notification state"
+            git push origin master
+          fi

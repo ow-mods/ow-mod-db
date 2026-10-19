@@ -1,12 +1,20 @@
 # Outer Wilds Mod Database
 
-Uses the mod list in [`mods.json` of the `source`](https://github.com/ow-mods/ow-mod-db/blob/source/mods.json) branch, fetches the required data for each mod. That data is then added to [`database.json` in the `master` branch](https://ow-mods.github.io/ow-mod-db/database.json). The process happens automatically every once in a while.
+Uses the mod list in the [`mods` folder of the `source`](https://github.com/ow-mods/ow-mod-db/tree/source/mods) branch, fetches the required data for each mod. Each mod lives in its own JSON file, named after its `uniqueName`, and follows the [`mod.schema.json`](https://github.com/ow-mods/ow-mod-db/blob/source/mods/mod.schema.json) schema. That data is then added to [`database.json` in the `master` branch](https://ow-mods.github.io/ow-mod-db/database.json). The process happens automatically every once in a while.
 
 The database is deployed to GitHub Pages, since GitHub aggressively caches direct access to the raw file in the repo. So if you want to read from the database, you should use this URL: https://ow-mods.github.io/ow-mod-db/database.json
 
-## [Click here to add your mod to the database](https://github.com/ow-mods/ow-mod-db/issues/new?labels=add-mod&template=add-mod.yml&title=%5BYour+mod+name+here%5D)
+## Adding a mod
 
-Or, if you want, you can [edit the mod list yourself and open a PR](https://github.com/ow-mods/outer-wilds-mod-db/edit/source/mods.json)
+[**Click here to add your mod to the database**](https://github.com/ow-mods/ow-mod-db/issues/new?labels=add-mod&template=add-mod.yml&title=%5BYour+mod+name+here%5D)
+
+The issue form is the only supported way to add a new mod to the database.
+
+## Updating a mod
+
+The database automatically detects updates to your mod after you push them to your repository, including changes to your readme and mod releases.
+
+To change the information that you submitted to the mod database, such as the mod title, tags, custom thumbnail, etc, find your mod's json in the [database mods folder](https://github.com/ow-mods/ow-mod-db/blob/source/mods) and edit it.
 
 ## How it works
 
@@ -24,27 +32,12 @@ GitHub token with repo permissions. Format:
 ghp_XXX
 ```
 
-### `GH_USER`
-
-User name that owns GH_TOKEN
-
 ### `DISCORD_HOOK_URL`
 
 Discord web hook URL where all the notifications are sent. Format:
 
 ```
 https://discord.com/api/webhooks/XXX/YYY
-```
-
-### `DISCORD_MOD_HOOK_URLS`
-
-JSON object where keys are the uniqueName of a mod, and the values are the Discord hook urls of the channel where update notifications should be sent to. Format:
-
-```json
-{
-  "uniqueNameA": "https://discord.com/api/webhooks/XXX/YYY",
-  "uniqueNameB": "https://discord.com/api/webhooks/WWW/ZZZ"
-}
 ```
 
 ### DISCORD_MOD_UPDATE_ROLE_ID
