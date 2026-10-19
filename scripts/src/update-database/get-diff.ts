@@ -2,22 +2,72 @@ import type { BaseMod } from "../mod.ts";
 
 export type NotifiedMod = {
   version: string;
-  prereleaseVersion?: string;
+  latestReleaseDate: string;
+  prerelease?: {
+    version: string;
+    date: string;
+  };
 };
 
 export type NotifiedMods = Record<string, NotifiedMod>;
 
-export type DiffItem =
-  | {
-      diffType: "release";
-      nextMod: BaseMod;
-      previousVersion?: string;
-    }
-  | {
-      diffType: "prerelease";
-      nextMod: BaseMod;
-      previousPrereleaseVersion?: string;
-    };
+export type DiffType = "new" | "update";
+export type ReleaseType = "release" | "prerelease";
+
+export type DiffItem = {
+  diffType: DiffType;
+  releaseType: ReleaseType;
+  nextMod: BaseMod;
+  previousVersion?: string;
+};
+
+function isOlderDate(nextDate: string, previousDate: string) {
+  const nextTime = Date.parse(nextDate);
+  const previousTime = Date.parse(previousDate);
+
+  return (
+    Number.isFinite(nextTime) &&
+    Number.isFinite(previousTime) &&
+    nextTime < previousTime
+  );
+}
+
+type UpdateTrack = {
+  releaseType: ReleaseType;
+  version: string | undefined;
+  date: string | undefined;
+  previousVersion: string | undefined;
+  previousDate: string | undefined;
+};
+
+function getUpdateDiff(
+  nextMod: BaseMod,
+  {
+    releaseType,
+    version,
+    date,
+    previousVersion,
+    previousDate,
+  }: UpdateTrack,
+): DiffItem | undefined {
+  if (!version || version === previousVersion) {
+    return undefined;
+  }
+
+  if (date && previousDate && isOlderDate(date, previousDate)) {
+    console.warn(
+      `Skipping ${releaseType} notification for ${nextMod.name}: ${version} (${date}) is older than ${previousVersion ?? "unknown"} (${previousDate})`,
+    );
+    return undefined;
+  }
+
+  return {
+    diffType: "update",
+    releaseType,
+    nextMod,
+    previousVersion,
+  };
+}
 
 export function getDiff(
   notifiedMods: NotifiedMods,
@@ -30,45 +80,53 @@ export function getDiff(
 
     if (!notifiedMod) {
       diff.push({
-        diffType: "release",
+        diffType: "new",
+        releaseType: "release",
         nextMod,
       });
       continue;
     }
 
-    if (notifiedMod.version !== nextMod.version) {
-      diff.push({
-        diffType: "release",
-        nextMod,
-        previousVersion: notifiedMod.version,
-      });
+    const releaseDiff = getUpdateDiff(nextMod, {
+      releaseType: "release",
+      version: nextMod.version,
+      date: nextMod.latestReleaseDate,
+      previousVersion: notifiedMod.version,
+      previousDate: notifiedMod.latestReleaseDate,
+    });
+    if (releaseDiff) {
+      diff.push(releaseDiff);
     }
 
-    if (
-      nextMod.prerelease &&
-      notifiedMod.prereleaseVersion !== nextMod.prerelease.version
-    ) {
-      diff.push({
-        diffType: "prerelease",
-        nextMod,
-        previousPrereleaseVersion: notifiedMod.prereleaseVersion,
-      });
+    const prereleaseDiff = getUpdateDiff(nextMod, {
+      releaseType: "prerelease",
+      version: nextMod.prerelease?.version,
+      date: nextMod.prerelease?.date,
+      previousVersion: notifiedMod.prerelease?.version,
+      previousDate: notifiedMod.prerelease?.date,
+    });
+    if (prereleaseDiff) {
+      diff.push(prereleaseDiff);
     }
   }
 
   for (const diffItem of diff) {
-    const { nextMod } = diffItem;
+    const { diffType, nextMod, previousVersion, releaseType } = diffItem;
+    const nextVersion =
+      releaseType === "prerelease"
+        ? nextMod.prerelease?.version
+        : nextMod.version;
+    const subject =
+      releaseType === "prerelease"
+        ? `Prerelease of ${nextMod.name}`
+        : `Mod ${nextMod.name}`;
 
-    if (diffItem.diffType === "prerelease") {
-      console.log(
-        `Prerelease of ${nextMod.name} by ${nextMod.author} was updated from ${diffItem.previousPrereleaseVersion ?? "none"} to ${nextMod.prerelease?.version}`,
-      );
-    } else if (diffItem.previousVersion) {
-      console.log(
-        `Mod ${nextMod.name} by ${nextMod.author} was updated from ${diffItem.previousVersion} to ${nextMod.version}`,
-      );
-    } else {
+    if (diffType === "new") {
       console.log(`Mod ${nextMod.name} by ${nextMod.author} was added`);
+    } else {
+      console.log(
+        `${subject} by ${nextMod.author} was updated from ${previousVersion ?? "none"} to ${nextVersion}`,
+      );
     }
   }
 

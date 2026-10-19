@@ -3,7 +3,12 @@ import path from "node:path";
 import { setTimeout as sleep } from "node:timers/promises";
 
 import { DATABASE_FILE_NAME, THUMBNAIL_URL_BASE } from "../config.ts";
-import { getDiff, type DiffItem, type NotifiedMods } from "./get-diff.ts";
+import {
+  getDiff,
+  type DiffItem,
+  type DiffType,
+  type NotifiedMods,
+} from "./get-diff.ts";
 import {
   applyDiffToState,
   createNotificationState,
@@ -19,21 +24,29 @@ const MAX_DESCRIPTION_LENGTH = 4000;
 const TRUNCATED_DISCLAIMER =
   "**...**\n\n**Check the mod repo for the complete changelog.**";
 
+const NEW_CONFIG = {
+  color: 3066993,
+  imageKey: "image",
+} as const;
+
+const UPDATE_CONFIG = {
+  color: 15105570,
+  imageKey: "thumbnail",
+} as const;
+
+const PRERELEASE_CONFIG = {
+  color: 0,
+  imageKey: "thumbnail",
+} as const;
+
 const NOTIFICATION_CONFIG = {
-  new: {
-    color: 3066993,
-    imageKey: "image",
-    urlParams: "?linked-from-notification=true",
-  },
-  update: {
-    color: 15105570,
-    imageKey: "thumbnail",
-    urlParams: "",
+  release: {
+    new: NEW_CONFIG,
+    update: UPDATE_CONFIG,
   },
   prerelease: {
-    color: 0,
-    imageKey: "thumbnail",
-    urlParams: "?prerelease=true",
+    new: PRERELEASE_CONFIG,
+    update: PRERELEASE_CONFIG,
   },
 } as const;
 
@@ -85,13 +98,16 @@ export async function notifyMod(
     return;
   }
 
-  const diff: DiffItem[] = [
-    {
-      diffType: "release",
-      nextMod: mod,
-      previousVersion,
-    },
-  ];
+  const diff: DiffItem[] = previousVersion
+    ? [
+        {
+          diffType: "update",
+          releaseType: "release",
+          nextMod: mod,
+          previousVersion,
+        },
+      ]
+    : [{ diffType: "new", releaseType: "release", nextMod: mod }];
 
   await sendAndAdvanceState(notificationsFile, state, diff);
 }
@@ -134,20 +150,22 @@ async function sendDiffNotifications(diff: DiffItem[]) {
 
   console.log(`Sending notifications for ${diff.length} items...`);
 
+  const roleIdsByDiffType: Record<DiffType, string[]> = {
+    new: [updateRoleId, newModRoleId],
+    update: [updateRoleId],
+  };
+
   for (
     let index = 0;
     index < diff.length;
     index += MAX_EMBEDS_PER_MESSAGE
   ) {
     const chunk = diff.slice(index, index + MAX_EMBEDS_PER_MESSAGE);
-    const containsNewMod = chunk.some(
-      (diffItem) =>
-        diffItem.diffType === "release" && !diffItem.previousVersion,
-    );
-
-    const roleIds = containsNewMod
-      ? [updateRoleId, newModRoleId]
-      : [updateRoleId];
+    const roleIds = [
+      ...new Set(
+        chunk.flatMap((diffItem) => roleIdsByDiffType[diffItem.diffType]),
+      ),
+    ];
     const content = roleIds
       .filter(Boolean)
       .map((roleId) => `<@&${roleId}>`)
@@ -229,31 +247,38 @@ function getBackoffDelayMs(attempt: number) {
 }
 
 function getNotificationTitle(diffItem: DiffItem) {
-  const { nextMod } = diffItem;
+  const { diffType, nextMod, previousVersion, releaseType } = diffItem;
+  const nextVersion =
+    releaseType === "prerelease"
+      ? nextMod.prerelease?.version
+      : nextMod.version;
 
-  if (diffItem.diffType === "prerelease") {
-    return `Prerelease **${nextMod.prerelease?.version}**`;
+  switch (diffType) {
+    case "new":
+      return `New ${
+        nextMod.parent ? `addon for \`${nextMod.parent}\`` : "mod"
+      }`;
+    case "update":
+      return releaseType === "prerelease"
+        ? `Prerelease **${nextVersion}**`
+        : `Update ${previousVersion} → **${nextVersion}**`;
   }
-
-  if (!diffItem.previousVersion) {
-    return `New ${
-      nextMod.parent ? `addon for \`${nextMod.parent}\`` : "mod"
-    }`;
-  }
-
-  return `Update ${diffItem.previousVersion} → **${nextMod.version}**`;
 }
 
 function getNotificationDescription(diffItem: DiffItem) {
-  const { diffType, nextMod } = diffItem;
+  const { diffType, nextMod, releaseType } = diffItem;
 
   const description =
-    diffType === "prerelease"
+    releaseType === "prerelease"
       ? nextMod.latestPrereleaseDescription || nextMod.description
-      : diffItem.previousVersion
-        ? nextMod.latestReleaseDescription || nextMod.description
-        : nextMod.description;
+      : diffType === "new"
+        ? nextMod.description
+        : nextMod.latestReleaseDescription || nextMod.description;
 
+  return formatDescription(description, nextMod);
+}
+
+function formatDescription(description: string, nextMod: BaseMod) {
   return (
     truncateDescription(description) ||
     `Mod tagged as ${
@@ -293,13 +318,14 @@ function truncateDescription(description: string) {
 
 function getEmbed(diffItem: DiffItem) {
   const { nextMod } = diffItem;
-  const config = NOTIFICATION_CONFIG[getNotificationType(diffItem)];
-  const description = getNotificationDescription(diffItem);
+  const config = NOTIFICATION_CONFIG[diffItem.releaseType][diffItem.diffType];
+  const title = getNotificationTitle(diffItem);
+  const description = `${title}\n>>> ${getNotificationDescription(diffItem)}`;
 
   return {
     type: "rich",
     title: nextMod.name,
-    description: `${getNotificationTitle(diffItem)}\n>>> ${description}`,
+    description,
     fields: [
       {
         name: "\u200B",
@@ -310,7 +336,7 @@ function getEmbed(diffItem: DiffItem) {
       name: nextMod.authorDisplay ?? nextMod.author,
       icon_url: `https://github.com/${nextMod.author}.png`,
     },
-    url: `https://outerwildsmods.com/mods/${nextMod.slug}${config.urlParams}`,
+    url: `https://outerwildsmods.com/mods/${nextMod.slug}`,
     color: config.color,
     [config.imageKey]: {
       url: `${THUMBNAIL_URL_BASE}/${
@@ -318,14 +344,6 @@ function getEmbed(diffItem: DiffItem) {
       }`,
     },
   };
-}
-
-function getNotificationType(diffItem: DiffItem) {
-  if (diffItem.diffType === "prerelease") {
-    return "prerelease";
-  }
-
-  return diffItem.previousVersion ? "update" : "new";
 }
 
 async function readDatabaseMods(filePath: string): Promise<OutputMod[]> {

@@ -36,8 +36,14 @@ export async function readNotificationState(
 function getNotifiedMod(mod: BaseMod): NotifiedMod {
   return {
     version: mod.version,
+    latestReleaseDate: mod.latestReleaseDate,
     ...(mod.prerelease
-      ? { prereleaseVersion: mod.prerelease.version }
+      ? {
+          prerelease: {
+            version: mod.prerelease.version,
+            date: mod.prerelease.date,
+          },
+        }
       : {}),
   };
 }
@@ -61,12 +67,20 @@ export function applyDiffToState(
   for (const diffItem of diff) {
     const uniqueName = diffItem.nextMod.uniqueName;
 
-    if (diffItem.diffType === "release") {
+    if (diffItem.releaseType === "release") {
       nextMods[uniqueName] = getNotifiedMod(diffItem.nextMod);
-    } else {
+      continue;
+    }
+
+    const prerelease = diffItem.nextMod.prerelease;
+
+    if (prerelease) {
       nextMods[uniqueName] = {
         ...nextMods[uniqueName],
-        prereleaseVersion: diffItem.nextMod.prerelease?.version,
+        prerelease: {
+          version: prerelease.version,
+          date: prerelease.date,
+        },
       };
     }
   }
