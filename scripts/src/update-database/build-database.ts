@@ -2,6 +2,7 @@ import { promises as fsp } from "fs";
 import path from "path";
 
 import { fetchMods } from "./fetch-mods.ts";
+import { updateDownloadHistory } from "./download-history.ts";
 import { fetchModManager } from "./fetch-mod-manager.ts";
 import { getInstallCounts } from "./get-install-counts.ts";
 import { rateLimitReached } from "../helpers/octokit.ts";
@@ -84,4 +85,14 @@ export async function buildDatabase(
   console.log(
     `Database built at ${path.join(outputDirectory, DATABASE_FILE_NAME)}`,
   );
+
+  try {
+    await updateDownloadHistory(
+      outputDirectory,
+      modListWithAnalytics,
+      modManager,
+    );
+  } catch (error) {
+    console.error(`Failed to update download history: ${error}`);
+  }
 }
