@@ -20,7 +20,9 @@ To change the information that you submitted to the mod database, such as the mo
 
 GitHub Actions are used to periodically update the database. Check the [Update Releases workflow](https://github.com/ow-mods/ow-mod-db/blob/source/.github/workflows/update-releases.yml) and the [TypeScript code](https://github.com/ow-mods/ow-mod-db/tree/source/scripts) that fetches the data about each mod and generates the database.
 
-## Repository secrets
+## Secrets
+
+Edit them in the [repository settings](https://github.com/ow-mods/ow-mod-db/settings/secrets/actions).
 
 If you fork this repository, you'll need to add a few secrets for everything to work.
 
@@ -40,6 +42,14 @@ Discord web hook URL where all the notifications are sent. Format:
 https://discord.com/api/webhooks/XXX/YYY
 ```
 
+### CLOUDFLARE_API_TOKEN
+
+Cloudflare API token from [here](https://dash.cloudflare.com/profile/api-tokens), with Analytics read permissions.
+
+## Variables
+
+Edit them in the [repository settings](https://github.com/ow-mods/ow-mod-db/settings/variables/actions).
+
 ### DISCORD_MOD_UPDATE_ROLE_ID
 
 ID for the Discord role to ping when there's a mod update.
@@ -48,6 +58,3 @@ ID for the Discord role to ping when there's a mod update.
 
 ID for the Discord role to ping when there's a new mod added to the database.
 
-### CLOUDFLARE_API_TOKEN
-
-Cloudflare API token from [here](https://dash.cloudflare.com/profile/api-tokens), with Analytics read permissions.
