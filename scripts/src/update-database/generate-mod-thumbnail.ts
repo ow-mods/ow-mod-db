@@ -45,7 +45,11 @@ export async function generateModThumbnail(
   const metadata = await sharpImage.metadata();
 
   const mainImageName = `${slug}.webp`;
-  writeImageFile(sharpImage, metadata, path.join(fileOutputDir, mainImageName));
+  await writeImageFile(
+    sharpImage,
+    metadata,
+    path.join(fileOutputDir, mainImageName)
+  );
 
   let openGraphImageName;
 
@@ -96,7 +100,7 @@ const writeImageFile = (
 };
 
 function getPath(relativePath: string) {
-  return path.join(process.cwd(), relativePath);
+  return path.resolve(relativePath);
 }
 
 export function getRawContentUrl(readmeUrl: string) {
