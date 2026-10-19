@@ -47,7 +47,8 @@ jobs:
           MOD_UNIQUE_NAME: ${{ github.event.inputs.modUniqueName }}
           PREVIOUS_MOD_VERSION: ${{ github.event.inputs.previousModVersion }}
           DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
-          DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
+          DISCORD_MOD_UPDATE_ROLE_ID: ${{ vars.DISCORD_MOD_UPDATE_ROLE_ID }}
+          DISCORD_NEW_MOD_ROLE_ID: ${{ vars.DISCORD_NEW_MOD_ROLE_ID }}
 
       - name: Commit Notification State
         working-directory: database

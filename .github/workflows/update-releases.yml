@@ -92,8 +92,8 @@ jobs:
         working-directory: scripts
         env:
           DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
-          DISCORD_MOD_UPDATE_ROLE_ID: ${{ secrets.DISCORD_MOD_UPDATE_ROLE_ID }}
-          DISCORD_NEW_MOD_ROLE_ID: ${{ secrets.DISCORD_NEW_MOD_ROLE_ID }}
+          DISCORD_MOD_UPDATE_ROLE_ID: ${{ vars.DISCORD_MOD_UPDATE_ROLE_ID }}
+          DISCORD_NEW_MOD_ROLE_ID: ${{ vars.DISCORD_NEW_MOD_ROLE_ID }}
 
       - name: Commit Notification State
         if: ${{ github.event_name != 'pull_request' }}
