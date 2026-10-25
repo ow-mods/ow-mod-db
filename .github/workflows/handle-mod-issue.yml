@@ -42,14 +42,22 @@ jobs:
       - run: npm ci
         working-directory: scripts
 
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2.2.2
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
       - name: Handle Mod Issue
         run: >-
           npm run handle-mod-issue --
           --modsDirectory ../mods
           --issueTemplateFile ../.github/ISSUE_TEMPLATE/add-mod.yml
           --issueNumber "${{ github.event.inputs.issue-number || github.event.issue.number }}"
-          --commentAuthor "github-actions[bot]"
+          --commentAuthor "outer-wilds-mods[bot]"
           ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
         working-directory: scripts
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
