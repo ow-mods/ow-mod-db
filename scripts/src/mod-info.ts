@@ -1,3 +1,5 @@
+// Should match mods/mod.schema.json
+
 export type ModInfo = {
   $schema?: string;
   name: string;
@@ -8,6 +10,7 @@ export type ModInfo = {
   required?: boolean;
   utility?: boolean;
   parent?: string;
+  recommendedMods?: string[];
   authorDisplay?: string;
   tags: string[];
   downloadCountOffset?: number;

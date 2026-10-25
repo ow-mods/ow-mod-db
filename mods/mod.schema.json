@@ -4,11 +4,7 @@
   "description": "A single mod entry. The file must be named <uniqueName>.json and live in the mods folder.",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "name",
-    "uniqueName",
-    "repo"
-  ],
+  "required": ["name", "uniqueName", "repo"],
   "properties": {
     "$schema": {
       "type": "string"
@@ -76,6 +72,13 @@
     "firstReleaseDateOverride": {
       "type": "string",
       "description": "A date that will override the current first release date. Format: YYYY-MM-DDThh:mm:ssZ"
+    },
+    "recommendedMods": {
+      "type": "array",
+      "description": "uniqueName list of mods that pair nicely with this one.",
+      "items": {
+        "type": "string"
+      }
     },
     "repoVariations": {
       "type": "array",

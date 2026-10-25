@@ -31,6 +31,7 @@ export interface BaseMod {
   required?: boolean;
   utility?: boolean;
   parent?: string;
+  recommendedMods?: string[];
   authorDisplay?: string;
   readme?: {
     downloadUrl?: string;

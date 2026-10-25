@@ -123,6 +123,16 @@ export async function readModFiles(directory: string): Promise<ModFile[]> {
     modsByUniqueName.set(mod.uniqueName, fileName);
   }
 
+  for (const { fileName, mod } of modFiles) {
+    for (const recommendedMod of mod.recommendedMods ?? []) {
+      if (!modsByUniqueName.has(recommendedMod)) {
+        throw new Error(
+          `${fileName} recommends a mod that doesn't exist in the database: "${recommendedMod}".`,
+        );
+      }
+    }
+  }
+
   return modFiles;
 }
 
