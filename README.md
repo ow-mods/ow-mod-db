@@ -10,6 +10,8 @@ The database is deployed to GitHub Pages, since GitHub aggressively caches direc
 
 The issue form is the only supported way to add a new mod to the database.
 
+If your mod submission got rejected, read [what to do in case of rejection](./REJECTED.md).
+
 ## Updating a mod
 
 The database automatically detects updates to your mod after you push them to your repository, including changes to your readme and mod releases.
@@ -57,4 +59,3 @@ ID for the Discord role to ping when there's a mod update.
 ### `DISCORD_NEW_MOD_ROLE_ID`
 
 ID for the Discord role to ping when there's a new mod added to the database.
-
