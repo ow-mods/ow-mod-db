@@ -1,6 +1,9 @@
 {
   "$schema": "./mod.schema.json",
   "name": "Daydream",
+  "recommendedMods": [
+    "xen.ThirdPersonCamera"
+  ],
   "repo": "xen-42/outer-wilds-day-dream",
   "tags": [
     "tool",
