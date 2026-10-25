@@ -33,6 +33,14 @@ jobs:
       - run: npm ci
         working-directory: scripts
 
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2.2.2
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
       - name: Checkout database repo
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
@@ -51,7 +59,7 @@ jobs:
         working-directory: scripts
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
       - name: Commit Database
         if: ${{ github.event_name != 'pull_request' }}
@@ -75,14 +83,12 @@ jobs:
       - name: Deploy to GitHub Pages
         if: ${{ github.event_name != 'pull_request' }}
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
-        with:
-          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Dispatch Website Build
         if: ${{ github.event_name != 'pull_request' }}
         run: gh api -X POST repos/ow-mods/outerwildsmods.com/dispatches -f event_type=build
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
       - name: Notify
         if: ${{ github.event_name != 'pull_request' }}

@@ -22,19 +22,33 @@ To change the information that you submitted to the mod database, such as the mo
 
 GitHub Actions are used to periodically update the database. Check the [Update Releases workflow](https://github.com/ow-mods/ow-mod-db/blob/source/.github/workflows/update-releases.yml) and the [TypeScript code](https://github.com/ow-mods/ow-mod-db/tree/source/scripts) that fetches the data about each mod and generates the database.
 
+## Variables
+
+Edit them in the [repository settings](https://github.com/ow-mods/ow-mod-db/settings/variables/actions).
+
+### `GH_APP_ID`
+
+ID of the GitHub App that handles all the automations. For this org, apps can be managed [here](https://github.com/organizations/ow-mods/settings/apps). This is the numeric ID you can see under "App ID" on the app's "General" settings page.
+
+The app needs **read and write** repository permissions to `Contents`, `Issues` and `Pull Requests`.
+
+It must be installed on both `ow-mods/ow-mod-db` and `ow-mods/outerwildsmods.com`.
+
+### `DISCORD_MOD_UPDATE_ROLE_ID`
+
+ID for the Discord role to ping when there's a mod update.
+
+### `DISCORD_NEW_MOD_ROLE_ID`
+
+ID for the Discord role to ping when there's a new mod added to the database.
+
 ## Secrets
 
 Edit them in the [repository settings](https://github.com/ow-mods/ow-mod-db/settings/secrets/actions).
 
-If you fork this repository, you'll need to add a few secrets for everything to work.
+### `GH_APP_PRIVATE_KEY`
 
-### `GH_TOKEN`
-
-GitHub token with repo permissions. Format:
-
-```
-ghp_XXX
-```
+Private key of the same GitHub app from mentioned in [`GH_APP_ID`](#GH_APP_ID). You can create a key in the "Cretendials" page of the app settings, under the "Key pairs" tab. It will download a `.pem` file once you generate it, so you should just use the contents of that file as the value for this secret, and delete the file.
 
 ### `DISCORD_HOOK_URL`
 
@@ -47,15 +61,3 @@ https://discord.com/api/webhooks/XXX/YYY
 ### `CLOUDFLARE_API_TOKEN`
 
 Cloudflare API token from [here](https://dash.cloudflare.com/profile/api-tokens), with Analytics read permissions.
-
-## Variables
-
-Edit them in the [repository settings](https://github.com/ow-mods/ow-mod-db/settings/variables/actions).
-
-### `DISCORD_MOD_UPDATE_ROLE_ID`
-
-ID for the Discord role to ping when there's a mod update.
-
-### `DISCORD_NEW_MOD_ROLE_ID`
-
-ID for the Discord role to ping when there's a new mod added to the database.
