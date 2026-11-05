@@ -316,7 +316,7 @@ function getDeletedEmbed({ uniqueName }: DeletedDiffItem) {
   return {
     type: "rich",
     title: "Mod removed",
-    description: `>>> Mod \`${uniqueName}\` was removed from the database <:HearthianCry:930925503295144027>`,
+    description: `Mod \`${uniqueName}\` was removed from the database <:HearthianCry:930925503295144027>`,
     color: DELETED_COLOR,
   };
 }
