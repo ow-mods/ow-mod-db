@@ -11,15 +11,22 @@ export type NotifiedMod = {
 
 export type NotifiedMods = Record<string, NotifiedMod>;
 
-export type DiffType = "new" | "update";
-export type ReleaseType = "release" | "prerelease";
+export type DiffType = "new" | "update" | "deleted";
+type ChangeType = "release" | "prerelease";
 
-export type DiffItem = {
-  diffType: DiffType;
-  releaseType: ReleaseType;
+export type ChangedDiffItem = {
+  diffType: "new" | "update";
+  releaseType: ChangeType;
   nextMod: BaseMod;
   previousVersion?: string;
 };
+
+export type DeletedDiffItem = {
+  diffType: "deleted";
+  uniqueName: string;
+};
+
+export type DiffItem = ChangedDiffItem | DeletedDiffItem;
 
 function isOlderDate(nextDate: string, previousDate: string) {
   const nextTime = Date.parse(nextDate);
@@ -33,7 +40,7 @@ function isOlderDate(nextDate: string, previousDate: string) {
 }
 
 type UpdateTrack = {
-  releaseType: ReleaseType;
+  releaseType: ChangeType;
   version: string | undefined;
   date: string | undefined;
   previousVersion: string | undefined;
@@ -42,13 +49,7 @@ type UpdateTrack = {
 
 function getUpdateDiff(
   nextMod: BaseMod,
-  {
-    releaseType,
-    version,
-    date,
-    previousVersion,
-    previousDate,
-  }: UpdateTrack,
+  { releaseType, version, date, previousVersion, previousDate }: UpdateTrack,
 ): DiffItem | undefined {
   if (!version || version === previousVersion) {
     return undefined;
@@ -110,7 +111,25 @@ export function getDiff(
     }
   }
 
+  const nextUniqueNames = new Set(nextDatabase.map((mod) => mod.uniqueName));
+
+  for (const uniqueName of Object.keys(notifiedMods)) {
+    if (nextUniqueNames.has(uniqueName)) {
+      continue;
+    }
+
+    diff.push({
+      diffType: "deleted",
+      uniqueName,
+    });
+  }
+
   for (const diffItem of diff) {
+    if (diffItem.diffType === "deleted") {
+      console.log(`Mod ${diffItem.uniqueName} was removed from the database`);
+      continue;
+    }
+
     const { diffType, nextMod, previousVersion, releaseType } = diffItem;
     const nextVersion =
       releaseType === "prerelease"

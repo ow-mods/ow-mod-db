@@ -65,14 +65,20 @@ export function applyDiffToState(
   const nextMods: NotifiedMods = { ...mods };
 
   for (const diffItem of diff) {
-    const uniqueName = diffItem.nextMod.uniqueName;
-
-    if (diffItem.releaseType === "release") {
-      nextMods[uniqueName] = getNotifiedMod(diffItem.nextMod);
+    if (diffItem.diffType === "deleted") {
+      delete nextMods[diffItem.uniqueName];
       continue;
     }
 
-    const prerelease = diffItem.nextMod.prerelease;
+    const { nextMod } = diffItem;
+    const uniqueName = nextMod.uniqueName;
+
+    if (diffItem.releaseType === "release") {
+      nextMods[uniqueName] = getNotifiedMod(nextMod);
+      continue;
+    }
+
+    const prerelease = nextMod.prerelease;
 
     if (prerelease) {
       nextMods[uniqueName] = {

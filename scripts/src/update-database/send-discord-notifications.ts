@@ -5,8 +5,10 @@ import { setTimeout as sleep } from "node:timers/promises";
 import { DATABASE_FILE_NAME, THUMBNAIL_URL_BASE } from "../config.ts";
 import {
   getDiff,
+  type DeletedDiffItem,
   type DiffItem,
   type DiffType,
+  type ChangedDiffItem,
   type NotifiedMods,
 } from "./get-diff.ts";
 import {
@@ -38,6 +40,8 @@ const PRERELEASE_CONFIG = {
   color: 0,
   imageKey: "thumbnail",
 } as const;
+
+const DELETED_COLOR = 15158332;
 
 const NOTIFICATION_CONFIG = {
   release: {
@@ -80,9 +84,7 @@ export async function notifyMod(
   previousVersion?: string,
 ) {
   const mods = await readDatabaseMods(databaseFile);
-  const mod = mods.find(
-    (candidate) => candidate.uniqueName === modUniqueName,
-  );
+  const mod = mods.find((candidate) => candidate.uniqueName === modUniqueName);
 
   if (!mod) {
     throw new Error(`Mod "${modUniqueName}" was not found in ${databaseFile}`);
@@ -153,13 +155,10 @@ async function sendDiffNotifications(diff: DiffItem[]) {
   const roleIdsByDiffType: Record<DiffType, string[]> = {
     new: [updateRoleId, newModRoleId],
     update: [updateRoleId],
+    deleted: [],
   };
 
-  for (
-    let index = 0;
-    index < diff.length;
-    index += MAX_EMBEDS_PER_MESSAGE
-  ) {
+  for (let index = 0; index < diff.length; index += MAX_EMBEDS_PER_MESSAGE) {
     const chunk = diff.slice(index, index + MAX_EMBEDS_PER_MESSAGE);
     const roleIds = [
       ...new Set(
@@ -246,7 +245,7 @@ function getBackoffDelayMs(attempt: number) {
   return 1000 * 2 ** (attempt - 1);
 }
 
-function getNotificationTitle(diffItem: DiffItem) {
+function getNotificationTitle(diffItem: ChangedDiffItem) {
   const { diffType, nextMod, previousVersion, releaseType } = diffItem;
   const nextVersion =
     releaseType === "prerelease"
@@ -265,7 +264,7 @@ function getNotificationTitle(diffItem: DiffItem) {
   }
 }
 
-function getNotificationDescription(diffItem: DiffItem) {
+function getNotificationDescription(diffItem: ChangedDiffItem) {
   const { diffType, nextMod, releaseType } = diffItem;
 
   const description =
@@ -306,17 +305,27 @@ function truncateDescription(description: string) {
   // Don't leave an unclosed markdown link.
   const openBracketIndex = truncated.lastIndexOf("[");
   const closeBracketIndex = truncated.lastIndexOf("]");
-  if (
-    openBracketIndex !== -1 &&
-    closeBracketIndex < openBracketIndex
-  ) {
+  if (openBracketIndex !== -1 && closeBracketIndex < openBracketIndex) {
     truncated = truncated.slice(0, openBracketIndex);
   }
 
   return `${truncated}${TRUNCATED_DISCLAIMER}`;
 }
 
+function getDeletedEmbed({ uniqueName }: DeletedDiffItem) {
+  return {
+    type: "rich",
+    title: "Mod removed",
+    description: `>>> Mod \`${uniqueName}\` was removed from the database <:HearthianCry:930925503295144027>`,
+    color: DELETED_COLOR,
+  };
+}
+
 function getEmbed(diffItem: DiffItem) {
+  if (diffItem.diffType === "deleted") {
+    return getDeletedEmbed(diffItem);
+  }
+
   const { nextMod } = diffItem;
   const config = NOTIFICATION_CONFIG[diffItem.releaseType][diffItem.diffType];
   const title = getNotificationTitle(diffItem);
