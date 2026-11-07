@@ -221,11 +221,14 @@ async function run() {
   const { fileName, content } = createModFile(form, modRepo);
   const title = `Add mod: ${form.uniqueName}`;
 
+  const issueAuthor = issue.user?.login;
+  const authorMention = issueAuthor ? `\n\n/cc @${issueAuthor}` : "";
+
   const pr = await octokit.createPullRequest({
     owner: DATABASE_REPOSITORY.owner,
     repo: DATABASE_REPOSITORY.repo,
     title,
-    body: `Created from #${issueNumberValue}\n${form.repoUrl}`,
+    body: `Created from #${issueNumberValue}\n${form.repoUrl}${authorMention}`,
     head: `add-mod-issue-${issueNumberValue}`,
     update: true,
     createWhenEmpty: false,
