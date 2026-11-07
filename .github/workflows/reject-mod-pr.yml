@@ -1,0 +1,49 @@
+name: Reject Mod PR
+
+on:
+  pull_request_target:
+    types: [labeled]
+
+permissions:
+  contents: read
+
+jobs:
+  reject:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event.label.name == 'mod-rejected' ||
+      github.event.label.name == 'mod-rejected-ai'
+
+    steps:
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2.2.2
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - name: Comment and close pull request
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          LABEL: ${{ github.event.label.name }}
+        run: |
+          if [ "$LABEL" = "mod-rejected-ai" ]; then
+            FIRST_LINE="Mod submission rejected due to AI usage."
+          else
+            FIRST_LINE="Mod submission rejected."
+          fi
+
+          {
+            echo "$FIRST_LINE"
+            echo
+            echo "To learn more and to find alternative ways to distribute your mod, check here: https://github.com/ow-mods/ow-mod-db/blob/source/REJECTED.md"
+          } > comment.md
+
+          gh pr comment "$PR_NUMBER" --body-file comment.md
+
+          if [ "$(gh pr view "$PR_NUMBER" --json state --jq .state)" = "OPEN" ]; then
+            gh pr close "$PR_NUMBER"
+          fi
