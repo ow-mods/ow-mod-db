@@ -19,6 +19,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
 
 jobs:
   update-releases:
@@ -80,9 +81,28 @@ jobs:
         with:
           path: database
 
-      - name: Deploy to GitHub Pages
+      - name: Wait until stupid pages artifact ready
         if: ${{ github.event_name != 'pull_request' }}
-        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          for attempt in $(seq 1 20); do
+            count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$RUN_ID/artifacts" \
+              --jq '[.artifacts[] | select(.name == "github-pages")] | length' 2>/dev/null || echo 0)
+            if [ "$count" -gt 0 ]; then
+              echo "Pages artifact listed after $attempt attempt(s)"
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "::error::github-pages artifact was never listed for run $RUN_ID"
+          exit 1
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
 
       - name: Dispatch Website Build
         if: ${{ github.event_name != 'pull_request' }}
